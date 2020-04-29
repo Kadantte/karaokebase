@@ -214,6 +214,7 @@ foreach ($second_pass as $serie_singer => $kara_serie_singer) {
 $out=var_export($last_pass,true);
 // Replacing spaces by tabs
 $out=str_replace('  ','	',$out);
+$out='<'.'?php $names = '.$out.' ?'.'>';
 
 $names_file = fopen('names.php', 'w');
 fwrite($names_file, $out);
@@ -235,6 +236,7 @@ foreach ($search_pass as $serie => $karas) {
 $out=var_export($search_pass,true);
 // Replacing spaces by tabs
 $out=str_replace('  ','	',$out);
+$out='<'.'?php $searchbase = '.$out.' ?'.'>';
 
 $searchbase_file = fopen('searchbase.php', 'w');
 fwrite($searchbase_file, $out);
