@@ -23,7 +23,7 @@ La base de données est un jeu de fichiers JSON contenant toutes les données à
 
 ## Médias
 
-Les vidéos et les musiques stockées sur Shleter sont la propriété de leurs ayants-droits respectifs (qui peuvent être trouvés dans la section `creators` de chaque karaoké).
+Les vidéos et les musiques stockées sur Shelter sont la propriété de leurs ayants-droits respectifs (qui peuvent être trouvés dans la section `creators` de chaque karaoké).
 
 Dans chaque fichier `kara.json` (dans le dossier `karaokes`), nous faisons au mieux pour créditer les créateurs (studios, éditeurs), les paroliers, les chanteurs ainsi que le nom de l'oeuvre d'où est tirée le média (série ou artiste).
 
