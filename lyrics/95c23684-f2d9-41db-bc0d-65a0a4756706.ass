@@ -1,0 +1,108 @@
+﻿[Script Info]
+Title: Fabulous
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 800 and -$start or -800,200)!{!$start < 800 and "\\k" .. ($start/10) or "\\k80"!\fad(!$start < 800 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:07.00,Sample KM [Down],,0,0,0,legend,{\c&H008AFF&}Phineas et al. {\c&HFFFFFF&}| {\c&HFFB858&}Bobbi
+Comment: 0,0:00:06.85,0:00:08.72,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k26}I'm {\k24}fa{\k13}bu{\k108}lous
+Comment: 0,0:00:39.74,0:00:41.51,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}I {\k22}don't {\k12}need {\k12}to {\k19}tell {\k6}ya {\k14}what {\k15}you {\k9}al{\k11}rea{\k11}dy {\k25}know
+Comment: 0,0:00:41.63,0:00:42.58,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k11}You're {\k15}the {\k15}one {\k19}with {\k35}style
+Comment: 0,0:00:42.58,0:00:43.69,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}You're {\k15}the {\k22}whole {\k28}darn {\k32}show
+Comment: 0,0:00:43.71,0:00:45.67,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}The {\k15}o{\k18}ther {\k26}guys {\k14}play {\k14}their {\k21}ins{\k15}tru{\k22}ments {\k28}fine
+Comment: 0,0:00:45.67,0:00:47.71,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}But {\k26}next {\k12}to {\k26}you, {\k26}their {\k24}looks {\k11}are {\k13}a {\k49}crime
+Comment: 0,0:00:49.06,0:00:50.45,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k39}Well, {\k24}they {\k22}say {\k24}true {\k20}beau{\k10}ty
+Comment: 0,0:00:50.45,0:00:51.37,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k17}It {\k27}comes {\k12}from {\k11}with{\k25}in
+Comment: 0,0:00:51.37,0:00:53.22,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k13}But {\k13}you {\k16}have {\k8}to {\k16}be {\k23}comfor{\k8}ta{\k15}ble {\k12}in {\k22}your {\k19}own {\k20}skin
+Comment: 0,0:00:53.23,0:00:55.31,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k13}So {\k20}I {\k21}ex{\k17}fo{\k11}li{\k21}ate {\k8}with {\k14}this {\k15}e{\k16}xo{\k23}tic {\k29}cream
+Comment: 0,0:00:55.31,0:00:57.84,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k34}Just {\k13}look {\k14}at {\k24}me, {\k34}I {\k18}look {\k12}like {\k17}a {\k87}dream
+Comment: 0,0:01:05.27,0:01:07.00,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}You're {\k23}the {\k24}one, {\k24}yes, {\k27}you're {\k14}the {\k39}star
+Comment: 0,0:01:07.00,0:01:08.91,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}We {\k27}need {\k23}you {\k25}back {\k24}on {\k24}bass {\k13}gui{\k37}tar
+Comment: 0,0:01:08.89,0:01:10.52,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}You're {\k24}fa{\k13}bu{\kf103}lous
+Comment: 0,0:01:09.86,0:01:10.83,Sample KM Duo [Voice 2],,0,0,80,karaoke,{\k32}I'm {\k23}fa{\k16}bu{\k26}lous
+Comment: 0,0:01:10.83,0:01:12.51,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}You're {\k23}fa{\k13}bu{\kf107}lous
+Comment: 0,0:01:11.81,0:01:12.88,Sample KM Duo [Voice 2],,0,0,80,karaoke,{\k33}I'm {\k16}fa{\k20}bu{\k38}lous
+Comment: 0,0:01:13.00,0:01:15.75,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}You're {\k13}the {\k36}one {\k21}we {\k27}all {\k23}can {\k28}see, {\k21}it's {\k16}all {\k11}a{\k23}bout {\k29}you
+Comment: 0,0:01:15.65,0:01:16.94,Sample KM Duo [Voice 2],,0,0,80,karaoke,{\k29}It's {\k13}all {\k11}a{\k27}bout {\k49}me
+Comment: 0,0:01:16.65,0:01:18.43,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k28}You're {\k24}fa{\k14}bu{\kf112}lous
+Comment: 0,0:01:17.66,0:01:18.64,Sample KM Duo [Voice 2],,0,0,80,karaoke,{\k31}I'm {\k18}fa{\k16}bu{\k33}lous
+Comment: 0,0:01:18.64,0:01:20.34,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k24}You're {\k23}fa{\k15}bu{\kf108}lous
+Comment: 0,0:01:19.49,0:01:20.48,Sample KM Duo [Voice 2],,0,0,80,karaoke,{\k33}I'm {\k19}fa{\k17}bu{\k30}lous
+Comment: 0,0:01:20.48,0:01:22.59,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k9}You {\k28}know, {\k22}no {\k25}two {\k15}peo{\k10}ple {\k24}are {\k24}like {\k20}each {\k14}o{\k20}ther
+Comment: 0,0:01:22.59,0:01:24.49,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k18}So {\k24}don't {\k7}be {\k17}a {\k12}look-{\k14}a-{\k25}like {\k21}co{\k6}py{\k7}ing {\k12}a{\k13}no{\k14}ther
+Comment: 0,0:01:24.49,0:01:26.43,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k11}Un{\k25}less {\k22}of {\k24}course {\k23}you're {\k27}co{\k14}py{\k18}ing {\k30}me
+Comment: 0,0:01:26.43,0:01:28.40,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22}'Cause {\k23}that {\k17}gives {\k11}you {\k13}in{\k11}di{\k11}vi{\k14}du{\k25}a{\k14}li{\k36}ty
+Comment: 0,0:01:28.40,0:01:30.35,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k29}Nice {\k40}'do, {\k15}but {\k22}back {\k8}to {\k14}the {\k17}mat{\k7}ter {\k18}at {\k25}hand
+Comment: 0,0:01:30.50,0:01:31.33,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}So {\k11}what {\k9}do {\k21}you {\k26}say?
+Comment: 0,0:01:31.33,0:01:32.55,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k12}Are {\k14}you {\k21}back {\k12}in {\k13}the {\k50}band?
+Comment: 0,0:01:32.29,0:01:34.38,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k33}Well, {\k17}may{\k11}be {\k12}if {\k16}I {\k19}can {\k26}find {\k23}my {\k23}old {\k14}lea{\k15}ther
+Comment: 0,0:01:34.51,0:01:36.56,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k34}Dude, {\k18}we're {\k10}get{\k18}tin' {\k16}the {\k32}band {\k19}back {\k15}to{\k18}ge{\k25}ther
+Comment: 0,0:01:40.33,0:01:42.06,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}You're {\k25}the {\k24}one {\k22}who {\k25}sets {\k15}the {\k37}bar
+Comment: 0,0:01:42.06,0:01:44.01,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k24}The {\k23}hair{\k23}do {\k27}king, {\k24}the {\k21}fa{\k15}shion {\k38}Tsar
+Comment: 0,0:01:44.01,0:01:45.70,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}You're {\k24}fa{\k14}bu{\kf108}lous
+Comment: 0,0:01:44.86,0:01:45.96,Sample KM Duo [Voice 2],,0,0,80,karaoke,{\k42}I'm {\k18}fa{\k21}bu{\k29}lous
+Comment: 0,0:01:45.96,0:01:47.99,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}You're {\k27}fa{\k12}bu{\kf141}lous
+Comment: 0,0:01:46.92,0:01:47.98,Sample KM Duo [Voice 2],,0,0,80,karaoke,{\k14}Ooh, {\k23}I'm {\k20}fa{\k16}bu{\k33}lous
+Comment: 0,0:01:48.13,0:01:50.83,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}You're {\k12}the {\k37}one {\k24}we {\k22}all {\k26}can {\k25}see, {\k25}it's {\k16}all {\k10}a{\k23}bout {\k24}you
+Comment: 0,0:01:50.90,0:01:52.29,Sample KM Duo [Voice 2],,0,0,80,karaoke,{\k23}It's {\k20}all {\k8}a{\k26}bout {\k62}me
+Comment: 0,0:01:51.80,0:01:53.51,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}You're {\k23}fa{\k15}bu{\kf107}lous
+Comment: 0,0:01:52.92,0:01:54.05,Sample KM Duo [Voice 2],,0,0,80,karaoke,{\k36}I'm {\k21}fa{\k19}bu{\k37}lous
+Comment: 0,0:01:53.76,0:01:55.48,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k24}You're {\k24}fa{\k13}bu{\kf111}lous
+Comment: 0,0:01:54.67,0:01:56.07,Sample KM Duo [Voice 2],,0,0,80,karaoke,{\k38}I'm {\k23}fa{\k18}bu{\k61}lous
+Dialogue: 0,0:00:06.05,0:00:08.92,Sample KM Duo [Voice 2],,0,0,0,fx,{\k80\fad(300,200)}{\k26}I'm {\k24}fa{\k13}bu{\k108}lous
+Dialogue: 0,0:00:38.94,0:00:41.71,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k21}I {\k22}don't {\k12}need {\k12}to {\k19}tell {\k6}ya {\k14}what {\k15}you {\k9}al{\k11}rea{\k11}dy {\k25}know
+Dialogue: 0,0:00:40.83,0:00:42.78,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k11}You're {\k15}the {\k15}one {\k19}with {\k35}style
+Dialogue: 0,0:00:41.78,0:00:43.89,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k14}You're {\k15}the {\k22}whole {\k28}darn {\k32}show
+Dialogue: 0,0:00:42.91,0:00:45.87,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k23}The {\k15}o{\k18}ther {\k26}guys {\k14}play {\k14}their {\k21}ins{\k15}tru{\k22}ments {\k28}fine
+Dialogue: 0,0:00:44.87,0:00:47.91,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k17}But {\k26}next {\k12}to {\k26}you, {\k26}their {\k24}looks {\k11}are {\k13}a {\k49}crime
+Dialogue: 0,0:00:48.26,0:00:50.65,Sample KM Duo [Voice 2],,0,0,0,fx,{\k80\fad(300,200)}{\k39}Well, {\k24}they {\k22}say {\k24}true {\k20}beau{\k10}ty
+Dialogue: 0,0:00:49.65,0:00:51.57,Sample KM Duo [Voice 2],,0,0,0,fx,{\k80\fad(300,200)}{\k17}It {\k27}comes {\k12}from {\k11}with{\k25}in
+Dialogue: 0,0:00:50.57,0:00:53.42,Sample KM Duo [Voice 2],,0,0,0,fx,{\k80\fad(300,200)}{\k13}But {\k13}you {\k16}have {\k8}to {\k16}be {\k23}comfor{\k8}ta{\k15}ble {\k12}in {\k22}your {\k19}own {\k20}skin
+Dialogue: 0,0:00:52.43,0:00:55.51,Sample KM Duo [Voice 2],,0,0,0,fx,{\k80\fad(300,200)}{\k13}So {\k20}I {\k21}ex{\k17}fo{\k11}li{\k21}ate {\k8}with {\k14}this {\k15}e{\k16}xo{\k23}tic {\k29}cream
+Dialogue: 0,0:00:54.51,0:00:58.04,Sample KM Duo [Voice 2],,0,0,0,fx,{\k80\fad(300,200)}{\k34}Just {\k13}look {\k14}at {\k24}me, {\k34}I {\k18}look {\k12}like {\k17}a {\k87}dream
+Dialogue: 0,0:01:04.47,0:01:07.20,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k22}You're {\k23}the {\k24}one, {\k24}yes, {\k27}you're {\k14}the {\k39}star
+Dialogue: 0,0:01:06.20,0:01:09.11,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k18}We {\k27}need {\k23}you {\k25}back {\k24}on {\k24}bass {\k13}gui{\k37}tar
+Dialogue: 0,0:01:08.09,0:01:10.72,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k23}You're {\k24}fa{\k13}bu{\kf103}lous
+Dialogue: 0,0:01:09.06,0:01:11.03,Sample KM Duo [Voice 2],,0,0,80,fx,{\k80\fad(300,200)}{\k32}I'm {\k23}fa{\k16}bu{\k26}lous
+Dialogue: 0,0:01:10.03,0:01:12.71,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k25}You're {\k23}fa{\k13}bu{\kf107}lous
+Dialogue: 0,0:01:11.01,0:01:13.08,Sample KM Duo [Voice 2],,0,0,80,fx,{\k80\fad(300,200)}{\k33}I'm {\k16}fa{\k20}bu{\k38}lous
+Dialogue: 0,0:01:12.20,0:01:15.95,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k27}You're {\k13}the {\k36}one {\k21}we {\k27}all {\k23}can {\k28}see, {\k21}it's {\k16}all {\k11}a{\k23}bout {\k29}you
+Dialogue: 0,0:01:14.85,0:01:17.14,Sample KM Duo [Voice 2],,0,0,80,fx,{\k80\fad(300,200)}{\k29}It's {\k13}all {\k11}a{\k27}bout {\k49}me
+Dialogue: 0,0:01:15.85,0:01:18.63,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k28}You're {\k24}fa{\k14}bu{\kf112}lous
+Dialogue: 0,0:01:16.86,0:01:18.84,Sample KM Duo [Voice 2],,0,0,80,fx,{\k80\fad(300,200)}{\k31}I'm {\k18}fa{\k16}bu{\k33}lous
+Dialogue: 0,0:01:17.84,0:01:20.54,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k24}You're {\k23}fa{\k15}bu{\kf108}lous
+Dialogue: 0,0:01:18.69,0:01:20.68,Sample KM Duo [Voice 2],,0,0,80,fx,{\k80\fad(300,200)}{\k33}I'm {\k19}fa{\k17}bu{\k30}lous
+Dialogue: 0,0:01:19.68,0:01:22.79,Sample KM Duo [Voice 2],,0,0,0,fx,{\k80\fad(300,200)}{\k9}You {\k28}know, {\k22}no {\k25}two {\k15}peo{\k10}ple {\k24}are {\k24}like {\k20}each {\k14}o{\k20}ther
+Dialogue: 0,0:01:21.79,0:01:24.69,Sample KM Duo [Voice 2],,0,0,0,fx,{\k80\fad(300,200)}{\k18}So {\k24}don't {\k7}be {\k17}a {\k12}look-{\k14}a-{\k25}like {\k21}co{\k6}py{\k7}ing {\k12}a{\k13}no{\k14}ther
+Dialogue: 0,0:01:23.69,0:01:26.63,Sample KM Duo [Voice 2],,0,0,0,fx,{\k80\fad(300,200)}{\k11}Un{\k25}less {\k22}of {\k24}course {\k23}you're {\k27}co{\k14}py{\k18}ing {\k30}me
+Dialogue: 0,0:01:25.63,0:01:28.60,Sample KM Duo [Voice 2],,0,0,0,fx,{\k80\fad(300,200)}{\k22}'Cause {\k23}that {\k17}gives {\k11}you {\k13}in{\k11}di{\k11}vi{\k14}du{\k25}a{\k14}li{\k36}ty
+Dialogue: 0,0:01:27.60,0:01:30.55,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k29}Nice {\k40}'do, {\k15}but {\k22}back {\k8}to {\k14}the {\k17}mat{\k7}ter {\k18}at {\k25}hand
+Dialogue: 0,0:01:29.70,0:01:31.53,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k16}So {\k11}what {\k9}do {\k21}you {\k26}say?
+Dialogue: 0,0:01:30.53,0:01:32.75,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k12}Are {\k14}you {\k21}back {\k12}in {\k13}the {\k50}band?
+Dialogue: 0,0:01:31.49,0:01:34.58,Sample KM Duo [Voice 2],,0,0,0,fx,{\k80\fad(300,200)}{\k33}Well, {\k17}may{\k11}be {\k12}if {\k16}I {\k19}can {\k26}find {\k23}my {\k23}old {\k14}lea{\k15}ther
+Dialogue: 0,0:01:33.71,0:01:36.76,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k34}Dude, {\k18}we're {\k10}get{\k18}tin' {\k16}the {\k32}band {\k19}back {\k15}to{\k18}ge{\k25}ther
+Dialogue: 0,0:01:39.53,0:01:42.26,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k25}You're {\k25}the {\k24}one {\k22}who {\k25}sets {\k15}the {\k37}bar
+Dialogue: 0,0:01:41.26,0:01:44.21,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k24}The {\k23}hair{\k23}do {\k27}king, {\k24}the {\k21}fa{\k15}shion {\k38}Tsar
+Dialogue: 0,0:01:43.21,0:01:45.90,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k23}You're {\k24}fa{\k14}bu{\kf108}lous
+Dialogue: 0,0:01:44.06,0:01:46.16,Sample KM Duo [Voice 2],,0,0,80,fx,{\k80\fad(300,200)}{\k42}I'm {\k18}fa{\k21}bu{\k29}lous
+Dialogue: 0,0:01:45.16,0:01:48.19,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k23}You're {\k27}fa{\k12}bu{\kf141}lous
+Dialogue: 0,0:01:46.12,0:01:48.18,Sample KM Duo [Voice 2],,0,0,80,fx,{\k80\fad(300,200)}{\k14}Ooh, {\k23}I'm {\k20}fa{\k16}bu{\k33}lous
+Dialogue: 0,0:01:47.33,0:01:51.03,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k26}You're {\k12}the {\k37}one {\k24}we {\k22}all {\k26}can {\k25}see, {\k25}it's {\k16}all {\k10}a{\k23}bout {\k24}you
+Dialogue: 0,0:01:50.10,0:01:52.49,Sample KM Duo [Voice 2],,0,0,80,fx,{\k80\fad(300,200)}{\k23}It's {\k20}all {\k8}a{\k26}bout {\k62}me
+Dialogue: 0,0:01:51.00,0:01:53.71,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k26}You're {\k23}fa{\k15}bu{\kf107}lous
+Dialogue: 0,0:01:52.12,0:01:54.25,Sample KM Duo [Voice 2],,0,0,80,fx,{\k80\fad(300,200)}{\k36}I'm {\k21}fa{\k19}bu{\k37}lous
+Dialogue: 0,0:01:52.96,0:01:55.68,Sample KM Duo [Voice 1],,0,0,0,fx,{\k80\fad(300,200)}{\k24}You're {\k24}fa{\k13}bu{\kf111}lous
+Dialogue: 0,0:01:53.87,0:01:56.27,Sample KM Duo [Voice 2],,0,0,80,fx,{\k80\fad(300,200)}{\k38}I'm {\k23}fa{\k18}bu{\k61}lous
