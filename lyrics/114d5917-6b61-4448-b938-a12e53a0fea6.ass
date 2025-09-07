@@ -1,0 +1,63 @@
+﻿[Script Info]
+Title: HiBiKi Au Uta♪
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: TenmaWorks
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Idol,Arial,24,&H00FFFFFF,&H009314FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Wink,Arial,24,&H00FFFFFF,&H00FFD935,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Kyun-Kyun,Arial,24,&H00FFFFFF,&H00FF48A8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Zukyon,Arial,24,&H00FFFFFF,&H006CE692,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Kiss,Arial,24,&H00FFFFFF,&H00FFBBFD,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Idol Back,Arial,24,&H009314FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Precure 5,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Precure 5,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:05.00,Idol,,0,0,70,karaoke,{\an2\c&H9314FF&}Idol {\c&HFFFFFF&}- {\c&HFFD935&}Wink {\c&HFFFFFF&}- {\c&HFF48A8&}Kyun-Kyun\N{\c&H6CE692&}Zukyoon {\c&HFFFFFF&}- {\c&HFFBBFD&}Kiss {\c&HFFFFFF&}- {\i1\c&H008AFF&}Group{\i0}
+Comment: 0,0:00:08.91,0:00:15.41,Idol,,0,0,0,karaoke,{\k53}hi{\k20}to{\k47}mi {\k39}ni {\kf70}wa{\k18} {\k27}S{\k46}TA{\k39}R {\k49}ne{\k24}ga{\k37}i {\k41}bo{\k55}shi {\k15}ga {\k12}a{\k58}ru
+Comment: 0,0:00:15.94,0:00:22.21,Idol,,0,0,0,karaoke,{\k19}me {\k35}wo {\k29}fu{\k50}se{\k47}ta {\k25}t{\k18}{\k36}te {\k48}mo{\k28}re{\k46}ru {\k59}hi{\k29}ka{\kf158}ri
+Comment: 0,0:00:21.28,0:00:23.49,Idol Back,,0,0,0,karaoke,{\k41}I {\k23}BE{\k28}LIE{\k42}VE {\k22}IN {\k65}U
+Comment: 0,0:00:23.29,0:00:29.82,Idol,,0,0,0,karaoke,{\k42}i{\k25}ma {\k44}ko{\k40}ko {\k68}de{\k27} {\k20}ki{\k29}mi {\k64}ga {\k41}se{\k24}na{\k49}ka {\k37}wo {\k43}mu{\k22}ke{\k9}te {\kf69}mo
+Comment: 0,0:00:30.19,0:00:36.45,Idol,,0,0,0,karaoke,{\k28}na{\k44}n{\k26}do{\k37}mo {\k46}nan{\k67}do {\k23}de{\k61}mo{\k31} {\k22}wa{\k42}ra{\k24}i{\k46}ka{\k44}ke{\kf85}ru
+Comment: 0,0:00:36.74,0:00:38.38,Wink,,0,0,0,karaoke,{\k22}da{\k23}i{\k23}su{\k41}ki {\k22}to{\k33}ka
+Comment: 0,0:00:38.51,0:00:40.23,Kyun-Kyun,,0,0,0,karaoke,{\k23}ta{\k20}i{\k24}se{\k47}tsu {\k22}to{\k36}ka
+Comment: 0,0:00:40.66,0:00:43.81,Idol,,0,0,0,karaoke,{\k32}ki{\k63}mi {\k27}ni {\k43}to{\k43}do{\k43}ke{\k30}ta{\k34}i
+Comment: 0,0:00:43.90,0:00:45.56,Zukyon,,0,0,0,karaoke,{\k22}se{\k24}ka{\k24}i {\k42}wa {\k24}ho{\k30}ra
+Comment: 0,0:00:45.71,0:00:47.41,Kiss,,0,0,0,karaoke,{\k19}ko{\k24}n'{\k22}na {\k46}ni {\k20}i{\k39}ma
+Comment: 0,0:00:47.48,0:00:50.55,Idol,,0,0,0,karaoke,{\k26}"ki{\k38}rak{\k60}ki{\k28}{\k50}ran{\k43}ra{\k62}n"
+Comment: 0,0:00:51.07,0:00:55.43,Precure 5,,0,0,0,karaoke,{\k45}ka{\k23}ga{\k58}ya{\k27}ki {\k48}ha{\k46}ji{\k40}me{\k29}te{\kf120}ru
+Comment: 0,0:00:56.40,0:01:03.15,Precure 5,,0,0,0,karaoke,{\k25}u{\k39}tat{\k88}te{\k30} {\k25}o{\k42}dot{\k83}te{\k26} {\k27}a{\k43}fu{\k71}re{\k19}ru {\k69}o{\k21}mo{\k67}i
+Comment: 0,0:01:03.56,0:01:10.39,Precure 5,,0,0,0,karaoke,{\k27}yo{\k23}ro{\k24}ko{\k61}bu {\k28}ki{\k65}mi {\k23}wo {\k64}mi{\k25}ru {\k61}to{\k27} {\k44}u{\k18}re{\k27}shi{\k63}ku {\k30}na{\kf73}ru
+Comment: 0,0:01:10.77,0:01:17.62,Precure 5,,0,0,0,karaoke,{\k23}hya{\k41}ku{\k80}nen{\k27} {\k32}se{\k42}n{\k70}nen{\k43} {\k24}to{\k45}ki {\k63}wo {\k28}ko{\k62}e{\k27}te {\kf78}mo
+Comment: 0,0:01:17.89,0:01:21.94,Precure 5,,0,0,0,karaoke,{\k48}ko{\k27}ko{\k65}ro {\k20}wa {\k68}o{\k31}bo{\k32}e{\k29}te {\k24}i{\k61}ru
+Comment: 0,0:01:22.19,0:01:26.42,Precure 5,,0,0,0,karaoke,{\k23}mi{\k67}ra{\k60}i {\k49}ni{\k25} {\k24}hi{\k22}bi{\k36}i{\k33}te{\k21}ru {\k63}yo
+Comment: 0,0:01:26.58,0:01:33.18,Precure 5,,0,0,0,karaoke,{\k35}ki{\k26}mi {\k35}no {\k44}mo{\k47}to {\kf113}he{\k44} {\k44}to{\k39}do{\k29}ke{\k61}ta{\k29}i {\kf114}yo
+Comment: 0,0:01:33.55,0:01:44.22,Precure 5,,0,0,0,karaoke,{\k51}Hi{\k37}Bi{\k29}Ki {\k45}a{\k40}u {\k47}U {\k45}AND {\kf383}I{\k35} {\kf355}SONG
+Dialogue: 0,0:00:00.00,0:00:05.20,Idol,,0,0,70,fx,{\k0\fad(0,200)}{\an2\c&H9314FF&}Idol {\c&HFFFFFF&}- {\c&HFFD935&}Wink {\c&HFFFFFF&}- {\c&HFF48A8&}Kyun-Kyun\N{\c&H6CE692&}Zukyoon {\c&HFFFFFF&}- {\c&HFFBBFD&}Kiss {\c&HFFFFFF&}- {\i1\c&H008AFF&}Group{\i0}
+Dialogue: 0,0:00:08.01,0:00:15.61,Idol,,0,0,0,fx,{\k90\fad(300,200)}{\k53}hi{\k20}to{\k47}mi {\k39}ni {\kf70}wa{\k18} {\k27}S{\k46}TA{\k39}R {\k49}ne{\k24}ga{\k37}i {\k41}bo{\k55}shi {\k15}ga {\k12}a{\k58}ru
+Dialogue: 0,0:00:15.04,0:00:22.41,Idol,,0,0,0,fx,{\k90\fad(300,200)}{\k19}me {\k35}wo {\k29}fu{\k50}se{\k47}ta {\k25}t{\k18}{\k36}te {\k48}mo{\k28}re{\k46}ru {\k59}hi{\k29}ka{\kf158}ri
+Dialogue: 0,0:00:20.38,0:00:23.69,Idol Back,,0,0,0,fx,{\k90\fad(300,200)}{\k41}I {\k23}BE{\k28}LIE{\k42}VE {\k22}IN {\k65}U
+Dialogue: 0,0:00:22.39,0:00:30.02,Idol,,0,0,0,fx,{\k90\fad(300,200)}{\k42}i{\k25}ma {\k44}ko{\k40}ko {\k68}de{\k27} {\k20}ki{\k29}mi {\k64}ga {\k41}se{\k24}na{\k49}ka {\k37}wo {\k43}mu{\k22}ke{\k9}te {\kf69}mo
+Dialogue: 0,0:00:29.29,0:00:36.65,Idol,,0,0,0,fx,{\k90\fad(300,200)}{\k28}na{\k44}n{\k26}do{\k37}mo {\k46}nan{\k67}do {\k23}de{\k61}mo{\k31} {\k22}wa{\k42}ra{\k24}i{\k46}ka{\k44}ke{\kf85}ru
+Dialogue: 0,0:00:35.84,0:00:38.58,Wink,,0,0,0,fx,{\k90\fad(300,200)}{\k22}da{\k23}i{\k23}su{\k41}ki {\k22}to{\k33}ka
+Dialogue: 0,0:00:37.61,0:00:40.43,Kyun-Kyun,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ta{\k20}i{\k24}se{\k47}tsu {\k22}to{\k36}ka
+Dialogue: 0,0:00:39.76,0:00:44.01,Idol,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ki{\k63}mi {\k27}ni {\k43}to{\k43}do{\k43}ke{\k30}ta{\k34}i
+Dialogue: 0,0:00:43.00,0:00:45.76,Zukyon,,0,0,0,fx,{\k90\fad(300,200)}{\k22}se{\k24}ka{\k24}i {\k42}wa {\k24}ho{\k30}ra
+Dialogue: 0,0:00:44.81,0:00:47.61,Kiss,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k24}n'{\k22}na {\k46}ni {\k20}i{\k39}ma
+Dialogue: 0,0:00:46.58,0:00:50.75,Idol,,0,0,0,fx,{\k90\fad(300,200)}{\k26}"ki{\k38}rak{\k60}ki{\k28}{\k50}ran{\k43}ra{\k62}n"
+Dialogue: 0,0:00:50.17,0:00:55.63,Precure 5,,0,0,0,fx,{\k90\fad(300,200)}{\k45}ka{\k23}ga{\k58}ya{\k27}ki {\k48}ha{\k46}ji{\k40}me{\k29}te{\kf120}ru
+Dialogue: 0,0:00:55.50,0:01:03.35,Precure 5,,0,0,0,fx,{\k90\fad(300,200)}{\k25}u{\k39}tat{\k88}te{\k30} {\k25}o{\k42}dot{\k83}te{\k26} {\k27}a{\k43}fu{\k71}re{\k19}ru {\k69}o{\k21}mo{\k67}i
+Dialogue: 0,0:01:02.66,0:01:10.59,Precure 5,,0,0,0,fx,{\k90\fad(300,200)}{\k27}yo{\k23}ro{\k24}ko{\k61}bu {\k28}ki{\k65}mi {\k23}wo {\k64}mi{\k25}ru {\k61}to{\k27} {\k44}u{\k18}re{\k27}shi{\k63}ku {\k30}na{\kf73}ru
+Dialogue: 0,0:01:09.87,0:01:17.82,Precure 5,,0,0,0,fx,{\k90\fad(300,200)}{\k23}hya{\k41}ku{\k80}nen{\k27} {\k32}se{\k42}n{\k70}nen{\k43} {\k24}to{\k45}ki {\k63}wo {\k28}ko{\k62}e{\k27}te {\kf78}mo
+Dialogue: 0,0:01:16.99,0:01:22.14,Precure 5,,0,0,0,fx,{\k90\fad(300,200)}{\k48}ko{\k27}ko{\k65}ro {\k20}wa {\k68}o{\k31}bo{\k32}e{\k29}te {\k24}i{\k61}ru
+Dialogue: 0,0:01:21.29,0:01:26.62,Precure 5,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mi{\k67}ra{\k60}i {\k49}ni{\k25} {\k24}hi{\k22}bi{\k36}i{\k33}te{\k21}ru {\k63}yo
+Dialogue: 0,0:01:25.68,0:01:33.38,Precure 5,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ki{\k26}mi {\k35}no {\k44}mo{\k47}to {\kf113}he{\k44} {\k44}to{\k39}do{\k29}ke{\k61}ta{\k29}i {\kf114}yo
+Dialogue: 0,0:01:32.65,0:01:44.42,Precure 5,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Hi{\k37}Bi{\k29}Ki {\k45}a{\k40}u {\k47}U {\k45}AND {\kf383}I{\k35} {\kf355}SONG
