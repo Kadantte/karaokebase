@@ -1,0 +1,35 @@
+﻿[Script Info]
+Title: OVER NIGHT
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: HayatoKurokami
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:17.70,0:00:25.58,Sample KM [Up],,0,0,0,karaoke,{\kf293}Fly, {\kf277}sway, {\k36}go {\k38}all {\k23}the {\kf121}way
+Comment: 0,0:00:29.71,0:00:36.23,Sample KM [Up],,0,0,0,karaoke,{\kf230}I'm {\k37}in {\k19}the {\k54}same {\kf149}fate{\kf75} {\k25}with {\k63}you
+Comment: 0,0:00:40.98,0:00:45.98,Sample KM [Up],,0,0,0,karaoke,{\k61}I {\kf129}still {\k16}be{\k95}lieve {\k38}in {\k23}your {\kf138}love
+Comment: 0,0:00:47.72,0:00:52.61,Sample KM [Up],,0,0,0,karaoke,{\k38}Trace {\k21}the {\k41}sha{\k15}dow {\k18}of {\k58}truth {\k19}in{\k41}to {\k33}the {\kf205}dark
+Comment: 0,0:00:51.66,0:00:55.11,Sample KM [Choir],,0,0,0,karaoke,{\k48}show {\k48}me {\k24}the {\k51}way {\k29}to {\kf145}go
+Comment: 0,0:00:55.98,0:00:59.56,Sample KM [Up],,0,0,0,karaoke,{\k78}Fo{\k35}re{\kf245}ver...
+Comment: 0,0:01:02.68,0:01:06.99,Sample KM [Up],,0,0,0,karaoke,{\k65}Tears {\k54}fall, {\k25}va{\k35}nish {\k35}in{\k56}to {\k21}the {\kf140}night
+Comment: 0,0:01:07.62,0:01:11.35,Sample KM [Up],,0,0,0,karaoke,{\k37}If {\k41}I'm {\k33}a {\k43}sin{\kf219}ner...
+Comment: 0,0:01:14.60,0:01:20.21,Sample KM [Up],,0,0,0,karaoke,{\k52}Chi{\k28}val{\k32}ry, {\k37}show {\k54}me {\k24}the {\k52}way {\k23}to {\kf259}go
+Dialogue: 0,0:00:16.80,0:00:25.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf293}Fly, {\kf277}sway, {\k36}go {\k38}all {\k23}the {\kf121}way
+Dialogue: 0,0:00:28.81,0:00:36.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf230}I'm {\k37}in {\k19}the {\k54}same {\kf149}fate{\kf75} {\k25}with {\k63}you
+Dialogue: 0,0:00:40.08,0:00:46.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}I {\kf129}still {\k16}be{\k95}lieve {\k38}in {\k23}your {\kf138}love
+Dialogue: 0,0:00:46.82,0:00:52.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Trace {\k21}the {\k41}sha{\k15}dow {\k18}of {\k58}truth {\k19}in{\k41}to {\k33}the {\kf205}dark
+Dialogue: 0,0:00:50.76,0:00:55.31,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k48}show {\k48}me {\k24}the {\k51}way {\k29}to {\kf145}go
+Dialogue: 0,0:00:55.08,0:00:59.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k78}Fo{\k35}re{\kf245}ver...
+Dialogue: 0,0:01:01.78,0:01:07.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Tears {\k54}fall, {\k25}va{\k35}nish {\k35}in{\k56}to {\k21}the {\kf140}night
+Dialogue: 0,0:01:06.72,0:01:11.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}If {\k41}I'm {\k33}a {\k43}sin{\kf219}ner...
+Dialogue: 0,0:01:13.70,0:01:20.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Chi{\k28}val{\k32}ry, {\k37}show {\k54}me {\k24}the {\k52}way {\k23}to {\kf259}go
