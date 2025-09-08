@@ -1,0 +1,134 @@
+﻿[Script Info]
+Title: Houdini
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: Volodia
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H000088EF,&H00FFFFFF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 1,0:00:02.60,0:00:02.60,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:04.52,0:00:05.00,Default,,0,0,0,karaoke,{\k19}O{\k70}kay
+Comment: 1,0:00:06.12,0:00:06.44,Default,,0,0,0,karaoke,{\k115}Huh
+Comment: 1,0:00:10.29,0:00:10.67,Default,,0,0,0,karaoke,{\k83}Mmh
+Comment: 1,0:00:12.27,0:00:12.86,Default,,0,0,0,karaoke,{\k224}Ah
+Comment: 1,0:00:21.32,0:00:23.21,Default,,0,0,0,karaoke,{\k25}I {\k25}come {\k25}and {\k12}I {\k89}go
+Comment: 1,0:00:23.37,0:00:25.39,Default,,0,0,0,karaoke,{\k25}Tell {\k25}me {\k25}all {\k12}the {\k38}ways {\k19}you {\k31}need {\k12}me
+Comment: 1,0:00:25.42,0:00:27.31,Default,,0,0,0,karaoke,{\k25}I'm {\k25}not {\k25}here {\k12}for {\k89}long
+Comment: 1,0:00:27.47,0:00:29.49,Default,,0,0,0,karaoke,{\k25}Catch {\k25}me {\k25}or {\k12}I {\k38}go {\k25}Hou{\k24}di{\k12}ni
+Comment: 1,0:00:29.52,0:00:30.89,Default,,0,0,0,karaoke,{\k25}I {\k32}come {\k12}and {\k19}I {\k89}go
+Comment: 1,0:00:31.57,0:00:33.60,Default,,0,0,0,karaoke,{\k25}Prove {\k25}you {\k25}got {\k12}the {\k38}right {\k25}to {\k24}please {\k12}me
+Comment: 1,0:00:33.63,0:00:35.52,Default,,0,0,0,karaoke,{\k25}Eve{\k25}ry{\k19}bod{\k19}y {\k89}knows
+Comment: 1,0:00:35.68,0:00:38.15,Default,,0,0,0,karaoke,{\k25}Catch {\k25}me {\k19}or {\k19}I {\k38}go {\k25}Hou{\k24}di{\k57}ni
+Comment: 1,0:00:38.24,0:00:41.61,Default,,0,0,0,karaoke,{\k24}Time {\k25}is {\k32}pass{\k19}ing {\k25}like {\k25}a {\k32}so{\k25}lar {\k25}e{\k89}clipse
+Comment: 1,0:00:42.35,0:00:45.84,Default,,0,0,0,karaoke,{\k31}See {\k19}you {\k25}watch{\k25}ing {\k25}and {\k25}you {\k32}blow {\k19}me {\k25}a {\k109}kiss
+Comment: 1,0:00:46.32,0:00:49.88,Default,,0,0,0,karaoke,{\k38}It's {\k25}your {\k25}mo{\k25}ment, {\k25}ba{\k25}by, {\k24}don't {\k25}let {\k32}it {\k96}slip
+Comment: 1,0:00:50.55,0:00:53.60,Default,,0,0,0,karaoke,{\k24}Come {\k25}in {\k25}clos{\k25}er {\k25}are {\k25}you {\k25}read{\k25}ing {\k25}my {\k64}lips
+Comment: 1,0:00:53.63,0:00:55.69,Default,,0,0,0,karaoke,{\k25}They {\k32}say {\k19}I {\k25}come {\k25}and {\k12}I {\k89}go
+Comment: 1,0:00:56.20,0:00:58.22,Default,,0,0,0,karaoke,{\k25}Tell {\k25}me {\k25}all {\k12}the {\k38}ways {\k25}you {\k24}need {\k12}me
+Comment: 1,0:00:58.25,0:01:00.14,Default,,0,0,0,karaoke,{\k25}I'm {\k25}not {\k25}here {\k12}for {\k89}long
+Comment: 1,0:01:00.30,0:01:02.32,Default,,0,0,0,karaoke,{\k25}Catch {\k25}me {\k19}or {\k19}I {\k38}go {\k25}Hou{\k25}di{\k12}ni
+Comment: 1,0:01:02.35,0:01:04.25,Default,,0,0,0,karaoke,{\k25}I {\k25}come {\k19}and {\k19}I {\k89}go
+Comment: 1,0:01:04.40,0:01:06.43,Default,,0,0,0,karaoke,{\k25}Prove {\k25}you {\k25}got {\k12}the {\k38}right {\k25}to {\k24}please {\k12}me
+Comment: 1,0:01:06.45,0:01:08.35,Default,,0,0,0,karaoke,{\k25}Eve{\k25}ry{\k19}bod{\k19}y {\k89}knows
+Comment: 1,0:01:08.51,0:01:11.17,Default,,0,0,0,karaoke,{\k25}Catch {\k25}me {\k19}or {\k19}I {\k38}go {\k25}Hou{\k24}di{\k76}ni
+Comment: 1,0:01:11.33,0:01:13.75,Default,,0,0,0,karaoke,{\k12}If {\k12}you're {\k25}good {\k25}e{\k25}nough {\k32}you'll {\k44}find {\k31}a {\k76}way
+Comment: 1,0:01:15.43,0:01:18.22,Default,,0,0,0,karaoke,{\k12}May{\k12}be {\k25}you {\k25}could {\k25}cause {\k25}a {\k51}girl {\k37}to {\k51}change
+Comment: 1,0:01:18.25,0:01:19.51,Sample KM [Choir],,0,0,0,karaoke,{\k44}Her {\k69}ways
+Comment: 1,0:01:19.54,0:01:22.17,Default,,0,0,0,karaoke,{\k12}Do {\k12}you {\k25}think {\k25}a{\k25}bout {\k25}it {\k51}night {\k37}and {\k83}day?
+Comment: 1,0:01:23.64,0:01:27.46,Default,,0,0,0,karaoke,{\k12}May{\k12}be {\k25}you {\k25}could {\k25}be {\k25}the {\k51}one {\k37}to {\k66}make {\k38}me {\k66}stay
+Comment: 1,0:01:27.49,0:01:30.69,Default,,0,0,0,karaoke,{\k25}Eve{\k25}ry{\k25}thing {\k25}you {\k25}say {\k25}is {\k25}sound{\k25}ing {\k25}so {\k89}sweet
+Comment: 1,0:01:31.33,0:01:34.96,Default,,0,0,0,karaoke,{\k25}But {\k25}do {\k25}you {\k25}prac{\k25}tice {\k25}eve{\k25}ry{\k25}thing {\k25}that {\k25}you {\k96}preach?
+Comment: 1,0:01:35.69,0:01:39.13,Default,,0,0,0,karaoke,{\k25}I {\k25}need {\k25}some{\k25}thing {\k50}that'll {\k24}make {\k25}me {\k25}be{\k102}lieve
+Comment: 1,0:01:39.67,0:01:42.85,Default,,0,0,0,karaoke,{\k38}If {\k25}you {\k25}got {\k25}it, {\k25}ba{\k25}by, {\k25}give {\k25}it {\k25}to {\k64}me
+Comment: 1,0:01:42.87,0:01:45.28,Default,,0,0,0,karaoke,{\k25}They {\k25}say {\k25}I {\k25}come {\k25}and {\k12}I {\k89}go
+Comment: 1,0:01:45.44,0:01:47.46,Default,,0,0,0,karaoke,{\k25}Tell {\k25}me {\k25}all {\k12}the {\k38}ways {\k19}you {\k31}need {\k12}me
+Comment: 1,0:01:47.49,0:01:49.39,Default,,0,0,0,karaoke,{\k25}I'm {\k25}not {\k19}here {\k19}for {\k89}long
+Comment: 1,0:01:49.54,0:01:51.57,Default,,0,0,0,karaoke,{\k25}Catch {\k25}me {\k19}or {\k19}I {\k38}go {\k25}Hou{\k24}di{\k12}ni
+Comment: 1,0:01:51.59,0:01:53.55,Default,,0,0,0,karaoke,{\k25}I {\k25}come {\k19}and {\k19}I {\k96}go
+Comment: 1,0:01:53.71,0:01:55.67,Default,,0,0,0,karaoke,{\k19}Prove {\k25}you {\k25}got {\k12}the {\k38}right {\k19}to {\k31}please {\k12}me
+Comment: 1,0:01:55.70,0:01:57.59,Default,,0,0,0,karaoke,{\k25}Eve{\k25}ry{\k19}bod{\k12}y {\k96}knows
+Comment: 1,0:01:57.75,0:02:00.41,Default,,0,0,0,karaoke,{\k25}Catch {\k25}me {\k19}or {\k19}I {\k38}go {\k25}Hou{\k24}di{\k76}ni
+Comment: 1,0:02:00.57,0:02:03.56,Default,,0,0,0,karaoke,{\k12}If {\k12}you're {\k25}good {\k25}e{\k25}nough {\k25}you'll {\k51}find {\k31}a {\k76}way
+Comment: 1,0:02:04.68,0:02:07.47,Default,,0,0,0,karaoke,{\k12}May{\k12}be {\k25}you {\k25}could {\k25}cause {\k25}a {\k51}girl {\k37}to {\k51}change
+Comment: 1,0:02:07.50,0:02:08.75,Sample KM [Choir],,0,0,0,karaoke,{\k44}Her {\k69}ways
+Comment: 1,0:02:08.78,0:02:11.89,Default,,0,0,0,karaoke,{\k12}Do {\k12}you {\k19}think {\k32}a{\k25}bout {\k25}it {\k51}night {\k37}and {\k83}day?
+Comment: 1,0:02:12.88,0:02:15.68,Default,,0,0,0,karaoke,{\k12}May{\k12}be {\k25}you {\k25}could {\k25}be {\k25}the {\k51}one {\k31}to {\k57}make
+Comment: 1,0:02:15.70,0:02:16.70,Default,,0,0,0,karaoke,{\k32}Me {\k256}stay
+Comment: 1,0:02:23.65,0:02:25.46,Default,,0,0,0,karaoke,{\k25}Oh, {\k31}oh, {\k184}oh
+Comment: 1,0:02:32.70,0:02:34.53,Default,,0,0,0,karaoke,{\k19}I {\k25}come {\k19}and {\k19}I {\k89}go
+Comment: 1,0:02:34.68,0:02:36.71,Default,,0,0,0,karaoke,{\k25}Tell {\k25}me {\k25}all {\k12}the {\k38}ways {\k25}you {\k24}need {\k12}me
+Comment: 1,0:02:36.73,0:02:38.08,Default,,0,0,0,karaoke,{\k25}I'm {\k25}not {\k19}here {\k19}for {\k89}long
+Comment: 1,0:02:38.79,0:02:40.81,Default,,0,0,0,karaoke,{\k25}Catch {\k25}me {\k19}or {\k19}I {\k32}go {\k31}Hou{\k24}di{\k12}ni
+Comment: 1,0:02:40.84,0:02:42.10,Default,,0,0,0,karaoke,{\k25}I {\k32}come {\k12}and {\k19}I {\k89}go
+Comment: 1,0:02:42.89,0:02:44.91,Default,,0,0,0,karaoke,{\k32}Prove {\k19}you {\k25}got {\k12}the {\k38}right {\k25}to {\k24}please {\k12}me
+Comment: 1,0:02:44.94,0:02:46.84,Default,,0,0,0,karaoke,{\k25}Eve{\k25}ry{\k19}bod{\k19}y {\k89}knows
+Comment: 1,0:02:46.99,0:02:49.08,Default,,0,0,0,karaoke,{\k25}Catch {\k19}me {\k25}or {\k19}I {\k32}go {\k31}Hou{\k24}di{\k211}ni
+Comment: 1,0:02:56.42,0:02:57.23,Default,,0,0,0,karaoke,{\k31}Hou{\k24}di{\k211}ni
+Comment: 1,0:03:03.41,0:03:05.43,Default,,0,0,0,karaoke,{\k25}Catch {\k25}me {\k19}or {\k12}I {\k44}go {\k25}Hou{\k24}di{\k12}ni
+Dialogue: 1,0:00:03.62,0:00:05.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}O{\k70}kay
+Dialogue: 1,0:00:05.22,0:00:06.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k115}Huh
+Dialogue: 1,0:00:09.39,0:00:10.87,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k83}Mmh
+Dialogue: 1,0:00:11.37,0:00:13.06,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k224}Ah
+Dialogue: 1,0:00:20.42,0:00:23.41,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k25}come {\k25}and {\k12}I {\k89}go
+Dialogue: 1,0:00:22.47,0:00:25.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Tell {\k25}me {\k25}all {\k12}the {\k38}ways {\k19}you {\k31}need {\k12}me
+Dialogue: 1,0:00:24.52,0:00:27.51,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I'm {\k25}not {\k25}here {\k12}for {\k89}long
+Dialogue: 1,0:00:26.57,0:00:29.69,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Catch {\k25}me {\k25}or {\k12}I {\k38}go {\k25}Hou{\k24}di{\k12}ni
+Dialogue: 1,0:00:28.62,0:00:31.09,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k32}come {\k12}and {\k19}I {\k89}go
+Dialogue: 1,0:00:30.67,0:00:33.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Prove {\k25}you {\k25}got {\k12}the {\k38}right {\k25}to {\k24}please {\k12}me
+Dialogue: 1,0:00:32.73,0:00:35.72,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Eve{\k25}ry{\k19}bod{\k19}y {\k89}knows
+Dialogue: 1,0:00:34.78,0:00:38.35,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Catch {\k25}me {\k19}or {\k19}I {\k38}go {\k25}Hou{\k24}di{\k57}ni
+Dialogue: 1,0:00:37.34,0:00:41.81,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Time {\k25}is {\k32}pass{\k19}ing {\k25}like {\k25}a {\k32}so{\k25}lar {\k25}e{\k89}clipse
+Dialogue: 1,0:00:41.45,0:00:46.04,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}See {\k19}you {\k25}watch{\k25}ing {\k25}and {\k25}you {\k32}blow {\k19}me {\k25}a {\k109}kiss
+Dialogue: 1,0:00:45.42,0:00:50.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}It's {\k25}your {\k25}mo{\k25}ment, {\k25}ba{\k25}by, {\k24}don't {\k25}let {\k32}it {\k96}slip
+Dialogue: 1,0:00:49.65,0:00:53.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Come {\k25}in {\k25}clos{\k25}er {\k25}are {\k25}you {\k25}read{\k25}ing {\k25}my {\k64}lips
+Dialogue: 1,0:00:52.73,0:00:55.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}They {\k32}say {\k19}I {\k25}come {\k25}and {\k12}I {\k89}go
+Dialogue: 1,0:00:55.30,0:00:58.42,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Tell {\k25}me {\k25}all {\k12}the {\k38}ways {\k25}you {\k24}need {\k12}me
+Dialogue: 1,0:00:57.35,0:01:00.34,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I'm {\k25}not {\k25}here {\k12}for {\k89}long
+Dialogue: 1,0:00:59.40,0:01:02.52,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Catch {\k25}me {\k19}or {\k19}I {\k38}go {\k25}Hou{\k25}di{\k12}ni
+Dialogue: 1,0:01:01.45,0:01:04.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k25}come {\k19}and {\k19}I {\k89}go
+Dialogue: 1,0:01:03.50,0:01:06.63,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Prove {\k25}you {\k25}got {\k12}the {\k38}right {\k25}to {\k24}please {\k12}me
+Dialogue: 1,0:01:05.55,0:01:08.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Eve{\k25}ry{\k19}bod{\k19}y {\k89}knows
+Dialogue: 1,0:01:07.61,0:01:11.37,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Catch {\k25}me {\k19}or {\k19}I {\k38}go {\k25}Hou{\k24}di{\k76}ni
+Dialogue: 1,0:01:10.43,0:01:13.95,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}If {\k12}you're {\k25}good {\k25}e{\k25}nough {\k32}you'll {\k44}find {\k31}a {\k76}way
+Dialogue: 1,0:01:14.53,0:01:18.42,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}May{\k12}be {\k25}you {\k25}could {\k25}cause {\k25}a {\k51}girl {\k37}to {\k51}change
+Dialogue: 1,0:01:17.35,0:01:19.71,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Her {\k69}ways
+Dialogue: 1,0:01:18.64,0:01:22.37,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Do {\k12}you {\k25}think {\k25}a{\k25}bout {\k25}it {\k51}night {\k37}and {\k83}day?
+Dialogue: 1,0:01:22.74,0:01:27.66,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}May{\k12}be {\k25}you {\k25}could {\k25}be {\k25}the {\k51}one {\k37}to {\k66}make {\k38}me {\k66}stay
+Dialogue: 1,0:01:26.59,0:01:30.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Eve{\k25}ry{\k25}thing {\k25}you {\k25}say {\k25}is {\k25}sound{\k25}ing {\k25}so {\k89}sweet
+Dialogue: 1,0:01:30.43,0:01:35.16,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}But {\k25}do {\k25}you {\k25}prac{\k25}tice {\k25}eve{\k25}ry{\k25}thing {\k25}that {\k25}you {\k96}preach?
+Dialogue: 1,0:01:34.79,0:01:39.33,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k25}need {\k25}some{\k25}thing {\k50}that'll {\k24}make {\k25}me {\k25}be{\k102}lieve
+Dialogue: 1,0:01:38.77,0:01:43.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}If {\k25}you {\k25}got {\k25}it, {\k25}ba{\k25}by, {\k25}give {\k25}it {\k25}to {\k64}me
+Dialogue: 1,0:01:41.97,0:01:45.48,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}They {\k25}say {\k25}I {\k25}come {\k25}and {\k12}I {\k89}go
+Dialogue: 1,0:01:44.54,0:01:47.66,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Tell {\k25}me {\k25}all {\k12}the {\k38}ways {\k19}you {\k31}need {\k12}me
+Dialogue: 1,0:01:46.59,0:01:49.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I'm {\k25}not {\k19}here {\k19}for {\k89}long
+Dialogue: 1,0:01:48.64,0:01:51.77,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Catch {\k25}me {\k19}or {\k19}I {\k38}go {\k25}Hou{\k24}di{\k12}ni
+Dialogue: 1,0:01:50.69,0:01:53.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k25}come {\k19}and {\k19}I {\k96}go
+Dialogue: 1,0:01:52.81,0:01:55.87,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Prove {\k25}you {\k25}got {\k12}the {\k38}right {\k19}to {\k31}please {\k12}me
+Dialogue: 1,0:01:54.80,0:01:57.79,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Eve{\k25}ry{\k19}bod{\k12}y {\k96}knows
+Dialogue: 1,0:01:56.85,0:02:00.61,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Catch {\k25}me {\k19}or {\k19}I {\k38}go {\k25}Hou{\k24}di{\k76}ni
+Dialogue: 1,0:01:59.67,0:02:03.76,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}If {\k12}you're {\k25}good {\k25}e{\k25}nough {\k25}you'll {\k51}find {\k31}a {\k76}way
+Dialogue: 1,0:02:03.78,0:02:07.67,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}May{\k12}be {\k25}you {\k25}could {\k25}cause {\k25}a {\k51}girl {\k37}to {\k51}change
+Dialogue: 1,0:02:06.60,0:02:08.95,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Her {\k69}ways
+Dialogue: 1,0:02:07.88,0:02:12.09,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Do {\k12}you {\k19}think {\k32}a{\k25}bout {\k25}it {\k51}night {\k37}and {\k83}day?
+Dialogue: 1,0:02:11.98,0:02:15.88,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}May{\k12}be {\k25}you {\k25}could {\k25}be {\k25}the {\k51}one {\k31}to {\k57}make
+Dialogue: 1,0:02:14.80,0:02:16.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Me {\k256}stay
+Dialogue: 1,0:02:22.75,0:02:25.66,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Oh, {\k31}oh, {\k184}oh
+Dialogue: 1,0:02:31.80,0:02:34.73,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k25}come {\k19}and {\k19}I {\k89}go
+Dialogue: 1,0:02:33.78,0:02:36.91,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Tell {\k25}me {\k25}all {\k12}the {\k38}ways {\k25}you {\k24}need {\k12}me
+Dialogue: 1,0:02:35.83,0:02:38.28,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I'm {\k25}not {\k19}here {\k19}for {\k89}long
+Dialogue: 1,0:02:37.89,0:02:41.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Catch {\k25}me {\k19}or {\k19}I {\k32}go {\k31}Hou{\k24}di{\k12}ni
+Dialogue: 1,0:02:39.94,0:02:42.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k32}come {\k12}and {\k19}I {\k89}go
+Dialogue: 1,0:02:41.99,0:02:45.11,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Prove {\k19}you {\k25}got {\k12}the {\k38}right {\k25}to {\k24}please {\k12}me
+Dialogue: 1,0:02:44.04,0:02:47.04,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Eve{\k25}ry{\k19}bod{\k19}y {\k89}knows
+Dialogue: 1,0:02:46.09,0:02:49.28,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Catch {\k19}me {\k25}or {\k19}I {\k32}go {\k31}Hou{\k24}di{\k211}ni
+Dialogue: 1,0:02:55.52,0:02:57.43,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Hou{\k24}di{\k211}ni
+Dialogue: 1,0:03:02.51,0:03:05.63,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Catch {\k25}me {\k19}or {\k12}I {\k44}go {\k25}Hou{\k24}di{\k12}ni
