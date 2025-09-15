@@ -1,6 +1,6 @@
 # August 2025
 
-Kara count: 26 924
+Kara count: 26 760
 
 Contributors: 
 
