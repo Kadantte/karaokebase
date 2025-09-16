@@ -1,0 +1,201 @@
+﻿[Script Info]
+Title: Humming Friend
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 0
+PlayResY: 0
+Original Timing: Hanaku
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Aqours,Arial,24,&H00FFFFFF,&H00E89F00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: You,Arial,24,&H00FFFFFF,&H00F9B949,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Yoshiko,Arial,24,&H00FFFFFF,&H00898989,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Ruby,Arial,24,&H00FFFFFF,&H00E475FB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mari,Arial,24,&H00FFFFFF,&H00C652C2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hanamaru,Arial,24,&H00FFFFFF,&H0010D0FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Chika,Arial,24,&H00FFFFFF,&H004795FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Riko,Arial,24,&H00FFFFFF,&H00AC9EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kanan,Arial,24,&H00FFFFFF,&H00B7C127,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Dia,Arial,24,&H00FFFFFF,&H003908DB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Choir,Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,2,5,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Aqours,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:06.50,0:00:10.58,Aqours,,0,0,0,karaoke,{\k27}ki{\k22}me{\k22}ta{\k23}i {\k22}no {\k59}ni {\k30}ki{\k21}me{\k17}ra{\k27}re {\k22}na{\k45}kat{\k22}ta{\k49}ra
+Comment: 0,0:00:11.15,0:00:18.02,Aqours,,0,0,0,karaoke,{\k47}ki{\k43}mi {\k45}ni {\k45}sou{\k86}dan {\k91}da {\kf330}yo
+Comment: 0,0:00:28.83,0:00:30.59,Mari,,0,0,0,karaoke,{\k68}doc{\k21}chi {\k86}no
+Comment: 0,0:00:31.22,0:00:34.12,Mari,,0,0,0,karaoke,{\k26}fu{\k21}ku {\k23}ga {\k20}ni{\k25}a{\k64}u {\k23}ka{\k35}na
+Comment: 0,0:00:35.22,0:00:41.00,Kanan,,0,0,0,karaoke,{\k23}hi{\k22}to {\k22}ga {\k67}mi{\k22}ta{\kf87}ra{\k66} {\k43}o{\k23}na{\k23}ji {\k21}ni {\k68}mi{\k21}e{\k70}chau
+Comment: 0,0:00:42.17,0:00:43.18,Dia,,0,0,0,karaoke,{\k34}sa{\k22}ra {\k22}ni {\k23}ne
+Comment: 0,0:00:43.11,0:00:44.46,Choir,,0,0,0,karaoke,{\k28}ji{\k22}bu{\k22}n {\k63}no
+Comment: 0,0:00:44.46,0:00:46.48,Dia,,0,0,0,karaoke,{\k22}ki{\k37}jun {\k32}ga {\k21}a{\k24}ya{\k44}fu{\k22}ya
+Comment: 0,0:00:46.48,0:00:49.13,Dia,,0,0,0,karaoke,{\kf109}son{\k24}na {\k21}to{\kf111}ki
+Comment: 0,0:00:50.00,0:00:55.30,Aqours,,0,0,0,karaoke,{\k45}koc{\k44}chi {\k31}da {\k34}yot{\k23}te {\k66}it{\k21}te {\k34}ku{\k33}re{\k23}ta {\k67}MY {\kf109}FRIEND
+Comment: 0,0:00:56.31,0:01:00.00,Chika,,0,0,0,karaoke,{\k31}ko{\k24}ta{\k21}e {\k66}wa {\k22}ta{\k88}bun {\k32}ryou{\k36}hou {\k49}de
+Comment: 0,0:01:00.59,0:01:04.60,Riko,,0,0,0,karaoke,{\k34}yu{\k33}re{\k20}ru {\k35}ko{\k33}ko{\k23}ro {\k66}no {\k47}ma{\k18}yo{\k23}i {\k69}wo
+Comment: 0,0:01:04.79,0:01:07.22,You,,0,0,0,karaoke,{\k43}wa{\k22}ra{\k24}t{\k21}te {\k44}ku{\k23}re{\k66}ru
+Comment: 0,0:01:07.41,0:01:08.14,You,,0,0,0,karaoke,{\k13}ki{\k11}mi {\k66}no
+Comment: 0,0:01:08.31,0:01:09.03,Choir,,0,0,0,karaoke,{\k11}ko{\k12}to {\k65}ga
+Comment: 0,0:01:09.19,0:01:09.91,You,,0,0,0,karaoke,{\k14}ki{\k9}mi {\k65}no
+Comment: 0,0:01:10.07,0:01:10.57,Choir,,0,0,0,karaoke,{\k12}ko{\k11}to {\k89}ga
+Comment: 0,0:01:11.19,0:01:13.72,Aqours,,0,0,0,karaoke,{\k43}da{\k44}i{\k32}su{\k35}ki {\kf99}sa
+Comment: 0,0:01:13.99,0:01:17.57,Aqours,,0,0,0,karaoke,{\k23}HUM{\k49}MING {\kf112}DAY {\k41}na{\k22}ni {\k27}shi{\k19}yo{\k22}u {\k43}ka
+Comment: 0,0:01:15.15,0:01:16.25,Choir,,0,0,0,karaoke,{\k44}Oh {\k66}Yeah !
+Comment: 0,0:01:17.57,0:01:20.89,Aqours,,0,0,0,karaoke,{\k23}HUM{\k44}MING {\kf110}DAY {\k45}nan{\k22}de{\k21}mo {\k22}i{\k21}i {\k24}yo
+Comment: 0,0:01:18.67,0:01:19.79,Choir,,0,0,0,karaoke,{\k45}Oh {\k67}Yeah !
+Comment: 0,0:01:21.11,0:01:24.86,Aqours,,0,0,0,karaoke,{\k22}ta{\k18}to{\k26}e{\k45}ba{\k89} {\k41}oo{\k35}ki{\k33}na {\k22}ko{\k44}to
+Comment: 0,0:01:22.21,0:01:23.45,Choir,,0,0,0,karaoke,{\k45}mot{\k79}to
+Comment: 0,0:01:25.74,0:01:27.98,Aqours,,0,0,0,karaoke,{\k43}son{\k45}na {\k43}ki {\k25}ga {\k22}shi{\k21}te{\k25}ru
+Comment: 0,0:01:28.17,0:01:31.52,Aqours,,0,0,0,karaoke,{\k23}HUM{\k44}MING {\kf110}DAY {\k45}ta{\k20}no{\k33}shii {\k31}mi{\k29}rai
+Comment: 0,0:01:29.26,0:01:30.36,Choir,,0,0,0,karaoke,{\k44}Oh {\k66}Yeah !
+Comment: 0,0:01:31.69,0:01:36.81,Aqours,,0,0,0,karaoke,{\k23}HUM{\k44}MING {\kf110}DAY {\k23}sa{\k22}ga{\k22}shi {\k43}ni {\k45}i{\k44}ku {\k43}ke{\kf93}do
+Comment: 0,0:01:32.80,0:01:34.12,Choir,,0,0,0,karaoke,{\k45}Oh {\k87}Yeah !
+Comment: 0,0:01:37.20,0:01:39.42,Aqours,,0,0,0,karaoke,{\k41}na{\k37}yan{\k33}jau {\k23}yo {\kf88}ne
+Comment: 0,0:01:39.87,0:01:46.52,Aqours,,0,0,0,karaoke,{\k43}u{\k45}na{\k22}zu{\k22}i{\k88}te {\k32}te {\k34}wo {\k22}tsu{\k65}nai{\kf292}da
+Comment: 0,0:01:49.13,0:01:53.59,Choir,,0,0,0,karaoke,{\k87}Oh {\kf359}Yeah !
+Comment: 0,0:01:57.00,0:02:02.36,Yoshiko,,0,0,0,karaoke,{\k73}kit{\k21}to {\kf89}sa{\k66} {\k21}fu{\k23}ju{\k22}n {\k25}na {\k19}ki{\k67}mo{\k21}chi {\kf89}ni
+Comment: 0,0:01:57.94,0:01:59.50,Choir,,0,0,0,karaoke,{\k67}kit{\k22}to {\k67}sa
+Comment: 0,0:02:01.19,0:02:03.24,Choir,,0,0,0,karaoke,{\k27}ki{\k67}mo{\k23}chi {\kf88}ni
+Comment: 0,0:02:03.46,0:02:09.28,Ruby,,0,0,0,karaoke,{\k44}nan{\k22}to {\k68}na{\k21}ku {\k65}wa{\k84} {\k39}ki{\k31}zu{\k23}i{\k22}te{\k66}run{\k24}da {\k73}yo
+Comment: 0,0:02:05.00,0:02:06.50,Choir,,0,0,0,karaoke,{\k68}na{\k21}ku {\k61}wa
+Comment: 0,0:02:10.53,0:02:14.62,Hanamaru,,0,0,0,karaoke,{\k22}ke{\k20}k{\k24}kyo{\k44}ku{\k109} {\k23}u{\k31}so {\k29}wa {\k28}tsu{\k36}ke{\k30}na{\k13}i
+Comment: 0,0:02:11.42,0:02:12.51,Choir,,0,0,0,karaoke,{\k20}ji{\k23}bu{\k21}n {\k67}ni
+Comment: 0,0:02:14.71,0:02:16.92,Hanamaru,,0,0,0,karaoke,{\kf110}son{\k23}na {\k19}to{\k69}ki
+Comment: 0,0:02:18.24,0:02:23.37,Aqours,,0,0,0,karaoke,{\k45}shik{\k33}ka{\k42}shi {\k35}nat{\k22}te {\k66}it{\k22}te {\k32}ku{\k34}re{\k22}ta {\k66}MY {\kf94}FRIEND
+Comment: 0,0:02:24.62,0:02:28.39,Chika,,0,0,0,karaoke,{\k24}ka{\k24}ku{\k20}shi{\k66}te{\k23}te{\k88}mo {\k32}hon{\k34}tou {\k66}wa
+Comment: 0,0:02:28.83,0:02:32.84,You,,0,0,0,karaoke,{\k34}na{\k32}mi{\k23}da {\k32}gu{\k33}mi {\k23}sou {\k67}na {\k44}o{\k21}mo{\k22}i {\k89}wo
+Comment: 0,0:02:33.03,0:02:35.33,Riko,,0,0,0,karaoke,{\k40}sas{\k25}shi{\k19}te {\k25}ku{\k45}re{\k24}te{\k52}ru
+Comment: 0,0:02:35.60,0:02:36.55,Riko,,0,0,0,karaoke,{\k16}ki{\k13}mi {\k66}no
+Comment: 0,0:02:36.55,0:02:37.35,Choir,,0,0,0,karaoke,{\k11}ko{\k11}to {\k58}ga
+Comment: 0,0:02:37.35,0:02:38.32,Riko,,0,0,0,karaoke,{\k19}ki{\k11}mi {\k67}no
+Comment: 0,0:02:38.32,0:02:39.42,Choir,,0,0,0,karaoke,{\k11}ko{\k11}to {\k88}ga
+Comment: 0,0:02:39.42,0:02:42.07,Aqours,,0,0,0,karaoke,{\k44}da{\k44}i{\k35}su{\k31}ki {\kf111}sa
+Comment: 0,0:02:42.25,0:02:45.59,Aqours,,0,0,0,karaoke,{\k26}ke{\k22}n{\k22}ka {\k66}mo {\k23}shi{\k32}chau {\k33}ke{\kf110}do
+Comment: 0,0:02:45.77,0:02:49.34,Aqours,,0,0,0,karaoke,{\k27}HEL{\k43}LO {\k82}SKY{\k29} {\k23}ke{\k20}n{\k24}ka {\k21}no {\k23}a{\k22}to {\k43}wa
+Comment: 0,0:02:46.92,0:02:48.25,Choir,,0,0,0,karaoke,{\k44}Oh {\k89}Yeah !
+Comment: 0,0:02:49.34,0:02:52.66,Aqours,,0,0,0,karaoke,{\k23}HEL{\k44}LO {\k110}SKY {\k45}mot{\k21}to {\k21}na{\k23}ka{\k24}yo{\k21}shi
+Comment: 0,0:02:50.44,0:02:51.55,Choir,,0,0,0,karaoke,{\k45}Oh {\k66}Yeah !
+Comment: 0,0:02:52.87,0:02:53.98,Aqours,,0,0,0,karaoke,{\k22}go{\k45}men {\k44}tte
+Comment: 0,0:02:53.98,0:02:54.86,Choir,,0,0,0,karaoke,{\k44}nan{\k44}ka
+Comment: 0,0:02:54.86,0:02:57.10,Aqours,,0,0,0,karaoke,{\k45}tsu{\k30}ta{\k35}wa{\k23}ru {\kf91}yo
+Comment: 0,0:02:57.51,0:02:59.75,Aqours,,0,0,0,karaoke,{\k44}ko{\k45}to{\k42}ba {\k23}ja{\k22}na{\k21}ku{\k27}te
+Comment: 0,0:02:59.94,0:03:03.29,Aqours,,0,0,0,karaoke,{\k22}HEL{\k44}LO {\k109}SKY {\k45}ta{\k23}no{\k32}shii {\k33}se{\k27}kai
+Comment: 0,0:03:01.03,0:03:02.13,Choir,,0,0,0,karaoke,{\k44}Oh {\k66}Yeah !
+Comment: 0,0:03:03.46,0:03:08.53,Aqours,,0,0,0,karaoke,{\k23}HEL{\k44}LO {\k109}SKY {\k45}ip{\k22}pa{\k44}i {\k46}mi{\k41}tsu{\k45}ke{\kf88}te
+Comment: 0,0:03:04.56,0:03:05.67,Choir,,0,0,0,karaoke,{\k44}Oh {\k67}Yeah !
+Comment: 0,0:03:08.97,0:03:11.22,Aqours,,0,0,0,karaoke,{\k46}o{\k32}mo{\k33}shi{\k23}ro{\k91}ku
+Comment: 0,0:03:11.62,0:03:18.00,Aqours,,0,0,0,karaoke,{\k45}shi{\k44}ta{\k44}i {\k77}ne {\k43}HUM{\k33}MIN{\k24}G {\k64}MY {\kf264}FRIEND
+Comment: 0,0:03:20.61,0:03:24.91,Aqours,,0,0,0,karaoke,{\k29}ki{\k21}me{\k22}ta{\k23}i {\k22}no {\k63}ni {\k23}ki{\k23}me{\k23}ra{\k21}re {\k22}na{\k43}kat{\k24}ta{\k71}ra
+Comment: 0,0:03:25.25,0:03:31.69,Aqours,,0,0,0,karaoke,{\k48}ki{\k45}mi {\k45}ni {\k44}sou{\k88}dan {\k89}da {\kf285}yo
+Comment: 0,0:03:52.87,0:03:56.32,Aqours,,0,0,0,karaoke,{\k23}HUM{\k45}MING {\k109}DAY {\k43}na{\k23}ni {\k18}shi{\k26}yo{\k23}u {\k35}ka
+Comment: 0,0:03:56.41,0:03:59.73,Aqours,,0,0,0,karaoke,{\k23}HUM{\k44}MING {\k110}DAY {\k45}nan{\k22}de{\k21}mo {\k22}i{\k21}i {\k24}yo
+Comment: 0,0:03:59.91,0:04:04.13,Aqours,,0,0,0,karaoke,{\k25}ko{\k21}ta{\k23}e {\k88}ga{\k40} {\k48}ip{\k30}pai {\k36}at{\k22}te {\k89}sa
+Comment: 0,0:04:04.57,0:04:06.94,Aqours,,0,0,0,karaoke,{\k44}ma{\k43}yot{\k45}te {\k22}i{\k22}te {\k21}mo {\k40}ne
+Comment: 0,0:04:06.94,0:04:10.34,Aqours,,0,0,0,karaoke,{\k27}HUM{\k44}MING {\k110}DAY {\k44}na{\k23}ni {\k21}shi{\k24}yo{\k20}u {\k27}ka
+Comment: 0,0:04:08.09,0:04:09.42,Choir,,0,0,0,karaoke,{\k43}Oh {\k90}Yeah !
+Comment: 0,0:04:10.51,0:04:13.86,Aqours,,0,0,0,karaoke,{\k23}HUM{\k44}MING {\k110}DAY {\k45}nan{\k22}de{\k21}mo {\k22}i{\k21}i {\k24}yo
+Comment: 0,0:04:11.61,0:04:12.72,Choir,,0,0,0,karaoke,{\k46}Oh {\k65}Yeah !
+Comment: 0,0:04:14.05,0:04:15.15,Aqours,,0,0,0,karaoke,{\k22}ta{\k18}to{\k26}e{\k44}ba
+Comment: 0,0:04:15.15,0:04:16.04,Choir,,0,0,0,karaoke,{\k45}mot{\k44}to
+Comment: 0,0:04:16.04,0:04:18.28,Aqours,,0,0,0,karaoke,{\k43}oo{\k33}ki{\k35}na {\k20}ko{\k46}to
+Comment: 0,0:04:18.69,0:04:20.90,Aqours,,0,0,0,karaoke,{\k43}son{\k45}na {\k42}ki {\k24}ga {\k22}shi{\k22}te{\k23}ru
+Comment: 0,0:04:21.11,0:04:24.47,Aqours,,0,0,0,karaoke,{\k23}HUM{\k44}MING {\k110}DAY {\k45}ta{\k20}no{\k33}shii {\k31}mi{\k29}rai
+Comment: 0,0:04:22.21,0:04:23.32,Choir,,0,0,0,karaoke,{\k45}Oh {\k66}Yeah !
+Comment: 0,0:04:24.64,0:04:29.75,Aqours,,0,0,0,karaoke,{\k23}HUM{\k44}MING {\k110}DAY {\k23}sa{\k22}ga{\k22}shi {\k43}ni {\k45}i{\k44}ku {\k43}ke{\kf93}do
+Comment: 0,0:04:25.74,0:04:26.90,Choir,,0,0,0,karaoke,{\k45}Oh {\k71}Yeah !
+Comment: 0,0:04:30.16,0:04:32.37,Aqours,,0,0,0,karaoke,{\k41}na{\k34}yan{\k33}jau {\k23}yo {\kf90}ne
+Comment: 0,0:04:32.81,0:04:39.45,Aqours,,0,0,0,karaoke,{\k43}u{\k45}na{\k22}zu{\k22}i{\k88}te {\k32}te {\k34}wo {\k22}tsu{\k65}nai{\kf291}da
+Comment: 0,0:04:42.07,0:04:46.48,Choir,,0,0,0,karaoke,{\k88}Oh {\kf353}Yeah !
+Comment: 0,0:04:48.84,0:04:53.13,Aqours,,0,0,0,karaoke,{\k29}ki{\k21}me{\k22}ta{\k22}i {\k23}no {\k67}ni {\k21}ki{\k21}me{\k17}ra{\k27}re {\k22}na{\k45}kat{\k22}ta{\k70}ra
+Comment: 0,0:04:53.48,0:04:59.00,Aqours,,0,0,0,karaoke,{\k49}ki{\k45}mi {\k44}ni {\k45}sou{\k88}dan... {\k87}da {\kf194}ne
+Dialogue: 0,0:00:05.60,0:00:10.78,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ki{\k22}me{\k22}ta{\k23}i {\k22}no {\k59}ni {\k30}ki{\k21}me{\k17}ra{\k27}re {\k22}na{\k45}kat{\k22}ta{\k49}ra
+Dialogue: 0,0:00:10.25,0:00:18.22,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k47}ki{\k43}mi {\k45}ni {\k45}sou{\k86}dan {\k91}da {\kf330}yo
+Dialogue: 0,0:00:27.93,0:00:30.79,Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k68}doc{\k21}chi {\k86}no
+Dialogue: 0,0:00:30.32,0:00:34.32,Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k26}fu{\k21}ku {\k23}ga {\k20}ni{\k25}a{\k64}u {\k23}ka{\k35}na
+Dialogue: 0,0:00:34.32,0:00:41.20,Kanan,,0,0,0,fx,{\k90\fad(300,200)}{\k23}hi{\k22}to {\k22}ga {\k67}mi{\k22}ta{\kf87}ra{\k66} {\k43}o{\k23}na{\k23}ji {\k21}ni {\k68}mi{\k21}e{\k70}chau
+Dialogue: 0,0:00:41.27,0:00:43.38,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\k34}sa{\k22}ra {\k22}ni {\k23}ne
+Dialogue: 0,0:00:42.21,0:00:44.66,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ji{\k22}bu{\k22}n {\k63}no
+Dialogue: 0,0:00:43.56,0:00:46.68,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ki{\k37}jun {\k32}ga {\k21}a{\k24}ya{\k44}fu{\k22}ya
+Dialogue: 0,0:00:45.58,0:00:49.33,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\kf109}son{\k24}na {\k21}to{\kf111}ki
+Dialogue: 0,0:00:49.10,0:00:55.50,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k45}koc{\k44}chi {\k31}da {\k34}yot{\k23}te {\k66}it{\k21}te {\k34}ku{\k33}re{\k23}ta {\k67}MY {\kf109}FRIEND
+Dialogue: 0,0:00:55.41,0:01:00.20,Chika,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ko{\k24}ta{\k21}e {\k66}wa {\k22}ta{\k88}bun {\k32}ryou{\k36}hou {\k49}de
+Dialogue: 0,0:00:59.69,0:01:04.80,Riko,,0,0,0,fx,{\k90\fad(300,200)}{\k34}yu{\k33}re{\k20}ru {\k35}ko{\k33}ko{\k23}ro {\k66}no {\k47}ma{\k18}yo{\k23}i {\k69}wo
+Dialogue: 0,0:01:03.89,0:01:07.42,You,,0,0,0,fx,{\k90\fad(300,200)}{\k43}wa{\k22}ra{\k24}t{\k21}te {\k44}ku{\k23}re{\k66}ru
+Dialogue: 0,0:01:06.51,0:01:08.34,You,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k11}mi {\k66}no
+Dialogue: 0,0:01:07.41,0:01:09.23,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ko{\k12}to {\k65}ga
+Dialogue: 0,0:01:08.29,0:01:10.11,You,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ki{\k9}mi {\k65}no
+Dialogue: 0,0:01:09.17,0:01:10.77,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ko{\k11}to {\k89}ga
+Dialogue: 0,0:01:10.29,0:01:13.92,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k43}da{\k44}i{\k32}su{\k35}ki {\kf99}sa
+Dialogue: 0,0:01:13.09,0:01:17.77,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k23}HUM{\k49}MING {\kf112}DAY {\k41}na{\k22}ni {\k27}shi{\k19}yo{\k22}u {\k43}ka
+Dialogue: 0,0:01:14.25,0:01:16.45,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Oh {\k66}Yeah !
+Dialogue: 0,0:01:16.67,0:01:21.09,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k23}HUM{\k44}MING {\kf110}DAY {\k45}nan{\k22}de{\k21}mo {\k22}i{\k21}i {\k24}yo
+Dialogue: 0,0:01:17.77,0:01:19.99,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Oh {\k67}Yeah !
+Dialogue: 0,0:01:20.21,0:01:25.06,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ta{\k18}to{\k26}e{\k45}ba{\k89} {\k41}oo{\k35}ki{\k33}na {\k22}ko{\k44}to
+Dialogue: 0,0:01:21.31,0:01:23.65,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k45}mot{\k79}to
+Dialogue: 0,0:01:24.84,0:01:28.18,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k43}son{\k45}na {\k43}ki {\k25}ga {\k22}shi{\k21}te{\k25}ru
+Dialogue: 0,0:01:27.27,0:01:31.72,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k23}HUM{\k44}MING {\kf110}DAY {\k45}ta{\k20}no{\k33}shii {\k31}mi{\k29}rai
+Dialogue: 0,0:01:28.36,0:01:30.56,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Oh {\k66}Yeah !
+Dialogue: 0,0:01:30.79,0:01:37.01,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k23}HUM{\k44}MING {\kf110}DAY {\k23}sa{\k22}ga{\k22}shi {\k43}ni {\k45}i{\k44}ku {\k43}ke{\kf93}do
+Dialogue: 0,0:01:31.90,0:01:34.32,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Oh {\k87}Yeah !
+Dialogue: 0,0:01:36.30,0:01:39.62,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k41}na{\k37}yan{\k33}jau {\k23}yo {\kf88}ne
+Dialogue: 0,0:01:38.97,0:01:46.72,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k43}u{\k45}na{\k22}zu{\k22}i{\k88}te {\k32}te {\k34}wo {\k22}tsu{\k65}nai{\kf292}da
+Dialogue: 0,0:01:48.23,0:01:53.79,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k87}Oh {\kf359}Yeah !
+Dialogue: 0,0:01:56.10,0:02:02.56,Yoshiko,,0,0,0,fx,{\k90\fad(300,200)}{\k73}kit{\k21}to {\kf89}sa{\k66} {\k21}fu{\k23}ju{\k22}n {\k25}na {\k19}ki{\k67}mo{\k21}chi {\kf89}ni
+Dialogue: 0,0:01:57.04,0:01:59.70,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k67}kit{\k22}to {\k67}sa
+Dialogue: 0,0:02:00.29,0:02:03.44,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ki{\k67}mo{\k23}chi {\kf88}ni
+Dialogue: 0,0:02:02.56,0:02:09.48,Ruby,,0,0,0,fx,{\k90\fad(300,200)}{\k44}nan{\k22}to {\k68}na{\k21}ku {\k65}wa{\k84} {\k39}ki{\k31}zu{\k23}i{\k22}te{\k66}run{\k24}da {\k73}yo
+Dialogue: 0,0:02:04.10,0:02:06.70,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k68}na{\k21}ku {\k61}wa
+Dialogue: 0,0:02:09.63,0:02:14.82,Hanamaru,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ke{\k20}k{\k24}kyo{\k44}ku{\k109} {\k23}u{\k31}so {\k29}wa {\k28}tsu{\k36}ke{\k30}na{\k13}i
+Dialogue: 0,0:02:10.52,0:02:12.71,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ji{\k23}bu{\k21}n {\k67}ni
+Dialogue: 0,0:02:13.81,0:02:17.12,Hanamaru,,0,0,0,fx,{\k90\fad(300,200)}{\kf110}son{\k23}na {\k19}to{\k69}ki
+Dialogue: 0,0:02:17.34,0:02:23.57,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k45}shik{\k33}ka{\k42}shi {\k35}nat{\k22}te {\k66}it{\k22}te {\k32}ku{\k34}re{\k22}ta {\k66}MY {\kf94}FRIEND
+Dialogue: 0,0:02:23.72,0:02:28.59,Chika,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ka{\k24}ku{\k20}shi{\k66}te{\k23}te{\k88}mo {\k32}hon{\k34}tou {\k66}wa
+Dialogue: 0,0:02:27.93,0:02:33.04,You,,0,0,0,fx,{\k90\fad(300,200)}{\k34}na{\k32}mi{\k23}da {\k32}gu{\k33}mi {\k23}sou {\k67}na {\k44}o{\k21}mo{\k22}i {\k89}wo
+Dialogue: 0,0:02:32.13,0:02:35.53,Riko,,0,0,0,fx,{\k90\fad(300,200)}{\k40}sas{\k25}shi{\k19}te {\k25}ku{\k45}re{\k24}te{\k52}ru
+Dialogue: 0,0:02:34.70,0:02:36.75,Riko,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ki{\k13}mi {\k66}no
+Dialogue: 0,0:02:35.65,0:02:37.55,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ko{\k11}to {\k58}ga
+Dialogue: 0,0:02:36.45,0:02:38.52,Riko,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ki{\k11}mi {\k67}no
+Dialogue: 0,0:02:37.42,0:02:39.62,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ko{\k11}to {\k88}ga
+Dialogue: 0,0:02:38.52,0:02:42.27,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k44}da{\k44}i{\k35}su{\k31}ki {\kf111}sa
+Dialogue: 0,0:02:41.35,0:02:45.79,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ke{\k22}n{\k22}ka {\k66}mo {\k23}shi{\k32}chau {\k33}ke{\kf110}do
+Dialogue: 0,0:02:44.87,0:02:49.54,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k27}HEL{\k43}LO {\k82}SKY{\k29} {\k23}ke{\k20}n{\k24}ka {\k21}no {\k23}a{\k22}to {\k43}wa
+Dialogue: 0,0:02:46.02,0:02:48.45,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Oh {\k89}Yeah !
+Dialogue: 0,0:02:48.44,0:02:52.86,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k23}HEL{\k44}LO {\k110}SKY {\k45}mot{\k21}to {\k21}na{\k23}ka{\k24}yo{\k21}shi
+Dialogue: 0,0:02:49.54,0:02:51.75,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Oh {\k66}Yeah !
+Dialogue: 0,0:02:51.97,0:02:54.18,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k22}go{\k45}men {\k44}tte
+Dialogue: 0,0:02:53.08,0:02:55.06,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k44}nan{\k44}ka
+Dialogue: 0,0:02:53.96,0:02:57.30,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k45}tsu{\k30}ta{\k35}wa{\k23}ru {\kf91}yo
+Dialogue: 0,0:02:56.61,0:02:59.95,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k44}ko{\k45}to{\k42}ba {\k23}ja{\k22}na{\k21}ku{\k27}te
+Dialogue: 0,0:02:59.04,0:03:03.49,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k22}HEL{\k44}LO {\k109}SKY {\k45}ta{\k23}no{\k32}shii {\k33}se{\k27}kai
+Dialogue: 0,0:03:00.13,0:03:02.33,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Oh {\k66}Yeah !
+Dialogue: 0,0:03:02.56,0:03:08.73,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k23}HEL{\k44}LO {\k109}SKY {\k45}ip{\k22}pa{\k44}i {\k46}mi{\k41}tsu{\k45}ke{\kf88}te
+Dialogue: 0,0:03:03.66,0:03:05.87,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Oh {\k67}Yeah !
+Dialogue: 0,0:03:08.07,0:03:11.42,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k46}o{\k32}mo{\k33}shi{\k23}ro{\k91}ku
+Dialogue: 0,0:03:10.72,0:03:18.20,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k45}shi{\k44}ta{\k44}i {\k77}ne {\k43}HUM{\k33}MIN{\k24}G {\k64}MY {\kf264}FRIEND
+Dialogue: 0,0:03:19.71,0:03:25.11,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ki{\k21}me{\k22}ta{\k23}i {\k22}no {\k63}ni {\k23}ki{\k23}me{\k23}ra{\k21}re {\k22}na{\k43}kat{\k24}ta{\k71}ra
+Dialogue: 0,0:03:24.35,0:03:31.89,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k48}ki{\k45}mi {\k45}ni {\k44}sou{\k88}dan {\k89}da {\kf285}yo
+Dialogue: 0,0:03:51.97,0:03:56.52,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k23}HUM{\k45}MING {\k109}DAY {\k43}na{\k23}ni {\k18}shi{\k26}yo{\k23}u {\k35}ka
+Dialogue: 0,0:03:55.51,0:03:59.93,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k23}HUM{\k44}MING {\k110}DAY {\k45}nan{\k22}de{\k21}mo {\k22}i{\k21}i {\k24}yo
+Dialogue: 0,0:03:59.01,0:04:04.33,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ko{\k21}ta{\k23}e {\k88}ga{\k40} {\k48}ip{\k30}pai {\k36}at{\k22}te {\k89}sa
+Dialogue: 0,0:04:03.67,0:04:07.14,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k44}ma{\k43}yot{\k45}te {\k22}i{\k22}te {\k21}mo {\k40}ne
+Dialogue: 0,0:04:06.04,0:04:10.54,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k27}HUM{\k44}MING {\k110}DAY {\k44}na{\k23}ni {\k21}shi{\k24}yo{\k20}u {\k27}ka
+Dialogue: 0,0:04:07.19,0:04:09.62,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Oh {\k90}Yeah !
+Dialogue: 0,0:04:09.61,0:04:14.06,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k23}HUM{\k44}MING {\k110}DAY {\k45}nan{\k22}de{\k21}mo {\k22}i{\k21}i {\k24}yo
+Dialogue: 0,0:04:10.71,0:04:12.92,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Oh {\k65}Yeah !
+Dialogue: 0,0:04:13.15,0:04:15.35,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ta{\k18}to{\k26}e{\k44}ba
+Dialogue: 0,0:04:14.25,0:04:16.24,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k45}mot{\k44}to
+Dialogue: 0,0:04:15.14,0:04:18.48,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k43}oo{\k33}ki{\k35}na {\k20}ko{\k46}to
+Dialogue: 0,0:04:17.79,0:04:21.10,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k43}son{\k45}na {\k42}ki {\k24}ga {\k22}shi{\k22}te{\k23}ru
+Dialogue: 0,0:04:20.21,0:04:24.67,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k23}HUM{\k44}MING {\k110}DAY {\k45}ta{\k20}no{\k33}shii {\k31}mi{\k29}rai
+Dialogue: 0,0:04:21.31,0:04:23.52,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Oh {\k66}Yeah !
+Dialogue: 0,0:04:23.74,0:04:29.95,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k23}HUM{\k44}MING {\k110}DAY {\k23}sa{\k22}ga{\k22}shi {\k43}ni {\k45}i{\k44}ku {\k43}ke{\kf93}do
+Dialogue: 0,0:04:24.84,0:04:27.10,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Oh {\k71}Yeah !
+Dialogue: 0,0:04:29.26,0:04:32.57,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k41}na{\k34}yan{\k33}jau {\k23}yo {\kf90}ne
+Dialogue: 0,0:04:31.91,0:04:39.65,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k43}u{\k45}na{\k22}zu{\k22}i{\k88}te {\k32}te {\k34}wo {\k22}tsu{\k65}nai{\kf291}da
+Dialogue: 0,0:04:41.17,0:04:46.68,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k88}Oh {\kf353}Yeah !
+Dialogue: 0,0:04:47.94,0:04:53.33,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ki{\k21}me{\k22}ta{\k22}i {\k23}no {\k67}ni {\k21}ki{\k21}me{\k17}ra{\k27}re {\k22}na{\k45}kat{\k22}ta{\k70}ra
+Dialogue: 0,0:04:52.58,0:04:59.20,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k49}ki{\k45}mi {\k44}ni {\k45}sou{\k88}dan... {\k87}da {\kf194}ne
