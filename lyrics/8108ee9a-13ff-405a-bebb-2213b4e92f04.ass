@@ -1,0 +1,202 @@
+﻿[Script Info]
+Title: Devam
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: NitroNico (Minami Uta)
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 3],Arial,24,&H00FFFFFF,&H006BD33E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Down],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,0,legend,{\c&HFFB858&}Gentleman {\c&HFFFFFF&}| {\c&H6BD33E&}Luciano {\c&HFFFFFF&}| {\c&H008AFF&}Ezhel {\c&HFFFFFF&}| {\c&H5050E2&}Background
+Comment: 0,0:00:03.32,0:00:05.12,Sample KM [Choir],,0,0,0,karaoke,{\k47}Hey, {\k27}ja-{\k23}a-{\k53}a-{\k30}a
+Comment: 0,0:00:06.57,0:00:08.49,Sample KM [Choir],,0,0,0,karaoke,{\k67}Ja, {\kf125}ah
+Comment: 0,0:00:08.67,0:00:09.67,Sample KM [Choir],,0,0,0,karaoke,{\k25}Yo, {\k25}Jug{\k13}g{\k37}lerz!
+Comment: 0,0:00:10.01,0:00:11.83,Sample KM [Choir],,0,0,0,karaoke,{\k32}Ja, {\k60}ja,{\k43} {\k24}ja{\k23}ja
+Comment: 0,0:00:13.36,0:00:16.95,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}Tu{\k26}tun{\k18}dum {\k25}ha{\k49}ya{\k41}le, {\k23}zor{\k22}luk{\k23}lar {\k22}ba{\k44}ha{\k45}ne
+Comment: 0,0:00:16.95,0:00:18.57,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}İ{\k24}ler{\k22}le, {\k25}de{\k45}vam {\k28}et
+Comment: 0,0:00:18.91,0:00:22.18,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}Ko{\k25}mik {\k19}bir {\k26}şa{\k24}ka {\k19}gi{\k22}bi {\k19}ge{\k27}lir {\k20}ba{\k21}na {\k46}zah{\k36}met
+Comment: 0,0:00:22.49,0:00:25.82,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}Et {\k20}ben{\k31}den {\k35}nef{\k38}ret, {\k29}ez {\k20}be{\k22}ni, {\k24}ya{\k44}lan {\k43}et
+Comment: 0,0:00:26.20,0:00:29.29,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}A{\k24}ma{\k44} {\k25}n'a{\k20}pı{\k25}cak{\k21}sın {\k23}dön{\k29}se {\k41}dev{\k36}ran
+Comment: 0,0:00:29.38,0:00:31.81,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}Dön{\k12}dü{\k28}ğün{\k31}de {\k37}dev{\k41}ra-{\k27}a-{\k18}a-{\k22}an?
+Comment: 0,0:00:32.49,0:00:34.59,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}Nef{\k24}re{\k19}tin{\k21}le {\k25}yal{\k28}nız {\k39}kal{\k29}dın
+Comment: 0,0:00:34.73,0:00:39.02,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}Dön{\k11}dü{\k27}ğün{\k36}de {\k34}dev{\k44}ran, {\k25}dön{\k12}dü{\k24}ğün{\k35}de {\k35}dev{\k58}ran,{\k30} {\k41}oh
+Comment: 0,0:00:39.66,0:00:42.02,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}Kin{\k20}ci{\k17}le{\k20}re {\k24}se{\k22}lam, {\k28}güç {\k19}ve{\k21}ri{\k24}rler {\k18}her
+Comment: 0,0:00:42.02,0:00:43.49,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}An {\k30}dön{\k23}se{\k11} {\k31}dev{\k27}ran
+Comment: 0,0:00:42.04,0:00:43.22,Sample KM [Choir],,0,0,0,karaoke,{\k18}Boh-{\k24}boh-{\k26}boh-{\k42}boh
+Comment: 0,0:00:43.60,0:00:44.62,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k28}Kıy{\k17}met{\k35}lim{\k24}sin
+Comment: 0,0:00:44.44,0:00:45.09,Sample KM [Choir],,0,0,0,karaoke,{\k65}Mwuah
+Comment: 0,0:00:45.19,0:00:46.55,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k13}Doch {\k17}ich {\k12}hab' {\k13}kei{\k10}ne {\k39}Zeit {\k50}jetzt
+Comment: 0,0:00:46.27,0:00:46.83,Sample KM [Choir],,0,0,0,karaoke,{\k56}Flex
+Comment: 0,0:00:47.15,0:00:48.46,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k23}On {\k22}my {\k30}way, {\k15}ih-{\k41}yеah
+Comment: 0,0:00:48.42,0:00:48.94,Sample KM [Choir],,0,0,0,karaoke,{\k11}Ih-{\k41}yeah
+Comment: 0,0:00:48.97,0:00:50.26,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k17}Ha{\k23}yal{\k26}ler, {\k21}ich {\k50}leb'
+Comment: 0,0:00:50.20,0:00:50.69,Sample KM [Choir],,0,0,0,karaoke,{\k49}Flеx
+Comment: 0,0:00:50.48,0:00:51.87,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k22}On {\k22}top, {\k12}denn {\k13}ich {\k17}leb' {\k22}mein'n {\k31}Traum
+Comment: 0,0:00:52.01,0:00:53.66,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k24}Fahr' {\k24}durch {\k18}Block {\k13}in '{\k13}nem {\k20}full-{\k22}black {\k31}Ghost
+Comment: 0,0:00:52.02,0:00:52.36,Sample KM [Choir],,0,0,0,karaoke,{\k34}Grr
+Comment: 0,0:00:53.81,0:00:54.90,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k24}Wollt {\k17}nur {\k26}raus {\k9}und {\k15}ich {\k18}mach'
+Comment: 0,0:00:55.14,0:00:57.30,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k20}Heu{\k10}te {\k13}Ge{\k23}schäft, {\k24}full {\k20}Gold, {\k11}mei{\k10}ne {\k27}Chain {\k22}iced-{\k36}out
+Comment: 0,0:00:56.70,0:00:57.30,Sample KM [Choir],,0,0,0,karaoke,{\k24}Boh-{\k40}boh
+Comment: 0,0:00:57.82,0:00:59.16,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k18}Steh' {\k10}zu {\k16}mei'm {\k22}Wort, {\k24}Kar{\k44}deş
+Comment: 0,0:00:59.01,0:00:59.34,Sample KM [Choir],,0,0,0,karaoke,{\k14}Ba{\k19}ba
+Comment: 0,0:00:59.56,0:01:00.91,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k21}Trotz {\k12}all {\k14}dem {\k11}Geld{\k11} {\k14}bleib'{\k11} {\k41}echt
+Comment: 0,0:01:00.92,0:01:01.22,Sample KM [Choir],,0,0,0,karaoke,{\k30}Skrr
+Comment: 0,0:01:01.23,0:01:02.72,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k16}Ge{\k20}bro{\k11}chen, {\k13}mein {\k22}Kopf {\k22}ist {\k45}leş
+Comment: 0,0:01:02.74,0:01:03.13,Sample KM [Choir],,0,0,0,karaoke,{\k18}Ne{\k18}ro
+Comment: 0,0:01:02.99,0:01:04.53,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k15}Ge{\k16}bro{\k17}chen, {\k12}mein {\k24}Herz {\k21}ist {\k49}leş
+Comment: 0,0:01:04.31,0:01:05.42,Sample KM [Choir],,0,0,0,karaoke,{\k21}Mein {\k26}Herz {\k14}ist {\k50}leş
+Comment: 0,0:01:04.51,0:01:04.84,Sample KM [Choir],,0,0,0,karaoke,{\k33}Grr
+Comment: 0,0:01:05.27,0:01:06.12,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k28}Yeah, {\k26}yeah, {\k31}yeah
+Comment: 0,0:01:06.26,0:01:07.13,Sample KM [Choir],,0,0,0,karaoke,{\k12}Ne{\k40}ro, {\k35}Flex
+Comment: 0,0:01:07.55,0:01:08.32,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k21}Frü{\k14}her {\k16}so {\k26}broke
+Comment: 0,0:01:08.32,0:01:10.04,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k15}Doch {\k20}heu{\k8}te {\k22}woll'n {\k9}die {\k16}Mem{\k14}ber {\k34}Sel{\k34}fie
+Comment: 0,0:01:09.69,0:01:10.36,Sample KM [Choir],,0,0,0,karaoke,{\k67}Flex
+Comment: 0,0:01:10.58,0:01:12.26,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k14}Es {\k20}war {\k19}mein {\k24}Traum, {\k15}doch {\k9}die {\k11}Wun{\k11}den {\k21}sind {\k14}tief
+Comment: 0,0:01:12.26,0:01:13.48,Sample KM Duo [Voice 3],,0,0,0,karaoke,{\k23}Mein {\k21}Bro, {\k25}ver{\k36}gess {\k17}nie
+Comment: 0,0:01:13.63,0:01:14.25,Sample KM [Choir],,0,0,0,karaoke,{\k17}Boh-{\k45}boh
+Comment: 0,0:01:13.81,0:01:17.37,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}Tu{\k23}tun{\k21}dum {\k24}ha{\k50}ya{\k41}le, {\k25}zor{\k17}luk{\k24}lar {\k28}ba{\k38}ha{\k43}ne
+Comment: 0,0:01:17.37,0:01:19.03,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}İ{\k27}ler{\k22}le, {\k25}de{\k44}vam {\k31}et
+Comment: 0,0:01:19.36,0:01:22.59,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}Ko{\k25}mik {\k19}bir {\k26}şa{\k24}ka {\k19}gi{\k22}bi {\k23}ge{\k21}lir {\k23}ba{\k21}na {\k46}zah{\k32}met
+Comment: 0,0:01:22.95,0:01:26.23,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}Et {\k24}ben{\k31}den {\k34}nef{\k39}ret, {\k30}ez {\k20}be{\k22}ni, {\k24}ya{\k41}lan {\k40}et
+Comment: 0,0:01:26.65,0:01:29.72,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}A{\k24}ma{\k44} {\k25}n'a{\k20}pı{\k23}cak{\k23}sın {\k23}dön{\k29}se {\k41}dev{\k34}ran
+Comment: 0,0:01:29.82,0:01:32.39,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}Dön{\k12}dü{\k28}ğün{\k34}de {\k37}dev{\k36}ra-{\k26}a-{\k23}a-{\k34}an?
+Comment: 0,0:01:32.94,0:01:35.03,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}Nef{\k24}re{\k21}tin{\k21}le {\k29}yal{\k26}nız {\k40}kal{\k27}dın
+Comment: 0,0:01:35.16,0:01:39.52,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}Dön{\k11}dü{\k27}ğün{\k39}de {\k34}dev{\k42}ran, {\k25}dön{\k12}dü{\k24}ğün{\k35}de {\k35}dev{\k58}ran,{\k30} {\k38}oh
+Comment: 0,0:01:40.08,0:01:42.47,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}Kin{\k23}ci{\k18}le{\k20}re {\k24}se{\k22}lam, {\k28}güç {\k16}ve{\k22}rir{\k23}ler {\k20}her
+Comment: 0,0:01:42.47,0:01:44.01,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}An {\k30}dön{\k23}se{\k11} {\k31}dev{\k34}ran
+Comment: 0,0:01:43.54,0:01:44.95,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k10}Ich {\k13}hab' {\k13}nie {\k16}ge{\k18}macht, {\k13}was {\k11}ich {\k30}soll{\k17}te
+Comment: 0,0:01:44.95,0:01:45.38,Sample KM [Choir],,0,0,0,karaoke,{\k43}No
+Comment: 0,0:01:45.38,0:01:46.70,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k10}Im{\k12}mer {\k12}nur {\k12}ge{\k14}tan, {\k12}was {\k15}ich {\k27}woll{\k18}te
+Comment: 0,0:01:46.72,0:01:47.16,Sample KM [Choir],,0,0,0,karaoke,{\k44}No
+Comment: 0,0:01:47.33,0:01:49.19,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k15}Fall' {\k13}to{\k15}tal {\k15}aus {\k13}der {\k15}Rol{\k12}le {\k11}und {\k22}tanz' {\k14}aus {\k15}der {\k13}Rei{\k13}he
+Comment: 0,0:01:49.19,0:01:50.59,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k17}So {\k19}ganz {\k11}von {\k15}al{\k24}lei{\k23}ne, {\k31}yeah
+Comment: 0,0:01:50.93,0:01:52.20,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k14}Und {\k11}ich {\k15}lass' {\k16}mich {\k13}nicht {\k23}ein{\k35}eng'n
+Comment: 0,0:01:52.20,0:01:52.59,Sample KM [Choir],,0,0,0,karaoke,{\k18}Ne{\k21}ver
+Comment: 0,0:01:52.59,0:01:53.95,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k9}In {\k11}die{\k12}ses {\k19}Kon{\k15}zept {\k14}hier {\k22}rein{\k34}zwäng'n
+Comment: 0,0:01:54.49,0:01:55.84,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k15}Gro{\k11}ße {\k15}Frei{\k16}heit, {\k14}ich {\k12}su{\k12}che {\k14}das {\k17}Wei{\k9}te
+Comment: 0,0:01:55.84,0:01:57.77,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k17}Ein {\k19}klei{\k12}nes {\k14}Stück {\k17}Land {\k13}auf {\k16}Big {\k23}Is{\k22}land, {\k40}yeah
+Comment: 0,0:01:58.04,0:01:59.18,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k12}Vie{\k13}len {\k16}Dank {\k14}an {\k15}die {\k31}Zweif{\k13}ler
+Comment: 0,0:01:59.18,0:01:59.48,Sample KM [Choir],,0,0,0,karaoke,{\k30}Yeah
+Comment: 0,0:01:59.35,0:02:00.96,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k10}Al{\k13}le {\k15}dach{\k14}ten, {\k12}so {\k19}komm'n {\k13}wir {\k19}nicht {\k22}wei{\k24}ter
+Comment: 0,0:02:00.96,0:02:01.59,Sample KM [Choir],,0,0,0,karaoke,{\k63}No
+Comment: 0,0:02:01.59,0:02:02.54,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k14}All {\k9}die {\k15}Has{\k14}ser {\k16}und {\k14}Nei{\k13}der
+Comment: 0,0:02:02.54,0:02:04.44,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k17}Denn {\k16}oh{\k13}ne {\k19}euch {\k13}wä{\k11}re {\k19}ich {\k12}da{\k18}mals {\k12}ge{\k23}schei{\k17}tert
+Comment: 0,0:02:04.49,0:02:05.15,Sample KM [Choir],,0,0,0,karaoke,{\k21}Oh, {\k24}na, {\k21}na
+Comment: 0,0:02:05.15,0:02:06.28,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k12}Al{\k11}le {\k14}woll'n {\k13}den {\k16}Weg {\k27}wei{\k20}sen
+Comment: 0,0:02:06.66,0:02:08.28,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k18}Schwer {\k17}sich {\k14}für 'n {\k20}Pfad {\k16}zu {\k17}ent{\k26}schei{\k34}den
+Comment: 0,0:02:08.03,0:02:08.80,Sample KM [Choir],,0,0,0,karaoke,{\k26}No, {\k26}no, {\k25}no
+Comment: 0,0:02:08.71,0:02:09.67,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k9}Wo {\k15}die {\k19}Stra{\k11}ßen {\k13}sich {\k22}kreu{\k7}zen
+Comment: 0,0:02:09.67,0:02:10.50,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k7}Und {\k11}ich {\k16}will {\k15}kei{\k12}nen {\k22}Rat
+Comment: 0,0:02:10.50,0:02:11.60,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k10}Lie{\k11}ber {\k8}'n {\k12}paar {\k13}neu{\k12}e {\k26}Rei{\k18}fen
+Comment: 0,0:02:10.72,0:02:14.25,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}Tu{\k24}tun{\k21}dum {\k26}ha{\k46}ya{\k41}le, {\k25}zor{\k20}luk{\k24}lar {\k22}ba{\k45}ha{\k40}ne
+Comment: 0,0:02:14.26,0:02:15.87,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}İ{\k26}ler{\k22}le, {\k25}de{\k42}vam {\k27}et
+Comment: 0,0:02:16.28,0:02:19.49,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}Ko{\k21}mik {\k23}bir {\k24}şa{\k24}ka {\k19}gi{\k22}bi {\k19}ge{\k21}lir {\k26}ba{\k21}na {\k46}zah{\k33}met
+Comment: 0,0:02:19.85,0:02:23.17,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}Et {\k24}ben{\k31}den {\k32}nef{\k41}ret, {\k29}ez {\k20}be{\k20}ni, {\k26}ya{\k41}lan {\k45}et
+Comment: 0,0:02:23.54,0:02:26.61,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}A{\k24}ma{\k44} {\k25}n'a{\k20}pı{\k22}cak{\k24}sın {\k23}dön{\k29}se {\k41}dev{\k34}ran
+Comment: 0,0:02:26.71,0:02:29.30,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}Dön{\k12}dü{\k28}ğün{\k33}de {\k38}dev{\k38}ra-{\k24}a-{\k22}a-{\k37}an?
+Comment: 0,0:02:29.83,0:02:31.94,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}Nef{\k24}re{\k21}tin{\k21}le {\k26}yal{\k28}nız {\k38}kal{\k31}dın
+Comment: 0,0:02:32.05,0:02:36.43,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}Dön{\k11}dü{\k27}ğün{\k40}de {\k34}dev{\k40}ran, {\k25}dön{\k12}dü{\k29}ğün{\k33}de {\k32}dev{\k58}ran,{\k31} {\k40}oh
+Comment: 0,0:02:36.98,0:02:39.37,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}Kin{\k22}ci{\k15}le{\k27}re {\k24}se{\k22}lam, {\k22}güç {\k19}ve{\k21}ri{\k24}rler {\k20}her
+Comment: 0,0:02:39.37,0:02:40.88,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}An {\k26}dön{\k23}se{\k11} {\k31}dev{\k33}ran
+Dialogue: 0,0:00:02.42,0:00:05.32,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Hey, {\k27}ja-{\k23}a-{\k53}a-{\k30}a
+Dialogue: 0,0:00:05.67,0:00:08.69,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k67}Ja, {\kf125}ah
+Dialogue: 0,0:00:07.77,0:00:09.87,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Yo, {\k25}Jug{\k13}g{\k37}lerz!
+Dialogue: 0,0:00:09.11,0:00:12.03,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Ja, {\k60}ja,{\k43} {\k24}ja{\k23}ja
+Dialogue: 0,0:00:12.46,0:00:17.15,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Tu{\k26}tun{\k18}dum {\k25}ha{\k49}ya{\k41}le, {\k23}zor{\k22}luk{\k23}lar {\k22}ba{\k44}ha{\k45}ne
+Dialogue: 0,0:00:16.05,0:00:18.77,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}İ{\k24}ler{\k22}le, {\k25}de{\k45}vam {\k28}et
+Dialogue: 0,0:00:18.01,0:00:22.38,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ko{\k25}mik {\k19}bir {\k26}şa{\k24}ka {\k19}gi{\k22}bi {\k19}ge{\k27}lir {\k20}ba{\k21}na {\k46}zah{\k36}met
+Dialogue: 0,0:00:21.59,0:00:26.02,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Et {\k20}ben{\k31}den {\k35}nef{\k38}ret, {\k29}ez {\k20}be{\k22}ni, {\k24}ya{\k44}lan {\k43}et
+Dialogue: 0,0:00:25.30,0:00:29.49,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}A{\k24}ma{\k44} {\k25}n'a{\k20}pı{\k25}cak{\k21}sın {\k23}dön{\k29}se {\k41}dev{\k36}ran
+Dialogue: 0,0:00:28.48,0:00:32.01,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Dön{\k12}dü{\k28}ğün{\k31}de {\k37}dev{\k41}ra-{\k27}a-{\k18}a-{\k22}an?
+Dialogue: 0,0:00:31.59,0:00:34.79,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Nef{\k24}re{\k19}tin{\k21}le {\k25}yal{\k28}nız {\k39}kal{\k29}dın
+Dialogue: 0,0:00:33.83,0:00:39.22,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Dön{\k11}dü{\k27}ğün{\k36}de {\k34}dev{\k44}ran, {\k25}dön{\k12}dü{\k24}ğün{\k35}de {\k35}dev{\k58}ran,{\k30} {\k41}oh
+Dialogue: 0,0:00:38.76,0:00:42.22,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Kin{\k20}ci{\k17}le{\k20}re {\k24}se{\k22}lam, {\k28}güç {\k19}ve{\k21}ri{\k24}rler {\k18}her
+Dialogue: 0,0:00:41.12,0:00:43.69,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k25}An {\k30}dön{\k23}se{\k11} {\k31}dev{\k27}ran
+Dialogue: 0,0:00:41.14,0:00:43.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Boh-{\k24}boh-{\k26}boh-{\k42}boh
+Dialogue: 0,0:00:42.70,0:00:44.82,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Kıy{\k17}met{\k35}lim{\k24}sin
+Dialogue: 0,0:00:43.54,0:00:45.29,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Mwuah
+Dialogue: 0,0:00:44.29,0:00:46.75,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Doch {\k17}ich {\k12}hab' {\k13}kei{\k10}ne {\k39}Zeit {\k50}jetzt
+Dialogue: 0,0:00:45.37,0:00:47.03,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k56}Flex
+Dialogue: 0,0:00:46.25,0:00:48.66,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k23}On {\k22}my {\k30}way, {\k15}ih-{\k41}yеah
+Dialogue: 0,0:00:47.52,0:00:49.14,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Ih-{\k41}yeah
+Dialogue: 0,0:00:48.07,0:00:50.46,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ha{\k23}yal{\k26}ler, {\k21}ich {\k50}leb'
+Dialogue: 0,0:00:49.30,0:00:50.89,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Flеx
+Dialogue: 0,0:00:49.58,0:00:52.07,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k22}On {\k22}top, {\k12}denn {\k13}ich {\k17}leb' {\k22}mein'n {\k31}Traum
+Dialogue: 0,0:00:51.11,0:00:53.86,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Fahr' {\k24}durch {\k18}Block {\k13}in '{\k13}nem {\k20}full-{\k22}black {\k31}Ghost
+Dialogue: 0,0:00:51.12,0:00:52.56,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Grr
+Dialogue: 0,0:00:52.91,0:00:55.10,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Wollt {\k17}nur {\k26}raus {\k9}und {\k15}ich {\k18}mach'
+Dialogue: 0,0:00:54.24,0:00:57.50,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Heu{\k10}te {\k13}Ge{\k23}schäft, {\k24}full {\k20}Gold, {\k11}mei{\k10}ne {\k27}Chain {\k22}iced-{\k36}out
+Dialogue: 0,0:00:55.80,0:00:57.50,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Boh-{\k40}boh
+Dialogue: 0,0:00:56.92,0:00:59.36,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Steh' {\k10}zu {\k16}mei'm {\k22}Wort, {\k24}Kar{\k44}deş
+Dialogue: 0,0:00:58.11,0:00:59.54,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ba{\k19}ba
+Dialogue: 0,0:00:58.66,0:01:01.11,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Trotz {\k12}all {\k14}dem {\k11}Geld{\k11} {\k14}bleib'{\k11} {\k41}echt
+Dialogue: 0,0:01:00.02,0:01:01.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Skrr
+Dialogue: 0,0:01:00.33,0:01:02.92,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ge{\k20}bro{\k11}chen, {\k13}mein {\k22}Kopf {\k22}ist {\k45}leş
+Dialogue: 0,0:01:01.84,0:01:03.33,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ne{\k18}ro
+Dialogue: 0,0:01:02.09,0:01:04.73,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Ge{\k16}bro{\k17}chen, {\k12}mein {\k24}Herz {\k21}ist {\k49}leş
+Dialogue: 0,0:01:03.41,0:01:05.62,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Mein {\k26}Herz {\k14}ist {\k50}leş
+Dialogue: 0,0:01:03.61,0:01:05.04,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Grr
+Dialogue: 0,0:01:04.37,0:01:06.32,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Yeah, {\k26}yeah, {\k31}yeah
+Dialogue: 0,0:01:05.36,0:01:07.33,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Ne{\k40}ro, {\k35}Flex
+Dialogue: 0,0:01:06.65,0:01:08.52,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Frü{\k14}her {\k16}so {\k26}broke
+Dialogue: 0,0:01:07.42,0:01:10.24,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Doch {\k20}heu{\k8}te {\k22}woll'n {\k9}die {\k16}Mem{\k14}ber {\k34}Sel{\k34}fie
+Dialogue: 0,0:01:08.79,0:01:10.56,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k67}Flex
+Dialogue: 0,0:01:09.68,0:01:12.46,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Es {\k20}war {\k19}mein {\k24}Traum, {\k15}doch {\k9}die {\k11}Wun{\k11}den {\k21}sind {\k14}tief
+Dialogue: 0,0:01:11.36,0:01:13.68,Sample KM Duo [Voice 3],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Mein {\k21}Bro, {\k25}ver{\k36}gess {\k17}nie
+Dialogue: 0,0:01:12.73,0:01:14.45,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Boh-{\k45}boh
+Dialogue: 0,0:01:12.91,0:01:17.57,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Tu{\k23}tun{\k21}dum {\k24}ha{\k50}ya{\k41}le, {\k25}zor{\k17}luk{\k24}lar {\k28}ba{\k38}ha{\k43}ne
+Dialogue: 0,0:01:16.47,0:01:19.23,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k17}İ{\k27}ler{\k22}le, {\k25}de{\k44}vam {\k31}et
+Dialogue: 0,0:01:18.46,0:01:22.79,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ko{\k25}mik {\k19}bir {\k26}şa{\k24}ka {\k19}gi{\k22}bi {\k23}ge{\k21}lir {\k23}ba{\k21}na {\k46}zah{\k32}met
+Dialogue: 0,0:01:22.05,0:01:26.43,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Et {\k24}ben{\k31}den {\k34}nef{\k39}ret, {\k30}ez {\k20}be{\k22}ni, {\k24}ya{\k41}lan {\k40}et
+Dialogue: 0,0:01:25.75,0:01:29.92,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}A{\k24}ma{\k44} {\k25}n'a{\k20}pı{\k23}cak{\k23}sın {\k23}dön{\k29}se {\k41}dev{\k34}ran
+Dialogue: 0,0:01:28.92,0:01:32.59,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Dön{\k12}dü{\k28}ğün{\k34}de {\k37}dev{\k36}ra-{\k26}a-{\k23}a-{\k34}an?
+Dialogue: 0,0:01:32.04,0:01:35.23,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Nef{\k24}re{\k21}tin{\k21}le {\k29}yal{\k26}nız {\k40}kal{\k27}dın
+Dialogue: 0,0:01:34.26,0:01:39.72,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Dön{\k11}dü{\k27}ğün{\k39}de {\k34}dev{\k42}ran, {\k25}dön{\k12}dü{\k24}ğün{\k35}de {\k35}dev{\k58}ran,{\k30} {\k38}oh
+Dialogue: 0,0:01:39.18,0:01:42.67,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Kin{\k23}ci{\k18}le{\k20}re {\k24}se{\k22}lam, {\k28}güç {\k16}ve{\k22}rir{\k23}ler {\k20}her
+Dialogue: 0,0:01:41.57,0:01:44.21,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k25}An {\k30}dön{\k23}se{\k11} {\k31}dev{\k34}ran
+Dialogue: 0,0:01:42.64,0:01:45.15,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Ich {\k13}hab' {\k13}nie {\k16}ge{\k18}macht, {\k13}was {\k11}ich {\k30}soll{\k17}te
+Dialogue: 0,0:01:44.05,0:01:45.58,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}No
+Dialogue: 0,0:01:44.48,0:01:46.90,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Im{\k12}mer {\k12}nur {\k12}ge{\k14}tan, {\k12}was {\k15}ich {\k27}woll{\k18}te
+Dialogue: 0,0:01:45.82,0:01:47.36,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}No
+Dialogue: 0,0:01:46.43,0:01:49.39,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Fall' {\k13}to{\k15}tal {\k15}aus {\k13}der {\k15}Rol{\k12}le {\k11}und {\k22}tanz' {\k14}aus {\k15}der {\k13}Rei{\k13}he
+Dialogue: 0,0:01:48.29,0:01:50.79,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k17}So {\k19}ganz {\k11}von {\k15}al{\k24}lei{\k23}ne, {\k31}yeah
+Dialogue: 0,0:01:50.03,0:01:52.40,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Und {\k11}ich {\k15}lass' {\k16}mich {\k13}nicht {\k23}ein{\k35}eng'n
+Dialogue: 0,0:01:51.30,0:01:52.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ne{\k21}ver
+Dialogue: 0,0:01:51.69,0:01:54.15,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k9}In {\k11}die{\k12}ses {\k19}Kon{\k15}zept {\k14}hier {\k22}rein{\k34}zwäng'n
+Dialogue: 0,0:01:53.59,0:01:56.04,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Gro{\k11}ße {\k15}Frei{\k16}heit, {\k14}ich {\k12}su{\k12}che {\k14}das {\k17}Wei{\k9}te
+Dialogue: 0,0:01:54.94,0:01:57.97,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ein {\k19}klei{\k12}nes {\k14}Stück {\k17}Land {\k13}auf {\k16}Big {\k23}Is{\k22}land, {\k40}yeah
+Dialogue: 0,0:01:57.14,0:01:59.38,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Vie{\k13}len {\k16}Dank {\k14}an {\k15}die {\k31}Zweif{\k13}ler
+Dialogue: 0,0:01:58.28,0:01:59.68,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Yeah
+Dialogue: 0,0:01:58.45,0:02:01.16,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Al{\k13}le {\k15}dach{\k14}ten, {\k12}so {\k19}komm'n {\k13}wir {\k19}nicht {\k22}wei{\k24}ter
+Dialogue: 0,0:02:00.06,0:02:01.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k63}No
+Dialogue: 0,0:02:00.69,0:02:02.74,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k14}All {\k9}die {\k15}Has{\k14}ser {\k16}und {\k14}Nei{\k13}der
+Dialogue: 0,0:02:01.64,0:02:04.64,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Denn {\k16}oh{\k13}ne {\k19}euch {\k13}wä{\k11}re {\k19}ich {\k12}da{\k18}mals {\k12}ge{\k23}schei{\k17}tert
+Dialogue: 0,0:02:03.59,0:02:05.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Oh, {\k24}na, {\k21}na
+Dialogue: 0,0:02:04.25,0:02:06.48,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Al{\k11}le {\k14}woll'n {\k13}den {\k16}Weg {\k27}wei{\k20}sen
+Dialogue: 0,0:02:05.76,0:02:08.48,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Schwer {\k17}sich {\k14}für 'n {\k20}Pfad {\k16}zu {\k17}ent{\k26}schei{\k34}den
+Dialogue: 0,0:02:07.13,0:02:09.00,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}No, {\k26}no, {\k25}no
+Dialogue: 0,0:02:07.81,0:02:09.87,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Wo {\k15}die {\k19}Stra{\k11}ßen {\k13}sich {\k22}kreu{\k7}zen
+Dialogue: 0,0:02:08.77,0:02:10.70,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k7}Und {\k11}ich {\k16}will {\k15}kei{\k12}nen {\k22}Rat
+Dialogue: 0,0:02:09.60,0:02:11.80,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Lie{\k11}ber {\k8}'n {\k12}paar {\k13}neu{\k12}e {\k26}Rei{\k18}fen
+Dialogue: 0,0:02:09.82,0:02:14.45,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Tu{\k24}tun{\k21}dum {\k26}ha{\k46}ya{\k41}le, {\k25}zor{\k20}luk{\k24}lar {\k22}ba{\k45}ha{\k40}ne
+Dialogue: 0,0:02:13.36,0:02:16.07,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}İ{\k26}ler{\k22}le, {\k25}de{\k42}vam {\k27}et
+Dialogue: 0,0:02:15.38,0:02:19.69,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ko{\k21}mik {\k23}bir {\k24}şa{\k24}ka {\k19}gi{\k22}bi {\k19}ge{\k21}lir {\k26}ba{\k21}na {\k46}zah{\k33}met
+Dialogue: 0,0:02:18.95,0:02:23.37,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Et {\k24}ben{\k31}den {\k32}nef{\k41}ret, {\k29}ez {\k20}be{\k20}ni, {\k26}ya{\k41}lan {\k45}et
+Dialogue: 0,0:02:22.64,0:02:26.81,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}A{\k24}ma{\k44} {\k25}n'a{\k20}pı{\k22}cak{\k24}sın {\k23}dön{\k29}se {\k41}dev{\k34}ran
+Dialogue: 0,0:02:25.81,0:02:29.50,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Dön{\k12}dü{\k28}ğün{\k33}de {\k38}dev{\k38}ra-{\k24}a-{\k22}a-{\k37}an?
+Dialogue: 0,0:02:28.93,0:02:32.14,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Nef{\k24}re{\k21}tin{\k21}le {\k26}yal{\k28}nız {\k38}kal{\k31}dın
+Dialogue: 0,0:02:31.15,0:02:36.63,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Dön{\k11}dü{\k27}ğün{\k40}de {\k34}dev{\k40}ran, {\k25}dön{\k12}dü{\k29}ğün{\k33}de {\k32}dev{\k58}ran,{\k31} {\k40}oh
+Dialogue: 0,0:02:36.08,0:02:39.57,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Kin{\k22}ci{\k15}le{\k27}re {\k24}se{\k22}lam, {\k22}güç {\k19}ve{\k21}ri{\k24}rler {\k20}her
+Dialogue: 0,0:02:38.47,0:02:41.08,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}An {\k26}dön{\k23}se{\k11} {\k31}dev{\k33}ran
