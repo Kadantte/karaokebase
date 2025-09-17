@@ -1,0 +1,299 @@
+﻿[Script Info]
+Title: Wahrheit
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,0,legend,{\c&H008AFF&}Abronsius {\c&HFFFFFF&}| {\c&HFFB858&}Others {\c&HFFFFFF&}| {\c&HEB4DC1&\i1}All{\i0}
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 700 and -$start or -700,200)!{!$start < 700 and "\\k" .. ($start/10) or "\\k70"!\fad(!$start < 700 and $start or 300!,200)}
+Comment: 0,0:00:00.45,0:00:03.47,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k39}Wie {\k59}scha{\k34}de, {\k37}dass {\k33}der {\k34}Herr {\k24}schon {\k42}ging
+Comment: 0,0:00:03.88,0:00:06.02,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}Wer {\k25}ist {\k32}das {\k41}denn {\k21}ge{\k40}we{\k37}sen?
+Comment: 0,0:00:06.34,0:00:07.63,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k52}Ein {\k32}Krüp{\k45}pel
+Comment: 0,0:00:07.73,0:00:12.83,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}Doch {\k28}sie {\k31}fürch{\k20}ten {\k47}ihn!{\k16} {\k31}Das {\k39}Rät{\k27}sel{\k35} {\k18}will {\k36}ich {\k72}lö{\k84}sen
+Comment: 0,0:00:13.34,0:00:19.61,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k74}Lo{\k44}gik,{\k29} {\k70}Lo{\k35}gik,{\k21} {\k21}zur {\k38}Wahr{\k41}heit {\k38}führt {\k60}nur{\k48} {\k50}Lo{\k58}gik
+Comment: 0,0:00:20.52,0:00:24.56,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k42}Wo{\k38}vor {\k35}die{\k17}se {\k80}Angst, {\k22}vor {\k71}wem, {\k24}wa{\k75}rum?
+Comment: 0,0:00:25.19,0:00:29.27,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}Wo{\k48}her {\k36}kam {\k31}der {\k64}Mann, {\k42}was {\k24}macht {\k38}euch {\k98}stumm?
+Comment: 0,0:00:29.85,0:00:32.18,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}Und {\k15}wer {\k16}von {\k33}euch {\k15}war {\k31}so {\k36}hunds{\k34}ge{\k36}mein
+Comment: 0,0:00:32.18,0:00:35.25,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k29}Und {\k22}schlug {\k21}mir {\k16}heut' {\k30}Nacht {\k18}fast {\k25}den {\k40}Schä{\k34}del {\k72}ein?
+Comment: 0,0:00:44.37,0:00:45.69,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}Nie{\k17}mand {\k22}kann {\k15}mich {\k15}ir{\k18}ri{\k14}tie{\k17}ren
+Comment: 0,0:00:45.69,0:00:47.04,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}Für {\k17}mich {\k18}zäh{\k18}len {\k15}nur {\k15}die {\k18}Fak{\k16}ten
+Comment: 0,0:00:47.04,0:00:48.38,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}Nie{\k14}mand {\k19}kann {\k17}mich {\k15}ir{\k17}re{\k16}füh{\k18}ren
+Comment: 0,0:00:48.38,0:00:49.70,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k15}Denn {\k14}ich {\k26}trau {\k12}nur {\k18}dem {\k14}E{\k18}xak{\k15}ten
+Comment: 0,0:00:49.70,0:00:50.75,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}Ich {\k19}such' {\k35}Wahr{\k35}heit
+Comment: 0,0:00:50.94,0:00:52.78,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k15}Und {\k20}Wahr{\k12}heit {\k20}will {\k12}im{\k24}mer {\k43}Klar{\k38}heit
+Comment: 0,0:00:53.73,0:00:55.03,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}Mein {\k16}Ver{\k18}stand {\k17}ist {\k15}un{\k14}be{\k21}stech{\k11}lich
+Comment: 0,0:00:55.08,0:00:56.41,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k15}Ich {\k20}stu{\k17}dier {\k16}das {\k17}Po{\k14}si{\k18}ti{\k16}ve
+Comment: 0,0:00:56.41,0:00:57.72,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}Ich {\k19}bin {\k16}nie{\k16}mals {\k13}o{\k15}ber{\k21}fläch{\k15}lich
+Comment: 0,0:00:57.72,0:00:59.07,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k15}Ich {\k21}seh {\k16}im{\k17}mer {\k15}in {\k15}die {\k20}Tie{\k16}fe
+Comment: 0,0:00:59.07,0:01:02.42,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}Denn {\k15}die {\k36}Wahr{\k48}heit{\k53} {\k19}will {\k12}im{\k22}mer {\k48}Klar{\k66}heit
+Comment: 0,0:01:03.07,0:01:05.76,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k35}Mein {\k29}Wis{\k28}sens{\k39}drang {\k38}kommt {\k31}nicht {\k26}zur {\k43}Ruh'
+Comment: 0,0:01:05.76,0:01:08.60,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}So{\k42}lang {\k30}noch {\k45}Zwei{\k30}fel {\k70}na{\k41}gen
+Comment: 0,0:01:08.86,0:01:11.24,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k32}Ich {\k17}las{\k17}se {\k38}kein {\k27}Ge{\k39}heim{\k33}nis {\k35}zu
+Comment: 0,0:01:11.40,0:01:14.49,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}Ich {\k36}hör {\k34}nicht {\k54}auf {\k19}zu {\k85}fra{\k61}gen
+Comment: 0,0:01:14.94,0:01:19.23,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k48}Wie {\k27}und {\k52}was {\k35}und {\k44}wer {\k32}und {\k45}wo {\k31}und {\kf115}wann?
+Comment: 0,0:01:19.54,0:01:24.40,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k50}Wie {\k30}und {\k54}was {\k28}und {\k54}wer {\k27}und {\k75}wo {\k43}und {\kf125}wann?
+Comment: 0,0:01:25.43,0:01:28.11,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k15}Al{\k19}les {\k16}ist {\k35}leicht, {\k18}wenn {\k29}der {\k18}Tag {\k16}mit {\k18}Mu{\k34}sik {\k15}be{\k35}gann
+Comment: 0,0:01:28.11,0:01:28.99,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k18}Viel {\k16}ist {\k15}er{\k39}reicht
+Comment: 0,0:01:28.99,0:01:30.61,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k14}Wenn {\k30}man {\k21}Sor{\k15}gen {\k17}ver{\k30}ges{\k17}sen {\k18}kann
+Comment: 0,0:01:30.78,0:01:33.22,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k20}Es {\k12}muss {\k21}sich {\k33}kei{\k16}ner {\k18}heut {\k33}är{\k15}gern {\k17}und {\k33}pla{\k26}gen
+Comment: 0,0:01:33.44,0:01:35.97,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k20}Es {\k15}sei {\k18}denn, {\k35}ei{\k20}ner{\k26} {\k21}stellt {\k14}dum{\k19}me {\k31}Fra{\k34}gen
+Comment: 0,0:01:41.15,0:01:44.73,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k68}Wenn {\k59}in {\k37}mir {\k35}der {\k34}Ver{\k50}dacht {\k38}er{\k37}wacht
+Comment: 0,0:01:44.73,0:01:47.55,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k31}Es {\k48}wird {\k30}mir {\k41}was {\k31}ver{\k74}schwie{\k27}gen
+Comment: 0,0:01:47.65,0:01:50.43,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k33}Ver{\k43}su{\k27}che {\k33}ich {\k34}mit {\k36}al{\k35}ler {\k37}Macht
+Comment: 0,0:01:50.43,0:01:52.59,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}Die {\k32}Wahr{\k25}heit {\k36}raus{\k21}zu{\k59}krie{\k17}gen
+Comment: 0,0:01:52.74,0:01:54.84,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}Schon {\k31}in {\k27}der {\k29}Wie{\k23}ge {\k27}fing {\k25}ich {\k25}an
+Comment: 0,0:01:54.84,0:01:56.64,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}Mein {\k33}Spiel{\k17}zeug {\k29}auf{\k13}zu{\k46}bie{\k16}gen
+Comment: 0,0:01:56.73,0:01:58.47,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}Im {\k25}un{\k22}ge{\k18}stü{\k22}men {\k18}Wis{\k21}sens{\k29}drang
+Comment: 0,0:01:58.47,0:02:01.36,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}Zer{\k24}leg{\k14}te {\k22}ich {\k14}so{\k30}gar {\k30}die {\k21}Kuc{\k38}kucks{\k78}uhr
+Comment: 0,0:02:02.61,0:02:04.10,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k32}Ob {\k18}Os{\k13}ter{\k18}has', {\k18}ob {\k13}Ni{\k15}ko{\k22}laus
+Comment: 0,0:02:04.10,0:02:05.17,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k12}Ich {\k19}ließ {\k13}mich {\k17}nicht {\k14}be{\k18}trü{\k14}gen
+Comment: 0,0:02:05.17,0:02:06.54,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k13}In {\k15}der {\k19}Schu{\k12}le {\k14}fand {\k16}ich {\k19}schnell {\k11}he{\k18}raus
+Comment: 0,0:02:06.54,0:02:07.63,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}Dass {\k14}al{\k18}le {\k18}Leh{\k15}rer {\k15}lü{\k15}gen
+Comment: 0,0:02:07.63,0:02:08.87,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}Kei{\k13}ne {\k18}Ant{\k15}wort, {\k15}die {\k12}sie {\k19}ga{\k12}ben
+Comment: 0,0:02:08.87,0:02:10.08,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}Konn{\k13}te {\k13}je{\k21}mals {\k12}mir {\k15}ge{\k18}nü{\k12}gen
+Comment: 0,0:02:10.08,0:02:11.46,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}Denn {\k14}in {\k17}Bü{\k13}chern {\k17}ein{\k11}ge{\k35}gra{\k15}ben
+Comment: 0,0:02:11.46,0:02:13.73,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}Stu{\k15}dier{\k12}te {\k15}ich {\k12}die {\k20}Rät{\k13}sel {\k11}der {\k14}Na{\kf101}tur
+Comment: 0,0:02:14.76,0:02:15.85,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}Ich {\k21}glaub {\k15}an {\k12}die {\k11}Ver{\k27}nunft
+Comment: 0,0:02:15.85,0:02:17.00,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k7}Sie {\k11}wird {\k13}am {\k16}En{\k12}de {\k12}tri{\k17}um{\k16}phie{\k11}ren
+Comment: 0,0:02:17.00,0:02:18.28,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}Und {\k13}mag {\k17}auch {\k12}die {\k12}Pro{\k12}fes{\k17}so{\k14}ren{\k15}zunft
+Comment: 0,0:02:18.28,0:02:19.21,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k10}Mein {\k11}Wis{\k18}sen {\k17}ig{\k10}no{\k15}rie{\k12}ren
+Comment: 0,0:02:19.21,0:02:20.32,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}Doch {\k16}ich {\k12}has{\k12}se {\k14}E{\k14}mo{\k17}tio{\k12}nen
+Comment: 0,0:02:20.32,0:02:21.38,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k11}Nie{\k13}mand {\k16}kann {\k14}mich {\k14}pro{\k12}vo{\k16}zie{\k10}ren
+Comment: 0,0:02:21.38,0:02:22.42,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k12}Oh{\k10}ne {\k15}je{\k14}mals {\k13}mich {\k14}zu {\k13}scho{\k13}nen
+Comment: 0,0:02:22.42,0:02:24.52,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k15}Blei{\k11}be {\k16}ich {\k11}der {\k11}Wahr{\k13}heit {\k12}im{\k13}mer {\k10}auf {\k14}der {\k84}Spur
+Comment: 0,0:02:25.43,0:02:26.46,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}Mein {\k13}Ver{\k13}stand {\k13}ist {\k11}un{\k13}be{\k16}stech{\k10}lich
+Comment: 0,0:02:26.46,0:02:27.44,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k12}Ich {\k12}stu{\k13}dier {\k12}das {\k16}Po{\k9}si{\k15}ti{\k9}ve
+Comment: 0,0:02:27.44,0:02:28.39,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k13}Ich {\k10}bin {\k12}nie{\k12}mals {\k10}o{\k9}ber{\k17}fläch{\k12}lich
+Comment: 0,0:02:28.39,0:02:29.34,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k12}Ich {\k12}seh {\k11}im{\k11}mer {\k15}in {\k10}die {\k15}Tie{\k9}fe
+Comment: 0,0:02:29.34,0:02:30.29,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k11}Denn {\k11}ich {\k15}samm{\k11}le {\k10}die {\k12}Be{\k17}wei{\k8}se
+Comment: 0,0:02:30.29,0:02:31.19,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k11}Und {\k11}be{\k14}wer{\k10}te {\k10}die {\k12}Mo{\k13}ti{\k9}ve
+Comment: 0,0:02:31.19,0:02:32.55,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k10}Ja, {\k12}ich {\k11}dien {\k11}in {\k10}je{\k11}der {\k14}Wei{\k10}se {\k11}nur {\k11}dem {\k14}Fort{\k11}schritt
+Comment: 0,0:02:32.55,0:02:36.81,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k11}Und {\k10}der {\k20}mensch{\k6}li{\k9}chen {\k8}Kul{\k24}tu{\kf338}r
+Comment: 0,0:02:41.70,0:02:44.54,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k41}Sein {\k32}Ver{\k50}stand {\k31}ist {\k40}un{\k32}be{\k39}stech{\k19}lich
+Comment: 0,0:02:44.73,0:02:47.27,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k32}Er {\k35}stu{\k37}diert {\k37}das {\k31}Po{\k32}si{\k33}ti{\k17}ve
+Comment: 0,0:02:47.50,0:02:49.90,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k29}Er {\k35}ist {\k30}nie{\k36}mals {\k26}o{\k25}ber{\k40}fläch{\k19}lich
+Comment: 0,0:02:50.01,0:02:51.96,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k31}Er {\k25}sieht {\k27}im{\k23}mer {\k30}in {\k21}die {\k26}Tie{\k12}fe
+Comment: 0,0:02:52.09,0:02:53.75,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k24}Denn {\k24}er {\k18}sam{\k24}melt {\k20}die {\k16}Be{\k25}wei{\k15}se
+Comment: 0,0:02:53.75,0:02:55.10,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k19}Und {\k21}be{\k18}wer{\k18}tet {\k17}die {\k15}Mo{\k19}ti{\k8}ve
+Comment: 0,0:02:55.23,0:02:57.18,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k17}Ja, {\k12}er {\k21}dient {\k16}auf {\k17}je{\k13}de {\k24}Wei{\k13}se {\k16}nur {\k16}dem {\k16}Fort{\k14}schritt
+Comment: 0,0:02:57.18,0:02:58.33,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k15}Und {\k13}der {\k20}mensch{\k9}li{\k17}chen {\k13}Kul{\k28}tur
+Comment: 0,0:02:58.78,0:02:59.77,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}Ich {\k15}su{\k13}che {\k28}Wahr{\k29}heit
+Comment: 0,0:02:59.90,0:03:00.85,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k11}Ich {\k12}su{\k15}che {\k23}Klar{\k34}heit
+Comment: 0,0:03:01.24,0:03:02.74,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k8}Für {\k17}Fort{\k12}schritt {\k10}und {\k11}für {\k12}mensch{\k12}li{\k14}che {\k12}Kul{\k42}tur
+Comment: 0,0:03:02.99,0:03:03.88,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k11}Ich {\k12}su{\k11}che {\k28}Wahr{\k27}heit
+Comment: 0,0:03:04.00,0:03:04.86,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k8}Ich {\k12}su{\k13}che {\k25}Klar{\k28}heit
+Comment: 0,0:03:05.17,0:03:06.68,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k9}Für {\k17}Fort{\k8}schritt {\k13}und {\k10}für {\k15}mensch{\k8}li{\k14}che {\k10}Kul{\k47}tur
+Comment: 0,0:03:06.87,0:03:07.67,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k8}Ich {\k9}su{\k13}che {\k22}Wahr{\k28}heit
+Comment: 0,0:03:07.77,0:03:08.69,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k11}Ich {\k9}su{\k11}che {\k24}Klar{\k37}heit
+Comment: 0,0:03:08.91,0:03:10.17,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k10}Für {\k11}Fort{\k11}schritt {\k12}und {\k11}für {\k13}mensch{\k11}li{\k12}che {\k9}Kul{\k26}tur
+Comment: 0,0:03:10.17,0:03:11.10,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k12}Für {\k9}die {\k14}mensch{\k10}li{\k13}che {\k10}Kul{\k25}tur
+Comment: 0,0:03:11.10,0:03:12.02,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k12}Für {\k10}die {\k12}mensch{\k12}li{\k9}che {\k12}Kul{\k25}tur
+Comment: 0,0:03:12.02,0:03:12.95,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k12}Für {\k9}die {\k14}mensch{\k10}li{\k13}che {\k10}Kul{\k25}tur
+Comment: 0,0:03:12.95,0:03:17.76,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k8}Für {\k10}die {\k12}mensch{\k12}li{\k9}che {\k14}Kul{\kf416}tur
+Comment: 0,0:03:12.95,0:03:14.00,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k8}Für {\k10}die {\k12}mensch{\k12}li{\k9}che {\k14}Kul{\kf40}tur
+Comment: 0,0:03:19.67,0:03:21.53,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k38}Wo {\k34}man {\k29}ei{\k25}ne {\k33}Gans {\k27}rupft
+Comment: 0,0:03:21.53,0:03:23.12,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}Gibt's {\k37}bald {\k21}ei{\k21}nen {\k38}Bra{\k17}ten
+Comment: 0,0:03:23.21,0:03:26.55,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}Wo {\k30}Eis {\k20}ist {\k27}und {\k40}Schnee, {\k27}wach{\k27}sen {\k33}kei{\k23}ne {\k32}To{\k29}ma{\k19}ten
+Comment: 0,0:03:26.71,0:03:28.31,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}Wo {\k32}nächt{\k24}lich {\k23}ru{\k29}mort {\k32}wird
+Comment: 0,0:03:28.31,0:03:29.86,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}Da {\k33}kann {\k24}man {\k28}nicht {\k29}schla{\k19}fen
+Comment: 0,0:03:29.93,0:03:34.22,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}Und {\k36}wo {\k25}ei{\k25}ner {\k29}buc{\k27}kelt,{\k19} {\k20}da {\k29}gibt's {\k17}ei{\k23}nen {\k51}Gra{\kf106}fen
+Comment: 0,0:03:34.69,0:03:37.54,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k41}Ich {\k35}wet{\k40}te {\k35}den {\k20}No{\k46}bel{\k68}preis
+Comment: 0,0:03:37.54,0:03:40.76,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k24}Die{\k27}ser {\k37}Buck{\k22}li{\k51}ge {\k23}be{\k74}dient {\k64}ihn
+Comment: 0,0:03:40.97,0:03:43.28,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}Wa{\k28}rum {\k26}hast {\k11}du {\k38}ihn {\k31}nicht {\k19}ver{\k60}folgt?
+Comment: 0,0:03:43.40,0:03:46.65,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k33}Den {\k56}Schluss {\k17}kann {\k17}doch {\k23}je{\k24}des {\k82}Kind {\k73}zieh'n
+Comment: 0,0:03:46.92,0:03:49.77,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k86}Lo{\k80}gik, {\k84}Lo{\k35}gik
+Comment: 0,0:03:49.86,0:03:54.05,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k37}Wer {\k47}fragt, {\k42}dem {\k45}sagt {\k53}die {\kf105}Lo{\k90}gik
+Comment: 0,0:03:54.44,0:04:01.42,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k80}Wie {\k64}und {\k67}was {\k64}und {\k64}wer {\k73}und {\k65}wo {\k40}und {\kf181}wann
+Comment: 0,0:04:02.15,0:04:03.14,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}Mein {\k11}Ver{\k14}stand {\k7}ist {\k12}un{\k11}be{\k16}stech{\k12}lich
+Comment: 0,0:04:03.14,0:04:04.11,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k12}Ich {\k12}stu{\k11}dier {\k16}das {\k12}Po{\k10}si{\k14}ti{\k10}ve
+Comment: 0,0:04:04.11,0:04:05.10,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k15}Ich {\k11}bin {\k15}nie{\k9}mals {\k10}o{\k13}ber{\k16}fläch{\k10}lich
+Comment: 0,0:04:05.10,0:04:06.06,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k15}Ich {\k9}seh {\k14}im{\k9}mer {\k11}in {\k15}die {\k12}Tie{\k11}fe
+Comment: 0,0:04:06.06,0:04:07.04,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k11}Denn {\k15}ich {\k10}samm{\k12}le {\k12}die {\k11}Be{\k19}wei{\k8}se
+Comment: 0,0:04:07.04,0:04:07.97,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k10}Und {\k13}be{\k13}wer{\k9}te {\k10}die {\k13}Mo{\k14}ti{\k11}ve
+Comment: 0,0:04:07.97,0:04:09.38,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k12}Ja, {\k12}ich {\k14}dien {\k9}in {\k12}je{\k12}der {\k14}Wei{\k9}se {\k12}nur {\k12}dem {\k12}Fort{\k11}schritt
+Comment: 0,0:04:09.38,0:04:10.56,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k11}Und {\k12}der {\k12}mensch{\k9}li{\k11}chen {\k13}Kul{\k50}tur
+Comment: 0,0:04:10.66,0:04:11.53,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k12}Ich {\k12}su{\k10}che {\k26}Wahr{\k27}heit
+Comment: 0,0:04:11.67,0:04:12.49,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k8}Ich {\k8}su{\k12}che {\k25}Klar{\k29}heit
+Comment: 0,0:04:12.77,0:04:14.25,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k9}Für {\k13}Fort{\k11}schritt {\k10}und {\k12}für {\k13}mensch{\k11}li{\k10}che {\k12}Kul{\k47}tur
+Comment: 0,0:04:14.36,0:04:15.20,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k12}Ich {\k10}su{\k12}che {\k25}Wahr{\k25}heit
+Comment: 0,0:04:15.31,0:04:16.15,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k10}Ich {\k11}su{\k11}che {\k26}Klar{\k26}heit
+Comment: 0,0:04:16.46,0:04:18.14,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k11}Für {\k11}Fort{\k11}schritt {\k11}und {\k10}für {\k16}mensch{\k9}li{\k15}che {\k8}Kul{\k66}tur
+Comment: 0,0:04:18.97,0:04:29.87,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\kf164}Für {\kf158}die {\kf202}Kul{\kf566}tur
+Comment: 0,0:02:58.33,0:02:59.49,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k19}Und {\k13}der {\k17}mensch{\k8}li{\k18}chen {\k13}Kul{\k28}tur
+Comment: 0,0:02:59.49,0:03:00.51,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k14}Und {\k12}der {\k17}mensch{\k9}li{\k17}chen {\k9}Kul{\k24}tur
+Comment: 0,0:03:00.51,0:03:01.72,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k17}Für {\k15}die {\k15}mensch{\k9}li{\k14}che {\k10}Kul{\k41}tur
+Comment: 0,0:03:02.64,0:03:03.60,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k10}Für {\k11}die {\k17}mensch{\k7}li{\k14}che {\k11}Kul{\k26}tur
+Comment: 0,0:03:03.61,0:03:04.57,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k10}Für {\k14}die {\k13}mensch{\k10}li{\k12}che {\k11}Kul{\k26}tur
+Comment: 0,0:03:04.57,0:03:05.63,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k14}Für {\k12}die {\k11}mensch{\k7}li{\k15}che {\k11}Kul{\k36}tur
+Comment: 0,0:03:06.44,0:03:07.39,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k14}Für {\k13}die {\k14}mensch{\k10}li{\k10}che {\k11}Kul{\k34}tur
+Comment: 0,0:03:07.40,0:03:08.41,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k10}Für {\k12}die {\k15}mensch{\k12}li{\k10}che {\k9}Kul{\k33}tur
+Comment: 0,0:03:08.41,0:03:09.25,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k9}Für {\k9}die {\k12}mensch{\k11}li{\k11}che {\k9}Kul{\k23}tur
+Comment: 0,0:03:09.25,0:03:10.06,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k12}Für {\k12}die {\k10}mensch{\k11}li{\k11}che {\k11}Kul{\k14}tur
+Comment: 0,0:04:02.62,0:04:03.64,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k14}Für {\k11}die {\k12}mensch{\k11}li{\k17}che {\k9}Kul{\k28}tur
+Comment: 0,0:04:03.64,0:04:04.51,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k12}Für {\k12}die {\k12}mensch{\k11}li{\k15}che {\k11}Kul{\k14}tur
+Comment: 0,0:04:04.62,0:04:05.60,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k10}Für {\k13}die {\k15}mensch{\k11}li{\k13}che {\k9}Kul{\k27}tur
+Comment: 0,0:04:05.60,0:04:06.56,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k9}Für {\k12}die {\k15}mensch{\k11}li{\k11}che {\k12}Kul{\k26}tur
+Comment: 0,0:04:06.56,0:04:07.56,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k13}Für {\k9}die {\k17}mensch{\k11}li{\k11}che {\k9}Kul{\k30}tur
+Comment: 0,0:04:07.56,0:04:08.43,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k9}Für {\k15}die {\k8}mensch{\k9}li{\k10}che {\k11}Kul{\k25}tur
+Comment: 0,0:04:08.43,0:04:09.37,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k13}Für {\k12}die {\k12}mensch{\k11}li{\k11}che {\k12}Kul{\k23}tur
+Comment: 0,0:04:09.37,0:04:10.30,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k12}Für {\k12}die {\k14}mensch{\k11}li{\k11}che {\k11}Kul{\k35}tur
+Comment: 0,0:04:10.34,0:04:11.26,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k10}Für {\k12}die {\k12}mensch{\k11}li{\k11}che {\k11}Kul{\k25}tur
+Comment: 0,0:04:11.26,0:04:12.18,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k12}Für {\k12}die {\k10}mensch{\k11}li{\k11}che {\k11}Kul{\k25}tur
+Comment: 0,0:04:12.20,0:04:13.08,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k11}Für {\k10}die {\k15}mensch{\k9}li{\k11}che {\k9}Kul{\k23}tur
+Comment: 0,0:04:13.08,0:04:14.01,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k12}Für {\k12}die {\k12}mensch{\k11}li{\k11}che {\k11}Kul{\k24}tur
+Comment: 0,0:04:14.01,0:04:14.97,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k13}Für {\k9}die {\k16}mensch{\k11}li{\k11}che {\k9}Kul{\k27}tur
+Comment: 0,0:04:14.97,0:04:15.87,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k12}Für {\k12}die {\k10}mensch{\k11}li{\k11}che {\k11}Kul{\k23}tur
+Comment: 0,0:04:15.87,0:04:16.80,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k13}Für {\k9}die {\k12}mensch{\k11}li{\k12}che {\k13}Kul{\k23}tur
+Comment: 0,0:04:16.80,0:04:17.73,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k12}Für {\k12}die {\k10}mensch{\k11}li{\k14}che {\k11}Kul{\k23}tur
+Dialogue: 0,0:00:00.00,0:00:03.67,Sample KM Duo [Voice 1],,0,0,0,fx,{\k45\fad(450,200)}{\k39}Wie {\k59}scha{\k34}de, {\k37}dass {\k33}der {\k34}Herr {\k24}schon {\k42}ging
+Dialogue: 0,0:00:03.18,0:00:06.22,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Wer {\k25}ist {\k32}das {\k41}denn {\k21}ge{\k40}we{\k37}sen?
+Dialogue: 0,0:00:05.64,0:00:07.83,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k52}Ein {\k32}Krüp{\k45}pel
+Dialogue: 0,0:00:07.03,0:00:13.03,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k26}Doch {\k28}sie {\k31}fürch{\k20}ten {\k47}ihn!{\k16} {\k31}Das {\k39}Rät{\k27}sel{\k35} {\k18}will {\k36}ich {\k72}lö{\k84}sen
+Dialogue: 0,0:00:12.64,0:00:19.81,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k74}Lo{\k44}gik,{\k29} {\k70}Lo{\k35}gik,{\k21} {\k21}zur {\k38}Wahr{\k41}heit {\k38}führt {\k60}nur{\k48} {\k50}Lo{\k58}gik
+Dialogue: 0,0:00:19.82,0:00:24.76,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k42}Wo{\k38}vor {\k35}die{\k17}se {\k80}Angst, {\k22}vor {\k71}wem, {\k24}wa{\k75}rum?
+Dialogue: 0,0:00:24.49,0:00:29.47,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k27}Wo{\k48}her {\k36}kam {\k31}der {\k64}Mann, {\k42}was {\k24}macht {\k38}euch {\k98}stumm?
+Dialogue: 0,0:00:29.15,0:00:32.38,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k17}Und {\k15}wer {\k16}von {\k33}euch {\k15}war {\k31}so {\k36}hunds{\k34}ge{\k36}mein
+Dialogue: 0,0:00:31.48,0:00:35.45,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k29}Und {\k22}schlug {\k21}mir {\k16}heut' {\k30}Nacht {\k18}fast {\k25}den {\k40}Schä{\k34}del {\k72}ein?
+Dialogue: 0,0:00:43.67,0:00:45.89,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Nie{\k17}mand {\k22}kann {\k15}mich {\k15}ir{\k18}ri{\k14}tie{\k17}ren
+Dialogue: 0,0:00:44.99,0:00:47.24,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Für {\k17}mich {\k18}zäh{\k18}len {\k15}nur {\k15}die {\k18}Fak{\k16}ten
+Dialogue: 0,0:00:46.34,0:00:48.58,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Nie{\k14}mand {\k19}kann {\k17}mich {\k15}ir{\k17}re{\k16}füh{\k18}ren
+Dialogue: 0,0:00:47.68,0:00:49.90,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Denn {\k14}ich {\k26}trau {\k12}nur {\k18}dem {\k14}E{\k18}xak{\k15}ten
+Dialogue: 0,0:00:49.00,0:00:50.95,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Ich {\k19}such' {\k35}Wahr{\k35}heit
+Dialogue: 0,0:00:50.24,0:00:52.98,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Und {\k20}Wahr{\k12}heit {\k20}will {\k12}im{\k24}mer {\k43}Klar{\k38}heit
+Dialogue: 0,0:00:53.03,0:00:55.23,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Mein {\k16}Ver{\k18}stand {\k17}ist {\k15}un{\k14}be{\k21}stech{\k11}lich
+Dialogue: 0,0:00:54.38,0:00:56.61,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Ich {\k20}stu{\k17}dier {\k16}das {\k17}Po{\k14}si{\k18}ti{\k16}ve
+Dialogue: 0,0:00:55.71,0:00:57.92,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Ich {\k19}bin {\k16}nie{\k16}mals {\k13}o{\k15}ber{\k21}fläch{\k15}lich
+Dialogue: 0,0:00:57.02,0:00:59.27,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Ich {\k21}seh {\k16}im{\k17}mer {\k15}in {\k15}die {\k20}Tie{\k16}fe
+Dialogue: 0,0:00:58.37,0:01:02.62,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Denn {\k15}die {\k36}Wahr{\k48}heit{\k53} {\k19}will {\k12}im{\k22}mer {\k48}Klar{\k66}heit
+Dialogue: 0,0:01:02.37,0:01:05.96,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k35}Mein {\k29}Wis{\k28}sens{\k39}drang {\k38}kommt {\k31}nicht {\k26}zur {\k43}Ruh'
+Dialogue: 0,0:01:05.06,0:01:08.80,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k26}So{\k42}lang {\k30}noch {\k45}Zwei{\k30}fel {\k70}na{\k41}gen
+Dialogue: 0,0:01:08.16,0:01:11.44,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k32}Ich {\k17}las{\k17}se {\k38}kein {\k27}Ge{\k39}heim{\k33}nis {\k35}zu
+Dialogue: 0,0:01:10.70,0:01:14.69,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k20}Ich {\k36}hör {\k34}nicht {\k54}auf {\k19}zu {\k85}fra{\k61}gen
+Dialogue: 0,0:01:14.24,0:01:19.43,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k48}Wie {\k27}und {\k52}was {\k35}und {\k44}wer {\k32}und {\k45}wo {\k31}und {\kf115}wann?
+Dialogue: 0,0:01:18.84,0:01:24.60,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k50}Wie {\k30}und {\k54}was {\k28}und {\k54}wer {\k27}und {\k75}wo {\k43}und {\kf125}wann?
+Dialogue: 0,0:01:24.73,0:01:28.31,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Al{\k19}les {\k16}ist {\k35}leicht, {\k18}wenn {\k29}der {\k18}Tag {\k16}mit {\k18}Mu{\k34}sik {\k15}be{\k35}gann
+Dialogue: 0,0:01:27.41,0:01:29.19,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Viel {\k16}ist {\k15}er{\k39}reicht
+Dialogue: 0,0:01:28.29,0:01:30.81,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Wenn {\k30}man {\k21}Sor{\k15}gen {\k17}ver{\k30}ges{\k17}sen {\k18}kann
+Dialogue: 0,0:01:30.08,0:01:33.42,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k20}Es {\k12}muss {\k21}sich {\k33}kei{\k16}ner {\k18}heut {\k33}är{\k15}gern {\k17}und {\k33}pla{\k26}gen
+Dialogue: 0,0:01:32.74,0:01:36.17,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k20}Es {\k15}sei {\k18}denn, {\k35}ei{\k20}ner{\k26} {\k21}stellt {\k14}dum{\k19}me {\k31}Fra{\k34}gen
+Dialogue: 0,0:01:40.45,0:01:44.93,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k68}Wenn {\k59}in {\k37}mir {\k35}der {\k34}Ver{\k50}dacht {\k38}er{\k37}wacht
+Dialogue: 0,0:01:44.03,0:01:47.75,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k31}Es {\k48}wird {\k30}mir {\k41}was {\k31}ver{\k74}schwie{\k27}gen
+Dialogue: 0,0:01:46.95,0:01:50.63,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k33}Ver{\k43}su{\k27}che {\k33}ich {\k34}mit {\k36}al{\k35}ler {\k37}Macht
+Dialogue: 0,0:01:49.73,0:01:52.79,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k26}Die {\k32}Wahr{\k25}heit {\k36}raus{\k21}zu{\k59}krie{\k17}gen
+Dialogue: 0,0:01:52.04,0:01:55.04,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k23}Schon {\k31}in {\k27}der {\k29}Wie{\k23}ge {\k27}fing {\k25}ich {\k25}an
+Dialogue: 0,0:01:54.14,0:01:56.84,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k26}Mein {\k33}Spiel{\k17}zeug {\k29}auf{\k13}zu{\k46}bie{\k16}gen
+Dialogue: 0,0:01:56.03,0:01:58.67,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k19}Im {\k25}un{\k22}ge{\k18}stü{\k22}men {\k18}Wis{\k21}sens{\k29}drang
+Dialogue: 0,0:01:57.77,0:02:01.56,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Zer{\k24}leg{\k14}te {\k22}ich {\k14}so{\k30}gar {\k30}die {\k21}Kuc{\k38}kucks{\k78}uhr
+Dialogue: 0,0:02:01.91,0:02:04.30,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k32}Ob {\k18}Os{\k13}ter{\k18}has', {\k18}ob {\k13}Ni{\k15}ko{\k22}laus
+Dialogue: 0,0:02:03.40,0:02:05.37,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Ich {\k19}ließ {\k13}mich {\k17}nicht {\k14}be{\k18}trü{\k14}gen
+Dialogue: 0,0:02:04.47,0:02:06.74,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k13}In {\k15}der {\k19}Schu{\k12}le {\k14}fand {\k16}ich {\k19}schnell {\k11}he{\k18}raus
+Dialogue: 0,0:02:05.84,0:02:07.83,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Dass {\k14}al{\k18}le {\k18}Leh{\k15}rer {\k15}lü{\k15}gen
+Dialogue: 0,0:02:06.93,0:02:09.07,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k20}Kei{\k13}ne {\k18}Ant{\k15}wort, {\k15}die {\k12}sie {\k19}ga{\k12}ben
+Dialogue: 0,0:02:08.17,0:02:10.28,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k17}Konn{\k13}te {\k13}je{\k21}mals {\k12}mir {\k15}ge{\k18}nü{\k12}gen
+Dialogue: 0,0:02:09.38,0:02:11.66,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Denn {\k14}in {\k17}Bü{\k13}chern {\k17}ein{\k11}ge{\k35}gra{\k15}ben
+Dialogue: 0,0:02:10.76,0:02:13.93,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Stu{\k15}dier{\k12}te {\k15}ich {\k12}die {\k20}Rät{\k13}sel {\k11}der {\k14}Na{\kf101}tur
+Dialogue: 0,0:02:14.06,0:02:16.05,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k23}Ich {\k21}glaub {\k15}an {\k12}die {\k11}Ver{\k27}nunft
+Dialogue: 0,0:02:15.15,0:02:17.20,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k7}Sie {\k11}wird {\k13}am {\k16}En{\k12}de {\k12}tri{\k17}um{\k16}phie{\k11}ren
+Dialogue: 0,0:02:16.30,0:02:18.48,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Und {\k13}mag {\k17}auch {\k12}die {\k12}Pro{\k12}fes{\k17}so{\k14}ren{\k15}zunft
+Dialogue: 0,0:02:17.58,0:02:19.41,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k10}Mein {\k11}Wis{\k18}sen {\k17}ig{\k10}no{\k15}rie{\k12}ren
+Dialogue: 0,0:02:18.51,0:02:20.52,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Doch {\k16}ich {\k12}has{\k12}se {\k14}E{\k14}mo{\k17}tio{\k12}nen
+Dialogue: 0,0:02:19.62,0:02:21.58,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k11}Nie{\k13}mand {\k16}kann {\k14}mich {\k14}pro{\k12}vo{\k16}zie{\k10}ren
+Dialogue: 0,0:02:20.68,0:02:22.62,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Oh{\k10}ne {\k15}je{\k14}mals {\k13}mich {\k14}zu {\k13}scho{\k13}nen
+Dialogue: 0,0:02:21.72,0:02:24.72,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Blei{\k11}be {\k16}ich {\k11}der {\k11}Wahr{\k13}heit {\k12}im{\k13}mer {\k10}auf {\k14}der {\k84}Spur
+Dialogue: 0,0:02:24.73,0:02:26.66,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Mein {\k13}Ver{\k13}stand {\k13}ist {\k11}un{\k13}be{\k16}stech{\k10}lich
+Dialogue: 0,0:02:25.76,0:02:27.64,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Ich {\k12}stu{\k13}dier {\k12}das {\k16}Po{\k9}si{\k15}ti{\k9}ve
+Dialogue: 0,0:02:26.74,0:02:28.59,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k13}Ich {\k10}bin {\k12}nie{\k12}mals {\k10}o{\k9}ber{\k17}fläch{\k12}lich
+Dialogue: 0,0:02:27.69,0:02:29.54,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Ich {\k12}seh {\k11}im{\k11}mer {\k15}in {\k10}die {\k15}Tie{\k9}fe
+Dialogue: 0,0:02:28.64,0:02:30.49,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k11}Denn {\k11}ich {\k15}samm{\k11}le {\k10}die {\k12}Be{\k17}wei{\k8}se
+Dialogue: 0,0:02:29.59,0:02:31.39,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k11}Und {\k11}be{\k14}wer{\k10}te {\k10}die {\k12}Mo{\k13}ti{\k9}ve
+Dialogue: 0,0:02:30.49,0:02:32.75,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k10}Ja, {\k12}ich {\k11}dien {\k11}in {\k10}je{\k11}der {\k14}Wei{\k10}se {\k11}nur {\k11}dem {\k14}Fort{\k11}schritt
+Dialogue: 0,0:02:31.85,0:02:37.01,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k11}Und {\k10}der {\k20}mensch{\k6}li{\k9}chen {\k8}Kul{\k24}tu{\kf338}r
+Dialogue: 0,0:02:41.00,0:02:44.74,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k41}Sein {\k32}Ver{\k50}stand {\k31}ist {\k40}un{\k32}be{\k39}stech{\k19}lich
+Dialogue: 0,0:02:44.03,0:02:47.47,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k32}Er {\k35}stu{\k37}diert {\k37}das {\k31}Po{\k32}si{\k33}ti{\k17}ve
+Dialogue: 0,0:02:46.80,0:02:50.10,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k29}Er {\k35}ist {\k30}nie{\k36}mals {\k26}o{\k25}ber{\k40}fläch{\k19}lich
+Dialogue: 0,0:02:49.31,0:02:52.16,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k31}Er {\k25}sieht {\k27}im{\k23}mer {\k30}in {\k21}die {\k26}Tie{\k12}fe
+Dialogue: 0,0:02:51.39,0:02:53.95,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k24}Denn {\k24}er {\k18}sam{\k24}melt {\k20}die {\k16}Be{\k25}wei{\k15}se
+Dialogue: 0,0:02:53.05,0:02:55.30,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k19}Und {\k21}be{\k18}wer{\k18}tet {\k17}die {\k15}Mo{\k19}ti{\k8}ve
+Dialogue: 0,0:02:54.53,0:02:57.38,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k17}Ja, {\k12}er {\k21}dient {\k16}auf {\k17}je{\k13}de {\k24}Wei{\k13}se {\k16}nur {\k16}dem {\k16}Fort{\k14}schritt
+Dialogue: 0,0:02:56.48,0:02:58.53,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Und {\k13}der {\k20}mensch{\k9}li{\k17}chen {\k13}Kul{\k28}tur
+Dialogue: 0,0:02:58.08,0:02:59.97,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Ich {\k15}su{\k13}che {\k28}Wahr{\k29}heit
+Dialogue: 0,0:02:59.20,0:03:01.05,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k11}Ich {\k12}su{\k15}che {\k23}Klar{\k34}heit
+Dialogue: 0,0:03:00.54,0:03:02.94,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k8}Für {\k17}Fort{\k12}schritt {\k10}und {\k11}für {\k12}mensch{\k12}li{\k14}che {\k12}Kul{\k42}tur
+Dialogue: 0,0:03:02.29,0:03:04.08,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k11}Ich {\k12}su{\k11}che {\k28}Wahr{\k27}heit
+Dialogue: 0,0:03:03.30,0:03:05.06,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k8}Ich {\k12}su{\k13}che {\k25}Klar{\k28}heit
+Dialogue: 0,0:03:04.47,0:03:06.88,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k9}Für {\k17}Fort{\k8}schritt {\k13}und {\k10}für {\k15}mensch{\k8}li{\k14}che {\k10}Kul{\k47}tur
+Dialogue: 0,0:03:06.17,0:03:07.87,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k8}Ich {\k9}su{\k13}che {\k22}Wahr{\k28}heit
+Dialogue: 0,0:03:07.07,0:03:08.89,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k11}Ich {\k9}su{\k11}che {\k24}Klar{\k37}heit
+Dialogue: 0,0:03:08.21,0:03:10.37,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k10}Für {\k11}Fort{\k11}schritt {\k12}und {\k11}für {\k13}mensch{\k11}li{\k12}che {\k9}Kul{\k26}tur
+Dialogue: 0,0:03:09.47,0:03:11.30,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Für {\k9}die {\k14}mensch{\k10}li{\k13}che {\k10}Kul{\k25}tur
+Dialogue: 0,0:03:10.40,0:03:12.22,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Für {\k10}die {\k12}mensch{\k12}li{\k9}che {\k12}Kul{\k25}tur
+Dialogue: 0,0:03:11.32,0:03:13.15,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Für {\k9}die {\k14}mensch{\k10}li{\k13}che {\k10}Kul{\k25}tur
+Dialogue: 0,0:03:12.25,0:03:17.96,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k8}Für {\k10}die {\k12}mensch{\k12}li{\k9}che {\k14}Kul{\kf416}tur
+Dialogue: 0,0:03:12.25,0:03:14.20,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k8}Für {\k10}die {\k12}mensch{\k12}li{\k9}che {\k14}Kul{\kf40}tur
+Dialogue: 0,0:03:18.97,0:03:21.73,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k38}Wo {\k34}man {\k29}ei{\k25}ne {\k33}Gans {\k27}rupft
+Dialogue: 0,0:03:20.83,0:03:23.32,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k25}Gibt's {\k37}bald {\k21}ei{\k21}nen {\k38}Bra{\k17}ten
+Dialogue: 0,0:03:22.51,0:03:26.75,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k27}Wo {\k30}Eis {\k20}ist {\k27}und {\k40}Schnee, {\k27}wach{\k27}sen {\k33}kei{\k23}ne {\k32}To{\k29}ma{\k19}ten
+Dialogue: 0,0:03:26.01,0:03:28.51,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k20}Wo {\k32}nächt{\k24}lich {\k23}ru{\k29}mort {\k32}wird
+Dialogue: 0,0:03:27.61,0:03:30.06,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k22}Da {\k33}kann {\k24}man {\k28}nicht {\k29}schla{\k19}fen
+Dialogue: 0,0:03:29.23,0:03:34.42,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k22}Und {\k36}wo {\k25}ei{\k25}ner {\k29}buc{\k27}kelt,{\k19} {\k20}da {\k29}gibt's {\k17}ei{\k23}nen {\k51}Gra{\kf106}fen
+Dialogue: 0,0:03:33.99,0:03:37.74,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k41}Ich {\k35}wet{\k40}te {\k35}den {\k20}No{\k46}bel{\k68}preis
+Dialogue: 0,0:03:36.84,0:03:40.96,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k24}Die{\k27}ser {\k37}Buck{\k22}li{\k51}ge {\k23}be{\k74}dient {\k64}ihn
+Dialogue: 0,0:03:40.27,0:03:43.48,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Wa{\k28}rum {\k26}hast {\k11}du {\k38}ihn {\k31}nicht {\k19}ver{\k60}folgt?
+Dialogue: 0,0:03:42.70,0:03:46.85,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k33}Den {\k56}Schluss {\k17}kann {\k17}doch {\k23}je{\k24}des {\k82}Kind {\k73}zieh'n
+Dialogue: 0,0:03:46.22,0:03:49.97,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k86}Lo{\k80}gik, {\k84}Lo{\k35}gik
+Dialogue: 0,0:03:49.16,0:03:54.25,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k37}Wer {\k47}fragt, {\k42}dem {\k45}sagt {\k53}die {\kf105}Lo{\k90}gik
+Dialogue: 0,0:03:53.74,0:04:01.62,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k80}Wie {\k64}und {\k67}was {\k64}und {\k64}wer {\k73}und {\k65}wo {\k40}und {\kf181}wann
+Dialogue: 0,0:04:01.45,0:04:03.34,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Mein {\k11}Ver{\k14}stand {\k7}ist {\k12}un{\k11}be{\k16}stech{\k12}lich
+Dialogue: 0,0:04:02.44,0:04:04.31,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Ich {\k12}stu{\k11}dier {\k16}das {\k12}Po{\k10}si{\k14}ti{\k10}ve
+Dialogue: 0,0:04:03.41,0:04:05.30,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Ich {\k11}bin {\k15}nie{\k9}mals {\k10}o{\k13}ber{\k16}fläch{\k10}lich
+Dialogue: 0,0:04:04.40,0:04:06.26,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Ich {\k9}seh {\k14}im{\k9}mer {\k11}in {\k15}die {\k12}Tie{\k11}fe
+Dialogue: 0,0:04:05.36,0:04:07.24,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k11}Denn {\k15}ich {\k10}samm{\k12}le {\k12}die {\k11}Be{\k19}wei{\k8}se
+Dialogue: 0,0:04:06.34,0:04:08.17,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k10}Und {\k13}be{\k13}wer{\k9}te {\k10}die {\k13}Mo{\k14}ti{\k11}ve
+Dialogue: 0,0:04:07.27,0:04:09.58,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Ja, {\k12}ich {\k14}dien {\k9}in {\k12}je{\k12}der {\k14}Wei{\k9}se {\k12}nur {\k12}dem {\k12}Fort{\k11}schritt
+Dialogue: 0,0:04:08.68,0:04:10.76,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k11}Und {\k12}der {\k12}mensch{\k9}li{\k11}chen {\k13}Kul{\k50}tur
+Dialogue: 0,0:04:09.96,0:04:11.73,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Ich {\k12}su{\k10}che {\k26}Wahr{\k27}heit
+Dialogue: 0,0:04:10.97,0:04:12.69,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k8}Ich {\k8}su{\k12}che {\k25}Klar{\k29}heit
+Dialogue: 0,0:04:12.07,0:04:14.45,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k9}Für {\k13}Fort{\k11}schritt {\k10}und {\k12}für {\k13}mensch{\k11}li{\k10}che {\k12}Kul{\k47}tur
+Dialogue: 0,0:04:13.66,0:04:15.40,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Ich {\k10}su{\k12}che {\k25}Wahr{\k25}heit
+Dialogue: 0,0:04:14.61,0:04:16.35,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k10}Ich {\k11}su{\k11}che {\k26}Klar{\k26}heit
+Dialogue: 0,0:04:15.76,0:04:18.34,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k11}Für {\k11}Fort{\k11}schritt {\k11}und {\k10}für {\k16}mensch{\k9}li{\k15}che {\k8}Kul{\k66}tur
+Dialogue: 0,0:04:18.27,0:04:30.07,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k70\fad(300,200)}{\kf164}Für {\kf158}die {\kf202}Kul{\kf566}tur
+Dialogue: 0,0:02:57.63,0:02:59.69,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k19}Und {\k13}der {\k17}mensch{\k8}li{\k18}chen {\k13}Kul{\k28}tur
+Dialogue: 0,0:02:58.79,0:03:00.71,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Und {\k12}der {\k17}mensch{\k9}li{\k17}chen {\k9}Kul{\k24}tur
+Dialogue: 0,0:02:59.81,0:03:01.92,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k17}Für {\k15}die {\k15}mensch{\k9}li{\k14}che {\k10}Kul{\k41}tur
+Dialogue: 0,0:03:01.94,0:03:03.80,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k10}Für {\k11}die {\k17}mensch{\k7}li{\k14}che {\k11}Kul{\k26}tur
+Dialogue: 0,0:03:02.91,0:03:04.77,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k10}Für {\k14}die {\k13}mensch{\k10}li{\k12}che {\k11}Kul{\k26}tur
+Dialogue: 0,0:03:03.87,0:03:05.83,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Für {\k12}die {\k11}mensch{\k7}li{\k15}che {\k11}Kul{\k36}tur
+Dialogue: 0,0:03:05.74,0:03:07.59,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Für {\k13}die {\k14}mensch{\k10}li{\k10}che {\k11}Kul{\k34}tur
+Dialogue: 0,0:03:06.70,0:03:08.61,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k10}Für {\k12}die {\k15}mensch{\k12}li{\k10}che {\k9}Kul{\k33}tur
+Dialogue: 0,0:03:07.71,0:03:09.45,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k9}Für {\k9}die {\k12}mensch{\k11}li{\k11}che {\k9}Kul{\k23}tur
+Dialogue: 0,0:03:08.55,0:03:10.26,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Für {\k12}die {\k10}mensch{\k11}li{\k11}che {\k11}Kul{\k14}tur
+Dialogue: 0,0:04:01.92,0:04:03.84,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Für {\k11}die {\k12}mensch{\k11}li{\k17}che {\k9}Kul{\k28}tur
+Dialogue: 0,0:04:02.94,0:04:04.71,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Für {\k12}die {\k12}mensch{\k11}li{\k15}che {\k11}Kul{\k14}tur
+Dialogue: 0,0:04:03.92,0:04:05.80,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k10}Für {\k13}die {\k15}mensch{\k11}li{\k13}che {\k9}Kul{\k27}tur
+Dialogue: 0,0:04:04.90,0:04:06.76,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k9}Für {\k12}die {\k15}mensch{\k11}li{\k11}che {\k12}Kul{\k26}tur
+Dialogue: 0,0:04:05.86,0:04:07.76,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k13}Für {\k9}die {\k17}mensch{\k11}li{\k11}che {\k9}Kul{\k30}tur
+Dialogue: 0,0:04:06.86,0:04:08.63,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k9}Für {\k15}die {\k8}mensch{\k9}li{\k10}che {\k11}Kul{\k25}tur
+Dialogue: 0,0:04:07.73,0:04:09.57,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k13}Für {\k12}die {\k12}mensch{\k11}li{\k11}che {\k12}Kul{\k23}tur
+Dialogue: 0,0:04:08.67,0:04:10.50,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Für {\k12}die {\k14}mensch{\k11}li{\k11}che {\k11}Kul{\k35}tur
+Dialogue: 0,0:04:09.64,0:04:11.46,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k10}Für {\k12}die {\k12}mensch{\k11}li{\k11}che {\k11}Kul{\k25}tur
+Dialogue: 0,0:04:10.56,0:04:12.38,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Für {\k12}die {\k10}mensch{\k11}li{\k11}che {\k11}Kul{\k25}tur
+Dialogue: 0,0:04:11.50,0:04:13.28,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k11}Für {\k10}die {\k15}mensch{\k9}li{\k11}che {\k9}Kul{\k23}tur
+Dialogue: 0,0:04:12.38,0:04:14.21,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Für {\k12}die {\k12}mensch{\k11}li{\k11}che {\k11}Kul{\k24}tur
+Dialogue: 0,0:04:13.31,0:04:15.17,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k13}Für {\k9}die {\k16}mensch{\k11}li{\k11}che {\k9}Kul{\k27}tur
+Dialogue: 0,0:04:14.27,0:04:16.07,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Für {\k12}die {\k10}mensch{\k11}li{\k11}che {\k11}Kul{\k23}tur
+Dialogue: 0,0:04:15.17,0:04:17.00,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k13}Für {\k9}die {\k12}mensch{\k11}li{\k12}che {\k13}Kul{\k23}tur
+Dialogue: 0,0:04:16.10,0:04:17.93,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Für {\k12}die {\k10}mensch{\k11}li{\k14}che {\k11}Kul{\k23}tur
