@@ -1,0 +1,150 @@
+﻿[Script Info]
+Title: Nothing Suits Me Like A Suit
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,0,legend,{\k1000}{\k0}{\rSample KM Duo [Voice 1]}Barney {\2cHFFFFFF}| {\rSample KM Duo [Voice 2]}Others {\2cHFFFFFF}| {\rSample KM Duo [Voice 1&2]}All {\2cHFFFFFF}| {\rSample KM [Choir]}Background
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 700 and -$start or -700,200)!{!$start < 700 and "\\k" .. ($start/10) or "\\k70"!\fad(!$start < 700 and $start or 300!,200)}
+Comment: 0,0:00:04.18,0:00:04.89,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k15}I {\k10}know {\k8}what {\k15}you're {\k12}thin{\k11}king
+Comment: 0,0:00:04.89,0:00:05.94,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k28}What's {\k15}Bar{\k12}ney {\k21}been {\k18}drin{\k11}king?
+Comment: 0,0:00:05.94,0:00:07.64,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}That {\k26}girl {\k24}was {\k24}smo{\k26}king {\k45}hot
+Comment: 0,0:00:08.22,0:00:08.99,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k15}Yes, {\k11}I {\k10}could{\k15}'ve {\k16}nailed {\k10}her
+Comment: 0,0:00:08.99,0:00:10.00,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}But {\k28}no {\k11}it's {\k12}not {\k12}a {\k10}fai{\k14}lure
+Comment: 0,0:00:10.00,0:00:11.58,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k12}'Cause {\k16}there's {\k25}one {\k24}thing {\k24}she {\k28}is {\k29}not
+Comment: 0,0:00:11.77,0:00:13.96,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k41}To {\k33}score {\k17}a {\k35}ten {\k17}would {\k18}be {\k25}just {\k33}fine
+Comment: 0,0:00:13.96,0:00:16.35,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}But {\k27}I'd {\k22}ra{\k17}ther {\k19}be {\k28}dressed {\k34}to {\k15}the {\k63}nines
+Comment: 0,0:00:16.83,0:00:21.47,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}It's {\k16}a {\k44}truth {\k27}you {\k29}can't {\k25}re{\kf307}fute
+Comment: 0,0:00:23.02,0:00:24.99,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k15}No{\k23}thing {\k39}suits {\k24}me {\k24}like {\k25}a {\k47}suit
+Comment: 0,0:00:26.54,0:00:28.36,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}Pic{\k12}ture {\k16}a {\k35}world {\k16}where {\k20}all {\k11}the {\k15}boys {\k12}and {\k25}girls
+Comment: 0,0:00:28.36,0:00:30.08,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k12}Are {\k13}im{\k23}pec{\k27}cab{\k25}ly {\k23}well-{\k49}dressed
+Comment: 0,0:00:30.37,0:00:32.46,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k12}That {\k15}de{\k11}li{\k10}ve{\k17}ry {\k36}guy {\k11}in {\k11}a {\k22}jac{\k8}ket {\k15}and {\k41}tie
+Comment: 0,0:00:32.46,0:00:33.99,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}That {\k14}pup{\k10}py {\k10}in {\k16}a {\k23}dou{\k26}ble {\k32}breast
+Comment: 0,0:00:34.23,0:00:36.39,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k46}That {\k24}eigh{\k28}ties {\k26}dude {\k19}with {\k16}mut{\k18}ton {\k39}chops
+Comment: 0,0:00:36.45,0:00:38.57,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k24}That {\k28}ba{\k16}by {\k14}with {\k19}a {\k24}lol{\k34}ly {\k53}pop
+Comment: 0,0:00:39.01,0:00:43.95,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}That {\k18}la{\k19}dy {\k43}cop {\k26}who's {\k28}kin{\k18}da {\kf316}cute
+Comment: 0,0:00:45.42,0:00:47.21,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}No{\k21}thing {\k37}suits {\k20}'em {\k31}like {\k19}a {\k35}suit
+Comment: 0,0:00:46.86,0:00:47.30,Sample KM [Choir],,0,0,0,karaoke,{\k44}Suits
+Comment: 0,0:00:47.42,0:00:48.98,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}Wing{\k27}man {\k25}I {\k28}can {\k53}wear
+Comment: 0,0:00:48.91,0:00:49.38,Sample KM [Choir],,0,0,0,karaoke,{\k47}Suits
+Comment: 0,0:00:49.22,0:00:50.79,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}They're, {\k24}oh, {\k26}so {\k25}de{\k13}bo{\k44}nair
+Comment: 0,0:00:50.96,0:00:51.38,Sample KM [Choir],,0,0,0,karaoke,{\k42}Suits
+Comment: 0,0:00:51.27,0:00:52.84,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}The {\k24}per{\k25}fect {\k19}way {\k18}to {\k45}snare
+Comment: 0,0:00:52.84,0:00:54.92,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}A {\k28}girl {\k27}with {\k26}dad{\k22}dy {\k25}is{\k61}sues
+Comment: 0,0:00:55.05,0:00:55.52,Sample KM [Choir],,0,0,0,karaoke,{\k47}Suits
+Comment: 0,0:00:55.35,0:00:56.95,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k24}In {\k26}na{\k21}vy, {\k22}blue {\k17}or {\k50}black
+Comment: 0,0:00:57.34,0:00:58.87,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k29}Check {\k25}out {\k25}this {\k20}per{\k21}fect {\k33}rack
+Comment: 0,0:00:58.97,0:01:02.83,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}I {\k45}want {\k33}to {\k50}give {\k43}them {\k30}a {\kf168}squeeze
+Comment: 0,0:01:01.83,0:01:02.93,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k54}Oh, {\k40}real{\k16}ly?
+Comment: 0,0:01:03.98,0:01:09.70,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k38}Then {\k45}ans{\k39}wer {\k44}these {\k55}ques{\k63}tions{\k38} {\k29}if {\k45}you {\kf176}please
+Comment: 0,0:01:14.40,0:01:15.94,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k20}What {\k14}would {\k15}you {\k14}do {\k17}if {\k14}you {\k17}had {\k16}to {\k27}choose
+Comment: 0,0:01:15.94,0:01:17.83,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k9}Be{\k15}tween {\k18}your {\k24}suits {\k11}and {\k13}a {\k23}pot {\k15}of {\k61}gold?
+Comment: 0,0:01:17.83,0:01:18.31,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k48}Suits
+Comment: 0,0:01:18.31,0:01:19.08,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k24}What {\k14}would {\k17}you {\k22}say
+Comment: 0,0:01:19.08,0:01:20.03,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k11}If {\k11}you {\k12}gave {\k14}your {\k13}suits {\k11}a{\k23}way
+Comment: 0,0:01:20.03,0:01:21.59,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k7}And {\k5}in {\k10}re{\k29}turn {\k23}you'd {\k11}ne{\k14}ver {\k24}grow {\k33}old?
+Comment: 0,0:01:21.69,0:01:22.26,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k57}Suits
+Comment: 0,0:01:22.26,0:01:22.85,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k23}What {\k13}would {\k12}you {\k11}pick?
+Comment: 0,0:01:22.98,0:01:23.96,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k29}One {\k21}mil{\k25}lion {\k23}chicks
+Comment: 0,0:01:23.96,0:01:25.51,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k11}Or {\k16}a {\k23}sin{\k23}gle {\k26}three-{\k27}piece {\k29}suit?
+Comment: 0,0:01:25.45,0:01:26.11,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}It's {\k39}moot
+Comment: 0,0:01:26.11,0:01:27.95,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k16}What {\k13}if {\k24}world {\k26}peace {\k15}were {\k13}with{\k19}in {\k22}your {\k36}reach
+Comment: 0,0:01:27.95,0:01:29.28,Sample KM [Down],,0,0,0,karaoke,Alalalalalah, I'm gonna stop you right there
+Comment: 0,0:01:29.51,0:01:30.01,Sample KM [Down],,0,0,0,karaoke,It's suits
+Comment: 0,0:01:30.30,0:01:31.83,Sample KM [Down],,0,0,0,karaoke,Come on, Lily. Get your head out of your ass
+Comment: 0,0:01:32.16,0:01:34.40,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k74}Two! {\k68}Three! {\k82}Four
+Comment: 0,0:01:36.89,0:01:39.26,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k37}Girls {\k33}will {\k34}go {\k29}and {\k39}girls {\k27}will {\k38}come
+Comment: 0,0:01:39.26,0:01:41.59,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k13}But {\k15}there's {\k16}on{\k20}ly {\k30}one {\k35}ab{\k33}so{\k71}lute
+Comment: 0,0:01:41.88,0:01:43.83,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k15}Eve{\k19}ry {\k33}bro {\k14}on {\k17}the {\k31}go {\k21}needs {\k15}to {\k30}know
+Comment: 0,0:01:43.83,0:01:46.36,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k15}That {\k17}there's {\k36}no {\k28}ac{\k31}cep{\k30}ted {\k36}subs{\k27}ti{\k33}tute
+Comment: 0,0:01:46.64,0:01:49.40,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k63}I'm {\k26}sor{\k29}ry, {\k40}suits, {\k35}let's {\k19}make {\k21}a{\k43}mends
+Comment: 0,0:01:49.48,0:01:52.31,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k38}My {\k27}Sun{\k23}day {\k28}Best {\k21}are {\k37}my {\k41}best {\k68}friends
+Comment: 0,0:01:52.60,0:02:01.51,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k33}Send {\k29}Ca{\k27}sual {\k37}Fri{\k32}day {\k33}down {\k27}the {\kf123}laun{\kf132}dry {\kf418}chute
+Comment: 0,0:02:01.89,0:02:04.77,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k66}'Cause {\k58}no{\k52}thing {\k61}suits {\k51}the
+Comment: 0,0:02:04.77,0:02:06.53,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k53}Un{\k47}dis{\k53}pu{\k23}ted
+Comment: 0,0:02:06.77,0:02:08.55,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k52}Oft-{\k48}sa{\k38}lu{\k40}ted
+Comment: 0,0:02:08.55,0:02:12.83,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k40}Sui{\k42}tor {\k42}of {\k32}re{\kf272}pute
+Comment: 0,0:02:13.16,0:02:20.77,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\kf292}Like{\k31} {\kf438}a
+Comment: 0,0:02:20.80,0:02:21.26,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}Wait {\k11}for {\k17}it
+Comment: 0,0:02:23.71,0:02:40.43,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\kf1672}Suit
+Comment: 0,0:02:28.47,0:02:37.74,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k40}No{\k51}thing {\k52}suits {\k60}him {\kf146}like {\kf186}a {\kf392}suit
+Comment: 0,0:02:34.23,0:02:40.45,Sample KM [Choir],,0,0,0,karaoke,{\k34}Like {\k20}a {\k45}suit, {\k24}like {\k25}a {\k48}suit, {\k31}like {\k19}a {\k50}suit, {\k31}like {\k37}a {\kf258}suit
+Comment: 0,0:02:40.45,0:02:41.10,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k65}Ah
+Dialogue: 0,0:00:03.48,0:00:05.09,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k15}I {\k10}know {\k8}what {\k15}you're {\k12}thin{\k11}king
+Dialogue: 0,0:00:04.19,0:00:06.14,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k28}What's {\k15}Bar{\k12}ney {\k21}been {\k18}drin{\k11}king?
+Dialogue: 0,0:00:05.24,0:00:07.84,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k25}That {\k26}girl {\k24}was {\k24}smo{\k26}king {\k45}hot
+Dialogue: 0,0:00:07.52,0:00:09.19,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Yes, {\k11}I {\k10}could{\k15}'ve {\k16}nailed {\k10}her
+Dialogue: 0,0:00:08.29,0:00:10.20,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k14}But {\k28}no {\k11}it's {\k12}not {\k12}a {\k10}fai{\k14}lure
+Dialogue: 0,0:00:09.30,0:00:11.78,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k12}'Cause {\k16}there's {\k25}one {\k24}thing {\k24}she {\k28}is {\k29}not
+Dialogue: 0,0:00:11.07,0:00:14.16,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k41}To {\k33}score {\k17}a {\k35}ten {\k17}would {\k18}be {\k25}just {\k33}fine
+Dialogue: 0,0:00:13.26,0:00:16.55,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k14}But {\k27}I'd {\k22}ra{\k17}ther {\k19}be {\k28}dressed {\k34}to {\k15}the {\k63}nines
+Dialogue: 0,0:00:16.13,0:00:21.67,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k16}It's {\k16}a {\k44}truth {\k27}you {\k29}can't {\k25}re{\kf307}fute
+Dialogue: 0,0:00:22.32,0:00:25.19,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k15}No{\k23}thing {\k39}suits {\k24}me {\k24}like {\k25}a {\k47}suit
+Dialogue: 0,0:00:25.84,0:00:28.56,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k20}Pic{\k12}ture {\k16}a {\k35}world {\k16}where {\k20}all {\k11}the {\k15}boys {\k12}and {\k25}girls
+Dialogue: 0,0:00:27.66,0:00:30.28,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Are {\k13}im{\k23}pec{\k27}cab{\k25}ly {\k23}well-{\k49}dressed
+Dialogue: 0,0:00:29.67,0:00:32.66,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k12}That {\k15}de{\k11}li{\k10}ve{\k17}ry {\k36}guy {\k11}in {\k11}a {\k22}jac{\k8}ket {\k15}and {\k41}tie
+Dialogue: 0,0:00:31.76,0:00:34.19,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k22}That {\k14}pup{\k10}py {\k10}in {\k16}a {\k23}dou{\k26}ble {\k32}breast
+Dialogue: 0,0:00:33.53,0:00:36.59,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k46}That {\k24}eigh{\k28}ties {\k26}dude {\k19}with {\k16}mut{\k18}ton {\k39}chops
+Dialogue: 0,0:00:35.75,0:00:38.77,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k24}That {\k28}ba{\k16}by {\k14}with {\k19}a {\k24}lol{\k34}ly {\k53}pop
+Dialogue: 0,0:00:38.31,0:00:44.15,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k26}That {\k18}la{\k19}dy {\k43}cop {\k26}who's {\k28}kin{\k18}da {\kf316}cute
+Dialogue: 0,0:00:44.72,0:00:47.41,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k16}No{\k21}thing {\k37}suits {\k20}'em {\k31}like {\k19}a {\k35}suit
+Dialogue: 0,0:00:46.16,0:00:47.50,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k44}Suits
+Dialogue: 0,0:00:46.72,0:00:49.18,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k23}Wing{\k27}man {\k25}I {\k28}can {\k53}wear
+Dialogue: 0,0:00:48.21,0:00:49.58,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k47}Suits
+Dialogue: 0,0:00:48.52,0:00:50.99,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k25}They're, {\k24}oh, {\k26}so {\k25}de{\k13}bo{\k44}nair
+Dialogue: 0,0:00:50.26,0:00:51.58,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k42}Suits
+Dialogue: 0,0:00:50.57,0:00:53.04,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k26}The {\k24}per{\k25}fect {\k19}way {\k18}to {\k45}snare
+Dialogue: 0,0:00:52.14,0:00:55.12,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k19}A {\k28}girl {\k27}with {\k26}dad{\k22}dy {\k25}is{\k61}sues
+Dialogue: 0,0:00:54.35,0:00:55.72,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k47}Suits
+Dialogue: 0,0:00:54.65,0:00:57.15,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k24}In {\k26}na{\k21}vy, {\k22}blue {\k17}or {\k50}black
+Dialogue: 0,0:00:56.64,0:00:59.07,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k29}Check {\k25}out {\k25}this {\k20}per{\k21}fect {\k33}rack
+Dialogue: 0,0:00:58.27,0:01:03.03,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k17}I {\k45}want {\k33}to {\k50}give {\k43}them {\k30}a {\kf168}squeeze
+Dialogue: 0,0:01:01.13,0:01:03.13,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k54}Oh, {\k40}real{\k16}ly?
+Dialogue: 0,0:01:03.28,0:01:09.90,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k38}Then {\k45}ans{\k39}wer {\k44}these {\k55}ques{\k63}tions{\k38} {\k29}if {\k45}you {\kf176}please
+Dialogue: 0,0:01:13.70,0:01:16.14,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k20}What {\k14}would {\k15}you {\k14}do {\k17}if {\k14}you {\k17}had {\k16}to {\k27}choose
+Dialogue: 0,0:01:15.24,0:01:18.03,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k9}Be{\k15}tween {\k18}your {\k24}suits {\k11}and {\k13}a {\k23}pot {\k15}of {\k61}gold?
+Dialogue: 0,0:01:17.13,0:01:18.51,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k48}Suits
+Dialogue: 0,0:01:17.61,0:01:19.28,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k24}What {\k14}would {\k17}you {\k22}say
+Dialogue: 0,0:01:18.38,0:01:20.23,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k11}If {\k11}you {\k12}gave {\k14}your {\k13}suits {\k11}a{\k23}way
+Dialogue: 0,0:01:19.33,0:01:21.79,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k7}And {\k5}in {\k10}re{\k29}turn {\k23}you'd {\k11}ne{\k14}ver {\k24}grow {\k33}old?
+Dialogue: 0,0:01:20.99,0:01:22.46,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k57}Suits
+Dialogue: 0,0:01:21.56,0:01:23.05,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k23}What {\k13}would {\k12}you {\k11}pick?
+Dialogue: 0,0:01:22.28,0:01:24.16,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k29}One {\k21}mil{\k25}lion {\k23}chicks
+Dialogue: 0,0:01:23.26,0:01:25.71,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k11}Or {\k16}a {\k23}sin{\k23}gle {\k26}three-{\k27}piece {\k29}suit?
+Dialogue: 0,0:01:24.75,0:01:26.31,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k27}It's {\k39}moot
+Dialogue: 0,0:01:25.41,0:01:28.15,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k16}What {\k13}if {\k24}world {\k26}peace {\k15}were {\k13}with{\k19}in {\k22}your {\k36}reach
+Dialogue: 0,0:01:27.25,0:01:29.48,Sample KM [Down],,0,0,0,fx,{\k70\fad(300,200)}Alalalalalah, I'm gonna stop you right there
+Dialogue: 0,0:01:28.81,0:01:30.21,Sample KM [Down],,0,0,0,fx,{\k70\fad(300,200)}It's suits
+Dialogue: 0,0:01:29.60,0:01:32.03,Sample KM [Down],,0,0,0,fx,{\k70\fad(300,200)}Come on, Lily. Get your head out of your ass
+Dialogue: 0,0:01:31.46,0:01:34.60,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k74}Two! {\k68}Three! {\k82}Four
+Dialogue: 0,0:01:36.19,0:01:39.46,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k70\fad(300,200)}{\k37}Girls {\k33}will {\k34}go {\k29}and {\k39}girls {\k27}will {\k38}come
+Dialogue: 0,0:01:38.56,0:01:41.79,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k70\fad(300,200)}{\k13}But {\k15}there's {\k16}on{\k20}ly {\k30}one {\k35}ab{\k33}so{\k71}lute
+Dialogue: 0,0:01:41.18,0:01:44.03,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Eve{\k19}ry {\k33}bro {\k14}on {\k17}the {\k31}go {\k21}needs {\k15}to {\k30}know
+Dialogue: 0,0:01:43.13,0:01:46.56,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k70\fad(300,200)}{\k15}That {\k17}there's {\k36}no {\k28}ac{\k31}cep{\k30}ted {\k36}subs{\k27}ti{\k33}tute
+Dialogue: 0,0:01:45.94,0:01:49.60,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k63}I'm {\k26}sor{\k29}ry, {\k40}suits, {\k35}let's {\k19}make {\k21}a{\k43}mends
+Dialogue: 0,0:01:48.78,0:01:52.51,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k38}My {\k27}Sun{\k23}day {\k28}Best {\k21}are {\k37}my {\k41}best {\k68}friends
+Dialogue: 0,0:01:51.90,0:02:01.71,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k33}Send {\k29}Ca{\k27}sual {\k37}Fri{\k32}day {\k33}down {\k27}the {\kf123}laun{\kf132}dry {\kf418}chute
+Dialogue: 0,0:02:01.19,0:02:04.97,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k70\fad(300,200)}{\k66}'Cause {\k58}no{\k52}thing {\k61}suits {\k51}the
+Dialogue: 0,0:02:04.07,0:02:06.73,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k70\fad(300,200)}{\k53}Un{\k47}dis{\k53}pu{\k23}ted
+Dialogue: 0,0:02:06.07,0:02:08.75,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k70\fad(300,200)}{\k52}Oft-{\k48}sa{\k38}lu{\k40}ted
+Dialogue: 0,0:02:07.85,0:02:13.03,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k70\fad(300,200)}{\k40}Sui{\k42}tor {\k42}of {\k32}re{\kf272}pute
+Dialogue: 0,0:02:12.46,0:02:20.97,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k70\fad(300,200)}{\kf292}Like{\k31} {\kf438}a
+Dialogue: 0,0:02:20.10,0:02:21.46,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Wait {\k11}for {\k17}it
+Dialogue: 0,0:02:23.01,0:02:40.63,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\kf1672}Suit
+Dialogue: 0,0:02:27.77,0:02:37.94,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k40}No{\k51}thing {\k52}suits {\k60}him {\kf146}like {\kf186}a {\kf392}suit
+Dialogue: 0,0:02:33.53,0:02:40.65,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k34}Like {\k20}a {\k45}suit, {\k24}like {\k25}a {\k48}suit, {\k31}like {\k19}a {\k50}suit, {\k31}like {\k37}a {\kf258}suit
+Dialogue: 0,0:02:39.75,0:02:41.30,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k65}Ah
