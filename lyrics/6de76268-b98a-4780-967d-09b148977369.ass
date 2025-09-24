@@ -1,0 +1,132 @@
+﻿[Script Info]
+Title: Soulswap
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,0,legend,{\k1000}{\k0}{\rSample KM Duo [Voice 1]}Female {\2cHFFFFFF}| {\rSample KM Duo [Voice 2]}Male {\2cHFFFFFF}| {\rSample KM Duo [Voice 1&2]}Both {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:29.65,0:00:35.41,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k48}I’m {\k49}ly{\k39}ing {\k84}down {\k45}in {\k38}a {\kf129}dark {\kf144}world
+Comment: 0,0:00:36.41,0:00:42.57,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k50}Sha{\k47}dows {\k42}are {\k85}so {\k43}thick {\k44}I {\k91}just {\k38}lost {\k49}my {\kf127}way
+Comment: 0,0:00:43.40,0:00:48.68,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k47}I {\k40}ne{\k42}ver {\k79}been {\k91}so {\k86}tired {\k37}be{\kf106}fore
+Comment: 0,0:00:50.14,0:00:55.76,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k45}I {\k51}can’t {\k43}des{\kf423}pair
+Comment: 0,0:00:56.69,0:00:59.88,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k40}I’ll {\k45}find {\k25}a {\k59}way {\k40}to {\kf110}win
+Comment: 0,0:00:59.96,0:01:03.14,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}E{\k42}ven {\k23}if {\k35}I {\k66}faced {\k22}the {\kf112}worst
+Comment: 0,0:01:03.52,0:01:07.65,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k39}I {\k42}swear {\k24}my {\k50}mind {\k38}is {\k72}bur{\kf148}ning
+Comment: 0,0:01:10.41,0:01:13.64,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k46}I’m {\k27}beg{\k31}ging {\k47}you {\k41}to {\k58}help {\k73}me
+Comment: 0,0:01:13.64,0:01:16.78,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}‘Cause {\k22}I {\k23}won’t {\k20}make {\k38}it {\k57}all {\k35}a{\k98}lone
+Comment: 0,0:01:17.29,0:01:21.18,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k44}I {\k32}leave {\k35}you {\k39}all {\k42}my {\k68}be{\kf129}ing
+Comment: 0,0:01:24.15,0:01:28.00,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k44}I {\k43}won’t {\k41}let {\k39}you {\kf218}down
+Comment: 0,0:01:27.51,0:01:30.89,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}I {\k26}can {\k44}bare{\k43}ly {\kf202}move
+Comment: 0,0:01:30.91,0:01:35.89,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k53}Come {\k56}by {\k68}my {\kf321}side
+Comment: 0,0:01:34.27,0:01:37.83,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k40}I {\k58}just {\k47}don’t {\k79}know {\kf132}how
+Comment: 0,0:01:38.22,0:01:43.62,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k47}Let {\k45}your {\k43}soul {\k21}find {\k23}its {\k42}way {\k23}to {\kf296}me
+Comment: 0,0:01:41.23,0:01:52.89,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k24}I {\k26}al{\k42}rea{\k41}dy {\k30}cho-{\k29}o-{\k29}o-{\k47}o-{\k38}o-{\k45}o-{\k90}o-{\k63}o-{\k59}{\k46}o-{\k42}o-{\k43}o-{\kf472}ose
+Comment: 0,0:01:51.57,0:01:54.60,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k45}I’ve {\k41}ne{\k43}ver {\k42}felt {\k88}this {\k44}way
+Comment: 0,0:01:54.80,0:01:58.01,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k19}And {\k23}there {\k22}is {\k22}no{\k42}thing {\k43}I {\k33}re{\kf117}call
+Comment: 0,0:01:58.44,0:02:01.47,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k42}No {\k23}me{\k42}mo{\k43}ries {\k43}to {\k59}re{\k51}store
+Comment: 0,0:02:01.66,0:02:04.82,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k20}I {\k43}am {\k22}fee{\k39}ling {\k47}so {\k42}hol{\kf103}low
+Comment: 0,0:02:05.30,0:02:08.49,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k41}On{\k43}ly {\k31}a {\k56}u{\k84}nique {\k64}voice
+Comment: 0,0:02:08.49,0:02:11.79,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k23}Lea{\k44}ding {\k26}me {\k38}so {\k40}I {\k45}can {\kf114}hold
+Comment: 0,0:02:12.16,0:02:17.85,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k42}The {\k62}o{\k67}ther {\kf398}world
+Comment: 0,0:02:46.00,0:02:49.79,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k79}I’m {\kf120}trapped {\k49}in {\k53}si{\k78}lence
+Comment: 0,0:02:50.20,0:02:53.11,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k70}Screa{\k57}ming {\k50}and {\kf114}stunned
+Comment: 0,0:02:53.70,0:02:55.90,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k66}No {\k45}one {\k50}can {\k59}hear
+Comment: 0,0:02:56.86,0:03:00.03,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}It’s {\k46}so {\kf125}un{\kf124}fair
+Comment: 0,0:03:00.44,0:03:03.42,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k72}I {\k64}gave {\k50}it {\kf112}all
+Comment: 0,0:03:03.97,0:03:06.34,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k63}With {\k50}all {\k55}my {\k69}heart
+Comment: 0,0:03:07.29,0:03:10.22,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k95}I’m{\k87} {\kf111}lost
+Comment: 0,0:03:10.85,0:03:16.03,Sample KM [Choir],,0,0,0,karaoke,{\kf172}Eh {\kf346}ey
+Comment: 0,0:03:14.07,0:03:17.62,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}You’re {\k21}tea{\k41}ring {\k63}up {\k45}my {\kf162}soul
+Comment: 0,0:03:17.90,0:03:20.81,Sample KM [Choir],,0,0,0,karaoke,{\k26}Kil{\k20}ling {\k23}the {\k20}one {\k21}that {\k23}you {\kf158}loved
+Comment: 0,0:03:20.93,0:03:24.81,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}I {\k25}suf{\k30}fer {\k71}through {\k42}your {\kf195}eyes
+Comment: 0,0:03:24.74,0:03:27.86,Sample KM [Choir],,0,0,0,karaoke,{\k26}Kil{\k20}ling {\k24}the {\k21}one {\k21}that {\k22}you {\kf178}loved
+Comment: 0,0:03:27.86,0:03:31.58,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k42}Have {\k31}you {\k61}lost {\k52}your {\kf186}mind
+Comment: 0,0:03:31.62,0:03:34.53,Sample KM [Choir],,0,0,0,karaoke,{\k25}Kil{\k21}ling {\k22}the {\k21}one {\k21}that {\k23}you {\kf158}loved
+Comment: 0,0:03:34.53,0:03:39.57,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k34}I {\k31}gave {\k35}you {\k60}all {\k45}my {\kf299}life
+Comment: 0,0:03:48.14,0:03:51.38,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k45}I’ve {\k42}ne{\k42}ver {\k41}felt {\k75}this {\k79}way
+Comment: 0,0:03:51.38,0:03:54.58,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k18}And {\k24}there {\k21}is {\k22}no{\k43}thing {\k42}I {\k37}re{\kf113}call
+Comment: 0,0:03:55.00,0:03:58.22,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k44}No {\k21}me{\k43}mo{\k48}ries {\k38}to {\k60}re{\k68}store
+Comment: 0,0:03:58.22,0:04:01.45,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k22}I {\k40}am {\k24}fee{\k39}ling {\k47}so {\k42}hol{\kf109}low
+Comment: 0,0:04:01.87,0:04:05.05,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k42}On{\k42}ly {\k42}a {\k45}u{\k84}nique {\k63}voice
+Comment: 0,0:04:05.05,0:04:08.31,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k21}Lea{\k46}ding {\k25}me {\k41}so {\k40}I {\k42}can {\kf111}hold
+Comment: 0,0:04:08.72,0:04:14.33,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k44}The {\k59}o{\k70}ther {\kf388}world
+Comment: 0,0:04:15.96,0:04:17.07,Sample KM [Down],,0,0,0,karaoke,There is nothing left
+Comment: 0,0:04:20.25,0:04:21.66,Sample KM [Down],,0,0,0,karaoke,I’ve been here for a while
+Comment: 0,0:04:27.36,0:04:28.52,Sample KM [Down],,0,0,0,karaoke,There’s nothing here
+Comment: 0,0:04:29.77,0:04:30.83,Sample KM [Down],,0,0,0,karaoke,Nothing to see
+Comment: 0,0:04:33.25,0:04:34.16,Sample KM [Down],,0,0,0,karaoke,They’ll come again
+Comment: 0,0:04:36.05,0:04:39.01,Sample KM [Down],,0,0,0,karaoke,You’re not real and I’m not either
+Comment: 0,0:04:40.86,0:04:44.52,Sample KM [Down],,0,0,0,karaoke,White, no black, no red
+Comment: 0,0:04:46.12,0:04:47.41,Sample KM [Down],,0,0,0,karaoke,Not really anything
+Comment: 0,0:04:49.04,0:04:50.70,Sample KM [Down],,0,0,0,karaoke,Blank figures across the veil
+Comment: 0,0:04:54.15,0:04:55.42,Sample KM [Down],,0,0,0,karaoke,Close your eyes, dear
+Dialogue: 0,0:00:28.75,0:00:35.61,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k48}I’m {\k49}ly{\k39}ing {\k84}down {\k45}in {\k38}a {\kf129}dark {\kf144}world
+Dialogue: 0,0:00:35.51,0:00:42.77,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Sha{\k47}dows {\k42}are {\k85}so {\k43}thick {\k44}I {\k91}just {\k38}lost {\k49}my {\kf127}way
+Dialogue: 0,0:00:42.50,0:00:48.88,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k47}I {\k40}ne{\k42}ver {\k79}been {\k91}so {\k86}tired {\k37}be{\kf106}fore
+Dialogue: 0,0:00:49.24,0:00:55.96,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k45}I {\k51}can’t {\k43}des{\kf423}pair
+Dialogue: 0,0:00:55.79,0:01:00.08,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k40}I’ll {\k45}find {\k25}a {\k59}way {\k40}to {\kf110}win
+Dialogue: 0,0:00:59.06,0:01:03.34,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}E{\k42}ven {\k23}if {\k35}I {\k66}faced {\k22}the {\kf112}worst
+Dialogue: 0,0:01:02.62,0:01:07.85,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k39}I {\k42}swear {\k24}my {\k50}mind {\k38}is {\k72}bur{\kf148}ning
+Dialogue: 0,0:01:09.51,0:01:13.84,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k46}I’m {\k27}beg{\k31}ging {\k47}you {\k41}to {\k58}help {\k73}me
+Dialogue: 0,0:01:12.74,0:01:16.98,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}‘Cause {\k22}I {\k23}won’t {\k20}make {\k38}it {\k57}all {\k35}a{\k98}lone
+Dialogue: 0,0:01:16.39,0:01:21.38,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k44}I {\k32}leave {\k35}you {\k39}all {\k42}my {\k68}be{\kf129}ing
+Dialogue: 0,0:01:23.25,0:01:28.20,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k44}I {\k43}won’t {\k41}let {\k39}you {\kf218}down
+Dialogue: 0,0:01:26.61,0:01:31.09,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k26}can {\k44}bare{\k43}ly {\kf202}move
+Dialogue: 0,0:01:30.01,0:01:36.09,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Come {\k56}by {\k68}my {\kf321}side
+Dialogue: 0,0:01:33.37,0:01:38.03,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k40}I {\k58}just {\k47}don’t {\k79}know {\kf132}how
+Dialogue: 0,0:01:37.32,0:01:43.82,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Let {\k45}your {\k43}soul {\k21}find {\k23}its {\k42}way {\k23}to {\kf296}me
+Dialogue: 0,0:01:40.33,0:01:53.09,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k26}al{\k42}rea{\k41}dy {\k30}cho-{\k29}o-{\k29}o-{\k47}o-{\k38}o-{\k45}o-{\k90}o-{\k63}o-{\k59}{\k46}o-{\k42}o-{\k43}o-{\kf472}ose
+Dialogue: 0,0:01:50.67,0:01:54.80,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k45}I’ve {\k41}ne{\k43}ver {\k42}felt {\k88}this {\k44}way
+Dialogue: 0,0:01:53.90,0:01:58.21,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k19}And {\k23}there {\k22}is {\k22}no{\k42}thing {\k43}I {\k33}re{\kf117}call
+Dialogue: 0,0:01:57.54,0:02:01.67,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k42}No {\k23}me{\k42}mo{\k43}ries {\k43}to {\k59}re{\k51}store
+Dialogue: 0,0:02:00.76,0:02:05.02,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k43}am {\k22}fee{\k39}ling {\k47}so {\k42}hol{\kf103}low
+Dialogue: 0,0:02:04.40,0:02:08.69,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k41}On{\k43}ly {\k31}a {\k56}u{\k84}nique {\k64}voice
+Dialogue: 0,0:02:07.59,0:02:11.99,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Lea{\k44}ding {\k26}me {\k38}so {\k40}I {\k45}can {\kf114}hold
+Dialogue: 0,0:02:11.26,0:02:18.05,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k42}The {\k62}o{\k67}ther {\kf398}world
+Dialogue: 0,0:02:45.10,0:02:49.99,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k79}I’m {\kf120}trapped {\k49}in {\k53}si{\k78}lence
+Dialogue: 0,0:02:49.30,0:02:53.31,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k70}Screa{\k57}ming {\k50}and {\kf114}stunned
+Dialogue: 0,0:02:52.80,0:02:56.10,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k66}No {\k45}one {\k50}can {\k59}hear
+Dialogue: 0,0:02:55.96,0:03:00.23,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k22}It’s {\k46}so {\kf125}un{\kf124}fair
+Dialogue: 0,0:02:59.54,0:03:03.62,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k72}I {\k64}gave {\k50}it {\kf112}all
+Dialogue: 0,0:03:03.07,0:03:06.54,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k63}With {\k50}all {\k55}my {\k69}heart
+Dialogue: 0,0:03:06.39,0:03:10.42,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k95}I’m{\k87} {\kf111}lost
+Dialogue: 0,0:03:09.95,0:03:16.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf172}Eh {\kf346}ey
+Dialogue: 0,0:03:13.17,0:03:17.82,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}You’re {\k21}tea{\k41}ring {\k63}up {\k45}my {\kf162}soul
+Dialogue: 0,0:03:17.00,0:03:21.01,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Kil{\k20}ling {\k23}the {\k20}one {\k21}that {\k23}you {\kf158}loved
+Dialogue: 0,0:03:20.03,0:03:25.01,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k25}suf{\k30}fer {\k71}through {\k42}your {\kf195}eyes
+Dialogue: 0,0:03:23.84,0:03:28.06,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Kil{\k20}ling {\k24}the {\k21}one {\k21}that {\k22}you {\kf178}loved
+Dialogue: 0,0:03:26.96,0:03:31.78,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Have {\k31}you {\k61}lost {\k52}your {\kf186}mind
+Dialogue: 0,0:03:30.72,0:03:34.73,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Kil{\k21}ling {\k22}the {\k21}one {\k21}that {\k23}you {\kf158}loved
+Dialogue: 0,0:03:33.63,0:03:39.77,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k34}I {\k31}gave {\k35}you {\k60}all {\k45}my {\kf299}life
+Dialogue: 0,0:03:47.24,0:03:51.58,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k45}I’ve {\k42}ne{\k42}ver {\k41}felt {\k75}this {\k79}way
+Dialogue: 0,0:03:50.48,0:03:54.78,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k18}And {\k24}there {\k21}is {\k22}no{\k43}thing {\k42}I {\k37}re{\kf113}call
+Dialogue: 0,0:03:54.10,0:03:58.42,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k44}No {\k21}me{\k43}mo{\k48}ries {\k38}to {\k60}re{\k68}store
+Dialogue: 0,0:03:57.32,0:04:01.65,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k40}am {\k24}fee{\k39}ling {\k47}so {\k42}hol{\kf109}low
+Dialogue: 0,0:04:00.97,0:04:05.25,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k42}On{\k42}ly {\k42}a {\k45}u{\k84}nique {\k63}voice
+Dialogue: 0,0:04:04.15,0:04:08.51,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Lea{\k46}ding {\k25}me {\k41}so {\k40}I {\k42}can {\kf111}hold
+Dialogue: 0,0:04:07.82,0:04:14.53,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k44}The {\k59}o{\k70}ther {\kf388}world
+Dialogue: 0,0:04:15.06,0:04:17.27,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}There is nothing left
+Dialogue: 0,0:04:19.35,0:04:21.86,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}I’ve been here for a while
+Dialogue: 0,0:04:26.46,0:04:28.72,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}There’s nothing here
+Dialogue: 0,0:04:28.87,0:04:31.03,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Nothing to see
+Dialogue: 0,0:04:32.35,0:04:34.36,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}They’ll come again
+Dialogue: 0,0:04:35.15,0:04:39.21,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}You’re not real and I’m not either
+Dialogue: 0,0:04:39.96,0:04:44.72,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}White, no black, no red
+Dialogue: 0,0:04:45.22,0:04:47.61,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Not really anything
+Dialogue: 0,0:04:48.14,0:04:50.90,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Blank figures across the veil
+Dialogue: 0,0:04:53.25,0:04:55.62,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Close your eyes, dear
