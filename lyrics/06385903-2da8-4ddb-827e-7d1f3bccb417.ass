@@ -1,0 +1,147 @@
+﻿[Script Info]
+Title: Soda Pop
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: XxoT_Yue, puyo
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,20,1
+Style: Saja Boys,Arial,24,&H00FFFFFF,&H007131DB,&H00000000,&H007131DB,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Jinu,Arial,24,&H00FFFFFF,&H00148AFF,&H00000000,&H00148AFF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Abby,Arial,24,&H00FFFFFF,&H008660D1,&H00000000,&H008660D1,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,20,1
+Style: Mystery,Arial,24,&H00FFFFFF,&H00EC8E88,&H00000000,&H00EC8E88,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Romance,Arial,24,&H00FFFFFF,&H00E09AF2,&H00000000,&H00E09AF2,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Baby,Arial,24,&H00FFFFFF,&H00B2CF4A,&H00000000,&H00B2CF4A,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Saja Boys - Choir,Arial,24,&H00FFFFFF,&H007131DB,&H00000000,&H007131DB,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:10.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,0,karaoke,{\c&H7131DB&}Saja Boys{\c} | {\c&H148AFF&}Jinu{\c} | {\c&H8660D1&}Abby{\c} | {\c&HF2B0AC&}Mystery{\c} | {\c&HE09AF2&}Romance{\c} | {\c&HB2CF4A&}Baby{\c&HEC8E88&}
+Comment: 0,0:00:11.88,0:00:12.57,Saja Boys,,0,0,0,karaoke,{\k48}Hé {\k21}hé
+Comment: 0,0:00:13.79,0:00:14.46,Saja Boys,,0,0,0,karaoke,{\k47}Hé{\k20} hé
+Comment: 0,0:00:15.69,0:00:15.93,Saja Boys,,0,0,0,karaoke,{\k24}Hé
+Comment: 0,0:00:18.48,0:00:20.02,Jinu,,0,0,0,karaoke,{\k31}J'ai {\k22}be{\k28}soin {\k25}de {\k20}te {\k28}voir
+Comment: 0,0:00:20.04,0:00:22.25,Jinu,,0,0,0,karaoke,{\k19}De {\k46}te {\k23}re{\k27}trou{\k37}ver {\k26}ce {\k43}soir
+Comment: 0,0:00:22.29,0:00:23.98,Jinu,,0,0,0,karaoke,{\k11}Je {\k20}n'ai {\k27}ja{\k23}mais {\k27}as{\k19}sez {\k20}de {\k22}toi
+Comment: 0,0:00:24.25,0:00:25.99,Jinu,,0,0,0,karaoke,{\k26}Je {\k26}fonds {\k24}en {\k37}un {\k32}re{\k29}gard
+Comment: 0,0:00:26.08,0:00:27.34,Jinu,,0,0,0,karaoke,{\k12}J'ai {\k11}le {\k32}sen{\k9}ti{\k16}ment {\k24}que {\k22}tu
+Comment: 0,0:00:27.37,0:00:27.60,Saja Boys - Choir,,0,0,0,karaoke,{\k23}Yeah
+Comment: 0,0:00:27.60,0:00:30.67,Jinu,,0,0,0,karaoke,{\k11}Pour{\k14}rais {\k27}bien {\k9}de{\k11}ve{\k26}nir {\k47}mon {\k20}pa{\k28}ra{\k46}dis {\k23}ma {\k21}fo{\k24}lie
+Comment: 0,0:00:30.95,0:00:33.48,Jinu,,0,0,0,karaoke,{\k19}T'es {\k34}ma {\k32}lu{\k32}mière {\k30}dans {\k14}le {\k55}noir, {\k37}ouais
+Comment: 0,0:00:33.43,0:00:35.32,Mystery,,0,0,0,karaoke,{\k14}Toi {\k14}t'es {\k11}mon {\k19}qua{\k11}tre-{\k14}heures, {\k11\rRomance}tu {\k13}me {\k14}fais {\k12}sa{\k22}li{\k34}ver
+Comment: 0,0:00:35.45,0:00:37.15,Abby,,0,0,0,karaoke,{\k11}Et {\k13}ton {\k24}o{\k21}deur, {\k18}je {\k11}ne {\k12}peux {\k13}l'ou{\k47}blier
+Comment: 0,0:00:37.38,0:00:39.19,Abby,,0,0,0,karaoke,{\k13}Pour {\k11}te {\k12}con{\k10}qué{\k19}rir, {\k30}j'vais {\k15}don{\k11}ner, {\k10}don{\k10}ner, {\k16}don{\k24}ner
+Comment: 0,0:00:39.29,0:00:41.08,Abby,,0,0,0,karaoke,{\k10}Tu {\k13}es {\k13}tout {\k10}ce {\k24}que {\k25}je {\k11}vou{\k11}lais, {\k10}vou{\k14}lais, {\k13}vou{\k25}lais
+Comment: 0,0:00:41.55,0:00:44.28,Mystery,,0,0,0,karaoke,{\k28}Au {\k32}creux {\k19}de {\k24}mes {\k27}bras, {\k22}je {\k28}te {\k20}serre {\k26}si {\k47}fort
+Comment: 0,0:00:44.47,0:00:45.13,Mystery,,0,0,0,karaoke,{\k20}Si {\k46}fort
+Comment: 0,0:00:45.43,0:00:48.17,Mystery,,0,0,0,karaoke,{\k26}Res{\k27}te {\k45}là, {\k49}près {\k18}de {\k31}moi, {\k24}en{\k54}core
+Comment: 0,0:00:48.31,0:00:51.92,Jinu,,0,0,0,karaoke,{\k26}Bé{\k25}bé, {\k47}sois {\k45}se{\k50}reine {\k23}car {\k20}je {\k29}suis {\k19}tout {\k24}à {\k53}toi
+Comment: 0,0:00:52.11,0:00:55.75,Romance,,0,0,0,karaoke,{\k23}Et {\k24}si {\k52}tu {\k42}es {\k58}mienne, {\k19}oh, {\k23}je {\k29}se{\k18}rai {\k22}ton {\k54}roi
+Comment: 0,0:00:55.60,0:00:57.80,Jinu,,0,0,0,karaoke,{\k35}Cha{\k25}que {\k43}jour, {\k29}je {\k23}te {\k37}dé{\k28}sire
+Comment: 0,0:00:57.87,0:00:59.69,Saja Boys,,0,0,0,karaoke,{\k18}Con{\k48}tre {\k22}toi, {\k31}je {\k48}res{\k15}pire
+Comment: 0,0:00:59.70,0:01:02.08,Saja Boys,,0,0,0,karaoke,{\k30}J'te {\kf98}veux {\kf85}non-{\k25}stop
+Comment: 0,0:01:02.16,0:01:03.37,Baby,,0,0,0,karaoke,{\k23}Mon {\k7}pe{\k19}tit {\k22}so{\k23}da {\k27}pop
+Comment: 0,0:01:03.92,0:01:05.71,Saja Boys,,0,0,0,karaoke,{\k37}Je {\k22}ne {\k21}pen{\k28}se {\k44}qu'à {\k27}toi
+Comment: 0,0:01:05.94,0:01:07.70,Saja Boys,,0,0,0,karaoke,{\k23}Tes {\k24}pa{\k20}roles, {\k30}Je {\k46}les {\k33}bois
+Comment: 0,0:01:08.29,0:01:09.45,Saja Boys,,0,0,0,karaoke,{\k26}T'es {\k26}mon {\k24}so{\k22}da {\k18}pop
+Comment: 0,0:01:09.74,0:01:11.04,Saja Boys,,0,0,0,karaoke,{\k25}Mon {\k8}pe{\k16}tit {\k24}so{\k24}da {\k33}pop
+Comment: 0,0:01:11.67,0:01:13.30,Saja Boys,,0,0,0,karaoke,{\k25}Bé{\k18}bé, {\k29}tu {\k22}me {\k47}donnes {\k22}chaud
+Comment: 0,0:01:13.56,0:01:15.29,Saja Boys,,0,0,0,karaoke,{\k26}A{\k19}vec {\k28}toi, {\k21}tout {\k49}est {\k30}beau
+Comment: 0,0:01:15.91,0:01:17.20,Saja Boys,,0,0,0,karaoke,{\k26}T'es {\k26}mon {\k21}so{\k25}da {\k31}pop
+Comment: 0,0:01:17.35,0:01:18.60,Saja Boys,,0,0,0,karaoke,{\k26}Mon {\k9}pe{\k16}tit {\k23}so{\k23}da {\k28}pop
+Comment: 0,0:01:32.65,0:01:33.87,Saja Boys,,0,0,0,karaoke,{\k22}Mon {\k10}pe{\k23}tit {\k14}so{\k22}da {\k31}pop
+Comment: 0,0:01:34.90,0:01:36.06,Baby,,0,0,0,karaoke,{\k15}J'ai {\k16}en{\k10}vie {\k15}de {\k23}t'a{\k14}va{\k23}ler
+Comment: 0,0:01:36.13,0:01:37.45,Baby,,0,0,0,karaoke,{\k6}Toi {\k25}seule {\k20}peut {\k9}me {\k18}dés{\k20}al{\k10}té{\k24}rer
+Comment: 0,0:01:37.78,0:01:39.68,Baby,,0,0,0,karaoke,{\k16}Je {\k11}te {\k12}veux {\k17}col{\k20}lée-{\k16}ser{\k31}rée, {\k26}tu {\k13}me {\k28}plais
+Comment: 0,0:01:39.96,0:01:41.39,Baby,,0,0,0,karaoke,{\k12}J'ai {\k18}si {\k19}chaud, {\k15}viens {\k12}me {\k17}re{\k17}trou{\k33}ver
+Comment: 0,0:01:41.55,0:01:43.47,Abby,,0,0,0,karaoke,{\k30}Je {\k24}sa{\k25}li{\k18}ve {\k15}et {\k13}toi {\k29}tu {\k23}m'es{\k15}quives
+Comment: 0,0:01:43.52,0:01:45.71,Abby,,0,0,0,karaoke,{\k24}Laisse-{\k30}moi {\k23}faire {\k24}une {\k18}au{\k26}tre {\k27}ten{\k20}ta{\k19}ti{\k8}ve
+Comment: 0,0:01:45.73,0:01:47.47,Abby,,0,0,0,karaoke,{\k9}Oh, {\k14}ren{\k14}ver{\k25}se-{\k25}toi, {\k25}ne {\k27}t'ar{\k23}rête {\k12}pas
+Comment: 0,0:01:47.61,0:01:49.42,Abby,,0,0,0,karaoke,{\k9}Je {\k14}veux {\k17}que {\k34}ça {\k22}pop, {\k9}en{\k12}tre {\k19}toi {\k17}et {\k28}moi
+Comment: 0,0:01:49.91,0:01:54.82,Mystery,,0,0,0,karaoke,{\k174}Toi, {\k28}tu {\k23}es {\k31}cel{\k17}le {\k36}dont {\k33}je {\k26}rê{\kf123}vais
+Comment: 0,0:01:55.20,0:01:58.66,Mystery,,0,0,0,karaoke,{\k28}Que {\k36}je {\k35}n'a{\k25}ban{\k33}donne{\k43}rai {\k14}ja{\kf132}mais
+Comment: 0,0:01:59.01,0:02:00.90,Romance,,0,0,0,karaoke,{\k28}Je {\k24}te {\k40}veux, {\k27}j'ai {\k32}eu {\k38}soif
+Comment: 0,0:02:01.00,0:02:04.95,Romance,,0,0,0,karaoke,{\k27}Si {\k28}long{\k34}temps {\k36}de {\k21}toi, {\k26}t'es {\k26}la {\k34}bois{\k49}son {\k41}qu'il {\k30}me {\k25}fal{\k18}lait
+Comment: 0,0:02:05.13,0:02:08.06,Romance,,0,0,0,karaoke,{\k23}Oh, {\k37}mon {\k47}bé{\kf186}bé
+Comment: 0,0:02:07.54,0:02:08.73,Abby,,0,0,0,karaoke,{\k11}Je {\k19}veux {\k27}te {\k18}goû{\k44}ter
+Comment: 0,0:02:08.80,0:02:11.42,Saja Boys,,0,0,0,karaoke,{\k29}Je {\k35}suis {\k49}à {\k30}tes {\kf119}pieds
+Comment: 0,0:02:12.58,0:02:14.21,Saja Boys,,0,0,0,karaoke,{\k26}Je {\k23}ne {\k24}pen{\k24}se {\k48}qu'à {\k18}toi
+Comment: 0,0:02:14.53,0:02:16.17,Saja Boys,,0,0,0,karaoke,{\k24}Tes {\k20}pa{\k28}roles, {\k23}Je {\k46}les {\k23}bois
+Comment: 0,0:02:16.90,0:02:18.03,Saja Boys,,0,0,0,karaoke,{\k26}T'es {\k23}mon {\k24}so{\k20}da {\k20}pop
+Comment: 0,0:02:18.34,0:02:19.58,Saja Boys,,0,0,0,karaoke,{\k23}Mon {\k10}pe{\k18}tit {\k19}so{\k28}da {\k26}pop
+Comment: 0,0:02:20.24,0:02:21.98,Saja Boys,,0,0,0,karaoke,{\k25}Bé{\k30}bé, {\k24}tu {\k20}me {\k39}donnes {\k36}chaud
+Comment: 0,0:02:22.15,0:02:23.80,Saja Boys,,0,0,0,karaoke,{\k27}A{\k17}vec {\k27}toi, {\k24}tout {\k47}est {\k23}beau
+Comment: 0,0:02:24.51,0:02:25.78,Saja Boys,,0,0,0,karaoke,{\k26}T'es {\k23}mon {\k25}so{\k21}da {\k32}pop
+Comment: 0,0:02:25.96,0:02:27.18,Saja Boys,,0,0,0,karaoke,{\k23}Mon {\k12}pe{\k13}tit {\k23}so{\k23}da {\k28}pop
+Comment: 0,0:02:28.34,0:02:29.44,Saja Boys - Choir,,0,0,0,karaoke,{\k47}Ooh, {\k63}ooh
+Comment: 0,0:02:30.24,0:02:31.59,Saja Boys - Choir,,0,0,0,karaoke,{\k47}Ooh, {\k88}ooh
+Comment: 0,0:02:32.14,0:02:33.37,Saja Boys,,0,0,0,karaoke,{\k25}T'es {\k24}mon {\k23}so{\k24}da {\k27}pop
+Comment: 0,0:02:33.55,0:02:34.89,Saja Boys,,0,0,0,karaoke,{\k12}Ne {\k9}me {\k25}dis {\k26}ja{\k21}mais {\k41}stop
+Comment: 0,0:02:48.94,0:02:50.22,Saja Boys,,0,0,0,karaoke,{\k28}Mon {\k10}pe{\k15}tit {\k22}so{\k23}da {\k30}pop
+Dialogue: 0,0:00:00.00,0:00:10.20,Sample KM [Down],,0,0,0,fx,{\k0\fad(0,200)}{\c&H7131DB&}Saja Boys{\c} | {\c&H148AFF&}Jinu{\c} | {\c&H8660D1&}Abby{\c} | {\c&HF2B0AC&}Mystery{\c} | {\c&HE09AF2&}Romance{\c} | {\c&HB2CF4A&}Baby{\c&HEC8E88&}
+Dialogue: 0,0:00:10.98,0:00:12.77,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Hé {\k21}hé
+Dialogue: 0,0:00:12.89,0:00:14.66,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Hé{\k20} hé
+Dialogue: 0,0:00:14.79,0:00:16.13,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hé
+Dialogue: 0,0:00:17.58,0:00:20.22,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k31}J'ai {\k22}be{\k28}soin {\k25}de {\k20}te {\k28}voir
+Dialogue: 0,0:00:19.14,0:00:22.45,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k19}De {\k46}te {\k23}re{\k27}trou{\k37}ver {\k26}ce {\k43}soir
+Dialogue: 0,0:00:21.39,0:00:24.18,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Je {\k20}n'ai {\k27}ja{\k23}mais {\k27}as{\k19}sez {\k20}de {\k22}toi
+Dialogue: 0,0:00:23.35,0:00:26.19,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Je {\k26}fonds {\k24}en {\k37}un {\k32}re{\k29}gard
+Dialogue: 0,0:00:25.18,0:00:27.54,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k12}J'ai {\k11}le {\k32}sen{\k9}ti{\k16}ment {\k24}que {\k22}tu
+Dialogue: 0,0:00:26.47,0:00:27.80,Saja Boys - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Yeah
+Dialogue: 0,0:00:26.70,0:00:30.87,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Pour{\k14}rais {\k27}bien {\k9}de{\k11}ve{\k26}nir {\k47}mon {\k20}pa{\k28}ra{\k46}dis {\k23}ma {\k21}fo{\k24}lie
+Dialogue: 0,0:00:30.05,0:00:33.68,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k19}T'es {\k34}ma {\k32}lu{\k32}mière {\k30}dans {\k14}le {\k55}noir, {\k37}ouais
+Dialogue: 0,0:00:32.53,0:00:35.52,Mystery,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Toi {\k14}t'es {\k11}mon {\k19}qua{\k11}tre-{\k14}heures, {\k11\rRomance}tu {\k13}me {\k14}fais {\k12}sa{\k22}li{\k34}ver
+Dialogue: 0,0:00:34.55,0:00:37.35,Abby,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Et {\k13}ton {\k24}o{\k21}deur, {\k18}je {\k11}ne {\k12}peux {\k13}l'ou{\k47}blier
+Dialogue: 0,0:00:36.48,0:00:39.39,Abby,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Pour {\k11}te {\k12}con{\k10}qué{\k19}rir, {\k30}j'vais {\k15}don{\k11}ner, {\k10}don{\k10}ner, {\k16}don{\k24}ner
+Dialogue: 0,0:00:38.39,0:00:41.28,Abby,,0,0,0,fx,{\k90\fad(300,200)}{\k10}Tu {\k13}es {\k13}tout {\k10}ce {\k24}que {\k25}je {\k11}vou{\k11}lais, {\k10}vou{\k14}lais, {\k13}vou{\k25}lais
+Dialogue: 0,0:00:40.65,0:00:44.48,Mystery,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Au {\k32}creux {\k19}de {\k24}mes {\k27}bras, {\k22}je {\k28}te {\k20}serre {\k26}si {\k47}fort
+Dialogue: 0,0:00:43.57,0:00:45.33,Mystery,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Si {\k46}fort
+Dialogue: 0,0:00:44.53,0:00:48.37,Mystery,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Res{\k27}te {\k45}là, {\k49}près {\k18}de {\k31}moi, {\k24}en{\k54}core
+Dialogue: 0,0:00:47.41,0:00:52.12,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Bé{\k25}bé, {\k47}sois {\k45}se{\k50}reine {\k23}car {\k20}je {\k29}suis {\k19}tout {\k24}à {\k53}toi
+Dialogue: 0,0:00:51.21,0:00:55.95,Romance,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Et {\k24}si {\k52}tu {\k42}es {\k58}mienne, {\k19}oh, {\k23}je {\k29}se{\k18}rai {\k22}ton {\k54}roi
+Dialogue: 0,0:00:54.70,0:00:58.00,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Cha{\k25}que {\k43}jour, {\k29}je {\k23}te {\k37}dé{\k28}sire
+Dialogue: 0,0:00:56.97,0:00:59.89,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Con{\k48}tre {\k22}toi, {\k31}je {\k48}res{\k15}pire
+Dialogue: 0,0:00:58.80,0:01:02.28,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k30}J'te {\kf98}veux {\kf85}non-{\k25}stop
+Dialogue: 0,0:01:01.26,0:01:03.57,Baby,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Mon {\k7}pe{\k19}tit {\k22}so{\k23}da {\k27}pop
+Dialogue: 0,0:01:03.02,0:01:05.91,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Je {\k22}ne {\k21}pen{\k28}se {\k44}qu'à {\k27}toi
+Dialogue: 0,0:01:05.04,0:01:07.90,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Tes {\k24}pa{\k20}roles, {\k30}Je {\k46}les {\k33}bois
+Dialogue: 0,0:01:07.39,0:01:09.65,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k26}T'es {\k26}mon {\k24}so{\k22}da {\k18}pop
+Dialogue: 0,0:01:08.84,0:01:11.24,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Mon {\k8}pe{\k16}tit {\k24}so{\k24}da {\k33}pop
+Dialogue: 0,0:01:10.77,0:01:13.50,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Bé{\k18}bé, {\k29}tu {\k22}me {\k47}donnes {\k22}chaud
+Dialogue: 0,0:01:12.66,0:01:15.49,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k26}A{\k19}vec {\k28}toi, {\k21}tout {\k49}est {\k30}beau
+Dialogue: 0,0:01:15.01,0:01:17.40,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k26}T'es {\k26}mon {\k21}so{\k25}da {\k31}pop
+Dialogue: 0,0:01:16.45,0:01:18.80,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Mon {\k9}pe{\k16}tit {\k23}so{\k23}da {\k28}pop
+Dialogue: 0,0:01:31.75,0:01:34.07,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Mon {\k10}pe{\k23}tit {\k14}so{\k22}da {\k31}pop
+Dialogue: 0,0:01:34.00,0:01:36.26,Baby,,0,0,0,fx,{\k90\fad(300,200)}{\k15}J'ai {\k16}en{\k10}vie {\k15}de {\k23}t'a{\k14}va{\k23}ler
+Dialogue: 0,0:01:35.23,0:01:37.65,Baby,,0,0,0,fx,{\k90\fad(300,200)}{\k6}Toi {\k25}seule {\k20}peut {\k9}me {\k18}dés{\k20}al{\k10}té{\k24}rer
+Dialogue: 0,0:01:36.88,0:01:39.88,Baby,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Je {\k11}te {\k12}veux {\k17}col{\k20}lée-{\k16}ser{\k31}rée, {\k26}tu {\k13}me {\k28}plais
+Dialogue: 0,0:01:39.06,0:01:41.59,Baby,,0,0,0,fx,{\k90\fad(300,200)}{\k12}J'ai {\k18}si {\k19}chaud, {\k15}viens {\k12}me {\k17}re{\k17}trou{\k33}ver
+Dialogue: 0,0:01:40.65,0:01:43.67,Abby,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Je {\k24}sa{\k25}li{\k18}ve {\k15}et {\k13}toi {\k29}tu {\k23}m'es{\k15}quives
+Dialogue: 0,0:01:42.62,0:01:45.91,Abby,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Laisse-{\k30}moi {\k23}faire {\k24}une {\k18}au{\k26}tre {\k27}ten{\k20}ta{\k19}ti{\k8}ve
+Dialogue: 0,0:01:44.83,0:01:47.67,Abby,,0,0,0,fx,{\k90\fad(300,200)}{\k9}Oh, {\k14}ren{\k14}ver{\k25}se-{\k25}toi, {\k25}ne {\k27}t'ar{\k23}rête {\k12}pas
+Dialogue: 0,0:01:46.71,0:01:49.62,Abby,,0,0,0,fx,{\k90\fad(300,200)}{\k9}Je {\k14}veux {\k17}que {\k34}ça {\k22}pop, {\k9}en{\k12}tre {\k19}toi {\k17}et {\k28}moi
+Dialogue: 0,0:01:49.01,0:01:55.02,Mystery,,0,0,0,fx,{\k90\fad(300,200)}{\k174}Toi, {\k28}tu {\k23}es {\k31}cel{\k17}le {\k36}dont {\k33}je {\k26}rê{\kf123}vais
+Dialogue: 0,0:01:54.30,0:01:58.86,Mystery,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Que {\k36}je {\k35}n'a{\k25}ban{\k33}donne{\k43}rai {\k14}ja{\kf132}mais
+Dialogue: 0,0:01:58.11,0:02:01.10,Romance,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Je {\k24}te {\k40}veux, {\k27}j'ai {\k32}eu {\k38}soif
+Dialogue: 0,0:02:00.10,0:02:05.15,Romance,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Si {\k28}long{\k34}temps {\k36}de {\k21}toi, {\k26}t'es {\k26}la {\k34}bois{\k49}son {\k41}qu'il {\k30}me {\k25}fal{\k18}lait
+Dialogue: 0,0:02:04.23,0:02:08.26,Romance,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Oh, {\k37}mon {\k47}bé{\kf186}bé
+Dialogue: 0,0:02:06.64,0:02:08.93,Abby,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Je {\k19}veux {\k27}te {\k18}goû{\k44}ter
+Dialogue: 0,0:02:07.90,0:02:11.62,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Je {\k35}suis {\k49}à {\k30}tes {\kf119}pieds
+Dialogue: 0,0:02:11.68,0:02:14.41,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Je {\k23}ne {\k24}pen{\k24}se {\k48}qu'à {\k18}toi
+Dialogue: 0,0:02:13.63,0:02:16.37,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Tes {\k20}pa{\k28}roles, {\k23}Je {\k46}les {\k23}bois
+Dialogue: 0,0:02:16.00,0:02:18.23,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k26}T'es {\k23}mon {\k24}so{\k20}da {\k20}pop
+Dialogue: 0,0:02:17.44,0:02:19.78,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Mon {\k10}pe{\k18}tit {\k19}so{\k28}da {\k26}pop
+Dialogue: 0,0:02:19.34,0:02:22.18,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Bé{\k30}bé, {\k24}tu {\k20}me {\k39}donnes {\k36}chaud
+Dialogue: 0,0:02:21.25,0:02:24.00,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k27}A{\k17}vec {\k27}toi, {\k24}tout {\k47}est {\k23}beau
+Dialogue: 0,0:02:23.61,0:02:25.98,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k26}T'es {\k23}mon {\k25}so{\k21}da {\k32}pop
+Dialogue: 0,0:02:25.06,0:02:27.38,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Mon {\k12}pe{\k13}tit {\k23}so{\k23}da {\k28}pop
+Dialogue: 0,0:02:27.44,0:02:29.64,Saja Boys - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Ooh, {\k63}ooh
+Dialogue: 0,0:02:29.34,0:02:31.79,Saja Boys - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Ooh, {\k88}ooh
+Dialogue: 0,0:02:31.24,0:02:33.57,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k25}T'es {\k24}mon {\k23}so{\k24}da {\k27}pop
+Dialogue: 0,0:02:32.65,0:02:35.09,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Ne {\k9}me {\k25}dis {\k26}ja{\k21}mais {\k41}stop
+Dialogue: 0,0:02:48.04,0:02:50.42,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Mon {\k10}pe{\k15}tit {\k22}so{\k23}da {\k30}pop
