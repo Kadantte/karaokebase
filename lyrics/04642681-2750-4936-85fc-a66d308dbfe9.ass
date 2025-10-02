@@ -1,0 +1,94 @@
+﻿[Script Info]
+Title: The Phantom Of The Opera
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,100,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,40,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,40,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,40,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,45,legend,{\k1000}{\k0}♥ {\rSample KM Duo [Voice 1]}Christine {\2cHFFFFFF}| ♣ {\rSample KM Duo [Voice 2]}Phantom {\2cHFFFFFF}| ♥♣ {\rSample KM Duo [Voice 1&2]}Both {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:21.68,0:00:25.11,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\k51}In {\k52}sleep, {\k45}he {\k74}sang {\k27}to {\k94}me
+Comment: 0,0:00:25.58,0:00:28.94,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\k49}In {\k72}dreams, {\k72}he {\kf143}came
+Comment: 0,0:00:29.40,0:00:32.87,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\k48}That {\k71}voice {\k24}which {\k96}calls {\k24}to {\k84}me
+Comment: 0,0:00:33.21,0:00:36.59,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\k73}And {\k49}speaks {\k25}my {\kf191}name
+Comment: 0,0:00:37.02,0:00:45.28,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\k54}And {\k47}do {\k44}I {\k98}dream {\k25}a{\k84}gain?{\k37} {\k49}For {\k71}now, {\k25}I {\kf292}find
+Comment: 0,0:00:45.71,0:00:51.96,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\k49}The {\kf210}Phan{\k29}tom {\k23}of {\k24}the {\k25}O{\k24}pe{\k24}ra {\k47}is {\kf170}there
+Comment: 0,0:00:52.42,0:00:56.53,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\k59}In{\k62}side {\k36}my {\kf254}mind
+Comment: 0,0:01:03.86,0:01:10.75,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k57}Sing {\k61}once {\k34}a{\k71}gain {\k39}with {\k72}me{\k58} {\k55}our {\k78}strange {\k37}du{\kf127}et
+Comment: 0,0:01:11.63,0:01:18.83,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k48}My {\k50}po{\k48}wer {\k80}o{\k35}ver {\k74}you{\k49} {\k63}grows {\k75}stron{\k42}ger {\kf156}yet
+Comment: 0,0:01:19.32,0:01:27.25,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k48}And {\k48}though {\k49}you {\k71}turn {\k36}from {\k73}me{\k57} {\k44}to {\k89}glance {\k36}be{\kf242}hind
+Comment: 0,0:01:27.95,0:01:34.09,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k48}The {\kf218}Phan{\k24}tom {\k28}of {\k28}the {\k27}O{\k21}pe{\k39}ra {\k41}is {\kf140}there
+Comment: 0,0:01:34.69,0:01:38.56,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k57}In{\k85}side {\k51}your {\kf194}mind
+Comment: 0,0:01:46.20,0:01:49.67,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\k50}Those {\k49}who {\k60}have {\k57}seen {\k51}your {\k80}face
+Comment: 0,0:01:50.03,0:01:53.40,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\k49}Draw {\k70}back {\k48}in {\kf170}fear
+Comment: 0,0:01:53.88,0:01:57.65,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\k48}I {\k47}am {\k48}the {\k72}mask {\k43}you {\kf119}wear
+Comment: 0,0:01:57.72,0:02:01.02,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k48}It's {\k71}me {\k50}they {\kf161}hear
+Comment: 0,0:02:01.55,0:02:09.81,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\k49}Your {\k48}spi{\k48}rit {\k69}and {\k51}my {\k89}voice{\k30} {\k49}in {\k70}one, {\k25}com{\kf298}bined
+Comment: 0,0:02:01.55,0:02:09.81,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k49}My {\k48}spi{\k48}rit {\k69}and {\k51}your {\k89}voice{\k30} {\k49}in {\k70}one, {\k25}com{\kf298}bined
+Comment: 0,0:02:10.19,0:02:16.53,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,♥♣ {\k49}The {\kf215}Phan{\k24}tom {\k24}of {\k24}the {\k25}O{\k23}pe{\k25}ra {\k48}is {\kf177}there
+Comment: 0,0:02:16.92,0:02:21.23,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\k46}In{\k74}side {\k26}my {\kf285}mind
+Comment: 0,0:02:16.92,0:02:21.23,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k46}In{\k74}side {\k26}your {\kf285}mind
+Comment: 0,0:02:18.13,0:02:25.12,Sample KM [Choir],,0,0,0,karaoke,{\k25}He's {\kf141}there, {\k49}the {\k72}Phan{\k26}tom {\k67}of {\k27}the {\kf103}O{\kf189}pera
+Comment: 0,0:02:25.55,0:02:32.98,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\k46}He's {\kf123}there,{\k22} {\k48}the {\k71}Phan{\k26}tom {\k71}of {\k25}the {\k96}O{\kf215}pera
+Comment: 0,0:02:33.68,0:02:40.49,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\kf146}Ah {\k48}ah {\k67}ah {\k29}ah {\k69}ah {\k23}ah {\k99}ah {\kf200}ah
+Comment: 0,0:02:39.17,0:02:42.33,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k66}Sing, {\k39}my {\k46}an{\k18}gel {\k34}of {\k61}mu{\k52}sic
+Comment: 0,0:02:41.37,0:02:48.29,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\kf142}Ah {\k48}ah {\k67}ah {\k29}ah {\k70}ah {\k23}ah {\k98}ah {\kf215}ah
+Comment: 0,0:02:47.83,0:02:50.92,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k82}Sing, {\k38}my {\kf140}an{\k49}gel
+Comment: 0,0:02:49.03,0:02:55.91,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\kf146}Ah {\k48}ah {\k69}ah {\k27}ah {\k69}ah {\k23}ah {\k98}ah {\kf208}ah
+Comment: 0,0:02:54.84,0:02:56.23,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k45}Sing {\k27}for {\k67}me
+Comment: 0,0:02:56.72,0:03:03.32,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\kf144}Ah {\k48}ah {\k67}ah {\k29}ah {\k70}ah {\k22}ah {\k99}ah {\kf181}ah
+Comment: 0,0:03:04.38,0:03:07.43,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\kf305}Ah
+Comment: 0,0:03:08.23,0:03:11.34,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\kf311}Ah
+Comment: 0,0:03:07.05,0:03:09.89,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k82}Sing, {\k35}my {\k72}an{\k95}gel
+Comment: 0,0:03:12.07,0:03:15.21,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\kf314}Ah
+Comment: 0,0:03:13.01,0:03:15.56,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k66}Sing {\k34}for {\kf155}me
+Comment: 0,0:03:15.92,0:03:19.12,Sample KM Duo [Voice 1],,0,0,0,karaoke,♥ {\kf320}Ah
+Dialogue: 0,0:00:20.78,0:00:25.31,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k51}In {\k52}sleep, {\k45}he {\k74}sang {\k27}to {\k94}me
+Dialogue: 0,0:00:24.68,0:00:29.14,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k49}In {\k72}dreams, {\k72}he {\kf143}came
+Dialogue: 0,0:00:28.50,0:00:33.07,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k48}That {\k71}voice {\k24}which {\k96}calls {\k24}to {\k84}me
+Dialogue: 0,0:00:32.31,0:00:36.79,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k73}And {\k49}speaks {\k25}my {\kf191}name
+Dialogue: 0,0:00:36.12,0:00:45.48,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k54}And {\k47}do {\k44}I {\k98}dream {\k25}a{\k84}gain?{\k37} {\k49}For {\k71}now, {\k25}I {\kf292}find
+Dialogue: 0,0:00:44.81,0:00:52.16,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k49}The {\kf210}Phan{\k29}tom {\k23}of {\k24}the {\k25}O{\k24}pe{\k24}ra {\k47}is {\kf170}there
+Dialogue: 0,0:00:51.52,0:00:56.73,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k59}In{\k62}side {\k36}my {\kf254}mind
+Dialogue: 0,0:01:02.96,0:01:10.95,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k57}Sing {\k61}once {\k34}a{\k71}gain {\k39}with {\k72}me{\k58} {\k55}our {\k78}strange {\k37}du{\kf127}et
+Dialogue: 0,0:01:10.73,0:01:19.03,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k48}My {\k50}po{\k48}wer {\k80}o{\k35}ver {\k74}you{\k49} {\k63}grows {\k75}stron{\k42}ger {\kf156}yet
+Dialogue: 0,0:01:18.42,0:01:27.45,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k48}And {\k48}though {\k49}you {\k71}turn {\k36}from {\k73}me{\k57} {\k44}to {\k89}glance {\k36}be{\kf242}hind
+Dialogue: 0,0:01:27.05,0:01:34.29,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k48}The {\kf218}Phan{\k24}tom {\k28}of {\k28}the {\k27}O{\k21}pe{\k39}ra {\k41}is {\kf140}there
+Dialogue: 0,0:01:33.79,0:01:38.76,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k57}In{\k85}side {\k51}your {\kf194}mind
+Dialogue: 0,0:01:45.30,0:01:49.87,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k50}Those {\k49}who {\k60}have {\k57}seen {\k51}your {\k80}face
+Dialogue: 0,0:01:49.13,0:01:53.60,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k49}Draw {\k70}back {\k48}in {\kf170}fear
+Dialogue: 0,0:01:52.98,0:01:57.85,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k48}I {\k47}am {\k48}the {\k72}mask {\k43}you {\kf119}wear
+Dialogue: 0,0:01:56.82,0:02:01.22,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k48}It's {\k71}me {\k50}they {\kf161}hear
+Dialogue: 0,0:02:00.65,0:02:10.01,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k49}Your {\k48}spi{\k48}rit {\k69}and {\k51}my {\k89}voice{\k30} {\k49}in {\k70}one, {\k25}com{\kf298}bined
+Dialogue: 0,0:02:00.65,0:02:10.01,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k49}My {\k48}spi{\k48}rit {\k69}and {\k51}your {\k89}voice{\k30} {\k49}in {\k70}one, {\k25}com{\kf298}bined
+Dialogue: 0,0:02:09.29,0:02:16.73,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}♥♣ {\k49}The {\kf215}Phan{\k24}tom {\k24}of {\k24}the {\k25}O{\k23}pe{\k25}ra {\k48}is {\kf177}there
+Dialogue: 0,0:02:16.02,0:02:21.43,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k46}In{\k74}side {\k26}my {\kf285}mind
+Dialogue: 0,0:02:16.02,0:02:21.43,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k46}In{\k74}side {\k26}your {\kf285}mind
+Dialogue: 0,0:02:17.23,0:02:25.32,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}He's {\kf141}there, {\k49}the {\k72}Phan{\k26}tom {\k67}of {\k27}the {\kf103}O{\kf189}pera
+Dialogue: 0,0:02:24.65,0:02:33.18,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\k46}He's {\kf123}there,{\k22} {\k48}the {\k71}Phan{\k26}tom {\k71}of {\k25}the {\k96}O{\kf215}pera
+Dialogue: 0,0:02:32.78,0:02:40.69,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\kf146}Ah {\k48}ah {\k67}ah {\k29}ah {\k69}ah {\k23}ah {\k99}ah {\kf200}ah
+Dialogue: 0,0:02:38.27,0:02:42.53,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k66}Sing, {\k39}my {\k46}an{\k18}gel {\k34}of {\k61}mu{\k52}sic
+Dialogue: 0,0:02:40.47,0:02:48.49,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\kf142}Ah {\k48}ah {\k67}ah {\k29}ah {\k70}ah {\k23}ah {\k98}ah {\kf215}ah
+Dialogue: 0,0:02:46.93,0:02:51.12,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k82}Sing, {\k38}my {\kf140}an{\k49}gel
+Dialogue: 0,0:02:48.13,0:02:56.11,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\kf146}Ah {\k48}ah {\k69}ah {\k27}ah {\k69}ah {\k23}ah {\k98}ah {\kf208}ah
+Dialogue: 0,0:02:53.94,0:02:56.43,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k45}Sing {\k27}for {\k67}me
+Dialogue: 0,0:02:55.82,0:03:03.52,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\kf144}Ah {\k48}ah {\k67}ah {\k29}ah {\k70}ah {\k22}ah {\k99}ah {\kf181}ah
+Dialogue: 0,0:03:03.48,0:03:07.63,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\kf305}Ah
+Dialogue: 0,0:03:07.33,0:03:11.54,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\kf311}Ah
+Dialogue: 0,0:03:06.15,0:03:10.09,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k82}Sing, {\k35}my {\k72}an{\k95}gel
+Dialogue: 0,0:03:11.17,0:03:15.41,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\kf314}Ah
+Dialogue: 0,0:03:12.11,0:03:15.76,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k66}Sing {\k34}for {\kf155}me
+Dialogue: 0,0:03:15.02,0:03:19.32,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♥ {\kf320}Ah
