@@ -1,0 +1,67 @@
+﻿[Script Info]
+Title: Better Off
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: RUI,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: YUNA,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: HINATA,Arial,24,&H00FFFFFF,&H00FF00BC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: iScream,Arial,24,&H00FFFFFF,&H00A0FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:12.75,0:00:15.93,RUI,,0,0,0,karaoke,{\k52}DON'T {\k124}KNOW {\k27}ko{\k15}ta{\k23}e {\k77}wa
+Comment: 0,0:00:16.54,0:00:19.89,RUI,,0,0,0,karaoke,{\k28}ma{\k25}da {\k25}wa{\k51}ka{\k50}ra{\k52}na{\k50}i {\k26}ma{\k28}ma
+Comment: 0,0:00:20.64,0:00:24.03,YUNA,,0,0,0,karaoke,{\k12}mi{\k12}ra{\k13}i {\k25}nan{\k134}te {\k58}A{\k24}NY{\k61}ONE
+Comment: 0,0:00:24.70,0:00:28.81,YUNA,,0,0,0,karaoke,{\k25}yo{\k28}me{\k23}na{\k50}i {\k52}ka{\k50}ra {\k48}ko{\k73}so {\k62}TRY
+Comment: 0,0:00:29.51,0:00:32.91,HINATA,,0,0,0,karaoke,{\kf153}I....{\kf1} {\k25}I {\k101}DO {\k60}DO
+Comment: 0,0:00:33.10,0:00:34.85,HINATA,,0,0,0,karaoke,{\k23}WE {\k27}WOULD {\k25}BE {\k26}BE{\k25}TTER {\k49}OFF
+Comment: 0,0:00:35.11,0:00:37.60,HINATA,,0,0,0,karaoke,{\k26}WE {\k27}WOULD {\k25}BE {\k25}BE{\k25}TTER {\k24}OFF {\k51}YEAH {\k46}YEAH
+Comment: 0,0:00:37.66,0:00:41.02,RUI,,0,0,0,karaoke,{\kf151}I....{\k1} {\k24}I {\k102}DO {\k58}DO
+Comment: 0,0:00:41.21,0:00:44.81,YUNA,,0,0,0,karaoke,{\k26}ta{\k24}shi{\k28}ka {\k24}ni {\k27}ka{\k24}n{\k51}ji{\k22}ru {\k80}HEART {\k25}BEA{\k29}TING
+Comment: 0,0:00:45.04,0:00:46.89,RUI,,0,0,0,karaoke,{\k12}ko{\k12}no {\k27}un{\k24}mei {\k26}wo {\k12}ka{\k13}ke{\k13}te {\k12}mi{\k34}tai
+Comment: 0,0:00:47.09,0:00:48.87,RUI,,0,0,0,karaoke,{\k24}BET {\k26}ON {\k24}ME {\k24}u{\k13}ra {\k13}ka {\k13}o{\k12}mo{\k29}te
+Comment: 0,0:00:49.11,0:00:53.77,RUI,,0,0,0,karaoke,{\k47}doc{\k29}chi {\kf81}ni{\k44} {\k50}nat{\k28}te {\k24}mo {\k28}ka{\k23}ma{\k52}wa{\k60}nai
+Comment: 0,0:00:53.93,0:00:57.10,HINATA,,0,0,0,karaoke,{\k49}tat{\k34}ta {\k18}i{\k29}chi{\k23}do {\k28}ki{\k23}ri {\k25}no {\k26}CO{\k24}IN {\k38}TOSS
+Comment: 0,0:00:57.23,0:01:01.11,HINATA,,0,0,0,karaoke,{\k50}ryou{\k76}te {\k25}ka{\k53}sa{\k25}ne{\k25}ta{\kf134}ra
+Comment: 0,0:01:01.54,0:01:04.47,RUI,,0,0,0,karaoke,{\k29}ko{\k20}no {\k54}shun{\k51}kan {\k38}wo {\k40}FOR {\k61}ME
+Comment: 0,0:01:04.62,0:01:08.81,YUNA,,0,0,0,karaoke,{\k50}wa{\k40}ta{\k11}shi {\k50}ga {\k26}wa{\k23}ta{\k28}shi {\k25}no {\k51}ta{\k27}me {\k50}ni {\k38}PROOF
+Comment: 0,0:01:08.93,0:01:12.69,HINATA,,0,0,0,karaoke,{\k24}ho{\k52}ka {\k47}no {\k29}da{\k12}re {\k15}yo{\k21}ri {\k27}ta{\k27}ka{\k13}ku {\k38}FOR {\k71}ME
+Comment: 0,0:01:13.00,0:01:16.82,YUNA,,0,0,0,karaoke,{\k52}yo{\k24}ri {\k25}yo{\k25}i {\kf77}mi{\k49}ra{\k28}i {\kf102}he
+Comment: 0,0:01:16.57,0:01:18.33,RUI,,0,0,0,karaoke,{\k24}LET'S {\k25}F{\k26}LIP {\k52}IT {\k49}NOW
+Comment: 0,0:01:18.35,0:01:21.81,iScream,,0,0,0,karaoke,{\k26}BE{\k24}TTER {\k25}BE{\k26}TTER {\k26}BE{\k101}TTER {\k26}BE{\k24}TTER {\k26}BE{\k42}TTER
+Comment: 0,0:01:21.89,0:01:22.32,Sample KM [Choir],,0,0,0,karaoke,{\k43}OFF
+Comment: 0,0:01:22.42,0:01:25.86,iScream,,0,0,0,karaoke,{\k24}BE{\k27}TTER {\k24}BE{\k26}TTER {\k25}BE{\k102}TTER {\k26}BE{\k25}TTER {\k25}BE{\k40}TTER
+Comment: 0,0:01:25.96,0:01:26.45,Sample KM [Choir],,0,0,0,karaoke,{\k49}OFF
+Dialogue: 0,0:00:11.85,0:00:16.13,RUI,,0,0,0,fx,{\k90\fad(300,200)}{\k52}DON'T {\k124}KNOW {\k27}ko{\k15}ta{\k23}e {\k77}wa
+Dialogue: 0,0:00:15.64,0:00:20.09,RUI,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ma{\k25}da {\k25}wa{\k51}ka{\k50}ra{\k52}na{\k50}i {\k26}ma{\k28}ma
+Dialogue: 0,0:00:19.74,0:00:24.23,YUNA,,0,0,0,fx,{\k90\fad(300,200)}{\k12}mi{\k12}ra{\k13}i {\k25}nan{\k134}te {\k58}A{\k24}NY{\k61}ONE
+Dialogue: 0,0:00:23.80,0:00:29.01,YUNA,,0,0,0,fx,{\k90\fad(300,200)}{\k25}yo{\k28}me{\k23}na{\k50}i {\k52}ka{\k50}ra {\k48}ko{\k73}so {\k62}TRY
+Dialogue: 0,0:00:28.61,0:00:33.11,HINATA,,0,0,0,fx,{\k90\fad(300,200)}{\kf153}I....{\kf1} {\k25}I {\k101}DO {\k60}DO
+Dialogue: 0,0:00:32.20,0:00:35.05,HINATA,,0,0,0,fx,{\k90\fad(300,200)}{\k23}WE {\k27}WOULD {\k25}BE {\k26}BE{\k25}TTER {\k49}OFF
+Dialogue: 0,0:00:34.21,0:00:37.80,HINATA,,0,0,0,fx,{\k90\fad(300,200)}{\k26}WE {\k27}WOULD {\k25}BE {\k25}BE{\k25}TTER {\k24}OFF {\k51}YEAH {\k46}YEAH
+Dialogue: 0,0:00:36.76,0:00:41.22,RUI,,0,0,0,fx,{\k90\fad(300,200)}{\kf151}I....{\k1} {\k24}I {\k102}DO {\k58}DO
+Dialogue: 0,0:00:40.31,0:00:45.01,YUNA,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ta{\k24}shi{\k28}ka {\k24}ni {\k27}ka{\k24}n{\k51}ji{\k22}ru {\k80}HEART {\k25}BEA{\k29}TING
+Dialogue: 0,0:00:44.14,0:00:47.09,RUI,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ko{\k12}no {\k27}un{\k24}mei {\k26}wo {\k12}ka{\k13}ke{\k13}te {\k12}mi{\k34}tai
+Dialogue: 0,0:00:46.19,0:00:49.07,RUI,,0,0,0,fx,{\k90\fad(300,200)}{\k24}BET {\k26}ON {\k24}ME {\k24}u{\k13}ra {\k13}ka {\k13}o{\k12}mo{\k29}te
+Dialogue: 0,0:00:48.21,0:00:53.97,RUI,,0,0,0,fx,{\k90\fad(300,200)}{\k47}doc{\k29}chi {\kf81}ni{\k44} {\k50}nat{\k28}te {\k24}mo {\k28}ka{\k23}ma{\k52}wa{\k60}nai
+Dialogue: 0,0:00:53.03,0:00:57.30,HINATA,,0,0,0,fx,{\k90\fad(300,200)}{\k49}tat{\k34}ta {\k18}i{\k29}chi{\k23}do {\k28}ki{\k23}ri {\k25}no {\k26}CO{\k24}IN {\k38}TOSS
+Dialogue: 0,0:00:56.33,0:01:01.31,HINATA,,0,0,0,fx,{\k90\fad(300,200)}{\k50}ryou{\k76}te {\k25}ka{\k53}sa{\k25}ne{\k25}ta{\kf134}ra
+Dialogue: 0,0:01:00.64,0:01:04.67,RUI,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ko{\k20}no {\k54}shun{\k51}kan {\k38}wo {\k40}FOR {\k61}ME
+Dialogue: 0,0:01:03.72,0:01:09.01,YUNA,,0,0,0,fx,{\k90\fad(300,200)}{\k50}wa{\k40}ta{\k11}shi {\k50}ga {\k26}wa{\k23}ta{\k28}shi {\k25}no {\k51}ta{\k27}me {\k50}ni {\k38}PROOF
+Dialogue: 0,0:01:08.03,0:01:12.89,HINATA,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ho{\k52}ka {\k47}no {\k29}da{\k12}re {\k15}yo{\k21}ri {\k27}ta{\k27}ka{\k13}ku {\k38}FOR {\k71}ME
+Dialogue: 0,0:01:12.10,0:01:17.02,YUNA,,0,0,0,fx,{\k90\fad(300,200)}{\k52}yo{\k24}ri {\k25}yo{\k25}i {\kf77}mi{\k49}ra{\k28}i {\kf102}he
+Dialogue: 0,0:01:15.67,0:01:18.53,RUI,,0,0,0,fx,{\k90\fad(300,200)}{\k24}LET'S {\k25}F{\k26}LIP {\k52}IT {\k49}NOW
+Dialogue: 0,0:01:17.45,0:01:22.01,iScream,,0,0,0,fx,{\k90\fad(300,200)}{\k26}BE{\k24}TTER {\k25}BE{\k26}TTER {\k26}BE{\k101}TTER {\k26}BE{\k24}TTER {\k26}BE{\k42}TTER
+Dialogue: 0,0:01:20.99,0:01:22.52,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}OFF
+Dialogue: 0,0:01:21.52,0:01:26.06,iScream,,0,0,0,fx,{\k90\fad(300,200)}{\k24}BE{\k27}TTER {\k24}BE{\k26}TTER {\k25}BE{\k102}TTER {\k26}BE{\k25}TTER {\k25}BE{\k40}TTER
+Dialogue: 0,0:01:25.06,0:01:26.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k49}OFF
