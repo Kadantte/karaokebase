@@ -1,0 +1,191 @@
+﻿[Script Info]
+Title: Invincible
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Miyeon,Arial,24,&H00FFFFFF,&H0000FF5C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Minnie,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Soyeon,Arial,24,&H00FFFFFF,&H00FF00BC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: idle,Arial,24,&H00FFFFFF,&H003131FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Yuqi,Arial,24,&H00FFFFFF,&H00FD7ABC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Shuhua,Arial,24,&H00FFFFFF,&H007AD3FD,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Minnie - Choir,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Soyeon - Choir,Arial,24,&H00FFFFFF,&H00FF00BC,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:01.95,idle,,0,0,0,,{\k1000}{\k0}ALL {\2cHFFFFFF}| {\rSoyeon}Soyeon {\2cHFFFFFF}| {\rMiyeon}Miyeon {\2cHFFFFFF}| {\rYuqi}Yuqi {\2cHFFFFFF}| {\rShuhua}Shuhua {\2cHFFFFFF}| {\rMinnie}Minnie
+Comment: 0,0:00:01.95,0:00:02.70,idle,,0,0,0,karaoke,{\k40}Let's {\k20}beat {\k15}it
+Comment: 0,0:00:02.87,0:00:04.47,idle,,0,0,0,karaoke,{\k38}Yeah, {\k32}put {\k13}the {\k27}spi{\k16}rit {\k16}in {\k18}it
+Comment: 0,0:00:04.78,0:00:05.50,idle,,0,0,0,karaoke,{\k39}Let's {\k18}beat {\k15}it
+Comment: 0,0:00:05.69,0:00:07.29,idle,,0,0,0,karaoke,{\k38}Yeah, {\k32}put {\k15}the {\k25}spi{\k15}rit {\k18}in {\k17}it
+Comment: 0,0:00:07.61,0:00:08.33,idle,,0,0,0,karaoke,{\k39}Let's {\k18}beat {\k15}it
+Comment: 0,0:00:08.51,0:00:10.11,idle,,0,0,0,karaoke,{\k37}Yeah, {\k35}put {\k12}the {\k25}spi{\k17}rit {\k18}in {\k16}it
+Comment: 0,0:00:10.44,0:00:11.15,idle,,0,0,0,karaoke,{\k38}Let's {\k18}beat {\k15}it
+Comment: 0,0:00:11.33,0:00:12.94,idle,,0,0,0,karaoke,{\k37}Yeah, {\k35}put {\k12}the {\k25}spi{\k16}rit {\k20}in {\k16}it
+Comment: 0,0:00:12.59,0:00:15.33,Soyeon,,0,0,0,karaoke,{\k36}Yeah, {\k53}us {\k18}or {\k35}them, {\k17}it {\k18}can {\k17}on{\k18}ly {\k19}be {\k43}one
+Comment: 0,0:00:15.42,0:00:18.23,Soyeon,,0,0,0,karaoke,{\k17}But {\k19}to {\k51}me, {\k17}it {\k37}seems {\k17}this {\k18}is {\k18}go{\k17}nna {\k17}be {\k53}fun
+Comment: 0,0:00:18.55,0:00:19.96,Minnie,,0,0,0,karaoke,{\k40}First {\k32}things, {\k28}first {\k10}i{\k18}ma{\k13}gine
+Comment: 0,0:00:20.03,0:00:21.24,Minnie,,0,0,0,karaoke,{\k33}how {\k17}things {\k18}are {\k18}go{\k18}nna {\k17}go
+Comment: 0,0:00:21.41,0:00:24.10,Minnie,,0,0,0,karaoke,{\k16}Pick{\k20}ing {\k36}who's {\k34}next {\k36}like {\k17}ee{\k18}ny, {\k18}mee{\k17}ny, {\k17}mi{\k17}ny, {\k23}moe
+Comment: 0,0:00:24.22,0:00:25.18,Miyeon,,0,0,0,karaoke,{\k28}Vroom, {\k28}vroom, {\k40}vroom
+Comment: 0,0:00:25.29,0:00:27.01,Miyeon,,0,0,0,karaoke,{\k19}Head{\k15}ing {\k38}straight {\k16}in{\k20}to {\k16}o{\k16}ver{\k32}drive
+Comment: 0,0:00:27.24,0:00:29.85,Miyeon,,0,0,0,karaoke,{\k16}zen{\k19}jin {\k18}mi{\k18}tou {\k16}no {\k18}ta{\k37}ka{\k33}mi {\k19}me{\k24}za{\k10}shi{\k33}te
+Comment: 0,0:00:29.86,0:00:31.62,Yuqi,,0,0,0,karaoke,{\k31}Here {\k24}we {\k36}go, {\k17}this {\k18}is {\k18}the {\k17}mo{\k15}ment
+Comment: 0,0:00:31.65,0:00:32.76,Yuqi,,0,0,0,karaoke,{\k17}we've {\k19}been {\k18}wai{\k16}ting {\k41}for
+Comment: 0,0:00:33.06,0:00:34.14,Yuqi,,0,0,0,karaoke,{\k12}Ne{\k24}ver {\k17}be {\k15}a{\k40}fraid
+Comment: 0,0:00:34.46,0:00:35.67,Yuqi,,0,0,0,karaoke,{\k16}This {\k21}is {\k35}our {\k49}chance
+Comment: 0,0:00:35.34,0:00:38.87,Shuhua,,0,0,0,karaoke,{\k18}so{\kf72}ra{\kf72}sa{\kf70}na{\k55}i{\kf66}de
+Comment: 0,0:00:38.52,0:00:41.17,Yuqi,,0,0,0,karaoke,{\k18}hi{\k19}me{\k20}ta {\k13}chi{\k19}ka{\k20}ra {\k16}wo {\k19}LET {\k16}IT {\k18}GO, {\k17}JUST {\k20}LET {\k17}IT {\k33}GO
+Comment: 0,0:00:41.03,0:00:46.63,Minnie,,0,0,0,karaoke,{\k15}hi{\k21}ka{\k15}ri {\k25}no {\k44}SPEED, {\k20}da{\k16}re {\k17}mo {\k18}to{\k18}me{\k17}ra{\k19}re{\k17}na{\k18}i {\kf140}MO{\kf140}TION
+Comment: 0,0:00:47.16,0:00:49.57,Minnie,,0,0,0,karaoke,{\k72}Three, {\k71}two, {\k54}one, {\k18}you {\k11}rea{\k15}dy?
+Comment: 0,0:00:49.98,0:00:52.47,Minnie,,0,0,0,karaoke,{\k38}In{\k34}vin{\k20}ci{\k52}ble, {\k15}i{\k19}rre{\k36}pla{\k18}cea{\k17}ble
+Comment: 0,0:00:52.48,0:00:55.14,Minnie,,0,0,0,karaoke,{\k34}ALL {\k36}MY {\k35}LIFE, {\k19}ko{\k18}no {\k34}shun{\k36}kan {\k54}ni
+Comment: 0,0:00:55.63,0:00:58.11,Miyeon,,0,0,0,karaoke,{\k37}too{\k35}i {\k22}you {\k30}na {\k18}to{\k19}o{\k20}ku{\k34}nai {\k16}you {\k17}na
+Comment: 0,0:00:58.12,0:01:01.01,Miyeon,,0,0,0,karaoke,{\k18}yu{\k17}me {\k17}da{\k18}ke {\k23}shi{\k14}n{\k17}ji{\k20}te {\k16}o{\k16}i{\k18}ka{\k17}ke {\k19}tsu{\k17}zu{\k19}ke{\k23}te
+Comment: 0,0:01:01.29,0:01:03.75,Yuqi,,0,0,0,karaoke,{\k35}IN{\k34}VIN{\k21}CI{\k51}BLE, {\k15}mi{\k22}e{\k34}nai {\k19}mo{\k15}no
+Comment: 0,0:01:03.77,0:01:06.28,Yuqi,,0,0,0,karaoke,{\k35}a{\k36}fu{\k35}rer' {\k36}MY {\k35}E{\k36}NER{\k38}GY
+Comment: 0,0:01:06.94,0:01:09.42,Miyeon,,0,0,0,karaoke,{\k36}In{\k34}vin{\k20}ci{\k52}ble, {\k16}i{\k18}rre{\k36}pla{\k18}cea{\k18}ble
+Comment: 0,0:01:09.41,0:01:12.90,Miyeon,,0,0,0,karaoke,{\k72}I {\k71}won't {\k73}let {\k31}you {\k102}down
+Comment: 0,0:01:13.46,0:01:14.80,Soyeon,,0,0,0,karaoke,{\k18}Ex{\k17}ce{\k8}lle{\k23}rate {\k5}'til {\k6}we {\k13}can {\k16}ce{\k10}le{\k18}brate
+Comment: 0,0:01:15.03,0:01:16.23,Soyeon,,0,0,0,karaoke,{\k21}Y'all {\k18}just {\k17}fake, {\k14}just {\k4}e{\k17}xa{\k12}gge{\k17}rate
+Comment: 0,0:01:16.47,0:01:17.61,Soyeon,,0,0,0,karaoke,{\k10}I {\k8}could {\k18}ex{\k20}plain {\k7}or {\k9}ex{\k16}ter{\k9}mi{\k17}nate
+Comment: 0,0:01:17.70,0:01:19.10,Soyeon,,0,0,0,karaoke,{\k17}Ex{\k20}cel {\k10}when {\k7}I {\k17}in{\k10}hale, {\k8}ex{\k17}hale {\k12}the {\k22}hate
+Comment: 0,0:01:19.19,0:01:20.52,Shuhua,,0,0,0,karaoke,{\k36}Stay {\k24}in {\k22}the {\k34}zone, {\k17}zone
+Comment: 0,0:01:20.71,0:01:22.01,Shuhua,,0,0,0,karaoke,{\k24}This {\k26}is {\k21}my {\k35}beast {\k24}mode
+Comment: 0,0:01:22.13,0:01:23.48,Shuhua,,0,0,0,karaoke,{\k27}No {\k22}go{\k19}ing {\k32}home, {\k35}home
+Comment: 0,0:01:23.99,0:01:25.00,Shuhua,,0,0,0,karaoke,{\k24}Just {\k16}ge{\k17}tting {\k21}star{\k23}ted
+Comment: 0,0:01:24.93,0:01:26.01,Minnie,,0,0,0,karaoke,{\k29}Vroom, {\k28}vroom, {\k51}vroom
+Comment: 0,0:01:26.02,0:01:27.73,Minnie,,0,0,0,karaoke,{\k19}Head{\k15}ing {\k38}straight {\k16}in{\k20}to {\k16}o{\k16}ver{\k32}drive
+Comment: 0,0:01:27.95,0:01:30.61,Minnie,,0,0,0,karaoke,{\k17}a{\k19}ta{\k16}ra{\k35}shii {\k18}ka{\k36}nou{\k35}se{\k18}i {\k19}da{\k15}i{\k38}te
+Comment: 0,0:01:30.60,0:01:32.33,Yuqi,,0,0,0,karaoke,{\k28}Here {\k24}we {\k36}go, {\k17}this {\k18}is {\k18}the {\k17}mo{\k15}ment
+Comment: 0,0:01:32.35,0:01:33.44,Yuqi,,0,0,0,karaoke,{\k19}we've {\k18}been {\k17}wai{\k16}ting {\k39}for
+Comment: 0,0:01:33.76,0:01:34.87,Yuqi,,0,0,0,karaoke,{\k12}Ne{\k24}ver {\k12}be {\k22}a{\k41}fraid
+Comment: 0,0:01:35.17,0:01:36.41,Yuqi,,0,0,0,karaoke,{\k15}This {\k22}is {\k34}our {\k53}chance
+Comment: 0,0:01:36.06,0:01:39.65,Shuhua,,0,0,0,karaoke,{\k19}ka{\kf72}ku{\kf69}sa{\kf70}na{\k56}i{\kf73}de
+Comment: 0,0:01:39.22,0:01:41.85,Yuqi,,0,0,0,karaoke,{\k17}o{\k19}mo{\k19}i {\k18}no {\k18}ma{\k19}ma {\k16}ni {\k19}LET {\k16}IT {\k19}GO, {\k16}JUST {\k18}LET {\k17}IT {\k32}GO
+Comment: 0,0:01:41.71,0:01:47.25,Miyeon,,0,0,0,karaoke,{\k15}hi{\k24}ka{\k15}ri {\k23}no {\k44}SPEED, {\k21}da{\k17}re {\k15}mo {\k20}to{\k18}me{\k16}ra{\k19}re{\k18}nai {\k18}E{\kf139}MO{\kf132}TION
+Comment: 0,0:01:47.34,0:01:48.03,Miyeon,,0,0,0,karaoke,{\kf69}Ayy
+Comment: 0,0:01:55.12,0:01:56.79,Yuqi,,0,0,0,karaoke,{\k17}E{\k52}mo{\kf98}tion
+Comment: 0,0:01:57.94,0:01:58.52,Yuqi,,0,0,0,karaoke,{\k58}Hey
+Comment: 0,0:01:59.17,0:01:59.87,idle,,0,0,0,karaoke,{\k36}Let's {\k19}beat {\k15}it
+Comment: 0,0:02:00.07,0:02:01.64,idle,,0,0,0,karaoke,{\k36}Yeah, {\k32}put {\k13}the {\k28}spi{\k14}rit {\k17}in {\k17}it
+Comment: 0,0:02:01.95,0:02:02.69,idle,,0,0,0,karaoke,{\k41}Let's {\k17}beat {\k16}it
+Comment: 0,0:02:02.89,0:02:04.47,idle,,0,0,0,karaoke,{\k36}Yeah, {\k31}put {\k15}the {\k27}spi{\k14}rit {\k18}in {\k17}it
+Comment: 0,0:02:04.79,0:02:05.50,idle,,0,0,0,karaoke,{\k38}Let's {\k18}beat {\k15}it
+Comment: 0,0:02:05.68,0:02:07.30,idle,,0,0,0,karaoke,{\k39}Yeah, {\k33}put {\k13}the {\k26}spi{\k16}rit {\k18}in {\k17}it
+Comment: 0,0:02:07.62,0:02:08.32,idle,,0,0,0,karaoke,{\k38}Let's {\k18}beat {\k14}it
+Comment: 0,0:02:08.51,0:02:10.12,idle,,0,0,0,karaoke,{\k38}Yeah, {\rSoyeon}{\k34}put {\k14}the {\k23}spi{\k15}rit {\k21}in {\k16}it
+Comment: 0,0:02:10.46,0:02:12.94,Minnie,,0,0,0,karaoke,{\k36}In{\k35}vin{\k19}ci{\k53}ble, {\k15}i{\k18}rre{\k38}pla{\k18}cea{\k16}ble
+Comment: 0,0:02:12.94,0:02:15.63,Minnie,,0,0,0,karaoke,{\k35}ALL {\k36}MY {\k36}LIFE, {\k20}ko{\k15}no {\k35}shun{\k35}kan {\k57}ni
+Comment: 0,0:02:16.12,0:02:18.57,Soyeon,,0,0,0,karaoke,{\k36}too{\k35}i {\k20}you {\k28}na {\k21}to{\k18}o{\k20}ku{\k34}nai {\k19}you {\k14}na
+Comment: 0,0:02:18.59,0:02:21.50,Soyeon,,0,0,0,karaoke,{\k18}yu{\k17}me {\k17}da{\k18}ke {\k23}shi{\k13}n{\k17}ji{\k20}te {\k15}o{\k18}i{\k18}ka{\k17}ke {\k19}tsu{\k17}zu{\k19}ke{\k25}te
+Comment: 0,0:02:21.77,0:02:24.23,Yuqi,,0,0,0,karaoke,{\k35}IN{\k34}VIN{\k20}CI{\k52}BLE, {\k15}mi{\k21}e{\k35}nai {\k19}mo{\k15}no
+Comment: 0,0:02:24.23,0:02:26.79,Yuqi,,0,0,0,karaoke,{\k36}a{\k36}fu{\k34}rer' {\k37}MY {\k34}E{\k36}NER{\k43}GY
+Comment: 0,0:02:25.29,0:02:27.41,Minnie - Choir,,0,0,0,karaoke,{\k37}MY {\k34}E{\k36}NER{\kf105}GY
+Comment: 0,0:02:27.40,0:02:29.93,Miyeon,,0,0,0,karaoke,{\k36}In{\k36}vin{\k18}ci{\k52}ble, {\k17}i{\k17}rre{\k36}pla{\k18}cea{\k23}ble
+Comment: 0,0:02:28.80,0:02:31.76,Minnie - Choir,,0,0,0,karaoke,{\k17}i{\k17}rre{\k39}pla{\k18}cea{\k70}ble, {\kf135}oh
+Comment: 0,0:02:29.95,0:02:33.30,Miyeon,,0,0,0,karaoke,{\k64}I {\k72}won't {\k74}let {\k29}you {\k96}down
+Comment: 0,0:02:32.34,0:02:33.46,Minnie - Choir,,0,0,0,karaoke,{\kf96}down
+Comment: 0,0:02:33.04,0:02:33.74,idle,,0,185,0,karaoke,{\k38}Let's {\k17}beat {\k15}it
+Comment: 0,0:02:33.77,0:02:34.13,Soyeon - Choir,,0,0,0,karaoke,{\k36}Yeah
+Comment: 0,0:02:33.94,0:02:35.57,idle,,150,0,0,karaoke,{\k36}Yeah, {\k34}put {\k11}the {\k25}spi{\k17}rit {\k18}in {\k22}it
+Comment: 0,0:02:35.17,0:02:35.58,Soyeon - Choir,,0,0,0,karaoke,{\k19}Come {\k22}on
+Comment: 0,0:02:35.84,0:02:36.57,idle,,0,0,0,karaoke,{\k40}Let's {\k17}beat {\k16}it
+Comment: 0,0:02:36.59,0:02:36.98,Soyeon - Choir,,0,0,0,karaoke,{\k39}Yeah
+Comment: 0,0:02:36.76,0:02:38.32,idle,,0,0,0,karaoke,{\k36}Yeah, {\k33}put {\k15}the {\k25}spi{\k15}rit {\k17}in {\k15}it
+Comment: 0,0:02:38.33,0:02:39.32,Shuhua,,0,0,0,karaoke,{\k30}Don't {\k23}e{\k17}ver {\k29}stop
+Comment: 0,0:02:39.41,0:02:41.14,Shuhua,,0,0,0,karaoke,{\k20}when {\k15}you {\k27}reach {\k25}for {\k18}the {\k34}top, {\k20}shout {\k14}it
+Comment: 0,0:02:41.50,0:02:42.19,idle,,0,0,0,karaoke,{\k38}Let's {\k19}beat {\k12}it
+Comment: 0,0:02:42.39,0:02:43.98,idle,,0,0,0,karaoke,{\k37}Yeah, {\k35}put {\k11}the {\k25}spi{\k18}rit {\k18}in {\k15}it
+Dialogue: 0,0:00:01.05,0:00:02.90,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Let's {\k20}beat {\k15}it
+Dialogue: 0,0:00:01.97,0:00:04.67,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Yeah, {\k32}put {\k13}the {\k27}spi{\k16}rit {\k16}in {\k18}it
+Dialogue: 0,0:00:03.88,0:00:05.70,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Let's {\k18}beat {\k15}it
+Dialogue: 0,0:00:04.79,0:00:07.49,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Yeah, {\k32}put {\k15}the {\k25}spi{\k15}rit {\k18}in {\k17}it
+Dialogue: 0,0:00:06.71,0:00:08.53,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Let's {\k18}beat {\k15}it
+Dialogue: 0,0:00:07.61,0:00:10.31,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Yeah, {\k35}put {\k12}the {\k25}spi{\k17}rit {\k18}in {\k16}it
+Dialogue: 0,0:00:09.54,0:00:11.35,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Let's {\k18}beat {\k15}it
+Dialogue: 0,0:00:10.43,0:00:13.14,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Yeah, {\k35}put {\k12}the {\k25}spi{\k16}rit {\k20}in {\k16}it
+Dialogue: 0,0:00:11.69,0:00:15.53,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Yeah, {\k53}us {\k18}or {\k35}them, {\k17}it {\k18}can {\k17}on{\k18}ly {\k19}be {\k43}one
+Dialogue: 0,0:00:14.52,0:00:18.43,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k17}But {\k19}to {\k51}me, {\k17}it {\k37}seems {\k17}this {\k18}is {\k18}go{\k17}nna {\k17}be {\k53}fun
+Dialogue: 0,0:00:17.65,0:00:20.16,Minnie,,0,0,0,fx,{\k90\fad(300,200)}{\k40}First {\k32}things, {\k28}first {\k10}i{\k18}ma{\k13}gine
+Dialogue: 0,0:00:19.13,0:00:21.44,Minnie,,0,0,0,fx,{\k90\fad(300,200)}{\k33}how {\k17}things {\k18}are {\k18}go{\k18}nna {\k17}go
+Dialogue: 0,0:00:20.51,0:00:24.30,Minnie,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Pick{\k20}ing {\k36}who's {\k34}next {\k36}like {\k17}ee{\k18}ny, {\k18}mee{\k17}ny, {\k17}mi{\k17}ny, {\k23}moe
+Dialogue: 0,0:00:23.32,0:00:25.38,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Vroom, {\k28}vroom, {\k40}vroom
+Dialogue: 0,0:00:24.39,0:00:27.21,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Head{\k15}ing {\k38}straight {\k16}in{\k20}to {\k16}o{\k16}ver{\k32}drive
+Dialogue: 0,0:00:26.34,0:00:30.05,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k16}zen{\k19}jin {\k18}mi{\k18}tou {\k16}no {\k18}ta{\k37}ka{\k33}mi {\k19}me{\k24}za{\k10}shi{\k33}te
+Dialogue: 0,0:00:28.96,0:00:31.82,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Here {\k24}we {\k36}go, {\k17}this {\k18}is {\k18}the {\k17}mo{\k15}ment
+Dialogue: 0,0:00:30.75,0:00:32.96,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}{\k17}we've {\k19}been {\k18}wai{\k16}ting {\k41}for
+Dialogue: 0,0:00:32.16,0:00:34.34,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Ne{\k24}ver {\k17}be {\k15}a{\k40}fraid
+Dialogue: 0,0:00:33.56,0:00:35.87,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}{\k16}This {\k21}is {\k35}our {\k49}chance
+Dialogue: 0,0:00:34.44,0:00:39.07,Shuhua,,0,0,0,fx,{\k90\fad(300,200)}{\k18}so{\kf72}ra{\kf72}sa{\kf70}na{\k55}i{\kf66}de
+Dialogue: 0,0:00:37.62,0:00:41.37,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}{\k18}hi{\k19}me{\k20}ta {\k13}chi{\k19}ka{\k20}ra {\k16}wo {\k19}LET {\k16}IT {\k18}GO, {\k17}JUST {\k20}LET {\k17}IT {\k33}GO
+Dialogue: 0,0:00:40.13,0:00:46.83,Minnie,,0,0,0,fx,{\k90\fad(300,200)}{\k15}hi{\k21}ka{\k15}ri {\k25}no {\k44}SPEED, {\k20}da{\k16}re {\k17}mo {\k18}to{\k18}me{\k17}ra{\k19}re{\k17}na{\k18}i {\kf140}MO{\kf140}TION
+Dialogue: 0,0:00:46.26,0:00:49.77,Minnie,,0,0,0,fx,{\k90\fad(300,200)}{\k72}Three, {\k71}two, {\k54}one, {\k18}you {\k11}rea{\k15}dy?
+Dialogue: 0,0:00:49.08,0:00:52.67,Minnie,,0,0,0,fx,{\k90\fad(300,200)}{\k38}In{\k34}vin{\k20}ci{\k52}ble, {\k15}i{\k19}rre{\k36}pla{\k18}cea{\k17}ble
+Dialogue: 0,0:00:51.58,0:00:55.34,Minnie,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ALL {\k36}MY {\k35}LIFE, {\k19}ko{\k18}no {\k34}shun{\k36}kan {\k54}ni
+Dialogue: 0,0:00:54.73,0:00:58.31,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k37}too{\k35}i {\k22}you {\k30}na {\k18}to{\k19}o{\k20}ku{\k34}nai {\k16}you {\k17}na
+Dialogue: 0,0:00:57.22,0:01:01.21,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k18}yu{\k17}me {\k17}da{\k18}ke {\k23}shi{\k14}n{\k17}ji{\k20}te {\k16}o{\k16}i{\k18}ka{\k17}ke {\k19}tsu{\k17}zu{\k19}ke{\k23}te
+Dialogue: 0,0:01:00.39,0:01:03.95,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}{\k35}IN{\k34}VIN{\k21}CI{\k51}BLE, {\k15}mi{\k22}e{\k34}nai {\k19}mo{\k15}no
+Dialogue: 0,0:01:02.87,0:01:06.48,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}{\k35}a{\k36}fu{\k35}rer' {\k36}MY {\k35}E{\k36}NER{\k38}GY
+Dialogue: 0,0:01:06.04,0:01:09.62,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k36}In{\k34}vin{\k20}ci{\k52}ble, {\k16}i{\k18}rre{\k36}pla{\k18}cea{\k18}ble
+Dialogue: 0,0:01:08.51,0:01:13.10,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k72}I {\k71}won't {\k73}let {\k31}you {\k102}down
+Dialogue: 0,0:01:12.56,0:01:15.00,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ex{\k17}ce{\k8}lle{\k23}rate {\k5}'til {\k6}we {\k13}can {\k16}ce{\k10}le{\k18}brate
+Dialogue: 0,0:01:14.13,0:01:16.43,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Y'all {\k18}just {\k17}fake, {\k14}just {\k4}e{\k17}xa{\k12}gge{\k17}rate
+Dialogue: 0,0:01:15.57,0:01:17.81,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k8}could {\k18}ex{\k20}plain {\k7}or {\k9}ex{\k16}ter{\k9}mi{\k17}nate
+Dialogue: 0,0:01:16.80,0:01:19.30,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ex{\k20}cel {\k10}when {\k7}I {\k17}in{\k10}hale, {\k8}ex{\k17}hale {\k12}the {\k22}hate
+Dialogue: 0,0:01:18.29,0:01:20.72,Shuhua,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Stay {\k24}in {\k22}the {\k34}zone, {\k17}zone
+Dialogue: 0,0:01:19.81,0:01:22.21,Shuhua,,0,0,0,fx,{\k90\fad(300,200)}{\k24}This {\k26}is {\k21}my {\k35}beast {\k24}mode
+Dialogue: 0,0:01:21.23,0:01:23.68,Shuhua,,0,0,0,fx,{\k90\fad(300,200)}{\k27}No {\k22}go{\k19}ing {\k32}home, {\k35}home
+Dialogue: 0,0:01:23.09,0:01:25.20,Shuhua,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Just {\k16}ge{\k17}tting {\k21}star{\k23}ted
+Dialogue: 0,0:01:24.03,0:01:26.21,Minnie,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Vroom, {\k28}vroom, {\k51}vroom
+Dialogue: 0,0:01:25.12,0:01:27.93,Minnie,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Head{\k15}ing {\k38}straight {\k16}in{\k20}to {\k16}o{\k16}ver{\k32}drive
+Dialogue: 0,0:01:27.05,0:01:30.81,Minnie,,0,0,0,fx,{\k90\fad(300,200)}{\k17}a{\k19}ta{\k16}ra{\k35}shii {\k18}ka{\k36}nou{\k35}se{\k18}i {\k19}da{\k15}i{\k38}te
+Dialogue: 0,0:01:29.70,0:01:32.53,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Here {\k24}we {\k36}go, {\k17}this {\k18}is {\k18}the {\k17}mo{\k15}ment
+Dialogue: 0,0:01:31.45,0:01:33.64,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}{\k19}we've {\k18}been {\k17}wai{\k16}ting {\k39}for
+Dialogue: 0,0:01:32.86,0:01:35.07,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Ne{\k24}ver {\k12}be {\k22}a{\k41}fraid
+Dialogue: 0,0:01:34.27,0:01:36.61,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}This {\k22}is {\k34}our {\k53}chance
+Dialogue: 0,0:01:35.16,0:01:39.85,Shuhua,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ka{\kf72}ku{\kf69}sa{\kf70}na{\k56}i{\kf73}de
+Dialogue: 0,0:01:38.32,0:01:42.05,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}{\k17}o{\k19}mo{\k19}i {\k18}no {\k18}ma{\k19}ma {\k16}ni {\k19}LET {\k16}IT {\k19}GO, {\k16}JUST {\k18}LET {\k17}IT {\k32}GO
+Dialogue: 0,0:01:40.81,0:01:47.45,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k15}hi{\k24}ka{\k15}ri {\k23}no {\k44}SPEED, {\k21}da{\k17}re {\k15}mo {\k20}to{\k18}me{\k16}ra{\k19}re{\k18}nai {\k18}E{\kf139}MO{\kf132}TION
+Dialogue: 0,0:01:46.44,0:01:48.23,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}{\kf69}Ayy
+Dialogue: 0,0:01:54.22,0:01:56.99,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}{\k17}E{\k52}mo{\kf98}tion
+Dialogue: 0,0:01:57.04,0:01:58.72,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}{\k58}Hey
+Dialogue: 0,0:01:58.27,0:02:00.07,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Let's {\k19}beat {\k15}it
+Dialogue: 0,0:01:59.17,0:02:01.84,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Yeah, {\k32}put {\k13}the {\k28}spi{\k14}rit {\k17}in {\k17}it
+Dialogue: 0,0:02:01.05,0:02:02.89,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Let's {\k17}beat {\k16}it
+Dialogue: 0,0:02:01.99,0:02:04.67,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Yeah, {\k31}put {\k15}the {\k27}spi{\k14}rit {\k18}in {\k17}it
+Dialogue: 0,0:02:03.89,0:02:05.70,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Let's {\k18}beat {\k15}it
+Dialogue: 0,0:02:04.78,0:02:07.50,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Yeah, {\k33}put {\k13}the {\k26}spi{\k16}rit {\k18}in {\k17}it
+Dialogue: 0,0:02:06.72,0:02:08.52,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Let's {\k18}beat {\k14}it
+Dialogue: 0,0:02:07.61,0:02:10.32,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Yeah, {\rSoyeon}{\k34}put {\k14}the {\k23}spi{\k15}rit {\k21}in {\k16}it
+Dialogue: 0,0:02:09.56,0:02:13.14,Minnie,,0,0,0,fx,{\k90\fad(300,200)}{\k36}In{\k35}vin{\k19}ci{\k53}ble, {\k15}i{\k18}rre{\k38}pla{\k18}cea{\k16}ble
+Dialogue: 0,0:02:12.04,0:02:15.83,Minnie,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ALL {\k36}MY {\k36}LIFE, {\k20}ko{\k15}no {\k35}shun{\k35}kan {\k57}ni
+Dialogue: 0,0:02:15.22,0:02:18.77,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k36}too{\k35}i {\k20}you {\k28}na {\k21}to{\k18}o{\k20}ku{\k34}nai {\k19}you {\k14}na
+Dialogue: 0,0:02:17.69,0:02:21.70,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k18}yu{\k17}me {\k17}da{\k18}ke {\k23}shi{\k13}n{\k17}ji{\k20}te {\k15}o{\k18}i{\k18}ka{\k17}ke {\k19}tsu{\k17}zu{\k19}ke{\k25}te
+Dialogue: 0,0:02:20.87,0:02:24.43,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}{\k35}IN{\k34}VIN{\k20}CI{\k52}BLE, {\k15}mi{\k21}e{\k35}nai {\k19}mo{\k15}no
+Dialogue: 0,0:02:23.33,0:02:26.99,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}{\k36}a{\k36}fu{\k34}rer' {\k37}MY {\k34}E{\k36}NER{\k43}GY
+Dialogue: 0,0:02:24.39,0:02:27.61,Minnie - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k37}MY {\k34}E{\k36}NER{\kf105}GY
+Dialogue: 0,0:02:26.50,0:02:30.13,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k36}In{\k36}vin{\k18}ci{\k52}ble, {\k17}i{\k17}rre{\k36}pla{\k18}cea{\k23}ble
+Dialogue: 0,0:02:27.90,0:02:31.96,Minnie - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k17}i{\k17}rre{\k39}pla{\k18}cea{\k70}ble, {\kf135}oh
+Dialogue: 0,0:02:29.05,0:02:33.50,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}{\k64}I {\k72}won't {\k74}let {\k29}you {\k96}down
+Dialogue: 0,0:02:31.44,0:02:33.66,Minnie - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\kf96}down
+Dialogue: 0,0:02:32.14,0:02:33.94,idle,,0,185,0,fx,{\k90\fad(300,200)}{\k38}Let's {\k17}beat {\k15}it
+Dialogue: 0,0:02:32.87,0:02:34.33,Soyeon - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Yeah
+Dialogue: 0,0:02:33.04,0:02:35.77,idle,,150,0,0,fx,{\k90\fad(300,200)}{\k36}Yeah, {\k34}put {\k11}the {\k25}spi{\k17}rit {\k18}in {\k22}it
+Dialogue: 0,0:02:34.27,0:02:35.78,Soyeon - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Come {\k22}on
+Dialogue: 0,0:02:34.94,0:02:36.77,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Let's {\k17}beat {\k16}it
+Dialogue: 0,0:02:35.69,0:02:37.18,Soyeon - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Yeah
+Dialogue: 0,0:02:35.86,0:02:38.52,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Yeah, {\k33}put {\k15}the {\k25}spi{\k15}rit {\k17}in {\k15}it
+Dialogue: 0,0:02:37.43,0:02:39.52,Shuhua,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Don't {\k23}e{\k17}ver {\k29}stop
+Dialogue: 0,0:02:38.51,0:02:41.34,Shuhua,,0,0,0,fx,{\k90\fad(300,200)}{\k20}when {\k15}you {\k27}reach {\k25}for {\k18}the {\k34}top, {\k20}shout {\k14}it
+Dialogue: 0,0:02:40.60,0:02:42.39,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Let's {\k19}beat {\k12}it
+Dialogue: 0,0:02:41.49,0:02:44.18,idle,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Yeah, {\k35}put {\k11}the {\k25}spi{\k18}rit {\k18}in {\k15}it
