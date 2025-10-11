@@ -1,0 +1,122 @@
+﻿[Script Info]
+Title: Fusion Crust
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Izumi,Arial,24,&H00FFFFFF,&H00CDBF1F,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Ceras,Arial,24,&H00FFFFFF,&H005564F5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Edel Note,Arial,24,&H00FFFFFF,&H00427C99,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: EdelNoteChoir,Arial,24,&H00FFFFFF,&H00427C99,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: CerasChoir,Arial,24,&H00FFFFFF,&H005564F5,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.04,0:00:00.04,Edel Note,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.16,0:00:10.86,Edel Note,,0,0,0,karaoke,{\k33}ho{\k30}shi {\kf172}wa {\k29}mi{\kf171}na, {\k30}i{\k30}no{\k28}ri {\k56}wo {\k31}se{\k58}ot{\k30}te {\k26}i{\kf246}ru
+Comment: 0,0:00:12.05,0:00:20.62,Izumi,,0,0,0,karaoke,{\k41}su{\k29}i{\k29}se{\k29}i {\k57}no {\k31}ka{\kf120}go{\k104} {\k31}to{\k28}bi{\k25}ta{\k36}t{\k27}ta {\k58}to{\k27}ki {\k62}ka{\kf95}ra
+Comment: 0,0:00:21.37,0:00:24.29,Izumi,,0,0,0,karaoke,{\k33}RE{\k27}D{\k27}U{\k30}CE {\k55}no {\k30}sh'ka{\kf118}ta
+Comment: 0,0:00:26.30,0:00:31.34,Izumi,,0,0,0,karaoke,{\k28}ma{\k30}chi{\k27}ga{\k60}t{\k27}te {\k56}'tan{\k33}da {\k25}to {\k60}ki{\k27}zu{\k30}i{\kf101}ta
+Comment: 0,0:00:31.47,0:00:33.50,Ceras,,0,0,0,karaoke,{\k18}i{\k11}tsu{\k32}ka {\k27}mi{\kf115}ta
+Comment: 0,0:00:32.63,0:00:34.34,Izumi,,0,0,0,karaoke,{\k16}ryu{\k16}u{\k26}sei{\k28}gun {\k85}wa
+Comment: 0,0:00:33.77,0:00:35.78,Ceras,,0,0,0,karaoke,{\k27}do{\k31}re {\k27}ku{\k30}ra{\k18}i {\k68}no
+Comment: 0,0:00:36.08,0:00:38.07,Izumi,,0,0,0,karaoke,{\k16}yu{\k14}me {\k29}to {\k31}yu{\kf109}me
+Comment: 0,0:00:37.25,0:00:39.22,Ceras,,0,0,0,karaoke,{\k15}no {\k16}u{\k25}ra{\k29}ga{\kf112}wa
+Comment: 0,0:00:38.29,0:00:40.46,Izumi,,0,0,0,karaoke,{\k38}shit{\k58}te {\k60}'ta {\k61}no?
+Comment: 0,0:00:40.68,0:00:42.34,Ceras,,0,0,0,karaoke,{\k17}i{\k15}ro {\k31}no {\k26}na{\k77}i
+Comment: 0,0:00:41.87,0:00:45.26,Izumi,,0,0,0,karaoke,{\k18}so{\k15}ra {\k25}no {\k28}ha{\k26}i{\k33}shi{\k55}gu{\k58}re {\k81}to
+Comment: 0,0:00:45.00,0:00:50.24,Ceras,,0,0,0,karaoke,{\k33}to{\k85}na{\k31}ri {\k56}ni {\rIzumi}{\k29}ta{\k30}da {\kf112}i{\k17}chi{\kf131}ru
+Comment: 0,0:00:53.64,0:00:57.45,Edel Note,,0,0,0,karaoke,{\k34}ha{\k28}ze{\k21}te {\k37}shi{\k60}mae {\k27}D{\k29}I{\k29}A{\k30}MON{\k27}D {\k16}yo{\k43}ri
+Comment: 0,0:00:57.70,0:01:02.34,Edel Note,,0,0,0,karaoke,{\k30}ta{\k31}ka{\k24}i {\k34}ko{\k29}u{\k14}do {\k70}de {\k32}ku{\k55}da{\k31}ke{\k26}te {\k15}ku{\kf84}re
+Comment: 0,0:01:02.63,0:01:06.68,Edel Note,,0,0,0,karaoke,{\k29}fu{\k29}ne{\k28}n {\k29}no {\k28}i{\k57}noch' {\k32}sai{\k28}ri{\k27}you {\k32}shi{\k26}ta{\k16}~ {\k44}tte
+Comment: 0,0:01:06.96,0:01:12.15,Edel Note,,0,0,0,karaoke,{\k30}o{\k25}na{\k30}ji {\k30}gou {\k31}ni {\k25}ni{\k57}ya{\k32}sa{\k57}re{\k29}ru {\k30}da{\kf143}ke
+Comment: 0,0:01:12.44,0:01:17.06,Izumi,,0,0,0,karaoke,{\k29}yo{\k29}u{\k27}yu{\k58}u{\k31}hi {\k57}hai {\k30}no {\k29}you{\k57}na {\k28}hi{\k29}bi {\k58}wa
+Comment: 0,0:01:17.35,0:01:24.87,Izumi,,0,0,0,karaoke,{\k28}ma{\kf204}da{\k85} {\k28}ki{\k30}tai {\k14}ni {\k12}fu{\k33}ru{\k28}e{\k30}te {\kf260}'ru
+Comment: 0,0:01:35.25,0:01:43.96,Ceras,,0,0,0,karaoke,{\k30}ha{\k28}i{\k30}ki {\k25}shi{\k59}tan{\k27}da {\kf146}to{\k88} {\k28}o{\k28}mo{\k29}i{\k31}ko{\k26}mi{\k58}ta{\k31}ka{\k61}t{\kf146}ta
+Comment: 0,0:01:44.46,0:01:47.92,Ceras,,0,0,0,karaoke,{\k30}o{\k27}mo{\k28}i{\k29}ko{\k60}n{\k27}de {\kf145}ta
+Comment: 0,0:01:49.36,0:01:54.28,Ceras,,0,0,0,karaoke,{\k30}so{\k29}no {\k29}ho{\k57}u {\k29}ga {\k56}ra{\k32}ku {\k29}da{\k58}t{\k27}ta {\k29}ka{\kf105}ra
+Comment: 0,0:01:54.56,0:01:56.56,Izumi,,0,0,0,karaoke,{\k13}ma{\k15}ba{\k28}ta{\k30}ki {\kf114}no
+Comment: 0,0:01:55.66,0:01:57.72,Ceras,,0,0,0,karaoke,{\k20}ki{\k13}ra{\k27}me{\k30}ki {\kf116}no
+Comment: 0,0:01:56.82,0:01:58.90,Izumi,,0,0,0,karaoke,{\k34}ko{\k28}e {\k29}u{\k28}ra{\k20}ra{\k69}ka
+Comment: 0,0:01:59.15,0:02:01.18,Ceras,,0,0,0,karaoke,{\k15}te{\k16}n {\k29}ta{\k28}ka{\k115}ku
+Comment: 0,0:02:00.30,0:02:02.05,Izumi,,0,0,0,karaoke,{\k19}so{\k14}ra {\k25}ta{\k31}ka{\kf86}ku
+Comment: 0,0:02:01.44,0:02:03.68,Ceras,,0,0,0,karaoke,{\k32}ki{\k58}ko{\k58}e{\k76}ru
+Comment: 0,0:02:03.79,0:02:05.52,Izumi,,0,0,0,karaoke,{\k16}mo{\k13}u {\k24}i{\k33}chi{\kf87}do
+Comment: 0,0:02:04.90,0:02:06.40,Ceras,,0,0,0,karaoke,{\k19}yu{\k14}me {\k29}ja{\k28}na{\k60}i
+Comment: 0,0:02:06.07,0:02:09.00,Izumi,,0,0,0,karaoke,{\k32}yu{\k56}me {\k57}to {\k59}yok' {\k28}ni{\k61}ta
+Comment: 0,0:02:09.26,0:02:14.52,Ceras,,0,0,0,karaoke,{\k32}na{\k53}ni{\k30}ka {\k30}mo{\kf115}to{\k17}me{\kf249}te
+Comment: 0,0:02:15.06,0:02:23.95,EdelNoteChoir,,0,0,0,karaoke,{\k26}mo{\k30}to{\kf173}mer' {\k29}no {\kf150}wa{\kf23} {\k29}mi{\k28}ta{\k29}shi{\k57}te {\k28}ho{\k60}shi{\k28}i {\k29}ka{\kf170}ra?
+Comment: 0,0:02:23.90,0:02:28.88,Izumi,,0,0,0,karaoke,{\k36}ki{\k28}bo{\k32}u {\k26}mo {\k30}yu{\k30}me {\kf88}mo{\kf26} {\k28}te{\k29}i{\k29}sa{\k30}i{\kf86}jou
+Comment: 0,0:02:29.16,0:02:36.43,Ceras,,0,0,0,karaoke,{\k30}ga{\k28}ra{\k30}n{\k30}do{\k57}u {\k28}no {\k29}ko{\k28}ko{\k59}ro {\k59}ni {\k55}i{\k31}chi{\kf263}ru
+Comment: 0,0:02:53.68,0:02:57.37,Izumi,,0,0,0,karaoke,{\k32}su{\k30}ga{\k25}ri{\k31}ta{\k55}i {\k28}na{\k32}ki {\k28}sa{\k31}ke{\k27}bi{\k20}ta{\k30}i
+Comment: 0,0:02:57.77,0:03:02.29,Izumi,,0,0,0,karaoke,{\k32}ho{\k28}n{\k28}tou {\k27}wa {\k29}zu{\k11}t{\k70}to {\k34}ku{\k56}ru{\k33}shi{\k25}i {\k14}ma{\k65}ma
+Comment: 0,0:03:02.62,0:03:06.63,Izumi,,0,0,0,karaoke,{\k30}tsu{\k27}ka{\k31}re{\k29}ru {\k26}ko{\k63}to {\k26}ni {\k28}su{\k26}ra {\k32}tsu{\k29}ka{\k15}re{\k39}te
+Comment: 0,0:03:06.90,0:03:13.46,Izumi,,0,0,0,karaoke,{\k35}fu{\k27}ra{\k32}re{\k28}ru {\k29}ma{\k25}ma {\k61}hai {\k29}ni {\k57}uz'{\k30}ku{\k30}ma{\kf273}ru
+Comment: 0,0:03:14.43,0:03:18.21,Edel Note,,0,0,0,karaoke,{\k26}ha{\k33}ze{\k28}te {\k31}shi{\k58}mae {\k29}WO{\k28}L{\k31}F {\k27}RA{\k28}YET {\k18}yo{\k41}ri
+Comment: 0,0:03:18.48,0:03:23.14,Edel Note,,0,0,0,karaoke,{\k29}ta{\k31}ka{\k28}i {\k28}o{\k32}n{\k14}do {\k71}de {\k27}mo{\k59}ya{\k28}shi{\k28}te {\k13}ku{\k78}re
+Comment: 0,0:03:23.40,0:03:27.44,Edel Note,,0,0,0,karaoke,{\k29}mo{\k28}ya{\k30}se{\k30}ru {\k28}ha{\k57}zu {\k29}mo{\k27}ya{\k28}sou {\k31}to {\k29}su{\k17}re{\k41}ba
+Comment: 0,0:03:27.73,0:03:33.28,Edel Note,,0,0,0,karaoke,{\k29}mo{\k29}e{\k27}na{\k30}ku{\k27}ta{\k29}t{\k60}te {\k29}mo{\k57}yash'{\k25}te {\k32}ya{\kf181}ru
+Comment: 0,0:03:33.49,0:03:42.45,CerasChoir,,0,0,0,karaoke,{\k29}ho{\k28}shi {\kf174}wa {\k30}mi{\kf144}na,{\k31} {\k27}i{\k28}no{\k29}ri {\k59}wo {\k27}se{\k59}ot{\k30}te {\k28}i{\kf173}ru
+Comment: 0,0:03:34.35,0:03:38.58,Izumi,,0,0,0,karaoke,{\k29}tai{\k28}ki{\k18}ke{\k22}n {\k19}wo {\k18}ko{\k98}e {\k30}you{\k26}ya{\k15}ku {\k29}kyou{\k17}ka{\k13}i{\k61}sen
+Comment: 0,0:03:38.94,0:03:43.06,Izumi,,0,0,0,karaoke,{\k32}ku{\k31}mo{\k12}ma {\k33}ka{\k12}ra {\k13}ha{\k98}ser' {\k31}ko{\k29}u{\k61}bou {\kf60}wa
+Comment: 0,0:03:42.72,0:03:51.65,CerasChoir,,0,0,0,karaoke,{\k30}chi{\k28}ri {\kf174}wa {\k29}mi{\kf137}na,{\k33} {\k31}son{\k29}na {\k28}ho{\k59}shi {\k28}wo {\k55}oi{\k34}ka{\k27}ke{\kf171}ru
+Comment: 0,0:03:43.60,0:03:47.90,Izumi,,0,0,0,karaoke,{\k28}i{\k30}sa{\k16}gi{\k27}yoi {\k15}ho{\k16}do {\k97}ni {\k29}yu{\k28}ru{\k13}gi{\k33}nai {\k12}ku{\k17}se {\k69}ni
+Comment: 0,0:03:48.23,0:03:52.56,Izumi,,0,0,0,karaoke,{\k26}i{\k26}to{\k19}ke{\k30}nai {\k12}i{\k30}too{\k83}shii {\k30}ki{\k32}re{\kf145}i
+Comment: 0,0:03:51.65,0:03:56.26,Ceras,,0,0,0,karaoke,{\k30}sa{\k30}n{\k33}za{\k54}me{\k27}ku {\k57}ho{\k32}shi{\k27}zo{\k62}ra {\k26}no {\k27}shi{\k56}ta
+Comment: 0,0:03:56.61,0:04:04.72,Ceras,,0,0,0,karaoke,{\k25}ma{\kf211}ta{\k75} {\k30}ki{\k33}tai {\k10}ni {\k14}fu{\k32}ru{\k29}e{\k28}te {\kf324}'ru
+Dialogue: 0,0:00:00.26,0:00:11.06,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ho{\k30}shi {\kf172}wa {\k29}mi{\kf171}na, {\k30}i{\k30}no{\k28}ri {\k56}wo {\k31}se{\k58}ot{\k30}te {\k26}i{\kf246}ru
+Dialogue: 0,0:00:11.15,0:00:20.82,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k41}su{\k29}i{\k29}se{\k29}i {\k57}no {\k31}ka{\kf120}go{\k104} {\k31}to{\k28}bi{\k25}ta{\k36}t{\k27}ta {\k58}to{\k27}ki {\k62}ka{\kf95}ra
+Dialogue: 0,0:00:20.47,0:00:24.49,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k33}RE{\k27}D{\k27}U{\k30}CE {\k55}no {\k30}sh'ka{\kf118}ta
+Dialogue: 0,0:00:25.40,0:00:31.54,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ma{\k30}chi{\k27}ga{\k60}t{\k27}te {\k56}'tan{\k33}da {\k25}to {\k60}ki{\k27}zu{\k30}i{\kf101}ta
+Dialogue: 0,0:00:30.57,0:00:33.70,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k18}i{\k11}tsu{\k32}ka {\k27}mi{\kf115}ta
+Dialogue: 0,0:00:31.73,0:00:34.54,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ryu{\k16}u{\k26}sei{\k28}gun {\k85}wa
+Dialogue: 0,0:00:32.87,0:00:35.98,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k27}do{\k31}re {\k27}ku{\k30}ra{\k18}i {\k68}no
+Dialogue: 0,0:00:35.18,0:00:38.27,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k16}yu{\k14}me {\k29}to {\k31}yu{\kf109}me
+Dialogue: 0,0:00:36.35,0:00:39.42,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k15}no {\k16}u{\k25}ra{\k29}ga{\kf112}wa
+Dialogue: 0,0:00:37.39,0:00:40.66,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k38}shit{\k58}te {\k60}'ta {\k61}no?
+Dialogue: 0,0:00:39.78,0:00:42.54,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k17}i{\k15}ro {\k31}no {\k26}na{\k77}i
+Dialogue: 0,0:00:40.97,0:00:45.46,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k18}so{\k15}ra {\k25}no {\k28}ha{\k26}i{\k33}shi{\k55}gu{\k58}re {\k81}to
+Dialogue: 0,0:00:44.10,0:00:50.44,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k33}to{\k85}na{\k31}ri {\k56}ni {\rIzumi}{\k29}ta{\k30}da {\kf112}i{\k17}chi{\kf131}ru
+Dialogue: 0,0:00:52.74,0:00:57.65,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ha{\k28}ze{\k21}te {\k37}shi{\k60}mae {\k27}D{\k29}I{\k29}A{\k30}MON{\k27}D {\k16}yo{\k43}ri
+Dialogue: 0,0:00:56.80,0:01:02.54,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ta{\k31}ka{\k24}i {\k34}ko{\k29}u{\k14}do {\k70}de {\k32}ku{\k55}da{\k31}ke{\k26}te {\k15}ku{\kf84}re
+Dialogue: 0,0:01:01.73,0:01:06.88,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k29}fu{\k29}ne{\k28}n {\k29}no {\k28}i{\k57}noch' {\k32}sai{\k28}ri{\k27}you {\k32}shi{\k26}ta{\k16}~ {\k44}tte
+Dialogue: 0,0:01:06.06,0:01:12.35,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k30}o{\k25}na{\k30}ji {\k30}gou {\k31}ni {\k25}ni{\k57}ya{\k32}sa{\k57}re{\k29}ru {\k30}da{\kf143}ke
+Dialogue: 0,0:01:11.54,0:01:17.26,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k29}yo{\k29}u{\k27}yu{\k58}u{\k31}hi {\k57}hai {\k30}no {\k29}you{\k57}na {\k28}hi{\k29}bi {\k58}wa
+Dialogue: 0,0:01:16.45,0:01:25.07,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ma{\kf204}da{\k85} {\k28}ki{\k30}tai {\k14}ni {\k12}fu{\k33}ru{\k28}e{\k30}te {\kf260}'ru
+Dialogue: 0,0:01:34.35,0:01:44.16,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ha{\k28}i{\k30}ki {\k25}shi{\k59}tan{\k27}da {\kf146}to{\k88} {\k28}o{\k28}mo{\k29}i{\k31}ko{\k26}mi{\k58}ta{\k31}ka{\k61}t{\kf146}ta
+Dialogue: 0,0:01:43.56,0:01:48.12,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k30}o{\k27}mo{\k28}i{\k29}ko{\k60}n{\k27}de {\kf145}ta
+Dialogue: 0,0:01:48.46,0:01:54.48,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k30}so{\k29}no {\k29}ho{\k57}u {\k29}ga {\k56}ra{\k32}ku {\k29}da{\k58}t{\k27}ta {\k29}ka{\kf105}ra
+Dialogue: 0,0:01:53.66,0:01:56.76,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ma{\k15}ba{\k28}ta{\k30}ki {\kf114}no
+Dialogue: 0,0:01:54.76,0:01:57.92,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ki{\k13}ra{\k27}me{\k30}ki {\kf116}no
+Dialogue: 0,0:01:55.92,0:01:59.10,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ko{\k28}e {\k29}u{\k28}ra{\k20}ra{\k69}ka
+Dialogue: 0,0:01:58.25,0:02:01.38,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k15}te{\k16}n {\k29}ta{\k28}ka{\k115}ku
+Dialogue: 0,0:01:59.40,0:02:02.25,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k19}so{\k14}ra {\k25}ta{\k31}ka{\kf86}ku
+Dialogue: 0,0:02:00.54,0:02:03.88,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ki{\k58}ko{\k58}e{\k76}ru
+Dialogue: 0,0:02:02.89,0:02:05.72,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k16}mo{\k13}u {\k24}i{\k33}chi{\kf87}do
+Dialogue: 0,0:02:04.00,0:02:06.60,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k19}yu{\k14}me {\k29}ja{\k28}na{\k60}i
+Dialogue: 0,0:02:05.17,0:02:09.20,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k32}yu{\k56}me {\k57}to {\k59}yok' {\k28}ni{\k61}ta
+Dialogue: 0,0:02:08.36,0:02:14.72,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k32}na{\k53}ni{\k30}ka {\k30}mo{\kf115}to{\k17}me{\kf249}te
+Dialogue: 0,0:02:14.16,0:02:24.15,EdelNoteChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}mo{\k30}to{\kf173}mer' {\k29}no {\kf150}wa{\kf23} {\k29}mi{\k28}ta{\k29}shi{\k57}te {\k28}ho{\k60}shi{\k28}i {\k29}ka{\kf170}ra?
+Dialogue: 0,0:02:23.00,0:02:29.08,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ki{\k28}bo{\k32}u {\k26}mo {\k30}yu{\k30}me {\kf88}mo{\kf26} {\k28}te{\k29}i{\k29}sa{\k30}i{\kf86}jou
+Dialogue: 0,0:02:28.26,0:02:36.63,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ga{\k28}ra{\k30}n{\k30}do{\k57}u {\k28}no {\k29}ko{\k28}ko{\k59}ro {\k59}ni {\k55}i{\k31}chi{\kf263}ru
+Dialogue: 0,0:02:52.78,0:02:57.57,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k32}su{\k30}ga{\k25}ri{\k31}ta{\k55}i {\k28}na{\k32}ki {\k28}sa{\k31}ke{\k27}bi{\k20}ta{\k30}i
+Dialogue: 0,0:02:56.87,0:03:02.49,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ho{\k28}n{\k28}tou {\k27}wa {\k29}zu{\k11}t{\k70}to {\k34}ku{\k56}ru{\k33}shi{\k25}i {\k14}ma{\k65}ma
+Dialogue: 0,0:03:01.72,0:03:06.83,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k30}tsu{\k27}ka{\k31}re{\k29}ru {\k26}ko{\k63}to {\k26}ni {\k28}su{\k26}ra {\k32}tsu{\k29}ka{\k15}re{\k39}te
+Dialogue: 0,0:03:06.00,0:03:13.66,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k35}fu{\k27}ra{\k32}re{\k28}ru {\k29}ma{\k25}ma {\k61}hai {\k29}ni {\k57}uz'{\k30}ku{\k30}ma{\kf273}ru
+Dialogue: 0,0:03:13.53,0:03:18.41,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ha{\k33}ze{\k28}te {\k31}shi{\k58}mae {\k29}WO{\k28}L{\k31}F {\k27}RA{\k28}YET {\k18}yo{\k41}ri
+Dialogue: 0,0:03:17.58,0:03:23.34,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ta{\k31}ka{\k28}i {\k28}o{\k32}n{\k14}do {\k71}de {\k27}mo{\k59}ya{\k28}shi{\k28}te {\k13}ku{\k78}re
+Dialogue: 0,0:03:22.50,0:03:27.64,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k29}mo{\k28}ya{\k30}se{\k30}ru {\k28}ha{\k57}zu {\k29}mo{\k27}ya{\k28}sou {\k31}to {\k29}su{\k17}re{\k41}ba
+Dialogue: 0,0:03:26.83,0:03:33.48,Edel Note,,0,0,0,fx,{\k90\fad(300,200)}{\k29}mo{\k29}e{\k27}na{\k30}ku{\k27}ta{\k29}t{\k60}te {\k29}mo{\k57}yash'{\k25}te {\k32}ya{\kf181}ru
+Dialogue: 0,0:03:32.59,0:03:42.65,CerasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ho{\k28}shi {\kf174}wa {\k30}mi{\kf144}na,{\k31} {\k27}i{\k28}no{\k29}ri {\k59}wo {\k27}se{\k59}ot{\k30}te {\k28}i{\kf173}ru
+Dialogue: 0,0:03:33.45,0:03:38.78,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k29}tai{\k28}ki{\k18}ke{\k22}n {\k19}wo {\k18}ko{\k98}e {\k30}you{\k26}ya{\k15}ku {\k29}kyou{\k17}ka{\k13}i{\k61}sen
+Dialogue: 0,0:03:38.04,0:03:43.26,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ku{\k31}mo{\k12}ma {\k33}ka{\k12}ra {\k13}ha{\k98}ser' {\k31}ko{\k29}u{\k61}bou {\kf60}wa
+Dialogue: 0,0:03:41.82,0:03:51.85,CerasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k30}chi{\k28}ri {\kf174}wa {\k29}mi{\kf137}na,{\k33} {\k31}son{\k29}na {\k28}ho{\k59}shi {\k28}wo {\k55}oi{\k34}ka{\k27}ke{\kf171}ru
+Dialogue: 0,0:03:42.70,0:03:48.10,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k28}i{\k30}sa{\k16}gi{\k27}yoi {\k15}ho{\k16}do {\k97}ni {\k29}yu{\k28}ru{\k13}gi{\k33}nai {\k12}ku{\k17}se {\k69}ni
+Dialogue: 0,0:03:47.33,0:03:52.76,Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k26}i{\k26}to{\k19}ke{\k30}nai {\k12}i{\k30}too{\k83}shii {\k30}ki{\k32}re{\kf145}i
+Dialogue: 0,0:03:50.75,0:03:56.46,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k30}sa{\k30}n{\k33}za{\k54}me{\k27}ku {\k57}ho{\k32}shi{\k27}zo{\k62}ra {\k26}no {\k27}shi{\k56}ta
+Dialogue: 0,0:03:55.71,0:04:04.92,Ceras,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ma{\kf211}ta{\k75} {\k30}ki{\k33}tai {\k10}ni {\k14}fu{\k32}ru{\k29}e{\k28}te {\kf324}'ru
