@@ -1,0 +1,153 @@
+﻿[Script Info]
+Title: (It's Time To) Stretchy Stretch
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,40,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,100,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.18,0:00:04.61,Sample KM [Up],,0,0,0,karaoke,{\k27}Ma{\k40}ny {\k68}moons {\k17}a{\k91}go
+Comment: 0,0:00:05.35,0:00:08.61,Sample KM [Up],,0,0,0,karaoke,{\k42}I {\k49}could {\k43}not {\k53}touch {\k42}my {\k97}toes
+Comment: 0,0:00:09.49,0:00:14.58,Sample KM [Up],,0,0,0,karaoke,{\k29}Get{\k41}ting {\kf110}down {\k45}to {\k29}the {\k92}floor{\k54} {\k20}was {\k21}a {\k68}chore
+Comment: 0,0:00:16.46,0:00:19.82,Sample KM [Up],,0,0,0,karaoke,{\k41}My {\k58}neck{\k40} {\k48}hurt{\k38} {\k28}to {\k42}my {\k41}back
+Comment: 0,0:00:20.10,0:00:23.82,Sample KM [Up],,0,0,0,karaoke,{\k43}My {\k47}back{\k47} {\k54}hurt{\k37} {\k30}to {\k43}my {\k71}knees
+Comment: 0,0:00:23.82,0:00:28.69,Sample KM [Up],,0,0,0,karaoke,{\k39}I {\k29}coul{\k43}dn’t {\k53}see {\k44}a {\k46}way {\k21}to {\k24}re{\kf188}lief
+Comment: 0,0:00:30.71,0:00:32.41,Sample KM [Up],,0,0,0,karaoke,{\k22}No{\k28}thing {\k21}e{\k24}ver {\k75}worked
+Comment: 0,0:00:33.52,0:00:36.12,Sample KM [Up],,0,0,0,karaoke,{\k40}No {\k48}so{\k22}lu{\k24}tion {\k22}I {\k25}could {\k79}find
+Comment: 0,0:00:38.99,0:00:42.60,Sample KM [Up],,0,0,0,karaoke,{\k52}But {\k45}I {\k49}made {\k43}up {\k44}my {\kf128}mind
+Comment: 0,0:00:44.13,0:00:46.68,Sample KM [Up],,0,0,0,karaoke,{\k44}It's {\k71}time {\k19}to {\k23}stret{\k25}chy {\k73}stretch
+Comment: 0,0:00:46.88,0:00:48.70,Sample KM [Choir],,0,0,0,karaoke,{\k29}Woah {\k40}oh {\k46}oh {\k67}oh
+Comment: 0,0:00:48.50,0:00:50.33,Sample KM [Up],,0,0,0,karaoke,{\k20}I {\k25}got{\k19}ta {\k24}stret{\k25}chy {\k70}stretch
+Comment: 0,0:00:50.57,0:00:52.41,Sample KM [Choir],,0,0,0,karaoke,{\k29}Woah {\k40}oh {\k46}oh {\k67}oh
+Comment: 0,0:00:52.18,0:00:54.03,Sample KM [Up],,0,0,0,karaoke,{\k24}You {\k22}wan{\k22}na {\k22}stret{\k26}chy {\k69}stretch
+Comment: 0,0:00:54.26,0:00:56.12,Sample KM [Choir],,0,0,0,karaoke,{\k29}Woah {\k40}oh {\k46}oh {\k71}oh
+Comment: 0,0:00:56.12,0:00:57.96,Sample KM [Up],,0,0,0,karaoke,{\k21}If {\k25}you {\k26}wan{\k12}na {\k32}feel {\k68}good
+Comment: 0,0:00:57.96,0:00:59.80,Sample KM [Up],,0,0,0,karaoke,{\k44}And {\k37}get {\k23}in {\k11}the {\k69}mood
+Comment: 0,0:00:59.80,0:01:01.65,Sample KM [Up],,0,0,0,karaoke,{\k23}Then {\k24}you’ve {\k38}got{\k24}ta {\k76}trust
+Comment: 0,0:01:01.65,0:01:03.48,Sample KM [Up],,0,0,0,karaoke,{\k19}In {\k27}that {\k46}pel{\k46}vic {\k45}thrust
+Comment: 0,0:01:03.74,0:01:05.16,Sample KM [Up],,0,0,0,karaoke,{\k18}To {\k25}stret{\k24}chy {\k75}stretch
+Comment: 0,0:01:07.65,0:01:10.87,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k20}would {\k13}go {\k18}in{\k40}sane {\k23}with {\k29}all {\k21}these {\k41}aches {\k26}and {\k68}pains
+Comment: 0,0:01:11.14,0:01:13.57,Sample KM [Up],,0,0,0,karaoke,{\k20}But {\k24}I {\k45}got {\k46}back {\k43}on {\k65}track
+Comment: 0,0:01:13.80,0:01:14.57,Sample KM [Up],,0,0,0,karaoke,{\k10}It’s {\k20}a {\k47}fact
+Comment: 0,0:01:15.03,0:01:16.26,Sample KM [Up],,0,0,0,karaoke,{\k25}Now {\k22}my {\k27}neck {\k49}moves
+Comment: 0,0:01:16.26,0:01:18.27,Sample KM [Up],,0,0,0,karaoke,{\k21}My {\k22}knees {\k30}are {\k34}fee{\k41}ling {\k53}smooth
+Comment: 0,0:01:18.50,0:01:21.02,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k32}final{\k36}ly {\k49}found {\k48}a {\k66}way
+Comment: 0,0:01:21.26,0:01:22.73,Sample KM [Up],,0,0,0,karaoke,{\k22}A {\k24}way {\k23}to {\k23}re{\k55}lief
+Comment: 0,0:01:23.09,0:01:27.26,Sample KM [Up],,0,0,0,karaoke,{\k40}My {\k40}goal {\k20}was {\k12}to {\k25}be{\k45}come {\k49}so {\k58}flong {\k39}and {\k30}se{\k14}xi{\k45}ble
+Comment: 0,0:01:27.49,0:01:29.55,Sample KM [Up],,0,0,0,karaoke,{\k23}And {\k19}to {\k32}tell {\k18}eve{\k23}ry{\k91}one
+Comment: 0,0:01:29.59,0:01:30.97,Sample KM [Up],,0,0,0,karaoke,{\k20}To {\k23}stret{\k23}chy {\k72}stretch
+Comment: 0,0:01:31.19,0:01:33.00,Sample KM [Choir],,0,0,0,karaoke,{\k29}Woah {\k40}oh {\k46}oh {\k66}oh
+Comment: 0,0:01:32.79,0:01:34.64,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k24}got{\k22}ta {\k18}stret{\k29}chy {\k69}stretch
+Comment: 0,0:01:34.88,0:01:36.81,Sample KM [Choir],,0,0,0,karaoke,{\k29}Woah {\k40}oh {\k46}oh {\k78}oh
+Comment: 0,0:01:36.50,0:01:38.35,Sample KM [Up],,0,0,0,karaoke,{\k22}You {\k24}wan{\k22}na {\k20}stret{\k26}chy {\k71}stretch
+Comment: 0,0:01:38.56,0:01:40.41,Sample KM [Choir],,0,0,0,karaoke,{\k31}Woah {\k40}oh {\k46}oh {\k68}oh
+Comment: 0,0:01:40.41,0:01:42.26,Sample KM [Up],,0,0,0,karaoke,{\k24}If {\k24}you {\k21}wan{\k15}na {\k32}feel {\k69}good
+Comment: 0,0:01:42.26,0:01:44.10,Sample KM [Up],,0,0,0,karaoke,{\k47}And {\k32}get {\k26}in {\k11}the {\k68}mood
+Comment: 0,0:01:44.10,0:01:45.95,Sample KM [Up],,0,0,0,karaoke,{\k24}Then {\k23}you’ve {\k47}got{\k21}ta {\k70}trust
+Comment: 0,0:01:45.95,0:01:47.79,Sample KM [Up],,0,0,0,karaoke,{\k21}In {\k26}that {\k46}pel{\k43}vic {\k48}thrust
+Comment: 0,0:01:48.02,0:01:51.14,Sample KM [Up],,0,0,0,karaoke,{\k23}The {\k73}time {\k67}is {\kf149}now
+Comment: 0,0:01:51.73,0:01:54.81,Sample KM [Up],,0,0,0,karaoke,{\k23}To{\k46}mor{\k25}row {\k45}ne{\k22}ver {\kf147}comes
+Comment: 0,0:01:55.64,0:02:02.01,Sample KM [Up],,0,0,0,karaoke,{\k74}Grab {\k64}a {\kf134}friend,{\k74} {\k20}it’s {\k50}time {\k28}for {\k40}S{\k25}M{\kf128}M
+Comment: 0,0:02:02.56,0:02:05.93,Sample KM [Up],,0,0,0,karaoke,{\k23}It’s {\k25}an {\k67}on{\k70}line {\k70}pro{\k82}gram
+Comment: 0,0:02:06.26,0:02:09.61,Sample KM [Up],,0,0,0,karaoke,{\k17}It {\k28}will {\k46}stretch {\k23}you {\k47}to {\k24}your {\kf150}ends
+Comment: 0,0:02:10.39,0:02:13.19,Sample KM [Up],,0,0,0,karaoke,{\k72}Take {\k68}these {\kf140}tips
+Comment: 0,0:02:13.65,0:02:17.25,Sample KM [Up],,0,0,0,karaoke,{\k45}And {\k70}stretch {\k70}your {\kf175}bits
+Comment: 0,0:02:18.69,0:02:19.43,Sample KM [Up],,0,0,0,karaoke,{\k74}Yeah
+Comment: 0,0:02:19.44,0:02:20.80,Sample KM [Up],,0,0,0,karaoke,{\k19}And {\k22}stret{\k26}chy {\k69}stretch
+Comment: 0,0:02:21.03,0:02:22.85,Sample KM [Choir],,0,0,0,karaoke,{\k29}Woah {\k40}oh {\k46}oh {\k67}oh
+Comment: 0,0:02:22.65,0:02:24.49,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k25}got{\k16}ta {\k23}stret{\k30}chy {\k69}stretch
+Comment: 0,0:02:24.72,0:02:26.57,Sample KM [Choir],,0,0,0,karaoke,{\k30}Woah {\k39}oh {\k46}oh {\k70}oh
+Comment: 0,0:02:26.33,0:02:28.23,Sample KM [Up],,0,0,0,karaoke,{\k24}You {\k22}wan{\k22}na {\k22}stret{\k25}chy {\k75}stretch
+Comment: 0,0:02:28.42,0:02:30.27,Sample KM [Choir],,0,0,0,karaoke,{\k29}Woah {\k40}oh {\k46}oh {\k70}oh
+Comment: 0,0:02:30.27,0:02:32.10,Sample KM [Up],,0,0,0,karaoke,{\k21}If {\k25}you {\k25}wan{\k12}na {\k33}feel {\k67}good
+Comment: 0,0:02:32.10,0:02:33.94,Sample KM [Up],,0,0,0,karaoke,{\k47}And {\k35}get {\k24}in {\k11}the {\k67}mood
+Comment: 0,0:02:33.94,0:02:35.78,Sample KM [Up],,0,0,0,karaoke,{\k24}Then {\k24}you’ve {\k39}got{\k25}ta {\k72}trust
+Comment: 0,0:02:35.78,0:02:37.63,Sample KM [Up],,0,0,0,karaoke,{\k22}In {\k26}that {\k45}pel{\k45}vic {\k47}thrust
+Comment: 0,0:02:37.89,0:02:39.34,Sample KM [Up],,0,0,0,karaoke,{\k18}To {\k23}stret{\k26}chy {\k78}stretch
+Comment: 0,0:02:41.10,0:02:42.98,Sample KM [Up],,0,0,0,karaoke,{\k25}I’ve {\k23}got{\k17}ta {\k22}stret{\k27}chy {\k74}stretch
+Comment: 0,0:02:44.79,0:02:46.69,Sample KM [Up],,0,0,0,karaoke,{\k25}You {\k22}want {\k20}to {\k20}stret{\k29}chy {\k74}stretch
+Comment: 0,0:02:48.72,0:02:50.58,Sample KM [Up],,0,0,0,karaoke,{\k23}Take {\k22}a {\k39}chance {\k36}on {\k66}me
+Comment: 0,0:02:50.58,0:02:52.42,Sample KM [Up],,0,0,0,karaoke,{\k22}And {\k24}I’ll {\k42}gua{\k24}ran{\k72}tee
+Comment: 0,0:02:52.42,0:02:54.25,Sample KM [Up],,0,0,0,karaoke,{\k23}That {\k22}a {\k41}move{\k25}ment {\k72}touch
+Comment: 0,0:02:54.25,0:02:56.25,Sample KM [Up],,0,0,0,karaoke,{\k45}Is {\k47}just {\k48}a {\k60}must
+Comment: 0,0:02:56.33,0:02:57.70,Sample KM [Up],,0,0,0,karaoke,{\k21}And {\k25}stret{\k25}chy {\k66}stretch
+Comment: 0,0:02:57.70,0:02:59.72,Sample KM [Up],,0,0,0,karaoke,{\k68}Stretch, {\k66}stretch, {\k68}stretch
+Comment: 0,0:02:59.72,0:03:06.97,Sample KM [Up],,0,0,0,karaoke,{\k53}Stretch {\k48}right {\kf624}now
+Dialogue: 0,0:00:01.28,0:00:04.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Ma{\k40}ny {\k68}moons {\k17}a{\k91}go
+Dialogue: 0,0:00:04.45,0:00:08.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}I {\k49}could {\k43}not {\k53}touch {\k42}my {\k97}toes
+Dialogue: 0,0:00:08.59,0:00:14.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Get{\k41}ting {\kf110}down {\k45}to {\k29}the {\k92}floor{\k54} {\k20}was {\k21}a {\k68}chore
+Dialogue: 0,0:00:15.56,0:00:20.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}My {\k58}neck{\k40} {\k48}hurt{\k38} {\k28}to {\k42}my {\k41}back
+Dialogue: 0,0:00:19.20,0:00:24.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}My {\k47}back{\k47} {\k54}hurt{\k37} {\k30}to {\k43}my {\k71}knees
+Dialogue: 0,0:00:22.92,0:00:28.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}I {\k29}coul{\k43}dn’t {\k53}see {\k44}a {\k46}way {\k21}to {\k24}re{\kf188}lief
+Dialogue: 0,0:00:29.81,0:00:32.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}No{\k28}thing {\k21}e{\k24}ver {\k75}worked
+Dialogue: 0,0:00:32.62,0:00:36.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}No {\k48}so{\k22}lu{\k24}tion {\k22}I {\k25}could {\k79}find
+Dialogue: 0,0:00:38.09,0:00:42.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}But {\k45}I {\k49}made {\k43}up {\k44}my {\kf128}mind
+Dialogue: 0,0:00:43.23,0:00:46.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}It's {\k71}time {\k19}to {\k23}stret{\k25}chy {\k73}stretch
+Dialogue: 0,0:00:45.98,0:00:48.90,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Woah {\k40}oh {\k46}oh {\k67}oh
+Dialogue: 0,0:00:47.60,0:00:50.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k25}got{\k19}ta {\k24}stret{\k25}chy {\k70}stretch
+Dialogue: 0,0:00:49.67,0:00:52.61,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Woah {\k40}oh {\k46}oh {\k67}oh
+Dialogue: 0,0:00:51.28,0:00:54.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}You {\k22}wan{\k22}na {\k22}stret{\k26}chy {\k69}stretch
+Dialogue: 0,0:00:53.36,0:00:56.32,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Woah {\k40}oh {\k46}oh {\k71}oh
+Dialogue: 0,0:00:55.22,0:00:58.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}If {\k25}you {\k26}wan{\k12}na {\k32}feel {\k68}good
+Dialogue: 0,0:00:57.06,0:01:00.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}And {\k37}get {\k23}in {\k11}the {\k69}mood
+Dialogue: 0,0:00:58.90,0:01:01.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Then {\k24}you’ve {\k38}got{\k24}ta {\k76}trust
+Dialogue: 0,0:01:00.75,0:01:03.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}In {\k27}that {\k46}pel{\k46}vic {\k45}thrust
+Dialogue: 0,0:01:02.84,0:01:05.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}To {\k25}stret{\k24}chy {\k75}stretch
+Dialogue: 0,0:01:06.75,0:01:11.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k20}would {\k13}go {\k18}in{\k40}sane {\k23}with {\k29}all {\k21}these {\k41}aches {\k26}and {\k68}pains
+Dialogue: 0,0:01:10.24,0:01:13.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}But {\k24}I {\k45}got {\k46}back {\k43}on {\k65}track
+Dialogue: 0,0:01:12.90,0:01:14.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}It’s {\k20}a {\k47}fact
+Dialogue: 0,0:01:14.13,0:01:16.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Now {\k22}my {\k27}neck {\k49}moves
+Dialogue: 0,0:01:15.36,0:01:18.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}My {\k22}knees {\k30}are {\k34}fee{\k41}ling {\k53}smooth
+Dialogue: 0,0:01:17.60,0:01:21.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k32}final{\k36}ly {\k49}found {\k48}a {\k66}way
+Dialogue: 0,0:01:20.36,0:01:22.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}A {\k24}way {\k23}to {\k23}re{\k55}lief
+Dialogue: 0,0:01:22.19,0:01:27.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}My {\k40}goal {\k20}was {\k12}to {\k25}be{\k45}come {\k49}so {\k58}flong {\k39}and {\k30}se{\k14}xi{\k45}ble
+Dialogue: 0,0:01:26.59,0:01:29.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}And {\k19}to {\k32}tell {\k18}eve{\k23}ry{\k91}one
+Dialogue: 0,0:01:28.69,0:01:31.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}To {\k23}stret{\k23}chy {\k72}stretch
+Dialogue: 0,0:01:30.29,0:01:33.20,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Woah {\k40}oh {\k46}oh {\k66}oh
+Dialogue: 0,0:01:31.89,0:01:34.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k24}got{\k22}ta {\k18}stret{\k29}chy {\k69}stretch
+Dialogue: 0,0:01:33.98,0:01:37.01,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Woah {\k40}oh {\k46}oh {\k78}oh
+Dialogue: 0,0:01:35.60,0:01:38.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}You {\k24}wan{\k22}na {\k20}stret{\k26}chy {\k71}stretch
+Dialogue: 0,0:01:37.66,0:01:40.61,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Woah {\k40}oh {\k46}oh {\k68}oh
+Dialogue: 0,0:01:39.51,0:01:42.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}If {\k24}you {\k21}wan{\k15}na {\k32}feel {\k69}good
+Dialogue: 0,0:01:41.36,0:01:44.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}And {\k32}get {\k26}in {\k11}the {\k68}mood
+Dialogue: 0,0:01:43.20,0:01:46.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Then {\k23}you’ve {\k47}got{\k21}ta {\k70}trust
+Dialogue: 0,0:01:45.05,0:01:47.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}In {\k26}that {\k46}pel{\k43}vic {\k48}thrust
+Dialogue: 0,0:01:47.12,0:01:51.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}The {\k73}time {\k67}is {\kf149}now
+Dialogue: 0,0:01:50.83,0:01:55.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}To{\k46}mor{\k25}row {\k45}ne{\k22}ver {\kf147}comes
+Dialogue: 0,0:01:54.74,0:02:02.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k74}Grab {\k64}a {\kf134}friend,{\k74} {\k20}it’s {\k50}time {\k28}for {\k40}S{\k25}M{\kf128}M
+Dialogue: 0,0:02:01.66,0:02:06.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}It’s {\k25}an {\k67}on{\k70}line {\k70}pro{\k82}gram
+Dialogue: 0,0:02:05.36,0:02:09.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}It {\k28}will {\k46}stretch {\k23}you {\k47}to {\k24}your {\kf150}ends
+Dialogue: 0,0:02:09.49,0:02:13.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k72}Take {\k68}these {\kf140}tips
+Dialogue: 0,0:02:12.75,0:02:17.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}And {\k70}stretch {\k70}your {\kf175}bits
+Dialogue: 0,0:02:17.79,0:02:19.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k74}Yeah
+Dialogue: 0,0:02:18.54,0:02:21.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}And {\k22}stret{\k26}chy {\k69}stretch
+Dialogue: 0,0:02:20.13,0:02:23.05,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Woah {\k40}oh {\k46}oh {\k67}oh
+Dialogue: 0,0:02:21.75,0:02:24.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k25}got{\k16}ta {\k23}stret{\k30}chy {\k69}stretch
+Dialogue: 0,0:02:23.82,0:02:26.77,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Woah {\k39}oh {\k46}oh {\k70}oh
+Dialogue: 0,0:02:25.43,0:02:28.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}You {\k22}wan{\k22}na {\k22}stret{\k25}chy {\k75}stretch
+Dialogue: 0,0:02:27.52,0:02:30.47,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Woah {\k40}oh {\k46}oh {\k70}oh
+Dialogue: 0,0:02:29.37,0:02:32.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}If {\k25}you {\k25}wan{\k12}na {\k33}feel {\k67}good
+Dialogue: 0,0:02:31.20,0:02:34.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}And {\k35}get {\k24}in {\k11}the {\k67}mood
+Dialogue: 0,0:02:33.04,0:02:35.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Then {\k24}you’ve {\k39}got{\k25}ta {\k72}trust
+Dialogue: 0,0:02:34.88,0:02:37.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}In {\k26}that {\k45}pel{\k45}vic {\k47}thrust
+Dialogue: 0,0:02:36.99,0:02:39.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}To {\k23}stret{\k26}chy {\k78}stretch
+Dialogue: 0,0:02:40.20,0:02:43.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I’ve {\k23}got{\k17}ta {\k22}stret{\k27}chy {\k74}stretch
+Dialogue: 0,0:02:43.89,0:02:46.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}You {\k22}want {\k20}to {\k20}stret{\k29}chy {\k74}stretch
+Dialogue: 0,0:02:47.82,0:02:50.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Take {\k22}a {\k39}chance {\k36}on {\k66}me
+Dialogue: 0,0:02:49.68,0:02:52.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k24}I’ll {\k42}gua{\k24}ran{\k72}tee
+Dialogue: 0,0:02:51.52,0:02:54.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}That {\k22}a {\k41}move{\k25}ment {\k72}touch
+Dialogue: 0,0:02:53.35,0:02:56.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Is {\k47}just {\k48}a {\k60}must
+Dialogue: 0,0:02:55.43,0:02:57.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}And {\k25}stret{\k25}chy {\k66}stretch
+Dialogue: 0,0:02:56.80,0:02:59.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k68}Stretch, {\k66}stretch, {\k68}stretch
+Dialogue: 0,0:02:58.82,0:03:07.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Stretch {\k48}right {\kf624}now
