@@ -1,0 +1,154 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Nabashi
+Title: Blink Gone
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Till,Arial,24,&H00FFFFFF,&H0063D545,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,5,5,20,1
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00E36FCC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Luka,Arial,24,&H00FFFFFF,&H0000AFE1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,5,5,20,1
+Style: Duo,Arial,24,&H00A23BF3,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:05.00,Till,,0,0,200,karaoke,{\pos(5)\c&H63D545&}Till | {\c&H00AFE1&}Luka | {\c&HE36FCC&}Audience | {\c&HFFFFFF&}Duo
+Comment: 0,0:00:02.96,0:00:04.73,Till,,0,0,0,karaoke,{\k31}Sou{\k19}dain {\k28}c'est {\k53}trop {\k46}tard
+Comment: 0,0:00:05.68,0:00:06.62,Till,,0,0,0,karaoke,{\k52}Trop {\k42}tard
+Comment: 0,0:00:06.84,0:00:08.54,Till,,0,0,0,karaoke,{\k29}L'é{\k24}vi{\k24}dence {\k47}me {\k46}frappe
+Comment: 0,0:00:09.55,0:00:10.77,Till,,0,0,0,karaoke,{\k35}Bien {\k38}trop {\k49}tard
+Comment: 0,0:00:10.77,0:00:13.27,Luka,,0,0,0,karaoke,{\k19}É{\k19}coute {\k29}le {\k48}tic-{\k50}tac {\k49}tic-{\k36}tac
+Comment: 0,0:00:13.37,0:00:16.01,Luka,,0,0,0,karaoke,{\k34}A{\k29}muse-{\k55}toi {\k24}tant {\k25}que {\k22}nous {\k46}sommes {\k29}là
+Comment: 0,0:00:16.49,0:00:18.98,Luka,,0,0,0,karaoke,{\k26}Bien{\k23}tôt {\k24}c'est {\k50}trop {\k68}tard {\k27\i1}lâche-{\k31}toi{\i0}
+Comment: 0,0:00:19.04,0:00:20.73,Till,,0,0,0,karaoke,{\k42}Chaque {\k35}ins{\k25}tant {\k37}qui {\k30}passe
+Comment: 0,0:00:20.81,0:00:22.66,Till,,0,0,0,karaoke,{\k25}Dis{\k37}pa{\k34}raît {\k23}à {\k24}tout {\k12}ja{\k30}mais
+Comment: 0,0:00:22.88,0:00:24.54,Till,,0,0,0,karaoke,{\k48}La {\k29}fête {\k29}n'at{\k36}tend {\k24}pas
+Comment: 0,0:00:24.56,0:00:27.19,Till,,0,0,0,karaoke,{\k31}C'est {\k51}l'heure {\k49}de {\k34}tout {\k32}don{\k66}ner
+Comment: 0,0:00:26.79,0:00:28.44,Luka,,0,0,0,karaoke,{\k37}Re{\k38}lève {\k26}tes {\k30}deux {\k34}bras
+Comment: 0,0:00:28.45,0:00:31.84,Luka,,0,0,0,karaoke,{\k27}Suis {\k38}le {\k38}rythme {\k20}et {\k26}laisse-{\k23}toi {\k27}al{\kf140}ler
+Comment: 0,0:00:31.85,0:00:33.76,Till,,0,0,0,karaoke,{\k25}In{\k18}u{\k29}tile {\k44}de {\k52}lut{\k23}ter
+Comment: 0,0:00:33.76,0:00:37.58,Luka,,0,0,0,karaoke,{\k24}Les {\k35}lu{\kf135}eurs {\k22}a{\k33}zu{\kf133}rées
+Comment: 0,0:00:37.60,0:00:39.66,Luka,,0,0,0,karaoke,{\k24}Viennent {\k24}é{\k24}ga{\k35}yer {\k33}mon {\k29}vi{\k37}sage
+Comment: 0,0:00:39.67,0:00:41.88,Luka,,0,0,0,karaoke,{\k29}Mon {\k26}sou{\k43}rire {\k28}sous {\k26}les {\k69}strass
+Comment: 0,0:00:41.45,0:00:45.04,Till,,0,0,0,karaoke,{\k24}La {\k38}ru{\kf104}meur{\k26} {\k26}dans {\k20}l'air {\k48}gla{\k73}cé
+Comment: 0,0:00:45.19,0:00:48.99,Till,,0,0,0,karaoke,{\k29}S'es{\k24}souf{\k24}fle{\k42}ra {\k31}cer{\k28}taine{\k27}ment {\k34}ce {\kf141}soir
+Comment: 0,0:00:49.00,0:00:50.84,Till,,0,0,0,karaoke,{\k38}Sou{\k19}dain {\k27}c'est {\k49}trop {\k51}tard
+Comment: 0,0:00:51.06,0:00:53.25,Luka,,0,0,0,karaoke,{\k23}Il {\k21}te {\k28}suf{\k40}fit {\k32}d'ou{\k25}bli{\k50}er
+Comment: 0,0:00:52.91,0:00:54.66,Till,,0,0,0,karaoke,{\k33}C'est {\k23}dé{\k22}jà {\k48}trop {\k49}tard
+Comment: 0,0:00:54.90,0:00:57.22,Luka,,0,0,0,karaoke,{\k23}Ne {\k23}te {\k26}gâche {\k29}pas {\k33}cette {\k36}soi{\k62}rée
+Comment: 0,0:00:56.75,0:00:58.50,Till,,0,0,0,karaoke,{\k31}Crois-{\k23}moi {\k21}c'est {\k50}trop {\k50}tard
+Comment: 0,0:00:58.69,0:01:01.08,Luka,,0,0,0,karaoke,{\k27}Laisse {\k25}der{\k23}rière {\k44}toi {\k29}les {\k27}re{\k64}grets
+Comment: 0,0:01:00.64,0:01:04.10,Till,,0,0,0,karaoke,{\k26}J'en{\k26}tends {\k23}le {\k42}tic-{\k49}tac {\k50}tic-{\k48}tac {\k48}tic-{\k34}tac
+Comment: 0,0:01:04.23,0:01:05.16,Till,,0,0,0,karaoke,{\k48}Trop {\k45}tard
+Comment: 0,0:01:23.71,0:01:25.61,Luka,,0,0,0,karaoke,{\k25}Puis{\k24}qu'il {\k18}est {\k54}trop {\k69}tard
+Comment: 0,0:01:26.33,0:01:27.48,Luka,,0,0,0,karaoke,{\k35}Bien {\k40}trop {\k40}tard
+Comment: 0,0:01:27.48,0:01:29.24,Luka,,0,0,0,karaoke,{\k28}Re{\k27}garde {\k25}de{\k44}vant {\k52}toi
+Comment: 0,0:01:29.42,0:01:30.71,Till,,0,0,0,karaoke,{\k28}Il {\k17}est {\k30}trop {\k54}tard
+Comment: 0,0:01:32.07,0:01:33.79,Till,,0,0,0,karaoke,{\k39}Re{\k37}prends {\k23}tes {\k36}es{\k37}prits
+Comment: 0,0:01:33.97,0:01:35.70,Till,,0,0,0,karaoke,{\k36}Fais {\k40}taire {\k24}tes {\k36}an{\k37}goisses
+Comment: 0,0:01:35.90,0:01:37.57,Till,,0,0,0,karaoke,{\k35}Re{\k30}monte {\k34}sur {\k35}la {\k33}piste
+Comment: 0,0:01:37.58,0:01:40.15,Till,,0,0,0,karaoke,{\k25}Ne {\k48}te {\k49}re{\k40}tour{\k32}ne {\k63}pas
+Comment: 0,0:01:39.80,0:01:41.40,Luka,,0,0,0,karaoke,{\k30}Pas{\k42}sé {\k23}a{\k34}ve{\k31}nir
+Comment: 0,0:01:41.64,0:01:44.97,Luka,,0,0,0,karaoke,{\k43}Qu'im{\k33}porte {\k25}les {\k20}dés {\k25}sont {\k31}je{\kf156}tés
+Comment: 0,0:01:44.76,0:01:46.91,Till,,0,0,0,karaoke,{\k22}C'est {\k29}mainte{\k25}nant {\k43}ou {\k52}ja{\k44}mais
+Comment: 0,0:01:46.67,0:01:50.45,Luka,,0,0,0,karaoke,{\k26}Cette {\k42}ar{\kf125}deur {\k30}nous {\k27}em{\kf128}brasse
+Comment: 0,0:01:50.58,0:01:52.58,Luka,,0,0,0,karaoke,{\k20}Dans {\k25}l'at{\k20}mo{\k39}sphère {\k31}rouge {\k30}ver{\k35}meil
+Comment: 0,0:01:52.62,0:01:54.57,Luka,,0,0,0,karaoke,{\k33}Dont {\k26}mon {\k33}coeur {\k39}s'é{\k25}mer{\k39}veille
+Comment: 0,0:01:54.36,0:01:58.02,Till,,0,0,0,karaoke,{\k22}Cette {\k35}cha{\kf113}leur{\k18} {\k36}qui {\k24}nous {\k44}é{\k74}crase
+Comment: 0,0:01:58.21,0:02:01.88,Till,,0,0,0,karaoke,{\k29}Pour{\k24}rait {\k19}bien {\k43}faire {\k33}brû{\k23}ler {\k39}ciel {\k32}et {\kf125}terre
+Comment: 0,0:02:02.08,0:02:03.77,Luka,,0,0,0,karaoke,{\k26}Sou{\k19}dain {\k23}c'est {\k53}trop {\k48}tard
+Comment: 0,0:02:04.00,0:02:06.16,Till,,0,0,0,karaoke,{\k22}Il {\k23}te {\k29}suf{\k38}fit {\k32}d'ou{\k25}bli{\k47}er
+Comment: 0,0:02:05.90,0:02:07.61,Luka,,0,0,0,karaoke,{\k25}C'est {\k25}dé{\k25}jà {\k47}trop {\k49}tard
+Comment: 0,0:02:07.82,0:02:10.19,Till,,0,0,0,karaoke,{\k22}Ne {\k26}te {\k27}gâche {\k35}pas {\k33}cette {\k31}soi{\k63}rée
+Comment: 0,0:02:09.68,0:02:11.46,Luka,,0,0,0,karaoke,{\k31}Crois-{\k21}moi {\k24}c'est {\k50}trop {\k52}tard
+Comment: 0,0:02:11.67,0:02:14.03,Till,,0,0,0,karaoke,{\k26}Laisse {\k21}der{\k23}rière {\k44}toi {\k31}les {\k24}re{\k67}grets
+Comment: 0,0:02:13.61,0:02:17.06,Luka,,0,0,0,karaoke,{\k21}É{\k23}coute {\k25}le {\k51}tic-{\k48}tac {\k47}tic-{\k48}tac {\k48}tic-{\k34}tac
+Comment: 0,0:02:17.18,0:02:18.12,Luka,,0,0,0,karaoke,{\k52}Trop {\k42}tard
+Comment: 0,0:02:32.75,0:02:34.44,Sample KM [Up],,0,0,0,karaoke,{\k29}Sou{\k20}dain {\k27}c'est {\k50}trop {\k43}tard
+Comment: 0,0:02:34.72,0:02:36.92,Sample KM [Up],,0,0,0,karaoke,{\k26}Il {\k19}te {\k27}suf{\k37}fit {\k36}d'ou{\k27}bli{\k48}er
+Comment: 0,0:02:36.66,0:02:38.28,Sample KM [Up],,0,0,0,karaoke,{\k25}C'est {\k21}dé{\k22}jà {\k53}trop {\k41}tard
+Comment: 0,0:02:38.58,0:02:40.42,Sample KM [Up],,0,0,0,karaoke,{\k22}Ne {\k25}te {\k24}gâche {\k31}pas {\k36}cette {\k30}soi{\k16}rée
+Comment: 0,0:02:40.45,0:02:42.16,Sample KM [Up],,0,0,0,karaoke,{\k30}Crois-{\k20}moi {\k22}c'est {\k51}trop {\k48}tard
+Comment: 0,0:02:42.40,0:02:44.36,Sample KM [Up],,0,0,0,karaoke,{\k24}Laisse {\k23}der{\k25}rière {\k39}toi {\k33}les {\k26}re{\k26}grets
+Comment: 0,0:02:44.36,0:02:46.76,Sample KM [Up],,0,0,0,karaoke,{\k23}J'en{\k23}tends {\k23}le {\k47}tic-{\k46}tac {\k50}tic-{\k28}tac
+Comment: 0,0:02:48.13,0:02:49.85,Duo,,0,0,0,karaoke,{\k30}Sou{\k21}dain {\k20}c'est {\k48}trop {\k53}tard
+Comment: 0,0:02:50.07,0:02:52.26,Till,,0,0,0,karaoke,{\k21}Il {\k22}te {\k23}suf{\k47}fit {\k34}d'ou{\k24}bli{\k48}er
+Comment: 0,0:02:51.96,0:02:53.71,Duo,,0,0,0,karaoke,{\k29}C'est {\k22}dé{\k24}jà {\k51}trop {\k49}tard
+Comment: 0,0:02:53.88,0:02:56.24,Luka,,0,0,0,karaoke,{\k24}Ne {\k24}te {\k28}gâche {\k31}pas {\k29}cette {\k35}soi{\k65}rée
+Comment: 0,0:02:55.80,0:02:57.55,Duo,,0,0,0,karaoke,{\k26}Crois-{\k22}moi {\k25}c'est {\k51}trop {\k51}tard
+Comment: 0,0:02:57.73,0:03:00.29,Till,,0,0,0,karaoke,{\k28}Laisse {\k23}der{\k24}rière {\k46}toi {\k30}les {\k24}re{\k81}grets
+Comment: 0,0:02:59.62,0:03:03.17,Duo,,0,0,0,karaoke,{\k26}J'en{\k28}tends {\k24}le {\k47}tic-{\k46}tac {\k47}tic-{\k52}tac {\k48}tic-{\k37}tac
+Comment: 0,0:03:03.28,0:03:04.21,Duo,,0,0,0,karaoke,{\k48}Trop {\k45}tard
+Dialogue: 0,0:00:00.00,0:00:05.20,Till,,0,0,200,fx,{\k0\fad(0,200)}{\pos(5)\c&H63D545&}Till | {\c&H00AFE1&}Luka | {\c&HE36FCC&}Audience | {\c&HFFFFFF&}Duo
+Dialogue: 0,0:00:02.06,0:00:04.93,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Sou{\k19}dain {\k28}c'est {\k53}trop {\k46}tard
+Dialogue: 0,0:00:04.78,0:00:06.82,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Trop {\k42}tard
+Dialogue: 0,0:00:05.94,0:00:08.74,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k29}L'é{\k24}vi{\k24}dence {\k47}me {\k46}frappe
+Dialogue: 0,0:00:08.65,0:00:10.97,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Bien {\k38}trop {\k49}tard
+Dialogue: 0,0:00:09.87,0:00:13.47,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k19}É{\k19}coute {\k29}le {\k48}tic-{\k50}tac {\k49}tic-{\k36}tac
+Dialogue: 0,0:00:12.47,0:00:16.21,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k34}A{\k29}muse-{\k55}toi {\k24}tant {\k25}que {\k22}nous {\k46}sommes {\k29}là
+Dialogue: 0,0:00:15.59,0:00:19.18,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Bien{\k23}tôt {\k24}c'est {\k50}trop {\k68}tard {\k27\i1}lâche-{\k31}toi{\i0}
+Dialogue: 0,0:00:18.14,0:00:20.93,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Chaque {\k35}ins{\k25}tant {\k37}qui {\k30}passe
+Dialogue: 0,0:00:19.91,0:00:22.86,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Dis{\k37}pa{\k34}raît {\k23}à {\k24}tout {\k12}ja{\k30}mais
+Dialogue: 0,0:00:21.98,0:00:24.74,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k48}La {\k29}fête {\k29}n'at{\k36}tend {\k24}pas
+Dialogue: 0,0:00:23.66,0:00:27.39,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k31}C'est {\k51}l'heure {\k49}de {\k34}tout {\k32}don{\k66}ner
+Dialogue: 0,0:00:25.89,0:00:28.64,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Re{\k38}lève {\k26}tes {\k30}deux {\k34}bras
+Dialogue: 0,0:00:27.55,0:00:32.04,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Suis {\k38}le {\k38}rythme {\k20}et {\k26}laisse-{\k23}toi {\k27}al{\kf140}ler
+Dialogue: 0,0:00:30.95,0:00:33.96,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k25}In{\k18}u{\k29}tile {\k44}de {\k52}lut{\k23}ter
+Dialogue: 0,0:00:32.86,0:00:37.78,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Les {\k35}lu{\kf135}eurs {\k22}a{\k33}zu{\kf133}rées
+Dialogue: 0,0:00:36.70,0:00:39.86,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Viennent {\k24}é{\k24}ga{\k35}yer {\k33}mon {\k29}vi{\k37}sage
+Dialogue: 0,0:00:38.77,0:00:42.08,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Mon {\k26}sou{\k43}rire {\k28}sous {\k26}les {\k69}strass
+Dialogue: 0,0:00:40.55,0:00:45.24,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k24}La {\k38}ru{\kf104}meur{\k26} {\k26}dans {\k20}l'air {\k48}gla{\k73}cé
+Dialogue: 0,0:00:44.29,0:00:49.19,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k29}S'es{\k24}souf{\k24}fle{\k42}ra {\k31}cer{\k28}taine{\k27}ment {\k34}ce {\kf141}soir
+Dialogue: 0,0:00:48.10,0:00:51.04,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Sou{\k19}dain {\k27}c'est {\k49}trop {\k51}tard
+Dialogue: 0,0:00:50.16,0:00:53.45,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Il {\k21}te {\k28}suf{\k40}fit {\k32}d'ou{\k25}bli{\k50}er
+Dialogue: 0,0:00:52.01,0:00:54.86,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k33}C'est {\k23}dé{\k22}jà {\k48}trop {\k49}tard
+Dialogue: 0,0:00:54.00,0:00:57.42,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ne {\k23}te {\k26}gâche {\k29}pas {\k33}cette {\k36}soi{\k62}rée
+Dialogue: 0,0:00:55.85,0:00:58.70,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Crois-{\k23}moi {\k21}c'est {\k50}trop {\k50}tard
+Dialogue: 0,0:00:57.79,0:01:01.28,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Laisse {\k25}der{\k23}rière {\k44}toi {\k29}les {\k27}re{\k64}grets
+Dialogue: 0,0:00:59.74,0:01:04.30,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k26}J'en{\k26}tends {\k23}le {\k42}tic-{\k49}tac {\k50}tic-{\k48}tac {\k48}tic-{\k34}tac
+Dialogue: 0,0:01:03.33,0:01:05.36,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Trop {\k45}tard
+Dialogue: 0,0:01:22.81,0:01:25.81,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Puis{\k24}qu'il {\k18}est {\k54}trop {\k69}tard
+Dialogue: 0,0:01:25.43,0:01:27.68,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Bien {\k40}trop {\k40}tard
+Dialogue: 0,0:01:26.58,0:01:29.44,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Re{\k27}garde {\k25}de{\k44}vant {\k52}toi
+Dialogue: 0,0:01:28.52,0:01:30.91,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Il {\k17}est {\k30}trop {\k54}tard
+Dialogue: 0,0:01:31.17,0:01:33.99,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Re{\k37}prends {\k23}tes {\k36}es{\k37}prits
+Dialogue: 0,0:01:33.07,0:01:35.90,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Fais {\k40}taire {\k24}tes {\k36}an{\k37}goisses
+Dialogue: 0,0:01:35.00,0:01:37.77,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Re{\k30}monte {\k34}sur {\k35}la {\k33}piste
+Dialogue: 0,0:01:36.68,0:01:40.35,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ne {\k48}te {\k49}re{\k40}tour{\k32}ne {\k63}pas
+Dialogue: 0,0:01:38.90,0:01:41.60,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Pas{\k42}sé {\k23}a{\k34}ve{\k31}nir
+Dialogue: 0,0:01:40.74,0:01:45.17,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Qu'im{\k33}porte {\k25}les {\k20}dés {\k25}sont {\k31}je{\kf156}tés
+Dialogue: 0,0:01:43.86,0:01:47.11,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k22}C'est {\k29}mainte{\k25}nant {\k43}ou {\k52}ja{\k44}mais
+Dialogue: 0,0:01:45.77,0:01:50.65,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Cette {\k42}ar{\kf125}deur {\k30}nous {\k27}em{\kf128}brasse
+Dialogue: 0,0:01:49.68,0:01:52.78,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Dans {\k25}l'at{\k20}mo{\k39}sphère {\k31}rouge {\k30}ver{\k35}meil
+Dialogue: 0,0:01:51.72,0:01:54.77,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Dont {\k26}mon {\k33}coeur {\k39}s'é{\k25}mer{\k39}veille
+Dialogue: 0,0:01:53.46,0:01:58.22,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Cette {\k35}cha{\kf113}leur{\k18} {\k36}qui {\k24}nous {\k44}é{\k74}crase
+Dialogue: 0,0:01:57.31,0:02:02.08,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Pour{\k24}rait {\k19}bien {\k43}faire {\k33}brû{\k23}ler {\k39}ciel {\k32}et {\kf125}terre
+Dialogue: 0,0:02:01.18,0:02:03.97,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Sou{\k19}dain {\k23}c'est {\k53}trop {\k48}tard
+Dialogue: 0,0:02:03.10,0:02:06.36,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Il {\k23}te {\k29}suf{\k38}fit {\k32}d'ou{\k25}bli{\k47}er
+Dialogue: 0,0:02:05.00,0:02:07.81,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k25}C'est {\k25}dé{\k25}jà {\k47}trop {\k49}tard
+Dialogue: 0,0:02:06.92,0:02:10.39,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ne {\k26}te {\k27}gâche {\k35}pas {\k33}cette {\k31}soi{\k63}rée
+Dialogue: 0,0:02:08.78,0:02:11.66,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Crois-{\k21}moi {\k24}c'est {\k50}trop {\k52}tard
+Dialogue: 0,0:02:10.77,0:02:14.23,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Laisse {\k21}der{\k23}rière {\k44}toi {\k31}les {\k24}re{\k67}grets
+Dialogue: 0,0:02:12.71,0:02:17.26,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k21}É{\k23}coute {\k25}le {\k51}tic-{\k48}tac {\k47}tic-{\k48}tac {\k48}tic-{\k34}tac
+Dialogue: 0,0:02:16.28,0:02:18.32,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Trop {\k42}tard
+Dialogue: 0,0:02:31.85,0:02:34.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Sou{\k20}dain {\k27}c'est {\k50}trop {\k43}tard
+Dialogue: 0,0:02:33.82,0:02:37.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Il {\k19}te {\k27}suf{\k37}fit {\k36}d'ou{\k27}bli{\k48}er
+Dialogue: 0,0:02:35.76,0:02:38.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}C'est {\k21}dé{\k22}jà {\k53}trop {\k41}tard
+Dialogue: 0,0:02:37.68,0:02:40.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ne {\k25}te {\k24}gâche {\k31}pas {\k36}cette {\k30}soi{\k16}rée
+Dialogue: 0,0:02:39.55,0:02:42.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Crois-{\k20}moi {\k22}c'est {\k51}trop {\k48}tard
+Dialogue: 0,0:02:41.50,0:02:44.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Laisse {\k23}der{\k25}rière {\k39}toi {\k33}les {\k26}re{\k26}grets
+Dialogue: 0,0:02:43.46,0:02:46.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}J'en{\k23}tends {\k23}le {\k47}tic-{\k46}tac {\k50}tic-{\k28}tac
+Dialogue: 0,0:02:47.23,0:02:50.05,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Sou{\k21}dain {\k20}c'est {\k48}trop {\k53}tard
+Dialogue: 0,0:02:49.17,0:02:52.46,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Il {\k22}te {\k23}suf{\k47}fit {\k34}d'ou{\k24}bli{\k48}er
+Dialogue: 0,0:02:51.06,0:02:53.91,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k29}C'est {\k22}dé{\k24}jà {\k51}trop {\k49}tard
+Dialogue: 0,0:02:52.98,0:02:56.44,Luka,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ne {\k24}te {\k28}gâche {\k31}pas {\k29}cette {\k35}soi{\k65}rée
+Dialogue: 0,0:02:54.90,0:02:57.75,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Crois-{\k22}moi {\k25}c'est {\k51}trop {\k51}tard
+Dialogue: 0,0:02:56.83,0:03:00.49,Till,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Laisse {\k23}der{\k24}rière {\k46}toi {\k30}les {\k24}re{\k81}grets
+Dialogue: 0,0:02:58.72,0:03:03.37,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k26}J'en{\k28}tends {\k24}le {\k47}tic-{\k46}tac {\k47}tic-{\k52}tac {\k48}tic-{\k37}tac
+Dialogue: 0,0:03:02.38,0:03:04.41,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Trop {\k45}tard
