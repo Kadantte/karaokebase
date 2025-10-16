@@ -1,0 +1,110 @@
+﻿[Script Info]
+Title: Glow in the dark
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Dae_Kimeko, Tomatsu
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Kiara,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: La+,Arial,24,&H00FFFFFF,&H00C3278B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Groupe,Arial,24,&H00FFFFFF,&H00E8D567,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: back,Arial,24,&H00FFFFFF,&H002E29F3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,5,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Kiara,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:08.60,0:00:15.01,La+,,0,0,0,karaoke,{\k24}ne{\k70}mu{\k71}re{\k133}nai {\k54}yo{\k21}ru {\k96}ga {\k25}za{\k47}wa{\k19}me{\k81}ku
+Comment: 0,0:00:15.64,0:00:18.97,Kiara,,0,0,0,karaoke,{\k22}So {\k24}ma{\k23}ny {\kf94}thoughts {\k46}in {\k24}my {\k100}mind
+Comment: 0,0:00:19.37,0:00:22.11,Kiara,,0,0,0,karaoke,{\k24}Are {\k25}you {\k22}the {\k47}one {\k25}that {\k47}I {\k20}wan{\k26}na {\k38}find
+Comment: 0,0:00:22.18,0:00:23.50,Groupe,,0,0,0,karaoke,{\k48}I {\k23}been {\k24}wait{\k37}ing
+Comment: 0,0:00:24.31,0:00:25.75,Groupe,,0,0,0,karaoke,{\k70}Stars {\k22}in {\k23}the {\k29}sky
+Comment: 0,0:00:25.99,0:00:31.26,Kiara,,0,0,0,karaoke,{\k42}So {\k46}bril{\k48}liant {\k24}but {\k70}we’ll {\k45}out{\k90}shine {\k53}them {\k24}ev{\k22}en{\k25}tual{\k38}ly
+Comment: 0,0:00:31.81,0:00:33.37,Groupe,,0,0,0,karaoke,{\k68}Stars {\k25}in {\k22}your {\k41}eyes
+Comment: 0,0:00:33.42,0:00:37.54,La+,,0,0,0,karaoke,{\k48}ko{\k46}no {\k48}ma{\kf119}ma {\k25}tsu{\k19}zu{\k21}ku {\k53}you {\k33}ni
+Comment: 0,0:00:37.63,0:00:38.65,Groupe,,0,0,0,karaoke,{\k15}ko{\k12}no {\k21}to{\k26}ki {\k28}ga
+Comment: 0,0:00:38.59,0:00:38.79,back,,0,0,0,karaoke,{\k1}{\k20}Hey
+Comment: 0,0:00:39.54,0:00:44.93,Groupe,,0,0,0,karaoke,{\k23}I {\k22}wan{\k23}na {\k49}let {\k47}go{\k45}~{\k25}~ {\k19}we {\k28}can {\k51}glow{\k43}~{\k46}~ {\k24}in {\k23}the {\k71}dark
+Comment: 0,0:00:45.16,0:00:46.82,Kiara,,0,0,0,karaoke,{\k23}We’ll {\k20}play {\k27}it {\k48}by {\k48}heart
+Comment: 0,0:00:47.07,0:00:51.66,Groupe,,0,0,0,karaoke,{\k19}wa{\k21}ta{\k29}shi {\k47}wa {\k47}wa{\k46}ta{\k23}shi {\k23}da{\k25}ka{\k46}ra{\kf133}~
+Comment: 0,0:00:54.29,0:01:01.27,Groupe,,0,0,0,karaoke,{\k49}O{\k43}o{\k49}h {\k47}who{\k48}a {\k46}who{\k93}a {\k49}who{\k46}a{\k48}~ {\kf180}whoa
+Comment: 0,0:00:59.69,0:01:01.25,La+,,0,0,0,karaoke,{\k47}ko{\k23}ko {\k26}ka{\k21}ra {\k39}saa
+Comment: 0,0:01:01.80,0:01:08.79,Groupe,,0,0,0,karaoke,{\k47}o{\k47}o{\k47}h {\k46}who{\k48}a {\k42}who{\k99}a {\kf120}ooh{\kf203}~
+Comment: 0,0:01:07.66,0:01:10.92,Groupe,,0,0,0,karaoke,{\k23}We {\k25}glow {\k23}in {\k47}the {\kf208}dark
+Comment: 0,0:01:08.84,0:01:10.98,Kiara,,0,0,0,karaoke,{\k71}Rise {\k69}and {\k74}shine
+Comment: 0,0:01:11.69,0:01:15.21,Kiara,,0,0,0,karaoke,{\k47}Wide {\k20}a{\k116}wake {\k47}in {\k24}the {\k98}night
+Comment: 0,0:01:15.63,0:01:18.49,La+,,0,0,0,karaoke,{\k24}wa{\k25}ta{\k20}shi {\k96}to {\k48}a{\k21}na{\k52}ta
+Comment: 0,0:01:19.37,0:01:22.16,La+,,0,0,0,karaoke,{\k26}ma{\k22}sa{\k24}ni {\k46}yu{\k25}me{\k45}mi{\k25}ta {\k25}mi{\k41}rai
+Comment: 0,0:01:22.19,0:01:23.57,Groupe,,0,0,0,karaoke,{\k48}I {\k23}been {\k24}wait{\k37}ing
+Comment: 0,0:01:24.31,0:01:25.90,Groupe,,0,0,0,karaoke,{\k70}Stars {\k22}in {\k23}the {\k29}sky
+Comment: 0,0:01:25.96,0:01:27.15,Kiara,,0,0,0,karaoke,{\k47}Keep {\k47}sec{\k25}rets {\k0}
+Comment: 0,0:01:27.35,0:01:31.23,Kiara,,0,0,0,karaoke,{\k25}They {\k68}know {\k71}our {\k62}for{\k55}tunes {\k25}but {\k25}ne{\k21}ver {\k36}say
+Comment: 0,0:01:31.79,0:01:33.23,Groupe,,0,0,0,karaoke,{\k72}Stars {\k24}in {\k22}your {\k26}eyes
+Comment: 0,0:01:33.44,0:01:37.49,La+,,0,0,0,karaoke,{\k49}te{\k42}ra{\k48}shi{\k95}te {\k19}su{\k30}su{\k24}me{\k23}ru {\k48}you {\k27}ni
+Comment: 0,0:01:37.65,0:01:38.66,Groupe,,0,0,0,karaoke,{\k13}ko{\k14}no {\k26}mi{\k22}chi {\k26}wo
+Comment: 0,0:01:39.06,0:01:42.29,Kiara,,0,0,0,karaoke,{\k24}A {\k25}world {\k23}of {\k24}fan{\k22}ta{\k47}sy {\k47}cast {\k36}in{\k15}to {\k19}sil{\k23}hou{\k18}ette
+Comment: 0,0:01:42.80,0:01:46.33,Kiara,,0,0,0,karaoke,{\k25}I {\k22}see {\k25}it {\k26}per{\k22}fect{\k23}ly {\k24}we’re {\k46}out {\k47}past {\k46}sun{\k47}set
+Comment: 0,0:01:46.57,0:01:50.02,La+,,0,0,0,karaoke,{\k20}i{\k25}ki{\k26}ta{\k24}i {\k21}ba{\k21}sho {\k13}hi{\k14}to{\k48}ri {\k47}ja {\k21}too{\k26}ku{\k39}te
+Comment: 0,0:01:50.32,0:01:51.73,La+,,0,0,0,karaoke,{\k18}ki{\k10}mi {\k20}wo {\k23}mat{\k23}te{\k47}ta
+Comment: 0,0:01:52.19,0:01:53.54,Kiara,,0,0,0,karaoke,{\k23}Yeah {\k23}I {\k25}been {\k23}wait{\k41}ing
+Comment: 0,0:01:53.60,0:01:53.83,back,,0,0,0,karaoke,{\k1}{\k22}Hey
+Comment: 0,0:01:54.51,0:02:00.13,Groupe,,0,0,0,karaoke,{\k26}I {\k22}wan{\k23}na {\k49}let {\k47}go{\k46}~{\k26}~ {\k21}we {\k24}can {\k48}glow{\k46}~{\k46}~ {\k24}in {\k23}the {\k91}dark
+Comment: 0,0:02:00.17,0:02:01.79,La+,,0,0,0,karaoke,{\k24}mu{\k23}ne {\k24}no {\k44}na{\k47}ka
+Comment: 0,0:02:02.05,0:02:06.66,Kiara,,0,0,0,karaoke,{\k19}We {\k25}al{\k26}rea{\k48}dy {\k45}know{\k45}~{\k27}~ {\k21}who {\k25}we {\k49}are{\kf131}~
+Comment: 0,0:02:09.29,0:02:16.28,Groupe,,0,0,0,karaoke,{\k49}O{\k43}o{\k49}h {\k47}who{\k48}a {\k46}who{\k93}a {\k49}who{\k46}a{\k48}~ {\kf180}whoa
+Comment: 0,0:02:14.68,0:02:16.24,Kiara,,0,0,0,karaoke,{\k24}To{\k25}night {\k22}will {\k24}be {\k24}the {\k37}start
+Comment: 0,0:02:16.78,0:02:23.32,Groupe,,0,0,0,karaoke,{\k47}o{\k47}o{\k47}h {\k46}who{\k48}a {\k42}who{\k99}a {\kf120}ooh{\kf203}~
+Comment: 0,0:02:22.65,0:02:25.74,La+,,0,0,0,karaoke,{\k26}ho{\k23}shi {\k24}ni {\k46}nat{\kf190}te
+Comment: 0,0:02:23.60,0:02:23.85,back,,0,0,0,karaoke,{\k1}{\k25}Hey
+Comment: 0,0:02:24.29,0:02:31.20,Groupe,,0,0,0,karaoke,{\k49}O{\k43}o{\k49}h {\k47}who{\k48}a {\k46}who{\k93}a {\k49}who{\k46}a{\k48}~ {\kf180}whoa
+Comment: 0,0:02:32.03,0:02:36.05,La+,,0,0,0,karaoke,{\k24}wa{\k25}ta{\k21}shi {\k49}wa {\k45}wa{\k48}ta{\k24}shi {\k21}da{\k26}ka{\k47}ra{\kf72}~
+Comment: 0,0:02:37.66,0:02:40.77,Kiara,,0,0,0,karaoke,{\k23}We {\k25}glow {\k23}in {\k47}the {\kf193}dark
+Dialogue: 0,0:00:07.70,0:00:15.21,La+,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ne{\k70}mu{\k71}re{\k133}nai {\k54}yo{\k21}ru {\k96}ga {\k25}za{\k47}wa{\k19}me{\k81}ku
+Dialogue: 0,0:00:14.74,0:00:19.17,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k22}So {\k24}ma{\k23}ny {\kf94}thoughts {\k46}in {\k24}my {\k100}mind
+Dialogue: 0,0:00:18.47,0:00:22.31,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Are {\k25}you {\k22}the {\k47}one {\k25}that {\k47}I {\k20}wan{\k26}na {\k38}find
+Dialogue: 0,0:00:21.28,0:00:23.70,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k48}I {\k23}been {\k24}wait{\k37}ing
+Dialogue: 0,0:00:23.41,0:00:25.95,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k70}Stars {\k22}in {\k23}the {\k29}sky
+Dialogue: 0,0:00:25.09,0:00:31.46,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k42}So {\k46}bril{\k48}liant {\k24}but {\k70}we’ll {\k45}out{\k90}shine {\k53}them {\k24}ev{\k22}en{\k25}tual{\k38}ly
+Dialogue: 0,0:00:30.91,0:00:33.57,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k68}Stars {\k25}in {\k22}your {\k41}eyes
+Dialogue: 0,0:00:32.52,0:00:37.74,La+,,0,0,0,fx,{\k90\fad(300,200)}{\k48}ko{\k46}no {\k48}ma{\kf119}ma {\k25}tsu{\k19}zu{\k21}ku {\k53}you {\k33}ni
+Dialogue: 0,0:00:36.73,0:00:38.85,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ko{\k12}no {\k21}to{\k26}ki {\k28}ga
+Dialogue: 0,0:00:37.69,0:00:38.99,back,,0,0,0,fx,{\k90\fad(300,200)}{\k1}{\k20}Hey
+Dialogue: 0,0:00:38.64,0:00:45.13,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k22}wan{\k23}na {\k49}let {\k47}go{\k45}~{\k25}~ {\k19}we {\k28}can {\k51}glow{\k43}~{\k46}~ {\k24}in {\k23}the {\k71}dark
+Dialogue: 0,0:00:44.26,0:00:47.02,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k23}We’ll {\k20}play {\k27}it {\k48}by {\k48}heart
+Dialogue: 0,0:00:46.17,0:00:51.86,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k19}wa{\k21}ta{\k29}shi {\k47}wa {\k47}wa{\k46}ta{\k23}shi {\k23}da{\k25}ka{\k46}ra{\kf133}~
+Dialogue: 0,0:00:53.39,0:01:01.47,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k49}O{\k43}o{\k49}h {\k47}who{\k48}a {\k46}who{\k93}a {\k49}who{\k46}a{\k48}~ {\kf180}whoa
+Dialogue: 0,0:00:58.79,0:01:01.45,La+,,0,0,0,fx,{\k90\fad(300,200)}{\k47}ko{\k23}ko {\k26}ka{\k21}ra {\k39}saa
+Dialogue: 0,0:01:00.90,0:01:08.99,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k47}o{\k47}o{\k47}h {\k46}who{\k48}a {\k42}who{\k99}a {\kf120}ooh{\kf203}~
+Dialogue: 0,0:01:06.76,0:01:11.12,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k23}We {\k25}glow {\k23}in {\k47}the {\kf208}dark
+Dialogue: 0,0:01:07.94,0:01:11.18,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k71}Rise {\k69}and {\k74}shine
+Dialogue: 0,0:01:10.79,0:01:15.41,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Wide {\k20}a{\k116}wake {\k47}in {\k24}the {\k98}night
+Dialogue: 0,0:01:14.73,0:01:18.69,La+,,0,0,0,fx,{\k90\fad(300,200)}{\k24}wa{\k25}ta{\k20}shi {\k96}to {\k48}a{\k21}na{\k52}ta
+Dialogue: 0,0:01:18.47,0:01:22.36,La+,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ma{\k22}sa{\k24}ni {\k46}yu{\k25}me{\k45}mi{\k25}ta {\k25}mi{\k41}rai
+Dialogue: 0,0:01:21.29,0:01:23.77,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k48}I {\k23}been {\k24}wait{\k37}ing
+Dialogue: 0,0:01:23.41,0:01:26.10,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k70}Stars {\k22}in {\k23}the {\k29}sky
+Dialogue: 0,0:01:25.06,0:01:27.35,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Keep {\k47}sec{\k25}rets {\k0}
+Dialogue: 0,0:01:26.45,0:01:31.43,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k25}They {\k68}know {\k71}our {\k62}for{\k55}tunes {\k25}but {\k25}ne{\k21}ver {\k36}say
+Dialogue: 0,0:01:30.89,0:01:33.43,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k72}Stars {\k24}in {\k22}your {\k26}eyes
+Dialogue: 0,0:01:32.54,0:01:37.69,La+,,0,0,0,fx,{\k90\fad(300,200)}{\k49}te{\k42}ra{\k48}shi{\k95}te {\k19}su{\k30}su{\k24}me{\k23}ru {\k48}you {\k27}ni
+Dialogue: 0,0:01:36.75,0:01:38.86,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ko{\k14}no {\k26}mi{\k22}chi {\k26}wo
+Dialogue: 0,0:01:38.16,0:01:42.49,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k24}A {\k25}world {\k23}of {\k24}fan{\k22}ta{\k47}sy {\k47}cast {\k36}in{\k15}to {\k19}sil{\k23}hou{\k18}ette
+Dialogue: 0,0:01:41.90,0:01:46.53,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k22}see {\k25}it {\k26}per{\k22}fect{\k23}ly {\k24}we’re {\k46}out {\k47}past {\k46}sun{\k47}set
+Dialogue: 0,0:01:45.67,0:01:50.22,La+,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k25}ki{\k26}ta{\k24}i {\k21}ba{\k21}sho {\k13}hi{\k14}to{\k48}ri {\k47}ja {\k21}too{\k26}ku{\k39}te
+Dialogue: 0,0:01:49.42,0:01:51.93,La+,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ki{\k10}mi {\k20}wo {\k23}mat{\k23}te{\k47}ta
+Dialogue: 0,0:01:51.29,0:01:53.74,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Yeah {\k23}I {\k25}been {\k23}wait{\k41}ing
+Dialogue: 0,0:01:52.70,0:01:54.03,back,,0,0,0,fx,{\k90\fad(300,200)}{\k1}{\k22}Hey
+Dialogue: 0,0:01:53.61,0:02:00.33,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k22}wan{\k23}na {\k49}let {\k47}go{\k46}~{\k26}~ {\k21}we {\k24}can {\k48}glow{\k46}~{\k46}~ {\k24}in {\k23}the {\k91}dark
+Dialogue: 0,0:01:59.27,0:02:01.99,La+,,0,0,0,fx,{\k90\fad(300,200)}{\k24}mu{\k23}ne {\k24}no {\k44}na{\k47}ka
+Dialogue: 0,0:02:01.15,0:02:06.86,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k19}We {\k25}al{\k26}rea{\k48}dy {\k45}know{\k45}~{\k27}~ {\k21}who {\k25}we {\k49}are{\kf131}~
+Dialogue: 0,0:02:08.39,0:02:16.48,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k49}O{\k43}o{\k49}h {\k47}who{\k48}a {\k46}who{\k93}a {\k49}who{\k46}a{\k48}~ {\kf180}whoa
+Dialogue: 0,0:02:13.78,0:02:16.44,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k24}To{\k25}night {\k22}will {\k24}be {\k24}the {\k37}start
+Dialogue: 0,0:02:15.88,0:02:23.52,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k47}o{\k47}o{\k47}h {\k46}who{\k48}a {\k42}who{\k99}a {\kf120}ooh{\kf203}~
+Dialogue: 0,0:02:21.75,0:02:25.94,La+,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ho{\k23}shi {\k24}ni {\k46}nat{\kf190}te
+Dialogue: 0,0:02:22.70,0:02:24.05,back,,0,0,0,fx,{\k90\fad(300,200)}{\k1}{\k25}Hey
+Dialogue: 0,0:02:23.39,0:02:31.40,Groupe,,0,0,0,fx,{\k90\fad(300,200)}{\k49}O{\k43}o{\k49}h {\k47}who{\k48}a {\k46}who{\k93}a {\k49}who{\k46}a{\k48}~ {\kf180}whoa
+Dialogue: 0,0:02:31.13,0:02:36.25,La+,,0,0,0,fx,{\k90\fad(300,200)}{\k24}wa{\k25}ta{\k21}shi {\k49}wa {\k45}wa{\k48}ta{\k24}shi {\k21}da{\k26}ka{\k47}ra{\kf72}~
+Dialogue: 0,0:02:36.76,0:02:40.97,Kiara,,0,0,0,fx,{\k90\fad(300,200)}{\k23}We {\k25}glow {\k23}in {\k47}the {\kf193}dark
