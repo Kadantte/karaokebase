@@ -9,17 +9,17 @@ Original Timing: Nemesise
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Ripple,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
-Style: Zeal,Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
-Style: Meteor,Arial,24,&H00FFFFFF,&H0000AEE7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
-Style: All,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
-Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
-Style: Legend,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+Style: Ripple,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,10,1
+Style: Zeal,Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,10,1
+Style: Meteor,Arial,24,&H00FFFFFF,&H0000AEE7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,10,1
+Style: All,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,10,1
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,70,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:00.00,0:00:10.00,Legend,,0,0,0,karaoke,{\k1000}{\k0}ORCHERIA {\2cHFFFFFF}| {\rRipple}Ripple {\2cHFFFFFF}| {\rZeal}Zeal {\2cHFFFFFF}| {\rMeteor}Meteor
+Comment: 0,0:00:00.00,0:00:00.00,All,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:15.00,All,,160,0,80,legend,{\k1500}{\k0}{\rRipple}Ripple  {\rZeal}Zeal  {\rMeteor}Meteor
+Dialogue: 0,0:00:00.00,0:00:15.00,All,,160,0,80,legend,{\k1500}{\k0}ORCHERIA
 Comment: 0,0:00:11.99,0:00:17.21,Ripple,,0,0,0,karaoke,{\k36}go{\k28}se{\k27}n{\k39}fu {\k18}ni {\k36}e{\k21}ga{\k35}i{\k54}ta {\k36}yu{\k19}me{\k35}ta{\k38}chi {\kf100}ga
 Comment: 0,0:00:17.80,0:00:23.36,Zeal,,0,0,0,karaoke,{\k42}ku{\k19}mo{\k36}ri {\k34}na{\k112}ki {\k19}shi{\k18}ra{\k18}be {\k55}wo {\k18}tsu{\k36}mu{\k37}i{\k54}de {\k18}yu{\k40}ku
 Comment: 0,0:00:23.71,0:00:29.11,Meteor,,0,0,0,karaoke,{\k34}a{\k22}fu{\k37}re{\k32}da{\k20}su {\k38}chi{\k20}ka{\k36}ra {\k54}wa {\k33}a{\k23}tsu{\k35}i {\k36}ma{\kf120}ma
@@ -71,7 +71,6 @@ Comment: 0,0:03:39.78,0:03:44.90,All,,0,0,0,karaoke,{\k76}ki{\k37}bo{\k37}u {\k7
 Comment: 0,0:03:46.38,0:03:50.40,All,,0,0,0,karaoke,{\k38}WE'LL {\k37}NE{\k68}VER {\k32}LOSE {\k26}OU{\k20}R {\kf181}WAY
 Comment: 0,0:03:50.95,0:03:53.05,All,,0,0,0,karaoke,{\k19}SING {\k16}A {\k38}SOUL! {\k18}SING {\k18}A {\k37}SOUL! {\k20}SING {\k16}A {\k28}SOUL!
 Comment: 0,0:03:53.17,0:03:54.44,All,,0,0,0,karaoke,{\k34}PRIN{\k38}CESS, {\k17}WE {\k38}ARE!!!
-Dialogue: 0,0:00:00.00,0:00:10.20,Legend,,0,0,0,fx,{\k0\fad(0,200)}{\k1000}{\k0}ORCHERIA {\2cHFFFFFF}| {\rRipple}Ripple {\2cHFFFFFF}| {\rZeal}Zeal {\2cHFFFFFF}| {\rMeteor}Meteor
 Dialogue: 0,0:00:11.09,0:00:17.41,Ripple,,0,0,0,fx,{\k90\fad(300,200)}{\k36}go{\k28}se{\k27}n{\k39}fu {\k18}ni {\k36}e{\k21}ga{\k35}i{\k54}ta {\k36}yu{\k19}me{\k35}ta{\k38}chi {\kf100}ga
 Dialogue: 0,0:00:16.90,0:00:23.56,Zeal,,0,0,0,fx,{\k90\fad(300,200)}{\k42}ku{\k19}mo{\k36}ri {\k34}na{\k112}ki {\k19}shi{\k18}ra{\k18}be {\k55}wo {\k18}tsu{\k36}mu{\k37}i{\k54}de {\k18}yu{\k40}ku
 Dialogue: 0,0:00:22.81,0:00:29.31,Meteor,,0,0,0,fx,{\k90\fad(300,200)}{\k34}a{\k22}fu{\k37}re{\k32}da{\k20}su {\k38}chi{\k20}ka{\k36}ra {\k54}wa {\k33}a{\k23}tsu{\k35}i {\k36}ma{\kf120}ma
