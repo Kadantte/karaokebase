@@ -1,0 +1,104 @@
+﻿[Script Info]
+Title: Gravity
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.23,0:00:04.25,Sample KM [Choir],,0,0,0,karaoke,{\k41}Sanc{\k61}tus
+Comment: 0,0:00:03.81,0:00:06.37,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}Does {\k25}no {\k18}one {\k76}know {\k18}who {\k21}they're {\k21}dea{\k18}lin' {\k40}with
+Comment: 0,0:00:06.75,0:00:09.64,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}Think {\k17}I'll {\k20}let {\k21}it {\k72}go {\k25}for{\k19}get {\k19}and {\k23}for{\k53}give
+Comment: 0,0:00:09.44,0:00:10.43,Sample KM [Choir],,0,0,0,karaoke,{\k29}Do{\k23}mi{\k47}nus
+Comment: 0,0:00:10.05,0:00:12.62,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}The {\k19}rage {\k17}in {\k101}me {\k17}is {\k21}ter{\k20}mi{\k42}nal
+Comment: 0,0:00:10.95,0:00:13.00,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k152}Yeah {\k53}yeah
+Comment: 0,0:00:13.00,0:00:15.72,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}There's {\k20}no {\k21}re{\k20}me{\k75}dy {\k15}but {\k24}to {\k22}burn {\k17}'em {\k40}all
+Comment: 0,0:00:14.06,0:00:15.72,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k87}Yeah {\k22}burn {\k17}them {\k40}all
+Comment: 0,0:00:15.92,0:00:18.65,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}I {\k23}still {\k10}got {\k9}a {\k19}job {\k13}to {\k22}do {\k25}my {\k12}mis{\k13}sion's {\k26}in{\k21}com{\k66}plete
+Comment: 0,0:00:18.97,0:00:21.86,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k27}On{\k12}ly {\k14}a {\k26}trai{\k18}tor {\k18}could {\k17}con{\k16}si{\k20}der {\k24}ma{\k25}king {\k72}peace
+Comment: 0,0:00:22.11,0:00:23.50,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k20}The {\k19}prin{\k21}cess {\k20}has {\k19}to {\k40}pay
+Comment: 0,0:00:23.68,0:00:25.04,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k19}For {\k16}what {\k23}she {\k19}did {\k21}that {\k38}day
+Comment: 0,0:00:25.24,0:00:27.84,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}For {\k16}what {\k20}she {\k23}took {\k19}a{\kf162}way
+Comment: 0,0:00:28.07,0:00:31.04,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k85}Storm's {\k24}co{\k56}min' {\k18}I {\k18}can {\k22}see {\k17}the {\k57}clouds
+Comment: 0,0:00:31.29,0:00:34.37,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k75}No {\k23}run{\k21}ning's {\k15}gon{\k17}na {\k44}save {\k37}you {\k47}now {\k29}and
+Comment: 0,0:00:34.37,0:00:37.08,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k82}Hard {\k57}rain {\k20}is {\k19}gon{\k18}na {\k38}fall {\k37}down
+Comment: 0,0:00:37.09,0:00:40.50,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k36}Like {\k30}gra{\k19}vi{\k70}ty {\k30}like {\k34}gra{\k19}vi{\kf103}ty
+Comment: 0,0:00:40.50,0:00:43.45,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k38}Eye {\k28}for {\k22}an {\k32}eye {\k30}says {\k20}you {\k29}owe {\k27}me {\k22}a {\k47}debt
+Comment: 0,0:00:43.70,0:00:46.47,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k33}Blood {\k24}de{\k23}mands {\k31}blood {\k29}gon{\k21}na {\k23}get {\k27}my {\k27}hands {\k39}wet
+Comment: 0,0:00:46.47,0:00:48.58,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k32}The {\k83}floods {\k59}come {\k16}and {\k21}now
+Comment: 0,0:00:48.59,0:00:53.09,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k21}You {\k40}can {\k42}bet {\k28}on {\k30}tra{\k20}ge{\k72}dy {\k32}like {\k30}gra{\k21}vi{\kf114}ty
+Comment: 0,0:00:53.49,0:00:56.21,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k35}You {\k40}think {\k35}you're {\k45}Hell's {\k37}great {\k39}sa{\k41}vior
+Comment: 0,0:00:56.44,0:00:59.41,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k30}Will {\k25}you {\k37}still {\k19}when {\k23}I {\k26}re{\k30}turn {\k19}the {\k41}fa{\k47}vor
+Comment: 0,0:00:59.68,0:01:01.00,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}Take {\k19}the {\k19}one {\k20}you {\k51}need
+Comment: 0,0:01:01.25,0:01:02.62,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}Make {\k20}you {\k18}watch {\k25}'em {\k55}bleed
+Comment: 0,0:01:02.80,0:01:03.96,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}Will {\k20}you {\k37}break {\k22}thin{\k14}kin'
+Comment: 0,0:01:03.96,0:01:05.58,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}How {\k17}you {\k19}coul{\k19}dn't {\k41}save {\k41}her
+Comment: 0,0:01:05.58,0:01:08.29,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}Wi{\k18}shin' {\k20}you {\k25}were {\k41}there {\k15}when {\k21}they {\k61}nee{\k18}ded {\k38}you
+Comment: 0,0:01:08.49,0:01:11.72,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}The {\k17}on{\k16}ly {\k23}soul {\k17}who's {\k19}e{\k20}ver {\k31}com{\k67}ple{\k22}ted {\k68}you
+Comment: 0,0:01:11.79,0:01:14.53,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}May{\k20}be {\k17}then {\k24}you'll {\k18}get {\k15}a {\k19}lit{\k20}tle {\k60}hea{\k19}ted {\k42}too
+Comment: 0,0:01:14.72,0:01:17.98,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}And {\k17}un{\k20}der{\k21}stand {\k20}why {\k14}this {\k24}is {\k19}what {\k18}I {\k41}need {\k41}to {\k72}do
+Comment: 0,0:01:17.98,0:01:21.19,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k83}Storm's {\k23}co{\k55}min' {\k19}I {\k15}can {\k20}see {\k17}the {\k89}clouds
+Comment: 0,0:01:20.72,0:01:22.38,Sample KM [Choir],,0,0,0,karaoke,{\k44}Sanc{\k40}tus {\k20}do{\k22}mi{\k40}nus
+Comment: 0,0:01:22.32,0:01:25.04,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k37}No {\k23}run{\k20}ning's {\k16}gon{\k15}na {\k41}save {\k44}you {\k38}now {\k38}and
+Comment: 0,0:01:25.04,0:01:27.77,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k79}Hard {\k56}rain {\k21}is {\k18}gon{\k21}na {\k36}fall {\k42}down
+Comment: 0,0:01:27.77,0:01:31.11,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k29}Like {\k32}gra{\k19}vi{\k71}ty {\k32}like {\k32}gra{\k19}vi{\kf100}ty
+Comment: 0,0:01:31.27,0:01:33.96,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k30}Eye {\k26}for {\k24}an {\k29}eye {\k27}says {\k22}you {\k27}owe {\k26}me {\k24}a {\k34}debt
+Comment: 0,0:01:32.62,0:01:34.61,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22}You {\k27}owe {\k26}me {\k24}a {\k36}debt {\k64}yeah
+Comment: 0,0:01:34.34,0:01:37.10,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k30}Blood {\k27}de{\k26}mands {\k31}blood {\k27}gon{\k21}na {\k20}get {\k30}my {\k28}hands {\k36}wet
+Comment: 0,0:01:35.95,0:01:37.10,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k20}Get {\k30}your {\k28}hands {\k36}wet
+Comment: 0,0:01:37.10,0:01:39.26,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k33}The {\k86}floods {\k56}come {\k21}and {\k20}now
+Comment: 0,0:01:39.26,0:01:44.16,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k19}You {\k39}can {\k43}bet {\k25}on {\k32}tra{\k24}ge{\k71}dy {\k30}like {\k30}gra{\k20}vi{\kf157}ty
+Dialogue: 0,0:00:02.33,0:00:04.45,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Sanc{\k61}tus
+Dialogue: 0,0:00:02.91,0:00:06.57,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Does {\k25}no {\k18}one {\k76}know {\k18}who {\k21}they're {\k21}dea{\k18}lin' {\k40}with
+Dialogue: 0,0:00:05.85,0:00:09.84,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Think {\k17}I'll {\k20}let {\k21}it {\k72}go {\k25}for{\k19}get {\k19}and {\k23}for{\k53}give
+Dialogue: 0,0:00:08.54,0:00:10.63,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Do{\k23}mi{\k47}nus
+Dialogue: 0,0:00:09.15,0:00:12.82,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}The {\k19}rage {\k17}in {\k101}me {\k17}is {\k21}ter{\k20}mi{\k42}nal
+Dialogue: 0,0:00:10.05,0:00:13.20,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k152}Yeah {\k53}yeah
+Dialogue: 0,0:00:12.10,0:00:15.92,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}There's {\k20}no {\k21}re{\k20}me{\k75}dy {\k15}but {\k24}to {\k22}burn {\k17}'em {\k40}all
+Dialogue: 0,0:00:13.16,0:00:15.92,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k87}Yeah {\k22}burn {\k17}them {\k40}all
+Dialogue: 0,0:00:15.02,0:00:18.85,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k14}I {\k23}still {\k10}got {\k9}a {\k19}job {\k13}to {\k22}do {\k25}my {\k12}mis{\k13}sion's {\k26}in{\k21}com{\k66}plete
+Dialogue: 0,0:00:18.07,0:00:22.06,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k27}On{\k12}ly {\k14}a {\k26}trai{\k18}tor {\k18}could {\k17}con{\k16}si{\k20}der {\k24}ma{\k25}king {\k72}peace
+Dialogue: 0,0:00:21.21,0:00:23.70,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}The {\k19}prin{\k21}cess {\k20}has {\k19}to {\k40}pay
+Dialogue: 0,0:00:22.78,0:00:25.24,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k19}For {\k16}what {\k23}she {\k19}did {\k21}that {\k38}day
+Dialogue: 0,0:00:24.34,0:00:28.04,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}For {\k16}what {\k20}she {\k23}took {\k19}a{\kf162}way
+Dialogue: 0,0:00:27.17,0:00:31.24,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k85}Storm's {\k24}co{\k56}min' {\k18}I {\k18}can {\k22}see {\k17}the {\k57}clouds
+Dialogue: 0,0:00:30.39,0:00:34.57,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k75}No {\k23}run{\k21}ning's {\k15}gon{\k17}na {\k44}save {\k37}you {\k47}now {\k29}and
+Dialogue: 0,0:00:33.47,0:00:37.28,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k82}Hard {\k57}rain {\k20}is {\k19}gon{\k18}na {\k38}fall {\k37}down
+Dialogue: 0,0:00:36.19,0:00:40.70,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Like {\k30}gra{\k19}vi{\k70}ty {\k30}like {\k34}gra{\k19}vi{\kf103}ty
+Dialogue: 0,0:00:39.60,0:00:43.65,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Eye {\k28}for {\k22}an {\k32}eye {\k30}says {\k20}you {\k29}owe {\k27}me {\k22}a {\k47}debt
+Dialogue: 0,0:00:42.80,0:00:46.67,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Blood {\k24}de{\k23}mands {\k31}blood {\k29}gon{\k21}na {\k23}get {\k27}my {\k27}hands {\k39}wet
+Dialogue: 0,0:00:45.57,0:00:48.78,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k32}The {\k83}floods {\k59}come {\k16}and {\k21}now
+Dialogue: 0,0:00:47.69,0:00:53.29,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k21}You {\k40}can {\k42}bet {\k28}on {\k30}tra{\k20}ge{\k72}dy {\k32}like {\k30}gra{\k21}vi{\kf114}ty
+Dialogue: 0,0:00:52.59,0:00:56.41,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k35}You {\k40}think {\k35}you're {\k45}Hell's {\k37}great {\k39}sa{\k41}vior
+Dialogue: 0,0:00:55.54,0:00:59.61,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Will {\k25}you {\k37}still {\k19}when {\k23}I {\k26}re{\k30}turn {\k19}the {\k41}fa{\k47}vor
+Dialogue: 0,0:00:58.78,0:01:01.20,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Take {\k19}the {\k19}one {\k20}you {\k51}need
+Dialogue: 0,0:01:00.35,0:01:02.82,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Make {\k20}you {\k18}watch {\k25}'em {\k55}bleed
+Dialogue: 0,0:01:01.90,0:01:04.16,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Will {\k20}you {\k37}break {\k22}thin{\k14}kin'
+Dialogue: 0,0:01:03.06,0:01:05.78,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k25}How {\k17}you {\k19}coul{\k19}dn't {\k41}save {\k41}her
+Dialogue: 0,0:01:04.68,0:01:08.49,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Wi{\k18}shin' {\k20}you {\k25}were {\k41}there {\k15}when {\k21}they {\k61}nee{\k18}ded {\k38}you
+Dialogue: 0,0:01:07.59,0:01:11.92,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}The {\k17}on{\k16}ly {\k23}soul {\k17}who's {\k19}e{\k20}ver {\k31}com{\k67}ple{\k22}ted {\k68}you
+Dialogue: 0,0:01:10.89,0:01:14.73,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}May{\k20}be {\k17}then {\k24}you'll {\k18}get {\k15}a {\k19}lit{\k20}tle {\k60}hea{\k19}ted {\k42}too
+Dialogue: 0,0:01:13.82,0:01:18.18,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}And {\k17}un{\k20}der{\k21}stand {\k20}why {\k14}this {\k24}is {\k19}what {\k18}I {\k41}need {\k41}to {\k72}do
+Dialogue: 0,0:01:17.08,0:01:21.39,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k83}Storm's {\k23}co{\k55}min' {\k19}I {\k15}can {\k20}see {\k17}the {\k89}clouds
+Dialogue: 0,0:01:19.82,0:01:22.58,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Sanc{\k40}tus {\k20}do{\k22}mi{\k40}nus
+Dialogue: 0,0:01:21.42,0:01:25.24,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k37}No {\k23}run{\k20}ning's {\k16}gon{\k15}na {\k41}save {\k44}you {\k38}now {\k38}and
+Dialogue: 0,0:01:24.14,0:01:27.97,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k79}Hard {\k56}rain {\k21}is {\k18}gon{\k21}na {\k36}fall {\k42}down
+Dialogue: 0,0:01:26.87,0:01:31.31,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Like {\k32}gra{\k19}vi{\k71}ty {\k32}like {\k32}gra{\k19}vi{\kf100}ty
+Dialogue: 0,0:01:30.37,0:01:34.16,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Eye {\k26}for {\k24}an {\k29}eye {\k27}says {\k22}you {\k27}owe {\k26}me {\k24}a {\k34}debt
+Dialogue: 0,0:01:31.72,0:01:34.81,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}You {\k27}owe {\k26}me {\k24}a {\k36}debt {\k64}yeah
+Dialogue: 0,0:01:33.44,0:01:37.30,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Blood {\k27}de{\k26}mands {\k31}blood {\k27}gon{\k21}na {\k20}get {\k30}my {\k28}hands {\k36}wet
+Dialogue: 0,0:01:35.05,0:01:37.30,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Get {\k30}your {\k28}hands {\k36}wet
+Dialogue: 0,0:01:36.20,0:01:39.46,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k33}The {\k86}floods {\k56}come {\k21}and {\k20}now
+Dialogue: 0,0:01:38.36,0:01:44.36,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k19}You {\k39}can {\k43}bet {\k25}on {\k32}tra{\k24}ge{\k71}dy {\k30}like {\k30}gra{\k20}vi{\kf157}ty
