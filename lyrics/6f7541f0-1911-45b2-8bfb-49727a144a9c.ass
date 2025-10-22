@@ -1,0 +1,98 @@
+﻿[Script Info]
+Title: Gravity
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.20,0:00:04.22,Sample KM [Choir],,0,0,0,karaoke,{\k41}Sanc{\k61}tus
+Comment: 0,0:00:03.78,0:00:06.34,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}Ils {\k21}i{\k22}gnorent {\k58}tous {\k21}ce {\k21}dont {\k15}je {\k19}suis {\k19}ca{\k42}pable
+Comment: 0,0:00:06.67,0:00:09.61,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}Je {\k26}n'se{\k20}rai {\k22}pas {\k72}douce {\k21}face {\k18}à {\k26}ces {\k18}mi{\k35}na{\k19}bles
+Comment: 0,0:00:09.41,0:00:10.40,Sample KM [Choir],,0,0,0,karaoke,{\k30}Do{\k22}mi{\k47}nus
+Comment: 0,0:00:10.02,0:00:12.56,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}Cette {\k20}rage {\k20}en {\k95}moi {\k19}qui {\k22}me {\k19}dé{\k38}vore
+Comment: 0,0:00:11.01,0:00:13.26,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k154}Ouais ? {\k71}Ouais ?
+Comment: 0,0:00:12.77,0:00:15.79,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}Non {\k23}je {\k21}n'ai {\k21}pas {\k15}le {\k81}choix {\k18}ils {\k20}mé{\k15}ritent {\k26}la {\k48}mort
+Comment: 0,0:00:14.09,0:00:15.79,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k96}Ouais ? {\k26}La {\k48}mort
+Comment: 0,0:00:15.84,0:00:18.62,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k24}Res{\k18}tons {\k18}con{\k17}cen{\k11}trés {\k21}j'ai {\k25}une {\k14}mis{\k23}sion {\k27}à {\k15}fi{\k65}nir
+Comment: 0,0:00:18.94,0:00:21.83,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}Si {\k26}je {\k15}fai{\k17}sais {\k16}la {\k26}paix {\k18}ce {\k22}se{\k14}rait {\k21}vous {\k29}tra{\k65}hir
+Comment: 0,0:00:22.08,0:00:25.16,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k19}La {\k19}prin{\k25}cesse {\k17}va {\k23}pa{\k58}yer {\k19}pour {\k16}tout {\k18}ce {\k23}qu'elle {\k20}a {\k51}fait
+Comment: 0,0:00:25.21,0:00:27.81,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}Ce {\k24}qu'elle {\k19}m'a {\k21}en{\k20}le{\kf160}vé
+Comment: 0,0:00:28.09,0:00:30.92,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k81}Sens {\k22}l'o{\k44}rage {\k13}se {\k21}dé{\k19}chaî{\k22}ner {\k19}au {\k42}loin
+Comment: 0,0:00:31.26,0:00:34.02,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k74}Non {\k22}je {\k19}n're{\k25}cule{\k18}rai {\k36}de{\k38}vant {\k44}rien
+Comment: 0,0:00:34.03,0:00:37.08,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k36}Le {\k76}ton{\k61}nerre {\k20}cou{\k19}vri{\k19}ra {\k32}tes {\k42}cris
+Comment: 0,0:00:37.16,0:00:40.57,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k28}Quelle {\k26}tra{\k23}gé{\k72}die {\k35}je {\k25}te {\k19}dé{\kf113}truis
+Comment: 0,0:00:40.58,0:00:43.51,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k32}Je {\k26}n'laisse{\k18}rai {\k31}per{\k30}sonne {\k18}ef{\k30}fa{\k29}cer {\k22}ta {\k57}dette
+Comment: 0,0:00:43.67,0:00:46.47,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k37}Je {\k25}fe{\k21}rai {\k28}cou{\k26}ler {\k24}le {\k25}sang {\k25}je {\k29}suis {\k40}prête
+Comment: 0,0:00:46.47,0:00:49.53,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k35}Tu {\k79}vas {\k60}cre{\k19}ver {\k20}dans {\k20}la {\k38}tem{\k35}pête
+Comment: 0,0:00:49.56,0:00:53.18,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k38}Per{\k23}dre {\k23}la {\k71}vie {\k37}je {\k23}te {\k20}dé{\kf127}truis
+Comment: 0,0:00:53.46,0:00:56.24,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k40}Tu {\k39}es{\k32}pères {\k47}sau{\k34}ver {\k46}l'En{\k40}fer
+Comment: 0,0:00:56.48,0:00:59.38,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}Mais {\k28}tu {\k21}n'é{\k29}chappe{\k30}ras {\k25}pas {\k29}à {\k22}ma {\k38}co{\k48}lère
+Comment: 0,0:00:59.62,0:01:02.57,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k30}Tu {\k19}vas {\k18}re{\k23}gar{\k56}der {\k19}celle {\k17}que {\k21}tu {\k24}aimes {\k23}sai{\k45}gner
+Comment: 0,0:01:02.84,0:01:05.64,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}Et {\k18}tu {\k21}se{\k21}ras {\k19}bri{\k20}sée {\k17}de {\k19}n'a{\k16}voir {\k24}rien {\k38}pu {\k50}faire
+Comment: 0,0:01:05.76,0:01:08.48,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}De {\k21}n'a{\k21}voir {\k34}pas {\k41}su {\k57}pro{\k19}té{\k63}ger
+Comment: 0,0:01:08.48,0:01:11.55,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}Le {\k21}seul {\k16}ê{\k21}tre {\k16}qui {\k23}sa{\k19}vait {\k39}te {\k56}com{\k23}plé{\k54}ter
+Comment: 0,0:01:11.76,0:01:14.50,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}Puis {\k17}tu {\k22}com{\k20}mence{\k21}ras {\k17}peut-{\k39}être {\k58}à {\k21}brû{\k39}ler
+Comment: 0,0:01:14.66,0:01:17.84,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}Et {\k20}tu {\k17}com{\k22}pren{\k21}dras {\k19}pour{\k21}quoi {\k18}je {\k20}me {\k43}suis {\k39}ven{\k62}gée
+Comment: 0,0:01:18.06,0:01:20.89,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k73}Sens {\k25}l'o{\k36}rage {\k18}se {\k16}dé{\k24}chaî{\k19}ner {\k18}au {\k54}loin
+Comment: 0,0:01:20.69,0:01:22.35,Sample KM [Choir],,0,0,0,karaoke,{\k47}Sanc{\k37}tus {\k24}do{\k20}mi{\k38}nus
+Comment: 0,0:01:22.29,0:01:24.64,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k38}Non {\k20}je {\k20}n're{\k19}cule{\k20}rai {\k34}de{\k40}vant {\k44}rien
+Comment: 0,0:01:24.64,0:01:27.72,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k40}Le {\k76}ton{\k57}nerre {\k22}cou{\k18}vri{\k18}ra {\k32}tes {\k45}cris
+Comment: 0,0:01:27.77,0:01:31.20,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k28}Quelle {\k26}tra{\k23}gé{\k72}die {\k35}je {\k25}te {\k19}dé{\kf115}truis
+Comment: 0,0:01:31.24,0:01:33.93,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k28}Je {\k25}n'laisse{\k28}rai {\k25}per{\k21}sonne {\k21}ef{\k30}fa{\k27}cer {\k24}ta {\k40}dette
+Comment: 0,0:01:32.51,0:01:34.36,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k21}Ef{\k30}fa{\k27}cer {\k24}ta {\k39}dette {\k44}ouais
+Comment: 0,0:01:34.36,0:01:37.07,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k34}Je {\k27}fe{\k19}rai {\k28}cou{\k25}ler {\k21}le {\k28}sang {\k27}je {\k26}suis {\k36}prête
+Comment: 0,0:01:36.17,0:01:37.07,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k27}Je {\k26}suis {\k37}prêt
+Comment: 0,0:01:37.09,0:01:40.20,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k38}Tu {\k78}vas {\k59}cre{\k22}ver {\k20}dans {\k18}la {\k36}tem{\k40}pête
+Comment: 0,0:01:40.23,0:01:44.13,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k31}Per{\k26}dre {\k21}la {\k71}vie {\k41}je {\k21}te {\k22}dé{\kf157}truis
+Dialogue: 0,0:00:02.30,0:00:04.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Sanc{\k61}tus
+Dialogue: 0,0:00:02.88,0:00:06.54,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ils {\k21}i{\k22}gnorent {\k58}tous {\k21}ce {\k21}dont {\k15}je {\k19}suis {\k19}ca{\k42}pable
+Dialogue: 0,0:00:05.77,0:00:09.81,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Je {\k26}n'se{\k20}rai {\k22}pas {\k72}douce {\k21}face {\k18}à {\k26}ces {\k18}mi{\k35}na{\k19}bles
+Dialogue: 0,0:00:08.51,0:00:10.60,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Do{\k22}mi{\k47}nus
+Dialogue: 0,0:00:09.12,0:00:12.76,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Cette {\k20}rage {\k20}en {\k95}moi {\k19}qui {\k22}me {\k19}dé{\k38}vore
+Dialogue: 0,0:00:10.11,0:00:13.46,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k154}Ouais ? {\k71}Ouais ?
+Dialogue: 0,0:00:11.87,0:00:15.99,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Non {\k23}je {\k21}n'ai {\k21}pas {\k15}le {\k81}choix {\k18}ils {\k20}mé{\k15}ritent {\k26}la {\k48}mort
+Dialogue: 0,0:00:13.19,0:00:15.99,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k96}Ouais ? {\k26}La {\k48}mort
+Dialogue: 0,0:00:14.94,0:00:18.82,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Res{\k18}tons {\k18}con{\k17}cen{\k11}trés {\k21}j'ai {\k25}une {\k14}mis{\k23}sion {\k27}à {\k15}fi{\k65}nir
+Dialogue: 0,0:00:18.04,0:00:22.03,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Si {\k26}je {\k15}fai{\k17}sais {\k16}la {\k26}paix {\k18}ce {\k22}se{\k14}rait {\k21}vous {\k29}tra{\k65}hir
+Dialogue: 0,0:00:21.18,0:00:25.36,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k19}La {\k19}prin{\k25}cesse {\k17}va {\k23}pa{\k58}yer {\k19}pour {\k16}tout {\k18}ce {\k23}qu'elle {\k20}a {\k51}fait
+Dialogue: 0,0:00:24.31,0:00:28.01,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ce {\k24}qu'elle {\k19}m'a {\k21}en{\k20}le{\kf160}vé
+Dialogue: 0,0:00:27.19,0:00:31.12,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k81}Sens {\k22}l'o{\k44}rage {\k13}se {\k21}dé{\k19}chaî{\k22}ner {\k19}au {\k42}loin
+Dialogue: 0,0:00:30.36,0:00:34.22,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k74}Non {\k22}je {\k19}n're{\k25}cule{\k18}rai {\k36}de{\k38}vant {\k44}rien
+Dialogue: 0,0:00:33.13,0:00:37.28,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Le {\k76}ton{\k61}nerre {\k20}cou{\k19}vri{\k19}ra {\k32}tes {\k42}cris
+Dialogue: 0,0:00:36.26,0:00:40.77,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Quelle {\k26}tra{\k23}gé{\k72}die {\k35}je {\k25}te {\k19}dé{\kf113}truis
+Dialogue: 0,0:00:39.68,0:00:43.71,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Je {\k26}n'laisse{\k18}rai {\k31}per{\k30}sonne {\k18}ef{\k30}fa{\k29}cer {\k22}ta {\k57}dette
+Dialogue: 0,0:00:42.77,0:00:46.67,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Je {\k25}fe{\k21}rai {\k28}cou{\k26}ler {\k24}le {\k25}sang {\k25}je {\k29}suis {\k40}prête
+Dialogue: 0,0:00:45.57,0:00:49.73,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Tu {\k79}vas {\k60}cre{\k19}ver {\k20}dans {\k20}la {\k38}tem{\k35}pête
+Dialogue: 0,0:00:48.66,0:00:53.38,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Per{\k23}dre {\k23}la {\k71}vie {\k37}je {\k23}te {\k20}dé{\kf127}truis
+Dialogue: 0,0:00:52.56,0:00:56.44,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Tu {\k39}es{\k32}pères {\k47}sau{\k34}ver {\k46}l'En{\k40}fer
+Dialogue: 0,0:00:55.58,0:00:59.58,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Mais {\k28}tu {\k21}n'é{\k29}chappe{\k30}ras {\k25}pas {\k29}à {\k22}ma {\k38}co{\k48}lère
+Dialogue: 0,0:00:58.72,0:01:02.77,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Tu {\k19}vas {\k18}re{\k23}gar{\k56}der {\k19}celle {\k17}que {\k21}tu {\k24}aimes {\k23}sai{\k45}gner
+Dialogue: 0,0:01:01.94,0:01:05.84,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Et {\k18}tu {\k21}se{\k21}ras {\k19}bri{\k20}sée {\k17}de {\k19}n'a{\k16}voir {\k24}rien {\k38}pu {\k50}faire
+Dialogue: 0,0:01:04.86,0:01:08.68,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k16}De {\k21}n'a{\k21}voir {\k34}pas {\k41}su {\k57}pro{\k19}té{\k63}ger
+Dialogue: 0,0:01:07.58,0:01:11.75,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Le {\k21}seul {\k16}ê{\k21}tre {\k16}qui {\k23}sa{\k19}vait {\k39}te {\k56}com{\k23}plé{\k54}ter
+Dialogue: 0,0:01:10.86,0:01:14.70,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Puis {\k17}tu {\k22}com{\k20}mence{\k21}ras {\k17}peut-{\k39}être {\k58}à {\k21}brû{\k39}ler
+Dialogue: 0,0:01:13.76,0:01:18.04,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Et {\k20}tu {\k17}com{\k22}pren{\k21}dras {\k19}pour{\k21}quoi {\k18}je {\k20}me {\k43}suis {\k39}ven{\k62}gée
+Dialogue: 0,0:01:17.16,0:01:21.09,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k73}Sens {\k25}l'o{\k36}rage {\k18}se {\k16}dé{\k24}chaî{\k19}ner {\k18}au {\k54}loin
+Dialogue: 0,0:01:19.79,0:01:22.55,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Sanc{\k37}tus {\k24}do{\k20}mi{\k38}nus
+Dialogue: 0,0:01:21.39,0:01:24.84,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Non {\k20}je {\k20}n're{\k19}cule{\k20}rai {\k34}de{\k40}vant {\k44}rien
+Dialogue: 0,0:01:23.74,0:01:27.92,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Le {\k76}ton{\k57}nerre {\k22}cou{\k18}vri{\k18}ra {\k32}tes {\k45}cris
+Dialogue: 0,0:01:26.87,0:01:31.40,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Quelle {\k26}tra{\k23}gé{\k72}die {\k35}je {\k25}te {\k19}dé{\kf115}truis
+Dialogue: 0,0:01:30.34,0:01:34.13,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Je {\k25}n'laisse{\k28}rai {\k25}per{\k21}sonne {\k21}ef{\k30}fa{\k27}cer {\k24}ta {\k40}dette
+Dialogue: 0,0:01:31.61,0:01:34.56,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ef{\k30}fa{\k27}cer {\k24}ta {\k39}dette {\k44}ouais
+Dialogue: 0,0:01:33.46,0:01:37.27,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Je {\k27}fe{\k19}rai {\k28}cou{\k25}ler {\k21}le {\k28}sang {\k27}je {\k26}suis {\k36}prête
+Dialogue: 0,0:01:35.27,0:01:37.27,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Je {\k26}suis {\k37}prêt
+Dialogue: 0,0:01:36.19,0:01:40.40,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Tu {\k78}vas {\k59}cre{\k22}ver {\k20}dans {\k18}la {\k36}tem{\k40}pête
+Dialogue: 0,0:01:39.33,0:01:44.33,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Per{\k26}dre {\k21}la {\k71}vie {\k41}je {\k21}te {\k22}dé{\kf157}truis
