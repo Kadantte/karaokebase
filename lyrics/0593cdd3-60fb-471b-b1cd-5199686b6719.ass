@@ -1,0 +1,123 @@
+﻿[Script Info]
+Title: Wonderful Life
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,40,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,100,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,40,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:09.32,0:00:10.85,Sample KM [Up],,0,0,0,karaoke,{\k33}Take {\k18}a {\k42}look {\k17}a{\k43}round
+Comment: 0,0:00:10.85,0:00:13.32,Sample KM [Up],,0,0,0,karaoke,{\k16}And {\k40}see {\k29}the {\k30}world {\k19}we {\k38}think {\k20}we {\k55}know
+Comment: 0,0:00:14.06,0:00:18.00,Sample KM [Up],,0,0,0,karaoke,{\k89}Then{\k29} {\k78}look{\k37} {\kf110}clo{\k51}ser
+Comment: 0,0:00:18.42,0:00:20.72,Sample KM [Up],,0,0,0,karaoke,{\k28}There's {\k28}more {\k14}to {\k45}life {\k28}than {\k28}meets {\k16}the {\k43}eye
+Comment: 0,0:00:20.72,0:00:22.79,Sample KM [Up],,0,0,0,karaoke,{\k28}A {\k23}beau{\k20}ty {\k45}to {\k18}be{\k73}hold
+Comment: 0,0:00:23.08,0:00:28.66,Sample KM [Up],,0,0,0,karaoke,{\k26}It's {\k66}all{\k51} {\k85}much{\k29} {\kf118}big{\k60}ger {\k31}than {\k15}we {\k77}know
+Comment: 0,0:00:30.22,0:00:33.38,Sample KM [Up],,0,0,0,karaoke,{\k15}It's {\k26}on{\k15}ly {\k46}just {\k28}be{\k17}gin{\k18}ning {\k37}to {\k37}un{\k77}fold
+Comment: 0,0:00:34.82,0:00:36.82,Sample KM [Up],,0,0,0,karaoke,{\k18}So {\k26}let {\k18}it {\k27}all {\k30}un{\k81}fold
+Comment: 0,0:00:37.36,0:00:41.54,Sample KM [Up],,0,0,0,karaoke,{\k57}Far {\k58}be{\k58}yond {\k56}all {\k29}rea{\k16}son {\k27}in {\k46}your {\k71}mind
+Comment: 0,0:00:42.00,0:00:44.17,Sample KM [Up],,0,0,0,karaoke,{\k28}There's {\k15}a {\k40}world {\k32}mys{\k29}te{\k16}ri{\k57}ous
+Comment: 0,0:00:44.34,0:00:46.11,Sample KM [Up],,0,0,0,karaoke,{\k29}There {\k14}for {\k25}you {\k46}to {\k63}find
+Comment: 0,0:00:46.65,0:00:48.93,Sample KM [Up],,0,0,0,karaoke,{\k57}All {\k61}these {\k56}ques{\k54}tions
+Comment: 0,0:00:48.99,0:00:50.82,Sample KM [Up],,0,0,0,karaoke,{\k29}That {\k17}we {\k27}al{\k43}ways {\k67}have
+Comment: 0,0:00:51.33,0:00:53.54,Sample KM [Up],,0,0,0,karaoke,{\k28}All {\k15}we {\k42}are {\k28}is {\k28}cu{\k17}ri{\k63}ous
+Comment: 0,0:00:53.54,0:00:55.34,Sample KM [Up],,0,0,0,karaoke,{\k11}There's {\k18}no{\k27}thing {\k43}wrong {\k15}with {\k66}that
+Comment: 0,0:00:55.82,0:01:00.11,Sample KM [Up],,0,0,0,karaoke,{\k17}So {\k58}go {\k57}'round {\k61}eve{\k58}ry {\kf114}cor{\k64}ner
+Comment: 0,0:01:00.64,0:01:04.51,Sample KM [Up],,0,0,0,karaoke,{\k43}Search {\k31}eve{\k42}ry {\k43}part {\k32}of {\k43}the {\kf153}sky
+Comment: 0,0:01:05.00,0:01:10.28,Sample KM [Up],,0,0,0,karaoke,{\k14}'Cause {\k17}a {\k57}life {\k58}that's {\k57}full {\k60}of {\kf116}won{\kf149}der
+Comment: 0,0:01:10.86,0:01:14.14,Sample KM [Up],,0,0,0,karaoke,{\k13}Is {\k16}a {\k47}won{\k30}der{\k37}ful {\kf185}life
+Comment: 0,0:01:16.94,0:01:20.29,Sample KM [Up],,0,0,0,karaoke,{\k59}Uh {\k59}uh {\k57}uh {\k62}uh {\k98}uh
+Comment: 0,0:01:21.61,0:01:25.91,Sample KM [Choir],,0,0,0,karaoke,{\k59}Oh {\k58}oh {\k58}oh {\k59}oh {\kf196}oh
+Comment: 0,0:01:26.24,0:01:27.81,Sample KM [Up],,0,0,0,karaoke,{\k29}Dig {\k20}be{\k41}neath {\k18}the {\k26}sur{\k23}face
+Comment: 0,0:01:27.87,0:01:30.20,Sample KM [Up],,0,0,0,karaoke,{\k43}Find {\k30}the {\k21}les{\k24}sons {\k43}there {\k16}to {\k56}learn
+Comment: 0,0:01:30.78,0:01:34.99,Sample KM [Up],,0,0,0,karaoke,{\k15}And {\k76}then{\k40} {\k73}dig{\k39} {\k93}dee{\k29}{\k56}per
+Comment: 0,0:01:35.56,0:01:37.19,Sample KM [Up],,0,0,0,karaoke,{\k29}Feed {\k19}your {\k25}in{\k35}tu{\k22}i{\k33}tion
+Comment: 0,0:01:37.19,0:01:39.63,Sample KM [Up],,0,0,0,karaoke,{\k30}Don't {\k44}leave {\k16}a{\k25}ny {\k29}stone {\k28}un{\k72}turned
+Comment: 0,0:01:40.25,0:01:45.50,Sample KM [Up],,0,0,0,karaoke,{\k87}Be{\k31} {\k73}the{\k42} {\kf119}see{\k57}ker {\k26}of {\k15}the {\k75}truth
+Comment: 0,0:01:47.24,0:01:50.42,Sample KM [Up],,0,0,0,karaoke,{\k18}Lis{\k26}ten {\k30}when {\k31}you {\k26}hear {\k29}it {\k70}cal{\k32}ling {\k56}you
+Comment: 0,0:01:51.74,0:01:53.65,Sample KM [Up],,0,0,0,karaoke,{\k16}You {\k20}know {\k22}it's {\k34}cal{\k29}ling {\k69}you
+Comment: 0,0:01:54.23,0:01:58.40,Sample KM [Up],,0,0,0,karaoke,{\k59}Far {\k59}be{\k57}yond {\k57}all {\k30}rea{\k16}son {\k27}in {\k46}your {\k66}mind
+Comment: 0,0:01:58.90,0:02:01.06,Sample KM [Up],,0,0,0,karaoke,{\k28}There's {\k16}a {\k41}world {\k31}mys{\k29}te{\k15}ri{\k56}ous
+Comment: 0,0:02:01.22,0:02:02.99,Sample KM [Up],,0,0,0,karaoke,{\k30}There {\k13}for {\k28}you {\k42}to {\k64}find
+Comment: 0,0:02:03.55,0:02:07.78,Sample KM [Up],,0,0,0,karaoke,{\k56}All {\k61}these {\k58}ques{\k57}tions {\k27}that {\k19}we {\k27}al{\k50}ways {\k67}have
+Comment: 0,0:02:08.21,0:02:10.44,Sample KM [Up],,0,0,0,karaoke,{\k31}All {\k16}we {\k46}are {\k25}is {\k27}cu{\k16}ri{\k59}ous
+Comment: 0,0:02:10.44,0:02:12.38,Sample KM [Up],,0,0,0,karaoke,{\k11}There's {\k17}no{\k24}thing {\k43}wrong {\k19}with {\k80}that
+Comment: 0,0:02:12.72,0:02:17.02,Sample KM [Up],,0,0,0,karaoke,{\k17}So {\k56}go {\k59}'round {\k57}eve{\k59}ry {\kf117}cor{\k66}ner
+Comment: 0,0:02:17.53,0:02:21.44,Sample KM [Up],,0,0,0,karaoke,{\k43}Search {\k31}eve{\k43}ry {\k42}part {\k32}of {\k43}the {\kf157}sky
+Comment: 0,0:02:21.88,0:02:27.23,Sample KM [Up],,0,0,0,karaoke,{\k15}'Cause {\k16}a {\k58}life {\k58}that's {\k59}full {\k58}of {\kf117}won{\kf154}der
+Comment: 0,0:02:27.74,0:02:31.04,Sample KM [Up],,0,0,0,karaoke,{\k16}Is {\k17}a {\k44}won{\k30}der{\k36}ful {\kf187}life
+Comment: 0,0:02:29.17,0:02:33.55,Sample KM [Choir],,0,0,0,karaoke,{\k60}Oh {\k58}oh {\k58}oh {\k60}oh {\kf202}oh
+Comment: 0,0:02:33.84,0:02:38.20,Sample KM [Choir],,0,0,0,karaoke,{\k58}Oh {\k59}oh {\k57}oh {\k59}oh {\kf203}oh
+Comment: 0,0:02:33.84,0:02:37.19,Sample KM [Up],,0,0,0,karaoke,{\k58}Uh {\k59}uh {\k57}uh {\k59}uh {\kf102}uh
+Comment: 0,0:02:37.02,0:02:40.19,Sample KM [Up],,0,0,0,karaoke,{\k10}Is {\k19}a {\k48}won{\k56}der{\k60}ful {\kf124}life
+Comment: 0,0:02:38.51,0:02:42.87,Sample KM [Choir],,0,0,0,karaoke,{\k58}Oh {\k58}oh {\k58}oh {\k61}oh {\kf201}oh
+Comment: 0,0:02:41.71,0:02:45.01,Sample KM [Up],,0,0,0,karaoke,{\k15}Is {\k16}a {\k41}won{\k44}der{\k38}ful {\kf176}life
+Comment: 0,0:02:43.16,0:02:47.81,Sample KM [Choir],,0,0,0,karaoke,{\k58}Oh {\k58}oh {\k58}oh {\k59}oh {\kf232}oh
+Comment: 0,0:02:46.36,0:02:49.08,Sample KM [Up],,0,0,0,karaoke,{\k14}Is {\k17}a {\k41}won{\k33}der{\k46}ful {\kf101}life
+Comment: 0,0:02:52.19,0:02:55.87,Sample KM [Up],,0,0,0,karaoke,{\k15}When {\k15}the {\k45}ans{\k43}wers {\k29}look {\k50}far {\k35}a{\kf136}way
+Comment: 0,0:02:56.82,0:02:58.69,Sample KM [Up],,0,0,0,karaoke,{\k32}Look {\k43}clo{\kf112}ser
+Comment: 0,0:02:59.15,0:03:00.78,Sample KM [Up],,0,0,0,karaoke,{\k31}Look {\k44}clo{\k88}ser
+Comment: 0,0:03:01.49,0:03:03.10,Sample KM [Up],,0,0,0,karaoke,{\k31}Look {\k44}clo{\k86}ser
+Comment: 0,0:03:03.84,0:03:05.44,Sample KM [Up],,0,0,0,karaoke,{\k30}Look {\k43}clo{\k87}ser
+Dialogue: 0,0:00:08.42,0:00:11.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Take {\k18}a {\k42}look {\k17}a{\k43}round
+Dialogue: 0,0:00:09.95,0:00:13.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}And {\k40}see {\k29}the {\k30}world {\k19}we {\k38}think {\k20}we {\k55}know
+Dialogue: 0,0:00:13.16,0:00:18.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k89}Then{\k29} {\k78}look{\k37} {\kf110}clo{\k51}ser
+Dialogue: 0,0:00:17.52,0:00:20.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}There's {\k28}more {\k14}to {\k45}life {\k28}than {\k28}meets {\k16}the {\k43}eye
+Dialogue: 0,0:00:19.82,0:00:22.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}A {\k23}beau{\k20}ty {\k45}to {\k18}be{\k73}hold
+Dialogue: 0,0:00:22.18,0:00:28.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}It's {\k66}all{\k51} {\k85}much{\k29} {\kf118}big{\k60}ger {\k31}than {\k15}we {\k77}know
+Dialogue: 0,0:00:29.32,0:00:33.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}It's {\k26}on{\k15}ly {\k46}just {\k28}be{\k17}gin{\k18}ning {\k37}to {\k37}un{\k77}fold
+Dialogue: 0,0:00:33.92,0:00:37.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}So {\k26}let {\k18}it {\k27}all {\k30}un{\k81}fold
+Dialogue: 0,0:00:36.46,0:00:41.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k57}Far {\k58}be{\k58}yond {\k56}all {\k29}rea{\k16}son {\k27}in {\k46}your {\k71}mind
+Dialogue: 0,0:00:41.10,0:00:44.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}There's {\k15}a {\k40}world {\k32}mys{\k29}te{\k16}ri{\k57}ous
+Dialogue: 0,0:00:43.44,0:00:46.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}There {\k14}for {\k25}you {\k46}to {\k63}find
+Dialogue: 0,0:00:45.75,0:00:49.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k57}All {\k61}these {\k56}ques{\k54}tions
+Dialogue: 0,0:00:48.09,0:00:51.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}That {\k17}we {\k27}al{\k43}ways {\k67}have
+Dialogue: 0,0:00:50.43,0:00:53.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}All {\k15}we {\k42}are {\k28}is {\k28}cu{\k17}ri{\k63}ous
+Dialogue: 0,0:00:52.64,0:00:55.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}There's {\k18}no{\k27}thing {\k43}wrong {\k15}with {\k66}that
+Dialogue: 0,0:00:54.92,0:01:00.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}So {\k58}go {\k57}'round {\k61}eve{\k58}ry {\kf114}cor{\k64}ner
+Dialogue: 0,0:00:59.74,0:01:04.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Search {\k31}eve{\k42}ry {\k43}part {\k32}of {\k43}the {\kf153}sky
+Dialogue: 0,0:01:04.10,0:01:10.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}'Cause {\k17}a {\k57}life {\k58}that's {\k57}full {\k60}of {\kf116}won{\kf149}der
+Dialogue: 0,0:01:09.96,0:01:14.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Is {\k16}a {\k47}won{\k30}der{\k37}ful {\kf185}life
+Dialogue: 0,0:01:16.04,0:01:20.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Uh {\k59}uh {\k57}uh {\k62}uh {\k98}uh
+Dialogue: 0,0:01:20.71,0:01:26.11,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Oh {\k58}oh {\k58}oh {\k59}oh {\kf196}oh
+Dialogue: 0,0:01:25.34,0:01:28.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Dig {\k20}be{\k41}neath {\k18}the {\k26}sur{\k23}face
+Dialogue: 0,0:01:26.97,0:01:30.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Find {\k30}the {\k21}les{\k24}sons {\k43}there {\k16}to {\k56}learn
+Dialogue: 0,0:01:29.88,0:01:35.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}And {\k76}then{\k40} {\k73}dig{\k39} {\k93}dee{\k29}{\k56}per
+Dialogue: 0,0:01:34.66,0:01:37.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Feed {\k19}your {\k25}in{\k35}tu{\k22}i{\k33}tion
+Dialogue: 0,0:01:36.29,0:01:39.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Don't {\k44}leave {\k16}a{\k25}ny {\k29}stone {\k28}un{\k72}turned
+Dialogue: 0,0:01:39.35,0:01:45.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k87}Be{\k31} {\k73}the{\k42} {\kf119}see{\k57}ker {\k26}of {\k15}the {\k75}truth
+Dialogue: 0,0:01:46.34,0:01:50.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Lis{\k26}ten {\k30}when {\k31}you {\k26}hear {\k29}it {\k70}cal{\k32}ling {\k56}you
+Dialogue: 0,0:01:50.84,0:01:53.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}You {\k20}know {\k22}it's {\k34}cal{\k29}ling {\k69}you
+Dialogue: 0,0:01:53.33,0:01:58.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Far {\k59}be{\k57}yond {\k57}all {\k30}rea{\k16}son {\k27}in {\k46}your {\k66}mind
+Dialogue: 0,0:01:58.00,0:02:01.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}There's {\k16}a {\k41}world {\k31}mys{\k29}te{\k15}ri{\k56}ous
+Dialogue: 0,0:02:00.32,0:02:03.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}There {\k13}for {\k28}you {\k42}to {\k64}find
+Dialogue: 0,0:02:02.65,0:02:07.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k56}All {\k61}these {\k58}ques{\k57}tions {\k27}that {\k19}we {\k27}al{\k50}ways {\k67}have
+Dialogue: 0,0:02:07.31,0:02:10.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}All {\k16}we {\k46}are {\k25}is {\k27}cu{\k16}ri{\k59}ous
+Dialogue: 0,0:02:09.54,0:02:12.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}There's {\k17}no{\k24}thing {\k43}wrong {\k19}with {\k80}that
+Dialogue: 0,0:02:11.82,0:02:17.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}So {\k56}go {\k59}'round {\k57}eve{\k59}ry {\kf117}cor{\k66}ner
+Dialogue: 0,0:02:16.63,0:02:21.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Search {\k31}eve{\k43}ry {\k42}part {\k32}of {\k43}the {\kf157}sky
+Dialogue: 0,0:02:20.98,0:02:27.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}'Cause {\k16}a {\k58}life {\k58}that's {\k59}full {\k58}of {\kf117}won{\kf154}der
+Dialogue: 0,0:02:26.84,0:02:31.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Is {\k17}a {\k44}won{\k30}der{\k36}ful {\kf187}life
+Dialogue: 0,0:02:28.27,0:02:33.75,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Oh {\k58}oh {\k58}oh {\k60}oh {\kf202}oh
+Dialogue: 0,0:02:32.94,0:02:38.40,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Oh {\k59}oh {\k57}oh {\k59}oh {\kf203}oh
+Dialogue: 0,0:02:32.94,0:02:37.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Uh {\k59}uh {\k57}uh {\k59}uh {\kf102}uh
+Dialogue: 0,0:02:36.12,0:02:40.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Is {\k19}a {\k48}won{\k56}der{\k60}ful {\kf124}life
+Dialogue: 0,0:02:37.61,0:02:43.07,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Oh {\k58}oh {\k58}oh {\k61}oh {\kf201}oh
+Dialogue: 0,0:02:40.81,0:02:45.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Is {\k16}a {\k41}won{\k44}der{\k38}ful {\kf176}life
+Dialogue: 0,0:02:42.26,0:02:48.01,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Oh {\k58}oh {\k58}oh {\k59}oh {\kf232}oh
+Dialogue: 0,0:02:45.46,0:02:49.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Is {\k17}a {\k41}won{\k33}der{\k46}ful {\kf101}life
+Dialogue: 0,0:02:51.29,0:02:56.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}When {\k15}the {\k45}ans{\k43}wers {\k29}look {\k50}far {\k35}a{\kf136}way
+Dialogue: 0,0:02:55.92,0:02:58.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Look {\k43}clo{\kf112}ser
+Dialogue: 0,0:02:58.25,0:03:00.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Look {\k44}clo{\k88}ser
+Dialogue: 0,0:03:00.59,0:03:03.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Look {\k44}clo{\k86}ser
+Dialogue: 0,0:03:02.94,0:03:05.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Look {\k43}clo{\k87}ser
