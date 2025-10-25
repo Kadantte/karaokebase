@@ -1,0 +1,80 @@
+﻿[Script Info]
+Title: My Own Hell
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}♦ {\rSample KM Duo [Voice 1]}Clean {\2cHFFFFFF}| ♣ {\rSample KM Duo [Voice 2]}Scream
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:28.22,0:00:33.34,Sample KM Duo [Voice 1],,0,0,0,karaoke,♦ {\k70}Twis{\k54}ting {\k33}and {\k60}tur{\k48}ning, {\k35}un{\k53}a{\k50}ble {\k34}to {\k75}sleep
+Comment: 0,0:00:35.09,0:00:37.57,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k17}Do {\k18}the {\k34}voi{\k20}ces {\k19}e{\k33}ver {\kf107}stop?
+Comment: 0,0:00:39.68,0:00:44.57,Sample KM Duo [Voice 1],,0,0,0,karaoke,♦ {\k52}My {\k55}thoughts {\k33}speak {\k53}lou{\k54}der {\k37}the {\k51}more {\k54}I {\k34}re{\k66}sist
+Comment: 0,0:00:46.22,0:00:48.69,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k18}And {\k18}they're {\k50}dri{\k21}ving {\k18}me {\k33}in{\k89}sane
+Comment: 0,0:00:49.17,0:00:50.81,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k16}Do {\k24}they {\k18}e{\k34}ver {\k72}go?
+Comment: 0,0:00:50.62,0:01:00.17,Sample KM Duo [Voice 1],,0,0,0,karaoke,♦ {\k36}In{\kf427}side,{\k49} {\k52}I'm {\k35}a {\k40}dan{\k67}ger {\k70}to {\k72}my{\kf107}self
+Comment: 0,0:00:59.82,0:01:01.90,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k15}I’m {\k19}a {\k32}dan{\k19}ger {\k26}to {\k28}my{\k69}self
+Comment: 0,0:01:01.90,0:01:12.02,Sample KM Duo [Voice 1],,0,0,0,karaoke,♦ {\k35}In{\kf498}side, {\k32}I'm {\k36}a {\k34}pri{\k37}soner {\k35}of {\k73}my {\k68}own {\kf164}hell
+Comment: 0,0:01:12.16,0:01:13.57,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k27}My {\k35}own {\k79}hell
+Comment: 0,0:01:19.13,0:01:24.23,Sample KM Duo [Voice 1],,0,0,0,karaoke,♦ {\k59}Lo{\k55}sing {\k34}the {\k55}bat{\k52}tle {\k37}I {\k49}waged {\k55}on {\k36}my{\k78}self
+Comment: 0,0:01:25.90,0:01:28.12,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k19}Lock {\k19}me {\k32}up {\k20}and {\k35}toss {\k20}the {\k77}key
+Comment: 0,0:01:30.47,0:01:35.55,Sample KM Duo [Voice 1],,0,0,0,karaoke,♦ {\k59}Toys {\k51}in {\k36}the {\k52}at{\k49}tic, {\k39}it's {\k50}all {\k56}get{\k36}ting {\k80}worse
+Comment: 0,0:01:37.03,0:01:39.32,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k53}Why {\k22}won't {\k31}I {\k18}let {\k35}me {\k70}be?
+Comment: 0,0:01:39.69,0:01:41.61,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k35}Oh, {\k35}God, {\k26}make {\k32}it {\k64}stop
+Comment: 0,0:01:41.44,0:01:50.89,Sample KM Duo [Voice 1],,0,0,0,karaoke,♦ {\k35}In{\kf425}side,{\k53} {\k52}I'm {\k33}a {\k37}dan{\k69}ger {\k76}to {\k67}my{\k98}self
+Comment: 0,0:01:50.64,0:01:52.71,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k17}I’m {\k18}a {\k30}dan{\k21}ger {\k20}to {\k34}my{\k67}self
+Comment: 0,0:01:52.71,0:02:02.86,Sample KM Duo [Voice 1],,0,0,0,karaoke,♦ {\k34}In{\kf498}side, {\k36}I'm {\k33}a {\k37}pri{\k36}soner {\k34}of {\k73}my {\k71}own {\kf163}hell
+Comment: 0,0:02:02.98,0:02:04.45,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k27}My {\k31}own {\k89}hell
+Comment: 0,0:02:18.86,0:02:21.27,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k36}Fit {\k21}me {\k14}for {\k19}a {\k50}strait{\k37}jac{\k64}ket
+Comment: 0,0:02:24.51,0:02:26.81,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k36}Put {\k17}me {\k15}in {\k21}a {\k24}pad{\k28}ded {\k89}cell
+Comment: 0,0:02:30.14,0:02:32.45,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k17}I'm {\k18}a {\k27}dan{\k29}ger {\k30}to {\k21}you {\k89}all
+Comment: 0,0:02:35.60,0:02:37.91,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k20}And {\k19}I'm {\k18}a {\k25}dan{\k30}ger {\k30}to {\k36}my{\k53}self
+Comment: 0,0:02:37.91,0:02:47.36,Sample KM Duo [Voice 1],,0,0,0,karaoke,♦ {\k37}In{\kf426}side,{\k49} {\k53}I'm {\k33}a {\k42}dan{\k65}ger {\k75}to {\k66}my{\k99}self
+Comment: 0,0:02:47.02,0:02:49.42,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k24}I’m {\k20}a {\k30}dan{\k19}ger {\k23}to {\k33}my{\k91}self
+Comment: 0,0:02:49.18,0:02:59.30,Sample KM Duo [Voice 1],,0,0,0,karaoke,♦ {\k34}In{\kf498}side, {\k35}I'm {\k33}a {\k37}pri{\k37}soner {\k35}of {\k72}my {\k70}own {\kf161}hell
+Comment: 0,0:02:59.46,0:03:00.92,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k26}My {\k34}own {\k86}hell
+Comment: 0,0:03:00.52,0:03:10.23,Sample KM Duo [Voice 1],,0,0,0,karaoke,♦ {\k34}In{\kf494}side, {\k36}I'm {\k32}a {\k39}dan{\k68}ger {\k73}to {\k69}my{\kf126}self
+Comment: 0,0:03:11.11,0:03:13.36,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k17}I’m {\k18}a {\k29}dan{\k21}ger {\k27}to {\k28}my{\k85}self
+Comment: 0,0:03:11.78,0:03:21.92,Sample KM Duo [Voice 1],,0,0,0,karaoke,♦ {\k30}In{\kf510}side, {\k27}I'm {\k29}a {\k38}pri{\k37}soner {\k38}of {\k70}my {\k72}own {\kf163}hell
+Comment: 0,0:03:22.04,0:03:26.82,Sample KM Duo [Voice 2],,0,0,0,karaoke,♣ {\k56}My {\k76}own {\kf346}hell
+Dialogue: 0,0:00:27.32,0:00:33.54,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k70}Twis{\k54}ting {\k33}and {\k60}tur{\k48}ning, {\k35}un{\k53}a{\k50}ble {\k34}to {\k75}sleep
+Dialogue: 0,0:00:34.19,0:00:37.77,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k17}Do {\k18}the {\k34}voi{\k20}ces {\k19}e{\k33}ver {\kf107}stop?
+Dialogue: 0,0:00:38.78,0:00:44.77,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k52}My {\k55}thoughts {\k33}speak {\k53}lou{\k54}der {\k37}the {\k51}more {\k54}I {\k34}re{\k66}sist
+Dialogue: 0,0:00:45.32,0:00:48.89,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k18}And {\k18}they're {\k50}dri{\k21}ving {\k18}me {\k33}in{\k89}sane
+Dialogue: 0,0:00:48.27,0:00:51.01,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k16}Do {\k24}they {\k18}e{\k34}ver {\k72}go?
+Dialogue: 0,0:00:49.72,0:01:00.37,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k36}In{\kf427}side,{\k49} {\k52}I'm {\k35}a {\k40}dan{\k67}ger {\k70}to {\k72}my{\kf107}self
+Dialogue: 0,0:00:58.92,0:01:02.10,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k15}I’m {\k19}a {\k32}dan{\k19}ger {\k26}to {\k28}my{\k69}self
+Dialogue: 0,0:01:01.00,0:01:12.22,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k35}In{\kf498}side, {\k32}I'm {\k36}a {\k34}pri{\k37}soner {\k35}of {\k73}my {\k68}own {\kf164}hell
+Dialogue: 0,0:01:11.26,0:01:13.77,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k27}My {\k35}own {\k79}hell
+Dialogue: 0,0:01:18.23,0:01:24.43,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k59}Lo{\k55}sing {\k34}the {\k55}bat{\k52}tle {\k37}I {\k49}waged {\k55}on {\k36}my{\k78}self
+Dialogue: 0,0:01:25.00,0:01:28.32,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k19}Lock {\k19}me {\k32}up {\k20}and {\k35}toss {\k20}the {\k77}key
+Dialogue: 0,0:01:29.57,0:01:35.75,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k59}Toys {\k51}in {\k36}the {\k52}at{\k49}tic, {\k39}it's {\k50}all {\k56}get{\k36}ting {\k80}worse
+Dialogue: 0,0:01:36.13,0:01:39.52,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k53}Why {\k22}won't {\k31}I {\k18}let {\k35}me {\k70}be?
+Dialogue: 0,0:01:38.79,0:01:41.81,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k35}Oh, {\k35}God, {\k26}make {\k32}it {\k64}stop
+Dialogue: 0,0:01:40.54,0:01:51.09,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k35}In{\kf425}side,{\k53} {\k52}I'm {\k33}a {\k37}dan{\k69}ger {\k76}to {\k67}my{\k98}self
+Dialogue: 0,0:01:49.74,0:01:52.91,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k17}I’m {\k18}a {\k30}dan{\k21}ger {\k20}to {\k34}my{\k67}self
+Dialogue: 0,0:01:51.81,0:02:03.06,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k34}In{\kf498}side, {\k36}I'm {\k33}a {\k37}pri{\k36}soner {\k34}of {\k73}my {\k71}own {\kf163}hell
+Dialogue: 0,0:02:02.08,0:02:04.65,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k27}My {\k31}own {\k89}hell
+Dialogue: 0,0:02:17.96,0:02:21.47,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k36}Fit {\k21}me {\k14}for {\k19}a {\k50}strait{\k37}jac{\k64}ket
+Dialogue: 0,0:02:23.61,0:02:27.01,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k36}Put {\k17}me {\k15}in {\k21}a {\k24}pad{\k28}ded {\k89}cell
+Dialogue: 0,0:02:29.24,0:02:32.65,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k17}I'm {\k18}a {\k27}dan{\k29}ger {\k30}to {\k21}you {\k89}all
+Dialogue: 0,0:02:34.70,0:02:38.11,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k20}And {\k19}I'm {\k18}a {\k25}dan{\k30}ger {\k30}to {\k36}my{\k53}self
+Dialogue: 0,0:02:37.01,0:02:47.56,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k37}In{\kf426}side,{\k49} {\k53}I'm {\k33}a {\k42}dan{\k65}ger {\k75}to {\k66}my{\k99}self
+Dialogue: 0,0:02:46.12,0:02:49.62,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k24}I’m {\k20}a {\k30}dan{\k19}ger {\k23}to {\k33}my{\k91}self
+Dialogue: 0,0:02:48.28,0:02:59.50,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k34}In{\kf498}side, {\k35}I'm {\k33}a {\k37}pri{\k37}soner {\k35}of {\k72}my {\k70}own {\kf161}hell
+Dialogue: 0,0:02:58.56,0:03:01.12,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k26}My {\k34}own {\k86}hell
+Dialogue: 0,0:02:59.62,0:03:10.43,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k34}In{\kf494}side, {\k36}I'm {\k32}a {\k39}dan{\k68}ger {\k73}to {\k69}my{\kf126}self
+Dialogue: 0,0:03:10.21,0:03:13.56,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k17}I’m {\k18}a {\k29}dan{\k21}ger {\k27}to {\k28}my{\k85}self
+Dialogue: 0,0:03:10.88,0:03:22.12,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}♦ {\k30}In{\kf510}side, {\k27}I'm {\k29}a {\k38}pri{\k37}soner {\k38}of {\k70}my {\k72}own {\kf163}hell
+Dialogue: 0,0:03:21.14,0:03:27.02,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}♣ {\k56}My {\k76}own {\kf346}hell
