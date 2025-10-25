@@ -1,0 +1,151 @@
+﻿[Script Info]
+Title: Cotton Candy
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFB858,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.25,0:00:02.79,Sample KM [Down],,0,0,0,karaoke,Let's get it started
+Comment: 0,0:00:04.14,0:00:10.44,Sample KM [Choir],,0,0,0,karaoke,{\k36}Cot{\k68}ton {\k73}can{\kf124}dy,{\k40} {\k83}cot{\k65}ton {\k56}ca- {\k37}can{\k48}dy
+Comment: 0,0:00:10.46,0:00:13.50,Sample KM [Choir],,0,0,0,karaoke,{\k33}Can{\k40}dy, {\k27}can{\k38}dy, {\k24}can{\k31}dy, {\k19}can{\k28}dy, {\k16}can{\k18}dy, {\k20}can{\k10}dy
+Comment: 0,0:00:13.50,0:00:13.86,Sample KM [Up],,0,0,0,karaoke,{\k36}Hey
+Comment: 0,0:00:14.23,0:00:16.63,Sample KM [Up],,0,0,0,karaoke,{\k30}I'm {\k21}what {\k24}you {\k37}need,{\k31} {\k31}I'm {\k21}what {\k27}you {\k18}want
+Comment: 0,0:00:16.63,0:00:19.36,Sample KM [Up],,0,0,0,karaoke,{\k27}I {\k27}got {\k24}it {\k49}all,{\k20} {\k23}a {\k30}car{\k23}ni{\k50}val
+Comment: 0,0:00:19.57,0:00:21.80,Sample KM [Up],,0,0,0,karaoke,{\k28}I'll {\k22}bring {\k26}you {\k23}up, {\k26}I'll {\k24}take {\k24}you {\k50}down
+Comment: 0,0:00:22.00,0:00:24.72,Sample KM [Up],,0,0,0,karaoke,{\k29}I'm {\k20}stic{\k24}ky {\k51}sweet,{\k23} {\k28}stuck {\k22}in {\k25}your {\k50}teeth
+Comment: 0,0:00:24.72,0:00:28.63,Sample KM [Up],,0,0,0,karaoke,{\k45}Like {\k78}cot{\k76}ton {\k76}can{\kf116}dy
+Comment: 0,0:00:29.07,0:00:32.41,Sample KM [Up],,0,0,0,karaoke,{\k79}Cot{\k70}ton {\k76}can{\kf109}dy
+Comment: 0,0:00:31.80,0:00:32.99,Sample KM [Choir],,0,0,0,karaoke,{\k25}Ah-{\k25}ah, {\k26}ah-{\k43}ah
+Comment: 0,0:00:32.99,0:00:36.33,Sample KM [Up],,0,0,0,karaoke,{\k77}Cot{\k68}ton {\k78}can{\kf111}dy
+Comment: 0,0:00:35.70,0:00:36.90,Sample KM [Choir],,0,0,0,karaoke,{\k26}Ah-{\k24}ah, {\k27}ah-{\k43}oh
+Comment: 0,0:00:36.92,0:00:39.86,Sample KM [Up],,0,0,0,karaoke,{\k75}Cot{\k69}ton {\k74}can{\k76}dy
+Comment: 0,0:00:39.63,0:00:40.83,Sample KM [Choir],,0,0,0,karaoke,{\k22}Ah-{\k24}ah, {\k25}ah-{\k49}ah
+Comment: 0,0:00:40.11,0:00:41.29,Sample KM [Up],,0,0,0,karaoke,{\k21}I'm {\k24}what {\k27}you {\k46}want
+Comment: 0,0:00:41.56,0:00:42.88,Sample KM [Up],,0,0,0,karaoke,{\k24}Not {\k18}what {\k31}you {\k59}need
+Comment: 0,0:00:43.52,0:00:44.68,Sample KM [Choir],,0,0,0,karaoke,{\k24}Ah-{\k23}ah, {\k30}ah-{\k39}oh
+Comment: 0,0:00:44.68,0:00:46.68,Sample KM [Up],,0,0,0,karaoke,{\k58}Hey,{\k15} {\k26}I {\k28}don't {\k24}know {\k49}why
+Comment: 0,0:00:46.88,0:00:47.90,Sample KM [Up],,0,0,0,karaoke,{\k27}I'm {\k22}what {\k26}you {\k27}want
+Comment: 0,0:00:47.90,0:00:49.13,Sample KM [Up],,0,0,0,karaoke,{\k24}But {\k23}it's {\k23}the {\k53}truth
+Comment: 0,0:00:49.34,0:00:50.58,Sample KM [Up],,0,0,0,karaoke,{\k25}I'm {\k23}not {\k28}your {\k48}lie
+Comment: 0,0:00:50.76,0:00:51.77,Sample KM [Up],,0,0,0,karaoke,{\k30}Let {\k27}them {\k22}eat {\k22}cake
+Comment: 0,0:00:51.87,0:00:53.02,Sample KM [Up],,0,0,0,karaoke,{\k18}Let {\k24}them {\k23}eat {\k50}pie
+Comment: 0,0:00:53.25,0:00:54.47,Sample KM [Up],,0,0,0,karaoke,{\k25}Or {\k26}bet{\k22}ter {\k49}yet
+Comment: 0,0:00:54.72,0:00:58.86,Sample KM [Up],,0,0,0,karaoke,{\k24}Let {\k26}them {\k22}eat {\k77}cot{\k69}ton {\k76}can{\kf120}dy
+Comment: 0,0:00:59.37,0:01:02.77,Sample KM [Up],,0,0,0,karaoke,{\k75}Cot{\k71}ton {\k73}can{\kf121}dy
+Comment: 0,0:01:02.03,0:01:03.20,Sample KM [Choir],,0,0,0,karaoke,{\k27}Ah-{\k24}ah, {\k25}ah-{\k41}ah
+Comment: 0,0:01:03.26,0:01:06.66,Sample KM [Up],,0,0,0,karaoke,{\k74}Cot{\k72}ton {\k75}can{\kf119}dy
+Comment: 0,0:01:05.93,0:01:07.16,Sample KM [Choir],,0,0,0,karaoke,{\k27}Ah-{\k25}ah, {\k24}ah-{\k47}oh
+Comment: 0,0:01:07.17,0:01:10.46,Sample KM [Up],,0,0,0,karaoke,{\k74}Cot{\k73}ton {\k73}can{\kf109}dy
+Comment: 0,0:01:09.86,0:01:11.06,Sample KM [Choir],,0,0,0,karaoke,{\k27}Ah-{\k22}ah, {\k25}ah-{\k46}ah
+Comment: 0,0:01:10.25,0:01:11.46,Sample KM [Up],,0,0,0,karaoke,{\k33}I'm {\k24}what {\k25}you {\k39}want
+Comment: 0,0:01:11.77,0:01:12.95,Sample KM [Up],,0,0,0,karaoke,{\k28}Not {\k21}what {\k21}you {\k48}need
+Comment: 0,0:01:12.95,0:01:16.48,Sample KM [Up],,0,0,0,karaoke,{\k55}Cot{\k48}ton {\k48}can{\k22}dy {\kf180}skies
+Comment: 0,0:01:16.86,0:01:20.35,Sample KM [Up],,0,0,0,karaoke,{\k57}Sweet {\k46}as {\k51}ap{\k23}ple {\kf172}pie
+Comment: 0,0:01:20.78,0:01:24.27,Sample KM [Up],,0,0,0,karaoke,{\k50}I {\k52}can't {\k47}help {\k25}but {\kf175}shine
+Comment: 0,0:01:24.68,0:01:30.89,Sample KM [Up],,0,0,0,karaoke,{\k52}Brigh{\k49}ter {\k50}than {\k20}the {\kf124}star{\k52}light {\k25}in {\k44}the {\kf205}sky
+Comment: 0,0:01:30.58,0:01:33.89,Sample KM [Choir],,0,0,0,karaoke,{\k76}Cot{\k70}ton {\k74}can{\kf111}dy
+Comment: 0,0:01:34.48,0:01:37.86,Sample KM [Choir],,0,0,0,karaoke,{\k77}Cot{\k69}ton {\k73}can{\kf119}dy
+Comment: 0,0:01:37.86,0:01:38.21,Sample KM [Up],,0,0,0,karaoke,{\k35}Yeah
+Comment: 0,0:01:38.33,0:01:41.67,Sample KM [Up],,0,0,0,karaoke,{\k81}Cot{\k68}ton {\k75}can{\kf110}dy
+Comment: 0,0:01:41.46,0:01:44.25,Sample KM [Up],,0,0,0,karaoke,{\k34}I'm {\k23}what {\k28}you {\k42}want,{\k23} {\k30}not {\k20}what {\k28}you {\k51}need
+Comment: 0,0:01:44.96,0:01:46.20,Sample KM [Up],,0,0,0,karaoke,{\k28}So, {\k23}what {\k28}you {\k45}want?
+Comment: 0,0:01:46.75,0:01:48.95,Sample KM [Down],,0,0,0,karaoke,Ya hungry? Take a bite!
+Comment: 0,0:01:49.75,0:01:51.53,Sample KM [Down],,0,0,0,karaoke,Get fucked tonight!
+Comment: 0,0:01:52.72,0:01:53.98,Sample KM [Choir],,0,0,0,karaoke,{\k30}So, {\k24}what {\k25}you {\k47}want?
+Comment: 0,0:01:54.13,0:01:56.04,Sample KM [Down],,0,0,0,karaoke,Your Queen Bee brings the sweet stuff
+Comment: 0,0:01:56.16,0:01:59.54,Sample KM [Down],,0,0,0,karaoke,So keep making me that motherfucking honey!
+Comment: 0,0:02:00.00,0:02:01.13,Sample KM [Down],,0,0,0,karaoke,Yeah, keep it comin'
+Comment: 0,0:02:01.81,0:02:05.13,Sample KM [Up],,0,0,0,karaoke,{\k76}Cot{\k69}ton {\k74}can{\kf113}dy
+Comment: 0,0:02:04.49,0:02:05.70,Sample KM [Choir],,0,0,0,karaoke,{\k24}Ah-{\k24}ah, {\k27}ah-{\k46}ah
+Comment: 0,0:02:05.70,0:02:09.08,Sample KM [Up],,0,0,0,karaoke,{\k76}Cot{\k72}ton {\k74}can{\kf116}dy
+Comment: 0,0:02:08.37,0:02:09.62,Sample KM [Choir],,0,0,0,karaoke,{\k26}Ah-{\k26}ah, {\k24}ah-{\k49}oh
+Comment: 0,0:02:09.62,0:02:12.91,Sample KM [Up],,0,0,0,karaoke,{\k74}Cot{\k72}ton {\k72}can{\kf111}dy
+Comment: 0,0:02:12.29,0:02:13.50,Sample KM [Choir],,0,0,0,karaoke,{\k25}Ah-{\k24}ah, {\k25}ah-{\k47}ah
+Comment: 0,0:02:12.79,0:02:13.83,Sample KM [Up],,0,0,0,karaoke,{\k22}I'm {\k24}what {\k25}you {\k33}want
+Comment: 0,0:02:14.22,0:02:15.45,Sample KM [Up],,0,0,0,karaoke,{\k26}Not {\k23}what {\k27}you {\k47}need
+Comment: 0,0:02:15.45,0:02:18.93,Sample KM [Up],,0,0,0,karaoke,{\k48}Cot{\k49}ton {\k47}can{\k21}dy {\kf183}skies
+Comment: 0,0:02:19.26,0:02:22.77,Sample KM [Up],,0,0,0,karaoke,{\k64}Sweet {\k42}as {\k48}ap{\k24}ple {\kf173}pie
+Comment: 0,0:02:23.03,0:02:26.66,Sample KM [Up],,0,0,0,karaoke,{\k24}And {\k45}I {\k52}can't {\k43}hеlp {\k24}but {\kf175}shine
+Comment: 0,0:02:27.19,0:02:30.72,Sample KM [Up],,0,0,0,karaoke,{\k49}Brigh{\k46}ter {\k44}than {\k25}the {\kf124}star{\k65}light
+Comment: 0,0:02:31.01,0:02:34.29,Sample KM [Up],,0,0,0,karaoke,{\k52}Cot{\k50}ton {\k45}can{\k26}dy {\kf155}skiеs
+Comment: 0,0:02:34.87,0:02:38.39,Sample KM [Up],,0,0,0,karaoke,{\k61}Sweet {\k47}as {\k48}ap{\k25}ple {\kf171}pie
+Comment: 0,0:02:38.82,0:02:42.25,Sample KM [Up],,0,0,0,karaoke,{\k50}I {\k53}can't {\k45}help {\k25}but {\kf170}shine
+Comment: 0,0:02:42.75,0:02:49.65,Sample KM [Up],,0,0,0,karaoke,{\k50}Brigh{\k50}ter {\k46}than {\k24}the {\kf125}star{\k48}light {\k24}in {\k45}the {\kf278}sky
+Dialogue: 0,0:00:00.00,0:00:02.99,Sample KM [Down],,0,0,0,fx,{\k25\fad(250,200)}Let's get it started
+Dialogue: 0,0:00:03.24,0:00:10.64,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Cot{\k68}ton {\k73}can{\kf124}dy,{\k40} {\k83}cot{\k65}ton {\k56}ca- {\k37}can{\k48}dy
+Dialogue: 0,0:00:09.56,0:00:13.70,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Can{\k40}dy, {\k27}can{\k38}dy, {\k24}can{\k31}dy, {\k19}can{\k28}dy, {\k16}can{\k18}dy, {\k20}can{\k10}dy
+Dialogue: 0,0:00:12.60,0:00:14.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Hey
+Dialogue: 0,0:00:13.33,0:00:16.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}I'm {\k21}what {\k24}you {\k37}need,{\k31} {\k31}I'm {\k21}what {\k27}you {\k18}want
+Dialogue: 0,0:00:15.73,0:00:19.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k27}got {\k24}it {\k49}all,{\k20} {\k23}a {\k30}car{\k23}ni{\k50}val
+Dialogue: 0,0:00:18.67,0:00:22.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}I'll {\k22}bring {\k26}you {\k23}up, {\k26}I'll {\k24}take {\k24}you {\k50}down
+Dialogue: 0,0:00:21.10,0:00:24.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}I'm {\k20}stic{\k24}ky {\k51}sweet,{\k23} {\k28}stuck {\k22}in {\k25}your {\k50}teeth
+Dialogue: 0,0:00:23.82,0:00:28.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Like {\k78}cot{\k76}ton {\k76}can{\kf116}dy
+Dialogue: 0,0:00:28.17,0:00:32.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k79}Cot{\k70}ton {\k76}can{\kf109}dy
+Dialogue: 0,0:00:30.90,0:00:33.19,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ah-{\k25}ah, {\k26}ah-{\k43}ah
+Dialogue: 0,0:00:32.09,0:00:36.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k77}Cot{\k68}ton {\k78}can{\kf111}dy
+Dialogue: 0,0:00:34.80,0:00:37.10,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ah-{\k24}ah, {\k27}ah-{\k43}oh
+Dialogue: 0,0:00:36.02,0:00:40.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k75}Cot{\k69}ton {\k74}can{\k76}dy
+Dialogue: 0,0:00:38.73,0:00:41.03,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ah-{\k24}ah, {\k25}ah-{\k49}ah
+Dialogue: 0,0:00:39.21,0:00:41.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I'm {\k24}what {\k27}you {\k46}want
+Dialogue: 0,0:00:40.66,0:00:43.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Not {\k18}what {\k31}you {\k59}need
+Dialogue: 0,0:00:42.62,0:00:44.88,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ah-{\k23}ah, {\k30}ah-{\k39}oh
+Dialogue: 0,0:00:43.78,0:00:46.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Hey,{\k15} {\k26}I {\k28}don't {\k24}know {\k49}why
+Dialogue: 0,0:00:45.98,0:00:48.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}I'm {\k22}what {\k26}you {\k27}want
+Dialogue: 0,0:00:47.00,0:00:49.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}But {\k23}it's {\k23}the {\k53}truth
+Dialogue: 0,0:00:48.44,0:00:50.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I'm {\k23}not {\k28}your {\k48}lie
+Dialogue: 0,0:00:49.86,0:00:51.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Let {\k27}them {\k22}eat {\k22}cake
+Dialogue: 0,0:00:50.97,0:00:53.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Let {\k24}them {\k23}eat {\k50}pie
+Dialogue: 0,0:00:52.35,0:00:54.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Or {\k26}bet{\k22}ter {\k49}yet
+Dialogue: 0,0:00:53.82,0:00:59.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Let {\k26}them {\k22}eat {\k77}cot{\k69}ton {\k76}can{\kf120}dy
+Dialogue: 0,0:00:58.47,0:01:02.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k75}Cot{\k71}ton {\k73}can{\kf121}dy
+Dialogue: 0,0:01:01.13,0:01:03.40,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Ah-{\k24}ah, {\k25}ah-{\k41}ah
+Dialogue: 0,0:01:02.36,0:01:06.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k74}Cot{\k72}ton {\k75}can{\kf119}dy
+Dialogue: 0,0:01:05.03,0:01:07.36,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Ah-{\k25}ah, {\k24}ah-{\k47}oh
+Dialogue: 0,0:01:06.27,0:01:10.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k74}Cot{\k73}ton {\k73}can{\kf109}dy
+Dialogue: 0,0:01:08.96,0:01:11.26,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Ah-{\k22}ah, {\k25}ah-{\k46}ah
+Dialogue: 0,0:01:09.35,0:01:11.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}I'm {\k24}what {\k25}you {\k39}want
+Dialogue: 0,0:01:10.87,0:01:13.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Not {\k21}what {\k21}you {\k48}need
+Dialogue: 0,0:01:12.05,0:01:16.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Cot{\k48}ton {\k48}can{\k22}dy {\kf180}skies
+Dialogue: 0,0:01:15.96,0:01:20.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k57}Sweet {\k46}as {\k51}ap{\k23}ple {\kf172}pie
+Dialogue: 0,0:01:19.88,0:01:24.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}I {\k52}can't {\k47}help {\k25}but {\kf175}shine
+Dialogue: 0,0:01:23.78,0:01:31.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Brigh{\k49}ter {\k50}than {\k20}the {\kf124}star{\k52}light {\k25}in {\k44}the {\kf205}sky
+Dialogue: 0,0:01:29.68,0:01:34.09,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k76}Cot{\k70}ton {\k74}can{\kf111}dy
+Dialogue: 0,0:01:33.58,0:01:38.06,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k77}Cot{\k69}ton {\k73}can{\kf119}dy
+Dialogue: 0,0:01:36.96,0:01:38.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Yeah
+Dialogue: 0,0:01:37.43,0:01:41.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k81}Cot{\k68}ton {\k75}can{\kf110}dy
+Dialogue: 0,0:01:40.56,0:01:44.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}I'm {\k23}what {\k28}you {\k42}want,{\k23} {\k30}not {\k20}what {\k28}you {\k51}need
+Dialogue: 0,0:01:44.06,0:01:46.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}So, {\k23}what {\k28}you {\k45}want?
+Dialogue: 0,0:01:45.85,0:01:49.15,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Ya hungry? Take a bite!
+Dialogue: 0,0:01:48.85,0:01:51.73,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Get fucked tonight!
+Dialogue: 0,0:01:51.82,0:01:54.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}So, {\k24}what {\k25}you {\k47}want?
+Dialogue: 0,0:01:53.23,0:01:56.24,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Your Queen Bee brings the sweet stuff
+Dialogue: 0,0:01:55.26,0:01:59.74,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}So keep making me that motherfucking honey!
+Dialogue: 0,0:01:59.10,0:02:01.33,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Yeah, keep it comin'
+Dialogue: 0,0:02:00.91,0:02:05.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k76}Cot{\k69}ton {\k74}can{\kf113}dy
+Dialogue: 0,0:02:03.59,0:02:05.90,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ah-{\k24}ah, {\k27}ah-{\k46}ah
+Dialogue: 0,0:02:04.80,0:02:09.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k76}Cot{\k72}ton {\k74}can{\kf116}dy
+Dialogue: 0,0:02:07.47,0:02:09.82,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ah-{\k26}ah, {\k24}ah-{\k49}oh
+Dialogue: 0,0:02:08.72,0:02:13.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k74}Cot{\k72}ton {\k72}can{\kf111}dy
+Dialogue: 0,0:02:11.39,0:02:13.70,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ah-{\k24}ah, {\k25}ah-{\k47}ah
+Dialogue: 0,0:02:11.89,0:02:14.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I'm {\k24}what {\k25}you {\k33}want
+Dialogue: 0,0:02:13.32,0:02:15.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Not {\k23}what {\k27}you {\k47}need
+Dialogue: 0,0:02:14.55,0:02:19.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Cot{\k49}ton {\k47}can{\k21}dy {\kf183}skies
+Dialogue: 0,0:02:18.36,0:02:22.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k64}Sweet {\k42}as {\k48}ap{\k24}ple {\kf173}pie
+Dialogue: 0,0:02:22.13,0:02:26.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}And {\k45}I {\k52}can't {\k43}hеlp {\k24}but {\kf175}shine
+Dialogue: 0,0:02:26.29,0:02:30.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Brigh{\k46}ter {\k44}than {\k25}the {\kf124}star{\k65}light
+Dialogue: 0,0:02:30.11,0:02:34.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Cot{\k50}ton {\k45}can{\k26}dy {\kf155}skiеs
+Dialogue: 0,0:02:33.97,0:02:38.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}Sweet {\k47}as {\k48}ap{\k25}ple {\kf171}pie
+Dialogue: 0,0:02:37.92,0:02:42.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}I {\k53}can't {\k45}help {\k25}but {\kf170}shine
+Dialogue: 0,0:02:41.85,0:02:49.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Brigh{\k50}ter {\k46}than {\k24}the {\kf125}star{\k48}light {\k24}in {\k45}the {\kf278}sky
