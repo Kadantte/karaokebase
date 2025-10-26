@@ -1,0 +1,185 @@
+﻿[Script Info]
+Title: Your Idol
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: puyo, NikoNikoD
+Original Script: Karaoke Mugen
+Original Editing: puyo
+Synch Point: puyo, NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,60,1
+Style: Saja Boys,Arial,24,&H00FFFFFF,&H007131DB,&H00000000,&H007131DB,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Jinu,Arial,24,&H00FFFFFF,&H00148AFF,&H00000000,&H00148AFF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Abby,Arial,24,&H00FFFFFF,&H008660D1,&H00000000,&H008660D1,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Mystery,Arial,24,&H00FFFFFF,&H00EC8E88,&H00000000,&H00EC8E88,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Romance,Arial,24,&H00FFFFFF,&H00E09AF2,&H00000000,&H00E09AF2,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Baby,Arial,24,&H00FFFFFF,&H00B2CF4A,&H00000000,&H00B2CF4A,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Abby - Choir,Arial,24,&H00FFFFFF,&H008660D1,&H00000000,&H008660D1,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Ensemble - Choir,Arial,24,&H00FFFFFF,&H00597DCE,&H00000000,&H00597DCE,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H7131DB&}Saja Boys{\c} | {\c&H148AFF&}Jinu{\c} | {\c&H8660D1&}Abby{\c} | {\c&HEC8E88&}Mystery{\c} | {\c&HE09AF2&}Romance{\c} | {\c&HB2CF4A&}Baby{\c} | {\c&H597DCE&}Choir{\c}
+Comment: 0,0:00:00.50,0:00:02.75,Ensemble - Choir,,0,0,0,karaoke,{\k67}Pray {\k67}for {\k67}me {\k24}now
+Comment: 0,0:00:03.16,0:00:05.41,Ensemble - Choir,,0,0,0,karaoke,{\k67}Pray {\k67}for {\k67}me {\k24}now
+Comment: 0,0:00:05.86,0:00:08.11,Ensemble - Choir,,0,0,0,karaoke,{\k67}Pray {\k67}for {\k67}me {\k24}now
+Comment: 0,0:00:08.52,0:00:10.77,Ensemble - Choir,,0,0,0,karaoke,{\k67}Pray {\k67}for {\k67}me {\k24}now
+Comment: 0,0:00:11.19,0:00:13.44,Ensemble - Choir,,0,0,0,karaoke,{\k67}Pray {\k67}for {\k67}me {\k24}now
+Comment: 0,0:00:13.83,0:00:16.08,Ensemble - Choir,,0,0,0,karaoke,{\k67}Pray {\k67}for {\k67}me {\k24}now
+Comment: 0,0:00:16.53,0:00:18.78,Ensemble - Choir,,0,0,0,karaoke,{\k67}Pray {\k67}for {\k67}me {\k24}now
+Comment: 0,0:00:19.18,0:00:21.43,Ensemble - Choir,,0,0,0,karaoke,{\k67}Pray {\k67}for {\k67}me {\k24}now
+Comment: 0,0:00:21.86,0:00:24.11,Ensemble - Choir,,0,0,0,karaoke,{\k67}Pray {\k67}for {\k67}me {\k24}now
+Comment: 0,0:00:03.16,0:00:08.09,Saja Boys,,0,0,0,karaoke,{\k73}Di{\k64}es {\k64}i{\k68}rae {\kf165}il{\k59}la
+Comment: 0,0:00:08.52,0:00:12.96,Saja Boys,,0,0,0,karaoke,{\k64}Vos {\k36}sol{\k35}ve {\k64}in {\k35}fa{\k69}vil{\kf141}la
+Comment: 0,0:00:13.84,0:00:18.72,Saja Boys,,0,0,0,karaoke,{\k69}Ma{\k64}le{\k66}dic{\k67}tus {\kf131}e{\k91}rus
+Comment: 0,0:00:19.20,0:00:23.40,Saja Boys,,0,0,0,karaoke,{\k61}In {\k33}fla{\k63}mas {\k36}ae{\kf170}ter{\k57}num
+Comment: 0,0:00:22.83,0:00:24.49,Saja Boys,,0,0,0,karaoke,{\k33}I'll {\k35}be {\k32}your {\k36}i{\k30}dol
+Comment: 0,0:00:25.15,0:00:27.52,Abby,,0,0,0,karaoke,{\k17}Kee{\k17}pin' {\k16}you {\k14}in {\k68}check, {\k20}kee{\k17}pin' {\k12}you {\k16}ob{\k40}sessed
+Comment: 0,0:00:27.82,0:00:29.50,Abby,,0,0,0,karaoke,{\k22}PLAY {\k15}ME {\k14}ON {\k20}RE{\k30}PEAT {\k20}kkeut{\k14}eop{\k33}si
+Comment: 0,0:00:29.50,0:00:30.19,Abby,,0,0,0,karaoke,{\k15}In {\k16}your {\k38}head
+Comment: 0,0:00:30.51,0:00:32.93,Abby,,0,0,0,karaoke,{\k17}A{\k11}ny{\k23}time {\k18}it {\k62}hurts, {\k18}play {\k15}a{\k17}no{\k18}ther {\k43}verse
+Comment: 0,0:00:33.16,0:00:35.18,Abby,,0,0,0,karaoke,{\k18}I {\k14}can {\k21}be {\k14}your {\k33}sanc{\k34}tu{\k33}a{\k35}ry
+Comment: 0,0:00:35.46,0:00:37.62,Mystery,,0,0,0,karaoke,{\k38}Know {\k18}I'm {\k18}the {\k15}on{\k17}ly {\k31}one {\k31}right {\k48}now
+Comment: 0,0:00:37.83,0:00:40.17,Mystery,,0,0,0,karaoke,{\k16}I {\k17}will {\k19}love {\k16}you {\k32}more {\k18}when {\k18}it {\k30}all {\k34}burns {\k34}down
+Comment: 0,0:00:40.17,0:00:42.27,Romance,,0,0,0,karaoke,{\k17}More {\k17}than {\k31}po{\k63}wer, {\k21\rMystery}more {\k18}than {\k43}gold
+Comment: 0,0:00:42.83,0:00:44.16,Saja Boys,,0,0,0,karaoke,{\k21}Yeah {\k14}you {\k33}gave {\k16}me {\k15}your {\k34}heart
+Comment: 0,0:00:44.16,0:00:45.50,Saja Boys,,0,0,0,karaoke,{\k16}Now {\k20}I'm {\k31}here {\k16}for {\k14}your {\k37}soul
+Comment: 0,0:00:45.51,0:00:50.34,Jinu,,0,0,0,karaoke,{\k17}I'm {\k22}the {\k42}on{\k53}ly {\k48}one {\k47}who'll {\k54}love {\k49}your {\kf151}sins
+Comment: 0,0:00:50.49,0:00:51.64,Jinu,,0,0,0,karaoke,{\k19}Feel {\k16}the {\k16}way {\k17}my {\k47}voice
+Comment: 0,0:00:51.68,0:00:55.83,Jinu,,0,0,0,karaoke,{\k49}Gets {\k50}un{\k47}der{\k52}neath {\k68}your {\kf149}skin
+Comment: 0,0:00:55.83,0:00:58.49,Jinu,,0,0,0,karaoke,{\k18}Lis{\k17}ten {\k19}cause {\k77}I'm {\k17}pea{\k18}chin' {\k18}to {\k12}the {\k40}choi{\k30}r
+Comment: 0,0:00:59.16,0:01:01.18,Jinu,,0,0,0,karaoke,{\k17}Can {\k19}I {\k15}get {\k15}the {\k19}mic {\k14}a {\k19}lit{\k16}tle {\k33}high{\k35}er?
+Comment: 0,0:01:02.51,0:01:03.84,Jinu,,0,0,0,karaoke,{\k16}Gim{\k17}me {\k16}your {\k17}de{\k32}si{\k35}re
+Comment: 0,0:01:04.48,0:01:06.60,Jinu,,0,0,0,karaoke,{\k19}I {\k17}can {\k16}be {\k17}the {\k33}star {\k18}you {\k16}re{\k30}ly {\k46}on
+Comment: 0,0:01:06.15,0:01:07.18,Abby - Choir,,0,0,0,karaoke,{\k18}You {\k16}re{\k34}ly {\k35}on
+Comment: 0,0:01:06.99,0:01:08.31,Romance,,0,0,0,karaoke,{\k19}nae {\k35}hwang{\k16}ho{\k12}lae {\k36}chwi{\k14}hae
+Comment: 0,0:01:08.31,0:01:09.56,Romance,,0,0,0,karaoke,{\k18}You {\k34}can't {\k16}look {\k17}a{\k40}way
+Comment: 0,0:01:09.81,0:01:13.09,Romance,,0,0,0,karaoke,{\k36}Don't {\k20}you {\k18}know {\k29}I'm {\k14}here {\k15}to {\k71}save {\kf125}you
+Comment: 0,0:01:13.17,0:01:14.50,Romance,,0,0,0,karaoke,{\k17}Now {\k16}we're {\k16}run{\k18}nin' {\k33}wi{\k33}ld
+Comment: 0,0:01:14.85,0:01:18.00,Jinu,,0,0,0,karaoke,{\k31}Yeah {\k27}I'm {\k19}all {\k20}you {\k35}need {\k16}I'm{\k18}a {\k31}be {\k34}your {\k54}i{\k30}dol
+Comment: 0,0:01:28.16,0:01:29.46,Baby,,0,0,0,karaoke,{\k30}Uh, {\k18}bi{\k18}chi{\k19}na{\k16}neun {\k29}FAME
+Comment: 0,0:01:29.46,0:01:31.01,Baby,,0,0,0,karaoke,{\k16}gye{\k14}sok {\k17}oe{\k18}chyeo {\k15}I'M {\k18}YOUR {\k36}I{\k21}DOL
+Comment: 0,0:01:31.15,0:01:32.14,Baby,,0,0,0,karaoke,{\k16}Thank {\k16}you {\k17}for {\k20}the {\k30}pain
+Comment: 0,0:01:32.14,0:01:33.73,Baby,,0,0,0,karaoke,{\k20}Cause {\k16}it {\k17}got {\k16}me {\k16}go{\k18}ing {\k35}vi{\k21}ral
+Comment: 0,0:01:33.81,0:01:35.80,Baby,,0,0,0,karaoke,{\k27}Uh, {\k42}yeah, {\k17}na{\k12}ji {\k22}an{\k17}neun {\k29}FE{\k33}VER
+Comment: 0,0:01:35.80,0:01:36.98,Baby,,0,0,0,karaoke,{\k17}Ma{\k11}kin' {\k12}you {\k13}a {\k17}be{\k33}lie{\k15}ver
+Comment: 0,0:01:37.15,0:01:39.02,Baby,,0,0,0,karaoke,{\k21}na{\k9}reul {\k11}wi{\k13}hae {\k13}neon {\k18}jon{\k18}jae {\k19}ha{\k14}neun {\k34}I{\k17}DOL
+Comment: 0,0:01:39.16,0:01:41.67,Abby,,0,0,0,karaoke,{\k33}Don't {\k20}let {\k17}it {\k30}show, {\k18}keep {\k19}it {\k30}all {\k30}in{\k54}side
+Comment: 0,0:01:41.68,0:01:44.34,Abby,,0,0,0,karaoke,{\k16}The {\k32}pain {\k17}and {\k17}the {\k34}shame, {\k18}keep {\k20}it {\k30}out{\k31}ta {\k51}sight
+Comment: 0,0:01:44.16,0:01:46.63,Romance,,0,0,0,karaoke,{\k16}Your {\k15}ob{\k34}se{\k50}ssion {\k22}feeds {\k17}our {\k15}con{\k29}nec{\k49}tion
+Comment: 0,0:01:46.85,0:01:49.44,Romance,,0,0,0,karaoke,{\k15}i {\k18}sun{\k32}gan {\k18}GIVE {\k16}ME {\k31}ALL {\k14}YOUR {\k15}AT{\k38}TEN{\k62}TION
+Comment: 0,0:01:49.18,0:01:51.32,Jinu,,0,0,0,karaoke,{\k18}You {\k18}know {\k17}I'm {\k14}the {\k48}on{\k50}ly {\k49}one
+Comment: 0,0:01:51.33,0:01:54.37,Jinu,,0,0,0,karaoke,{\k50}Who'll {\k52}love {\k48}your {\kf154}sins
+Comment: 0,0:01:54.51,0:01:55.66,Jinu,,0,0,0,karaoke,{\k19}Feel {\k15}the {\k17}way {\k17}my {\k47}voice
+Comment: 0,0:01:55.70,0:01:59.85,Jinu,,0,0,0,karaoke,{\k49}Gets {\k50}un{\k47}der{\k52}neath {\k68}your {\kf149}skin
+Comment: 0,0:01:59.85,0:02:02.51,Jinu,,0,0,0,karaoke,{\k18}Lis{\k17}ten {\k19}cause {\k77}I'm {\k17}pea{\k18}chin' {\k18}to {\k12}the {\k40}choi{\k30}r
+Comment: 0,0:02:03.18,0:02:05.20,Jinu,,0,0,0,karaoke,{\k17}Can {\k19}I {\k15}get {\k15}the {\k19}mic {\k14}a {\k19}lit{\k16}tle {\k33}high{\k35}er?
+Comment: 0,0:02:06.53,0:02:07.86,Jinu,,0,0,0,karaoke,{\k16}Gim{\k17}me {\k16}your {\k17}de{\k32}si{\k35}re
+Comment: 0,0:02:08.50,0:02:10.62,Jinu,,0,0,0,karaoke,{\k19}I {\k17}can {\k16}be {\k17}the {\k33}star {\k18}you {\k16}re{\k30}ly {\k46}on
+Comment: 0,0:02:10.17,0:02:11.20,Abby - Choir,,0,0,0,karaoke,{\k18}You {\k16}re{\k34}ly {\k35}on
+Comment: 0,0:02:11.01,0:02:12.33,Romance,,0,0,0,karaoke,{\k19}nae {\k35}hwang{\k16}ho{\k12}lae {\k36}chwi{\k14}hae
+Comment: 0,0:02:12.33,0:02:13.58,Romance,,0,0,0,karaoke,{\k18}You {\k34}can't {\k16}look {\k17}a{\k40}way
+Comment: 0,0:02:13.83,0:02:17.11,Romance,,0,0,0,karaoke,{\k36}Don't {\k20}you {\k18}know {\k29}I'm {\k14}here {\k15}to {\k71}save {\kf125}you
+Comment: 0,0:02:17.19,0:02:18.52,Romance,,0,0,0,karaoke,{\k17}Now {\k16}we're {\k16}run{\k18}nin' {\k33}wi{\k33}ld
+Comment: 0,0:02:18.87,0:02:22.02,Jinu,,0,0,0,karaoke,{\k31}Yeah {\k27}I'm {\k19}all {\k20}you {\k35}need {\k16}I'm{\k18}a {\k31}be {\k34}your {\k54}i{\k30}dol
+Comment: 0,0:02:31.17,0:02:32.62,Ensemble - Choir,,0,0,0,karaoke,{\k32}Be {\k34}your {\k53}i{\k26}dol
+Comment: 0,0:02:32.82,0:02:35.19,Saja Boys,,0,0,0,karaoke,{\k20}Li{\k48}vin' {\k16}in {\k50}your {\k69}mind {\k34}now
+Comment: 0,0:02:35.48,0:02:37.79,Saja Boys,,0,0,0,karaoke,{\k18}Too {\k49}late {\k20}'cause {\k46}you're {\k68}mine {\k30}now
+Comment: 0,0:02:37.85,0:02:39.73,Jinu,,0,0,0,karaoke,{\k34}I {\k30}will {\k32}make {\k37}you {\k55}free
+Comment: 0,0:02:39.84,0:02:42.64,Jinu,,0,0,0,karaoke,{\k29}When {\k34}you're {\k36}all {\k33}a {\k36}part {\k31}of {\k81}me
+Comment: 0,0:02:42.46,0:02:43.19,Ensemble - Choir,,0,0,0,karaoke,{\k18}Lis{\k18}ten {\k18}cause {\k19}I'm
+Comment: 0,0:02:43.19,0:02:44.48,Jinu,,0,0,0,karaoke,{\k14}Prea{\k15}chin' {\k19}to {\k14}the {\k38}choi{\k29}r
+Comment: 0,0:02:44.52,0:02:45.16,Ensemble - Choir,,0,0,0,karaoke,{\k64}NOW!
+Comment: 0,0:02:45.16,0:02:48.39,Jinu,,0,0,0,karaoke,{\k19}Can {\k15}I {\k17}get {\k14}the {\k20}mic {\k16}a {\k17}lit{\k16}tle {\k32}high{\kf157}er?
+Comment: 0,0:02:48.51,0:02:49.99,Jinu,,0,0,0,karaoke,{\k18}Gim{\k15}me {\k17}your {\k15}de{\k33}si{\k50}re
+Comment: 0,0:02:50.51,0:02:52.87,Jinu,,0,0,0,karaoke,{\k17}Once {\k14}we {\k17}set {\k17}your {\k34}world {\k32}on {\k31}fi{\k74}re
+Comment: 0,0:02:53.00,0:02:54.33,Jinu,,0,0,0,karaoke,{\k18}nae {\k34}hwang{\k16}ho{\k13}lae {\k34}chwi{\k18}hae
+Comment: 0,0:02:54.33,0:02:55.56,Jinu,,0,0,0,karaoke,{\k16}You {\k33}can't {\k20}look {\k13}a{\k41}way
+Comment: 0,0:02:55.84,0:02:59.18,Jinu,,0,0,0,karaoke,{\k32}No {\k18}one {\k15}is {\k36}co{\k15}min' {\k14}to {\k68}save {\kf136}you
+Comment: 0,0:02:59.19,0:03:00.51,Jinu,,0,0,0,karaoke,{\k15}Now {\k17}we {\k15}run{\k18}nin' {\k33}wi{\k34}ld
+Comment: 0,0:03:00.82,0:03:03.94,Jinu,,0,0,0,karaoke,{\k32}You're {\k30}down {\k18}on {\k20}your {\k33}knees, {\k17}I'm{\k17}a {\k32}be {\k36}your {\k52}i{\k25}dol
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H7131DB&}Saja Boys{\c} | {\c&H148AFF&}Jinu{\c} | {\c&H8660D1&}Abby{\c} | {\c&HEC8E88&}Mystery{\c} | {\c&HE09AF2&}Romance{\c} | {\c&HB2CF4A&}Baby{\c} | {\c&H597DCE&}Choir{\c}
+Dialogue: 0,0:00:00.00,0:00:02.95,Ensemble - Choir,,0,0,0,fx,{\k50\fad(500,200)}{\k67}Pray {\k67}for {\k67}me {\k24}now
+Dialogue: 0,0:00:02.26,0:00:05.61,Ensemble - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Pray {\k67}for {\k67}me {\k24}now
+Dialogue: 0,0:00:04.96,0:00:08.31,Ensemble - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Pray {\k67}for {\k67}me {\k24}now
+Dialogue: 0,0:00:07.62,0:00:10.97,Ensemble - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Pray {\k67}for {\k67}me {\k24}now
+Dialogue: 0,0:00:10.29,0:00:13.64,Ensemble - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Pray {\k67}for {\k67}me {\k24}now
+Dialogue: 0,0:00:12.93,0:00:16.28,Ensemble - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Pray {\k67}for {\k67}me {\k24}now
+Dialogue: 0,0:00:15.63,0:00:18.98,Ensemble - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Pray {\k67}for {\k67}me {\k24}now
+Dialogue: 0,0:00:18.28,0:00:21.63,Ensemble - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Pray {\k67}for {\k67}me {\k24}now
+Dialogue: 0,0:00:20.96,0:00:24.31,Ensemble - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Pray {\k67}for {\k67}me {\k24}now
+Dialogue: 0,0:00:02.26,0:00:08.29,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k73}Di{\k64}es {\k64}i{\k68}rae {\kf165}il{\k59}la
+Dialogue: 0,0:00:07.62,0:00:13.16,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k64}Vos {\k36}sol{\k35}ve {\k64}in {\k35}fa{\k69}vil{\kf141}la
+Dialogue: 0,0:00:12.94,0:00:18.92,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k69}Ma{\k64}le{\k66}dic{\k67}tus {\kf131}e{\k91}rus
+Dialogue: 0,0:00:18.30,0:00:23.60,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k61}In {\k33}fla{\k63}mas {\k36}ae{\kf170}ter{\k57}num
+Dialogue: 0,0:00:21.93,0:00:24.69,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k33}I'll {\k35}be {\k32}your {\k36}i{\k30}dol
+Dialogue: 0,0:00:24.25,0:00:27.72,Abby,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Kee{\k17}pin' {\k16}you {\k14}in {\k68}check, {\k20}kee{\k17}pin' {\k12}you {\k16}ob{\k40}sessed
+Dialogue: 0,0:00:26.92,0:00:29.70,Abby,,0,0,0,fx,{\k90\fad(300,200)}{\k22}PLAY {\k15}ME {\k14}ON {\k20}RE{\k30}PEAT {\k20}kkeut{\k14}eop{\k33}si
+Dialogue: 0,0:00:28.60,0:00:30.39,Abby,,0,0,0,fx,{\k90\fad(300,200)}{\k15}In {\k16}your {\k38}head
+Dialogue: 0,0:00:29.61,0:00:33.13,Abby,,0,0,0,fx,{\k90\fad(300,200)}{\k17}A{\k11}ny{\k23}time {\k18}it {\k62}hurts, {\k18}play {\k15}a{\k17}no{\k18}ther {\k43}verse
+Dialogue: 0,0:00:32.26,0:00:35.38,Abby,,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k14}can {\k21}be {\k14}your {\k33}sanc{\k34}tu{\k33}a{\k35}ry
+Dialogue: 0,0:00:34.56,0:00:37.82,Mystery,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Know {\k18}I'm {\k18}the {\k15}on{\k17}ly {\k31}one {\k31}right {\k48}now
+Dialogue: 0,0:00:36.93,0:00:40.37,Mystery,,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k17}will {\k19}love {\k16}you {\k32}more {\k18}when {\k18}it {\k30}all {\k34}burns {\k34}down
+Dialogue: 0,0:00:39.27,0:00:42.47,Romance,,0,0,0,fx,{\k90\fad(300,200)}{\k17}More {\k17}than {\k31}po{\k63}wer, {\k21\rMystery}more {\k18}than {\k43}gold
+Dialogue: 0,0:00:41.93,0:00:44.36,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Yeah {\k14}you {\k33}gave {\k16}me {\k15}your {\k34}heart
+Dialogue: 0,0:00:43.26,0:00:45.70,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Now {\k20}I'm {\k31}here {\k16}for {\k14}your {\k37}soul
+Dialogue: 0,0:00:44.61,0:00:50.54,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I'm {\k22}the {\k42}on{\k53}ly {\k48}one {\k47}who'll {\k54}love {\k49}your {\kf151}sins
+Dialogue: 0,0:00:49.59,0:00:51.84,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Feel {\k16}the {\k16}way {\k17}my {\k47}voice
+Dialogue: 0,0:00:50.78,0:00:56.03,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k49}Gets {\k50}un{\k47}der{\k52}neath {\k68}your {\kf149}skin
+Dialogue: 0,0:00:54.93,0:00:58.69,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Lis{\k17}ten {\k19}cause {\k77}I'm {\k17}pea{\k18}chin' {\k18}to {\k12}the {\k40}choi{\k30}r
+Dialogue: 0,0:00:58.26,0:01:01.38,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Can {\k19}I {\k15}get {\k15}the {\k19}mic {\k14}a {\k19}lit{\k16}tle {\k33}high{\k35}er?
+Dialogue: 0,0:01:01.61,0:01:04.04,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Gim{\k17}me {\k16}your {\k17}de{\k32}si{\k35}re
+Dialogue: 0,0:01:03.58,0:01:06.80,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k17}can {\k16}be {\k17}the {\k33}star {\k18}you {\k16}re{\k30}ly {\k46}on
+Dialogue: 0,0:01:05.25,0:01:07.38,Abby - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k16}re{\k34}ly {\k35}on
+Dialogue: 0,0:01:06.09,0:01:08.51,Romance,,0,0,0,fx,{\k90\fad(300,200)}{\k19}nae {\k35}hwang{\k16}ho{\k12}lae {\k36}chwi{\k14}hae
+Dialogue: 0,0:01:07.41,0:01:09.76,Romance,,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k34}can't {\k16}look {\k17}a{\k40}way
+Dialogue: 0,0:01:08.91,0:01:13.29,Romance,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Don't {\k20}you {\k18}know {\k29}I'm {\k14}here {\k15}to {\k71}save {\kf125}you
+Dialogue: 0,0:01:12.27,0:01:14.70,Romance,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Now {\k16}we're {\k16}run{\k18}nin' {\k33}wi{\k33}ld
+Dialogue: 0,0:01:13.95,0:01:18.20,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Yeah {\k27}I'm {\k19}all {\k20}you {\k35}need {\k16}I'm{\k18}a {\k31}be {\k34}your {\k54}i{\k30}dol
+Dialogue: 0,0:01:27.26,0:01:29.66,Baby,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Uh, {\k18}bi{\k18}chi{\k19}na{\k16}neun {\k29}FAME
+Dialogue: 0,0:01:28.56,0:01:31.21,Baby,,0,0,0,fx,{\k90\fad(300,200)}{\k16}gye{\k14}sok {\k17}oe{\k18}chyeo {\k15}I'M {\k18}YOUR {\k36}I{\k21}DOL
+Dialogue: 0,0:01:30.25,0:01:32.34,Baby,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Thank {\k16}you {\k17}for {\k20}the {\k30}pain
+Dialogue: 0,0:01:31.24,0:01:33.93,Baby,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Cause {\k16}it {\k17}got {\k16}me {\k16}go{\k18}ing {\k35}vi{\k21}ral
+Dialogue: 0,0:01:32.91,0:01:36.00,Baby,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Uh, {\k42}yeah, {\k17}na{\k12}ji {\k22}an{\k17}neun {\k29}FE{\k33}VER
+Dialogue: 0,0:01:34.90,0:01:37.18,Baby,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ma{\k11}kin' {\k12}you {\k13}a {\k17}be{\k33}lie{\k15}ver
+Dialogue: 0,0:01:36.25,0:01:39.22,Baby,,0,0,0,fx,{\k90\fad(300,200)}{\k21}na{\k9}reul {\k11}wi{\k13}hae {\k13}neon {\k18}jon{\k18}jae {\k19}ha{\k14}neun {\k34}I{\k17}DOL
+Dialogue: 0,0:01:38.26,0:01:41.87,Abby,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Don't {\k20}let {\k17}it {\k30}show, {\k18}keep {\k19}it {\k30}all {\k30}in{\k54}side
+Dialogue: 0,0:01:40.78,0:01:44.54,Abby,,0,0,0,fx,{\k90\fad(300,200)}{\k16}The {\k32}pain {\k17}and {\k17}the {\k34}shame, {\k18}keep {\k20}it {\k30}out{\k31}ta {\k51}sight
+Dialogue: 0,0:01:43.26,0:01:46.83,Romance,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Your {\k15}ob{\k34}se{\k50}ssion {\k22}feeds {\k17}our {\k15}con{\k29}nec{\k49}tion
+Dialogue: 0,0:01:45.95,0:01:49.64,Romance,,0,0,0,fx,{\k90\fad(300,200)}{\k15}i {\k18}sun{\k32}gan {\k18}GIVE {\k16}ME {\k31}ALL {\k14}YOUR {\k15}AT{\k38}TEN{\k62}TION
+Dialogue: 0,0:01:48.28,0:01:51.52,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k18}know {\k17}I'm {\k14}the {\k48}on{\k50}ly {\k49}one
+Dialogue: 0,0:01:50.43,0:01:54.57,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Who'll {\k52}love {\k48}your {\kf154}sins
+Dialogue: 0,0:01:53.61,0:01:55.86,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Feel {\k15}the {\k17}way {\k17}my {\k47}voice
+Dialogue: 0,0:01:54.80,0:02:00.05,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k49}Gets {\k50}un{\k47}der{\k52}neath {\k68}your {\kf149}skin
+Dialogue: 0,0:01:58.95,0:02:02.71,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Lis{\k17}ten {\k19}cause {\k77}I'm {\k17}pea{\k18}chin' {\k18}to {\k12}the {\k40}choi{\k30}r
+Dialogue: 0,0:02:02.28,0:02:05.40,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Can {\k19}I {\k15}get {\k15}the {\k19}mic {\k14}a {\k19}lit{\k16}tle {\k33}high{\k35}er?
+Dialogue: 0,0:02:05.63,0:02:08.06,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Gim{\k17}me {\k16}your {\k17}de{\k32}si{\k35}re
+Dialogue: 0,0:02:07.60,0:02:10.82,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k17}can {\k16}be {\k17}the {\k33}star {\k18}you {\k16}re{\k30}ly {\k46}on
+Dialogue: 0,0:02:09.27,0:02:11.40,Abby - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k16}re{\k34}ly {\k35}on
+Dialogue: 0,0:02:10.11,0:02:12.53,Romance,,0,0,0,fx,{\k90\fad(300,200)}{\k19}nae {\k35}hwang{\k16}ho{\k12}lae {\k36}chwi{\k14}hae
+Dialogue: 0,0:02:11.43,0:02:13.78,Romance,,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k34}can't {\k16}look {\k17}a{\k40}way
+Dialogue: 0,0:02:12.93,0:02:17.31,Romance,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Don't {\k20}you {\k18}know {\k29}I'm {\k14}here {\k15}to {\k71}save {\kf125}you
+Dialogue: 0,0:02:16.29,0:02:18.72,Romance,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Now {\k16}we're {\k16}run{\k18}nin' {\k33}wi{\k33}ld
+Dialogue: 0,0:02:17.97,0:02:22.22,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Yeah {\k27}I'm {\k19}all {\k20}you {\k35}need {\k16}I'm{\k18}a {\k31}be {\k34}your {\k54}i{\k30}dol
+Dialogue: 0,0:02:30.27,0:02:32.82,Ensemble - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Be {\k34}your {\k53}i{\k26}dol
+Dialogue: 0,0:02:31.92,0:02:35.39,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Li{\k48}vin' {\k16}in {\k50}your {\k69}mind {\k34}now
+Dialogue: 0,0:02:34.58,0:02:37.99,Saja Boys,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Too {\k49}late {\k20}'cause {\k46}you're {\k68}mine {\k30}now
+Dialogue: 0,0:02:36.95,0:02:39.93,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I {\k30}will {\k32}make {\k37}you {\k55}free
+Dialogue: 0,0:02:38.94,0:02:42.84,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k29}When {\k34}you're {\k36}all {\k33}a {\k36}part {\k31}of {\k81}me
+Dialogue: 0,0:02:41.56,0:02:43.39,Ensemble - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Lis{\k18}ten {\k18}cause {\k19}I'm
+Dialogue: 0,0:02:42.29,0:02:44.68,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Prea{\k15}chin' {\k19}to {\k14}the {\k38}choi{\k29}r
+Dialogue: 0,0:02:43.62,0:02:45.36,Ensemble - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k64}NOW!
+Dialogue: 0,0:02:44.26,0:02:48.59,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Can {\k15}I {\k17}get {\k14}the {\k20}mic {\k16}a {\k17}lit{\k16}tle {\k32}high{\kf157}er?
+Dialogue: 0,0:02:47.61,0:02:50.19,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Gim{\k15}me {\k17}your {\k15}de{\k33}si{\k50}re
+Dialogue: 0,0:02:49.61,0:02:53.07,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Once {\k14}we {\k17}set {\k17}your {\k34}world {\k32}on {\k31}fi{\k74}re
+Dialogue: 0,0:02:52.10,0:02:54.53,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k18}nae {\k34}hwang{\k16}ho{\k13}lae {\k34}chwi{\k18}hae
+Dialogue: 0,0:02:53.43,0:02:55.76,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k16}You {\k33}can't {\k20}look {\k13}a{\k41}way
+Dialogue: 0,0:02:54.94,0:02:59.38,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k32}No {\k18}one {\k15}is {\k36}co{\k15}min' {\k14}to {\k68}save {\kf136}you
+Dialogue: 0,0:02:58.29,0:03:00.71,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Now {\k17}we {\k15}run{\k18}nin' {\k33}wi{\k34}ld
+Dialogue: 0,0:02:59.92,0:03:04.14,Jinu,,0,0,0,fx,{\k90\fad(300,200)}{\k32}You're {\k30}down {\k18}on {\k20}your {\k33}knees, {\k17}I'm{\k17}a {\k32}be {\k36}your {\k52}i{\k25}dol
