@@ -1,0 +1,119 @@
+﻿[Script Info]
+Title: Es geht rund
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFB858,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H0028D19C,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.38,0:00:00.78,Sample KM [Up],,0,0,0,karaoke,{\k40}Drei
+Comment: 0,0:00:01.84,0:00:02.12,Sample KM [Up],,0,0,0,karaoke,{\k28}Zwei
+Comment: 0,0:00:03.22,0:00:03.57,Sample KM [Up],,0,0,0,karaoke,{\k35}Eins
+Comment: 0,0:00:03.57,0:00:06.59,Sample KM [Choir],,0,0,0,karaoke,{\k26}Let {\k21}it {\kf255}rip
+Comment: 0,0:00:10.43,0:00:13.74,Sample KM [Up],,0,0,0,karaoke,{\k17}Wenn {\k15}je{\k21}der {\k34}be{\k39}reit{\k37}steht, {\k22}star{\k17}tet {\k15}un{\k22}ser {\k36}Bey{\k56}blade
+Comment: 0,0:00:16.37,0:00:17.96,Sample KM [Up],,0,0,0,karaoke,{\k24}Schnel{\k19}ler {\k21}als {\k20}ein {\k19}Hur{\k17}ri{\k39}kane
+Comment: 0,0:00:17.96,0:00:19.40,Sample KM [Up],,0,0,0,karaoke,{\k16}So {\k20}kommst {\k12}du {\k19}als {\k22}ers{\k18}ter {\k37}an
+Comment: 0,0:00:22.32,0:00:25.02,Sample KM [Up],,0,0,0,karaoke,{\k24}Jetzt {\k29}geht's {\k45}rund {\k35}und {\k34}wir {\k34}be{\k40}gin{\k29}nen
+Comment: 0,0:00:25.25,0:00:27.96,Sample KM [Up],,0,0,0,karaoke,{\k18}Star{\k18}ten {\k26}voll {\k36}durch {\k31}und {\k36}wer{\k17}den {\k20}ge{\k35}win{\k34}nen
+Comment: 0,0:00:28.10,0:00:30.97,Sample KM [Up],,0,0,0,karaoke,{\k42}Lasst {\k21}die {\k43}Zeit {\k31}nicht {\k41}so {\k32}ver{\k36}rin{\k41}nen
+Comment: 0,0:00:31.09,0:00:33.86,Sample KM [Up],,0,0,0,karaoke,{\k53}Bey{\k43}blade {\k35}und {\k36}wir {\k35}ge{\k37}win{\k38}nen
+Comment: 0,0:00:45.65,0:00:48.52,Sample KM [Up],,0,0,0,karaoke,{\k11}Wenn {\k16}je{\k21}der {\k36}be{\k36}reit{\k38}steht, {\k20}star{\k15}tet {\k16}un{\k21}ser {\k33}Bey{\k24}blade
+Comment: 0,0:00:48.67,0:00:51.23,Sample KM [Up],,0,0,0,karaoke,{\k21}Här{\k14}ter {\k21}als {\k17}Be{\k36}ton {\k19}und {\k18}viel {\k20}stär{\k18}ker {\k17}als {\k18}King {\k37}Kong
+Comment: 0,0:00:51.57,0:00:53.04,Sample KM [Up],,0,0,0,karaoke,{\k22}Schnel{\k18}ler {\k18}als {\k19}ein {\k20}Hur{\k16}ri{\k34}kane
+Comment: 0,0:00:53.04,0:00:54.40,Sample KM [Up],,0,0,0,karaoke,{\k19}So {\k18}kommst {\k19}du {\k17}als {\k25}ers{\k15}ter {\k23}an
+Comment: 0,0:00:54.53,0:00:57.32,Sample KM [Up],,0,0,0,karaoke,{\k16}Ist {\k20}es {\k15}denn {\k23}ein {\k31}Wun{\k38}der? {\k18}Kei{\k20}ner {\k18}kriegt {\k19}dich {\k35}un{\k26}ter
+Comment: 0,0:00:57.45,0:01:00.18,Sample KM [Up],,0,0,0,karaoke,{\k24}Jetzt {\k31}geht's {\k42}rund {\k36}und {\k32}wir {\k35}be{\k42}gin{\k31}nen
+Comment: 0,0:01:00.38,0:01:03.11,Sample KM [Up],,0,0,0,karaoke,{\k17}Star{\k19}ten {\k25}voll {\k37}durch {\k31}und {\k36}wer{\k16}den {\k20}ge{\k35}win{\k37}nen
+Comment: 0,0:01:03.26,0:01:06.06,Sample KM [Up],,0,0,0,karaoke,{\k41}Lasst {\k19}die {\k42}Zeit {\k31}nicht {\k39}so {\k34}ver{\k36}rin{\k38}nen
+Comment: 0,0:01:06.23,0:01:08.96,Sample KM [Up],,0,0,0,karaoke,{\k54}Bey{\k41}blade {\k33}und {\k36}wir {\k37}ge{\k36}win{\k36}nen
+Comment: 0,0:01:08.98,0:01:12.06,Sample KM [Up],,0,0,0,karaoke,{\k19}Wenn {\k17}je{\k19}der {\k37}be{\k36}reit{\k36}steht, {\k19}star{\k18}tet {\k17}un{\k19}ser {\k37}Bey{\k34}blade
+Comment: 0,0:01:12.09,0:01:14.90,Sample KM [Up],,0,0,0,karaoke,{\k31}Bey{\k40}blade, {\k36}Bey{\k38}blade, {\k36}Bey{\k37}blade, {\k36}Bey{\k27}blade
+Comment: 0,0:01:16.45,0:01:16.84,Sample KM [Up],,0,0,0,karaoke,{\k39}Drei
+Comment: 0,0:01:17.92,0:01:18.63,Sample KM [Up],,0,0,0,karaoke,{\k71}Zwei
+Comment: 0,0:01:19.33,0:01:19.77,Sample KM [Up],,0,0,0,karaoke,{\k44}Eins
+Comment: 0,0:01:19.73,0:01:22.73,Sample KM [Choir],,0,0,0,karaoke,{\k21}Let {\k20}it {\kf259}rip
+Comment: 0,0:01:20.78,0:01:22.33,Sample KM [Up],,0,0,0,karaoke,{\k27}Schnel{\k18}ler {\k19}als {\k18}ein {\k18}Hur{\k18}ri{\k37}kane
+Comment: 0,0:01:22.33,0:01:23.64,Sample KM [Up],,0,0,0,karaoke,{\k16}So {\k20}kommst {\k18}du {\k17}als {\k23}ers{\k15}ter {\k22}an
+Comment: 0,0:01:23.79,0:01:26.70,Sample KM [Up],,0,0,0,karaoke,{\k15}Ist {\k20}es {\k15}denn {\k22}ein {\k34}Wun{\k38}der? {\k18}Kei{\k20}ner {\k19}kriegt {\k19}dich {\k35}un{\k36}ter
+Comment: 0,0:01:26.72,0:01:28.18,Sample KM [Up],,0,0,0,karaoke,{\k18}Wenn {\k15}du {\k40}nicht {\k37}durch{\k36}drehst
+Comment: 0,0:01:28.18,0:01:29.50,Sample KM [Up],,0,0,0,karaoke,{\k18}Bis {\k15}du {\k19}dann {\k18}ganz {\k19}o{\k18}ben {\k25}stehst
+Comment: 0,0:01:29.65,0:01:30.73,Sample KM [Up],,0,0,0,karaoke,{\k18}Dann {\k18}bist {\k15}du {\k20}der {\k37}King
+Comment: 0,0:01:30.73,0:01:32.21,Sample KM [Up],,0,0,0,karaoke,{\k20}Dann {\k19}bist {\k18}du {\k18}der {\k20}Haupt{\k17}ge{\k36}winn
+Comment: 0,0:01:32.57,0:01:35.31,Sample KM [Up],,0,0,0,karaoke,{\k22}Jetzt {\k33}geht's {\k43}rund {\k34}und {\k33}wir {\k36}be{\k41}gin{\k32}nen
+Comment: 0,0:01:35.50,0:01:38.24,Sample KM [Up],,0,0,0,karaoke,{\k19}Star{\k18}ten {\k24}voll {\k38}durch {\k31}und {\k35}wer{\k17}den {\k20}ge{\k34}win{\k38}nen
+Comment: 0,0:01:38.38,0:01:41.28,Sample KM [Up],,0,0,0,karaoke,{\k42}Lasst {\k19}die {\k44}Zeit {\k32}nicht {\k38}so {\k35}ver{\k32}rin{\k48}nen
+Comment: 0,0:01:41.34,0:01:44.16,Sample KM [Up],,0,0,0,karaoke,{\k55}Bey{\k41}blade {\k35}und {\k33}wir {\k36}ge{\k35}win{\k47}nen
+Comment: 0,0:01:45.36,0:01:47.99,Sample KM [Up],,0,0,0,karaoke,{\k21}Schic{\k18}ke {\k13}al{\k22}les, {\k20}was {\k16}du {\k19}kannst, {\k19}auf {\k30}die {\k42}Rei{\k43}se
+Comment: 0,0:01:48.30,0:01:50.95,Sample KM [Up],,0,0,0,karaoke,{\k20}Es {\k15}geht {\k18}rund {\k21}und {\k34}du {\k39}ziehst {\k18}dei{\k15}ne {\k38}Krei{\k47}se
+Comment: 0,0:01:51.60,0:01:53.98,Sample KM [Up],,0,0,0,karaoke,{\k36}Fühl {\k18}dei{\k22}ne {\k34}Kraft, {\k31}du {\k41}schaffst {\k56}es
+Comment: 0,0:01:55.99,0:01:58.75,Sample KM [Up],,0,0,0,karaoke,{\k24}Jetzt {\k31}geht's {\k44}rund {\k36}und {\k29}wir {\k35}be{\k44}gin{\k33}nen
+Comment: 0,0:01:58.94,0:02:01.64,Sample KM [Up],,0,0,0,karaoke,{\k17}Star{\k16}ten {\k26}voll {\k38}durch {\k28}und {\k37}wer{\k18}den {\k20}ge{\k34}win{\k36}nen
+Comment: 0,0:02:01.78,0:02:04.64,Sample KM [Up],,0,0,0,karaoke,{\k41}Lasst {\k21}die {\k43}Zeit {\k30}nicht {\k38}so {\k34}ver{\k35}rin{\k44}nen
+Comment: 0,0:02:04.76,0:02:07.53,Sample KM [Up],,0,0,0,karaoke,{\k55}Bey{\k40}blade {\k36}und {\k34}wir {\k36}ge{\k36}win{\k40}nen
+Comment: 0,0:02:07.66,0:02:10.39,Sample KM [Up],,0,0,0,karaoke,{\k23}Jetzt {\k33}geht's {\k40}rund {\k36}und {\k34}wir {\k35}be{\k40}gin{\k32}nen
+Comment: 0,0:02:10.59,0:02:13.36,Sample KM [Up],,0,0,0,karaoke,{\k20}Star{\k19}ten {\k23}voll {\k36}durch {\k32}und {\k35}wer{\k18}den {\k20}ge{\k36}win{\k38}nen
+Comment: 0,0:02:13.52,0:02:16.26,Sample KM [Up],,0,0,0,karaoke,{\k24}Es {\k33}geht {\k39}rund {\k36}und {\k37}wir {\k36}be{\k34}gin{\k35}nen
+Comment: 0,0:02:16.46,0:02:19.39,Sample KM [Up],,0,0,0,karaoke,{\k58}Bey{\k42}blade {\k30}und {\k37}wir {\k40}ge{\k37}win{\k49}nen
+Comment: 0,0:02:19.39,0:02:22.13,Sample KM [Up],,0,0,0,karaoke,{\k23}Es {\k33}geht {\k39}rund {\k35}und {\k38}wir {\k32}be{\k38}gin{\k36}nen
+Comment: 0,0:02:22.32,0:02:26.82,Sample KM [Up],,0,0,0,karaoke,{\k54}Bey{\k37}blade {\k38}und {\k37}wir {\k36}ge{\k36}win{\k53}nen, {\kf159}yeah
+Dialogue: 0,0:00:00.00,0:00:00.98,Sample KM [Up],,0,0,0,fx,{\k38\fad(380,200)}{\k40}Drei
+Dialogue: 0,0:00:00.94,0:00:02.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Zwei
+Dialogue: 0,0:00:02.32,0:00:03.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Eins
+Dialogue: 0,0:00:02.67,0:00:06.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Let {\k21}it {\kf255}rip
+Dialogue: 0,0:00:09.53,0:00:13.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Wenn {\k15}je{\k21}der {\k34}be{\k39}reit{\k37}steht, {\k22}star{\k17}tet {\k15}un{\k22}ser {\k36}Bey{\k56}blade
+Dialogue: 0,0:00:15.47,0:00:18.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Schnel{\k19}ler {\k21}als {\k20}ein {\k19}Hur{\k17}ri{\k39}kane
+Dialogue: 0,0:00:17.06,0:00:19.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}So {\k20}kommst {\k12}du {\k19}als {\k22}ers{\k18}ter {\k37}an
+Dialogue: 0,0:00:21.42,0:00:25.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Jetzt {\k29}geht's {\k45}rund {\k35}und {\k34}wir {\k34}be{\k40}gin{\k29}nen
+Dialogue: 0,0:00:24.35,0:00:28.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Star{\k18}ten {\k26}voll {\k36}durch {\k31}und {\k36}wer{\k17}den {\k20}ge{\k35}win{\k34}nen
+Dialogue: 0,0:00:27.20,0:00:31.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Lasst {\k21}die {\k43}Zeit {\k31}nicht {\k41}so {\k32}ver{\k36}rin{\k41}nen
+Dialogue: 0,0:00:30.19,0:00:34.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Bey{\k43}blade {\k35}und {\k36}wir {\k35}ge{\k37}win{\k38}nen
+Dialogue: 0,0:00:44.75,0:00:48.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Wenn {\k16}je{\k21}der {\k36}be{\k36}reit{\k38}steht, {\k20}star{\k15}tet {\k16}un{\k21}ser {\k33}Bey{\k24}blade
+Dialogue: 0,0:00:47.77,0:00:51.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Här{\k14}ter {\k21}als {\k17}Be{\k36}ton {\k19}und {\k18}viel {\k20}stär{\k18}ker {\k17}als {\k18}King {\k37}Kong
+Dialogue: 0,0:00:50.67,0:00:53.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Schnel{\k18}ler {\k18}als {\k19}ein {\k20}Hur{\k16}ri{\k34}kane
+Dialogue: 0,0:00:52.14,0:00:54.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}So {\k18}kommst {\k19}du {\k17}als {\k25}ers{\k15}ter {\k23}an
+Dialogue: 0,0:00:53.63,0:00:57.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ist {\k20}es {\k15}denn {\k23}ein {\k31}Wun{\k38}der? {\k18}Kei{\k20}ner {\k18}kriegt {\k19}dich {\k35}un{\k26}ter
+Dialogue: 0,0:00:56.55,0:01:00.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Jetzt {\k31}geht's {\k42}rund {\k36}und {\k32}wir {\k35}be{\k42}gin{\k31}nen
+Dialogue: 0,0:00:59.48,0:01:03.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Star{\k19}ten {\k25}voll {\k37}durch {\k31}und {\k36}wer{\k16}den {\k20}ge{\k35}win{\k37}nen
+Dialogue: 0,0:01:02.36,0:01:06.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Lasst {\k19}die {\k42}Zeit {\k31}nicht {\k39}so {\k34}ver{\k36}rin{\k38}nen
+Dialogue: 0,0:01:05.33,0:01:09.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Bey{\k41}blade {\k33}und {\k36}wir {\k37}ge{\k36}win{\k36}nen
+Dialogue: 0,0:01:08.08,0:01:12.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wenn {\k17}je{\k19}der {\k37}be{\k36}reit{\k36}steht, {\k19}star{\k18}tet {\k17}un{\k19}ser {\k37}Bey{\k34}blade
+Dialogue: 0,0:01:11.19,0:01:15.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Bey{\k40}blade, {\k36}Bey{\k38}blade, {\k36}Bey{\k37}blade, {\k36}Bey{\k27}blade
+Dialogue: 0,0:01:15.55,0:01:17.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Drei
+Dialogue: 0,0:01:17.02,0:01:18.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Zwei
+Dialogue: 0,0:01:18.43,0:01:19.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Eins
+Dialogue: 0,0:01:18.83,0:01:22.93,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Let {\k20}it {\kf259}rip
+Dialogue: 0,0:01:19.88,0:01:22.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Schnel{\k18}ler {\k19}als {\k18}ein {\k18}Hur{\k18}ri{\k37}kane
+Dialogue: 0,0:01:21.43,0:01:23.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}So {\k20}kommst {\k18}du {\k17}als {\k23}ers{\k15}ter {\k22}an
+Dialogue: 0,0:01:22.89,0:01:26.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Ist {\k20}es {\k15}denn {\k22}ein {\k34}Wun{\k38}der? {\k18}Kei{\k20}ner {\k19}kriegt {\k19}dich {\k35}un{\k36}ter
+Dialogue: 0,0:01:25.82,0:01:28.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Wenn {\k15}du {\k40}nicht {\k37}durch{\k36}drehst
+Dialogue: 0,0:01:27.28,0:01:29.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Bis {\k15}du {\k19}dann {\k18}ganz {\k19}o{\k18}ben {\k25}stehst
+Dialogue: 0,0:01:28.75,0:01:30.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Dann {\k18}bist {\k15}du {\k20}der {\k37}King
+Dialogue: 0,0:01:29.83,0:01:32.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Dann {\k19}bist {\k18}du {\k18}der {\k20}Haupt{\k17}ge{\k36}winn
+Dialogue: 0,0:01:31.67,0:01:35.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Jetzt {\k33}geht's {\k43}rund {\k34}und {\k33}wir {\k36}be{\k41}gin{\k32}nen
+Dialogue: 0,0:01:34.60,0:01:38.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Star{\k18}ten {\k24}voll {\k38}durch {\k31}und {\k35}wer{\k17}den {\k20}ge{\k34}win{\k38}nen
+Dialogue: 0,0:01:37.48,0:01:41.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Lasst {\k19}die {\k44}Zeit {\k32}nicht {\k38}so {\k35}ver{\k32}rin{\k48}nen
+Dialogue: 0,0:01:40.44,0:01:44.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Bey{\k41}blade {\k35}und {\k33}wir {\k36}ge{\k35}win{\k47}nen
+Dialogue: 0,0:01:44.46,0:01:48.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Schic{\k18}ke {\k13}al{\k22}les, {\k20}was {\k16}du {\k19}kannst, {\k19}auf {\k30}die {\k42}Rei{\k43}se
+Dialogue: 0,0:01:47.40,0:01:51.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Es {\k15}geht {\k18}rund {\k21}und {\k34}du {\k39}ziehst {\k18}dei{\k15}ne {\k38}Krei{\k47}se
+Dialogue: 0,0:01:50.70,0:01:54.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Fühl {\k18}dei{\k22}ne {\k34}Kraft, {\k31}du {\k41}schaffst {\k56}es
+Dialogue: 0,0:01:55.09,0:01:58.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Jetzt {\k31}geht's {\k44}rund {\k36}und {\k29}wir {\k35}be{\k44}gin{\k33}nen
+Dialogue: 0,0:01:58.04,0:02:01.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Star{\k16}ten {\k26}voll {\k38}durch {\k28}und {\k37}wer{\k18}den {\k20}ge{\k34}win{\k36}nen
+Dialogue: 0,0:02:00.88,0:02:04.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Lasst {\k21}die {\k43}Zeit {\k30}nicht {\k38}so {\k34}ver{\k35}rin{\k44}nen
+Dialogue: 0,0:02:03.86,0:02:07.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Bey{\k40}blade {\k36}und {\k34}wir {\k36}ge{\k36}win{\k40}nen
+Dialogue: 0,0:02:06.76,0:02:10.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Jetzt {\k33}geht's {\k40}rund {\k36}und {\k34}wir {\k35}be{\k40}gin{\k32}nen
+Dialogue: 0,0:02:09.69,0:02:13.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Star{\k19}ten {\k23}voll {\k36}durch {\k32}und {\k35}wer{\k18}den {\k20}ge{\k36}win{\k38}nen
+Dialogue: 0,0:02:12.62,0:02:16.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Es {\k33}geht {\k39}rund {\k36}und {\k37}wir {\k36}be{\k34}gin{\k35}nen
+Dialogue: 0,0:02:15.56,0:02:19.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Bey{\k42}blade {\k30}und {\k37}wir {\k40}ge{\k37}win{\k49}nen
+Dialogue: 0,0:02:18.49,0:02:22.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Es {\k33}geht {\k39}rund {\k35}und {\k38}wir {\k32}be{\k38}gin{\k36}nen
+Dialogue: 0,0:02:21.42,0:02:27.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Bey{\k37}blade {\k38}und {\k37}wir {\k36}ge{\k36}win{\k53}nen, {\kf159}yeah
