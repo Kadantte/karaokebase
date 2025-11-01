@@ -1,0 +1,170 @@
+﻿[Script Info]
+Title: AmpReFire
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Sodachi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Orfevre LA GOAT DE LA LICENCE,Arial,24,&H00FFFFFF,&H003441BE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Narita Brian,Arial,24,&H00FFFFFF,&H008C3575,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Biwa Hayahide,Arial,24,&H00FFFFFF,&H00813DB0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Win Variation,Arial,24,&H00FFFFFF,&H003C21C1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Goldship,Arial,24,&H00FFFFFF,&H00573CDA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:26.44,0:00:30.45,Sample,,0,0,0,karaoke,{\k13}hi{\k17}ra{\k16}ke {\k42}NEW {\kf313}WORLD
+Comment: 0,0:00:27.62,0:00:31.72,Sample KM [Choir],,0,0,0,karaoke,{\k45}O{\k77}ver{\k44}drive {\k68}all {\k45}your {\k55}li{\k76}mits
+Comment: 0,0:00:30.69,0:00:35.55,Sample,,0,0,0,karaoke,{\k16}to{\k16}ki{\k12}ha{\k17}na{\k30}te {\k44}PLA{\kf351}YER
+Comment: 0,0:00:32.32,0:00:36.35,Sample KM [Choir],,0,0,0,karaoke,{\k45}O{\k74}ver{\k49}drive {\k68}all {\k44}your {\k60}li{\k63}mits
+Comment: 0,0:00:38.65,0:00:40.95,Orfevre LA GOAT DE LA LICENCE,,0,0,0,karaoke,{\k31}kyuu{\k28}dai{\k30}ten {\k29}nat{\k31}tok' {\k31}sh'ta {\k12}fu{\k15}ri {\k23}de
+Comment: 0,0:00:41.06,0:00:44.95,Orfevre LA GOAT DE LA LICENCE,,0,0,0,karaoke,{\k25}shou{\k30}kyok'{\k29}tek' {\k28}sei{\k30}kou {\k15}ka{\k17}sa{\k12}ne{\k15}te{\k15}ru {\k15}ni{\k29}ge{\k14}go{\kf115}shi
+Comment: 0,0:00:45.28,0:00:47.99,Orfevre LA GOAT DE LA LICENCE,,0,0,0,karaoke,{\k15}o{\k14}ku{\k15}su{\k44}ru {\k22}ho{\k34}do {\k16}ha{\k54}shit{\k16}ta{\k41}ka
+Comment: 0,0:00:48.00,0:00:50.26,Narita Brian,,0,0,0,karaoke,{\k32}shou{\k27}zen {\k30}to {\k28}jou{\k31}nets' {\k26}de {\k16}yu{\k19}re{\k17}ru
+Comment: 0,0:00:50.45,0:00:52.72,Narita Brian,,0,0,0,karaoke,{\k29}chou{\k26}rin{\k29}kai {\k28}kyou{\k30}zon {\k31}sh'tek' {\k29}hou {\k25}ga
+Comment: 0,0:00:52.72,0:00:55.11,Sample,,0,0,0,karaoke,{\k31}sh'gek' {\k17}te{\k59}ki {\k17}de {\k28}ta{\k15}ka{\k15}ma{\k13}ru {\k15}da{\k29}rou
+Comment: 0,0:00:55.13,0:00:57.68,Sample,,0,0,0,karaoke,{\k31}bu{\k13}tsu{\k13}ka{\k13}ru {\k16}ho{\k17}do {\k17}u{\k39}zu{\k8}ki{\k11}da{\k77}su
+Comment: 0,0:00:58.20,0:01:02.24,Win Variation,,0,0,0,karaoke,{\k58}mu{\k34}ga{\k17}mu{\k23}chuu {\k17}de {\k15}wa{\k30}rui{\k14}no{\kf196}ka
+Comment: 0,0:01:00.86,0:01:03.51,Sample KM [Choir],,0,0,0,karaoke,{\k13}wa{\k29}rui{\k16}no{\kf207}ka
+Comment: 0,0:01:02.91,0:01:06.47,Goldship,,0,0,0,karaoke,{\k61}ka{\k28}wa{\k14}ki{\k27}kit{\k43}ta {\k49}kets'{\k43}dan {\k41}nan{\k50}te
+Comment: 0,0:01:06.44,0:01:07.58,Sample KM [Choir],,0,0,0,karaoke,{\k15}fu{\k18}ri{\k12}ki{\k69}ri
+Comment: 0,0:01:07.48,0:01:11.96,Sample,,0,0,0,karaoke,{\k16}ni{\k56}do{\k30}to {\k16}ta{\k29}te{\k30}na{\k55}i {\k19}ko{\k38}no {\k18}i{\k30}ba{\k15}ra {\k30}no {\k30}mi{\k36}chi
+Comment: 0,0:01:12.15,0:01:17.22,Sample,,0,0,0,karaoke,{\k13}tsu{\k48}ki{\k12}su{\k59}sun{\k46}de {\k16}yu{\kf313}ke
+Comment: 0,0:01:17.72,0:01:19.20,Sample,,0,0,0,karaoke,{\k21}mo{\k12}ya{\k12}se {\k15}hi{\k14}me{\k14}ta {\k32}tou{\k28}shi
+Comment: 0,0:01:19.21,0:01:20.42,Sample,,0,0,0,karaoke,{\k16}mi{\k17}chi{\k11}na{\k16}ru {\k31}STO{\k30}RY
+Comment: 0,0:01:20.43,0:01:22.79,Sample,,0,0,0,karaoke,{\k13}fu{\k15}ku{\k15}re{\k14}a{\k29}ga{\k14}ru {\k30}shou{\k30}dou {\k15}tsu{\k27}re{\k34}te
+Comment: 0,0:01:22.83,0:01:24.37,Sample,,0,0,0,karaoke,{\k20}to{\k15}mo {\k16}ni {\k73}DIVE! {\k30}DIVE!
+Comment: 0,0:01:23.79,0:01:24.75,Sample KM [Choir],,0,0,0,karaoke,{\k60}Dive! {\k36}Dive!
+Comment: 0,0:01:24.53,0:01:27.14,Sample,,0,0,0,karaoke,{\k14}mya{\k31}ku{\k15}u{\k29}tsu {\k26}mi{\k88}rai {\k15}no {\k16}ko{\k27}dou
+Comment: 0,0:01:27.14,0:01:28.63,Sample,,0,0,0,karaoke,{\k18}i{\k16}no{\k12}chi{\k16}ga{\k16}ke {\k15}no {\k28}shou{\k28}mei
+Comment: 0,0:01:28.63,0:01:29.80,Sample,,0,0,0,karaoke,{\k16}ha{\k15}shi{\k12}ri {\k17}de {\k30}SHOW {\k27}ME
+Comment: 0,0:01:29.83,0:01:32.44,Orfevre LA GOAT DE LA LICENCE,,0,0,0,karaoke,{\k27}bou{\k30}kan{\k27}sha {\k17}wa {\k15}o{\k15}ki{\k20}za{\k13}ri {\k13}ni {\k28}sh'te{\k17}yu{\k39}ke
+Comment: 0,0:01:32.49,0:01:36.37,Sample,,0,0,0,karaoke,{\k30}hi{\k43}zu{\k28}ma{\k30}se{\k14}ro {\k45}gen{\k27}ka{\k26}i {\k20}ma{\kf125}de
+Comment: 0,0:01:36.53,0:01:41.01,Sample,,0,0,0,karaoke,{\k19}so{\k15}shi{\k14}te {\k11}hi{\k21}ra{\k15}ku {\k41}NEW {\kf312}WORLD
+Comment: 0,0:01:38.21,0:01:42.25,Sample KM [Choir],,0,0,0,karaoke,{\k47}O{\k71}ver{\k44}drive {\k74}all {\k44}your {\k71}li{\k53}mits
+Comment: 0,0:01:41.25,0:01:45.84,Sample,,0,0,0,karaoke,{\k19}to{\k14}ki{\k14}ha{\k16}na{\k28}te {\k44}PLA{\kf324}YER
+Comment: 0,0:01:42.91,0:01:47.04,Sample KM [Choir],,0,0,0,karaoke,{\k44}O{\k73}ver{\k47}drive {\k68}all {\k49}your {\k59}li{\k73}mits
+Comment: 0,0:01:49.25,0:01:51.49,Biwa Hayahide,,0,0,0,karaoke,{\k27}yuu{\k31}rets' {\k26}ni {\k30}shuu{\k28}chak' {\k31}sh'ta {\k15}ma{\k15}ma {\k21}de
+Comment: 0,0:01:51.58,0:01:55.42,Narita Brian,,0,0,0,karaoke,{\k30}zet{\k28}tai{\k31}tek' {\k26}shin{\k28}nen {\k18}ku{\k17}su{\k14}mi{\k16}da{\k29}su {\rSample\k35}TRA{\k16}GE{\kf96}DY
+Comment: 0,0:01:55.85,0:01:58.55,Sample,,0,0,0,karaoke,{\k17}na{\k13}ki{\k15}ja{\k55}kut{\k18}ta{\k30}ra {\k15}ka{\k53}wan{\k16}no{\k38}ka
+Comment: 0,0:01:58.65,0:02:00.96,Goldship,,0,0,0,karaoke,{\k30}sou{\k27}tei{\k30}gai {\k29}'ro{\k30}gat{\k29}tek' {\k14}ki{\k18}ta{\k24}i
+Comment: 0,0:02:00.99,0:02:03.33,Win Variation,,0,0,0,karaoke,{\k31}kiou {\k29}nan{\k30}te {\k28}tai{\k33}kuts' {\k25}na {\k32}kan{\k26}jou
+Comment: 0,0:02:03.35,0:02:05.63,Sample,,0,0,0,karaoke,{\k42}sou{\k58}sou {\k19}ni {\k27}nu{\k14}ri{\k17}ka{\k15}e{\k13}te {\k23}sa
+Comment: 0,0:02:05.70,0:02:08.25,Sample,,0,0,0,karaoke,{\k31}o{\k14}mo{\k15}u {\k13}ma{\k16}ma {\k14}ni {\k14}ka{\k46}ke{\k10}nu{\k12}ke{\k70}ro
+Comment: 0,0:02:08.73,0:02:12.30,Orfevre LA GOAT DE LA LICENCE,,0,0,0,karaoke,{\k63}mi{\k32}ta{\k14}sa{\k31}rer' {\k29}ko{\k31}to {\k15}wa {\kf142}nai
+Comment: 0,0:02:11.43,0:02:13.29,Sample KM [Choir],,0,0,0,karaoke,{\k18}ko{\k28}to {\k15}wa {\kf125}nai
+Comment: 0,0:02:13.44,0:02:17.21,Narita Brian,,0,0,0,karaoke,{\k66}sa{\k27}ra{\k15}na{\k29}ru {\k41}RACE {\rSample\k47}mo{\k44}to{\k44}me{\k64}te
+Comment: 0,0:02:17.02,0:02:17.88,Sample KM [Choir],,0,0,0,karaoke,{\k16}ko{\k17}ko {\k13}ka{\k40}ra
+Comment: 0,0:02:18.06,0:02:22.53,Sample,,0,0,0,karaoke,{\k15}hi{\k56}ki{\k30}ka{\k17}e{\k31}se{\k29}na{\k53}i {\k21}fu{\k53}ka{\k33}gya{\k13}ku {\k30}no {\k29}mi{\k37}chi
+Comment: 0,0:02:22.79,0:02:27.22,Sample,,0,0,0,karaoke,{\k10}tsu{\k45}ki{\k18}nu{\k56}ke{\k45}te {\k16}yu{\kf253}ke
+Comment: 0,0:02:28.30,0:02:29.77,Sample,,0,0,0,karaoke,{\k15}i{\k16}do{\k17}me {\k14}tsu{\k13}ne {\k17}ni {\k29}shou{\k26}bu
+Comment: 0,0:02:29.81,0:02:30.99,Sample,,0,0,0,karaoke,{\k14}yo{\k17}wa{\k12}ki {\k16}wa {\k30}NO {\k29}GOOD
+Comment: 0,0:02:31.00,0:02:33.42,Sample,,0,0,0,karaoke,{\k16}o{\k13}wa{\k12}ri {\k17}no {\k29}nai {\k14}te{\k14}i{\k15}se{\k27}ki {\k18}ta{\k29}dot{\k38}te
+Comment: 0,0:02:33.45,0:02:34.95,Sample,,0,0,0,karaoke,{\k20}sa{\k15}ra {\k13}ni {\k70}DIVE! {\k32}DIVE!
+Comment: 0,0:02:34.38,0:02:35.27,Sample KM [Choir],,0,0,0,karaoke,{\k59}Dive! {\k30}Dive!
+Comment: 0,0:02:35.10,0:02:37.84,Sample,,0,0,0,karaoke,{\k17}to{\k29}me{\k14}do{\k32}nai {\k27}kas{\k93}sai {\k16}no {\k17}o{\k29}to
+Comment: 0,0:02:37.85,0:02:39.18,Sample,,0,0,0,karaoke,{\k11}yu{\k13}i{\k10}tsu{\k16}mu{\k10}ni {\k17}no {\k29}shou{\k27}ri
+Comment: 0,0:02:39.23,0:02:40.41,Sample,,0,0,0,karaoke,{\k13}ka{\k16}ka{\k11}ge{\k17}ta {\k32}GLO{\k29}RY
+Comment: 0,0:02:40.44,0:02:42.87,Sample,,0,0,0,karaoke,{\k11}da{\k16}re {\k15}mo {\k15}mi{\k28}ta {\k13}ko{\k16}to {\k13}no {\k30}nai {\k15}ke{\k30}shi{\k12}ki {\k29}he
+Comment: 0,0:02:43.04,0:02:46.86,Sample,,0,0,0,karaoke,{\k32}hi{\k44}zu{\k29}ma{\k29}se{\k15}ro {\k43}gen{\k32}ji{\k27}tsu {\k20}sa{\kf111}e
+Comment: 0,0:02:47.14,0:02:52.39,Sample,,0,0,0,karaoke,{\k15}so{\k12}re {\k17}ga {\k17}yu{\k12}me {\k16}no {\k44}TRIG{\kf392}GER
+Comment: 0,0:03:16.64,0:03:20.36,Orfevre LA GOAT DE LA LICENCE,,0,0,0,karaoke,{\k13}ta{\k11}do{\k17}ri{\k13}tsu{\k15}i{\k13}ta {\k32}NEW {\kf258}STAGE
+Comment: 0,0:03:21.27,0:03:24.81,Win Variation,,0,0,0,karaoke,{\k18}o{\k27}moi{\k15}shi{\k12}ru {\k19}mi{\k43}juk' {\kf220}sa
+Comment: 0,0:03:26.00,0:03:28.56,Goldship,,0,0,0,karaoke,{\k14}se{\k15}ma{\k12}ri{\k19}ku{\k15}ru {\k14}shi{\k29}ren {\k30}ni {\k12}se{\k15}na{\k14}ka {\k14}mu{\k32}ken{\k21}na
+Comment: 0,0:03:28.57,0:03:31.15,Sample,,0,0,0,karaoke,{\k19}a{\k16}ki{\k16}ra{\k12}me {\k31}no {\k14}wa{\k11}ru{\k13}i {\k34}hou {\k16}ga {\k28}shou{\k14}sha {\k34}da
+Comment: 0,0:03:31.29,0:03:37.63,Sample,,0,0,0,karaoke,{\k27}mi{\k47}te{\k26}ro {\k31}ban{\k15}ku{\k41}ru{\k31}wa{\k30}se {\k15}no {\kF233}FRON{\k18}TI{\kF120}ER
+Comment: 0,0:03:37.75,0:03:39.21,Sample,,0,0,0,karaoke,{\k14}mo{\k16}ya{\k14}se {\k17}hi{\k13}me{\k13}ta {\k32}tou{\k27}shi
+Comment: 0,0:03:39.23,0:03:40.41,Sample,,0,0,0,karaoke,{\k16}mi{\k14}chi{\k12}na{\k17}ru {\k30}STO{\k29}RY
+Comment: 0,0:03:40.42,0:03:42.84,Sample,,0,0,0,karaoke,{\k15}fu{\k19}ku{\k11}re{\k14}a{\k24}ga{\k18}ru {\k30}shou{\k31}dou {\k14}tsu{\k28}re{\k38}te
+Comment: 0,0:03:42.90,0:03:44.35,Sample,,0,0,0,karaoke,{\k15}to{\k17}mo {\k12}ni {\k74}DIVE! {\k27}DIVE!
+Comment: 0,0:03:43.78,0:03:44.64,Sample KM [Choir],,0,0,0,karaoke,{\k61}Dive! {\k25}Dive!
+Comment: 0,0:03:44.51,0:03:47.16,Sample,,0,0,0,karaoke,{\k15}mya{\k30}ku{\k15}u{\k30}tsu {\k24}mi{\kf91}rai {\k16}no {\k14}ko{\k30}dou
+Comment: 0,0:03:47.16,0:03:48.59,Sample,,0,0,0,karaoke,{\k15}i{\k17}no{\k12}chi{\k16}ga{\k16}ke {\k14}no {\k27}shou{\k26}mei
+Comment: 0,0:03:48.60,0:03:49.74,Sample,,0,0,0,karaoke,{\k19}ha{\k15}shi{\k12}ri {\k16}de {\k30}SHOW {\k22}ME
+Comment: 0,0:03:49.78,0:03:52.31,Sample,,0,0,0,karaoke,{\k32}bou{\k29}kan{\k31}sha {\k15}wa {\k15}o{\k14}ki{\k16}za{\k11}ri {\k18}ni {\k30}sh'te{\k14}yu{\k28}ke
+Comment: 0,0:03:52.46,0:03:56.26,Sample,,0,0,0,karaoke,{\k31}hi{\k44}zu{\k26}ma{\k29}se{\k18}ro {\k43}gen{\k30}ka{\k27}i {\k17}ma{\kf115}de
+Comment: 0,0:03:56.55,0:04:01.00,Sample,,0,0,0,karaoke,{\k17}so{\k14}shi{\k16}te {\k10}hi{\k20}ra{\k15}ku {\k41}NEW {\kf312}WORLD
+Comment: 0,0:03:58.22,0:04:02.45,Sample KM [Choir],,0,0,0,karaoke,{\k43}O{\k70}ver{\k50}drive {\k70}all {\k46}your {\k58}li{\k86}mits
+Comment: 0,0:04:01.27,0:04:06.27,Sample,,0,0,0,karaoke,{\k17}to{\k15}ki{\k14}ha{\k15}na{\k28}te {\k45}PLA{\kf366}YER
+Comment: 0,0:04:02.90,0:04:07.18,Sample KM [Choir],,0,0,0,karaoke,{\k50}O{\k63}ver{\k52}drive {\k71}all {\k44}your {\k60}li{\k101}mits
+Dialogue: 0,0:00:25.54,0:00:30.65,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k13}hi{\k17}ra{\k16}ke {\k42}NEW {\kf313}WORLD
+Dialogue: 0,0:00:26.72,0:00:31.92,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}O{\k77}ver{\k44}drive {\k68}all {\k45}your {\k55}li{\k76}mits
+Dialogue: 0,0:00:29.79,0:00:35.75,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k16}to{\k16}ki{\k12}ha{\k17}na{\k30}te {\k44}PLA{\kf351}YER
+Dialogue: 0,0:00:31.42,0:00:36.55,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}O{\k74}ver{\k49}drive {\k68}all {\k44}your {\k60}li{\k63}mits
+Dialogue: 0,0:00:37.75,0:00:41.15,Orfevre LA GOAT DE LA LICENCE,,0,0,0,fx,{\k90\fad(300,200)}{\k31}kyuu{\k28}dai{\k30}ten {\k29}nat{\k31}tok' {\k31}sh'ta {\k12}fu{\k15}ri {\k23}de
+Dialogue: 0,0:00:40.16,0:00:45.15,Orfevre LA GOAT DE LA LICENCE,,0,0,0,fx,{\k90\fad(300,200)}{\k25}shou{\k30}kyok'{\k29}tek' {\k28}sei{\k30}kou {\k15}ka{\k17}sa{\k12}ne{\k15}te{\k15}ru {\k15}ni{\k29}ge{\k14}go{\kf115}shi
+Dialogue: 0,0:00:44.38,0:00:48.19,Orfevre LA GOAT DE LA LICENCE,,0,0,0,fx,{\k90\fad(300,200)}{\k15}o{\k14}ku{\k15}su{\k44}ru {\k22}ho{\k34}do {\k16}ha{\k54}shit{\k16}ta{\k41}ka
+Dialogue: 0,0:00:47.10,0:00:50.46,Narita Brian,,0,0,0,fx,{\k90\fad(300,200)}{\k32}shou{\k27}zen {\k30}to {\k28}jou{\k31}nets' {\k26}de {\k16}yu{\k19}re{\k17}ru
+Dialogue: 0,0:00:49.55,0:00:52.92,Narita Brian,,0,0,0,fx,{\k90\fad(300,200)}{\k29}chou{\k26}rin{\k29}kai {\k28}kyou{\k30}zon {\k31}sh'tek' {\k29}hou {\k25}ga
+Dialogue: 0,0:00:51.82,0:00:55.31,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k31}sh'gek' {\k17}te{\k59}ki {\k17}de {\k28}ta{\k15}ka{\k15}ma{\k13}ru {\k15}da{\k29}rou
+Dialogue: 0,0:00:54.23,0:00:57.88,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k31}bu{\k13}tsu{\k13}ka{\k13}ru {\k16}ho{\k17}do {\k17}u{\k39}zu{\k8}ki{\k11}da{\k77}su
+Dialogue: 0,0:00:57.30,0:01:02.44,Win Variation,,0,0,0,fx,{\k90\fad(300,200)}{\k58}mu{\k34}ga{\k17}mu{\k23}chuu {\k17}de {\k15}wa{\k30}rui{\k14}no{\kf196}ka
+Dialogue: 0,0:00:59.96,0:01:03.71,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}wa{\k29}rui{\k16}no{\kf207}ka
+Dialogue: 0,0:01:02.01,0:01:06.67,Goldship,,0,0,0,fx,{\k90\fad(300,200)}{\k61}ka{\k28}wa{\k14}ki{\k27}kit{\k43}ta {\k49}kets'{\k43}dan {\k41}nan{\k50}te
+Dialogue: 0,0:01:05.54,0:01:07.78,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k15}fu{\k18}ri{\k12}ki{\k69}ri
+Dialogue: 0,0:01:06.58,0:01:12.16,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ni{\k56}do{\k30}to {\k16}ta{\k29}te{\k30}na{\k55}i {\k19}ko{\k38}no {\k18}i{\k30}ba{\k15}ra {\k30}no {\k30}mi{\k36}chi
+Dialogue: 0,0:01:11.25,0:01:17.42,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k13}tsu{\k48}ki{\k12}su{\k59}sun{\k46}de {\k16}yu{\kf313}ke
+Dialogue: 0,0:01:16.82,0:01:19.40,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k21}mo{\k12}ya{\k12}se {\k15}hi{\k14}me{\k14}ta {\k32}tou{\k28}shi
+Dialogue: 0,0:01:18.31,0:01:20.62,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k16}mi{\k17}chi{\k11}na{\k16}ru {\k31}STO{\k30}RY
+Dialogue: 0,0:01:19.53,0:01:22.99,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k13}fu{\k15}ku{\k15}re{\k14}a{\k29}ga{\k14}ru {\k30}shou{\k30}dou {\k15}tsu{\k27}re{\k34}te
+Dialogue: 0,0:01:21.93,0:01:24.57,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k20}to{\k15}mo {\k16}ni {\k73}DIVE! {\k30}DIVE!
+Dialogue: 0,0:01:22.89,0:01:24.95,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Dive! {\k36}Dive!
+Dialogue: 0,0:01:23.63,0:01:27.34,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k14}mya{\k31}ku{\k15}u{\k29}tsu {\k26}mi{\k88}rai {\k15}no {\k16}ko{\k27}dou
+Dialogue: 0,0:01:26.24,0:01:28.83,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k18}i{\k16}no{\k12}chi{\k16}ga{\k16}ke {\k15}no {\k28}shou{\k28}mei
+Dialogue: 0,0:01:27.73,0:01:30.00,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ha{\k15}shi{\k12}ri {\k17}de {\k30}SHOW {\k27}ME
+Dialogue: 0,0:01:28.93,0:01:32.64,Orfevre LA GOAT DE LA LICENCE,,0,0,0,fx,{\k90\fad(300,200)}{\k27}bou{\k30}kan{\k27}sha {\k17}wa {\k15}o{\k15}ki{\k20}za{\k13}ri {\k13}ni {\k28}sh'te{\k17}yu{\k39}ke
+Dialogue: 0,0:01:31.59,0:01:36.57,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k30}hi{\k43}zu{\k28}ma{\k30}se{\k14}ro {\k45}gen{\k27}ka{\k26}i {\k20}ma{\kf125}de
+Dialogue: 0,0:01:35.63,0:01:41.21,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k19}so{\k15}shi{\k14}te {\k11}hi{\k21}ra{\k15}ku {\k41}NEW {\kf312}WORLD
+Dialogue: 0,0:01:37.31,0:01:42.45,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k47}O{\k71}ver{\k44}drive {\k74}all {\k44}your {\k71}li{\k53}mits
+Dialogue: 0,0:01:40.35,0:01:46.04,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k19}to{\k14}ki{\k14}ha{\k16}na{\k28}te {\k44}PLA{\kf324}YER
+Dialogue: 0,0:01:42.01,0:01:47.24,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}O{\k73}ver{\k47}drive {\k68}all {\k49}your {\k59}li{\k73}mits
+Dialogue: 0,0:01:48.35,0:01:51.69,Biwa Hayahide,,0,0,0,fx,{\k90\fad(300,200)}{\k27}yuu{\k31}rets' {\k26}ni {\k30}shuu{\k28}chak' {\k31}sh'ta {\k15}ma{\k15}ma {\k21}de
+Dialogue: 0,0:01:50.68,0:01:55.62,Narita Brian,,0,0,0,fx,{\k90\fad(300,200)}{\k30}zet{\k28}tai{\k31}tek' {\k26}shin{\k28}nen {\k18}ku{\k17}su{\k14}mi{\k16}da{\k29}su {\rSample\k35}TRA{\k16}GE{\kf96}DY
+Dialogue: 0,0:01:54.95,0:01:58.75,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k17}na{\k13}ki{\k15}ja{\k55}kut{\k18}ta{\k30}ra {\k15}ka{\k53}wan{\k16}no{\k38}ka
+Dialogue: 0,0:01:57.75,0:02:01.16,Goldship,,0,0,0,fx,{\k90\fad(300,200)}{\k30}sou{\k27}tei{\k30}gai {\k29}'ro{\k30}gat{\k29}tek' {\k14}ki{\k18}ta{\k24}i
+Dialogue: 0,0:02:00.09,0:02:03.53,Win Variation,,0,0,0,fx,{\k90\fad(300,200)}{\k31}kiou {\k29}nan{\k30}te {\k28}tai{\k33}kuts' {\k25}na {\k32}kan{\k26}jou
+Dialogue: 0,0:02:02.45,0:02:05.83,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k42}sou{\k58}sou {\k19}ni {\k27}nu{\k14}ri{\k17}ka{\k15}e{\k13}te {\k23}sa
+Dialogue: 0,0:02:04.80,0:02:08.45,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k31}o{\k14}mo{\k15}u {\k13}ma{\k16}ma {\k14}ni {\k14}ka{\k46}ke{\k10}nu{\k12}ke{\k70}ro
+Dialogue: 0,0:02:07.83,0:02:12.50,Orfevre LA GOAT DE LA LICENCE,,0,0,0,fx,{\k90\fad(300,200)}{\k63}mi{\k32}ta{\k14}sa{\k31}rer' {\k29}ko{\k31}to {\k15}wa {\kf142}nai
+Dialogue: 0,0:02:10.53,0:02:13.49,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}ko{\k28}to {\k15}wa {\kf125}nai
+Dialogue: 0,0:02:12.54,0:02:17.41,Narita Brian,,0,0,0,fx,{\k90\fad(300,200)}{\k66}sa{\k27}ra{\k15}na{\k29}ru {\k41}RACE {\rSample\k47}mo{\k44}to{\k44}me{\k64}te
+Dialogue: 0,0:02:16.12,0:02:18.08,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}ko{\k17}ko {\k13}ka{\k40}ra
+Dialogue: 0,0:02:17.16,0:02:22.73,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k15}hi{\k56}ki{\k30}ka{\k17}e{\k31}se{\k29}na{\k53}i {\k21}fu{\k53}ka{\k33}gya{\k13}ku {\k30}no {\k29}mi{\k37}chi
+Dialogue: 0,0:02:21.89,0:02:27.42,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k10}tsu{\k45}ki{\k18}nu{\k56}ke{\k45}te {\k16}yu{\kf253}ke
+Dialogue: 0,0:02:27.40,0:02:29.97,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k15}i{\k16}do{\k17}me {\k14}tsu{\k13}ne {\k17}ni {\k29}shou{\k26}bu
+Dialogue: 0,0:02:28.91,0:02:31.19,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k14}yo{\k17}wa{\k12}ki {\k16}wa {\k30}NO {\k29}GOOD
+Dialogue: 0,0:02:30.10,0:02:33.62,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k16}o{\k13}wa{\k12}ri {\k17}no {\k29}nai {\k14}te{\k14}i{\k15}se{\k27}ki {\k18}ta{\k29}dot{\k38}te
+Dialogue: 0,0:02:32.55,0:02:35.15,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k20}sa{\k15}ra {\k13}ni {\k70}DIVE! {\k32}DIVE!
+Dialogue: 0,0:02:33.48,0:02:35.47,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Dive! {\k30}Dive!
+Dialogue: 0,0:02:34.20,0:02:38.04,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k17}to{\k29}me{\k14}do{\k32}nai {\k27}kas{\k93}sai {\k16}no {\k17}o{\k29}to
+Dialogue: 0,0:02:36.95,0:02:39.38,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k11}yu{\k13}i{\k10}tsu{\k16}mu{\k10}ni {\k17}no {\k29}shou{\k27}ri
+Dialogue: 0,0:02:38.33,0:02:40.61,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ka{\k16}ka{\k11}ge{\k17}ta {\k32}GLO{\k29}RY
+Dialogue: 0,0:02:39.54,0:02:43.07,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k11}da{\k16}re {\k15}mo {\k15}mi{\k28}ta {\k13}ko{\k16}to {\k13}no {\k30}nai {\k15}ke{\k30}shi{\k12}ki {\k29}he
+Dialogue: 0,0:02:42.14,0:02:47.06,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k32}hi{\k44}zu{\k29}ma{\k29}se{\k15}ro {\k43}gen{\k32}ji{\k27}tsu {\k20}sa{\kf111}e
+Dialogue: 0,0:02:46.24,0:02:52.59,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k15}so{\k12}re {\k17}ga {\k17}yu{\k12}me {\k16}no {\k44}TRIG{\kf392}GER
+Dialogue: 0,0:03:15.74,0:03:20.56,Orfevre LA GOAT DE LA LICENCE,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ta{\k11}do{\k17}ri{\k13}tsu{\k15}i{\k13}ta {\k32}NEW {\kf258}STAGE
+Dialogue: 0,0:03:20.37,0:03:25.01,Win Variation,,0,0,0,fx,{\k90\fad(300,200)}{\k18}o{\k27}moi{\k15}shi{\k12}ru {\k19}mi{\k43}juk' {\kf220}sa
+Dialogue: 0,0:03:25.10,0:03:28.76,Goldship,,0,0,0,fx,{\k90\fad(300,200)}{\k14}se{\k15}ma{\k12}ri{\k19}ku{\k15}ru {\k14}shi{\k29}ren {\k30}ni {\k12}se{\k15}na{\k14}ka {\k14}mu{\k32}ken{\k21}na
+Dialogue: 0,0:03:27.67,0:03:31.35,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k16}ki{\k16}ra{\k12}me {\k31}no {\k14}wa{\k11}ru{\k13}i {\k34}hou {\k16}ga {\k28}shou{\k14}sha {\k34}da
+Dialogue: 0,0:03:30.39,0:03:37.83,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k27}mi{\k47}te{\k26}ro {\k31}ban{\k15}ku{\k41}ru{\k31}wa{\k30}se {\k15}no {\kF233}FRON{\k18}TI{\kF120}ER
+Dialogue: 0,0:03:36.85,0:03:39.41,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k14}mo{\k16}ya{\k14}se {\k17}hi{\k13}me{\k13}ta {\k32}tou{\k27}shi
+Dialogue: 0,0:03:38.33,0:03:40.61,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k16}mi{\k14}chi{\k12}na{\k17}ru {\k30}STO{\k29}RY
+Dialogue: 0,0:03:39.52,0:03:43.04,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k15}fu{\k19}ku{\k11}re{\k14}a{\k24}ga{\k18}ru {\k30}shou{\k31}dou {\k14}tsu{\k28}re{\k38}te
+Dialogue: 0,0:03:42.00,0:03:44.55,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k15}to{\k17}mo {\k12}ni {\k74}DIVE! {\k27}DIVE!
+Dialogue: 0,0:03:42.88,0:03:44.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k61}Dive! {\k25}Dive!
+Dialogue: 0,0:03:43.61,0:03:47.36,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k15}mya{\k30}ku{\k15}u{\k30}tsu {\k24}mi{\kf91}rai {\k16}no {\k14}ko{\k30}dou
+Dialogue: 0,0:03:46.26,0:03:48.79,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k15}i{\k17}no{\k12}chi{\k16}ga{\k16}ke {\k14}no {\k27}shou{\k26}mei
+Dialogue: 0,0:03:47.70,0:03:49.94,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ha{\k15}shi{\k12}ri {\k16}de {\k30}SHOW {\k22}ME
+Dialogue: 0,0:03:48.88,0:03:52.51,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k32}bou{\k29}kan{\k31}sha {\k15}wa {\k15}o{\k14}ki{\k16}za{\k11}ri {\k18}ni {\k30}sh'te{\k14}yu{\k28}ke
+Dialogue: 0,0:03:51.56,0:03:56.46,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k31}hi{\k44}zu{\k26}ma{\k29}se{\k18}ro {\k43}gen{\k30}ka{\k27}i {\k17}ma{\kf115}de
+Dialogue: 0,0:03:55.65,0:04:01.20,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k17}so{\k14}shi{\k16}te {\k10}hi{\k20}ra{\k15}ku {\k41}NEW {\kf312}WORLD
+Dialogue: 0,0:03:57.32,0:04:02.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}O{\k70}ver{\k50}drive {\k70}all {\k46}your {\k58}li{\k86}mits
+Dialogue: 0,0:04:00.37,0:04:06.47,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k17}to{\k15}ki{\k14}ha{\k15}na{\k28}te {\k45}PLA{\kf366}YER
+Dialogue: 0,0:04:02.00,0:04:07.38,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k50}O{\k63}ver{\k52}drive {\k71}all {\k44}your {\k60}li{\k101}mits
