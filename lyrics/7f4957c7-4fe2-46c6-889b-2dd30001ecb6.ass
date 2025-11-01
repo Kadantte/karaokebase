@@ -1,0 +1,117 @@
+﻿[Script Info]
+Title: Niemals zu Ende gehen
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFB858,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:20.09,0:00:23.98,Sample KM [Up],,0,0,0,karaoke,{\k27}Hab {\k59}mich {\k54}oft {\k59}schon {\k58}mal {\k54}ge{\k78}fragt
+Comment: 0,0:00:24.67,0:00:28.72,Sample KM [Up],,0,0,0,karaoke,{\k28}Wie {\k25}ich {\k31}das {\k56}aus{\k61}halt, {\k52}Tag {\k55}für {\k97}Tag
+Comment: 0,0:00:29.22,0:00:33.23,Sample KM [Up],,0,0,0,karaoke,{\k28}Nicht {\k57}zu {\k56}wis{\k59}sen, {\k58}wer {\k28}ich {\k29}jetzt {\k86}bin
+Comment: 0,0:00:33.80,0:00:37.21,Sample KM [Up],,0,0,0,karaoke,{\k28}Ich {\k29}bin {\k28}ein {\k60}Mann{\k56} {\k26}und {\k29}bin {\k28}ein {\k57}Kind
+Comment: 0,0:00:37.80,0:00:39.81,Sample KM [Up],,0,0,0,karaoke,{\k27}Manch{\k30}mal {\k29}schau {\k28}ich {\k27}mich {\k60}an
+Comment: 0,0:00:40.93,0:00:45.11,Sample KM [Up],,0,0,0,karaoke,{\k29}Und {\k30}dann {\k56}spür {\k28}ich {\k29}mei{\k26}nen {\k32}kla{\k27}ren {\k31}Ver{\kf130}stand
+Comment: 0,0:00:47.51,0:00:50.35,Sample KM [Up],,0,0,0,karaoke,{\k30}Dann {\k27}ist {\k27}es {\k57}Zeit, {\k31}ich {\k29}muss {\k83}geh'n
+Comment: 0,0:00:50.66,0:00:53.81,Sample KM [Up],,0,0,0,karaoke,{\k27}Ich {\k27}tu, {\k28}was {\k31}ich {\k29}am {\k27}bes{\k57}ten {\k89}kann
+Comment: 0,0:00:55.22,0:00:58.87,Sample KM [Up],,0,0,0,karaoke,{\k28}Es {\k27}wird {\k31}nie{\k27}mals {\k29}zu {\k31}En{\k55}de {\kf137}geh'n
+Comment: 0,0:00:59.78,0:01:04.19,Sample KM [Up],,0,0,0,karaoke,{\k26}E{\k33}gal, {\k28}was {\k27}pas{\k59}siert,{\k26} {\k29}nur {\k26}die {\k58}Freund{\k32}schaft {\k97}zählt
+Comment: 0,0:01:04.37,0:01:07.50,Sample KM [Up],,0,0,0,karaoke,{\k26}Ich {\k26}hab {\k33}mein {\k58}Ziel {\k28}ganz {\k28}fest {\k29}im {\k85}Blick
+Comment: 0,0:01:08.34,0:01:12.05,Sample KM [Up],,0,0,0,karaoke,{\k32}Und {\k26}ich {\k54}weiß {\k33}ge{\k56}nau, {\k28}das {\k29}ist {\k27}mein {\k86}Glück
+Comment: 0,0:01:13.49,0:01:17.23,Sample KM [Up],,0,0,0,karaoke,{\k30}Ich {\k30}muss {\k28}mein'n {\k25}Weg {\k32}al{\k29}lei{\k55}ne {\kf145}geh'n
+Comment: 0,0:01:17.80,0:01:22.37,Sample KM [Up],,0,0,0,karaoke,{\k26}Kann {\k31}euch {\k27}nie{\k55}mals {\k61}zei{\k29}gen, {\k26}wer {\k29}ich {\k56}wirk{\k29}lich {\k88}bin
+Comment: 0,0:01:22.65,0:01:26.02,Sample KM [Up],,0,0,0,karaoke,{\k26}Ich {\k28}hal{\k31}te {\k30}mein {\k28}Ge{\k53}heim{\k32}nis {\kf109}fest
+Comment: 0,0:01:26.36,0:01:29.10,Sample KM [Up],,0,0,0,karaoke,{\k28}In {\k29}mei{\k29}ner {\kf188}Hand
+Comment: 0,0:01:33.22,0:01:37.20,Sample KM [Up],,0,0,0,karaoke,{\k28}Es {\k57}ist {\k59}al{\k57}les {\k57}nicht {\k58}so {\k82}leicht
+Comment: 0,0:01:37.80,0:01:41.87,Sample KM [Up],,0,0,0,karaoke,{\k28}Ich {\k27}muss {\k28}euch {\k58}täu{\k30}schen{\k27} {\k27}von {\k58}Zeit {\k30}zu {\k94}Zeit
+Comment: 0,0:01:42.35,0:01:45.78,Sample KM [Up],,0,0,0,karaoke,{\k29}Sonst {\k28}seid {\k30}ihr {\k57}al{\k57}le{\k29} {\k31}in {\k27}Ge{\k55}fahr
+Comment: 0,0:01:46.94,0:01:50.36,Sample KM [Up],,0,0,0,karaoke,{\k29}Nichts {\k55}ist {\k59}so,{\k56} {\k29}wie's {\k29}frü{\k28}her {\k57}war
+Comment: 0,0:01:50.95,0:01:52.97,Sample KM [Up],,0,0,0,karaoke,{\k26}Manch{\k30}mal {\k30}schau {\k27}ich {\k29}mich {\k60}an
+Comment: 0,0:01:54.10,0:01:58.27,Sample KM [Up],,0,0,0,karaoke,{\k25}Und {\k32}dann {\k56}spür {\k29}ich {\k28}mei{\k28}nen {\k28}kla{\k29}ren {\k28}Ver{\kf134}stand
+Comment: 0,0:02:00.65,0:02:03.50,Sample KM [Up],,0,0,0,karaoke,{\k30}Dann {\k29}ist {\k27}es {\k56}Zeit, {\k31}ich {\k29}muss {\k83}geh'n
+Comment: 0,0:02:03.79,0:02:06.92,Sample KM [Up],,0,0,0,karaoke,{\k28}Ich {\k30}tu, {\k29}was {\k28}ich {\k28}am {\k28}bes{\k57}ten {\k85}kann
+Comment: 0,0:02:08.37,0:02:12.06,Sample KM [Up],,0,0,0,karaoke,{\k30}Es {\k27}wird {\k28}nie{\k28}mals {\k28}zu {\k31}En{\k55}de {\kf142}geh'n
+Comment: 0,0:02:12.92,0:02:17.25,Sample KM [Up],,0,0,0,karaoke,{\k27}E{\k31}gal, {\k29}was {\k28}pas{\k58}siert,{\k28} {\k28}nur {\k30}die {\k57}Freund{\k27}schaft {\k90}zählt
+Comment: 0,0:02:17.52,0:02:20.56,Sample KM [Up],,0,0,0,karaoke,{\k25}Ich {\k24}hab {\k35}mein {\k55}Ziel {\k30}ganz {\k29}fest {\k30}im {\k76}Blick
+Comment: 0,0:02:21.48,0:02:25.15,Sample KM [Up],,0,0,0,karaoke,{\k32}Und {\k28}ich {\k55}weiß {\k30}ge{\k57}nau, {\k29}das {\k28}ist {\k28}mein {\k80}Glück
+Comment: 0,0:02:26.64,0:02:30.37,Sample KM [Up],,0,0,0,karaoke,{\k29}Ich {\k28}muss {\k27}mein'n {\k30}Weg {\k31}al{\k27}lei{\k56}ne {\kf145}geh'n
+Comment: 0,0:02:30.93,0:02:35.51,Sample KM [Up],,0,0,0,karaoke,{\k29}Kann {\k29}euch {\k28}nie{\k53}mals {\k61}zei{\k29}gen, {\k29}wer {\k25}ich {\k58}wirk{\k30}lich {\k87}bin
+Comment: 0,0:02:35.79,0:02:39.16,Sample KM [Up],,0,0,0,karaoke,{\k30}Ich {\k25}hal{\k31}te {\k27}mein {\k30}Ge{\k56}heim{\k29}nis {\kf109}fest
+Comment: 0,0:02:39.50,0:02:42.25,Sample KM [Up],,0,0,0,karaoke,{\k30}In {\k29}mei{\k28}ner {\kf188}Hand
+Comment: 0,0:02:45.21,0:02:48.35,Sample KM [Up],,0,0,0,karaoke,{\k31}Stellt {\k23}mir {\k32}kei{\k27}ne {\k59}Fra{\kf142}gen
+Comment: 0,0:02:49.51,0:02:52.93,Sample KM [Up],,0,0,0,karaoke,{\k30}Ich {\k28}kann {\k27}es {\k27}euch {\k32}nicht {\k55}sa{\kf143}gen
+Comment: 0,0:02:54.07,0:02:57.50,Sample KM [Up],,0,0,0,karaoke,{\k29}Ihr {\k27}müsst {\k27}Ver{\k31}trau{\k32}en {\k54}ha{\kf143}ben
+Comment: 0,0:02:58.65,0:03:03.85,Sample KM [Up],,0,0,0,karaoke,{\k29}Die {\k56}Zeit {\k30}wird {\k58}zei{\k33}gen,{\k25} {\k25}wo{\k29}hin {\k27}die {\k30}Rei{\k31}se {\kf147}geht
+Comment: 0,0:03:21.50,0:03:25.25,Sample KM [Up],,0,0,0,karaoke,{\k29}Es {\k26}wird {\k32}nie{\k27}mals {\k30}zu {\k30}En{\k55}de {\kf146}geh'n
+Comment: 0,0:03:26.05,0:03:30.53,Sample KM [Up],,0,0,0,karaoke,{\k28}E{\k29}gal, {\k32}was {\k28}pas{\k57}siert,{\k30} {\k27}nur {\k29}die {\k58}Freund{\k26}schaft {\kf104}zählt
+Comment: 0,0:03:30.66,0:03:33.77,Sample KM [Up],,0,0,0,karaoke,{\k28}Ich {\k27}hab {\k28}mein {\k58}Ziel {\k29}ganz {\k30}fest {\k28}im {\k83}Blick
+Comment: 0,0:03:34.64,0:03:38.27,Sample KM [Up],,0,0,0,karaoke,{\k29}Und {\k27}ich {\k57}weiß {\k30}ge{\k55}nau, {\k31}das {\k28}ist {\k26}mein {\k80}Glück
+Comment: 0,0:03:39.79,0:03:43.52,Sample KM [Up],,0,0,0,karaoke,{\k28}Ich {\k29}muss {\k30}mein'n {\k25}Weg {\k32}al{\k28}lei{\k54}ne {\kf147}geh'n
+Comment: 0,0:03:44.08,0:03:48.66,Sample KM [Up],,0,0,0,karaoke,{\k28}Kann {\k29}euch {\k28}nie{\k53}mals {\k61}zei{\k30}gen, {\k28}wer {\k26}ich {\k54}wirk{\k33}lich {\k88}bin
+Comment: 0,0:03:48.94,0:03:52.35,Sample KM [Up],,0,0,0,karaoke,{\k30}Ich {\k26}hal{\k29}te {\k29}mein {\k30}Ge{\k53}heim{\k31}nis {\kf113}fest
+Comment: 0,0:03:52.67,0:03:55.22,Sample KM [Up],,0,0,0,karaoke,{\k26}In {\k28}mei{\k30}ner {\kf171}Hand
+Comment: 0,0:03:54.36,0:03:56.53,Sample KM [Choir],,0,0,0,karaoke,{\k57}Fest {\k30}in {\k27}mei{\k34}ner {\k69}Hand
+Comment: 0,0:03:58.08,0:04:01.79,Sample KM [Up],,0,0,0,karaoke,{\k28}Es {\k30}wird {\k27}nie{\k27}mals {\k29}zu {\k31}En{\k53}de {\kf146}geh'n
+Comment: 0,0:04:02.63,0:04:07.04,Sample KM [Up],,0,0,0,karaoke,{\k27}E{\k32}gal, {\k28}was {\k28}pas{\k57}siert,{\k30} {\k28}nur {\k29}die {\k56}Freund{\k30}schaft {\k96}zählt
+Comment: 0,0:04:07.22,0:04:10.19,Sample KM [Up],,0,0,0,karaoke,{\k30}Ich {\k25}hab {\k29}mein {\k57}Ziel {\k31}ganz {\k28}fest {\k28}im {\k69}Blick
+Comment: 0,0:04:11.19,0:04:14.71,Sample KM [Up],,0,0,0,karaoke,{\k29}Und {\k27}ich {\k57}weiß {\k30}ge{\k55}nau, {\k31}das {\k28}ist {\k26}mein {\k80}Glück
+Dialogue: 0,0:00:19.19,0:00:24.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Hab {\k59}mich {\k54}oft {\k59}schon {\k58}mal {\k54}ge{\k78}fragt
+Dialogue: 0,0:00:23.77,0:00:28.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Wie {\k25}ich {\k31}das {\k56}aus{\k61}halt, {\k52}Tag {\k55}für {\k97}Tag
+Dialogue: 0,0:00:28.32,0:00:33.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Nicht {\k57}zu {\k56}wis{\k59}sen, {\k58}wer {\k28}ich {\k29}jetzt {\k86}bin
+Dialogue: 0,0:00:32.90,0:00:37.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Ich {\k29}bin {\k28}ein {\k60}Mann{\k56} {\k26}und {\k29}bin {\k28}ein {\k57}Kind
+Dialogue: 0,0:00:36.90,0:00:40.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Manch{\k30}mal {\k29}schau {\k28}ich {\k27}mich {\k60}an
+Dialogue: 0,0:00:40.03,0:00:45.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Und {\k30}dann {\k56}spür {\k28}ich {\k29}mei{\k26}nen {\k32}kla{\k27}ren {\k31}Ver{\kf130}stand
+Dialogue: 0,0:00:46.61,0:00:50.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Dann {\k27}ist {\k27}es {\k57}Zeit, {\k31}ich {\k29}muss {\k83}geh'n
+Dialogue: 0,0:00:49.76,0:00:54.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Ich {\k27}tu, {\k28}was {\k31}ich {\k29}am {\k27}bes{\k57}ten {\k89}kann
+Dialogue: 0,0:00:54.32,0:00:59.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Es {\k27}wird {\k31}nie{\k27}mals {\k29}zu {\k31}En{\k55}de {\kf137}geh'n
+Dialogue: 0,0:00:58.88,0:01:04.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}E{\k33}gal, {\k28}was {\k27}pas{\k59}siert,{\k26} {\k29}nur {\k26}die {\k58}Freund{\k32}schaft {\k97}zählt
+Dialogue: 0,0:01:03.47,0:01:07.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ich {\k26}hab {\k33}mein {\k58}Ziel {\k28}ganz {\k28}fest {\k29}im {\k85}Blick
+Dialogue: 0,0:01:07.44,0:01:12.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Und {\k26}ich {\k54}weiß {\k33}ge{\k56}nau, {\k28}das {\k29}ist {\k27}mein {\k86}Glück
+Dialogue: 0,0:01:12.59,0:01:17.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ich {\k30}muss {\k28}mein'n {\k25}Weg {\k32}al{\k29}lei{\k55}ne {\kf145}geh'n
+Dialogue: 0,0:01:16.90,0:01:22.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Kann {\k31}euch {\k27}nie{\k55}mals {\k61}zei{\k29}gen, {\k26}wer {\k29}ich {\k56}wirk{\k29}lich {\k88}bin
+Dialogue: 0,0:01:21.75,0:01:26.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ich {\k28}hal{\k31}te {\k30}mein {\k28}Ge{\k53}heim{\k32}nis {\kf109}fest
+Dialogue: 0,0:01:25.46,0:01:29.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}In {\k29}mei{\k29}ner {\kf188}Hand
+Dialogue: 0,0:01:32.32,0:01:37.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Es {\k57}ist {\k59}al{\k57}les {\k57}nicht {\k58}so {\k82}leicht
+Dialogue: 0,0:01:36.90,0:01:42.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Ich {\k27}muss {\k28}euch {\k58}täu{\k30}schen{\k27} {\k27}von {\k58}Zeit {\k30}zu {\k94}Zeit
+Dialogue: 0,0:01:41.45,0:01:45.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Sonst {\k28}seid {\k30}ihr {\k57}al{\k57}le{\k29} {\k31}in {\k27}Ge{\k55}fahr
+Dialogue: 0,0:01:46.04,0:01:50.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Nichts {\k55}ist {\k59}so,{\k56} {\k29}wie's {\k29}frü{\k28}her {\k57}war
+Dialogue: 0,0:01:50.05,0:01:53.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Manch{\k30}mal {\k30}schau {\k27}ich {\k29}mich {\k60}an
+Dialogue: 0,0:01:53.20,0:01:58.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Und {\k32}dann {\k56}spür {\k29}ich {\k28}mei{\k28}nen {\k28}kla{\k29}ren {\k28}Ver{\kf134}stand
+Dialogue: 0,0:01:59.75,0:02:03.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Dann {\k29}ist {\k27}es {\k56}Zeit, {\k31}ich {\k29}muss {\k83}geh'n
+Dialogue: 0,0:02:02.89,0:02:07.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Ich {\k30}tu, {\k29}was {\k28}ich {\k28}am {\k28}bes{\k57}ten {\k85}kann
+Dialogue: 0,0:02:07.47,0:02:12.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Es {\k27}wird {\k28}nie{\k28}mals {\k28}zu {\k31}En{\k55}de {\kf142}geh'n
+Dialogue: 0,0:02:12.02,0:02:17.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}E{\k31}gal, {\k29}was {\k28}pas{\k58}siert,{\k28} {\k28}nur {\k30}die {\k57}Freund{\k27}schaft {\k90}zählt
+Dialogue: 0,0:02:16.62,0:02:20.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ich {\k24}hab {\k35}mein {\k55}Ziel {\k30}ganz {\k29}fest {\k30}im {\k76}Blick
+Dialogue: 0,0:02:20.58,0:02:25.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Und {\k28}ich {\k55}weiß {\k30}ge{\k57}nau, {\k29}das {\k28}ist {\k28}mein {\k80}Glück
+Dialogue: 0,0:02:25.74,0:02:30.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Ich {\k28}muss {\k27}mein'n {\k30}Weg {\k31}al{\k27}lei{\k56}ne {\kf145}geh'n
+Dialogue: 0,0:02:30.03,0:02:35.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Kann {\k29}euch {\k28}nie{\k53}mals {\k61}zei{\k29}gen, {\k29}wer {\k25}ich {\k58}wirk{\k30}lich {\k87}bin
+Dialogue: 0,0:02:34.89,0:02:39.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ich {\k25}hal{\k31}te {\k27}mein {\k30}Ge{\k56}heim{\k29}nis {\kf109}fest
+Dialogue: 0,0:02:38.60,0:02:42.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}In {\k29}mei{\k28}ner {\kf188}Hand
+Dialogue: 0,0:02:44.31,0:02:48.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Stellt {\k23}mir {\k32}kei{\k27}ne {\k59}Fra{\kf142}gen
+Dialogue: 0,0:02:48.61,0:02:53.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ich {\k28}kann {\k27}es {\k27}euch {\k32}nicht {\k55}sa{\kf143}gen
+Dialogue: 0,0:02:53.17,0:02:57.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Ihr {\k27}müsst {\k27}Ver{\k31}trau{\k32}en {\k54}ha{\kf143}ben
+Dialogue: 0,0:02:57.75,0:03:04.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Die {\k56}Zeit {\k30}wird {\k58}zei{\k33}gen,{\k25} {\k25}wo{\k29}hin {\k27}die {\k30}Rei{\k31}se {\kf147}geht
+Dialogue: 0,0:03:20.60,0:03:25.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Es {\k26}wird {\k32}nie{\k27}mals {\k30}zu {\k30}En{\k55}de {\kf146}geh'n
+Dialogue: 0,0:03:25.15,0:03:30.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}E{\k29}gal, {\k32}was {\k28}pas{\k57}siert,{\k30} {\k27}nur {\k29}die {\k58}Freund{\k26}schaft {\kf104}zählt
+Dialogue: 0,0:03:29.76,0:03:33.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Ich {\k27}hab {\k28}mein {\k58}Ziel {\k29}ganz {\k30}fest {\k28}im {\k83}Blick
+Dialogue: 0,0:03:33.74,0:03:38.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Und {\k27}ich {\k57}weiß {\k30}ge{\k55}nau, {\k31}das {\k28}ist {\k26}mein {\k80}Glück
+Dialogue: 0,0:03:38.89,0:03:43.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Ich {\k29}muss {\k30}mein'n {\k25}Weg {\k32}al{\k28}lei{\k54}ne {\kf147}geh'n
+Dialogue: 0,0:03:43.18,0:03:48.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Kann {\k29}euch {\k28}nie{\k53}mals {\k61}zei{\k30}gen, {\k28}wer {\k26}ich {\k54}wirk{\k33}lich {\k88}bin
+Dialogue: 0,0:03:48.04,0:03:52.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ich {\k26}hal{\k29}te {\k29}mein {\k30}Ge{\k53}heim{\k31}nis {\kf113}fest
+Dialogue: 0,0:03:51.77,0:03:55.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}In {\k28}mei{\k30}ner {\kf171}Hand
+Dialogue: 0,0:03:53.46,0:03:56.73,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k57}Fest {\k30}in {\k27}mei{\k34}ner {\k69}Hand
+Dialogue: 0,0:03:57.18,0:04:01.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Es {\k30}wird {\k27}nie{\k27}mals {\k29}zu {\k31}En{\k53}de {\kf146}geh'n
+Dialogue: 0,0:04:01.73,0:04:07.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}E{\k32}gal, {\k28}was {\k28}pas{\k57}siert,{\k30} {\k28}nur {\k29}die {\k56}Freund{\k30}schaft {\k96}zählt
+Dialogue: 0,0:04:06.32,0:04:10.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ich {\k25}hab {\k29}mein {\k57}Ziel {\k31}ganz {\k28}fest {\k28}im {\k69}Blick
+Dialogue: 0,0:04:10.29,0:04:14.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Und {\k27}ich {\k57}weiß {\k30}ge{\k55}nau, {\k31}das {\k28}ist {\k26}mein {\k80}Glück

@@ -1,0 +1,131 @@
+﻿[Script Info]
+Title: Neiro no Kanata
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Kmeuh, Azurys
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Kitauji Quartet,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,20,1
+Style: Kumiko,Arial,24,&H00FFFFFF,&H006C7ADD,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,20,1
+Style: Reina,Arial,24,&H00FFFFFF,&H00B585C8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,20,1
+Style: Sapphire,Arial,24,&H00FFFFFF,&H0066DDF3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,20,1
+Style: Hazuki,Arial,24,&H00FFFFFF,&H00E4D674,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,20,1
+Style: COLOR CODE,Arial,20,&H0000B4FF,&H0000B4FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:03.00,Kitauji Quartet,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:07.00,COLOR CODE,,0,0,0,karaoke,{\c&H6C7ADD&}Kumiko {\c&HFFFFFF&}- {\c&HB585C8&}Reina {\c&HFFFFFF&}- {\c&H66DDF3&}Sapphire {\c&HFFFFFF&}- {\c&HE4D674&}Hazuki
+Comment: 0,0:00:00.00,0:00:07.00,COLOR CODE,,0,0,0,karaoke,{\c&H008AFF&}Kitauji Quartet
+Comment: 0,0:00:04.87,0:00:07.11,Kumiko,,0,0,0,karaoke,{\k17}o{\k14}i{\k18}ka{\k14}ke{\k64}te {\k19}o{\k13}i{\k16}nu{\k15}i{\k34}te
+Comment: 0,0:00:07.38,0:00:09.78,Kumiko,,0,0,0,karaoke,{\k23}ka{\k11}ze {\k17}wa {\k14}na{\k31}ga{\k20}re{\k42}te {\k22}yu{\k62}ku
+Comment: 0,0:00:09.91,0:00:12.70,Sapphire,,0,0,0,karaoke,{\k21}ta{\k11}ku{\k21}sa{\k11}re{\k63}te {\k21}ta{\k13}ku{\k18}shi{\k12}te{\k30}ku {\k22}ne{\k36}tsu
+Comment: 0,0:00:12.78,0:00:14.80,Sapphire,,0,0,0,karaoke,{\k20}ko{\k10}ko{\k62}ro {\k31}to{\k23}mo{\k56}su
+Comment: 0,0:00:14.97,0:00:17.20,Hazuki,,0,0,0,karaoke,{\k19}ku{\k14}ru{\k19}shi{\k12}ku{\k63}te {\k14}ku{\k21}ya{\k16}shi{\k12}ku{\k33}te
+Comment: 0,0:00:17.48,0:00:20.37,Hazuki,,0,0,0,karaoke,{\k34}nan{\k20}do {\k10}na{\k33}mi{\k30}da {\k33}shi{\k22}ta {\k40}da{\k32}ro{\k35}u
+Comment: 0,0:00:20.64,0:00:25.84,Reina,,0,0,0,karaoke,{\k34}ma{\k31}ba{\k34}ta{\k17}ki {\k106}wa {\k31}i{\k33}ma {\k32}ha{\k31}ba{\k20}ta{\kf151}ku
+Comment: 0,0:00:35.16,0:00:37.52,Hazuki,,0,0,0,karaoke,{\k22}zu{\k14}i{\k17}bu{\k12}n {\k63}ki{\k51}ta {\k57}ne
+Comment: 0,0:00:37.70,0:00:40.60,Sapphire,,0,0,0,karaoke,{\k22}ka{\k13}ke{\k18}nu{\k11}ke{\k63}te {\k52}ki{\k42}tan {\k30}da {\k39}ne
+Comment: 0,0:00:40.23,0:00:45.15,Reina,,0,0,0,karaoke,{\k20}o{\k13}mo{\k19}i{\k11}de {\k62}wa {\k34}ya{\k19}ki{\k32}tsu{\k11}i{\k32}te {\k31}ha{\k32}na{\k63}re{\k62}na{\k51}i
+Comment: 0,0:00:45.26,0:00:50.32,Kumiko,,0,0,0,karaoke,{\k18}wa{\k14}ta{\k31}shi {\k31}ra{\k33}shi{\k20}sa {\k33}mo{\k43}to{\k33}me{\k30}te {\k20}wa{\k12}ka{\k32}n{\k21}na{\k10}ku {\k20}na{\k32}t{\k73}te
+Comment: 0,0:00:50.62,0:00:57.41,Kitauji Quartet,,0,0,0,karaoke,{\k34}son{\k63}na {\k65}to{\k62}ki {\k62}ki{\k53}mi {\k12}no {\k21}o{\k31}to {\kf268}ga{\k8}
+Comment: 0,0:00:58.53,0:01:03.25,Kitauji Quartet,,0,0,0,karaoke,{\k63}wa{\k65}su{\k21}re{\k31}na{\k42}i {\k32}ne{\k32}i{\k31}ro {\k32}mo {\k28}ke{\k24}shi{\k31}ki {\k40}mo
+Comment: 0,0:01:03.59,0:01:08.04,Kitauji Quartet,,0,0,0,karaoke,{\k16}o{\k17}na{\k15}ji {\k15}yu{\k22}me {\k30}ni {\k43}o{\k33}mo{\k32}i {\k31}ka{\k62}sa{\k52}ne{\k80}te
+Comment: 0,0:01:08.31,0:01:10.42,Reina,,0,0,0,karaoke,{\k21}mi{\k13}chi{\k32}bi{\k21}ka{\kf124}re
+Comment: 0,0:01:09.48,0:01:10.76,Kumiko,,0,0,0,karaoke,{\k32}ka{\k11}ga{\k32}ya{\k21}i{\k32}ta
+Comment: 0,0:01:10.83,0:01:13.42,Kitauji Quartet,,0,0,0,karaoke,{\k38}hi{\k60}bi{\k64}ke {\k62}i{\k35}ma
+Comment: 0,0:01:13.71,0:01:18.47,Kitauji Quartet,,0,0,0,karaoke,{\k63}u{\k63}ke{\k16}tsu{\k35}i {\k43}da {\k33}ne{\k31}ga{\k31}i {\k31}wa {\k32}mi{\k20}ra{\k31}i {\k47}he
+Comment: 0,0:01:18.73,0:01:26.57,Kitauji Quartet,,0,0,0,karaoke,{\k34}shuu{\k31}gak'{\k21}sho{\k33}u {\k104}ni {\k32}hi{\k64}kat{\k65}ta {\k51}shi{\k43}zu{\kf303}ku{\kf3}
+Comment: 0,0:01:43.39,0:01:45.59,Hazuki,,0,0,0,karaoke,{\k20}ga{\k8}ku{\k21}fu {\k13}wa {\k64}mi{\k51}gi {\k43}ni
+Comment: 0,0:01:45.91,0:01:49.01,Sapphire,,0,0,0,karaoke,{\k20}o{\k13}to {\k19}wa {\k11}ma{\k63}e {\k49}ni {\k45}su{\k30}su{\k60}mu
+Comment: 0,0:01:48.44,0:01:53.36,Kumiko,,0,0,0,karaoke,{\k21}ko{\k12}ko{\k16}ro {\k12}da{\k66}ke {\k47}ta{\k47}chi{\k31}do{\k29}ma{\k34}t{\k64}te{\k64}i{\k49}ta
+Comment: 0,0:01:53.49,0:01:58.47,Reina,,0,0,0,karaoke,{\k30}EM{\k31}BOU{\k36}CHU{\k30}RE {\k20}wo {\k32}mi{\k39}da{\k35}shi{\k31}te {\k21}i{\k9}ki {\k33}wo {\k20}fu{\k12}ki{\k23}ko{\k30}n{\k66}da
+Comment: 0,0:01:58.84,0:02:05.43,Kitauji Quartet,,0,0,0,karaoke,{\k33}zen{\k63}bu {\k62}wo {\k64}o{\k63}to {\k50}ni {\k15}shi{\k20}ta{\k31}ku{\kf258}te
+Comment: 0,0:02:06.74,0:02:11.47,Kitauji Quartet,,0,0,0,karaoke,{\k65}ka{\k62}na{\k21}de{\k32}ta{\k38}i {\k33}hyou{\k34}jou {\k33}mo {\k30}ka{\k32}n{\k21}ka{\k32}ku {\k40}mo
+Comment: 0,0:02:11.81,0:02:16.21,Kitauji Quartet,,0,0,0,karaoke,{\k19}mu{\k12}ne {\k19}fu{\k13}ru{\k19}wa{\k31}su {\k44}o{\k33}mo{\k31}i{\k26}ka{\k67}sa{\k53}ne{\k73}te
+Comment: 0,0:02:16.52,0:02:17.81,Sapphire,,0,0,0,karaoke,{\k21}hi{\k13}to{\k30}ri {\k19}ja{\k46}nai
+Comment: 0,0:02:17.69,0:02:18.93,Reina,,0,0,0,karaoke,{\k44}yuu{\k31}ki {\k21}na{\k40}ra
+Comment: 0,0:02:19.05,0:02:21.78,Kitauji Quartet,,0,0,0,karaoke,{\k34}ko{\k62}ko {\k62}ni {\k66}a{\k49}ru
+Comment: 0,0:02:21.90,0:02:26.65,Kitauji Quartet,,0,0,0,karaoke,{\k63}mo{\k64}u {\k21}ni{\k31}do {\k42}to {\k32}o{\k31}na{\k32}ji {\k32}e{\k28}n{\k22}so{\k33}u {\k44}wa
+Comment: 0,0:02:26.97,0:02:33.97,Kitauji Quartet,,0,0,0,karaoke,{\k30}de{\k21}ki{\k12}na{\k20}i {\k31}ka{\k107}ra {\k30}i{\k63}ma {\k63}wo {\k54}u{\k43}ta{\kf226}ou
+Comment: 0,0:02:42.14,0:02:51.62,Kitauji Quartet,,0,0,0,karaoke,{\k61}la {\k50}la {\k43}la {\k32}la {\k65}la {\k62}la {\k51}la {\k45}la {\k30}la {\k64}la {\k63}la {\k52}la {\k41}la {\k31}la {\k35}la {\k30}la {\k62}la {\k51}la {\k80}la
+Comment: 0,0:02:51.88,0:02:54.40,Sapphire,,0,0,0,karaoke,{\k20}ko{\k13}n{\k33}na {\k32}ni {\k32}mo {\k17}mu{\k33}chuu {\k13}ni {\k20}na{\k12}re{\k59}ru
+Comment: 0,0:02:54.72,0:02:57.05,Sapphire,,0,0,0,karaoke,{\k35}mo{\k31}no {\k32}wo {\k21}shi{\k43}ra{\k29}na{\k42}i
+Comment: 0,0:02:56.95,0:02:59.46,Hazuki,,0,0,0,karaoke,{\k22}ma{\k10}da {\k31}mi{\k33}chi {\k32}wa {\k21}na{\k31}ga{\k12}ku {\k18}tsu{\k12}zu{\k29}ku
+Comment: 0,0:02:59.67,0:03:01.99,Hazuki,,0,0,0,karaoke,{\k13}so{\k33}n{\k30}na {\k12}ko{\k18}~{\k20}to {\k44}shit{\k33}te{\k29}ru
+Comment: 0,0:03:02.01,0:03:08.10,Reina,,0,0,0,karaoke,{\k29}ken{\k33}me{\k32}i {\k51}ni {\k34}na{\k11}re{\k20}ta {\k11}ko{\k63}to {\k29}ta{\k33}shi{\k33}ka {\k18}na {\k49}se{\k26}i{\k34}shu{\k31}n {\k72}ga
+Comment: 0,0:03:08.01,0:03:14.97,Kumiko,,0,0,0,karaoke,{\k18}wa{\k16}ta{\k18}shi {\k32}no {\k11}ho{\k21}ko{\k39}ri {\k33}mi{\k34}n{\k22}na {\k63}no {\k41}ta{\k32}ka{\k32}ra{\k31}mo{\kf253}no
+Comment: 0,0:03:16.85,0:03:18.96,Kumiko,,0,0,0,karaoke,{\k18}te {\k14}ni {\k18}i{\k15}re{\k63}te {\k16}u{\k15}shi{\k16}na{\k16}t{\k20}te
+Comment: 0,0:03:19.39,0:03:21.77,Kumiko,,0,0,0,karaoke,{\k22}to{\k10}ki {\k19}wa {\k12}mi{\k33}chi{\k19}te {\k41}i{\k19}t{\k63}ta
+Comment: 0,0:03:21.90,0:03:26.68,Reina,,0,0,0,karaoke,{\k33}zan{\k19}ko{\k12}ku {\k63}na {\k32}un{\k22}me{\k10}i {\k28}da{\k23}t{\k44}te {\k20}i{\k12}ki{\k63}ta {\k31}a{\k17}ka{\k49}shi
+Comment: 0,0:03:26.97,0:03:29.28,Hazuki,,0,0,0,karaoke,{\k19}u{\k11}re{\k22}shi{\k12}ku{\k62}te {\k18}ta{\k13}no{\k21}shi{\k12}ku{\k41}te
+Comment: 0,0:03:29.45,0:03:32.42,Hazuki,,0,0,0,karaoke,{\k37}nan{\k18}do {\k13}wa{\k30}ra{\k32}i{\k33}at{\k21}ta {\k41}da{\k32}ro{\k40}u
+Comment: 0,0:03:32.65,0:03:34.44,Sapphire,,0,0,0,karaoke,{\k32}ki{\k31}ra{\k32}me{\k20}ki {\k64}wo
+Comment: 0,0:03:34.85,0:03:37.73,Kitauji Quartet,,0,0,0,karaoke,{\k31}i{\k34}ma {\k29}da{\k25}ki{\k21}shi{\kf148}me
+Comment: 0,0:03:40.22,0:03:45.00,Kitauji Quartet,,0,0,0,karaoke,{\k61}wa{\k66}su{\k21}re{\k29}na{\k45}i {\k31}ne{\k32}i{\k31}ro {\k32}mo {\k28}ke{\k24}shi{\k30}ki {\k48}mo
+Comment: 0,0:03:45.27,0:03:49.63,Kitauji Quartet,,0,0,0,karaoke,{\k23}ko{\k10}to{\k16}ba {\k15}ja{\k21}na{\k31}i {\k41}o{\k33}mo{\k29}i {\k35}tsu{\k63}mu{\k53}i{\k66}de
+Comment: 0,0:03:50.02,0:03:51.72,Kitauji Quartet,,0,0,0,karaoke,{\k19}a{\k13}ri{\k32}ga{\k21}to{\kf85}u
+Comment: 0,0:03:51.16,0:03:52.45,Kitauji Quartet,,0,0,0,karaoke,{\k31}ko{\k11}re {\k21}ka{\k31}ra {\k44}mo
+Comment: 0,0:03:52.55,0:03:55.09,Kitauji Quartet,,0,0,0,karaoke,{\k30}to{\k63}mo {\k64}ni {\k62}a{\k35}ru
+Comment: 0,0:03:55.40,0:04:00.15,Kitauji Quartet,,0,0,0,karaoke,{\k62}u{\k62}go{\k22}ki{\k30}da{\k42}su {\k32}ne{\k33}ga{\k32}i {\k30}wa {\k32}mi{\k21}ra{\k31}i {\k46}he
+Comment: 0,0:04:00.43,0:04:05.17,Kitauji Quartet,,0,0,0,karaoke,{\k29}me{\k23}gu{\k13}ri{\k21}a{\k31}t{\k105}ta {\k31}o{\k64}to {\k59}ga {\k54}hi{\k11}bi{\k33}ku
+Comment: 0,0:04:05.47,0:04:13.19,Kumiko,,0,0,0,karaoke,{\k52}sou {\k28}so{\k18}shi{\k17}te {\k14}ma{\k45}ta {\k16}tsu{\k22}gi {\k11}no {\k19}kyo{\k12}ku {\k67}ga{\k31} {\k29}ha{\k51}ji{\k49}ma{\kf291}ru
+Dialogue: 0,0:00:00.00,0:00:07.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H6C7ADD&}Kumiko {\c&HFFFFFF&}- {\c&HB585C8&}Reina {\c&HFFFFFF&}- {\c&H66DDF3&}Sapphire {\c&HFFFFFF&}- {\c&HE4D674&}Hazuki
+Dialogue: 0,0:00:00.00,0:00:07.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H008AFF&}Kitauji Quartet
+Dialogue: 0,0:00:03.97,0:00:07.31,Kumiko,,0,0,0,fx,{\k90\fad(300,200)}{\k17}o{\k14}i{\k18}ka{\k14}ke{\k64}te {\k19}o{\k13}i{\k16}nu{\k15}i{\k34}te
+Dialogue: 0,0:00:06.48,0:00:09.98,Kumiko,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ka{\k11}ze {\k17}wa {\k14}na{\k31}ga{\k20}re{\k42}te {\k22}yu{\k62}ku
+Dialogue: 0,0:00:09.01,0:00:12.90,Sapphire,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ta{\k11}ku{\k21}sa{\k11}re{\k63}te {\k21}ta{\k13}ku{\k18}shi{\k12}te{\k30}ku {\k22}ne{\k36}tsu
+Dialogue: 0,0:00:11.88,0:00:15.00,Sapphire,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ko{\k10}ko{\k62}ro {\k31}to{\k23}mo{\k56}su
+Dialogue: 0,0:00:14.07,0:00:17.40,Hazuki,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ku{\k14}ru{\k19}shi{\k12}ku{\k63}te {\k14}ku{\k21}ya{\k16}shi{\k12}ku{\k33}te
+Dialogue: 0,0:00:16.58,0:00:20.57,Hazuki,,0,0,0,fx,{\k90\fad(300,200)}{\k34}nan{\k20}do {\k10}na{\k33}mi{\k30}da {\k33}shi{\k22}ta {\k40}da{\k32}ro{\k35}u
+Dialogue: 0,0:00:19.74,0:00:26.04,Reina,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ma{\k31}ba{\k34}ta{\k17}ki {\k106}wa {\k31}i{\k33}ma {\k32}ha{\k31}ba{\k20}ta{\kf151}ku
+Dialogue: 0,0:00:34.26,0:00:37.72,Hazuki,,0,0,0,fx,{\k90\fad(300,200)}{\k22}zu{\k14}i{\k17}bu{\k12}n {\k63}ki{\k51}ta {\k57}ne
+Dialogue: 0,0:00:36.80,0:00:40.80,Sapphire,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ka{\k13}ke{\k18}nu{\k11}ke{\k63}te {\k52}ki{\k42}tan {\k30}da {\k39}ne
+Dialogue: 0,0:00:39.33,0:00:45.35,Reina,,0,0,0,fx,{\k90\fad(300,200)}{\k20}o{\k13}mo{\k19}i{\k11}de {\k62}wa {\k34}ya{\k19}ki{\k32}tsu{\k11}i{\k32}te {\k31}ha{\k32}na{\k63}re{\k62}na{\k51}i
+Dialogue: 0,0:00:44.36,0:00:50.52,Kumiko,,0,0,0,fx,{\k90\fad(300,200)}{\k18}wa{\k14}ta{\k31}shi {\k31}ra{\k33}shi{\k20}sa {\k33}mo{\k43}to{\k33}me{\k30}te {\k20}wa{\k12}ka{\k32}n{\k21}na{\k10}ku {\k20}na{\k32}t{\k73}te
+Dialogue: 0,0:00:49.72,0:00:57.61,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k34}son{\k63}na {\k65}to{\k62}ki {\k62}ki{\k53}mi {\k12}no {\k21}o{\k31}to {\kf268}ga{\k8}
+Dialogue: 0,0:00:57.63,0:01:03.45,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k63}wa{\k65}su{\k21}re{\k31}na{\k42}i {\k32}ne{\k32}i{\k31}ro {\k32}mo {\k28}ke{\k24}shi{\k31}ki {\k40}mo
+Dialogue: 0,0:01:02.69,0:01:08.24,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k16}o{\k17}na{\k15}ji {\k15}yu{\k22}me {\k30}ni {\k43}o{\k33}mo{\k32}i {\k31}ka{\k62}sa{\k52}ne{\k80}te
+Dialogue: 0,0:01:07.41,0:01:10.62,Reina,,0,0,0,fx,{\k90\fad(300,200)}{\k21}mi{\k13}chi{\k32}bi{\k21}ka{\kf124}re
+Dialogue: 0,0:01:08.58,0:01:10.96,Kumiko,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ka{\k11}ga{\k32}ya{\k21}i{\k32}ta
+Dialogue: 0,0:01:09.93,0:01:13.62,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k38}hi{\k60}bi{\k64}ke {\k62}i{\k35}ma
+Dialogue: 0,0:01:12.81,0:01:18.67,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k63}u{\k63}ke{\k16}tsu{\k35}i {\k43}da {\k33}ne{\k31}ga{\k31}i {\k31}wa {\k32}mi{\k20}ra{\k31}i {\k47}he
+Dialogue: 0,0:01:17.83,0:01:26.77,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k34}shuu{\k31}gak'{\k21}sho{\k33}u {\k104}ni {\k32}hi{\k64}kat{\k65}ta {\k51}shi{\k43}zu{\kf303}ku{\kf3}
+Dialogue: 0,0:01:42.49,0:01:45.79,Hazuki,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ga{\k8}ku{\k21}fu {\k13}wa {\k64}mi{\k51}gi {\k43}ni
+Dialogue: 0,0:01:45.01,0:01:49.21,Sapphire,,0,0,0,fx,{\k90\fad(300,200)}{\k20}o{\k13}to {\k19}wa {\k11}ma{\k63}e {\k49}ni {\k45}su{\k30}su{\k60}mu
+Dialogue: 0,0:01:47.54,0:01:53.56,Kumiko,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ko{\k12}ko{\k16}ro {\k12}da{\k66}ke {\k47}ta{\k47}chi{\k31}do{\k29}ma{\k34}t{\k64}te{\k64}i{\k49}ta
+Dialogue: 0,0:01:52.59,0:01:58.67,Reina,,0,0,0,fx,{\k90\fad(300,200)}{\k30}EM{\k31}BOU{\k36}CHU{\k30}RE {\k20}wo {\k32}mi{\k39}da{\k35}shi{\k31}te {\k21}i{\k9}ki {\k33}wo {\k20}fu{\k12}ki{\k23}ko{\k30}n{\k66}da
+Dialogue: 0,0:01:57.94,0:02:05.63,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k33}zen{\k63}bu {\k62}wo {\k64}o{\k63}to {\k50}ni {\k15}shi{\k20}ta{\k31}ku{\kf258}te
+Dialogue: 0,0:02:05.84,0:02:11.67,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k65}ka{\k62}na{\k21}de{\k32}ta{\k38}i {\k33}hyou{\k34}jou {\k33}mo {\k30}ka{\k32}n{\k21}ka{\k32}ku {\k40}mo
+Dialogue: 0,0:02:10.91,0:02:16.41,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k19}mu{\k12}ne {\k19}fu{\k13}ru{\k19}wa{\k31}su {\k44}o{\k33}mo{\k31}i{\k26}ka{\k67}sa{\k53}ne{\k73}te
+Dialogue: 0,0:02:15.62,0:02:18.01,Sapphire,,0,0,0,fx,{\k90\fad(300,200)}{\k21}hi{\k13}to{\k30}ri {\k19}ja{\k46}nai
+Dialogue: 0,0:02:16.79,0:02:19.13,Reina,,0,0,0,fx,{\k90\fad(300,200)}{\k44}yuu{\k31}ki {\k21}na{\k40}ra
+Dialogue: 0,0:02:18.15,0:02:21.98,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ko{\k62}ko {\k62}ni {\k66}a{\k49}ru
+Dialogue: 0,0:02:21.00,0:02:26.85,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k63}mo{\k64}u {\k21}ni{\k31}do {\k42}to {\k32}o{\k31}na{\k32}ji {\k32}e{\k28}n{\k22}so{\k33}u {\k44}wa
+Dialogue: 0,0:02:26.07,0:02:34.17,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k30}de{\k21}ki{\k12}na{\k20}i {\k31}ka{\k107}ra {\k30}i{\k63}ma {\k63}wo {\k54}u{\k43}ta{\kf226}ou
+Dialogue: 0,0:02:41.24,0:02:51.82,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k61}la {\k50}la {\k43}la {\k32}la {\k65}la {\k62}la {\k51}la {\k45}la {\k30}la {\k64}la {\k63}la {\k52}la {\k41}la {\k31}la {\k35}la {\k30}la {\k62}la {\k51}la {\k80}la
+Dialogue: 0,0:02:50.98,0:02:54.60,Sapphire,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ko{\k13}n{\k33}na {\k32}ni {\k32}mo {\k17}mu{\k33}chuu {\k13}ni {\k20}na{\k12}re{\k59}ru
+Dialogue: 0,0:02:53.82,0:02:57.25,Sapphire,,0,0,0,fx,{\k90\fad(300,200)}{\k35}mo{\k31}no {\k32}wo {\k21}shi{\k43}ra{\k29}na{\k42}i
+Dialogue: 0,0:02:56.05,0:02:59.66,Hazuki,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ma{\k10}da {\k31}mi{\k33}chi {\k32}wa {\k21}na{\k31}ga{\k12}ku {\k18}tsu{\k12}zu{\k29}ku
+Dialogue: 0,0:02:58.77,0:03:02.19,Hazuki,,0,0,0,fx,{\k90\fad(300,200)}{\k13}so{\k33}n{\k30}na {\k12}ko{\k18}~{\k20}to {\k44}shit{\k33}te{\k29}ru
+Dialogue: 0,0:03:01.11,0:03:08.30,Reina,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ken{\k33}me{\k32}i {\k51}ni {\k34}na{\k11}re{\k20}ta {\k11}ko{\k63}to {\k29}ta{\k33}shi{\k33}ka {\k18}na {\k49}se{\k26}i{\k34}shu{\k31}n {\k72}ga
+Dialogue: 0,0:03:07.11,0:03:15.17,Kumiko,,0,0,0,fx,{\k90\fad(300,200)}{\k18}wa{\k16}ta{\k18}shi {\k32}no {\k11}ho{\k21}ko{\k39}ri {\k33}mi{\k34}n{\k22}na {\k63}no {\k41}ta{\k32}ka{\k32}ra{\k31}mo{\kf253}no
+Dialogue: 0,0:03:15.95,0:03:19.16,Kumiko,,0,0,0,fx,{\k90\fad(300,200)}{\k18}te {\k14}ni {\k18}i{\k15}re{\k63}te {\k16}u{\k15}shi{\k16}na{\k16}t{\k20}te
+Dialogue: 0,0:03:18.49,0:03:21.97,Kumiko,,0,0,0,fx,{\k90\fad(300,200)}{\k22}to{\k10}ki {\k19}wa {\k12}mi{\k33}chi{\k19}te {\k41}i{\k19}t{\k63}ta
+Dialogue: 0,0:03:21.00,0:03:26.88,Reina,,0,0,0,fx,{\k90\fad(300,200)}{\k33}zan{\k19}ko{\k12}ku {\k63}na {\k32}un{\k22}me{\k10}i {\k28}da{\k23}t{\k44}te {\k20}i{\k12}ki{\k63}ta {\k31}a{\k17}ka{\k49}shi
+Dialogue: 0,0:03:26.07,0:03:29.48,Hazuki,,0,0,0,fx,{\k90\fad(300,200)}{\k19}u{\k11}re{\k22}shi{\k12}ku{\k62}te {\k18}ta{\k13}no{\k21}shi{\k12}ku{\k41}te
+Dialogue: 0,0:03:28.55,0:03:32.62,Hazuki,,0,0,0,fx,{\k90\fad(300,200)}{\k37}nan{\k18}do {\k13}wa{\k30}ra{\k32}i{\k33}at{\k21}ta {\k41}da{\k32}ro{\k40}u
+Dialogue: 0,0:03:31.75,0:03:34.64,Sapphire,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ki{\k31}ra{\k32}me{\k20}ki {\k64}wo
+Dialogue: 0,0:03:33.95,0:03:37.93,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k31}i{\k34}ma {\k29}da{\k25}ki{\k21}shi{\kf148}me
+Dialogue: 0,0:03:39.32,0:03:45.20,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k61}wa{\k66}su{\k21}re{\k29}na{\k45}i {\k31}ne{\k32}i{\k31}ro {\k32}mo {\k28}ke{\k24}shi{\k30}ki {\k48}mo
+Dialogue: 0,0:03:44.37,0:03:49.83,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ko{\k10}to{\k16}ba {\k15}ja{\k21}na{\k31}i {\k41}o{\k33}mo{\k29}i {\k35}tsu{\k63}mu{\k53}i{\k66}de
+Dialogue: 0,0:03:49.12,0:03:51.92,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k13}ri{\k32}ga{\k21}to{\kf85}u
+Dialogue: 0,0:03:50.26,0:03:52.65,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ko{\k11}re {\k21}ka{\k31}ra {\k44}mo
+Dialogue: 0,0:03:51.65,0:03:55.29,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k30}to{\k63}mo {\k64}ni {\k62}a{\k35}ru
+Dialogue: 0,0:03:54.50,0:04:00.35,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k62}u{\k62}go{\k22}ki{\k30}da{\k42}su {\k32}ne{\k33}ga{\k32}i {\k30}wa {\k32}mi{\k21}ra{\k31}i {\k46}he
+Dialogue: 0,0:03:59.53,0:04:05.37,Kitauji Quartet,,0,0,0,fx,{\k90\fad(300,200)}{\k29}me{\k23}gu{\k13}ri{\k21}a{\k31}t{\k105}ta {\k31}o{\k64}to {\k59}ga {\k54}hi{\k11}bi{\k33}ku
+Dialogue: 0,0:04:04.57,0:04:13.39,Kumiko,,0,0,0,fx,{\k90\fad(300,200)}{\k52}sou {\k28}so{\k18}shi{\k17}te {\k14}ma{\k45}ta {\k16}tsu{\k22}gi {\k11}no {\k19}kyo{\k12}ku {\k67}ga{\k31} {\k29}ha{\k51}ji{\k49}ma{\kf291}ru

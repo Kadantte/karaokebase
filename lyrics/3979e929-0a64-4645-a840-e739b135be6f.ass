@@ -1,0 +1,65 @@
+﻿[Script Info]
+Title: Dead or Love
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ChoirJP,Arial,24,&H00FFFFFF,&H0000BAFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: JP,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: ENG,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: ChoirENG,Arial,24,&H00FFFFFF,&H00FF8700,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.86,0:00:05.97,ChoirJP,,0,0,0,karaoke,{\k60}ni{\k49}chi{\k36}jou {\rChoirENG}{\k40}dis{\k21}t{\k35}rac{\k66}tion {\rChoirJP}{\k21}kyu{\k15}n {\k59}to {\k28}sa{\k16}se{\k65}te
+Comment: 0,0:00:08.84,0:00:14.95,ChoirJP,,0,0,0,karaoke,{\k50}ha{\k48}ya{\k41}ku {\k36}o{\k23}sa{\k23}e{\k11}te {\k39}ko{\k24}no {\k8}mu{\k16}na{\k16}sa{\k33}wa{\kf243}gi
+Comment: 0,0:00:14.97,0:00:16.13,ChoirENG,,0,0,0,karaoke,{\k27}you {\k24}are {\k24}my {\k41}life
+Comment: 0,0:00:16.48,0:00:17.64,ENG,,0,0,0,karaoke,{\k26}Dea{\k26}d {\k21}or {\k43}Love
+Comment: 0,0:00:17.70,0:00:22.64,JP,,0,0,0,karaoke,{\k49}ni{\k48}chi{\k39}jou {\rENG}{\k37}dis{\k24}t{\k36}rac{\k61}tion {\rJP}{\k17}kyu{\k21}n {\k60}to {\k27}sa{\k11}se{\k64}te
+Comment: 0,0:00:22.86,0:00:24.20,JP,,0,0,0,karaoke,{\k12}ho{\k13}ra {\rENG}{\k26}let {\k15}me {\k33}love {\k35}you
+Comment: 0,0:00:24.34,0:00:25.42,ENG,,0,0,0,karaoke,{\k25}Where {\k24}are {\k13}you {\k46}now?
+Comment: 0,0:00:25.55,0:00:29.61,JP,,0,0,0,karaoke,{\k52}ha{\k49}ya{\k38}ku {\k35}o{\k24}sa{\k25}e{\k13}te {\k37}ko{\k24}no {\k11}mu{\k13}na{\k14}sa{\k36}wa{\k35}gi
+Comment: 0,0:00:29.75,0:00:34.96,JP,,0,0,0,karaoke,{\k14}wa{\k34}ta{\k26}shi {\k13}to{\k12}ma{\k12}ra{\k37}na{\k50}i {\rENG}{\k24}you {\k24}are {\k25}my {\kf250}life
+Comment: 0,0:00:35.65,0:00:38.87,ENG,,0,0,0,karaoke,{\k31}You {\k19}are {\k24}my {\kf248}life
+Comment: 0,0:00:41.29,0:00:44.93,ENG,,0,0,0,karaoke,{\k51}Bad {\k73}day {\rJP}{\k25}ta{\k23}i{\k23}ku{\k28}tsu {\k26}na {\k25}ni{\k22}chi{\k50}jou {\k18}ga
+Comment: 0,0:00:45.22,0:00:48.58,JP,,0,0,0,karaoke,{\k51}fuan {\k73}de {\k25}shi{\k27}ka{\k24}ta {\k25}na{\k23}ka{\k26}t{\k23}ta {\k25}ke{\k14}do
+Comment: 0,0:00:48.66,0:00:52.78,JP,,0,0,0,karaoke,{\k42}sai{\k35}tei {\k15}de {\k46}fuan{\k37}tei {\k22}na {\k28}fu{\k23}ta{\k26}ri {\k24}no {\rENG}{\k25}love {\k48}sto{\k41}ry
+Comment: 0,0:00:53.11,0:00:56.84,JP,,0,0,0,karaoke,{\k24}u{\k24}go{\k27}ki{\k23}da{\k26}shi{\k48}ta {\k25}ko{\k25}i {\k24}no {\k36}yo{\k38}ka{\k53}n
+Comment: 0,0:00:57.27,0:01:03.42,JP,,0,0,0,karaoke,{\k28}a{\k28}ri{\k21}e{\k28}na{\k44}i {\k51}kon{\k46}na {\k27}se{\k28}ka{\k69}i {\k26}ha{\k23}ya{\k27}ku {\k24}tsu{\k24}re{\k47}da{\k26}shi{\k48}te
+Comment: 0,0:01:03.67,0:01:04.80,ENG,,0,0,0,karaoke,{\k27}Dea{\k24}d {\k24}or {\k38}Love
+Comment: 0,0:01:04.88,0:01:07.82,JP,,0,0,0,karaoke,{\k52}sei{\k50}jou {\k25}nan{\k11}te {\rENG}{\k38}dis{\k24}t{\k34}rac{\k60}tion
+Comment: 0,0:01:07.86,0:01:09.86,JP,,0,0,0,karaoke,{\k12}wa{\k14}ta{\k10}shi {\k38}wo {\k13}ta{\k11}no{\k13}shi{\k11}ma{\k14}se{\k64}te
+Comment: 0,0:01:10.07,0:01:11.36,JP,,0,0,0,karaoke,{\k12}ho{\k13}ra {\rENG}{\k26}let {\k14}me {\k34}love {\k30}you
+Comment: 0,0:01:11.54,0:01:12.62,ENG,,0,0,0,karaoke,{\k25}Where {\k24}are {\k14}you {\k45}now?
+Comment: 0,0:01:12.76,0:01:16.83,JP,,0,0,0,karaoke,{\k51}ha{\k49}ya{\k39}ku {\k35}o{\k26}sa{\k23}e{\k13}te {\k37}ko{\k24}no {\k11}mu{\k13}na{\k14}sa{\k36}wa{\k36}gi
+Comment: 0,0:01:16.97,0:01:22.17,JP,,0,0,0,karaoke,{\k12}wa{\k34}ta{\k13}shi {\k13}mou {\k13}to{\k12}ma{\k12}ra{\k37}na{\k50}i {\rENG}{\k24}you {\k24}are {\k25}my {\kf251}life
+Comment: 0,0:01:22.86,0:01:26.12,ENG,,0,0,0,karaoke,{\k31}You {\k19}are {\k24}my {\kf252}life
+Dialogue: 0,0:00:00.00,0:00:06.17,ChoirJP,,0,0,0,fx,{\k86\fad(860,200)}{\k60}ni{\k49}chi{\k36}jou {\rChoirENG}{\k40}dis{\k21}t{\k35}rac{\k66}tion {\rChoirJP}{\k21}kyu{\k15}n {\k59}to {\k28}sa{\k16}se{\k65}te
+Dialogue: 0,0:00:07.94,0:00:15.15,ChoirJP,,0,0,0,fx,{\k90\fad(300,200)}{\k50}ha{\k48}ya{\k41}ku {\k36}o{\k23}sa{\k23}e{\k11}te {\k39}ko{\k24}no {\k8}mu{\k16}na{\k16}sa{\k33}wa{\kf243}gi
+Dialogue: 0,0:00:14.07,0:00:16.33,ChoirENG,,0,0,0,fx,{\k90\fad(300,200)}{\k27}you {\k24}are {\k24}my {\k41}life
+Dialogue: 0,0:00:15.58,0:00:17.84,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Dea{\k26}d {\k21}or {\k43}Love
+Dialogue: 0,0:00:16.80,0:00:22.84,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k49}ni{\k48}chi{\k39}jou {\rENG}{\k37}dis{\k24}t{\k36}rac{\k61}tion {\rJP}{\k17}kyu{\k21}n {\k60}to {\k27}sa{\k11}se{\k64}te
+Dialogue: 0,0:00:21.96,0:00:24.40,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ho{\k13}ra {\rENG}{\k26}let {\k15}me {\k33}love {\k35}you
+Dialogue: 0,0:00:23.44,0:00:25.62,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Where {\k24}are {\k13}you {\k46}now?
+Dialogue: 0,0:00:24.65,0:00:29.81,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k52}ha{\k49}ya{\k38}ku {\k35}o{\k24}sa{\k25}e{\k13}te {\k37}ko{\k24}no {\k11}mu{\k13}na{\k14}sa{\k36}wa{\k35}gi
+Dialogue: 0,0:00:28.85,0:00:35.16,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k14}wa{\k34}ta{\k26}shi {\k13}to{\k12}ma{\k12}ra{\k37}na{\k50}i {\rENG}{\k24}you {\k24}are {\k25}my {\kf250}life
+Dialogue: 0,0:00:34.75,0:00:39.07,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k31}You {\k19}are {\k24}my {\kf248}life
+Dialogue: 0,0:00:40.39,0:00:45.13,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Bad {\k73}day {\rJP}{\k25}ta{\k23}i{\k23}ku{\k28}tsu {\k26}na {\k25}ni{\k22}chi{\k50}jou {\k18}ga
+Dialogue: 0,0:00:44.32,0:00:48.78,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k51}fuan {\k73}de {\k25}shi{\k27}ka{\k24}ta {\k25}na{\k23}ka{\k26}t{\k23}ta {\k25}ke{\k14}do
+Dialogue: 0,0:00:47.76,0:00:52.98,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k42}sai{\k35}tei {\k15}de {\k46}fuan{\k37}tei {\k22}na {\k28}fu{\k23}ta{\k26}ri {\k24}no {\rENG}{\k25}love {\k48}sto{\k41}ry
+Dialogue: 0,0:00:52.21,0:00:57.04,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k24}u{\k24}go{\k27}ki{\k23}da{\k26}shi{\k48}ta {\k25}ko{\k25}i {\k24}no {\k36}yo{\k38}ka{\k53}n
+Dialogue: 0,0:00:56.37,0:01:03.62,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k28}a{\k28}ri{\k21}e{\k28}na{\k44}i {\k51}kon{\k46}na {\k27}se{\k28}ka{\k69}i {\k26}ha{\k23}ya{\k27}ku {\k24}tsu{\k24}re{\k47}da{\k26}shi{\k48}te
+Dialogue: 0,0:01:02.77,0:01:05.00,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Dea{\k24}d {\k24}or {\k38}Love
+Dialogue: 0,0:01:03.98,0:01:08.02,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k52}sei{\k50}jou {\k25}nan{\k11}te {\rENG}{\k38}dis{\k24}t{\k34}rac{\k60}tion
+Dialogue: 0,0:01:06.96,0:01:10.06,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k12}wa{\k14}ta{\k10}shi {\k38}wo {\k13}ta{\k11}no{\k13}shi{\k11}ma{\k14}se{\k64}te
+Dialogue: 0,0:01:09.17,0:01:11.56,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ho{\k13}ra {\rENG}{\k26}let {\k14}me {\k34}love {\k30}you
+Dialogue: 0,0:01:10.64,0:01:12.82,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Where {\k24}are {\k14}you {\k45}now?
+Dialogue: 0,0:01:11.86,0:01:17.03,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k51}ha{\k49}ya{\k39}ku {\k35}o{\k26}sa{\k23}e{\k13}te {\k37}ko{\k24}no {\k11}mu{\k13}na{\k14}sa{\k36}wa{\k36}gi
+Dialogue: 0,0:01:16.07,0:01:22.37,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k12}wa{\k34}ta{\k13}shi {\k13}mou {\k13}to{\k12}ma{\k12}ra{\k37}na{\k50}i {\rENG}{\k24}you {\k24}are {\k25}my {\kf251}life
+Dialogue: 0,0:01:21.96,0:01:26.32,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k31}You {\k19}are {\k24}my {\kf252}life

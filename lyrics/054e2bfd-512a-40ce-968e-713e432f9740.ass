@@ -1,0 +1,233 @@
+﻿[Script Info]
+Title: Kasô Kyôsôkyoku ~ Temari Tsukimura Vers.
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Choir,Arial,24,&H00FFFFFF,&H001C16FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: KAF,Arial,24,&H00FFFFFF,&H00FF00FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Suisei,Arial,24,&H00FFFFFF,&H00ECAF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Ui,Arial,24,&H00FFFFFF,&H003CC5ED,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: ALL,Arial,24,&H00FFFFFF,&H00FF83BE,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H0033CA69,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Legend,Arial,24,&H00FFFFFF,&H00FF83BE,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,0,0,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:10.00,Legend,,0,0,0,karaoke,{\k1000}{\k0}ALL {\2cHFFFFFF}| ♦ {\rKAF}KAF {\2cHFFFFFF}| ♥ {\rUi}Ui {\2cHFFFFFF}| ♠ {\rSuisei}Suisei {\2cHFFFFFF}| {\rDuo}Duo
+Comment: 0,0:00:00.00,0:00:00.00,Temari,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:07.28,0:00:10.30,ALL,,0,0,0,karaoke,{\k23}a{\k20}re {\k19}yo {\k21}to {\k20}i{\k19}u {\k23}ma {\k17}ni {\k21}no{\k16}mi{\k24}ko{\k19}ma{\k60}rer'
+Comment: 0,0:00:10.48,0:00:13.67,ALL,,0,0,0,karaoke,{\k24}dai{\k11}dai{\k10}i{\k19}ro {\k19}no {\k19}TI{\k21}DAL {\k20}WA{\k19}VE {\k39}ya{\k40}kou {\k41}ya{\k37}kou
+Comment: 0,0:00:13.68,0:00:15.30,Ui,,0,0,0,karaoke,♥ {\k23}HAN{\k10}D{\k19}MA{\k11}DE {\k9}ka{\k10}ra {\k19}OR{\k12}DER{\k21}MA{\k8}DE {\k12}ma{\k8}de
+Comment: 0,0:00:15.31,0:00:16.47,Ui,,0,0,0,karaoke,♥ {\k10}shi{\k10}ka{\k10}ke{\k10}ru {\k20}dai{\k19}ryuu{\k37}kou
+Comment: 0,0:00:16.50,0:00:16.90,Choir,,0,0,0,karaoke,{\k40}HI!
+Comment: 0,0:00:16.90,0:00:18.50,KAF,,0,0,0,karaoke,♦ {\k21}hon{\k10}mo{\k27}no {\k14}ka{\k8}ra {\k11}ni{\k10}se{\k12}mo{\k27}no {\k12}ma{\k8}de
+Comment: 0,0:00:18.51,0:00:19.52,KAF,,0,0,0,karaoke,♦ {\k11}ma{\k7}to{\k12}me{\k10}te {\k18}dai{\k21}shuu{\k22}gou
+Comment: 0,0:00:19.68,0:00:20.11,Choir,,0,0,0,karaoke,{\k43}HI!
+Comment: 0,0:00:20.08,0:00:21.69,Suisei,,0,0,0,karaoke,♠ {\k22}so{\k9}roi {\k11}mo {\k8}so{\k12}rot{\k11}te {\k9}fu{\k20}zo{\k10}roi {\k10}no {\k10}se{\k10}kai{\k9}kan {\k10}ni
+Comment: 0,0:00:21.70,0:00:23.20,Suisei,,0,0,0,karaoke,♠ {\k13}o{\k8}so{\k12}roi {\k7}no {\k18}youch' {\k14}sa {\k7}ni {\k12}he{\k10}kie{\k7}ki {\k12}na {\k13}kou{\k17}rei
+Comment: 0,0:00:23.20,0:00:24.83,Duo,,0,0,0,karaoke,♥♠ {\k9}mo{\k20}yoo{\k11}shi {\k10}no {\k13}do{\k18}rei {\k9}yo{\k17}doo{\k9}shi {\k14}o{\k12}do{\k21}re
+Comment: 0,0:00:24.89,0:00:26.40,ALL,,0,0,0,karaoke,{\k11}jou{\k10}rei {\k11}sho{\k9}kei {\k12}FOR{\k8}MA{\k10}TION {\k8}de {\k22}hou{\k9}bi {\k12}wo {\k8}to{\k21}re
+Comment: 0,0:00:26.40,0:00:27.69,KAF,,0,0,0,karaoke,♦ {\k11}MAR{\k5}MA{\k15}LA{\k10}DE {\k10}ga {\k19}to{\k11}ke{\k9}ru {\k12}ko{\k27}ro
+Comment: 0,0:00:27.51,0:00:28.10,Choir,,0,0,0,karaoke,{\k20}wo {\k39}woi!
+Comment: 0,0:00:27.91,0:00:29.26,KAF,,0,0,0,karaoke,♦ {\k9}kya{\k6}pa {\k5}i{\k19}jou {\k10}ni {\k11}o{\k20}dou{\k11}ke{\k9}ru {\k11}mo{\k24}no
+Comment: 0,0:00:29.11,0:00:29.75,Choir,,0,0,0,karaoke,{\k20}wo {\k44}woi!
+Comment: 0,0:00:29.68,0:00:31.32,ALL,,0,0,0,karaoke,{\k9}chi{\k14}ya{\k8}ho{\k13}ya {\k18}shi{\k10}ta{\k9}ri {\k7}sa{\k12}re{\k6}ta{\k6}ri {\k10}ga {\k12}iin {\k8}de{\k22}sho?
+Comment: 0,0:00:31.25,0:00:32.67,Ui,,0,0,0,karaoke,♥ {\k6}a{\k15}mai {\k6}da{\k8}ke {\k11}ja {\k10}mo{\k10}no{\k12}ta{\k7}ri{\k15}nai {\k8}GIVE {\k7}ME {\k10}SOME {\k17}MORE
+Comment: 0,0:00:32.70,0:00:33.13,Choir,,0,0,0,karaoke,{\k43}wahhh!
+Comment: 0,0:00:32.88,0:00:34.35,Suisei,,0,0,0,karaoke,♠ {\k14}CHECK {\k24}IT {\k6}shi{\k13}ge{\k6}ki{\k16}te{\k11}ki {\k13}HYS{\k12}TE{\k8}RIA {\k11}BA{\k13}BY
+Comment: 0,0:00:34.37,0:00:35.48,Suisei,,0,0,0,karaoke,♠ {\k14}mu{\k13}gen {\k7}ni {\k8}en{\k7}bi {\k26}SEN{\k11}SI{\k25}TIVE
+Comment: 0,0:00:35.51,0:00:36.07,Choir,,0,0,0,karaoke,{\k21}TICK {\k35}TICK
+Comment: 0,0:00:35.88,0:00:36.53,Ui,,0,0,0,karaoke,♥ {\k13}WHAT {\k10}YOU {\k42}WANT?
+Comment: 0,0:00:36.32,0:00:36.95,Choir,,0,0,0,karaoke,{\k18}ah {\k45}ha
+Comment: 0,0:00:36.71,0:00:37.32,Suisei,,0,0,0,karaoke,♠ {\k10}WHERE {\k10}YOU {\k41}GO?
+Comment: 0,0:00:37.11,0:00:37.83,Choir,,0,0,0,karaoke,{\k19}ah {\k53}ha
+Comment: 0,0:00:37.49,0:00:38.87,KAF,,0,0,0,karaoke,♦ {\k13}ja{\k9}ki {\k9}ni {\k10}no{\k11}ma{\k9}re {\k20}sei{\k21}gyo {\k17}fu{\k19}nou
+Comment: 0,0:00:38.68,0:00:39.38,Choir,,0,0,0,karaoke,{\k23}ah {\k47}ha
+Comment: 0,0:00:39.02,0:00:41.48,Ui,,0,0,0,karaoke,♥ {\k8}su{\k10}ki {\k5}ni {\k5}u{\k20}bai{\k10}sa{\k10}ru {\k8}i{\k13}gi {\k19}MI{\k21}NUS {\k11}in{\k9}ki {\k19}VI{\k11}RA{\k10}L {\k12}i{\k7}ni{\k19}kai{\k14}sa{\k5}zu
+Comment: 0,0:00:41.50,0:00:42.35,ALL,,0,0,0,karaoke,{\k12}ee{\k8}ny {\k10}mee{\k8}ny {\k11}mi{\k10}ny {\k26}moe
+Comment: 0,0:00:42.47,0:00:45.50,KAF,,0,0,0,karaoke,♦ {\k62}o{\k22}so{\k41}ro{\k17}shi {\k25}ya {\k55}so{\k23}zo{\k58}ro
+Comment: 0,0:00:45.11,0:00:45.77,Choir,,0,0,0,karaoke,{\k20}HEL{\k46}LO
+Comment: 0,0:00:45.70,0:00:48.47,Suisei,,0,0,0,karaoke,♠ {\k13}u{\k14}ka{\k14}bi{\k15}a{\k13}ga{\k13}ri {\k13}ma{\k15}wa{\k12}ru {\k10}tsu{\k13}ki {\k14}ni {\k13}ha{\k9}ri {\k19}ga {\k27}o{\k15}chi{\k35}ru
+Comment: 0,0:00:48.51,0:00:48.89,Choir,,0,0,0,karaoke,{\k38}waaah!
+Comment: 0,0:00:48.91,0:00:51.65,KAF,,0,0,0,karaoke,♦ {\k17}oo{\k14}ki{\k13}na {\k15}ku{\k12}chi {\k13}de {\k16}wa{\k10}ra{\k9}u {\k16}ka{\k13}bo{\k12}cha{\k14}ta{\k13}chi {\k13}ga {\k29}u{\k14}ta{\k31}u
+Comment: 0,0:00:51.70,0:00:52.09,Choir,,0,0,0,karaoke,{\k39}waaah!
+Comment: 0,0:00:52.09,0:00:54.77,Ui,,0,0,0,karaoke,♥ {\k15}so{\k13}re {\k14}ga {\k14}a{\k14}i{\k12}zu {\k16}ma{\k14}mo{\k10}no{\k14}ta{\k11}chi {\k14}ga {\k13}me{\k14}za{\k13}me {\k31}o{\k10}do{\k26}ru
+Comment: 0,0:00:54.91,0:00:55.45,Choir,,0,0,0,karaoke,{\k54}waaah!
+Comment: 0,0:00:55.10,0:00:58.58,ALL,,0,0,0,karaoke,{\k41}kou {\k20}na{\k19}re{\k20}ba {\k20}a{\k21}to {\k19}wa {\k40}o{\k23}mo{\k19}i {\k19}no {\k39}ma{\k48}ma
+Comment: 0,0:01:00.05,0:01:03.30,ALL,,0,0,0,karaoke,{\k82}hon{\k71}rou {\k13}ho{\k19}ne{\k20}nu{\k20}ki {\k41}DANCE{\k20}A{\k39}BLE
+Comment: 0,0:01:03.47,0:01:06.50,Suisei,,0,0,0,karaoke,♠ {\k23}S{\k22}CA{\k18}RE{\k40}CROWS {\k20}mo {\k41}to{\k19}bi{\k12}ha{\k49}ne {\k19}ma{\k20}wa{\k20}ru
+Comment: 0,0:01:06.48,0:01:09.55,ALL,,0,0,0,karaoke,{\k81}HOL{\k68}LOW {\k10}tsu{\k23}ki{\k21}yo {\k18}no {\k40}TURN{\k22}TA{\k24}BLE
+Comment: 0,0:01:09.68,0:01:12.02,Ui,,0,0,0,karaoke,♥ {\k6}ku{\k35}ru{\k7}ku{\k33}ru {\k6}ku{\k36}ru{\k38}o{\k22}shii {\k11}ta{\k9}ka{\k20}ma{\k11}ri
+Comment: 0,0:01:12.11,0:01:13.31,Ui,,0,0,0,karaoke,♥ {\k20}WE {\k9}GOT {\k13}THE {\k20}PAR{\k19}TY {\k39}NIGHT!
+Comment: 0,0:01:17.89,0:01:19.31,ALL,,0,0,0,karaoke,{\k22}A{\k20}NY{\k12}WAY, {\k7}EN{\k20}JOY {\k20}THE {\k21}PAR{\k20}TY
+Comment: 0,0:01:19.31,0:01:19.65,Suisei,,0,200,0,karaoke,♠ {\k26}NIGHT
+Comment: 0,0:01:19.71,0:01:20.02,KAF,,0,0,0,karaoke,♦ {\k31}NIGHT
+Comment: 0,0:01:20.02,0:01:20.41,Ui,,200,0,0,karaoke,♥ {\k50}NIGHT!
+Comment: 0,0:01:20.90,0:01:22.43,Suisei,,0,0,0,karaoke,♠ {\k22}woo {\k19}wee {\k19}woo {\k20}wee {\k12}LOOK {\k9}AT {\k9}ME {\k11}NOW {\k20}FRUI{\k12}TY
+Comment: 0,0:01:22.43,0:01:23.85,Suisei,,0,0,0,karaoke,♠ {\k7}mu{\k20}ja{\k8}ki {\k12}na {\k20}kuu{\k9}ki {\k13}ja {\k19}mu{\k34}ri
+Comment: 0,0:01:23.71,0:01:24.19,Choir,,0,0,0,karaoke,{\k19}mu{\k29}ri
+Comment: 0,0:01:24.09,0:01:25.65,Ui,,0,0,0,karaoke,♥ {\k20}zei{\k6}ta{\k6}ku {\k9}ni {\k20}sei{\k9}da{\k3}ku {\k8}wo {\k14}CHA{\k7}SER {\k9}na{\k11}shi {\k34}de
+Comment: 0,0:01:25.65,0:01:27.27,Ui,,0,0,0,karaoke,♥ {\k6}i{\k10}ta{\k10}da{\k11}ke{\k9}ba {\k12}he{\k7}ra{\k8}he{\k13}ra {\k12}GREAT {\k10}A{\k10}S {\k24}HELL {\k20}YEAH
+Comment: 0,0:01:27.28,0:01:27.72,ALL,,0,0,0,karaoke,{\k44}YEAH!
+Comment: 0,0:01:27.50,0:01:28.71,KAF,,0,0,0,karaoke,♦ {\k11}WHERE {\k9}IS {\k20}MY {\k9}su{\k11}te{\k11}ki {\k11}na {\k19}NIGH{\k20}T
+Comment: 0,0:01:28.71,0:01:30.30,KAF,,0,0,0,karaoke,♦ {\k11}mi{\k8}tsu{\k10}ka{\k11}ra{\k10}na{\k10}ku{\k9}te {\k11}mo {\k10}su{\k10}de {\k10}ni {\k10}ba{\k20}rai{\k19}ro{\k0}
+Comment: 0,0:01:30.30,0:01:30.69,Choir,,0,0,0,karaoke,{\k39}hoo
+Comment: 0,0:01:30.49,0:01:31.91,Suisei,,0,0,0,karaoke,♠ {\k7}shit{\k5}to {\k10}wa {\k10}mi{\k8}gu{\k11}ru{\k11}shii {\k7}ka{\k12}ra {\k12}ki{\k9}gu{\k10}ru{\k19}mi {\k11}ni
+Comment: 0,0:01:31.91,0:01:33.56,Suisei,,0,0,0,karaoke,♠ {\k11}shi{\k9}mat{\k11}te {\k8}ka{\k9}ra {\k22}hai{\k5}de {\k6}a{\k10}ge{\k10}ru {\k10}mi{\k8}gu{\k12}ru{\k34}mi
+Comment: 0,0:01:33.30,0:01:33.81,Choir,,0,0,0,karaoke,{\k19}yi{\k32}pee!
+Comment: 0,0:01:33.69,0:01:35.30,Duo,,0,0,0,karaoke,♦♥ {\k10}ka{\k12}ri {\k9}no {\k10}i{\k21}shou {\k11}de{\k8}mo {\k11}ta{\k10}ma{\k8}shii {\k12}ga {\k21}hon{\k8}mo{\k10}no
+Comment: 0,0:01:35.30,0:01:36.72,Duo,,0,0,0,karaoke,♦♥ {\k12}na{\k8}ra{\k12}ba {\k10}mi{\k17}ryou {\k12}shi{\k5}te {\k6}I{\k8}MA{\k10}GI{\k10}NA{\k4}RY {\k4}i{\k24}jou
+Comment: 0,0:01:36.91,0:01:38.31,Duo,,0,0,0,karaoke,♦♠ {\k12}shi{\k9}ryou {\k9}i{\k9}ki{\k21}ryou {\k11}ka{\k9}ma{\k10}wa{\k10}zu {\k19}kai{\k21}kou
+Comment: 0,0:01:38.31,0:01:39.99,Duo,,0,0,0,karaoke,♦♠ {\k11}to{\k9}bi{\k10}ki{\k10}ri {\k8}no {\k12}bi{\k19}bou {\k12}HA{\k9}PPY {\k10}na {\k9}hi{\k10}ni{\k10}chi{\k29}jou
+Comment: 0,0:01:40.30,0:01:41.69,Ui,,0,0,0,karaoke,♥ {\k9}GA{\k12}LA{\k9}PA{\k10}GO{\k11}S {\k11}ni {\k10}ma{\k9}ji{\k9}wa{\k11}ru {\k9}i{\k11}se{\k18}kai
+Comment: 0,0:01:41.69,0:01:42.92,Ui,,0,0,0,karaoke,♥ {\k31}dai{\k19}kou{\k12}ryuu {\k20}PAR{\k41}TY
+Comment: 0,0:01:42.70,0:01:43.31,Choir,,0,0,0,karaoke,{\k21}WEL{\k40}COME
+Comment: 0,0:01:43.31,0:01:46.11,Suisei,,0,0,0,karaoke,♠ {\k60}fu{\k20}ri{\k41}ki{\k18}re{\k20}ru {\k61}ko{\k19}do{\k41}u
+Comment: 0,0:01:45.91,0:01:46.50,Choir,,0,0,0,karaoke,{\k21}HE{\k38}LLO
+Comment: 0,0:01:46.51,0:01:49.24,KAF,,0,0,0,karaoke,♦ {\k16}wa{\k10}ru{\k14}me{\k15}da{\k12}chi {\k13}no {\k13}D{\k14}RA{\k14}CU{\k26}LA {\k12}mo {\k16}sa{\k12}ke {\k14}wo {\k27}a{\k12}o{\k33}ru
+Comment: 0,0:01:49.30,0:01:49.68,Choir,,0,0,0,karaoke,{\k38}waaah!
+Comment: 0,0:01:49.68,0:01:52.45,Ui,,0,0,0,karaoke,♥ {\k15}ka{\k13}mo{\k13}ku {\k23}sou {\k18}na {\k20}DUL{\k19}LA{\k26}HAN {\k15}mo {\k14}a{\k15}ta{\k12}ma {\k25}wo {\k13}fu{\k36}ru
+Comment: 0,0:01:52.50,0:01:52.92,Choir,,0,0,0,karaoke,{\k42}waaah!
+Comment: 0,0:01:52.90,0:01:55.65,Suisei,,0,0,0,karaoke,♠ {\k27}shin{\k14}shi{\k14}te{\k13}ki {\k13}na {\k24}mii{\k17}ra {\k11}su{\k16}ra {\k13}mo {\k10}fu{\k13}ku {\k16}ga {\k13}ha{\k17}da{\k10}ke{\k34}ru
+Comment: 0,0:01:55.70,0:01:56.25,Choir,,0,0,0,karaoke,{\k55}waaah!
+Comment: 0,0:01:55.90,0:01:59.38,KAF,,0,0,0,karaoke,♦ {\k41}dou {\k20}a{\k20}re{\k19}do {\k20}yu{\k20}ka{\k20}i {\k40}zen{\k21}ka{\k20}i {\k19}no {\k40}ma{\k48}ma
+Comment: 0,0:02:00.87,0:02:04.10,ALL,,0,0,0,karaoke,{\k80}hon{\k73}shou {\k10}a{\k20}ra{\k21}wa {\k11}ni {\k9}a{\k39}ba{\k21}re{\k39}you
+Comment: 0,0:02:04.30,0:02:07.27,Ui,,0,0,0,karaoke,♥ {\k21}so{\k20}no {\k18}ka{\k23}so{\k20}u {\k17}mo {\k42}se{\k13}i{\k27}so{\k40}u {\k19}ni {\k21}na{\k16}ru
+Comment: 0,0:02:07.28,0:02:10.50,ALL,,0,0,0,karaoke,{\k81}kyou{\k76}sou{\k24}kyo{\k22}ku {\k18}no {\k41}TURN{\k21}TA{\k39}BLE
+Comment: 0,0:02:10.51,0:02:12.88,KAF,,0,0,0,karaoke,♦ {\k40}ai{\k31}ai {\k9}i{\k40}to{\k40}o{\k20}shii {\k10}ta{\k10}ka{\k20}ma{\k17}ri
+Comment: 0,0:02:12.91,0:02:14.03,KAF,,0,0,0,karaoke,♦ {\k20}WE {\k10}GOT {\k9}THE {\k21}PAR{\k22}TY {\k30}NIGHT!
+Comment: 0,0:02:14.90,0:02:15.66,Suisei,,0,0,0,karaoke,♠ {\k41}HI-{\k35}FI
+Comment: 0,0:02:15.71,0:02:17.23,ALL,,0,0,0,karaoke,{\k40}ALL {\k40}NIGHT {\k41}ALL {\k31}NIGHT
+Comment: 0,0:02:17.51,0:02:18.99,KAF,,0,0,0,karaoke,♦ {\k21}ne{\k20}mu{\k18}re{\k21}ya{\k22}shi{\k46}nai
+Comment: 0,0:02:18.92,0:02:20.43,ALL,,0,0,0,karaoke,{\k40}woo {\k19}la {\k19}la {\k21}la {\k20}la {\k32}la
+Comment: 0,0:02:21.29,0:02:22.05,Ui,,0,0,0,karaoke,♥ {\k43}FLY {\k33}HIGH
+Comment: 0,0:02:22.10,0:02:23.62,ALL,,0,0,0,karaoke,{\k41}ALL {\k39}NIGHT {\k42}ALL {\k30}NIGHT
+Comment: 0,0:02:23.89,0:02:25.28,Suisei,,0,0,0,karaoke,♠ {\k23}na{\k19}ri{\k21}ya{\k21}ma{\k19}na{\k36}i
+Comment: 0,0:02:25.31,0:02:26.85,Choir,,0,0,0,karaoke,{\k42}woo {\k18}la {\k20}la {\k20}la {\k18}la {\k36}la
+Comment: 0,0:02:27.09,0:02:29.68,KAF,,0,0,0,karaoke,♦ {\k21}ko{\k20}dai{\k20}mou{\k21}sou {\k19}na {\k32}a{\k29}so{\kf97}bi
+Comment: 0,0:02:30.23,0:02:32.89,Ui,,0,0,0,karaoke,♥ {\k28}LAN{\k20}TERN {\k12}wa {\k7}ma{\k21}ru{\k19}de {\k31}ta{\k27}ma{\kf101}shii
+Comment: 0,0:02:33.50,0:02:36.10,Suisei,,0,0,0,karaoke,♠ {\k20}i{\k21}zen {\k19}ki{\k22}kai {\k17}na {\k34}JAM{\k27}BO{\kf100}REE
+Comment: 0,0:02:36.66,0:02:39.93,ALL,,0,0,0,karaoke,{\k15}LET {\k11}ME {\k18}HEAR {\k18}YOU {\k37}SAY {\k38}HA{\k27}LLO{\kf163}WEEN
+Comment: 0,0:02:40.85,0:02:44.07,ALL,,0,0,0,karaoke,{\k84}hon{\k69}rou {\k14}ho{\k19}ne{\k20}nu{\k20}ki {\k40}DANCE{\k20}A{\k36}BLE
+Comment: 0,0:02:44.30,0:02:47.27,ALL,,0,0,0,karaoke,{\k19}su{\k22}ke{\k18}a{\k5}ku{\k37}rou {\k19}mo {\k41}to{\k18}bi{\k21}ha{\k39}ne {\k23}ma{\k19}wa{\k16}ru
+Comment: 0,0:02:47.30,0:02:50.42,ALL,,0,0,0,karaoke,{\k80}HO{\k70}LLOW {\k9}tsu{\k22}ki{\k22}yo {\k16}no {\k40}TURN{\k21}TA{\k32}BLE
+Comment: 0,0:02:50.48,0:02:52.88,ALL,,0,0,0,karaoke,{\k10}ku{\k31}ru{\k10}ku{\k29}ru {\k9}ku{\k32}ru{\k40}o{\k22}shii {\k9}ta{\k11}ka{\k20}ma{\k17}ri
+Comment: 0,0:02:52.91,0:02:54.10,ALL,,0,0,0,karaoke,{\k17}WE {\k10}GOT {\k12}THE {\k20}PAR{\k21}TY {\k39}NIGHT!
+Comment: 0,0:02:58.68,0:03:00.55,ALL,,0,0,0,karaoke,{\k23}A{\k20}NY{\k12}WAY, {\k9}EN{\k18}JOY {\k20}THE {\k19}PAR{\k19}TY {\k47}NIGHT!
+Comment: 0,0:03:03.25,0:03:05.67,ALL,,0,0,0,karaoke,{\k10}ku{\k31}ru{\k10}ku{\k32}ru {\k9}ku{\k33}ru{\k40}o{\k21}shii {\k10}ta{\k12}ka{\k19}ma{\k15}ri
+Comment: 0,0:03:05.71,0:03:06.50,ALL,,0,0,0,karaoke,{\k19}WE {\k19}GOT {\k22}THE {\k19}PARTY
+Comment: 0,0:03:06.50,0:03:06.82,Ui,,0,200,0,karaoke,♥ {\k32}NIGHT
+Comment: 0,0:03:06.90,0:03:07.21,Suisei,,0,0,71,karaoke,♠ {\k31}NIGHT
+Comment: 0,0:03:07.30,0:03:07.61,KAF,,200,0,71,karaoke,♦ {\k31}NIGHT!
+Dialogue: 0,0:00:00.00,0:00:10.20,Legend,,0,0,0,fx,{\k0\fad(0,200)}{\k1000}{\k0}ALL {\2cHFFFFFF}| ♦ {\rKAF}KAF {\2cHFFFFFF}| ♥ {\rUi}Ui {\2cHFFFFFF}| ♠ {\rSuisei}Suisei {\2cHFFFFFF}| {\rDuo}Duo
+Dialogue: 0,0:00:06.38,0:00:10.50,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k23}a{\k20}re {\k19}yo {\k21}to {\k20}i{\k19}u {\k23}ma {\k17}ni {\k21}no{\k16}mi{\k24}ko{\k19}ma{\k60}rer'
+Dialogue: 0,0:00:09.58,0:00:13.87,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k24}dai{\k11}dai{\k10}i{\k19}ro {\k19}no {\k19}TI{\k21}DAL {\k20}WA{\k19}VE {\k39}ya{\k40}kou {\k41}ya{\k37}kou
+Dialogue: 0,0:00:12.78,0:00:15.50,Ui,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k23}HAN{\k10}D{\k19}MA{\k11}DE {\k9}ka{\k10}ra {\k19}OR{\k12}DER{\k21}MA{\k8}DE {\k12}ma{\k8}de
+Dialogue: 0,0:00:14.41,0:00:16.67,Ui,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k10}shi{\k10}ka{\k10}ke{\k10}ru {\k20}dai{\k19}ryuu{\k37}kou
+Dialogue: 0,0:00:15.60,0:00:17.10,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k40}HI!
+Dialogue: 0,0:00:16.00,0:00:18.70,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k21}hon{\k10}mo{\k27}no {\k14}ka{\k8}ra {\k11}ni{\k10}se{\k12}mo{\k27}no {\k12}ma{\k8}de
+Dialogue: 0,0:00:17.61,0:00:19.72,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k11}ma{\k7}to{\k12}me{\k10}te {\k18}dai{\k21}shuu{\k22}gou
+Dialogue: 0,0:00:18.78,0:00:20.31,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k43}HI!
+Dialogue: 0,0:00:19.18,0:00:21.89,Suisei,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k22}so{\k9}roi {\k11}mo {\k8}so{\k12}rot{\k11}te {\k9}fu{\k20}zo{\k10}roi {\k10}no {\k10}se{\k10}kai{\k9}kan {\k10}ni
+Dialogue: 0,0:00:20.80,0:00:23.40,Suisei,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k13}o{\k8}so{\k12}roi {\k7}no {\k18}youch' {\k14}sa {\k7}ni {\k12}he{\k10}kie{\k7}ki {\k12}na {\k13}kou{\k17}rei
+Dialogue: 0,0:00:22.30,0:00:25.03,Duo,,0,0,0,fx,{\k90\fad(300,200)}♥♠ {\k9}mo{\k20}yoo{\k11}shi {\k10}no {\k13}do{\k18}rei {\k9}yo{\k17}doo{\k9}shi {\k14}o{\k12}do{\k21}re
+Dialogue: 0,0:00:23.99,0:00:26.60,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k11}jou{\k10}rei {\k11}sho{\k9}kei {\k12}FOR{\k8}MA{\k10}TION {\k8}de {\k22}hou{\k9}bi {\k12}wo {\k8}to{\k21}re
+Dialogue: 0,0:00:25.50,0:00:27.89,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k11}MAR{\k5}MA{\k15}LA{\k10}DE {\k10}ga {\k19}to{\k11}ke{\k9}ru {\k12}ko{\k27}ro
+Dialogue: 0,0:00:26.61,0:00:28.30,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}wo {\k39}woi!
+Dialogue: 0,0:00:27.01,0:00:29.46,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k9}kya{\k6}pa {\k5}i{\k19}jou {\k10}ni {\k11}o{\k20}dou{\k11}ke{\k9}ru {\k11}mo{\k24}no
+Dialogue: 0,0:00:28.21,0:00:29.95,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}wo {\k44}woi!
+Dialogue: 0,0:00:28.78,0:00:31.52,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k9}chi{\k14}ya{\k8}ho{\k13}ya {\k18}shi{\k10}ta{\k9}ri {\k7}sa{\k12}re{\k6}ta{\k6}ri {\k10}ga {\k12}iin {\k8}de{\k22}sho?
+Dialogue: 0,0:00:30.35,0:00:32.87,Ui,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k6}a{\k15}mai {\k6}da{\k8}ke {\k11}ja {\k10}mo{\k10}no{\k12}ta{\k7}ri{\k15}nai {\k8}GIVE {\k7}ME {\k10}SOME {\k17}MORE
+Dialogue: 0,0:00:31.80,0:00:33.33,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k43}wahhh!
+Dialogue: 0,0:00:31.98,0:00:34.55,Suisei,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k14}CHECK {\k24}IT {\k6}shi{\k13}ge{\k6}ki{\k16}te{\k11}ki {\k13}HYS{\k12}TE{\k8}RIA {\k11}BA{\k13}BY
+Dialogue: 0,0:00:33.47,0:00:35.68,Suisei,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k14}mu{\k13}gen {\k7}ni {\k8}en{\k7}bi {\k26}SEN{\k11}SI{\k25}TIVE
+Dialogue: 0,0:00:34.61,0:00:36.27,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}TICK {\k35}TICK
+Dialogue: 0,0:00:34.98,0:00:36.73,Ui,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k13}WHAT {\k10}YOU {\k42}WANT?
+Dialogue: 0,0:00:35.42,0:00:37.15,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ah {\k45}ha
+Dialogue: 0,0:00:35.81,0:00:37.52,Suisei,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k10}WHERE {\k10}YOU {\k41}GO?
+Dialogue: 0,0:00:36.21,0:00:38.03,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ah {\k53}ha
+Dialogue: 0,0:00:36.59,0:00:39.07,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k13}ja{\k9}ki {\k9}ni {\k10}no{\k11}ma{\k9}re {\k20}sei{\k21}gyo {\k17}fu{\k19}nou
+Dialogue: 0,0:00:37.78,0:00:39.58,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ah {\k47}ha
+Dialogue: 0,0:00:38.12,0:00:41.68,Ui,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k8}su{\k10}ki {\k5}ni {\k5}u{\k20}bai{\k10}sa{\k10}ru {\k8}i{\k13}gi {\k19}MI{\k21}NUS {\k11}in{\k9}ki {\k19}VI{\k11}RA{\k10}L {\k12}i{\k7}ni{\k19}kai{\k14}sa{\k5}zu
+Dialogue: 0,0:00:40.60,0:00:42.55,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ee{\k8}ny {\k10}mee{\k8}ny {\k11}mi{\k10}ny {\k26}moe
+Dialogue: 0,0:00:41.57,0:00:45.70,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k62}o{\k22}so{\k41}ro{\k17}shi {\k25}ya {\k55}so{\k23}zo{\k58}ro
+Dialogue: 0,0:00:44.21,0:00:45.97,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}HEL{\k46}LO
+Dialogue: 0,0:00:44.80,0:00:48.67,Suisei,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k13}u{\k14}ka{\k14}bi{\k15}a{\k13}ga{\k13}ri {\k13}ma{\k15}wa{\k12}ru {\k10}tsu{\k13}ki {\k14}ni {\k13}ha{\k9}ri {\k19}ga {\k27}o{\k15}chi{\k35}ru
+Dialogue: 0,0:00:47.61,0:00:49.09,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k38}waaah!
+Dialogue: 0,0:00:48.01,0:00:51.85,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k17}oo{\k14}ki{\k13}na {\k15}ku{\k12}chi {\k13}de {\k16}wa{\k10}ra{\k9}u {\k16}ka{\k13}bo{\k12}cha{\k14}ta{\k13}chi {\k13}ga {\k29}u{\k14}ta{\k31}u
+Dialogue: 0,0:00:50.80,0:00:52.29,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k39}waaah!
+Dialogue: 0,0:00:51.19,0:00:54.97,Ui,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k15}so{\k13}re {\k14}ga {\k14}a{\k14}i{\k12}zu {\k16}ma{\k14}mo{\k10}no{\k14}ta{\k11}chi {\k14}ga {\k13}me{\k14}za{\k13}me {\k31}o{\k10}do{\k26}ru
+Dialogue: 0,0:00:54.01,0:00:55.65,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k54}waaah!
+Dialogue: 0,0:00:54.20,0:00:58.78,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k41}kou {\k20}na{\k19}re{\k20}ba {\k20}a{\k21}to {\k19}wa {\k40}o{\k23}mo{\k19}i {\k19}no {\k39}ma{\k48}ma
+Dialogue: 0,0:00:59.15,0:01:03.50,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k82}hon{\k71}rou {\k13}ho{\k19}ne{\k20}nu{\k20}ki {\k41}DANCE{\k20}A{\k39}BLE
+Dialogue: 0,0:01:02.57,0:01:06.70,Suisei,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k23}S{\k22}CA{\k18}RE{\k40}CROWS {\k20}mo {\k41}to{\k19}bi{\k12}ha{\k49}ne {\k19}ma{\k20}wa{\k20}ru
+Dialogue: 0,0:01:05.58,0:01:09.75,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k81}HOL{\k68}LOW {\k10}tsu{\k23}ki{\k21}yo {\k18}no {\k40}TURN{\k22}TA{\k24}BLE
+Dialogue: 0,0:01:08.78,0:01:12.22,Ui,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k6}ku{\k35}ru{\k7}ku{\k33}ru {\k6}ku{\k36}ru{\k38}o{\k22}shii {\k11}ta{\k9}ka{\k20}ma{\k11}ri
+Dialogue: 0,0:01:11.21,0:01:13.51,Ui,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k20}WE {\k9}GOT {\k13}THE {\k20}PAR{\k19}TY {\k39}NIGHT!
+Dialogue: 0,0:01:16.99,0:01:19.51,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k22}A{\k20}NY{\k12}WAY, {\k7}EN{\k20}JOY {\k20}THE {\k21}PAR{\k20}TY
+Dialogue: 0,0:01:18.41,0:01:19.85,Suisei,,0,200,0,fx,{\k90\fad(300,200)}♠ {\k26}NIGHT
+Dialogue: 0,0:01:18.81,0:01:20.22,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k31}NIGHT
+Dialogue: 0,0:01:19.12,0:01:20.61,Ui,,200,0,0,fx,{\k90\fad(300,200)}♥ {\k50}NIGHT!
+Dialogue: 0,0:01:20.00,0:01:22.63,Suisei,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k22}woo {\k19}wee {\k19}woo {\k20}wee {\k12}LOOK {\k9}AT {\k9}ME {\k11}NOW {\k20}FRUI{\k12}TY
+Dialogue: 0,0:01:21.53,0:01:24.05,Suisei,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k7}mu{\k20}ja{\k8}ki {\k12}na {\k20}kuu{\k9}ki {\k13}ja {\k19}mu{\k34}ri
+Dialogue: 0,0:01:22.81,0:01:24.39,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}mu{\k29}ri
+Dialogue: 0,0:01:23.19,0:01:25.85,Ui,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k20}zei{\k6}ta{\k6}ku {\k9}ni {\k20}sei{\k9}da{\k3}ku {\k8}wo {\k14}CHA{\k7}SER {\k9}na{\k11}shi {\k34}de
+Dialogue: 0,0:01:24.75,0:01:27.47,Ui,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k6}i{\k10}ta{\k10}da{\k11}ke{\k9}ba {\k12}he{\k7}ra{\k8}he{\k13}ra {\k12}GREAT {\k10}A{\k10}S {\k24}HELL {\k20}YEAH
+Dialogue: 0,0:01:26.38,0:01:27.92,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k44}YEAH!
+Dialogue: 0,0:01:26.60,0:01:28.91,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k11}WHERE {\k9}IS {\k20}MY {\k9}su{\k11}te{\k11}ki {\k11}na {\k19}NIGH{\k20}T
+Dialogue: 0,0:01:27.81,0:01:30.50,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k11}mi{\k8}tsu{\k10}ka{\k11}ra{\k10}na{\k10}ku{\k9}te {\k11}mo {\k10}su{\k10}de {\k10}ni {\k10}ba{\k20}rai{\k19}ro{\k0}
+Dialogue: 0,0:01:29.40,0:01:30.89,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k39}hoo
+Dialogue: 0,0:01:29.59,0:01:32.11,Suisei,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k7}shit{\k5}to {\k10}wa {\k10}mi{\k8}gu{\k11}ru{\k11}shii {\k7}ka{\k12}ra {\k12}ki{\k9}gu{\k10}ru{\k19}mi {\k11}ni
+Dialogue: 0,0:01:31.01,0:01:33.76,Suisei,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k11}shi{\k9}mat{\k11}te {\k8}ka{\k9}ra {\k22}hai{\k5}de {\k6}a{\k10}ge{\k10}ru {\k10}mi{\k8}gu{\k12}ru{\k34}mi
+Dialogue: 0,0:01:32.40,0:01:34.01,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}yi{\k32}pee!
+Dialogue: 0,0:01:32.79,0:01:35.50,Duo,,0,0,0,fx,{\k90\fad(300,200)}♦♥ {\k10}ka{\k12}ri {\k9}no {\k10}i{\k21}shou {\k11}de{\k8}mo {\k11}ta{\k10}ma{\k8}shii {\k12}ga {\k21}hon{\k8}mo{\k10}no
+Dialogue: 0,0:01:34.40,0:01:36.92,Duo,,0,0,0,fx,{\k90\fad(300,200)}♦♥ {\k12}na{\k8}ra{\k12}ba {\k10}mi{\k17}ryou {\k12}shi{\k5}te {\k6}I{\k8}MA{\k10}GI{\k10}NA{\k4}RY {\k4}i{\k24}jou
+Dialogue: 0,0:01:36.01,0:01:38.51,Duo,,0,0,0,fx,{\k90\fad(300,200)}♦♠ {\k12}shi{\k9}ryou {\k9}i{\k9}ki{\k21}ryou {\k11}ka{\k9}ma{\k10}wa{\k10}zu {\k19}kai{\k21}kou
+Dialogue: 0,0:01:37.41,0:01:40.19,Duo,,0,0,0,fx,{\k90\fad(300,200)}♦♠ {\k11}to{\k9}bi{\k10}ki{\k10}ri {\k8}no {\k12}bi{\k19}bou {\k12}HA{\k9}PPY {\k10}na {\k9}hi{\k10}ni{\k10}chi{\k29}jou
+Dialogue: 0,0:01:39.40,0:01:41.89,Ui,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k9}GA{\k12}LA{\k9}PA{\k10}GO{\k11}S {\k11}ni {\k10}ma{\k9}ji{\k9}wa{\k11}ru {\k9}i{\k11}se{\k18}kai
+Dialogue: 0,0:01:40.79,0:01:43.12,Ui,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k31}dai{\k19}kou{\k12}ryuu {\k20}PAR{\k41}TY
+Dialogue: 0,0:01:41.80,0:01:43.51,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}WEL{\k40}COME
+Dialogue: 0,0:01:42.41,0:01:46.31,Suisei,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k60}fu{\k20}ri{\k41}ki{\k18}re{\k20}ru {\k61}ko{\k19}do{\k41}u
+Dialogue: 0,0:01:45.01,0:01:46.70,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}HE{\k38}LLO
+Dialogue: 0,0:01:45.61,0:01:49.44,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k16}wa{\k10}ru{\k14}me{\k15}da{\k12}chi {\k13}no {\k13}D{\k14}RA{\k14}CU{\k26}LA {\k12}mo {\k16}sa{\k12}ke {\k14}wo {\k27}a{\k12}o{\k33}ru
+Dialogue: 0,0:01:48.40,0:01:49.88,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k38}waaah!
+Dialogue: 0,0:01:48.78,0:01:52.65,Ui,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k15}ka{\k13}mo{\k13}ku {\k23}sou {\k18}na {\k20}DUL{\k19}LA{\k26}HAN {\k15}mo {\k14}a{\k15}ta{\k12}ma {\k25}wo {\k13}fu{\k36}ru
+Dialogue: 0,0:01:51.60,0:01:53.12,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k42}waaah!
+Dialogue: 0,0:01:52.00,0:01:55.85,Suisei,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k27}shin{\k14}shi{\k14}te{\k13}ki {\k13}na {\k24}mii{\k17}ra {\k11}su{\k16}ra {\k13}mo {\k10}fu{\k13}ku {\k16}ga {\k13}ha{\k17}da{\k10}ke{\k34}ru
+Dialogue: 0,0:01:54.80,0:01:56.45,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k55}waaah!
+Dialogue: 0,0:01:55.00,0:01:59.58,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k41}dou {\k20}a{\k20}re{\k19}do {\k20}yu{\k20}ka{\k20}i {\k40}zen{\k21}ka{\k20}i {\k19}no {\k40}ma{\k48}ma
+Dialogue: 0,0:01:59.97,0:02:04.30,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k80}hon{\k73}shou {\k10}a{\k20}ra{\k21}wa {\k11}ni {\k9}a{\k39}ba{\k21}re{\k39}you
+Dialogue: 0,0:02:03.40,0:02:07.47,Ui,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k21}so{\k20}no {\k18}ka{\k23}so{\k20}u {\k17}mo {\k42}se{\k13}i{\k27}so{\k40}u {\k19}ni {\k21}na{\k16}ru
+Dialogue: 0,0:02:06.38,0:02:10.70,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k81}kyou{\k76}sou{\k24}kyo{\k22}ku {\k18}no {\k41}TURN{\k21}TA{\k39}BLE
+Dialogue: 0,0:02:09.61,0:02:13.08,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k40}ai{\k31}ai {\k9}i{\k40}to{\k40}o{\k20}shii {\k10}ta{\k10}ka{\k20}ma{\k17}ri
+Dialogue: 0,0:02:12.01,0:02:14.23,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k20}WE {\k10}GOT {\k9}THE {\k21}PAR{\k22}TY {\k30}NIGHT!
+Dialogue: 0,0:02:14.00,0:02:15.86,Suisei,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k41}HI-{\k35}FI
+Dialogue: 0,0:02:14.81,0:02:17.43,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k40}ALL {\k40}NIGHT {\k41}ALL {\k31}NIGHT
+Dialogue: 0,0:02:16.61,0:02:19.19,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k21}ne{\k20}mu{\k18}re{\k21}ya{\k22}shi{\k46}nai
+Dialogue: 0,0:02:18.02,0:02:20.63,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k40}woo {\k19}la {\k19}la {\k21}la {\k20}la {\k32}la
+Dialogue: 0,0:02:20.39,0:02:22.25,Ui,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k43}FLY {\k33}HIGH
+Dialogue: 0,0:02:21.20,0:02:23.82,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k41}ALL {\k39}NIGHT {\k42}ALL {\k30}NIGHT
+Dialogue: 0,0:02:22.99,0:02:25.48,Suisei,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k23}na{\k19}ri{\k21}ya{\k21}ma{\k19}na{\k36}i
+Dialogue: 0,0:02:24.41,0:02:27.05,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k42}woo {\k18}la {\k20}la {\k20}la {\k18}la {\k36}la
+Dialogue: 0,0:02:26.19,0:02:29.88,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k21}ko{\k20}dai{\k20}mou{\k21}sou {\k19}na {\k32}a{\k29}so{\kf97}bi
+Dialogue: 0,0:02:29.33,0:02:33.09,Ui,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k28}LAN{\k20}TERN {\k12}wa {\k7}ma{\k21}ru{\k19}de {\k31}ta{\k27}ma{\kf101}shii
+Dialogue: 0,0:02:32.60,0:02:36.30,Suisei,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k20}i{\k21}zen {\k19}ki{\k22}kai {\k17}na {\k34}JAM{\k27}BO{\kf100}REE
+Dialogue: 0,0:02:35.76,0:02:40.13,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k15}LET {\k11}ME {\k18}HEAR {\k18}YOU {\k37}SAY {\k38}HA{\k27}LLO{\kf163}WEEN
+Dialogue: 0,0:02:39.95,0:02:44.27,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k84}hon{\k69}rou {\k14}ho{\k19}ne{\k20}nu{\k20}ki {\k40}DANCE{\k20}A{\k36}BLE
+Dialogue: 0,0:02:43.40,0:02:47.47,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k19}su{\k22}ke{\k18}a{\k5}ku{\k37}rou {\k19}mo {\k41}to{\k18}bi{\k21}ha{\k39}ne {\k23}ma{\k19}wa{\k16}ru
+Dialogue: 0,0:02:46.40,0:02:50.62,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k80}HO{\k70}LLOW {\k9}tsu{\k22}ki{\k22}yo {\k16}no {\k40}TURN{\k21}TA{\k32}BLE
+Dialogue: 0,0:02:49.58,0:02:53.08,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ku{\k31}ru{\k10}ku{\k29}ru {\k9}ku{\k32}ru{\k40}o{\k22}shii {\k9}ta{\k11}ka{\k20}ma{\k17}ri
+Dialogue: 0,0:02:52.01,0:02:54.30,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k17}WE {\k10}GOT {\k12}THE {\k20}PAR{\k21}TY {\k39}NIGHT!
+Dialogue: 0,0:02:57.78,0:03:00.75,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k23}A{\k20}NY{\k12}WAY, {\k9}EN{\k18}JOY {\k20}THE {\k19}PAR{\k19}TY {\k47}NIGHT!
+Dialogue: 0,0:03:02.35,0:03:05.87,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ku{\k31}ru{\k10}ku{\k32}ru {\k9}ku{\k33}ru{\k40}o{\k21}shii {\k10}ta{\k12}ka{\k19}ma{\k15}ri
+Dialogue: 0,0:03:04.81,0:03:06.70,ALL,,0,0,0,fx,{\k90\fad(300,200)}{\k19}WE {\k19}GOT {\k22}THE {\k19}PARTY
+Dialogue: 0,0:03:05.60,0:03:07.02,Ui,,0,200,0,fx,{\k90\fad(300,200)}♥ {\k32}NIGHT
+Dialogue: 0,0:03:06.00,0:03:07.41,Suisei,,0,0,71,fx,{\k90\fad(300,200)}♠ {\k31}NIGHT
+Dialogue: 0,0:03:06.40,0:03:07.81,KAF,,200,0,71,fx,{\k90\fad(300,200)}♦ {\k31}NIGHT!
