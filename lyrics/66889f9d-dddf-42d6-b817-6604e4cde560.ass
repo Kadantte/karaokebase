@@ -1,0 +1,205 @@
+﻿[Script Info]
+Title: Legend-Changer
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H001819FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Akesaka la goat,Arial,24,&H00FFFFFF,&H006E8E2A,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Orfevre LA GOAT DE LA LICENCE,Arial,24,&H00FFFFFF,&H003441BE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Narita Brian,Arial,24,&H00FFFFFF,&H008C3575,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Goldship,Arial,24,&H00FFFFFF,&H00573CDA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Calstone Light O,Arial,24,&H00FFFFFF,&H0049EBF7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Believe,Arial,24,&H00FFFFFF,&H00CEAE4B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Durandal,Arial,24,&H00FFFFFF,&H0005A6EF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Mr. C.B.,Arial,24,&H00FFFFFF,&H0046C36F,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Dream Journey,Arial,24,&H00FFFFFF,&H008AE0E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Nakayama Festa,Arial,24,&H00FFFFFF,&H003F45C0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Fenomeno,Arial,24,&H00FFFFFF,&H00784F5C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Oguri,Arial,24,&H00FFFFFF,&H00D37D3F,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Tamamo Cross,Arial,24,&H00FFFFFF,&H00D58F31,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:08.05,0:00:09.74,Sample,,0,0,0,karaoke,{\k24}sa{\k19}ma{\k21}se {\k37}hon{\k29}nou {\k39}wo
+Comment: 0,0:00:09.76,0:00:11.39,Sample,,0,0,0,karaoke,{\k22}o{\k24}ko{\k20}se {\k36}kan{\k32}dou {\k29}wo
+Comment: 0,0:00:11.54,0:00:13.18,Sample,,0,0,0,karaoke,{\k21}ki{\k23}za{\k20}me {\k33}den{\k28}sets' {\k39}wo
+Comment: 0,0:00:13.24,0:00:15.01,Sample,,0,0,0,karaoke,{\k23}sa{\k19}ke{\k20}be {\k44}BREAK {\k71}OUT!
+Comment: 0,0:00:16.64,0:00:18.42,Sample,,0,0,0,karaoke,{\k27}Wo {\k23}oh {\k15}oh {\k43}wo {\k16}oh {\k54}oh
+Comment: 0,0:00:19.84,0:00:21.64,Sample,,0,0,0,karaoke,{\k40}Break {\k42}break {\k42}break {\k56}out!!
+Comment: 0,0:00:23.41,0:00:25.05,Sample,,0,0,0,karaoke,{\k25}Wo {\k21}oh {\k17}oh {\k42}wo {\k17}oh {\k42}oh
+Comment: 0,0:00:26.60,0:00:28.24,Sample,,0,0,0,karaoke,{\k43}Break {\k40}break {\k41}break {\k40}out!!
+Comment: 0,0:00:28.13,0:00:31.38,Calstone Light O,,0,0,0,karaoke,{\k12}ha{\k10}na{\k26}re{\k25}teik' {\k29}a{\k9}shi{\k21}o{\k30}to {\k24}ku{\k20}yash'{\k9}ku{\k19}nai {\k13}no {\k42}ka{\k36}~
+Comment: 0,0:00:31.45,0:00:33.21,Believe,,0,0,0,karaoke,{\k21}sa{\k10}bi{\k18}re{\k32}teik' {\k21}bu{\k23}tai {\k11}wo {\k30}mae {\k10}ni
+Comment: 0,0:00:33.20,0:00:34.72,Believe,,0,0,0,karaoke,{\k10}u{\k22}ro{\k11}ta{\k19}e{\k10}ru {\k14}no {\k66}ka
+Comment: 0,0:00:34.71,0:00:37.91,Durandal,,0,0,0,karaoke,{\k21}a{\k15}ra{\k21}gat{\k31}te {\k16}ki{\k17}ri{\k18}hi{\k30}rai{\k14}te {\k10}mi{\k20}kae{\k10}su {\k30}ban {\k36}da{\k31}~
+Comment: 0,0:00:38.06,0:00:39.84,Sample,,0,0,0,karaoke,{\k18}me {\k14}wo {\k21}ha{\k31}nas'{\k21}na {\k21}re{\k21}ki{\k11}shi {\k20}wo
+Comment: 0,0:00:39.86,0:00:42.03,Sample,,0,0,0,karaoke,{\k14}nu{\k18}ri{\k13}ka{\k25}e{\k24}te {\k20}ya{\k20}ru {\k83}sa
+Comment: 0,0:00:42.04,0:00:45.05,Sample,,0,0,0,karaoke,{\k39}dan {\k40}dan {\k44}dan {\k39}dan {\k27}dan{\k16} a{\k39}gat{\k57}tek'
+Comment: 0,0:00:45.33,0:00:48.43,Sample,,0,0,0,karaoke,{\k45}kan{\k43}sei {\k20}ma{\k18}ki{\k32}o{\k36}kos' {\k20}DE{\k18}A{\k22}D {\k56}HEAT
+Comment: 0,0:00:48.69,0:00:51.75,Sample,,0,0,0,karaoke,{\k41}dan {\k40}dan {\k41}dan {\k42}dan {\k40}dan {\k40}s'mat{\k62}tek'
+Comment: 0,0:00:51.78,0:00:55.51,Sample,,0,0,0,karaoke,{\k23}a{\k40}to {\k35}s'ko{\k33}shi {\k18}se{\k24}me{\k14}gi{\k28}au {\k19}SY{\k19}M{\k22}PA{\kf98}THY
+Comment: 0,0:00:54.96,0:00:55.81,Sample KM [Choir],,0,0,0,karaoke,{\k42}Fight {\k43}on!!
+Comment: 0,0:00:55.81,0:00:56.48,Narita Brian,,0,0,0,karaoke,{\k14}i{\k15}do{\k13}mi{\k25}tai
+Comment: 0,0:00:56.63,0:00:57.46,Sample KM [Choir],,0,0,0,karaoke,{\k43}Fight {\k40}on!!
+Comment: 0,0:00:57.56,0:00:58.26,Orfevre LA GOAT DE LA LICENCE,,0,0,0,karaoke,{\k11}tsu{\k18}ka{\k16}mi{\k25}tai
+Comment: 0,0:00:58.29,0:00:59.08,Sample KM [Choir],,0,0,0,karaoke,{\k43}Fight {\k36}on!!
+Comment: 0,0:00:59.11,0:00:59.82,Mr. C.B.,,0,0,0,karaoke,{\k16}ki{\k14}za{\k13}mi{\k28}tai
+Comment: 0,0:00:59.98,0:01:00.74,Sample KM [Choir],,0,0,0,karaoke,{\k40}Fight {\k36}on!!
+Comment: 0,0:01:00.81,0:01:01.57,Sample,,0,0,0,karaoke,{\k11}tsu{\k16}ta{\k13}e{\k36}tai
+Comment: 0,0:01:02.21,0:01:04.39,Sample,,0,0,0,karaoke,{\k45}kak'{\k37}mei {\k10}no {\k10}hi{\k21}bu{\k13}ta {\k29}kit{\k53}te
+Comment: 0,0:01:04.49,0:01:07.59,Sample,,0,0,0,karaoke,{\k42}den{\k29}sets' {\k26}no {\k9}ha{\k24}ta {\k10}ka{\k20}ka{\k10}ge{\k22}te {\k18}yu{\k67}ko{\k33}u
+Comment: 0,0:01:07.83,0:01:11.32,Sample,,0,0,0,karaoke,{\k42}saa {\k42}LE{\k41}GEND {\k32}CHAN{\k33}GER {\k38}ROCK {\k21}ni {\k22}to{\k10}bi{\k34}kon{\k34}de
+Comment: 0,0:01:11.38,0:01:14.92,Sample,,0,0,0,karaoke,{\k42}nek{\k26}kyo{\k23}u {\k15}o{\k42}kos' {\k20}to{\k41}u{\k24}j'sha {\k18}ni {\k22}na{\k44}re{\k37}~
+Comment: 0,0:01:14.95,0:01:17.99,Sample,,0,0,0,karaoke,{\k41}LE{\k39}GEND {\k32}CHAN{\k32}GER {\k39}dai{\k24}tan {\k16}ni {\k13}i{\k33}kou {\k35}ze
+Comment: 0,0:01:18.05,0:01:21.41,Sample,,0,0,0,karaoke,{\k46}hon{\k17}no{\k20}u {\k21}sa{\k29}ma{\k37}se {\k40}kan{\k24}do{\k21}u {\k16}o{\k34}ko{\k31}se
+Comment: 0,0:01:21.42,0:01:23.27,Sample,,0,0,0,karaoke,{\k41}den{\k22}se{\k19}tsu {\k21}ki{\k44}zan{\k38}de
+Comment: 0,0:01:23.28,0:01:24.91,Sample,,0,0,0,karaoke,{\k33}daich' {\k19}ket{\k11}te {\k22}ket{\k12}te {\k16}ket{\k10}te {\k40}BREAK!!
+Comment: 0,0:01:26.81,0:01:28.61,Sample,,0,0,0,karaoke,{\k27}Wo {\k25}oh {\k13}oh {\k41}wo {\k19}oh {\k55}oh
+Comment: 0,0:01:29.99,0:01:31.92,Sample,,0,0,0,karaoke,{\k44}Break {\k42}break {\k41}break {\k66}out!!
+Comment: 0,0:01:33.58,0:01:35.21,Sample,,0,0,0,karaoke,{\k26}Wo {\k23}oh {\k17}oh {\k39}wo {\k20}oh {\k38}oh
+Comment: 0,0:01:36.79,0:01:38.57,Sample,,0,0,0,karaoke,{\k39}Break {\k41}break {\k39}break {\k59}out!!
+Comment: 0,0:01:38.28,0:01:39.85,Dream Journey,,0,0,0,karaoke,{\k17}ka{\k17}re{\k20}tei{\k29}ku {\k17}kou{\k17}ki {\k20}no {\k20}me
+Comment: 0,0:01:39.90,0:01:41.53,Dream Journey,,0,0,0,karaoke,{\k25}ki{\k21}zui{\k12}te {\k20}nai {\k11}no {\k42}ka{\k32}~
+Comment: 0,0:01:41.62,0:01:43.35,Nakayama Festa,,0,0,0,karaoke,{\k21}sei{\k20}sai {\k11}wo {\k32}kai{\k7}ta {\k13}i{\k19}ma {\k16}wo {\k23}shit{\k11}te
+Comment: 0,0:01:43.36,0:01:44.83,Nakayama Festa,,0,0,0,karaoke,{\k14}na{\k21}ni {\k11}wo {\k19}'mo{\k11}u{\k12}da{\k59}rou
+Comment: 0,0:01:44.94,0:01:46.66,Goldship,,0,0,0,karaoke,{\k22}o{\k18}moi {\k12}ko{\k20}ga{\k9}re {\k23}me{\k21}zash'{\k11}ta {\k23}GOAL {\k13}wo
+Comment: 0,0:01:46.68,0:01:48.16,Goldship,,0,0,0,karaoke,{\k12}mi{\k18}se{\k12}ru {\k31}ban {\k42}da{\k33}~
+Comment: 0,0:01:48.26,0:01:52.18,Fenomeno,,0,0,0,karaoke,{\k20}ha{\k14}shi{\k21}ri {\k29}tsui{\k22}da {\k20}ki{\k20}se{\k14}ki {\k16}wo {\k14}ma{\k14}mo{\k16}ri {\k32}nui{\k22}te {\k19}ya{\k21}ru {\k78}sa
+Comment: 0,0:01:52.22,0:01:55.24,Sample,,0,0,0,karaoke,{\k42}dan {\k44}dan {\k38}dan {\k40}dan {\k30}dan {\k13}a{\k37}gat{\k58}tek'
+Comment: 0,0:01:55.50,0:01:58.65,Sample,,0,0,0,karaoke,{\k45}kou{\k43}zoku {\k23}fu{\k17}ri{\k33}kit{\k33}te {\k25}i{\k14}i {\k20}de{\k62}sho
+Comment: 0,0:01:58.86,0:02:01.80,Sample,,0,0,0,karaoke,{\k41}dan {\k43}dan {\k41}dan {\k39}dan {\k33}dan {\k10}se{\k38}mat{\k49}teku
+Comment: 0,0:02:01.97,0:02:05.66,Sample,,0,0,0,karaoke,{\k22}a{\k41}to {\k35}s'ko{\k32}shi… {\k17}mi{\k21}chi {\k13}no {\k28}G{\k23}R{\k16}A{\k14}DE {\kf107}A
+Comment: 0,0:02:05.15,0:02:05.91,Sample KM [Choir],,0,0,0,karaoke,{\k41}Fight {\k35}on!!
+Comment: 0,0:02:05.91,0:02:06.68,Sample,,0,0,0,karaoke,{\k20}i{\k15}do{\k13}mi{\k29}tai
+Comment: 0,0:02:06.83,0:02:07.59,Sample KM [Choir],,0,0,0,karaoke,{\k42}Fight {\k34}on!!
+Comment: 0,0:02:07.68,0:02:08.35,Sample,,0,0,0,karaoke,{\k11}tsu{\k16}ka{\k13}mi{\k27}tai
+Comment: 0,0:02:08.48,0:02:09.29,Sample KM [Choir],,0,0,0,karaoke,{\k40}Fight {\k41}on!!
+Comment: 0,0:02:09.32,0:02:10.03,Tamamo Cross,,0,0,0,karaoke,{\k13}ki{\k14}za{\k12}mi{\k32}tai
+Comment: 0,0:02:10.17,0:02:10.92,Sample KM [Choir],,0,0,0,karaoke,{\k41}Fight {\k34}on!!
+Comment: 0,0:02:11.00,0:02:11.65,Oguri,,0,0,0,karaoke,{\k15}tsu{\k10}ta{\k14}e{\k26}tai
+Comment: 0,0:02:12.42,0:02:14.61,Sample,,0,0,0,karaoke,{\k42}han{\k36}gek' {\k17}no {\k12}ki {\k20}wa {\k10}ju{\k28}kush'{\k54}ta
+Comment: 0,0:02:14.69,0:02:17.77,Sample,,0,0,0,karaoke,{\k41}sou{\k26}zou {\k10}ko{\k15}e{\k11}ru {\k27}RACE {\k22}wo {\k14}mi{\k24}se{\k18}tsu{\k68}ke{\k32}ro
+Comment: 0,0:02:18.00,0:02:21.53,Sample,,0,0,0,karaoke,{\k43}saa {\k41}LE{\k42}GEND {\k32}CHAN{\k33}GER {\k40}kai{\k22}shin{\k22}gek' {\k11}ka{\k30}mash'{\k37}te
+Comment: 0,0:02:21.58,0:02:25.11,Sample,,0,0,0,karaoke,{\k43}kas{\k39}sai {\k20}sa{\k46}sou {\k19}se{\k40}n{\k25}k'sha {\k19}ni {\k20}na{\k45}re{\k37}~
+Comment: 0,0:02:25.15,0:02:28.22,Sample,,0,0,0,karaoke,{\k39}LEG{\k40}END {\k32}CHAN{\k33}GER {\k36}shin{\k25}pai {\k19}na{\k10}nte {\k35}fuyou {\k38}da
+Comment: 0,0:02:28.26,0:02:31.57,Sample,,0,0,0,karaoke,{\k44}hon{\k20}no{\k20}u {\k17}sa{\k34}ma{\k35}se {\k37}kan{\k21}do{\k20}u {\k21}o{\k34}ko{\k28}se
+Comment: 0,0:02:31.60,0:02:33.37,Sample,,0,0,0,karaoke,{\k38}den{\k23}se{\k20}tsu {\k22}ki{\k40}zan{\k34}de
+Comment: 0,0:02:33.44,0:02:35.20,Sample,,0,0,0,karaoke,{\k32}daich' {\k22}ket{\k10}te {\k20}ket{\k14}te {\k15}ket{\k13}te {\k50}BREAK!!
+Comment: 0,0:02:36.07,0:02:37.68,Akesaka la goat,,0,0,0,karaoke,{\k13}i{\k9}ku{\k11}do {\k8}to {\k12}na{\k13}ku {\k18}uchi{\k8}ku{\k9}da{\k8}ka{\k11}re{\k10}te {\k7}ki{\k24}ta
+Comment: 0,0:02:38.37,0:02:41.67,Akesaka la goat,,0,0,0,karaoke,{\k13}so{\k11}re{\k7}de{\k45}mo {\k19}ip{\k49}po, {\k25}ip{\k54}po, {\k27}chou{\k13}sen {\k15}wo {\k12}tsu{\k9}dzu{\k9}ke{\k22}ru
+Comment: 0,0:02:42.21,0:02:44.09,Akesaka la goat,,0,0,0,karaoke,{\k18}ge{\k10}ki{\k12}dou {\k17}no {\k29}RACE {\k20}kai {\k20}ni {\k17}kae{\k10}ri {\k13}sa{\k22}ke
+Comment: 0,0:02:44.61,0:02:48.12,Akesaka la goat,,0,0,0,karaoke,{\k16}ko{\k14}ko {\k8}ka{\k12}ra {\k46}ga {\k16}ka{\k16}no{\k11}jo-{\k15}ta{\k7}chi {\k50}no {\k45}den{\k15}se{\k9}tsu {\k71}da
+Comment: 0,0:02:48.66,0:02:51.90,Sample,,0,0,0,karaoke,{\k25}mu{\k42}suu {\k18}no {\k12}a{\k30}shi{\k21}a{\k21}to {\k11}ni {\k21}mi{\k9}ru {\k24}e{\k20}i{\k18}ka{\k21}n {\k31}wo
+Comment: 0,0:02:52.00,0:02:55.19,Sample,,0,0,0,karaoke,{\k22}a{\k21}ko{\k20}ga{\k23}re {\k13}ni {\k27}shi{\k10}te {\k11}o{\k20}wa{\k15}ra{\k19}se{\k12}ro {\kf106}na
+Comment: 0,0:02:55.30,0:02:57.90,Sample,,0,0,0,karaoke,{\k23}ta{\k21}ku{\k19}sa{\k22}re{\k12}ta {\k28}yu{\k21}me {\k24}ga {\k10}se{\k15}ki {\k14}wo {\k22}kit{\k29}te
+Comment: 0,0:02:58.05,0:03:06.15,Sample,,0,0,0,karaoke,{\k15}i{\k46}ma {\k23}wa{\k22}ta{\k18}shi {\k38}no {\k46}toush' {\k30}he {\k32}to {\k19}ka{\k41}wa{\k48}t{\kf145}te {\k20}yu{\kf267}ku
+Comment: 0,0:03:08.76,0:03:10.33,Sample,,0,0,0,karaoke,{\k24}sa{\k18}ma{\k20}se {\k36}hon{\k9}no{\k19}u {\k31}wo
+Comment: 0,0:03:10.45,0:03:11.94,Sample,,0,0,0,karaoke,{\k20}o{\k21}ko{\k19}se {\k35}kan{\k31}dou {\k23}wo
+Comment: 0,0:03:12.10,0:03:13.68,Sample,,0,0,0,karaoke,{\k23}ki{\k22}za{\k17}me {\k34}den{\k28}sets' {\k34}wo
+Comment: 0,0:03:13.76,0:03:17.94,Sample,,0,0,0,karaoke,{\k22}sa{\k16}ke{\k24}be {\k44}BREAK {\kf312}OUT!!
+Comment: 0,0:03:18.18,0:03:21.56,Sample,,0,0,0,karaoke,{\k41}saa {\k44}LE{\k39}GEND {\k34}CHAN{\k32}GER {\k39}ROCK {\k22}ni {\k18}to{\k12}bi{\k34}kon{\k23}de
+Comment: 0,0:03:21.75,0:03:25.21,Sample,,0,0,0,karaoke,{\k38}nek{\k27}kyo{\k16}u {\k24}o{\k33}kos' {\k25}to{\k42}u{\k24}j'sha {\k19}ni {\k19}na{\k47}re{\k32}~
+Comment: 0,0:03:25.28,0:03:28.37,Sample,,0,0,0,karaoke,{\k42}LE{\k40}GEND {\k31}CHAN{\k32}GER {\k40}dai{\k22}tan {\k19}ni {\k15}i{\k31}kou {\k37}ze
+Comment: 0,0:03:28.42,0:03:31.75,Sample,,0,0,0,karaoke,{\k41}hon{\k17}no{\k23}u {\k19}sa{\k33}ma{\k34}se {\k39}kan{\k18}do{\k18}u {\k24}o{\k33}ko{\k34}se
+Comment: 0,0:03:31.76,0:03:33.57,Sample,,0,0,0,karaoke,{\k36}den{\k25}se{\k20}tsu {\k21}ki{\k41}zan{\k38}de
+Comment: 0,0:03:33.61,0:03:35.34,Sample,,0,0,0,karaoke,{\k31}daich' {\k22}ket{\k11}te {\k19}ket{\k11}te {\k17}ket{\k15}te {\k47}BREAK!!
+Comment: 0,0:03:37.20,0:03:38.98,Sample,,0,0,0,karaoke,{\k23}Wo {\k20}oh {\k21}oh {\k37}wo {\k20}oh {\k57}oh
+Comment: 0,0:03:40.35,0:03:42.21,Sample,,0,0,0,karaoke,{\k41}Break {\k43}break {\k39}break {\k63}out!!
+Comment: 0,0:03:43.92,0:03:45.72,Sample,,0,0,0,karaoke,{\k28}Wo {\k21}oh {\k16}oh {\k39}wo {\k18}oh {\k58}oh
+Comment: 0,0:03:47.10,0:03:49.09,Sample,,0,0,0,karaoke,{\k42}Break {\k44}break {\k36}break {\k77}out!!
+Dialogue: 0,0:00:07.15,0:00:09.94,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k24}sa{\k19}ma{\k21}se {\k37}hon{\k29}nou {\k39}wo
+Dialogue: 0,0:00:08.86,0:00:11.59,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k22}o{\k24}ko{\k20}se {\k36}kan{\k32}dou {\k29}wo
+Dialogue: 0,0:00:10.64,0:00:13.38,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k23}za{\k20}me {\k33}den{\k28}sets' {\k39}wo
+Dialogue: 0,0:00:12.34,0:00:15.21,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k23}sa{\k19}ke{\k20}be {\k44}BREAK {\k71}OUT!
+Dialogue: 0,0:00:15.74,0:00:18.62,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Wo {\k23}oh {\k15}oh {\k43}wo {\k16}oh {\k54}oh
+Dialogue: 0,0:00:18.94,0:00:21.84,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Break {\k42}break {\k42}break {\k56}out!!
+Dialogue: 0,0:00:22.51,0:00:25.25,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Wo {\k21}oh {\k17}oh {\k42}wo {\k17}oh {\k42}oh
+Dialogue: 0,0:00:25.70,0:00:28.44,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Break {\k40}break {\k41}break {\k40}out!!
+Dialogue: 0,0:00:27.23,0:00:31.58,Calstone Light O,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ha{\k10}na{\k26}re{\k25}teik' {\k29}a{\k9}shi{\k21}o{\k30}to {\k24}ku{\k20}yash'{\k9}ku{\k19}nai {\k13}no {\k42}ka{\k36}~
+Dialogue: 0,0:00:30.55,0:00:33.41,Believe,,0,0,0,fx,{\k90\fad(300,200)}{\k21}sa{\k10}bi{\k18}re{\k32}teik' {\k21}bu{\k23}tai {\k11}wo {\k30}mae {\k10}ni
+Dialogue: 0,0:00:32.30,0:00:34.92,Believe,,0,0,0,fx,{\k90\fad(300,200)}{\k10}u{\k22}ro{\k11}ta{\k19}e{\k10}ru {\k14}no {\k66}ka
+Dialogue: 0,0:00:33.81,0:00:38.11,Durandal,,0,0,0,fx,{\k90\fad(300,200)}{\k21}a{\k15}ra{\k21}gat{\k31}te {\k16}ki{\k17}ri{\k18}hi{\k30}rai{\k14}te {\k10}mi{\k20}kae{\k10}su {\k30}ban {\k36}da{\k31}~
+Dialogue: 0,0:00:37.16,0:00:40.04,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k18}me {\k14}wo {\k21}ha{\k31}nas'{\k21}na {\k21}re{\k21}ki{\k11}shi {\k20}wo
+Dialogue: 0,0:00:38.96,0:00:42.23,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k14}nu{\k18}ri{\k13}ka{\k25}e{\k24}te {\k20}ya{\k20}ru {\k83}sa
+Dialogue: 0,0:00:41.14,0:00:45.25,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k39}dan {\k40}dan {\k44}dan {\k39}dan {\k27}dan{\k16} a{\k39}gat{\k57}tek'
+Dialogue: 0,0:00:44.43,0:00:48.63,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k45}kan{\k43}sei {\k20}ma{\k18}ki{\k32}o{\k36}kos' {\k20}DE{\k18}A{\k22}D {\k56}HEAT
+Dialogue: 0,0:00:47.79,0:00:51.95,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k41}dan {\k40}dan {\k41}dan {\k42}dan {\k40}dan {\k40}s'mat{\k62}tek'
+Dialogue: 0,0:00:50.88,0:00:55.71,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k23}a{\k40}to {\k35}s'ko{\k33}shi {\k18}se{\k24}me{\k14}gi{\k28}au {\k19}SY{\k19}M{\k22}PA{\kf98}THY
+Dialogue: 0,0:00:54.06,0:00:56.01,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Fight {\k43}on!!
+Dialogue: 0,0:00:54.91,0:00:56.68,Narita Brian,,0,0,0,fx,{\k90\fad(300,200)}{\k14}i{\k15}do{\k13}mi{\k25}tai
+Dialogue: 0,0:00:55.73,0:00:57.66,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Fight {\k40}on!!
+Dialogue: 0,0:00:56.66,0:00:58.46,Orfevre LA GOAT DE LA LICENCE,,0,0,0,fx,{\k90\fad(300,200)}{\k11}tsu{\k18}ka{\k16}mi{\k25}tai
+Dialogue: 0,0:00:57.39,0:00:59.28,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Fight {\k36}on!!
+Dialogue: 0,0:00:58.21,0:01:00.02,Mr. C.B.,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ki{\k14}za{\k13}mi{\k28}tai
+Dialogue: 0,0:00:59.08,0:01:00.94,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Fight {\k36}on!!
+Dialogue: 0,0:00:59.91,0:01:01.77,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k11}tsu{\k16}ta{\k13}e{\k36}tai
+Dialogue: 0,0:01:01.31,0:01:04.59,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k45}kak'{\k37}mei {\k10}no {\k10}hi{\k21}bu{\k13}ta {\k29}kit{\k53}te
+Dialogue: 0,0:01:03.59,0:01:07.79,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k42}den{\k29}sets' {\k26}no {\k9}ha{\k24}ta {\k10}ka{\k20}ka{\k10}ge{\k22}te {\k18}yu{\k67}ko{\k33}u
+Dialogue: 0,0:01:06.93,0:01:11.52,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k42}saa {\k42}LE{\k41}GEND {\k32}CHAN{\k33}GER {\k38}ROCK {\k21}ni {\k22}to{\k10}bi{\k34}kon{\k34}de
+Dialogue: 0,0:01:10.48,0:01:15.12,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k42}nek{\k26}kyo{\k23}u {\k15}o{\k42}kos' {\k20}to{\k41}u{\k24}j'sha {\k18}ni {\k22}na{\k44}re{\k37}~
+Dialogue: 0,0:01:14.05,0:01:18.19,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k41}LE{\k39}GEND {\k32}CHAN{\k32}GER {\k39}dai{\k24}tan {\k16}ni {\k13}i{\k33}kou {\k35}ze
+Dialogue: 0,0:01:17.15,0:01:21.61,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k46}hon{\k17}no{\k20}u {\k21}sa{\k29}ma{\k37}se {\k40}kan{\k24}do{\k21}u {\k16}o{\k34}ko{\k31}se
+Dialogue: 0,0:01:20.52,0:01:23.47,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k41}den{\k22}se{\k19}tsu {\k21}ki{\k44}zan{\k38}de
+Dialogue: 0,0:01:22.38,0:01:25.11,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k33}daich' {\k19}ket{\k11}te {\k22}ket{\k12}te {\k16}ket{\k10}te {\k40}BREAK!!
+Dialogue: 0,0:01:25.91,0:01:28.81,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Wo {\k25}oh {\k13}oh {\k41}wo {\k19}oh {\k55}oh
+Dialogue: 0,0:01:29.09,0:01:32.12,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Break {\k42}break {\k41}break {\k66}out!!
+Dialogue: 0,0:01:32.68,0:01:35.41,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Wo {\k23}oh {\k17}oh {\k39}wo {\k20}oh {\k38}oh
+Dialogue: 0,0:01:35.89,0:01:38.77,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Break {\k41}break {\k39}break {\k59}out!!
+Dialogue: 0,0:01:37.38,0:01:40.05,Dream Journey,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ka{\k17}re{\k20}tei{\k29}ku {\k17}kou{\k17}ki {\k20}no {\k20}me
+Dialogue: 0,0:01:39.00,0:01:41.73,Dream Journey,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ki{\k21}zui{\k12}te {\k20}nai {\k11}no {\k42}ka{\k32}~
+Dialogue: 0,0:01:40.72,0:01:43.55,Nakayama Festa,,0,0,0,fx,{\k90\fad(300,200)}{\k21}sei{\k20}sai {\k11}wo {\k32}kai{\k7}ta {\k13}i{\k19}ma {\k16}wo {\k23}shit{\k11}te
+Dialogue: 0,0:01:42.46,0:01:45.03,Nakayama Festa,,0,0,0,fx,{\k90\fad(300,200)}{\k14}na{\k21}ni {\k11}wo {\k19}'mo{\k11}u{\k12}da{\k59}rou
+Dialogue: 0,0:01:44.04,0:01:46.86,Goldship,,0,0,0,fx,{\k90\fad(300,200)}{\k22}o{\k18}moi {\k12}ko{\k20}ga{\k9}re {\k23}me{\k21}zash'{\k11}ta {\k23}GOAL {\k13}wo
+Dialogue: 0,0:01:45.78,0:01:48.36,Goldship,,0,0,0,fx,{\k90\fad(300,200)}{\k12}mi{\k18}se{\k12}ru {\k31}ban {\k42}da{\k33}~
+Dialogue: 0,0:01:47.36,0:01:52.38,Fenomeno,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ha{\k14}shi{\k21}ri {\k29}tsui{\k22}da {\k20}ki{\k20}se{\k14}ki {\k16}wo {\k14}ma{\k14}mo{\k16}ri {\k32}nui{\k22}te {\k19}ya{\k21}ru {\k78}sa
+Dialogue: 0,0:01:51.32,0:01:55.44,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k42}dan {\k44}dan {\k38}dan {\k40}dan {\k30}dan {\k13}a{\k37}gat{\k58}tek'
+Dialogue: 0,0:01:54.60,0:01:58.85,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k45}kou{\k43}zoku {\k23}fu{\k17}ri{\k33}kit{\k33}te {\k25}i{\k14}i {\k20}de{\k62}sho
+Dialogue: 0,0:01:57.96,0:02:02.00,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k41}dan {\k43}dan {\k41}dan {\k39}dan {\k33}dan {\k10}se{\k38}mat{\k49}teku
+Dialogue: 0,0:02:01.07,0:02:05.86,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k22}a{\k41}to {\k35}s'ko{\k32}shi… {\k17}mi{\k21}chi {\k13}no {\k28}G{\k23}R{\k16}A{\k14}DE {\kf107}A
+Dialogue: 0,0:02:04.25,0:02:06.11,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Fight {\k35}on!!
+Dialogue: 0,0:02:05.01,0:02:06.88,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k15}do{\k13}mi{\k29}tai
+Dialogue: 0,0:02:05.93,0:02:07.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Fight {\k34}on!!
+Dialogue: 0,0:02:06.78,0:02:08.55,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k11}tsu{\k16}ka{\k13}mi{\k27}tai
+Dialogue: 0,0:02:07.58,0:02:09.49,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Fight {\k41}on!!
+Dialogue: 0,0:02:08.42,0:02:10.23,Tamamo Cross,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k14}za{\k12}mi{\k32}tai
+Dialogue: 0,0:02:09.27,0:02:11.12,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Fight {\k34}on!!
+Dialogue: 0,0:02:10.10,0:02:11.85,Oguri,,0,0,0,fx,{\k90\fad(300,200)}{\k15}tsu{\k10}ta{\k14}e{\k26}tai
+Dialogue: 0,0:02:11.52,0:02:14.81,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k42}han{\k36}gek' {\k17}no {\k12}ki {\k20}wa {\k10}ju{\k28}kush'{\k54}ta
+Dialogue: 0,0:02:13.79,0:02:17.97,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k41}sou{\k26}zou {\k10}ko{\k15}e{\k11}ru {\k27}RACE {\k22}wo {\k14}mi{\k24}se{\k18}tsu{\k68}ke{\k32}ro
+Dialogue: 0,0:02:17.10,0:02:21.73,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k43}saa {\k41}LE{\k42}GEND {\k32}CHAN{\k33}GER {\k40}kai{\k22}shin{\k22}gek' {\k11}ka{\k30}mash'{\k37}te
+Dialogue: 0,0:02:20.68,0:02:25.31,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k43}kas{\k39}sai {\k20}sa{\k46}sou {\k19}se{\k40}n{\k25}k'sha {\k19}ni {\k20}na{\k45}re{\k37}~
+Dialogue: 0,0:02:24.25,0:02:28.42,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k39}LEG{\k40}END {\k32}CHAN{\k33}GER {\k36}shin{\k25}pai {\k19}na{\k10}nte {\k35}fuyou {\k38}da
+Dialogue: 0,0:02:27.36,0:02:31.77,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k44}hon{\k20}no{\k20}u {\k17}sa{\k34}ma{\k35}se {\k37}kan{\k21}do{\k20}u {\k21}o{\k34}ko{\k28}se
+Dialogue: 0,0:02:30.70,0:02:33.57,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k38}den{\k23}se{\k20}tsu {\k22}ki{\k40}zan{\k34}de
+Dialogue: 0,0:02:32.54,0:02:35.40,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k32}daich' {\k22}ket{\k10}te {\k20}ket{\k14}te {\k15}ket{\k13}te {\k50}BREAK!!
+Dialogue: 0,0:02:35.17,0:02:37.88,Akesaka la goat,,0,0,0,fx,{\k90\fad(300,200)}{\k13}i{\k9}ku{\k11}do {\k8}to {\k12}na{\k13}ku {\k18}uchi{\k8}ku{\k9}da{\k8}ka{\k11}re{\k10}te {\k7}ki{\k24}ta
+Dialogue: 0,0:02:37.47,0:02:41.87,Akesaka la goat,,0,0,0,fx,{\k90\fad(300,200)}{\k13}so{\k11}re{\k7}de{\k45}mo {\k19}ip{\k49}po, {\k25}ip{\k54}po, {\k27}chou{\k13}sen {\k15}wo {\k12}tsu{\k9}dzu{\k9}ke{\k22}ru
+Dialogue: 0,0:02:41.31,0:02:44.29,Akesaka la goat,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ge{\k10}ki{\k12}dou {\k17}no {\k29}RACE {\k20}kai {\k20}ni {\k17}kae{\k10}ri {\k13}sa{\k22}ke
+Dialogue: 0,0:02:43.71,0:02:48.32,Akesaka la goat,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ko{\k14}ko {\k8}ka{\k12}ra {\k46}ga {\k16}ka{\k16}no{\k11}jo-{\k15}ta{\k7}chi {\k50}no {\k45}den{\k15}se{\k9}tsu {\k71}da
+Dialogue: 0,0:02:47.76,0:02:52.10,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k25}mu{\k42}suu {\k18}no {\k12}a{\k30}shi{\k21}a{\k21}to {\k11}ni {\k21}mi{\k9}ru {\k24}e{\k20}i{\k18}ka{\k21}n {\k31}wo
+Dialogue: 0,0:02:51.10,0:02:55.39,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k22}a{\k21}ko{\k20}ga{\k23}re {\k13}ni {\k27}shi{\k10}te {\k11}o{\k20}wa{\k15}ra{\k19}se{\k12}ro {\kf106}na
+Dialogue: 0,0:02:54.40,0:02:58.10,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ta{\k21}ku{\k19}sa{\k22}re{\k12}ta {\k28}yu{\k21}me {\k24}ga {\k10}se{\k15}ki {\k14}wo {\k22}kit{\k29}te
+Dialogue: 0,0:02:57.15,0:03:06.35,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k15}i{\k46}ma {\k23}wa{\k22}ta{\k18}shi {\k38}no {\k46}toush' {\k30}he {\k32}to {\k19}ka{\k41}wa{\k48}t{\kf145}te {\k20}yu{\kf267}ku
+Dialogue: 0,0:03:07.86,0:03:10.53,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k24}sa{\k18}ma{\k20}se {\k36}hon{\k9}no{\k19}u {\k31}wo
+Dialogue: 0,0:03:09.55,0:03:12.14,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k20}o{\k21}ko{\k19}se {\k35}kan{\k31}dou {\k23}wo
+Dialogue: 0,0:03:11.20,0:03:13.88,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ki{\k22}za{\k17}me {\k34}den{\k28}sets' {\k34}wo
+Dialogue: 0,0:03:12.86,0:03:18.14,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k22}sa{\k16}ke{\k24}be {\k44}BREAK {\kf312}OUT!!
+Dialogue: 0,0:03:17.28,0:03:21.76,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k41}saa {\k44}LE{\k39}GEND {\k34}CHAN{\k32}GER {\k39}ROCK {\k22}ni {\k18}to{\k12}bi{\k34}kon{\k23}de
+Dialogue: 0,0:03:20.85,0:03:25.41,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k38}nek{\k27}kyo{\k16}u {\k24}o{\k33}kos' {\k25}to{\k42}u{\k24}j'sha {\k19}ni {\k19}na{\k47}re{\k32}~
+Dialogue: 0,0:03:24.38,0:03:28.57,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k42}LE{\k40}GEND {\k31}CHAN{\k32}GER {\k40}dai{\k22}tan {\k19}ni {\k15}i{\k31}kou {\k37}ze
+Dialogue: 0,0:03:27.52,0:03:31.95,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k41}hon{\k17}no{\k23}u {\k19}sa{\k33}ma{\k34}se {\k39}kan{\k18}do{\k18}u {\k24}o{\k33}ko{\k34}se
+Dialogue: 0,0:03:30.86,0:03:33.77,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k36}den{\k25}se{\k20}tsu {\k21}ki{\k41}zan{\k38}de
+Dialogue: 0,0:03:32.71,0:03:35.54,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k31}daich' {\k22}ket{\k11}te {\k19}ket{\k11}te {\k17}ket{\k15}te {\k47}BREAK!!
+Dialogue: 0,0:03:36.30,0:03:39.18,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wo {\k20}oh {\k21}oh {\k37}wo {\k20}oh {\k57}oh
+Dialogue: 0,0:03:39.45,0:03:42.41,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Break {\k43}break {\k39}break {\k63}out!!
+Dialogue: 0,0:03:43.02,0:03:45.92,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Wo {\k21}oh {\k16}oh {\k39}wo {\k18}oh {\k58}oh
+Dialogue: 0,0:03:46.20,0:03:49.29,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Break {\k44}break {\k36}break {\k77}out!!
