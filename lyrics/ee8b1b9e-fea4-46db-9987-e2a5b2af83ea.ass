@@ -1,0 +1,88 @@
+﻿[Script Info]
+Title: Umasugi! Gourmet Parade ~ Cheval Grand Vers.
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Sodachi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Cheval grand,Arial,24,&H00FFFFFF,&H00C1C364,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Oguri,Arial,24,&H00FFFFFF,&H00D37D3F,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hishi miracle,Arial,24,&H00FFFFFF,&H00B2714A,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Special week,Arial,24,&H00FFFFFF,&H00CB6DEE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Haru urara,Arial,24,&H00FFFFFF,&H009573FA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Rice,Arial,24,&H00FFFFFF,&H00864A38,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:04.10,0:00:06.85,Sample,,0,0,0,karaoke,{\k45}oi{\k23}shi {\k22}su{\k34}gi{\k32}te {\k23}to{\k23}ro{\k23}ke {\k23}cha{\k27}u
+Comment: 0,0:00:07.01,0:00:11.57,Sample,,0,0,0,karaoke,{\k25}kyo{\k20}u {\kf103}mo{\k30} {\k23}go{\k24}chi{\k43}sou{\k24}sa{\k22}ma {\k22}ni {\k22}da{\k23}i {\k20}ka{\k23}n{\k32}sha
+Comment: 0,0:00:11.26,0:00:13.11,Cheval grand,,0,0,0,karaoke,{\k14}wo {\k12}te {\k10}wo {\k20}hai{\k13}sha{\k22}ku {\rSample\k10}i{\k11}ta{\k13}da{\k10}ki{\k50}mas'!!
+Comment: 0,0:00:20.23,0:00:21.99,Cheval grand,,0,0,0,karaoke,{\k10}ha{\k12}ra{\k11}pe{\k11}ko {\k22}bak{\k11}ka {\k13}ja {\k10}a{\k11}ji{\k11}ke{\k26}nai {\k28}ne
+Comment: 0,0:00:21.90,0:00:23.71,Rice,,0,0,0,karaoke,{\k34}oi{\k22}shii {\k14}ya{\k14}sai {\k16}wo {\k9}so{\k13}da{\k14}te{\k21}you {\k24}ze
+Comment: 0,0:00:23.70,0:00:25.46,Special week,,0,0,0,karaoke,{\k35}sui {\k20}mo {\k22}'mai {\k12}mo {\k13}ka{\k19}mi{\k14}shi{\k21}me{\k20}te
+Comment: 0,0:00:25.59,0:00:27.33,Sample,,0,0,0,karaoke,{\k34}zen{\k34}ryok' {\k33}shuu{\k32}kak' {\k41}des'!
+Comment: 0,0:00:27.38,0:00:29.34,Cheval grand,,0,0,0,karaoke,{\k11}ku{\k12}wa{\k12}zu{\k10}gi{\k23}rai {\k12}ja {\k23}mot{\k21}tai{\k24}nai {\k48}ne
+Comment: 0,0:00:29.16,0:00:31.01,Hishi miracle,,0,0,0,karaoke,{\k24}min{\k12}na {\k11}de {\k10}do{\k12}ta{\k10}ba{\k12}ta {\k33}LET'S {\k21}COO{\k40}KING
+Comment: 0,0:00:30.86,0:00:32.67,Haru urara,,0,0,0,karaoke,{\k35}jou{\k19}nets' {\k14}to{\k10}ku{\k11}mo{\k11}ri {\k8}fu{\k14}ru{\k12}ko{\k22}os' {\k25}de
+Comment: 0,0:00:32.75,0:00:34.60,Sample,,0,0,0,karaoke,{\k36}saa {\k33}jun{\k42}bi {\k25}O{\k49}K
+Comment: 0,0:00:34.77,0:00:37.32,Oguri,,0,0,0,karaoke,{\k23}sho{\k22}ku{\k13}ta{\k32}ku {\k23}ka{\k23}ko{\k22}me{\k34}ba {\k32}ho{\k31}ra
+Comment: 0,0:00:37.46,0:00:40.79,Oguri,,0,0,0,karaoke,{\k22}HAP{\k23}PI{\k22}NES{\k22}S {\k24}ga {\k22}hi{\k11}ro{\k34}ga{\k23}t{\k22}te {\k22}i{\k86}ku
+Comment: 0,0:00:41.02,0:00:41.68,Cheval grand,,0,0,0,karaoke,{\k24}kan{\k23}pai {\k19}da!
+Comment: 0,0:00:41.70,0:00:44.45,Sample,,0,0,0,karaoke,{\k47}oi{\k22}shi {\k22}su{\k34}gi{\k33}te {\k22}to{\k23}ro{\k22}ke {\k21}cha{\k29}u
+Comment: 0,0:00:44.62,0:00:48.04,Sample,,0,0,0,karaoke,{\k23}ko{\k24}ko{\k21}ro {\k23}do{\k22}ki{\k22}do{\k21}ki {\k35}wat{\k34}to {\k23}sa{\k19}wa{\k26}i {\k22}ja{\k27}u
+Comment: 0,0:00:48.21,0:00:51.64,Sample,,0,0,0,karaoke,{\k22}wa{\k21}ki {\k24}a{\k23}ga{\k21}ru {\k24}E{\k22}NER{\k35}GY {\k32}wo {\k22}ka{\k23}n{\k21}ji{\k23}ta{\k30}ra
+Comment: 0,0:00:51.78,0:00:56.89,Sample,,0,0,0,karaoke,{\k24}kyo{\k22}u {\kf108}wo{\k26} {\k25}ze{\k20}n{\k45}ryo{\k23}ku {\k21}de {\k22}ka{\k26}ke{\k21}nu{\k21}ke{\k23}ru {\k84}yo
+Comment: 0,0:01:10.37,0:01:13.46,Sample,,0,0,0,karaoke,{\k35}is{\k34}shou {\k86}wa {\k25}ki{\k35}gen {\k33}tsu{\k61}ki
+Comment: 0,0:01:13.73,0:01:17.36,Sample,,0,0,0,karaoke,{\k23}ku{\k33}ya{\k36}shii {\k19}na{\k25}mi{\k21}da {\k23}mo {\k21}S{\k25}P{\k20}I{\k46}CE {\k43}nan{\k28}da
+Comment: 0,0:01:17.53,0:01:20.28,Haru urara,,0,0,0,karaoke,{\k34}kon{\k35}nan {\k89}na {\rRice\k12}CHAL{\k10}LE{\k34}N{\k34}GE {\k27}ni {\k0}
+Comment: 0,0:01:20.45,0:01:22.46,Hishi miracle,,0,0,0,karaoke,{\k22}o{\k24}a{\k21}zu{\k35}ke {\k33}nan{\k66}te
+Comment: 0,0:01:22.01,0:01:23.25,Special week,,0,0,0,karaoke,{\k35}NO {\k34}NO {\k55}da!
+Comment: 0,0:01:22.90,0:01:27.64,Oguri,,0,0,0,karaoke,{\k35}zen{\k35}bu {\rSample\k20}o{\k21}i{\k25}shi{\k22}ku {\k23}me{\k41}shi{\k27}a{\k44}gac{\k22}cha{\k23}u {\kf136}zo
+Comment: 0,0:01:28.28,0:01:30.96,Cheval grand,,0,0,0,karaoke,{\k22}wa{\k24}sho{\k22}ku {\k21}ni {\k35}chuu{\k34}ka {\k23}i{\k21}ta{\k23}ri{\k22}a{\k21}n?
+Comment: 0,0:01:31.22,0:01:34.78,Cheval grand,,0,0,0,karaoke,{\k24}kyo{\k20}u {\kf103}wa{\k30} {\k21}do{\k24}re {\k45}ni {\k23}shi{\k21}ma{\k20}sho{\k25}u
+Comment: 0,0:01:34.79,0:01:35.40,Sample,,0,0,0,karaoke,{\k21}kan{\k40}paai!!
+Comment: 0,0:01:35.45,0:01:38.18,Sample,,0,0,0,karaoke,{\k43}oi{\k23}shi {\k24}su{\k36}gi{\k31}te {\k23}to{\k21}ro{\k24}ke {\k23}cha{\k25}u
+Comment: 0,0:01:38.34,0:01:41.73,Sample,,0,0,0,karaoke,{\k24}ko{\k23}ko{\k23}ro {\k22}do{\k22}ki{\k23}do{\k23}ki {\k33}wat{\k32}to {\k23}sa{\k22}wa{\k23}i {\k24}ja{\k22}u
+Comment: 0,0:01:41.94,0:01:45.33,Sample,,0,0,0,karaoke,{\k23}wa{\k22}ki {\k23}a{\k22}ga{\k23}ru {\k22}E{\k23}NER{\k34}GY {\k32}wo {\k24}ka{\k20}n{\k23}ji{\k22}ta{\k26}ra
+Comment: 0,0:01:45.53,0:01:50.62,Sample,,0,0,0,karaoke,{\k22}kyo{\k23}u {\kf106}wo{\k28} {\k23}ze{\k22}n{\k45}ryo{\k21}ku {\k23}de {\k22}ka{\k24}ke{\k20}nu{\k25}ke{\k20}ru {\k85}yo
+Comment: 0,0:01:52.69,0:01:57.88,Cheval grand,,0,0,0,karaoke,{\k23}kyo{\k26}u {\kf106}mo{\k22} {\rSample\k23}go{\k24}chi{\k44}sou{\k24}sa{\k21}ma {\k24}ni {\k22}da{\k23}i {\k23}ka{\k21}n{\kf93}sha
+Comment: 0,0:02:13.06,0:02:14.27,Cheval grand,,0,0,0,karaoke,{\k26}goch'{\k21}sou {\k8}sa{\k13}ma {\k22}desh'{\k31}ta!!
+Dialogue: 0,0:00:03.20,0:00:07.05,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k45}oi{\k23}shi {\k22}su{\k34}gi{\k32}te {\k23}to{\k23}ro{\k23}ke {\k23}cha{\k27}u
+Dialogue: 0,0:00:06.11,0:00:11.77,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k25}kyo{\k20}u {\kf103}mo{\k30} {\k23}go{\k24}chi{\k43}sou{\k24}sa{\k22}ma {\k22}ni {\k22}da{\k23}i {\k20}ka{\k23}n{\k32}sha
+Dialogue: 0,0:00:10.36,0:00:13.31,Cheval grand,,0,0,0,fx,{\k90\fad(300,200)}{\k14}wo {\k12}te {\k10}wo {\k20}hai{\k13}sha{\k22}ku {\rSample\k10}i{\k11}ta{\k13}da{\k10}ki{\k50}mas'!!
+Dialogue: 0,0:00:19.33,0:00:22.19,Cheval grand,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ha{\k12}ra{\k11}pe{\k11}ko {\k22}bak{\k11}ka {\k13}ja {\k10}a{\k11}ji{\k11}ke{\k26}nai {\k28}ne
+Dialogue: 0,0:00:21.00,0:00:23.91,Rice,,0,0,0,fx,{\k90\fad(300,200)}{\k34}oi{\k22}shii {\k14}ya{\k14}sai {\k16}wo {\k9}so{\k13}da{\k14}te{\k21}you {\k24}ze
+Dialogue: 0,0:00:22.80,0:00:25.66,Special week,,0,0,0,fx,{\k90\fad(300,200)}{\k35}sui {\k20}mo {\k22}'mai {\k12}mo {\k13}ka{\k19}mi{\k14}shi{\k21}me{\k20}te
+Dialogue: 0,0:00:24.69,0:00:27.53,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k34}zen{\k34}ryok' {\k33}shuu{\k32}kak' {\k41}des'!
+Dialogue: 0,0:00:26.48,0:00:29.54,Cheval grand,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ku{\k12}wa{\k12}zu{\k10}gi{\k23}rai {\k12}ja {\k23}mot{\k21}tai{\k24}nai {\k48}ne
+Dialogue: 0,0:00:28.26,0:00:31.21,Hishi miracle,,0,0,0,fx,{\k90\fad(300,200)}{\k24}min{\k12}na {\k11}de {\k10}do{\k12}ta{\k10}ba{\k12}ta {\k33}LET'S {\k21}COO{\k40}KING
+Dialogue: 0,0:00:29.96,0:00:32.87,Haru urara,,0,0,0,fx,{\k90\fad(300,200)}{\k35}jou{\k19}nets' {\k14}to{\k10}ku{\k11}mo{\k11}ri {\k8}fu{\k14}ru{\k12}ko{\k22}os' {\k25}de
+Dialogue: 0,0:00:31.85,0:00:34.80,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k36}saa {\k33}jun{\k42}bi {\k25}O{\k49}K
+Dialogue: 0,0:00:33.87,0:00:37.52,Oguri,,0,0,0,fx,{\k90\fad(300,200)}{\k23}sho{\k22}ku{\k13}ta{\k32}ku {\k23}ka{\k23}ko{\k22}me{\k34}ba {\k32}ho{\k31}ra
+Dialogue: 0,0:00:36.56,0:00:40.99,Oguri,,0,0,0,fx,{\k90\fad(300,200)}{\k22}HAP{\k23}PI{\k22}NES{\k22}S {\k24}ga {\k22}hi{\k11}ro{\k34}ga{\k23}t{\k22}te {\k22}i{\k86}ku
+Dialogue: 0,0:00:40.12,0:00:41.88,Cheval grand,,0,0,0,fx,{\k90\fad(300,200)}{\k24}kan{\k23}pai {\k19}da!
+Dialogue: 0,0:00:40.80,0:00:44.65,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k47}oi{\k22}shi {\k22}su{\k34}gi{\k33}te {\k22}to{\k23}ro{\k22}ke {\k21}cha{\k29}u
+Dialogue: 0,0:00:43.72,0:00:48.24,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ko{\k24}ko{\k21}ro {\k23}do{\k22}ki{\k22}do{\k21}ki {\k35}wat{\k34}to {\k23}sa{\k19}wa{\k26}i {\k22}ja{\k27}u
+Dialogue: 0,0:00:47.31,0:00:51.84,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k22}wa{\k21}ki {\k24}a{\k23}ga{\k21}ru {\k24}E{\k22}NER{\k35}GY {\k32}wo {\k22}ka{\k23}n{\k21}ji{\k23}ta{\k30}ra
+Dialogue: 0,0:00:50.88,0:00:57.09,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k24}kyo{\k22}u {\kf108}wo{\k26} {\k25}ze{\k20}n{\k45}ryo{\k23}ku {\k21}de {\k22}ka{\k26}ke{\k21}nu{\k21}ke{\k23}ru {\k84}yo
+Dialogue: 0,0:01:09.47,0:01:13.66,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k35}is{\k34}shou {\k86}wa {\k25}ki{\k35}gen {\k33}tsu{\k61}ki
+Dialogue: 0,0:01:12.83,0:01:17.56,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ku{\k33}ya{\k36}shii {\k19}na{\k25}mi{\k21}da {\k23}mo {\k21}S{\k25}P{\k20}I{\k46}CE {\k43}nan{\k28}da
+Dialogue: 0,0:01:16.63,0:01:20.48,Haru urara,,0,0,0,fx,{\k90\fad(300,200)}{\k34}kon{\k35}nan {\k89}na {\rRice\k12}CHAL{\k10}LE{\k34}N{\k34}GE {\k27}ni {\k0}
+Dialogue: 0,0:01:19.55,0:01:22.66,Hishi miracle,,0,0,0,fx,{\k90\fad(300,200)}{\k22}o{\k24}a{\k21}zu{\k35}ke {\k33}nan{\k66}te
+Dialogue: 0,0:01:21.11,0:01:23.45,Special week,,0,0,0,fx,{\k90\fad(300,200)}{\k35}NO {\k34}NO {\k55}da!
+Dialogue: 0,0:01:22.00,0:01:27.84,Oguri,,0,0,0,fx,{\k90\fad(300,200)}{\k35}zen{\k35}bu {\rSample\k20}o{\k21}i{\k25}shi{\k22}ku {\k23}me{\k41}shi{\k27}a{\k44}gac{\k22}cha{\k23}u {\kf136}zo
+Dialogue: 0,0:01:27.38,0:01:31.16,Cheval grand,,0,0,0,fx,{\k90\fad(300,200)}{\k22}wa{\k24}sho{\k22}ku {\k21}ni {\k35}chuu{\k34}ka {\k23}i{\k21}ta{\k23}ri{\k22}a{\k21}n?
+Dialogue: 0,0:01:30.32,0:01:34.98,Cheval grand,,0,0,0,fx,{\k90\fad(300,200)}{\k24}kyo{\k20}u {\kf103}wa{\k30} {\k21}do{\k24}re {\k45}ni {\k23}shi{\k21}ma{\k20}sho{\k25}u
+Dialogue: 0,0:01:33.89,0:01:35.60,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k21}kan{\k40}paai!!
+Dialogue: 0,0:01:34.55,0:01:38.38,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k43}oi{\k23}shi {\k24}su{\k36}gi{\k31}te {\k23}to{\k21}ro{\k24}ke {\k23}cha{\k25}u
+Dialogue: 0,0:01:37.44,0:01:41.93,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ko{\k23}ko{\k23}ro {\k22}do{\k22}ki{\k23}do{\k23}ki {\k33}wat{\k32}to {\k23}sa{\k22}wa{\k23}i {\k24}ja{\k22}u
+Dialogue: 0,0:01:41.04,0:01:45.53,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k23}wa{\k22}ki {\k23}a{\k22}ga{\k23}ru {\k22}E{\k23}NER{\k34}GY {\k32}wo {\k24}ka{\k20}n{\k23}ji{\k22}ta{\k26}ra
+Dialogue: 0,0:01:44.63,0:01:50.82,Sample,,0,0,0,fx,{\k90\fad(300,200)}{\k22}kyo{\k23}u {\kf106}wo{\k28} {\k23}ze{\k22}n{\k45}ryo{\k21}ku {\k23}de {\k22}ka{\k24}ke{\k20}nu{\k25}ke{\k20}ru {\k85}yo
+Dialogue: 0,0:01:51.79,0:01:58.08,Cheval grand,,0,0,0,fx,{\k90\fad(300,200)}{\k23}kyo{\k26}u {\kf106}mo{\k22} {\rSample\k23}go{\k24}chi{\k44}sou{\k24}sa{\k21}ma {\k24}ni {\k22}da{\k23}i {\k23}ka{\k21}n{\kf93}sha
+Dialogue: 0,0:02:12.16,0:02:14.47,Cheval grand,,0,0,0,fx,{\k90\fad(300,200)}{\k26}goch'{\k21}sou {\k8}sa{\k13}ma {\k22}desh'{\k31}ta!!
