@@ -12,7 +12,7 @@ Synch Point: puyo
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sample KM [Up],Arial,24,&H000506D2,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H000506D2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: WxS,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Rinne,Arial,24,&H00FFFFFF,&H006060D1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Tsukasa,Arial,24,&H00FFFFFF,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
@@ -25,11 +25,11 @@ Style: CrazyB,Arial,24,&H00FFFFFF,&H0005C4DB,&H00000000,&H00000000,-1,-1,0,0,100
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:00.00,0:00:08.00,Sample KM [Up],,0,0,0,karaoke,{\kf800}Everyone
-Comment: 0,0:00:00.00,0:00:08.00,CrazyB,,0,0,0,karaoke,{\kf800}Crazy:B
-Comment: 0,0:00:00.00,0:00:08.00,Rinne,,0,0,0,karaoke,{\kf207}Rinne, {\kf237}{\rHiMERU}HiMERU, {\kf178}{\rNiki}Niki, {\kf178}{\rKohaku}Kohaku
-Comment: 0,0:00:00.00,0:00:08.00,WxS,,0,0,0,karaoke,{\kf419}Wonderlands {\kf76}x {\kf305}Showtime
-Comment: 0,0:00:00.00,0:00:08.00,Tsukasa,,0,0,0,karaoke,{\kf600}Tsukasa, {\kf200}{\rRui}Rui
+Dialogue: 0,0:00:00.00,0:00:08.00,Sample KM [Up],,0,0,0,legend,{\k800}{\k0}Everyone
+Dialogue: 0,0:00:00.00,0:00:08.00,CrazyB,,0,0,0,legend,{\k800}{\k0}Crazy:B
+Dialogue: 0,0:00:00.00,0:00:08.00,Rinne,,0,0,0,legend,{\k800}{\k0}Rinne  {\rHiMERU}HiMERU {\rNiki}Niki  {\rKohaku}Kohaku
+Dialogue: 0,0:00:00.00,0:00:08.00,WxS,,0,0,0,legend,{\k800}{\k0}Wonderlands x Showtime
+Dialogue: 0,0:00:00.00,0:00:08.00,Tsukasa,,0,0,0,legend,{\k800}{\k0}Tsukasa  {\rRui}Rui
 Comment: 0,0:00:14.13,0:00:17.04,Tsukasa,,0,0,0,karaoke,{\k39}yuu{\k58}hei {\k18}ri{\k49}kou {\k38}i{\k18}ku {\k41}mae {\k30}ni
 Comment: 0,0:00:17.09,0:00:19.91,Rinne,,0,0,0,karaoke,{\k34}yuu{\k37}hei {\k18}ja {\k15}ri{\k40}kou {\k19}ni {\k35}nan{\k17}gi {\k37}DAR{\k100}LING
 Comment: 0,0:00:19.93,0:00:22.78,Rui,,0,0,0,karaoke,{\k41}yuu{\k74}hei {\k53}STOP {\k34}shit{\k19}te{\k34}nai {\k30}shi
@@ -79,11 +79,6 @@ Comment: 0,0:01:51.59,0:01:53.35,Rinne,,0,0,0,karaoke,{\k18}HA{\k33}HA {\k41}YOU
 Comment: 0,0:01:51.59,0:01:53.35,Rui,,0,0,0,karaoke,{\k18}HA{\k33}HA {\k41}YOU {\k30}ARE {\k54}KING
 Comment: 0,0:01:55.02,0:01:56.12,Sample KM [Up],,0,0,0,karaoke,{\k40}YOU {\k32}ARE {\k38}KING
 Comment: 0,0:02:00.72,0:02:01.94,Sample KM [Up],,0,0,0,karaoke,{\k44}YOU {\k35}ARE {\k43}KING
-Dialogue: 0,0:00:00.00,0:00:08.20,Sample KM [Up],,0,0,0,fx,{\k0\fad(0,200)}{\kf800}Everyone
-Dialogue: 0,0:00:00.00,0:00:08.20,CrazyB,,0,0,0,fx,{\k0\fad(0,200)}{\kf800}Crazy:B
-Dialogue: 0,0:00:00.00,0:00:08.20,Rinne,,0,0,0,fx,{\k0\fad(0,200)}{\kf207}Rinne, {\kf237}{\rHiMERU}HiMERU, {\kf178}{\rNiki}Niki, {\kf178}{\rKohaku}Kohaku
-Dialogue: 0,0:00:00.00,0:00:08.20,WxS,,0,0,0,fx,{\k0\fad(0,200)}{\kf419}Wonderlands {\kf76}x {\kf305}Showtime
-Dialogue: 0,0:00:00.00,0:00:08.20,Tsukasa,,0,0,0,fx,{\k0\fad(0,200)}{\kf600}Tsukasa, {\kf200}{\rRui}Rui
 Dialogue: 0,0:00:13.23,0:00:17.24,Tsukasa,,0,0,0,fx,{\k90\fad(300,200)}{\k39}yuu{\k58}hei {\k18}ri{\k49}kou {\k38}i{\k18}ku {\k41}mae {\k30}ni
 Dialogue: 0,0:00:16.19,0:00:20.11,Rinne,,0,0,0,fx,{\k90\fad(300,200)}{\k34}yuu{\k37}hei {\k18}ja {\k15}ri{\k40}kou {\k19}ni {\k35}nan{\k17}gi {\k37}DAR{\k100}LING
 Dialogue: 0,0:00:19.03,0:00:22.98,Rui,,0,0,0,fx,{\k90\fad(300,200)}{\k41}yuu{\k74}hei {\k53}STOP {\k34}shit{\k19}te{\k34}nai {\k30}shi
