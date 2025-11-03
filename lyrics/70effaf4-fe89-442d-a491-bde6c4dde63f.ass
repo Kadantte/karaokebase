@@ -1,0 +1,164 @@
+﻿[Script Info]
+Title: Sag mir was du denkst
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFB858,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:21.74,0:00:23.97,Sample KM [Up],,0,0,0,karaoke,{\k31}Es {\k36}kann {\k29}so {\k31}ein{\k33}fach {\k63}sein
+Comment: 0,0:00:24.32,0:00:26.53,Sample KM [Up],,0,0,0,karaoke,{\k30}Die {\k30}Wahr{\k32}heit {\k35}nicht {\k30}zu {\k64}seh'n
+Comment: 0,0:00:26.87,0:00:28.77,Sample KM [Up],,0,0,0,karaoke,{\k31}Man {\k35}macht {\k31}die {\k31}Au{\k29}gen {\k33}zu
+Comment: 0,0:00:28.77,0:00:31.64,Sample KM [Up],,0,0,0,karaoke,{\k30}Ver{\k35}sucht {\k31}den {\k31}leich{\k33}ten {\k33}Weg {\k29}zu {\k65}geh'n
+Comment: 0,0:00:31.96,0:00:34.06,Sample KM [Up],,0,0,0,karaoke,{\k31}Doch {\k32}ich {\k33}glaub {\k30}nicht {\k35}da{\k49}ran
+Comment: 0,0:00:34.47,0:00:36.74,Sample KM [Up],,0,0,0,karaoke,{\k35}So {\k34}war's {\k31}von {\k31}An{\k33}fang {\k63}an
+Comment: 0,0:00:37.07,0:00:38.99,Sample KM [Up],,0,0,0,karaoke,{\k29}Ich {\k38}brauch {\k29}jetzt {\k32}ei{\k28}nen {\k36}Freund
+Comment: 0,0:00:38.99,0:00:41.85,Sample KM [Up],,0,0,0,karaoke,{\k32}Auf {\k33}den {\k29}ich {\k33}mich {\k32}ver{\k27}las{\k37}sen {\k63}kann
+Comment: 0,0:00:41.85,0:00:42.29,Sample KM [Choir],,0,0,0,karaoke,{\k44}Yeah
+Comment: 0,0:00:42.20,0:00:44.39,Sample KM [Up],,0,0,0,karaoke,{\k25}Ich {\k37}schenk {\k30}dir {\k32}mein {\k29}Ver{\k66}trau'n
+Comment: 0,0:00:44.72,0:00:46.89,Sample KM [Up],,0,0,0,karaoke,{\k32}Da{\k33}mit {\k31}du {\k31}nie {\k35}ver{\k55}gisst
+Comment: 0,0:00:47.27,0:00:50.80,Sample KM [Up],,0,0,0,karaoke,{\k31}Was {\k33}für {\k31}mich {\k32}wirk{\k33}lich {\k32}wich{\k33}tig {\kf128}ist
+Comment: 0,0:00:50.80,0:00:53.11,Sample KM [Up],,0,0,0,karaoke,{\k59}Sag {\k31}mir, {\k33}was {\k32}du {\k76}denkst
+Comment: 0,0:00:54.28,0:00:58.32,Sample KM [Up],,0,0,0,karaoke,{\k34}Seit{\k31}dem {\k34}du {\k63}mein {\k61}Ge{\k35}heim{\k61}nis {\k85}kennst
+Comment: 0,0:00:59.41,0:01:03.22,Sample KM [Up],,0,0,0,karaoke,{\k30}Ich {\k32}will {\k34}dir {\k61}gren{\k62}zen{\k36}los {\k54}ver{\k72}trau'n
+Comment: 0,0:01:03.22,0:01:06.92,Sample KM [Up],,0,0,0,karaoke,{\k35}Kannst {\k31}du{\k32} {\k32}mir {\k32}in {\k30}die {\k33}Au{\k31}gen {\kf114}schau'n?
+Comment: 0,0:01:07.06,0:01:08.79,Sample KM [Up],,0,0,0,karaoke,{\k32}Was {\k31}ist {\k33}der {\k77}Preis
+Comment: 0,0:01:09.62,0:01:13.50,Sample KM [Up],,0,0,0,karaoke,{\k29}Da{\k36}für, {\k31}dass {\k63}du {\k62}die {\k33}Ant{\k65}wort {\k69}weißt?
+Comment: 0,0:01:15.04,0:01:18.74,Sample KM [Up],,0,0,0,karaoke,{\k31}Dass {\k30}du {\k66}dein {\k61}Ver{\k35}spre{\k64}chen {\k83}hältst
+Comment: 0,0:01:19.18,0:01:21.85,Sample KM [Up],,0,0,0,karaoke,{\k33}Be{\k31}deu{\k33}tet {\k29}für {\k32}mich {\k29}die {\k80}Welt
+Comment: 0,0:01:33.22,0:01:35.36,Sample KM [Up],,0,0,0,karaoke,{\k34}Wir {\k29}ha{\k34}ben {\k33}viel {\k30}ge{\k54}teilt
+Comment: 0,0:01:35.79,0:01:37.93,Sample KM [Up],,0,0,0,karaoke,{\k31}Ob {\k35}Freu{\k30}de {\k32}o{\k33}der {\k53}Leid
+Comment: 0,0:01:38.35,0:01:40.90,Sample KM [Up],,0,0,0,karaoke,{\k31}Und {\k33}was {\k33}uns {\k30}im{\k30}mer {\k34}stär{\k31}ker {\k33}macht
+Comment: 0,0:01:40.90,0:01:43.21,Sample KM [Up],,0,0,0,karaoke,{\k31}Ist {\k32}die {\k34}Ge{\k32}mein{\k33}sam{\k69}keit
+Comment: 0,0:01:43.52,0:01:45.56,Sample KM [Up],,0,0,0,karaoke,{\k23}Ich {\k34}zweif{\k32}le {\k31}nicht {\k33}da{\k51}ran
+Comment: 0,0:01:46.00,0:01:48.57,Sample KM [Up],,0,0,0,karaoke,{\k30}Werd {\k65}tun, {\k32}was {\k32}ich {\k63}tun {\k35}kann
+Comment: 0,0:01:48.57,0:01:51.14,Sample KM [Up],,0,0,0,karaoke,{\k30}Bin {\k30}si{\k35}cher, {\k33}das, {\k30}was {\k31}du {\k31}ver{\k37}sprichst
+Comment: 0,0:01:51.43,0:01:53.66,Sample KM [Up],,0,0,0,karaoke,{\k35}Hält {\k30}ein {\k31}Le{\k33}ben {\k94}lang
+Comment: 0,0:01:53.66,0:01:55.89,Sample KM [Up],,0,0,0,karaoke,{\k31}Ich {\k34}schenk {\k31}dir {\k30}mein {\k31}Ver{\k66}trau'n
+Comment: 0,0:01:55.89,0:01:56.76,Sample KM [Choir],,0,0,0,karaoke,{\k87}Yeah
+Comment: 0,0:01:56.22,0:01:58.36,Sample KM [Up],,0,0,0,karaoke,{\k31}Da{\k34}mit {\k31}du {\k31}nie {\k32}ver{\k55}gisst
+Comment: 0,0:01:58.45,0:01:59.11,Sample KM [Choir],,0,0,0,karaoke,{\k33}Oh {\k33}oh
+Comment: 0,0:01:58.77,0:02:02.02,Sample KM [Up],,0,0,0,karaoke,{\k31}Was {\k31}für {\k33}uns {\k34}bei{\k31}de {\k31}wich{\k32}tig {\kf102}ist
+Comment: 0,0:02:02.25,0:02:04.60,Sample KM [Up],,0,0,0,karaoke,{\k62}Sag {\k32}mir, {\k33}was {\k32}du {\k76}denkst
+Comment: 0,0:02:04.83,0:02:06.08,Sample KM [Choir],,0,0,0,karaoke,{\k32}Was {\k32}du {\k61}denkst
+Comment: 0,0:02:05.79,0:02:09.80,Sample KM [Up],,0,0,0,karaoke,{\k31}Seit{\k32}dem {\k34}du {\k62}mein {\k60}Ge{\k37}heim{\k63}nis {\k82}kennst
+Comment: 0,0:02:09.31,0:02:11.58,Sample KM [Choir],,0,0,0,karaoke,{\k62}Was {\k32}du {\kf133}denkst
+Comment: 0,0:02:10.91,0:02:14.61,Sample KM [Up],,0,0,0,karaoke,{\k31}Ich {\k32}will {\k31}dir {\k63}gren{\k63}zen{\k33}los {\k62}ver{\k55}trau'n
+Comment: 0,0:02:14.72,0:02:18.39,Sample KM [Up],,0,0,0,karaoke,{\k34}Kannst {\k30}du{\k32} {\k32}mir {\k32}in {\k30}die {\k33}Au{\k31}gen {\kf113}schau'n?
+Comment: 0,0:02:18.56,0:02:20.26,Sample KM [Up],,0,0,0,karaoke,{\k32}Was {\k30}ist {\k34}der {\k74}Preis?
+Comment: 0,0:02:19.83,0:02:21.42,Sample KM [Choir],,0,0,0,karaoke,{\k32}Was {\k32}ist {\k33}der {\k62}Preis?
+Comment: 0,0:02:21.12,0:02:24.98,Sample KM [Up],,0,0,0,karaoke,{\k26}Da{\k40}für, {\k31}dass {\k60}du {\k64}die {\k33}Ant{\k62}wort {\k70}weißt?
+Comment: 0,0:02:26.53,0:02:30.21,Sample KM [Up],,0,0,0,karaoke,{\k31}Dass {\k32}du {\k61}dein {\k62}Ver{\k38}spre{\k63}chen {\k81}hältst
+Comment: 0,0:02:30.67,0:02:33.32,Sample KM [Up],,0,0,0,karaoke,{\k32}Be{\k32}deu{\k34}tet {\k28}für {\k33}mich {\k31}die {\k75}Welt
+Comment: 0,0:02:32.93,0:02:35.29,Sample KM [Choir],,0,0,0,karaoke,{\k56}Sag {\k33}mir, {\k34}was {\k34}du {\k79}denkst
+Comment: 0,0:02:37.37,0:02:39.39,Sample KM [Up],,0,0,0,karaoke,{\k37}Sag {\k26}mir, {\k37}was {\k27}du {\k75}denkst
+Comment: 0,0:02:43.10,0:02:45.54,Sample KM [Choir],,0,0,0,karaoke,{\k62}Sag {\k33}mir, {\k34}was {\k33}du {\k82}denkst
+Comment: 0,0:02:46.95,0:02:51.01,Sample KM [Up],,0,0,0,karaoke,{\k34}Seit {\k32}du {\k48}mein{\k46} {\k30}Ge{\k35}heim{\k62}nis {\kf119}kennst
+Comment: 0,0:02:52.68,0:02:54.65,Sample KM [Up],,0,0,0,karaoke,{\k36}Sag {\k30}mir, {\k36}was {\k27}du {\k68}denkst
+Comment: 0,0:02:54.94,0:02:57.09,Sample KM [Up],,0,0,0,karaoke,{\k30}Ich {\k34}schenk {\k30}dir {\k33}mein {\k29}Ver{\k59}trau'n
+Comment: 0,0:02:57.17,0:02:58.80,Sample KM [Choir],,0,0,0,karaoke,{\k64}Yeah {\k66}eh {\k33}eh
+Comment: 0,0:02:57.49,0:02:59.66,Sample KM [Up],,0,0,0,karaoke,{\k31}Da{\k34}mit {\k31}du {\k32}nie {\k31}ver{\k58}gisst
+Comment: 0,0:03:00.05,0:03:03.22,Sample KM [Up],,0,0,0,karaoke,{\k31}Was {\k33}für {\k32}uns {\k33}bei{\k32}de {\k30}wich{\k31}tig {\k95}ist
+Comment: 0,0:03:03.51,0:03:05.86,Sample KM [Up],,0,0,0,karaoke,{\k61}Sag {\k36}mir, {\k35}was {\k32}du {\k71}denkst
+Comment: 0,0:03:06.10,0:03:07.37,Sample KM [Choir],,0,0,0,karaoke,{\k32}Was {\k29}du {\k66}denkst
+Comment: 0,0:03:07.06,0:03:11.07,Sample KM [Up],,0,0,0,karaoke,{\k32}Seit{\k33}dem {\k33}du {\k61}mein {\k63}Ge{\k34}heim{\k60}nis {\k85}kennst
+Comment: 0,0:03:10.57,0:03:12.50,Sample KM [Choir],,0,0,0,karaoke,{\k34}Mein {\k31}Ge{\k32}heim{\k33}nis {\k63}kennst
+Comment: 0,0:03:12.18,0:03:15.82,Sample KM [Up],,0,0,0,karaoke,{\k30}Ich {\k34}will {\k31}dir {\k62}gren{\k64}zen{\k36}los {\k51}ver{\k56}trau'n
+Comment: 0,0:03:16.01,0:03:16.65,Sample KM [Choir],,0,0,0,karaoke,{\k64}Yeah
+Comment: 0,0:03:16.02,0:03:19.80,Sample KM [Up],,0,0,0,karaoke,{\k30}Kannst {\k39}du{\k26} {\k31}mir {\k32}in {\k29}die {\k36}Au{\k29}gen {\kf126}schau'n?
+Comment: 0,0:03:19.82,0:03:21.47,Sample KM [Up],,0,0,0,karaoke,{\k32}Was {\k31}ist {\k33}der {\k69}Preis?
+Comment: 0,0:03:21.10,0:03:22.70,Sample KM [Choir],,0,0,0,karaoke,{\k29}Was {\k35}ist {\k34}der {\k62}Preis?
+Comment: 0,0:03:22.38,0:03:26.26,Sample KM [Up],,0,0,0,karaoke,{\k29}Da{\k35}für, {\k33}dass {\k62}du {\k62}die {\k33}Ant{\k65}wort {\k69}weißt?
+Comment: 0,0:03:26.21,0:03:27.67,Sample KM [Choir],,0,0,0,karaoke,{\k32}Die {\k32}Ant{\k33}wort {\k49}weißt
+Comment: 0,0:03:27.80,0:03:31.51,Sample KM [Up],,0,0,0,karaoke,{\k31}Dass {\k35}du {\k58}dein {\k64}Ver{\k36}spre{\k64}chen {\k83}hältst
+Comment: 0,0:03:31.65,0:03:33.07,Sample KM [Choir],,0,0,0,karaoke,{\k64}Uh {\k78}oh
+Comment: 0,0:03:33.62,0:03:35.15,Sample KM [Choir],,0,0,0,karaoke,{\k57}Oh {\k96}yeah
+Comment: 0,0:03:34.14,0:03:36.46,Sample KM [Up],,0,0,0,karaoke,{\k68}Sag {\k32}mir, {\k31}was {\k32}du {\k69}denkst
+Comment: 0,0:03:36.74,0:03:38.03,Sample KM [Choir],,0,0,0,karaoke,{\k33}Was {\k31}du {\k65}denkst
+Comment: 0,0:03:41.20,0:03:43.13,Sample KM [Up],,0,0,0,karaoke,{\k36}Mein {\k28}Ge{\k33}heim{\k33}nis {\k63}kennst
+Comment: 0,0:03:50.49,0:03:52.06,Sample KM [Up],,0,0,0,karaoke,{\k30}Was {\k29}ist {\k34}der {\k64}Preis?
+Comment: 0,0:03:51.63,0:03:53.28,Sample KM [Choir],,0,0,0,karaoke,{\k36}Was {\k35}ist {\k34}der {\k60}Preis?
+Dialogue: 0,0:00:20.84,0:00:24.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Es {\k36}kann {\k29}so {\k31}ein{\k33}fach {\k63}sein
+Dialogue: 0,0:00:23.42,0:00:26.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Die {\k30}Wahr{\k32}heit {\k35}nicht {\k30}zu {\k64}seh'n
+Dialogue: 0,0:00:25.97,0:00:28.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Man {\k35}macht {\k31}die {\k31}Au{\k29}gen {\k33}zu
+Dialogue: 0,0:00:27.87,0:00:31.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ver{\k35}sucht {\k31}den {\k31}leich{\k33}ten {\k33}Weg {\k29}zu {\k65}geh'n
+Dialogue: 0,0:00:31.06,0:00:34.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Doch {\k32}ich {\k33}glaub {\k30}nicht {\k35}da{\k49}ran
+Dialogue: 0,0:00:33.57,0:00:36.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}So {\k34}war's {\k31}von {\k31}An{\k33}fang {\k63}an
+Dialogue: 0,0:00:36.17,0:00:39.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Ich {\k38}brauch {\k29}jetzt {\k32}ei{\k28}nen {\k36}Freund
+Dialogue: 0,0:00:38.09,0:00:42.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Auf {\k33}den {\k29}ich {\k33}mich {\k32}ver{\k27}las{\k37}sen {\k63}kann
+Dialogue: 0,0:00:40.95,0:00:42.49,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Yeah
+Dialogue: 0,0:00:41.30,0:00:44.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ich {\k37}schenk {\k30}dir {\k32}mein {\k29}Ver{\k66}trau'n
+Dialogue: 0,0:00:43.82,0:00:47.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Da{\k33}mit {\k31}du {\k31}nie {\k35}ver{\k55}gisst
+Dialogue: 0,0:00:46.37,0:00:51.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Was {\k33}für {\k31}mich {\k32}wirk{\k33}lich {\k32}wich{\k33}tig {\kf128}ist
+Dialogue: 0,0:00:49.90,0:00:53.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}Sag {\k31}mir, {\k33}was {\k32}du {\k76}denkst
+Dialogue: 0,0:00:53.38,0:00:58.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Seit{\k31}dem {\k34}du {\k63}mein {\k61}Ge{\k35}heim{\k61}nis {\k85}kennst
+Dialogue: 0,0:00:58.51,0:01:03.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ich {\k32}will {\k34}dir {\k61}gren{\k62}zen{\k36}los {\k54}ver{\k72}trau'n
+Dialogue: 0,0:01:02.32,0:01:07.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Kannst {\k31}du{\k32} {\k32}mir {\k32}in {\k30}die {\k33}Au{\k31}gen {\kf114}schau'n?
+Dialogue: 0,0:01:06.16,0:01:08.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Was {\k31}ist {\k33}der {\k77}Preis
+Dialogue: 0,0:01:08.72,0:01:13.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Da{\k36}für, {\k31}dass {\k63}du {\k62}die {\k33}Ant{\k65}wort {\k69}weißt?
+Dialogue: 0,0:01:14.14,0:01:18.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Dass {\k30}du {\k66}dein {\k61}Ver{\k35}spre{\k64}chen {\k83}hältst
+Dialogue: 0,0:01:18.28,0:01:22.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Be{\k31}deu{\k33}tet {\k29}für {\k32}mich {\k29}die {\k80}Welt
+Dialogue: 0,0:01:32.32,0:01:35.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Wir {\k29}ha{\k34}ben {\k33}viel {\k30}ge{\k54}teilt
+Dialogue: 0,0:01:34.89,0:01:38.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Ob {\k35}Freu{\k30}de {\k32}o{\k33}der {\k53}Leid
+Dialogue: 0,0:01:37.45,0:01:41.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Und {\k33}was {\k33}uns {\k30}im{\k30}mer {\k34}stär{\k31}ker {\k33}macht
+Dialogue: 0,0:01:40.00,0:01:43.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Ist {\k32}die {\k34}Ge{\k32}mein{\k33}sam{\k69}keit
+Dialogue: 0,0:01:42.62,0:01:45.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ich {\k34}zweif{\k32}le {\k31}nicht {\k33}da{\k51}ran
+Dialogue: 0,0:01:45.10,0:01:48.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Werd {\k65}tun, {\k32}was {\k32}ich {\k63}tun {\k35}kann
+Dialogue: 0,0:01:47.67,0:01:51.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Bin {\k30}si{\k35}cher, {\k33}das, {\k30}was {\k31}du {\k31}ver{\k37}sprichst
+Dialogue: 0,0:01:50.53,0:01:53.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Hält {\k30}ein {\k31}Le{\k33}ben {\k94}lang
+Dialogue: 0,0:01:52.76,0:01:56.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Ich {\k34}schenk {\k31}dir {\k30}mein {\k31}Ver{\k66}trau'n
+Dialogue: 0,0:01:54.99,0:01:56.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k87}Yeah
+Dialogue: 0,0:01:55.32,0:01:58.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Da{\k34}mit {\k31}du {\k31}nie {\k32}ver{\k55}gisst
+Dialogue: 0,0:01:57.55,0:01:59.31,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Oh {\k33}oh
+Dialogue: 0,0:01:57.87,0:02:02.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Was {\k31}für {\k33}uns {\k34}bei{\k31}de {\k31}wich{\k32}tig {\kf102}ist
+Dialogue: 0,0:02:01.35,0:02:04.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k62}Sag {\k32}mir, {\k33}was {\k32}du {\k76}denkst
+Dialogue: 0,0:02:03.93,0:02:06.28,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Was {\k32}du {\k61}denkst
+Dialogue: 0,0:02:04.89,0:02:10.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Seit{\k32}dem {\k34}du {\k62}mein {\k60}Ge{\k37}heim{\k63}nis {\k82}kennst
+Dialogue: 0,0:02:08.41,0:02:11.78,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k62}Was {\k32}du {\kf133}denkst
+Dialogue: 0,0:02:10.01,0:02:14.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Ich {\k32}will {\k31}dir {\k63}gren{\k63}zen{\k33}los {\k62}ver{\k55}trau'n
+Dialogue: 0,0:02:13.82,0:02:18.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Kannst {\k30}du{\k32} {\k32}mir {\k32}in {\k30}die {\k33}Au{\k31}gen {\kf113}schau'n?
+Dialogue: 0,0:02:17.66,0:02:20.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Was {\k30}ist {\k34}der {\k74}Preis?
+Dialogue: 0,0:02:18.93,0:02:21.62,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Was {\k32}ist {\k33}der {\k62}Preis?
+Dialogue: 0,0:02:20.22,0:02:25.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Da{\k40}für, {\k31}dass {\k60}du {\k64}die {\k33}Ant{\k62}wort {\k70}weißt?
+Dialogue: 0,0:02:25.63,0:02:30.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Dass {\k32}du {\k61}dein {\k62}Ver{\k38}spre{\k63}chen {\k81}hältst
+Dialogue: 0,0:02:29.77,0:02:33.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Be{\k32}deu{\k34}tet {\k28}für {\k33}mich {\k31}die {\k75}Welt
+Dialogue: 0,0:02:32.03,0:02:35.49,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k56}Sag {\k33}mir, {\k34}was {\k34}du {\k79}denkst
+Dialogue: 0,0:02:36.47,0:02:39.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Sag {\k26}mir, {\k37}was {\k27}du {\k75}denkst
+Dialogue: 0,0:02:42.20,0:02:45.74,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k62}Sag {\k33}mir, {\k34}was {\k33}du {\k82}denkst
+Dialogue: 0,0:02:46.05,0:02:51.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Seit {\k32}du {\k48}mein{\k46} {\k30}Ge{\k35}heim{\k62}nis {\kf119}kennst
+Dialogue: 0,0:02:51.78,0:02:54.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Sag {\k30}mir, {\k36}was {\k27}du {\k68}denkst
+Dialogue: 0,0:02:54.04,0:02:57.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ich {\k34}schenk {\k30}dir {\k33}mein {\k29}Ver{\k59}trau'n
+Dialogue: 0,0:02:56.27,0:02:59.00,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k64}Yeah {\k66}eh {\k33}eh
+Dialogue: 0,0:02:56.59,0:02:59.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Da{\k34}mit {\k31}du {\k32}nie {\k31}ver{\k58}gisst
+Dialogue: 0,0:02:59.15,0:03:03.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Was {\k33}für {\k32}uns {\k33}bei{\k32}de {\k30}wich{\k31}tig {\k95}ist
+Dialogue: 0,0:03:02.61,0:03:06.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}Sag {\k36}mir, {\k35}was {\k32}du {\k71}denkst
+Dialogue: 0,0:03:05.20,0:03:07.57,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Was {\k29}du {\k66}denkst
+Dialogue: 0,0:03:06.16,0:03:11.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Seit{\k33}dem {\k33}du {\k61}mein {\k63}Ge{\k34}heim{\k60}nis {\k85}kennst
+Dialogue: 0,0:03:09.67,0:03:12.70,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Mein {\k31}Ge{\k32}heim{\k33}nis {\k63}kennst
+Dialogue: 0,0:03:11.28,0:03:16.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ich {\k34}will {\k31}dir {\k62}gren{\k64}zen{\k36}los {\k51}ver{\k56}trau'n
+Dialogue: 0,0:03:15.11,0:03:16.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k64}Yeah
+Dialogue: 0,0:03:15.12,0:03:20.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Kannst {\k39}du{\k26} {\k31}mir {\k32}in {\k29}die {\k36}Au{\k29}gen {\kf126}schau'n?
+Dialogue: 0,0:03:18.92,0:03:21.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Was {\k31}ist {\k33}der {\k69}Preis?
+Dialogue: 0,0:03:20.20,0:03:22.90,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Was {\k35}ist {\k34}der {\k62}Preis?
+Dialogue: 0,0:03:21.48,0:03:26.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Da{\k35}für, {\k33}dass {\k62}du {\k62}die {\k33}Ant{\k65}wort {\k69}weißt?
+Dialogue: 0,0:03:25.31,0:03:27.87,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Die {\k32}Ant{\k33}wort {\k49}weißt
+Dialogue: 0,0:03:26.90,0:03:31.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Dass {\k35}du {\k58}dein {\k64}Ver{\k36}spre{\k64}chen {\k83}hältst
+Dialogue: 0,0:03:30.75,0:03:33.27,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k64}Uh {\k78}oh
+Dialogue: 0,0:03:32.72,0:03:35.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k57}Oh {\k96}yeah
+Dialogue: 0,0:03:33.24,0:03:36.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k68}Sag {\k32}mir, {\k31}was {\k32}du {\k69}denkst
+Dialogue: 0,0:03:35.84,0:03:38.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Was {\k31}du {\k65}denkst
+Dialogue: 0,0:03:40.30,0:03:43.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Mein {\k28}Ge{\k33}heim{\k33}nis {\k63}kennst
+Dialogue: 0,0:03:49.59,0:03:52.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Was {\k29}ist {\k34}der {\k64}Preis?
+Dialogue: 0,0:03:50.73,0:03:53.48,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Was {\k35}ist {\k34}der {\k60}Preis?
