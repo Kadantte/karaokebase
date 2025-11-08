@@ -12,9 +12,11 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Style: Touhounet style adapted,Arial,24,&H00DDAFA6,&H00FFFFFF,&H00353535,&H006D6D6D,-1,0,0,0,100,100,0,0,1,2,1,8,0,0,20,1
 Style: Touhounet choeur,Arial,24,&H00593EE3,&H00BCBCBC,&H00353535,&H006D6D6D,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,80,1
 Style: choeur 2,Arial,24,&H4B998884,&H4BCACACA,&H00353535,&H4B6D6D6D,-1,-1,0,0,100,100,0,0,1,2,1,8,0,0,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rTouhounet style adapted}Main {\2cHFFFFFF}| {\rTouhounet choeur}Choir 1 {\2cHFFFFFF}| {\rchoeur 2}Choir 2 {\2cHFFFFFF}| {\rTouhounet style adapted\i1}Main & Choir 1{\i0}
 Comment: 0,0:00:00.00,0:00:00.00,Touhounet style adapted,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:12.07,0:00:14.95,Touhounet style adapted,,0,0,0,karaoke,{\k28}su{\k14}re{\k18}chi{\k56}gat{\k34}ta {\k38}ko{\k17}e{\k25}ta{\k25}chi {\k33}mo
 Comment: 0,0:00:15.03,0:00:17.99,Touhounet style adapted,,0,0,0,karaoke,{\k18}ki{\k15}zu{\k18}tsu{\k21} i{\k33}chat{\k31}ta {\k41}yo{\k19}ru{\k18}ta{\k33}chi {\k49}mo
@@ -46,7 +48,7 @@ Comment: 0,0:01:41.62,0:01:44.20,Touhounet style adapted,,0,0,0,karaoke,{\k27}ma
 Comment: 0,0:01:44.47,0:01:46.93,Touhounet style adapted,,0,0,0,karaoke,{\k25}i{\k25}ga{\k20}i {\k68}to {\k30}ni{\k23}chi{\k20}jo{\k35}u
 Comment: 0,0:01:47.22,0:01:49.81,Touhounet style adapted,,0,0,0,karaoke,{\k32}so{\k27}n{\k19}na {\k30}mo{\k21}n {\k15}de{\k115}sho
 Comment: 0,0:01:50.07,0:01:55.38,Touhounet style adapted,,0,0,0,karaoke,{\i1}{\k54}wa{\k57}ke {\k33}ga {\k52}wa{\k54}ka{\k36}ra {\k52}na{\k53}ku{\k36}te{\k104}mo
-Comment: 0,0:01:55.72,0:02:01.36,Touhounet style adapted,,0,0,0,karaoke,{\i1}{\k109}yat{\k38}te{\k50}mi{\k53}re {\k32}wa{\k60}ka{\k51}ru {\k26}de{\k145}sho
+Comment: 0,0:01:55.79,0:02:01.36,Touhounet style adapted,,0,0,0,karaoke,{\k52}{\i1}ya{\k55}t{\k36}te{\k54}mi{\k53}re {\k32}wa{\k60}ka{\k51}ru {\k26}de{\k138}sho
 Comment: 0,0:02:02.26,0:02:05.02,Touhounet style adapted,,0,0,0,karaoke,{\k18}ji{\k16}tsu {\k21}wa {\k28}se{\k19}n{\k43}sai {\k33}na {\k17}a{\k25}na{\k28}ta {\k28}to
 Comment: 0,0:02:05.10,0:02:07.88,Touhounet style adapted,,0,0,0,karaoke,{\k18}ta{\k17}ma {\k18}ni {\k26}yu{\k28}u{\k35}kan {\k30}na {\k22}wa{\k20}ta{\k34}shi {\k30}no
 Comment: 0,0:02:07.92,0:02:10.27,Touhounet choeur,,0,0,0,karaoke,{\k18}i{\k17}tsu{\k19}mo{\k84}no {\k21}i{\k17}tsu{\k19}de{\k40}mo
@@ -108,7 +110,7 @@ Dialogue: 0,0:01:40.72,0:01:44.40,Touhounet style adapted,,0,0,0,fx,{\k90\fad(30
 Dialogue: 0,0:01:43.57,0:01:47.13,Touhounet style adapted,,0,0,0,fx,{\k90\fad(300,200)}{\k25}i{\k25}ga{\k20}i {\k68}to {\k30}ni{\k23}chi{\k20}jo{\k35}u
 Dialogue: 0,0:01:46.32,0:01:50.01,Touhounet style adapted,,0,0,0,fx,{\k90\fad(300,200)}{\k32}so{\k27}n{\k19}na {\k30}mo{\k21}n {\k15}de{\k115}sho
 Dialogue: 0,0:01:49.17,0:01:55.58,Touhounet style adapted,,0,0,0,fx,{\k90\fad(300,200)}{\i1}{\k54}wa{\k57}ke {\k33}ga {\k52}wa{\k54}ka{\k36}ra {\k52}na{\k53}ku{\k36}te{\k104}mo
-Dialogue: 0,0:01:54.82,0:02:01.56,Touhounet style adapted,,0,0,0,fx,{\k90\fad(300,200)}{\i1}{\k109}yat{\k38}te{\k50}mi{\k53}re {\k32}wa{\k60}ka{\k51}ru {\k26}de{\k145}sho
+Dialogue: 0,0:01:54.89,0:02:01.56,Touhounet style adapted,,0,0,0,fx,{\k90\fad(300,200)}{\k52}{\i1}ya{\k55}t{\k36}te{\k54}mi{\k53}re {\k32}wa{\k60}ka{\k51}ru {\k26}de{\k138}sho
 Dialogue: 0,0:02:01.36,0:02:05.22,Touhounet style adapted,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ji{\k16}tsu {\k21}wa {\k28}se{\k19}n{\k43}sai {\k33}na {\k17}a{\k25}na{\k28}ta {\k28}to
 Dialogue: 0,0:02:04.20,0:02:08.08,Touhounet style adapted,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ta{\k17}ma {\k18}ni {\k26}yu{\k28}u{\k35}kan {\k30}na {\k22}wa{\k20}ta{\k34}shi {\k30}no
 Dialogue: 0,0:02:07.02,0:02:10.47,Touhounet choeur,,0,0,0,fx,{\k90\fad(300,200)}{\k18}i{\k17}tsu{\k19}mo{\k84}no {\k21}i{\k17}tsu{\k19}de{\k40}mo
