@@ -1,0 +1,141 @@
+﻿[Script Info]
+Title: Synthétiseur
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:17.95,0:00:19.20,Sample KM [Choir],,0,0,0,karaoke,{\k29}Syn{\k25}thé{\k22}ti{\k49}seur
+Comment: 0,0:00:21.78,0:00:23.08,Sample KM [Choir],,0,0,0,karaoke,{\k34}Syn{\k24}thé{\k25}ti{\k47}seur
+Comment: 0,0:00:25.68,0:00:26.98,Sample KM [Choir],,0,0,0,karaoke,{\k29}Syn{\k26}thé{\k25}ti{\k50}seur
+Comment: 0,0:00:29.55,0:00:30.86,Sample KM [Choir],,0,0,0,karaoke,{\k33}Syn{\k24}thé{\k23}ti{\k51}seur
+Comment: 0,0:00:31.32,0:00:32.76,Sample KM [Up],,0,0,0,karaoke,{\k21}Je {\k28}suis {\k24}u{\k24}ne {\k47}star
+Comment: 0,0:00:33.17,0:00:34.69,Sample KM [Up],,0,0,0,karaoke,{\k32}J'ar{\k25}rête {\k23}le {\k24}ten{\k48}nis
+Comment: 0,0:00:35.15,0:00:36.72,Sample KM [Up],,0,0,0,karaoke,{\k26}Je {\k26}sors {\k24}ma {\k24}gui{\k57}tare
+Comment: 0,0:00:37.10,0:00:38.34,Sample KM [Up],,0,0,0,karaoke,{\k19}Je {\k30}m'ap{\k24}pelle {\k26}El{\k25}vis
+Comment: 0,0:00:38.29,0:00:39.53,Sample KM [Choir],,0,0,0,karaoke,{\k26}Syn{\k25}thé{\k25}ti{\k48}seur
+Comment: 0,0:00:39.05,0:00:40.62,Sample KM [Up],,0,0,0,karaoke,{\k23}Je {\k27}suis {\k23}u{\k23}ne {\k61}star
+Comment: 0,0:00:40.97,0:00:42.42,Sample KM [Up],,0,0,0,karaoke,{\k26}J'ar{\k26}rête {\k23}le {\k24}ten{\k46}nis
+Comment: 0,0:00:42.89,0:00:44.31,Sample KM [Up],,0,0,0,karaoke,{\k24}Je {\k29}sors {\k24}ma {\k24}gui{\k41}tare
+Comment: 0,0:00:44.79,0:00:46.33,Sample KM [Up],,0,0,0,karaoke,{\k26}Je {\k28}m'ap{\k27}pelle {\k25}El{\k48}vis
+Comment: 0,0:00:46.81,0:00:49.69,Sample KM [Up],,0,0,0,karaoke,{\k23}Je {\k49}joue {\k47}du {\k25}Syn{\k25}thé{\k24}ti{\k95}seur
+Comment: 0,0:00:50.67,0:00:51.64,Sample KM [Up],,0,0,0,karaoke,{\k23}Les {\k23}filles {\k26}se {\k25}pâment
+Comment: 0,0:00:51.64,0:00:53.56,Sample KM [Up],,0,0,0,karaoke,{\k24}Les {\k27}gar{\k22}çons {\k23}ont {\k96}peur
+Comment: 0,0:00:54.53,0:00:55.77,Sample KM [Up],,0,0,0,karaoke,{\k26}Je {\k98}brûle
+Comment: 0,0:00:56.71,0:00:58.44,Sample KM [Up],,0,0,0,karaoke,{\k24}Sous {\k16}les {\k18}pro{\k16}jec{\k99}teurs
+Comment: 0,0:01:00.53,0:01:01.81,Sample KM [Up],,0,0,0,karaoke,{\k29}Syn{\k22}thé{\k27}ti{\k50}seur
+Comment: 0,0:01:04.41,0:01:05.69,Sample KM [Up],,0,0,0,karaoke,{\k28}Syn{\k26}thé{\k26}ti{\k48}seur
+Comment: 0,0:01:08.27,0:01:09.48,Sample KM [Up],,0,0,0,karaoke,{\k27}Syn{\k26}thé{\k26}ti{\k42}seur
+Comment: 0,0:01:12.18,0:01:13.41,Sample KM [Up],,0,0,0,karaoke,{\k26}Syn{\k25}thé{\k24}ti{\k48}seur
+Comment: 0,0:01:18.00,0:01:21.14,Sample KM [Up],,0,0,0,karaoke,{\k22}Ta{\k27}per {\k25}du {\k46}pied, {\k26}cri{\k50}er {\k24}dans {\k23}un {\k26}mi{\k45}cro
+Comment: 0,0:01:21.82,0:01:25.15,Sample KM [Up],,0,0,0,karaoke,{\k30}Sur {\k21}mon {\k32}cla{\k44}vier {\k68}oui {\k29}je {\k23}fais {\k27}le {\k59}beau
+Comment: 0,0:01:25.74,0:01:28.90,Sample KM [Up],,0,0,0,karaoke,{\k23}Al{\k26}lons {\k27}al{\k44}lons, {\k26}en{\k49}fants {\k25}de {\k24}la {\k26}pa{\k46}trie
+Comment: 0,0:01:29.40,0:01:32.77,Sample KM [Up],,0,0,0,karaoke,{\k22}C'est {\k24}le {\k25}jour {\k23}de {\k71}gloi{\k45}re, {\k27}bu{\k25}vons {\k28}tant {\k47}pis
+Comment: 0,0:01:35.15,0:01:36.63,Sample KM [Up],,0,0,0,karaoke,{\k28}Je {\k23}suis {\k25}u{\k24}ne {\k48}star
+Comment: 0,0:01:37.06,0:01:38.56,Sample KM [Up],,0,0,0,karaoke,{\k29}J'ar{\k24}rête {\k24}le {\k26}ten{\k47}nis
+Comment: 0,0:01:39.03,0:01:40.59,Sample KM [Up],,0,0,0,karaoke,{\k26}Je {\k24}sors {\k26}ma {\k24}gui{\k56}tare
+Comment: 0,0:01:40.98,0:01:42.20,Sample KM [Up],,0,0,0,karaoke,{\k19}Je {\k30}m'ap{\k25}pelle {\k25}El{\k23}vis
+Comment: 0,0:01:42.12,0:01:43.15,Sample KM [Choir],,0,0,0,karaoke,{\k29}Syn{\k27}thé{\k24}ti{\k23}seur
+Comment: 0,0:01:42.93,0:01:44.27,Sample KM [Up],,0,0,0,karaoke,{\k25}Je {\k23}suis {\k24}u{\k25}ne {\k37}star
+Comment: 0,0:01:44.85,0:01:46.27,Sample KM [Up],,0,0,0,karaoke,{\k24}J'ar{\k26}rête {\k25}le {\k24}ten{\k43}nis
+Comment: 0,0:01:46.80,0:01:48.27,Sample KM [Up],,0,0,0,karaoke,{\k24}Je {\k25}sors {\k25}ma {\k24}gui{\k49}tare
+Comment: 0,0:01:48.68,0:01:50.16,Sample KM [Up],,0,0,0,karaoke,{\k25}Je {\k27}m'ap{\k26}pelle {\k27}El{\k43}vis
+Comment: 0,0:01:58.63,0:02:01.44,Sample KM [Up],,0,0,0,karaoke,{\k51}Au {\k47}pla{\k25}card {\k23}les {\k26}ra{\kf109}quettes
+Comment: 0,0:02:02.52,0:02:05.32,Sample KM [Up],,0,0,0,karaoke,{\k49}Au {\k49}pou{\k25}voir {\k23}les {\k23}pail{\kf111}lettes
+Comment: 0,0:02:13.88,0:02:16.80,Sample KM [Up],,0,0,0,karaoke,{\k26}Je {\k49}joue {\k44}du {\k28}Syn{\k24}thé{\k24}ti{\k97}seur
+Comment: 0,0:02:17.75,0:02:18.75,Sample KM [Up],,0,0,0,karaoke,{\k22}Les {\k28}filles {\k22}se {\k28}pâment
+Comment: 0,0:02:18.75,0:02:20.59,Sample KM [Up],,0,0,0,karaoke,{\k24}Les {\k22}gar{\k25}çons {\k24}ont {\k89}peur
+Comment: 0,0:02:21.60,0:02:22.88,Sample KM [Up],,0,0,0,karaoke,{\k27}Je {\kf101}brûle
+Comment: 0,0:02:23.80,0:02:25.50,Sample KM [Up],,0,0,0,karaoke,{\k26}Sous {\k12}les {\k23}pro{\k16}jec{\k93}teurs
+Comment: 0,0:02:33.25,0:02:34.61,Sample KM [Up],,0,0,0,karaoke,{\k22}Je {\k26}suis {\k24}u{\k26}ne {\k38}star
+Comment: 0,0:02:35.08,0:02:36.61,Sample KM [Up],,0,0,0,karaoke,{\k32}J'ar{\k27}rête {\k24}le {\k26}ten{\k44}nis
+Comment: 0,0:02:37.06,0:02:38.56,Sample KM [Up],,0,0,0,karaoke,{\k25}Je {\k30}sors {\k24}ma {\k26}gui{\k45}tare
+Comment: 0,0:02:39.05,0:02:40.51,Sample KM [Up],,0,0,0,karaoke,{\k22}Je {\k27}m'ap{\k26}pelle {\k25}El{\k46}vis
+Comment: 0,0:02:40.99,0:02:42.47,Sample KM [Up],,0,0,0,karaoke,{\k23}Je {\k26}suis {\k24}u{\k23}ne {\k52}star
+Comment: 0,0:02:42.88,0:02:44.34,Sample KM [Up],,0,0,0,karaoke,{\k29}J'ar{\k24}rête {\k23}le {\k26}ten{\k44}nis
+Comment: 0,0:02:44.84,0:02:46.30,Sample KM [Up],,0,0,0,karaoke,{\k24}Je {\k27}sors {\k24}ma {\k24}gui{\k47}tare
+Comment: 0,0:02:47.03,0:02:48.98,Sample KM [Choir],,0,0,0,karaoke,{\k24}Syn{\k26}thé{\k24}ti{\k21}seur {\k23}Syn{\k24}thé{\k22}ti{\k31}seur
+Comment: 0,0:02:48.69,0:02:50.15,Sample KM [Up],,0,0,0,karaoke,{\k27}Je {\k26}suis {\k24}u{\k24}ne {\k45}star
+Comment: 0,0:02:50.85,0:02:52.02,Sample KM [Choir],,0,0,0,karaoke,{\k27}Syn{\k28}thé{\k24}ti{\k38}seur
+Comment: 0,0:02:52.54,0:02:54.07,Sample KM [Up],,0,0,0,karaoke,{\k25}Je {\k30}sors {\k25}ma {\k22}gui{\k51}tare
+Comment: 0,0:02:54.76,0:02:55.99,Sample KM [Choir],,0,0,0,karaoke,{\k28}Syn{\k23}thé{\k25}ti{\k47}seur
+Comment: 0,0:02:56.47,0:02:57.93,Sample KM [Up],,0,0,0,karaoke,{\k24}Je {\k23}suis {\k26}u{\k27}ne {\k46}star
+Comment: 0,0:02:58.62,0:02:59.86,Sample KM [Choir],,0,0,0,karaoke,{\k27}Syn{\k25}thé{\k23}ti{\k49}seur
+Comment: 0,0:03:00.35,0:03:01.79,Sample KM [Up],,0,0,0,karaoke,{\k24}Je {\k24}sors {\k24}ma {\k26}gui{\k46}tare
+Comment: 0,0:03:02.51,0:03:03.75,Sample KM [Choir],,0,0,0,karaoke,{\k26}Syn{\k23}thé{\k25}ti{\k50}seur
+Comment: 0,0:03:04.20,0:03:07.36,Sample KM [Up],,0,0,0,karaoke,{\k24}Je {\k50}joue {\k46}du {\k27}Syn{\k25}thé{\k26}ti{\kf118}seur
+Comment: 0,0:03:08.09,0:03:09.07,Sample KM [Up],,0,0,0,karaoke,{\k22}Les {\k23}filles {\k26}se {\k27}pâment
+Comment: 0,0:03:09.07,0:03:10.89,Sample KM [Up],,0,0,0,karaoke,{\k23}Les {\k25}gar{\k23}çons {\k24}ont {\k87}peur
+Dialogue: 0,0:00:17.05,0:00:19.40,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Syn{\k25}thé{\k22}ti{\k49}seur
+Dialogue: 0,0:00:20.88,0:00:23.28,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Syn{\k24}thé{\k25}ti{\k47}seur
+Dialogue: 0,0:00:24.78,0:00:27.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Syn{\k26}thé{\k25}ti{\k50}seur
+Dialogue: 0,0:00:28.65,0:00:31.06,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Syn{\k24}thé{\k23}ti{\k51}seur
+Dialogue: 0,0:00:30.42,0:00:32.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Je {\k28}suis {\k24}u{\k24}ne {\k47}star
+Dialogue: 0,0:00:32.27,0:00:34.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}J'ar{\k25}rête {\k23}le {\k24}ten{\k48}nis
+Dialogue: 0,0:00:34.25,0:00:36.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Je {\k26}sors {\k24}ma {\k24}gui{\k57}tare
+Dialogue: 0,0:00:36.20,0:00:38.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Je {\k30}m'ap{\k24}pelle {\k26}El{\k25}vis
+Dialogue: 0,0:00:37.39,0:00:39.73,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Syn{\k25}thé{\k25}ti{\k48}seur
+Dialogue: 0,0:00:38.15,0:00:40.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Je {\k27}suis {\k23}u{\k23}ne {\k61}star
+Dialogue: 0,0:00:40.07,0:00:42.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}J'ar{\k26}rête {\k23}le {\k24}ten{\k46}nis
+Dialogue: 0,0:00:41.99,0:00:44.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Je {\k29}sors {\k24}ma {\k24}gui{\k41}tare
+Dialogue: 0,0:00:43.89,0:00:46.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Je {\k28}m'ap{\k27}pelle {\k25}El{\k48}vis
+Dialogue: 0,0:00:45.91,0:00:49.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Je {\k49}joue {\k47}du {\k25}Syn{\k25}thé{\k24}ti{\k95}seur
+Dialogue: 0,0:00:49.77,0:00:51.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Les {\k23}filles {\k26}se {\k25}pâment
+Dialogue: 0,0:00:50.74,0:00:53.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Les {\k27}gar{\k22}çons {\k23}ont {\k96}peur
+Dialogue: 0,0:00:53.63,0:00:55.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Je {\k98}brûle
+Dialogue: 0,0:00:55.81,0:00:58.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Sous {\k16}les {\k18}pro{\k16}jec{\k99}teurs
+Dialogue: 0,0:00:59.63,0:01:02.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Syn{\k22}thé{\k27}ti{\k50}seur
+Dialogue: 0,0:01:03.51,0:01:05.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Syn{\k26}thé{\k26}ti{\k48}seur
+Dialogue: 0,0:01:07.37,0:01:09.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Syn{\k26}thé{\k26}ti{\k42}seur
+Dialogue: 0,0:01:11.28,0:01:13.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Syn{\k25}thé{\k24}ti{\k48}seur
+Dialogue: 0,0:01:17.10,0:01:21.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ta{\k27}per {\k25}du {\k46}pied, {\k26}cri{\k50}er {\k24}dans {\k23}un {\k26}mi{\k45}cro
+Dialogue: 0,0:01:20.92,0:01:25.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Sur {\k21}mon {\k32}cla{\k44}vier {\k68}oui {\k29}je {\k23}fais {\k27}le {\k59}beau
+Dialogue: 0,0:01:24.84,0:01:29.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Al{\k26}lons {\k27}al{\k44}lons, {\k26}en{\k49}fants {\k25}de {\k24}la {\k26}pa{\k46}trie
+Dialogue: 0,0:01:28.50,0:01:32.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}C'est {\k24}le {\k25}jour {\k23}de {\k71}gloi{\k45}re, {\k27}bu{\k25}vons {\k28}tant {\k47}pis
+Dialogue: 0,0:01:34.25,0:01:36.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Je {\k23}suis {\k25}u{\k24}ne {\k48}star
+Dialogue: 0,0:01:36.16,0:01:38.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}J'ar{\k24}rête {\k24}le {\k26}ten{\k47}nis
+Dialogue: 0,0:01:38.13,0:01:40.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Je {\k24}sors {\k26}ma {\k24}gui{\k56}tare
+Dialogue: 0,0:01:40.08,0:01:42.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Je {\k30}m'ap{\k25}pelle {\k25}El{\k23}vis
+Dialogue: 0,0:01:41.22,0:01:43.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Syn{\k27}thé{\k24}ti{\k23}seur
+Dialogue: 0,0:01:42.03,0:01:44.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Je {\k23}suis {\k24}u{\k25}ne {\k37}star
+Dialogue: 0,0:01:43.95,0:01:46.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}J'ar{\k26}rête {\k25}le {\k24}ten{\k43}nis
+Dialogue: 0,0:01:45.90,0:01:48.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Je {\k25}sors {\k25}ma {\k24}gui{\k49}tare
+Dialogue: 0,0:01:47.78,0:01:50.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Je {\k27}m'ap{\k26}pelle {\k27}El{\k43}vis
+Dialogue: 0,0:01:57.73,0:02:01.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Au {\k47}pla{\k25}card {\k23}les {\k26}ra{\kf109}quettes
+Dialogue: 0,0:02:01.62,0:02:05.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Au {\k49}pou{\k25}voir {\k23}les {\k23}pail{\kf111}lettes
+Dialogue: 0,0:02:12.98,0:02:17.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Je {\k49}joue {\k44}du {\k28}Syn{\k24}thé{\k24}ti{\k97}seur
+Dialogue: 0,0:02:16.85,0:02:18.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Les {\k28}filles {\k22}se {\k28}pâment
+Dialogue: 0,0:02:17.85,0:02:20.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Les {\k22}gar{\k25}çons {\k24}ont {\k89}peur
+Dialogue: 0,0:02:20.70,0:02:23.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Je {\kf101}brûle
+Dialogue: 0,0:02:22.90,0:02:25.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Sous {\k12}les {\k23}pro{\k16}jec{\k93}teurs
+Dialogue: 0,0:02:32.35,0:02:34.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Je {\k26}suis {\k24}u{\k26}ne {\k38}star
+Dialogue: 0,0:02:34.18,0:02:36.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}J'ar{\k27}rête {\k24}le {\k26}ten{\k44}nis
+Dialogue: 0,0:02:36.16,0:02:38.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Je {\k30}sors {\k24}ma {\k26}gui{\k45}tare
+Dialogue: 0,0:02:38.15,0:02:40.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Je {\k27}m'ap{\k26}pelle {\k25}El{\k46}vis
+Dialogue: 0,0:02:40.09,0:02:42.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Je {\k26}suis {\k24}u{\k23}ne {\k52}star
+Dialogue: 0,0:02:41.98,0:02:44.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}J'ar{\k24}rête {\k23}le {\k26}ten{\k44}nis
+Dialogue: 0,0:02:43.94,0:02:46.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Je {\k27}sors {\k24}ma {\k24}gui{\k47}tare
+Dialogue: 0,0:02:46.13,0:02:49.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Syn{\k26}thé{\k24}ti{\k21}seur {\k23}Syn{\k24}thé{\k22}ti{\k31}seur
+Dialogue: 0,0:02:47.79,0:02:50.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Je {\k26}suis {\k24}u{\k24}ne {\k45}star
+Dialogue: 0,0:02:49.95,0:02:52.22,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Syn{\k28}thé{\k24}ti{\k38}seur
+Dialogue: 0,0:02:51.64,0:02:54.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Je {\k30}sors {\k25}ma {\k22}gui{\k51}tare
+Dialogue: 0,0:02:53.86,0:02:56.19,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Syn{\k23}thé{\k25}ti{\k47}seur
+Dialogue: 0,0:02:55.57,0:02:58.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Je {\k23}suis {\k26}u{\k27}ne {\k46}star
+Dialogue: 0,0:02:57.72,0:03:00.06,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Syn{\k25}thé{\k23}ti{\k49}seur
+Dialogue: 0,0:02:59.45,0:03:01.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Je {\k24}sors {\k24}ma {\k26}gui{\k46}tare
+Dialogue: 0,0:03:01.61,0:03:03.95,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Syn{\k23}thé{\k25}ti{\k50}seur
+Dialogue: 0,0:03:03.30,0:03:07.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Je {\k50}joue {\k46}du {\k27}Syn{\k25}thé{\k26}ti{\kf118}seur
+Dialogue: 0,0:03:07.19,0:03:09.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Les {\k23}filles {\k26}se {\k27}pâment
+Dialogue: 0,0:03:08.17,0:03:11.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Les {\k25}gar{\k23}çons {\k24}ont {\k87}peur
