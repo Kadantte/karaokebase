@@ -1,0 +1,24 @@
+﻿[Script Info]
+Title: Eien no Shikisai
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Sodachi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.31,0:00:07.70,Sample KM [Up],,0,0,0,karaoke,{\k22}kyo{\k22}u {\k41}to{\k24} i{\k43}u {\k21}na {\k85}no {\k42}e{\k45}fu{\k41}de {\kf253}ga
+Comment: 0,0:00:07.70,0:00:14.58,Sample KM [Up],,0,0,0,karaoke,{\k48}{\k21}e{\k20}ga{\k45}kou {\k23}to{\k41}shi{\k22}te{\k86}ru {\k20}ma{\k21}bu{\k44}shi{\k43}i {\kf128}MO{\kf126}MENT
+Comment: 0,0:00:14.58,0:00:21.58,Sample KM [Up],,0,0,0,karaoke,{\k44}{\k23}i{\k20}s{\kf123}shu{\k29}n {\kf106}ga{\k41} {\k45}ei{\k43}en {\k23}no {\k62}shi{\k44}ki{\kf97}sai
+Comment: 0,0:00:21.58,0:00:28.80,Sample KM [Up],,0,0,0,karaoke,{\k31}{\k44}to{\k43}do{\k23}me{\kf107}te{\k40} {\k44}ko{\k43}no{\k21}ma{\kf326}ma
+Dialogue: 0,0:00:00.41,0:00:07.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}kyo{\k22}u {\k41}to{\k24} i{\k43}u {\k21}na {\k85}no {\k42}e{\k45}fu{\k41}de {\kf253}ga
+Dialogue: 0,0:00:06.80,0:00:14.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}{\k21}e{\k20}ga{\k45}kou {\k23}to{\k41}shi{\k22}te{\k86}ru {\k20}ma{\k21}bu{\k44}shi{\k43}i {\kf128}MO{\kf126}MENT
+Dialogue: 0,0:00:13.68,0:00:21.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}{\k23}i{\k20}s{\kf123}shu{\k29}n {\kf106}ga{\k41} {\k45}ei{\k43}en {\k23}no {\k62}shi{\k44}ki{\kf97}sai
+Dialogue: 0,0:00:20.68,0:00:29.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}{\k44}to{\k43}do{\k23}me{\kf107}te{\k40} {\k44}ko{\k43}no{\k21}ma{\kf326}ma
