@@ -10,14 +10,16 @@ YCbCr Matrix: TV.709
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Symboli Rudolf,Arial,24,&H00FFFFFF,&H0063771C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Tokai Teio,Arial,24,&H00FFFFFF,&H00D27633,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Vodka,Arial,24,&H00FFFFFF,&H0000C2D4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H0015D729,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Symboli Rudolf,Arial,24,&H00FFFFFF,&H0057B857,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tokai Teio,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Vodka,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSymboli Rudolf} Rudolf {\2cHFFFFFF}| {\rTokai Teio}Teio {\2cHFFFFFF} | {\k1000}{\k0}{\rVodka}Vodka {\2cHFFFFFF}| {\rSample KM [Up]}All {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
 Comment: 0,0:00:37.70,0:00:38.66,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:34.21,0:00:38.29,Symboli Rudolf,,0,0,0,karaoke,{\k25}mi{\k19}chi{\k24}bi{\k24}ka{\k24}re{\k44}te{\k27}i{\k73}ta {\k22}you {\kf126}ni
 Comment: 0,0:00:38.64,0:00:41.54,Symboli Rudolf,,0,0,0,karaoke,{\k24}ta{\k25}do{\k46}ri{\k47}tsu{\k46}i{\k23}ta {\kf95}FIELD
