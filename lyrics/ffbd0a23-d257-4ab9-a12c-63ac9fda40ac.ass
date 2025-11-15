@@ -1,0 +1,145 @@
+﻿[Script Info]
+Title: Look-a-like
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:15.46,0:00:18.69,Sample KM [Up],,0,0,0,karaoke,{\k46}On {\k22}a {\k47}Sun{\k25}day,{\k23} {\k45}ri{\k22}ding {\k24}my {\k69}bike
+Comment: 0,0:00:18.69,0:00:22.84,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k46}no{\k24}tice, {\k23}I {\k45}no{\k28}tice,{\k20} {\k45}dif{\k23}ferent {\k23}things {\k23}that {\k23}look {\k23}a{\k46}like
+Comment: 0,0:00:22.84,0:00:26.08,Sample KM [Up],,0,0,0,karaoke,{\k47}On {\k24}a {\k45}Sun{\k26}day,{\k21} {\k45}ri{\k24}ding {\k23}my {\k69}bike
+Comment: 0,0:00:26.08,0:00:27.92,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k46}no{\k24}tice, {\k23}I {\k45}no{\k23}tice
+Comment: 0,0:00:28.16,0:00:30.79,Sample KM [Up],,0,0,0,karaoke,{\k45}Ma{\k23}ny {\k23}ma{\k24}ny {\k22}things {\k24}that {\k20}look {\k27}a{\k55}like
+Comment: 0,0:00:37.61,0:00:39.22,Sample KM [Up],,0,0,0,karaoke,{\k23}Ice {\k23}and {\k23}wa{\k24}ter, {\k24}steak {\k23}and {\k21}cow
+Comment: 0,0:00:39.46,0:00:41.07,Sample KM [Up],,0,0,0,karaoke,{\k24}Au{\k23}tumn, {\k22}this {\k24}year, {\k20}and {\k26}last {\k22}year
+Comment: 0,0:00:41.31,0:00:43.15,Sample KM [Up],,0,0,0,karaoke,{\k24}Spark {\k22}and {\k44}burn, {\k26}rain {\k24}and {\k44}cloud
+Comment: 0,0:00:43.15,0:00:44.77,Sample KM [Up],,0,0,0,karaoke,{\k46}A-{\k46}B-{\k46}C-{\k24}D
+Comment: 0,0:00:45.00,0:00:46.83,Sample KM [Up],,0,0,0,karaoke,{\k23}Tues{\k23}day, {\k24}Wednes{\k21}day, {\k25}so {\k23}is {\k23}Fri{\k21}day
+Comment: 0,0:00:46.85,0:00:48.59,Sample KM [Up],,0,0,0,karaoke,{\k22}How {\k24}'bout {\k25}moons {\k25}and{\k20} {\k23}head{\k35}lights?
+Comment: 0,0:00:48.69,0:00:50.30,Sample KM [Up],,0,0,0,karaoke,{\k12}What {\k24}I {\k34}say {\k24}and {\k14}what {\k21}I {\k32}think
+Comment: 0,0:00:50.55,0:00:51.93,Sample KM [Up],,0,0,0,karaoke,{\k22}A-{\k23}B-{\k23}C-{\k23}D-{\k23}E-{\k24}F
+Comment: 0,0:00:52.85,0:00:55.62,Sample KM [Up],,0,0,0,karaoke,{\k22}A {\k25}short {\k45}while {\k24}a{\kf161}go
+Comment: 0,0:00:54.68,0:00:57.00,Sample KM [Choir],,0,0,0,karaoke,{\k24}A {\k24}short {\k46}while {\k23}a{\kf115}go
+Comment: 0,0:00:56.31,0:00:57.96,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k24}was {\kf118}born
+Comment: 0,0:00:58.15,0:01:00.00,Sample KM [Choir],,0,0,0,karaoke,{\k24}I {\k23}was {\kf138}born
+Comment: 0,0:01:00.23,0:01:03.24,Sample KM [Up],,0,0,0,karaoke,{\k24}And {\k23}I {\k46}me{\k24}mo{\kf184}rized
+Comment: 0,0:01:02.08,0:01:04.16,Sample KM [Choir],,0,0,0,karaoke,{\k24}And {\k23}I {\k44}me{\k24}mo{\k93}rized
+Comment: 0,0:01:03.69,0:01:07.66,Sample KM [Up],,0,0,0,karaoke,{\k24}Quite {\k23}a {\k45}lot {\kf162}of {\kf143}names
+Comment: 0,0:01:08.08,0:01:11.31,Sample KM [Up],,0,0,0,karaoke,{\k46}On {\k23}this {\k50}pla{\k43}net, {\k45}drin{\k24}king {\k23}my {\k46}cof{\k23}fee
+Comment: 0,0:01:11.31,0:01:15.46,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k45}no{\k23}tice, {\k23}I {\k46}no{\k27}tice,{\k20} {\k46}dif{\k22}ferent {\k24}things {\k23}that {\k25}are {\k20}a{\k47}like
+Comment: 0,0:01:15.46,0:01:18.69,Sample KM [Up],,0,0,0,karaoke,{\k46}On {\k24}this {\k47}pla{\k45}net, {\k47}drin{\k23}king {\k23}my {\k45}cof{\k23}fee
+Comment: 0,0:01:18.69,0:01:20.77,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k46}no{\k24}tice, {\k23}I {\k46}no{\k46}tice
+Comment: 0,0:01:20.77,0:01:23.35,Sample KM [Up],,0,0,0,karaoke,{\k45}Ma{\k25}ny {\k22}ma{\k24}ny {\k23}things {\k22}that {\k24}are {\k24}a{\k49}like
+Comment: 0,0:01:37.62,0:01:39.23,Sample KM [Up],,0,0,0,karaoke,{\k46}Air {\k46}and {\k23}o{\k14}xy{\k32}gen
+Comment: 0,0:01:39.47,0:01:41.32,Sample KM [Up],,0,0,0,karaoke,{\k11}Mo{\k13}ney {\k22}and {\k8}Mo{\k15}net,{\k23} {\k24}start {\k22}and {\k47}starch
+Comment: 0,0:01:41.32,0:01:42.96,Sample KM [Up],,0,0,0,karaoke,{\k22}His{\k14}to{\k32}ry {\k24}and {\k14}his{\k9}to{\k14}ry {\k35}books
+Comment: 0,0:01:43.16,0:01:44.74,Sample KM [Up],,0,0,0,karaoke,{\k45}A-{\k47}B-{\k46}C-{\k20}D
+Comment: 0,0:01:45.01,0:01:46.62,Sample KM [Up],,0,0,0,karaoke,{\k29}Night{\k16} {\k27}and{\k20} {\k17}u{\k16}ni{\k36}verse
+Comment: 0,0:01:46.85,0:01:48.46,Sample KM [Up],,0,0,0,karaoke,{\k23}Womb {\k23}and {\k18}o{\k28}cean, {\k14}food {\k23}and {\k32}poo
+Comment: 0,0:01:48.69,0:01:50.49,Sample KM [Up],,0,0,0,karaoke,{\k13}In {\k16}my {\k41}dream, {\k25}and {\k22}in {\k22}real {\k41}life
+Comment: 0,0:01:50.54,0:01:52.02,Sample KM [Up],,0,0,0,karaoke,{\k23}A-{\k23}B-{\k24}C-{\k23}D-{\k21}E-{\k34}F
+Comment: 0,0:01:52.84,0:01:55.16,Sample KM [Up],,0,0,0,karaoke,{\k24}A {\k23}long {\k46}time {\k24}a{\kf115}go
+Comment: 0,0:01:54.69,0:01:56.54,Sample KM [Choir],,0,0,0,karaoke,{\k24}A {\k23}long {\k46}time {\k23}a{\k69}go
+Comment: 0,0:01:56.54,0:01:58.38,Sample KM [Up],,0,0,0,karaoke,{\k24}One {\k45}cave{\kf115}man
+Comment: 0,0:01:58.39,0:02:00.23,Sample KM [Choir],,0,0,0,karaoke,{\k24}One {\k46}cave{\kf114}man
+Comment: 0,0:02:00.23,0:02:02.53,Sample KM [Up],,0,0,0,karaoke,{\k23}Had {\k24}a {\k46}bu{\k22}sy {\kf115}life
+Comment: 0,0:02:02.08,0:02:04.45,Sample KM [Choir],,0,0,0,karaoke,{\k23}Had {\k24}a {\k46}bu{\k23}sy {\kf121}life
+Comment: 0,0:02:03.70,0:02:07.49,Sample KM [Up],,0,0,0,karaoke,{\k23}Ma{\k22}king {\k48}tons {\kf160}of {\kf126}names
+Comment: 0,0:02:08.08,0:02:11.31,Sample KM [Up],,0,0,0,karaoke,{\k46}On {\k24}a {\k47}Sun{\k45}day, {\k45}ri{\k24}ding {\k23}my {\k69}bike
+Comment: 0,0:02:11.31,0:02:15.47,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k47}no{\k23}tice, {\k23}I {\k47}no{\k46}tice, {\k45}dif{\k24}ferent {\k23}things {\k22}that {\k25}look {\k22}a{\k47}like
+Comment: 0,0:02:15.47,0:02:18.70,Sample KM [Up],,0,0,0,karaoke,{\k47}On {\k21}a {\k47}Sun{\k46}day, {\k46}ri{\k24}ding {\k23}my {\k69}bike
+Comment: 0,0:02:18.70,0:02:22.85,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k46}no{\k23}tice, {\k24}I {\k45}no{\k45}tice, {\k47}ma{\k24}ny {\k23}ma{\k22}ny {\k23}look {\k22}a{\k48}likes
+Comment: 0,0:02:22.85,0:02:26.08,Sample KM [Up],,0,0,0,karaoke,{\k46}On {\k23}this {\k48}pla{\k26}net,{\k19} {\k44}drin{\k25}king {\k23}my {\k46}cof{\k23}fee
+Comment: 0,0:02:26.08,0:02:30.23,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k47}no{\k23}tice, {\k25}I {\k44}no{\k27}tice,{\k20} {\k44}dif{\k23}ferent {\k24}things {\k23}that {\k24}are {\k23}a{\k46}like
+Comment: 0,0:02:30.23,0:02:33.46,Sample KM [Up],,0,0,0,karaoke,{\k46}On {\k25}this {\k50}pla{\k22}net,{\k19} {\k46}drin{\k23}king {\k24}my {\k47}cof{\k21}fee
+Comment: 0,0:02:33.46,0:02:35.54,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\k45}no{\k22}tice, {\k24}I {\k46}no{\k46}tice
+Comment: 0,0:02:35.54,0:02:38.13,Sample KM [Up],,0,0,0,karaoke,{\k45}Ma{\k24}ny {\k22}ma{\k24}ny {\k22}things {\k24}that {\k25}are {\k23}a{\k50}like
+Comment: 0,0:02:52.41,0:02:55.67,Sample KM [Up],,0,0,0,karaoke,{\k44}Eve{\k23}ry{\k47}thing {\k46}is {\k47}born {\k23}from {\k22}this {\k46}pla{\k28}net
+Comment: 0,0:02:55.67,0:02:59.76,Sample KM [Up],,0,0,0,karaoke,{\k19}A {\k46}num{\k23}ber, {\k24}a {\k48}T{\k26}V,{\k25} {\k39}e{\k23}ven {\k22}thoughts {\k23}that {\k23}en{\k22}ter{\k46}tain
+Comment: 0,0:02:59.76,0:03:03.01,Sample KM [Up],,0,0,0,karaoke,{\k48}Eve{\k22}ry{\k48}thing {\k27}came{\k18} {\k47}out {\k22}of {\k23}this {\k46}pla{\k24}net
+Comment: 0,0:03:03.01,0:03:06.92,Sample KM [Up],,0,0,0,karaoke,{\k23}A {\k46}boy{\k24}friend, {\k22}a {\k46}pen{\k26}cil,{\k21} {\k46}e{\k22}ven {\k24}your {\k23}new {\k23}vi{\k22}de{\k23}os
+Comment: 0,0:03:06.92,0:03:09.04,Sample KM [Up],,0,0,0,karaoke,{\k24}And {\k46}eve{\k25}ry{\k43}thing {\k74}is
+Comment: 0,0:03:24.69,0:03:27.93,Sample KM [Up],,0,0,0,karaoke,{\k46}On {\k25}this {\k48}pla{\k42}net, {\k47}ri{\k24}ding {\k24}my {\k68}bike
+Comment: 0,0:03:27.93,0:03:32.08,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k46}no{\k24}tice, {\k23}I {\k47}no{\k31}tice,{\k14} {\k45}dif{\k23}ferent {\k24}things {\k23}that {\k23}are {\k23}a{\k47}like
+Comment: 0,0:03:32.08,0:03:35.31,Sample KM [Up],,0,0,0,karaoke,{\k46}On {\k24}this {\k49}pla{\k22}net,{\k20} {\k46}ri{\k24}ding {\k22}my {\k70}bike
+Comment: 0,0:03:35.31,0:03:39.47,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k44}no{\k24}tice, {\k23}I {\k47}no{\k46}tice, {\k46}ma{\k24}ny {\k21}ma{\k24}ny {\k23}look {\k24}a{\k46}likes
+Comment: 0,0:03:39.47,0:03:42.69,Sample KM [Up],,0,0,0,karaoke,{\k45}On {\k24}this {\k46}pla{\k47}net, {\k45}ri{\k23}ding {\k22}my {\k70}bike
+Comment: 0,0:03:42.69,0:03:46.86,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\k44}no{\k24}tice, {\k23}I {\k48}no{\k46}tice, {\k44}dif{\k23}ferent {\k24}things {\k22}that {\k25}are {\k22}a{\k47}like
+Comment: 0,0:03:46.86,0:03:50.07,Sample KM [Up],,0,0,0,karaoke,{\k45}On {\k23}this {\k48}pla{\k28}net,{\k17} {\k46}ri{\k23}ding {\k23}my {\k68}bike
+Comment: 0,0:03:50.07,0:03:52.16,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\k45}no{\k22}tice, {\k25}I {\k46}no{\k46}tice
+Comment: 0,0:03:52.16,0:03:54.70,Sample KM [Up],,0,0,0,karaoke,{\k46}New {\k23}and {\k23}u{\k21}ni{\k26}ver{\k23}sal {\k24}look-{\k21}a-{\k47}likes
+Dialogue: 0,0:00:14.56,0:00:18.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}On {\k22}a {\k47}Sun{\k25}day,{\k23} {\k45}ri{\k22}ding {\k24}my {\k69}bike
+Dialogue: 0,0:00:17.79,0:00:23.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k46}no{\k24}tice, {\k23}I {\k45}no{\k28}tice,{\k20} {\k45}dif{\k23}ferent {\k23}things {\k23}that {\k23}look {\k23}a{\k46}like
+Dialogue: 0,0:00:21.94,0:00:26.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}On {\k24}a {\k45}Sun{\k26}day,{\k21} {\k45}ri{\k24}ding {\k23}my {\k69}bike
+Dialogue: 0,0:00:25.18,0:00:28.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k46}no{\k24}tice, {\k23}I {\k45}no{\k23}tice
+Dialogue: 0,0:00:27.26,0:00:30.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Ma{\k23}ny {\k23}ma{\k24}ny {\k22}things {\k24}that {\k20}look {\k27}a{\k55}like
+Dialogue: 0,0:00:36.71,0:00:39.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ice {\k23}and {\k23}wa{\k24}ter, {\k24}steak {\k23}and {\k21}cow
+Dialogue: 0,0:00:38.56,0:00:41.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Au{\k23}tumn, {\k22}this {\k24}year, {\k20}and {\k26}last {\k22}year
+Dialogue: 0,0:00:40.41,0:00:43.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Spark {\k22}and {\k44}burn, {\k26}rain {\k24}and {\k44}cloud
+Dialogue: 0,0:00:42.25,0:00:44.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}A-{\k46}B-{\k46}C-{\k24}D
+Dialogue: 0,0:00:44.10,0:00:47.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Tues{\k23}day, {\k24}Wednes{\k21}day, {\k25}so {\k23}is {\k23}Fri{\k21}day
+Dialogue: 0,0:00:45.95,0:00:48.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}How {\k24}'bout {\k25}moons {\k25}and{\k20} {\k23}head{\k35}lights?
+Dialogue: 0,0:00:47.79,0:00:50.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}What {\k24}I {\k34}say {\k24}and {\k14}what {\k21}I {\k32}think
+Dialogue: 0,0:00:49.65,0:00:52.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}A-{\k23}B-{\k23}C-{\k23}D-{\k23}E-{\k24}F
+Dialogue: 0,0:00:51.95,0:00:55.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}A {\k25}short {\k45}while {\k24}a{\kf161}go
+Dialogue: 0,0:00:53.78,0:00:57.20,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}A {\k24}short {\k46}while {\k23}a{\kf115}go
+Dialogue: 0,0:00:55.41,0:00:58.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k24}was {\kf118}born
+Dialogue: 0,0:00:57.25,0:01:00.20,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k23}was {\kf138}born
+Dialogue: 0,0:00:59.33,0:01:03.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}And {\k23}I {\k46}me{\k24}mo{\kf184}rized
+Dialogue: 0,0:01:01.18,0:01:04.36,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}And {\k23}I {\k44}me{\k24}mo{\k93}rized
+Dialogue: 0,0:01:02.79,0:01:07.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Quite {\k23}a {\k45}lot {\kf162}of {\kf143}names
+Dialogue: 0,0:01:07.18,0:01:11.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}On {\k23}this {\k50}pla{\k43}net, {\k45}drin{\k24}king {\k23}my {\k46}cof{\k23}fee
+Dialogue: 0,0:01:10.41,0:01:15.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k45}no{\k23}tice, {\k23}I {\k46}no{\k27}tice,{\k20} {\k46}dif{\k22}ferent {\k24}things {\k23}that {\k25}are {\k20}a{\k47}like
+Dialogue: 0,0:01:14.56,0:01:18.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}On {\k24}this {\k47}pla{\k45}net, {\k47}drin{\k23}king {\k23}my {\k45}cof{\k23}fee
+Dialogue: 0,0:01:17.79,0:01:20.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k46}no{\k24}tice, {\k23}I {\k46}no{\k46}tice
+Dialogue: 0,0:01:19.87,0:01:23.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Ma{\k25}ny {\k22}ma{\k24}ny {\k23}things {\k22}that {\k24}are {\k24}a{\k49}like
+Dialogue: 0,0:01:36.72,0:01:39.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Air {\k46}and {\k23}o{\k14}xy{\k32}gen
+Dialogue: 0,0:01:38.57,0:01:41.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Mo{\k13}ney {\k22}and {\k8}Mo{\k15}net,{\k23} {\k24}start {\k22}and {\k47}starch
+Dialogue: 0,0:01:40.42,0:01:43.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}His{\k14}to{\k32}ry {\k24}and {\k14}his{\k9}to{\k14}ry {\k35}books
+Dialogue: 0,0:01:42.26,0:01:44.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}A-{\k47}B-{\k46}C-{\k20}D
+Dialogue: 0,0:01:44.11,0:01:46.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Night{\k16} {\k27}and{\k20} {\k17}u{\k16}ni{\k36}verse
+Dialogue: 0,0:01:45.95,0:01:48.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Womb {\k23}and {\k18}o{\k28}cean, {\k14}food {\k23}and {\k32}poo
+Dialogue: 0,0:01:47.79,0:01:50.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}In {\k16}my {\k41}dream, {\k25}and {\k22}in {\k22}real {\k41}life
+Dialogue: 0,0:01:49.64,0:01:52.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}A-{\k23}B-{\k24}C-{\k23}D-{\k21}E-{\k34}F
+Dialogue: 0,0:01:51.94,0:01:55.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}A {\k23}long {\k46}time {\k24}a{\kf115}go
+Dialogue: 0,0:01:53.79,0:01:56.74,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}A {\k23}long {\k46}time {\k23}a{\k69}go
+Dialogue: 0,0:01:55.64,0:01:58.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}One {\k45}cave{\kf115}man
+Dialogue: 0,0:01:57.49,0:02:00.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}One {\k46}cave{\kf114}man
+Dialogue: 0,0:01:59.33,0:02:02.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Had {\k24}a {\k46}bu{\k22}sy {\kf115}life
+Dialogue: 0,0:02:01.18,0:02:04.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Had {\k24}a {\k46}bu{\k23}sy {\kf121}life
+Dialogue: 0,0:02:02.80,0:02:07.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ma{\k22}king {\k48}tons {\kf160}of {\kf126}names
+Dialogue: 0,0:02:07.18,0:02:11.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}On {\k24}a {\k47}Sun{\k45}day, {\k45}ri{\k24}ding {\k23}my {\k69}bike
+Dialogue: 0,0:02:10.41,0:02:15.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k47}no{\k23}tice, {\k23}I {\k47}no{\k46}tice, {\k45}dif{\k24}ferent {\k23}things {\k22}that {\k25}look {\k22}a{\k47}like
+Dialogue: 0,0:02:14.57,0:02:18.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}On {\k21}a {\k47}Sun{\k46}day, {\k46}ri{\k24}ding {\k23}my {\k69}bike
+Dialogue: 0,0:02:17.80,0:02:23.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k46}no{\k23}tice, {\k24}I {\k45}no{\k45}tice, {\k47}ma{\k24}ny {\k23}ma{\k22}ny {\k23}look {\k22}a{\k48}likes
+Dialogue: 0,0:02:21.95,0:02:26.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}On {\k23}this {\k48}pla{\k26}net,{\k19} {\k44}drin{\k25}king {\k23}my {\k46}cof{\k23}fee
+Dialogue: 0,0:02:25.18,0:02:30.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k47}no{\k23}tice, {\k25}I {\k44}no{\k27}tice,{\k20} {\k44}dif{\k23}ferent {\k24}things {\k23}that {\k24}are {\k23}a{\k46}like
+Dialogue: 0,0:02:29.33,0:02:33.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}On {\k25}this {\k50}pla{\k22}net,{\k19} {\k46}drin{\k23}king {\k24}my {\k47}cof{\k21}fee
+Dialogue: 0,0:02:32.56,0:02:35.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k45}no{\k22}tice, {\k24}I {\k46}no{\k46}tice
+Dialogue: 0,0:02:34.64,0:02:38.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Ma{\k24}ny {\k22}ma{\k24}ny {\k22}things {\k24}that {\k25}are {\k23}a{\k50}like
+Dialogue: 0,0:02:51.51,0:02:55.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Eve{\k23}ry{\k47}thing {\k46}is {\k47}born {\k23}from {\k22}this {\k46}pla{\k28}net
+Dialogue: 0,0:02:54.77,0:02:59.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}A {\k46}num{\k23}ber, {\k24}a {\k48}T{\k26}V,{\k25} {\k39}e{\k23}ven {\k22}thoughts {\k23}that {\k23}en{\k22}ter{\k46}tain
+Dialogue: 0,0:02:58.86,0:03:03.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Eve{\k22}ry{\k48}thing {\k27}came{\k18} {\k47}out {\k22}of {\k23}this {\k46}pla{\k24}net
+Dialogue: 0,0:03:02.11,0:03:07.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}A {\k46}boy{\k24}friend, {\k22}a {\k46}pen{\k26}cil,{\k21} {\k46}e{\k22}ven {\k24}your {\k23}new {\k23}vi{\k22}de{\k23}os
+Dialogue: 0,0:03:06.02,0:03:09.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}And {\k46}eve{\k25}ry{\k43}thing {\k74}is
+Dialogue: 0,0:03:23.79,0:03:28.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}On {\k25}this {\k48}pla{\k42}net, {\k47}ri{\k24}ding {\k24}my {\k68}bike
+Dialogue: 0,0:03:27.03,0:03:32.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k46}no{\k24}tice, {\k23}I {\k47}no{\k31}tice,{\k14} {\k45}dif{\k23}ferent {\k24}things {\k23}that {\k23}are {\k23}a{\k47}like
+Dialogue: 0,0:03:31.18,0:03:35.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}On {\k24}this {\k49}pla{\k22}net,{\k20} {\k46}ri{\k24}ding {\k22}my {\k70}bike
+Dialogue: 0,0:03:34.41,0:03:39.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k44}no{\k24}tice, {\k23}I {\k47}no{\k46}tice, {\k46}ma{\k24}ny {\k21}ma{\k24}ny {\k23}look {\k24}a{\k46}likes
+Dialogue: 0,0:03:38.57,0:03:42.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}On {\k24}this {\k46}pla{\k47}net, {\k45}ri{\k23}ding {\k22}my {\k70}bike
+Dialogue: 0,0:03:41.79,0:03:47.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k44}no{\k24}tice, {\k23}I {\k48}no{\k46}tice, {\k44}dif{\k23}ferent {\k24}things {\k22}that {\k25}are {\k22}a{\k47}like
+Dialogue: 0,0:03:45.96,0:03:50.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}On {\k23}this {\k48}pla{\k28}net,{\k17} {\k46}ri{\k23}ding {\k23}my {\k68}bike
+Dialogue: 0,0:03:49.17,0:03:52.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k45}no{\k22}tice, {\k25}I {\k46}no{\k46}tice
+Dialogue: 0,0:03:51.26,0:03:54.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}New {\k23}and {\k23}u{\k21}ni{\k26}ver{\k23}sal {\k24}look-{\k21}a-{\k47}likes
