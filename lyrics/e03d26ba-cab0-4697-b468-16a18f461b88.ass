@@ -1,0 +1,125 @@
+﻿[Script Info]
+Title: You Don't Even Know Me
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\kf1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:11.60,0:00:12.34,Sample KM [Up],,0,0,0,karaoke,{\k74}I
+Comment: 0,0:00:13.03,0:00:15.32,Sample KM [Up],,0,0,0,karaoke,{\k17}Walk {\k16}in{\k16}to {\k18}a {\k57}crow{\k19}ded {\k86}room
+Comment: 0,0:00:15.93,0:00:17.38,Sample KM [Up],,0,0,0,karaoke,{\k16}Eve{\k20}ry{\k17}bo{\k21}dy {\k54}sta{\k17}ring
+Comment: 0,0:00:17.39,0:00:20.17,Sample KM [Up],,0,0,0,karaoke,{\k15}What {\k19}did {\k37}I, {\k20}what {\k17}did {\k85}I {\k22}do {\k63}wrong?
+Comment: 0,0:00:20.29,0:00:22.87,Sample KM [Up],,0,0,0,karaoke,{\k15}What {\k17}did {\k41}I, {\k13}what {\k21}did {\k87}I {\k20}do {\k44}wrong?
+Comment: 0,0:00:23.11,0:00:23.91,Sample KM [Up],,0,0,0,karaoke,{\k80}Oh
+Comment: 0,0:00:24.57,0:00:26.78,Sample KM [Up],,0,0,0,karaoke,{\k18}You {\k20}see {\k18}what {\k21}you {\k50}wan{\k20}na {\k74}see
+Comment: 0,0:00:27.31,0:00:28.99,Sample KM [Up],,0,0,0,karaoke,{\k18}But {\k18}you {\k18}don't {\k17}e{\k21}ven {\k52}know {\k24}me
+Comment: 0,0:00:28.99,0:00:31.84,Sample KM [Up],,0,0,0,karaoke,{\k14}What {\k16}did {\k38}I, {\k19}what {\k18}did {\k87}I {\k21}do {\k72}now?
+Comment: 0,0:00:31.84,0:00:34.56,Sample KM [Up],,0,0,0,karaoke,{\k17}What {\k20}did {\k34}I, {\k21}what {\k18}did {\k88}I {\k18}do {\k56}now?
+Comment: 0,0:00:34.73,0:00:37.27,Sample KM [Up],,0,0,0,karaoke,{\k33}He {\k37}said, {\k34}she {\k38}said, {\k28}o{\k31}ver {\k53}it
+Comment: 0,0:00:37.27,0:00:40.15,Sample KM [Up],,0,0,0,karaoke,{\k49}You're {\k21}ac{\k37}ting {\k31}like {\k44}you're {\k23}bril{\k28}li{\k55}ant
+Comment: 0,0:00:40.15,0:00:42.69,Sample KM [Up],,0,0,0,karaoke,{\k23}But {\k46}you {\k41}don't {\kf144}know
+Comment: 0,0:00:43.01,0:00:47.35,Sample KM [Up],,0,0,0,karaoke,{\k38}Yeah, {\k34}you {\k41}don't {\kf321}know
+Comment: 0,0:00:47.72,0:00:50.27,Sample KM [Up],,0,0,0,karaoke,{\k15}You {\k22}don't {\k18}know {\k20}a {\k52}thing {\k20}at {\kf108}all
+Comment: 0,0:00:50.63,0:00:52.44,Sample KM [Up],,0,0,0,karaoke,{\k18}You {\k17}don't {\k19}know {\k18}a{\k35}bout {\k24}the {\k50}way
+Comment: 0,0:00:52.44,0:00:55.91,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k50}am {\k19}when {\k56}I {\k17}am {\k53}all {\k20}a{\kf111}lone
+Comment: 0,0:00:56.42,0:00:58.81,Sample KM [Up],,0,0,0,karaoke,{\k16}You {\k19}don't {\k17}e{\k20}ven {\kf167}know
+Comment: 0,0:00:59.13,0:01:01.79,Sample KM [Up],,0,0,0,karaoke,{\k16}The {\k19}way {\k17}I {\k20}care {\k18}the {\k55}way {\k18}I've {\kf103}grown
+Comment: 0,0:01:02.18,0:01:04.02,Sample KM [Up],,0,0,0,karaoke,{\k19}You {\k19}don't {\k17}know {\k19}a{\k36}bout {\k21}the {\k53}way
+Comment: 0,0:01:04.02,0:01:07.51,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k50}love {\k22}so {\k53}deep{\k20}ly {\k51}to {\k22}my {\kf113}bones
+Comment: 0,0:01:07.97,0:01:09.85,Sample KM [Up],,0,0,0,karaoke,{\k21}You {\k14}don't {\k20}e{\k18}ven {\k43}know {\k72}me
+Comment: 0,0:01:10.70,0:01:14.28,Sample KM [Up],,0,0,0,karaoke,{\kf358}Woah
+Comment: 0,0:01:16.47,0:01:19.73,Sample KM [Up],,0,0,0,karaoke,{\kf326}Woah
+Comment: 0,0:01:21.03,0:01:21.79,Sample KM [Up],,0,0,0,karaoke,{\k76}I
+Comment: 0,0:01:22.41,0:01:24.59,Sample KM [Up],,0,0,0,karaoke,{\k19}Walk {\k20}it {\k17}off {\k20}and {\k51}brush {\k19}a{\k72}way
+Comment: 0,0:01:25.33,0:01:26.57,Sample KM [Up],,0,0,0,karaoke,{\k17}Eve{\k18}ry{\k19}thing {\k18}you {\k52}say
+Comment: 0,0:01:26.57,0:01:29.48,Sample KM [Up],,0,0,0,karaoke,{\k20}'Cause {\k18}I {\k18}don't {\k37}care, {\k18}I {\k19}don't {\k88}care {\k21}at {\k52}all
+Comment: 0,0:01:29.66,0:01:32.22,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k20}don't {\k36}care, {\k17}I {\k20}don't {\k87}care {\k23}at {\k36}all
+Comment: 0,0:01:32.56,0:01:35.10,Sample KM [Up],,0,0,0,karaoke,{\k34}He {\k38}said, {\k34}she {\k38}said, {\k27}o{\k31}ver {\k52}it
+Comment: 0,0:01:35.10,0:01:37.98,Sample KM [Up],,0,0,0,karaoke,{\k38}You're {\k33}ac{\k36}ting {\k33}like {\k40}you're {\k26}bril{\k27}li{\k55}ant
+Comment: 0,0:01:37.98,0:01:40.50,Sample KM [Up],,0,0,0,karaoke,{\k36}But {\k35}you {\k38}don't {\kf143}know
+Comment: 0,0:01:39.60,0:01:41.41,Sample KM [Choir],,0,0,0,karaoke,{\k54}You {\k37}don't {\k90}know
+Comment: 0,0:01:40.86,0:01:45.22,Sample KM [Up],,0,0,0,karaoke,{\k38}Yeah, {\k34}you {\k38}don't {\kf326}know
+Comment: 0,0:01:45.56,0:01:48.10,Sample KM [Up],,0,0,0,karaoke,{\k17}You {\k21}don't {\k16}know {\k19}a {\k52}thing {\k21}at {\kf108}all
+Comment: 0,0:01:48.45,0:01:50.27,Sample KM [Up],,0,0,0,karaoke,{\k19}You {\k18}don't {\k18}know {\k17}a{\k37}bout {\k21}the {\k52}way
+Comment: 0,0:01:50.27,0:01:53.73,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k54}am {\k19}when {\k54}I {\k20}am {\k51}all {\k20}a{\kf111}lone
+Comment: 0,0:01:54.23,0:01:56.79,Sample KM [Up],,0,0,0,karaoke,{\k18}You {\k21}don't {\k15}e{\k21}ven {\kf181}know
+Comment: 0,0:01:56.95,0:01:59.67,Sample KM [Up],,0,0,0,karaoke,{\k17}The {\k19}way {\k17}I {\k20}care {\k18}the {\k55}way {\k17}I've {\kf109}grown
+Comment: 0,0:02:00.03,0:02:01.84,Sample KM [Up],,0,0,0,karaoke,{\k17}You {\k19}don't {\k19}know {\k17}a{\k37}bout {\k20}the {\k52}way
+Comment: 0,0:02:01.84,0:02:05.34,Sample KM [Up],,0,0,0,karaoke,{\k14}I {\k56}love {\k21}so {\k50}deep{\k24}ly {\k50}to {\k20}my {\kf115}bones
+Comment: 0,0:02:05.81,0:02:07.75,Sample KM [Up],,0,0,0,karaoke,{\k18}You {\k17}don't {\k21}e{\k17}ven {\k41}know {\k80}me
+Comment: 0,0:02:08.52,0:02:13.77,Sample KM [Up],,0,0,0,karaoke,{\kf307}Woah, {\k17}you {\k20}don't {\k19}e{\k16}ven {\k36}know {\kf110}me
+Comment: 0,0:02:14.31,0:02:19.92,Sample KM [Up],,0,0,0,karaoke,{\kf305}Woah, {\k20}you {\k18}don't {\k16}e{\k19}ven {\kf183}know
+Comment: 0,0:02:20.26,0:02:22.80,Sample KM [Up],,0,0,0,karaoke,{\k16}You {\k21}don't {\k17}know {\k17}a {\k54}thing {\k20}at {\kf109}all
+Comment: 0,0:02:23.15,0:02:24.97,Sample KM [Up],,0,0,0,karaoke,{\k18}You {\k20}don't {\k18}know {\k17}a{\k37}bout {\k22}the {\k50}way
+Comment: 0,0:02:24.97,0:02:28.46,Sample KM [Up],,0,0,0,karaoke,{\k16}I {\k57}am {\k17}when {\k55}I {\k17}am {\k55}all {\k18}a{\kf114}lone
+Comment: 0,0:02:28.95,0:02:31.49,Sample KM [Up],,0,0,0,karaoke,{\k17}You {\k18}don't {\k17}e{\k19}ven {\kf183}know
+Comment: 0,0:02:31.66,0:02:34.35,Sample KM [Up],,0,0,0,karaoke,{\k16}The {\k17}way {\k20}I {\k19}care {\k18}the {\k53}way {\k19}I've {\kf107}grown
+Comment: 0,0:02:34.72,0:02:36.53,Sample KM [Up],,0,0,0,karaoke,{\k18}You {\k19}don't {\k17}know {\k20}a{\k34}bout {\k18}the {\k55}way
+Comment: 0,0:02:36.53,0:02:40.03,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k52}love {\k19}so {\k54}deep{\k23}ly {\k50}to {\k21}my {\kf112}bones
+Comment: 0,0:02:40.50,0:02:45.94,Sample KM [Up],,0,0,0,karaoke,{\k21}You {\k16}don't {\k20}e{\k17}ven {\k35}know {\kf111}me, {\kf324}oh
+Comment: 0,0:02:46.28,0:02:53.90,Sample KM [Up],,0,0,0,karaoke,{\k19}You {\k19}don't {\k15}e{\k21}ven {\k35}know {\kf144}me,{\k34} {\kf475}oh
+Dialogue: 0,0:00:10.70,0:00:12.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k74}I
+Dialogue: 0,0:00:12.13,0:00:15.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Walk {\k16}in{\k16}to {\k18}a {\k57}crow{\k19}ded {\k86}room
+Dialogue: 0,0:00:15.03,0:00:17.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Eve{\k20}ry{\k17}bo{\k21}dy {\k54}sta{\k17}ring
+Dialogue: 0,0:00:16.49,0:00:20.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}What {\k19}did {\k37}I, {\k20}what {\k17}did {\k85}I {\k22}do {\k63}wrong?
+Dialogue: 0,0:00:19.39,0:00:23.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}What {\k17}did {\k41}I, {\k13}what {\k21}did {\k87}I {\k20}do {\k44}wrong?
+Dialogue: 0,0:00:22.21,0:00:24.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k80}Oh
+Dialogue: 0,0:00:23.67,0:00:26.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k20}see {\k18}what {\k21}you {\k50}wan{\k20}na {\k74}see
+Dialogue: 0,0:00:26.41,0:00:29.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}But {\k18}you {\k18}don't {\k17}e{\k21}ven {\k52}know {\k24}me
+Dialogue: 0,0:00:28.09,0:00:32.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}What {\k16}did {\k38}I, {\k19}what {\k18}did {\k87}I {\k21}do {\k72}now?
+Dialogue: 0,0:00:30.94,0:00:34.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}What {\k20}did {\k34}I, {\k21}what {\k18}did {\k88}I {\k18}do {\k56}now?
+Dialogue: 0,0:00:33.83,0:00:37.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}He {\k37}said, {\k34}she {\k38}said, {\k28}o{\k31}ver {\k53}it
+Dialogue: 0,0:00:36.37,0:00:40.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}You're {\k21}ac{\k37}ting {\k31}like {\k44}you're {\k23}bril{\k28}li{\k55}ant
+Dialogue: 0,0:00:39.25,0:00:42.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}But {\k46}you {\k41}don't {\kf144}know
+Dialogue: 0,0:00:42.11,0:00:47.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Yeah, {\k34}you {\k41}don't {\kf321}know
+Dialogue: 0,0:00:46.82,0:00:50.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}You {\k22}don't {\k18}know {\k20}a {\k52}thing {\k20}at {\kf108}all
+Dialogue: 0,0:00:49.73,0:00:52.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k17}don't {\k19}know {\k18}a{\k35}bout {\k24}the {\k50}way
+Dialogue: 0,0:00:51.54,0:00:56.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k50}am {\k19}when {\k56}I {\k17}am {\k53}all {\k20}a{\kf111}lone
+Dialogue: 0,0:00:55.52,0:00:59.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}You {\k19}don't {\k17}e{\k20}ven {\kf167}know
+Dialogue: 0,0:00:58.23,0:01:01.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}The {\k19}way {\k17}I {\k20}care {\k18}the {\k55}way {\k18}I've {\kf103}grown
+Dialogue: 0,0:01:01.28,0:01:04.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}You {\k19}don't {\k17}know {\k19}a{\k36}bout {\k21}the {\k53}way
+Dialogue: 0,0:01:03.12,0:01:07.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k50}love {\k22}so {\k53}deep{\k20}ly {\k51}to {\k22}my {\kf113}bones
+Dialogue: 0,0:01:07.07,0:01:10.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}You {\k14}don't {\k20}e{\k18}ven {\k43}know {\k72}me
+Dialogue: 0,0:01:09.80,0:01:14.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf358}Woah
+Dialogue: 0,0:01:15.57,0:01:19.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf326}Woah
+Dialogue: 0,0:01:20.13,0:01:21.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k76}I
+Dialogue: 0,0:01:21.51,0:01:24.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Walk {\k20}it {\k17}off {\k20}and {\k51}brush {\k19}a{\k72}way
+Dialogue: 0,0:01:24.43,0:01:26.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Eve{\k18}ry{\k19}thing {\k18}you {\k52}say
+Dialogue: 0,0:01:25.67,0:01:29.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}'Cause {\k18}I {\k18}don't {\k37}care, {\k18}I {\k19}don't {\k88}care {\k21}at {\k52}all
+Dialogue: 0,0:01:28.76,0:01:32.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k20}don't {\k36}care, {\k17}I {\k20}don't {\k87}care {\k23}at {\k36}all
+Dialogue: 0,0:01:31.66,0:01:35.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}He {\k38}said, {\k34}she {\k38}said, {\k27}o{\k31}ver {\k52}it
+Dialogue: 0,0:01:34.20,0:01:38.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}You're {\k33}ac{\k36}ting {\k33}like {\k40}you're {\k26}bril{\k27}li{\k55}ant
+Dialogue: 0,0:01:37.08,0:01:40.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}But {\k35}you {\k38}don't {\kf143}know
+Dialogue: 0,0:01:38.70,0:01:41.61,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k54}You {\k37}don't {\k90}know
+Dialogue: 0,0:01:39.96,0:01:45.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Yeah, {\k34}you {\k38}don't {\kf326}know
+Dialogue: 0,0:01:44.66,0:01:48.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}You {\k21}don't {\k16}know {\k19}a {\k52}thing {\k21}at {\kf108}all
+Dialogue: 0,0:01:47.55,0:01:50.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}You {\k18}don't {\k18}know {\k17}a{\k37}bout {\k21}the {\k52}way
+Dialogue: 0,0:01:49.37,0:01:53.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k54}am {\k19}when {\k54}I {\k20}am {\k51}all {\k20}a{\kf111}lone
+Dialogue: 0,0:01:53.33,0:01:56.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k21}don't {\k15}e{\k21}ven {\kf181}know
+Dialogue: 0,0:01:56.05,0:01:59.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}The {\k19}way {\k17}I {\k20}care {\k18}the {\k55}way {\k17}I've {\kf109}grown
+Dialogue: 0,0:01:59.13,0:02:02.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}You {\k19}don't {\k19}know {\k17}a{\k37}bout {\k20}the {\k52}way
+Dialogue: 0,0:02:00.94,0:02:05.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}I {\k56}love {\k21}so {\k50}deep{\k24}ly {\k50}to {\k20}my {\kf115}bones
+Dialogue: 0,0:02:04.91,0:02:07.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k17}don't {\k21}e{\k17}ven {\k41}know {\k80}me
+Dialogue: 0,0:02:07.62,0:02:13.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf307}Woah, {\k17}you {\k20}don't {\k19}e{\k16}ven {\k36}know {\kf110}me
+Dialogue: 0,0:02:13.41,0:02:20.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf305}Woah, {\k20}you {\k18}don't {\k16}e{\k19}ven {\kf183}know
+Dialogue: 0,0:02:19.36,0:02:23.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}You {\k21}don't {\k17}know {\k17}a {\k54}thing {\k20}at {\kf109}all
+Dialogue: 0,0:02:22.25,0:02:25.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k20}don't {\k18}know {\k17}a{\k37}bout {\k22}the {\k50}way
+Dialogue: 0,0:02:24.07,0:02:28.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k57}am {\k17}when {\k55}I {\k17}am {\k55}all {\k18}a{\kf114}lone
+Dialogue: 0,0:02:28.05,0:02:31.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}You {\k18}don't {\k17}e{\k19}ven {\kf183}know
+Dialogue: 0,0:02:30.76,0:02:34.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}The {\k17}way {\k20}I {\k19}care {\k18}the {\k53}way {\k19}I've {\kf107}grown
+Dialogue: 0,0:02:33.82,0:02:36.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k19}don't {\k17}know {\k20}a{\k34}bout {\k18}the {\k55}way
+Dialogue: 0,0:02:35.63,0:02:40.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k52}love {\k19}so {\k54}deep{\k23}ly {\k50}to {\k21}my {\kf112}bones
+Dialogue: 0,0:02:39.60,0:02:46.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}You {\k16}don't {\k20}e{\k17}ven {\k35}know {\kf111}me, {\kf324}oh
+Dialogue: 0,0:02:45.38,0:02:54.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}You {\k19}don't {\k15}e{\k21}ven {\k35}know {\kf144}me,{\k34} {\kf475}oh
