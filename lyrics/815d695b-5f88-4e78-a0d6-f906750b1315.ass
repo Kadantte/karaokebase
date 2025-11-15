@@ -1,0 +1,113 @@
+﻿[Script Info]
+Title: Never Run
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:17.41,0:00:19.69,Sample KM [Up],,0,0,0,karaoke,{\k13}Ne{\k14}ver {\k32}run,{\k27} {\k14}I {\k13}don’t {\k16}wan{\k12}na {\k16}fall {\k15}to {\k27}pie{\k29}ces
+Comment: 0,0:00:19.69,0:00:21.98,Sample KM [Up],,0,0,0,karaoke,{\k14}Ne{\k13}ver {\k21}run,{\k34} {\k17}cuz {\k14}you {\k15}know {\k15}how {\k14}much {\k16}I {\k28}need {\k28}this
+Comment: 0,0:00:21.98,0:00:24.55,Sample KM [Up],,0,0,0,karaoke,{\k14}Ne{\k15}ver {\k27}run,{\k28} {\k31}with{\k24}out {\k28}you {\k33}I’d {\k25}be {\k17}shat{\k15}tered
+Comment: 0,0:00:24.55,0:00:26.09,Sample KM [Up],,0,0,0,karaoke,{\k15}And {\k27}you {\k16}are {\k12}the {\k26}dif{\k16}fe{\k42}rence
+Comment: 0,0:00:26.83,0:00:28.87,Sample KM [Up],,0,0,0,karaoke,{\k31}You {\k41}know {\k28}all {\k29}of {\k15}my {\k28}de{\k32}mons
+Comment: 0,0:00:29.01,0:00:31.97,Sample KM [Up],,0,0,0,karaoke,{\k11}Are {\k26}you {\k47}scared, {\k30}all {\k24}of {\k16}my {\k26}weak{\k29}ness {\k30}might {\k29}come {\k28}down
+Comment: 0,0:00:32.12,0:00:34.55,Sample KM [Up],,0,0,0,karaoke,{\k26}Cra{\k29}shing {\k44}through {\k27}the {\k59}cei{\k58}ling
+Comment: 0,0:00:34.55,0:00:35.79,Sample KM [Up],,0,0,0,karaoke,{\k28}All {\k14}be{\k29}cause {\k28}of {\k25}me
+Comment: 0,0:00:35.98,0:00:37.86,Sample KM [Up],,0,0,0,karaoke,{\k27}All {\k44}these {\k27}things {\k29}I’ve {\k16}been {\k26}fee{\k19}ling
+Comment: 0,0:00:38.24,0:00:40.54,Sample KM [Up],,0,0,0,karaoke,{\k30}Sleep{\k26}less,{\k14} {\k33}some{\k28}how {\k14}you {\k28}bring {\k29}me {\k28}back
+Comment: 0,0:00:40.54,0:00:45.40,Sample KM [Up],,0,0,0,karaoke,{\k29}When {\k42}I’m {\k29}at {\k28}the {\k31}edge {\k13}of {\k28}my {\k56}rea{\k57}son, {\k58}take {\k43}me {\k72}home
+Comment: 0,0:00:45.93,0:00:49.40,Sample KM [Up],,0,0,0,karaoke,{\k61}Go{\k30}ing {\k54}un{\k60}der {\k32}qui{\k25}et{\k85}ly
+Comment: 0,0:00:50.51,0:00:54.41,Sample KM [Up],,0,0,0,karaoke,{\k32}Cuz {\k29}I’d {\k28}ra{\k16}ther {\k69}paint {\k58}my {\k57}face {\k29}and {\k72}lie
+Comment: 0,0:00:54.82,0:00:59.29,Sample KM [Up],,0,0,0,karaoke,{\k28}Than {\k33}stare {\k24}in {\k31}the {\k85}mir{\k12}ror {\k16}and {\k87}dare {\k25}to {\kf106}try
+Comment: 0,0:00:59.66,0:01:01.98,Sample KM [Up],,0,0,0,karaoke,{\k44}Don’t {\k20}let {\k31}me {\k26}pre{\kf111}tend
+Comment: 0,0:01:03.11,0:01:05.40,Sample KM [Up],,0,0,0,karaoke,{\k15}Ne{\k16}ver {\k25}run,{\k30} {\k14}I {\k15}don’t {\k14}wan{\k14}na {\k15}fall {\k15}to {\k26}pie{\k30}ces
+Comment: 0,0:01:05.40,0:01:07.69,Sample KM [Up],,0,0,0,karaoke,{\k13}Ne{\k17}ver {\k26}run,{\k26} {\k17}cuz {\k16}you {\k14}know {\k13}how {\k16}much {\k14}I {\k28}need {\k29}this
+Comment: 0,0:01:07.69,0:01:10.26,Sample KM [Up],,0,0,0,karaoke,{\k14}Ne{\k14}ver {\k30}run,{\k27} {\k29}with{\k27}out {\k30}you {\k29}I’d {\k26}be {\k17}shat{\k14}tered
+Comment: 0,0:01:10.26,0:01:11.82,Sample KM [Up],,0,0,0,karaoke,{\k15}And {\k27}you {\k15}are {\k15}the {\k26}dif{\k16}fe{\k42}rence
+Comment: 0,0:01:11.96,0:01:14.55,Sample KM [Up],,0,0,0,karaoke,{\k30}So {\k13}ne{\k15}ver {\k28}run,{\k30} {\k13}I {\k15}don’t {\k14}wan{\k13}na {\k16}fall {\k15}to {\k27}pie{\k30}ces
+Comment: 0,0:01:14.55,0:01:16.84,Sample KM [Up],,0,0,0,karaoke,{\k13}Ne{\k15}ver {\k24}run,{\k29} {\k18}cuz {\k15}you {\k14}know {\k14}how {\k13}much {\k17}I {\k26}need {\k31}this
+Comment: 0,0:01:16.84,0:01:20.83,Sample KM [Up],,0,0,0,karaoke,{\k14}Ne{\k13}ver {\k28}run,{\k29} {\k30}you {\k28}bring {\k28}me {\k29}back {\k28}when {\k13}all {\k16}of {\k14}my {\k29}mind {\k27}is {\k29}use{\k44}less
+Comment: 0,0:01:20.83,0:01:21.64,Sample KM [Up],,0,0,0,karaoke,{\k28}Ne{\k31}ver {\k22}run
+Comment: 0,0:01:21.97,0:01:24.10,Sample KM [Up],,0,0,0,karaoke,{\k38}I’m{\k19} {\k33}wide{\k24} {\k57}a{\k42}wake
+Comment: 0,0:01:24.28,0:01:26.33,Sample KM [Up],,0,0,0,karaoke,{\k26}Coun{\k30}ting {\k26}e{\k19}ve{\k38}ry {\k28}mis{\k38}take
+Comment: 0,0:01:26.55,0:01:30.82,Sample KM [Up],,0,0,0,karaoke,{\k16}Eve{\k21}ry{\k19} {\k18}time {\k21}I{\k17} {\k17}let {\k41}you {\k29}down {\k29}and {\k29}down {\k28}and {\k29}da {\k32}la {\k25}la {\k28}la {\k28}la
+Comment: 0,0:01:31.10,0:01:34.11,Sample KM [Up],,0,0,0,karaoke,{\k44}Caught {\k43}by {\k43}my {\k41}past {\k46}days {\k27}in {\k12}mi{\k19}se{\k26}ry
+Comment: 0,0:01:34.41,0:01:36.22,Sample KM [Up],,0,0,0,karaoke,{\k27}Like {\k29}I'm {\k14}a {\k15}pri{\k15}so{\k28}ner, {\k28}ye{\k25}ah
+Comment: 0,0:01:36.55,0:01:40.27,Sample KM [Up],,0,0,0,karaoke,{\k30}Like{\k26} {\k29}my {\k57}heart {\k56}is {\k42}pa{\k61}ra{\k71}lyzed
+Comment: 0,0:01:40.84,0:01:44.26,Sample KM [Up],,0,0,0,karaoke,{\k56}Go{\k29}ing {\k56}un{\k58}der {\k31}qui{\k26}et{\k86}ly
+Comment: 0,0:01:44.09,0:01:45.98,Sample KM [Choir],,0,0,0,karaoke,{\k18}Qui{\k28}et{\kf143}ly
+Comment: 0,0:01:45.39,0:01:49.39,Sample KM [Up],,0,0,0,karaoke,{\k27}Cuz {\k31}I’d {\k27}ra{\k17}ther {\k70}paint {\k55}my {\k58}face {\k30}and {\k85}lie
+Comment: 0,0:01:49.67,0:01:53.95,Sample KM [Up],,0,0,0,karaoke,{\k28}Than {\k30}stare {\k29}in {\k29}the {\k85}mir{\k13}ror {\k15}and {\k88}dare {\k23}to {\k88}try
+Comment: 0,0:01:54.53,0:01:56.84,Sample KM [Up],,0,0,0,karaoke,{\k42}Don’t {\k20}let {\k33}me {\k25}pre{\kf111}tend
+Comment: 0,0:01:57.98,0:02:00.26,Sample KM [Up],,0,0,0,karaoke,{\k14}Ne{\k11}ver {\k36}run,{\k24} {\k14}I {\k14}don’t {\k16}wan{\k13}na {\k15}fall {\k14}to {\k27}pie{\k30}ces
+Comment: 0,0:02:00.26,0:02:02.57,Sample KM [Up],,0,0,0,karaoke,{\k16}Ne{\k15}ver {\k21}run,{\k31} {\k18}cuz {\k13}you {\k14}know {\k13}how {\k17}much {\k13}I {\k30}need {\k30}this
+Comment: 0,0:02:02.57,0:02:05.10,Sample KM [Up],,0,0,0,karaoke,{\k11}Ne{\k13}ver {\k35}run,{\k23} {\k31}with{\k27}out {\k30}you {\k29}I’d {\k23}be {\k18}shat{\k13}tered
+Comment: 0,0:02:05.10,0:02:09.06,Sample KM [Up],,0,0,0,karaoke,{\k16}And {\k18}you {\k13}are {\k28}the {\k29}dif{\k23}fe{\kf269}rence
+Comment: 0,0:02:09.08,0:02:11.68,Sample KM [Up],,0,0,0,karaoke,{\k31}Just {\k15}ne{\k14}ver {\k29}run,{\k30} {\k12}I {\k15}don’t {\k14}wan{\k15}na {\k14}fall {\k14}to {\k28}pie{\k29}ces
+Comment: 0,0:02:11.68,0:02:13.97,Sample KM [Up],,0,0,0,karaoke,{\k14}Ne{\k17}ver {\k25}run,{\k27} {\k18}cuz {\k14}you {\k14}know {\k14}how {\k16}much {\k14}I {\k28}need {\k28}this
+Comment: 0,0:02:13.97,0:02:16.55,Sample KM [Up],,0,0,0,karaoke,{\k14}Ne{\k15}ver {\k28}run,{\k29} {\k27}with{\k27}out {\k32}you {\k29}I’d {\k25}be {\k16}shat{\k16}tered
+Comment: 0,0:02:16.55,0:02:18.09,Sample KM [Up],,0,0,0,karaoke,{\k14}And {\k28}you {\k15}are {\k14}the {\k27}dif{\k15}fe{\k41}rence
+Comment: 0,0:02:18.23,0:02:20.81,Sample KM [Up],,0,0,0,karaoke,{\k32}So {\k13}ne{\k15}ver {\k27}run,{\k30} {\k14}I {\k15}don’t {\k13}wan{\k14}na {\k14}fall {\k16}to {\k27}pie{\k28}ces
+Comment: 0,0:02:19.69,0:02:23.82,Sample KM [Choir],,0,0,0,karaoke,{\k28}mou {\k13}ni{\k29}ge{\k32}da{\k26}shi{\k15}na{\k27}i{\k39} {\k32}ki{\k15}mi {\k14}shi{\k34}te {\k21}ha{\k31}te{\k16}na{\k41}i
+Comment: 0,0:02:20.81,0:02:23.12,Sample KM [Up],,0,0,0,karaoke,{\k16}Ne{\k14}ver {\k28}run,{\k27} {\k13}cuz {\k16}you {\k16}know {\k13}how {\k15}much {\k16}I {\k29}need {\k28}this
+Comment: 0,0:02:23.12,0:02:27.11,Sample KM [Up],,0,0,0,karaoke,{\k14}Ne{\k14}ver {\k27}run,{\k29} {\k30}you {\k29}bring {\k28}me {\k28}back {\k29}when {\k13}all {\k15}of {\k16}my {\k27}mind {\k29}is {\k28}use{\k43}less
+Comment: 0,0:02:27.11,0:02:28.55,Sample KM [Up],,0,0,0,karaoke,{\k28}Ne{\k18}ver {\k98}run
+Dialogue: 0,0:00:16.51,0:00:19.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Ne{\k14}ver {\k32}run,{\k27} {\k14}I {\k13}don’t {\k16}wan{\k12}na {\k16}fall {\k15}to {\k27}pie{\k29}ces
+Dialogue: 0,0:00:18.79,0:00:22.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ne{\k13}ver {\k21}run,{\k34} {\k17}cuz {\k14}you {\k15}know {\k15}how {\k14}much {\k16}I {\k28}need {\k28}this
+Dialogue: 0,0:00:21.08,0:00:24.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ne{\k15}ver {\k27}run,{\k28} {\k31}with{\k24}out {\k28}you {\k33}I’d {\k25}be {\k17}shat{\k15}tered
+Dialogue: 0,0:00:23.65,0:00:26.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}And {\k27}you {\k16}are {\k12}the {\k26}dif{\k16}fe{\k42}rence
+Dialogue: 0,0:00:25.93,0:00:29.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}You {\k41}know {\k28}all {\k29}of {\k15}my {\k28}de{\k32}mons
+Dialogue: 0,0:00:28.11,0:00:32.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Are {\k26}you {\k47}scared, {\k30}all {\k24}of {\k16}my {\k26}weak{\k29}ness {\k30}might {\k29}come {\k28}down
+Dialogue: 0,0:00:31.22,0:00:34.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Cra{\k29}shing {\k44}through {\k27}the {\k59}cei{\k58}ling
+Dialogue: 0,0:00:33.65,0:00:35.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}All {\k14}be{\k29}cause {\k28}of {\k25}me
+Dialogue: 0,0:00:35.08,0:00:38.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}All {\k44}these {\k27}things {\k29}I’ve {\k16}been {\k26}fee{\k19}ling
+Dialogue: 0,0:00:37.34,0:00:40.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Sleep{\k26}less,{\k14} {\k33}some{\k28}how {\k14}you {\k28}bring {\k29}me {\k28}back
+Dialogue: 0,0:00:39.64,0:00:45.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}When {\k42}I’m {\k29}at {\k28}the {\k31}edge {\k13}of {\k28}my {\k56}rea{\k57}son, {\k58}take {\k43}me {\k72}home
+Dialogue: 0,0:00:45.03,0:00:49.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}Go{\k30}ing {\k54}un{\k60}der {\k32}qui{\k25}et{\k85}ly
+Dialogue: 0,0:00:49.61,0:00:54.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Cuz {\k29}I’d {\k28}ra{\k16}ther {\k69}paint {\k58}my {\k57}face {\k29}and {\k72}lie
+Dialogue: 0,0:00:53.92,0:00:59.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Than {\k33}stare {\k24}in {\k31}the {\k85}mir{\k12}ror {\k16}and {\k87}dare {\k25}to {\kf106}try
+Dialogue: 0,0:00:58.76,0:01:02.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Don’t {\k20}let {\k31}me {\k26}pre{\kf111}tend
+Dialogue: 0,0:01:02.21,0:01:05.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Ne{\k16}ver {\k25}run,{\k30} {\k14}I {\k15}don’t {\k14}wan{\k14}na {\k15}fall {\k15}to {\k26}pie{\k30}ces
+Dialogue: 0,0:01:04.50,0:01:07.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Ne{\k17}ver {\k26}run,{\k26} {\k17}cuz {\k16}you {\k14}know {\k13}how {\k16}much {\k14}I {\k28}need {\k29}this
+Dialogue: 0,0:01:06.79,0:01:10.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ne{\k14}ver {\k30}run,{\k27} {\k29}with{\k27}out {\k30}you {\k29}I’d {\k26}be {\k17}shat{\k14}tered
+Dialogue: 0,0:01:09.36,0:01:12.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}And {\k27}you {\k15}are {\k15}the {\k26}dif{\k16}fe{\k42}rence
+Dialogue: 0,0:01:11.06,0:01:14.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}So {\k13}ne{\k15}ver {\k28}run,{\k30} {\k13}I {\k15}don’t {\k14}wan{\k13}na {\k16}fall {\k15}to {\k27}pie{\k30}ces
+Dialogue: 0,0:01:13.65,0:01:17.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Ne{\k15}ver {\k24}run,{\k29} {\k18}cuz {\k15}you {\k14}know {\k14}how {\k13}much {\k17}I {\k26}need {\k31}this
+Dialogue: 0,0:01:15.94,0:01:21.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ne{\k13}ver {\k28}run,{\k29} {\k30}you {\k28}bring {\k28}me {\k29}back {\k28}when {\k13}all {\k16}of {\k14}my {\k29}mind {\k27}is {\k29}use{\k44}less
+Dialogue: 0,0:01:19.93,0:01:21.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Ne{\k31}ver {\k22}run
+Dialogue: 0,0:01:21.07,0:01:24.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}I’m{\k19} {\k33}wide{\k24} {\k57}a{\k42}wake
+Dialogue: 0,0:01:23.38,0:01:26.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Coun{\k30}ting {\k26}e{\k19}ve{\k38}ry {\k28}mis{\k38}take
+Dialogue: 0,0:01:25.65,0:01:31.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Eve{\k21}ry{\k19} {\k18}time {\k21}I{\k17} {\k17}let {\k41}you {\k29}down {\k29}and {\k29}down {\k28}and {\k29}da {\k32}la {\k25}la {\k28}la {\k28}la
+Dialogue: 0,0:01:30.20,0:01:34.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Caught {\k43}by {\k43}my {\k41}past {\k46}days {\k27}in {\k12}mi{\k19}se{\k26}ry
+Dialogue: 0,0:01:33.51,0:01:36.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Like {\k29}I'm {\k14}a {\k15}pri{\k15}so{\k28}ner, {\k28}ye{\k25}ah
+Dialogue: 0,0:01:35.65,0:01:40.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Like{\k26} {\k29}my {\k57}heart {\k56}is {\k42}pa{\k61}ra{\k71}lyzed
+Dialogue: 0,0:01:39.94,0:01:44.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k56}Go{\k29}ing {\k56}un{\k58}der {\k31}qui{\k26}et{\k86}ly
+Dialogue: 0,0:01:43.19,0:01:46.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Qui{\k28}et{\kf143}ly
+Dialogue: 0,0:01:44.49,0:01:49.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Cuz {\k31}I’d {\k27}ra{\k17}ther {\k70}paint {\k55}my {\k58}face {\k30}and {\k85}lie
+Dialogue: 0,0:01:48.77,0:01:54.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Than {\k30}stare {\k29}in {\k29}the {\k85}mir{\k13}ror {\k15}and {\k88}dare {\k23}to {\k88}try
+Dialogue: 0,0:01:53.63,0:01:57.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Don’t {\k20}let {\k33}me {\k25}pre{\kf111}tend
+Dialogue: 0,0:01:57.08,0:02:00.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ne{\k11}ver {\k36}run,{\k24} {\k14}I {\k14}don’t {\k16}wan{\k13}na {\k15}fall {\k14}to {\k27}pie{\k30}ces
+Dialogue: 0,0:01:59.36,0:02:02.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ne{\k15}ver {\k21}run,{\k31} {\k18}cuz {\k13}you {\k14}know {\k13}how {\k17}much {\k13}I {\k30}need {\k30}this
+Dialogue: 0,0:02:01.67,0:02:05.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Ne{\k13}ver {\k35}run,{\k23} {\k31}with{\k27}out {\k30}you {\k29}I’d {\k23}be {\k18}shat{\k13}tered
+Dialogue: 0,0:02:04.20,0:02:09.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}And {\k18}you {\k13}are {\k28}the {\k29}dif{\k23}fe{\kf269}rence
+Dialogue: 0,0:02:08.18,0:02:11.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Just {\k15}ne{\k14}ver {\k29}run,{\k30} {\k12}I {\k15}don’t {\k14}wan{\k15}na {\k14}fall {\k14}to {\k28}pie{\k29}ces
+Dialogue: 0,0:02:10.78,0:02:14.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ne{\k17}ver {\k25}run,{\k27} {\k18}cuz {\k14}you {\k14}know {\k14}how {\k16}much {\k14}I {\k28}need {\k28}this
+Dialogue: 0,0:02:13.07,0:02:16.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ne{\k15}ver {\k28}run,{\k29} {\k27}with{\k27}out {\k32}you {\k29}I’d {\k25}be {\k16}shat{\k16}tered
+Dialogue: 0,0:02:15.65,0:02:18.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}And {\k28}you {\k15}are {\k14}the {\k27}dif{\k15}fe{\k41}rence
+Dialogue: 0,0:02:17.33,0:02:21.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}So {\k13}ne{\k15}ver {\k27}run,{\k30} {\k14}I {\k15}don’t {\k13}wan{\k14}na {\k14}fall {\k16}to {\k27}pie{\k28}ces
+Dialogue: 0,0:02:18.79,0:02:24.02,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}mou {\k13}ni{\k29}ge{\k32}da{\k26}shi{\k15}na{\k27}i{\k39} {\k32}ki{\k15}mi {\k14}shi{\k34}te {\k21}ha{\k31}te{\k16}na{\k41}i
+Dialogue: 0,0:02:19.91,0:02:23.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ne{\k14}ver {\k28}run,{\k27} {\k13}cuz {\k16}you {\k16}know {\k13}how {\k15}much {\k16}I {\k29}need {\k28}this
+Dialogue: 0,0:02:22.22,0:02:27.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ne{\k14}ver {\k27}run,{\k29} {\k30}you {\k29}bring {\k28}me {\k28}back {\k29}when {\k13}all {\k15}of {\k16}my {\k27}mind {\k29}is {\k28}use{\k43}less
+Dialogue: 0,0:02:26.21,0:02:28.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Ne{\k18}ver {\k98}run
