@@ -1,0 +1,141 @@
+﻿[Script Info]
+Title: Puppet
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:06.85,0:00:09.91,Sample KM [Choir],,0,0,0,karaoke,{\k25}ḥ{\k20}rīẗ {\k21}i{\k56}ya {\k86}ya {\k40}ah {\k29}ah {\k29}ah
+Comment: 0,0:00:10.55,0:00:13.10,Sample KM [Choir],,0,0,0,karaoke,{\k25}ḥ{\k20}rīẗ {\k21}i{\k52}ya,{\k20} {\k25}ḥ{\k20}rīẗ {\k24}i{\k48}ya
+Comment: 0,0:00:12.60,0:00:15.96,Sample KM [Up],,0,0,0,karaoke,{\k25}Good{\k23}bye {\k20}to {\k29}the {\k42}one {\k24}that {\k26}I {\k45}once {\kf102}knew
+Comment: 0,0:00:16.30,0:00:19.62,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k26}could {\k23}ne{\k24}ver {\k46}change {\k23}just {\k23}to {\k47}love {\k99}you
+Comment: 0,0:00:19.91,0:00:21.56,Sample KM [Up],,0,0,0,karaoke,{\k29}Looked {\k28}me {\k24}in {\k24}my {\k60}face
+Comment: 0,0:00:21.85,0:00:23.43,Sample KM [Up],,0,0,0,karaoke,{\k22}Said {\k21}I {\k25}was {\k26}in{\k64}sane
+Comment: 0,0:00:23.66,0:00:27.29,Sample KM [Up],,0,0,0,karaoke,{\k28}Play{\k21}ing {\k22}all {\k25}your {\k24}lit{\k25}tle {\k87}games, {\k50}games, {\k81}games
+Comment: 0,0:00:27.40,0:00:28.31,Sample KM [Choir],,0,0,0,karaoke,{\k27}Oh {\k18}oh {\k46}oh
+Comment: 0,0:00:28.31,0:00:29.70,Sample KM [Up],,0,0,0,karaoke,{\k24}Tried {\k21}to {\k23}dim {\k20}my {\k51}flame
+Comment: 0,0:00:29.93,0:00:31.54,Sample KM [Up],,0,0,0,karaoke,{\k20}I {\k58}shine{\k38} {\k25}brigh{\k20}ter
+Comment: 0,0:00:31.54,0:00:33.40,Sample KM [Up],,0,0,0,karaoke,{\k25}And {\k21}you {\k25}tried {\k19}to {\k25}dull {\k22}my {\k49}blade
+Comment: 0,0:00:33.61,0:00:35.24,Sample KM [Up],,0,0,0,karaoke,{\k22}Well {\k50}keep{\k39} {\k30}try{\k22}ing
+Comment: 0,0:00:35.24,0:00:38.11,Sample KM [Up],,0,0,0,karaoke,{\k22}And {\k21}you {\k24}tried {\k21}to {\k26}pull {\k25}me {\k57}un{\k33}{\k58}der
+Comment: 0,0:00:38.46,0:00:40.01,Sample KM [Up],,0,0,0,karaoke,{\k23}Said {\k23}I {\k22}was {\k25}too {\k62}much
+Comment: 0,0:00:40.25,0:00:41.83,Sample KM [Up],,0,0,0,karaoke,{\k30}You’re {\k22}just {\k23}not {\k22}e{\k61}nough
+Comment: 0,0:00:42.16,0:00:44.50,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k24}was {\k25}born {\k21}to {\k65}dance,{\k27} {\k50}dance
+Comment: 0,0:00:44.66,0:00:48.27,Sample KM [Up],,0,0,0,karaoke,{\k25}Could {\k24}ne{\k24}ver {\k44}tie {\k47}strings {\k22}to {\k26}my {\k63}hands,{\k28} {\k58}hands
+Comment: 0,0:00:48.43,0:00:52.39,Sample KM [Up],,0,0,0,karaoke,{\k40}You {\k26}could {\k44}on{\k47}ly {\k22}love {\k25}a {\k24}pu-{\k22}{\k28}pu-{\k18}{\k24}pup{\k76}pet
+Comment: 0,0:00:52.77,0:00:56.30,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k24}could {\k23}ne{\k22}ver {\k18}be {\k30}a {\k21}pu-{\k24}{\k25}pu-{\k20}{\k26}pup{\k97}pet
+Comment: 0,0:00:56.93,0:00:59.37,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k23}was {\k23}born {\k22}to {\k69}dance,{\k25} {\k59}dance
+Comment: 0,0:00:59.47,0:01:03.04,Sample KM [Up],,0,0,0,karaoke,{\k24}Could {\k22}ne{\k24}ver {\k43}tie {\k49}strings {\k23}to {\k24}my {\k61}hands,{\k28} {\k59}hands
+Comment: 0,0:01:03.23,0:01:07.09,Sample KM [Up],,0,0,0,karaoke,{\k39}You {\k23}could {\k45}on{\k47}ly {\k23}love {\k24}a {\k21}pu-{\k24}{\k25}pu-{\k21}{\k25}pup{\k69}pet
+Comment: 0,0:01:07.55,0:01:10.84,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k22}could {\k23}ne{\k24}ver {\k22}be {\k24}a {\k23}pu-{\k22}{\k25}pu-{\k22}{\k24}pup{\k75}pet
+Comment: 0,0:01:11.69,0:01:15.02,Sample KM [Up],,0,0,0,karaoke,{\k24}Hel{\k22}lo {\k24}to {\k23}the {\k46}one {\k25}that {\k22}I {\k46}am {\kf101}now
+Comment: 0,0:01:15.37,0:01:18.77,Sample KM [Up],,0,0,0,karaoke,{\k26}Guess {\k23}it {\k22}di{\k23}dn’t {\k46}go {\k21}how {\k24}you {\k48}planned {\kf107}out
+Comment: 0,0:01:19.08,0:01:20.46,Sample KM [Up],,0,0,0,karaoke,{\k22}Lit{\k25}tle {\k22}did {\k24}you {\k45}know
+Comment: 0,0:01:20.69,0:01:22.32,Sample KM [Up],,0,0,0,karaoke,{\k23}I’m {\k25}my {\k21}own {\k23}Gep{\k24}pet{\k47}to
+Comment: 0,0:01:22.52,0:01:26.22,Sample KM [Up],,0,0,0,karaoke,{\k25}And {\k25}now {\k21}you {\k21}get {\k21}to {\k24}watch {\k25}me {\k89}go, {\k49}go, {\k70}go
+Comment: 0,0:01:26.45,0:01:27.39,Sample KM [Choir],,0,0,0,karaoke,{\k25}Oh {\k23}oh {\k23}oh {\k23}oh
+Comment: 0,0:01:27.39,0:01:30.62,Sample KM [Up],,0,0,0,karaoke,{\k23}Tried {\k23}to {\k22}dim {\k22}my {\k47}flame{\k27} {\k20}I {\k58}shine{\k33} {\k27}brigh{\k21}ter
+Comment: 0,0:01:30.62,0:01:32.46,Sample KM [Up],,0,0,0,karaoke,{\k23}And {\k22}you {\k27}tried {\k20}to {\k22}dull {\k24}my {\k46}blade
+Comment: 0,0:01:32.70,0:01:34.31,Sample KM [Up],,0,0,0,karaoke,{\k23}Well {\k37}keep{\k54} {\k22}try{\k25}ing
+Comment: 0,0:01:34.31,0:01:37.09,Sample KM [Up],,0,0,0,karaoke,{\k24}And {\k22}you {\k23}tried {\k23}to {\k24}pull {\k23}me {\k59}un{\k33}{\k47}der
+Comment: 0,0:01:37.54,0:01:39.10,Sample KM [Up],,0,0,0,karaoke,{\k22}Said {\k23}I {\k23}was {\k26}too {\k62}much
+Comment: 0,0:01:39.32,0:01:40.93,Sample KM [Up],,0,0,0,karaoke,{\k30}You’re {\k24}just {\k23}not {\k21}e{\k63}nough
+Comment: 0,0:01:41.23,0:01:43.59,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k24}was {\k23}born {\k23}to {\k62}dance,{\k29} {\k51}dance
+Comment: 0,0:01:43.75,0:01:47.35,Sample KM [Up],,0,0,0,karaoke,{\k24}Could {\k24}ne{\k23}ver {\k45}tie {\k48}strings {\k20}to {\k25}my {\k63}hands,{\k30} {\k58}hands
+Comment: 0,0:01:47.51,0:01:51.44,Sample KM [Up],,0,0,0,karaoke,{\k41}You {\k25}could {\k44}on{\k47}ly {\k22}love {\k24}a {\k23}pu-{\k24}{\k25}pu-{\k20}{\k26}pup{\k72}pet
+Comment: 0,0:01:51.84,0:01:55.36,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k24}could {\k23}ne{\k23}ver {\k20}be {\k26}a {\k24}pu-{\k21}{\k25}pu-{\k23}{\k26}pup{\k94}pet
+Comment: 0,0:01:56.01,0:01:58.36,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k23}was {\k24}born {\k23}to {\k64}dance,{\k28} {\k51}dance
+Comment: 0,0:01:58.54,0:02:02.11,Sample KM [Up],,0,0,0,karaoke,{\k23}Could {\k24}ne{\k22}ver {\k46}tie {\k47}strings {\k23}to {\k26}my {\k60}hands,{\k28} {\k58}hands
+Comment: 0,0:02:02.32,0:02:06.17,Sample KM [Up],,0,0,0,karaoke,{\k37}You {\k26}could {\k45}on{\k45}ly {\k24}love {\k22}a {\k21}pu-{\k24}{\k25}pu-{\k22}{\k24}pup{\k70}pet
+Comment: 0,0:02:06.62,0:02:10.09,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k23}could {\k24}ne{\k23}ver {\k23}be {\k24}a {\k21}pu-{\k24}{\k25}pu-{\k22}{\k24}pup{\k92}pet
+Comment: 0,0:02:10.32,0:02:11.96,Sample KM [Choir],,0,0,0,karaoke,{\k46}Oh {\k46}oh {\k72}oh
+Comment: 0,0:02:12.38,0:02:15.45,Sample KM [Up],,0,0,0,karaoke,{\k25}ḥ{\k22}rīẗ {\k24}i{\k56}ya {\k82}ya {\k46}ah {\k27}ah {\k25}ah
+Comment: 0,0:02:16.05,0:02:19.11,Sample KM [Up],,0,0,0,karaoke,{\k26}ḥ{\k23}rīẗ {\k23}i{\k70}ya {\k69}ya {\k46}ah {\k26}ah {\k23}ah
+Comment: 0,0:02:19.76,0:02:22.98,Sample KM [Up],,0,0,0,karaoke,{\k21}ḥ{\k27}rīẗ {\k22}i{\k70}ya {\k69}ya {\k47}ah {\k27}ah {\k39}ah
+Comment: 0,0:02:23.47,0:02:26.34,Sample KM [Up],,0,0,0,karaoke,{\k25}ḥ{\k20}rīẗ {\k24}i{\k49}ya,{\k20} {\k24}ḥ{\k20}rīẗ {\k25}i{\k80}ya
+Comment: 0,0:02:19.08,0:02:20.93,Sample KM [Choir],,0,0,0,karaoke,{\k25}Pu-{\k22}{\k25}pu-{\k20}{\k23}pup{\k70}pet
+Comment: 0,0:02:22.07,0:02:26.63,Sample KM [Choir],,0,0,0,karaoke,{\k24}Oh {\k47}oh {\kf183}oh {\k48}oh {\k44}oh {\k49}oh {\k61}oh
+Comment: 0,0:02:25.54,0:02:27.99,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k26}was {\k25}born {\k20}to {\k69}dance,{\k25} {\k59}dance
+Comment: 0,0:02:28.09,0:02:31.69,Sample KM [Up],,0,0,0,karaoke,{\k25}Could {\k23}ne{\k23}ver {\k44}tie {\k47}strings {\k22}to {\k23}my {\k67}hands,{\k26} {\k60}hands
+Comment: 0,0:02:31.93,0:02:35.78,Sample KM [Up],,0,0,0,karaoke,{\k29}You {\k27}could {\k42}on{\k48}ly {\k26}love {\k20}a {\k33}pu-{\k12}{\k37}pu-{\k10}{\k27}pup{\k74}pet
+Comment: 0,0:02:36.16,0:02:39.40,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k24}could {\k24}ne{\k23}ver {\k20}be {\k26}a {\k25}pu-{\k20}{\k25}pu-{\k22}{\k24}pup{\k69}pet
+Comment: 0,0:02:39.40,0:02:43.08,Sample KM [Choir],,0,0,0,karaoke,{\k28}Oh {\k22}oh {\k24}oh {\k19}oh {\k30}oh {\k16}oh {\k23}oh {\k22}oh {\kf184}oh
+Comment: 0,0:02:41.92,0:02:44.04,Sample KM [Up],,0,0,0,karaoke,{\k25}ḥ{\k22}rīẗ {\k24}i{\k54}ya {\k87}ya
+Comment: 0,0:02:45.60,0:02:48.62,Sample KM [Up],,0,0,0,karaoke,{\k25}ḥ{\k22}rīẗ {\k24}i{\k45}ya{\k23} {\k70}ya {\k46}ah {\k25}ah {\k22}ah
+Comment: 0,0:02:43.76,0:02:46.38,Sample KM [Choir],,0,0,0,karaoke,{\k24}Oh {\k47}oh {\k24}oh {\k22}oh {\k46}oh {\k99}oh
+Comment: 0,0:02:48.62,0:02:50.50,Sample KM [Up],,0,0,0,karaoke,{\k25}Pu-{\k22}{\k25}pu-{\k20}{\k25}pup{\k71}pet
+Comment: 0,0:02:50.92,0:02:54.38,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k24}could {\k24}ne{\k23}ver {\k20}be {\k26}a {\k25}pu-{\k20}{\k25}pu-{\k22}{\k25}pup{\k90}pet
+Comment: 0,0:02:55.08,0:02:56.05,Sample KM [Up],,0,0,0,karaoke,{\k45}Oh {\k24}oh {\k28}oh
+Dialogue: 0,0:00:05.95,0:00:10.11,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ḥ{\k20}rīẗ {\k21}i{\k56}ya {\k86}ya {\k40}ah {\k29}ah {\k29}ah
+Dialogue: 0,0:00:09.65,0:00:13.30,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ḥ{\k20}rīẗ {\k21}i{\k52}ya,{\k20} {\k25}ḥ{\k20}rīẗ {\k24}i{\k48}ya
+Dialogue: 0,0:00:11.70,0:00:16.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Good{\k23}bye {\k20}to {\k29}the {\k42}one {\k24}that {\k26}I {\k45}once {\kf102}knew
+Dialogue: 0,0:00:15.40,0:00:19.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k26}could {\k23}ne{\k24}ver {\k46}change {\k23}just {\k23}to {\k47}love {\k99}you
+Dialogue: 0,0:00:19.01,0:00:21.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Looked {\k28}me {\k24}in {\k24}my {\k60}face
+Dialogue: 0,0:00:20.95,0:00:23.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Said {\k21}I {\k25}was {\k26}in{\k64}sane
+Dialogue: 0,0:00:22.76,0:00:27.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Play{\k21}ing {\k22}all {\k25}your {\k24}lit{\k25}tle {\k87}games, {\k50}games, {\k81}games
+Dialogue: 0,0:00:26.50,0:00:28.51,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Oh {\k18}oh {\k46}oh
+Dialogue: 0,0:00:27.41,0:00:29.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Tried {\k21}to {\k23}dim {\k20}my {\k51}flame
+Dialogue: 0,0:00:29.03,0:00:31.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k58}shine{\k38} {\k25}brigh{\k20}ter
+Dialogue: 0,0:00:30.64,0:00:33.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}And {\k21}you {\k25}tried {\k19}to {\k25}dull {\k22}my {\k49}blade
+Dialogue: 0,0:00:32.71,0:00:35.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Well {\k50}keep{\k39} {\k30}try{\k22}ing
+Dialogue: 0,0:00:34.34,0:00:38.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k21}you {\k24}tried {\k21}to {\k26}pull {\k25}me {\k57}un{\k33}{\k58}der
+Dialogue: 0,0:00:37.56,0:00:40.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Said {\k23}I {\k22}was {\k25}too {\k62}much
+Dialogue: 0,0:00:39.35,0:00:42.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}You’re {\k22}just {\k23}not {\k22}e{\k61}nough
+Dialogue: 0,0:00:41.26,0:00:44.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k24}was {\k25}born {\k21}to {\k65}dance,{\k27} {\k50}dance
+Dialogue: 0,0:00:43.76,0:00:48.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Could {\k24}ne{\k24}ver {\k44}tie {\k47}strings {\k22}to {\k26}my {\k63}hands,{\k28} {\k58}hands
+Dialogue: 0,0:00:47.53,0:00:52.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}You {\k26}could {\k44}on{\k47}ly {\k22}love {\k25}a {\k24}pu-{\k22}{\k28}pu-{\k18}{\k24}pup{\k76}pet
+Dialogue: 0,0:00:51.87,0:00:56.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k24}could {\k23}ne{\k22}ver {\k18}be {\k30}a {\k21}pu-{\k24}{\k25}pu-{\k20}{\k26}pup{\k97}pet
+Dialogue: 0,0:00:56.03,0:00:59.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k23}was {\k23}born {\k22}to {\k69}dance,{\k25} {\k59}dance
+Dialogue: 0,0:00:58.57,0:01:03.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Could {\k22}ne{\k24}ver {\k43}tie {\k49}strings {\k23}to {\k24}my {\k61}hands,{\k28} {\k59}hands
+Dialogue: 0,0:01:02.33,0:01:07.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}You {\k23}could {\k45}on{\k47}ly {\k23}love {\k24}a {\k21}pu-{\k24}{\k25}pu-{\k21}{\k25}pup{\k69}pet
+Dialogue: 0,0:01:06.65,0:01:11.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k22}could {\k23}ne{\k24}ver {\k22}be {\k24}a {\k23}pu-{\k22}{\k25}pu-{\k22}{\k24}pup{\k75}pet
+Dialogue: 0,0:01:10.79,0:01:15.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hel{\k22}lo {\k24}to {\k23}the {\k46}one {\k25}that {\k22}I {\k46}am {\kf101}now
+Dialogue: 0,0:01:14.47,0:01:18.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Guess {\k23}it {\k22}di{\k23}dn’t {\k46}go {\k21}how {\k24}you {\k48}planned {\kf107}out
+Dialogue: 0,0:01:18.18,0:01:20.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Lit{\k25}tle {\k22}did {\k24}you {\k45}know
+Dialogue: 0,0:01:19.79,0:01:22.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I’m {\k25}my {\k21}own {\k23}Gep{\k24}pet{\k47}to
+Dialogue: 0,0:01:21.62,0:01:26.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}And {\k25}now {\k21}you {\k21}get {\k21}to {\k24}watch {\k25}me {\k89}go, {\k49}go, {\k70}go
+Dialogue: 0,0:01:25.55,0:01:27.59,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Oh {\k23}oh {\k23}oh {\k23}oh
+Dialogue: 0,0:01:26.49,0:01:30.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Tried {\k23}to {\k22}dim {\k22}my {\k47}flame{\k27} {\k20}I {\k58}shine{\k33} {\k27}brigh{\k21}ter
+Dialogue: 0,0:01:29.72,0:01:32.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}And {\k22}you {\k27}tried {\k20}to {\k22}dull {\k24}my {\k46}blade
+Dialogue: 0,0:01:31.80,0:01:34.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Well {\k37}keep{\k54} {\k22}try{\k25}ing
+Dialogue: 0,0:01:33.41,0:01:37.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}And {\k22}you {\k23}tried {\k23}to {\k24}pull {\k23}me {\k59}un{\k33}{\k47}der
+Dialogue: 0,0:01:36.64,0:01:39.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Said {\k23}I {\k23}was {\k26}too {\k62}much
+Dialogue: 0,0:01:38.42,0:01:41.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}You’re {\k24}just {\k23}not {\k21}e{\k63}nough
+Dialogue: 0,0:01:40.33,0:01:43.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k24}was {\k23}born {\k23}to {\k62}dance,{\k29} {\k51}dance
+Dialogue: 0,0:01:42.85,0:01:47.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Could {\k24}ne{\k23}ver {\k45}tie {\k48}strings {\k20}to {\k25}my {\k63}hands,{\k30} {\k58}hands
+Dialogue: 0,0:01:46.61,0:01:51.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}You {\k25}could {\k44}on{\k47}ly {\k22}love {\k24}a {\k23}pu-{\k24}{\k25}pu-{\k20}{\k26}pup{\k72}pet
+Dialogue: 0,0:01:50.94,0:01:55.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k24}could {\k23}ne{\k23}ver {\k20}be {\k26}a {\k24}pu-{\k21}{\k25}pu-{\k23}{\k26}pup{\k94}pet
+Dialogue: 0,0:01:55.11,0:01:58.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k23}was {\k24}born {\k23}to {\k64}dance,{\k28} {\k51}dance
+Dialogue: 0,0:01:57.64,0:02:02.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Could {\k24}ne{\k22}ver {\k46}tie {\k47}strings {\k23}to {\k26}my {\k60}hands,{\k28} {\k58}hands
+Dialogue: 0,0:02:01.42,0:02:06.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}You {\k26}could {\k45}on{\k45}ly {\k24}love {\k22}a {\k21}pu-{\k24}{\k25}pu-{\k22}{\k24}pup{\k70}pet
+Dialogue: 0,0:02:05.72,0:02:10.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k23}could {\k24}ne{\k23}ver {\k23}be {\k24}a {\k21}pu-{\k24}{\k25}pu-{\k22}{\k24}pup{\k92}pet
+Dialogue: 0,0:02:09.42,0:02:12.16,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Oh {\k46}oh {\k72}oh
+Dialogue: 0,0:02:11.48,0:02:15.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ḥ{\k22}rīẗ {\k24}i{\k56}ya {\k82}ya {\k46}ah {\k27}ah {\k25}ah
+Dialogue: 0,0:02:15.15,0:02:19.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}ḥ{\k23}rīẗ {\k23}i{\k70}ya {\k69}ya {\k46}ah {\k26}ah {\k23}ah
+Dialogue: 0,0:02:18.86,0:02:23.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}ḥ{\k27}rīẗ {\k22}i{\k70}ya {\k69}ya {\k47}ah {\k27}ah {\k39}ah
+Dialogue: 0,0:02:22.57,0:02:26.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ḥ{\k20}rīẗ {\k24}i{\k49}ya,{\k20} {\k24}ḥ{\k20}rīẗ {\k25}i{\k80}ya
+Dialogue: 0,0:02:18.18,0:02:21.13,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Pu-{\k22}{\k25}pu-{\k20}{\k23}pup{\k70}pet
+Dialogue: 0,0:02:21.17,0:02:26.83,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Oh {\k47}oh {\kf183}oh {\k48}oh {\k44}oh {\k49}oh {\k61}oh
+Dialogue: 0,0:02:24.64,0:02:28.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k26}was {\k25}born {\k20}to {\k69}dance,{\k25} {\k59}dance
+Dialogue: 0,0:02:27.19,0:02:31.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Could {\k23}ne{\k23}ver {\k44}tie {\k47}strings {\k22}to {\k23}my {\k67}hands,{\k26} {\k60}hands
+Dialogue: 0,0:02:31.03,0:02:35.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}You {\k27}could {\k42}on{\k48}ly {\k26}love {\k20}a {\k33}pu-{\k12}{\k37}pu-{\k10}{\k27}pup{\k74}pet
+Dialogue: 0,0:02:35.26,0:02:39.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k24}could {\k24}ne{\k23}ver {\k20}be {\k26}a {\k25}pu-{\k20}{\k25}pu-{\k22}{\k24}pup{\k69}pet
+Dialogue: 0,0:02:38.50,0:02:43.28,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Oh {\k22}oh {\k24}oh {\k19}oh {\k30}oh {\k16}oh {\k23}oh {\k22}oh {\kf184}oh
+Dialogue: 0,0:02:41.02,0:02:44.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ḥ{\k22}rīẗ {\k24}i{\k54}ya {\k87}ya
+Dialogue: 0,0:02:44.70,0:02:48.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ḥ{\k22}rīẗ {\k24}i{\k45}ya{\k23} {\k70}ya {\k46}ah {\k25}ah {\k22}ah
+Dialogue: 0,0:02:42.86,0:02:46.58,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Oh {\k47}oh {\k24}oh {\k22}oh {\k46}oh {\k99}oh
+Dialogue: 0,0:02:47.72,0:02:50.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Pu-{\k22}{\k25}pu-{\k20}{\k25}pup{\k71}pet
+Dialogue: 0,0:02:50.02,0:02:54.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k24}could {\k24}ne{\k23}ver {\k20}be {\k26}a {\k25}pu-{\k20}{\k25}pu-{\k22}{\k25}pup{\k90}pet
+Dialogue: 0,0:02:54.18,0:02:56.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Oh {\k24}oh {\k28}oh
