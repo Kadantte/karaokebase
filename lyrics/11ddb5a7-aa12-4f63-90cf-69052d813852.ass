@@ -1,0 +1,154 @@
+﻿[Script Info]
+Title: Imitation Ghost
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Azurys
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Straylight,Arial,25,&H00FFFFFF,&H005148D2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Asahi,Arial,25,&H00FFFFFF,&H000001F3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Fuyuko,Arial,25,&H00FFFFFF,&H0026E65C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mei Izumi,Arial,25,&H00FFFFFF,&H00FF00FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Straylight Choir,Arial,24,&H00FFFFFF,&H00756ECC,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,10,10,80,1
+Style: COLOR CODE,Arial,20,&H0000B4FF,&H0000B4FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+Style: Izumi Choir,Arial,24,&H00FFFFFF,&H0038BA5E,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,10,10,80,1
+Style: Mei Izumi Choir,Arial,24,&H00FFFFFF,&H00D91AD8,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,10,10,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Straylight,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:07.00,COLOR CODE,,0,0,0,karaoke,{\c&H0001F3&}Asahi {\c&HFFFFFF&}- {\c&H26E65C&}Fuyuko {\c&HFFFFFF&}- {\c&HFF00FF&}Mei
+Comment: 0,0:00:00.00,0:00:07.00,COLOR CODE,,0,0,0,karaoke,{\c&H5148D2&}Straylight
+Comment: 0,0:00:05.00,0:00:08.21,Straylight Choir,,0,0,0,karaoke,{\k61}War!{\k179} {\k31}It's {\k50}time
+Comment: 0,0:00:11.54,0:00:12.96,Straylight Choir,,0,0,0,karaoke,{\k37}Stand {\k30}up! {\k31}Out{\k44}break
+Comment: 0,0:00:16.34,0:00:17.75,Straylight Choir,,0,0,0,karaoke,{\k37}Stand {\k29}up! {\k31}Out{\k44}break
+Comment: 0,0:00:21.67,0:00:23.96,Asahi,,0,0,0,karaoke,{\k13}mi{\k17}chi {\k14}ka{\k28}ra {\k17}se{\k15}ma{\k27}ri{\k18}ku{\k12}ru {\k33}CR{\k12}I{\k23}SIS
+Comment: 0,0:00:24.05,0:00:26.38,Asahi,,0,0,0,karaoke,{\k16}kyo{\k13}u{\k18}ki {\k28}no {\k16}S{\k15}TEA{\k31}LTH {\k28}IN{\k31}V{\k15}A{\k22}DER
+Comment: 0,0:00:26.45,0:00:29.25,Asahi,,0,0,0,karaoke,{\k17}e{\k9}ku{\k20}su {\k30}BAN{\k14}D {\k15}R{\k31}A{\k15}DAR {\k26}ku{\k30}shi{\k34}shi{\k39}te
+Comment: 0,0:00:28.86,0:00:31.53,Straylight Choir,,0,0,0,karaoke,{\k15}te{\k14}ki {\k16}wo {\k30}TRAC{\k30}KING, {\k29}TRAC{\k16}KING {\k30}tsu{\k15}ki{\k30}to{\k42}me
+Comment: 0,0:00:31.29,0:00:33.47,Fuyuko,,0,0,0,karaoke,{\k11}kyo{\k16}ri, {\k15}ka{\k29}ze, {\k17}so{\k14}ku{\k29}do {\k16}ha{\k16}ji{\k29}ki{\k14}da{\k12}shi
+Comment: 0,0:00:33.67,0:00:35.92,Fuyuko,,0,0,0,karaoke,{\k15}ta{\k13}ku{\k16}mi {\k29}ni {\k30}sou{\k31}sa {\k16}RE{\k13}F{\k31}LE{\k14}C{\k17}TION
+Comment: 0,0:00:36.06,0:00:38.95,Fuyuko,,0,0,0,karaoke,{\k15}S{\k15}IGH{\k15}T {\k30}wo {\k15}sa{\k15}da{\k29}me {\k16}se{\k29}i{\k32}ka{\k28}ku {\k50}ni
+Comment: 0,0:00:38.46,0:00:41.03,Straylight Choir,,0,0,0,karaoke,{\k15}ne{\k15}ra{\k15}e {\k30}SHOO{\k30}TING, {\k29}SHOO{\k17}TING {\k29}u{\k15}chi{\k30}tot{\k32}te
+Comment: 0,0:00:41.31,0:00:42.92,Mei Izumi Choir,,0,0,0,karaoke,{\k27}MA{\k18}KE {\k31}UP {\k29}YOUR {\k56}MIND
+Comment: 0,0:00:42.95,0:00:43.81,Mei Izumi,,0,0,0,karaoke,{\k15}o{\k15}ku{\k16}se{\k16}zu {\k24}ni
+Comment: 0,0:00:43.71,0:00:45.25,Mei Izumi Choir,,0,0,0,karaoke,{\k30}ta{\k16}chi{\k27}mu{\k32}ka{\k49}e
+Comment: 0,0:00:45.35,0:00:50.62,Mei Izumi,,0,0,0,karaoke,{\k16}o{\k16}na{\k13}ji {\k6}i{\k25}shi {\k30}no {\k14}hi{\k31}ka{\k29}ri {\k47}wo {\k15}to{\k28}mo{\k16}su {\k29}na{\k61}ka{\k30}ma {\k30}ga {\k60}i{\k31}ru
+Comment: 0,0:00:50.88,0:00:52.52,Mei Izumi Choir,,0,0,0,karaoke,{\k33}mi {\k15}ni {\k30}i{\k29}ko{\k57}u
+Comment: 0,0:00:52.52,0:00:53.39,Mei Izumi,,0,0,0,karaoke,{\k19}so{\k15}no {\k14}sa{\k17}ki {\k22}no
+Comment: 0,0:00:53.31,0:00:54.86,Mei Izumi Choir,,0,0,0,karaoke,{\k29}HO{\k17}R{\k29}I{\k31}ZO{\k49}N
+Comment: 0,0:00:54.92,0:00:58.73,Mei Izumi,,0,0,0,karaoke,{\k19}sho{\k15}u{\k14}ri {\k16}no {\k15}I{\k30}MA{\k15}GE {\k31}wo {\k27}mu{\k47}ne {\k15}ni {\k29}u{\k25}tsu{\k83}sh'te
+Comment: 0,0:00:59.01,0:01:00.37,Mei Izumi,,0,0,0,karaoke,{\k15}hi{\k15}ka{\k11}ri {\k34}ha{\k30}na{\k31}te
+Comment: 0,0:01:00.50,0:01:02.15,Straylight,,0,0,0,karaoke,{\k16}Bring {\k29}it {\k46}on! {\k15}Bring {\k29}it {\k30}on!
+Comment: 0,0:01:02.31,0:01:04.72,Straylight,,0,0,0,karaoke,{\k15}mu{\k14}ka{\k31}e{\k16}u{\k27}tsu {\k47}yo {\k29}FI{\k62}RE
+Comment: 0,0:01:05.01,0:01:07.34,Straylight Choir,,0,0,0,karaoke,{\k15}ta{\k14}me{\k31}sa{\k15}re{\k45}ru {\k15}to{\k15}ki {\k16}ga {\k29}ki{\k38}ta
+Comment: 0,0:01:07.37,0:01:09.92,Asahi,,0,0,0,karaoke,{\k33}san{\k32}mi{\k29}it{\k30}tai {\k26}no {\k63}SOL{\k42}DIER
+Comment: 0,0:01:10.11,0:01:11.71,Straylight,,0,0,0,karaoke,{\k16}Brea{\k29}king {\k45}down! {\k16}Brea{\k28}king {\k26}down!
+Comment: 0,0:01:11.91,0:01:14.34,Straylight,,0,0,0,karaoke,{\k15}ta{\k15}i{\k30}ro {\k17}na{\k28}n{\k45}te {\k30}NO {\k63}WAY
+Comment: 0,0:01:14.61,0:01:16.83,Straylight Choir,,0,0,0,karaoke,{\k30}MIS{\k30}SIO{\k15}N {\k45}wo {\k14}ka{\k16}ke{\k15}nu{\k30}ke{\k27}ro
+Comment: 0,0:01:17.01,0:01:20.63,Fuyuko,,0,0,0,karaoke,{\k15}ta{\k14}ta{\k31}ka{\k29}u {\k32}TRA{\k29}CING {\k60}DE{\k61}FEN{\kf91}DER
+Comment: 0,0:01:23.60,0:01:24.94,Straylight Choir,,0,0,0,karaoke,{\k31}Stand {\k30}up! {\k31}Out{\k42}break
+Comment: 0,0:01:28.85,0:01:31.14,Mei Izumi,,0,0,0,karaoke,{\k14}a{\k15}i{\k16}te {\k31}no {\k15}M{\k15}O{\k30}TION {\k15}ki{\k15}o{\k29}ku {\k16}shi{\k18}te
+Comment: 0,0:01:31.27,0:01:33.53,Mei Izumi,,0,0,0,karaoke,{\k15}tsu{\k14}gi {\k15}no {\k30}kou{\k15}ge{\k13}ki {\k31}wo {\k17}SI{\k14}MU{\k30}LA{\k14}~{\k18}TION
+Comment: 0,0:01:33.66,0:01:36.37,Mei Izumi,,0,0,0,karaoke,{\k15}ko{\k15}c{\k16}chi {\k30}no {\k14}do{\k13}u{\k32}sa {\k15}ka{\k30}ki{\k30}ko{\k29}n{\k32}da
+Comment: 0,0:01:36.06,0:01:38.65,Straylight Choir,,0,0,0,karaoke,{\k15}RO{\k16}BO {\k14}ga {\k31}FIGH{\k29}TING, {\k30}FIGH{\k16}TING {\k29}ko{\k15}ta{\k30}e{\k34}ru
+Comment: 0,0:01:38.46,0:01:40.67,Asahi,,0,0,0,karaoke,{\k15}RE{\k15}A{\k15}L {\k30}no {\k15}BA{\k15}T{\k30}TLE {\k15}da{\k12}ke {\k33}ja{\k15}na{\k11}ku
+Comment: 0,0:01:40.81,0:01:43.09,Asahi,,0,0,0,karaoke,{\k20}C{\k16}Y{\k14}BE{\k29}R {\k16}ku{\k15}u{\k29}kan {\k15}mo{\k16}tsu{\k30}re{\k15}ko{\k13}mu
+Comment: 0,0:01:43.25,0:01:46.09,Asahi,,0,0,0,karaoke,{\k15}H{\k14}Y{\k16}B{\k31}RI{\k14}D {\k14}de {\k32}se{\k15}me{\k29}gi{\k31}at{\k30}te{\k43}ru
+Comment: 0,0:01:45.66,0:01:48.26,Straylight Choir,,0,0,0,karaoke,{\k16}GO{\k29}ING {\k31}CRA{\k29}ZY, {\k31}CRA{\k14}ZY {\k30}a{\k14}ba{\k32}re{\k34}te
+Comment: 0,0:01:48.51,0:01:50.16,Izumi Choir,,0,0,0,karaoke,{\k28}DON'T {\k16}S{\k30}TOP {\k32}MY {\k59}MIND
+Comment: 0,0:01:50.16,0:01:51.03,Fuyuko,,0,0,0,karaoke,{\k15}do{\k15}ko{\k15}ma{\k15}de{\k27}mo
+Comment: 0,0:01:50.91,0:01:52.50,Izumi Choir,,0,0,0,karaoke,{\k29}ka{\k17}so{\k27}ku{\k32}su{\k54}ru
+Comment: 0,0:01:52.56,0:01:55.80,Fuyuko,,0,0,0,karaoke,{\k14}ha{\k16}ya{\k16}ru {\k14}ki{\k12}mo{\k35}chi {\k13}COM{\k31}MA{\k29}N{\k45}D {\k16}ni {\k29}nat{\k54}te
+Comment: 0,0:01:55.40,0:01:57.83,Fuyuko,,0,0,0,karaoke,{\k31}tsu{\k61}ki{\k29}u{\k31}do{\k57}ka{\k34}su
+Comment: 0,0:01:58.10,0:01:59.63,Izumi Choir,,0,0,0,karaoke,{\k31}NE{\k15}VER {\k30}GIVE {\k29}IT {\k48}UP
+Comment: 0,0:01:59.76,0:02:00.62,Fuyuko,,0,0,0,karaoke,{\k15}ma{\k15}ke{\k15}na{\k14}i {\k27}yo
+Comment: 0,0:02:00.51,0:02:02.11,Izumi Choir,,0,0,0,karaoke,{\k30}ku{\k12}ru{\k34}shik'{\k29}te{\k55}mo
+Comment: 0,0:02:02.17,0:02:07.63,Fuyuko,,0,0,0,karaoke,{\k9}a{\k19}ra{\k19}ga{\k9}t{\k19}te{\k29}ru {\k14}SO{\k31}U{\k31}L {\k44}no {\k15}sa{\k29}ke{\k32}bi {\k82}yo{\k22} {\k14}hi{\k16}ka{\k15}ri {\k28}ni {\k31}na{\k38}re
+Comment: 0,0:02:07.71,0:02:09.29,Straylight,,0,0,0,karaoke,{\k15}Bur{\k29}ning {\k46}up! {\k15}Bur{\k30}ning {\k23}up!
+Comment: 0,0:02:09.51,0:02:11.93,Straylight,,0,0,0,karaoke,{\k15}ta{\k15}gi{\k29}ru {\k16}o{\k29}mo{\k46}i {\k30}HIGH{\k62}ER
+Comment: 0,0:02:12.21,0:02:14.57,Straylight Choir,,0,0,0,karaoke,{\k15}ko{\k15}no {\k30}ma{\k15}ma {\k44}ja {\k16}o{\k15}wa{\k15}ra{\k29}na{\k42}i
+Comment: 0,0:02:14.60,0:02:17.07,Mei Izumi,,0,0,0,karaoke,{\k16}TE{\k15}CH{\k30}NI{\k30}CA{\k30}L {\k28}na {\k62}SHOO{\k36}TER
+Comment: 0,0:02:17.32,0:02:18.88,Straylight,,0,0,0,karaoke,{\k15}Fol{\k29}low {\k45}me! {\k15}Fol{\k30}low {\k22}me!
+Comment: 0,0:02:19.12,0:02:21.49,Straylight,,0,0,0,karaoke,{\k14}mi{\k15}se{\k29}te {\k16}a{\k30}ge{\k45}ru {\k30}GLO{\k58}RY
+Comment: 0,0:02:21.81,0:02:24.13,Straylight Choir,,0,0,0,karaoke,{\k30}un{\k30}me{\k15}i {\k45}wo {\k15}ki{\k15}ri{\k15}hi{\k30}ra{\k37}ki
+Comment: 0,0:02:24.20,0:02:27.86,Asahi,,0,0,0,karaoke,{\k15}mi{\k16}chi{\k30}bi{\k27}ku {\k30}TRA{\k33}CING {\k60}DE{\k60}FEN{\kf95}DER
+Comment: 0,0:02:46.11,0:02:47.76,Straylight,,0,0,0,karaoke,{\k16}Bring {\k29}it {\k46}on! {\k15}Bring {\k29}it {\k30}on!
+Comment: 0,0:02:47.92,0:02:50.33,Straylight,,0,0,0,karaoke,{\k15}mu{\k14}ka{\k31}e{\k16}u{\k27}tsu {\k47}yo {\k29}FI{\k62}RE
+Comment: 0,0:02:50.62,0:02:52.95,Straylight Choir,,0,0,0,karaoke,{\k15}ta{\k14}me{\k31}sa{\k15}re{\k45}ru {\k15}to{\k15}ki {\k16}ga {\k29}ki{\k38}ta
+Comment: 0,0:02:52.98,0:02:55.53,Fuyuko,,0,0,0,karaoke,{\k33}san{\k32}mi{\k29}it{\k30}tai {\k26}no {\k63}SOL{\k42}DIER
+Comment: 0,0:02:55.72,0:02:57.32,Straylight,,0,0,0,karaoke,{\k16}Brea{\k29}king {\k45}down! {\k16}Brea{\k28}king {\k26}down!
+Comment: 0,0:02:57.52,0:02:59.95,Straylight,,0,0,0,karaoke,{\k15}ta{\k15}i{\k30}ro {\k17}na{\k28}n{\k45}te {\k30}NO {\k63}WAY
+Comment: 0,0:03:00.22,0:03:02.44,Straylight Choir,,0,0,0,karaoke,{\k30}MIS{\k30}SIO{\k15}N {\k45}wo {\k14}ka{\k16}ke{\k15}nu{\k30}ke{\k27}ro
+Comment: 0,0:03:02.62,0:03:06.17,Straylight,,0,0,0,karaoke,{\k15}ta{\k14}ta{\k31}ka{\k29}u {\k32}TRA{\k29}CING {\k60}DE{\k61}FEN{\kf84}DER
+Comment: 0,0:03:09.21,0:03:10.55,Straylight Choir,,0,0,0,karaoke,{\k31}Stand {\k30}up! {\k31}Out{\k42}break
+Dialogue: 0,0:00:00.00,0:00:07.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H0001F3&}Asahi {\c&HFFFFFF&}- {\c&H26E65C&}Fuyuko {\c&HFFFFFF&}- {\c&HFF00FF&}Mei
+Dialogue: 0,0:00:00.00,0:00:07.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H5148D2&}Straylight
+Dialogue: 0,0:00:04.10,0:00:08.41,Straylight Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k61}War!{\k179} {\k31}It's {\k50}time
+Dialogue: 0,0:00:10.64,0:00:13.16,Straylight Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Stand {\k30}up! {\k31}Out{\k44}break
+Dialogue: 0,0:00:15.44,0:00:17.95,Straylight Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Stand {\k29}up! {\k31}Out{\k44}break
+Dialogue: 0,0:00:20.77,0:00:24.16,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}mi{\k17}chi {\k14}ka{\k28}ra {\k17}se{\k15}ma{\k27}ri{\k18}ku{\k12}ru {\k33}CR{\k12}I{\k23}SIS
+Dialogue: 0,0:00:23.15,0:00:26.58,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k16}kyo{\k13}u{\k18}ki {\k28}no {\k16}S{\k15}TEA{\k31}LTH {\k28}IN{\k31}V{\k15}A{\k22}DER
+Dialogue: 0,0:00:25.55,0:00:29.45,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k17}e{\k9}ku{\k20}su {\k30}BAN{\k14}D {\k15}R{\k31}A{\k15}DAR {\k26}ku{\k30}shi{\k34}shi{\k39}te
+Dialogue: 0,0:00:27.96,0:00:31.73,Straylight Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}te{\k14}ki {\k16}wo {\k30}TRAC{\k30}KING, {\k29}TRAC{\k16}KING {\k30}tsu{\k15}ki{\k30}to{\k42}me
+Dialogue: 0,0:00:30.39,0:00:33.67,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k11}kyo{\k16}ri, {\k15}ka{\k29}ze, {\k17}so{\k14}ku{\k29}do {\k16}ha{\k16}ji{\k29}ki{\k14}da{\k12}shi
+Dialogue: 0,0:00:32.77,0:00:36.12,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ta{\k13}ku{\k16}mi {\k29}ni {\k30}sou{\k31}sa {\k16}RE{\k13}F{\k31}LE{\k14}C{\k17}TION
+Dialogue: 0,0:00:35.16,0:00:39.15,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k15}S{\k15}IGH{\k15}T {\k30}wo {\k15}sa{\k15}da{\k29}me {\k16}se{\k29}i{\k32}ka{\k28}ku {\k50}ni
+Dialogue: 0,0:00:37.56,0:00:41.23,Straylight Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ne{\k15}ra{\k15}e {\k30}SHOO{\k30}TING, {\k29}SHOO{\k17}TING {\k29}u{\k15}chi{\k30}tot{\k32}te
+Dialogue: 0,0:00:40.41,0:00:43.12,Mei Izumi Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k27}MA{\k18}KE {\k31}UP {\k29}YOUR {\k56}MIND
+Dialogue: 0,0:00:42.05,0:00:44.01,Mei Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}o{\k15}ku{\k16}se{\k16}zu {\k24}ni
+Dialogue: 0,0:00:42.81,0:00:45.45,Mei Izumi Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ta{\k16}chi{\k27}mu{\k32}ka{\k49}e
+Dialogue: 0,0:00:44.45,0:00:50.82,Mei Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k16}o{\k16}na{\k13}ji {\k6}i{\k25}shi {\k30}no {\k14}hi{\k31}ka{\k29}ri {\k47}wo {\k15}to{\k28}mo{\k16}su {\k29}na{\k61}ka{\k30}ma {\k30}ga {\k60}i{\k31}ru
+Dialogue: 0,0:00:49.98,0:00:52.72,Mei Izumi Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k33}mi {\k15}ni {\k30}i{\k29}ko{\k57}u
+Dialogue: 0,0:00:51.62,0:00:53.59,Mei Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k19}so{\k15}no {\k14}sa{\k17}ki {\k22}no
+Dialogue: 0,0:00:52.41,0:00:55.06,Mei Izumi Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}HO{\k17}R{\k29}I{\k31}ZO{\k49}N
+Dialogue: 0,0:00:54.02,0:00:58.93,Mei Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k19}sho{\k15}u{\k14}ri {\k16}no {\k15}I{\k30}MA{\k15}GE {\k31}wo {\k27}mu{\k47}ne {\k15}ni {\k29}u{\k25}tsu{\k83}sh'te
+Dialogue: 0,0:00:58.11,0:01:00.57,Mei Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}hi{\k15}ka{\k11}ri {\k34}ha{\k30}na{\k31}te
+Dialogue: 0,0:00:59.60,0:01:02.35,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Bring {\k29}it {\k46}on! {\k15}Bring {\k29}it {\k30}on!
+Dialogue: 0,0:01:01.41,0:01:04.92,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k15}mu{\k14}ka{\k31}e{\k16}u{\k27}tsu {\k47}yo {\k29}FI{\k62}RE
+Dialogue: 0,0:01:04.11,0:01:07.54,Straylight Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ta{\k14}me{\k31}sa{\k15}re{\k45}ru {\k15}to{\k15}ki {\k16}ga {\k29}ki{\k38}ta
+Dialogue: 0,0:01:06.47,0:01:10.12,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k33}san{\k32}mi{\k29}it{\k30}tai {\k26}no {\k63}SOL{\k42}DIER
+Dialogue: 0,0:01:09.21,0:01:11.91,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Brea{\k29}king {\k45}down! {\k16}Brea{\k28}king {\k26}down!
+Dialogue: 0,0:01:11.01,0:01:14.54,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ta{\k15}i{\k30}ro {\k17}na{\k28}n{\k45}te {\k30}NO {\k63}WAY
+Dialogue: 0,0:01:13.71,0:01:17.03,Straylight Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k30}MIS{\k30}SIO{\k15}N {\k45}wo {\k14}ka{\k16}ke{\k15}nu{\k30}ke{\k27}ro
+Dialogue: 0,0:01:16.11,0:01:20.83,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ta{\k14}ta{\k31}ka{\k29}u {\k32}TRA{\k29}CING {\k60}DE{\k61}FEN{\kf91}DER
+Dialogue: 0,0:01:22.70,0:01:25.14,Straylight Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Stand {\k30}up! {\k31}Out{\k42}break
+Dialogue: 0,0:01:27.95,0:01:31.34,Mei Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k14}a{\k15}i{\k16}te {\k31}no {\k15}M{\k15}O{\k30}TION {\k15}ki{\k15}o{\k29}ku {\k16}shi{\k18}te
+Dialogue: 0,0:01:30.37,0:01:33.73,Mei Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}tsu{\k14}gi {\k15}no {\k30}kou{\k15}ge{\k13}ki {\k31}wo {\k17}SI{\k14}MU{\k30}LA{\k14}~{\k18}TION
+Dialogue: 0,0:01:32.76,0:01:36.57,Mei Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ko{\k15}c{\k16}chi {\k30}no {\k14}do{\k13}u{\k32}sa {\k15}ka{\k30}ki{\k30}ko{\k29}n{\k32}da
+Dialogue: 0,0:01:35.16,0:01:38.85,Straylight Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}RO{\k16}BO {\k14}ga {\k31}FIGH{\k29}TING, {\k30}FIGH{\k16}TING {\k29}ko{\k15}ta{\k30}e{\k34}ru
+Dialogue: 0,0:01:37.56,0:01:40.87,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}RE{\k15}A{\k15}L {\k30}no {\k15}BA{\k15}T{\k30}TLE {\k15}da{\k12}ke {\k33}ja{\k15}na{\k11}ku
+Dialogue: 0,0:01:39.91,0:01:43.29,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k20}C{\k16}Y{\k14}BE{\k29}R {\k16}ku{\k15}u{\k29}kan {\k15}mo{\k16}tsu{\k30}re{\k15}ko{\k13}mu
+Dialogue: 0,0:01:42.35,0:01:46.29,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}H{\k14}Y{\k16}B{\k31}RI{\k14}D {\k14}de {\k32}se{\k15}me{\k29}gi{\k31}at{\k30}te{\k43}ru
+Dialogue: 0,0:01:44.76,0:01:48.46,Straylight Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k16}GO{\k29}ING {\k31}CRA{\k29}ZY, {\k31}CRA{\k14}ZY {\k30}a{\k14}ba{\k32}re{\k34}te
+Dialogue: 0,0:01:47.61,0:01:50.36,Izumi Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k28}DON'T {\k16}S{\k30}TOP {\k32}MY {\k59}MIND
+Dialogue: 0,0:01:49.26,0:01:51.23,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k15}do{\k15}ko{\k15}ma{\k15}de{\k27}mo
+Dialogue: 0,0:01:50.01,0:01:52.70,Izumi Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ka{\k17}so{\k27}ku{\k32}su{\k54}ru
+Dialogue: 0,0:01:51.66,0:01:56.00,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ha{\k16}ya{\k16}ru {\k14}ki{\k12}mo{\k35}chi {\k13}COM{\k31}MA{\k29}N{\k45}D {\k16}ni {\k29}nat{\k54}te
+Dialogue: 0,0:01:54.50,0:01:58.03,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k31}tsu{\k61}ki{\k29}u{\k31}do{\k57}ka{\k34}su
+Dialogue: 0,0:01:57.20,0:01:59.83,Izumi Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k31}NE{\k15}VER {\k30}GIVE {\k29}IT {\k48}UP
+Dialogue: 0,0:01:58.86,0:02:00.82,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ma{\k15}ke{\k15}na{\k14}i {\k27}yo
+Dialogue: 0,0:01:59.61,0:02:02.31,Izumi Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ku{\k12}ru{\k34}shik'{\k29}te{\k55}mo
+Dialogue: 0,0:02:01.27,0:02:07.83,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k9}a{\k19}ra{\k19}ga{\k9}t{\k19}te{\k29}ru {\k14}SO{\k31}U{\k31}L {\k44}no {\k15}sa{\k29}ke{\k32}bi {\k82}yo{\k22} {\k14}hi{\k16}ka{\k15}ri {\k28}ni {\k31}na{\k38}re
+Dialogue: 0,0:02:06.81,0:02:09.49,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Bur{\k29}ning {\k46}up! {\k15}Bur{\k30}ning {\k23}up!
+Dialogue: 0,0:02:08.61,0:02:12.13,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ta{\k15}gi{\k29}ru {\k16}o{\k29}mo{\k46}i {\k30}HIGH{\k62}ER
+Dialogue: 0,0:02:11.31,0:02:14.77,Straylight Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ko{\k15}no {\k30}ma{\k15}ma {\k44}ja {\k16}o{\k15}wa{\k15}ra{\k29}na{\k42}i
+Dialogue: 0,0:02:13.70,0:02:17.27,Mei Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\k16}TE{\k15}CH{\k30}NI{\k30}CA{\k30}L {\k28}na {\k62}SHOO{\k36}TER
+Dialogue: 0,0:02:16.42,0:02:19.08,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Fol{\k29}low {\k45}me! {\k15}Fol{\k30}low {\k22}me!
+Dialogue: 0,0:02:18.22,0:02:21.69,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k14}mi{\k15}se{\k29}te {\k16}a{\k30}ge{\k45}ru {\k30}GLO{\k58}RY
+Dialogue: 0,0:02:20.91,0:02:24.33,Straylight Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k30}un{\k30}me{\k15}i {\k45}wo {\k15}ki{\k15}ri{\k15}hi{\k30}ra{\k37}ki
+Dialogue: 0,0:02:23.30,0:02:28.06,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}mi{\k16}chi{\k30}bi{\k27}ku {\k30}TRA{\k33}CING {\k60}DE{\k60}FEN{\kf95}DER
+Dialogue: 0,0:02:45.21,0:02:47.96,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Bring {\k29}it {\k46}on! {\k15}Bring {\k29}it {\k30}on!
+Dialogue: 0,0:02:47.02,0:02:50.53,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k15}mu{\k14}ka{\k31}e{\k16}u{\k27}tsu {\k47}yo {\k29}FI{\k62}RE
+Dialogue: 0,0:02:49.72,0:02:53.15,Straylight Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ta{\k14}me{\k31}sa{\k15}re{\k45}ru {\k15}to{\k15}ki {\k16}ga {\k29}ki{\k38}ta
+Dialogue: 0,0:02:52.08,0:02:55.73,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k33}san{\k32}mi{\k29}it{\k30}tai {\k26}no {\k63}SOL{\k42}DIER
+Dialogue: 0,0:02:54.82,0:02:57.52,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Brea{\k29}king {\k45}down! {\k16}Brea{\k28}king {\k26}down!
+Dialogue: 0,0:02:56.62,0:03:00.15,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ta{\k15}i{\k30}ro {\k17}na{\k28}n{\k45}te {\k30}NO {\k63}WAY
+Dialogue: 0,0:02:59.32,0:03:02.64,Straylight Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k30}MIS{\k30}SIO{\k15}N {\k45}wo {\k14}ka{\k16}ke{\k15}nu{\k30}ke{\k27}ro
+Dialogue: 0,0:03:01.72,0:03:06.37,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ta{\k14}ta{\k31}ka{\k29}u {\k32}TRA{\k29}CING {\k60}DE{\k61}FEN{\kf84}DER
+Dialogue: 0,0:03:08.31,0:03:10.75,Straylight Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k31}Stand {\k30}up! {\k31}Out{\k42}break
