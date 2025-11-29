@@ -11,11 +11,9 @@ Original Timing: Soraya
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
-Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:22.55,0:00:25.01,Sample KM [Up],,0,0,0,karaoke,{\k38}ONE,{\k28} {\k52}TWO, {\k39}THREE {\k19}ha{\k16}ji{\k19}me {\k35}you
 Comment: 0,0:00:25.35,0:00:28.14,Sample KM [Up],,0,0,0,karaoke,{\k25}bo{\k11}ku{\k34}ra {\k32}da{\k20}ke {\k35}no {\k50}STA{\k35}GE {\k37}sa
@@ -37,7 +35,7 @@ Comment: 0,0:01:09.80,0:01:12.79,Sample KM [Choir],,0,0,0,karaoke,{\k20}i{\kf279
 Comment: 0,0:01:09.99,0:01:15.07,Sample KM [Up],,0,0,0,karaoke,{\kf106}hi{\k17}ra{\k18}i{\kf104}ta {\k17}to{\k19}ki {\kf104}no {\k18}DOO{\k18}R {\k87}wo
 Comment: 0,0:01:15.22,0:01:21.15,Sample KM [Up],,0,0,0,karaoke,{\k17}hi{\k20}to{\k97}ri {\k22}hi{\k20}to{\kf105}ri {\k16}ko{\k19}e{\kf102}te {\k18}mi{\k20}se {\k67}you {\k70}to
 Comment: 0,0:01:21.15,0:01:26.07,Sample KM [Up],,0,0,0,karaoke,{\kf105}chii{\k18}sa{\k18}na {\kf104}te {\k17}no {\k19}na{\kf105}ka {\k17}ni {\k19}a{\k70}ru
-Comment: 0,0:01:26.40,0:01:32.15,Sample KM [Up],,0,0,0,karaoke,{\k15}de{\k20}a{\kf104}ii {\k16}wa{\k20}ka{\kf103}re {\k15}ko{\k20}ko {\kf102}ni {\k20}tsu{\k19}do{\k69}un{\k52}da
+Comment: 0,0:01:26.40,0:01:32.15,Sample KM [Up],,0,0,0,karaoke,{\k15}de{\k20}a{\kf104}i {\k16}wa{\k20}ka{\kf103}re {\k15}ko{\k20}ko {\kf102}ni {\k20}tsu{\k19}do{\k69}un{\k52}da
 Comment: 0,0:01:32.15,0:01:34.81,Sample KM [Up],,0,0,0,karaoke,{\k17}ya{\k33}ma{\k21}{\k16}na{\k34}i{\k18} {\k14}a{\k39}me {\k19}wa {\k34}nai {\k21}sa
 Comment: 0,0:01:34.95,0:01:37.72,Sample KM [Up],,0,0,0,karaoke,{\k17}na{\k35}mi{\k34}da {\k36}wo {\k16}fu{\k16}i{\k36}te {\k19}ku{\k33}ret{\k35}ta
 Comment: 0,0:01:37.72,0:01:40.51,Sample KM [Up],,0,0,0,karaoke,{\k15}i{\k26}ku{\k16}tsu{\k13} {\k19}mo{\k29}no{\k22} {\k17}ta{\k32}ka{\k21}ra {\k34}mo{\k35}no
@@ -87,7 +85,7 @@ Dialogue: 0,0:01:08.90,0:01:12.99,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)
 Dialogue: 0,0:01:09.09,0:01:15.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf106}hi{\k17}ra{\k18}i{\kf104}ta {\k17}to{\k19}ki {\kf104}no {\k18}DOO{\k18}R {\k87}wo
 Dialogue: 0,0:01:14.32,0:01:21.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}hi{\k20}to{\k97}ri {\k22}hi{\k20}to{\kf105}ri {\k16}ko{\k19}e{\kf102}te {\k18}mi{\k20}se {\k67}you {\k70}to
 Dialogue: 0,0:01:20.25,0:01:26.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf105}chii{\k18}sa{\k18}na {\kf104}te {\k17}no {\k19}na{\kf105}ka {\k17}ni {\k19}a{\k70}ru
-Dialogue: 0,0:01:25.50,0:01:32.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}de{\k20}a{\kf104}ii {\k16}wa{\k20}ka{\kf103}re {\k15}ko{\k20}ko {\kf102}ni {\k20}tsu{\k19}do{\k69}un{\k52}da
+Dialogue: 0,0:01:25.50,0:01:32.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}de{\k20}a{\kf104}i {\k16}wa{\k20}ka{\kf103}re {\k15}ko{\k20}ko {\kf102}ni {\k20}tsu{\k19}do{\k69}un{\k52}da
 Dialogue: 0,0:01:31.25,0:01:35.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}ya{\k33}ma{\k21}{\k16}na{\k34}i{\k18} {\k14}a{\k39}me {\k19}wa {\k34}nai {\k21}sa
 Dialogue: 0,0:01:34.05,0:01:37.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}na{\k35}mi{\k34}da {\k36}wo {\k16}fu{\k16}i{\k36}te {\k19}ku{\k33}ret{\k35}ta
 Dialogue: 0,0:01:36.82,0:01:40.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}i{\k26}ku{\k16}tsu{\k13} {\k19}mo{\k29}no{\k22} {\k17}ta{\k32}ka{\k21}ra {\k34}mo{\k35}no
