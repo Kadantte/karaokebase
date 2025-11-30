@@ -1,3 +1,367 @@
+# November 2025
+
+Kara count: 27 694
+
+Contributors: 
+
+- Alerymin
+- Azuli_E86
+- Azurys
+- Coppo
+- DaBi
+- Dae_Kimeko
+- Demoto
+- Evolto
+- Hanaku
+- HayatoKurokami
+- Hoanzl
+- IXO20
+- Ichinyaaan
+- ItoVeVe
+- Kuro_Yuki_
+- Lasagna
+- Louis Royer
+- Manos
+- MaxSonic
+- Mirai0nline
+- Naruse
+- Nemesise
+- NikoNikoD
+- Pantero
+- PrZozor
+- Seruuuu
+- ShinRan
+- SmallBombsEnjoyer
+- Sodachi
+- Soraya
+- Spotty Len
+- TACHYON
+- TeLiXj
+- TenmaWorks
+- TheMio
+- Tomatsu
+- Uwhipa
+- Variabels
+- Volodia
+- Voltini
+- Waann
+- Williukea
+- XGeneral2000
+- XxoT_Yue
+- YouzoTheMatsurisu
+- clockingoutontime
+- fabthehedgehog
+- jekkt01
+- kmeuh
+- meulahke
+- pecka
+- pockydany
+- puyo
+- red5h4d0w
+- torash
+- witchent
+- zeruon
+
+## Added
+
+New songs : 295
+
+- CHI - Love Live! Superstar!! - IN - Keke Tang's rap (Ichinyaaan)
+- CHI, JPN - Love Live! Nijigasaki Gakuen School Idol Dôkôkai 2 - AUDIO - Eutopia \~ Full Vers (MaxSonic, Azurys)
+- ENG - Amir Talai - MV - Alastor Season 1 Recap Song (NikoNikoD)
+- ENG - Apéro Céleste 1 \~ Songe d'une nuit d'été \~ - ED - Starlight (kmeuh)
+- ENG - Arknights - GAME MV - Unmask (PrZozor)
+- ENG - Aurelio Voltaire - AUDIO - When You're Evil (jekkt01)
+- ENG - Beyoncé, Naughty Boy - MV - Runnin' (Lose It All) (Volodia)
+- ENG - Bijou Koseki - MV - Jingle Bell Rock \~ Koseki Vers. \~ Cover Vers (PrZozor)
+- ENG - Bēnghuài: Xīngqióng Tiědào - GAME PS5 MV - Ripple of Past Reverie (XxoT_Yue)
+- ENG - Charlotte - AUDIO IN - Fallin' (fabthehedgehog)
+- ENG - Dua Lipa, Miley Cyrus - MV - Prisoner (Volodia)
+- ENG - Fallout - AMV - I Don't Want to Set the World on Fire \~ Acoustic Full Vers (jekkt01)
+- ENG - Faouzia - MV - Puppet (Soraya)
+- ENG - Faouzia - MV - You Don't Even Know Me (Soraya)
+- ENG - GODDESS OF VICTORY: NIKKE - AUDIO - Into the Fire \~ Full Vers (Hanaku)
+- ENG - GODDESS OF VICTORY: NIKKE - GAME OP - Into the Fire (Hanaku)
+- ENG - Hades - GAME AUDIO IN - Hymn to Zagreus (Soraya)
+- ENG - Hades - GAME AUDIO IN - Lament of Orpheus (Soraya)
+- ENG - Hades II - GAME AUDIO IN - Fated Glory (Soraya)
+- ENG - Hades II - GAME AUDIO IN - I Am Gonna Claw (Out Your Eyes then Drown You to Death) (Soraya)
+- ENG - Hades II - GAME AUDIO IN - Rock and a Hard Place \~ feat. Charybdis Vers. (Soraya)
+- ENG - Hades II - GAME AUDIO IN - Song of the Deep (Soraya)
+- ENG - Hades II - GAME AUDIO IN - Song of the Isles (Soraya)
+- ENG - Hazbin Hotel Season 2 - IN - Brighter (NikoNikoD)
+- ENG - Hazbin Hotel Season 2 - IN - Don't You Forget (NikoNikoD)
+- ENG - Hazbin Hotel Season 2 - IN - Don't You Forget (Reprise) (NikoNikoD)
+- ENG - Hazbin Hotel Season 2 - IN - Easy (NikoNikoD)
+- ENG - Hazbin Hotel Season 2 - IN - Hazbin Guarantee (Trust Us) (NikoNikoD)
+- ENG - Hazbin Hotel Season 2 - IN - Like You (NikoNikoD)
+- ENG - Hazbin Hotel Season 2 - IN - Live To Live (NikoNikoD)
+- ENG - Hazbin Hotel Season 2 - IN - Losin' Streak (NikoNikoD)
+- ENG - Hazbin Hotel Season 2 - IN - Love In A Bottle (NikoNikoD)
+- ENG - Hazbin Hotel Season 2 - IN - Piss (A Love Song) (NikoNikoD)
+- ENG - Hazbin Hotel Season 2 - IN - Sera's Confession (NikoNikoD)
+- ENG - Hazbin Hotel Season 2 - IN - Speedrun To Redemption (NikoNikoD)
+- ENG - Hazbin Hotel Season 2 - IN - VOX DEI (NikoNikoD)
+- ENG - Hololive - MV - Prisoner (PrZozor)
+- ENG - Hololive - MV - ROCK IN! (PrZozor)
+- ENG - Hololive English -Promise- - AUDIO - Run Back ’Round (Uwhipa)
+- ENG - Hololive English -Promise- - LIVE - Run Back ’Round (Uwhipa)
+- ENG - Johanna Iivanainen, Johanna Kurkela - MV - The Last Sled (Soraya)
+- ENG - KPop Demon Hunters - AUDIO - Your Idol \~ Full Off Vocal Vers (NikoNikoD)
+- ENG - KPop Demon Hunters - MOVIE IN - Free \~ Off Vocal Vers (NikoNikoD)
+- ENG - KPop Demon Hunters - MOVIE IN - Golden \~ Off Vocal Vers (NikoNikoD)
+- ENG - KPop Demon Hunters - MOVIE IN - Takedown \~ Off Vocal Vers (puyo)
+- ENG - Keep Talking and Nobody Explodes - MV - Keep Talking and Nobody Explodes: The Musical (Soraya)
+- ENG - League of Legends - GAME MV - Sacrifice (NikoNikoD)
+- ENG - Metal Gear Rising: Revengeance - GAME IN - The Stains of Time (Soraya)
+- ENG - Miley Cyrus - MV - Wrecking Ball (Coppo)
+- ENG - Nelly Furtado - MV - All Good Things (Come to an End) (TeLiXj)
+- ENG - New Panty & Stocking with Garterbelt - LIVE - Divine \~ Off Vocal Vers (Variabels)
+- ENG - Nyanners - MV - Christmas Waifu \~ Cover Vers (Soraya)
+- ENG - P!nk - MV - Try (Coppo)
+- ENG - Phantasy Star Universe - GAME PS2 OP - Save This World - REMIX (Mirai0nline)
+- ENG - Smallfoot - MOVIE MV - Finally Free (Soraya)
+- ENG - Sonic the Hedgehog: The Movie - OVA AMV - Look-a-like \~ Full Vers (Soraya)
+- ENG - Sonic the Hedgehog: The Movie - OVA ED - Look-a-like (Soraya)
+- ENG - Super Mario Galaxy - GAME WII AMV - Sexy Luigi (SmallBombsEnjoyer)
+- ENG - VK Blanka - MV - Never Run (Soraya)
+- ENG - WarioWare: Get It Together! - GAME AMV - Penny's Song (Soraya)
+- ENG - Xenoblade Chronicles 3 - GAME AUDIO ED - Where We Belong (Azurys)
+- ENG, JPN - Bēnghuài: Xīngqióng Tiědào - MV - FOCUS (Sodachi)
+- ENG, JPN - Gachiakuta - MV - LET’S JUST CRASH \~ Full Vers (Sodachi, fabthehedgehog)
+- ENG, JPN - Gachiakuta - OP2 - LET'S JUST CRASH (fabthehedgehog)
+- ENG, JPN - Gakuen iDOLM@STER - AUDIO - Our Chant \~ Full Vers (Azurys)
+- ENG, JPN - Gakuen iDOLM@STER - GAME MV - Our Chant (Azurys)
+- ENG, JPN - Hazbin Hotel Season 2 - IN - Clean It Up (NikoNikoD)
+- ENG, JPN - Hiyori Nitta, Sachika Misawa - MV - Genkai Made Pom Pon!! (Kuro_Yuki_)
+- ENG, JPN - Long Zu II: Daowangzhe Zhi Tong - ONA ED - Giver (Naruse)
+- ENG, JPN - Love Live! Superstar!! - MV - OPEN THE G☆TE!!! (Azurys)
+- ENG, JPN - ONE OK ROCK - AUDIO OT - Party's Over (clockingoutontime)
+- ENG, JPN - THE iDOLM@STER Shiny Colors - AUDIO - Tracing Defender (Azurys)
+- ENG, JPN - THE iDOLM@STER Shiny Colors - LIVE - Tracing Defender \~ Ijigen Fes Vers. (Azurys)
+- ENG, JPN - Uma Musume: Pretty Derby - GAME PC LIVE - STARTING FORCE \~ Full Vers (Sodachi)
+- ENG, JPN - Uma Musume: Pretty Derby - LIVE - DANCE! DANCE! "ROMAN" (Sodachi)
+- ENG, JPN - Uma Musume: Pretty Derby - LIVE - EXCEED (Sodachi)
+- ENG, JPN - Uma Musume: Pretty Derby - Road to the Top - LIVE - Forever gold (DaBi)
+- ENG, JPN - Yumeutsutsu Re:Master - GAME SWITCH OP - Place of promise (Nemesise)
+- FRE - Aziatomik, Henry Tran - MV - Le son des enfers (PrZozor)
+- FRE - CBGamesPolo - REMIX MV - C'est Tellement Génial ! (PrZozor)
+- FRE - Fernandel - LIVE - Félicie aussi (Soraya)
+- FRE - Frozen II - MOVIE IN - Dans un autre monde (Waann)
+- FRE - Gilles Dor - LIVE - Apartheid tout le Mandela (Soraya)
+- FRE - Housse de Racket - MV - Synthétiseur (Soraya)
+- FRE - Mister V - MV - Invento (PrZozor)
+- FRE - Patrick Sébastien - AUDIO - Joyeux Anniversaire (Soraya)
+- FRE - Robin Hood no daibouken - AUDIO - Les Aventures de Robin des bois \~ Full Vers (Soraya)
+- GER - Clueso - AUDIO - Stein (Soraya)
+- GER - Clueso - MV - Du und ich (Soraya)
+- GER - Digimon Adventure 02 - AMV - Dein Herz zerbricht (Falsche Freunde) (Soraya)
+- GER - Jan Böhmermann - MV - Warum hört der Fahrradweg einfach hier auf? (Hoanzl, witchent, Soraya)
+- GER - Meitantei Conan - AUDIO IS - Sag mir was du denkst (Soraya)
+- GER - Shingeki no Kyojin - AUDIO IN - Ətˈæk 0N tάɪtn (NikoNikoD)
+- ITA - Gran Turismo 4 - GAME PS2 OP - Moon Over The Castle (Evolto)
+- JPN - ADAMS - MV - Dizzy Love ～Kimi ni Muchû～ (Soraya)
+- JPN - Aa Harimanada - ED - Shinu made Hanasanai (HayatoKurokami)
+- JPN - Accel World VS Sword Art Online: Sennen no Tasogare - GAME PS4 OP - S×W -soul world- (Nemesise)
+- JPN - Aguri Onishi - AUDIO - Sekai no Subete ga Sayonara (Hanaku)
+- JPN - Aikatsu! 10th Story: Mirai he no Starway - MOVIE ED - Koori no Mori (ItoVeVe)
+- JPN - Akatsuki Records - MV - MAJOLOGY (Lasagna)
+- JPN - Akiba's Trip The Animation - ED11 - DIVE TO LIVE (HayatoKurokami)
+- JPN - Baelz Hakos, Kronii Ouro - MV - Daidaidaidaidaikirai \~ Cover Vers (Manos, Uwhipa)
+- JPN - Bitoman - OP12 - Denji Sentai Megaranger (NikoNikoD)
+- JPN - Botan Shishiro, Polka Omaru - MV - BLUE CLAPPER (Uwhipa)
+- JPN - CITY THE ANIMATION - MV - Hello \~ Full Off Vocal Vers (TACHYON)
+- JPN - CITY THE ANIMATION - MV - Hello \~ Full Vers (TACHYON)
+- JPN - CITY THE ANIMATION - MV - LUCKY \~ Full Vers (TACHYON)
+- JPN - Cat's♥Eye - ONA OP - MAGIC (TenmaWorks)
+- JPN - Chou Kaguya-hime! - MV - Lonely Universe \~ Cover Vers (Nemesise)
+- JPN - Chou Kaguya-hime! - MV - Taketori Overnight Sensation \~ Cover Vers (Sodachi)
+- JPN - Chou Kaguya-hime! - MV - Torinoko City (Nemesise)
+- JPN - Chou Kaguya-hime! - MV - Yume wo Miru Shima \~ Cover Vers (Sodachi)
+- JPN - ChuSinGura 46+1 Bushi no Kodou - GAME PC OP - Barairo Jihen (Nemesise)
+- JPN - City Hunter Special: The Secret Service - SPECIAL ED - WOMAN (HayatoKurokami)
+- JPN - Classic Stars - OP - Singularist (Soraya)
+- JPN - Coμ -Kuroi Ryuu to Yasashii Oukoku- - OP2 - Ryû-tachi no Yume (Nemesise)
+- JPN - Dansai Bunri no Crime Edge - ED1 - Glass no Mikazuki (HayatoKurokami)
+- JPN - Disney Twisted-Wonderland: The Animation - Episode of Heartslabyul - ONA ED - Obedience (HayatoKurokami)
+- JPN - Disney Twisted-Wonderland: The Animation - Episode of Heartslabyul - ONA OP - Piece of my world (Soraya)
+- JPN - Dragon Ball Kai - AUDIO - Cell Game no Oshirase \~ Full Vers (Seruuuu)
+- JPN - Dragon Ball Kai - IN - Cell Game no Oshirase (Seruuuu, Louis Royer)
+- JPN - Dôse, Koishite Shimaunda - ED - Negaigoto (ItoVeVe)
+- JPN - Ensemble Stars!, Helios Rising Heroes - GAME MV - RISE STAR'S SPIRITS (Variabels)
+- JPN - Ensemble Stars!, Helios Rising Heroes - GAME MV - RISE STAR'S SPIRITS \~ Off Vocal Vers (Variabels)
+- JPN - Entotsu Machi no Poupelle - MOVIE MV - Entotsu Machi no Poupelle (Soraya)
+- JPN - Five Star Monogatari - MOVIE ED - Hitomi no Naka no Faraway (HayatoKurokami)
+- JPN - Fruits Basket (2019) - AMV - Umareru Negai (Soraya)
+- JPN - Gakuen iDOLM@STER - GAME MV - Chiisana Yabô (Sodachi)
+- JPN - Gakuen iDOLM@STER - GAME MV - NAIWA (Sodachi)
+- JPN - Gakuen iDOLM@STER - GAME MV - Riron Busô Shite (Sodachi)
+- JPN - Gakuen iDOLM@STER - GAME MV - Riron Busô Shite \~ Short Vers (Sodachi)
+- JPN - Gakuen iDOLM@STER - GAME MV - Star-mine (Sodachi)
+- JPN - Gekijôban Gintama: Shin'yaku Benizakura-Hen - IN - Bakuchi Dancer \~ Full Vers (fabthehedgehog)
+- JPN - Gekijôban Gintama: Shin'yaku Benizakura-Hen - MV - Bakuchi Dancer \~ THE FIRST TAKE Vers. (fabthehedgehog)
+- JPN - Gekijôban Sword Art Online: Ordinal Scale - AUDIO - delete \~ Full Vers (Azurys)
+- JPN - Girls Band Cry - MV - Darenimo Narenai Watashi Dakara \~ Full Vers (TACHYON, Naruse)
+- JPN - Gundam Build Fighters: Battlogue - ONA ED - Chase Me (HayatoKurokami)
+- JPN - Hamidashi Creative Totsu - GAME PC OP - Issatsu no Arrow (Nemesise)
+- JPN - Harunision - MV - Dramatic (Tomatsu)
+- JPN - Hibike! Euphonium 3 - MV - ReCoda \~ Full Vers (kmeuh, Azurys)
+- JPN - Hifû Katsudô Kiroku: The Sealed Esoteric History - ONA ED3 - Fēng Zhī Gē (Nemesise)
+- JPN - Hikônin Sentai Akibaranger Season 2 - OP - Akibaranger Season Tsuu! (NikoNikoD)
+- JPN - Himitsu no AiPri - AUDIO - Stand Get Up \~ Full Vers (Sodachi)
+- JPN - Hina Tachibana - MV - Pink Twinkle Wink \~ Full Vers (Tomatsu)
+- JPN - Hinata Satô, Moeka Koizumi - AUDIO - Hello Muse (red5h4d0w)
+- JPN - Hinata Satô, Moeka Koizumi - AUDIO - Hello Muse \~ Off Vocal Vers (red5h4d0w)
+- JPN - Holy Undead \~Himote de Bocchi no Shirei Jutsushi ga, Seijo ni Tensei Shite Otomodachi wo Fuyashimasu\~ - GAME OP - Suki Suki Suki ga Suki na Dake (Nemesise)
+- JPN - Hô-kago Tea Time - AUDIO CS - Samidare 20 Love (clockingoutontime)
+- JPN - I'll/CKBC - OVA ED1 - Migite (HayatoKurokami)
+- JPN - Izuna Zanshinken - OP1 - Me ni wa Me wo, Yami ni wa Yami no Danzai wo (Nemesise)
+- JPN - Jack and Jill - MOVIE IN - Dunkaccino \~ Dance Vers (SmallBombsEnjoyer)
+- JPN - Jiemei - MV - We are... \~ Full Vers (Dae_Kimeko, Tomatsu)
+- JPN - Jijou wo Shiranai Tenkousei ga Guigui Kuru. - OP - Alcor to Polaris (Soraya)
+- JPN - Kaela Kovalskia, Kronii Ouro - MV - Bunny Girl \~ Cover Vers (Hanaku, Sodachi)
+- JPN - Kakuriyo no Yadomeshi Ni - ED - Namida no Recipe (HayatoKurokami)
+- JPN - Kano - MV - Sakura no Zenya \~ Cover Vers (Soraya)
+- JPN - Kemono Musume no Sodatekata - GAME PC OP - Happy Beat! (HayatoKurokami)
+- JPN - Kenshi Yonezu - MV - 1991 (meulahke)
+- JPN - Kenshi Yonezu - MV - Pop Song (meulahke)
+- JPN - Kenshi Yonezu - MV - Shunrai (meulahke)
+- JPN - Kitsune no Koe - IN - Kindan no Koi (Soraya)
+- JPN - Koi Suru Kokoro to Mahô no Kotoba - GAME PC OP - Sakura-iro Refrain \~Spring has come\~ (HayatoKurokami)
+- JPN - Kolokol - LIVE - Bonfire \~ Acoustic Vers (Dae_Kimeko, Tomatsu)
+- JPN - Kono Aozora ni Yakusoku wo - GAME PS2 OP - Tsumasaki Movin'on! (Nemesise)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Dôkôkai: Kanketsu-hen 2 - AUDIO - Burn!! (Sodachi)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Dôkôkai: Kanketsu-hen 2 - AUDIO - Itoshiki Yume yo Izanaite \~ Full Vers (DaBi)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Dôkôkai: Tokimeki no Mirai Chizu - ED - Eternalize Love!! (Nemesise)
+- JPN - Love Live! Nijigasaki Gakuen School Idol Dôkôkai: Tokimeki no Mirai Chizu - ED - Eternalize Love!! \~ Mia Vers. \~ Alternative Vers (Nemesise)
+- JPN - Love Live! Nijigasaki High School Idol Club Movie 2 (Love Live! Nijigasaki Gakuen School Idol Dôkôkai: Kanketsu-hen 2) - AUDIO - Circle of Love \~ Full Vers (Azurys)
+- JPN - Love Live! Sunshine!! - MV - Future flight (Azurys)
+- JPN - Love Live! Superstar!! - AUDIO - Fukashi na Blue (Azurys)
+- JPN - Love Live! Superstar!! - AUDIO - High! Motivation (DaBi)
+- JPN - Luka Megurine - OT - Blackjack (clockingoutontime)
+- JPN - Lynn, Misaki Watada - GAME IS - Unlimited Impact (clockingoutontime, Sodachi)
+- JPN - MELLOW DEAR US - MV - Mellow Addiction (Variabels)
+- JPN - MILGRAM The Third Trial - MV - Pain (red5h4d0w)
+- JPN - MILGRAM The Third Trial - MV - Pain \~ Off Vocal Vers (red5h4d0w)
+- JPN - MILGRAM The Third Trial - MV - The Appare March (red5h4d0w)
+- JPN - MILGRAM The Third Trial - MV - The Appare March \~ Off Vocal Vers (red5h4d0w)
+- JPN - Mafumafu - MV - Watagashi \~ Cover Vers (Soraya)
+- JPN - Magical Girl holoWitches! - MV - Kasukana Yûhi (Nemesise)
+- JPN - Matsuri Natsuiro - MV - ENDLESS FES (YouzoTheMatsurisu)
+- JPN - MegaMan: NT Warrior - ED1 - Piece of Peace (HayatoKurokami)
+- JPN - Meitantei Conan - ED72 - Shooting star (Azuli_E86)
+- JPN - Miku Hatsune - MV - Monitoring (Best Friend Remix) \~ Alternative Vers (Uwhipa, pockydany)
+- JPN - Miku Hatsune - MV - Torinoko City (clockingoutontime)
+- JPN - Miku Hatsune, Una Otomachi - MV - Menhera Janai Mon! (Soraya)
+- JPN - Mio Ookami - MV - Yakô Tsûshinn (Uwhipa)
+- JPN - My Fair Prince - MV - Love Song (Soraya)
+- JPN - Nageki no Bôrei wa Intai Shitai (2025) - OP - Algorithm (HayatoKurokami)
+- JPN - Nanahira - REMIX GAME AUDIO - Monosugoi Kuruttoru Flan-chan ga Monosugoi Uta (Alerymin)
+- JPN - Nisemonogatari - AUDIO - Platinum Disco \~ Full Off Vocal Vers (XGeneral2000)
+- JPN - Nohara Hiroshi Hirumeshi no Ryûgi - OP - Gohan Tabeyo (PrZozor)
+- JPN - Omoide Kakaete Ai ni Koi!! - GAME PC OP - Haru wa Uta to Tomoni (HayatoKurokami)
+- JPN - Phantom Siita - MV - Sokkuri-san (Soraya)
+- JPN - Phantom Siita - MV - Sokkuri-san \~ Off Vocal Vers (Soraya)
+- JPN - Princess-Session Orchestra - AUDIO - RISE PHOENIX (Nemesise)
+- JPN - Princess-Session Orchestra - IN - Monochrome Eden (Nemesise)
+- JPN - Rockman 8: Metal Heroes - GAME AMV - Electrical Communication \~ Full Vers (Soraya)
+- JPN - Ryuusei no Rockman Tribe - OP - Kizuna Wave (Soraya)
+- JPN - SOUND HOLIC - AUDIO - PRESERVED VAMPIRE (IXO20)
+- JPN - Sasanomaly - MV - Kyôkankaku Obake (Soraya)
+- JPN - Shin Seiki GPX Cyber Formula Sin - OVA AMV - Pray \~ Full Vers (Evolto)
+- JPN - Shin Ultraman - MV - M87 (meulahke)
+- JPN - Shun'ichi Toki, Toshiyuki Toyonaga - AUDIO - Jôshôkiryû (pecka)
+- JPN - Shun'ichi Toki, Toshiyuki Toyonaga - AUDIO - Jôshôkiryû \~ Off Vocal Vers (pecka)
+- JPN - Shôjo Shûmatsu Ryokô - AUDIO IS - Endless Journey (TACHYON)
+- JPN - Shôjo Shûmatsu Ryokô - AUDIO IS - Endless Journey \~ Off Vocal Vers (TACHYON)
+- JPN - Shônen no Abyss - MV - Inner Child (Nemesise)
+- JPN - Starmyu in Halloween - OVA MV - Storytellers (Williukea)
+- JPN - Study§Steady - GAME PC OP - study§steady day! (HayatoKurokami)
+- JPN - THE iDOLM@STER Million Live! - LIVE - Hanamuke no Tori (Sodachi)
+- JPN - THE iDOLM@STER Shiny Colors - AUDIO - LINKs \~ Full Vers (Azurys)
+- JPN - THE iDOLM@STER Shiny Colors - MV - LINKs (Azurys)
+- JPN - Tantei Opera Milky Holmes: Arsene Kareinaru Yokubô - SPECIAL ED - Reflection (HayatoKurokami)
+- JPN - To - OVA ED - Aoi Tsuki to Ambivalence na Ai (HayatoKurokami)
+- JPN - Tsukiuta. THE ANIMATION 2 - AUDIO CS - Tsuki no Uta. (Soraya)
+- JPN - Tsukiuta. THE ANIMATION 2 - PV - Tsuki no Uta. (Soraya)
+- JPN - Tôjima Tanzaburô wa Kamen Rider ni Naritai - IN - Sore Yuke Tackle-chan (TenmaWorks)
+- JPN - Uma Musume Pretty Derby Season 2 - LIVE - winning the soul \~ High Voltage Vers. \~ Alternative Full Vers (Sodachi)
+- JPN - Uma Musume Pretty Derby Season 2 - LIVE - winning the soul \~ The New Frontier Vers. \~ Full Vers (DaBi, Kuro_Yuki_)
+- JPN - Uma Musume Pretty Derby Season 3 - LIVE - Lost Shine \~ Full Vers (Sodachi)
+- JPN - Uma Musume Pretty Derby Season 3 - LIVE - Soshite minna no \~ The New Frontier Fall Vers. \~ Alternative Full Vers (meulahke, torash, Sodachi)
+- JPN - Uma Musume: Pretty Derby - AMV CS - Marvelous Sunday Time☆★ \~ Short Vers (SmallBombsEnjoyer)
+- JPN - Uma Musume: Pretty Derby - AUDIO - Absolute Faith (Sodachi)
+- JPN - Uma Musume: Pretty Derby - AUDIO - Ace, Sunawachi (Sodachi)
+- JPN - Uma Musume: Pretty Derby - AUDIO - Air Race (Sodachi)
+- JPN - Uma Musume: Pretty Derby - AUDIO - A・NO・NE (Sodachi)
+- JPN - Uma Musume: Pretty Derby - AUDIO - Bokura no Kaerimichi (DaBi)
+- JPN - Uma Musume: Pretty Derby - AUDIO - Chokkan No Problem! (Sodachi)
+- JPN - Uma Musume: Pretty Derby - AUDIO - Saikyo ROARING (Sodachi, DaBi)
+- JPN - Uma Musume: Pretty Derby - GAME AUDIO - Aogeba Tôto Mission! (ShinRan)
+- JPN - Uma Musume: Pretty Derby - GAME AUDIO - Piyoppiyo ni Shiteyanyo! (ShinRan)
+- JPN - Uma Musume: Pretty Derby - GAME LIVE - Legend-Changer \~ Full Vers (Sodachi)
+- JPN - Uma Musume: Pretty Derby - GAME LIVE - U.M.A. NEW WORLD!! \~ Full Vers (Sodachi)
+- JPN - Uma Musume: Pretty Derby - GAME MV - Umasugi! Gourmet Parade \~ Cheval Grand Vers. (Sodachi)
+- JPN - Uma Musume: Pretty Derby - LIVE - AmpReFire (Sodachi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Asatsuyu wa Taiga no Yume wo Miru (Sodachi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Bakunetsu My Soul (DaBi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Boku ga Akogareta Ao (Sodachi)
+- JPN - Uma Musume: Pretty Derby - LIVE - CATCH THE VICTORY! (Sodachi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Close My Eyes (Sodachi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Comeback Story V (DaBi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Dokomade Hashireba (Sodachi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Excellent Condition (DaBi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Go This Way (DaBi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Hai no memoire (DaBi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Hat on your Head! \~ Full Vers (DaBi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Heibon, Toki ni Miracle (DaBi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Hitamuki My Note (DaBi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Ika, Chokumei (Sodachi)
+- JPN - Uma Musume: Pretty Derby - LIVE - LIKE THE WIND \~ Remix Vers. (Sodachi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Logue (DaBi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Love Will Come Through (Sodachi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Ms. VICTORIA \~ Orfevre & Gentildonna Vers. \~ Full Vers (Sodachi)
+- JPN - Uma Musume: Pretty Derby - LIVE - NEXT FRONTIER ! \~ Full Vers (DaBi, Kuro_Yuki_)
+- JPN - Uma Musume: Pretty Derby - LIVE - Never Looking Back (DaBi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Precious Star Dreamer (DaBi)
+- JPN - Uma Musume: Pretty Derby - LIVE - QueenBee (DaBi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Rakuen (DaBi)
+- JPN - Uma Musume: Pretty Derby - LIVE - Reimei ni Saku Hana (Sodachi)
+- JPN - Uma Musume: Pretty Derby - LIVE - You know me (Sodachi)
+- JPN - Uma Musume: Pretty Derby - LIVE - ZOKZOK (Sodachi)
+- JPN - Uma Musume: Pretty Derby - LIVE - transforming (DaBi)
+- JPN - Uma Musume: Pretty Derby - MV - Everlasting BEATS \~ Short Vers (DaBi, Sodachi)
+- JPN - Uma Musume: Pretty Derby - MV - GOCHISO Sama (Sodachi)
+- JPN - Uma Musume: Pretty Derby - MV - Gift (Sodachi)
+- JPN - Uma Musume: Pretty Derby - MV - Mejiro Sanka (Sodachi)
+- JPN - Uma Musume: Pretty Derby - Road to the Top - LIVE - ONCE MORE, I CAN (Sodachi)
+- JPN - Umayuru - ED - Eien no Shikisai (Sodachi)
+- JPN - Umayuru - ED - UmaRAP (Sodachi)
+- JPN - Umayuru - IN - UmaYuru Rap de Put Your Hands Up (Sodachi)
+- JPN - Vampire Princess Miyu (1997) - AMV - Manmaru Temari Uta \~ Full Vers (Soraya)
+- JPN - Vampire Princess Miyu (1997) - ED2 - Manmaru Temari Uta (Soraya)
+- JPN - Yoshitaka Yamaya, Yûki Ono - AUDIO - Re:venger (pecka)
+- JPN - Yoshitaka Yamaya, Yûki Ono - AUDIO - Re:venger \~ Off Vocal Vers (pecka)
+- JPN - Yumeutsutsu Re:Master - ED - Natsukashii Machi (Nemesise)
+- JPN - Yuru Camp△ season 2 - IN - Kono Basho De. (Spotty Len)
+- JPN - ZUTOMAYO - AUDIO - Chigau Kyoku ni Shiyou yo (Soraya)
+- JPN - Zombie Land Saga: Yume Ginga Paradise - AUDIO - Matataku Sora ni Akogarete (Nemesise)
+- JPN - haku. - AUDIO - kimi wa hinata (Demoto, TheMio)
+- JPN - haku. - MV - Bokura Janakya Dame ni Natte (Soraya)
+- JPN - haku. - MV - Intuition way (Demoto, TheMio)
+- JPN - love clear - GAME PC OP - Love may fly! (HayatoKurokami)
+- JPN, KOR - Miku Hatsune, Teto Kasane - MV - PPPP (PrZozor)
+- KAL - Nanook - MV - Pinerrarissuaq (zeruon)
+- KOR - Business Proposal - MV - Saranginga bwa (Soraya)
+- KOR - Business Proposal - MV - Saranginga bwa \~ Alternative Off Vocal Vers (Soraya)
+- KOR - Business Proposal - MV - Saranginga bwa \~ Alternative Vers (Soraya)
+- KOR - KPop Demon Hunters - MOVIE MV - Saranginga bwa (Soraya)
+- LAT - Genshin Impact - GAME AMV - Lullaby of the New Moon (I): Somnias a Luna (Voltini)
+- RUS - Command & Conquer: Red Alert 3 - MV - Soviet March \~ Alina Gingertail Vers. \~ Cover Non-Latin Vers (Soraya)
+- RUS - Command & Conquer: Red Alert 3 - MV - Soviet March \~ Alina Gingertail Vers. \~ Cover Vers (Soraya)
+- SPA - J Balvin, Nicky Jam - MV - X (TeLiXj)
+- SPA - Wisin & Yandel - MV - Algo Me Gusta de Ti (Pantero)
+
 # October 2025
 
 Kara count: 27 400
