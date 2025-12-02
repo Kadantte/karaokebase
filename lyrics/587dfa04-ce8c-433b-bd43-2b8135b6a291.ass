@@ -14,9 +14,11 @@ Style: Utada Choir,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,
 Style: Utada,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Yonezu,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: duo,Arial,24,&H00FFFFFF,&H00FF00BC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,40,legend,{\k1000}{\k0}{\rUtada}female {\2cHFFFFFF}| {\rYonezu}male {\2cHFFFFFF}| {\rduo}both {\2cHFFFFFF}| {\rUtada Choir}Backing
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:15.69,0:00:17.03,Utada,,0,0,0,karaoke,{\k44}ma{\k43}ru{\k47}de
 Comment: 0,0:00:17.40,0:00:24.75,Utada,,0,0,0,karaoke,{\k55}ko{\k39}no {\k42}se{\k49}kai {\k86}de {\k45}fu{\k47}ta{\k45}ri {\k43}da{\k70}ke {\k19}mi{\k72}ta{\k25}i {\k31}da {\k67}ne
@@ -41,9 +43,9 @@ Comment: 0,0:01:58.60,0:02:00.45,Utada Choir,,0,0,0,karaoke,{\k31}zut{\k19}to {\
 Comment: 0,0:01:59.93,0:02:04.72,Yonezu,,0,0,0,karaoke,{\k34}ko{\k12}no {\k32}yo {\k18}wo {\rduo}{\k43}ma{\k45}chi{\k43}ga{\k45}i {\k46}de {\k44}mi{\k45}ta{\k72}sou
 Comment: 0,0:02:05.34,0:02:10.07,Utada,,0,0,0,karaoke,{\k48}so{\k43}ba {\k15}ni {\k30}i{\k30}te {\k103}yo {\k28}a{\k16}so{\k30}bi {\k8}ni {\k8}i{\k47}ko{\k31}u {\k36}yo
 Comment: 0,0:02:11.18,0:02:14.87,Utada,,0,0,0,karaoke,{\k45}do{\k134}ko {\k71}ni {\k20}i{\k36}ru {\k63}no
-Comment: 0,0:02:17.91,0:02:23.14,Utada,,0,0,0,karaoke,{\k45}ga{\k53}ra{\k42}su {\k35}no {\k10}u{\k30}e {\k47}wo {\k16}ha{\k18}da{\k14}shi {\k45}no {\k47}ma{\k27}ma {\k15}a{\k31}ru{\k48}ku
+Comment: 0,0:02:17.91,0:02:23.14,Utada,,0,0,0,karaoke,{\k45}G{\k53}LA{\k42}SS {\k35}no {\k10}u{\k30}e {\k47}wo {\k16}ha{\k18}da{\k14}shi {\k45}no {\k47}ma{\k27}ma {\k15}a{\k31}ru{\k48}ku
 Comment: 0,0:02:23.51,0:02:29.58,Utada,,0,0,0,karaoke,{\k19}i{\k50}ta{\k44}mu {\k40}go{\k41}to {\k53}ni {\k13}chi {\k16}ga {\k14}na{\k50}ga{\k65}re{\k17}te {\k81}o{\k8}chi{\k33}te {\k12}i{\k51}ku
-Comment: 0,0:02:29.95,0:02:31.21,Utada,,0,0,0,karaoke,{\k37}o{\k15}ne{\kf74}gai
+Comment: 0,0:02:29.95,0:02:31.21,Utada,,0,0,0,karaoke,{\k37}o{\k15}ne{\k74}gai
 Comment: 0,0:02:31.31,0:02:36.51,Utada,,0,0,0,karaoke,{\k20}so{\k13}no {\k11}a{\k48}ka{\k45}i {\k40}a{\k52}shi{\k40}a{\k43}to {\k76}wo {\k21}ta{\k39}dot{\k72}te
 Comment: 0,0:02:39.41,0:02:43.91,Utada,,0,0,0,karaoke,{\k40}a{\k48}i {\k40}ni {\kf83}ki{\kf239}te
 Comment: 0,0:02:51.45,0:02:52.84,Yonezu,,0,0,0,karaoke,{\k46}ma{\k44}ru{\k49}de
@@ -73,9 +75,9 @@ Dialogue: 0,0:01:57.70,0:02:00.65,Utada Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k31
 Dialogue: 0,0:01:59.03,0:02:04.92,Yonezu,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ko{\k12}no {\k32}yo {\k18}wo {\rduo}{\k43}ma{\k45}chi{\k43}ga{\k45}i {\k46}de {\k44}mi{\k45}ta{\k72}sou
 Dialogue: 0,0:02:04.44,0:02:10.27,Utada,,0,0,0,fx,{\k90\fad(300,200)}{\k48}so{\k43}ba {\k15}ni {\k30}i{\k30}te {\k103}yo {\k28}a{\k16}so{\k30}bi {\k8}ni {\k8}i{\k47}ko{\k31}u {\k36}yo
 Dialogue: 0,0:02:10.28,0:02:15.07,Utada,,0,0,0,fx,{\k90\fad(300,200)}{\k45}do{\k134}ko {\k71}ni {\k20}i{\k36}ru {\k63}no
-Dialogue: 0,0:02:17.01,0:02:23.34,Utada,,0,0,0,fx,{\k90\fad(300,200)}{\k45}ga{\k53}ra{\k42}su {\k35}no {\k10}u{\k30}e {\k47}wo {\k16}ha{\k18}da{\k14}shi {\k45}no {\k47}ma{\k27}ma {\k15}a{\k31}ru{\k48}ku
+Dialogue: 0,0:02:17.01,0:02:23.34,Utada,,0,0,0,fx,{\k90\fad(300,200)}{\k45}G{\k53}LA{\k42}SS {\k35}no {\k10}u{\k30}e {\k47}wo {\k16}ha{\k18}da{\k14}shi {\k45}no {\k47}ma{\k27}ma {\k15}a{\k31}ru{\k48}ku
 Dialogue: 0,0:02:22.61,0:02:29.78,Utada,,0,0,0,fx,{\k90\fad(300,200)}{\k19}i{\k50}ta{\k44}mu {\k40}go{\k41}to {\k53}ni {\k13}chi {\k16}ga {\k14}na{\k50}ga{\k65}re{\k17}te {\k81}o{\k8}chi{\k33}te {\k12}i{\k51}ku
-Dialogue: 0,0:02:29.05,0:02:31.41,Utada,,0,0,0,fx,{\k90\fad(300,200)}{\k37}o{\k15}ne{\kf74}gai
+Dialogue: 0,0:02:29.05,0:02:31.41,Utada,,0,0,0,fx,{\k90\fad(300,200)}{\k37}o{\k15}ne{\k74}gai
 Dialogue: 0,0:02:30.41,0:02:36.71,Utada,,0,0,0,fx,{\k90\fad(300,200)}{\k20}so{\k13}no {\k11}a{\k48}ka{\k45}i {\k40}a{\k52}shi{\k40}a{\k43}to {\k76}wo {\k21}ta{\k39}dot{\k72}te
 Dialogue: 0,0:02:38.51,0:02:44.11,Utada,,0,0,0,fx,{\k90\fad(300,200)}{\k40}a{\k48}i {\k40}ni {\kf83}ki{\kf239}te
 Dialogue: 0,0:02:50.55,0:02:53.04,Yonezu,,0,0,0,fx,{\k90\fad(300,200)}{\k46}ma{\k44}ru{\k49}de
