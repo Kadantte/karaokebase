@@ -10,69 +10,200 @@ Original Timing: Soraya
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Default,Arial,24,&H006AD7AA,&H00FFFFFF,&H00123325,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+Style: Sample KM [Up],Arial,24,&H00FFB858,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:11.34,0:00:12.76,Sample KM [Up],,0,0,0,karaoke,{\k42}Jo,{\k11} {\k17}wir {\k18}sind {\k15}wie{\k19}der {\k20}da
-Comment: 0,0:00:12.91,0:00:13.95,Sample KM [Up],,0,0,0,karaoke,{\k24}Auf {\k13}Ga{\k25}no{\k16}ven{\k26}jagd
-Comment: 0,0:00:13.95,0:00:14.87,Sample KM [Up],,0,0,0,karaoke,{\k12}Der {\k17}Schrec{\k13}ken {\k13}der {\k24}Gau{\k13}ner
-Comment: 0,0:00:15.09,0:00:16.14,Sample KM [Up],,0,0,0,karaoke,{\k16}Im{\k14}mer {\k27}am {\k48}Start
-Comment: 0,0:00:16.14,0:00:17.08,Sample KM [Up],,0,0,0,karaoke,{\k19}Wir {\k19}sind {\k11}wie{\k17}der {\k28}da
-Comment: 0,0:00:17.23,0:00:18.09,Sample KM [Up],,0,0,0,karaoke,{\k9}Lie{\k12}gen {\k17}auf {\k18}der {\k14}Lau{\k16}er
-Comment: 0,0:00:18.16,0:00:19.11,Sample KM [Up],,0,0,0,karaoke,{\k16}Auf {\k15}ei{\k12}ner {\k13}hei{\k13}ßen {\k26}Spur
-Comment: 0,0:00:19.11,0:00:20.17,Sample KM [Up],,0,0,0,karaoke,{\k19}In {\k14}je{\k13}dem {\k16}A{\k12}ben{\k16}teu{\k16}er
-Comment: 0,0:00:20.47,0:00:21.39,Sample KM [Choir],,0,0,0,karaoke,{\k51}1, {\k41}2
-Comment: 0,0:00:21.43,0:00:22.57,Sample KM [Up],,0,0,0,karaoke,{\k11}Ga{\k26}no{\k7}ven {\k19}und {\k28}Gangs{\k23}ter
-Comment: 0,0:00:22.60,0:00:23.54,Sample KM [Choir],,0,0,0,karaoke,{\k52}3, {\k42}4
-Comment: 0,0:00:23.61,0:00:24.62,Sample KM [Up],,0,0,0,karaoke,{\k21}Gau{\k12}ner {\k14}und {\k11}Ver{\k34}brech{\k9}er
-Comment: 0,0:00:24.71,0:00:25.71,Sample KM [Choir],,0,0,0,karaoke,{\k53}5, {\k47}6
-Comment: 0,0:00:25.66,0:00:26.55,Sample KM [Up],,0,0,0,karaoke,{\k24}Räu{\k10}ber {\k13}im {\k19}Ver{\k23}steck
-Comment: 0,0:00:26.85,0:00:27.78,Sample KM [Choir],,0,0,0,karaoke,{\k50}7, {\k43}8
-Comment: 0,0:00:27.81,0:00:28.92,Sample KM [Up],,0,0,0,karaoke,{\k8}Wir {\k14}ja{\k9}gen {\k19}Tag {\k22}und {\k39}Nacht
-Comment: 0,0:00:28.97,0:00:30.78,Sample KM [Up],,0,0,0,karaoke,{\k52}Räu{\k28}ber {\k25}und {\k44}Gangs{\k32}ter
-Comment: 0,0:00:31.10,0:00:32.84,Sample KM [Up],,0,0,0,karaoke,{\k27}Gau{\k25}ner {\k28}und {\k26}Ver{\k41}brech{\k27}er
-Comment: 0,0:00:33.23,0:00:35.05,Sample KM [Up],,0,0,0,karaoke,{\k27}Wir {\k25}sind {\k27}da, {\k27}wo {\k26}kei{\k22}ner {\k28}sucht
-Comment: 0,0:00:35.08,0:00:35.87,Sample KM [Up],,0,0,0,karaoke,{\k21}Wir {\k33}schla{\k25}gen
-Comment: 0,0:00:35.87,0:00:37.83,Sample KM [Up],,0,0,0,karaoke,{\k27}Die {\k27}Ga{\k26}no{\k26}ven {\k27}in {\k27}die {\k36}Flucht
-Comment: 0,0:00:37.49,0:00:39.22,Sample KM [Choir],,0,0,0,karaoke,{\k51}Räu{\k25}ber {\k28}und {\k43}Gangs{\k26}ter
-Comment: 0,0:00:38.76,0:00:40.11,Sample KM [Up],,0,0,0,karaoke,{\k26}Ihr {\k17}Räu{\k11}ber {\k12}und {\k37}Gangs{\k32}ter
-Comment: 0,0:00:39.60,0:00:41.34,Sample KM [Choir],,0,0,0,karaoke,{\k25}Gau{\k27}ner {\k26}und {\k27}Ver{\k43}brech{\k26}er
-Comment: 0,0:00:41.00,0:00:42.04,Sample KM [Up],,0,0,0,karaoke,{\k17}Gau{\k9}ner {\k16}und {\k18}Ver{\k26}brech{\k18}er
-Comment: 0,0:00:41.73,0:00:43.53,Sample KM [Choir],,0,0,0,karaoke,{\k27}Wir {\k24}sind {\k27}da, {\k27}wo {\k27}kei{\k27}ner {\k21}sucht
-Comment: 0,0:00:42.69,0:00:43.53,Sample KM [Up],,0,0,0,karaoke,{\k22}Nehmt {\k18}euch {\k18}in {\k26}Acht
-Comment: 0,0:00:43.58,0:00:44.34,Sample KM [Choir],,0,0,0,karaoke,{\k25}Wir {\k33}schla{\k18}gen
-Comment: 0,0:00:44.34,0:00:46.48,Sample KM [Choir],,0,0,0,karaoke,{\k26}Die {\k26}Ga{\k24}no{\k28}ven {\k29}in {\k27}die {\k54}Flucht
-Comment: 0,0:00:44.10,0:00:45.16,Sample KM [Up],,0,0,0,karaoke,{\k19}Bei {\k21}Tag {\k26}und {\k40}Nacht
-Dialogue: 0,0:00:10.44,0:00:12.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Jo,{\k11} {\k17}wir {\k18}sind {\k15}wie{\k19}der {\k20}da
-Dialogue: 0,0:00:12.01,0:00:14.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Auf {\k13}Ga{\k25}no{\k16}ven{\k26}jagd
-Dialogue: 0,0:00:13.05,0:00:15.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Der {\k17}Schrec{\k13}ken {\k13}der {\k24}Gau{\k13}ner
-Dialogue: 0,0:00:14.19,0:00:16.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Im{\k14}mer {\k27}am {\k48}Start
-Dialogue: 0,0:00:15.24,0:00:17.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wir {\k19}sind {\k11}wie{\k17}der {\k28}da
-Dialogue: 0,0:00:16.33,0:00:18.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Lie{\k12}gen {\k17}auf {\k18}der {\k14}Lau{\k16}er
-Dialogue: 0,0:00:17.26,0:00:19.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Auf {\k15}ei{\k12}ner {\k13}hei{\k13}ßen {\k26}Spur
-Dialogue: 0,0:00:18.21,0:00:20.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}In {\k14}je{\k13}dem {\k16}A{\k12}ben{\k16}teu{\k16}er
-Dialogue: 0,0:00:19.57,0:00:21.59,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k51}1, {\k41}2
-Dialogue: 0,0:00:20.53,0:00:22.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Ga{\k26}no{\k7}ven {\k19}und {\k28}Gangs{\k23}ter
-Dialogue: 0,0:00:21.70,0:00:23.74,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k52}3, {\k42}4
-Dialogue: 0,0:00:22.71,0:00:24.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Gau{\k12}ner {\k14}und {\k11}Ver{\k34}brech{\k9}er
-Dialogue: 0,0:00:23.81,0:00:25.91,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k53}5, {\k47}6
-Dialogue: 0,0:00:24.76,0:00:26.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Räu{\k10}ber {\k13}im {\k19}Ver{\k23}steck
-Dialogue: 0,0:00:25.95,0:00:27.98,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k50}7, {\k43}8
-Dialogue: 0,0:00:26.91,0:00:29.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}Wir {\k14}ja{\k9}gen {\k19}Tag {\k22}und {\k39}Nacht
-Dialogue: 0,0:00:28.07,0:00:30.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Räu{\k28}ber {\k25}und {\k44}Gangs{\k32}ter
-Dialogue: 0,0:00:30.20,0:00:33.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Gau{\k25}ner {\k28}und {\k26}Ver{\k41}brech{\k27}er
-Dialogue: 0,0:00:32.33,0:00:35.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Wir {\k25}sind {\k27}da, {\k27}wo {\k26}kei{\k22}ner {\k28}sucht
-Dialogue: 0,0:00:34.18,0:00:36.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wir {\k33}schla{\k25}gen
-Dialogue: 0,0:00:34.97,0:00:38.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Die {\k27}Ga{\k26}no{\k26}ven {\k27}in {\k27}die {\k36}Flucht
-Dialogue: 0,0:00:36.59,0:00:39.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Räu{\k25}ber {\k28}und {\k43}Gangs{\k26}ter
-Dialogue: 0,0:00:37.86,0:00:40.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ihr {\k17}Räu{\k11}ber {\k12}und {\k37}Gangs{\k32}ter
-Dialogue: 0,0:00:38.70,0:00:41.54,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Gau{\k27}ner {\k26}und {\k27}Ver{\k43}brech{\k26}er
-Dialogue: 0,0:00:40.10,0:00:42.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Gau{\k9}ner {\k16}und {\k18}Ver{\k26}brech{\k18}er
-Dialogue: 0,0:00:40.83,0:00:43.73,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Wir {\k24}sind {\k27}da, {\k27}wo {\k27}kei{\k27}ner {\k21}sucht
-Dialogue: 0,0:00:41.79,0:00:43.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Nehmt {\k18}euch {\k18}in {\k26}Acht
-Dialogue: 0,0:00:42.68,0:00:44.54,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Wir {\k33}schla{\k18}gen
-Dialogue: 0,0:00:43.44,0:00:46.68,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Die {\k26}Ga{\k24}no{\k28}ven {\k29}in {\k27}die {\k54}Flucht
-Dialogue: 0,0:00:43.20,0:00:45.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Bei {\k21}Tag {\k26}und {\k40}Nacht
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:16.42,0:00:19.03,Sample KM [Up],,0,0,0,karaoke,{\k42}Jo,{\k11} {\k17}wir {\k18}sind {\k15}wie{\k19}der {\k20}da,{\k15} {\k24}auf {\k13}Ga{\k25}no{\k16}ven{\k26}jagd
+Comment: 0,0:00:19.03,0:00:21.22,Sample KM [Up],,0,0,0,karaoke,{\k12}Der {\k17}Schrec{\k13}ken {\k13}der {\k24}Gau{\k13}ner,{\k22} {\k16}im{\k14}mer {\k27}am {\k48}Start
+Comment: 0,0:00:21.22,0:00:23.17,Sample KM [Up],,0,0,0,karaoke,{\k19}Wir {\k19}sind {\k11}wie{\k17}der {\k28}da,{\k15} {\k9}lie{\k12}gen {\k17}auf {\k18}der {\k14}Lau{\k16}er
+Comment: 0,0:00:23.24,0:00:25.25,Sample KM [Up],,0,0,0,karaoke,{\k16}Auf {\k15}ei{\k12}ner {\k13}hei{\k13}ßen {\k26}Spur {\k19}in {\k14}je{\k13}dem {\k16}A{\k12}ben{\k16}teu{\k16}er
+Comment: 0,0:00:25.25,0:00:26.39,Sample KM [Up],,0,0,0,karaoke,{\k13}Wenn {\k13}die {\k21}Schmug{\k18}gler {\k16}und {\k19}Die{\k14}be
+Comment: 0,0:00:26.39,0:00:27.39,Sample KM [Up],,0,0,0,karaoke,{\k18}Tier{\k23}quä{\k6}ler {\k25}und {\k16}Dea{\k12}ler
+Comment: 0,0:00:27.54,0:00:29.19,Sample KM [Up],,0,0,0,karaoke,{\k11}Ihr {\k15}bö{\k11}ses {\k27}Spiel {\k18}trei{\k7}ben {\k16}sind {\k11}wir {\k12}wie{\k14}der {\k23}da
+Comment: 0,0:00:29.50,0:00:31.79,Sample KM [Up],,0,0,0,karaoke,{\k16}Mit {\k15}Com{\k16}pu{\k23}ter {\k10}und {\k15}Ka{\k12}me{\k24}ra,{\k27} {\k17}kom{\k11}bi{\k19}nie{\k24}re
+Comment: 0,0:00:32.58,0:00:33.64,Sample KM [Up],,0,0,0,karaoke,{\k11}Wir {\k12}sind {\k12}die {\k15}Pfef{\k14}fer{\k16}kör{\k26}ner
+Comment: 0,0:00:34.97,0:00:36.11,Sample KM [Up],,0,0,0,karaoke,{\k11}Ga{\k26}no{\k7}ven {\k19}und {\k28}Gangs{\k23}ter
+Comment: 0,0:00:37.15,0:00:38.16,Sample KM [Up],,0,0,0,karaoke,{\k21}Gau{\k12}ner {\k14}und {\k11}Ver{\k34}brech{\k9}er
+Comment: 0,0:00:39.20,0:00:40.09,Sample KM [Up],,0,0,0,karaoke,{\k24}Räu{\k10}ber {\k13}im {\k19}Ver{\k23}steck
+Comment: 0,0:00:41.35,0:00:42.46,Sample KM [Up],,0,0,0,karaoke,{\k8}Wir {\k14}ja{\k9}gen {\k19}Tag {\k22}und {\k39}Nacht
+Comment: 0,0:00:42.51,0:00:44.32,Sample KM [Up],,0,0,0,karaoke,{\k52}Räu{\k28}ber {\k25}und {\k44}Gangs{\k32}ter
+Comment: 0,0:00:44.64,0:00:46.38,Sample KM [Up],,0,0,0,karaoke,{\k27}Gau{\k25}ner {\k28}und {\k26}Ver{\k41}brech{\k27}er
+Comment: 0,0:00:46.77,0:00:48.59,Sample KM [Up],,0,0,0,karaoke,{\k27}Wir {\k25}sind {\k27}da, {\k27}wo {\k26}kei{\k22}ner {\k28}sucht
+Comment: 0,0:00:48.62,0:00:51.37,Sample KM [Up],,0,0,0,karaoke,{\k21}Wir {\k33}schla{\k25}gen {\k27}die {\k27}Ga{\k26}no{\k26}ven {\k27}in {\k27}die {\k36}Flucht
+Comment: 0,0:00:52.41,0:00:53.65,Sample KM [Up],,0,0,0,karaoke,{\k20}Ihr {\k15}Räu{\k11}ber {\k16}und {\k37}Gangs{\k25}ter
+Comment: 0,0:00:54.54,0:00:55.58,Sample KM [Up],,0,0,0,karaoke,{\k17}Gau{\k9}ner {\k16}und {\k18}Ver{\k26}brech{\k18}er
+Comment: 0,0:00:56.23,0:00:57.07,Sample KM [Up],,0,0,0,karaoke,{\k22}Nehmt {\k18}euch {\k18}in {\k26}Acht
+Comment: 0,0:00:57.64,0:00:58.70,Sample KM [Up],,0,0,0,karaoke,{\k19}Bei {\k21}Tag {\k26}und {\k40}Nacht
+Comment: 0,0:01:01.40,0:01:03.34,Sample KM [Up],,0,0,0,karaoke,{\k10}Ü{\k15}ber{\k9}all {\k16}am {\k16}rech{\k10}ten {\k18}Ort {\k16}zur {\k19}rech{\k25}ten {\k40}Zeit
+Comment: 0,0:01:03.39,0:01:05.47,Sample KM [Up],,0,0,0,karaoke,{\k12}Für {\k13}je{\k11}den {\k15}Fall {\k13}an {\k15}Ort {\k15}und {\k21}Stel{\k18}le,{\k9} {\k12}im{\k14}mer {\k15}be{\k25}reit
+Comment: 0,0:01:05.50,0:01:07.82,Sample KM [Up],,0,0,0,karaoke,{\k11}Wir {\k13}geh'n {\k14}nach {\k32}Plan,{\k73} {\k15}halt {\k13}den {\k16}A{\k11}tem {\k34}an
+Comment: 0,0:01:07.82,0:01:09.76,Sample KM [Up],,0,0,0,karaoke,{\k13}Die {\k30}Gangs{\k17}ter {\k11}sind {\k26}dran,{\k19} {\k9}wir {\k16}krie{\k9}gen {\k15}al{\k12}le {\k17}ran
+Comment: 0,0:01:10.12,0:01:11.91,Sample KM [Up],,0,0,0,karaoke,{\k15}Vi{\k10}vi, {\k12}Ja{\k16}na, {\k18}Ta{\k18}scha,{\k10} {\k20}Fie{\k14}te {\k18}und {\k28}Cem
+Comment: 0,0:01:12.24,0:01:13.99,Sample KM [Up],,0,0,0,karaoke,{\k18}Gib {\k21}mir {\k32}fünf,{\k26} {\k9}die {\k13}Pfef{\k13}fer{\k14}kör{\k14}ner-{\k15}Gang
+Comment: 0,0:01:13.99,0:01:16.16,Sample KM [Up],,0,0,0,karaoke,{\k21}Nehmt {\k25}euch {\k31}in {\k38}Acht,{\k28} {\k18}was {\k9}wir {\k25}auch {\k22}tun
+Comment: 0,0:01:16.39,0:01:18.35,Sample KM [Up],,0,0,0,karaoke,{\k10}Die {\k18}Gau{\k12}ner {\k14}ha{\k9}ben {\k14}kei{\k14}ne {\k16}Zeit {\k10}sich {\k27}aus{\k15}zu{\k37}ruh'n
+Comment: 0,0:01:19.54,0:01:20.71,Sample KM [Up],,0,0,0,karaoke,{\k13}Die {\k19}klei{\k9}ne {\k15}Po{\k20}li{\k41}zei
+Comment: 0,0:01:21.66,0:01:22.74,Sample KM [Up],,0,0,0,karaoke,{\k9}In {\k11}ih{\k10}rem {\k26}Haupt{\k18}quar{\k34}tier
+Comment: 0,0:01:23.72,0:01:24.94,Sample KM [Up],,0,0,0,karaoke,{\k20}Bis {\k12}je{\k15}der {\k25}Gangs{\k17}ter {\k33}checkt
+Comment: 0,0:01:25.70,0:01:27.04,Sample KM [Up],,0,0,0,karaoke,{\k9}Wenn {\k10}al{\k12}le {\k21}schla{\k11}fen {\k15}sind {\k26}wir {\k30}wach
+Comment: 0,0:01:27.12,0:01:28.95,Sample KM [Up],,0,0,0,karaoke,{\k53}Räu{\k26}ber {\k27}und {\k43}Gangs{\k34}ter
+Comment: 0,0:01:29.26,0:01:30.95,Sample KM [Up],,0,0,0,karaoke,{\k24}Gau{\k27}ner {\k24}und {\k27}Ver{\k41}brech{\k26}er
+Comment: 0,0:01:31.37,0:01:33.16,Sample KM [Up],,0,0,0,karaoke,{\k26}Wir {\k26}sind {\k27}da, {\k25}wo {\k27}kei{\k25}ner {\k23}sucht
+Comment: 0,0:01:33.21,0:01:35.94,Sample KM [Up],,0,0,0,karaoke,{\k19}Wir {\k36}schla{\k26}gen {\k26}die {\k25}Ga{\k29}no{\k26}ven {\k26}in {\k27}die {\k33}Flucht
+Comment: 0,0:01:37.11,0:01:38.26,Sample KM [Up],,0,0,0,karaoke,{\k10}Ga{\k23}no{\k12}ven {\k15}und {\k29}Gangs{\k26}ter
+Comment: 0,0:01:39.06,0:01:40.23,Sample KM [Up],,0,0,0,karaoke,{\k26}Räu{\k12}ber {\k18}im {\k24}Ver{\k37}steck
+Comment: 0,0:01:41.19,0:01:42.24,Sample KM [Up],,0,0,0,karaoke,{\k17}Ver{\k25}sucht {\k29}zu {\k34}flieh'n
+Comment: 0,0:01:42.52,0:01:43.74,Sample KM [Up],,0,0,0,karaoke,{\k26}Es {\k15}hat {\k22}eh {\k31}keinen {\k28}Zweck
+Comment: 0,0:01:45.43,0:01:46.24,Sample KM [Up],,0,0,0,karaoke,{\k38}Kein {\k43}Zweck
+Comment: 0,0:01:48.63,0:01:52.59,Sample KM [Up],,0,0,0,karaoke,{\k14}O{\k40}ho,{\k158} {\k28}hier,{\k25} {\k33}hier,{\k20} {\k28}hier,{\k25} {\k25}hier
+Comment: 0,0:01:52.62,0:01:54.44,Sample KM [Up],,0,0,0,karaoke,{\k25}Lei{\k13}se, {\k23}lei{\k15}se, {\k16}wenn {\k25}es {\k17}dun{\k24}kel {\k24}wird
+Comment: 0,0:01:54.56,0:01:56.53,Sample KM [Up],,0,0,0,karaoke,{\k16}Der {\k20}Plan {\k16}ist {\k18}ge{\k26}nial,{\k13} {\k15}per{\k13}fekt {\k14}or{\k12}ga{\k14}ni{\k20}siert
+Comment: 0,0:01:56.53,0:01:59.54,Sample KM [Up],,0,0,0,karaoke,{\k17}Doch {\k16}man {\k33}weiß {\k34}nie,{\k103} {\k21}was {\k28}pas{\k49}siert
+Comment: 0,0:02:02.81,0:02:04.32,Sample KM [Up],,0,0,0,karaoke,{\k21}Auf {\k18}den {\k25}Fer{\k13}sen {\k17}der {\k25}Tä{\k32}ter
+Comment: 0,0:02:07.13,0:02:08.76,Sample KM [Up],,0,0,0,karaoke,{\k20}Fol{\k13}gen {\k20}wir {\k14}auf {\k19}lei{\k18}sen {\k59}Sohlen
+Comment: 0,0:02:11.32,0:02:13.27,Sample KM [Up],,0,0,0,karaoke,{\k14}In {\k13}ei{\k12}ner {\k28}Nacht-{\k25}und-{\k13}Ne{\k15}bel-{\k26}Ak{\k49}tion
+Comment: 0,0:02:18.10,0:02:19.83,Sample KM [Up],,0,0,0,karaoke,{\k52}Räu{\k26}ber {\k26}und {\k43}Gangs{\k26}ter
+Comment: 0,0:02:20.23,0:02:22.04,Sample KM [Up],,0,0,0,karaoke,{\k26}Gau{\k25}ner {\k25}und {\k29}Ver{\k38}brech{\k38}er
+Comment: 0,0:02:22.33,0:02:24.13,Sample KM [Up],,0,0,0,karaoke,{\k29}Wir {\k24}sind {\k27}da, {\k26}wo {\k27}kei{\k26}ner {\k21}sucht
+Comment: 0,0:02:24.19,0:02:26.92,Sample KM [Up],,0,0,0,karaoke,{\k23}Wir {\k32}schla{\k25}gen {\k25}die {\k26}Ga{\k29}no{\k26}ven {\k24}in {\k29}die {\k34}Flucht
+Comment: 0,0:02:28.08,0:02:29.24,Sample KM [Up],,0,0,0,karaoke,{\k11}Ihr {\k24}Räu{\k10}ber {\k18}und {\k28}Gangs{\k25}ter
+Comment: 0,0:02:30.03,0:02:31.36,Sample KM [Up],,0,0,0,karaoke,{\k27}Gau{\k14}ner {\k17}und {\k23}Ver{\k23}brech{\k29}er
+Comment: 0,0:02:31.89,0:02:32.78,Sample KM [Up],,0,0,0,karaoke,{\k28}Nehmt {\k21}euch {\k20}in {\k20}Acht
+Comment: 0,0:02:33.23,0:02:34.29,Sample KM [Up],,0,0,0,karaoke,{\k38}Tag {\k26}und {\k42}Nacht
+Comment: 0,0:02:36.94,0:02:38.65,Sample KM [Up],,0,0,0,karaoke,{\k28}Die {\k16}Pfef{\k16}fer{\k19}kör{\k22}ner {\k26}sind {\k44}da
+Comment: 0,0:02:41.19,0:02:43.32,Sample KM [Up],,0,0,0,karaoke,{\k26}Wir {\k16}geh'n {\k27}ab, {\k22}nun {\k25}halt {\k17}den {\k17}A{\k25}tem {\k38}an
+Comment: 0,0:02:44.91,0:02:46.23,Sample KM [Up],,0,0,0,karaoke,{\k25}Wir {\k18}krie{\k9}gen {\k29}euch {\k51}dran
+Comment: 0,0:02:47.03,0:02:47.93,Sample KM [Up],,0,0,0,karaoke,{\k36}Yeah,{\k18} {\k36}yeah
+Comment: 0,0:02:50.22,0:02:52.07,Sample KM [Up],,0,0,0,karaoke,{\k36}Yeah,{\k16} {\k35}yeah,{\k19} {\k37}yeah,{\k16} {\k26}yeah
+Comment: 0,0:02:52.07,0:02:53.90,Sample KM [Up],,0,0,0,karaoke,{\k52}Räu{\k28}ber {\k26}und {\k44}Gangs{\k33}ter
+Comment: 0,0:02:54.20,0:02:55.93,Sample KM [Up],,0,0,0,karaoke,{\k27}Gau{\k25}ner {\k27}und {\k26}Ver{\k41}brech{\k27}er
+Comment: 0,0:02:56.32,0:02:58.13,Sample KM [Up],,0,0,0,karaoke,{\k26}Wir {\k28}sind {\k26}da, {\k26}wo {\k27}kei{\k26}ner {\k22}sucht
+Comment: 0,0:02:58.18,0:03:01.08,Sample KM [Up],,0,0,0,karaoke,{\k23}Wir {\k30}schla{\k27}gen {\k26}die {\k23}Ga{\k30}no{\k26}ven {\k26}in {\k28}die {\k51}Flucht
+Comment: 0,0:00:34.01,0:00:34.93,Sample KM [Choir],,0,0,0,karaoke,{\k51}Eins, {\k41}zwei
+Comment: 0,0:00:36.14,0:00:37.08,Sample KM [Choir],,0,0,0,karaoke,{\k52}Drei, {\k42}vier
+Comment: 0,0:00:38.25,0:00:39.25,Sample KM [Choir],,0,0,0,karaoke,{\k53}Fünf, {\k47}sechs
+Comment: 0,0:00:40.39,0:00:41.32,Sample KM [Choir],,0,0,0,karaoke,{\k27}Sie{\k23}ben, {\k43}acht
+Comment: 0,0:00:51.03,0:00:52.76,Sample KM [Choir],,0,0,0,karaoke,{\k51}Räu{\k25}ber {\k28}und {\k43}Gangs{\k26}ter
+Comment: 0,0:00:53.14,0:00:54.88,Sample KM [Choir],,0,0,0,karaoke,{\k25}Gau{\k27}ner {\k26}und {\k27}Ver{\k43}brech{\k26}er
+Comment: 0,0:00:55.27,0:00:57.07,Sample KM [Choir],,0,0,0,karaoke,{\k27}Wir {\k24}sind {\k27}da, {\k27}wo {\k27}kei{\k27}ner {\k21}sucht
+Comment: 0,0:00:57.12,0:01:00.02,Sample KM [Choir],,0,0,0,karaoke,{\k25}Wir {\k34}schla{\k21}gen {\k26}die {\k26}Ga{\k24}no{\k28}ven {\k29}in {\k27}die {\k50}Flucht
+Comment: 0,0:01:18.62,0:01:19.53,Sample KM [Choir],,0,0,0,karaoke,{\k51}Eins, {\k40}zwei
+Comment: 0,0:01:20.74,0:01:21.66,Sample KM [Choir],,0,0,0,karaoke,{\k54}Drei, {\k38}vier
+Comment: 0,0:01:22.86,0:01:23.72,Sample KM [Choir],,0,0,0,karaoke,{\k51}Fünf, {\k35}sechs
+Comment: 0,0:01:24.96,0:01:25.91,Sample KM [Choir],,0,0,0,karaoke,{\k30}Sie{\k26}ben, {\k39}acht
+Comment: 0,0:01:35.61,0:01:37.42,Sample KM [Choir],,0,0,0,karaoke,{\k52}Räu{\k27}ber {\k27}und {\k43}Gangs{\k32}ter
+Comment: 0,0:01:37.74,0:01:39.46,Sample KM [Choir],,0,0,0,karaoke,{\k24}Gau{\k29}ner {\k25}und {\k29}Ver{\k38}brech{\k27}er
+Comment: 0,0:01:39.86,0:01:41.68,Sample KM [Choir],,0,0,0,karaoke,{\k26}Wir {\k28}sind {\k26}da, {\k25}wo {\k26}kei{\k21}ner {\k30}sucht
+Comment: 0,0:01:41.72,0:01:44.71,Sample KM [Choir],,0,0,0,karaoke,{\k21}Wir {\k35}schla{\k16}gen {\k33}die {\k24}Ga{\k29}no{\k26}ven {\k25}in {\k18}die {\k72}Flucht
+Comment: 0,0:02:01.09,0:02:02.70,Sample KM [Choir],,0,0,0,karaoke,{\k54}Gangs{\k26}ter, {\k53}Gangs{\k28}ter
+Comment: 0,0:02:05.34,0:02:06.94,Sample KM [Choir],,0,0,0,karaoke,{\k53}Gangs{\k26}ter, {\k56}Gangs{\k25}ter
+Comment: 0,0:02:09.57,0:02:11.18,Sample KM [Choir],,0,0,0,karaoke,{\k53}Gangs{\k28}ter, {\k53}Gangs{\k27}ter
+Comment: 0,0:02:13.84,0:02:17.94,Sample KM [Choir],,0,0,0,karaoke,{\k55}Eins, {\k52}zwei, {\k53}drei, {\k37}vier,{\k22} {\k43}fünf, {\k57}sechs, {\k26}sie{\k25}ben, {\k40}acht
+Comment: 0,0:02:26.58,0:02:28.42,Sample KM [Choir],,0,0,0,karaoke,{\k54}Räu{\k25}ber {\k27}und {\k40}Gangs{\k38}ter
+Comment: 0,0:02:28.72,0:02:30.55,Sample KM [Choir],,0,0,0,karaoke,{\k26}Gau{\k25}ner {\k25}und {\k30}Ver{\k40}brech{\k37}er
+Comment: 0,0:02:30.83,0:02:32.65,Sample KM [Choir],,0,0,0,karaoke,{\k26}Wir {\k27}sind {\k26}da, {\k27}wo {\k27}kei{\k26}ner {\k23}sucht
+Comment: 0,0:02:32.69,0:02:35.55,Sample KM [Choir],,0,0,0,karaoke,{\k19}Wir {\k34}schla{\k26}gen {\k28}die {\k25}Ga{\k27}no{\k27}ven {\k25}in {\k29}die {\k46}Flucht
+Comment: 0,0:02:43.58,0:02:45.40,Sample KM [Choir],,0,0,0,karaoke,{\k52}Räu{\k26}ber {\k28}und {\k49}Gangs{\k27}ter
+Comment: 0,0:02:45.69,0:02:47.45,Sample KM [Choir],,0,0,0,karaoke,{\k27}Gau{\k27}ner {\k27}und {\k27}Ver{\k41}brech{\k27}er
+Comment: 0,0:02:47.83,0:02:49.65,Sample KM [Choir],,0,0,0,karaoke,{\k26}Wir {\k27}sind {\k26}da, {\k28}wo {\k25}kei{\k26}ner {\k24}sucht
+Comment: 0,0:02:49.69,0:02:52.40,Sample KM [Choir],,0,0,0,karaoke,{\k18}Wir {\k36}schla{\k27}gen {\k25}die {\k24}Ga{\k28}no{\k28}ven {\k25}in {\k27}die {\k33}Flucht
+Dialogue: 0,0:00:15.52,0:00:19.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Jo,{\k11} {\k17}wir {\k18}sind {\k15}wie{\k19}der {\k20}da,{\k15} {\k24}auf {\k13}Ga{\k25}no{\k16}ven{\k26}jagd
+Dialogue: 0,0:00:18.13,0:00:21.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Der {\k17}Schrec{\k13}ken {\k13}der {\k24}Gau{\k13}ner,{\k22} {\k16}im{\k14}mer {\k27}am {\k48}Start
+Dialogue: 0,0:00:20.32,0:00:23.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wir {\k19}sind {\k11}wie{\k17}der {\k28}da,{\k15} {\k9}lie{\k12}gen {\k17}auf {\k18}der {\k14}Lau{\k16}er
+Dialogue: 0,0:00:22.34,0:00:25.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Auf {\k15}ei{\k12}ner {\k13}hei{\k13}ßen {\k26}Spur {\k19}in {\k14}je{\k13}dem {\k16}A{\k12}ben{\k16}teu{\k16}er
+Dialogue: 0,0:00:24.35,0:00:26.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Wenn {\k13}die {\k21}Schmug{\k18}gler {\k16}und {\k19}Die{\k14}be
+Dialogue: 0,0:00:25.49,0:00:27.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Tier{\k23}quä{\k6}ler {\k25}und {\k16}Dea{\k12}ler
+Dialogue: 0,0:00:26.64,0:00:29.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Ihr {\k15}bö{\k11}ses {\k27}Spiel {\k18}trei{\k7}ben {\k16}sind {\k11}wir {\k12}wie{\k14}der {\k23}da
+Dialogue: 0,0:00:28.60,0:00:31.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Mit {\k15}Com{\k16}pu{\k23}ter {\k10}und {\k15}Ka{\k12}me{\k24}ra,{\k27} {\k17}kom{\k11}bi{\k19}nie{\k24}re
+Dialogue: 0,0:00:31.68,0:00:33.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Wir {\k12}sind {\k12}die {\k15}Pfef{\k14}fer{\k16}kör{\k26}ner
+Dialogue: 0,0:00:34.07,0:00:36.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Ga{\k26}no{\k7}ven {\k19}und {\k28}Gangs{\k23}ter
+Dialogue: 0,0:00:36.25,0:00:38.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Gau{\k12}ner {\k14}und {\k11}Ver{\k34}brech{\k9}er
+Dialogue: 0,0:00:38.30,0:00:40.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Räu{\k10}ber {\k13}im {\k19}Ver{\k23}steck
+Dialogue: 0,0:00:40.45,0:00:42.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}Wir {\k14}ja{\k9}gen {\k19}Tag {\k22}und {\k39}Nacht
+Dialogue: 0,0:00:41.61,0:00:44.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Räu{\k28}ber {\k25}und {\k44}Gangs{\k32}ter
+Dialogue: 0,0:00:43.74,0:00:46.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Gau{\k25}ner {\k28}und {\k26}Ver{\k41}brech{\k27}er
+Dialogue: 0,0:00:45.87,0:00:48.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Wir {\k25}sind {\k27}da, {\k27}wo {\k26}kei{\k22}ner {\k28}sucht
+Dialogue: 0,0:00:47.72,0:00:51.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wir {\k33}schla{\k25}gen {\k27}die {\k27}Ga{\k26}no{\k26}ven {\k27}in {\k27}die {\k36}Flucht
+Dialogue: 0,0:00:51.51,0:00:53.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ihr {\k15}Räu{\k11}ber {\k16}und {\k37}Gangs{\k25}ter
+Dialogue: 0,0:00:53.64,0:00:55.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Gau{\k9}ner {\k16}und {\k18}Ver{\k26}brech{\k18}er
+Dialogue: 0,0:00:55.33,0:00:57.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Nehmt {\k18}euch {\k18}in {\k26}Acht
+Dialogue: 0,0:00:56.74,0:00:58.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Bei {\k21}Tag {\k26}und {\k40}Nacht
+Dialogue: 0,0:01:00.50,0:01:03.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Ü{\k15}ber{\k9}all {\k16}am {\k16}rech{\k10}ten {\k18}Ort {\k16}zur {\k19}rech{\k25}ten {\k40}Zeit
+Dialogue: 0,0:01:02.49,0:01:05.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Für {\k13}je{\k11}den {\k15}Fall {\k13}an {\k15}Ort {\k15}und {\k21}Stel{\k18}le,{\k9} {\k12}im{\k14}mer {\k15}be{\k25}reit
+Dialogue: 0,0:01:04.60,0:01:08.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Wir {\k13}geh'n {\k14}nach {\k32}Plan,{\k73} {\k15}halt {\k13}den {\k16}A{\k11}tem {\k34}an
+Dialogue: 0,0:01:06.92,0:01:09.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Die {\k30}Gangs{\k17}ter {\k11}sind {\k26}dran,{\k19} {\k9}wir {\k16}krie{\k9}gen {\k15}al{\k12}le {\k17}ran
+Dialogue: 0,0:01:09.22,0:01:12.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Vi{\k10}vi, {\k12}Ja{\k16}na, {\k18}Ta{\k18}scha,{\k10} {\k20}Fie{\k14}te {\k18}und {\k28}Cem
+Dialogue: 0,0:01:11.34,0:01:14.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Gib {\k21}mir {\k32}fünf,{\k26} {\k9}die {\k13}Pfef{\k13}fer{\k14}kör{\k14}ner-{\k15}Gang
+Dialogue: 0,0:01:13.09,0:01:16.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Nehmt {\k25}euch {\k31}in {\k38}Acht,{\k28} {\k18}was {\k9}wir {\k25}auch {\k22}tun
+Dialogue: 0,0:01:15.49,0:01:18.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Die {\k18}Gau{\k12}ner {\k14}ha{\k9}ben {\k14}kei{\k14}ne {\k16}Zeit {\k10}sich {\k27}aus{\k15}zu{\k37}ruh'n
+Dialogue: 0,0:01:18.64,0:01:20.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Die {\k19}klei{\k9}ne {\k15}Po{\k20}li{\k41}zei
+Dialogue: 0,0:01:20.76,0:01:22.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}In {\k11}ih{\k10}rem {\k26}Haupt{\k18}quar{\k34}tier
+Dialogue: 0,0:01:22.82,0:01:25.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Bis {\k12}je{\k15}der {\k25}Gangs{\k17}ter {\k33}checkt
+Dialogue: 0,0:01:24.80,0:01:27.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Wenn {\k10}al{\k12}le {\k21}schla{\k11}fen {\k15}sind {\k26}wir {\k30}wach
+Dialogue: 0,0:01:26.22,0:01:29.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Räu{\k26}ber {\k27}und {\k43}Gangs{\k34}ter
+Dialogue: 0,0:01:28.36,0:01:31.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Gau{\k27}ner {\k24}und {\k27}Ver{\k41}brech{\k26}er
+Dialogue: 0,0:01:30.47,0:01:33.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Wir {\k26}sind {\k27}da, {\k25}wo {\k27}kei{\k25}ner {\k23}sucht
+Dialogue: 0,0:01:32.31,0:01:36.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wir {\k36}schla{\k26}gen {\k26}die {\k25}Ga{\k29}no{\k26}ven {\k26}in {\k27}die {\k33}Flucht
+Dialogue: 0,0:01:36.21,0:01:38.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Ga{\k23}no{\k12}ven {\k15}und {\k29}Gangs{\k26}ter
+Dialogue: 0,0:01:38.16,0:01:40.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Räu{\k12}ber {\k18}im {\k24}Ver{\k37}steck
+Dialogue: 0,0:01:40.29,0:01:42.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ver{\k25}sucht {\k29}zu {\k34}flieh'n
+Dialogue: 0,0:01:41.62,0:01:43.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Es {\k15}hat {\k22}eh {\k31}keinen {\k28}Zweck
+Dialogue: 0,0:01:44.53,0:01:46.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Kein {\k43}Zweck
+Dialogue: 0,0:01:47.73,0:01:52.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}O{\k40}ho,{\k158} {\k28}hier,{\k25} {\k33}hier,{\k20} {\k28}hier,{\k25} {\k25}hier
+Dialogue: 0,0:01:51.72,0:01:54.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Lei{\k13}se, {\k23}lei{\k15}se, {\k16}wenn {\k25}es {\k17}dun{\k24}kel {\k24}wird
+Dialogue: 0,0:01:53.66,0:01:56.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Der {\k20}Plan {\k16}ist {\k18}ge{\k26}nial,{\k13} {\k15}per{\k13}fekt {\k14}or{\k12}ga{\k14}ni{\k20}siert
+Dialogue: 0,0:01:55.63,0:01:59.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Doch {\k16}man {\k33}weiß {\k34}nie,{\k103} {\k21}was {\k28}pas{\k49}siert
+Dialogue: 0,0:02:01.91,0:02:04.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Auf {\k18}den {\k25}Fer{\k13}sen {\k17}der {\k25}Tä{\k32}ter
+Dialogue: 0,0:02:06.23,0:02:08.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Fol{\k13}gen {\k20}wir {\k14}auf {\k19}lei{\k18}sen {\k59}Sohlen
+Dialogue: 0,0:02:10.42,0:02:13.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}In {\k13}ei{\k12}ner {\k28}Nacht-{\k25}und-{\k13}Ne{\k15}bel-{\k26}Ak{\k49}tion
+Dialogue: 0,0:02:17.20,0:02:20.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Räu{\k26}ber {\k26}und {\k43}Gangs{\k26}ter
+Dialogue: 0,0:02:19.33,0:02:22.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Gau{\k25}ner {\k25}und {\k29}Ver{\k38}brech{\k38}er
+Dialogue: 0,0:02:21.43,0:02:24.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Wir {\k24}sind {\k27}da, {\k26}wo {\k27}kei{\k26}ner {\k21}sucht
+Dialogue: 0,0:02:23.29,0:02:27.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wir {\k32}schla{\k25}gen {\k25}die {\k26}Ga{\k29}no{\k26}ven {\k24}in {\k29}die {\k34}Flucht
+Dialogue: 0,0:02:27.18,0:02:29.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Ihr {\k24}Räu{\k10}ber {\k18}und {\k28}Gangs{\k25}ter
+Dialogue: 0,0:02:29.13,0:02:31.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Gau{\k14}ner {\k17}und {\k23}Ver{\k23}brech{\k29}er
+Dialogue: 0,0:02:30.99,0:02:32.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Nehmt {\k21}euch {\k20}in {\k20}Acht
+Dialogue: 0,0:02:32.33,0:02:34.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Tag {\k26}und {\k42}Nacht
+Dialogue: 0,0:02:36.04,0:02:38.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Die {\k16}Pfef{\k16}fer{\k19}kör{\k22}ner {\k26}sind {\k44}da
+Dialogue: 0,0:02:40.29,0:02:43.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Wir {\k16}geh'n {\k27}ab, {\k22}nun {\k25}halt {\k17}den {\k17}A{\k25}tem {\k38}an
+Dialogue: 0,0:02:44.01,0:02:46.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Wir {\k18}krie{\k9}gen {\k29}euch {\k51}dran
+Dialogue: 0,0:02:46.13,0:02:48.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Yeah,{\k18} {\k36}yeah
+Dialogue: 0,0:02:49.32,0:02:52.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Yeah,{\k16} {\k35}yeah,{\k19} {\k37}yeah,{\k16} {\k26}yeah
+Dialogue: 0,0:02:51.17,0:02:54.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Räu{\k28}ber {\k26}und {\k44}Gangs{\k33}ter
+Dialogue: 0,0:02:53.30,0:02:56.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Gau{\k25}ner {\k27}und {\k26}Ver{\k41}brech{\k27}er
+Dialogue: 0,0:02:55.42,0:02:58.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Wir {\k28}sind {\k26}da, {\k26}wo {\k27}kei{\k26}ner {\k22}sucht
+Dialogue: 0,0:02:57.28,0:03:01.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wir {\k30}schla{\k27}gen {\k26}die {\k23}Ga{\k30}no{\k26}ven {\k26}in {\k28}die {\k51}Flucht
+Dialogue: 0,0:00:33.11,0:00:35.13,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Eins, {\k41}zwei
+Dialogue: 0,0:00:35.24,0:00:37.28,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Drei, {\k42}vier
+Dialogue: 0,0:00:37.35,0:00:39.45,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Fünf, {\k47}sechs
+Dialogue: 0,0:00:39.49,0:00:41.52,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Sie{\k23}ben, {\k43}acht
+Dialogue: 0,0:00:50.13,0:00:52.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Räu{\k25}ber {\k28}und {\k43}Gangs{\k26}ter
+Dialogue: 0,0:00:52.24,0:00:55.08,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Gau{\k27}ner {\k26}und {\k27}Ver{\k43}brech{\k26}er
+Dialogue: 0,0:00:54.37,0:00:57.27,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Wir {\k24}sind {\k27}da, {\k27}wo {\k27}kei{\k27}ner {\k21}sucht
+Dialogue: 0,0:00:56.22,0:01:00.22,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Wir {\k34}schla{\k21}gen {\k26}die {\k26}Ga{\k24}no{\k28}ven {\k29}in {\k27}die {\k50}Flucht
+Dialogue: 0,0:01:17.72,0:01:19.73,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Eins, {\k40}zwei
+Dialogue: 0,0:01:19.84,0:01:21.86,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Drei, {\k38}vier
+Dialogue: 0,0:01:21.96,0:01:23.92,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Fünf, {\k35}sechs
+Dialogue: 0,0:01:24.06,0:01:26.11,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Sie{\k26}ben, {\k39}acht
+Dialogue: 0,0:01:34.71,0:01:37.62,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Räu{\k27}ber {\k27}und {\k43}Gangs{\k32}ter
+Dialogue: 0,0:01:36.84,0:01:39.66,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Gau{\k29}ner {\k25}und {\k29}Ver{\k38}brech{\k27}er
+Dialogue: 0,0:01:38.96,0:01:41.88,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Wir {\k28}sind {\k26}da, {\k25}wo {\k26}kei{\k21}ner {\k30}sucht
+Dialogue: 0,0:01:40.82,0:01:44.91,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wir {\k35}schla{\k16}gen {\k33}die {\k24}Ga{\k29}no{\k26}ven {\k25}in {\k18}die {\k72}Flucht
+Dialogue: 0,0:02:00.19,0:02:02.90,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Gangs{\k26}ter, {\k53}Gangs{\k28}ter
+Dialogue: 0,0:02:04.44,0:02:07.14,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Gangs{\k26}ter, {\k56}Gangs{\k25}ter
+Dialogue: 0,0:02:08.67,0:02:11.38,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Gangs{\k28}ter, {\k53}Gangs{\k27}ter
+Dialogue: 0,0:02:12.94,0:02:18.14,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Eins, {\k52}zwei, {\k53}drei, {\k37}vier,{\k22} {\k43}fünf, {\k57}sechs, {\k26}sie{\k25}ben, {\k40}acht
+Dialogue: 0,0:02:25.68,0:02:28.62,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Räu{\k25}ber {\k27}und {\k40}Gangs{\k38}ter
+Dialogue: 0,0:02:27.82,0:02:30.75,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Gau{\k25}ner {\k25}und {\k30}Ver{\k40}brech{\k37}er
+Dialogue: 0,0:02:29.93,0:02:32.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Wir {\k27}sind {\k26}da, {\k27}wo {\k27}kei{\k26}ner {\k23}sucht
+Dialogue: 0,0:02:31.79,0:02:35.75,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wir {\k34}schla{\k26}gen {\k28}die {\k25}Ga{\k27}no{\k27}ven {\k25}in {\k29}die {\k46}Flucht
+Dialogue: 0,0:02:42.68,0:02:45.60,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Räu{\k26}ber {\k28}und {\k49}Gangs{\k27}ter
+Dialogue: 0,0:02:44.79,0:02:47.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Gau{\k27}ner {\k27}und {\k27}Ver{\k41}brech{\k27}er
+Dialogue: 0,0:02:46.93,0:02:49.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Wir {\k27}sind {\k26}da, {\k28}wo {\k25}kei{\k26}ner {\k24}sucht
+Dialogue: 0,0:02:48.79,0:02:52.60,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Wir {\k36}schla{\k27}gen {\k25}die {\k24}Ga{\k28}no{\k28}ven {\k25}in {\k27}die {\k33}Flucht
