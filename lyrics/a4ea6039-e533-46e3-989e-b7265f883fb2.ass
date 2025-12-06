@@ -1,0 +1,165 @@
+﻿[Script Info]
+Title: Emperor's New Clothes
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.25,0:00:01.63,Sample KM [Up],,0,0,0,karaoke,{\k40}Bow{\k21} {\k24}and {\k53}smile
+Comment: 0,0:00:01.71,0:00:03.10,Sample KM [Up],,0,0,0,karaoke,{\k20}And {\k41}nod{\k20} {\k22}your {\k36}head
+Comment: 0,0:00:03.37,0:00:04.82,Sample KM [Up],,0,0,0,karaoke,{\k18}Ap{\k44}prove,{\k20} {\k22}ap{\k41}plaud
+Comment: 0,0:00:05.04,0:00:06.79,Sample KM [Up],,0,0,0,karaoke,{\k13}A{\k45}gree,{\k19} {\k24}don't {\k44}e{\k14}{\k16}ver
+Comment: 0,0:00:06.85,0:00:09.73,Sample KM [Up],,0,0,0,karaoke,{\k58}Ques{\k30}tion {\k34}the{\k26} {\k19}de{\k56}ci{\k28}sions {\k37}of
+Comment: 0,0:00:09.97,0:00:11.79,Sample KM [Up],,0,0,0,karaoke,{\k20}The {\k46}high {\k36}al{\k40}migh{\k40}ty
+Comment: 0,0:00:11.79,0:00:13.27,Sample KM [Up],,0,0,0,karaoke,{\k42}God {\k39}so{\k42}cie{\k25}ty
+Comment: 0,0:00:39.99,0:00:42.92,Sample KM [Up],,0,0,0,karaoke,{\k39}Prove {\k39}that {\k42}you {\k27}are {\k38}lo{\k35}yal {\k27}to {\k46}me
+Comment: 0,0:00:43.26,0:00:46.22,Sample KM [Up],,0,0,0,karaoke,{\k43}Lose {\k40}your {\k42}face {\k27}and {\k38}in{\k40}te{\k25}gri{\k41}ty
+Comment: 0,0:00:46.63,0:00:49.54,Sample KM [Up],,0,0,0,karaoke,{\k41}I {\k38}will {\k41}give {\k22}you {\k39}all {\k36}that {\k25}you {\k49}need
+Comment: 0,0:00:49.89,0:00:51.99,Sample KM [Up],,0,0,0,karaoke,{\k39}Pride {\k23}and {\k42}dig{\k20}ni{\k86}ty
+Comment: 0,0:00:53.16,0:00:56.25,Sample KM [Up],,0,0,0,karaoke,{\k47}Prove {\k34}that {\k48}you {\k25}are {\k37}lo{\k39}yal {\k27}to {\k52}me
+Comment: 0,0:00:56.54,0:00:59.55,Sample KM [Up],,0,0,0,karaoke,{\k37}Lose {\k45}your {\k46}face {\k21}and {\k40}in{\k35}te{\k28}gri{\k49}ty
+Comment: 0,0:00:59.85,0:01:02.87,Sample KM [Up],,0,0,0,karaoke,{\k44}I {\k41}will {\k37}give {\k24}you {\k43}all {\k36}that {\k27}you {\k50}need
+Comment: 0,0:01:03.14,0:01:05.20,Sample KM [Up],,0,0,0,karaoke,{\k42}Pride {\k22}and {\k38}dig{\k22}ni{\k82}ty
+Comment: 0,0:01:05.79,0:01:07.64,Sample KM [Up],,0,0,0,karaoke,{\k22}Just {\k20}say {\k22}I'll {\k33}serve {\k29}you {\k23}my {\k36}lord
+Comment: 0,0:01:07.72,0:01:09.38,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k28}will {\k25}sell {\k28}you {\k28}my {\k39}soul
+Comment: 0,0:01:09.38,0:01:10.99,Sample KM [Up],,0,0,0,karaoke,{\k20}I {\k19}won't {\k29}leave {\k28}you {\k20}a{\k45}lone
+Comment: 0,0:01:10.99,0:01:13.05,Sample KM [Up],,0,0,0,karaoke,{\k28}I {\k22}will{\k37} {\k22}give {\k26}you {\k32}more {\k24}than {\k15}you
+Comment: 0,0:01:13.05,0:01:14.37,Sample KM [Up],,0,0,0,karaoke,{\k40}Want {\k31}for {\k25}the {\k36}love
+Comment: 0,0:01:14.37,0:01:15.95,Sample KM [Up],,0,0,0,karaoke,{\k17}That {\k28}you {\k28}give {\k27}in {\k21}re{\k37}turn
+Comment: 0,0:01:15.95,0:01:18.02,Sample KM [Up],,0,0,0,karaoke,{\k24}I'll {\k18}en{\k31}joy {\k34}all {\k26}the {\k74}pain
+Comment: 0,0:01:21.97,0:01:25.18,Sample KM [Up],,0,0,0,karaoke,{\k19}It's {\k23}all {\k19}a{\k20}bout {\k21}the {\k25}po{\k56}wer, {\k30}po{\k51}wer, {\k27}po{\k30}wer
+Comment: 0,0:01:25.45,0:01:28.37,Sample KM [Up],,0,0,0,karaoke,{\k25}Clim{\k19}bing {\k20}up {\k20}the {\k27}lad{\k56}der, {\k26}lad{\k53}der, {\k23}lad{\k23}der
+Comment: 0,0:01:28.61,0:01:32.03,Sample KM [Up],,0,0,0,karaoke,{\k16}Am {\k20}I {\k21}the {\k22}on{\k19}ly {\k28}one {\k54}who {\k30}does{\k54}n't {\k28}want {\k50}it
+Comment: 0,0:01:32.90,0:01:35.18,Sample KM [Up],,0,0,0,karaoke,{\k24}Po{\k58}wer, {\k31}po{\k52}wer, {\k29}po{\k34}wer
+Comment: 0,0:01:35.36,0:01:38.38,Sample KM [Up],,0,0,0,karaoke,{\k30}Clim{\k16}bing {\k19}up {\k21}the {\k26}lad{\k60}der, {\k28}lad{\k50}der, {\k28}lad{\k24}der
+Comment: 0,0:01:38.53,0:01:42.14,Sample KM [Up],,0,0,0,karaoke,{\k18}Am {\k27}I {\k16}the {\k20}on{\k21}ly {\k23}one {\k60}who {\k29}does{\k57}n't {\k23}want {\k67}it
+Comment: 0,0:01:43.27,0:01:46.51,Sample KM [Up],,0,0,0,karaoke,{\k44}There {\k40}must {\k38}be {\k42}some{\k45}thing {\k40}wrong {\k41}with {\k34}me
+Comment: 0,0:01:46.15,0:01:47.58,Sample KM [Up],,0,0,0,karaoke,{\k39}Bow{\k23} {\k28}and {\k53}smile
+Comment: 0,0:01:47.58,0:01:49.26,Sample KM [Up],,0,0,0,karaoke,{\k24}And {\k44}nod{\k16} {\k29}your {\k55}head
+Comment: 0,0:01:49.26,0:01:50.89,Sample KM [Up],,0,0,0,karaoke,{\k20}Ap{\k64}prove, {\k20}ap{\k59}plaud
+Comment: 0,0:01:50.89,0:01:52.75,Sample KM [Up],,0,0,0,karaoke,{\k23}A{\k43}gree,{\k20} {\k20}don't {\k59}e{\k21}ver
+Comment: 0,0:01:52.75,0:01:55.69,Sample KM [Up],,0,0,0,karaoke,{\k60}Ques{\k27}tion {\k43}the{\k22} {\k23}de{\k42}ci{\k39}sions {\k38}of
+Comment: 0,0:01:55.89,0:01:57.75,Sample KM [Up],,0,0,0,karaoke,{\k17}The {\k46}high {\k41}al{\k46}migh{\k36}ty
+Comment: 0,0:01:57.75,0:01:59.39,Sample KM [Up],,0,0,0,karaoke,{\k38}God {\k32}so{\k20}ci{\k18}e{\k56}ty
+Comment: 0,0:01:59.39,0:02:00.69,Sample KM [Up],,0,0,0,karaoke,{\k38}Bow{\k22} {\k24}and {\k46}smile
+Comment: 0,0:02:00.86,0:02:02.47,Sample KM [Up],,0,0,0,karaoke,{\k22}And {\k61}nod {\k25}your {\k53}head
+Comment: 0,0:02:02.47,0:02:04.16,Sample KM [Up],,0,0,0,karaoke,{\k21}Ap{\k65}prove, {\k21}ap{\k62}plaud
+Comment: 0,0:02:04.16,0:02:06.01,Sample KM [Up],,0,0,0,karaoke,{\k19}A{\k46}gree,{\k21} {\k25}don't {\k54}e{\k20}ver
+Comment: 0,0:02:06.01,0:02:08.92,Sample KM [Up],,0,0,0,karaoke,{\k58}Ques{\k27}tion {\k38}the{\k21} {\k23}de{\k50}ci{\k41}sions {\k33}of
+Comment: 0,0:02:09.12,0:02:10.98,Sample KM [Up],,0,0,0,karaoke,{\k20}The {\k42}high {\k39}al{\k44}migh{\k41}ty
+Comment: 0,0:02:10.98,0:02:12.68,Sample KM [Up],,0,0,0,karaoke,{\k39}God {\k31}so{\k22}ci{\k13}e{\k65}ty
+Comment: 0,0:02:15.96,0:02:18.92,Sample KM [Up],,0,0,0,karaoke,{\k44}You'll {\k40}be {\k41}as {\k26}a {\k38}mar{\k34}tyr {\k26}to {\k47}me
+Comment: 0,0:02:19.27,0:02:22.23,Sample KM [Up],,0,0,0,karaoke,{\k43}Dy{\k40}ing {\k40}for {\k19}the {\k48}crowd {\k38}that {\k22}you {\k46}lead
+Comment: 0,0:02:22.61,0:02:25.55,Sample KM [Up],,0,0,0,karaoke,{\k43}Pe{\k39}des{\k37}tal {\k29}for {\k39}you {\k40}to {\k24}be{\k43}lieve
+Comment: 0,0:02:25.89,0:02:27.91,Sample KM [Up],,0,0,0,karaoke,{\k46}You're {\k23}the {\k38}on{\k19}ly {\k76}king
+Comment: 0,0:02:29.18,0:02:32.20,Sample KM [Up],,0,0,0,karaoke,{\k45}You'll {\k47}be {\k34}as {\k25}a {\k43}mar{\k36}tyr {\k27}to {\k45}me
+Comment: 0,0:02:32.52,0:02:35.54,Sample KM [Up],,0,0,0,karaoke,{\k41}Dy{\k43}ing {\k41}for {\k17}the {\k49}crowd {\k38}that {\k24}you {\k49}lead
+Comment: 0,0:02:35.83,0:02:38.88,Sample KM [Up],,0,0,0,karaoke,{\k42}Pe{\k43}des{\k40}tal {\k23}for {\k45}you {\k39}to {\k23}be{\k50}lieve
+Comment: 0,0:02:39.12,0:02:41.19,Sample KM [Up],,0,0,0,karaoke,{\k48}You're {\k26}the {\k37}on{\k19}ly {\k77}king
+Comment: 0,0:02:40.82,0:02:42.57,Sample KM [Choir],,0,0,0,karaoke,{\k38}You're {\k22}the {\k35}on{\k22}ly {\k58}king
+Comment: 0,0:02:44.74,0:02:47.97,Sample KM [Up],,0,0,0,karaoke,{\k17}It's {\k26}all {\k16}a{\k22}bout {\k19}the {\k25}po{\k57}wer, {\k29}po{\k52}wer, {\k27}po{\k33}wer
+Comment: 0,0:02:48.17,0:02:51.14,Sample KM [Up],,0,0,0,karaoke,{\k29}Clim{\k18}bing {\k20}up {\k21}the {\k25}lad{\k60}der, {\k24}lad{\k54}der, {\k25}lad{\k21}der
+Comment: 0,0:02:51.33,0:02:54.83,Sample KM [Up],,0,0,0,karaoke,{\k21}Am {\k22}I {\k21}the {\k21}on{\k18}ly {\k31}one {\k52}who {\k31}does{\k50}n't {\k30}want {\k53}it
+Comment: 0,0:02:55.65,0:02:57.92,Sample KM [Up],,0,0,0,karaoke,{\k25}Po{\k59}wer, {\k24}po{\k59}wer, {\k25}po{\k35}wer
+Comment: 0,0:02:58.11,0:03:01.11,Sample KM [Up],,0,0,0,karaoke,{\k31}Clim{\k16}bing {\k20}up {\k18}the {\k29}lad{\k58}der, {\k24}lad{\k55}der, {\k23}lad{\k26}der
+Comment: 0,0:03:01.27,0:03:04.78,Sample KM [Up],,0,0,0,karaoke,{\k20}Am {\k24}I {\k19}the {\k19}on{\k20}ly {\k34}one {\k50}who {\k30}does{\k54}n't {\k25}want {\k56}it
+Comment: 0,0:03:06.07,0:03:09.32,Sample KM [Up],,0,0,0,karaoke,{\k42}There {\k43}must {\k36}be {\k35}some{\k43}thing {\k45}wrong {\k44}with {\k37}me
+Comment: 0,0:03:08.93,0:03:10.39,Sample KM [Up],,0,0,0,karaoke,{\k41}Bow{\k19} {\k26}and {\k60}smile
+Comment: 0,0:03:10.39,0:03:12.10,Sample KM [Up],,0,0,0,karaoke,{\k18}And {\k41}nod{\k21} {\k21}your {\k70}head
+Comment: 0,0:03:12.10,0:03:13.63,Sample KM [Up],,0,0,0,karaoke,{\k14}Ap{\k62}prove, {\k20}ap{\k57}plaud
+Comment: 0,0:03:13.63,0:03:15.50,Sample KM [Up],,0,0,0,karaoke,{\k23}A{\k43}gree,{\k21} {\k21}don't {\k60}e{\k19}ver
+Comment: 0,0:03:15.50,0:03:18.42,Sample KM [Up],,0,0,0,karaoke,{\k63}Ques{\k28}tion {\k36}the{\k26} {\k19}de{\k45}ci{\k35}sions {\k40}of
+Comment: 0,0:03:18.66,0:03:20.51,Sample KM [Up],,0,0,0,karaoke,{\k16}The {\k42}high {\k44}al{\k40}migh{\k43}ty
+Comment: 0,0:03:20.51,0:03:22.15,Sample KM [Up],,0,0,0,karaoke,{\k41}God {\k27}so{\k24}ci{\k15}e{\k57}ty
+Comment: 0,0:03:22.15,0:03:23.44,Sample KM [Up],,0,0,0,karaoke,{\k39}Bow{\k25} {\k21}and {\k44}smile
+Comment: 0,0:03:23.62,0:03:25.25,Sample KM [Up],,0,0,0,karaoke,{\k21}And {\k59}nod {\k24}your {\k59}head
+Comment: 0,0:03:25.25,0:03:26.92,Sample KM [Up],,0,0,0,karaoke,{\k21}Ap{\k60}prove, {\k23}ap{\k63}plaud
+Comment: 0,0:03:26.92,0:03:28.78,Sample KM [Up],,0,0,0,karaoke,{\k18}A{\k48}gree,{\k18} {\k21}don't {\k63}e{\k18}ver
+Comment: 0,0:03:28.78,0:03:31.63,Sample KM [Up],,0,0,0,karaoke,{\k56}Ques{\k29}tion {\k38}the{\k22} {\k23}de{\k52}ci{\k30}sions {\k35}of
+Comment: 0,0:03:31.85,0:03:33.74,Sample KM [Up],,0,0,0,karaoke,{\k20}The {\k47}high {\k44}al{\k36}migh{\k42}ty
+Comment: 0,0:03:33.74,0:03:35.44,Sample KM [Up],,0,0,0,karaoke,{\k40}God {\k24}so{\k25}ci{\k18}e{\k63}ty
+Dialogue: 0,0:00:00.00,0:00:01.83,Sample KM [Up],,0,0,0,fx,{\k25\fad(250,200)}{\k40}Bow{\k21} {\k24}and {\k53}smile
+Dialogue: 0,0:00:00.81,0:00:03.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}And {\k41}nod{\k20} {\k22}your {\k36}head
+Dialogue: 0,0:00:02.47,0:00:05.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ap{\k44}prove,{\k20} {\k22}ap{\k41}plaud
+Dialogue: 0,0:00:04.14,0:00:06.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}A{\k45}gree,{\k19} {\k24}don't {\k44}e{\k14}{\k16}ver
+Dialogue: 0,0:00:05.95,0:00:09.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Ques{\k30}tion {\k34}the{\k26} {\k19}de{\k56}ci{\k28}sions {\k37}of
+Dialogue: 0,0:00:09.07,0:00:11.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}The {\k46}high {\k36}al{\k40}migh{\k40}ty
+Dialogue: 0,0:00:10.89,0:00:13.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}God {\k39}so{\k42}cie{\k25}ty
+Dialogue: 0,0:00:39.09,0:00:43.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Prove {\k39}that {\k42}you {\k27}are {\k38}lo{\k35}yal {\k27}to {\k46}me
+Dialogue: 0,0:00:42.36,0:00:46.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Lose {\k40}your {\k42}face {\k27}and {\k38}in{\k40}te{\k25}gri{\k41}ty
+Dialogue: 0,0:00:45.73,0:00:49.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}I {\k38}will {\k41}give {\k22}you {\k39}all {\k36}that {\k25}you {\k49}need
+Dialogue: 0,0:00:48.99,0:00:52.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Pride {\k23}and {\k42}dig{\k20}ni{\k86}ty
+Dialogue: 0,0:00:52.26,0:00:56.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Prove {\k34}that {\k48}you {\k25}are {\k37}lo{\k39}yal {\k27}to {\k52}me
+Dialogue: 0,0:00:55.64,0:00:59.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Lose {\k45}your {\k46}face {\k21}and {\k40}in{\k35}te{\k28}gri{\k49}ty
+Dialogue: 0,0:00:58.95,0:01:03.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}I {\k41}will {\k37}give {\k24}you {\k43}all {\k36}that {\k27}you {\k50}need
+Dialogue: 0,0:01:02.24,0:01:05.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Pride {\k22}and {\k38}dig{\k22}ni{\k82}ty
+Dialogue: 0,0:01:04.89,0:01:07.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Just {\k20}say {\k22}I'll {\k33}serve {\k29}you {\k23}my {\k36}lord
+Dialogue: 0,0:01:06.82,0:01:09.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k28}will {\k25}sell {\k28}you {\k28}my {\k39}soul
+Dialogue: 0,0:01:08.48,0:01:11.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k19}won't {\k29}leave {\k28}you {\k20}a{\k45}lone
+Dialogue: 0,0:01:10.09,0:01:13.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}I {\k22}will{\k37} {\k22}give {\k26}you {\k32}more {\k24}than {\k15}you
+Dialogue: 0,0:01:12.15,0:01:14.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Want {\k31}for {\k25}the {\k36}love
+Dialogue: 0,0:01:13.47,0:01:16.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}That {\k28}you {\k28}give {\k27}in {\k21}re{\k37}turn
+Dialogue: 0,0:01:15.05,0:01:18.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I'll {\k18}en{\k31}joy {\k34}all {\k26}the {\k74}pain
+Dialogue: 0,0:01:21.07,0:01:25.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}It's {\k23}all {\k19}a{\k20}bout {\k21}the {\k25}po{\k56}wer, {\k30}po{\k51}wer, {\k27}po{\k30}wer
+Dialogue: 0,0:01:24.55,0:01:28.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Clim{\k19}bing {\k20}up {\k20}the {\k27}lad{\k56}der, {\k26}lad{\k53}der, {\k23}lad{\k23}der
+Dialogue: 0,0:01:27.71,0:01:32.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Am {\k20}I {\k21}the {\k22}on{\k19}ly {\k28}one {\k54}who {\k30}does{\k54}n't {\k28}want {\k50}it
+Dialogue: 0,0:01:32.00,0:01:35.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Po{\k58}wer, {\k31}po{\k52}wer, {\k29}po{\k34}wer
+Dialogue: 0,0:01:34.46,0:01:38.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Clim{\k16}bing {\k19}up {\k21}the {\k26}lad{\k60}der, {\k28}lad{\k50}der, {\k28}lad{\k24}der
+Dialogue: 0,0:01:37.63,0:01:42.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Am {\k27}I {\k16}the {\k20}on{\k21}ly {\k23}one {\k60}who {\k29}does{\k57}n't {\k23}want {\k67}it
+Dialogue: 0,0:01:42.37,0:01:46.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}There {\k40}must {\k38}be {\k42}some{\k45}thing {\k40}wrong {\k41}with {\k34}me
+Dialogue: 0,0:01:45.25,0:01:47.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Bow{\k23} {\k28}and {\k53}smile
+Dialogue: 0,0:01:46.68,0:01:49.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}And {\k44}nod{\k16} {\k29}your {\k55}head
+Dialogue: 0,0:01:48.36,0:01:51.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ap{\k64}prove, {\k20}ap{\k59}plaud
+Dialogue: 0,0:01:49.99,0:01:52.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}A{\k43}gree,{\k20} {\k20}don't {\k59}e{\k21}ver
+Dialogue: 0,0:01:51.85,0:01:55.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Ques{\k27}tion {\k43}the{\k22} {\k23}de{\k42}ci{\k39}sions {\k38}of
+Dialogue: 0,0:01:54.99,0:01:57.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}The {\k46}high {\k41}al{\k46}migh{\k36}ty
+Dialogue: 0,0:01:56.85,0:01:59.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}God {\k32}so{\k20}ci{\k18}e{\k56}ty
+Dialogue: 0,0:01:58.49,0:02:00.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Bow{\k22} {\k24}and {\k46}smile
+Dialogue: 0,0:01:59.96,0:02:02.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k61}nod {\k25}your {\k53}head
+Dialogue: 0,0:02:01.57,0:02:04.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ap{\k65}prove, {\k21}ap{\k62}plaud
+Dialogue: 0,0:02:03.26,0:02:06.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}A{\k46}gree,{\k21} {\k25}don't {\k54}e{\k20}ver
+Dialogue: 0,0:02:05.11,0:02:09.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Ques{\k27}tion {\k38}the{\k21} {\k23}de{\k50}ci{\k41}sions {\k33}of
+Dialogue: 0,0:02:08.22,0:02:11.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}The {\k42}high {\k39}al{\k44}migh{\k41}ty
+Dialogue: 0,0:02:10.08,0:02:12.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}God {\k31}so{\k22}ci{\k13}e{\k65}ty
+Dialogue: 0,0:02:15.06,0:02:19.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}You'll {\k40}be {\k41}as {\k26}a {\k38}mar{\k34}tyr {\k26}to {\k47}me
+Dialogue: 0,0:02:18.37,0:02:22.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Dy{\k40}ing {\k40}for {\k19}the {\k48}crowd {\k38}that {\k22}you {\k46}lead
+Dialogue: 0,0:02:21.71,0:02:25.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Pe{\k39}des{\k37}tal {\k29}for {\k39}you {\k40}to {\k24}be{\k43}lieve
+Dialogue: 0,0:02:24.99,0:02:28.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}You're {\k23}the {\k38}on{\k19}ly {\k76}king
+Dialogue: 0,0:02:28.28,0:02:32.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}You'll {\k47}be {\k34}as {\k25}a {\k43}mar{\k36}tyr {\k27}to {\k45}me
+Dialogue: 0,0:02:31.62,0:02:35.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Dy{\k43}ing {\k41}for {\k17}the {\k49}crowd {\k38}that {\k24}you {\k49}lead
+Dialogue: 0,0:02:34.93,0:02:39.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Pe{\k43}des{\k40}tal {\k23}for {\k45}you {\k39}to {\k23}be{\k50}lieve
+Dialogue: 0,0:02:38.22,0:02:41.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}You're {\k26}the {\k37}on{\k19}ly {\k77}king
+Dialogue: 0,0:02:39.92,0:02:42.77,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}You're {\k22}the {\k35}on{\k22}ly {\k58}king
+Dialogue: 0,0:02:43.84,0:02:48.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}It's {\k26}all {\k16}a{\k22}bout {\k19}the {\k25}po{\k57}wer, {\k29}po{\k52}wer, {\k27}po{\k33}wer
+Dialogue: 0,0:02:47.27,0:02:51.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Clim{\k18}bing {\k20}up {\k21}the {\k25}lad{\k60}der, {\k24}lad{\k54}der, {\k25}lad{\k21}der
+Dialogue: 0,0:02:50.43,0:02:55.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Am {\k22}I {\k21}the {\k21}on{\k18}ly {\k31}one {\k52}who {\k31}does{\k50}n't {\k30}want {\k53}it
+Dialogue: 0,0:02:54.75,0:02:58.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Po{\k59}wer, {\k24}po{\k59}wer, {\k25}po{\k35}wer
+Dialogue: 0,0:02:57.21,0:03:01.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Clim{\k16}bing {\k20}up {\k18}the {\k29}lad{\k58}der, {\k24}lad{\k55}der, {\k23}lad{\k26}der
+Dialogue: 0,0:03:00.37,0:03:04.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Am {\k24}I {\k19}the {\k19}on{\k20}ly {\k34}one {\k50}who {\k30}does{\k54}n't {\k25}want {\k56}it
+Dialogue: 0,0:03:05.17,0:03:09.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}There {\k43}must {\k36}be {\k35}some{\k43}thing {\k45}wrong {\k44}with {\k37}me
+Dialogue: 0,0:03:08.03,0:03:10.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Bow{\k19} {\k26}and {\k60}smile
+Dialogue: 0,0:03:09.49,0:03:12.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}And {\k41}nod{\k21} {\k21}your {\k70}head
+Dialogue: 0,0:03:11.20,0:03:13.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ap{\k62}prove, {\k20}ap{\k57}plaud
+Dialogue: 0,0:03:12.73,0:03:15.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}A{\k43}gree,{\k21} {\k21}don't {\k60}e{\k19}ver
+Dialogue: 0,0:03:14.60,0:03:18.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k63}Ques{\k28}tion {\k36}the{\k26} {\k19}de{\k45}ci{\k35}sions {\k40}of
+Dialogue: 0,0:03:17.76,0:03:20.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}The {\k42}high {\k44}al{\k40}migh{\k43}ty
+Dialogue: 0,0:03:19.61,0:03:22.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}God {\k27}so{\k24}ci{\k15}e{\k57}ty
+Dialogue: 0,0:03:21.25,0:03:23.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Bow{\k25} {\k21}and {\k44}smile
+Dialogue: 0,0:03:22.72,0:03:25.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}And {\k59}nod {\k24}your {\k59}head
+Dialogue: 0,0:03:24.35,0:03:27.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ap{\k60}prove, {\k23}ap{\k63}plaud
+Dialogue: 0,0:03:26.02,0:03:28.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}A{\k48}gree,{\k18} {\k21}don't {\k63}e{\k18}ver
+Dialogue: 0,0:03:27.88,0:03:31.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k56}Ques{\k29}tion {\k38}the{\k22} {\k23}de{\k52}ci{\k30}sions {\k35}of
+Dialogue: 0,0:03:30.95,0:03:33.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}The {\k47}high {\k44}al{\k36}migh{\k42}ty
+Dialogue: 0,0:03:32.84,0:03:35.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}God {\k24}so{\k25}ci{\k18}e{\k63}ty
