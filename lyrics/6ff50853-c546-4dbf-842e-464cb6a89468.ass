@@ -1,0 +1,137 @@
+﻿[Script Info]
+Title: Poison Cake
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFB858,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.13,0:00:04.47,Sample KM [Up],,0,0,0,karaoke,{\k21}It's {\k24}cool {\k19}now {\k21}in {\k19}the {\k45}kit{\k85}chen
+Comment: 0,0:00:05.00,0:00:07.75,Sample KM [Up],,0,0,0,karaoke,{\k13}That {\k19}hap{\k22}pens {\k16}when {\k18}you're {\k47}bit{\kf140}ten
+Comment: 0,0:00:08.35,0:00:10.95,Sample KM [Up],,0,0,0,karaoke,{\k35}I'm {\k50}stir{\k53}rin' {\k38}and {\k54}stir{\k30}rin'
+Comment: 0,0:00:11.16,0:00:13.63,Sample KM [Up],,0,0,0,karaoke,{\k34}De{\k49}li{\k53}cious{\k34}ly {\k47}pou{\k30}rin'
+Comment: 0,0:00:13.96,0:00:15.90,Sample KM [Up],,0,0,0,karaoke,{\k32}And {\kf162}I
+Comment: 0,0:00:16.29,0:00:18.75,Sample KM [Up],,0,0,0,karaoke,{\k25}Know {\k21}you're {\k15}gon{\k19}na {\k55}love {\kf111}this
+Comment: 0,0:00:19.06,0:00:21.66,Sample KM [Up],,0,0,0,karaoke,{\k15}A {\k18}bet{\k13}ter {\k21}kind {\k16}of {\k54}jus{\kf123}tice
+Comment: 0,0:00:22.33,0:00:25.02,Sample KM [Up],,0,0,0,karaoke,{\k33}I {\k57}don't {\k54}want {\k30}it {\k58}bur{\k37}nin'
+Comment: 0,0:00:25.47,0:00:27.16,Sample KM [Up],,0,0,0,karaoke,{\k52}One {\k56}last {\k61}thing
+Comment: 0,0:00:27.46,0:00:30.19,Sample KM [Up],,0,0,0,karaoke,{\k18}A {\k15}sprin{\k19}kle {\k17}of {\k18}my {\k50}sweet {\k52}re{\k84}venge
+Comment: 0,0:00:31.13,0:00:32.83,Sample KM [Up],,0,0,0,karaoke,{\k50}One {\k54}last {\k66}thing
+Comment: 0,0:00:33.06,0:00:35.88,Sample KM [Up],,0,0,0,karaoke,{\k19}A {\k16}sprin{\k18}kle {\k17}of {\k19}my {\k50}sweet {\k48}re{\k95}venge
+Comment: 0,0:00:36.69,0:00:39.15,Sample KM [Up],,0,0,0,karaoke,{\k36}Made {\k39}you {\k36}some{\k35}thing {\k20}that {\k18}I {\k14}know {\k21}you'll {\k27}like
+Comment: 0,0:00:39.55,0:00:42.01,Sample KM [Up],,0,0,0,karaoke,{\k20}Cho{\k16}co{\k34}late-{\k34}co{\k36}vered, {\k16}su{\k20}gar {\k35}and {\k35}spice
+Comment: 0,0:00:42.35,0:00:44.96,Sample KM [Up],,0,0,0,karaoke,{\k38}Tas{\k34}ty, {\k35}tas{\k32}ty, {\k38}yum-{\k35}yum, {\k34}tas{\k15}ty
+Comment: 0,0:00:45.15,0:00:47.65,Sample KM [Up],,0,0,0,karaoke,{\k38}Can{\k32}dy {\k36}co{\k38}lours, {\k30}oh, {\k38}so {\k38}nice
+Comment: 0,0:00:48.33,0:00:50.28,Sample KM [Up],,0,0,0,karaoke,{\k16}Take {\k20}a {\k19}bite {\k20}of {\k29}my {\k40}poi{\k28}son {\k23}cake
+Comment: 0,0:00:50.37,0:00:50.63,Sample KM [Choir],,0,0,0,karaoke,{\k26}Yum
+Comment: 0,0:00:50.79,0:00:52.78,Sample KM [Up],,0,0,0,karaoke,{\k51}Poi{\k49}son {\k99}cake
+Comment: 0,0:00:53.58,0:00:55.57,Sample KM [Up],,0,0,0,karaoke,{\k54}Poi{\k48}son {\k97}cake
+Comment: 0,0:00:56.40,0:00:58.40,Sample KM [Up],,0,0,0,karaoke,{\k54}Poi{\k50}son {\k96}cake
+Comment: 0,0:00:59.19,0:01:01.03,Sample KM [Up],,0,0,0,karaoke,{\k52}Poi{\k54}son {\k78}cake
+Comment: 0,0:01:02.36,0:01:04.51,Sample KM [Up],,0,0,0,karaoke,{\k19}Take {\k18}a {\k18}bite {\k17}of {\k32}my {\k39}poi{\k33}son {\k39}cake
+Comment: 0,0:01:05.19,0:01:07.36,Sample KM [Up],,0,0,0,karaoke,{\k34}Been {\k14}coo{\k22}kin' {\k18}in {\k16}my {\k33}caul{\k37}dron {\k43}late
+Comment: 0,0:01:07.80,0:01:09.91,Sample KM [Up],,0,0,0,karaoke,{\k20}You're {\k18}nе{\k15}ver {\k16}e{\k21}ver {\k17}gon{\k18}na {\k39}stay {\k31}a{\k16}wakе
+Comment: 0,0:01:09.91,0:01:12.38,Sample KM [Up],,0,0,0,karaoke,{\k17}You're {\k16}go{\k22}ing {\k51}down, {\k53}down, {\k88}down
+Comment: 0,0:01:13.43,0:01:15.92,Sample KM [Up],,0,0,0,karaoke,{\k17}You {\k19}thought {\k17}I {\k52}was {\k18}a {\k35}ser{\k35}vant {\k56}slave
+Comment: 0,0:01:16.30,0:01:18.71,Sample KM [Up],,0,0,0,karaoke,{\k16}But {\k30}I'm {\k53}just {\k17}a {\k35}ser{\k35}pent {\k55}snake
+Comment: 0,0:01:19.06,0:01:21.40,Sample KM [Up],,0,0,0,karaoke,{\k15}You {\k19}bet{\k18}ter {\k19}ge{\k33}nu{\k34}flect {\k35}and {\k61}pray
+Comment: 0,0:01:21.79,0:01:24.40,Sample KM [Choir],,0,0,0,karaoke,{\k18}You {\k21}bet{\k19}ter {\k22}ge{\k25}nu{\k37}flect {\k34}and {\k85}pray
+Comment: 0,0:01:24.45,0:01:26.94,Sample KM [Up],,0,0,0,karaoke,{\k38}Tin{\k18}gles {\k18}of {\k31}poi{\k17}son {\k21}are {\k31}hit{\k13}ting {\k27}your {\k35}veins
+Comment: 0,0:01:27.32,0:01:28.32,Sample KM [Up],,0,0,0,karaoke,{\k31}What {\k15}have {\k20}you {\k34}done?
+Comment: 0,0:01:28.68,0:01:34.74,Sample KM [Up],,0,0,0,karaoke,{\k26}Your {\k25}words {\k21}are {\k20}slur{\k34}rin' {\k20}as {\k29}you{\k34} {\k39}fall{\k35} {\kf323}down
+Comment: 0,0:01:35.70,0:01:37.34,Sample KM [Up],,0,0,0,karaoke,{\k53}One {\k52}last {\k59}thing
+Comment: 0,0:01:37.64,0:01:40.16,Sample KM [Up],,0,0,0,karaoke,{\k17}A {\k16}sprin{\k18}kle {\k13}of {\k22}my {\k25}sweet{\k27} {\k50}re{\k64}venge
+Comment: 0,0:01:41.31,0:01:42.87,Sample KM [Up],,0,0,0,karaoke,{\k51}One {\k48}last {\k57}thing
+Comment: 0,0:01:43.26,0:01:45.96,Sample KM [Up],,0,0,0,karaoke,{\k16}A {\k15}sprin{\k17}kle {\k17}of {\k22}my {\k24}sweet{\k28} {\k53}re{\k78}venge
+Comment: 0,0:01:46.89,0:01:49.47,Sample KM [Up],,0,0,0,karaoke,{\k39}Made {\k33}you {\k38}some{\k33}thing {\k19}that {\k18}I {\k16}know {\k22}you'll {\k40}like
+Comment: 0,0:01:49.73,0:01:52.19,Sample KM [Up],,0,0,0,karaoke,{\k19}Cho{\k17}co{\k34}late-{\k36}co{\k36}vered, {\k15}su{\k19}gar {\k34}and {\k36}spice
+Comment: 0,0:01:52.55,0:01:55.25,Sample KM [Up],,0,0,0,karaoke,{\k35}Tas{\k34}ty, {\k36}tas{\k36}ty, {\k35}yum-{\k33}yum, {\k36}tas{\k25}ty
+Comment: 0,0:01:55.35,0:01:57.80,Sample KM [Up],,0,0,0,karaoke,{\k35}Can{\k34}dy {\k36}co{\k36}lors, {\k32}oh, {\k40}so {\k32}nice
+Comment: 0,0:01:58.51,0:01:59.45,Sample KM [Up],,0,0,0,karaoke,{\k16}Take {\k22}a {\k16}bite {\k17}of {\k23}my
+Comment: 0,0:01:59.56,0:02:01.53,Sample KM [Up],,0,0,0,karaoke,{\k50}Poi{\k53}son {\k94}cake
+Comment: 0,0:02:02.38,0:02:04.34,Sample KM [Up],,0,0,0,karaoke,{\k50}Poi{\k52}son {\k94}cake
+Comment: 0,0:02:05.18,0:02:07.16,Sample KM [Up],,0,0,0,karaoke,{\k54}Poi{\k48}son {\k96}cake
+Comment: 0,0:02:07.98,0:02:09.83,Sample KM [Up],,0,0,0,karaoke,{\k51}Poi{\k54}son {\k80}cake
+Comment: 0,0:02:09.91,0:02:12.49,Sample KM [Up],,0,0,0,karaoke,{\k19}It's {\k30}not {\k31}my {\k39}fault, {\k18}I {\k18}got {\k20}car{\k17}ried {\k20}a{\k46}way
+Comment: 0,0:02:12.72,0:02:15.30,Sample KM [Up],,0,0,0,karaoke,{\k15}I {\k34}lost {\k30}con{\k44}trol {\k15}when {\k16}I {\k21}star{\k14}ted {\k20}to {\k49}bake
+Comment: 0,0:02:15.52,0:02:18.22,Sample KM [Up],,0,0,0,karaoke,{\k16}A {\k36}dash {\k33}of {\k37}death{\k20} {\k19}is {\k18}bet{\k15}ter {\k19}to {\k33}swal{\k24}low
+Comment: 0,0:02:18.52,0:02:21.31,Sample KM [Up],,0,0,0,karaoke,{\k35}Don't {\k29}be {\k40}scared, {\k17}you'll {\k18}be {\k17}bu{\k18}ried {\k18}to{\k40}mor{\k47}row
+Comment: 0,0:02:27.68,0:02:29.01,Sample KM [Choir],,0,0,0,karaoke,{\k43}Poi{\k90}son
+Comment: 0,0:02:29.04,0:02:30.63,Sample KM [Up],,0,0,0,karaoke,{\k51}Poi{\k57}son {\k51}cake
+Comment: 0,0:02:31.85,0:02:33.47,Sample KM [Up],,0,0,0,karaoke,{\k51}Poi{\k52}son {\k59}cake
+Comment: 0,0:02:34.65,0:02:36.20,Sample KM [Up],,0,0,0,karaoke,{\k53}Poi{\k53}son {\k49}cake
+Comment: 0,0:02:37.46,0:02:39.01,Sample KM [Up],,0,0,0,karaoke,{\k52}Poi{\k54}son {\k49}cake
+Comment: 0,0:02:40.26,0:02:42.30,Sample KM [Up],,0,0,0,karaoke,{\k53}Poi{\k55}son {\k96}cake
+Comment: 0,0:02:43.07,0:02:45.08,Sample KM [Up],,0,0,0,karaoke,{\k55}Poi{\k47}son {\k99}cake
+Comment: 0,0:02:45.88,0:02:47.87,Sample KM [Up],,0,0,0,karaoke,{\k54}Poi{\k51}son {\k94}cake
+Comment: 0,0:02:48.67,0:02:50.83,Sample KM [Up],,0,0,0,karaoke,{\k54}Poi{\k50}son {\k112}cake
+Dialogue: 0,0:00:01.23,0:00:04.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}It's {\k24}cool {\k19}now {\k21}in {\k19}the {\k45}kit{\k85}chen
+Dialogue: 0,0:00:04.10,0:00:07.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}That {\k19}hap{\k22}pens {\k16}when {\k18}you're {\k47}bit{\kf140}ten
+Dialogue: 0,0:00:07.45,0:00:11.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}I'm {\k50}stir{\k53}rin' {\k38}and {\k54}stir{\k30}rin'
+Dialogue: 0,0:00:10.26,0:00:13.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}De{\k49}li{\k53}cious{\k34}ly {\k47}pou{\k30}rin'
+Dialogue: 0,0:00:13.06,0:00:16.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}And {\kf162}I
+Dialogue: 0,0:00:15.39,0:00:18.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Know {\k21}you're {\k15}gon{\k19}na {\k55}love {\kf111}this
+Dialogue: 0,0:00:18.16,0:00:21.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}A {\k18}bet{\k13}ter {\k21}kind {\k16}of {\k54}jus{\kf123}tice
+Dialogue: 0,0:00:21.43,0:00:25.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}I {\k57}don't {\k54}want {\k30}it {\k58}bur{\k37}nin'
+Dialogue: 0,0:00:24.57,0:00:27.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}One {\k56}last {\k61}thing
+Dialogue: 0,0:00:26.56,0:00:30.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}A {\k15}sprin{\k19}kle {\k17}of {\k18}my {\k50}sweet {\k52}re{\k84}venge
+Dialogue: 0,0:00:30.23,0:00:33.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}One {\k54}last {\k66}thing
+Dialogue: 0,0:00:32.16,0:00:36.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}A {\k16}sprin{\k18}kle {\k17}of {\k19}my {\k50}sweet {\k48}re{\k95}venge
+Dialogue: 0,0:00:35.79,0:00:39.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Made {\k39}you {\k36}some{\k35}thing {\k20}that {\k18}I {\k14}know {\k21}you'll {\k27}like
+Dialogue: 0,0:00:38.65,0:00:42.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Cho{\k16}co{\k34}late-{\k34}co{\k36}vered, {\k16}su{\k20}gar {\k35}and {\k35}spice
+Dialogue: 0,0:00:41.45,0:00:45.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Tas{\k34}ty, {\k35}tas{\k32}ty, {\k38}yum-{\k35}yum, {\k34}tas{\k15}ty
+Dialogue: 0,0:00:44.25,0:00:47.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Can{\k32}dy {\k36}co{\k38}lours, {\k30}oh, {\k38}so {\k38}nice
+Dialogue: 0,0:00:47.43,0:00:50.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Take {\k20}a {\k19}bite {\k20}of {\k29}my {\k40}poi{\k28}son {\k23}cake
+Dialogue: 0,0:00:49.47,0:00:50.83,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Yum
+Dialogue: 0,0:00:49.89,0:00:52.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Poi{\k49}son {\k99}cake
+Dialogue: 0,0:00:52.68,0:00:55.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Poi{\k48}son {\k97}cake
+Dialogue: 0,0:00:55.50,0:00:58.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Poi{\k50}son {\k96}cake
+Dialogue: 0,0:00:58.29,0:01:01.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Poi{\k54}son {\k78}cake
+Dialogue: 0,0:01:01.46,0:01:04.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Take {\k18}a {\k18}bite {\k17}of {\k32}my {\k39}poi{\k33}son {\k39}cake
+Dialogue: 0,0:01:04.29,0:01:07.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Been {\k14}coo{\k22}kin' {\k18}in {\k16}my {\k33}caul{\k37}dron {\k43}late
+Dialogue: 0,0:01:06.90,0:01:10.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}You're {\k18}nе{\k15}ver {\k16}e{\k21}ver {\k17}gon{\k18}na {\k39}stay {\k31}a{\k16}wakе
+Dialogue: 0,0:01:09.01,0:01:12.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}You're {\k16}go{\k22}ing {\k51}down, {\k53}down, {\k88}down
+Dialogue: 0,0:01:12.53,0:01:16.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}You {\k19}thought {\k17}I {\k52}was {\k18}a {\k35}ser{\k35}vant {\k56}slave
+Dialogue: 0,0:01:15.40,0:01:18.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}But {\k30}I'm {\k53}just {\k17}a {\k35}ser{\k35}pent {\k55}snake
+Dialogue: 0,0:01:18.16,0:01:21.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}You {\k19}bet{\k18}ter {\k19}ge{\k33}nu{\k34}flect {\k35}and {\k61}pray
+Dialogue: 0,0:01:20.89,0:01:24.60,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k21}bet{\k19}ter {\k22}ge{\k25}nu{\k37}flect {\k34}and {\k85}pray
+Dialogue: 0,0:01:23.55,0:01:27.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Tin{\k18}gles {\k18}of {\k31}poi{\k17}son {\k21}are {\k31}hit{\k13}ting {\k27}your {\k35}veins
+Dialogue: 0,0:01:26.42,0:01:28.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}What {\k15}have {\k20}you {\k34}done?
+Dialogue: 0,0:01:27.78,0:01:34.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Your {\k25}words {\k21}are {\k20}slur{\k34}rin' {\k20}as {\k29}you{\k34} {\k39}fall{\k35} {\kf323}down
+Dialogue: 0,0:01:34.80,0:01:37.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}One {\k52}last {\k59}thing
+Dialogue: 0,0:01:36.74,0:01:40.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}A {\k16}sprin{\k18}kle {\k13}of {\k22}my {\k25}sweet{\k27} {\k50}re{\k64}venge
+Dialogue: 0,0:01:40.41,0:01:43.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}One {\k48}last {\k57}thing
+Dialogue: 0,0:01:42.36,0:01:46.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}A {\k15}sprin{\k17}kle {\k17}of {\k22}my {\k24}sweet{\k28} {\k53}re{\k78}venge
+Dialogue: 0,0:01:45.99,0:01:49.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Made {\k33}you {\k38}some{\k33}thing {\k19}that {\k18}I {\k16}know {\k22}you'll {\k40}like
+Dialogue: 0,0:01:48.83,0:01:52.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Cho{\k17}co{\k34}late-{\k36}co{\k36}vered, {\k15}su{\k19}gar {\k34}and {\k36}spice
+Dialogue: 0,0:01:51.65,0:01:55.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Tas{\k34}ty, {\k36}tas{\k36}ty, {\k35}yum-{\k33}yum, {\k36}tas{\k25}ty
+Dialogue: 0,0:01:54.45,0:01:58.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Can{\k34}dy {\k36}co{\k36}lors, {\k32}oh, {\k40}so {\k32}nice
+Dialogue: 0,0:01:57.61,0:01:59.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Take {\k22}a {\k16}bite {\k17}of {\k23}my
+Dialogue: 0,0:01:58.66,0:02:01.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Poi{\k53}son {\k94}cake
+Dialogue: 0,0:02:01.48,0:02:04.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Poi{\k52}son {\k94}cake
+Dialogue: 0,0:02:04.28,0:02:07.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Poi{\k48}son {\k96}cake
+Dialogue: 0,0:02:07.08,0:02:10.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Poi{\k54}son {\k80}cake
+Dialogue: 0,0:02:09.01,0:02:12.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}It's {\k30}not {\k31}my {\k39}fault, {\k18}I {\k18}got {\k20}car{\k17}ried {\k20}a{\k46}way
+Dialogue: 0,0:02:11.82,0:02:15.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k34}lost {\k30}con{\k44}trol {\k15}when {\k16}I {\k21}star{\k14}ted {\k20}to {\k49}bake
+Dialogue: 0,0:02:14.62,0:02:18.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}A {\k36}dash {\k33}of {\k37}death{\k20} {\k19}is {\k18}bet{\k15}ter {\k19}to {\k33}swal{\k24}low
+Dialogue: 0,0:02:17.62,0:02:21.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Don't {\k29}be {\k40}scared, {\k17}you'll {\k18}be {\k17}bu{\k18}ried {\k18}to{\k40}mor{\k47}row
+Dialogue: 0,0:02:26.78,0:02:29.21,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Poi{\k90}son
+Dialogue: 0,0:02:28.14,0:02:30.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Poi{\k57}son {\k51}cake
+Dialogue: 0,0:02:30.95,0:02:33.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Poi{\k52}son {\k59}cake
+Dialogue: 0,0:02:33.75,0:02:36.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Poi{\k53}son {\k49}cake
+Dialogue: 0,0:02:36.56,0:02:39.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Poi{\k54}son {\k49}cake
+Dialogue: 0,0:02:39.36,0:02:42.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Poi{\k55}son {\k96}cake
+Dialogue: 0,0:02:42.17,0:02:45.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Poi{\k47}son {\k99}cake
+Dialogue: 0,0:02:44.98,0:02:48.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Poi{\k51}son {\k94}cake
+Dialogue: 0,0:02:47.77,0:02:51.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Poi{\k50}son {\k112}cake
