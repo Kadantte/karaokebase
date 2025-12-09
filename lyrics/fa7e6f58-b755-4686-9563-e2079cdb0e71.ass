@@ -1,0 +1,159 @@
+﻿[Script Info]
+Title: Drown With Me
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.62,0:00:03.77,Sample KM [Up],,0,0,0,karaoke,{\k40}Born {\k40}n’ {\k36}raised {\k24}on {\k20}the {\k33}slaugh{\k39}ter {\k83}docks
+Comment: 0,0:00:03.77,0:00:06.14,Sample KM [Choir],,0,0,0,karaoke,{\k68}Woo-{\k77}ee-{\k92}ohm
+Comment: 0,0:00:06.61,0:00:10.09,Sample KM [Up],,0,0,0,karaoke,{\k58}Scra{\k42}ping {\k38}by {\k22}in{\k15}to {\k43}blood {\k39}and {\k91}guts
+Comment: 0,0:00:09.88,0:00:12.44,Sample KM [Choir],,0,0,0,karaoke,{\k77}Woo-{\k75}ee-{\k104}ohm
+Comment: 0,0:00:12.91,0:00:15.72,Sample KM [Up],,0,0,0,karaoke,{\k47}Sails {\k37}and {\k38}spi{\k40}rits {\k37}all {\k35}set {\k47}high
+Comment: 0,0:00:15.72,0:00:18.85,Sample KM [Up],,0,0,0,karaoke,{\k35}One {\k39}fate{\k38}ful {\k44}day, {\k33}at {\k41}Ser{\k41}pent’s {\k42}Isle
+Comment: 0,0:00:19.07,0:00:22.70,Sample KM [Up],,0,0,0,karaoke,{\k49}Prove {\k40}your {\k37}worth {\k41}and {\k58}make {\k21}the {\kf117}cut
+Comment: 0,0:00:22.52,0:00:24.78,Sample KM [Choir],,0,0,0,karaoke,{\k57}Woo-{\k73}ee-{\k96}ohm
+Comment: 0,0:00:25.34,0:00:28.58,Sample KM [Up],,0,0,0,karaoke,{\k41}Ter{\k34}ror {\k43}clea{\k23}ving {\k16}the {\k36}a{\k42}zure {\k89}green
+Comment: 0,0:00:28.44,0:00:30.94,Sample KM [Choir],,0,0,0,karaoke,{\k81}Woo-{\k75}ee-{\k94}ohm
+Comment: 0,0:00:31.55,0:00:34.65,Sample KM [Up],,0,0,0,karaoke,{\k42}Big{\k36}gest {\k41}jaull-{\k24}fish {\k24}I’ve {\k27}e{\k39}ver {\k77}seen
+Comment: 0,0:00:34.65,0:00:37.05,Sample KM [Choir],,0,0,0,karaoke,{\k77}Woo-{\k75}ee-{\k88}ohm
+Comment: 0,0:00:37.39,0:00:40.45,Sample KM [Up],,0,0,0,karaoke,{\k37}I {\k42}dared {\k35}in{\k42}to {\k37}the {\k38}maw {\k34}of {\k41}dread
+Comment: 0,0:00:40.45,0:00:43.56,Sample KM [Up],,0,0,0,karaoke,{\k25}But {\k15}the {\k40}cap{\k41}tain {\k35}cut {\k41}the {\k36}rope {\k39}and {\k39}fled
+Comment: 0,0:00:43.82,0:00:47.22,Sample KM [Up],,0,0,0,karaoke,{\k13}A{\k40}live {\k38}or {\k41}dead {\k38}or {\k58}in-{\k14}be{\k98}tween
+Comment: 0,0:00:47.05,0:00:49.52,Sample KM [Choir],,0,0,0,karaoke,{\k74}Woo-{\k80}ee-{\k93}ohm
+Comment: 0,0:00:50.04,0:00:52.90,Sample KM [Up],,0,0,0,karaoke,{\k43}Take {\k35}the {\k57}plunge,{\k12} {\k17}I {\k41}bring {\k36}the {\k45}hook
+Comment: 0,0:00:53.10,0:00:56.03,Sample KM [Up],,0,0,0,karaoke,{\k12}I {\k43}can’t {\k37}for{\k39}get,{\k23} {\k20}the {\k33}way {\k36}you {\k50}looked
+Comment: 0,0:00:56.19,0:00:59.08,Sample KM [Up],,0,0,0,karaoke,{\k15}The {\k37}bro{\k28}ken {\k55}trust,{\k17} {\k17}the {\k37}life {\k40}you {\k43}took
+Comment: 0,0:00:59.28,0:01:02.48,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k41}cross {\k36}the {\k35}list,{\k18} {\k24}it’s {\k36}like {\k36}a {\k73}book
+Comment: 0,0:01:02.54,0:01:05.26,Sample KM [Up],,0,0,0,karaoke,{\k37}Got {\k36}this {\k21}fi{\k22}re,{\k17} {\k15}a {\k49}drive {\k33}in {\k42}me
+Comment: 0,0:01:05.46,0:01:08.56,Sample KM [Up],,0,0,0,karaoke,{\k14}A {\k42}place {\k32}for {\k65}you, {\k19}be{\k38}low {\k37}the {\k63}sea
+Comment: 0,0:01:08.72,0:01:11.46,Sample KM [Up],,0,0,0,karaoke,{\k29}Blood {\k32}and {\k53}salt,{\k26} {\k19}the {\k32}o{\k40}cean {\k43}seeks
+Comment: 0,0:01:11.46,0:01:18.26,Sample KM [Up],,0,0,0,karaoke,{\k35}To {\k78}take {\k77}you {\k77}down {\k79}with {\kf334}me
+Comment: 0,0:01:39.63,0:01:42.95,Sample KM [Up],,0,0,0,karaoke,{\k38}To{\k20}we{\k30}ring {\k39}fangs {\k23}are {\k17}sur{\k37}roun{\k37}ding {\k91}me
+Comment: 0,0:01:42.78,0:01:45.11,Sample KM [Choir],,0,0,0,karaoke,{\k78}Woo-{\k74}ee-{\k81}ohm
+Comment: 0,0:01:45.73,0:01:49.15,Sample KM [Up],,0,0,0,karaoke,{\k47}Breathe {\k25}in {\k21}the {\k31}wa{\k26}ter, {\k23}in{\k36}vite {\k45}the {\k88}sea
+Comment: 0,0:01:48.96,0:01:51.40,Sample KM [Choir],,0,0,0,karaoke,{\k79}Woo-{\k75}ee-{\k90}ohm
+Comment: 0,0:01:51.67,0:01:54.77,Sample KM [Up],,0,0,0,karaoke,{\k40}I {\k44}was {\k33}played {\k44}out {\k36}a {\k38}sa{\k36}cri{\k39}fice
+Comment: 0,0:01:54.82,0:01:58.13,Sample KM [Up],,0,0,0,karaoke,{\k20}But {\k17}for {\k39}eve{\k35}ry {\k45}crime, {\k33}they {\k40}pay {\k39}the {\k63}price
+Comment: 0,0:01:58.27,0:02:02.12,Sample KM [Up],,0,0,0,karaoke,{\k39}I {\k36}de{\k45}cide {\k18}what {\k28}your {\k52}fate {\k15}will {\kf152}be
+Comment: 0,0:02:01.35,0:02:03.74,Sample KM [Choir],,0,0,0,karaoke,{\k75}Woo-{\k80}ee-{\k84}ohm
+Comment: 0,0:02:04.33,0:02:07.22,Sample KM [Up],,0,0,0,karaoke,{\k53}Take {\k33}the {\k53}plunge,{\k15} {\k17}I {\k37}bring {\k35}the {\k46}hook
+Comment: 0,0:02:07.41,0:02:10.36,Sample KM [Up],,0,0,0,karaoke,{\k16}I {\k41}can’t {\k38}for{\k39}get,{\k22} {\k25}the {\k29}way {\k35}you {\k50}looked
+Comment: 0,0:02:10.51,0:02:13.39,Sample KM [Up],,0,0,0,karaoke,{\k16}The {\k38}bro{\k33}ken {\k49}trust,{\k20} {\k16}the {\k36}life {\k38}you {\k42}took
+Comment: 0,0:02:13.59,0:02:16.83,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k41}cross {\k36}the {\k39}list,{\k19} {\k24}it’s {\k34}like {\k36}a {\k77}book
+Comment: 0,0:02:16.85,0:02:19.57,Sample KM [Up],,0,0,0,karaoke,{\k40}Got {\k39}this {\k27}fi{\k16}re,{\k16} {\k16}a {\k45}drive {\k32}in {\k41}me
+Comment: 0,0:02:19.78,0:02:22.89,Sample KM [Up],,0,0,0,karaoke,{\k17}A {\k37}place {\k38}for {\k42}you,{\k23} {\k21}be{\k33}low {\k36}the {\k64}sea
+Comment: 0,0:02:23.00,0:02:25.81,Sample KM [Up],,0,0,0,karaoke,{\k32}Blood {\k36}and {\k52}salt,{\k28} {\k13}the {\k37}o{\k37}cean {\k46}seeks
+Comment: 0,0:02:25.81,0:02:32.58,Sample KM [Up],,0,0,0,karaoke,{\k32}To {\k79}take {\k77}you {\k74}down {\k79}with {\kf336}me
+Comment: 0,0:02:53.94,0:02:57.22,Sample KM [Up],,0,0,0,karaoke,{\k85}Greed, {\k75}theft, {\k30}tel{\k49}ling {\k89}lies
+Comment: 0,0:02:58.43,0:03:00.19,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k42}cross {\k39}the {\k73}name
+Comment: 0,0:03:00.19,0:03:03.31,Sample KM [Up],,0,0,0,karaoke,{\k27}See {\k49}the, {\k34}ter{\k47}ror, {\k27}in {\k53}your {\k75}eyes
+Comment: 0,0:03:04.60,0:03:06.41,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\k40}cross {\k38}the {\k78}name
+Comment: 0,0:03:06.41,0:03:09.50,Sample KM [Up],,0,0,0,karaoke,{\k74}Deep, {\k80}guile, {\k27}dee{\k45}per {\k83}cuts
+Comment: 0,0:03:10.82,0:03:12.60,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k39}cross {\k39}the {\k78}name
+Comment: 0,0:03:12.60,0:03:15.84,Sample KM [Up],,0,0,0,karaoke,{\k25}O{\k39}pen, {\k87}heart, {\k29}spill {\k53}your {\k91}guts
+Comment: 0,0:03:17.03,0:03:18.80,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k35}cross {\k44}the {\k76}name
+Comment: 0,0:03:18.80,0:03:22.12,Sample KM [Up],,0,0,0,karaoke,{\k76}Greed, {\k73}theft, {\k30}tel{\k53}ling {\k100}lies
+Comment: 0,0:03:23.21,0:03:24.95,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k39}cross {\k38}the {\k75}name
+Comment: 0,0:03:24.95,0:03:28.47,Sample KM [Up],,0,0,0,karaoke,{\k28}See {\k51}the, {\k35}ter{\k43}ror, {\k27}in {\k52}your {\k116}eyes
+Comment: 0,0:03:29.43,0:03:31.17,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k40}cross {\k39}the {\k77}name
+Comment: 0,0:03:31.17,0:03:34.39,Sample KM [Up],,0,0,0,karaoke,{\k77}Deep, {\k79}guile, {\k27}dee{\k47}per {\k92}cuts
+Comment: 0,0:03:35.61,0:03:37.37,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k36}cross {\k40}the {\k78}name
+Comment: 0,0:03:37.37,0:03:40.71,Sample KM [Up],,0,0,0,karaoke,{\k30}O{\k46}pen, {\k75}heart, {\k29}spill {\k50}your {\kf104}guts
+Comment: 0,0:03:41.92,0:03:44.74,Sample KM [Up],,0,0,0,karaoke,{\k47}Take {\k32}the {\k53}plunge,{\k21} {\k15}I {\k38}bring {\k32}the {\k44}hook
+Comment: 0,0:03:44.96,0:03:47.91,Sample KM [Up],,0,0,0,karaoke,{\k16}I {\k40}can’t {\k38}for{\k42}get,{\k20} {\k23}the {\k33}way {\k38}you {\k45}looked
+Comment: 0,0:03:48.06,0:03:50.96,Sample KM [Up],,0,0,0,karaoke,{\k17}The {\k37}bro{\k33}ken {\k50}trust,{\k15} {\k20}the {\k38}life {\k33}you {\k47}took
+Comment: 0,0:03:51.13,0:03:54.38,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k41}cross {\k36}the {\k40}list,{\k18} {\k25}it’s {\k34}like {\k37}a {\k76}book
+Comment: 0,0:03:54.40,0:03:57.15,Sample KM [Up],,0,0,0,karaoke,{\k39}Got {\k39}this {\k24}fi{\k17}re,{\k18} {\k16}a {\k41}drive {\k39}in {\k42}me
+Comment: 0,0:03:57.29,0:04:00.46,Sample KM [Up],,0,0,0,karaoke,{\k19}A {\k38}place {\k27}for {\k53}you,{\k25} {\k16}be{\k35}low {\k38}the {\k66}sea
+Comment: 0,0:04:00.46,0:04:03.33,Sample KM [Up],,0,0,0,karaoke,{\k39}Blood {\k34}and {\k55}salt,{\k21} {\k22}the {\k33}o{\k38}cean {\k45}seeks
+Comment: 0,0:04:03.33,0:04:10.03,Sample KM [Up],,0,0,0,karaoke,{\k34}To {\k79}take {\k75}you {\k75}drown {\k82}with {\kf325}me
+Comment: 0,0:04:11.17,0:04:16.06,Sample KM [Up],,0,0,0,karaoke,{\k24}To {\k30}take {\k34}you {\k54}down {\k39}with {\kf308}me
+Comment: 0,0:04:22.26,0:04:25.10,Sample KM [Up],,0,0,0,karaoke,{\k26}Blood {\k38}and {\k54}salt,{\k38} {\k25}blood {\k37}and {\k66}salt
+Comment: 0,0:04:28.06,0:04:31.46,Sample KM [Up],,0,0,0,karaoke,{\k42}To {\k75}take {\k77}you {\k78}down {\k68}with
+Comment: 0,0:04:34.67,0:04:37.12,Sample KM [Up],,0,0,0,karaoke,{\k75}Woo-{\k79}ee-{\k91}ohm
+Comment: 0,0:04:40.85,0:04:43.28,Sample KM [Up],,0,0,0,karaoke,{\k78}Woo-{\k76}ee-{\k89}ohm
+Comment: 0,0:04:47.05,0:04:49.49,Sample KM [Up],,0,0,0,karaoke,{\k78}Woo-{\k78}ee-{\k88}ohm
+Comment: 0,0:04:53.22,0:04:55.74,Sample KM [Up],,0,0,0,karaoke,{\k80}Woo-{\k77}ee-{\k95}ohm
+Dialogue: 0,0:00:00.00,0:00:03.97,Sample KM [Up],,0,0,0,fx,{\k62\fad(620,200)}{\k40}Born {\k40}n’ {\k36}raised {\k24}on {\k20}the {\k33}slaugh{\k39}ter {\k83}docks
+Dialogue: 0,0:00:02.87,0:00:06.34,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k68}Woo-{\k77}ee-{\k92}ohm
+Dialogue: 0,0:00:05.71,0:00:10.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}Scra{\k42}ping {\k38}by {\k22}in{\k15}to {\k43}blood {\k39}and {\k91}guts
+Dialogue: 0,0:00:08.98,0:00:12.64,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k77}Woo-{\k75}ee-{\k104}ohm
+Dialogue: 0,0:00:12.01,0:00:15.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Sails {\k37}and {\k38}spi{\k40}rits {\k37}all {\k35}set {\k47}high
+Dialogue: 0,0:00:14.82,0:00:19.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}One {\k39}fate{\k38}ful {\k44}day, {\k33}at {\k41}Ser{\k41}pent’s {\k42}Isle
+Dialogue: 0,0:00:18.17,0:00:22.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Prove {\k40}your {\k37}worth {\k41}and {\k58}make {\k21}the {\kf117}cut
+Dialogue: 0,0:00:21.62,0:00:24.98,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k57}Woo-{\k73}ee-{\k96}ohm
+Dialogue: 0,0:00:24.44,0:00:28.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Ter{\k34}ror {\k43}clea{\k23}ving {\k16}the {\k36}a{\k42}zure {\k89}green
+Dialogue: 0,0:00:27.54,0:00:31.14,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k81}Woo-{\k75}ee-{\k94}ohm
+Dialogue: 0,0:00:30.65,0:00:34.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Big{\k36}gest {\k41}jaull-{\k24}fish {\k24}I’ve {\k27}e{\k39}ver {\k77}seen
+Dialogue: 0,0:00:33.75,0:00:37.25,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k77}Woo-{\k75}ee-{\k88}ohm
+Dialogue: 0,0:00:36.49,0:00:40.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}I {\k42}dared {\k35}in{\k42}to {\k37}the {\k38}maw {\k34}of {\k41}dread
+Dialogue: 0,0:00:39.55,0:00:43.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}But {\k15}the {\k40}cap{\k41}tain {\k35}cut {\k41}the {\k36}rope {\k39}and {\k39}fled
+Dialogue: 0,0:00:42.92,0:00:47.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}A{\k40}live {\k38}or {\k41}dead {\k38}or {\k58}in-{\k14}be{\k98}tween
+Dialogue: 0,0:00:46.15,0:00:49.72,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k74}Woo-{\k80}ee-{\k93}ohm
+Dialogue: 0,0:00:49.14,0:00:53.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Take {\k35}the {\k57}plunge,{\k12} {\k17}I {\k41}bring {\k36}the {\k45}hook
+Dialogue: 0,0:00:52.20,0:00:56.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}I {\k43}can’t {\k37}for{\k39}get,{\k23} {\k20}the {\k33}way {\k36}you {\k50}looked
+Dialogue: 0,0:00:55.29,0:00:59.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k37}bro{\k28}ken {\k55}trust,{\k17} {\k17}the {\k37}life {\k40}you {\k43}took
+Dialogue: 0,0:00:58.38,0:01:02.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k41}cross {\k36}the {\k35}list,{\k18} {\k24}it’s {\k36}like {\k36}a {\k73}book
+Dialogue: 0,0:01:01.64,0:01:05.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Got {\k36}this {\k21}fi{\k22}re,{\k17} {\k15}a {\k49}drive {\k33}in {\k42}me
+Dialogue: 0,0:01:04.56,0:01:08.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}A {\k42}place {\k32}for {\k65}you, {\k19}be{\k38}low {\k37}the {\k63}sea
+Dialogue: 0,0:01:07.82,0:01:11.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Blood {\k32}and {\k53}salt,{\k26} {\k19}the {\k32}o{\k40}cean {\k43}seeks
+Dialogue: 0,0:01:10.56,0:01:18.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}To {\k78}take {\k77}you {\k77}down {\k79}with {\kf334}me
+Dialogue: 0,0:01:38.73,0:01:43.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}To{\k20}we{\k30}ring {\k39}fangs {\k23}are {\k17}sur{\k37}roun{\k37}ding {\k91}me
+Dialogue: 0,0:01:41.88,0:01:45.31,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k78}Woo-{\k74}ee-{\k81}ohm
+Dialogue: 0,0:01:44.83,0:01:49.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Breathe {\k25}in {\k21}the {\k31}wa{\k26}ter, {\k23}in{\k36}vite {\k45}the {\k88}sea
+Dialogue: 0,0:01:48.06,0:01:51.60,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k79}Woo-{\k75}ee-{\k90}ohm
+Dialogue: 0,0:01:50.77,0:01:54.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}I {\k44}was {\k33}played {\k44}out {\k36}a {\k38}sa{\k36}cri{\k39}fice
+Dialogue: 0,0:01:53.92,0:01:58.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}But {\k17}for {\k39}eve{\k35}ry {\k45}crime, {\k33}they {\k40}pay {\k39}the {\k63}price
+Dialogue: 0,0:01:57.37,0:02:02.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}I {\k36}de{\k45}cide {\k18}what {\k28}your {\k52}fate {\k15}will {\kf152}be
+Dialogue: 0,0:02:00.45,0:02:03.94,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k75}Woo-{\k80}ee-{\k84}ohm
+Dialogue: 0,0:02:03.43,0:02:07.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Take {\k33}the {\k53}plunge,{\k15} {\k17}I {\k37}bring {\k35}the {\k46}hook
+Dialogue: 0,0:02:06.51,0:02:10.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k41}can’t {\k38}for{\k39}get,{\k22} {\k25}the {\k29}way {\k35}you {\k50}looked
+Dialogue: 0,0:02:09.61,0:02:13.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}The {\k38}bro{\k33}ken {\k49}trust,{\k20} {\k16}the {\k36}life {\k38}you {\k42}took
+Dialogue: 0,0:02:12.69,0:02:17.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k41}cross {\k36}the {\k39}list,{\k19} {\k24}it’s {\k34}like {\k36}a {\k77}book
+Dialogue: 0,0:02:15.95,0:02:19.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Got {\k39}this {\k27}fi{\k16}re,{\k16} {\k16}a {\k45}drive {\k32}in {\k41}me
+Dialogue: 0,0:02:18.88,0:02:23.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}A {\k37}place {\k38}for {\k42}you,{\k23} {\k21}be{\k33}low {\k36}the {\k64}sea
+Dialogue: 0,0:02:22.10,0:02:26.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Blood {\k36}and {\k52}salt,{\k28} {\k13}the {\k37}o{\k37}cean {\k46}seeks
+Dialogue: 0,0:02:24.91,0:02:32.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}To {\k79}take {\k77}you {\k74}down {\k79}with {\kf336}me
+Dialogue: 0,0:02:53.04,0:02:57.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k85}Greed, {\k75}theft, {\k30}tel{\k49}ling {\k89}lies
+Dialogue: 0,0:02:57.53,0:03:00.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k42}cross {\k39}the {\k73}name
+Dialogue: 0,0:02:59.29,0:03:03.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}See {\k49}the, {\k34}ter{\k47}ror, {\k27}in {\k53}your {\k75}eyes
+Dialogue: 0,0:03:03.70,0:03:06.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k40}cross {\k38}the {\k78}name
+Dialogue: 0,0:03:05.51,0:03:09.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k74}Deep, {\k80}guile, {\k27}dee{\k45}per {\k83}cuts
+Dialogue: 0,0:03:09.92,0:03:12.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k39}cross {\k39}the {\k78}name
+Dialogue: 0,0:03:11.70,0:03:16.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}O{\k39}pen, {\k87}heart, {\k29}spill {\k53}your {\k91}guts
+Dialogue: 0,0:03:16.13,0:03:19.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k35}cross {\k44}the {\k76}name
+Dialogue: 0,0:03:17.90,0:03:22.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k76}Greed, {\k73}theft, {\k30}tel{\k53}ling {\k100}lies
+Dialogue: 0,0:03:22.31,0:03:25.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k39}cross {\k38}the {\k75}name
+Dialogue: 0,0:03:24.05,0:03:28.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}See {\k51}the, {\k35}ter{\k43}ror, {\k27}in {\k52}your {\k116}eyes
+Dialogue: 0,0:03:28.53,0:03:31.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k40}cross {\k39}the {\k77}name
+Dialogue: 0,0:03:30.27,0:03:34.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k77}Deep, {\k79}guile, {\k27}dee{\k47}per {\k92}cuts
+Dialogue: 0,0:03:34.71,0:03:37.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k36}cross {\k40}the {\k78}name
+Dialogue: 0,0:03:36.47,0:03:40.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}O{\k46}pen, {\k75}heart, {\k29}spill {\k50}your {\kf104}guts
+Dialogue: 0,0:03:41.02,0:03:44.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Take {\k32}the {\k53}plunge,{\k21} {\k15}I {\k38}bring {\k32}the {\k44}hook
+Dialogue: 0,0:03:44.06,0:03:48.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k40}can’t {\k38}for{\k42}get,{\k20} {\k23}the {\k33}way {\k38}you {\k45}looked
+Dialogue: 0,0:03:47.16,0:03:51.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}The {\k37}bro{\k33}ken {\k50}trust,{\k15} {\k20}the {\k38}life {\k33}you {\k47}took
+Dialogue: 0,0:03:50.23,0:03:54.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k41}cross {\k36}the {\k40}list,{\k18} {\k25}it’s {\k34}like {\k37}a {\k76}book
+Dialogue: 0,0:03:53.50,0:03:57.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Got {\k39}this {\k24}fi{\k17}re,{\k18} {\k16}a {\k41}drive {\k39}in {\k42}me
+Dialogue: 0,0:03:56.39,0:04:00.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}A {\k38}place {\k27}for {\k53}you,{\k25} {\k16}be{\k35}low {\k38}the {\k66}sea
+Dialogue: 0,0:03:59.56,0:04:03.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Blood {\k34}and {\k55}salt,{\k21} {\k22}the {\k33}o{\k38}cean {\k45}seeks
+Dialogue: 0,0:04:02.43,0:04:10.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}To {\k79}take {\k75}you {\k75}drown {\k82}with {\kf325}me
+Dialogue: 0,0:04:10.27,0:04:16.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}To {\k30}take {\k34}you {\k54}down {\k39}with {\kf308}me
+Dialogue: 0,0:04:21.36,0:04:25.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Blood {\k38}and {\k54}salt,{\k38} {\k25}blood {\k37}and {\k66}salt
+Dialogue: 0,0:04:27.16,0:04:31.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}To {\k75}take {\k77}you {\k78}down {\k68}with
+Dialogue: 0,0:04:33.77,0:04:37.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k75}Woo-{\k79}ee-{\k91}ohm
+Dialogue: 0,0:04:39.95,0:04:43.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k78}Woo-{\k76}ee-{\k89}ohm
+Dialogue: 0,0:04:46.15,0:04:49.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k78}Woo-{\k78}ee-{\k88}ohm
+Dialogue: 0,0:04:52.32,0:04:55.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k80}Woo-{\k77}ee-{\k95}ohm
