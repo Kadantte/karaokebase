@@ -1,0 +1,93 @@
+﻿[Script Info]
+Title: Rudolph, The Red-Nosed Reindeer
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFB858,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H000088EF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.49,0:00:01.17,Sample KM [Choir],,0,0,0,karaoke,{\k26}Ru{\k42}dolph
+Comment: 0,0:00:03.90,0:00:04.70,Sample KM [Choir],,0,0,0,karaoke,{\k32}Ru{\k48}dolph
+Comment: 0,0:00:07.32,0:00:09.93,Sample KM [Up],,0,0,0,karaoke,{\k24}Ru{\k50}dolph {\k17}the {\k35}red-{\k47}nosed {\k31}rein{\k57}deer
+Comment: 0,0:00:10.66,0:00:13.54,Sample KM [Up],,0,0,0,karaoke,{\k39}Had {\k14}a {\k26}ve{\k43}ry {\k17}shi{\k31}ny {\kf118}nose
+Comment: 0,0:00:14.10,0:00:16.70,Sample KM [Up],,0,0,0,karaoke,{\k41}And {\k41}if {\k15}you {\k44}e{\k44}ver {\k33}saw {\k42}it
+Comment: 0,0:00:17.52,0:00:20.11,Sample KM [Up],,0,0,0,karaoke,{\k34}You {\k22}would {\k25}e{\k38}ven {\k22}say {\k26}it {\k92}glows
+Comment: 0,0:00:20.99,0:00:23.90,Sample KM [Up],,0,0,0,karaoke,{\k47}All {\k40}of {\k21}the {\k32}o{\k43}ther {\k38}rein{\k70}deer
+Comment: 0,0:00:24.43,0:00:27.34,Sample KM [Up],,0,0,0,karaoke,{\k36}Used {\k16}to {\k30}laugh {\k41}and {\k22}call {\k22}him {\kf124}names
+Comment: 0,0:00:27.99,0:00:30.56,Sample KM [Up],,0,0,0,karaoke,{\k26}They {\k39}ne{\k21}ver {\k39}let {\k46}poor {\k28}Ru{\k58}di
+Comment: 0,0:00:31.26,0:00:34.30,Sample KM [Up],,0,0,0,karaoke,{\k39}Join {\k17}in {\k22}a{\k23}ny {\k40}rein{\k32}deer {\kf131}games
+Comment: 0,0:00:34.83,0:00:37.98,Sample KM [Up],,0,0,0,karaoke,{\k45}Then {\k47}one {\k26}fog{\k39}gy{\k34} {\k32}Christ{\k22}mas {\k70}Eve
+Comment: 0,0:00:38.55,0:00:40.52,Sample KM [Up],,0,0,0,karaoke,{\k23}San{\k25}ta {\k58}came {\k27}to {\k64}say
+Comment: 0,0:00:41.86,0:00:44.77,Sample KM [Up],,0,0,0,karaoke,{\k38}Ru{\k51}dolph {\k29}with {\k46}your {\k45}nose {\k27}so {\k55}bright
+Comment: 0,0:00:45.27,0:00:48.33,Sample KM [Up],,0,0,0,karaoke,{\k45}Won't {\k27}you {\k59}guide {\k39}my {\k46}sleigh {\k23}to{\k67}night?
+Comment: 0,0:00:48.80,0:00:51.41,Sample KM [Up],,0,0,0,karaoke,{\k24}Then {\k49}how {\k18}the {\k38}rein{\k42}deer {\k35}loved {\k55}him
+Comment: 0,0:00:52.13,0:00:54.98,Sample KM [Up],,0,0,0,karaoke,{\k38}As {\k24}they {\k24}shou{\k18}ted {\k29}out {\k37}with {\kf115}glee
+Comment: 0,0:00:55.79,0:00:58.67,Sample KM [Up],,0,0,0,karaoke,{\k28}Ru{\k32}di {\k31}the {\k31}red-{\k54}nosed {\k32}rein{\k80}deer
+Comment: 0,0:00:59.18,0:01:01.90,Sample KM [Up],,0,0,0,karaoke,{\k36}You'll {\k18}go {\k26}down {\k43}in {\k44}his{\k22}to{\k83}ry
+Comment: 0,0:01:02.83,0:01:05.96,Sample KM [Up],,0,0,0,karaoke,{\k35}Ru{\k43}dolph {\k17}the {\k38}red-{\k47}nosed {\k42}rein{\k91}deer
+Comment: 0,0:01:06.44,0:01:09.67,Sample KM [Up],,0,0,0,karaoke,{\k33}Had {\k13}a {\k30}ve{\k16}ry {\k46}shi{\k43}ny {\kf142}nose
+Comment: 0,0:01:10.02,0:01:13.14,Sample KM [Up],,0,0,0,karaoke,{\k33}And {\k37}if {\k20}you {\k43}e{\k45}ver {\k45}saw {\k89}it
+Comment: 0,0:01:13.63,0:01:16.81,Sample KM [Up],,0,0,0,karaoke,{\k27}You {\k16}would {\k23}e{\k21}ven {\k45}say {\k39}it {\kf147}glows
+Comment: 0,0:01:17.14,0:01:20.23,Sample KM [Up],,0,0,0,karaoke,{\k34}All {\k43}of {\k15}the {\k40}o{\k45}ther {\k47}rein{\k85}deer
+Comment: 0,0:01:20.69,0:01:23.89,Sample KM [Up],,0,0,0,karaoke,{\k32}Used {\k14}to {\k28}laugh {\k16}and {\k45}call {\k43}him {\kf142}names
+Comment: 0,0:01:24.25,0:01:27.37,Sample KM [Up],,0,0,0,karaoke,{\k30}They {\k44}ne{\k20}ver {\k37}let {\k49}poor {\k40}Ru{\k92}dolph
+Comment: 0,0:01:27.81,0:01:31.00,Sample KM [Up],,0,0,0,karaoke,{\k30}Join {\k16}in {\k28}a{\k19}ny {\k41}rein{\k50}deer {\kf135}games
+Comment: 0,0:01:31.31,0:01:34.49,Sample KM [Up],,0,0,0,karaoke,{\k48}Then {\k43}one {\k26}fog{\k54}gy {\k37}Christ{\k25}mas {\k85}Eve
+Comment: 0,0:01:35.13,0:01:37.48,Sample KM [Up],,0,0,0,karaoke,{\k36}San{\k27}ta {\k46}came {\k28}to {\k98}say
+Comment: 0,0:01:38.42,0:01:41.26,Sample KM [Up],,0,0,0,karaoke,{\k39}Ru{\k39}dolph {\k35}mit {\k40}your {\k54}nose {\k24}so {\k53}bright
+Comment: 0,0:01:41.89,0:01:44.88,Sample KM [Up],,0,0,0,karaoke,{\k60}Won't {\k22}you {\k44}guide {\k42}mein {\k46}sleigh {\k23}to{\k62}night?
+Comment: 0,0:01:45.35,0:01:48.18,Sample KM [Up],,0,0,0,karaoke,{\k26}Then {\k44}how {\k18}the {\k43}rein{\k42}deer {\k37}loved {\k73}him
+Comment: 0,0:01:48.69,0:01:51.66,Sample KM [Up],,0,0,0,karaoke,{\k34}As {\k25}they {\k25}shou{\k19}ted {\k41}out {\k36}with {\kf117}glee
+Comment: 0,0:01:52.34,0:01:55.31,Sample KM [Up],,0,0,0,karaoke,{\k28}Ru{\k43}di {\k14}the {\k47}red {\k44}big {\k42}rein{\k79}deer
+Comment: 0,0:01:55.81,0:02:00.87,Sample KM [Up],,0,0,0,karaoke,{\k44}You'll {\k45}go {\k44}down {\k44}in {\k85}his{\k89}to{\kf155}ry
+Comment: 0,0:01:59.32,0:02:00.17,Sample KM [Choir],,0,0,0,karaoke,{\k34}Ru{\k51}dolph
+Comment: 0,0:02:02.77,0:02:03.58,Sample KM [Choir],,0,0,0,karaoke,{\k33}Ru{\k48}dolph
+Comment: 0,0:02:06.24,0:02:07.04,Sample KM [Choir],,0,0,0,karaoke,{\k35}Ru{\k45}dolph
+Dialogue: 0,0:00:00.00,0:00:01.37,Sample KM [Choir],,0,0,0,fx,{\k49\fad(490,200)}{\k26}Ru{\k42}dolph
+Dialogue: 0,0:00:03.00,0:00:04.90,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Ru{\k48}dolph
+Dialogue: 0,0:00:06.42,0:00:10.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ru{\k50}dolph {\k17}the {\k35}red-{\k47}nosed {\k31}rein{\k57}deer
+Dialogue: 0,0:00:09.76,0:00:13.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Had {\k14}a {\k26}ve{\k43}ry {\k17}shi{\k31}ny {\kf118}nose
+Dialogue: 0,0:00:13.20,0:00:16.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}And {\k41}if {\k15}you {\k44}e{\k44}ver {\k33}saw {\k42}it
+Dialogue: 0,0:00:16.62,0:00:20.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}You {\k22}would {\k25}e{\k38}ven {\k22}say {\k26}it {\k92}glows
+Dialogue: 0,0:00:20.09,0:00:24.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}All {\k40}of {\k21}the {\k32}o{\k43}ther {\k38}rein{\k70}deer
+Dialogue: 0,0:00:23.53,0:00:27.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Used {\k16}to {\k30}laugh {\k41}and {\k22}call {\k22}him {\kf124}names
+Dialogue: 0,0:00:27.09,0:00:30.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}They {\k39}ne{\k21}ver {\k39}let {\k46}poor {\k28}Ru{\k58}di
+Dialogue: 0,0:00:30.36,0:00:34.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Join {\k17}in {\k22}a{\k23}ny {\k40}rein{\k32}deer {\kf131}games
+Dialogue: 0,0:00:33.93,0:00:38.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Then {\k47}one {\k26}fog{\k39}gy{\k34} {\k32}Christ{\k22}mas {\k70}Eve
+Dialogue: 0,0:00:37.65,0:00:40.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}San{\k25}ta {\k58}came {\k27}to {\k64}say
+Dialogue: 0,0:00:40.96,0:00:44.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Ru{\k51}dolph {\k29}with {\k46}your {\k45}nose {\k27}so {\k55}bright
+Dialogue: 0,0:00:44.37,0:00:48.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Won't {\k27}you {\k59}guide {\k39}my {\k46}sleigh {\k23}to{\k67}night?
+Dialogue: 0,0:00:47.90,0:00:51.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Then {\k49}how {\k18}the {\k38}rein{\k42}deer {\k35}loved {\k55}him
+Dialogue: 0,0:00:51.23,0:00:55.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}As {\k24}they {\k24}shou{\k18}ted {\k29}out {\k37}with {\kf115}glee
+Dialogue: 0,0:00:54.89,0:00:58.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Ru{\k32}di {\k31}the {\k31}red-{\k54}nosed {\k32}rein{\k80}deer
+Dialogue: 0,0:00:58.28,0:01:02.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}You'll {\k18}go {\k26}down {\k43}in {\k44}his{\k22}to{\k83}ry
+Dialogue: 0,0:01:01.93,0:01:06.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Ru{\k43}dolph {\k17}the {\k38}red-{\k47}nosed {\k42}rein{\k91}deer
+Dialogue: 0,0:01:05.54,0:01:09.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Had {\k13}a {\k30}ve{\k16}ry {\k46}shi{\k43}ny {\kf142}nose
+Dialogue: 0,0:01:09.12,0:01:13.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}And {\k37}if {\k20}you {\k43}e{\k45}ver {\k45}saw {\k89}it
+Dialogue: 0,0:01:12.73,0:01:17.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}You {\k16}would {\k23}e{\k21}ven {\k45}say {\k39}it {\kf147}glows
+Dialogue: 0,0:01:16.24,0:01:20.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}All {\k43}of {\k15}the {\k40}o{\k45}ther {\k47}rein{\k85}deer
+Dialogue: 0,0:01:19.79,0:01:24.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Used {\k14}to {\k28}laugh {\k16}and {\k45}call {\k43}him {\kf142}names
+Dialogue: 0,0:01:23.35,0:01:27.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}They {\k44}ne{\k20}ver {\k37}let {\k49}poor {\k40}Ru{\k92}dolph
+Dialogue: 0,0:01:26.91,0:01:31.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Join {\k16}in {\k28}a{\k19}ny {\k41}rein{\k50}deer {\kf135}games
+Dialogue: 0,0:01:30.41,0:01:34.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Then {\k43}one {\k26}fog{\k54}gy {\k37}Christ{\k25}mas {\k85}Eve
+Dialogue: 0,0:01:34.23,0:01:37.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}San{\k27}ta {\k46}came {\k28}to {\k98}say
+Dialogue: 0,0:01:37.52,0:01:41.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Ru{\k39}dolph {\k35}mit {\k40}your {\k54}nose {\k24}so {\k53}bright
+Dialogue: 0,0:01:40.99,0:01:45.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Won't {\k22}you {\k44}guide {\k42}mein {\k46}sleigh {\k23}to{\k62}night?
+Dialogue: 0,0:01:44.45,0:01:48.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Then {\k44}how {\k18}the {\k43}rein{\k42}deer {\k37}loved {\k73}him
+Dialogue: 0,0:01:47.79,0:01:51.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}As {\k25}they {\k25}shou{\k19}ted {\k41}out {\k36}with {\kf117}glee
+Dialogue: 0,0:01:51.44,0:01:55.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Ru{\k43}di {\k14}the {\k47}red {\k44}big {\k42}rein{\k79}deer
+Dialogue: 0,0:01:54.91,0:02:01.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}You'll {\k45}go {\k44}down {\k44}in {\k85}his{\k89}to{\kf155}ry
+Dialogue: 0,0:01:58.42,0:02:00.37,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Ru{\k51}dolph
+Dialogue: 0,0:02:01.87,0:02:03.78,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Ru{\k48}dolph
+Dialogue: 0,0:02:05.34,0:02:07.24,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Ru{\k45}dolph
