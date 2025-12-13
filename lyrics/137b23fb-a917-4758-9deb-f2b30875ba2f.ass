@@ -1,0 +1,159 @@
+﻿[Script Info]
+Title: Push the Trunk
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Azurys
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Nako,Arial,24,&H00FFFFFF,&H00D452FB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: sajou no hana,Arial,24,&H00FFFFFF,&H00FFD607,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Duet,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Duet Choir,Arial,24,&H00FFFFFF,&H001819FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Nako Choir,Arial,24,&H00FFFFFF,&H00B551D3,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: sajou no hana Choir,Arial,24,&H00FFFFFF,&H00DDBA0C,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: COLOR CODE,Arial,20,&H0000B4FF,&H0000B4FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Nako,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:12.00,0:00:18.00,COLOR CODE,,0,0,0,karaoke,{\c&HD452FB&}Nako Misaki {\c&HFFFFFF&\2c&HFFFFFF&}- {\c&HFFD607&\2c&HFFD607&}sajou no hana
+Comment: 0,0:00:12.00,0:00:18.00,COLOR CODE,,0,0,0,karaoke,{\c&H008AFF&}Duet
+Comment: 0,0:00:00.49,0:00:02.54,Nako,,0,0,0,karaoke,{\k28}sot{\k28}to {\k11}ko {\k26}sot{\k14}to {\k14}i{\k26}mi {\k14}ga {\k27}nai {\k17}no
+Comment: 0,0:00:02.62,0:00:04.95,Nako,,0,0,0,karaoke,{\k15}ki{\k12}mi {\k27}to {\k27}WRAP{\k27}PING {\k27}WRAP{\k25}PING {\k14}ha{\k12}ga{\k14}shi{\k15}ta{\k18}ra
+Comment: 0,0:00:05.00,0:00:07.08,Nako,,0,0,0,karaoke,{\k26}zen{\k15}se{\k29}kai {\k11}mo{\k15}ta{\k12}re{\k25}ru {\k28}ku{\k27}rai {\k20}no
+Comment: 0,0:00:07.11,0:00:11.35,Duet,,0,0,0,karaoke,{\k42}JUN{\k15}K {\k40}de {\k14}u{\k39}mat{\k16}te{\k36}ru {\k15}I{\kf207}MAGE
+Comment: 0,0:00:19.08,0:00:21.76,Nako,,0,0,0,karaoke,{\k28}ta{\k27}ma {\k53}ni {\k27}tei{\k26}nei {\k14}na {\k26}tei{\k12}re {\k28}shi{\k27}te
+Comment: 0,0:00:22.25,0:00:23.83,Nako,,0,0,0,karaoke,{\k28}jit{\k26}tai {\k14}wa {\k28}TEM{\k13}P{\k26}LATE {\k23}de
+Comment: 0,0:00:24.13,0:00:26.74,Nako,,0,0,0,karaoke,{\k38}do{\k16}u{\k51}mo {\k42}kou{\k38}mo {\k12}tsu{\k16}ka{\k14}me{\k34}nai
+Comment: 0,0:00:27.59,0:00:30.24,Nako,,0,0,0,karaoke,{\k26}ta{\k13}to{\k14}e{\k53}ba {\k27}you{\k25}ryou {\k15}ko{\k24}re{\k16}ku{\k25}rai {\k27}mo
+Comment: 0,0:00:30.75,0:00:34.36,Nako,,0,0,0,karaoke,{\k17}ko{\k13}wa{\k21}re{\k15}ya{\k16}su{\k13}i {\k14}mo{\k27}no {\k53}mo {\k53}nai {\k52}no {\k40}na{\k27}ra
+Comment: 0,0:00:34.48,0:00:36.32,Nako,,0,0,0,karaoke,{\k28}dan{\k27}boo{\k11}ru {\k14}de{\k12}mo {\k11}i{\k29}in {\k29}ja {\k23}nai
+Comment: 0,0:00:36.22,0:00:37.12,sajou no hana,,0,0,0,karaoke,{\k10}su{\k28}te{\k28}te {\k24}ii?
+Comment: 0,0:00:37.67,0:00:38.14,Nako Choir,,0,0,0,karaoke,{\k15}ma{\k32}da
+Comment: 0,0:00:38.21,0:00:41.87,sajou no hana,,0,0,0,karaoke,{\k27}U{\k27}N{\k26}BA{\k53}LANCE {\k27}na {\k13}ma{\k40}ma {\k25}de {\k28}tsu{\k24}me{\k29}ko{\k26}me{\k21}ba
+Comment: 0,0:00:41.93,0:00:43.13,sajou no hana,,0,0,0,karaoke,{\k28}ki{\k23}mi {\k25}ra{\k44}shii
+Comment: 0,0:00:42.70,0:00:45.53,Nako Choir,,0,0,0,karaoke,{\k29}tsu{\k25}me{\k28}ko{\k27}me{\k26}ba {\k26}wa{\k28}tash' {\k22}ra{\k72}shii
+Comment: 0,0:00:45.09,0:00:45.58,sajou no hana,,0,0,0,karaoke,{\k26}kit{\k23}to
+Comment: 0,0:00:46.16,0:00:46.61,Nako Choir,,0,0,0,karaoke,{\k15}ta{\k30}da
+Comment: 0,0:00:46.72,0:00:52.05,sajou no hana,,0,0,0,karaoke,{\k25}o{\k27}o{\k16}-u{\k46}so {\k16}tsu{\k18}ka{\k8}zu {\k13}ko{\k43}ko {\k22}he {\k28}shi{\k81}tai {\k27}ko{\k76}to {\k55}zen{\k32}bu
+Comment: 0,0:00:52.03,0:00:55.41,Nako,,0,0,0,karaoke,{\k14}mo{\k14}chi{\k23}yot{\k12}te {\k27}hik{\k15}ku{\k24}ri{\k18}ka{\k9}e{\k14}shi {\k10}mi{\k29}se{\k27}tsu{\k55}ke{\k47}you
+Comment: 0,0:00:55.70,0:00:57.76,Duet,,0,0,0,karaoke,{\k26}mei{\k27}sou {\k16}ha{\k26}mat{\k12}te {\k16}se{\k26}wa {\k14}ga {\k27}nai {\k16}ne
+Comment: 0,0:00:57.83,0:01:00.16,Duet,,0,0,0,karaoke,{\k16}tsu{\k13}yo{\k27}ku {\k26}PUSH {\k26}IN {\k24}PUSH {\k29}IN {\k12}to{\k15}do{\k14}ku {\k13}ma{\k18}de
+Comment: 0,0:01:00.24,0:01:03.93,Duet,,0,0,0,karaoke,{\k26}GUI{\k14}DE{\k27}LINE {\k13}ma{\k13}mo{\k14}ra{\k26}nai {\k24}de {\k13}“su{\k16}ki” {\k27}wo {\k38}mot{\k15}to {\kf103}ne
+Comment: 0,0:01:03.43,0:01:04.42,Duet Choir,,0,0,0,karaoke,{\k40}mot{\k14}to {\k45}ne
+Comment: 0,0:01:04.19,0:01:06.25,Duet,,0,0,0,karaoke,{\k29}sot{\k27}to {\k11}ko {\k29}sot{\k10}to {\k18}i{\k26}mi {\k14}ga {\k26}nai {\k16}no
+Comment: 0,0:01:06.34,0:01:08.63,Duet,,0,0,0,karaoke,{\k13}ki{\k15}mi {\k26}to {\k27}WRAP{\k26}PING {\k27}WRAP{\k27}PING {\k12}ha{\k12}ga{\k14}shi{\k15}ta{\k15}ra
+Comment: 0,0:01:08.71,0:01:11.78,Duet,,0,0,0,karaoke,{\k27}zen{\k15}se{\k27}kai {\k12}mo{\k16}ta{\k12}re{\k24}ru {\k30}ku{\k26}rai {\k24}no {\k41}JUN{\k15}K {\k38}de
+Comment: 0,0:01:11.80,0:01:14.95,Duet,,0,0,0,karaoke,{\k13}u{\k38}mat{\k17}te{\k34}ru {\k17}I{\kf196}MAGE
+Comment: 0,0:01:15.37,0:01:17.14,Nako,,0,0,0,karaoke,{\k24}ha{\k30}kon{\k26}de {\k24}a{\k29}ge{\k44}ru
+Comment: 0,0:01:24.93,0:01:27.54,sajou no hana,,0,0,0,karaoke,{\k26}i{\k28}tsu{\k56}mo {\k23}nan{\k26}to{\k14}na{\k29}ku {\k12}mo{\k25}rat{\k22}te
+Comment: 0,0:01:28.11,0:01:29.68,sajou no hana,,0,0,0,karaoke,{\k28}nen{\k27}nen {\k15}tsu{\k23}mi{\k14}a{\k28}gat{\k22}te
+Comment: 0,0:01:29.99,0:01:32.71,sajou no hana,,0,0,0,karaoke,{\k30}ma{\k24}e {\k46}no {\k45}hou {\k42}ga {\k11}wa{\k14}ka{\k18}ra{\k42}nai
+Comment: 0,0:01:33.42,0:01:36.05,sajou no hana,,0,0,0,karaoke,{\k27}i{\k28}ra{\k50}nai {\k26}kan{\k30}jou {\k10}a{\k27}zu{\k16}ke{\k25}nai {\k24}de
+Comment: 0,0:01:36.57,0:01:38.15,sajou no hana,,0,0,0,karaoke,{\k19}so{\k12}re {\k24}wa {\k15}fu{\k24}ta {\k16}shi{\k27}chat{\k21}te
+Comment: 0,0:01:38.44,0:01:42.17,sajou no hana,,0,0,0,karaoke,{\k56}so{\k45}mo{\k46}so{\k44}mo {\k12}tsu{\k14}tsu{\k26}ma{\k13}zu {\k13}ha{\k13}da{\k14}ka {\k18}ni {\k9}shi{\k27}nai{\k23}de
+Comment: 0,0:01:42.11,0:01:43.09,Nako,,0,0,0,karaoke,{\k7}su{\k27}te{\k27}te {\k37}ii?
+Comment: 0,0:01:43.50,0:01:44.06,sajou no hana Choir,,0,0,0,karaoke,{\k16}do{\k34}u{\k6}zo
+Comment: 0,0:01:44.07,0:01:49.62,Nako,,0,0,0,karaoke,{\k25}mo{\k25}chi{\k26}da{\k54}shi{\k28}ta {\k13}mo{\k40}no {\k26}wa {\k24}mi{\k27}zu{\k30}ka{\k26}ra {\k26}de {\k28}e{\k25}ra{\k26}bi{\kf106}tai
+Comment: 0,0:01:48.57,0:01:51.24,sajou no hana Choir,,0,0,0,karaoke,{\k23}mi{\k28}zu{\k29}ka{\k26}ra {\k23}de {\k30}e{\k27}ra{\k23}bi{\k58}tai
+Comment: 0,0:01:50.95,0:01:58.03,Nako,,0,0,0,karaoke,{\k26}gyut{\k32}to{\k102} {\k21}o{\k27}se{\k31}ji {\k51}ni {\k25}mo {\k18}ki{\k40}rei {\k26}tte {\k25}i{\k80}e{\k28}na{\k38}i{\k41} {\k18}na{\k20}ka{\k16}mi {\k43}wo
+Comment: 0,0:01:51.96,0:01:52.46,sajou no hana Choir,,0,0,0,karaoke,{\k19}tsu{\k31}me
+Comment: 0,0:01:57.82,0:02:01.01,sajou no hana,,0,0,0,karaoke,{\k18}yu{\k12}me {\k28}ka {\k13}go{\k24}mi {\k14}ka {\k27}ka{\k27}dai {\k12}ni {\k15}ka{\k27}wa{\k24}ru {\k55}na{\k23}ra
+Comment: 0,0:02:01.31,0:02:02.83,sajou no hana,,0,0,0,karaoke,{\k27}HAP{\k53}PY {\k18}na {\k9}shi{\k26}kou {\k19}de
+Comment: 0,0:02:02.86,0:02:07.12,Duet,,0,0,0,karaoke,{\k19}hi{\k20}ka{\k15}ra{\k50}sou {\kf322}STAR
+Comment: 0,0:02:07.65,0:02:12.27,Duet,,0,0,0,karaoke,{\kf243}Ah{\kf219}~
+Comment: 0,0:02:20.65,0:02:22.71,Duet,,0,0,0,karaoke,{\k26}mei{\k27}sou {\k16}ha{\k26}mat{\k12}te {\k16}se{\k26}wa {\k14}ga {\k27}nai {\k16}ne
+Comment: 0,0:02:22.78,0:02:25.11,Duet,,0,0,0,karaoke,{\k16}tsu{\k13}yo{\k27}ku {\k26}PUSH {\k26}IN {\k24}PUSH {\k29}IN {\k12}to{\k15}do{\k14}ku {\k13}ma{\k18}de
+Comment: 0,0:02:25.19,0:02:28.88,Duet,,0,0,0,karaoke,{\k26}GUI{\k14}DE{\k27}LINE {\k13}ma{\k13}mo{\k14}ra{\k26}nai {\k24}de {\k13}“su{\k16}ki” {\k27}wo {\k38}mot{\k15}to {\kf103}ne
+Comment: 0,0:02:28.38,0:02:29.37,Duet Choir,,0,0,0,karaoke,{\k40}mot{\k14}to {\k45}ne
+Comment: 0,0:02:29.14,0:02:31.20,Duet,,0,0,0,karaoke,{\k29}sot{\k27}to {\k11}ko {\k29}sot{\k10}to {\k18}i{\k26}mi {\k14}ga {\k26}nai {\k16}no
+Comment: 0,0:02:31.29,0:02:33.58,Duet,,0,0,0,karaoke,{\k13}ki{\k15}mi {\k26}to {\k27}WRAP{\k26}PING {\k27}WRAP{\k27}PING {\k12}ha{\k12}ga{\k14}shi{\k15}ta{\k15}ra
+Comment: 0,0:02:33.66,0:02:36.65,Duet,,0,0,0,karaoke,{\k27}zen{\k15}se{\k27}kai {\k12}mo{\k16}ta{\k12}re{\k24}ru {\k30}ku{\k26}rai {\k24}no {\k41}JUN{\k15}K {\k30}na
+Comment: 0,0:02:36.70,0:02:37.71,Duet,,0,0,0,karaoke,{\k18}S{\k38}WEE{\k15}T {\k30}ga
+Comment: 0,0:02:37.79,0:02:39.85,Nako,,0,0,0,karaoke,{\k13}a{\k27}fu{\k15}re{\k27}chat{\k13}te {\k14}a{\k27}to {\k13}ni {\k25}nat{\k32}te
+Comment: 0,0:02:40.29,0:02:42.09,sajou no hana Choir,,0,0,0,karaoke,{\k32}DROP {\k23}IN {\k29}DROP {\k23}IN {\k15}sa{\k15}so{\k14}wa{\k13}re{\k16}te
+Comment: 0,0:02:42.19,0:02:45.11,Nako,,0,0,0,karaoke,{\k26}kon{\k15}do {\k26}wa {\k11}ma{\k14}ta {\k41}da{\k24}re{\k28}ka {\k26}no {\k41}TRUN{\k14}K {\k43}wo
+Comment: 0,0:02:45.13,0:02:48.45,Nako,,0,0,0,karaoke,{\k24}u{\k37}me{\k15}te{\k40}ku {\k15}I{\kf201}MAGE
+Comment: 0,0:02:48.83,0:02:50.65,Duet,,0,0,0,karaoke,{\k23}ha{\k28}kon{\k28}de {\k27}a{\k27}ge{\k49}ru
+Comment: 0,0:02:52.00,0:02:52.75,Duet,,0,0,0,karaoke,{\k26}dan{\k25}dan {\k24}to
+Comment: 0,0:02:53.05,0:02:54.87,Duet,,0,0,0,karaoke,{\k13}tsu{\k17}ka{\k26}e{\k23}ba {\k7}bo{\k31}ro{\k7}bo{\k38}ro {\k20}ni
+Comment: 0,0:02:55.14,0:02:57.06,Duet,,0,0,0,karaoke,{\k17}ja{\k14}ku{\k27}ten {\k23}mo {\k9}chi{\k30}ra{\k9}chi{\k29}ra {\k19}shi{\k15}te
+Comment: 0,0:02:57.31,0:02:59.01,Duet,,0,0,0,karaoke,{\k10}sa{\k18}sa{\k27}e {\k23}mo {\k8}fu{\k29}ra{\k8}fu{\k35}ra {\k12}de
+Comment: 0,0:02:59.13,0:03:01.22,Duet,,0,0,0,karaoke,{\k19}so{\k37}re{\k16}de{\k38}mo {\k59}BUD{\k40}DY
+Comment: 0,0:03:01.55,0:03:03.37,Duet,,0,0,0,karaoke,{\k13}tsu{\k17}ka{\k26}e{\k23}ba {\k7}bo{\k31}ro{\k7}bo{\k38}ro {\k20}ni
+Comment: 0,0:03:03.64,0:03:05.56,Duet,,0,0,0,karaoke,{\k17}ja{\k14}ku{\k27}ten {\k23}mo {\k9}chi{\k30}ra{\k9}chi{\k29}ra {\k19}shi{\k15}te
+Comment: 0,0:03:05.81,0:03:07.51,Duet,,0,0,0,karaoke,{\k10}sa{\k18}sa{\k27}e {\k23}mo {\k8}fu{\k29}ra{\k8}fu{\k35}ra {\k12}de
+Comment: 0,0:03:07.63,0:03:09.89,Duet,,0,0,0,karaoke,{\k19}so{\k37}re{\k16}de{\k38}mo {\k54}BUD{\k62}DY
+Dialogue: 0,0:00:11.10,0:00:18.20,COLOR CODE,,0,0,0,fx,{\k90\fad(300,200)}{\c&HD452FB&}Nako Misaki {\c&HFFFFFF&\2c&HFFFFFF&}- {\c&HFFD607&\2c&HFFD607&}sajou no hana
+Dialogue: 0,0:00:11.10,0:00:18.20,COLOR CODE,,0,0,0,fx,{\k90\fad(300,200)}{\c&H008AFF&}Duet
+Dialogue: 0,0:00:00.00,0:00:02.74,Nako,,0,0,0,fx,{\k49\fad(490,200)}{\k28}sot{\k28}to {\k11}ko {\k26}sot{\k14}to {\k14}i{\k26}mi {\k14}ga {\k27}nai {\k17}no
+Dialogue: 0,0:00:01.72,0:00:05.15,Nako,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ki{\k12}mi {\k27}to {\k27}WRAP{\k27}PING {\k27}WRAP{\k25}PING {\k14}ha{\k12}ga{\k14}shi{\k15}ta{\k18}ra
+Dialogue: 0,0:00:04.10,0:00:07.28,Nako,,0,0,0,fx,{\k90\fad(300,200)}{\k26}zen{\k15}se{\k29}kai {\k11}mo{\k15}ta{\k12}re{\k25}ru {\k28}ku{\k27}rai {\k20}no
+Dialogue: 0,0:00:06.21,0:00:11.55,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k42}JUN{\k15}K {\k40}de {\k14}u{\k39}mat{\k16}te{\k36}ru {\k15}I{\kf207}MAGE
+Dialogue: 0,0:00:18.18,0:00:21.96,Nako,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ta{\k27}ma {\k53}ni {\k27}tei{\k26}nei {\k14}na {\k26}tei{\k12}re {\k28}shi{\k27}te
+Dialogue: 0,0:00:21.35,0:00:24.03,Nako,,0,0,0,fx,{\k90\fad(300,200)}{\k28}jit{\k26}tai {\k14}wa {\k28}TEM{\k13}P{\k26}LATE {\k23}de
+Dialogue: 0,0:00:23.23,0:00:26.94,Nako,,0,0,0,fx,{\k90\fad(300,200)}{\k38}do{\k16}u{\k51}mo {\k42}kou{\k38}mo {\k12}tsu{\k16}ka{\k14}me{\k34}nai
+Dialogue: 0,0:00:26.69,0:00:30.44,Nako,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ta{\k13}to{\k14}e{\k53}ba {\k27}you{\k25}ryou {\k15}ko{\k24}re{\k16}ku{\k25}rai {\k27}mo
+Dialogue: 0,0:00:29.85,0:00:34.56,Nako,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ko{\k13}wa{\k21}re{\k15}ya{\k16}su{\k13}i {\k14}mo{\k27}no {\k53}mo {\k53}nai {\k52}no {\k40}na{\k27}ra
+Dialogue: 0,0:00:33.58,0:00:36.52,Nako,,0,0,0,fx,{\k90\fad(300,200)}{\k28}dan{\k27}boo{\k11}ru {\k14}de{\k12}mo {\k11}i{\k29}in {\k29}ja {\k23}nai
+Dialogue: 0,0:00:35.32,0:00:37.32,sajou no hana,,0,0,0,fx,{\k90\fad(300,200)}{\k10}su{\k28}te{\k28}te {\k24}ii?
+Dialogue: 0,0:00:36.77,0:00:38.34,Nako Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ma{\k32}da
+Dialogue: 0,0:00:37.31,0:00:42.07,sajou no hana,,0,0,0,fx,{\k90\fad(300,200)}{\k27}U{\k27}N{\k26}BA{\k53}LANCE {\k27}na {\k13}ma{\k40}ma {\k25}de {\k28}tsu{\k24}me{\k29}ko{\k26}me{\k21}ba
+Dialogue: 0,0:00:41.03,0:00:43.33,sajou no hana,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ki{\k23}mi {\k25}ra{\k44}shii
+Dialogue: 0,0:00:41.80,0:00:45.73,Nako Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}tsu{\k25}me{\k28}ko{\k27}me{\k26}ba {\k26}wa{\k28}tash' {\k22}ra{\k72}shii
+Dialogue: 0,0:00:44.19,0:00:45.78,sajou no hana,,0,0,0,fx,{\k90\fad(300,200)}{\k26}kit{\k23}to
+Dialogue: 0,0:00:45.26,0:00:46.81,Nako Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ta{\k30}da
+Dialogue: 0,0:00:45.82,0:00:52.25,sajou no hana,,0,0,0,fx,{\k90\fad(300,200)}{\k25}o{\k27}o{\k16}-u{\k46}so {\k16}tsu{\k18}ka{\k8}zu {\k13}ko{\k43}ko {\k22}he {\k28}shi{\k81}tai {\k27}ko{\k76}to {\k55}zen{\k32}bu
+Dialogue: 0,0:00:51.13,0:00:55.61,Nako,,0,0,0,fx,{\k90\fad(300,200)}{\k14}mo{\k14}chi{\k23}yot{\k12}te {\k27}hik{\k15}ku{\k24}ri{\k18}ka{\k9}e{\k14}shi {\k10}mi{\k29}se{\k27}tsu{\k55}ke{\k47}you
+Dialogue: 0,0:00:54.80,0:00:57.96,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k26}mei{\k27}sou {\k16}ha{\k26}mat{\k12}te {\k16}se{\k26}wa {\k14}ga {\k27}nai {\k16}ne
+Dialogue: 0,0:00:56.93,0:01:00.36,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k16}tsu{\k13}yo{\k27}ku {\k26}PUSH {\k26}IN {\k24}PUSH {\k29}IN {\k12}to{\k15}do{\k14}ku {\k13}ma{\k18}de
+Dialogue: 0,0:00:59.34,0:01:04.13,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k26}GUI{\k14}DE{\k27}LINE {\k13}ma{\k13}mo{\k14}ra{\k26}nai {\k24}de {\k13}“su{\k16}ki” {\k27}wo {\k38}mot{\k15}to {\kf103}ne
+Dialogue: 0,0:01:02.53,0:01:04.62,Duet Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k40}mot{\k14}to {\k45}ne
+Dialogue: 0,0:01:03.29,0:01:06.45,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k29}sot{\k27}to {\k11}ko {\k29}sot{\k10}to {\k18}i{\k26}mi {\k14}ga {\k26}nai {\k16}no
+Dialogue: 0,0:01:05.44,0:01:08.83,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k15}mi {\k26}to {\k27}WRAP{\k26}PING {\k27}WRAP{\k27}PING {\k12}ha{\k12}ga{\k14}shi{\k15}ta{\k15}ra
+Dialogue: 0,0:01:07.81,0:01:11.98,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k27}zen{\k15}se{\k27}kai {\k12}mo{\k16}ta{\k12}re{\k24}ru {\k30}ku{\k26}rai {\k24}no {\k41}JUN{\k15}K {\k38}de
+Dialogue: 0,0:01:10.90,0:01:15.15,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k13}u{\k38}mat{\k17}te{\k34}ru {\k17}I{\kf196}MAGE
+Dialogue: 0,0:01:14.47,0:01:17.34,Nako,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ha{\k30}kon{\k26}de {\k24}a{\k29}ge{\k44}ru
+Dialogue: 0,0:01:24.03,0:01:27.74,sajou no hana,,0,0,0,fx,{\k90\fad(300,200)}{\k26}i{\k28}tsu{\k56}mo {\k23}nan{\k26}to{\k14}na{\k29}ku {\k12}mo{\k25}rat{\k22}te
+Dialogue: 0,0:01:27.21,0:01:29.88,sajou no hana,,0,0,0,fx,{\k90\fad(300,200)}{\k28}nen{\k27}nen {\k15}tsu{\k23}mi{\k14}a{\k28}gat{\k22}te
+Dialogue: 0,0:01:29.09,0:01:32.91,sajou no hana,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ma{\k24}e {\k46}no {\k45}hou {\k42}ga {\k11}wa{\k14}ka{\k18}ra{\k42}nai
+Dialogue: 0,0:01:32.52,0:01:36.25,sajou no hana,,0,0,0,fx,{\k90\fad(300,200)}{\k27}i{\k28}ra{\k50}nai {\k26}kan{\k30}jou {\k10}a{\k27}zu{\k16}ke{\k25}nai {\k24}de
+Dialogue: 0,0:01:35.67,0:01:38.35,sajou no hana,,0,0,0,fx,{\k90\fad(300,200)}{\k19}so{\k12}re {\k24}wa {\k15}fu{\k24}ta {\k16}shi{\k27}chat{\k21}te
+Dialogue: 0,0:01:37.54,0:01:42.37,sajou no hana,,0,0,0,fx,{\k90\fad(300,200)}{\k56}so{\k45}mo{\k46}so{\k44}mo {\k12}tsu{\k14}tsu{\k26}ma{\k13}zu {\k13}ha{\k13}da{\k14}ka {\k18}ni {\k9}shi{\k27}nai{\k23}de
+Dialogue: 0,0:01:41.21,0:01:43.29,Nako,,0,0,0,fx,{\k90\fad(300,200)}{\k7}su{\k27}te{\k27}te {\k37}ii?
+Dialogue: 0,0:01:42.60,0:01:44.26,sajou no hana Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k16}do{\k34}u{\k6}zo
+Dialogue: 0,0:01:43.17,0:01:49.82,Nako,,0,0,0,fx,{\k90\fad(300,200)}{\k25}mo{\k25}chi{\k26}da{\k54}shi{\k28}ta {\k13}mo{\k40}no {\k26}wa {\k24}mi{\k27}zu{\k30}ka{\k26}ra {\k26}de {\k28}e{\k25}ra{\k26}bi{\kf106}tai
+Dialogue: 0,0:01:47.67,0:01:51.44,sajou no hana Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mi{\k28}zu{\k29}ka{\k26}ra {\k23}de {\k30}e{\k27}ra{\k23}bi{\k58}tai
+Dialogue: 0,0:01:50.05,0:01:58.23,Nako,,0,0,0,fx,{\k90\fad(300,200)}{\k26}gyut{\k32}to{\k102} {\k21}o{\k27}se{\k31}ji {\k51}ni {\k25}mo {\k18}ki{\k40}rei {\k26}tte {\k25}i{\k80}e{\k28}na{\k38}i{\k41} {\k18}na{\k20}ka{\k16}mi {\k43}wo
+Dialogue: 0,0:01:51.06,0:01:52.66,sajou no hana Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}tsu{\k31}me
+Dialogue: 0,0:01:56.92,0:02:01.21,sajou no hana,,0,0,0,fx,{\k90\fad(300,200)}{\k18}yu{\k12}me {\k28}ka {\k13}go{\k24}mi {\k14}ka {\k27}ka{\k27}dai {\k12}ni {\k15}ka{\k27}wa{\k24}ru {\k55}na{\k23}ra
+Dialogue: 0,0:02:00.41,0:02:03.03,sajou no hana,,0,0,0,fx,{\k90\fad(300,200)}{\k27}HAP{\k53}PY {\k18}na {\k9}shi{\k26}kou {\k19}de
+Dialogue: 0,0:02:01.96,0:02:07.32,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k19}hi{\k20}ka{\k15}ra{\k50}sou {\kf322}STAR
+Dialogue: 0,0:02:06.75,0:02:12.47,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\kf243}Ah{\kf219}~
+Dialogue: 0,0:02:19.75,0:02:22.91,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k26}mei{\k27}sou {\k16}ha{\k26}mat{\k12}te {\k16}se{\k26}wa {\k14}ga {\k27}nai {\k16}ne
+Dialogue: 0,0:02:21.88,0:02:25.31,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k16}tsu{\k13}yo{\k27}ku {\k26}PUSH {\k26}IN {\k24}PUSH {\k29}IN {\k12}to{\k15}do{\k14}ku {\k13}ma{\k18}de
+Dialogue: 0,0:02:24.29,0:02:29.08,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k26}GUI{\k14}DE{\k27}LINE {\k13}ma{\k13}mo{\k14}ra{\k26}nai {\k24}de {\k13}“su{\k16}ki” {\k27}wo {\k38}mot{\k15}to {\kf103}ne
+Dialogue: 0,0:02:27.48,0:02:29.57,Duet Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k40}mot{\k14}to {\k45}ne
+Dialogue: 0,0:02:28.24,0:02:31.40,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k29}sot{\k27}to {\k11}ko {\k29}sot{\k10}to {\k18}i{\k26}mi {\k14}ga {\k26}nai {\k16}no
+Dialogue: 0,0:02:30.39,0:02:33.78,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k15}mi {\k26}to {\k27}WRAP{\k26}PING {\k27}WRAP{\k27}PING {\k12}ha{\k12}ga{\k14}shi{\k15}ta{\k15}ra
+Dialogue: 0,0:02:32.76,0:02:36.85,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k27}zen{\k15}se{\k27}kai {\k12}mo{\k16}ta{\k12}re{\k24}ru {\k30}ku{\k26}rai {\k24}no {\k41}JUN{\k15}K {\k30}na
+Dialogue: 0,0:02:35.80,0:02:37.91,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k18}S{\k38}WEE{\k15}T {\k30}ga
+Dialogue: 0,0:02:36.89,0:02:40.05,Nako,,0,0,0,fx,{\k90\fad(300,200)}{\k13}a{\k27}fu{\k15}re{\k27}chat{\k13}te {\k14}a{\k27}to {\k13}ni {\k25}nat{\k32}te
+Dialogue: 0,0:02:39.39,0:02:42.29,sajou no hana Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k32}DROP {\k23}IN {\k29}DROP {\k23}IN {\k15}sa{\k15}so{\k14}wa{\k13}re{\k16}te
+Dialogue: 0,0:02:41.29,0:02:45.31,Nako,,0,0,0,fx,{\k90\fad(300,200)}{\k26}kon{\k15}do {\k26}wa {\k11}ma{\k14}ta {\k41}da{\k24}re{\k28}ka {\k26}no {\k41}TRUN{\k14}K {\k43}wo
+Dialogue: 0,0:02:44.23,0:02:48.65,Nako,,0,0,0,fx,{\k90\fad(300,200)}{\k24}u{\k37}me{\k15}te{\k40}ku {\k15}I{\kf201}MAGE
+Dialogue: 0,0:02:47.93,0:02:50.85,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ha{\k28}kon{\k28}de {\k27}a{\k27}ge{\k49}ru
+Dialogue: 0,0:02:51.10,0:02:52.95,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k26}dan{\k25}dan {\k24}to
+Dialogue: 0,0:02:52.15,0:02:55.07,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k13}tsu{\k17}ka{\k26}e{\k23}ba {\k7}bo{\k31}ro{\k7}bo{\k38}ro {\k20}ni
+Dialogue: 0,0:02:54.24,0:02:57.26,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ja{\k14}ku{\k27}ten {\k23}mo {\k9}chi{\k30}ra{\k9}chi{\k29}ra {\k19}shi{\k15}te
+Dialogue: 0,0:02:56.41,0:02:59.21,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k10}sa{\k18}sa{\k27}e {\k23}mo {\k8}fu{\k29}ra{\k8}fu{\k35}ra {\k12}de
+Dialogue: 0,0:02:58.23,0:03:01.42,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k19}so{\k37}re{\k16}de{\k38}mo {\k59}BUD{\k40}DY
+Dialogue: 0,0:03:00.65,0:03:03.57,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k13}tsu{\k17}ka{\k26}e{\k23}ba {\k7}bo{\k31}ro{\k7}bo{\k38}ro {\k20}ni
+Dialogue: 0,0:03:02.74,0:03:05.76,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ja{\k14}ku{\k27}ten {\k23}mo {\k9}chi{\k30}ra{\k9}chi{\k29}ra {\k19}shi{\k15}te
+Dialogue: 0,0:03:04.91,0:03:07.71,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k10}sa{\k18}sa{\k27}e {\k23}mo {\k8}fu{\k29}ra{\k8}fu{\k35}ra {\k12}de
+Dialogue: 0,0:03:06.73,0:03:10.09,Duet,,0,0,0,fx,{\k90\fad(300,200)}{\k19}so{\k37}re{\k16}de{\k38}mo {\k54}BUD{\k62}DY
