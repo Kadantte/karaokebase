@@ -1,0 +1,89 @@
+﻿[Script Info]
+Title: Sailor Moon, la Luna Splende
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.24,0:00:07.54,Sample KM [Choir],,0,0,0,karaoke,{\k67}Sai{\kf114}lor {\k68}Mo{\kf381}on
+Comment: 0,0:00:09.34,0:00:14.31,Sample KM [Choir],,0,0,0,karaoke,{\k68}Sai{\kf114}lor {\k66}Mo{\kf249}on
+Comment: 0,0:00:16.11,0:00:18.83,Sample KM [Up],,0,0,0,karaoke,{\k22}Lu{\k11}na {\k14}e {\kf180}stel{\k45}le
+Comment: 0,0:00:19.73,0:00:23.09,Sample KM [Up],,0,0,0,karaoke,{\k23}Fan {\k23}le {\k23}not{\k22}ti {\k23}più {\k44}bel{\k24}le {\k22}ris{\k23}plen{\k23}den{\k22}do {\k23}las{\k41}sù
+Comment: 0,0:00:23.34,0:00:26.08,Sample KM [Up],,0,0,0,karaoke,{\k24}Not{\k22}ti {\kf180}chia{\k48}re
+Comment: 0,0:00:26.96,0:00:28.10,Sample KM [Up],,0,0,0,karaoke,{\k22}Per {\k23}sog{\k25}na{\k44}re
+Comment: 0,0:00:27.42,0:00:32.56,Sample KM [Choir],,0,0,0,karaoke,{\k68}Sai{\kf113}lor {\k69}Mo{\kf264}on
+Comment: 0,0:00:30.58,0:00:33.30,Sample KM [Up],,0,0,0,karaoke,{\k23}Lu{\k23}na {\kf181}pie{\k45}na
+Comment: 0,0:00:34.20,0:00:37.46,Sample KM [Up],,0,0,0,karaoke,{\k22}Not{\k23}te {\k22}dol{\k11}ce {\k13}e {\k22}se{\k46}re{\k23}na {\k19}per {\k24}chi {\k23}dor{\k23}me {\k23}quag{\k32}giù
+Comment: 0,0:00:37.81,0:00:41.15,Sample KM [Up],,0,0,0,karaoke,{\k24}Sai{\k22}lor {\kf135}Moon {\k25}dal{\k21}la {\k68}lu{\k39}na
+Comment: 0,0:00:41.42,0:00:46.86,Sample KM [Up],,0,0,0,karaoke,{\k23}Tu {\k24}ci {\k22}veg{\k46}lie{\k45}ra{\k22}i {\k22}e {\k22}com{\k26}bat{\k41}te{\k40}rai{\k30} {\k23}per {\k21}la {\k22}li{\k24}ber{\k91}tà
+Comment: 0,0:00:49.55,0:00:55.47,Sample KM [Up],,0,0,0,karaoke,{\k71}Sai{\k67}lor {\kf108}Moon,{\k26} {\k45}chi {\k68}ci {\k69}di{\k46}fen{\k92}de
+Comment: 0,0:00:56.79,0:01:01.78,Sample KM [Up],,0,0,0,karaoke,{\k70}Sei {\k65}an{\kf139}co{\k44}ra {\kf181}tu
+Comment: 0,0:01:04.02,0:01:09.78,Sample KM [Up],,0,0,0,karaoke,{\k69}Sai{\k68}lor {\k95}Moon,{\k29} {\k58}la {\k67}lu{\k63}na {\k49}splen{\k78}de
+Comment: 0,0:01:10.35,0:01:13.58,Sample KM [Up],,0,0,0,karaoke,{\k24}Al {\k23}tuo {\k23}cuo{\k21}re {\k12}si {\k11}ar{\k44}ri{\k23}va {\k24}con {\k45}la {\k23}ve{\k22}ri{\k28}tà
+Comment: 0,0:01:13.96,0:01:17.18,Sample KM [Up],,0,0,0,karaoke,{\k22}Bian{\k25}ca {\k22}co{\k23}me {\k23}la {\k43}lu{\k25}na {\k21}nel{\k46}l'os{\k23}cu{\k22}ri{\k27}tà
+Comment: 0,0:01:17.59,0:01:20.83,Sample KM [Up],,0,0,0,karaoke,{\k21}Pa{\k25}la{\k21}di{\k24}na {\k23}di {\k42}pa{\k26}ce {\k22}per {\k46}l'u{\k21}ma{\k23}ni{\k30}tà
+Comment: 0,0:01:21.17,0:01:24.83,Sample KM [Up],,0,0,0,karaoke,{\k20}Sai{\k29}lor {\k45}Moon, {\k23}Sai{\k23}lor {\k24}Moon, {\k22}Sai{\k21}lor {\kf159}Moon
+Comment: 0,0:01:25.73,0:01:31.84,Sample KM [Up],,0,0,0,karaoke,{\k67}Sai{\k69}lor {\kf103}Moon,{\k33} {\k45}la {\k67}lu{\k66}na {\k47}splen{\kf114}de
+Comment: 0,0:01:40.19,0:01:42.77,Sample KM [Up],,0,0,0,karaoke,{\k22}Not{\k25}ti {\kf179}ne{\k32}re
+Comment: 0,0:01:43.82,0:01:46.98,Sample KM [Up],,0,0,0,karaoke,{\k22}Lu{\k9}na {\k15}e {\k19}stel{\k25}le {\k22}pri{\k22}gio{\k23}nie{\k22}re {\k22}del{\k24}le {\k24}nu{\k22}bi {\k22}las{\k23}sù
+Comment: 0,0:01:47.41,0:01:50.15,Sample KM [Up],,0,0,0,karaoke,{\k24}Non {\k24}ca{\kf179}de{\k47}re
+Comment: 0,0:01:51.01,0:01:54.31,Sample KM [Up],,0,0,0,karaoke,{\k25}Sai{\k24}lor {\kf135}Moon {\k25}dal{\k22}la {\k68}lu{\k31}na
+Comment: 0,0:01:54.67,0:02:00.09,Sample KM [Up],,0,0,0,karaoke,{\k20}Tu {\k23}ci {\k24}veg{\k45}lie{\k45}ra{\k23}i {\k20}e {\k26}com{\k24}bat{\k43}te{\k45}rai{\k20} {\k21}per {\k25}la {\k21}li{\k27}ber{\k90}tà
+Comment: 0,0:02:02.78,0:02:09.12,Sample KM [Up],,0,0,0,karaoke,{\k70}Sai{\k69}lor {\kf108}Moon,{\k26} {\k46}chi {\k68}ci {\k66}di{\k46}fen{\kf135}de
+Comment: 0,0:02:10.02,0:02:14.77,Sample KM [Up],,0,0,0,karaoke,{\k69}Sei {\k67}an{\kf137}co{\k46}ra {\kf156}tu
+Comment: 0,0:02:17.26,0:02:23.17,Sample KM [Up],,0,0,0,karaoke,{\k69}Sai{\k68}lor {\kf106}Moon,{\k27} {\k47}la {\k66}lu{\k67}na {\k48}splen{\k93}de
+Comment: 0,0:02:23.58,0:02:26.80,Sample KM [Up],,0,0,0,karaoke,{\k22}Al {\k24}tu {\k23}cuo{\k22}re {\k7}si {\k20}ar{\k41}ri{\k23}va {\k23}con {\k43}la {\k24}ve{\k23}ri{\k27}tà
+Comment: 0,0:02:27.21,0:02:30.40,Sample KM [Up],,0,0,0,karaoke,{\k22}Bian{\k23}ca {\k23}co{\k22}me {\k24}la {\k42}lu{\k23}na {\k24}nel{\k45}l'os{\k23}cu{\k21}ri{\k27}tà
+Comment: 0,0:02:30.82,0:02:34.09,Sample KM [Up],,0,0,0,karaoke,{\k23}Pa{\k23}la{\k22}di{\k23}na {\k22}di {\k42}pa{\k25}ce {\k27}per {\k44}l'u{\k21}ma{\k21}ni{\k34}tà
+Comment: 0,0:02:34.42,0:02:37.65,Sample KM [Up],,0,0,0,karaoke,{\k25}Sai{\k23}lor {\k44}Moon, {\k22}Sai{\k24}lor {\k23}Moon, {\k22}Sai{\k22}lor {\kf118}Moon
+Comment: 0,0:02:37.83,0:02:40.32,Sample KM [Up],,0,0,0,karaoke,{\k23}Sai{\k23}lor {\kf203}Moon
+Comment: 0,0:02:40.77,0:02:46.88,Sample KM [Up],,0,0,0,karaoke,{\k66}Sai{\k69}lor {\kf113}Moon,{\k23} {\k43}chi {\k70}ci {\k67}di{\k45}fen{\kf115}de
+Comment: 0,0:02:47.99,0:02:52.50,Sample KM [Up],,0,0,0,karaoke,{\k69}Sei {\k69}an{\kf135}co{\k45}ra {\kf133}tu
+Comment: 0,0:02:55.22,0:03:01.74,Sample KM [Up],,0,0,0,karaoke,{\k69}Sai{\k68}lor {\kf104}Moon{\k31} {\k46}la {\k67}lu{\k68}na {\k46}splen{\kf153}de
+Dialogue: 0,0:00:00.34,0:00:07.74,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k67}Sai{\kf114}lor {\k68}Mo{\kf381}on
+Dialogue: 0,0:00:08.44,0:00:14.51,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k68}Sai{\kf114}lor {\k66}Mo{\kf249}on
+Dialogue: 0,0:00:15.21,0:00:19.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Lu{\k11}na {\k14}e {\kf180}stel{\k45}le
+Dialogue: 0,0:00:18.83,0:00:23.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Fan {\k23}le {\k23}not{\k22}ti {\k23}più {\k44}bel{\k24}le {\k22}ris{\k23}plen{\k23}den{\k22}do {\k23}las{\k41}sù
+Dialogue: 0,0:00:22.44,0:00:26.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Not{\k22}ti {\kf180}chia{\k48}re
+Dialogue: 0,0:00:26.06,0:00:28.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Per {\k23}sog{\k25}na{\k44}re
+Dialogue: 0,0:00:26.52,0:00:32.76,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k68}Sai{\kf113}lor {\k69}Mo{\kf264}on
+Dialogue: 0,0:00:29.68,0:00:33.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Lu{\k23}na {\kf181}pie{\k45}na
+Dialogue: 0,0:00:33.30,0:00:37.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Not{\k23}te {\k22}dol{\k11}ce {\k13}e {\k22}se{\k46}re{\k23}na {\k19}per {\k24}chi {\k23}dor{\k23}me {\k23}quag{\k32}giù
+Dialogue: 0,0:00:36.91,0:00:41.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Sai{\k22}lor {\kf135}Moon {\k25}dal{\k21}la {\k68}lu{\k39}na
+Dialogue: 0,0:00:40.52,0:00:47.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Tu {\k24}ci {\k22}veg{\k46}lie{\k45}ra{\k22}i {\k22}e {\k22}com{\k26}bat{\k41}te{\k40}rai{\k30} {\k23}per {\k21}la {\k22}li{\k24}ber{\k91}tà
+Dialogue: 0,0:00:48.65,0:00:55.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Sai{\k67}lor {\kf108}Moon,{\k26} {\k45}chi {\k68}ci {\k69}di{\k46}fen{\k92}de
+Dialogue: 0,0:00:55.89,0:01:01.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k70}Sei {\k65}an{\kf139}co{\k44}ra {\kf181}tu
+Dialogue: 0,0:01:03.12,0:01:09.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k69}Sai{\k68}lor {\k95}Moon,{\k29} {\k58}la {\k67}lu{\k63}na {\k49}splen{\k78}de
+Dialogue: 0,0:01:09.45,0:01:13.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Al {\k23}tuo {\k23}cuo{\k21}re {\k12}si {\k11}ar{\k44}ri{\k23}va {\k24}con {\k45}la {\k23}ve{\k22}ri{\k28}tà
+Dialogue: 0,0:01:13.06,0:01:17.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Bian{\k25}ca {\k22}co{\k23}me {\k23}la {\k43}lu{\k25}na {\k21}nel{\k46}l'os{\k23}cu{\k22}ri{\k27}tà
+Dialogue: 0,0:01:16.69,0:01:21.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Pa{\k25}la{\k21}di{\k24}na {\k23}di {\k42}pa{\k26}ce {\k22}per {\k46}l'u{\k21}ma{\k23}ni{\k30}tà
+Dialogue: 0,0:01:20.27,0:01:25.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Sai{\k29}lor {\k45}Moon, {\k23}Sai{\k23}lor {\k24}Moon, {\k22}Sai{\k21}lor {\kf159}Moon
+Dialogue: 0,0:01:24.83,0:01:32.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k67}Sai{\k69}lor {\kf103}Moon,{\k33} {\k45}la {\k67}lu{\k66}na {\k47}splen{\kf114}de
+Dialogue: 0,0:01:39.29,0:01:42.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Not{\k25}ti {\kf179}ne{\k32}re
+Dialogue: 0,0:01:42.92,0:01:47.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Lu{\k9}na {\k15}e {\k19}stel{\k25}le {\k22}pri{\k22}gio{\k23}nie{\k22}re {\k22}del{\k24}le {\k24}nu{\k22}bi {\k22}las{\k23}sù
+Dialogue: 0,0:01:46.51,0:01:50.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Non {\k24}ca{\kf179}de{\k47}re
+Dialogue: 0,0:01:50.11,0:01:54.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Sai{\k24}lor {\kf135}Moon {\k25}dal{\k22}la {\k68}lu{\k31}na
+Dialogue: 0,0:01:53.77,0:02:00.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Tu {\k23}ci {\k24}veg{\k45}lie{\k45}ra{\k23}i {\k20}e {\k26}com{\k24}bat{\k43}te{\k45}rai{\k20} {\k21}per {\k25}la {\k21}li{\k27}ber{\k90}tà
+Dialogue: 0,0:02:01.88,0:02:09.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k70}Sai{\k69}lor {\kf108}Moon,{\k26} {\k46}chi {\k68}ci {\k66}di{\k46}fen{\kf135}de
+Dialogue: 0,0:02:09.12,0:02:14.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k69}Sei {\k67}an{\kf137}co{\k46}ra {\kf156}tu
+Dialogue: 0,0:02:16.36,0:02:23.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k69}Sai{\k68}lor {\kf106}Moon,{\k27} {\k47}la {\k66}lu{\k67}na {\k48}splen{\k93}de
+Dialogue: 0,0:02:22.68,0:02:27.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Al {\k24}tu {\k23}cuo{\k22}re {\k7}si {\k20}ar{\k41}ri{\k23}va {\k23}con {\k43}la {\k24}ve{\k23}ri{\k27}tà
+Dialogue: 0,0:02:26.31,0:02:30.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Bian{\k23}ca {\k23}co{\k22}me {\k24}la {\k42}lu{\k23}na {\k24}nel{\k45}l'os{\k23}cu{\k21}ri{\k27}tà
+Dialogue: 0,0:02:29.92,0:02:34.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Pa{\k23}la{\k22}di{\k23}na {\k22}di {\k42}pa{\k25}ce {\k27}per {\k44}l'u{\k21}ma{\k21}ni{\k34}tà
+Dialogue: 0,0:02:33.52,0:02:37.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Sai{\k23}lor {\k44}Moon, {\k22}Sai{\k24}lor {\k23}Moon, {\k22}Sai{\k22}lor {\kf118}Moon
+Dialogue: 0,0:02:36.93,0:02:40.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Sai{\k23}lor {\kf203}Moon
+Dialogue: 0,0:02:39.87,0:02:47.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k66}Sai{\k69}lor {\kf113}Moon,{\k23} {\k43}chi {\k70}ci {\k67}di{\k45}fen{\kf115}de
+Dialogue: 0,0:02:47.09,0:02:52.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k69}Sei {\k69}an{\kf135}co{\k45}ra {\kf133}tu
+Dialogue: 0,0:02:54.32,0:03:01.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k69}Sai{\k68}lor {\kf104}Moon{\k31} {\k46}la {\k67}lu{\k68}na {\k46}splen{\kf153}de
