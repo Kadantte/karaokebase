@@ -1,0 +1,125 @@
+﻿[Script Info]
+Title: Give Me Something
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFB858,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:04.51,0:00:06.72,Sample KM [Choir],,0,0,0,karaoke,{\k29}Give {\k25}me, {\k26}give {\k25}me, {\k23}give {\k19}me {\k24}some{\k50}thing
+Comment: 0,0:00:07.17,0:00:08.82,Sample KM [Choir],,0,0,0,karaoke,{\k23}Give {\k25}me, {\k22}give {\k19}me {\k25}some{\k51}thing
+Comment: 0,0:00:09.24,0:00:12.74,Sample KM [Choir],,0,0,0,karaoke,{\k50}Love,{\k53} {\k59}love,{\k46} {\k24}give {\k27}me {\k50}some{\k41}thing
+Comment: 0,0:00:12.33,0:00:13.34,Sample KM [Up],,0,0,0,karaoke,{\k29}Switched {\k14}a {\k58}light
+Comment: 0,0:00:14.42,0:00:15.46,Sample KM [Up],,0,0,0,karaoke,{\k26}Cracked {\k16}a {\k62}door
+Comment: 0,0:00:16.49,0:00:17.60,Sample KM [Up],,0,0,0,karaoke,{\k28}Star{\k20}ted {\k20}wi{\k43}shing
+Comment: 0,0:00:18.57,0:00:19.66,Sample KM [Up],,0,0,0,karaoke,{\k30}Found {\k15}a {\k25}mis{\k39}sion
+Comment: 0,0:00:20.70,0:00:21.83,Sample KM [Up],,0,0,0,karaoke,{\k24}Break {\k16}a {\k73}glass
+Comment: 0,0:00:22.77,0:00:23.82,Sample KM [Up],,0,0,0,karaoke,{\k29}Ring {\k18}the {\k58}bell
+Comment: 0,0:00:24.84,0:00:25.91,Sample KM [Up],,0,0,0,karaoke,{\k27}Su{\k16}per{\k24}sti{\k40}tion
+Comment: 0,0:00:26.83,0:00:28.40,Sample KM [Up],,0,0,0,karaoke,{\k13}But {\k30}I've {\k14}been {\k21}wi{\k79}shing
+Comment: 0,0:00:28.90,0:00:33.21,Sample KM [Up],,0,0,0,karaoke,{\k13}For {\k14}some{\k14}one {\k13}that {\k64}I {\k52}can {\k46}see{\k35} {\k25}with {\k36}my {\k17}hu{\k37}ma{\k15}ni{\k50}ty
+Comment: 0,0:00:33.21,0:00:34.38,Sample KM [Up],,0,0,0,karaoke,{\k27}In {\k17}the {\k27}mir{\k46}ror
+Comment: 0,0:00:35.05,0:00:36.47,Sample KM [Up],,0,0,0,karaoke,{\k13}Just {\k12}a {\k27}lit{\k12}tle {\k40}clea{\k38}rer
+Comment: 0,0:00:37.25,0:00:41.57,Sample KM [Up],,0,0,0,karaoke,{\k13}So {\k14}sick {\k12}of {\k14}the {\k67}war{\k50}ning {\k53}signs,{\k26} {\k28}I {\k37}see {\k14}the {\k41}do {\k12}or {\k51}die
+Comment: 0,0:00:41.57,0:00:42.76,Sample KM [Up],,0,0,0,karaoke,{\k26}Yeah, {\k16}it's {\k36}nea{\k41}rer
+Comment: 0,0:00:43.28,0:00:44.90,Sample KM [Up],,0,0,0,karaoke,{\k11}I {\k25}won't {\k26}shed {\k15}a {\k38}tea{\k47}r
+Comment: 0,0:00:45.23,0:00:47.17,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\k25}looked {\k26}for {\kf118}gold
+Comment: 0,0:00:47.59,0:00:52.00,Sample KM [Up],,0,0,0,karaoke,{\k25}Then {\k25}it {\k78}turned, {\k25}it {\k76}turned {\k52}to {\kf160}rust
+Comment: 0,0:00:53.57,0:00:55.45,Sample KM [Up],,0,0,0,karaoke,{\k29}I'll {\k20}look {\k27}for {\kf112}fate
+Comment: 0,0:00:55.91,0:01:00.53,Sample KM [Up],,0,0,0,karaoke,{\k25}If {\k32}it {\k76}leads, {\k27}it {\k76}leads {\k52}to {\kf174}us
+Comment: 0,0:01:02.44,0:01:03.49,Sample KM [Up],,0,0,0,karaoke,{\k22}Give {\k18}me {\k31}some{\k34}thing
+Comment: 0,0:01:04.51,0:01:05.73,Sample KM [Up],,0,0,0,karaoke,{\k16}Some{\k13}where {\k12}to {\k81}go
+Comment: 0,0:01:06.59,0:01:08.22,Sample KM [Up],,0,0,0,karaoke,{\k15}Some{\k14}where {\k15}that {\k62}I {\k57}know
+Comment: 0,0:01:08.55,0:01:09.73,Sample KM [Up],,0,0,0,karaoke,{\k14}I'm {\k15}cha{\k12}sing {\k12}the {\k65}glow
+Comment: 0,0:01:09.73,0:01:10.78,Sample KM [Choir],,0,0,0,karaoke,{\k56}Oh {\k49}oh
+Comment: 0,0:01:10.78,0:01:11.75,Sample KM [Up],,0,0,0,karaoke,{\k25}Give {\k15}me {\k28}some{\k29}thing
+Comment: 0,0:01:12.85,0:01:14.09,Sample KM [Up],,0,0,0,karaoke,{\k16}Some{\k13}one {\k12}to {\k83}love
+Comment: 0,0:01:14.94,0:01:18.07,Sample KM [Up],,0,0,0,karaoke,{\k14}Some{\k13}one {\k13}to {\k66}count {\k59}these{\k42} {\k29}stars {\k14}a{\k63}bove
+Comment: 0,0:01:18.07,0:01:18.99,Sample KM [Choir],,0,0,0,karaoke,{\k54}Oh {\k38}oh
+Comment: 0,0:01:19.13,0:01:20.43,Sample KM [Up],,0,0,0,karaoke,{\k26}Give {\k15}me {\k28}some{\k61}thing
+Comment: 0,0:01:21.17,0:01:22.26,Sample KM [Up],,0,0,0,karaoke,{\k29}Tell {\k17}me {\k63}lies
+Comment: 0,0:01:23.30,0:01:24.31,Sample KM [Up],,0,0,0,karaoke,{\k24}Make {\k22}it {\k55}up
+Comment: 0,0:01:25.38,0:01:26.46,Sample KM [Up],,0,0,0,karaoke,{\k28}Paint {\k13}the {\k27}pic{\k40}ture
+Comment: 0,0:01:27.44,0:01:28.51,Sample KM [Up],,0,0,0,karaoke,{\k30}Take {\k19}me {\k24}with {\k34}ya
+Comment: 0,0:01:29.82,0:01:31.66,Sample KM [Up],,0,0,0,karaoke,{\k14}I {\k24}don't {\k18}care {\k23}what, {\k25}what {\k26}you {\k54}say
+Comment: 0,0:01:31.66,0:01:33.74,Sample KM [Up],,0,0,0,karaoke,{\k38}I'm {\k25}ma{\k16}king {\k26}it {\k24}here {\k26}to{\k53}day
+Comment: 0,0:01:33.74,0:01:34.97,Sample KM [Up],,0,0,0,karaoke,{\k26}It's {\k13}a {\k37}new {\k47}world
+Comment: 0,0:01:35.82,0:01:37.10,Sample KM [Up],,0,0,0,karaoke,{\k24}It's {\k16}a {\k37}new {\k51}world
+Comment: 0,0:01:38.15,0:01:40.04,Sample KM [Up],,0,0,0,karaoke,{\k14}I {\k27}don't {\k16}care {\k25}where, {\k25}where {\k27}this {\k55}goes
+Comment: 0,0:01:40.04,0:01:42.13,Sample KM [Up],,0,0,0,karaoke,{\k38}I'm {\k24}ma{\k14}king {\k19}it, {\k30}highs {\k31}and {\k53}lows
+Comment: 0,0:01:42.13,0:01:43.37,Sample KM [Up],,0,0,0,karaoke,{\k24}It's {\k13}a {\k37}new {\k50}world
+Comment: 0,0:01:44.18,0:01:46.40,Sample KM [Up],,0,0,0,karaoke,{\k25}It's {\k16}a {\k37}new {\kf144}world
+Comment: 0,0:01:46.26,0:01:47.31,Sample KM [Up],,0,0,0,karaoke,{\k22}Give {\k18}me {\k28}some{\k37}thing
+Comment: 0,0:01:48.32,0:01:49.57,Sample KM [Up],,0,0,0,karaoke,{\k17}Some{\k13}where {\k12}to {\k83}go
+Comment: 0,0:01:50.39,0:01:52.00,Sample KM [Up],,0,0,0,karaoke,{\k17}Some{\k13}where {\k15}that {\k64}I {\k52}know
+Comment: 0,0:01:52.39,0:01:53.56,Sample KM [Up],,0,0,0,karaoke,{\k13}I'm {\k14}cha{\k12}sing {\k13}the {\k65}glow
+Comment: 0,0:01:53.56,0:01:54.59,Sample KM [Choir],,0,0,0,karaoke,{\k56}Oh {\k47}oh
+Comment: 0,0:01:54.62,0:01:55.60,Sample KM [Up],,0,0,0,karaoke,{\k25}Give {\k13}me {\k28}some{\k32}thing
+Comment: 0,0:01:56.67,0:01:57.87,Sample KM [Up],,0,0,0,karaoke,{\k15}Some{\k16}one {\k10}to {\k79}love
+Comment: 0,0:01:58.76,0:02:01.90,Sample KM [Up],,0,0,0,karaoke,{\k13}Some{\k15}one {\k11}to {\k67}count {\k64}these{\k40} {\k28}stars {\k12}a{\k64}bove
+Comment: 0,0:02:01.90,0:02:02.83,Sample KM [Choir],,0,0,0,karaoke,{\k54}Oh {\k39}oh
+Comment: 0,0:02:02.90,0:02:04.23,Sample KM [Up],,0,0,0,karaoke,{\k27}Give {\k13}me {\k29}some{\k64}thing
+Dialogue: 0,0:00:03.61,0:00:06.92,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Give {\k25}me, {\k26}give {\k25}me, {\k23}give {\k19}me {\k24}some{\k50}thing
+Dialogue: 0,0:00:06.27,0:00:09.02,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Give {\k25}me, {\k22}give {\k19}me {\k25}some{\k51}thing
+Dialogue: 0,0:00:08.34,0:00:12.94,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Love,{\k53} {\k59}love,{\k46} {\k24}give {\k27}me {\k50}some{\k41}thing
+Dialogue: 0,0:00:11.43,0:00:13.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Switched {\k14}a {\k58}light
+Dialogue: 0,0:00:13.52,0:00:15.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Cracked {\k16}a {\k62}door
+Dialogue: 0,0:00:15.59,0:00:17.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Star{\k20}ted {\k20}wi{\k43}shing
+Dialogue: 0,0:00:17.67,0:00:19.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Found {\k15}a {\k25}mis{\k39}sion
+Dialogue: 0,0:00:19.80,0:00:22.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Break {\k16}a {\k73}glass
+Dialogue: 0,0:00:21.87,0:00:24.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Ring {\k18}the {\k58}bell
+Dialogue: 0,0:00:23.94,0:00:26.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Su{\k16}per{\k24}sti{\k40}tion
+Dialogue: 0,0:00:25.93,0:00:28.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}But {\k30}I've {\k14}been {\k21}wi{\k79}shing
+Dialogue: 0,0:00:28.00,0:00:33.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}For {\k14}some{\k14}one {\k13}that {\k64}I {\k52}can {\k46}see{\k35} {\k25}with {\k36}my {\k17}hu{\k37}ma{\k15}ni{\k50}ty
+Dialogue: 0,0:00:32.31,0:00:34.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}In {\k17}the {\k27}mir{\k46}ror
+Dialogue: 0,0:00:34.15,0:00:36.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Just {\k12}a {\k27}lit{\k12}tle {\k40}clea{\k38}rer
+Dialogue: 0,0:00:36.35,0:00:41.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}So {\k14}sick {\k12}of {\k14}the {\k67}war{\k50}ning {\k53}signs,{\k26} {\k28}I {\k37}see {\k14}the {\k41}do {\k12}or {\k51}die
+Dialogue: 0,0:00:40.67,0:00:42.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Yeah, {\k16}it's {\k36}nea{\k41}rer
+Dialogue: 0,0:00:42.38,0:00:45.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}I {\k25}won't {\k26}shed {\k15}a {\k38}tea{\k47}r
+Dialogue: 0,0:00:44.33,0:00:47.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k25}looked {\k26}for {\kf118}gold
+Dialogue: 0,0:00:46.69,0:00:52.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Then {\k25}it {\k78}turned, {\k25}it {\k76}turned {\k52}to {\kf160}rust
+Dialogue: 0,0:00:52.67,0:00:55.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}I'll {\k20}look {\k27}for {\kf112}fate
+Dialogue: 0,0:00:55.01,0:01:00.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}If {\k32}it {\k76}leads, {\k27}it {\k76}leads {\k52}to {\kf174}us
+Dialogue: 0,0:01:01.54,0:01:03.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Give {\k18}me {\k31}some{\k34}thing
+Dialogue: 0,0:01:03.61,0:01:05.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Some{\k13}where {\k12}to {\k81}go
+Dialogue: 0,0:01:05.69,0:01:08.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Some{\k14}where {\k15}that {\k62}I {\k57}know
+Dialogue: 0,0:01:07.65,0:01:09.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}I'm {\k15}cha{\k12}sing {\k12}the {\k65}glow
+Dialogue: 0,0:01:08.83,0:01:10.98,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k56}Oh {\k49}oh
+Dialogue: 0,0:01:09.88,0:01:11.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Give {\k15}me {\k28}some{\k29}thing
+Dialogue: 0,0:01:11.95,0:01:14.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Some{\k13}one {\k12}to {\k83}love
+Dialogue: 0,0:01:14.04,0:01:18.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Some{\k13}one {\k13}to {\k66}count {\k59}these{\k42} {\k29}stars {\k14}a{\k63}bove
+Dialogue: 0,0:01:17.17,0:01:19.19,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Oh {\k38}oh
+Dialogue: 0,0:01:18.23,0:01:20.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Give {\k15}me {\k28}some{\k61}thing
+Dialogue: 0,0:01:20.27,0:01:22.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Tell {\k17}me {\k63}lies
+Dialogue: 0,0:01:22.40,0:01:24.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Make {\k22}it {\k55}up
+Dialogue: 0,0:01:24.48,0:01:26.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Paint {\k13}the {\k27}pic{\k40}ture
+Dialogue: 0,0:01:26.54,0:01:28.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Take {\k19}me {\k24}with {\k34}ya
+Dialogue: 0,0:01:28.92,0:01:31.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}I {\k24}don't {\k18}care {\k23}what, {\k25}what {\k26}you {\k54}say
+Dialogue: 0,0:01:30.76,0:01:33.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}I'm {\k25}ma{\k16}king {\k26}it {\k24}here {\k26}to{\k53}day
+Dialogue: 0,0:01:32.84,0:01:35.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}It's {\k13}a {\k37}new {\k47}world
+Dialogue: 0,0:01:34.92,0:01:37.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}It's {\k16}a {\k37}new {\k51}world
+Dialogue: 0,0:01:37.25,0:01:40.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}I {\k27}don't {\k16}care {\k25}where, {\k25}where {\k27}this {\k55}goes
+Dialogue: 0,0:01:39.14,0:01:42.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}I'm {\k24}ma{\k14}king {\k19}it, {\k30}highs {\k31}and {\k53}lows
+Dialogue: 0,0:01:41.23,0:01:43.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}It's {\k13}a {\k37}new {\k50}world
+Dialogue: 0,0:01:43.28,0:01:46.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}It's {\k16}a {\k37}new {\kf144}world
+Dialogue: 0,0:01:45.36,0:01:47.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Give {\k18}me {\k28}some{\k37}thing
+Dialogue: 0,0:01:47.42,0:01:49.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Some{\k13}where {\k12}to {\k83}go
+Dialogue: 0,0:01:49.49,0:01:52.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Some{\k13}where {\k15}that {\k64}I {\k52}know
+Dialogue: 0,0:01:51.49,0:01:53.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}I'm {\k14}cha{\k12}sing {\k13}the {\k65}glow
+Dialogue: 0,0:01:52.66,0:01:54.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k56}Oh {\k47}oh
+Dialogue: 0,0:01:53.72,0:01:55.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Give {\k13}me {\k28}some{\k32}thing
+Dialogue: 0,0:01:55.77,0:01:58.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Some{\k16}one {\k10}to {\k79}love
+Dialogue: 0,0:01:57.86,0:02:02.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Some{\k15}one {\k11}to {\k67}count {\k64}these{\k40} {\k28}stars {\k12}a{\k64}bove
+Dialogue: 0,0:02:01.00,0:02:03.03,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Oh {\k39}oh
+Dialogue: 0,0:02:02.00,0:02:04.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Give {\k13}me {\k29}some{\k64}thing
