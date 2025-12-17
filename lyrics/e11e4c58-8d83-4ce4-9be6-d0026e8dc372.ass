@@ -1,0 +1,26 @@
+﻿[Script Info]
+Title: cradle
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: HayatoKurokami
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.12,0:00:11.22,Sample KM [Up],,0,0,0,karaoke,{\k108}cra{\k103}dle {\k81}a {\k107}cra{\k115}dle {\k86}mai{\k185}sul{\k126}sel{\kf199}mich
+Comment: 0,0:00:12.14,0:00:23.01,Sample KM [Up],,0,0,0,karaoke,{\k100}to{\k100}is{\k101}ti {\k102}lil{\k155}de {\k47}e {\k180}tu {\k111}clel{\kf191}ka
+Comment: 0,0:00:23.99,0:00:39.84,Sample KM [Up],,0,0,0,karaoke,{\k114}cra{\k97}dle {\k97}me{\kf194}yu {\k107}ta{\kf300}na {\kf253}tu {\k46}se{\kf377}ta
+Comment: 0,0:00:59.99,0:01:10.63,Sample KM [Up],,0,0,0,karaoke,{\k104}el{\k101}da {\k99}te {\kf280}yu {\k125}cra{\k95}dle {\k99}me{\kf161}ta
+Comment: 0,0:01:12.01,0:01:29.36,Sample KM [Up],,0,0,0,karaoke,{\k109}yu{\k147}is {\k45}ti {\kf198}mu{\k102}ta {\kf300}na {\kf246}sul{\k105}se {\kf483}ta
+Dialogue: 0,0:00:00.00,0:00:11.42,Sample KM [Up],,0,0,0,fx,{\k12\fad(120,200)}{\k108}cra{\k103}dle {\k81}a {\k107}cra{\k115}dle {\k86}mai{\k185}sul{\k126}sel{\kf199}mich
+Dialogue: 0,0:00:11.24,0:00:23.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k100}to{\k100}is{\k101}ti {\k102}lil{\k155}de {\k47}e {\k180}tu {\k111}clel{\kf191}ka
+Dialogue: 0,0:00:23.09,0:00:40.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k114}cra{\k97}dle {\k97}me{\kf194}yu {\k107}ta{\kf300}na {\kf253}tu {\k46}se{\kf377}ta
+Dialogue: 0,0:00:59.09,0:01:10.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k104}el{\k101}da {\k99}te {\kf280}yu {\k125}cra{\k95}dle {\k99}me{\kf161}ta
+Dialogue: 0,0:01:11.11,0:01:29.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k109}yu{\k147}is {\k45}ti {\kf198}mu{\k102}ta {\kf300}na {\kf246}sul{\k105}se {\kf483}ta
