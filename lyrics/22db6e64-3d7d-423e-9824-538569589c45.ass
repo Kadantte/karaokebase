@@ -1,0 +1,115 @@
+﻿[Script Info]
+Title: Hajimari wa Kimi no Sora
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Mathxxl, Azurys
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Liella!,Arial,24,&H00FFFFFF,&H00D36BBF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kanon,Arial,24,&H00FFFFFF,&H00277FFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Keke,Arial,24,&H00FFFFFF,&H00DEED4F,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sumire,Arial,24,&H00FFFFFF,&H0066F474,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Chisato,Arial,24,&H00FFFFFF,&H00906EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Ren,Arial,24,&H00FFFFFF,&H00FF7C4B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: COLOR CODE,Arial,20,&H0000B4FF,&H0000B4FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],Ren,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:08.00,COLOR CODE,,0,0,0,karaoke,{\c&H277FFF&}Kanon {\c&HFFFFFF&}- {\c&HDEED4F&}Keke {\c&HFFFFFF&}- {\c&H906EFF&}Chisato {\c&HFFFFFF&}- {\c&H66F474&}Sumire {\c&HFFFFFF&}- {\c&HFF7C4B&}Ren
+Comment: 0,0:00:00.00,0:00:08.00,COLOR CODE,,0,0,0,karaoke,{\c&HD36BBF&}Liella!
+Comment: 0,0:00:18.80,0:00:20.74,Ren,,0,0,0,karaoke,{\k18}na{\k17}ni{\k21}ka {\k16}me{\k22}za{\k15}me{\k39}sou {\k17}da {\k29}yo
+Comment: 0,0:00:21.71,0:00:23.68,Ren,,0,0,0,karaoke,{\k19}ma{\k18}da {\k19}na {\k17}mo {\k19}na{\k18}i {\k19}ki{\k20}mo{\k20}chi {\k28}ga
+Comment: 0,0:00:24.66,0:00:28.65,Ren,,0,0,0,karaoke,{\k19}chi{\k21}ga{\k17}u {\k16}a{\k20}shi{\k55}ta {\k35}wo {\k38}mi{\k36}ta{\k36}gat{\k20}te{\kf86}ru
+Comment: 0,0:00:30.34,0:00:32.48,Keke,,0,0,0,karaoke,{\k18}u{\k16}go{\k20}ki{\k15}da{\k20}shi{\k18}ta{\k18}ku {\k38}nat{\k19}ta{\k32}ra
+Comment: 0,0:00:33.25,0:00:35.34,Keke,,0,0,0,karaoke,{\k18}a{\k18}to {\k21}wa {\k19}yu{\k14}u{\k20}ki {\k15}to {\k18}ki{\k20}k{\k20}ka{\k26}ke
+Comment: 0,0:00:35.63,0:00:40.72,Liella!,,0,0,0,karaoke,{\k19}ho{\k55}ra {\k19}i{\k18}p{\k21}po {\k16}me {\k19}wo {\k18}i{\k32}s{\k41}sho {\k36}ni {\k37}to{\k35}bo{\k19}u {\kf124}yo
+Comment: 0,0:00:42.22,0:00:46.53,Sumire,,0,0,0,karaoke,{\k35}yat{\k20}te {\k35}mi{\k56}tai {\k38}ko{\k34}to {\k39}sa{\k51}ga{\k22}shi{\kf101}te
+Comment: 0,0:00:48.06,0:00:53.12,Sumire,,0,0,0,karaoke,{\k38}bou{\k19}ke{\k32}n {\k59}shi{\k35}ta{\k38}t{\k37}te {\k35}iin {\k20}ja{\k53}nai {\k18}ka{\kf122}na
+Comment: 0,0:00:53.92,0:00:58.47,Chisato,,0,0,0,karaoke,{\k19}ma{\k19}yo{\k17}t{\k37}te {\k55}ba{\k38}ka{\k32}ri {\k39}ja {\k38}ka{\k18}wa{\k54}re{\k37}na{\k52}i
+Comment: 0,0:00:58.67,0:01:06.52,Kanon,,0,0,0,karaoke,{\k35}shin{\k39}ji{\k54}yo{\k55}u {\k50}yo {\k55}ji{\k44}bu{\k36}n {\kf125}no{\k77} {\rLiella!}{\k16}chi{\k19}ka{\k37}ra {\kf143}wo
+Comment: 0,0:01:07.44,0:01:10.80,Liella!,,0,0,0,karaoke,{\k38}ha{\k34}ji{\k57}ma{\k21}ri {\k56}wa {\k17}ki{\k35}mi {\k17}no {\k39}so{\k22}ra
+Comment: 0,0:01:11.09,0:01:13.70,Liella!,,0,0,0,karaoke,{\k57}so{\k19}ra {\k53}ni {\k20}e{\k37}ga{\k18}ku {\k38}no {\k19}wa
+Comment: 0,0:01:14.05,0:01:18.33,Liella!,,0,0,0,karaoke,{\k52}don{\k21}na {\k54}don{\k19}na {\k37}yu{\k35}me {\k37}ka {\k32}o{\k36}shi{\k23}e{\k82}te
+Comment: 0,0:01:19.17,0:01:24.60,Liella!,,0,0,0,karaoke,{\k33}ho{\k41}shi {\k19}ni {\k18}ne{\k22}ga{\k33}u {\k20}ma{\k17}e {\k55}ni {\k35}ka{\k37}ta{\k36}ri{\k22}a{\k15}t{\k19}te {\k17}mi{\k19}yo{\k36}u {\k49}yo
+Comment: 0,0:01:25.01,0:01:30.29,Liella!,,0,0,0,karaoke,{\k38}to{\k37}ki{\k37}me{\k20}ki {\k52}wo {\k33}wa{\k39}ka{\k35}chi {\k40}a{\k35}i{\k57}ta{\k19}i {\kf86}yo
+Comment: 0,0:01:30.87,0:01:34.20,Liella!,,0,0,0,karaoke,{\k36}ha{\k37}ji{\k55}ma{\k19}re{\k52}ba {\k22}ki{\k36}mi {\k15}no {\k41}so{\k20}ra
+Comment: 0,0:01:34.55,0:01:41.64,Liella!,,0,0,0,karaoke,{\k52}mi{\k21}ra{\k54}i {\k18}he {\k37}no {\k19}mi{\k35}chi {\k29}ga{\k27} {\k52}do{\k21}ko{\k51}ka {\k17}ni {\k41}ka{\k37}ku{\k35}re{\k38}te{\k35}ru {\k19}ka{\k71}mo
+Comment: 0,0:01:42.57,0:01:48.05,Liella!,,0,0,0,karaoke,{\k37}kit{\k35}to {\k21}a{\k17}ru {\k19}yo {\k37}a{\k26}ru{\k12}n{\k52}da {\k38}da{\k37}ka{\k36}ra {\k18}ta{\k19}shi{\k20}ka{\k17}me {\k19}ni {\k34}i{\k54}kou
+Comment: 0,0:01:48.44,0:01:53.53,Liella!,,0,0,0,karaoke,{\k37}te {\k34}wo {\k21}tsu{\k18}na{\k17}i{\k37}de {\k18}o{\k19}ke{\k76}ba... {\rKanon}{\k16}ko{\k35}wa{\k20}ku{\kf161}nai!
+Comment: 0,0:02:05.63,0:02:07.75,Chisato,,0,0,0,karaoke,{\k19}i{\k16}ma {\k20}ji{\k18}bu{\k21}n {\k17}no {\k37}na{\k18}ka {\k46}no
+Comment: 0,0:02:08.57,0:02:10.63,Chisato,,0,0,0,karaoke,{\k18}ma{\k19}da {\k18}na {\k18}mo {\k19}na{\k17}i {\k20}ki{\k18}mo{\k18}chi {\k41}wo
+Comment: 0,0:02:11.50,0:02:15.26,Chisato,,0,0,0,karaoke,{\k17}da{\k18}i{\k21}ji {\k15}ni {\k21}shi{\k54}tai {\k36}tte {\k37}o{\k37}mo{\k37}t{\k18}te{\k65}ru
+Comment: 0,0:02:17.19,0:02:19.37,Sumire,,0,0,0,karaoke,{\k15}ha{\k19}ji{\k19}me{\k16}te {\k20}no {\k17}ta{\k19}ka{\k37}ma{\k18}ri {\k38}wo
+Comment: 0,0:02:20.07,0:02:22.17,Sumire,,0,0,0,karaoke,{\k21}ki{\k17}mi {\k19}mo {\k20}ka{\k15}n{\k20}ji{\k20}te{\k15}ru {\k20}no {\k18}ka{\k25}na
+Comment: 0,0:02:22.42,0:02:27.24,Liella!,,0,0,0,karaoke,{\k21}sa{\k22}a{\k35} {\k18}i{\k19}p{\k19}po {\k18}me {\k18}wo {\k48}is{\k43}sho {\k37}ni {\k35}to{\k38}bo{\k18}u {\kf93}yo
+Comment: 0,0:02:29.04,0:02:32.79,Kanon,,0,0,0,karaoke,{\k14}o{\k17}mo{\k25}shi{\k33}ro{\k58}sou {\k37}na {\k36}ko{\k36}to {\k58}at{\k16}ta{\k45}ra
+Comment: 0,0:02:34.86,0:02:39.99,Kanon,,0,0,0,karaoke,{\k37}chou{\k23}se{\k31}n {\k58}shi{\k38}cha{\k37}e{\k37}ba {\k33}iin {\k20}ja{\k54}nai {\k19}ka{\kf126}na
+Comment: 0,0:02:40.73,0:02:45.27,Keke,,0,0,0,karaoke,{\k40}ship{\k18}pa{\k36}i {\k55}wa {\k37}sei{\k36}kou {\k33}no {\k40}jun{\k16}bi {\k56}un{\k38}do{\k49}u
+Comment: 0,0:02:45.47,0:02:53.17,Ren,,0,0,0,karaoke,{\k39}shin{\k38}ji{\k55}yo{\k56}u {\k52}yo {\k56}yu{\k37}me{\k36}mi{\kf124}ru{\k79} {\rLiella!}{\k14}chi{\k24}ka{\k33}ra {\kf127}wo
+Comment: 0,0:02:54.28,0:02:57.59,Liella!,,0,0,0,karaoke,{\k36}ha{\k37}ji{\k55}ma{\k20}ri{\k53}tai {\k20}bo{\k35}ku {\k23}no {\k31}yu{\k21}me
+Comment: 0,0:02:57.94,0:03:05.09,Liella!,,0,0,0,karaoke,{\k54}ki{\k21}mi {\k52}he {\k21}tsu{\k36}ta{\k18}e{\k36}yo{\k24}u{\k33} {\k51}kii{\k21}te {\k54}kii{\k19}te {\k35}ho{\k39}shi{\k34}ku {\k38}na{\k37}t{\k18}ta {\k74}yo
+Comment: 0,0:03:06.00,0:03:08.33,Liella!,,0,0,0,karaoke,{\k33}ho{\k40}shi {\k19}no {\k17}hi{\k21}ka{\k35}ri {\k19}yo{\k18}ri {\k31}mo
+Comment: 0,0:03:08.56,0:03:11.45,Liella!,,0,0,0,karaoke,{\k34}chii{\k39}sa{\k35}na {\k21}ka{\k17}ga{\k20}ya{\k17}ki {\k18}da{\k36}ke{\k52}do
+Comment: 0,0:03:11.85,0:03:17.36,Liella!,,0,0,0,karaoke,{\k35}i{\k39}tsu{\k18}ka {\k15}o{\k22}o{\k37}ki{\k18}ku {\k19}na{\k39}ru{\k33} {\k19}ki {\k34}ga {\k20}shi{\kf203}te
+Comment: 0,0:03:35.27,0:03:38.60,Kanon,,0,0,0,karaoke,{\k35}ha{\k38}ji{\k53}ma{\k20}ri {\k55}wa {\k19}ki{\k37}mi {\k13}no {\k43}so{\k20}ra
+Comment: 0,0:03:38.92,0:03:41.50,Kanon,,0,0,0,karaoke,{\k56}so{\k19}ra {\k53}ni {\k19}e{\k36}ga{\k20}ku {\k35}no {\k20}wa
+Comment: 0,0:03:41.83,0:03:45.97,Kanon,,0,0,0,karaoke,{\k52}don{\k20}na {\k55}don{\k18}na {\k38}yu{\k36}me {\k33}ka {\k34}o{\k41}shi{\k18}e{\k69}te
+Comment: 0,0:03:46.97,0:03:52.36,Liella!,,0,0,0,karaoke,{\k34}ho{\k41}shi {\k19}ni {\k17}ne{\k21}ga{\k34}u {\k18}ma{\k18}e {\k55}ni {\k35}ka{\k39}ta{\k36}ri{\k21}a{\k16}t{\k19}te {\k15}mi{\k20}yo{\k35}u {\k46}yo
+Comment: 0,0:03:52.81,0:03:57.95,Liella!,,0,0,0,karaoke,{\k37}to{\k38}ki{\k37}me{\k17}ki {\k57}wo {\k33}wa{\k39}ka{\k38}chi {\k36}a{\k35}i{\k56}ta{\k18}i {\k73}yo
+Comment: 0,0:03:58.67,0:04:01.98,Liella!,,0,0,0,karaoke,{\k35}ha{\k37}ji{\k53}ma{\k22}re{\k56}ba {\k20}ki{\k34}mi {\k14}no {\k42}so{\k18}ra
+Comment: 0,0:04:02.35,0:04:09.44,Liella!,,0,0,0,karaoke,{\k54}mi{\k19}ra{\k50}i {\k24}he {\k36}no {\k19}mi{\k35}chi {\k22}ga{\k32} {\k55}do{\k19}ko{\k55}ka {\k17}ni {\k37}ka{\k38}ku{\k36}re{\k37}te{\k34}ru {\k20}ka{\k70}mo
+Comment: 0,0:04:10.39,0:04:15.77,Liella!,,0,0,0,karaoke,{\k36}kit{\k38}to {\k19}a{\k17}ru {\k19}yo {\k37}a{\k21}ru{\k13}n{\k56}da {\k33}da{\k40}ka{\k34}ra {\k17}ta{\k23}shi{\k18}ka{\k18}me {\k18}ni {\k34}i{\k47}kou
+Comment: 0,0:04:16.25,0:04:21.32,Liella!,,0,0,0,karaoke,{\k36}te {\k35}wo {\k19}tsu{\k19}na{\k19}i{\k36}de {\k17}o{\k19}ke{\k74}ba... {\k18}ko{\k36}wa{\k20}ku{\kf159}nai!
+Comment: 0,0:04:22.82,0:04:27.46,Liella!,,0,0,0,karaoke,{\k19}ha{\k19}ji{\k19}ma{\k35}ri {\k16}no {\k21}so{\k46}ra{\k30} {\k17}to{\k35}bo{\k19}u {\kf188}yo!
+Dialogue: 0,0:00:00.00,0:00:08.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H277FFF&}Kanon {\c&HFFFFFF&}- {\c&HDEED4F&}Keke {\c&HFFFFFF&}- {\c&H906EFF&}Chisato {\c&HFFFFFF&}- {\c&H66F474&}Sumire {\c&HFFFFFF&}- {\c&HFF7C4B&}Ren
+Dialogue: 0,0:00:00.00,0:00:08.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HD36BBF&}Liella!
+Dialogue: 0,0:00:17.90,0:00:20.94,Ren,,0,0,0,fx,{\k90\fad(300,200)}{\k18}na{\k17}ni{\k21}ka {\k16}me{\k22}za{\k15}me{\k39}sou {\k17}da {\k29}yo
+Dialogue: 0,0:00:20.81,0:00:23.88,Ren,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ma{\k18}da {\k19}na {\k17}mo {\k19}na{\k18}i {\k19}ki{\k20}mo{\k20}chi {\k28}ga
+Dialogue: 0,0:00:23.76,0:00:28.85,Ren,,0,0,0,fx,{\k90\fad(300,200)}{\k19}chi{\k21}ga{\k17}u {\k16}a{\k20}shi{\k55}ta {\k35}wo {\k38}mi{\k36}ta{\k36}gat{\k20}te{\kf86}ru
+Dialogue: 0,0:00:29.44,0:00:32.68,Keke,,0,0,0,fx,{\k90\fad(300,200)}{\k18}u{\k16}go{\k20}ki{\k15}da{\k20}shi{\k18}ta{\k18}ku {\k38}nat{\k19}ta{\k32}ra
+Dialogue: 0,0:00:32.35,0:00:35.54,Keke,,0,0,0,fx,{\k90\fad(300,200)}{\k18}a{\k18}to {\k21}wa {\k19}yu{\k14}u{\k20}ki {\k15}to {\k18}ki{\k20}k{\k20}ka{\k26}ke
+Dialogue: 0,0:00:34.73,0:00:40.92,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ho{\k55}ra {\k19}i{\k18}p{\k21}po {\k16}me {\k19}wo {\k18}i{\k32}s{\k41}sho {\k36}ni {\k37}to{\k35}bo{\k19}u {\kf124}yo
+Dialogue: 0,0:00:41.32,0:00:46.73,Sumire,,0,0,0,fx,{\k90\fad(300,200)}{\k35}yat{\k20}te {\k35}mi{\k56}tai {\k38}ko{\k34}to {\k39}sa{\k51}ga{\k22}shi{\kf101}te
+Dialogue: 0,0:00:47.16,0:00:53.32,Sumire,,0,0,0,fx,{\k90\fad(300,200)}{\k38}bou{\k19}ke{\k32}n {\k59}shi{\k35}ta{\k38}t{\k37}te {\k35}iin {\k20}ja{\k53}nai {\k18}ka{\kf122}na
+Dialogue: 0,0:00:53.02,0:00:58.67,Chisato,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ma{\k19}yo{\k17}t{\k37}te {\k55}ba{\k38}ka{\k32}ri {\k39}ja {\k38}ka{\k18}wa{\k54}re{\k37}na{\k52}i
+Dialogue: 0,0:00:57.77,0:01:06.72,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k35}shin{\k39}ji{\k54}yo{\k55}u {\k50}yo {\k55}ji{\k44}bu{\k36}n {\kf125}no{\k77} {\rLiella!}{\k16}chi{\k19}ka{\k37}ra {\kf143}wo
+Dialogue: 0,0:01:06.54,0:01:11.00,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ha{\k34}ji{\k57}ma{\k21}ri {\k56}wa {\k17}ki{\k35}mi {\k17}no {\k39}so{\k22}ra
+Dialogue: 0,0:01:10.19,0:01:13.90,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k57}so{\k19}ra {\k53}ni {\k20}e{\k37}ga{\k18}ku {\k38}no {\k19}wa
+Dialogue: 0,0:01:13.15,0:01:18.53,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k52}don{\k21}na {\k54}don{\k19}na {\k37}yu{\k35}me {\k37}ka {\k32}o{\k36}shi{\k23}e{\k82}te
+Dialogue: 0,0:01:18.27,0:01:24.80,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ho{\k41}shi {\k19}ni {\k18}ne{\k22}ga{\k33}u {\k20}ma{\k17}e {\k55}ni {\k35}ka{\k37}ta{\k36}ri{\k22}a{\k15}t{\k19}te {\k17}mi{\k19}yo{\k36}u {\k49}yo
+Dialogue: 0,0:01:24.11,0:01:30.49,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k38}to{\k37}ki{\k37}me{\k20}ki {\k52}wo {\k33}wa{\k39}ka{\k35}chi {\k40}a{\k35}i{\k57}ta{\k19}i {\kf86}yo
+Dialogue: 0,0:01:29.97,0:01:34.40,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ha{\k37}ji{\k55}ma{\k19}re{\k52}ba {\k22}ki{\k36}mi {\k15}no {\k41}so{\k20}ra
+Dialogue: 0,0:01:33.65,0:01:41.84,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k52}mi{\k21}ra{\k54}i {\k18}he {\k37}no {\k19}mi{\k35}chi {\k29}ga{\k27} {\k52}do{\k21}ko{\k51}ka {\k17}ni {\k41}ka{\k37}ku{\k35}re{\k38}te{\k35}ru {\k19}ka{\k71}mo
+Dialogue: 0,0:01:41.67,0:01:48.25,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k37}kit{\k35}to {\k21}a{\k17}ru {\k19}yo {\k37}a{\k26}ru{\k12}n{\k52}da {\k38}da{\k37}ka{\k36}ra {\k18}ta{\k19}shi{\k20}ka{\k17}me {\k19}ni {\k34}i{\k54}kou
+Dialogue: 0,0:01:47.54,0:01:53.73,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k37}te {\k34}wo {\k21}tsu{\k18}na{\k17}i{\k37}de {\k18}o{\k19}ke{\k76}ba... {\rKanon}{\k16}ko{\k35}wa{\k20}ku{\kf161}nai!
+Dialogue: 0,0:02:04.73,0:02:07.95,Chisato,,0,0,0,fx,{\k90\fad(300,200)}{\k19}i{\k16}ma {\k20}ji{\k18}bu{\k21}n {\k17}no {\k37}na{\k18}ka {\k46}no
+Dialogue: 0,0:02:07.67,0:02:10.83,Chisato,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ma{\k19}da {\k18}na {\k18}mo {\k19}na{\k17}i {\k20}ki{\k18}mo{\k18}chi {\k41}wo
+Dialogue: 0,0:02:10.60,0:02:15.46,Chisato,,0,0,0,fx,{\k90\fad(300,200)}{\k17}da{\k18}i{\k21}ji {\k15}ni {\k21}shi{\k54}tai {\k36}tte {\k37}o{\k37}mo{\k37}t{\k18}te{\k65}ru
+Dialogue: 0,0:02:16.29,0:02:19.57,Sumire,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ha{\k19}ji{\k19}me{\k16}te {\k20}no {\k17}ta{\k19}ka{\k37}ma{\k18}ri {\k38}wo
+Dialogue: 0,0:02:19.17,0:02:22.37,Sumire,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k17}mi {\k19}mo {\k20}ka{\k15}n{\k20}ji{\k20}te{\k15}ru {\k20}no {\k18}ka{\k25}na
+Dialogue: 0,0:02:21.52,0:02:27.44,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k21}sa{\k22}a{\k35} {\k18}i{\k19}p{\k19}po {\k18}me {\k18}wo {\k48}is{\k43}sho {\k37}ni {\k35}to{\k38}bo{\k18}u {\kf93}yo
+Dialogue: 0,0:02:28.14,0:02:32.99,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k14}o{\k17}mo{\k25}shi{\k33}ro{\k58}sou {\k37}na {\k36}ko{\k36}to {\k58}at{\k16}ta{\k45}ra
+Dialogue: 0,0:02:33.96,0:02:40.19,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k37}chou{\k23}se{\k31}n {\k58}shi{\k38}cha{\k37}e{\k37}ba {\k33}iin {\k20}ja{\k54}nai {\k19}ka{\kf126}na
+Dialogue: 0,0:02:39.83,0:02:45.47,Keke,,0,0,0,fx,{\k90\fad(300,200)}{\k40}ship{\k18}pa{\k36}i {\k55}wa {\k37}sei{\k36}kou {\k33}no {\k40}jun{\k16}bi {\k56}un{\k38}do{\k49}u
+Dialogue: 0,0:02:44.57,0:02:53.37,Ren,,0,0,0,fx,{\k90\fad(300,200)}{\k39}shin{\k38}ji{\k55}yo{\k56}u {\k52}yo {\k56}yu{\k37}me{\k36}mi{\kf124}ru{\k79} {\rLiella!}{\k14}chi{\k24}ka{\k33}ra {\kf127}wo
+Dialogue: 0,0:02:53.38,0:02:57.79,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ha{\k37}ji{\k55}ma{\k20}ri{\k53}tai {\k20}bo{\k35}ku {\k23}no {\k31}yu{\k21}me
+Dialogue: 0,0:02:57.04,0:03:05.29,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k54}ki{\k21}mi {\k52}he {\k21}tsu{\k36}ta{\k18}e{\k36}yo{\k24}u{\k33} {\k51}kii{\k21}te {\k54}kii{\k19}te {\k35}ho{\k39}shi{\k34}ku {\k38}na{\k37}t{\k18}ta {\k74}yo
+Dialogue: 0,0:03:05.10,0:03:08.53,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ho{\k40}shi {\k19}no {\k17}hi{\k21}ka{\k35}ri {\k19}yo{\k18}ri {\k31}mo
+Dialogue: 0,0:03:07.66,0:03:11.65,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k34}chii{\k39}sa{\k35}na {\k21}ka{\k17}ga{\k20}ya{\k17}ki {\k18}da{\k36}ke{\k52}do
+Dialogue: 0,0:03:10.95,0:03:17.56,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k35}i{\k39}tsu{\k18}ka {\k15}o{\k22}o{\k37}ki{\k18}ku {\k19}na{\k39}ru{\k33} {\k19}ki {\k34}ga {\k20}shi{\kf203}te
+Dialogue: 0,0:03:34.37,0:03:38.80,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ha{\k38}ji{\k53}ma{\k20}ri {\k55}wa {\k19}ki{\k37}mi {\k13}no {\k43}so{\k20}ra
+Dialogue: 0,0:03:38.02,0:03:41.70,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k56}so{\k19}ra {\k53}ni {\k19}e{\k36}ga{\k20}ku {\k35}no {\k20}wa
+Dialogue: 0,0:03:40.93,0:03:46.17,Kanon,,0,0,0,fx,{\k90\fad(300,200)}{\k52}don{\k20}na {\k55}don{\k18}na {\k38}yu{\k36}me {\k33}ka {\k34}o{\k41}shi{\k18}e{\k69}te
+Dialogue: 0,0:03:46.07,0:03:52.56,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ho{\k41}shi {\k19}ni {\k17}ne{\k21}ga{\k34}u {\k18}ma{\k18}e {\k55}ni {\k35}ka{\k39}ta{\k36}ri{\k21}a{\k16}t{\k19}te {\k15}mi{\k20}yo{\k35}u {\k46}yo
+Dialogue: 0,0:03:51.91,0:03:58.15,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k37}to{\k38}ki{\k37}me{\k17}ki {\k57}wo {\k33}wa{\k39}ka{\k38}chi {\k36}a{\k35}i{\k56}ta{\k18}i {\k73}yo
+Dialogue: 0,0:03:57.77,0:04:02.18,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ha{\k37}ji{\k53}ma{\k22}re{\k56}ba {\k20}ki{\k34}mi {\k14}no {\k42}so{\k18}ra
+Dialogue: 0,0:04:01.45,0:04:09.64,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k54}mi{\k19}ra{\k50}i {\k24}he {\k36}no {\k19}mi{\k35}chi {\k22}ga{\k32} {\k55}do{\k19}ko{\k55}ka {\k17}ni {\k37}ka{\k38}ku{\k36}re{\k37}te{\k34}ru {\k20}ka{\k70}mo
+Dialogue: 0,0:04:09.49,0:04:15.97,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k36}kit{\k38}to {\k19}a{\k17}ru {\k19}yo {\k37}a{\k21}ru{\k13}n{\k56}da {\k33}da{\k40}ka{\k34}ra {\k17}ta{\k23}shi{\k18}ka{\k18}me {\k18}ni {\k34}i{\k47}kou
+Dialogue: 0,0:04:15.35,0:04:21.52,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k36}te {\k35}wo {\k19}tsu{\k19}na{\k19}i{\k36}de {\k17}o{\k19}ke{\k74}ba... {\k18}ko{\k36}wa{\k20}ku{\kf159}nai!
+Dialogue: 0,0:04:21.92,0:04:27.66,Liella!,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ha{\k19}ji{\k19}ma{\k35}ri {\k16}no {\k21}so{\k46}ra{\k30} {\k17}to{\k35}bo{\k19}u {\kf188}yo!
