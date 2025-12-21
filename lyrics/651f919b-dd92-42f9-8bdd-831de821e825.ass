@@ -1,0 +1,78 @@
+﻿[Script Info]
+Title: FlaME
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: All,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Miki,Arial,24,&H00FFFFFF,&H004BE0B4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Takane,Arial,24,&H00FFFFFF,&H006A12A6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hibiki,Arial,24,&H00FFFFFF,&H00B9AD01,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Choir,Arial,24,&H00FFFFFF,&H001819FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Legend,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Legend,,0,0,50,karaoke,{\k1000} ALL {\2cFFFFFF}| {\rMiki}Miki {\2cFFFFFF}| {\rTakane}Takane {\2cFFFFFF}| {\rHibiki}Hibiki {\2cFFFFFF}| {\rChoir}Choir
+Comment: 0,0:00:01.98,0:00:03.74,Choir,,0,0,0,karaoke,{\k16}"PRO{\k23}JECT {\k23}FAI{\k36}RY {\k16}IN {\k29}YOUR {\k33}HEART"
+Comment: 0,0:00:06.05,0:00:07.56,All,,0,0,0,karaoke,{\k27}ALL {\k24}THAT {\k24}I {\k24}WANT {\k52}IS
+Comment: 0,0:00:08.00,0:00:11.02,Takane,,0,0,0,karaoke,{\k23}dou{\k23}kou {\k15}i{\k12}wa{\k24}nai {\k47}de {\k13}EVE{\k10}RY{\k25}THING {\k24}IS {\k21}MY {\k65}CHOICE
+Comment: 0,0:00:10.83,0:00:11.98,Choir,,0,0,0,karaoke,{\k25}WOW {\k28}OH {\k18}OH {\k44}OH
+Comment: 0,0:00:11.82,0:00:13.08,Hibiki,,0,0,0,karaoke,{\k27}shou{\k24}ko{\k9}ri{\k15}mo{\k24}nai {\k27}ne
+Comment: 0,0:00:13.28,0:00:14.61,Hibiki,,0,0,0,karaoke,{\k11}KNOCK {\k13}YOU {\k25}OUT {\k22}WITH {\k26}MY {\k36}VOICE
+Comment: 0,0:00:14.73,0:00:18.31,Miki,,0,0,0,karaoke,{\k22}do{\k25}ko {\k10}ni {\k14}i{\k48}tat{\k47}te {\k38}chan{\k35}to {\k24}wa{\k36}kat{\k36}ten {\k23}no
+Comment: 0,0:00:18.55,0:00:20.45,Miki,,0,0,0,karaoke,{\k13}ko{\k12}no {\k24}ma{\k25}ma {\k21}GO-{\k26}MA-{\k24}GO-{\k22}MA-{\k23}WAY
+Comment: 0,0:00:20.72,0:00:23.13,Miki,,0,0,0,karaoke,{\k24}I {\k24}BET {\k40}ALL-{\k30}IN {\k27}THE {\k23}RIS{\k24}KY {\k49}GAME
+Comment: 0,0:00:22.85,0:00:24.54,Takane,,0,0,0,karaoke,{\k17}sa{\k11}bi{\k18}tsu{\k17}i{\k12}ta {\k23}RU{\k12}LE {\k12}ko{\k13}wa{\k12}shi{\k22}te
+Comment: 0,0:00:24.80,0:00:26.52,Hibiki,,0,0,0,karaoke,{\k12}ta{\k10}i{\k24}ku{\k8}tsu {\k18}na {\k23}LOO{\k8}P {\k17}wo {\k13}das{\k11}shi{\k28}te
+Comment: 0,0:00:26.72,0:00:28.39,Miki,,0,0,0,karaoke,{\k12}ka{\k10}mi{\k25}tsu{\k13}ku {\k13}TA{\k23}BOO {\k9}wo {\k15}o{\k11}ka{\k13}shi{\k23}te
+Comment: 0,0:00:28.64,0:00:30.77,Miki,,0,0,0,karaoke,{\k12}ya{\k11}ki{\k24}tsu{\k14}ke{\k11}ru {\k23}ROU{\k13}GE {\k11}no {\k26}FEAR{\k17}LESS {\k51}SMILE
+Comment: 0,0:00:30.56,0:00:34.04,Takane,,0,0,0,karaoke,{\k12}i{\k11}te{\k21}tsu{\k16}i{\k37}te {\k10}ki{\k10}zu{\k20}tsu{\k18}i{\k38}tat{\k22}te {\k37}ka{\k37}ma{\k27}wa{\k32}nai
+Comment: 0,0:00:34.40,0:00:38.39,Hibiki,,0,0,0,karaoke,{\k13}da{\k12}re {\k36}ni {\k34}mo {\k25}ja{\k24}ma {\k21}wa {\k25}sa{\k26}se{\k48}nai {\k46}ALL {\kf89}RIGHT?
+Comment: 0,0:00:39.20,0:00:44.22,Miki,,0,0,0,karaoke,{\k25}a{\k21}ta{\k14}e{\k36}ra{\k25}re{\k71}ta {\k24}a{\k34}ka{\k37}shi {\k25}yo{\kf190}ri
+Comment: 0,0:00:43.54,0:00:48.06,Choir,,0,0,0,karaoke,{\k23}da{\k25}re {\k23}yo{\k36}ri {\k35}mot{\k49}to {\k25}ji{\k21}yu{\k23}u {\kf192}ni
+Comment: 0,0:00:46.88,0:00:51.89,Miki,,0,0,0,karaoke,{\k21}ho{\k39}shii {\k35}no {\k24}wa {\k35}ji{\k38}bun-{\k20}ra{\k40}shii {\k35}wa{\k22}ta{\kf192}shi
+Comment: 0,0:00:53.12,0:00:54.93,All,,0,0,0,karaoke,{\k24}ALL {\k23}THAT {\k25}I {\kf109}WANT
+Comment: 0,0:00:56.86,0:00:58.63,All,,0,0,0,karaoke,{\k34}STIRS {\k22}UP {\k25}MY {\kf96}SOUL
+Comment: 0,0:00:59.84,0:01:02.60,All,,0,0,0,karaoke,{\k12}o{\k13}mo{\k23}i {\k12}no {\k12}ma{\k23}ma {\k22}tsu{\k38}ka{\k13}mu {\kf108}no
+Comment: 0,0:01:04.61,0:01:06.35,All,,0,0,0,karaoke,{\k29}sou {\k22}mi{\k24}rai {\kf99}wo
+Comment: 0,0:01:07.04,0:01:09.07,Miki,,0,0,0,karaoke,{\k48}ey! {\k12}wa{\k12}ga{\k12}ma{\k11}ma {\k9}ni {\k16}u{\k10}ta{\k11}u {\k27}you {\k35}ni
+Comment: 0,0:01:09.43,0:01:12.90,Takane,,0,0,0,karaoke,{\k26}DA-{\k23}RAT-{\k22}A-{\k50}TAT {\rAll}{\k25}WO{\k23}W {\k29}WO{\k20}W {\k46}WOW {\k25}EH {\k23}Y-{\k35}YEAH
+Comment: 0,0:01:13.28,0:01:16.43,Hibiki,,0,0,0,karaoke,{\k25}DA-{\k22}RAT-{\k25}A-{\k47}TAT {\k23}LIKE {\k24}A {\k50}FLAME {\k25}IN {\k23}THE {\k51}DARK
+Comment: 0,0:01:16.15,0:01:17.89,Choir,,0,0,0,karaoke,{\k24}ALL {\k24}THAT {\k26}I {\k100}WANT
+Comment: 0,0:01:17.13,0:01:20.62,Miki,,0,0,0,karaoke,{\k22}DA-{\k27}RAT-{\k22}A-{\k47}TAT {\rAll}{\k23}WO{\k26}W {\k28}WO{\k20}W {\k49}WOW {\k25}EH {\k23}Y-{\k37}YEAH
+Comment: 0,0:01:20.97,0:01:24.10,Miki,,0,0,0,karaoke,{\k24}DA-{\k23}RAT-{\k24}A-{\k48}TAT {\k23}LIKE {\k22}A {\k51}FLAME {\k25}IN {\k23}THE {\k50}DARK
+Dialogue: 0,0:00:01.08,0:00:03.94,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k16}"PRO{\k23}JECT {\k23}FAI{\k36}RY {\k16}IN {\k29}YOUR {\k33}HEART"
+Dialogue: 0,0:00:05.15,0:00:07.76,All,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ALL {\k24}THAT {\k24}I {\k24}WANT {\k52}IS
+Dialogue: 0,0:00:07.10,0:00:11.22,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k23}dou{\k23}kou {\k15}i{\k12}wa{\k24}nai {\k47}de {\k13}EVE{\k10}RY{\k25}THING {\k24}IS {\k21}MY {\k65}CHOICE
+Dialogue: 0,0:00:09.93,0:00:12.18,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}WOW {\k28}OH {\k18}OH {\k44}OH
+Dialogue: 0,0:00:10.92,0:00:13.28,Hibiki,,0,0,0,fx,{\k90\fad(300,200)}{\k27}shou{\k24}ko{\k9}ri{\k15}mo{\k24}nai {\k27}ne
+Dialogue: 0,0:00:12.38,0:00:14.81,Hibiki,,0,0,0,fx,{\k90\fad(300,200)}{\k11}KNOCK {\k13}YOU {\k25}OUT {\k22}WITH {\k26}MY {\k36}VOICE
+Dialogue: 0,0:00:13.83,0:00:18.51,Miki,,0,0,0,fx,{\k90\fad(300,200)}{\k22}do{\k25}ko {\k10}ni {\k14}i{\k48}tat{\k47}te {\k38}chan{\k35}to {\k24}wa{\k36}kat{\k36}ten {\k23}no
+Dialogue: 0,0:00:17.65,0:00:20.65,Miki,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ko{\k12}no {\k24}ma{\k25}ma {\k21}GO-{\k26}MA-{\k24}GO-{\k22}MA-{\k23}WAY
+Dialogue: 0,0:00:19.82,0:00:23.33,Miki,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k24}BET {\k40}ALL-{\k30}IN {\k27}THE {\k23}RIS{\k24}KY {\k49}GAME
+Dialogue: 0,0:00:21.95,0:00:24.74,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k17}sa{\k11}bi{\k18}tsu{\k17}i{\k12}ta {\k23}RU{\k12}LE {\k12}ko{\k13}wa{\k12}shi{\k22}te
+Dialogue: 0,0:00:23.90,0:00:26.72,Hibiki,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ta{\k10}i{\k24}ku{\k8}tsu {\k18}na {\k23}LOO{\k8}P {\k17}wo {\k13}das{\k11}shi{\k28}te
+Dialogue: 0,0:00:25.82,0:00:28.59,Miki,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ka{\k10}mi{\k25}tsu{\k13}ku {\k13}TA{\k23}BOO {\k9}wo {\k15}o{\k11}ka{\k13}shi{\k23}te
+Dialogue: 0,0:00:27.74,0:00:30.97,Miki,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ya{\k11}ki{\k24}tsu{\k14}ke{\k11}ru {\k23}ROU{\k13}GE {\k11}no {\k26}FEAR{\k17}LESS {\k51}SMILE
+Dialogue: 0,0:00:29.66,0:00:34.24,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k12}i{\k11}te{\k21}tsu{\k16}i{\k37}te {\k10}ki{\k10}zu{\k20}tsu{\k18}i{\k38}tat{\k22}te {\k37}ka{\k37}ma{\k27}wa{\k32}nai
+Dialogue: 0,0:00:33.50,0:00:38.59,Hibiki,,0,0,0,fx,{\k90\fad(300,200)}{\k13}da{\k12}re {\k36}ni {\k34}mo {\k25}ja{\k24}ma {\k21}wa {\k25}sa{\k26}se{\k48}nai {\k46}ALL {\kf89}RIGHT?
+Dialogue: 0,0:00:38.30,0:00:44.42,Miki,,0,0,0,fx,{\k90\fad(300,200)}{\k25}a{\k21}ta{\k14}e{\k36}ra{\k25}re{\k71}ta {\k24}a{\k34}ka{\k37}shi {\k25}yo{\kf190}ri
+Dialogue: 0,0:00:42.64,0:00:48.26,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}da{\k25}re {\k23}yo{\k36}ri {\k35}mot{\k49}to {\k25}ji{\k21}yu{\k23}u {\kf192}ni
+Dialogue: 0,0:00:45.98,0:00:52.09,Miki,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ho{\k39}shii {\k35}no {\k24}wa {\k35}ji{\k38}bun-{\k20}ra{\k40}shii {\k35}wa{\k22}ta{\kf192}shi
+Dialogue: 0,0:00:52.22,0:00:55.13,All,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ALL {\k23}THAT {\k25}I {\kf109}WANT
+Dialogue: 0,0:00:55.96,0:00:58.83,All,,0,0,0,fx,{\k90\fad(300,200)}{\k34}STIRS {\k22}UP {\k25}MY {\kf96}SOUL
+Dialogue: 0,0:00:58.94,0:01:02.80,All,,0,0,0,fx,{\k90\fad(300,200)}{\k12}o{\k13}mo{\k23}i {\k12}no {\k12}ma{\k23}ma {\k22}tsu{\k38}ka{\k13}mu {\kf108}no
+Dialogue: 0,0:01:03.71,0:01:06.55,All,,0,0,0,fx,{\k90\fad(300,200)}{\k29}sou {\k22}mi{\k24}rai {\kf99}wo
+Dialogue: 0,0:01:06.14,0:01:09.27,Miki,,0,0,0,fx,{\k90\fad(300,200)}{\k48}ey! {\k12}wa{\k12}ga{\k12}ma{\k11}ma {\k9}ni {\k16}u{\k10}ta{\k11}u {\k27}you {\k35}ni
+Dialogue: 0,0:01:08.53,0:01:13.10,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k26}DA-{\k23}RAT-{\k22}A-{\k50}TAT {\rAll}{\k25}WO{\k23}W {\k29}WO{\k20}W {\k46}WOW {\k25}EH {\k23}Y-{\k35}YEAH
+Dialogue: 0,0:01:12.38,0:01:16.63,Hibiki,,0,0,0,fx,{\k90\fad(300,200)}{\k25}DA-{\k22}RAT-{\k25}A-{\k47}TAT {\k23}LIKE {\k24}A {\k50}FLAME {\k25}IN {\k23}THE {\k51}DARK
+Dialogue: 0,0:01:15.25,0:01:18.09,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ALL {\k24}THAT {\k26}I {\k100}WANT
+Dialogue: 0,0:01:16.23,0:01:20.82,Miki,,0,0,0,fx,{\k90\fad(300,200)}{\k22}DA-{\k27}RAT-{\k22}A-{\k47}TAT {\rAll}{\k23}WO{\k26}W {\k28}WO{\k20}W {\k49}WOW {\k25}EH {\k23}Y-{\k37}YEAH
+Dialogue: 0,0:01:20.07,0:01:24.30,Miki,,0,0,0,fx,{\k90\fad(300,200)}{\k24}DA-{\k23}RAT-{\k24}A-{\k48}TAT {\k23}LIKE {\k22}A {\k51}FLAME {\k25}IN {\k23}THE {\k50}DARK
