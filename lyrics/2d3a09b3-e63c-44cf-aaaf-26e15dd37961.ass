@@ -1,0 +1,72 @@
+﻿[Script Info]
+Title: REALIZE!!!
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: All,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Miki,Arial,24,&H00FFFFFF,&H004BE0B4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Takane,Arial,24,&H00FFFFFF,&H006A12A6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hibiki,Arial,24,&H00FFFFFF,&H00B9AD01,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Choir,Arial,24,&H00FFFFFF,&H001819FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Legend,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Legend,,0,0,50,karaoke,{\k1000} ALL {\2cFFFFFF}| {\rMiki}Miki {\2cFFFFFF}| {\rTakane}Takane {\2cFFFFFF}| {\rHibiki}Hibiki {\2cFFFFFF}| {\rChoir}Choir
+Comment: 0,0:00:02.32,0:00:04.23,Miki,,0,0,0,karaoke,{\k14}RE{\k17}A{\k31}LIZE! {\k20}RE:{\k23}AR{\k44}RI{\k42}VAL
+Comment: 0,0:00:04.72,0:00:06.68,Takane,,0,0,0,karaoke,{\k13}RE{\k18}AL {\k29}LIVE! {\k19}RE{\k27}AL {\k44}RI{\k46}VAL
+Comment: 0,0:00:07.13,0:00:08.97,Hibiki,,0,0,0,karaoke,{\k13}RE{\k16}A{\k29}LIZE! {\k17}RE:{\k28}AR{\k47}RI{\k34}VAL
+Comment: 0,0:00:09.18,0:00:11.36,All,,0,0,0,karaoke,{\k30}shik{\k20}ko{\k12}ku {\k33}ga {\rMiki}{\k15}hi{\k18}ka{\k11}ri {\k32}wo {\k17}no{\k30}mu
+Comment: 0,0:00:23.16,0:00:27.70,Takane,,0,0,0,karaoke,{\k29}u{\k16}tsu{\k31}ku{\k60}shii {\k30}HE{\k13}RO{\k31}INE {\k34}ga {\k27}PO{\k15}I{\k30}SON {\k30}wo {\k29}no{\k30}mi{\k14}ho{\k35}su
+Comment: 0,0:00:27.99,0:00:32.20,Hibiki,,0,0,0,karaoke,{\k31}son{\k20}na {\k22}fuu {\k29}ni {\k32}ka{\k29}ga{\k16}ya{\k31}ki {\k30}wo {\k72}a{\k62}o{\k47}ru
+Comment: 0,0:00:32.49,0:00:34.84,Miki,,0,0,0,karaoke,{\k12}ho{\k16}shi {\k29}wa {\k16}ko{\k15}yu{\k32}ku {\k13}a{\k15}tsu{\k29}ku {\k16}a{\k15}ma{\k27}ku
+Comment: 0,0:00:34.84,0:00:37.16,Miki,,0,0,0,karaoke,{\k17}tsu{\k16}ya{\k28}ya{\k15}ka{\k16}sa {\k35}ga {\k25}fu{\k32}ka{\k15}ku {\k16}na{\k17}ru
+Comment: 0,0:00:37.26,0:00:42.00,All,,0,0,0,karaoke,{\k17}hi{\k14}ki{\k31}zu{\k16}ri{\k16}ko{\k26}mu {\k18}so{\k13}no {\k30}in{\k16}ryo{\k16}ku {\k31}ni {\k13}a{\k15}ra{\k29}ga{\k16}e{\k16}na{\k28}i {\k26}de{\k87}shou
+Comment: 0,0:00:42.39,0:00:46.85,Hibiki,,0,0,0,karaoke,{\k74}STAND {\k60}UP {\k32}yuu{\k28}gu{\k59}re {\rMiki}{\k28}me{\k32}za{\k34}me {\k54}na{\k45}sai
+Comment: 0,0:00:47.29,0:00:50.76,Takane,,0,0,0,karaoke,{\k63}SLOW {\k57}DOWN {\k35}yo{\k25}a{\k63}ke {\k35}ne{\k25}mu{\k44}re
+Comment: 0,0:00:51.18,0:00:55.13,All,,0,0,0,karaoke,{\k33}ha{\k31}ta{\k30}n {\k90}ga {\k29}DEAD {\k48}EN{\k43}D {\k30}na{\k61}ra
+Comment: 0,0:00:55.41,0:00:58.45,All,,0,0,0,karaoke,{\k30}ku{\k43}ri{\k28}ka{\k18}e{\k30}su {\k30}ka{\k17}ku{\k32}se{\k26}i {\k50}ni
+Comment: 0,0:00:58.38,0:01:01.02,Takane,,0,0,0,karaoke,{\k29}jun{\k35}ji{\k30}ru {\k27}da{\k19}ke {\k30}no {\k29}ko{\k65}to
+Comment: 0,0:01:00.81,0:01:04.67,All,,0,0,0,karaoke,{\k29}hi{\k34}te{\k28}i {\k90}wa {\k28}de{\k49}ki{\k42}nai {\k31}ha{\k55}zu
+Comment: 0,0:01:04.99,0:01:08.09,All,,0,0,0,karaoke,{\k32}sei{\k45}da{\k46}ku {\k28}wo {\k31}shou{\k14}a{\k31}ku {\k31}su{\k52}ru
+Comment: 0,0:01:08.01,0:01:10.62,All,,0,0,0,karaoke,{\k32}kyuu{\k27}kyo{\k32}ku {\k31}no {\k16}PU{\k28}RE{\k29}NES{\k66}S
+Comment: 0,0:01:11.14,0:01:15.68,Takane,,0,0,0,karaoke,{\k33}hi{\k16}ka{\k30}ri {\k29}to {\k30}ya{\k31}mi {\k15}no {\k29}ROO{\k29}T {\k30}do{\k16}chi{\k28}ra {\k32}wo {\k30}ta{\k27}dot{\k19}te {\k30}mo
+Comment: 0,0:01:15.97,0:01:18.28,Hibiki,,0,0,0,karaoke,{\k29}RE:{\k15}AR{\k32}RI{\k30}VA{\k29}L {\k30}tou{\k15}ta{\k29}tsu {\k22}wa
+Comment: 0,0:01:18.36,0:01:22.26,All,,0,0,0,karaoke,{\k29}AN {\k16}E{\k30}TER{\k32}NA{\k30}L {\k42}RE{\k48}CUR{\k41}REN{\k43}CE {\k46}ka{\k33}mo
+Comment: 0,0:01:22.41,0:01:25.66,Miki,,0,0,0,karaoke,{\k13}o{\k15}na{\k16}ji {\k15}ba{\kf266}sho
+Comment: 0,0:01:23.60,0:01:27.90,All,,0,0,0,karaoke,{\k14}RE{\k17}A{\k89}LIZE! {\k16}RE{\k17}A{\k86}LIZE! {\k16}RE{\k16}A{\k32}LI{\k29}ZE! {\k13}RE:{\k15}AR{\k30}RI{\k40}VAL
+Comment: 0,0:01:28.38,0:01:32.68,All,,0,0,0,karaoke,{\k14}RE{\k17}A{\k89}LIZE! {\k16}RE{\k17}A{\k91}LIZE! {\k13}RE{\k16}A{\k32}LI{\k29}ZE! {\k13}RE:{\k15}AR{\k30}RI{\k38}VAL
+Comment: 0,0:01:33.22,0:01:37.54,All,,0,0,0,karaoke,{\k14}RE{\k17}A{\k89}LIZE! {\k16}RE{\k15}A{\k87}LIZE! {\k17}RE{\k15}A{\k31}LI{\k28}ZE! {\k13}RE:{\k14}AR{\k32}RI{\k44}VAL
+Comment: 0,0:01:38.02,0:01:42.45,All,,0,0,0,karaoke,{\k14}RE{\k16}A{\k90}LIZE! {\k16}RE{\k13}A{\k91}LIZE! {\k13}RE{\k16}A{\k32}LI{\k29}ZE! {\k15}RE:{\k15}AR{\k30}RI{\k53}VAL
+Dialogue: 0,0:00:01.42,0:00:04.43,Miki,,0,0,0,fx,{\k90\fad(300,200)}{\k14}RE{\k17}A{\k31}LIZE! {\k20}RE:{\k23}AR{\k44}RI{\k42}VAL
+Dialogue: 0,0:00:03.82,0:00:06.88,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k13}RE{\k18}AL {\k29}LIVE! {\k19}RE{\k27}AL {\k44}RI{\k46}VAL
+Dialogue: 0,0:00:06.23,0:00:09.17,Hibiki,,0,0,0,fx,{\k90\fad(300,200)}{\k13}RE{\k16}A{\k29}LIZE! {\k17}RE:{\k28}AR{\k47}RI{\k34}VAL
+Dialogue: 0,0:00:08.28,0:00:11.56,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}shik{\k20}ko{\k12}ku {\k33}ga {\rMiki}{\k15}hi{\k18}ka{\k11}ri {\k32}wo {\k17}no{\k30}mu
+Dialogue: 0,0:00:22.26,0:00:27.90,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k29}u{\k16}tsu{\k31}ku{\k60}shii {\k30}HE{\k13}RO{\k31}INE {\k34}ga {\k27}PO{\k15}I{\k30}SON {\k30}wo {\k29}no{\k30}mi{\k14}ho{\k35}su
+Dialogue: 0,0:00:27.09,0:00:32.40,Hibiki,,0,0,0,fx,{\k90\fad(300,200)}{\k31}son{\k20}na {\k22}fuu {\k29}ni {\k32}ka{\k29}ga{\k16}ya{\k31}ki {\k30}wo {\k72}a{\k62}o{\k47}ru
+Dialogue: 0,0:00:31.59,0:00:35.04,Miki,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ho{\k16}shi {\k29}wa {\k16}ko{\k15}yu{\k32}ku {\k13}a{\k15}tsu{\k29}ku {\k16}a{\k15}ma{\k27}ku
+Dialogue: 0,0:00:33.94,0:00:37.36,Miki,,0,0,0,fx,{\k90\fad(300,200)}{\k17}tsu{\k16}ya{\k28}ya{\k15}ka{\k16}sa {\k35}ga {\k25}fu{\k32}ka{\k15}ku {\k16}na{\k17}ru
+Dialogue: 0,0:00:36.36,0:00:42.20,All,,0,0,0,fx,{\k90\fad(300,200)}{\k17}hi{\k14}ki{\k31}zu{\k16}ri{\k16}ko{\k26}mu {\k18}so{\k13}no {\k30}in{\k16}ryo{\k16}ku {\k31}ni {\k13}a{\k15}ra{\k29}ga{\k16}e{\k16}na{\k28}i {\k26}de{\k87}shou
+Dialogue: 0,0:00:41.49,0:00:47.05,Hibiki,,0,0,0,fx,{\k90\fad(300,200)}{\k74}STAND {\k60}UP {\k32}yuu{\k28}gu{\k59}re {\rMiki}{\k28}me{\k32}za{\k34}me {\k54}na{\k45}sai
+Dialogue: 0,0:00:46.39,0:00:50.96,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k63}SLOW {\k57}DOWN {\k35}yo{\k25}a{\k63}ke {\k35}ne{\k25}mu{\k44}re
+Dialogue: 0,0:00:50.28,0:00:55.33,All,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ha{\k31}ta{\k30}n {\k90}ga {\k29}DEAD {\k48}EN{\k43}D {\k30}na{\k61}ra
+Dialogue: 0,0:00:54.51,0:00:58.65,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ku{\k43}ri{\k28}ka{\k18}e{\k30}su {\k30}ka{\k17}ku{\k32}se{\k26}i {\k50}ni
+Dialogue: 0,0:00:57.48,0:01:01.22,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k29}jun{\k35}ji{\k30}ru {\k27}da{\k19}ke {\k30}no {\k29}ko{\k65}to
+Dialogue: 0,0:00:59.91,0:01:04.87,All,,0,0,0,fx,{\k90\fad(300,200)}{\k29}hi{\k34}te{\k28}i {\k90}wa {\k28}de{\k49}ki{\k42}nai {\k31}ha{\k55}zu
+Dialogue: 0,0:01:04.09,0:01:08.29,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}sei{\k45}da{\k46}ku {\k28}wo {\k31}shou{\k14}a{\k31}ku {\k31}su{\k52}ru
+Dialogue: 0,0:01:07.11,0:01:10.82,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}kyuu{\k27}kyo{\k32}ku {\k31}no {\k16}PU{\k28}RE{\k29}NES{\k66}S
+Dialogue: 0,0:01:10.24,0:01:15.88,Takane,,0,0,0,fx,{\k90\fad(300,200)}{\k33}hi{\k16}ka{\k30}ri {\k29}to {\k30}ya{\k31}mi {\k15}no {\k29}ROO{\k29}T {\k30}do{\k16}chi{\k28}ra {\k32}wo {\k30}ta{\k27}dot{\k19}te {\k30}mo
+Dialogue: 0,0:01:15.07,0:01:18.48,Hibiki,,0,0,0,fx,{\k90\fad(300,200)}{\k29}RE:{\k15}AR{\k32}RI{\k30}VA{\k29}L {\k30}tou{\k15}ta{\k29}tsu {\k22}wa
+Dialogue: 0,0:01:17.46,0:01:22.46,All,,0,0,0,fx,{\k90\fad(300,200)}{\k29}AN {\k16}E{\k30}TER{\k32}NA{\k30}L {\k42}RE{\k48}CUR{\k41}REN{\k43}CE {\k46}ka{\k33}mo
+Dialogue: 0,0:01:21.51,0:01:25.86,Miki,,0,0,0,fx,{\k90\fad(300,200)}{\k13}o{\k15}na{\k16}ji {\k15}ba{\kf266}sho
+Dialogue: 0,0:01:22.70,0:01:28.10,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}RE{\k17}A{\k89}LIZE! {\k16}RE{\k17}A{\k86}LIZE! {\k16}RE{\k16}A{\k32}LI{\k29}ZE! {\k13}RE:{\k15}AR{\k30}RI{\k40}VAL
+Dialogue: 0,0:01:27.48,0:01:32.88,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}RE{\k17}A{\k89}LIZE! {\k16}RE{\k17}A{\k91}LIZE! {\k13}RE{\k16}A{\k32}LI{\k29}ZE! {\k13}RE:{\k15}AR{\k30}RI{\k38}VAL
+Dialogue: 0,0:01:32.32,0:01:37.74,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}RE{\k17}A{\k89}LIZE! {\k16}RE{\k15}A{\k87}LIZE! {\k17}RE{\k15}A{\k31}LI{\k28}ZE! {\k13}RE:{\k14}AR{\k32}RI{\k44}VAL
+Dialogue: 0,0:01:37.12,0:01:42.65,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}RE{\k16}A{\k90}LIZE! {\k16}RE{\k13}A{\k91}LIZE! {\k13}RE{\k16}A{\k32}LI{\k29}ZE! {\k15}RE:{\k15}AR{\k30}RI{\k53}VAL
