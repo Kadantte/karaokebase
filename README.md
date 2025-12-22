@@ -1,8 +1,8 @@
 # Kara.moe's Karaoke database
 
-![Badge](https://img.shields.io/github/last-commit/karaokemugen/karaokebase.svg)
-![Badge](https://img.shields.io/github/tag/karaokemugen/karaokebase.svg?sort=date)
-![Badge](https://img.shields.io/github/repo-size/karaokemugen/karaokebase.svg) ![Discord](https://img.shields.io/discord/84245347336982528.svg)
+![Badge](https://img.shields.io/github/last-commit/karamoe/karaokebase.svg)
+![Badge](https://img.shields.io/github/tag/karamoe/karaokebase.svg?sort=date)
+![Badge](https://img.shields.io/github/repo-size/karamoe/karaokebase.svg) ![Discord](https://img.shields.io/discord/839845787046772737.svg)
 
 [![Creative Commons](https://img.shields.io/badge/License-Creative%20Commons%204.0%20BY--SA-brightgreen.svg)](https://creativecommons.org/licenses/by-sa/4.0/) 
 [![Open Database License](https://img.shields.io/badge/License-ODbL-brightgreen)](./LICENSE_ODBL.md)
