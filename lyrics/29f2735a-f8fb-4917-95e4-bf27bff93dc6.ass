@@ -1,0 +1,254 @@
+﻿[Script Info]
+Title: I Am Me
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFB858,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FCFCFC,&H005757FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+Style: Sample KM [Choir2],Arial,24,&H00FCFCFC,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing {\2cHFFFFFF}| {\rSample KM [Choir2]}Backing 2
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start <  800 and -$start or - 800,200)!{!$start <  800 and "\\k" .. ($start/10) or "\\k 80"!\fad(!$start <  800 and $start or 300!,200)}
+Comment: 0,0:00:16.30,0:00:18.32,Sample KM [Up],,0,0,0,karaoke,{\k36}Like {\k41}a {\k23}wolf, {\k27}I'll {\k25}prowl {\k23}and {\k27}prey
+Comment: 0,0:00:18.32,0:00:19.36,Sample KM [Up],,0,0,0,karaoke,{\k10}On {\k14}the {\k26}dar{\k24}kened {\k30}ones
+Comment: 0,0:00:19.36,0:00:20.49,Sample KM [Up],,0,0,0,karaoke,{\k31}Bring {\k40}me {\k42}fate
+Comment: 0,0:00:23.32,0:00:25.32,Sample KM [Up],,0,0,0,karaoke,{\k73}I'll {\k28}crawl {\k10}through {\k15}the {\k26}De{\k22}vil's {\k26}lair
+Comment: 0,0:00:25.32,0:00:27.28,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k26}set {\k24}the {\k28}sights {\k6}on {\k16}a {\k25}broad {\k23}es{\k24}cape
+Comment: 0,0:00:27.31,0:00:29.15,Sample KM [Up],,0,0,0,karaoke,{\k23}It's {\k40}not {\k37}too {\k84}late
+Comment: 0,0:00:31.31,0:00:33.54,Sample KM [Up],,0,0,0,karaoke,{\k50}Well, {\k25}the {\k24}in{\k26}ky {\k48}man's {\k22}co{\k28}ming
+Comment: 0,0:00:33.54,0:00:35.32,Sample KM [Up],,0,0,0,karaoke,{\k25}Passed {\k27}the {\k27}so{\k21}li{\k27}ta{\k25}ry {\k13}sum{\k13}monin'
+Comment: 0,0:00:35.57,0:00:36.70,Sample KM [Up],,0,0,0,karaoke,{\k25}I'm {\k24}the {\k64}bait
+Comment: 0,0:00:39.31,0:00:41.81,Sample KM [Up],,0,0,0,karaoke,{\k26}Well,{\k23} {\k8}it'{\k17}ll {\k27}take {\k24}my {\k25}up {\k25}and {\k12}o{\k14}ver {\k24}and {\k25}out
+Comment: 0,0:00:42.06,0:00:45.55,Sample KM [Up],,0,0,0,karaoke,{\k26}Can{\k24}vas {\k24}large, {\k24}I'll {\k27}crawl {\k25}a{\k28}bout,{\k22} {\k42}don't {\k36}get {\k71}loud
+Comment: 0,0:00:47.78,0:00:51.54,Sample KM [Up],,0,0,0,karaoke,{\k28}They {\k49}say {\k39}I'm {\k14}the {\k47}man {\k38}in {\k13}the {\k10}mid{\k24}dle,{\k29} {\k12}play {\k22}a {\k12}fid{\k39}dle
+Comment: 0,0:00:51.68,0:00:55.13,Sample KM [Up],,0,0,0,karaoke,{\k10}For {\k28}my {\k50}life{\k37}long {\k11}en{\k15}dea{\k23}vour {\k13}to {\k39}find {\k38}my{\k81}self
+Comment: 0,0:00:55.69,0:00:57.93,Sample KM [Up],,0,0,0,karaoke,{\k13}They {\k25}don't {\k37}want {\k17}me {\k32}fin{\k13}ding {\k35}out {\k13}the {\k39}truth
+Comment: 0,0:00:57.93,0:00:59.80,Sample KM [Up],,0,0,0,karaoke,{\k13}The {\k21}in{\k26}con{\k16}cei{\k12}va{\k13}ble {\k24}house {\k12}with {\k16}a {\k34}roof
+Comment: 0,0:01:00.06,0:01:01.57,Sample KM [Up],,0,0,0,karaoke,{\k13}Take {\k12}it {\k12}to {\k15}the {\k23}top, {\k13}the {\k24}lord, {\k15}he {\k24}stomps
+Comment: 0,0:01:01.57,0:01:02.91,Sample KM [Up],,0,0,0,karaoke,{\k11}But {\k12}I {\k26}said: {\k31}Leave {\k18}me {\k36}be
+Comment: 0,0:01:02.91,0:01:05.39,Sample KM [Up],,0,0,0,karaoke,{\k16}For {\k33}I'm {\k16}but {\k31}one {\k17}with{\k24}in {\k24}the {\k26}blac{\k25}kened {\k36}sea
+Comment: 0,0:01:05.28,0:01:06.51,Sample KM [Up],,0,0,0,karaoke,{\k11}You {\k28}don't {\k39}know {\k45}me
+Comment: 0,0:01:07.32,0:01:08.68,Sample KM [Up],,0,0,0,karaoke,{\k11}But {\k27}I {\k36}know {\k62}you
+Comment: 0,0:01:08.75,0:01:10.51,Sample KM [Up],,0,0,0,karaoke,{\k8}I'm {\k22}not {\k26}one, {\k23}nor {\k28}two, {\k23}nor {\k46}three
+Comment: 0,0:01:10.72,0:01:11.68,Sample KM [Up],,0,0,0,karaoke,{\k8}You {\k25}can {\k17}sing {\k22}it {\k24}right
+Comment: 0,0:01:11.68,0:01:13.30,Sample KM [Up],,0,0,0,karaoke,{\k12}But {\k23}there's {\k29}no {\k23}more {\k24}sym{\k25}pho{\k26}ny
+Comment: 0,0:01:13.30,0:01:14.56,Sample KM [Up],,0,0,0,karaoke,{\k10}Well, {\k17}I've {\k23}got {\k25}this {\k27}ar{\k24}my
+Comment: 0,0:01:14.70,0:01:15.57,Sample KM [Up],,0,0,0,karaoke,{\k13}Now {\k23}let's {\k26}par{\k25}ty
+Comment: 0,0:01:15.81,0:01:17.56,Sample KM [Up],,0,0,0,karaoke,{\k24}This {\k26}ink {\k12}is {\k23}all {\k15}the {\k25}same {\k26}bo{\k24}dy
+Comment: 0,0:01:17.81,0:01:19.80,Sample KM [Up],,0,0,0,karaoke,{\k26}All {\k24}bark, {\k25}no {\k26}bite, {\k24}no {\k11}win{\k15}ning {\k24}this {\k24}fight
+Comment: 0,0:01:19.80,0:01:22.57,Sample KM [Up],,0,0,0,karaoke,{\k24}You {\k15}made {\k18}me {\k27}think {\k10}I'm {\k22}a {\k35}clone {\k26}but {\k26}I {\k21}am {\k53}me
+Comment: 0,0:01:24.89,0:01:28.36,Sample KM [Up],,0,0,0,karaoke,{\k18}Your {\k41}mind {\k32}tricks {\k27}won't {\k23}de{\k16}vi{\k21}ate {\k65}me, {\k23}I {\k17}am {\k34}the {\k30}wolf
+Comment: 0,0:01:30.31,0:01:33.31,Sample KM [Up],,0,0,0,karaoke,{\k35}Mark {\k39}your {\k26}spot, {\k25}the {\k26}sign {\k22}a {\k15}De{\k41}vil's {\k9}co{\k9}ming {\k27}in {\k26}hot
+Comment: 0,0:01:33.44,0:01:34.70,Sample KM [Up],,0,0,0,karaoke,{\k27}Don't {\k13}be {\k22}a{\k64}fraid
+Comment: 0,0:01:37.31,0:01:39.06,Sample KM [Up],,0,0,0,karaoke,{\k51}If {\k23}the {\k28}day {\k23}has {\k16}co{\k34}meth
+Comment: 0,0:01:39.06,0:01:40.31,Sample KM [Up],,0,0,0,karaoke,{\k25}When {\k24}those {\k27}claws {\k22}will {\k15}plum{\k12}met
+Comment: 0,0:01:40.55,0:01:43.33,Sample KM [Up],,0,0,0,karaoke,{\k17}Dan{\k17}ger {\k17}of {\k23}fai{\k19}lure {\k46}thwarts {\k16}my {\k33}re{\k90}mains
+Comment: 0,0:01:44.81,0:01:47.56,Sample KM [Up],,0,0,0,karaoke,{\kf100}Yeah, {\k24}well {\k27}may{\k24}be {\k25}I've {\k25}got {\k13}no{\k37}thing
+Comment: 0,0:01:47.56,0:01:48.34,Sample KM [Up],,0,0,0,karaoke,{\k25}Short {\k24}of {\k29}brains
+Comment: 0,0:01:48.34,0:01:50.57,Sample KM [Up],,0,0,0,karaoke,{\k23}And {\k24}no {\k24}more {\k19}pro{\k32}mise, {\k25}I'll {\k25}pre{\k51}vail
+Comment: 0,0:01:53.31,0:01:55.40,Sample KM [Up],,0,0,0,karaoke,{\k25}Hey,{\k19} {\k9}and {\k24}your {\k23}wic{\k24}ked {\k31}trail {\k20}is {\k16}do{\k18}neth
+Comment: 0,0:01:55.56,0:01:57.32,Sample KM [Up],,0,0,0,karaoke,{\k25}Got {\k27}you {\k24}cor{\k26}nered, {\k23}no {\k24}more {\k13}run{\k14}ning
+Comment: 0,0:01:57.52,0:02:00.14,Sample KM [Up],,0,0,0,karaoke,{\k28}Tes{\k24}ti{\k27}fy {\k46}my {\kf137}traits
+Comment: 0,0:02:01.73,0:02:04.82,Sample KM [Up],,0,0,0,karaoke,{\k11}If {\k23}I {\k43}cast {\k11}a{\k34}way {\k16}the {\k19}sha{\k28}dows, {\k26}I'll {\k22}sur{\k76}vive
+Comment: 0,0:02:05.30,0:02:08.94,Sample KM [Up],,0,0,0,karaoke,{\k44}Sure, {\k9}but {\k24}if {\k36}death {\k15}a{\k35}waits, {\k14}it's {\k36}all {\k12}in{\k26}e{\k35}vi{\k34}ta{\k44}ble
+Comment: 0,0:02:08.94,0:02:10.57,Sample KM [Up],,0,0,0,karaoke,{\k5}I'm {\k7}the {\k14}pin{\k11}na{\k15}cle {\k25}of {\k14}the {\k72}night!
+Comment: 0,0:02:10.57,0:02:13.51,Sample KM [Up],,0,0,0,karaoke,{\k25}If {\k25}we {\k49}find {\k51}my {\k22}e{\k26}xit,{\k14} {\k10}I'll {\k23}de{\k28}fend {\k21}it
+Comment: 0,0:02:13.82,0:02:16.04,Sample KM [Up],,0,0,0,karaoke,{\k24}But {\k25}e{\k17}xits {\k22}are {\k13}for {\k35}chumps, {\k25}don't {\k14}ya {\k47}know?
+Comment: 0,0:02:16.06,0:02:17.91,Sample KM [Up],,0,0,0,karaoke,{\k31}Leave {\k16}me {\k35}be {\k17}for {\k33}I'm {\k19}but {\k34}one
+Comment: 0,0:02:17.91,0:02:19.29,Sample KM [Up],,0,0,0,karaoke,{\k12}With{\k28}in {\k23}the {\k25}blac{\k25}kened {\k25}sea
+Comment: 0,0:02:19.29,0:02:20.54,Sample KM [Up],,0,0,0,karaoke,{\k15}You {\k29}don't {\k32}know {\k49}me
+Comment: 0,0:02:21.31,0:02:22.54,Sample KM [Up],,0,0,0,karaoke,{\k15}But {\k25}I {\k34}know {\k49}you
+Comment: 0,0:02:22.72,0:02:24.51,Sample KM [Up],,0,0,0,karaoke,{\k10}I'm {\k23}not {\k27}one, {\k23}nor {\k26}two, {\k23}nor {\k47}three
+Comment: 0,0:02:24.71,0:02:25.70,Sample KM [Up],,0,0,0,karaoke,{\k11}You {\k23}can {\k17}sing {\k23}it {\k25}right
+Comment: 0,0:02:25.70,0:02:27.22,Sample KM [Up],,0,0,0,karaoke,{\k10}But {\k25}there's {\k26}no {\k24}more {\k27}sym{\k23}pho{\k17}ny
+Comment: 0,0:02:27.22,0:02:28.54,Sample KM [Up],,0,0,0,karaoke,{\k11}Well, {\k23}I've {\k26}got {\k24}this {\k25}ar{\k23}my
+Comment: 0,0:02:28.73,0:02:29.56,Sample KM [Up],,0,0,0,karaoke,{\k10}Now {\k23}let's {\k27}par{\k23}ty
+Comment: 0,0:02:29.80,0:02:31.56,Sample KM [Up],,0,0,0,karaoke,{\k26}This {\k24}ink {\k14}is {\k24}all {\k14}the {\k24}same {\k25}bo{\k25}dy
+Comment: 0,0:02:31.82,0:02:33.80,Sample KM [Up],,0,0,0,karaoke,{\k23}All {\k27}clamp, {\k23}no {\k27}plight, {\k22}no {\k12}win{\k16}ning {\k23}this {\k25}fight
+Comment: 0,0:02:33.81,0:02:36.54,Sample KM [Up],,0,0,0,karaoke,{\k25}You {\k16}made {\k22}me {\k23}think {\k15}I'm {\k23}a{\k27}lone {\k25}but {\k26}I {\k23}am {\k48}me
+Comment: 0,0:02:52.31,0:02:53.82,Sample KM [Up],,0,0,0,karaoke,{\k13}Get {\k26}up, {\k11}you {\k12}got{\k13}ta {\k24}run, {\k25}go {\k27}run
+Comment: 0,0:02:53.82,0:02:55.31,Sample KM [Up],,0,0,0,karaoke,{\k23}Now {\k26}run, {\k26}how {\k26}fun {\k22}it's {\k26}done
+Comment: 0,0:02:55.44,0:02:56.31,Sample KM [Up],,0,0,0,karaoke,{\k28}Please {\k21}let {\k14}me {\k24}be
+Comment: 0,0:02:56.31,0:02:57.80,Sample KM [Up],,0,0,0,karaoke,{\k13}Get {\k25}up, {\k14}you {\k12}got{\k11}ta {\k26}run, {\k23}go {\k25}run
+Comment: 0,0:02:56.26,0:02:57.50,Sample KM [Choir],,0,0,0,karaoke,{\k55}Slow, {\k24}but {\k13}stea{\k32}dy
+Comment: 0,0:02:57.82,0:02:59.31,Sample KM [Up],,0,0,0,karaoke,{\k23}Now {\k26}run, {\k23}how {\k23}fun {\k27}it's {\k27}done
+Comment: 0,0:02:57.56,0:02:59.23,Sample KM [Choir],,0,0,0,karaoke,{\k25}You're {\k22}not {\k15}rea{\k23}dy {\k27}for {\k15}the {\k40}truth
+Comment: 0,0:02:59.35,0:03:00.31,Sample KM [Up],,0,0,0,karaoke,{\k33}Please {\k26}let {\k12}me {\k25}be
+Comment: 0,0:03:00.32,0:03:01.82,Sample KM [Up],,0,0,0,karaoke,{\k13}Get {\k25}up, {\k12}you {\k12}got{\k11}ta {\k26}run, {\k25}go {\k26}run
+Comment: 0,0:03:00.22,0:03:01.50,Sample KM [Choir],,0,0,0,karaoke,{\k60}Slow, {\k24}but {\k12}stea{\k32}dy
+Comment: 0,0:03:00.56,0:03:02.31,Sample KM [Choir2],,0,0,0,karaoke,{\k26}Got {\k24}to {\k37}run {\k13}for {\k26}my {\k49}life
+Comment: 0,0:03:01.82,0:03:03.31,Sample KM [Up],,0,0,0,karaoke,{\k23}Now {\k27}run, {\k25}how {\k23}fun {\k27}it's {\k24}done
+Comment: 0,0:03:01.55,0:03:03.26,Sample KM [Choir],,0,0,0,karaoke,{\k27}You're {\k22}not {\k15}rea{\k23}dy {\k27}for {\k15}the {\k42}truth
+Comment: 0,0:03:02.38,0:03:03.44,Sample KM [Choir2],,0,0,0,karaoke,{\k18}I {\k25}got {\k25}to {\k38}try
+Comment: 0,0:03:03.31,0:03:04.31,Sample KM [Up],,0,0,0,karaoke,{\k37}Please {\k23}let {\k15}me {\k25}be
+Comment: 0,0:03:04.31,0:03:05.81,Sample KM [Up],,0,0,0,karaoke,{\k13}Get {\k25}up, {\k12}you {\k12}got{\k11}ta {\k28}run, {\k25}go {\k24}run
+Comment: 0,0:03:04.32,0:03:05.51,Sample KM [Choir],,0,0,0,karaoke,{\k49}Slow, {\k24}but {\k13}stea{\k33}dy
+Comment: 0,0:03:04.55,0:03:06.31,Sample KM [Choir2],,0,0,0,karaoke,{\k26}Got {\k24}to {\k38}run {\k13}for {\k26}my {\k49}life
+Comment: 0,0:03:05.81,0:03:07.44,Sample KM [Up],,0,0,0,karaoke,{\k25}Now {\k25}run, {\k25}how {\k23}fun {\k27}it's {\k38}done
+Comment: 0,0:03:05.56,0:03:07.44,Sample KM [Choir],,0,0,0,karaoke,{\k25}You're {\k24}not {\k15}rea{\k23}dy {\k27}for {\k14}the {\k60}truth
+Comment: 0,0:03:06.39,0:03:07.44,Sample KM [Choir2],,0,0,0,karaoke,{\k18}I {\k24}got {\k25}to {\k38}try
+Comment: 0,0:03:07.44,0:03:08.33,Sample KM [Up],,0,0,0,karaoke,{\k29}Please {\k22}let {\k11}me {\k27}be
+Comment: 0,0:03:12.56,0:03:16.28,Sample KM [Up],,0,0,0,karaoke,{\k26}Got {\k24}to {\k37}run {\k14}for {\k24}my {\k53}life,{\k24} {\k25}got {\k24}to {\k33}run {\k15}for {\k24}my {\k49}life
+Comment: 0,0:03:16.23,0:03:17.55,Sample KM [Up],,0,0,0,karaoke,{\k55}Slow, {\k25}but {\k16}stea{\k36}dy
+Comment: 0,0:03:17.55,0:03:19.16,Sample KM [Up],,0,0,0,karaoke,{\k26}You're {\k26}not {\k12}rea{\k24}dy {\k24}for {\k13}the {\k36}truth
+Comment: 0,0:03:19.32,0:03:20.32,Sample KM [Up],,0,0,0,karaoke,{\k36}Please {\k24}let {\k11}me {\k29}be
+Comment: 0,0:03:20.56,0:03:22.37,Sample KM [Choir2],,0,0,0,karaoke,{\k27}Got {\k25}to {\k33}run {\k14}for {\k25}my {\k57}life
+Comment: 0,0:03:22.06,0:03:23.89,Sample KM [Up],,0,0,0,karaoke,{\k31}Leave {\k19}me {\k34}be {\k16}for {\k36}I'm {\k15}but {\k32}one
+Comment: 0,0:03:23.89,0:03:25.41,Sample KM [Up],,0,0,0,karaoke,{\k15}With{\k22}in {\k28}the {\k25}blac{\k24}kened {\k38}sea
+Comment: 0,0:03:25.29,0:03:26.56,Sample KM [Up],,0,0,0,karaoke,{\k10}You {\k30}don't {\k36}know {\k51}me
+Comment: 0,0:03:26.31,0:03:27.30,Sample KM [Choir],,0,0,0,karaoke,{\k43}I {\k31}know {\k25}you
+Comment: 0,0:03:27.31,0:03:28.55,Sample KM [Up],,0,0,0,karaoke,{\k13}But {\k25}I {\k37}know {\k49}you
+Comment: 0,0:03:28.32,0:03:28.81,Sample KM [Choir],,0,0,0,karaoke,{\k24}Who, {\k25}me?
+Comment: 0,0:03:28.55,0:03:30.29,Sample KM [Up],,0,0,0,karaoke,{\k26}I'm {\k23}not {\k28}one, {\k22}nor {\k28}two, {\k23}nor {\k24}three
+Comment: 0,0:03:30.29,0:03:30.82,Sample KM [Choir],,0,0,0,karaoke,{\k27}There's {\k26}more?
+Comment: 0,0:03:30.70,0:03:31.69,Sample KM [Up],,0,0,0,karaoke,{\k13}You {\k19}can {\k21}sing {\k20}it {\k26}right
+Comment: 0,0:03:31.69,0:03:33.31,Sample KM [Up],,0,0,0,karaoke,{\k12}But {\k23}there's {\k28}no {\k24}more {\k23}sym{\k24}pho{\k28}ny
+Comment: 0,0:03:33.31,0:03:34.56,Sample KM [Up],,0,0,0,karaoke,{\k9}Well, {\k15}I've {\k25}got {\k26}this {\k25}ar{\k25}my
+Comment: 0,0:03:34.68,0:03:35.57,Sample KM [Up],,0,0,0,karaoke,{\k14}Now {\k24}let's {\k26}par{\k25}ty
+Comment: 0,0:03:35.81,0:03:37.56,Sample KM [Up],,0,0,0,karaoke,{\k25}This {\k24}ink {\k15}is {\k21}all {\k14}the {\k26}same {\k25}bo{\k25}dy
+Comment: 0,0:03:37.73,0:03:39.80,Sample KM [Up],,0,0,0,karaoke,{\k11}It's {\k21}an {\k27}end{\k25}less {\k26}tale, {\k14}on{\k10}ly {\k24}I {\k26}pre{\k23}vail
+Comment: 0,0:03:39.80,0:03:44.04,Sample KM [Up],,0,0,0,karaoke,{\k26}You {\k14}made {\k22}me {\k25}think {\k15}I'm {\k24}a{\k26}lone {\k25}but {\k24}I {\k25}am {\kf198}me
+Comment: 0,0:03:42.31,0:03:43.85,Sample KM [Choir],,0,0,0,karaoke,{\k11}Get {\k26}up, {\k18}you {\k9}got{\k12}ta {\k26}run, {\k23}go {\k29}run
+Comment: 0,0:03:43.85,0:03:45.30,Sample KM [Choir],,0,0,0,karaoke,{\k21}Now {\k27}run, {\k23}how {\k26}fun {\k24}it's {\k24}done
+Comment: 0,0:03:45.44,0:03:46.33,Sample KM [Up],,0,0,0,karaoke,{\k29}Please {\k21}let {\k11}me {\k28}be
+Comment: 0,0:03:46.33,0:03:47.83,Sample KM [Up],,0,0,0,karaoke,{\k10}Get {\k23}up, {\k16}you {\k13}got{\k11}ta {\k26}run, {\k23}go {\k28}run
+Comment: 0,0:03:46.27,0:03:47.50,Sample KM [Choir],,0,0,0,karaoke,{\k54}Slow, {\k23}but {\k15}stea{\k31}dy
+Comment: 0,0:03:47.83,0:03:49.30,Sample KM [Up],,0,0,0,karaoke,{\k23}Now {\k27}run, {\k23}how {\k22}fun {\k28}it's {\k24}done
+Comment: 0,0:03:47.56,0:03:49.30,Sample KM [Choir],,0,0,0,karaoke,{\k27}You're {\k23}not {\k12}rea{\k28}dy {\k22}for {\k14}the {\k48}truth
+Comment: 0,0:03:49.30,0:03:50.31,Sample KM [Up],,0,0,0,karaoke,{\k40}Please {\k23}let {\k13}me {\k25}be
+Comment: 0,0:03:50.31,0:03:51.78,Sample KM [Up],,0,0,0,karaoke,{\k14}Get {\k23}up, {\k14}you {\k11}got{\k14}ta {\k25}run, {\k23}go {\k23}run
+Comment: 0,0:03:50.56,0:03:52.31,Sample KM [Choir],,0,0,0,karaoke,{\k25}Got {\k24}to {\k38}run {\k13}for {\k25}my {\k50}life
+Comment: 0,0:03:51.78,0:03:53.32,Sample KM [Up],,0,0,0,karaoke,{\k28}Now {\k27}run, {\k22}how {\k23}fun {\k27}it's {\k27}done
+Comment: 0,0:03:52.56,0:03:53.41,Sample KM [Choir],,0,0,0,karaoke,{\k25}Got {\k25}to {\k35}try
+Comment: 0,0:03:53.44,0:03:54.31,Sample KM [Up],,0,0,0,karaoke,{\k29}Please {\k21}let {\k13}me {\k24}be
+Comment: 0,0:03:54.31,0:03:55.82,Sample KM [Up],,0,0,0,karaoke,{\k11}Get {\k27}up, {\k12}you {\k12}got{\k14}ta {\k25}run, {\k24}go {\k26}run
+Comment: 0,0:03:54.56,0:03:56.31,Sample KM [Choir],,0,0,0,karaoke,{\k26}Got {\k24}to {\k38}run {\k13}for {\k25}my {\k49}life
+Comment: 0,0:03:55.82,0:03:57.25,Sample KM [Up],,0,0,0,karaoke,{\k24}Now {\k25}run, {\k22}how {\k27}fun {\k25}it's {\k20}done
+Comment: 0,0:03:56.55,0:03:57.42,Sample KM [Choir],,0,0,0,karaoke,{\k25}Got {\k26}to {\k36}try
+Comment: 0,0:03:57.45,0:03:58.48,Sample KM [Up],,0,0,0,karaoke,{\k27}Please {\k24}let {\k11}me {\k41}be
+Dialogue: 0,0:00:15.50,0:00:18.52,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k36}Like {\k41}a {\k23}wolf, {\k27}I'll {\k25}prowl {\k23}and {\k27}prey
+Dialogue: 0,0:00:17.52,0:00:19.56,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k10}On {\k14}the {\k26}dar{\k24}kened {\k30}ones
+Dialogue: 0,0:00:18.56,0:00:20.69,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k31}Bring {\k40}me {\k42}fate
+Dialogue: 0,0:00:22.52,0:00:25.52,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k73}I'll {\k28}crawl {\k10}through {\k15}the {\k26}De{\k22}vil's {\k26}lair
+Dialogue: 0,0:00:24.52,0:00:27.48,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k24}I {\k26}set {\k24}the {\k28}sights {\k6}on {\k16}a {\k25}broad {\k23}es{\k24}cape
+Dialogue: 0,0:00:26.51,0:00:29.35,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k23}It's {\k40}not {\k37}too {\k84}late
+Dialogue: 0,0:00:30.51,0:00:33.74,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k50}Well, {\k25}the {\k24}in{\k26}ky {\k48}man's {\k22}co{\k28}ming
+Dialogue: 0,0:00:32.74,0:00:35.52,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k25}Passed {\k27}the {\k27}so{\k21}li{\k27}ta{\k25}ry {\k13}sum{\k13}monin'
+Dialogue: 0,0:00:34.77,0:00:36.90,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k25}I'm {\k24}the {\k64}bait
+Dialogue: 0,0:00:38.51,0:00:42.01,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k26}Well,{\k23} {\k8}it'{\k17}ll {\k27}take {\k24}my {\k25}up {\k25}and {\k12}o{\k14}ver {\k24}and {\k25}out
+Dialogue: 0,0:00:41.26,0:00:45.75,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k26}Can{\k24}vas {\k24}large, {\k24}I'll {\k27}crawl {\k25}a{\k28}bout,{\k22} {\k42}don't {\k36}get {\k71}loud
+Dialogue: 0,0:00:46.98,0:00:51.74,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k28}They {\k49}say {\k39}I'm {\k14}the {\k47}man {\k38}in {\k13}the {\k10}mid{\k24}dle,{\k29} {\k12}play {\k22}a {\k12}fid{\k39}dle
+Dialogue: 0,0:00:50.88,0:00:55.33,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k10}For {\k28}my {\k50}life{\k37}long {\k11}en{\k15}dea{\k23}vour {\k13}to {\k39}find {\k38}my{\k81}self
+Dialogue: 0,0:00:54.89,0:00:58.13,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k13}They {\k25}don't {\k37}want {\k17}me {\k32}fin{\k13}ding {\k35}out {\k13}the {\k39}truth
+Dialogue: 0,0:00:57.13,0:01:00.00,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k13}The {\k21}in{\k26}con{\k16}cei{\k12}va{\k13}ble {\k24}house {\k12}with {\k16}a {\k34}roof
+Dialogue: 0,0:00:59.26,0:01:01.77,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k13}Take {\k12}it {\k12}to {\k15}the {\k23}top, {\k13}the {\k24}lord, {\k15}he {\k24}stomps
+Dialogue: 0,0:01:00.77,0:01:03.11,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k11}But {\k12}I {\k26}said: {\k31}Leave {\k18}me {\k36}be
+Dialogue: 0,0:01:02.11,0:01:05.59,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k16}For {\k33}I'm {\k16}but {\k31}one {\k17}with{\k24}in {\k24}the {\k26}blac{\k25}kened {\k36}sea
+Dialogue: 0,0:01:04.48,0:01:06.71,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k11}You {\k28}don't {\k39}know {\k45}me
+Dialogue: 0,0:01:06.52,0:01:08.88,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k11}But {\k27}I {\k36}know {\k62}you
+Dialogue: 0,0:01:07.95,0:01:10.71,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k8}I'm {\k22}not {\k26}one, {\k23}nor {\k28}two, {\k23}nor {\k46}three
+Dialogue: 0,0:01:09.92,0:01:11.88,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k8}You {\k25}can {\k17}sing {\k22}it {\k24}right
+Dialogue: 0,0:01:10.88,0:01:13.50,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k12}But {\k23}there's {\k29}no {\k23}more {\k24}sym{\k25}pho{\k26}ny
+Dialogue: 0,0:01:12.50,0:01:14.76,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k10}Well, {\k17}I've {\k23}got {\k25}this {\k27}ar{\k24}my
+Dialogue: 0,0:01:13.90,0:01:15.77,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k13}Now {\k23}let's {\k26}par{\k25}ty
+Dialogue: 0,0:01:15.01,0:01:17.76,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k24}This {\k26}ink {\k12}is {\k23}all {\k15}the {\k25}same {\k26}bo{\k24}dy
+Dialogue: 0,0:01:17.01,0:01:20.00,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k26}All {\k24}bark, {\k25}no {\k26}bite, {\k24}no {\k11}win{\k15}ning {\k24}this {\k24}fight
+Dialogue: 0,0:01:19.00,0:01:22.77,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k24}You {\k15}made {\k18}me {\k27}think {\k10}I'm {\k22}a {\k35}clone {\k26}but {\k26}I {\k21}am {\k53}me
+Dialogue: 0,0:01:24.09,0:01:28.56,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k18}Your {\k41}mind {\k32}tricks {\k27}won't {\k23}de{\k16}vi{\k21}ate {\k65}me, {\k23}I {\k17}am {\k34}the {\k30}wolf
+Dialogue: 0,0:01:29.51,0:01:33.51,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k35}Mark {\k39}your {\k26}spot, {\k25}the {\k26}sign {\k22}a {\k15}De{\k41}vil's {\k9}co{\k9}ming {\k27}in {\k26}hot
+Dialogue: 0,0:01:32.64,0:01:34.90,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k27}Don't {\k13}be {\k22}a{\k64}fraid
+Dialogue: 0,0:01:36.51,0:01:39.26,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k51}If {\k23}the {\k28}day {\k23}has {\k16}co{\k34}meth
+Dialogue: 0,0:01:38.26,0:01:40.51,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k25}When {\k24}those {\k27}claws {\k22}will {\k15}plum{\k12}met
+Dialogue: 0,0:01:39.75,0:01:43.53,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k17}Dan{\k17}ger {\k17}of {\k23}fai{\k19}lure {\k46}thwarts {\k16}my {\k33}re{\k90}mains
+Dialogue: 0,0:01:44.01,0:01:47.76,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\kf100}Yeah, {\k24}well {\k27}may{\k24}be {\k25}I've {\k25}got {\k13}no{\k37}thing
+Dialogue: 0,0:01:46.76,0:01:48.54,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k25}Short {\k24}of {\k29}brains
+Dialogue: 0,0:01:47.54,0:01:50.77,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k23}And {\k24}no {\k24}more {\k19}pro{\k32}mise, {\k25}I'll {\k25}pre{\k51}vail
+Dialogue: 0,0:01:52.51,0:01:55.60,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k25}Hey,{\k19} {\k9}and {\k24}your {\k23}wic{\k24}ked {\k31}trail {\k20}is {\k16}do{\k18}neth
+Dialogue: 0,0:01:54.76,0:01:57.52,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k25}Got {\k27}you {\k24}cor{\k26}nered, {\k23}no {\k24}more {\k13}run{\k14}ning
+Dialogue: 0,0:01:56.72,0:02:00.34,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k28}Tes{\k24}ti{\k27}fy {\k46}my {\kf137}traits
+Dialogue: 0,0:02:00.93,0:02:05.02,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k11}If {\k23}I {\k43}cast {\k11}a{\k34}way {\k16}the {\k19}sha{\k28}dows, {\k26}I'll {\k22}sur{\k76}vive
+Dialogue: 0,0:02:04.50,0:02:09.14,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k44}Sure, {\k9}but {\k24}if {\k36}death {\k15}a{\k35}waits, {\k14}it's {\k36}all {\k12}in{\k26}e{\k35}vi{\k34}ta{\k44}ble
+Dialogue: 0,0:02:08.14,0:02:10.77,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k5}I'm {\k7}the {\k14}pin{\k11}na{\k15}cle {\k25}of {\k14}the {\k72}night!
+Dialogue: 0,0:02:09.77,0:02:13.71,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k25}If {\k25}we {\k49}find {\k51}my {\k22}e{\k26}xit,{\k14} {\k10}I'll {\k23}de{\k28}fend {\k21}it
+Dialogue: 0,0:02:13.02,0:02:16.24,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k24}But {\k25}e{\k17}xits {\k22}are {\k13}for {\k35}chumps, {\k25}don't {\k14}ya {\k47}know?
+Dialogue: 0,0:02:15.26,0:02:18.11,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k31}Leave {\k16}me {\k35}be {\k17}for {\k33}I'm {\k19}but {\k34}one
+Dialogue: 0,0:02:17.11,0:02:19.49,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k12}With{\k28}in {\k23}the {\k25}blac{\k25}kened {\k25}sea
+Dialogue: 0,0:02:18.49,0:02:20.74,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k15}You {\k29}don't {\k32}know {\k49}me
+Dialogue: 0,0:02:20.51,0:02:22.74,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k15}But {\k25}I {\k34}know {\k49}you
+Dialogue: 0,0:02:21.92,0:02:24.71,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k10}I'm {\k23}not {\k27}one, {\k23}nor {\k26}two, {\k23}nor {\k47}three
+Dialogue: 0,0:02:23.91,0:02:25.90,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k11}You {\k23}can {\k17}sing {\k23}it {\k25}right
+Dialogue: 0,0:02:24.90,0:02:27.42,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k10}But {\k25}there's {\k26}no {\k24}more {\k27}sym{\k23}pho{\k17}ny
+Dialogue: 0,0:02:26.42,0:02:28.74,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k11}Well, {\k23}I've {\k26}got {\k24}this {\k25}ar{\k23}my
+Dialogue: 0,0:02:27.93,0:02:29.76,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k10}Now {\k23}let's {\k27}par{\k23}ty
+Dialogue: 0,0:02:29.00,0:02:31.76,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k26}This {\k24}ink {\k14}is {\k24}all {\k14}the {\k24}same {\k25}bo{\k25}dy
+Dialogue: 0,0:02:31.02,0:02:34.00,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k23}All {\k27}clamp, {\k23}no {\k27}plight, {\k22}no {\k12}win{\k16}ning {\k23}this {\k25}fight
+Dialogue: 0,0:02:33.01,0:02:36.74,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k25}You {\k16}made {\k22}me {\k23}think {\k15}I'm {\k23}a{\k27}lone {\k25}but {\k26}I {\k23}am {\k48}me
+Dialogue: 0,0:02:51.51,0:02:54.02,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k13}Get {\k26}up, {\k11}you {\k12}got{\k13}ta {\k24}run, {\k25}go {\k27}run
+Dialogue: 0,0:02:53.02,0:02:55.51,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k23}Now {\k26}run, {\k26}how {\k26}fun {\k22}it's {\k26}done
+Dialogue: 0,0:02:54.64,0:02:56.51,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k28}Please {\k21}let {\k14}me {\k24}be
+Dialogue: 0,0:02:55.51,0:02:58.00,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k13}Get {\k25}up, {\k14}you {\k12}got{\k11}ta {\k26}run, {\k23}go {\k25}run
+Dialogue: 0,0:02:55.46,0:02:57.70,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k55}Slow, {\k24}but {\k13}stea{\k32}dy
+Dialogue: 0,0:02:57.02,0:02:59.51,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k23}Now {\k26}run, {\k23}how {\k23}fun {\k27}it's {\k27}done
+Dialogue: 0,0:02:56.76,0:02:59.43,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k25}You're {\k22}not {\k15}rea{\k23}dy {\k27}for {\k15}the {\k40}truth
+Dialogue: 0,0:02:58.55,0:03:00.51,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k33}Please {\k26}let {\k12}me {\k25}be
+Dialogue: 0,0:02:59.52,0:03:02.02,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k13}Get {\k25}up, {\k12}you {\k12}got{\k11}ta {\k26}run, {\k25}go {\k26}run
+Dialogue: 0,0:02:59.42,0:03:01.70,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k60}Slow, {\k24}but {\k12}stea{\k32}dy
+Dialogue: 0,0:02:59.76,0:03:02.51,Sample KM [Choir2],,0,0,0,fx,{\k 80\fad(300,200)}{\k26}Got {\k24}to {\k37}run {\k13}for {\k26}my {\k49}life
+Dialogue: 0,0:03:01.02,0:03:03.51,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k23}Now {\k27}run, {\k25}how {\k23}fun {\k27}it's {\k24}done
+Dialogue: 0,0:03:00.75,0:03:03.46,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k27}You're {\k22}not {\k15}rea{\k23}dy {\k27}for {\k15}the {\k42}truth
+Dialogue: 0,0:03:01.58,0:03:03.64,Sample KM [Choir2],,0,0,0,fx,{\k 80\fad(300,200)}{\k18}I {\k25}got {\k25}to {\k38}try
+Dialogue: 0,0:03:02.51,0:03:04.51,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k37}Please {\k23}let {\k15}me {\k25}be
+Dialogue: 0,0:03:03.51,0:03:06.01,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k13}Get {\k25}up, {\k12}you {\k12}got{\k11}ta {\k28}run, {\k25}go {\k24}run
+Dialogue: 0,0:03:03.52,0:03:05.71,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k49}Slow, {\k24}but {\k13}stea{\k33}dy
+Dialogue: 0,0:03:03.75,0:03:06.51,Sample KM [Choir2],,0,0,0,fx,{\k 80\fad(300,200)}{\k26}Got {\k24}to {\k38}run {\k13}for {\k26}my {\k49}life
+Dialogue: 0,0:03:05.01,0:03:07.64,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k25}Now {\k25}run, {\k25}how {\k23}fun {\k27}it's {\k38}done
+Dialogue: 0,0:03:04.76,0:03:07.64,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k25}You're {\k24}not {\k15}rea{\k23}dy {\k27}for {\k14}the {\k60}truth
+Dialogue: 0,0:03:05.59,0:03:07.64,Sample KM [Choir2],,0,0,0,fx,{\k 80\fad(300,200)}{\k18}I {\k24}got {\k25}to {\k38}try
+Dialogue: 0,0:03:06.64,0:03:08.53,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k29}Please {\k22}let {\k11}me {\k27}be
+Dialogue: 0,0:03:11.76,0:03:16.48,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k26}Got {\k24}to {\k37}run {\k14}for {\k24}my {\k53}life,{\k24} {\k25}got {\k24}to {\k33}run {\k15}for {\k24}my {\k49}life
+Dialogue: 0,0:03:15.43,0:03:17.75,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k55}Slow, {\k25}but {\k16}stea{\k36}dy
+Dialogue: 0,0:03:16.75,0:03:19.36,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k26}You're {\k26}not {\k12}rea{\k24}dy {\k24}for {\k13}the {\k36}truth
+Dialogue: 0,0:03:18.52,0:03:20.52,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k36}Please {\k24}let {\k11}me {\k29}be
+Dialogue: 0,0:03:19.76,0:03:22.57,Sample KM [Choir2],,0,0,0,fx,{\k 80\fad(300,200)}{\k27}Got {\k25}to {\k33}run {\k14}for {\k25}my {\k57}life
+Dialogue: 0,0:03:21.26,0:03:24.09,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k31}Leave {\k19}me {\k34}be {\k16}for {\k36}I'm {\k15}but {\k32}one
+Dialogue: 0,0:03:23.09,0:03:25.61,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k15}With{\k22}in {\k28}the {\k25}blac{\k24}kened {\k38}sea
+Dialogue: 0,0:03:24.49,0:03:26.76,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k10}You {\k30}don't {\k36}know {\k51}me
+Dialogue: 0,0:03:25.51,0:03:27.50,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k43}I {\k31}know {\k25}you
+Dialogue: 0,0:03:26.51,0:03:28.75,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k13}But {\k25}I {\k37}know {\k49}you
+Dialogue: 0,0:03:27.52,0:03:29.01,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k24}Who, {\k25}me?
+Dialogue: 0,0:03:27.75,0:03:30.49,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k26}I'm {\k23}not {\k28}one, {\k22}nor {\k28}two, {\k23}nor {\k24}three
+Dialogue: 0,0:03:29.49,0:03:31.02,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k27}There's {\k26}more?
+Dialogue: 0,0:03:29.90,0:03:31.89,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k13}You {\k19}can {\k21}sing {\k20}it {\k26}right
+Dialogue: 0,0:03:30.89,0:03:33.51,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k12}But {\k23}there's {\k28}no {\k24}more {\k23}sym{\k24}pho{\k28}ny
+Dialogue: 0,0:03:32.51,0:03:34.76,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k9}Well, {\k15}I've {\k25}got {\k26}this {\k25}ar{\k25}my
+Dialogue: 0,0:03:33.88,0:03:35.77,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k14}Now {\k24}let's {\k26}par{\k25}ty
+Dialogue: 0,0:03:35.01,0:03:37.76,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k25}This {\k24}ink {\k15}is {\k21}all {\k14}the {\k26}same {\k25}bo{\k25}dy
+Dialogue: 0,0:03:36.93,0:03:40.00,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k11}It's {\k21}an {\k27}end{\k25}less {\k26}tale, {\k14}on{\k10}ly {\k24}I {\k26}pre{\k23}vail
+Dialogue: 0,0:03:39.00,0:03:44.24,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k26}You {\k14}made {\k22}me {\k25}think {\k15}I'm {\k24}a{\k26}lone {\k25}but {\k24}I {\k25}am {\kf198}me
+Dialogue: 0,0:03:41.51,0:03:44.05,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k11}Get {\k26}up, {\k18}you {\k9}got{\k12}ta {\k26}run, {\k23}go {\k29}run
+Dialogue: 0,0:03:43.05,0:03:45.50,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k21}Now {\k27}run, {\k23}how {\k26}fun {\k24}it's {\k24}done
+Dialogue: 0,0:03:44.64,0:03:46.53,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k29}Please {\k21}let {\k11}me {\k28}be
+Dialogue: 0,0:03:45.53,0:03:48.03,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k10}Get {\k23}up, {\k16}you {\k13}got{\k11}ta {\k26}run, {\k23}go {\k28}run
+Dialogue: 0,0:03:45.47,0:03:47.70,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k54}Slow, {\k23}but {\k15}stea{\k31}dy
+Dialogue: 0,0:03:47.03,0:03:49.50,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k23}Now {\k27}run, {\k23}how {\k22}fun {\k28}it's {\k24}done
+Dialogue: 0,0:03:46.76,0:03:49.50,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k27}You're {\k23}not {\k12}rea{\k28}dy {\k22}for {\k14}the {\k48}truth
+Dialogue: 0,0:03:48.50,0:03:50.51,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k40}Please {\k23}let {\k13}me {\k25}be
+Dialogue: 0,0:03:49.51,0:03:51.98,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k14}Get {\k23}up, {\k14}you {\k11}got{\k14}ta {\k25}run, {\k23}go {\k23}run
+Dialogue: 0,0:03:49.76,0:03:52.51,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k25}Got {\k24}to {\k38}run {\k13}for {\k25}my {\k50}life
+Dialogue: 0,0:03:50.98,0:03:53.52,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k28}Now {\k27}run, {\k22}how {\k23}fun {\k27}it's {\k27}done
+Dialogue: 0,0:03:51.76,0:03:53.61,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k25}Got {\k25}to {\k35}try
+Dialogue: 0,0:03:52.64,0:03:54.51,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k29}Please {\k21}let {\k13}me {\k24}be
+Dialogue: 0,0:03:53.51,0:03:56.02,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k11}Get {\k27}up, {\k12}you {\k12}got{\k14}ta {\k25}run, {\k24}go {\k26}run
+Dialogue: 0,0:03:53.76,0:03:56.51,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k26}Got {\k24}to {\k38}run {\k13}for {\k25}my {\k49}life
+Dialogue: 0,0:03:55.02,0:03:57.45,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k24}Now {\k25}run, {\k22}how {\k27}fun {\k25}it's {\k20}done
+Dialogue: 0,0:03:55.75,0:03:57.62,Sample KM [Choir],,0,0,0,fx,{\k 80\fad(300,200)}{\k25}Got {\k26}to {\k36}try
+Dialogue: 0,0:03:56.65,0:03:58.68,Sample KM [Up],,0,0,0,fx,{\k 80\fad(300,200)}{\k27}Please {\k24}let {\k11}me {\k41}be
