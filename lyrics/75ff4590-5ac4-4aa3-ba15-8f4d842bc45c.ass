@@ -1,0 +1,101 @@
+﻿[Script Info]
+Title: Ties That Bind
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:19.97,0:00:24.29,Sample KM [Up],,0,0,0,karaoke,{\k26}I {\k40}tried {\k39}so {\k42}hard{\k30} {\k25}to {\k51}be {\k46}your {\k52}sa{\k81}vior
+Comment: 0,0:00:27.95,0:00:31.67,Sample KM [Up],,0,0,0,karaoke,{\k25}Un{\k26}ra{\k45}ve{\k51}ling {\k51}the {\k49}hands {\k46}of {\k79}time
+Comment: 0,0:00:34.39,0:00:37.78,Sample KM [Up],,0,0,0,karaoke,{\k26}If {\k24}we {\k48}loo{\k52}sen {\k46}eve{\k52}ry {\k46}an{\k45}chor
+Comment: 0,0:00:38.35,0:00:41.66,Sample KM [Up],,0,0,0,karaoke,{\k26}Dis{\k25}con{\k48}nect {\k47}the {\k52}ties {\k51}that {\k82}bind
+Comment: 0,0:00:42.33,0:00:45.80,Sample KM [Up],,0,0,0,karaoke,{\k24}To {\k24}be {\k51}part {\k48}of {\k48}some{\k52}thing {\k51}grea{\k49}ter
+Comment: 0,0:00:46.30,0:00:49.55,Sample KM [Up],,0,0,0,karaoke,{\k20}We {\k30}can {\k47}leave {\k45}the {\k54}past {\k51}be{\k78}hind
+Comment: 0,0:00:50.27,0:00:52.48,Sample KM [Up],,0,0,0,karaoke,{\k21}Be{\k25}cause {\k26}when {\k49}two {\k51}hearts {\k49}beat
+Comment: 0,0:00:52.48,0:00:54.84,Sample KM [Up],,0,0,0,karaoke,{\k25}In {\k49}time {\k50}we’re {\k26}vic{\k25}to{\k25}ri{\k36}ous
+Comment: 0,0:00:54.98,0:00:58.86,Sample KM [Up],,0,0,0,karaoke,{\k47}In{\k45}ter{\k55}twined {\k26}the {\k48}war {\k49}will {\k22}be {\k29}glo{\k25}ri{\k42}ous
+Comment: 0,0:00:58.92,0:01:03.31,Sample KM [Up],,0,0,0,karaoke,{\k51}Final{\k48}ly {\k52}found {\k25}the {\k49}strength, {\k44}no{\k27} {\k53}di{\k90}vide
+Comment: 0,0:01:02.89,0:01:06.75,Sample KM [Choir],,0,0,0,karaoke,{\k50}Two {\k51}hearts {\k47}beat {\k28}in {\k46}time {\k52}we’re {\k23}vic{\k23}to{\k26}ri{\k40}ous
+Comment: 0,0:01:06.08,0:01:11.35,Sample KM [Up],,0,0,0,karaoke,{\k27}In {\k22}the {\k48}frag{\k57}ments {\k48}of {\k51}our {\k51}fate {\k38}we{\k34} {\k52}sur{\k99}vive
+Comment: 0,0:01:15.53,0:01:19.80,Sample KM [Up],,0,0,0,karaoke,{\k27}The {\k26}path {\k47}I {\k48}chose {\k52}to {\k53}find {\k47}my {\k70}na{\k57}ture
+Comment: 0,0:01:23.46,0:01:27.33,Sample KM [Up],,0,0,0,karaoke,{\k29}Drained {\k22}what {\k49}I {\k49}loved {\k51}in{\k51}to {\k48}the {\k88}dust
+Comment: 0,0:01:29.89,0:01:33.56,Sample KM [Up],,0,0,0,karaoke,{\k28}So {\k25}let’s {\k52}loo{\k49}sen {\k49}eve{\k48}ry {\k45}an{\k71}chor
+Comment: 0,0:01:33.86,0:01:37.14,Sample KM [Up],,0,0,0,karaoke,{\k27}That {\k23}we {\k53}car{\k50}ried {\k47}to {\k50}sur{\k78}vive
+Comment: 0,0:01:37.85,0:01:41.54,Sample KM [Up],,0,0,0,karaoke,{\k26}To {\k24}be {\k49}part {\k50}of {\k49}some{\k52}thing {\k48}grea{\k71}ter
+Comment: 0,0:01:41.83,0:01:45.13,Sample KM [Up],,0,0,0,karaoke,{\k21}We {\k28}can {\k50}leave {\k47}the {\k54}past {\k48}be{\k82}hind
+Comment: 0,0:01:45.79,0:01:48.02,Sample KM [Up],,0,0,0,karaoke,{\k23}Be{\k25}cause {\k26}when {\k49}two {\k51}hearts {\k49}beat
+Comment: 0,0:01:48.02,0:01:50.39,Sample KM [Up],,0,0,0,karaoke,{\k25}In {\k49}time {\k29}we’re{\k21} {\k26}vic{\k25}to{\k25}ri{\k37}ous
+Comment: 0,0:01:50.51,0:01:54.41,Sample KM [Up],,0,0,0,karaoke,{\k47}In{\k45}ter{\k55}twined {\k26}the {\k50}war {\k47}will {\k22}be {\k29}glo{\k25}ri{\k44}ous
+Comment: 0,0:01:54.46,0:01:58.53,Sample KM [Up],,0,0,0,karaoke,{\k51}Final{\k48}ly {\k52}found {\k25}the {\k49}strength, {\k44}no{\k28} {\k52}di{\k58}vide
+Comment: 0,0:01:58.44,0:02:02.28,Sample KM [Choir],,0,0,0,karaoke,{\k50}Two {\k51}hearts {\k47}beat {\k25}in {\k49}time {\k52}we’re {\k23}vic{\k23}to{\k26}ri{\k38}ous
+Comment: 0,0:02:01.65,0:02:06.86,Sample KM [Up],,0,0,0,karaoke,{\k26}It’s {\k21}a {\k49}pro{\k79}mise{\k24} {\k26}if {\k24}we {\k48}make {\k52}it {\k50}out {\k49}a{\k73}live
+Comment: 0,0:02:07.11,0:02:09.58,Sample KM [Up],,0,0,0,karaoke,{\k29}They’ll {\k22}sing {\k27}of {\k27}our {\k44}sto{\k98}ry
+Comment: 0,0:02:09.58,0:02:15.38,Sample KM [Up],,0,0,0,karaoke,{\k25}If {\k28}our {\k50}two {\k50}hearts {\k46}beat {\k47}in {\k53}time {\k36}we{\k39} {\k49}sur{\kf157}vive
+Comment: 0,0:02:30.26,0:02:31.70,Sample KM [Choir],,0,0,0,karaoke,{\k46}Two {\k51}hearts {\k47}beat
+Comment: 0,0:02:33.42,0:02:35.65,Sample KM [Choir],,0,0,0,karaoke,{\k23}Be{\k28}cause {\k24}when {\k48}two {\k50}hearts {\k50}beat
+Comment: 0,0:02:35.69,0:02:38.03,Sample KM [Choir],,0,0,0,karaoke,{\k25}In {\k49}time {\k26}we’re{\k24} {\k26}vic{\k25}to{\k25}ri{\k34}ous
+Comment: 0,0:02:50.24,0:02:53.83,Sample KM [Up],,0,0,0,karaoke,{\k22}If {\k25}I {\k27}could {\k25}change {\k26}how {\k29}the {\k43}sto{\k47}ry {\kf115}ends
+Comment: 0,0:02:54.63,0:02:58.05,Sample KM [Up],,0,0,0,karaoke,{\k33}I’d {\k25}still {\k27}do {\k22}it {\k49}all {\k48}a{\kf138}gain
+Comment: 0,0:02:58.39,0:03:01.20,Sample KM [Up],,0,0,0,karaoke,{\k27}You {\k28}can {\k21}lean {\k26}on {\k26}me {\k52}now {\k44}my {\k57}friend
+Comment: 0,0:03:01.44,0:03:11.07,Sample KM [Up],,0,0,0,karaoke,{\k46}Our {\kf100}two {\k61}hearts{\k39} {\k99}beat {\k50}in {\kf568}time
+Comment: 0,0:03:13.07,0:03:15.29,Sample KM [Up],,0,0,0,karaoke,{\k23}Be{\k25}cause {\k26}when {\k48}two {\k51}hearts {\k49}beat
+Comment: 0,0:03:15.29,0:03:17.65,Sample KM [Up],,0,0,0,karaoke,{\k25}In {\k49}time {\k29}we’re{\k21} {\k26}vic{\k25}to{\k25}ri{\k36}ous
+Comment: 0,0:03:17.78,0:03:21.71,Sample KM [Up],,0,0,0,karaoke,{\k47}In{\k45}ter{\k55}twined {\k26}the {\k50}war {\k47}will {\k22}be {\k29}glo{\k25}ri{\k47}ous
+Comment: 0,0:03:21.74,0:03:26.14,Sample KM [Up],,0,0,0,karaoke,{\k51}Final{\k49}ly {\k51}found {\k25}the {\k46}strength, {\k44}no{\k28} {\k52}di{\k94}vide
+Comment: 0,0:03:25.71,0:03:29.59,Sample KM [Choir],,0,0,0,karaoke,{\k50}Two {\k51}hearts {\k47}beat {\k25}in {\k50}time {\k51}we’re {\k23}vic{\k23}to{\k26}ri{\k42}ous
+Comment: 0,0:03:28.91,0:03:34.15,Sample KM [Up],,0,0,0,karaoke,{\k26}It’s {\k21}a {\k50}pro{\k79}mise{\k24} {\k26}if {\k24}we {\k48}make {\k52}it {\k50}out {\k49}a{\k75}live
+Comment: 0,0:03:34.40,0:03:36.65,Sample KM [Up],,0,0,0,karaoke,{\k25}They’ll {\k22}sing {\k27}of {\k27}our {\k44}sto{\k80}ry
+Comment: 0,0:03:36.86,0:03:42.62,Sample KM [Up],,0,0,0,karaoke,{\k25}If {\k28}our {\k50}two {\k50}hearts {\k46}beat {\k47}in {\k53}time {\k36}we{\k39} {\k49}sur{\kf153}vive
+Dialogue: 0,0:00:19.07,0:00:24.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k40}tried {\k39}so {\k42}hard{\k30} {\k25}to {\k51}be {\k46}your {\k52}sa{\k81}vior
+Dialogue: 0,0:00:27.05,0:00:31.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Un{\k26}ra{\k45}ve{\k51}ling {\k51}the {\k49}hands {\k46}of {\k79}time
+Dialogue: 0,0:00:33.49,0:00:37.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}If {\k24}we {\k48}loo{\k52}sen {\k46}eve{\k52}ry {\k46}an{\k45}chor
+Dialogue: 0,0:00:37.45,0:00:41.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Dis{\k25}con{\k48}nect {\k47}the {\k52}ties {\k51}that {\k82}bind
+Dialogue: 0,0:00:41.43,0:00:46.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}To {\k24}be {\k51}part {\k48}of {\k48}some{\k52}thing {\k51}grea{\k49}ter
+Dialogue: 0,0:00:45.40,0:00:49.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}We {\k30}can {\k47}leave {\k45}the {\k54}past {\k51}be{\k78}hind
+Dialogue: 0,0:00:49.37,0:00:52.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Be{\k25}cause {\k26}when {\k49}two {\k51}hearts {\k49}beat
+Dialogue: 0,0:00:51.58,0:00:55.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}In {\k49}time {\k50}we’re {\k26}vic{\k25}to{\k25}ri{\k36}ous
+Dialogue: 0,0:00:54.08,0:00:59.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}In{\k45}ter{\k55}twined {\k26}the {\k48}war {\k49}will {\k22}be {\k29}glo{\k25}ri{\k42}ous
+Dialogue: 0,0:00:58.02,0:01:03.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Final{\k48}ly {\k52}found {\k25}the {\k49}strength, {\k44}no{\k27} {\k53}di{\k90}vide
+Dialogue: 0,0:01:01.99,0:01:06.95,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Two {\k51}hearts {\k47}beat {\k28}in {\k46}time {\k52}we’re {\k23}vic{\k23}to{\k26}ri{\k40}ous
+Dialogue: 0,0:01:05.18,0:01:11.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}In {\k22}the {\k48}frag{\k57}ments {\k48}of {\k51}our {\k51}fate {\k38}we{\k34} {\k52}sur{\k99}vive
+Dialogue: 0,0:01:14.63,0:01:20.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}The {\k26}path {\k47}I {\k48}chose {\k52}to {\k53}find {\k47}my {\k70}na{\k57}ture
+Dialogue: 0,0:01:22.56,0:01:27.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Drained {\k22}what {\k49}I {\k49}loved {\k51}in{\k51}to {\k48}the {\k88}dust
+Dialogue: 0,0:01:28.99,0:01:33.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}So {\k25}let’s {\k52}loo{\k49}sen {\k49}eve{\k48}ry {\k45}an{\k71}chor
+Dialogue: 0,0:01:32.96,0:01:37.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}That {\k23}we {\k53}car{\k50}ried {\k47}to {\k50}sur{\k78}vive
+Dialogue: 0,0:01:36.95,0:01:41.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}To {\k24}be {\k49}part {\k50}of {\k49}some{\k52}thing {\k48}grea{\k71}ter
+Dialogue: 0,0:01:40.93,0:01:45.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}We {\k28}can {\k50}leave {\k47}the {\k54}past {\k48}be{\k82}hind
+Dialogue: 0,0:01:44.89,0:01:48.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Be{\k25}cause {\k26}when {\k49}two {\k51}hearts {\k49}beat
+Dialogue: 0,0:01:47.12,0:01:50.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}In {\k49}time {\k29}we’re{\k21} {\k26}vic{\k25}to{\k25}ri{\k37}ous
+Dialogue: 0,0:01:49.61,0:01:54.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}In{\k45}ter{\k55}twined {\k26}the {\k50}war {\k47}will {\k22}be {\k29}glo{\k25}ri{\k44}ous
+Dialogue: 0,0:01:53.56,0:01:58.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Final{\k48}ly {\k52}found {\k25}the {\k49}strength, {\k44}no{\k28} {\k52}di{\k58}vide
+Dialogue: 0,0:01:57.54,0:02:02.48,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Two {\k51}hearts {\k47}beat {\k25}in {\k49}time {\k52}we’re {\k23}vic{\k23}to{\k26}ri{\k38}ous
+Dialogue: 0,0:02:00.75,0:02:07.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}It’s {\k21}a {\k49}pro{\k79}mise{\k24} {\k26}if {\k24}we {\k48}make {\k52}it {\k50}out {\k49}a{\k73}live
+Dialogue: 0,0:02:06.21,0:02:09.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}They’ll {\k22}sing {\k27}of {\k27}our {\k44}sto{\k98}ry
+Dialogue: 0,0:02:08.68,0:02:15.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}If {\k28}our {\k50}two {\k50}hearts {\k46}beat {\k47}in {\k53}time {\k36}we{\k39} {\k49}sur{\kf157}vive
+Dialogue: 0,0:02:29.36,0:02:31.90,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Two {\k51}hearts {\k47}beat
+Dialogue: 0,0:02:32.52,0:02:35.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Be{\k28}cause {\k24}when {\k48}two {\k50}hearts {\k50}beat
+Dialogue: 0,0:02:34.79,0:02:38.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}In {\k49}time {\k26}we’re{\k24} {\k26}vic{\k25}to{\k25}ri{\k34}ous
+Dialogue: 0,0:02:49.34,0:02:54.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}If {\k25}I {\k27}could {\k25}change {\k26}how {\k29}the {\k43}sto{\k47}ry {\kf115}ends
+Dialogue: 0,0:02:53.73,0:02:58.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}I’d {\k25}still {\k27}do {\k22}it {\k49}all {\k48}a{\kf138}gain
+Dialogue: 0,0:02:57.49,0:03:01.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}You {\k28}can {\k21}lean {\k26}on {\k26}me {\k52}now {\k44}my {\k57}friend
+Dialogue: 0,0:03:00.54,0:03:11.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Our {\kf100}two {\k61}hearts{\k39} {\k99}beat {\k50}in {\kf568}time
+Dialogue: 0,0:03:12.17,0:03:15.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Be{\k25}cause {\k26}when {\k48}two {\k51}hearts {\k49}beat
+Dialogue: 0,0:03:14.39,0:03:17.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}In {\k49}time {\k29}we’re{\k21} {\k26}vic{\k25}to{\k25}ri{\k36}ous
+Dialogue: 0,0:03:16.88,0:03:21.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}In{\k45}ter{\k55}twined {\k26}the {\k50}war {\k47}will {\k22}be {\k29}glo{\k25}ri{\k47}ous
+Dialogue: 0,0:03:20.84,0:03:26.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Final{\k49}ly {\k51}found {\k25}the {\k46}strength, {\k44}no{\k28} {\k52}di{\k94}vide
+Dialogue: 0,0:03:24.81,0:03:29.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Two {\k51}hearts {\k47}beat {\k25}in {\k50}time {\k51}we’re {\k23}vic{\k23}to{\k26}ri{\k42}ous
+Dialogue: 0,0:03:28.01,0:03:34.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}It’s {\k21}a {\k50}pro{\k79}mise{\k24} {\k26}if {\k24}we {\k48}make {\k52}it {\k50}out {\k49}a{\k75}live
+Dialogue: 0,0:03:33.50,0:03:36.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}They’ll {\k22}sing {\k27}of {\k27}our {\k44}sto{\k80}ry
+Dialogue: 0,0:03:35.96,0:03:42.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}If {\k28}our {\k50}two {\k50}hearts {\k46}beat {\k47}in {\k53}time {\k36}we{\k39} {\k49}sur{\kf153}vive
