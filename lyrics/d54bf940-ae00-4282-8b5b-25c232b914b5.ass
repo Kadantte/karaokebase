@@ -1,0 +1,167 @@
+﻿[Script Info]
+Title: Tricologe
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 0
+PlayResY: 0
+Original Timing: HinamiYami
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 25ji,Arial,24,&H00FFFFFF,&H00994488,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hatsune Miku,Arial,24,&H00FFFFFF,&H00BACC33,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kanade Yoisaki,Arial,24,&H00FFFFFF,&H008865BB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Mafuyu Asahina,Arial,24,&H00FFFFFF,&H00CC8988,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Ena Shinonome,Arial,24,&H00FFFFFF,&H0087AACC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Mizuki Akiyama,Arial,24,&H00FFFFFF,&H00CAA8E4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Names,Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,25ji,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:01.50,Names,,0,0,0,karaoke,{\c&H994488&}N25 {\c&HFFFFFF&}- {\c&HBACC33&}● Miku {\c&HFFFFFF&}- {\c&H8865BB&}♠ Kanade {\c&HFFFFFF&}- {\c&HCC8988&}\N♣ Mafuyu {\c&HFFFFFF&}- {\c&H87AACC&}♦ Ena {\c&HFFFFFF&}- {\c&HCAA8E4&}♥ Mizuki
+Comment: 0,0:00:00.89,0:00:07.82,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k27}ko{\k22}no {\kf114}sei{\k27}ka{\k23}tsu {\kf105}no{\k29} {\k23}to{\k23}ri{\k48}ko {\k23}ni {\k49}nac{\k32}chau {\k34}yo {\k46}LA{\k68}DY
+Comment: 0,0:00:08.01,0:00:11.57,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k28}hi{\k23}ka{\k24}ri {\k23}wo {\k11}u{\k22}shi{\k24}nat{\k35}ta {\k24}o{\k20}sa{\k25}ga{\k22}ri {\k11}no {\k24}hou{\k14}se{\k11}ki {\k15}wo
+Comment: 0,0:00:11.75,0:00:14.21,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k25}to{\k23}ko{\k21}shi{\k45}e {\k25}ni {\k23}ma{\k33}tot{\k35}te{\k16}ku
+Comment: 0,0:00:31.14,0:00:32.34,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k9}su{\k13}ku{\k12}wa{\k13}re{\k11}ta {\k12}a{\k11}no {\k11}hi {\k12}ka{\k16}ra
+Comment: 0,0:00:32.44,0:00:34.26,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k8}su{\k13}ku{\k11}i {\k22}ga {\k24}gi{\k23}mu {\k12}ni {\k13}na{\k10}ru {\k21}nan{\k25}te
+Comment: 0,0:00:34.26,0:00:36.04,Mafuyu Asahina,,0,0,0,karaoke,{\k0}♣ {\k11}ma{\k12}ru{\k11}de {\k23}FI{\k10}C{\k26}TION {\k10}T{\k11}RE{\k13}PA{\k23}N{\k12}A{\k16}TION
+Comment: 0,0:00:36.20,0:00:37.96,Mafuyu Asahina,,0,0,0,karaoke,{\k0}♣ {\k12}u{\k11}ke{\k24}ta {\k24}ki{\k23}bun {\k13}ni {\k21}nat{\k23}ten{\k25}da
+Comment: 0,0:00:38.07,0:00:39.81,25ji,,0,0,0,karaoke,{\k0}●♦ {\k12}a{\k10}shi{\k12}ka{\k12}se {\k12}to {\k11}ku{\k12}sa{\k12}ri {\k12}ni {\k11}shi{\k12}ba{\k10}ra{\k12}re{\k24}te
+Comment: 0,0:00:39.81,0:00:41.64,25ji,,0,0,0,karaoke,{\k0}●♦ {\k20}tat{\k14}ta {\k12}i{\k12}chi{\k10}do {\k12}no {\k11}hi{\k12}ka{\k12}ri {\k12}de{\k12}a{\k10}u {\k11}ta{\k23}me
+Comment: 0,0:00:41.66,0:00:43.48,Mizuki Akiyama,,0,0,0,karaoke,{\k0}♥ {\k10}ko{\k11}no {\k12}he{\k22}ya {\k24}de {\k22}zut{\k11}to {\k14}wa{\k22}su{\k11}re{\k23}ta
+Comment: 0,0:00:43.48,0:00:45.22,Mizuki Akiyama,,0,0,0,karaoke,{\k0}♥ {\k13}na{\k10}ni{\k36}ka {\k23}wo {\k23}ma{\k12}tsu {\k33}shuu{\k24}jin
+Comment: 0,0:00:45.32,0:00:47.26,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k13}da{\k12}sa{\k12}re{\k22}ta {\k21}mo{\k24}no {\k14}wa {\k22}man{\k24}ben{\k11}na{\k19}ku
+Comment: 0,0:00:47.30,0:00:48.90,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k11}no{\k11}ko{\k23}sa{\k23}zu {\k24}tai{\k12}ra{\k34}ge{\k22}te
+Comment: 0,0:00:49.13,0:00:50.87,Mafuyu Asahina,,0,0,0,karaoke,{\k0}♣ {\k24}yuu{\k23}tou{\k23}se{\k25}i {\k21}na {\k20}shi{\k14}bi{\k24}to
+Comment: 0,0:00:50.87,0:00:52.60,Mafuyu Asahina,,0,0,0,karaoke,{\k0}♣ {\k10}da{\k11}re {\k24}yo{\k11}ri {\k13}mo {\k11}mu{\k13}ko{\k11}se{\k11}i {\k21}dat{\k37}ta
+Comment: 0,0:00:53.06,0:00:54.60,25ji,,0,0,0,karaoke,{\k0}●♥ {\k13}su{\k11}me{\k12}ba {\k9}mi{\k15}ya{\k15}kot{\k11}te {\k7}ku{\k12}ra{\k11}i {\k11}u{\k27}ta
+Comment: 0,0:00:54.60,0:00:56.40,25ji,,0,0,0,karaoke,{\k0}●♥ {\k8}ma{\k13}ta {\k24}nan{\k10}do{\k12}mo {\k24}nan{\k10}do{\k11}mo {\k12}ha{\k11}ki{\k12}su{\k13}te{\k20}te
+Comment: 0,0:00:56.40,0:00:58.26,Ena Shinonome,,0,0,0,karaoke,{\k0}♦ {\k11}a{\k13}ge{\k12}ku {\k21}no {\k12}ha{\k24}te {\k12}ta{\k10}be{\k10}ru {\k26}kou{\k12}i {\k23}ga
+Comment: 0,0:00:58.26,0:00:59.90,Ena Shinonome,,0,0,0,karaoke,{\k0}♦ {\k11}so{\k12}re {\k12}ji{\k21}tai {\k13}ga {\k10}ni{\k12}ga{\k12}te {\k11}ni {\k23}nat{\k27}ta
+Comment: 0,0:00:59.98,0:01:03.43,Hatsune Miku,,0,0,0,karaoke,{\k0}● {\k14}yo{\k33}na{\kf138}ka {\k11}fu{\k13}to {\k11}me {\k35}ni {\k23}u{\k23}tsu{\k23}t{\k21}ta
+Comment: 0,0:01:03.65,0:01:07.12,Mizuki Akiyama,,0,0,0,karaoke,{\k0}♥ {\k14}ki{\k36}ra{\kf114}mek' {\k24}ka{\k15}me{\k20}n {\k34}no {\k24}bu{\k23}do{\k22}u{\k21}kai
+Comment: 0,0:01:07.35,0:01:08.99,Ena Shinonome,,0,0,0,karaoke,{\k0}♦ {\k10}ba{\k11}ka{\k16}ra{\k31}shi{\k25}i {\k25}ho{\k21}do {\k25}ni
+Comment: 0,0:01:09.20,0:01:10.83,Mafuyu Asahina,,0,0,0,karaoke,{\k0}♣ {\k12}ku{\k8}ru{\k17}o{\k32}shi{\k26}i {\k22}ho{\k21}do {\k25}ni
+Comment: 0,0:01:11.05,0:01:14.43,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k14}to{\k12}shi{\k21}ga{\k25}i {\k11}mo {\k34}nak' {\k20}hi{\k17}ki{\k33}ko{\k18}ma{\k14}re{\k14}ta{\kf105}ra
+Comment: 0,0:01:14.71,0:01:21.45,25ji,,0,0,0,karaoke,{\k25}ko{\k26}no {\kf116}sei{\k23}ka{\k22}tsu {\kf114}no{\k23} {\k26}to{\k21}ri{\k47}ko {\k22}ni {\k48}nac{\k35}chau {\k34}yo {\k46}LA{\k46}DY
+Comment: 0,0:01:21.91,0:01:23.65,Mizuki Akiyama,,0,0,0,karaoke,{\k0}♥ {\k24}"yo{\k22}ku {\k24}ni{\k20}at{\k12}te{\k24}ru" {\k24}tte {\k24}sa
+Comment: 0,0:01:23.76,0:01:25.43,Ena Shinonome,,0,0,0,karaoke,{\k0}♦ {\k24}"o{\k23}a{\k22}tsu{\k22}rae{\k16}mu{\k18}ki" {\k23}tte {\k19}sa
+Comment: 0,0:01:25.61,0:01:29.84,Mafuyu Asahina,,0,0,0,karaoke,{\k0}♣ {\k23}so{\k24}no {\k22}go {\k22}no {\k23}ko{\k24}to {\k21}wa {\k22}mi{\k26}mu{\k22}ki {\k45}mo {\k26}shi{\k23}na{\k47}i {\k22}ku{\k10}se {\k21}ni
+Comment: 0,0:01:29.99,0:01:37.14,25ji,,0,0,0,karaoke,{\kf116}sei{\k23}ka{\k21}tsu {\kf95}no{\k46} {\k22}to{\k24}ri{\k43}ko {\k25}ni {\k45}nac{\k37}chau {\k34}yo {\k45}LA{\k46}DY {\k46}LA{\k47}DY
+Comment: 0,0:01:37.14,0:01:38.43,Ena Shinonome,,0,0,0,karaoke,{\k0}♦ {\k24}i{\k22}ta{\k12}mi {\k24}dat{\k21}te {\k26}sa
+Comment: 0,0:01:38.53,0:01:40.29,Mafuyu Asahina,,0,0,0,karaoke,{\k0}♣ {\k24}i{\k23}e{\k22}nu {\k22}ki{\k12}zu {\k22}dat{\k20}te {\k31}sa
+Comment: 0,0:01:40.35,0:01:44.64,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k26}su{\k21}be{\k25}te {\k36}i{\k10}ki{\k33}te{\k13}ku {\k22}ta{\k48}me {\k45}no{\k22}ri{\k23}ko{\k48}er' {\k20}shi{\k15}re{\k22}n
+Comment: 0,0:01:44.74,0:01:47.07,25ji,,0,0,0,karaoke,{\k22}ta{\k27}ai {\k20}mo {\k48}nai {\k22}ko{\k24}to {\k24}de{\k46}shou
+Comment: 0,0:02:01.45,0:02:03.15,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k13}su{\k13}ko{\k10}shi {\k13}ka{\k12}ke{\k11}te{\k13}ru {\k22}PINK {\k12}O{\k32}PA{\k19}L
+Comment: 0,0:02:03.34,0:02:05.07,Mafuyu Asahina,,0,0,0,karaoke,{\k0}♣ {\k12}ma{\k9}i{\k12}go {\k12}ni {\k10}na{\k13}t{\k12}ta {\k22}I{\k13}O{\k32}LI{\k26}TE
+Comment: 0,0:02:05.18,0:02:06.93,Ena Shinonome,,0,0,0,karaoke,{\k0}♦ {\k11}ho{\k11}ko{\k12}ri {\k33}wo {\k13}ka{\k9}bu{\k12}ru {\k14}TO{\k33}PA{\k27}Z
+Comment: 0,0:02:07.02,0:02:08.85,Mizuki Akiyama,,0,0,0,karaoke,{\k0}♥ {\k11}ko{\k14}do{\k11}ku {\k10}na {\k12}A{\k12}ME{\k11}TR{\k24}INE {\k12}mo {\k33}min{\k33}na
+Comment: 0,0:02:08.99,0:02:10.21,Hatsune Miku,,0,0,0,karaoke,{\k0}● {\k12}so{\k12}re{\k20}zo{\k13}re {\k12}ki{\k12}ka{\k23}zat{\k18}te
+Comment: 0,0:02:10.35,0:02:12.10,Hatsune Miku,,0,0,0,karaoke,{\k0}● {\k26}ni{\k20}got{\k11}te {\k15}o{\k18}mo{\k16}ku {\k24}nat{\k21}tet{\k24}te
+Comment: 0,0:02:12.21,0:02:13.83,Hatsune Miku,,0,0,0,karaoke,{\k0}● {\k13}na{\k12}ra{\k23}ku {\k11}no {\k12}so{\k22}ko {\k24}no {\k23}rou{\k11}ya {\k11}ni
+Comment: 0,0:02:13.89,0:02:16.26,Hatsune Miku,,0,0,0,karaoke,{\k0}● {\k18}shi{\k45}zun{\k35}de {\k10}i{\k46}ku {\k15}to {\k11}shi{\k23}te {\k34}mo
+Comment: 0,0:02:17.07,0:02:20.57,Hatsune Miku,,0,0,0,karaoke,{\k0}● {\kf117}aa {\k21}o{\k12}to{\k10}zu{\k11}re{\k36}ta {\k23}shi{\k24}a{\k10}wa{\k33}se {\k20}ga {\k17}ho{\k16}ra
+Comment: 0,0:02:20.64,0:02:22.49,Mafuyu Asahina,,0,0,0,karaoke,{\k0}♣ {\k23}shu{\k13}ku{\k22}sai{\k24}ji{\k22}tsu {\k12}mi{\k22}ta{\k23}i {\k24}ni
+Comment: 0,0:02:22.49,0:02:24.45,Mafuyu Asahina,,0,0,0,karaoke,{\k0}♣ {\k23}su{\k12}de {\k12}ni {\k11}ki{\k11}me{\k11}ra{\k10}re{\k11}ta {\k14}yo{\k24}tei{\k22}chou{\k11}wa {\k24}de
+Comment: 0,0:02:24.68,0:02:25.95,Ena Shinonome,,0,0,0,karaoke,{\k0}♦ {\k23}is{\k23}shun {\k13}de {\k8}u{\k13}se{\k13}te {\k10}shi{\k24}mau
+Comment: 0,0:02:26.06,0:02:28.36,Ena Shinonome,,0,0,0,karaoke,{\k0}♦ {\k14}na{\k10}gu{\k23}sa{\k22}me {\k23}de{\k23}mo {\k17}ka{\k14}ma{\k16}wa{\k15}na{\k14}i {\k18}yo {\k21}to
+Comment: 0,0:02:28.60,0:02:31.18,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k13}ki{\k22}bou {\k12}a{\k14}ri{\k10}ki {\k10}no {\k12}ze{\k12}tsu{\k11}bo{\k12}u {\k11}ni {\k34}sa {\k13}i{\k22}zon {\k12}i{\k38}zon
+Comment: 0,0:02:31.82,0:02:38.30,25ji,,0,0,0,karaoke,{\kf117}sei{\k24}ka{\k23}tsu {\kf107}no{\k31} {\k23}to{\k23}ri{\k44}ko {\k23}ni {\k47}nac{\k35}chau {\k36}yo {\k44}LA{\k71}DY
+Comment: 0,0:02:38.53,0:02:40.30,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k23}"i{\k23}tsu{\k24}ka {\k21}mu{\k14}ku{\k21}wa{\k24}re{\k27}ru"
+Comment: 0,0:02:40.38,0:02:42.08,Mizuki Akiyama,,0,0,0,karaoke,{\k0}♥ {\k23}"mi{\k23}to{\k23}me{\k19}te {\k13}mo{\k24}ra{\k24}e{\k21}ru"
+Comment: 0,0:02:42.22,0:02:46.45,Ena Shinonome,,0,0,0,karaoke,{\k0}♦ {\k23}ki{\k24}ya{\k22}su{\k21}me {\k25}no {\k24}ju{\k21}mo{\k23}n {\k25}de {\k23}o{\k46}no{\k23}re {\k23}wo {\k47}da{\k23}ma{\k11}su {\k19}no
+Comment: 0,0:02:46.58,0:02:53.65,25ji,,0,0,0,karaoke,{\kf118}sei{\k23}ka{\k22}tsu {\kf109}no{\kf31} {\k23}o{\k21}wa{\k47}ri {\k24}wa {\k21}su{\k23}gu {\k37}so{\k32}ko {\k48}LA{\k45}DY {\k49}LA{\k34}DY
+Comment: 0,0:02:53.74,0:02:55.06,Ena Shinonome,,0,0,0,karaoke,{\k0}♦ {\k26}ne{\k23}ta{\k11}mi {\k21}so{\k25}ne{\k26}mi
+Comment: 0,0:02:55.14,0:02:57.22,Mizuki Akiyama,,0,0,0,karaoke,{\k0}♥ {\k24}ya{\k21}jiu{\k25}ma {\k21}ret{\k24}tou {\k24}men{\k11}tsu {\k23}dat{\k35}te
+Comment: 0,0:02:57.68,0:03:01.26,Mafuyu Asahina,,0,0,0,karaoke,{\k0}♣ {\k34}i{\k12}ki{\k36}te{\k11}ku {\k22}ta{\k46}me {\k44}no{\k27}ri{\k22}ko{\k46}er' {\k19}shi{\k14}re{\k25}n
+Comment: 0,0:03:01.34,0:03:03.69,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k18}sh'yo{\k31}u {\k24}ga {\k47}nai {\k22}ko{\k23}to {\k24}de{\k46}shou
+Comment: 0,0:03:17.53,0:03:24.38,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k21}ko{\k23}no {\kf117}sei{\k26}ka{\k20}tsu {\kf111}no{\k26} {\k23}to{\k23}ri{\k48}ko {\k23}ni {\k47}nac{\k32}chau {\k36}yo {\k46}LA{\k63}DY
+Comment: 0,0:03:24.68,0:03:26.50,Hatsune Miku,,0,0,0,karaoke,{\k0}● {\k21}a{\k25}ta{\k23}ri{\k21}sa{\k14}war' {\k22}nai {\k24}you {\k32}na
+Comment: 0,0:03:26.53,0:03:28.24,Hatsune Miku,,0,0,0,karaoke,{\k0}● {\k21}tai{\k24}shuu{\k24}te{\k22}ki {\k13}na {\k20}hou{\k15}se{\k12}ki {\k20}wa
+Comment: 0,0:03:28.37,0:03:32.61,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k47}mou {\k23}hi{\k23}tsu{\k21}yo{\k25}u {\k23}wa {\k35}nai {\k34}ni{\k46}go{\k22}ri {\k23}su{\k45}ra {\k21}mo {\k12}ki{\k24}rei
+Comment: 0,0:03:32.73,0:03:39.80,25ji,,0,0,0,karaoke,{\kf118}sei{\k24}ka{\k20}tsu {\kf118}no{\kf21} {\k25}to{\k23}ri{\k45}ko {\k23}ni {\k46}nac{\k36}chau {\k36}yo {\k44}LA{\k45}DY {\k47}LA{\k36}DY
+Comment: 0,0:03:39.90,0:03:41.16,Mafuyu Asahina,,0,0,0,karaoke,{\k0}♣ {\k25}"fu{\k21}ru{\k11}ku{\k24}sai" {\k23}tte {\k22}sa
+Comment: 0,0:03:41.29,0:03:43.12,Ena Shinonome,,0,0,0,karaoke,{\k0}♦ {\k24}"ka{\k24}ne {\k21}ni {\k24}na{\k12}ra{\k23}nai" {\k20}tte {\k35}sa
+Comment: 0,0:03:43.12,0:03:47.44,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k48}kin{\k24}se{\k20}n {\k25}wo {\k25}ka{\k22}na{\k24}de{\k23}na{\k22}i {\k46}ko{\k24}to{\k23}ba {\k46}wa {\k19}mu{\k16}yo{\k25}u
+Comment: 0,0:03:47.52,0:03:54.71,25ji,,0,0,0,karaoke,{\kf117}sei{\k23}ka{\k22}tsu {\kf116}no{\k24} {\k22}to{\k24}ri{\k44}ko {\k23}ni {\k45}nac{\k37}chat{\k35}ta {\k45}LA{\k47}DY {\k45}LA{\k50}DY
+Comment: 0,0:03:54.71,0:03:55.88,Mafuyu Asahina,,0,0,0,karaoke,{\k0}♣ {\k21}i{\k23}ta{\k11}mi {\k22}dat{\k24}te {\k16}sa
+Comment: 0,0:03:56.06,0:03:58.14,Mizuki Akiyama,,0,0,0,karaoke,{\k0}♥ {\k24}i{\k22}e{\k24}nu {\k11}hi{\k13}mi{\k11}tsu {\k12}mo {\k22}at{\k11}te {\k34}iin{\k24}da
+Comment: 0,0:03:58.34,0:04:02.18,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k27}sou {\k33}i{\k13}ki{\k34}te{\k12}ku {\k24}ta{\k47}me {\k45}ma{\k21}to{\k25}u {\k46}mo{\k24}no {\k11}da{\k22}ro
+Comment: 0,0:04:02.29,0:04:04.60,Hatsune Miku,,0,0,0,karaoke,{\k0}● {\k23}ta{\k24}ai {\k24}mo {\k46}nai {\k21}ko{\k24}to {\k24}de{\k45}shou
+Comment: 0,0:04:09.44,0:04:13.37,Hatsune Miku,,0,0,0,karaoke,{\k0}{\i1}● {\k47}LA{\k47}DY {\k47}LA{\kf252}DY
+Comment: 0,0:04:16.82,0:04:19.50,Kanade Yoisaki,,0,0,0,karaoke,{\k0}♠ {\k25}a{\k22}na{\k25}ta {\k22}mo {\k43}to{\k24}ri{\k24}ko {\k25}de{\k58}shou?
+Dialogue: 0,0:00:00.00,0:00:01.70,Names,,0,0,0,fx,{\k0\fad(0,200)}{\c&H994488&}N25 {\c&HFFFFFF&}- {\c&HBACC33&}● Miku {\c&HFFFFFF&}- {\c&H8865BB&}♠ Kanade {\c&HFFFFFF&}- {\c&HCC8988&}\N♣ Mafuyu {\c&HFFFFFF&}- {\c&H87AACC&}♦ Ena {\c&HFFFFFF&}- {\c&HCAA8E4&}♥ Mizuki
+Dialogue: 0,0:00:00.00,0:00:08.02,Kanade Yoisaki,,0,0,0,fx,{\k89\fad(890,200)}{\k0}♠ {\k27}ko{\k22}no {\kf114}sei{\k27}ka{\k23}tsu {\kf105}no{\k29} {\k23}to{\k23}ri{\k48}ko {\k23}ni {\k49}nac{\k32}chau {\k34}yo {\k46}LA{\k68}DY
+Dialogue: 0,0:00:07.11,0:00:11.77,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k28}hi{\k23}ka{\k24}ri {\k23}wo {\k11}u{\k22}shi{\k24}nat{\k35}ta {\k24}o{\k20}sa{\k25}ga{\k22}ri {\k11}no {\k24}hou{\k14}se{\k11}ki {\k15}wo
+Dialogue: 0,0:00:10.85,0:00:14.41,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k25}to{\k23}ko{\k21}shi{\k45}e {\k25}ni {\k23}ma{\k33}tot{\k35}te{\k16}ku
+Dialogue: 0,0:00:30.24,0:00:32.54,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k9}su{\k13}ku{\k12}wa{\k13}re{\k11}ta {\k12}a{\k11}no {\k11}hi {\k12}ka{\k16}ra
+Dialogue: 0,0:00:31.54,0:00:34.46,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k8}su{\k13}ku{\k11}i {\k22}ga {\k24}gi{\k23}mu {\k12}ni {\k13}na{\k10}ru {\k21}nan{\k25}te
+Dialogue: 0,0:00:33.36,0:00:36.24,Mafuyu Asahina,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♣ {\k11}ma{\k12}ru{\k11}de {\k23}FI{\k10}C{\k26}TION {\k10}T{\k11}RE{\k13}PA{\k23}N{\k12}A{\k16}TION
+Dialogue: 0,0:00:35.30,0:00:38.16,Mafuyu Asahina,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♣ {\k12}u{\k11}ke{\k24}ta {\k24}ki{\k23}bun {\k13}ni {\k21}nat{\k23}ten{\k25}da
+Dialogue: 0,0:00:37.17,0:00:40.01,25ji,,0,0,0,fx,{\k90\fad(300,200)}{\k0}●♦ {\k12}a{\k10}shi{\k12}ka{\k12}se {\k12}to {\k11}ku{\k12}sa{\k12}ri {\k12}ni {\k11}shi{\k12}ba{\k10}ra{\k12}re{\k24}te
+Dialogue: 0,0:00:38.91,0:00:41.84,25ji,,0,0,0,fx,{\k90\fad(300,200)}{\k0}●♦ {\k20}tat{\k14}ta {\k12}i{\k12}chi{\k10}do {\k12}no {\k11}hi{\k12}ka{\k12}ri {\k12}de{\k12}a{\k10}u {\k11}ta{\k23}me
+Dialogue: 0,0:00:40.76,0:00:43.68,Mizuki Akiyama,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♥ {\k10}ko{\k11}no {\k12}he{\k22}ya {\k24}de {\k22}zut{\k11}to {\k14}wa{\k22}su{\k11}re{\k23}ta
+Dialogue: 0,0:00:42.58,0:00:45.42,Mizuki Akiyama,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♥ {\k13}na{\k10}ni{\k36}ka {\k23}wo {\k23}ma{\k12}tsu {\k33}shuu{\k24}jin
+Dialogue: 0,0:00:44.42,0:00:47.46,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k13}da{\k12}sa{\k12}re{\k22}ta {\k21}mo{\k24}no {\k14}wa {\k22}man{\k24}ben{\k11}na{\k19}ku
+Dialogue: 0,0:00:46.40,0:00:49.10,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k11}no{\k11}ko{\k23}sa{\k23}zu {\k24}tai{\k12}ra{\k34}ge{\k22}te
+Dialogue: 0,0:00:48.23,0:00:51.07,Mafuyu Asahina,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♣ {\k24}yuu{\k23}tou{\k23}se{\k25}i {\k21}na {\k20}shi{\k14}bi{\k24}to
+Dialogue: 0,0:00:49.97,0:00:52.80,Mafuyu Asahina,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♣ {\k10}da{\k11}re {\k24}yo{\k11}ri {\k13}mo {\k11}mu{\k13}ko{\k11}se{\k11}i {\k21}dat{\k37}ta
+Dialogue: 0,0:00:52.16,0:00:54.80,25ji,,0,0,0,fx,{\k90\fad(300,200)}{\k0}●♥ {\k13}su{\k11}me{\k12}ba {\k9}mi{\k15}ya{\k15}kot{\k11}te {\k7}ku{\k12}ra{\k11}i {\k11}u{\k27}ta
+Dialogue: 0,0:00:53.70,0:00:56.60,25ji,,0,0,0,fx,{\k90\fad(300,200)}{\k0}●♥ {\k8}ma{\k13}ta {\k24}nan{\k10}do{\k12}mo {\k24}nan{\k10}do{\k11}mo {\k12}ha{\k11}ki{\k12}su{\k13}te{\k20}te
+Dialogue: 0,0:00:55.50,0:00:58.46,Ena Shinonome,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♦ {\k11}a{\k13}ge{\k12}ku {\k21}no {\k12}ha{\k24}te {\k12}ta{\k10}be{\k10}ru {\k26}kou{\k12}i {\k23}ga
+Dialogue: 0,0:00:57.36,0:01:00.10,Ena Shinonome,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♦ {\k11}so{\k12}re {\k12}ji{\k21}tai {\k13}ga {\k10}ni{\k12}ga{\k12}te {\k11}ni {\k23}nat{\k27}ta
+Dialogue: 0,0:00:59.08,0:01:03.63,Hatsune Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k0}● {\k14}yo{\k33}na{\kf138}ka {\k11}fu{\k13}to {\k11}me {\k35}ni {\k23}u{\k23}tsu{\k23}t{\k21}ta
+Dialogue: 0,0:01:02.75,0:01:07.32,Mizuki Akiyama,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♥ {\k14}ki{\k36}ra{\kf114}mek' {\k24}ka{\k15}me{\k20}n {\k34}no {\k24}bu{\k23}do{\k22}u{\k21}kai
+Dialogue: 0,0:01:06.45,0:01:09.19,Ena Shinonome,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♦ {\k10}ba{\k11}ka{\k16}ra{\k31}shi{\k25}i {\k25}ho{\k21}do {\k25}ni
+Dialogue: 0,0:01:08.30,0:01:11.03,Mafuyu Asahina,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♣ {\k12}ku{\k8}ru{\k17}o{\k32}shi{\k26}i {\k22}ho{\k21}do {\k25}ni
+Dialogue: 0,0:01:10.15,0:01:14.63,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k14}to{\k12}shi{\k21}ga{\k25}i {\k11}mo {\k34}nak' {\k20}hi{\k17}ki{\k33}ko{\k18}ma{\k14}re{\k14}ta{\kf105}ra
+Dialogue: 0,0:01:13.81,0:01:21.65,25ji,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ko{\k26}no {\kf116}sei{\k23}ka{\k22}tsu {\kf114}no{\k23} {\k26}to{\k21}ri{\k47}ko {\k22}ni {\k48}nac{\k35}chau {\k34}yo {\k46}LA{\k46}DY
+Dialogue: 0,0:01:21.01,0:01:23.85,Mizuki Akiyama,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♥ {\k24}"yo{\k22}ku {\k24}ni{\k20}at{\k12}te{\k24}ru" {\k24}tte {\k24}sa
+Dialogue: 0,0:01:22.86,0:01:25.63,Ena Shinonome,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♦ {\k24}"o{\k23}a{\k22}tsu{\k22}rae{\k16}mu{\k18}ki" {\k23}tte {\k19}sa
+Dialogue: 0,0:01:24.71,0:01:30.04,Mafuyu Asahina,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♣ {\k23}so{\k24}no {\k22}go {\k22}no {\k23}ko{\k24}to {\k21}wa {\k22}mi{\k26}mu{\k22}ki {\k45}mo {\k26}shi{\k23}na{\k47}i {\k22}ku{\k10}se {\k21}ni
+Dialogue: 0,0:01:29.09,0:01:37.34,25ji,,0,0,0,fx,{\k90\fad(300,200)}{\kf116}sei{\k23}ka{\k21}tsu {\kf95}no{\k46} {\k22}to{\k24}ri{\k43}ko {\k25}ni {\k45}nac{\k37}chau {\k34}yo {\k45}LA{\k46}DY {\k46}LA{\k47}DY
+Dialogue: 0,0:01:36.24,0:01:38.63,Ena Shinonome,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♦ {\k24}i{\k22}ta{\k12}mi {\k24}dat{\k21}te {\k26}sa
+Dialogue: 0,0:01:37.63,0:01:40.49,Mafuyu Asahina,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♣ {\k24}i{\k23}e{\k22}nu {\k22}ki{\k12}zu {\k22}dat{\k20}te {\k31}sa
+Dialogue: 0,0:01:39.45,0:01:44.84,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k26}su{\k21}be{\k25}te {\k36}i{\k10}ki{\k33}te{\k13}ku {\k22}ta{\k48}me {\k45}no{\k22}ri{\k23}ko{\k48}er' {\k20}shi{\k15}re{\k22}n
+Dialogue: 0,0:01:43.84,0:01:47.27,25ji,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ta{\k27}ai {\k20}mo {\k48}nai {\k22}ko{\k24}to {\k24}de{\k46}shou
+Dialogue: 0,0:02:00.55,0:02:03.35,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k13}su{\k13}ko{\k10}shi {\k13}ka{\k12}ke{\k11}te{\k13}ru {\k22}PINK {\k12}O{\k32}PA{\k19}L
+Dialogue: 0,0:02:02.44,0:02:05.27,Mafuyu Asahina,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♣ {\k12}ma{\k9}i{\k12}go {\k12}ni {\k10}na{\k13}t{\k12}ta {\k22}I{\k13}O{\k32}LI{\k26}TE
+Dialogue: 0,0:02:04.28,0:02:07.13,Ena Shinonome,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♦ {\k11}ho{\k11}ko{\k12}ri {\k33}wo {\k13}ka{\k9}bu{\k12}ru {\k14}TO{\k33}PA{\k27}Z
+Dialogue: 0,0:02:06.12,0:02:09.05,Mizuki Akiyama,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♥ {\k11}ko{\k14}do{\k11}ku {\k10}na {\k12}A{\k12}ME{\k11}TR{\k24}INE {\k12}mo {\k33}min{\k33}na
+Dialogue: 0,0:02:08.09,0:02:10.41,Hatsune Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k0}● {\k12}so{\k12}re{\k20}zo{\k13}re {\k12}ki{\k12}ka{\k23}zat{\k18}te
+Dialogue: 0,0:02:09.45,0:02:12.30,Hatsune Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k0}● {\k26}ni{\k20}got{\k11}te {\k15}o{\k18}mo{\k16}ku {\k24}nat{\k21}tet{\k24}te
+Dialogue: 0,0:02:11.31,0:02:14.03,Hatsune Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k0}● {\k13}na{\k12}ra{\k23}ku {\k11}no {\k12}so{\k22}ko {\k24}no {\k23}rou{\k11}ya {\k11}ni
+Dialogue: 0,0:02:12.99,0:02:16.46,Hatsune Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k0}● {\k18}shi{\k45}zun{\k35}de {\k10}i{\k46}ku {\k15}to {\k11}shi{\k23}te {\k34}mo
+Dialogue: 0,0:02:16.17,0:02:20.77,Hatsune Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k0}● {\kf117}aa {\k21}o{\k12}to{\k10}zu{\k11}re{\k36}ta {\k23}shi{\k24}a{\k10}wa{\k33}se {\k20}ga {\k17}ho{\k16}ra
+Dialogue: 0,0:02:19.74,0:02:22.69,Mafuyu Asahina,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♣ {\k23}shu{\k13}ku{\k22}sai{\k24}ji{\k22}tsu {\k12}mi{\k22}ta{\k23}i {\k24}ni
+Dialogue: 0,0:02:21.59,0:02:24.65,Mafuyu Asahina,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♣ {\k23}su{\k12}de {\k12}ni {\k11}ki{\k11}me{\k11}ra{\k10}re{\k11}ta {\k14}yo{\k24}tei{\k22}chou{\k11}wa {\k24}de
+Dialogue: 0,0:02:23.78,0:02:26.15,Ena Shinonome,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♦ {\k23}is{\k23}shun {\k13}de {\k8}u{\k13}se{\k13}te {\k10}shi{\k24}mau
+Dialogue: 0,0:02:25.16,0:02:28.56,Ena Shinonome,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♦ {\k14}na{\k10}gu{\k23}sa{\k22}me {\k23}de{\k23}mo {\k17}ka{\k14}ma{\k16}wa{\k15}na{\k14}i {\k18}yo {\k21}to
+Dialogue: 0,0:02:27.70,0:02:31.38,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k13}ki{\k22}bou {\k12}a{\k14}ri{\k10}ki {\k10}no {\k12}ze{\k12}tsu{\k11}bo{\k12}u {\k11}ni {\k34}sa {\k13}i{\k22}zon {\k12}i{\k38}zon
+Dialogue: 0,0:02:30.92,0:02:38.50,25ji,,0,0,0,fx,{\k90\fad(300,200)}{\kf117}sei{\k24}ka{\k23}tsu {\kf107}no{\k31} {\k23}to{\k23}ri{\k44}ko {\k23}ni {\k47}nac{\k35}chau {\k36}yo {\k44}LA{\k71}DY
+Dialogue: 0,0:02:37.63,0:02:40.50,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k23}"i{\k23}tsu{\k24}ka {\k21}mu{\k14}ku{\k21}wa{\k24}re{\k27}ru"
+Dialogue: 0,0:02:39.48,0:02:42.28,Mizuki Akiyama,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♥ {\k23}"mi{\k23}to{\k23}me{\k19}te {\k13}mo{\k24}ra{\k24}e{\k21}ru"
+Dialogue: 0,0:02:41.32,0:02:46.65,Ena Shinonome,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♦ {\k23}ki{\k24}ya{\k22}su{\k21}me {\k25}no {\k24}ju{\k21}mo{\k23}n {\k25}de {\k23}o{\k46}no{\k23}re {\k23}wo {\k47}da{\k23}ma{\k11}su {\k19}no
+Dialogue: 0,0:02:45.68,0:02:53.85,25ji,,0,0,0,fx,{\k90\fad(300,200)}{\kf118}sei{\k23}ka{\k22}tsu {\kf109}no{\kf31} {\k23}o{\k21}wa{\k47}ri {\k24}wa {\k21}su{\k23}gu {\k37}so{\k32}ko {\k48}LA{\k45}DY {\k49}LA{\k34}DY
+Dialogue: 0,0:02:52.84,0:02:55.26,Ena Shinonome,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♦ {\k26}ne{\k23}ta{\k11}mi {\k21}so{\k25}ne{\k26}mi
+Dialogue: 0,0:02:54.24,0:02:57.42,Mizuki Akiyama,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♥ {\k24}ya{\k21}jiu{\k25}ma {\k21}ret{\k24}tou {\k24}men{\k11}tsu {\k23}dat{\k35}te
+Dialogue: 0,0:02:56.78,0:03:01.46,Mafuyu Asahina,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♣ {\k34}i{\k12}ki{\k36}te{\k11}ku {\k22}ta{\k46}me {\k44}no{\k27}ri{\k22}ko{\k46}er' {\k19}shi{\k14}re{\k25}n
+Dialogue: 0,0:03:00.44,0:03:03.89,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k18}sh'yo{\k31}u {\k24}ga {\k47}nai {\k22}ko{\k23}to {\k24}de{\k46}shou
+Dialogue: 0,0:03:16.63,0:03:24.58,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k21}ko{\k23}no {\kf117}sei{\k26}ka{\k20}tsu {\kf111}no{\k26} {\k23}to{\k23}ri{\k48}ko {\k23}ni {\k47}nac{\k32}chau {\k36}yo {\k46}LA{\k63}DY
+Dialogue: 0,0:03:23.78,0:03:26.70,Hatsune Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k0}● {\k21}a{\k25}ta{\k23}ri{\k21}sa{\k14}war' {\k22}nai {\k24}you {\k32}na
+Dialogue: 0,0:03:25.63,0:03:28.44,Hatsune Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k0}● {\k21}tai{\k24}shuu{\k24}te{\k22}ki {\k13}na {\k20}hou{\k15}se{\k12}ki {\k20}wa
+Dialogue: 0,0:03:27.47,0:03:32.81,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k47}mou {\k23}hi{\k23}tsu{\k21}yo{\k25}u {\k23}wa {\k35}nai {\k34}ni{\k46}go{\k22}ri {\k23}su{\k45}ra {\k21}mo {\k12}ki{\k24}rei
+Dialogue: 0,0:03:31.83,0:03:40.00,25ji,,0,0,0,fx,{\k90\fad(300,200)}{\kf118}sei{\k24}ka{\k20}tsu {\kf118}no{\kf21} {\k25}to{\k23}ri{\k45}ko {\k23}ni {\k46}nac{\k36}chau {\k36}yo {\k44}LA{\k45}DY {\k47}LA{\k36}DY
+Dialogue: 0,0:03:39.00,0:03:41.36,Mafuyu Asahina,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♣ {\k25}"fu{\k21}ru{\k11}ku{\k24}sai" {\k23}tte {\k22}sa
+Dialogue: 0,0:03:40.39,0:03:43.32,Ena Shinonome,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♦ {\k24}"ka{\k24}ne {\k21}ni {\k24}na{\k12}ra{\k23}nai" {\k20}tte {\k35}sa
+Dialogue: 0,0:03:42.22,0:03:47.64,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k48}kin{\k24}se{\k20}n {\k25}wo {\k25}ka{\k22}na{\k24}de{\k23}na{\k22}i {\k46}ko{\k24}to{\k23}ba {\k46}wa {\k19}mu{\k16}yo{\k25}u
+Dialogue: 0,0:03:46.62,0:03:54.91,25ji,,0,0,0,fx,{\k90\fad(300,200)}{\kf117}sei{\k23}ka{\k22}tsu {\kf116}no{\k24} {\k22}to{\k24}ri{\k44}ko {\k23}ni {\k45}nac{\k37}chat{\k35}ta {\k45}LA{\k47}DY {\k45}LA{\k50}DY
+Dialogue: 0,0:03:53.81,0:03:56.08,Mafuyu Asahina,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♣ {\k21}i{\k23}ta{\k11}mi {\k22}dat{\k24}te {\k16}sa
+Dialogue: 0,0:03:55.16,0:03:58.34,Mizuki Akiyama,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♥ {\k24}i{\k22}e{\k24}nu {\k11}hi{\k13}mi{\k11}tsu {\k12}mo {\k22}at{\k11}te {\k34}iin{\k24}da
+Dialogue: 0,0:03:57.44,0:04:02.38,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k27}sou {\k33}i{\k13}ki{\k34}te{\k12}ku {\k24}ta{\k47}me {\k45}ma{\k21}to{\k25}u {\k46}mo{\k24}no {\k11}da{\k22}ro
+Dialogue: 0,0:04:01.39,0:04:04.80,Hatsune Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k0}● {\k23}ta{\k24}ai {\k24}mo {\k46}nai {\k21}ko{\k24}to {\k24}de{\k45}shou
+Dialogue: 0,0:04:08.54,0:04:13.57,Hatsune Miku,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\i1}● {\k47}LA{\k47}DY {\k47}LA{\kf252}DY
+Dialogue: 0,0:04:15.92,0:04:19.70,Kanade Yoisaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0}♠ {\k25}a{\k22}na{\k25}ta {\k22}mo {\k43}to{\k24}ri{\k24}ko {\k25}de{\k58}shou?
