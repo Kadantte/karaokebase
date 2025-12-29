@@ -1,0 +1,111 @@
+﻿[Script Info]
+Title: V nočnom mrake
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,40,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:06.13,0:00:08.69,Sample KM [Up],,0,0,0,karaoke,{\k12}Ja {\k18}vo {\k20}mra{\k19}ke {\k15}no{\k22}či {\k18}vsë {\k19}me{\k22}tal{\k10}sja {\k10}v {\k24}koš{\k24}ma{\k23}re
+Comment: 0,0:00:10.55,0:00:13.22,Sample KM [Up],,0,0,0,karaoke,{\k28}Sni{\k18}losʹ {\k17}mne, {\k20}čto {\k31}ras{\k14}sy{\k12}pa{\k28}lasʹ {\k18}kak {\k22}če{\k24}šu{\k35}ja
+Comment: 0,0:00:15.45,0:00:17.16,Sample KM [Up],,0,0,0,karaoke,{\k23}Vsë {\k30}te{\k17}lo {\k15}v {\k20}raz {\k15}na {\k24}kus{\k27}ki
+Comment: 0,0:00:17.76,0:00:19.54,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k55}vzvyl {\k20}ja {\k20}ot {\k21}tos{\k43}ki
+Comment: 0,0:00:19.96,0:00:23.04,Sample KM [Up],,0,0,0,karaoke,{\k13}I{\k19}bo {\k19}è{\k12}tim {\k26}ras{\k26}pav{\k18}šim{\k15}sja {\k23}te{\k23}lom {\k44}byl {\k70}ja
+Comment: 0,0:00:24.60,0:00:27.54,Sample KM [Up],,0,0,0,karaoke,{\k12}Ja {\k25}byl {\k15}sa{\k18}mym {\k21}mis{\k18}ti{\k20}čes{\k22}kim {\k17}du{\k19}hom {\k37}Ros{\k36}si{\k34}i
+Comment: 0,0:00:27.87,0:00:29.38,Sample KM [Choir],,0,0,0,karaoke,{\k55}U{\k60}a{\k36}u
+Comment: 0,0:00:29.24,0:00:31.99,Sample KM [Up],,0,0,0,karaoke,{\k15}Ja {\k15}ko{\k22}var{\k11}no {\k20}byl {\k25}pre{\k18}dan {\k19}vsej {\k23}cars{\k26}koj {\k32}semʹ{\k49}ëj
+Comment: 0,0:00:32.44,0:00:34.10,Sample KM [Choir],,0,0,0,karaoke,{\k59}U{\k62}a{\k45}u
+Comment: 0,0:00:33.89,0:00:35.70,Sample KM [Up],,0,0,0,karaoke,{\k30}Ja {\k28}mstil, {\k39}kak {\k32}mstit {\k11}sa{\k14}ta{\k27}na
+Comment: 0,0:00:36.24,0:00:37.98,Sample KM [Up],,0,0,0,karaoke,{\k20}Spas{\k24}lasʹ {\k15}tolʹ{\k18}ko {\k18}ču{\k12}dom {\k24}od{\k43}na
+Comment: 0,0:00:38.48,0:00:42.23,Sample KM [Up],,0,0,0,karaoke,{\k11}Be{\k16}re{\k28}gisʹ, {\k35}Ras{\k19}pu{\k15}tin {\k22}soč{\k20}tët{\k10}sja {\k11}s {\k15}to{\kf173}boj
+Comment: 0,0:00:43.12,0:00:47.07,Sample KM [Choir],,0,0,0,karaoke,{\k14}Vsë {\k17}vo {\k20}mra{\k17}ke {\k20}no{\k49}či {\k30}svja{\k13}za{\k12}no {\k14}s {\k57}mestʹ{\kf132}ju
+Comment: 0,0:00:47.76,0:00:51.26,Sample KM [Choir],,0,0,0,karaoke,{\k14}Vsë {\k18}vo {\k20}mra{\k15}ke {\k22}no{\k57}či {\k24}svja{\k15}za{\k11}no {\k14}v {\kf140}mestʹ
+Comment: 0,0:00:51.83,0:00:53.84,Sample KM [Up],,0,0,0,karaoke,{\k32}Prok{\k79}ljatʹ{\k13}e {\k23}naj{\k54}dët
+Comment: 0,0:00:54.07,0:00:56.42,Sample KM [Up],,0,0,0,karaoke,{\k17}È{\k22}tu {\k75}de{\k20}voč{\k21}ku {\k80}zdesʹ
+Comment: 0,0:00:57.05,0:00:58.72,Sample KM [Choir],,0,0,0,karaoke,{\k14}Vsë {\k16}vo {\k26}mra{\k13}ke {\k18}no{\k80}či
+Comment: 0,0:00:58.26,0:01:00.65,Sample KM [Up],,0,0,0,karaoke,{\k48}Ču{\k47}et {\kf144}smertʹ
+Comment: 0,0:01:03.61,0:01:06.50,Sample KM [Up],,0,0,0,karaoke,{\k17}No {\k18}pos{\k14}te{\k24}pen{\k15}no {\k22}ko {\k15}mne {\k15}voz{\k28}vra{\k22}ŝa{\k21}jut{\k19}sja {\k35}si{\k24}ly
+Comment: 0,0:01:08.41,0:01:11.55,Sample KM [Up],,0,0,0,karaoke,{\k20}Pov{\k19}ja{\k26}žu {\k32}ja {\k34}svoj {\k25}po{\k33}jas {\k19}i {\k43}bryz{\k14}nu {\k17}du{\k32}hov
+Comment: 0,0:01:12.95,0:01:14.89,Sample KM [Up],,0,0,0,karaoke,{\k29}Ždët {\k17}ca{\k19}rev{\k32}nu {\k27}straš{\k19}nyj {\k14}fi{\k37}nal
+Comment: 0,0:01:15.30,0:01:17.44,Sample KM [Up],,0,0,0,karaoke,{\k22}Ja {\k22}ska{\k13}žu {\k29}ej: {\k20}O{\k30}kon{\k25}čen {\k53}bal
+Comment: 0,0:01:17.72,0:01:21.73,Sample KM [Up],,0,0,0,karaoke,{\k22}Do {\k17}svi{\k30}danʹ{\k22}ja, {\k41}Nast{\k25}ja, {\k40}tvoj {\k32}čas{\k25} {\k36}nas{\kf111}tal
+Comment: 0,0:01:22.41,0:01:26.18,Sample KM [Choir],,0,0,0,karaoke,{\k12}A {\k19}vo {\k22}mra{\k14}ke {\k23}no{\k36}či{\k22} {\k16}u{\k20}žas {\k22}ro{\k56}di{\kf115}tsja
+Comment: 0,0:01:25.62,0:01:27.51,Sample KM [Up],,0,0,0,karaoke,{\k23}Ja {\k17}ej {\k20}e{\k20}ŝë {\k15}po{\k18}ka{\k76}žu
+Comment: 0,0:01:27.01,0:01:29.86,Sample KM [Choir],,0,0,0,karaoke,{\k13}A {\k19}vo {\k21}mra{\k14}ke {\k25}no{\k31}či{\k25} {\k22}prja{\k15}če{\k23}tsja {\k77}zlo
+Comment: 0,0:01:31.42,0:01:33.09,Sample KM [Up],,0,0,0,karaoke,{\k75}Smertʹ {\k18}ej {\k19}gro{\k55}zit
+Comment: 0,0:01:33.33,0:01:35.46,Sample KM [Up],,0,0,0,karaoke,{\k10}Vedʹ {\k25}Ras{\k74}pu{\k19}tin {\k23}ne {\k62}spit
+Comment: 0,0:01:36.25,0:01:37.98,Sample KM [Choir],,0,0,0,karaoke,{\k11}A {\k21}vo {\k19}mra{\k16}ke {\k22}no{\k84}či
+Comment: 0,0:01:37.46,0:01:39.74,Sample KM [Up],,0,0,0,karaoke,{\k75}Smertʹ {\k49}straš{\kf104}nej
+Comment: 0,0:01:40.90,0:01:44.55,Sample KM [Choir],,0,0,0,karaoke,{\k13}Vsë {\k18}vo {\k18}mra{\k13}ke {\k26}no{\k55}či {\k23}svja{\k15}za{\k10}no {\k16}s {\k57}mestʹ{\kf101}ju
+Comment: 0,0:01:44.05,0:01:45.29,Sample KM [Up],,0,0,0,karaoke,{\k71}Zlo - {\k53}vlastʹ
+Comment: 0,0:01:45.47,0:01:48.95,Sample KM [Choir],,0,0,0,karaoke,{\k18}Vsë {\k16}vo {\k22}mra{\k14}ke {\k23}no{\k55}či {\k21}u{\k17}ža{\k18}sa {\kf144}raj
+Comment: 0,0:01:48.70,0:01:49.80,Sample KM [Up],,0,0,0,karaoke,{\k54}My - {\k56}vlastʹ
+Comment: 0,0:01:49.80,0:01:54.10,Sample KM [Up],,0,0,0,karaoke,{\k75}U{\k20}ža{\k18}sa {\k63}raj,{\k24} {\k16}vsë, {\k18}ko{\k74}nec {\k16}i {\k26}pro{\k80}ŝaj
+Comment: 0,0:01:54.71,0:01:56.48,Sample KM [Choir],,0,0,0,karaoke,{\k16}Vsë {\k19}vo {\k20}mra{\k12}ke {\k24}no{\k86}či
+Comment: 0,0:01:57.02,0:01:58.79,Sample KM [Choir],,0,0,0,karaoke,{\k17}Vsë {\k19}vo {\k21}mra{\k16}ke {\k23}no{\k81}či
+Comment: 0,0:01:59.18,0:02:03.47,Sample KM [Up],,0,0,0,karaoke,{\k57}Èj, {\k55}vsja {\k55}ne{\k33}čistʹ,{\k30} {\k59}čto {\k28}mne {\k26}pod{\k61}vlast{\k25}na
+Comment: 0,0:02:03.72,0:02:07.23,Sample KM [Up],,0,0,0,karaoke,{\k11}K {\k55}nej {\k50}le{\k61}ti {\k53}stre{\kf121}loj
+Comment: 0,0:02:06.53,0:02:07.54,Sample KM [Choir],,0,0,0,karaoke,{\k10}I {\k11}vo {\k23}mra{\k15}ke {\k20}no{\k22}či
+Comment: 0,0:02:07.54,0:02:08.82,Sample KM [Choir],,0,0,0,karaoke,{\k12}I {\k21}vo {\k17}mra{\k16}ke {\k24}no{\k38}či
+Comment: 0,0:02:08.44,0:02:12.98,Sample KM [Up],,0,0,0,karaoke,{\k60}Pustʹ {\k53}po{\k61}kon{\k33}čat {\k25}s {\k54}è{\k26}toj {\k35}nes{\k58}čast{\k49}noj
+Comment: 0,0:02:13.29,0:02:14.41,Sample KM [Choir],,0,0,0,karaoke,{\k16}I {\k22}vo {\k19}mra{\k16}ke {\k24}no{\k15}či
+Comment: 0,0:02:14.41,0:02:15.49,Sample KM [Choir],,0,0,0,karaoke,{\k13}I {\k24}vo {\k18}mra{\k16}ke {\k17}no{\k20}či
+Comment: 0,0:02:15.49,0:02:16.87,Sample KM [Choir],,0,0,0,karaoke,{\k17}I {\k17}vo {\k22}mra{\k16}ke {\k17}no{\k49}či
+Comment: 0,0:02:16.89,0:02:19.80,Sample KM [Up],,0,0,0,karaoke,{\k67}Ej {\k40}ko{\kf184}nec
+Dialogue: 0,0:00:05.23,0:00:08.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Ja {\k18}vo {\k20}mra{\k19}ke {\k15}no{\k22}či {\k18}vsë {\k19}me{\k22}tal{\k10}sja {\k10}v {\k24}koš{\k24}ma{\k23}re
+Dialogue: 0,0:00:09.65,0:00:13.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Sni{\k18}losʹ {\k17}mne, {\k20}čto {\k31}ras{\k14}sy{\k12}pa{\k28}lasʹ {\k18}kak {\k22}če{\k24}šu{\k35}ja
+Dialogue: 0,0:00:14.55,0:00:17.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Vsë {\k30}te{\k17}lo {\k15}v {\k20}raz {\k15}na {\k24}kus{\k27}ki
+Dialogue: 0,0:00:16.86,0:00:19.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k55}vzvyl {\k20}ja {\k20}ot {\k21}tos{\k43}ki
+Dialogue: 0,0:00:19.06,0:00:23.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}I{\k19}bo {\k19}è{\k12}tim {\k26}ras{\k26}pav{\k18}šim{\k15}sja {\k23}te{\k23}lom {\k44}byl {\k70}ja
+Dialogue: 0,0:00:23.70,0:00:27.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Ja {\k25}byl {\k15}sa{\k18}mym {\k21}mis{\k18}ti{\k20}čes{\k22}kim {\k17}du{\k19}hom {\k37}Ros{\k36}si{\k34}i
+Dialogue: 0,0:00:26.97,0:00:29.58,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k55}U{\k60}a{\k36}u
+Dialogue: 0,0:00:28.34,0:00:32.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Ja {\k15}ko{\k22}var{\k11}no {\k20}byl {\k25}pre{\k18}dan {\k19}vsej {\k23}cars{\k26}koj {\k32}semʹ{\k49}ëj
+Dialogue: 0,0:00:31.54,0:00:34.30,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k59}U{\k62}a{\k45}u
+Dialogue: 0,0:00:32.99,0:00:35.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ja {\k28}mstil, {\k39}kak {\k32}mstit {\k11}sa{\k14}ta{\k27}na
+Dialogue: 0,0:00:35.34,0:00:38.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Spas{\k24}lasʹ {\k15}tolʹ{\k18}ko {\k18}ču{\k12}dom {\k24}od{\k43}na
+Dialogue: 0,0:00:37.58,0:00:42.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Be{\k16}re{\k28}gisʹ, {\k35}Ras{\k19}pu{\k15}tin {\k22}soč{\k20}tët{\k10}sja {\k11}s {\k15}to{\kf173}boj
+Dialogue: 0,0:00:42.22,0:00:47.27,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Vsë {\k17}vo {\k20}mra{\k17}ke {\k20}no{\k49}či {\k30}svja{\k13}za{\k12}no {\k14}s {\k57}mestʹ{\kf132}ju
+Dialogue: 0,0:00:46.86,0:00:51.46,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Vsë {\k18}vo {\k20}mra{\k15}ke {\k22}no{\k57}či {\k24}svja{\k15}za{\k11}no {\k14}v {\kf140}mestʹ
+Dialogue: 0,0:00:50.93,0:00:54.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Prok{\k79}ljatʹ{\k13}e {\k23}naj{\k54}dët
+Dialogue: 0,0:00:53.17,0:00:56.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}È{\k22}tu {\k75}de{\k20}voč{\k21}ku {\k80}zdesʹ
+Dialogue: 0,0:00:56.15,0:00:58.92,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Vsë {\k16}vo {\k26}mra{\k13}ke {\k18}no{\k80}či
+Dialogue: 0,0:00:57.36,0:01:00.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Ču{\k47}et {\kf144}smertʹ
+Dialogue: 0,0:01:02.71,0:01:06.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}No {\k18}pos{\k14}te{\k24}pen{\k15}no {\k22}ko {\k15}mne {\k15}voz{\k28}vra{\k22}ŝa{\k21}jut{\k19}sja {\k35}si{\k24}ly
+Dialogue: 0,0:01:07.51,0:01:11.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Pov{\k19}ja{\k26}žu {\k32}ja {\k34}svoj {\k25}po{\k33}jas {\k19}i {\k43}bryz{\k14}nu {\k17}du{\k32}hov
+Dialogue: 0,0:01:12.05,0:01:15.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Ždët {\k17}ca{\k19}rev{\k32}nu {\k27}straš{\k19}nyj {\k14}fi{\k37}nal
+Dialogue: 0,0:01:14.40,0:01:17.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ja {\k22}ska{\k13}žu {\k29}ej: {\k20}O{\k30}kon{\k25}čen {\k53}bal
+Dialogue: 0,0:01:16.82,0:01:21.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Do {\k17}svi{\k30}danʹ{\k22}ja, {\k41}Nast{\k25}ja, {\k40}tvoj {\k32}čas{\k25} {\k36}nas{\kf111}tal
+Dialogue: 0,0:01:21.51,0:01:26.38,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k12}A {\k19}vo {\k22}mra{\k14}ke {\k23}no{\k36}či{\k22} {\k16}u{\k20}žas {\k22}ro{\k56}di{\kf115}tsja
+Dialogue: 0,0:01:24.72,0:01:27.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ja {\k17}ej {\k20}e{\k20}ŝë {\k15}po{\k18}ka{\k76}žu
+Dialogue: 0,0:01:26.11,0:01:30.06,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}A {\k19}vo {\k21}mra{\k14}ke {\k25}no{\k31}či{\k25} {\k22}prja{\k15}če{\k23}tsja {\k77}zlo
+Dialogue: 0,0:01:30.52,0:01:33.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k75}Smertʹ {\k18}ej {\k19}gro{\k55}zit
+Dialogue: 0,0:01:32.43,0:01:35.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Vedʹ {\k25}Ras{\k74}pu{\k19}tin {\k23}ne {\k62}spit
+Dialogue: 0,0:01:35.35,0:01:38.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}A {\k21}vo {\k19}mra{\k16}ke {\k22}no{\k84}či
+Dialogue: 0,0:01:36.56,0:01:39.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k75}Smertʹ {\k49}straš{\kf104}nej
+Dialogue: 0,0:01:40.00,0:01:44.75,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Vsë {\k18}vo {\k18}mra{\k13}ke {\k26}no{\k55}či {\k23}svja{\k15}za{\k10}no {\k16}s {\k57}mestʹ{\kf101}ju
+Dialogue: 0,0:01:43.15,0:01:45.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Zlo - {\k53}vlastʹ
+Dialogue: 0,0:01:44.57,0:01:49.15,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Vsë {\k16}vo {\k22}mra{\k14}ke {\k23}no{\k55}či {\k21}u{\k17}ža{\k18}sa {\kf144}raj
+Dialogue: 0,0:01:47.80,0:01:50.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}My - {\k56}vlastʹ
+Dialogue: 0,0:01:48.90,0:01:54.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k75}U{\k20}ža{\k18}sa {\k63}raj,{\k24} {\k16}vsë, {\k18}ko{\k74}nec {\k16}i {\k26}pro{\k80}ŝaj
+Dialogue: 0,0:01:53.81,0:01:56.68,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Vsë {\k19}vo {\k20}mra{\k12}ke {\k24}no{\k86}či
+Dialogue: 0,0:01:56.12,0:01:58.99,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Vsë {\k19}vo {\k21}mra{\k16}ke {\k23}no{\k81}či
+Dialogue: 0,0:01:58.28,0:02:03.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k57}Èj, {\k55}vsja {\k55}ne{\k33}čistʹ,{\k30} {\k59}čto {\k28}mne {\k26}pod{\k61}vlast{\k25}na
+Dialogue: 0,0:02:02.82,0:02:07.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}K {\k55}nej {\k50}le{\k61}ti {\k53}stre{\kf121}loj
+Dialogue: 0,0:02:05.63,0:02:07.74,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k10}I {\k11}vo {\k23}mra{\k15}ke {\k20}no{\k22}či
+Dialogue: 0,0:02:06.64,0:02:09.02,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k12}I {\k21}vo {\k17}mra{\k16}ke {\k24}no{\k38}či
+Dialogue: 0,0:02:07.54,0:02:13.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Pustʹ {\k53}po{\k61}kon{\k33}čat {\k25}s {\k54}è{\k26}toj {\k35}nes{\k58}čast{\k49}noj
+Dialogue: 0,0:02:12.39,0:02:14.61,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k22}vo {\k19}mra{\k16}ke {\k24}no{\k15}či
+Dialogue: 0,0:02:13.51,0:02:15.69,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}I {\k24}vo {\k18}mra{\k16}ke {\k17}no{\k20}či
+Dialogue: 0,0:02:14.59,0:02:17.07,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k17}vo {\k22}mra{\k16}ke {\k17}no{\k49}či
+Dialogue: 0,0:02:15.99,0:02:20.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k67}Ej {\k40}ko{\kf184}nec
