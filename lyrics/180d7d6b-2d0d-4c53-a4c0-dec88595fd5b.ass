@@ -1,0 +1,87 @@
+﻿[Script Info]
+Title: JUMPIN' OVER !
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Script: Karaoke Mugen
+Original Timing: puyo
+Synch Point: puyo
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: MORE MORE JUMP!,Arial,24,&H00FFFFFF,&H0020CB6C,&H00000000,&H0020CB6C,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Len,Arial,24,&H00FFFFFF,&H0012EEFF,&H00000000,&H0012EEFF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Minori,Arial,24,&H00FFFFFF,&H00579AFF,&H00000000,&H00579AFF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Haruka,Arial,24,&H00FFFFFF,&H00FFA547,&H00000000,&H00FFA547,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Airi,Arial,24,&H00FFFFFF,&H00CCA9FF,&H00000000,&H00CCA9FF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Shizuku,Arial,24,&H00FFFFFF,&H00BDDD35,&H00000000,&H00BDDD35,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: MORE MORE JUMP! - Choir,Arial,24,&H00FFFFFF,&H0020CB6C,&H00000000,&H0020CB6C,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:49.75,0:00:50.34,COLOR CODE,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:09.72,COLOR CODE,,0,0,0,karaoke,{\c&H20CB6C&}MMJ!{\c} - {\c&H12EEFF&}Len{\c} - {\c&H579AFF&}Minori{\c} - {\c&HFFA547&}Haruka{\c} - {\c&HCCA9FF&}Airi{\c} - {\c&HBDDD35&}Shizuku
+Comment: 0,0:00:01.06,0:00:06.52,MORE MORE JUMP! - Choir,,0,0,0,karaoke,{\k50}Po{\k50}lar {\kf446}Star
+Comment: 0,0:00:06.89,0:00:09.53,Len,,0,0,0,karaoke,{\k19}i{\k33}tsu {\k18}no {\k32}ma{\k18}ni{\k17}ka {\k16}na{\k16}ku{\k18}shi{\k15}ta {\k35}COM{\k27}PASS
+Comment: 0,0:00:09.57,0:00:11.56,Len,,0,0,0,karaoke,{\k17}ni{\k35}jin{\k18}da {\k30}yo{\k19}zo{\k18}ra {\k62}ni
+Comment: 0,0:00:12.26,0:00:14.83,Haruka,,0,0,0,karaoke,{\k15}a{\k34}te {\k17}mo {\k34}nai {\k15}ma{\k17}ma {\k16}tsu{\k18}zu{\k16}i{\k17}ta {\k31}kou{\k27}kai
+Comment: 0,0:00:14.91,0:00:16.98,Haruka,,0,0,0,karaoke,{\k18}na{\k33}ga{\k18}sa{\k34}rer' {\k15}ma{\k17}ma {\k72}de
+Comment: 0,0:00:17.43,0:00:19.89,Shizuku,,0,0,0,karaoke,{\k16}i{\k17}tsu {\k32}dat{\k66}te {\k18}ma{\k16}chi{\k33}gat{\k48}te
+Comment: 0,0:00:20.06,0:00:22.57,Airi,,0,0,0,karaoke,{\k37}nai{\k32}tat{\k65}te {\k18}ki{\k18}e{\k32}nak'{\k49}te
+Comment: 0,0:00:22.89,0:00:25.58,Minori,,0,0,0,karaoke,{\k18}ku{\k32}chi{\k17}zu{\k35}san{\k17}de{\k16}ta {\k18}kyu{\k16}u{\k16}na{\k14}n {\k36}shin{\k34}gou
+Comment: 0,0:00:25.59,0:00:27.10,Minori,,0,0,0,karaoke,{\k15}na{\k34}tsu{\k14}ka{\k40}shii {\k14}u{\k34}ta
+Comment: 0,0:00:28.38,0:00:32.54,MORE MORE JUMP! - Choir,,0,0,0,karaoke,{\k51}Po{\k54}lar {\kf311}Star
+Comment: 0,0:00:30.41,0:00:35.34,MORE MORE JUMP!,,0,0,0,karaoke,{\k17}so{\k17}re {\k16}de{\k17}mo {\k34}zut{\k16}to {\k33}zut{\k17}to {\k33}zut{\k16}to {\k34}ki{\k17}e{\k65}nai {\kf161}STAR
+Comment: 0,0:00:33.75,0:00:37.75,MORE MORE JUMP! - Choir,,0,0,0,karaoke,{\k53}Po{\k47}lar {\kf300}Star
+Comment: 0,0:00:35.57,0:00:37.88,MORE MORE JUMP!,,0,0,0,karaoke,{\k17}mi{\k18}a{\k14}ge{\k19}re{\k17}ba {\k33}its'{\k17}mo {\k33}its'{\k16}mo {\k32}its'{\k15}mo
+Comment: 0,0:00:37.88,0:00:41.40,MORE MORE JUMP!,,0,0,0,karaoke,{\k37}so{\k16}ba {\k19}de {\k16}ma{\k16}ta{\k17}ta{\k33}ku {\k17}fu{\k49}an {\k33}mo {\k30}ju{\k20}so {\k49}mo
+Comment: 0,0:00:41.40,0:00:42.47,MORE MORE JUMP!,,0,0,0,karaoke,{\k20}no{\k16}mi{\k34}kon{\k37}de
+Comment: 0,0:00:42.75,0:00:45.07,MORE MORE JUMP!,,0,0,0,karaoke,{\k15}ta{\k19}da {\k31}mas{\k18}su{\k34}gu {\k17}ni {\k16}ki{\k17}ra{\k33}mei{\k32}ta
+Comment: 0,0:00:45.40,0:00:49.63,Haruka,,0,0,0,karaoke,{\k35}a{\k34}no {\k32}ho{\k35}shi {\k32}no {\k53}yo{\k17}u {\k65}ni {\k64}i{\k56}ma
+Comment: 0,0:00:49.76,0:00:51.95,Haruka,,0,0,0,karaoke,{\k33}its'{\k18}ka {\k32}yu{\k19}me{\k15}mi{\k34}ta {\k36}STAGE {\k32}he
+Comment: 0,0:00:52.41,0:00:54.58,MORE MORE JUMP!,,0,0,0,karaoke,{\k20}yo{\k15}ru {\k16}wo {\k34}sai{\k17}te {\k18}ka{\k33}ga{\k33}yai{\k31}te
+Comment: 0,0:00:54.58,0:00:59.58,MORE MORE JUMP!,,0,0,0,karaoke,{\k19}hi{\k15}bi{\k33}ke {\k19}hi{\k16}bi{\k33}ke {\k16}ha{\k18}ru{\k16}ka {\k34}ka{\k16}na{\k34}ta {\k15}no {\k19}ki{\k16}mi {\kf181}he
+Comment: 0,0:00:58.09,0:01:00.54,MORE MORE JUMP! - Choir,,0,0,0,karaoke,{\k17}MO{\k35}RE {\k17}MO{\k33}RE {\k17}MO{\k33}RE {\k17}MO{\k31}RE {\k45}JUMP!
+Comment: 0,0:01:00.08,0:01:03.07,Haruka,,0,0,0,karaoke,{\k20}ko{\k15}no {\k34}ko{\k17}e {\k49}ga {\k34}to{\k32}do{\k34}ku {\k34}you {\k30}ni
+Comment: 0,0:01:03.07,0:01:05.16,MORE MORE JUMP!,,0,0,0,karaoke,{\k18}so{\k19}ra {\k17}wa {\k32}ai{\k16}ni{\k18}ku {\k32}ryuu{\k34}sei{\k23}gun
+Comment: 0,0:01:05.24,0:01:10.25,MORE MORE JUMP!,,0,0,0,karaoke,{\k20}hi{\k17}ka{\k33}re {\k16}hi{\k18}ka{\k33}re {\k16}ma{\k17}ba{\k16}yu{\k34}i {\k18}a{\k32}me {\k15}no {\k17}na{\k17}ka {\kf182}de
+Comment: 0,0:01:08.75,0:01:11.09,MORE MORE JUMP! - Choir,,0,0,0,karaoke,{\k18}MO{\k34}RE {\k17}MO{\k33}RE {\k17}MO{\k33}RE {\k18}MO{\k30}RE {\k34}JUMP!
+Comment: 0,0:01:10.75,0:01:13.73,Len,,0,0,0,karaoke,{\k19}do{\k16}ko {\k33}ni {\k17}i{\k34}tat{\k16}te {\k33}wa{\k34}ka{\k34}ru {\k31}you {\k31}ni
+Comment: 0,0:01:13.73,0:01:15.35,Haruka,,0,0,0,karaoke,{\k53}Po{\k50}lar {\k59}Star
+Comment: 0,0:01:15.44,0:01:20.57,Haruka,,0,0,0,karaoke,{\k33}wa{\k30}ta{\k36}shi {\k34}wo {\k17}mi{\k32}tsu{\k18}ke{\k67}te {\k29}wa{\k33}ta{\k35}shi {\k35}wo {\k18}mi{\k33}te{\k18}i{\k45}te
+Comment: 0,0:01:20.73,0:01:25.05,Haruka,,0,0,0,karaoke,{\k34}mo{\k36}u {\k32}ma{\k66}yo{\k66}{\rMinori}wa{\k67}{\rAiri}nai {\rHaruka}{\rShizuku}{\k65}you {\rMORE MORE JUMP!}{\k66}ni
+Comment: 0,0:01:25.26,0:01:27.28,MORE MORE JUMP!,,0,0,0,karaoke,{\k18}ka{\k17}ga{\k15}ya{\k32}ki {\k16}tsu{\k35}zu{\k34}ke{\k35}te
+Dialogue: 0,0:00:00.00,0:00:09.92,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H20CB6C&}MMJ!{\c} - {\c&H12EEFF&}Len{\c} - {\c&H579AFF&}Minori{\c} - {\c&HFFA547&}Haruka{\c} - {\c&HCCA9FF&}Airi{\c} - {\c&HBDDD35&}Shizuku
+Dialogue: 0,0:00:00.16,0:00:06.72,MORE MORE JUMP! - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Po{\k50}lar {\kf446}Star
+Dialogue: 0,0:00:05.99,0:00:09.73,Len,,0,0,0,fx,{\k90\fad(300,200)}{\k19}i{\k33}tsu {\k18}no {\k32}ma{\k18}ni{\k17}ka {\k16}na{\k16}ku{\k18}shi{\k15}ta {\k35}COM{\k27}PASS
+Dialogue: 0,0:00:08.67,0:00:11.76,Len,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ni{\k35}jin{\k18}da {\k30}yo{\k19}zo{\k18}ra {\k62}ni
+Dialogue: 0,0:00:11.36,0:00:15.03,Haruka,,0,0,0,fx,{\k90\fad(300,200)}{\k15}a{\k34}te {\k17}mo {\k34}nai {\k15}ma{\k17}ma {\k16}tsu{\k18}zu{\k16}i{\k17}ta {\k31}kou{\k27}kai
+Dialogue: 0,0:00:14.01,0:00:17.18,Haruka,,0,0,0,fx,{\k90\fad(300,200)}{\k18}na{\k33}ga{\k18}sa{\k34}rer' {\k15}ma{\k17}ma {\k72}de
+Dialogue: 0,0:00:16.53,0:00:20.09,Shizuku,,0,0,0,fx,{\k90\fad(300,200)}{\k16}i{\k17}tsu {\k32}dat{\k66}te {\k18}ma{\k16}chi{\k33}gat{\k48}te
+Dialogue: 0,0:00:19.16,0:00:22.77,Airi,,0,0,0,fx,{\k90\fad(300,200)}{\k37}nai{\k32}tat{\k65}te {\k18}ki{\k18}e{\k32}nak'{\k49}te
+Dialogue: 0,0:00:21.99,0:00:25.78,Minori,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ku{\k32}chi{\k17}zu{\k35}san{\k17}de{\k16}ta {\k18}kyu{\k16}u{\k16}na{\k14}n {\k36}shin{\k34}gou
+Dialogue: 0,0:00:24.69,0:00:27.30,Minori,,0,0,0,fx,{\k90\fad(300,200)}{\k15}na{\k34}tsu{\k14}ka{\k40}shii {\k14}u{\k34}ta
+Dialogue: 0,0:00:27.48,0:00:32.74,MORE MORE JUMP! - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Po{\k54}lar {\kf311}Star
+Dialogue: 0,0:00:29.51,0:00:35.54,MORE MORE JUMP!,,0,0,0,fx,{\k90\fad(300,200)}{\k17}so{\k17}re {\k16}de{\k17}mo {\k34}zut{\k16}to {\k33}zut{\k17}to {\k33}zut{\k16}to {\k34}ki{\k17}e{\k65}nai {\kf161}STAR
+Dialogue: 0,0:00:32.85,0:00:37.95,MORE MORE JUMP! - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k53}Po{\k47}lar {\kf300}Star
+Dialogue: 0,0:00:34.67,0:00:38.08,MORE MORE JUMP!,,0,0,0,fx,{\k90\fad(300,200)}{\k17}mi{\k18}a{\k14}ge{\k19}re{\k17}ba {\k33}its'{\k17}mo {\k33}its'{\k16}mo {\k32}its'{\k15}mo
+Dialogue: 0,0:00:36.98,0:00:41.60,MORE MORE JUMP!,,0,0,0,fx,{\k90\fad(300,200)}{\k37}so{\k16}ba {\k19}de {\k16}ma{\k16}ta{\k17}ta{\k33}ku {\k17}fu{\k49}an {\k33}mo {\k30}ju{\k20}so {\k49}mo
+Dialogue: 0,0:00:40.50,0:00:42.67,MORE MORE JUMP!,,0,0,0,fx,{\k90\fad(300,200)}{\k20}no{\k16}mi{\k34}kon{\k37}de
+Dialogue: 0,0:00:41.85,0:00:45.27,MORE MORE JUMP!,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ta{\k19}da {\k31}mas{\k18}su{\k34}gu {\k17}ni {\k16}ki{\k17}ra{\k33}mei{\k32}ta
+Dialogue: 0,0:00:44.50,0:00:49.83,Haruka,,0,0,0,fx,{\k90\fad(300,200)}{\k35}a{\k34}no {\k32}ho{\k35}shi {\k32}no {\k53}yo{\k17}u {\k65}ni {\k64}i{\k56}ma
+Dialogue: 0,0:00:48.86,0:00:52.15,Haruka,,0,0,0,fx,{\k90\fad(300,200)}{\k33}its'{\k18}ka {\k32}yu{\k19}me{\k15}mi{\k34}ta {\k36}STAGE {\k32}he
+Dialogue: 0,0:00:51.51,0:00:54.78,MORE MORE JUMP!,,0,0,0,fx,{\k90\fad(300,200)}{\k20}yo{\k15}ru {\k16}wo {\k34}sai{\k17}te {\k18}ka{\k33}ga{\k33}yai{\k31}te
+Dialogue: 0,0:00:53.68,0:00:59.78,MORE MORE JUMP!,,0,0,0,fx,{\k90\fad(300,200)}{\k19}hi{\k15}bi{\k33}ke {\k19}hi{\k16}bi{\k33}ke {\k16}ha{\k18}ru{\k16}ka {\k34}ka{\k16}na{\k34}ta {\k15}no {\k19}ki{\k16}mi {\kf181}he
+Dialogue: 0,0:00:57.19,0:01:00.74,MORE MORE JUMP! - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k17}MO{\k35}RE {\k17}MO{\k33}RE {\k17}MO{\k33}RE {\k17}MO{\k31}RE {\k45}JUMP!
+Dialogue: 0,0:00:59.18,0:01:03.27,Haruka,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ko{\k15}no {\k34}ko{\k17}e {\k49}ga {\k34}to{\k32}do{\k34}ku {\k34}you {\k30}ni
+Dialogue: 0,0:01:02.17,0:01:05.36,MORE MORE JUMP!,,0,0,0,fx,{\k90\fad(300,200)}{\k18}so{\k19}ra {\k17}wa {\k32}ai{\k16}ni{\k18}ku {\k32}ryuu{\k34}sei{\k23}gun
+Dialogue: 0,0:01:04.34,0:01:10.45,MORE MORE JUMP!,,0,0,0,fx,{\k90\fad(300,200)}{\k20}hi{\k17}ka{\k33}re {\k16}hi{\k18}ka{\k33}re {\k16}ma{\k17}ba{\k16}yu{\k34}i {\k18}a{\k32}me {\k15}no {\k17}na{\k17}ka {\kf182}de
+Dialogue: 0,0:01:07.85,0:01:11.29,MORE MORE JUMP! - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}MO{\k34}RE {\k17}MO{\k33}RE {\k17}MO{\k33}RE {\k18}MO{\k30}RE {\k34}JUMP!
+Dialogue: 0,0:01:09.85,0:01:13.93,Len,,0,0,0,fx,{\k90\fad(300,200)}{\k19}do{\k16}ko {\k33}ni {\k17}i{\k34}tat{\k16}te {\k33}wa{\k34}ka{\k34}ru {\k31}you {\k31}ni
+Dialogue: 0,0:01:12.83,0:01:15.55,Haruka,,0,0,0,fx,{\k90\fad(300,200)}{\k53}Po{\k50}lar {\k59}Star
+Dialogue: 0,0:01:14.54,0:01:20.77,Haruka,,0,0,0,fx,{\k90\fad(300,200)}{\k33}wa{\k30}ta{\k36}shi {\k34}wo {\k17}mi{\k32}tsu{\k18}ke{\k67}te {\k29}wa{\k33}ta{\k35}shi {\k35}wo {\k18}mi{\k33}te{\k18}i{\k45}te
+Dialogue: 0,0:01:19.83,0:01:25.25,Haruka,,0,0,0,fx,{\k90\fad(300,200)}{\k34}mo{\k36}u {\k32}ma{\k66}yo{\k66}{\rMinori}wa{\k67}{\rAiri}nai {\rHaruka}{\rShizuku}{\k65}you {\rMORE MORE JUMP!}{\k66}ni
+Dialogue: 0,0:01:24.36,0:01:27.48,MORE MORE JUMP!,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ka{\k17}ga{\k15}ya{\k32}ki {\k16}tsu{\k35}zu{\k34}ke{\k35}te
