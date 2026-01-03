@@ -1,3 +1,26 @@
+# January 2026
+
+Kara count: 28 195
+
+Contributors: 
+
+- Balux
+- NikoNikoD
+- Pafnaffan
+- kmeuh
+- pockydany
+- red5h4d0w
+
+## Added
+
+New songs : 5
+
+- ENG - I Was a Teenage Exocolonist - GAME AMV - The Child You Were (Pafnaffan)
+- JPN - Ave Mujica - AUDIO - Aoi Hitomi no Naka ni \~ Full Vers (red5h4d0w)
+- JPN - Kanata Amane - MV - Cupid (Balux)
+- JPN - Lycoris Recoil - MV - ALIVE \~ Full Vers (kmeuh, NikoNikoD)
+- JPN - Taiko no Tatsujin: Tatacon de Dodon ga Don - GAME PS2 ED - Hello! Don-chan (pockydany)
+
 # December 2025
 
 Kara count: 27 857
