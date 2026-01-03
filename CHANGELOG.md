@@ -1,3 +1,15 @@
+# January 2026
+
+Kara count: 27 857
+
+Contributors: 
+
+
+## Added
+
+New songs : 0
+
+
 # December 2025
 
 Kara count: 27 857
