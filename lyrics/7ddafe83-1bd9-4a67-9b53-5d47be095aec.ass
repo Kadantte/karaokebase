@@ -1,0 +1,89 @@
+﻿[Script Info]
+Title: Abunai Kioku
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Masayuki,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Aoi,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Duo,Arial,24,&H00FFFFFF,&H008900FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Legend,Arial,24,&H00FFFFFF,&H008900FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,0,0,40,1
+Style: Choir,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:01.20,Legend,,0,0,0,karaoke,{\k1000} Duo {\2cFFFFFF}| {\rMasayuki}Masayuki Suzuki {\2cFFFFFF}| {\rAoi} Aoi Koga {\2cFFFFFF}| {\rChoir}Choir
+Comment: 0,0:00:00.59,0:00:03.39,Masayuki,,0,0,0,karaoke,{\k68}u{\k50}tsu{\k41}ku{\rDuo}{\k42}shi{\k22}i {\k26}ma{\k13}ma {\k18}de
+Comment: 0,0:00:03.58,0:00:05.45,Duo,,0,0,0,karaoke,{\k25}o{\k21}mo{\k18}i{\k35}de {\k22}ni {\k17}shi{\k22}ma{\k34}shou
+Comment: 0,0:00:05.62,0:00:08.30,Masayuki,,0,0,0,karaoke,{\k28}na{\k21}n{\k15}te {\k38}fu{\k27}ta{\k15}ri {\k22}ja {\k36}na{\k25}i {\k27}yo {\k20}ne
+Comment: 0,0:00:08.40,0:00:10.46,Duo,,0,0,0,karaoke,{\k27}RE-{\k49}DANCE {\k26}RE-{\k46}DANCE {\k29}RE-{\k30}DANCE
+Comment: 0,0:00:10.69,0:00:12.54,Duo,,0,0,0,karaoke,{\k55}saa {\k24}o{\k24}do{\kf82}re
+Comment: 0,0:00:13.99,0:00:17.47,Choir,,0,0,0,karaoke,{\k52}LA {\k25}NA{\k25}NA{\k77}NA {\k50}LA{\k26}LA {\k26}NA{\k25}NA{\k42}NA
+Comment: 0,0:00:17.56,0:00:21.57,Choir,,0,0,0,karaoke,{\k26}RE-{\k76}DANCE {\k24}RE-{\k76}DANCE {\k25}RE-{\kf170}DAN{\k4}CE
+Comment: 0,0:00:24.16,0:00:26.94,Masayuki,,0,0,0,karaoke,{\k37}dou{\k14}shi{\k51}te {\k24}ya{\k26}i{\k19}te {\k23}shi{\k34}ma{\k26}un {\k24}da
+Comment: 0,0:00:26.70,0:00:29.22,Aoi,,0,0,0,karaoke,{\k50}do{\k50}u{\k40}shi{\kf112}te
+Comment: 0,0:00:27.20,0:00:31.68,Masayuki,,0,0,0,karaoke,{\k28}a{\k23}na{\k14}ta {\k24}no {\k44}ko{\k20}e {\k51}ga {\k26}da{\k22}re{\k16}ka {\k27}no {\k37}mo{\k22}no {\k29}ni {\k25}na{\k40}ru
+Comment: 0,0:00:30.75,0:00:33.29,Aoi,,0,0,0,karaoke,{\k54}ha{\k26}na{\k23}re{\k34}tei{\kf117}ku
+Comment: 0,0:00:32.28,0:00:35.09,Masayuki,,0,0,0,karaoke,{\k53}zut{\k48}to {\k29}ku{\k21}bi{\k17}su{\k26}ji {\k62}ni {\k25}nee
+Comment: 0,0:00:34.80,0:00:37.24,Aoi,,0,0,0,karaoke,{\k48}KI{\k32}S{\k24}S {\k41}shi{\kf99}te
+Comment: 0,0:00:35.31,0:00:39.94,Masayuki,,0,0,0,karaoke,{\k31}hi{\k22}ri{\k13}tsu{\k26}ku {\k64}you {\k51}na {\k28}yo{\k24}i{\k17}n {\k19}ga {\k41}ki{\k23}e{\k24}na{\k28}ku{\k52}te
+Comment: 0,0:00:38.86,0:00:41.46,Aoi,,0,0,0,karaoke,{\k55}ke{\k26}se{\k26}na{\k35}i {\kf118}ne
+Comment: 0,0:00:40.28,0:00:42.73,Masayuki,,0,0,0,karaoke,{\k42}kan{\k24}pe{\k26}ki {\k25}na {\k27}ME{\k24}MO{\kf77}RY
+Comment: 0,0:00:42.47,0:00:44.50,Aoi,,0,0,0,karaoke,{\k26}wi {\k48}la {\kf129}la
+Comment: 0,0:00:43.73,0:00:47.07,Masayuki,,0,0,0,karaoke,{\k21}o{\k31}sha{\k50}re {\k25}ni {\k25}to{\k27}ji{\k25}ta {\k25}no {\kf105}ni
+Comment: 0,0:00:46.54,0:00:48.53,Aoi,,0,0,0,karaoke,{\k25}wi {\k48}la {\kf126}la
+Comment: 0,0:00:47.78,0:00:50.28,Masayuki,,0,0,0,karaoke,{\k23}a{\k27}ke{\k55}ta{\k25}ra {\k22}i{\k29}ke{\k25}na{\k23}i {\k21}to
+Comment: 0,0:00:50.32,0:00:52.24,Masayuki,,0,0,0,karaoke,{\k55}fu{\k24}ta{\k24}ri {\k27}shi{\k25}t{\k25}te{\k12}ru
+Comment: 0,0:00:52.39,0:00:55.34,Masayuki,,0,0,0,karaoke,{\k48}da{\k27}ke{\k27}do {\k24}na{\k51}ru {\k23}no {\kf95}sa
+Comment: 0,0:00:55.19,0:01:00.53,Aoi,,0,0,0,karaoke,{\k50}to{\k51}ma{\k51}re{\k99}na-{\k102}a-{\k103}a-{\k78}ai
+Comment: 0,0:00:56.39,0:01:00.53,Masayuki,,0,0,0,karaoke,{\k57}u{\k22}ru{\k27}sa{\k28}ku {\k51}a{\k26}i {\kf203}ga
+Comment: 0,0:01:01.13,0:01:03.88,Masayuki,,0,0,0,karaoke,{\k63}u{\k52}tsu{\k38}ku{\rDuo}{\k41}shi{\k23}i {\k26}ma{\k13}ma {\k19}de
+Comment: 0,0:01:04.03,0:01:05.90,Duo,,0,0,0,karaoke,{\k29}sa{\k26}yo{\k14}na{\k38}ra {\k21}ni {\k17}shi{\k20}ma{\k22}shou
+Comment: 0,0:01:06.12,0:01:09.85,Masayuki,,0,0,0,karaoke,{\k22}ha{\k17}gu{\k22}ra{\k34}ka{\k28}su {\k30}so{\k24}bu{\k26}ri {\k24}ga {\k26}mo{\k24}u {\k27}a{\k25}bu{\k28}na{\k16}i
+Comment: 0,0:01:10.18,0:01:12.01,Masayuki,,0,0,0,karaoke,{\k23}mi{\k24}wa{\k17}ku {\rDuo}{\k38}no {\k24}ME{\k25}LO{\k15}DY{\k17}-Y
+Comment: 0,0:01:12.18,0:01:14.04,Duo,,0,0,0,karaoke,{\k23}RE{\k19}F{\k25}RA{\k35}IN {\k27}su{\k26}ru {\k14}na{\k17}ra
+Comment: 0,0:01:14.25,0:01:16.93,Masayuki,,0,0,0,karaoke,{\k24}o{\k26}mo{\k12}i{\k40}de {\k24}mo {\k26}mo{\k24}ya{\k27}shi{\k22}ma{\k28}sho{\k15}u
+Comment: 0,0:01:17.02,0:01:19.13,Duo,,0,0,0,karaoke,{\k28}RE-{\k50}DANCE {\k25}RE-{\k51}DANCE {\k26}RE-{\k31}DANCE
+Comment: 0,0:01:19.30,0:01:21.26,Duo,,0,0,0,karaoke,{\k56}saa {\k24}o{\k26}do{\kf90}re
+Comment: 0,0:01:22.64,0:01:26.15,Choir,,0,0,0,karaoke,{\k51}LA {\k25}NA{\k25}NA{\k78}NA {\k50}LA{\k25}LA {\k26}NA{\k25}NA{\k43}NA
+Comment: 0,0:01:26.19,0:01:28.95,Choir,,0,0,0,karaoke,{\k24}RE-{\k77}DANCE {\k25}RE-{\k77}DANCE {\k21}RE-{\k52}DANCE
+Dialogue: 0,0:00:00.00,0:00:03.59,Masayuki,,0,0,0,fx,{\k59\fad(590,200)}{\k68}u{\k50}tsu{\k41}ku{\rDuo}{\k42}shi{\k22}i {\k26}ma{\k13}ma {\k18}de
+Dialogue: 0,0:00:02.68,0:00:05.65,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k25}o{\k21}mo{\k18}i{\k35}de {\k22}ni {\k17}shi{\k22}ma{\k34}shou
+Dialogue: 0,0:00:04.72,0:00:08.50,Masayuki,,0,0,0,fx,{\k90\fad(300,200)}{\k28}na{\k21}n{\k15}te {\k38}fu{\k27}ta{\k15}ri {\k22}ja {\k36}na{\k25}i {\k27}yo {\k20}ne
+Dialogue: 0,0:00:07.50,0:00:10.66,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k27}RE-{\k49}DANCE {\k26}RE-{\k46}DANCE {\k29}RE-{\k30}DANCE
+Dialogue: 0,0:00:09.79,0:00:12.74,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k55}saa {\k24}o{\k24}do{\kf82}re
+Dialogue: 0,0:00:13.09,0:00:17.67,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k52}LA {\k25}NA{\k25}NA{\k77}NA {\k50}LA{\k26}LA {\k26}NA{\k25}NA{\k42}NA
+Dialogue: 0,0:00:16.66,0:00:21.77,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}RE-{\k76}DANCE {\k24}RE-{\k76}DANCE {\k25}RE-{\kf170}DAN{\k4}CE
+Dialogue: 0,0:00:23.26,0:00:27.14,Masayuki,,0,0,0,fx,{\k90\fad(300,200)}{\k37}dou{\k14}shi{\k51}te {\k24}ya{\k26}i{\k19}te {\k23}shi{\k34}ma{\k26}un {\k24}da
+Dialogue: 0,0:00:25.80,0:00:29.42,Aoi,,0,0,0,fx,{\k90\fad(300,200)}{\k50}do{\k50}u{\k40}shi{\kf112}te
+Dialogue: 0,0:00:26.30,0:00:31.88,Masayuki,,0,0,0,fx,{\k90\fad(300,200)}{\k28}a{\k23}na{\k14}ta {\k24}no {\k44}ko{\k20}e {\k51}ga {\k26}da{\k22}re{\k16}ka {\k27}no {\k37}mo{\k22}no {\k29}ni {\k25}na{\k40}ru
+Dialogue: 0,0:00:29.85,0:00:33.49,Aoi,,0,0,0,fx,{\k90\fad(300,200)}{\k54}ha{\k26}na{\k23}re{\k34}tei{\kf117}ku
+Dialogue: 0,0:00:31.38,0:00:35.29,Masayuki,,0,0,0,fx,{\k90\fad(300,200)}{\k53}zut{\k48}to {\k29}ku{\k21}bi{\k17}su{\k26}ji {\k62}ni {\k25}nee
+Dialogue: 0,0:00:33.90,0:00:37.44,Aoi,,0,0,0,fx,{\k90\fad(300,200)}{\k48}KI{\k32}S{\k24}S {\k41}shi{\kf99}te
+Dialogue: 0,0:00:34.41,0:00:40.14,Masayuki,,0,0,0,fx,{\k90\fad(300,200)}{\k31}hi{\k22}ri{\k13}tsu{\k26}ku {\k64}you {\k51}na {\k28}yo{\k24}i{\k17}n {\k19}ga {\k41}ki{\k23}e{\k24}na{\k28}ku{\k52}te
+Dialogue: 0,0:00:37.96,0:00:41.66,Aoi,,0,0,0,fx,{\k90\fad(300,200)}{\k55}ke{\k26}se{\k26}na{\k35}i {\kf118}ne
+Dialogue: 0,0:00:39.38,0:00:42.93,Masayuki,,0,0,0,fx,{\k90\fad(300,200)}{\k42}kan{\k24}pe{\k26}ki {\k25}na {\k27}ME{\k24}MO{\kf77}RY
+Dialogue: 0,0:00:41.57,0:00:44.70,Aoi,,0,0,0,fx,{\k90\fad(300,200)}{\k26}wi {\k48}la {\kf129}la
+Dialogue: 0,0:00:42.83,0:00:47.27,Masayuki,,0,0,0,fx,{\k90\fad(300,200)}{\k21}o{\k31}sha{\k50}re {\k25}ni {\k25}to{\k27}ji{\k25}ta {\k25}no {\kf105}ni
+Dialogue: 0,0:00:45.64,0:00:48.73,Aoi,,0,0,0,fx,{\k90\fad(300,200)}{\k25}wi {\k48}la {\kf126}la
+Dialogue: 0,0:00:46.88,0:00:50.48,Masayuki,,0,0,0,fx,{\k90\fad(300,200)}{\k23}a{\k27}ke{\k55}ta{\k25}ra {\k22}i{\k29}ke{\k25}na{\k23}i {\k21}to
+Dialogue: 0,0:00:49.42,0:00:52.44,Masayuki,,0,0,0,fx,{\k90\fad(300,200)}{\k55}fu{\k24}ta{\k24}ri {\k27}shi{\k25}t{\k25}te{\k12}ru
+Dialogue: 0,0:00:51.49,0:00:55.54,Masayuki,,0,0,0,fx,{\k90\fad(300,200)}{\k48}da{\k27}ke{\k27}do {\k24}na{\k51}ru {\k23}no {\kf95}sa
+Dialogue: 0,0:00:54.29,0:01:00.73,Aoi,,0,0,0,fx,{\k90\fad(300,200)}{\k50}to{\k51}ma{\k51}re{\k99}na-{\k102}a-{\k103}a-{\k78}ai
+Dialogue: 0,0:00:55.49,0:01:00.73,Masayuki,,0,0,0,fx,{\k90\fad(300,200)}{\k57}u{\k22}ru{\k27}sa{\k28}ku {\k51}a{\k26}i {\kf203}ga
+Dialogue: 0,0:01:00.23,0:01:04.08,Masayuki,,0,0,0,fx,{\k90\fad(300,200)}{\k63}u{\k52}tsu{\k38}ku{\rDuo}{\k41}shi{\k23}i {\k26}ma{\k13}ma {\k19}de
+Dialogue: 0,0:01:03.13,0:01:06.10,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k29}sa{\k26}yo{\k14}na{\k38}ra {\k21}ni {\k17}shi{\k20}ma{\k22}shou
+Dialogue: 0,0:01:05.22,0:01:10.05,Masayuki,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ha{\k17}gu{\k22}ra{\k34}ka{\k28}su {\k30}so{\k24}bu{\k26}ri {\k24}ga {\k26}mo{\k24}u {\k27}a{\k25}bu{\k28}na{\k16}i
+Dialogue: 0,0:01:09.28,0:01:12.21,Masayuki,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mi{\k24}wa{\k17}ku {\rDuo}{\k38}no {\k24}ME{\k25}LO{\k15}DY{\k17}-Y
+Dialogue: 0,0:01:11.28,0:01:14.24,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k23}RE{\k19}F{\k25}RA{\k35}IN {\k27}su{\k26}ru {\k14}na{\k17}ra
+Dialogue: 0,0:01:13.35,0:01:17.13,Masayuki,,0,0,0,fx,{\k90\fad(300,200)}{\k24}o{\k26}mo{\k12}i{\k40}de {\k24}mo {\k26}mo{\k24}ya{\k27}shi{\k22}ma{\k28}sho{\k15}u
+Dialogue: 0,0:01:16.12,0:01:19.33,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k28}RE-{\k50}DANCE {\k25}RE-{\k51}DANCE {\k26}RE-{\k31}DANCE
+Dialogue: 0,0:01:18.40,0:01:21.46,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k56}saa {\k24}o{\k26}do{\kf90}re
+Dialogue: 0,0:01:21.74,0:01:26.35,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k51}LA {\k25}NA{\k25}NA{\k78}NA {\k50}LA{\k25}LA {\k26}NA{\k25}NA{\k43}NA
+Dialogue: 0,0:01:25.29,0:01:29.15,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}RE-{\k77}DANCE {\k25}RE-{\k77}DANCE {\k21}RE-{\k52}DANCE
