@@ -1,0 +1,109 @@
+﻿[Script Info]
+Title: Golden Horizon
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Awich,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: ALI,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.73,0:00:06.74,Awich,,0,0,0,karaoke,{\k18}yu{\kf98}ke{\k55}do {\k28}yu{\kf95}ke{\kf94}do{\kf213}mo
+Comment: 0,0:00:07.19,0:00:08.11,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k20}Eh {\k25}oh {\k20}Eh {\k27}oh
+Comment: 0,0:00:08.11,0:00:13.62,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k60}Oh {\k31}oh {\k79}oh {\k76}oh {\k26}o{\k57}h{\k26}h{\kf196}h
+Comment: 0,0:00:11.99,0:00:13.74,Awich,,0,0,0,karaoke,{\k13}ka{\k15}ka{\k13}e{\k17}ru {\k25}PAIN {\k13}bu{\k15}chi{\k16}nu{\k16}ku {\k41}CHANGE
+Comment: 0,0:00:13.83,0:00:15.20,Awich,,0,0,0,karaoke,{\k10}mi{\k15}tsu{\k14}ke{\k11}ru {\k30}PLACE {\k11}WITH {\k23}OUR {\k32}NAME
+Comment: 0,0:00:15.29,0:00:20.54,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k60}Oh {\k31}oh {\k79}oh {\k76}oh {\k26}o{\k57}h{\k26}h{\kf170}h
+Comment: 0,0:00:19.17,0:00:20.62,Awich,,0,0,0,karaoke,{\k13}su{\k13}be{\k16}te {\k14}wa {\k24}FOR {\k28}OUR {\k42}FATE
+Comment: 0,0:00:20.62,0:00:22.46,ALI,,0,0,0,karaoke,{\k44}Just {\k28}got{\k24}ta {\k25}make {\k19}the {\k61}way
+Comment: 0,0:00:25.46,0:00:26.34,Awich,,0,0,0,karaoke,{\k15}Ne{\k14}ver {\k28}back {\k77}down
+Comment: 0,0:00:26.88,0:00:28.97,Awich,,0,0,0,karaoke,{\k13}i{\k14}ba{\k14}ra {\k14}no {\k19}mi{\k14}chi {\k16}su{\k12}su{\k19}mu {\k15}wa{\k16}re {\k12}ko{\k19}so {\k12}ga
+Comment: 0,0:00:29.05,0:00:29.93,Awich,,0,0,0,karaoke,{\k30}Run {\k30}this {\k86}ground
+Comment: 0,0:00:30.43,0:00:32.47,Awich,,0,0,0,karaoke,{\k21}chi{\k14}ra{\k26}bat{\k21}ta {\k10}ka{\k14}ke{\k16}ra {\k19}hi{\k11}ro{\k23}i {\k13}a{\k10}tsu{\k14}me
+Comment: 0,0:00:32.55,0:00:33.55,Awich,,0,0,0,karaoke,{\k33}Town {\k30}to {\k75}town
+Comment: 0,0:00:34.06,0:00:35.72,Awich,,0,0,0,karaoke,{\k20}tsu{\k13}wa{\k13}mo{\k16}no {\k17}ta{\k19}chi {\k21}oi{\k13}ka{\k15}ke{\k18}tei{\k14}ru
+Comment: 0,0:00:35.85,0:00:36.68,Awich,,0,0,0,karaoke,{\k25}Cha{\k36}sing {\k31}down
+Comment: 0,0:00:36.77,0:00:38.43,Awich,,0,0,0,karaoke,{\k13}ho{\k18}shi {\k15}no {\k17}mu{\k22}kou {\k18}ho{\k24}hoe{\k22}mu {\k13}ka{\k13}ge
+Comment: 0,0:00:38.52,0:00:40.27,Awich,,0,0,0,karaoke,{\k12}da{\k18}re {\k18}mo {\k12}ka{\k18}re {\k15}mo {\k12}ki {\k16}wo {\k15}ku{\k13}ru{\k18}wa{\k12}su
+Comment: 0,0:00:40.31,0:00:40.64,Awich,,0,0,0,karaoke,{\k88}Wow
+Comment: 0,0:00:41.23,0:00:43.81,Awich,,0,0,0,karaoke,{\k13}ki{\k13}e{\k14}ru {\k14}i{\k18}no{\k18}chi, {\k19}ki{\k12}e{\k12}ru {\k16}i{\k19}no{\k12}ri, {\k17}ki{\k11}e{\k12}ru {\k18}ka{\k16}mi {\k13}yo
+Comment: 0,0:00:43.94,0:00:44.77,Awich,,0,0,0,karaoke,{\k30}What {\k14}have {\k15}we {\k49}done?
+Comment: 0,0:00:45.11,0:00:45.73,Awich,,0,0,0,karaoke,{\k20}Tell {\k15}me {\k57}now
+Comment: 0,0:00:46.07,0:00:46.57,Awich,,0,0,0,karaoke,{\k12}Where {\k16}you {\k51}at?
+Comment: 0,0:00:46.90,0:00:47.44,Awich,,0,0,0,karaoke,{\k19}Co{\k16}ming {\k24}now
+Comment: 0,0:00:47.53,0:00:48.65,Awich,,0,0,0,karaoke,{\k12}ji{\k12}go{\k17}ku {\k14}no {\k16}so{\k17}ko {\k12}ma{\k12}de
+Comment: 0,0:00:48.74,0:00:49.70,Awich,,0,0,0,karaoke,{\k23}By {\k26}your {\k80}side
+Comment: 0,0:00:50.15,0:00:51.03,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k20}Eh {\k25}oh {\k20}Eh {\k23}oh
+Comment: 0,0:00:51.11,0:00:56.54,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k60}Oh {\k31}oh {\k79}oh {\k76}oh {\k26}o{\k57}h{\k26}h{\kf188}h
+Comment: 0,0:00:54.99,0:00:56.62,Awich,,0,0,0,karaoke,{\k13}ka{\k15}ka{\k13}e{\k17}ru {\k25}PAIN {\k13}bu{\k15}chi{\k16}nu{\k16}ku {\k41}CHANGE
+Comment: 0,0:00:56.83,0:00:58.20,Awich,,0,0,0,karaoke,{\k10}mi{\k15}tsu{\k14}ke{\k11}ru {\k30}PLACE {\k14}WITH {\k20}OUR {\k32}NAME
+Comment: 0,0:00:58.29,0:01:03.54,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k60}Oh {\k31}oh {\k79}oh {\k76}oh {\k26}o{\k57}h{\k26}h{\kf170}h
+Comment: 0,0:01:02.08,0:01:03.46,Awich,,0,0,0,karaoke,{\k13}su{\k13}be{\k16}te {\k14}wa {\k24}FOR {\k28}OUR {\k55}FATE
+Comment: 0,0:01:03.66,0:01:05.29,ALI,,0,0,0,karaoke,{\k44}ou{\k28}gon {\k17}no {\k26}ka{\k18}na{\k30}ta
+Comment: 0,0:01:05.50,0:01:06.92,Sample KM [Choir],,0,0,0,karaoke,{\k44}ou{\k28}gon {\k17}no {\k26}ka{\k18}na{\k30}ta
+Comment: 0,0:01:06.96,0:01:08.63,ALI,,0,0,0,karaoke,{\k28}'Cause {\k31}we {\k27}are {\k21}the {\kf77}light
+Comment: 0,0:01:08.96,0:01:10.42,ALI,,0,0,0,karaoke,{\k29}We {\k38}are {\k33}the {\k63}greats
+Comment: 0,0:01:10.63,0:01:12.13,ALI,,0,0,0,karaoke,{\k12}a{\k5}ra{\k51}ta {\k20}na {\k17}ES{\k83}CAPE
+Comment: 0,0:01:12.55,0:01:14.22,ALI,,0,0,0,karaoke,{\k27}Gui{\k37}ded {\k30}by {\k31}sta{\k25}r{\k17}light
+Comment: 0,0:01:14.35,0:01:16.06,ALI,,0,0,0,karaoke,{\k38}Life {\k24}is {\k30}much {\k30}pa{\k29}i{\k20}n
+Comment: 0,0:01:16.10,0:01:17.52,ALI,,0,0,0,karaoke,{\k39}Sha{\k25}ring {\k30}our {\k68}pain
+Comment: 0,0:01:17.72,0:01:19.27,ALI,,0,0,0,karaoke,{\k25}min{\k52}na {\k12}o{\k18}na{\k69}ji
+Comment: 0,0:01:19.52,0:01:22.85,ALI,,0,0,0,karaoke,{\k25}It’s {\k58}time {\k29}to {\k53}prove {\kf168}it
+Comment: 0,0:01:21.56,0:01:26.90,Sample KM [Choir],,0,0,0,karaoke,{\k93}Oh {\k80}oh {\k97}oh {\k84}oh {\kf180}ohhh
+Comment: 0,0:01:25.11,0:01:26.90,Sample KM [Choir],,0,0,0,karaoke,{\k95}hey {\k84}hey
+Comment: 0,0:01:26.94,0:01:28.73,ALI,,0,0,0,karaoke,{\k44}ou{\k28}gon {\k17}no {\k26}ka{\k18}na{\k46}ta
+Dialogue: 0,0:00:00.00,0:00:06.94,Awich,,0,0,0,fx,{\k73\fad(730,200)}{\k18}yu{\kf98}ke{\k55}do {\k28}yu{\kf95}ke{\kf94}do{\kf213}mo
+Dialogue: 0,0:00:06.29,0:00:08.31,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Eh {\k25}oh {\k20}Eh {\k27}oh
+Dialogue: 0,0:00:07.21,0:00:13.82,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Oh {\k31}oh {\k79}oh {\k76}oh {\k26}o{\k57}h{\k26}h{\kf196}h
+Dialogue: 0,0:00:11.09,0:00:13.94,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ka{\k15}ka{\k13}e{\k17}ru {\k25}PAIN {\k13}bu{\k15}chi{\k16}nu{\k16}ku {\k41}CHANGE
+Dialogue: 0,0:00:12.93,0:00:15.40,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k10}mi{\k15}tsu{\k14}ke{\k11}ru {\k30}PLACE {\k11}WITH {\k23}OUR {\k32}NAME
+Dialogue: 0,0:00:14.39,0:00:20.74,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Oh {\k31}oh {\k79}oh {\k76}oh {\k26}o{\k57}h{\k26}h{\kf170}h
+Dialogue: 0,0:00:18.27,0:00:20.82,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k13}su{\k13}be{\k16}te {\k14}wa {\k24}FOR {\k28}OUR {\k42}FATE
+Dialogue: 0,0:00:19.72,0:00:22.66,ALI,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Just {\k28}got{\k24}ta {\k25}make {\k19}the {\k61}way
+Dialogue: 0,0:00:24.56,0:00:26.54,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Ne{\k14}ver {\k28}back {\k77}down
+Dialogue: 0,0:00:25.98,0:00:29.17,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k13}i{\k14}ba{\k14}ra {\k14}no {\k19}mi{\k14}chi {\k16}su{\k12}su{\k19}mu {\k15}wa{\k16}re {\k12}ko{\k19}so {\k12}ga
+Dialogue: 0,0:00:28.15,0:00:30.13,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Run {\k30}this {\k86}ground
+Dialogue: 0,0:00:29.53,0:00:32.67,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k21}chi{\k14}ra{\k26}bat{\k21}ta {\k10}ka{\k14}ke{\k16}ra {\k19}hi{\k11}ro{\k23}i {\k13}a{\k10}tsu{\k14}me
+Dialogue: 0,0:00:31.65,0:00:33.75,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Town {\k30}to {\k75}town
+Dialogue: 0,0:00:33.16,0:00:35.92,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k20}tsu{\k13}wa{\k13}mo{\k16}no {\k17}ta{\k19}chi {\k21}oi{\k13}ka{\k15}ke{\k18}tei{\k14}ru
+Dialogue: 0,0:00:34.95,0:00:36.88,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Cha{\k36}sing {\k31}down
+Dialogue: 0,0:00:35.87,0:00:38.63,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ho{\k18}shi {\k15}no {\k17}mu{\k22}kou {\k18}ho{\k24}hoe{\k22}mu {\k13}ka{\k13}ge
+Dialogue: 0,0:00:37.62,0:00:40.47,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k12}da{\k18}re {\k18}mo {\k12}ka{\k18}re {\k15}mo {\k12}ki {\k16}wo {\k15}ku{\k13}ru{\k18}wa{\k12}su
+Dialogue: 0,0:00:39.41,0:00:40.84,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k88}Wow
+Dialogue: 0,0:00:40.33,0:00:44.01,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k13}e{\k14}ru {\k14}i{\k18}no{\k18}chi, {\k19}ki{\k12}e{\k12}ru {\k16}i{\k19}no{\k12}ri, {\k17}ki{\k11}e{\k12}ru {\k18}ka{\k16}mi {\k13}yo
+Dialogue: 0,0:00:43.04,0:00:44.97,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k30}What {\k14}have {\k15}we {\k49}done?
+Dialogue: 0,0:00:44.21,0:00:45.93,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Tell {\k15}me {\k57}now
+Dialogue: 0,0:00:45.17,0:00:46.77,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Where {\k16}you {\k51}at?
+Dialogue: 0,0:00:46.00,0:00:47.64,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Co{\k16}ming {\k24}now
+Dialogue: 0,0:00:46.63,0:00:48.85,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ji{\k12}go{\k17}ku {\k14}no {\k16}so{\k17}ko {\k12}ma{\k12}de
+Dialogue: 0,0:00:47.84,0:00:49.90,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k23}By {\k26}your {\k80}side
+Dialogue: 0,0:00:49.25,0:00:51.23,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Eh {\k25}oh {\k20}Eh {\k23}oh
+Dialogue: 0,0:00:50.21,0:00:56.74,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Oh {\k31}oh {\k79}oh {\k76}oh {\k26}o{\k57}h{\k26}h{\kf188}h
+Dialogue: 0,0:00:54.09,0:00:56.82,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ka{\k15}ka{\k13}e{\k17}ru {\k25}PAIN {\k13}bu{\k15}chi{\k16}nu{\k16}ku {\k41}CHANGE
+Dialogue: 0,0:00:55.93,0:00:58.40,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k10}mi{\k15}tsu{\k14}ke{\k11}ru {\k30}PLACE {\k14}WITH {\k20}OUR {\k32}NAME
+Dialogue: 0,0:00:57.39,0:01:03.74,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Oh {\k31}oh {\k79}oh {\k76}oh {\k26}o{\k57}h{\k26}h{\kf170}h
+Dialogue: 0,0:01:01.18,0:01:03.66,Awich,,0,0,0,fx,{\k90\fad(300,200)}{\k13}su{\k13}be{\k16}te {\k14}wa {\k24}FOR {\k28}OUR {\k55}FATE
+Dialogue: 0,0:01:02.76,0:01:05.49,ALI,,0,0,0,fx,{\k90\fad(300,200)}{\k44}ou{\k28}gon {\k17}no {\k26}ka{\k18}na{\k30}ta
+Dialogue: 0,0:01:04.60,0:01:07.12,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}ou{\k28}gon {\k17}no {\k26}ka{\k18}na{\k30}ta
+Dialogue: 0,0:01:06.06,0:01:08.83,ALI,,0,0,0,fx,{\k90\fad(300,200)}{\k28}'Cause {\k31}we {\k27}are {\k21}the {\kf77}light
+Dialogue: 0,0:01:08.06,0:01:10.62,ALI,,0,0,0,fx,{\k90\fad(300,200)}{\k29}We {\k38}are {\k33}the {\k63}greats
+Dialogue: 0,0:01:09.73,0:01:12.33,ALI,,0,0,0,fx,{\k90\fad(300,200)}{\k12}a{\k5}ra{\k51}ta {\k20}na {\k17}ES{\k83}CAPE
+Dialogue: 0,0:01:11.65,0:01:14.42,ALI,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Gui{\k37}ded {\k30}by {\k31}sta{\k25}r{\k17}light
+Dialogue: 0,0:01:13.45,0:01:16.26,ALI,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Life {\k24}is {\k30}much {\k30}pa{\k29}i{\k20}n
+Dialogue: 0,0:01:15.20,0:01:17.72,ALI,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Sha{\k25}ring {\k30}our {\k68}pain
+Dialogue: 0,0:01:16.82,0:01:19.47,ALI,,0,0,0,fx,{\k90\fad(300,200)}{\k25}min{\k52}na {\k12}o{\k18}na{\k69}ji
+Dialogue: 0,0:01:18.62,0:01:23.05,ALI,,0,0,0,fx,{\k90\fad(300,200)}{\k25}It’s {\k58}time {\k29}to {\k53}prove {\kf168}it
+Dialogue: 0,0:01:20.66,0:01:27.10,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k93}Oh {\k80}oh {\k97}oh {\k84}oh {\kf180}ohhh
+Dialogue: 0,0:01:24.21,0:01:27.10,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k95}hey {\k84}hey
+Dialogue: 0,0:01:26.04,0:01:28.93,ALI,,0,0,0,fx,{\k90\fad(300,200)}{\k44}ou{\k28}gon {\k17}no {\k26}ka{\k18}na{\k46}ta
