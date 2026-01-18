@@ -1,22 +1,30 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Kodoku no Tabiji ~LONELY JOURNEY~
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-Collisions: Normal
+Original Timing: Krizou
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
-Dialogue: 1,0:0:10.37,0:0:17.10,Default,,0000,0000,0000,,{\k100}{\k13}nan-{\k33}{\k17}o{\k27}{\k27}ku {\k10}ko{\k37}{\k10}u{\k27}{\k20}ne{\k30}{\k13}n {\k30}{\k63}no {\k93}{\k20}ka{\k27}na{\k77}ta
-Dialogue: 1,0:0:17.97,0:0:24.77,Default,,0000,0000,0000,,{\k100}{\k23}u{\k33}chu{\k30}u {\k20}{\k27}no {\k37}ha{\k17}te {\k23}{\k27}ni {\k23}{\k23}hi{\k13}ka{\k17}{\k57}ru {\k83}{\k17}ho{\k27}shi {\k83}yo
-Dialogue: 1,0:0:25.53,0:0:33.27,Default,,0000,0000,0000,,{\k100}{\k47}a{\k17}i {\k30}{\k13}ga {\k17}{\k10}so{\k27}{\k10}ko {\k30}{\k50}ni {\k137}{\k10}a{\k30}{\k17}ru {\k27}{\k10}to {\k23}{\k33}i{\k23}u {\k20}{\k20}na{\k73}ra
-Dialogue: 1,0:0:33.23,0:0:39.60,Default,,0000,0000,0000,,{\k100}{\k10}i{\k30}{\k27}no{\k17}chi {\k30}{\k17}ka{\k30}{\k13}ke{\k23}{\k17}te {\k40}{\k27}yu{\k27}ko{\k230}u
-Dialogue: 1,0:0:39.33,0:0:47.60,Default,,0000,0000,0000,,{\k100}{\k13}tsu{\k33}{\k13}yo{\k40}{\k107}ku {\k17}{\k20}ta{\k10}ka{\k17}{\k100}ku {\k113}{\k100}ma{\k20}{\k27}i{\k23}a{\k37}ga{\k37}re
-Dialogue: 1,0:0:47.07,0:0:55.20,Default,,0000,0000,0000,,{\k100}{\k10}mi{\k27}{\k20}chi {\k27}{\k120}no {\k17}{\k20}ya{\k27}mi {\k93}wo {\k107}{\k110}tsu{\k27}{\k23}ra{\k27}nu{\k17}{\k43}ke
-Dialogue: 1,0:0:54.63,0:1:2.87,Default,,0000,0000,0000,,{\k100}{\k17}hi{\k27}{\k23}to {\k20}{\k133}wa {\k27}da{\k20}re {\k127}mo {\k80}{\k107}ko{\k33}{\k23}ko{\k17}ro {\k23}{\k47}wo
-Dialogue: 1,0:1:2.30,0:1:13.77,Default,,0000,0000,0000,,{\k100}{\k17}su{\k27}{\k13}te{\k33}{\k117}te {\k17}{\k23}hi{\k23}to{\k87}ri {\k167}{\k23}i{\k20}{\k27}ki{\k23}te {\k20}{\k40}wa {\k30}{\k20}yu{\k33}{\k17}ke{\k33}{\k20}na{\k217}i
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:11.37,0:00:17.10,Default,,0,0,0,karaoke,{\k46}nan-{\k44}o{\k27}ku {\k47}ko{\k37}u{\k50}ne{\k43}n {\k156}no {\k20}ka{\k27}na{\k77}ta
+Comment: 1,0:00:18.97,0:00:24.77,Default,,0,0,0,karaoke,{\k23}u{\k33}chu{\k50}u {\k27}no {\k37}ha{\k40}te {\k50}ni {\k23}hi{\k30}ka{\k140}ru {\k17}ho{\k27}shi {\k83}yo
+Comment: 1,0:00:26.53,0:00:33.27,Default,,0,0,0,karaoke,{\k47}a{\k47}i {\k30}ga {\k37}so{\k40}ko {\k187}ni {\k40}a{\k44}ru {\k33}to {\k33}i{\k43}u {\k20}na{\k73}ra
+Comment: 1,0:00:34.23,0:00:39.60,Default,,0,0,0,karaoke,{\k40}i{\k27}no{\k47}chi {\k47}ka{\k36}ke{\k57}te {\k27}yu{\k27}ko{\k230}u
+Comment: 1,0:00:40.33,0:00:47.60,Default,,0,0,0,karaoke,{\k46}tsu{\k53}yo{\k124}ku {\k20}ta{\k27}ka{\k213}ku {\k120}ma{\k27}i{\k23}a{\k37}ga{\k37}re
+Comment: 1,0:00:48.07,0:00:55.20,Default,,0,0,0,karaoke,{\k37}mi{\k47}chi {\k137}no {\k20}ya{\k27}mi {\k200}wo {\k137}tsu{\k23}ra{\k44}nu{\k43}ke
+Comment: 1,0:00:55.63,0:01:02.87,Default,,0,0,0,karaoke,{\k44}hi{\k43}to {\k133}wa {\k27}da{\k20}re {\k207}mo {\k140}ko{\k23}ko{\k40}ro {\k47}wo
+Comment: 1,0:01:03.30,0:01:13.77,Default,,0,0,0,karaoke,{\k44}su{\k46}te{\k134}te {\k23}hi{\k23}to{\k254}ri {\k43}i{\k27}ki{\k43}te {\k70}wa {\k53}yu{\k50}ke{\k20}na{\k217}i
+Dialogue: 1,0:00:10.47,0:00:17.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}nan-{\k44}o{\k27}ku {\k47}ko{\k37}u{\k50}ne{\k43}n {\k156}no {\k20}ka{\k27}na{\k77}ta
+Dialogue: 1,0:00:18.07,0:00:24.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}u{\k33}chu{\k50}u {\k27}no {\k37}ha{\k40}te {\k50}ni {\k23}hi{\k30}ka{\k140}ru {\k17}ho{\k27}shi {\k83}yo
+Dialogue: 1,0:00:25.63,0:00:33.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k47}a{\k47}i {\k30}ga {\k37}so{\k40}ko {\k187}ni {\k40}a{\k44}ru {\k33}to {\k33}i{\k43}u {\k20}na{\k73}ra
+Dialogue: 1,0:00:33.33,0:00:39.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k40}i{\k27}no{\k47}chi {\k47}ka{\k36}ke{\k57}te {\k27}yu{\k27}ko{\k230}u
+Dialogue: 1,0:00:39.43,0:00:47.80,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k46}tsu{\k53}yo{\k124}ku {\k20}ta{\k27}ka{\k213}ku {\k120}ma{\k27}i{\k23}a{\k37}ga{\k37}re
+Dialogue: 1,0:00:47.17,0:00:55.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}mi{\k47}chi {\k137}no {\k20}ya{\k27}mi {\k200}wo {\k137}tsu{\k23}ra{\k44}nu{\k43}ke
+Dialogue: 1,0:00:54.73,0:01:03.07,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k44}hi{\k43}to {\k133}wa {\k27}da{\k20}re {\k207}mo {\k140}ko{\k23}ko{\k40}ro {\k47}wo
+Dialogue: 1,0:01:02.40,0:01:13.97,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k44}su{\k46}te{\k134}te {\k23}hi{\k23}to{\k254}ri {\k43}i{\k27}ki{\k43}te {\k70}wa {\k53}yu{\k50}ke{\k20}na{\k217}i
