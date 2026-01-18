@@ -1,0 +1,77 @@
+﻿[Script Info]
+Title: Genkai
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: VWP - Down,Arial,24,&H00FFFFFF,&H00FAEE07,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,0,0,40,1
+Style: Sub,Arial,24,&H00FFFFFF,&H0057B857,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: KAF,Arial,24,&H00FFFFFF,&H00FF00FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: RIM,Arial,24,&H00FFFFFF,&H00E1944D,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: KOKO,Arial,24,&H00FFFFFF,&H00FD8BBF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Harusaruhi,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Isekaijoucho,Arial,24,&H00FFFFFF,&H0000BAFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: VWP,Arial,24,&H00FFFFFF,&H00FAEE07,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Choir,Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,VWP - Down,,0,0,0,karaoke,{\k1000}{\k0}ALL {\2cHFFFFFF}| ♦ {\rKAF}KAF {\2cHFFFFFF}| ♥ {\rKOKO}KOKO {\2cHFFFFFF}| ♠ {\rRIM}RIM {\2cHFFFFFF}\N♣ {\rHarusaruhi}Harusaruhi {\2cHFFFFFF}| ● {\rIsekaijoucho}Isekaijoucho {\2cHFFFFFF}| {\rSub}Subgroup
+Comment: 0,0:00:15.33,0:00:18.35,KAF,,0,0,0,karaoke,♦ {\k8}ma{\k12}ya{\k21}ka{\k22}shi {\k20}no {\k21}ki{\k20}o{\k21}ku {\k21}to {\k22}I{\k42}DEN{\k41}TI{\k31}TY
+Comment: 0,0:00:18.43,0:00:19.56,KOKO,,0,0,0,karaoke,♥ {\k15}a{\k15}ma{\k19}i {\k21}u{\k18}so {\k25}ga
+Comment: 0,0:00:19.56,0:00:21.91,KOKO,,0,0,0,karaoke,♥ {\k6}ki{\k12}za{\k22}mi{\k9}ko{\k11}ma{\k22}re{\k14}ta {\k43}SWEET {\k47}SWEET {\k49}WORLD
+Comment: 0,0:00:21.81,0:00:25.02,KAF,,0,0,0,karaoke,♦ {\k22}kek{\k24}ka {\k40}LOSE {\k39}LOSE {\k13}so{\k12}re {\k41}wa {\k21}shou{\k14}shi{\k9}tsu {\k19}no {\k22}a{\k20}i{\k25}zu
+Comment: 0,0:00:25.19,0:00:28.69,KOKO,,0,0,0,karaoke,♥ {\k19}gen{\k22}kai {\k44}top{\k29}pa {\k16}no {\k19}ha{\k20}te {\k10}ni {\k13}a{\k20}ru {\k40}GAME {\k42}OF {\k56}LIFE
+Comment: 0,0:00:28.94,0:00:30.45,Harusaruhi,,0,0,0,karaoke,♣ {\k24}kan{\k8}ji{\k13}ru {\k22}sei {\k20}wa {\rVWP}{\k10}RE{\k11}A{\k43}L
+Comment: 0,0:00:30.43,0:00:31.94,KOKO,,0,0,0,karaoke,♥ {\k22}ai{\k18}su{\k9}be{\k14}ki {\k33}FAKE {\k8}to {\rVWP}{\k28}LI{\k19}AR
+Comment: 0,0:00:32.10,0:00:35.66,RIM,,0,0,0,karaoke,♠ {\k22}shin{\k21}ji{\k43}tsu {\k10}ma{\k9}mo{\k22}ru {\k22}ta{\k20}me {\k20}no {\k16}ka{\k26}mi{\k15}ga{\k29}ka{\k14}ri {\k25}no {\rVWP}{\k42}RIDE
+Comment: 0,0:00:35.68,0:00:37.37,KAF,,0,0,0,karaoke,♦ {\k13}ma{\k8}bo{\k11}ro{\k10}shi {\k20}ga {\rVWP}{\k9}i{\k13}ba{\k21}sho {\k13}ni {\k18}nat{\k33}ta
+Comment: 0,0:00:37.36,0:00:39.02,Harusaruhi,,0,0,0,karaoke,♣ {\k21}gen{\k13}ji{\k8}tsu {\k19}wo {\rVWP}{\k12}to{\k11}ri{\k20}mo{\k11}do{\k21}sun{\k30}da
+Comment: 0,0:00:39.01,0:00:41.75,VWP,,0,0,0,karaoke,{\k22}shou{\k20}shin {\k24}shou{\k20}mei {\k11}ko{\k10}re {\k10}ga {\k23}sai{\k32}go {\k40}saa {\k13}ha{\k9}ji{\k12}me{\k28}you
+Comment: 0,0:00:42.29,0:00:43.36,Sub,,0,0,0,karaoke,♦♠ {\k19}se{\k21}kai {\k13}wo {\k13}ko{\k12}wa{\k11}shi{\k18}tai
+Comment: 0,0:00:44.03,0:00:45.27,Choir,,0,0,0,karaoke,{\k25}SHAKE {\k21}IT! {\k22}LIKE {\k17}A {\k39}FATE!
+Comment: 0,0:00:45.33,0:00:48.20,Sub,,0,0,0,karaoke,♣♠● {\k11}bi{\k12}ri{\k7}bi{\k12}ri {\k20}ki{\k22}ta {\k21}ko{\k22}re {\k39}GOD {\k43}BREATH {\k78}YOU
+Comment: 0,0:00:47.39,0:00:48.61,Choir,,0,0,0,karaoke,{\k24}SHAKE {\k22}IT! {\k21}LIKE {\k21}A {\k34}FATE!
+Comment: 0,0:00:48.69,0:00:51.67,Sub,,0,0,0,karaoke,♦♥ {\k13}ku{\k15}rut{\k13}te {\k23}sou {\k20}ni {\k21}nat{\k18}te {\k45}AL{\k42}WAYS {\k41}TROU{\k47}BLE
+Comment: 0,0:00:51.19,0:00:52.08,Choir,,0,0,0,karaoke,{\k23}FIGHT {\k20}IT! {\k22}FIGHT {\k24}IT!
+Comment: 0,0:00:52.04,0:00:54.92,RIM,,0,0,0,karaoke,♠ {\k32}yu{\k11}zu{\k41}re{\k22}na{\k21}i {\k22}mo{\k10}no {\k24}ga {\k10}a{\kf95}ru
+Comment: 0,0:00:54.08,0:00:55.30,Choir,,0,0,0,karaoke,{\k21}SHAKE {\k27}IT! {\k20}LIKE {\k20}A {\k34}FATE!
+Comment: 0,0:00:55.39,0:00:58.13,VWP,,0,0,0,karaoke,{\k12}do{\k20}kun {\k11}to {\k21}ki{\k21}ta {\k21}ke{\k21}tsu{\k42}i {\k38}wa {\k67}TRUTH
+Comment: 0,0:00:58.34,0:01:05.10,Harusaruhi,,0,0,0,karaoke,♣ {\k42}LAST {\k39}OF {\k44}TURN {\k41}gen{\k44}shin {\k33}no {\k6}ki{\k44}se{\k43}ki {\k63}yo {\k20}mi{\k23}chi{\k19}bi{\k39}i{\kf176}te
+Comment: 0,0:01:05.47,0:01:08.38,Isekaijoucho,,0,0,0,karaoke,● {\k43}ALL {\k37}OUR {\k45}SINS {\k91}GRIEVE {\k75}WELL
+Comment: 0,0:01:08.83,0:01:11.77,Isekaijoucho,,0,0,0,karaoke,● {\k43}EVE{\k41}RY{\k44}THING {\kf166}ALT
+Comment: 0,0:01:12.17,0:01:15.13,Isekaijoucho,,0,0,0,karaoke,● {\k43}WE {\k42}SHOOT {\k43}FOR {\k86}REA{\k82}SON
+Comment: 0,0:01:15.55,0:01:20.02,Isekaijoucho,,0,0,0,karaoke,● {\k42}WE {\k42}CAN’T {\k42}PLAS{\k82}TER {\k87}FIGHT, {\kf152}YOU
+Comment: 0,0:01:19.76,0:01:28.58,VWP,,0,0,0,karaoke,{\k18}mo{\k22}e{\kf84}ru{\k39} {\k24}ko{\k20}do{\kf95}u{\k29} {\k23}sa{\k21}ke{\kf96}bu{\k31} {\k21}i{\k22}no{\kf337}ri
+Dialogue: 0,0:00:14.43,0:00:18.55,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k8}ma{\k12}ya{\k21}ka{\k22}shi {\k20}no {\k21}ki{\k20}o{\k21}ku {\k21}to {\k22}I{\k42}DEN{\k41}TI{\k31}TY
+Dialogue: 0,0:00:17.53,0:00:19.76,KOKO,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k15}a{\k15}ma{\k19}i {\k21}u{\k18}so {\k25}ga
+Dialogue: 0,0:00:18.66,0:00:22.11,KOKO,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k6}ki{\k12}za{\k22}mi{\k9}ko{\k11}ma{\k22}re{\k14}ta {\k43}SWEET {\k47}SWEET {\k49}WORLD
+Dialogue: 0,0:00:20.91,0:00:25.22,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k22}kek{\k24}ka {\k40}LOSE {\k39}LOSE {\k13}so{\k12}re {\k41}wa {\k21}shou{\k14}shi{\k9}tsu {\k19}no {\k22}a{\k20}i{\k25}zu
+Dialogue: 0,0:00:24.29,0:00:28.89,KOKO,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k19}gen{\k22}kai {\k44}top{\k29}pa {\k16}no {\k19}ha{\k20}te {\k10}ni {\k13}a{\k20}ru {\k40}GAME {\k42}OF {\k56}LIFE
+Dialogue: 0,0:00:28.04,0:00:30.65,Harusaruhi,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k24}kan{\k8}ji{\k13}ru {\k22}sei {\k20}wa {\rVWP}{\k10}RE{\k11}A{\k43}L
+Dialogue: 0,0:00:29.53,0:00:32.14,KOKO,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k22}ai{\k18}su{\k9}be{\k14}ki {\k33}FAKE {\k8}to {\rVWP}{\k28}LI{\k19}AR
+Dialogue: 0,0:00:31.20,0:00:35.86,RIM,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k22}shin{\k21}ji{\k43}tsu {\k10}ma{\k9}mo{\k22}ru {\k22}ta{\k20}me {\k20}no {\k16}ka{\k26}mi{\k15}ga{\k29}ka{\k14}ri {\k25}no {\rVWP}{\k42}RIDE
+Dialogue: 0,0:00:34.78,0:00:37.57,KAF,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k13}ma{\k8}bo{\k11}ro{\k10}shi {\k20}ga {\rVWP}{\k9}i{\k13}ba{\k21}sho {\k13}ni {\k18}nat{\k33}ta
+Dialogue: 0,0:00:36.46,0:00:39.22,Harusaruhi,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k21}gen{\k13}ji{\k8}tsu {\k19}wo {\rVWP}{\k12}to{\k11}ri{\k20}mo{\k11}do{\k21}sun{\k30}da
+Dialogue: 0,0:00:38.11,0:00:41.95,VWP,,0,0,0,fx,{\k90\fad(300,200)}{\k22}shou{\k20}shin {\k24}shou{\k20}mei {\k11}ko{\k10}re {\k10}ga {\k23}sai{\k32}go {\k40}saa {\k13}ha{\k9}ji{\k12}me{\k28}you
+Dialogue: 0,0:00:41.39,0:00:43.56,Sub,,0,0,0,fx,{\k90\fad(300,200)}♦♠ {\k19}se{\k21}kai {\k13}wo {\k13}ko{\k12}wa{\k11}shi{\k18}tai
+Dialogue: 0,0:00:43.13,0:00:45.47,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}SHAKE {\k21}IT! {\k22}LIKE {\k17}A {\k39}FATE!
+Dialogue: 0,0:00:44.43,0:00:48.40,Sub,,0,0,0,fx,{\k90\fad(300,200)}♣♠● {\k11}bi{\k12}ri{\k7}bi{\k12}ri {\k20}ki{\k22}ta {\k21}ko{\k22}re {\k39}GOD {\k43}BREATH {\k78}YOU
+Dialogue: 0,0:00:46.49,0:00:48.81,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}SHAKE {\k22}IT! {\k21}LIKE {\k21}A {\k34}FATE!
+Dialogue: 0,0:00:47.79,0:00:51.87,Sub,,0,0,0,fx,{\k90\fad(300,200)}♦♥ {\k13}ku{\k15}rut{\k13}te {\k23}sou {\k20}ni {\k21}nat{\k18}te {\k45}AL{\k42}WAYS {\k41}TROU{\k47}BLE
+Dialogue: 0,0:00:50.29,0:00:52.28,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}FIGHT {\k20}IT! {\k22}FIGHT {\k24}IT!
+Dialogue: 0,0:00:51.14,0:00:55.12,RIM,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k32}yu{\k11}zu{\k41}re{\k22}na{\k21}i {\k22}mo{\k10}no {\k24}ga {\k10}a{\kf95}ru
+Dialogue: 0,0:00:53.18,0:00:55.50,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}SHAKE {\k27}IT! {\k20}LIKE {\k20}A {\k34}FATE!
+Dialogue: 0,0:00:54.49,0:00:58.33,VWP,,0,0,0,fx,{\k90\fad(300,200)}{\k12}do{\k20}kun {\k11}to {\k21}ki{\k21}ta {\k21}ke{\k21}tsu{\k42}i {\k38}wa {\k67}TRUTH
+Dialogue: 0,0:00:57.44,0:01:05.30,Harusaruhi,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k42}LAST {\k39}OF {\k44}TURN {\k41}gen{\k44}shin {\k33}no {\k6}ki{\k44}se{\k43}ki {\k63}yo {\k20}mi{\k23}chi{\k19}bi{\k39}i{\kf176}te
+Dialogue: 0,0:01:04.57,0:01:08.58,Isekaijoucho,,0,0,0,fx,{\k90\fad(300,200)}● {\k43}ALL {\k37}OUR {\k45}SINS {\k91}GRIEVE {\k75}WELL
+Dialogue: 0,0:01:07.93,0:01:11.97,Isekaijoucho,,0,0,0,fx,{\k90\fad(300,200)}● {\k43}EVE{\k41}RY{\k44}THING {\kf166}ALT
+Dialogue: 0,0:01:11.27,0:01:15.33,Isekaijoucho,,0,0,0,fx,{\k90\fad(300,200)}● {\k43}WE {\k42}SHOOT {\k43}FOR {\k86}REA{\k82}SON
+Dialogue: 0,0:01:14.65,0:01:20.22,Isekaijoucho,,0,0,0,fx,{\k90\fad(300,200)}● {\k42}WE {\k42}CAN’T {\k42}PLAS{\k82}TER {\k87}FIGHT, {\kf152}YOU
+Dialogue: 0,0:01:18.86,0:01:28.78,VWP,,0,0,0,fx,{\k90\fad(300,200)}{\k18}mo{\k22}e{\kf84}ru{\k39} {\k24}ko{\k20}do{\kf95}u{\k29} {\k23}sa{\k21}ke{\kf96}bu{\k31} {\k21}i{\k22}no{\kf337}ri
