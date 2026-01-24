@@ -1,0 +1,171 @@
+﻿[Script Info]
+Title: Cold Night
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Eng,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Eng - Choir,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: JP - Choir,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Legend,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Legend,,0,0,50,,{\k1000} JP {\2cFFFFFF}| {\rEng}ENG {\2cFFFFFF}
+Comment: 0,0:00:04.55,0:00:05.87,Eng - Choir,,0,0,0,karaoke,{\k15}I {\k13}don't {\k11}be{\k7}lieve {\k6}in {\k23}my{\k57}self
+Comment: 0,0:00:08.41,0:00:09.55,JP - Choir,,0,0,0,karaoke,{\k13}ta{\k14}ka{\k22}ku {\k25}to{\k40}bu
+Comment: 0,0:00:12.25,0:00:13.68,Eng - Choir,,0,0,0,karaoke,{\k25}They {\k24}think {\k26}I'm {\k21}a {\k47}fool
+Comment: 0,0:00:16.09,0:00:17.45,Eng - Choir,,0,0,0,karaoke,{\k26}They {\k24}think {\k24}I'm {\k22}a {\k40}fool
+Comment: 0,0:00:17.55,0:00:18.92,Eng - Choir,,0,0,0,karaoke,{\k25}They {\k23}think {\k24}I'm {\k22}a {\k43}fool
+Comment: 0,0:00:19.24,0:00:20.06,Eng,,0,0,0,karaoke,{\k44}Rain {\k38}drop
+Comment: 0,0:00:21.40,0:00:22.93,JP,,0,0,0,karaoke,{\k24}me {\k20}wo {\k28}sa{\k25}ma{\k23}shi{\k24}te {\k9}mo
+Comment: 0,0:00:23.04,0:00:23.99,Eng,,0,0,0,karaoke,{\k52}Same {\k43}old
+Comment: 0,0:00:25.24,0:00:26.81,JP,,0,0,0,karaoke,{\k24}na{\k25}ni {\k20}mo {\k27}ka{\k25}wa{\k22}ra{\k14}nai
+Comment: 0,0:00:26.89,0:00:28.08,Eng,,0,0,0,karaoke,{\k82}Grow {\k37}up
+Comment: 0,0:00:29.09,0:00:31.61,Eng,,0,0,0,karaoke,{\k23}Mir{\k24}ror {\rJP}{\k24}no {\k23}wa{\k23}ta{\k26}shi {\k24}ni {\k48}iu {\k37}no {\k0}
+Comment: 0,0:00:31.97,0:00:34.41,JP,,0,0,0,karaoke,{\k22}na{\k26}i{\k24}te {\k20}mo {\k27}ka{\k24}wa{\k24}ra{\k48}nai {\k29}to
+Comment: 0,0:00:34.55,0:00:37.92,Eng,,0,0,0,karaoke,{\k77}I {\k73}don't {\k47}know {\k43}where {\k28}to {\k69}go
+Comment: 0,0:00:38.41,0:00:42.01,JP,,0,0,0,karaoke,{\k74}ka{\k42}na{\k24}e{\k54}tai {\k24}yu{\k23}me {\k25}ga {\k48}ar' {\k23}no {\k23}ni
+Comment: 0,0:00:42.28,0:00:46.46,JP,,0,0,0,karaoke,{\k72}a{\k45}no {\k27}ko {\k22}mi{\k26}ta{\k46}i {\k25}ni {\k48}wa {\k25}na{\k22}re{\k26}na{\k34}i
+Comment: 0,0:00:47.31,0:00:49.48,JP,,0,0,0,karaoke,{\k24}na{\k24}re{\k25}na{\k144}i
+Comment: 0,0:00:50.63,0:00:51.93,Eng,,0,0,0,karaoke,{\k13}I {\k11}don't {\k5}be{\k13}lieve {\k11}in {\k20}my{\k57}self
+Comment: 0,0:00:52.09,0:00:53.90,Eng,,0,0,0,karaoke,{\k26}But {\k48}I {\k44}don't {\k63}care
+Comment: 0,0:00:54.49,0:00:55.62,JP,,0,0,0,karaoke,{\k13}ta{\k13}ka{\k23}ku {\k25}to{\k39}bu
+Comment: 0,0:00:55.96,0:00:58.08,Eng,,0,0,0,karaoke,{\k25}With {\k47}my {\k45}new {\k95}shoes
+Comment: 0,0:00:58.33,0:00:59.76,Eng,,0,0,0,karaoke,{\k25}They {\k24}think {\k24}I'm {\k22}a {\k48}fool
+Comment: 0,0:00:59.98,0:01:01.50,Eng,,0,0,0,karaoke,{\k48}I {\k51}don't {\k53}care
+Comment: 0,0:01:01.90,0:01:05.43,Eng,,0,0,0,karaoke,{\k49}I {\k51}don't {\k94}care, {\k50}I {\k48}don't {\k61}care
+Comment: 0,0:01:06.02,0:01:09.16,Eng,,0,0,0,karaoke,{\k25}Yeah {\k48}watch {\kf116}me,{\kf5} {\k23}this {\k47}i{\k23}s {\k27}me
+Comment: 0,0:01:09.85,0:01:13.51,JP,,0,0,0,karaoke,{\k25}ko{\k49}ron{\kf113}da{\k6} {\k25}ka{\k49}zu {\k25}da{\k74}ke
+Comment: 0,0:01:13.51,0:01:16.88,Eng,,0,0,0,karaoke,{\k20}I've {\k27}got {\k45}no{\kf114}thing{\kf6} {\k24}but {\k48}this {\k26}fi{\k27}re
+Comment: 0,0:01:17.53,0:01:21.08,Eng,,0,0,0,karaoke,{\k23}I'll {\k51}show {\k96}you {\k24}what {\k24}I {\k47}can {\k90}do
+Comment: 0,0:01:21.59,0:01:24.51,Eng,,0,0,0,karaoke,{\k53}Cold {\k141}night, {\k49}no {\k49}light
+Comment: 0,0:01:22.57,0:01:25.45,Eng - Choir,,0,0,0,karaoke,{\k51}Cold {\k145}night, {\k46}no {\k46}light
+Comment: 0,0:01:25.48,0:01:28.59,Eng,,0,0,0,karaoke,{\k46}Blood {\k22}from {\k28}my {\k47}knee {\k20}no {\k25}one {\k22}e{\k25}ver {\k54}sees {\k22}me
+Comment: 0,0:01:29.29,0:01:32.20,Eng,,0,0,0,karaoke,{\k51}Cold {\k144}night, {\k47}no {\k49}light
+Comment: 0,0:01:30.27,0:01:33.11,Eng - Choir,,0,0,0,karaoke,{\k49}Cold {\k145}night, {\k45}no {\k45}light
+Comment: 0,0:01:33.14,0:01:36.30,Eng,,0,0,0,karaoke,{\k48}Blood {\k21}from {\k29}my {\k47}knee {\k22}no {\k24}one {\k19}e{\k26}ver {\k54}sees {\k26}me
+Comment: 0,0:01:36.92,0:01:39.96,Eng - Choir,,0,0,0,karaoke,{\k56}Cold {\k141}night, {\k49}no {\k58}light
+Comment: 0,0:01:37.70,0:01:40.19,JP,,0,0,0,karaoke,{\k119}Yeah {\k15}hi{\k34}kat{\k28}te{\k53}ta
+Comment: 0,0:01:40.82,0:01:44.10,JP,,0,0,0,karaoke,{\k19}a{\k20}ki{\k17}ra{\k23}me{\k19}ra{\k21}re{\k16}nai {\k23}ku{\k12}rai {\k14}ni {\k8}hi{\k26}kat{\k23}te{\k14}i{\k34}tan {\k39}da
+Comment: 0,0:01:40.82,0:01:44.10,Eng - Choir,,0,0,0,karaoke,{\k46}Blood {\k10}from {\k42}my {\k48}knee {\k12}no {\k35}one {\k14}e{\k33}ver {\k49}sees {\k39}me
+Comment: 0,0:01:44.63,0:01:47.51,Eng - Choir,,0,0,0,karaoke,{\k52}Cold {\k144}night, {\k48}no {\k44}light
+Comment: 0,0:01:45.39,0:01:46.03,Eng,,0,0,0,karaoke,{\k64}Yeah
+Comment: 0,0:01:47.08,0:01:49.43,JP,,0,0,0,karaoke,{\k23}ko{\k23}no {\k16}yu{\k20}me {\k14}da{\k22}ke {\k17}wa {\k9}ha{\k23}na{\k24}sa{\k44}nai
+Comment: 0,0:01:48.49,0:01:52.79,Eng - Choir,,0,0,0,karaoke,{\k49}Blood {\k10}from {\k39}my {\k41}knee {\k26}no {\k27}one {\k16}e{\k31}ver {\k51}sees {\k140}me
+Comment: 0,0:01:49.47,0:01:52.07,JP,,0,0,0,karaoke,{\k17}ko{\k24}ron{\k26}dat{\k27}te {\k17}ta{\k10}chi{\k21}a{\k26}gat{\k23}te {\k26}zet{\k14}ta{\k29}i
+Comment: 0,0:01:52.07,0:01:53.38,Eng,,0,0,0,karaoke,{\k16}I {\k10}don't {\k5}be{\k9}lieve {\k12}in {\k22}my{\k57}self
+Comment: 0,0:01:53.56,0:01:55.28,Eng,,0,0,0,karaoke,{\k24}But {\k47}I {\k45}don't {\k56}care
+Comment: 0,0:01:55.93,0:01:57.04,JP,,0,0,0,karaoke,{\k14}ta{\k12}ka{\k22}ku {\k26}to{\k37}bu
+Comment: 0,0:01:57.40,0:01:59.49,Eng,,0,0,0,karaoke,{\k24}With {\k48}my {\k45}new {\k92}shoes
+Comment: 0,0:01:59.77,0:02:01.19,Eng,,0,0,0,karaoke,{\k24}They {\k23}think {\k27}I'm {\k21}a {\k47}fool
+Comment: 0,0:02:01.48,0:02:02.96,Eng,,0,0,0,karaoke,{\k47}I {\k48}don't {\k53}care
+Comment: 0,0:02:03.38,0:02:06.97,Eng,,0,0,0,karaoke,{\k49}I {\k47}don't {\k96}care, {\k49}I {\k46}don't {\k72}care
+Comment: 0,0:02:07.47,0:02:10.69,Eng,,0,0,0,karaoke,{\k24}Yeah {\k47}watch {\kf109}me,{\k10} {\k26}this {\k47}i{\k25}s {\k34}me
+Comment: 0,0:02:11.29,0:02:14.97,JP,,0,0,0,karaoke,{\k28}ko{\k46}ron{\kf113}da{\k5} {\k25}ka{\k49}zu {\k25}da{\k77}ke
+Comment: 0,0:02:15.00,0:02:18.41,Eng,,0,0,0,karaoke,{\k15}I've {\k25}got {\k47}no{\kf106}thing{\kf14} {\k24}but {\k48}this {\k30}fi{\k32}re
+Comment: 0,0:02:18.96,0:02:22.76,Eng,,0,0,0,karaoke,{\k23}I'll {\k52}show {\k96}you {\k24}what {\k24}I {\k47}can {\kf114}do
+Comment: 0,0:02:22.58,0:02:26.07,Eng,,0,0,0,karaoke,{\k25}What {\k21}I {\k53}can {\k97}do, {\k19}what {\k27}can {\k49}I {\k58}do
+Comment: 0,0:02:26.41,0:02:29.79,Eng,,0,0,0,karaoke,{\k26}What {\k22}I {\k52}can {\k91}do, {\k26}what {\k27}can {\k47}I {\k47}do
+Comment: 0,0:02:29.71,0:02:32.90,Eng,,0,0,0,karaoke,{\k55}Cold {\k144}night, {\k49}no {\k71}light
+Comment: 0,0:02:30.27,0:02:33.68,Eng - Choir,,0,0,0,karaoke,{\k24}What {\k23}I {\k49}can {\k92}do, {\k26}what {\k26}can {\k46}I {\k55}do
+Comment: 0,0:02:34.10,0:02:38.03,Eng,,0,0,0,karaoke,{\k45}Blood {\k23}from {\k29}my {\k47}knee {\k17}no {\k35}one {\k13}e{\k29}ver {\k50}sees {\kf105}me
+Comment: 0,0:02:34.10,0:02:35.83,Eng - Choir,,0,0,0,karaoke,{\k29}What {\k20}I {\k48}can {\k76}do
+Comment: 0,0:02:38.15,0:02:39.46,Eng,,0,0,0,karaoke,{\k16}I {\k11}don't {\k9}be{\k6}lieve {\k10}in {\k22}my{\k57}self
+Comment: 0,0:02:39.63,0:02:41.35,Eng,,0,0,0,karaoke,{\k25}But {\k47}I {\k46}don't {\k54}care
+Comment: 0,0:02:42.01,0:02:43.06,JP,,0,0,0,karaoke,{\k14}ta{\k12}ka{\k22}ku {\k27}to{\k30}bu
+Comment: 0,0:02:43.38,0:02:45.56,Eng,,0,0,0,karaoke,{\k33}With {\k48}my {\k47}new {\k90}shoes
+Comment: 0,0:02:45.84,0:02:47.29,Eng,,0,0,0,karaoke,{\k25}They {\k25}think {\k24}I'm {\k24}a {\k47}fool
+Comment: 0,0:02:47.55,0:02:48.94,Eng,,0,0,0,karaoke,{\k44}I {\k46}don't {\k49}care
+Comment: 0,0:02:49.46,0:02:52.85,Eng,,0,0,0,karaoke,{\k45}I {\k46}don't {\k101}care, {\k42}I {\k53}don't {\k52}care
+Comment: 0,0:02:51.38,0:02:55.81,Eng - Choir,,0,0,0,karaoke,{\k48}I {\k49}don't {\kf346}care
+Comment: 0,0:02:53.52,0:02:56.73,Eng,,0,0,0,karaoke,{\k26}Yeah {\k48}watch {\kf113}me,{\k6} {\k25}this {\k49}i{\k24}s {\k30}me
+Comment: 0,0:02:54.97,0:02:56.90,Eng - Choir,,0,0,0,karaoke,{\k26}I'm {\k47}not {\k15}who {\k19}I {\k26}used {\k32}to {\k28}be
+Comment: 0,0:02:57.38,0:03:01.00,JP,,0,0,0,karaoke,{\k26}ko{\k46}ron{\kf110}da{\k8} {\k24}ka{\k51}zu {\k25}da{\k72}ke
+Comment: 0,0:02:58.33,0:03:00.63,Eng - Choir,,0,0,0,karaoke,{\k24}They {\k28}said {\k11}I {\k24}coul{\k9}dn't, {\k27}now {\k41}look {\k30}at {\k36}me
+Comment: 0,0:03:00.99,0:03:04.55,Eng,,0,0,0,karaoke,{\k23}I've {\k25}got {\k48}no{\kf114}thing{\k4} {\k26}but {\k46}this {\k32}fi{\k38}re
+Comment: 0,0:03:02.19,0:03:04.36,Eng - Choir,,0,0,0,karaoke,{\k23}Yeah {\k13}I've {\k28}got {\k31}no{\k24}thing, {\k20}I've {\k21}got {\k34}no{\k23}thing
+Comment: 0,0:03:05.04,0:03:09.12,Eng,,0,0,0,karaoke,{\k25}I'll {\k50}show {\k96}you {\k26}what {\k22}I {\k48}can {\kf141}do
+Comment: 0,0:03:06.46,0:03:08.40,Eng - Choir,,0,0,0,karaoke,{\k29}Just {\k48}watch, {\k34}I'll {\k41}make {\k42}it
+Dialogue: 0,0:00:03.65,0:00:06.07,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k13}don't {\k11}be{\k7}lieve {\k6}in {\k23}my{\k57}self
+Dialogue: 0,0:00:07.51,0:00:09.75,JP - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ta{\k14}ka{\k22}ku {\k25}to{\k40}bu
+Dialogue: 0,0:00:11.35,0:00:13.88,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}They {\k24}think {\k26}I'm {\k21}a {\k47}fool
+Dialogue: 0,0:00:15.19,0:00:17.65,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}They {\k24}think {\k24}I'm {\k22}a {\k40}fool
+Dialogue: 0,0:00:16.65,0:00:19.12,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}They {\k23}think {\k24}I'm {\k22}a {\k43}fool
+Dialogue: 0,0:00:18.34,0:00:20.26,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Rain {\k38}drop
+Dialogue: 0,0:00:20.50,0:00:23.13,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k24}me {\k20}wo {\k28}sa{\k25}ma{\k23}shi{\k24}te {\k9}mo
+Dialogue: 0,0:00:22.14,0:00:24.19,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Same {\k43}old
+Dialogue: 0,0:00:24.34,0:00:27.01,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k24}na{\k25}ni {\k20}mo {\k27}ka{\k25}wa{\k22}ra{\k14}nai
+Dialogue: 0,0:00:25.99,0:00:28.28,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k82}Grow {\k37}up
+Dialogue: 0,0:00:28.19,0:00:31.81,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Mir{\k24}ror {\rJP}{\k24}no {\k23}wa{\k23}ta{\k26}shi {\k24}ni {\k48}iu {\k37}no {\k0}
+Dialogue: 0,0:00:31.07,0:00:34.61,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k22}na{\k26}i{\k24}te {\k20}mo {\k27}ka{\k24}wa{\k24}ra{\k48}nai {\k29}to
+Dialogue: 0,0:00:33.65,0:00:38.12,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k77}I {\k73}don't {\k47}know {\k43}where {\k28}to {\k69}go
+Dialogue: 0,0:00:37.51,0:00:42.21,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k74}ka{\k42}na{\k24}e{\k54}tai {\k24}yu{\k23}me {\k25}ga {\k48}ar' {\k23}no {\k23}ni
+Dialogue: 0,0:00:41.38,0:00:46.66,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k72}a{\k45}no {\k27}ko {\k22}mi{\k26}ta{\k46}i {\k25}ni {\k48}wa {\k25}na{\k22}re{\k26}na{\k34}i
+Dialogue: 0,0:00:46.41,0:00:49.68,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k24}na{\k24}re{\k25}na{\k144}i
+Dialogue: 0,0:00:49.73,0:00:52.13,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k13}I {\k11}don't {\k5}be{\k13}lieve {\k11}in {\k20}my{\k57}self
+Dialogue: 0,0:00:51.19,0:00:54.10,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k26}But {\k48}I {\k44}don't {\k63}care
+Dialogue: 0,0:00:53.59,0:00:55.82,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ta{\k13}ka{\k23}ku {\k25}to{\k39}bu
+Dialogue: 0,0:00:55.06,0:00:58.28,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k25}With {\k47}my {\k45}new {\k95}shoes
+Dialogue: 0,0:00:57.43,0:00:59.96,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k25}They {\k24}think {\k24}I'm {\k22}a {\k48}fool
+Dialogue: 0,0:00:59.08,0:01:01.70,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k48}I {\k51}don't {\k53}care
+Dialogue: 0,0:01:01.00,0:01:05.63,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k49}I {\k51}don't {\k94}care, {\k50}I {\k48}don't {\k61}care
+Dialogue: 0,0:01:05.12,0:01:09.36,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Yeah {\k48}watch {\kf116}me,{\kf5} {\k23}this {\k47}i{\k23}s {\k27}me
+Dialogue: 0,0:01:08.95,0:01:13.71,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ko{\k49}ron{\kf113}da{\k6} {\k25}ka{\k49}zu {\k25}da{\k74}ke
+Dialogue: 0,0:01:12.61,0:01:17.08,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k20}I've {\k27}got {\k45}no{\kf114}thing{\kf6} {\k24}but {\k48}this {\k26}fi{\k27}re
+Dialogue: 0,0:01:16.63,0:01:21.28,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I'll {\k51}show {\k96}you {\k24}what {\k24}I {\k47}can {\k90}do
+Dialogue: 0,0:01:20.69,0:01:24.71,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k53}Cold {\k141}night, {\k49}no {\k49}light
+Dialogue: 0,0:01:21.67,0:01:25.65,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Cold {\k145}night, {\k46}no {\k46}light
+Dialogue: 0,0:01:24.58,0:01:28.79,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Blood {\k22}from {\k28}my {\k47}knee {\k20}no {\k25}one {\k22}e{\k25}ver {\k54}sees {\k22}me
+Dialogue: 0,0:01:28.39,0:01:32.40,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Cold {\k144}night, {\k47}no {\k49}light
+Dialogue: 0,0:01:29.37,0:01:33.31,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k49}Cold {\k145}night, {\k45}no {\k45}light
+Dialogue: 0,0:01:32.24,0:01:36.50,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Blood {\k21}from {\k29}my {\k47}knee {\k22}no {\k24}one {\k19}e{\k26}ver {\k54}sees {\k26}me
+Dialogue: 0,0:01:36.02,0:01:40.16,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k56}Cold {\k141}night, {\k49}no {\k58}light
+Dialogue: 0,0:01:36.80,0:01:40.39,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k119}Yeah {\k15}hi{\k34}kat{\k28}te{\k53}ta
+Dialogue: 0,0:01:39.92,0:01:44.30,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k20}ki{\k17}ra{\k23}me{\k19}ra{\k21}re{\k16}nai {\k23}ku{\k12}rai {\k14}ni {\k8}hi{\k26}kat{\k23}te{\k14}i{\k34}tan {\k39}da
+Dialogue: 0,0:01:39.92,0:01:44.30,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Blood {\k10}from {\k42}my {\k48}knee {\k12}no {\k35}one {\k14}e{\k33}ver {\k49}sees {\k39}me
+Dialogue: 0,0:01:43.73,0:01:47.71,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Cold {\k144}night, {\k48}no {\k44}light
+Dialogue: 0,0:01:44.49,0:01:46.23,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k64}Yeah
+Dialogue: 0,0:01:46.18,0:01:49.63,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ko{\k23}no {\k16}yu{\k20}me {\k14}da{\k22}ke {\k17}wa {\k9}ha{\k23}na{\k24}sa{\k44}nai
+Dialogue: 0,0:01:47.59,0:01:52.99,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k49}Blood {\k10}from {\k39}my {\k41}knee {\k26}no {\k27}one {\k16}e{\k31}ver {\k51}sees {\k140}me
+Dialogue: 0,0:01:48.57,0:01:52.27,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ko{\k24}ron{\k26}dat{\k27}te {\k17}ta{\k10}chi{\k21}a{\k26}gat{\k23}te {\k26}zet{\k14}ta{\k29}i
+Dialogue: 0,0:01:51.17,0:01:53.58,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k10}don't {\k5}be{\k9}lieve {\k12}in {\k22}my{\k57}self
+Dialogue: 0,0:01:52.66,0:01:55.48,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k24}But {\k47}I {\k45}don't {\k56}care
+Dialogue: 0,0:01:55.03,0:01:57.24,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ta{\k12}ka{\k22}ku {\k26}to{\k37}bu
+Dialogue: 0,0:01:56.50,0:01:59.69,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k24}With {\k48}my {\k45}new {\k92}shoes
+Dialogue: 0,0:01:58.87,0:02:01.39,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k24}They {\k23}think {\k27}I'm {\k21}a {\k47}fool
+Dialogue: 0,0:02:00.58,0:02:03.16,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k47}I {\k48}don't {\k53}care
+Dialogue: 0,0:02:02.48,0:02:07.17,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k49}I {\k47}don't {\k96}care, {\k49}I {\k46}don't {\k72}care
+Dialogue: 0,0:02:06.57,0:02:10.89,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Yeah {\k47}watch {\kf109}me,{\k10} {\k26}this {\k47}i{\k25}s {\k34}me
+Dialogue: 0,0:02:10.39,0:02:15.17,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ko{\k46}ron{\kf113}da{\k5} {\k25}ka{\k49}zu {\k25}da{\k77}ke
+Dialogue: 0,0:02:14.10,0:02:18.61,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I've {\k25}got {\k47}no{\kf106}thing{\kf14} {\k24}but {\k48}this {\k30}fi{\k32}re
+Dialogue: 0,0:02:18.06,0:02:22.96,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I'll {\k52}show {\k96}you {\k24}what {\k24}I {\k47}can {\kf114}do
+Dialogue: 0,0:02:21.68,0:02:26.27,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k25}What {\k21}I {\k53}can {\k97}do, {\k19}what {\k27}can {\k49}I {\k58}do
+Dialogue: 0,0:02:25.51,0:02:29.99,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k26}What {\k22}I {\k52}can {\k91}do, {\k26}what {\k27}can {\k47}I {\k47}do
+Dialogue: 0,0:02:28.81,0:02:33.10,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k55}Cold {\k144}night, {\k49}no {\k71}light
+Dialogue: 0,0:02:29.37,0:02:33.88,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}What {\k23}I {\k49}can {\k92}do, {\k26}what {\k26}can {\k46}I {\k55}do
+Dialogue: 0,0:02:33.20,0:02:38.23,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Blood {\k23}from {\k29}my {\k47}knee {\k17}no {\k35}one {\k13}e{\k29}ver {\k50}sees {\kf105}me
+Dialogue: 0,0:02:33.20,0:02:36.03,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}What {\k20}I {\k48}can {\k76}do
+Dialogue: 0,0:02:37.25,0:02:39.66,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k11}don't {\k9}be{\k6}lieve {\k10}in {\k22}my{\k57}self
+Dialogue: 0,0:02:38.73,0:02:41.55,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k25}But {\k47}I {\k46}don't {\k54}care
+Dialogue: 0,0:02:41.11,0:02:43.26,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ta{\k12}ka{\k22}ku {\k27}to{\k30}bu
+Dialogue: 0,0:02:42.48,0:02:45.76,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k33}With {\k48}my {\k47}new {\k90}shoes
+Dialogue: 0,0:02:44.94,0:02:47.49,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k25}They {\k25}think {\k24}I'm {\k24}a {\k47}fool
+Dialogue: 0,0:02:46.65,0:02:49.14,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k44}I {\k46}don't {\k49}care
+Dialogue: 0,0:02:48.56,0:02:53.05,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k45}I {\k46}don't {\k101}care, {\k42}I {\k53}don't {\k52}care
+Dialogue: 0,0:02:50.48,0:02:56.01,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k48}I {\k49}don't {\kf346}care
+Dialogue: 0,0:02:52.62,0:02:56.93,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Yeah {\k48}watch {\kf113}me,{\k6} {\k25}this {\k49}i{\k24}s {\k30}me
+Dialogue: 0,0:02:54.07,0:02:57.10,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}I'm {\k47}not {\k15}who {\k19}I {\k26}used {\k32}to {\k28}be
+Dialogue: 0,0:02:56.48,0:03:01.20,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ko{\k46}ron{\kf110}da{\k8} {\k24}ka{\k51}zu {\k25}da{\k72}ke
+Dialogue: 0,0:02:57.43,0:03:00.83,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}They {\k28}said {\k11}I {\k24}coul{\k9}dn't, {\k27}now {\k41}look {\k30}at {\k36}me
+Dialogue: 0,0:03:00.09,0:03:04.75,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I've {\k25}got {\k48}no{\kf114}thing{\k4} {\k26}but {\k46}this {\k32}fi{\k38}re
+Dialogue: 0,0:03:01.29,0:03:04.56,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Yeah {\k13}I've {\k28}got {\k31}no{\k24}thing, {\k20}I've {\k21}got {\k34}no{\k23}thing
+Dialogue: 0,0:03:04.14,0:03:09.32,Eng,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I'll {\k50}show {\k96}you {\k26}what {\k22}I {\k48}can {\kf141}do
+Dialogue: 0,0:03:05.56,0:03:08.60,Eng - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Just {\k48}watch, {\k34}I'll {\k41}make {\k42}it
