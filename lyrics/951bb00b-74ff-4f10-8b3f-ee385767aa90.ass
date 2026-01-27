@@ -1,0 +1,125 @@
+﻿[Script Info]
+Title: Fuwa Fuwari
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Emma,Arial,24,&H00FFFFFF,&H006EC384,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kasumi,Arial,24,&H00FFFFFF,&H0000D6E7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: NijiGaku,Arial,24,&H00FFFFFF,&H000098F3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: NijiGakuChoir,Arial,24,&H00FFFFFF,&H000098F3,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Emma,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.21,0:00:03.87,NijiGaku,,0,0,0,karaoke,{\k26}i{\k21}ma {\k20}a{\k28}i {\k21}ni {\k26}i{\k19}ki{\k27}ta{\k21}ku{\k57}te
+Comment: 0,0:00:04.88,0:00:08.32,NijiGaku,,0,0,0,karaoke,{\k25}so{\k22}yo{\k26}ka{\k24}ze {\k21}ni {\k45}not{\k45}te {\k48}ma{\k24}t{\k64}te
+Comment: 0,0:00:08.81,0:00:11.96,NijiGaku,,0,0,0,karaoke,{\k26}so{\k22}ba {\k26}ni {\k20}mu{\kf138}kau {\k25}ka{\k58}ra
+Comment: 0,0:00:12.27,0:00:15.29,NijiGaku,,0,0,0,karaoke,{\k50}mat{\k26}te {\k20}i{\kf206}te
+Comment: 0,0:00:13.86,0:00:17.11,NijiGakuChoir,,0,0,0,karaoke,{\k52}la {\k45}la {\k91}la {\k48}la {\k46}la {\k43}la
+Comment: 0,0:00:17.11,0:00:19.69,Kasumi,,0,0,0,karaoke,{\kf115}su{\k27}ki{\k21}to{\k25}o{\k70}ru
+Comment: 0,0:00:19.69,0:00:23.93,Emma,,0,0,0,karaoke,{\k44}so{\k48}ra {\k47}wo {\k45}to{\k46}bi{\k23}ko{\k23}e{\kf148}te
+Comment: 0,0:00:24.49,0:00:27.01,Kasumi,,0,0,0,karaoke,{\kf118}fu{\k23}wa {\k22}fu{\k24}wa{\k65}ri
+Comment: 0,0:00:27.01,0:00:31.79,Emma,,0,0,0,karaoke,{\k52}ki{\k46}mi {\k45}no {\k23}mo{\k23}to {\k44}he {\rNijiGaku}{\k49}kit{\kf196}to
+Comment: 0,0:00:32.57,0:00:37.42,NijiGaku,,0,0,0,karaoke,{\k47}CATCH {\k45}ME {\k22}AND {\k95}HOLD {\k90}MY {\k97}TRUE {\k89}LOVE
+Comment: 0,0:00:37.67,0:00:39.31,NijiGaku,,0,0,0,karaoke,{\k24}don{\k24}na {\k22}to{\k23}o{\k21}ku {\k26}tat{\k24}te
+Comment: 0,0:00:39.51,0:00:43.20,NijiGaku,,0,0,0,karaoke,{\k23}don{\k23}na {\k24}ba{\k24}sho {\k22}de {\k22}dat{\k22}te {\k28}ha{\k41}na {\k26}hi{\k45}ra{\k24}i{\k45}te
+Comment: 0,0:00:43.65,0:00:48.29,NijiGaku,,0,0,0,karaoke,{\k49}FIND {\k45}ME {\k21}AND {\k93}KEEP {\k90}MY {\k96}TRUE {\k70}HEART
+Comment: 0,0:00:48.77,0:00:52.20,NijiGaku,,0,0,0,karaoke,{\k10}ma{\k11}ta{\k23}ta{\k24}ki {\k24}no {\k20}na{\k25}ka {\k47}de {\k10}a{\k11}ta{\k24}ta{\k23}me{\k22}ru {\k23}ko{\k25}ko{\k21}ro
+Comment: 0,0:00:52.20,0:00:57.72,NijiGaku,,0,0,0,karaoke,{\k25}yo{\k46}bu {\k23}ko{\k23}e {\k20}no {\k26}ho{\k65}u {\k51}he {\k45}I'LL {\k24}BE {\kf204}THERE
+Comment: 0,0:00:55.89,0:00:59.11,Kasumi,,0,0,0,karaoke,{\k47}yo{\k45}a{\k48}ke {\k46}no {\k24}ma{\k20}bu{\k24}shi{\k22}sa {\k46}wo
+Comment: 0,0:00:59.60,0:01:02.83,Emma,,0,0,0,karaoke,{\k46}yu{\k46}bi{\k47}o{\k44}ri {\k23}ka{\k24}zo{\k25}e{\k22}te {\k46}wa
+Comment: 0,0:01:03.27,0:01:08.82,NijiGaku,,0,0,0,karaoke,{\k47}ka{\k47}ze {\k46}wo {\k47}tsu{\k46}kan{\k47}de {\k45}I'LL {\k21}BE {\kf209}THERE
+Comment: 0,0:01:12.51,0:01:16.23,NijiGaku,,0,0,0,karaoke,{\k45}CATCH {\k49}ME {\k44}A{\k25}NY{\kf209}WHERE
+Comment: 0,0:01:19.89,0:01:23.48,NijiGaku,,0,0,0,karaoke,{\k46}FIND {\k48}ME {\k44}EVE{\k24}RY{\kf197}WHERE
+Comment: 0,0:01:24.27,0:01:26.95,Kasumi,,0,0,0,karaoke,{\k26}ha{\k21}re {\k21}no{\k26}chi {\k22}a{\k25}me {\k22}ni {\k47}nat{\k58}te
+Comment: 0,0:01:27.98,0:01:31.35,Emma,,0,0,0,karaoke,{\k27}a{\k20}me {\k19}no{\k26}chi {\k19}ni{\k28}ji {\k22}ga {\k50}ka{\k44}ka{\k22}t{\k60}te
+Comment: 0,0:01:31.81,0:01:38.24,Kasumi,,0,0,0,karaoke,{\k33}na{\k23}ga{\k24}re{\k19}bo{\kf105}shi{\kf36} {\k24}i{\k92}kuts' {\k22}mi{\k24}o{\k24}ku{\k23}t{\kf194}te
+Comment: 0,0:01:36.98,0:01:40.21,NijiGakuChoir,,0,0,0,karaoke,{\k47}la {\k46}la {\k92}la {\k46}la {\k46}la {\k46}la
+Comment: 0,0:01:40.21,0:01:42.74,Emma,,0,0,0,karaoke,{\kf116}me{\k23}gu{\k23}ri {\k22}me{\k69}gur'
+Comment: 0,0:01:42.74,0:01:46.98,Kasumi,,0,0,0,karaoke,{\k48}so{\k46}ra {\k45}no {\k47}i{\k47}ro {\k22}na{\k23}ga{\k47}me{\kf99}te
+Comment: 0,0:01:47.55,0:01:50.01,Emma,,0,0,0,karaoke,{\kf122}fu{\k21}wa {\k23}fu{\k24}wa{\k56}ri
+Comment: 0,0:01:50.14,0:01:54.86,Kasumi,,0,0,0,karaoke,{\k46}te{\k47}no{\k45}hi{\k47}ra {\k44}ni {\rNijiGaku}{\k48}sot{\kf195}to
+Comment: 0,0:01:55.66,0:02:00.30,NijiGaku,,0,0,0,karaoke,{\k47}TOUCH {\k42}ME {\k26}AND {\k95}FEEL {\k88}MY {\k93}PURE {\k73}SPARK
+Comment: 0,0:02:00.74,0:02:02.37,NijiGaku,,0,0,0,karaoke,{\k12}ha{\k11}na{\k25}re{\k23}te {\k20}mo {\k24}tsu{\k24}yo{\k24}ku
+Comment: 0,0:02:02.58,0:02:06.29,NijiGaku,,0,0,0,karaoke,{\k13}to{\k10}do{\k22}ku {\k26}you {\k23}ni {\k21}mo{\k27}t{\k16}to {\k28}ha{\k43}na {\k28}hi{\k44}ra{\k24}i{\k46}te
+Comment: 0,0:02:06.70,0:02:08.81,NijiGaku,,0,0,0,karaoke,{\k51}REACH {\k23}FOR {\k22}ME {\k25}AND {\k90}SHOW
+Comment: 0,0:02:08.82,0:02:11.40,NijiGaku,,0,0,0,karaoke,{\k94}YOUR {\k91}TRUE {\k73}SPARK
+Comment: 0,0:02:11.84,0:02:15.23,NijiGaku,,0,0,0,karaoke,{\k11}ma{\k10}ta{\k24}ta{\k24}ki {\k24}no {\k18}sa{\k27}ki {\k47}de {\k10}ma{\k10}ta {\k25}a{\k24}e{\k24}ru {\k20}da{\k24}ka{\k17}ra
+Comment: 0,0:02:15.23,0:02:20.78,NijiGaku,,0,0,0,karaoke,{\k28}hi{\k48}ka{\k22}ri {\k23}no {\k23}ho{\k23}u {\k67}he {\k44}to {\k50}HERE {\k24}WE {\kf203}STAND
+Comment: 0,0:02:21.46,0:02:24.45,Emma,,0,0,0,karaoke,{\k29}mo{\k38}shi{\k29}mo {\k28}ki{\k32}mi {\kf143}ga
+Comment: 0,0:02:25.22,0:02:28.00,Kasumi,,0,0,0,karaoke,{\k21}u{\k37}tsu{\k32}mu{\k25}ku {\k35}hi {\kf128}wa
+Comment: 0,0:02:28.44,0:02:32.75,NijiGaku,,0,0,0,karaoke,{\k23}wa{\k20}ta{\k28}shi {\k34}wo {\k34}sa{\kf160}ga{\k26}shi{\kf106}te
+Comment: 0,0:02:33.25,0:02:36.33,Emma,,0,0,0,karaoke,{\k51}sou {\k32}ma{\k35}chi {\k24}ka{\k35}ra {\k33}ma{\k28}chi {\k31}he {\k39}to
+Comment: 0,0:02:36.90,0:02:40.13,Kasumi,,0,0,0,karaoke,{\k50}LET {\k39}ME {\k35}BLOOM {\k23}BE{\k34}SIDE {\k34}YOU {\k25}zu{\k29}t{\k54}to
+Comment: 0,0:02:40.51,0:02:43.91,Emma,,0,0,0,karaoke,{\k14}a{\k27}su {\k49}he {\k18}ha{\k26}shi{\k42}ru {\k27}ki{\k23}mi {\k45}no {\k23}su{\k23}ga{\k23}ta
+Comment: 0,0:02:44.15,0:02:48.41,Kasumi,,0,0,0,karaoke,{\k20}i{\k19}tsu{\k29}mo {\k32}mi{\k36}a{\k22}ge{\k39}te{\k33}ru {\k24}ka{\kf172}ra
+Comment: 0,0:02:51.01,0:02:55.65,NijiGaku,,0,0,0,karaoke,{\k47}CATCH {\k45}ME {\k26}AND {\k94}HOLD {\k87}MY {\k101}TRUE {\k64}LOVE
+Comment: 0,0:02:56.13,0:02:57.80,NijiGaku,,0,0,0,karaoke,{\k24}don{\k24}na {\k22}to{\k23}o{\k21}ku {\k26}tat{\k27}te
+Comment: 0,0:02:57.97,0:03:01.66,NijiGaku,,0,0,0,karaoke,{\k23}don{\k23}na {\k24}ba{\k24}sho {\k22}de {\k22}dat{\k22}te {\k28}ha{\k41}na {\k26}hi{\k45}ra{\k24}i{\k45}te
+Comment: 0,0:03:02.11,0:03:06.75,NijiGaku,,0,0,0,karaoke,{\k49}FIND {\k45}ME {\k21}AND {\k93}KEEP {\k90}MY {\k96}TRUE {\k70}HEART
+Comment: 0,0:03:07.22,0:03:10.62,NijiGaku,,0,0,0,karaoke,{\k10}ma{\k13}ta{\k21}ta{\k24}ki {\k24}no {\k20}na{\k25}ka {\k47}de {\k10}a{\k11}ta{\k24}ta{\k23}me{\k22}ru {\k23}ko{\k25}ko{\k18}ro
+Comment: 0,0:03:10.66,0:03:16.18,NijiGaku,,0,0,0,karaoke,{\k25}yo{\k46}bu {\k23}ko{\k23}e {\k20}no {\k26}ho{\k65}u {\k51}he {\k45}I'LL {\k24}BE {\kf204}THERE
+Comment: 0,0:03:14.34,0:03:17.56,Emma,,0,0,0,karaoke,{\k47}yo{\k45}a{\k48}ke {\k46}no {\k24}ma{\k20}bu{\k24}shi{\k26}sa {\k42}wo
+Comment: 0,0:03:18.04,0:03:21.27,Kasumi,,0,0,0,karaoke,{\k46}yu{\k46}bi{\k47}o{\k47}ri {\k20}ka{\k24}zo{\k25}e{\k23}te {\k45}wa
+Comment: 0,0:03:21.73,0:03:27.41,NijiGaku,,0,0,0,karaoke,{\k47}ka{\k47}ze {\k46}wo {\k47}tsu{\k46}kan{\k47}de {\k45}I'LL {\k21}BE {\kf209}THERE
+Comment: 0,0:03:30.96,0:03:34.67,NijiGaku,,0,0,0,karaoke,{\k45}CATCH {\k49}ME {\k44}A{\k25}NY{\kf209}WHERE
+Comment: 0,0:03:38.35,0:03:42.75,NijiGaku,,0,0,0,karaoke,{\k46}FIND {\k48}ME {\k44}EVE{\k24}RY{\kf278}WHERE
+Dialogue: 0,0:00:00.31,0:00:04.07,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k26}i{\k21}ma {\k20}a{\k28}i {\k21}ni {\k26}i{\k19}ki{\k27}ta{\k21}ku{\k57}te
+Dialogue: 0,0:00:03.98,0:00:08.52,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k25}so{\k22}yo{\k26}ka{\k24}ze {\k21}ni {\k45}not{\k45}te {\k48}ma{\k24}t{\k64}te
+Dialogue: 0,0:00:07.91,0:00:12.16,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k26}so{\k22}ba {\k26}ni {\k20}mu{\kf138}kau {\k25}ka{\k58}ra
+Dialogue: 0,0:00:11.37,0:00:15.49,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k50}mat{\k26}te {\k20}i{\kf206}te
+Dialogue: 0,0:00:12.96,0:00:17.31,NijiGakuChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k52}la {\k45}la {\k91}la {\k48}la {\k46}la {\k43}la
+Dialogue: 0,0:00:16.21,0:00:19.89,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\kf115}su{\k27}ki{\k21}to{\k25}o{\k70}ru
+Dialogue: 0,0:00:18.79,0:00:24.13,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\k44}so{\k48}ra {\k47}wo {\k45}to{\k46}bi{\k23}ko{\k23}e{\kf148}te
+Dialogue: 0,0:00:23.59,0:00:27.21,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\kf118}fu{\k23}wa {\k22}fu{\k24}wa{\k65}ri
+Dialogue: 0,0:00:26.11,0:00:31.99,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\k52}ki{\k46}mi {\k45}no {\k23}mo{\k23}to {\k44}he {\rNijiGaku}{\k49}kit{\kf196}to
+Dialogue: 0,0:00:31.67,0:00:37.62,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k47}CATCH {\k45}ME {\k22}AND {\k95}HOLD {\k90}MY {\k97}TRUE {\k89}LOVE
+Dialogue: 0,0:00:36.77,0:00:39.51,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k24}don{\k24}na {\k22}to{\k23}o{\k21}ku {\k26}tat{\k24}te
+Dialogue: 0,0:00:38.61,0:00:43.40,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k23}don{\k23}na {\k24}ba{\k24}sho {\k22}de {\k22}dat{\k22}te {\k28}ha{\k41}na {\k26}hi{\k45}ra{\k24}i{\k45}te
+Dialogue: 0,0:00:42.75,0:00:48.49,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k49}FIND {\k45}ME {\k21}AND {\k93}KEEP {\k90}MY {\k96}TRUE {\k70}HEART
+Dialogue: 0,0:00:47.87,0:00:52.40,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ma{\k11}ta{\k23}ta{\k24}ki {\k24}no {\k20}na{\k25}ka {\k47}de {\k10}a{\k11}ta{\k24}ta{\k23}me{\k22}ru {\k23}ko{\k25}ko{\k21}ro
+Dialogue: 0,0:00:51.30,0:00:57.92,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k25}yo{\k46}bu {\k23}ko{\k23}e {\k20}no {\k26}ho{\k65}u {\k51}he {\k45}I'LL {\k24}BE {\kf204}THERE
+Dialogue: 0,0:00:54.99,0:00:59.31,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k47}yo{\k45}a{\k48}ke {\k46}no {\k24}ma{\k20}bu{\k24}shi{\k22}sa {\k46}wo
+Dialogue: 0,0:00:58.70,0:01:03.03,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\k46}yu{\k46}bi{\k47}o{\k44}ri {\k23}ka{\k24}zo{\k25}e{\k22}te {\k46}wa
+Dialogue: 0,0:01:02.37,0:01:09.02,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k47}ka{\k47}ze {\k46}wo {\k47}tsu{\k46}kan{\k47}de {\k45}I'LL {\k21}BE {\kf209}THERE
+Dialogue: 0,0:01:11.61,0:01:16.43,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k45}CATCH {\k49}ME {\k44}A{\k25}NY{\kf209}WHERE
+Dialogue: 0,0:01:18.99,0:01:23.68,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k46}FIND {\k48}ME {\k44}EVE{\k24}RY{\kf197}WHERE
+Dialogue: 0,0:01:23.37,0:01:27.15,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ha{\k21}re {\k21}no{\k26}chi {\k22}a{\k25}me {\k22}ni {\k47}nat{\k58}te
+Dialogue: 0,0:01:27.08,0:01:31.55,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\k27}a{\k20}me {\k19}no{\k26}chi {\k19}ni{\k28}ji {\k22}ga {\k50}ka{\k44}ka{\k22}t{\k60}te
+Dialogue: 0,0:01:30.91,0:01:38.44,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k33}na{\k23}ga{\k24}re{\k19}bo{\kf105}shi{\kf36} {\k24}i{\k92}kuts' {\k22}mi{\k24}o{\k24}ku{\k23}t{\kf194}te
+Dialogue: 0,0:01:36.08,0:01:40.41,NijiGakuChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k47}la {\k46}la {\k92}la {\k46}la {\k46}la {\k46}la
+Dialogue: 0,0:01:39.31,0:01:42.94,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\kf116}me{\k23}gu{\k23}ri {\k22}me{\k69}gur'
+Dialogue: 0,0:01:41.84,0:01:47.18,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k48}so{\k46}ra {\k45}no {\k47}i{\k47}ro {\k22}na{\k23}ga{\k47}me{\kf99}te
+Dialogue: 0,0:01:46.65,0:01:50.21,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\kf122}fu{\k21}wa {\k23}fu{\k24}wa{\k56}ri
+Dialogue: 0,0:01:49.24,0:01:55.06,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k46}te{\k47}no{\k45}hi{\k47}ra {\k44}ni {\rNijiGaku}{\k48}sot{\kf195}to
+Dialogue: 0,0:01:54.76,0:02:00.50,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k47}TOUCH {\k42}ME {\k26}AND {\k95}FEEL {\k88}MY {\k93}PURE {\k73}SPARK
+Dialogue: 0,0:01:59.84,0:02:02.57,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ha{\k11}na{\k25}re{\k23}te {\k20}mo {\k24}tsu{\k24}yo{\k24}ku
+Dialogue: 0,0:02:01.68,0:02:06.49,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k13}to{\k10}do{\k22}ku {\k26}you {\k23}ni {\k21}mo{\k27}t{\k16}to {\k28}ha{\k43}na {\k28}hi{\k44}ra{\k24}i{\k46}te
+Dialogue: 0,0:02:05.80,0:02:09.01,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k51}REACH {\k23}FOR {\k22}ME {\k25}AND {\k90}SHOW
+Dialogue: 0,0:02:07.92,0:02:11.60,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k94}YOUR {\k91}TRUE {\k73}SPARK
+Dialogue: 0,0:02:10.94,0:02:15.43,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ma{\k10}ta{\k24}ta{\k24}ki {\k24}no {\k18}sa{\k27}ki {\k47}de {\k10}ma{\k10}ta {\k25}a{\k24}e{\k24}ru {\k20}da{\k24}ka{\k17}ra
+Dialogue: 0,0:02:14.33,0:02:20.98,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k28}hi{\k48}ka{\k22}ri {\k23}no {\k23}ho{\k23}u {\k67}he {\k44}to {\k50}HERE {\k24}WE {\kf203}STAND
+Dialogue: 0,0:02:20.56,0:02:24.65,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\k29}mo{\k38}shi{\k29}mo {\k28}ki{\k32}mi {\kf143}ga
+Dialogue: 0,0:02:24.32,0:02:28.20,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k21}u{\k37}tsu{\k32}mu{\k25}ku {\k35}hi {\kf128}wa
+Dialogue: 0,0:02:27.54,0:02:32.95,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k23}wa{\k20}ta{\k28}shi {\k34}wo {\k34}sa{\kf160}ga{\k26}shi{\kf106}te
+Dialogue: 0,0:02:32.35,0:02:36.53,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\k51}sou {\k32}ma{\k35}chi {\k24}ka{\k35}ra {\k33}ma{\k28}chi {\k31}he {\k39}to
+Dialogue: 0,0:02:36.00,0:02:40.33,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k50}LET {\k39}ME {\k35}BLOOM {\k23}BE{\k34}SIDE {\k34}YOU {\k25}zu{\k29}t{\k54}to
+Dialogue: 0,0:02:39.61,0:02:44.11,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\k14}a{\k27}su {\k49}he {\k18}ha{\k26}shi{\k42}ru {\k27}ki{\k23}mi {\k45}no {\k23}su{\k23}ga{\k23}ta
+Dialogue: 0,0:02:43.25,0:02:48.61,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k19}tsu{\k29}mo {\k32}mi{\k36}a{\k22}ge{\k39}te{\k33}ru {\k24}ka{\kf172}ra
+Dialogue: 0,0:02:50.11,0:02:55.85,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k47}CATCH {\k45}ME {\k26}AND {\k94}HOLD {\k87}MY {\k101}TRUE {\k64}LOVE
+Dialogue: 0,0:02:55.23,0:02:58.00,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k24}don{\k24}na {\k22}to{\k23}o{\k21}ku {\k26}tat{\k27}te
+Dialogue: 0,0:02:57.07,0:03:01.86,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k23}don{\k23}na {\k24}ba{\k24}sho {\k22}de {\k22}dat{\k22}te {\k28}ha{\k41}na {\k26}hi{\k45}ra{\k24}i{\k45}te
+Dialogue: 0,0:03:01.21,0:03:06.95,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k49}FIND {\k45}ME {\k21}AND {\k93}KEEP {\k90}MY {\k96}TRUE {\k70}HEART
+Dialogue: 0,0:03:06.32,0:03:10.82,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ma{\k13}ta{\k21}ta{\k24}ki {\k24}no {\k20}na{\k25}ka {\k47}de {\k10}a{\k11}ta{\k24}ta{\k23}me{\k22}ru {\k23}ko{\k25}ko{\k18}ro
+Dialogue: 0,0:03:09.76,0:03:16.38,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k25}yo{\k46}bu {\k23}ko{\k23}e {\k20}no {\k26}ho{\k65}u {\k51}he {\k45}I'LL {\k24}BE {\kf204}THERE
+Dialogue: 0,0:03:13.44,0:03:17.76,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\k47}yo{\k45}a{\k48}ke {\k46}no {\k24}ma{\k20}bu{\k24}shi{\k26}sa {\k42}wo
+Dialogue: 0,0:03:17.14,0:03:21.47,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\k46}yu{\k46}bi{\k47}o{\k47}ri {\k20}ka{\k24}zo{\k25}e{\k23}te {\k45}wa
+Dialogue: 0,0:03:20.83,0:03:27.61,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k47}ka{\k47}ze {\k46}wo {\k47}tsu{\k46}kan{\k47}de {\k45}I'LL {\k21}BE {\kf209}THERE
+Dialogue: 0,0:03:30.06,0:03:34.87,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k45}CATCH {\k49}ME {\k44}A{\k25}NY{\kf209}WHERE
+Dialogue: 0,0:03:37.45,0:03:42.95,NijiGaku,,0,0,0,fx,{\k90\fad(300,200)}{\k46}FIND {\k48}ME {\k44}EVE{\k24}RY{\kf278}WHERE
