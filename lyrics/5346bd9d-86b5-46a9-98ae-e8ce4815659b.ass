@@ -1,0 +1,41 @@
+﻿[Script Info]
+Title: Oekaki Shiyou Yo
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Kosugi Maru,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Kosugi Maru,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:05.92,0:00:10.52,Sample KM [Up],,0,0,0,karaoke,{\k72}カ{\k30}ラ{\k34}フ{\k132}ル{\k71}ク{\k31}レ{\k36}ヨ{\k54}ン
+Comment: 0,0:00:11.29,0:00:15.60,Sample KM [Up],,0,0,0,karaoke,{\k92}まっ{\k44}し{\k64}ろ{\k34}な{\k32}が{\k89}よ{\k14}{\k34}う{\k28}し
+Comment: 0,0:00:16.63,0:00:21.23,Sample KM [Up],,0,0,0,karaoke,{\k65}お{\k34}え{\k37}か{\k126}き{\k66}し{\k34}よ{\k35}う{\k63}よ
+Comment: 0,0:00:21.93,0:00:26.63,Sample KM [Up],,0,0,0,karaoke,{\k102}す{\k35}き{\k33}な{\k33}も{\k36}の{\k31}を{\k67}た{\k66}く{\k67}さん
+Comment: 0,0:00:27.29,0:00:31.59,Sample KM [Up],,0,0,0,karaoke,{\k32}き{\k34}ざ{\k32}き{\k35}ざ{\k67}の{\k64}く{\kf166}ち
+Comment: 0,0:00:30.59,0:00:32.59,Sample KM [Choir],,0,0,0,karaoke,{\k32}き{\k35}ざ{\k32}き{\k32}ざ{\k34}き{\k35}ざ
+Comment: 0,0:00:32.59,0:00:36.88,Sample KM [Up],,0,0,0,karaoke,{\k33}にょ{\k32}き{\k34}にょ{\k36}き{\k67}の{\k67}く{\kf160}き
+Comment: 0,0:00:35.95,0:00:37.88,Sample KM [Choir],,0,0,0,karaoke,{\k32}にょ{\k33}き{\k33}にょ{\k31}き{\k36}にょ{\k28}き
+Comment: 0,0:00:37.97,0:00:47.94,Sample KM [Up],,0,0,0,karaoke,{\kf136}の{\k128}び{\k68}の{\k70}び{\k129}の{\kf176}は{\k25}{\k67}っ{\kf198}ぱ
+Comment: 0,0:00:48.61,0:00:50.99,Sample KM [Up],,0,0,0,karaoke,{\k35}は{\k32}ら{\k31}ぺ{\k37}こ{\k33}の{\k33}は{\k37}な
+Comment: 0,0:00:51.30,0:00:53.66,Sample KM [Up],,0,0,0,karaoke,{\k32}ふ{\k33}わ{\k34}ふ{\k33}わ{\k31}の{\k35}く{\k38}も
+Comment: 0,0:00:53.96,0:00:58.11,Sample KM [Up],,0,0,0,karaoke,{\k32}ぴ{\k31}か{\k35}ぴ{\k34}か{\k67}の{\k65}たい{\kf151}よう
+Dialogue: 0,0:00:05.02,0:00:10.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k72}カ{\k30}ラ{\k34}フ{\k132}ル{\k71}ク{\k31}レ{\k36}ヨ{\k54}ン
+Dialogue: 0,0:00:10.39,0:00:15.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k92}まっ{\k44}し{\k64}ろ{\k34}な{\k32}が{\k89}よ{\k14}{\k34}う{\k28}し
+Dialogue: 0,0:00:15.73,0:00:21.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}お{\k34}え{\k37}か{\k126}き{\k66}し{\k34}よ{\k35}う{\k63}よ
+Dialogue: 0,0:00:21.03,0:00:26.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k102}す{\k35}き{\k33}な{\k33}も{\k36}の{\k31}を{\k67}た{\k66}く{\k67}さん
+Dialogue: 0,0:00:26.39,0:00:31.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}き{\k34}ざ{\k32}き{\k35}ざ{\k67}の{\k64}く{\kf166}ち
+Dialogue: 0,0:00:29.69,0:00:32.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}き{\k35}ざ{\k32}き{\k32}ざ{\k34}き{\k35}ざ
+Dialogue: 0,0:00:31.69,0:00:37.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}にょ{\k32}き{\k34}にょ{\k36}き{\k67}の{\k67}く{\kf160}き
+Dialogue: 0,0:00:35.05,0:00:38.08,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}にょ{\k33}き{\k33}にょ{\k31}き{\k36}にょ{\k28}き
+Dialogue: 0,0:00:37.07,0:00:48.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf136}の{\k128}び{\k68}の{\k70}び{\k129}の{\kf176}は{\k25}{\k67}っ{\kf198}ぱ
+Dialogue: 0,0:00:47.71,0:00:51.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}は{\k32}ら{\k31}ぺ{\k37}こ{\k33}の{\k33}は{\k37}な
+Dialogue: 0,0:00:50.40,0:00:53.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}ふ{\k33}わ{\k34}ふ{\k33}わ{\k31}の{\k35}く{\k38}も
+Dialogue: 0,0:00:53.06,0:00:58.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}ぴ{\k31}か{\k35}ぴ{\k34}か{\k67}の{\k65}たい{\kf151}よう
