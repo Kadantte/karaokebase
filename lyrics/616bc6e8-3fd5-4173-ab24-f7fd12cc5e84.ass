@@ -1,0 +1,88 @@
+﻿[Script Info]
+Title: I See You
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 640
+PlayResY: 360
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.43,0:00:07.60,Sample KM [Choir],,0,0,0,karaoke,{\k93}I{\k83} {\kf111}see{\k64} {\kf266}you
+Comment: 0,0:00:08.47,0:00:14.37,Sample KM [Up],,0,0,0,karaoke,{\k38}Wal{\k46}king {\k49}through {\k30}a {\k96}dream,{\k48} {\kf107}I {\k52}see {\kf124}you
+Comment: 0,0:00:15.30,0:00:21.20,Sample KM [Up],,0,0,0,karaoke,{\k21}My {\k59}light {\k29}in {\k50}dark{\k42}ness, {\k41}brea{\k38}thing {\k44}hope{\k28} {\k34}of {\k72}new {\kf132}life
+Comment: 0,0:00:21.77,0:00:28.55,Sample KM [Up],,0,0,0,karaoke,{\k37}Now {\k43}I {\k45}live {\k45}through {\k43}you {\k44}and {\k37}you {\k60}through {\k38}me,{\k41} {\k85}en{\k43}chan{\kf117}ted
+Comment: 0,0:00:29.34,0:00:38.47,Sample KM [Up],,0,0,0,karaoke,{\k30}I {\k82}pray{\k29} {\k40}in {\k38}my {\k79}heart{\k22} {\k34}that {\k30}this {\kf109}dream{\k33} {\k77}ne{\k38}ver {\kf272}ends
+Comment: 0,0:00:38.47,0:00:46.67,Sample KM [Up],,0,0,0,karaoke,{\kf121}I{\k53} {\kf108}see{\k68} {\k88}me {\k74}through {\k50}your {\kf258}eyes
+Comment: 0,0:00:47.27,0:00:55.20,Sample KM [Up],,0,0,0,karaoke,{\kf177}Brea{\kf103}thing{\k32} {\k40}new {\k84}life, {\kf122}fly{\k57}ing {\kf178}high
+Comment: 0,0:00:55.70,0:01:02.31,Sample KM [Up],,0,0,0,karaoke,{\k46}Your {\k82}love {\k64}shines {\k25}the {\k64}way{\k26} {\k39}in{\k46}to {\kf114}pa{\k60}ra{\k95}dise
+Comment: 0,0:01:02.69,0:01:09.31,Sample KM [Up],,0,0,0,karaoke,{\k24}So {\k22}I {\k86}of{\k45}fer {\k46}my {\k51}life{\k38} {\k44}as {\k40}a {\kf119}sa{\k53}cri{\k94}fice
+Comment: 0,0:01:09.78,0:01:16.69,Sample KM [Up],,0,0,0,karaoke,{\k43}I {\kf165}live {\kf150}through {\k60}your {\kf273}love
+Comment: 0,0:01:17.06,0:01:23.19,Sample KM [Up],,0,0,0,karaoke,{\k18}You {\k51}teach {\k40}me {\k52}how {\k40}to {\k85}see {\k47}all {\k82}that's {\k30}beau{\k31}ti{\kf137}ful
+Comment: 0,0:01:24.11,0:01:30.05,Sample KM [Up],,0,0,0,karaoke,{\k20}My {\k45}sen{\k44}ses {\k57}touch {\k33}a {\k69}world {\k33}I've {\k22}ne{\k25}ver{\k25} {\k43}pic{\kf178}tured
+Comment: 0,0:01:30.43,0:01:37.55,Sample KM [Up],,0,0,0,karaoke,{\k53}Now {\k44}I {\k44}give {\k42}my {\k44}hope {\k45}to {\k73}you,{\k58} {\kf104}I {\k60}sur{\k35}ren{\kf110}der
+Comment: 0,0:01:38.19,0:01:45.51,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\kf114}pray {\k35}in {\k47}my {\k64}heart{\k35} {\k29}that {\k29}this {\kf122}world {\k81}ne{\k42}ver {\kf109}ends
+Comment: 0,0:01:45.60,0:01:53.29,Sample KM [Up],,0,0,0,karaoke,{\kf170}I {\kf110}see{\k64} {\k86}me {\k67}through {\k62}your {\kf210}eyes
+Comment: 0,0:01:54.34,0:02:02.25,Sample KM [Up],,0,0,0,karaoke,{\kf176}Brea{\k81}thing{\k50} {\k47}new {\k71}life, {\k74}fly{\k52}ing {\kf240}high
+Comment: 0,0:02:02.77,0:02:09.33,Sample KM [Up],,0,0,0,karaoke,{\k39}Your {\k85}love {\k67}shines {\k27}the {\k85}way {\k45}in{\k44}to {\kf109}pa{\k66}ra{\k89}dise
+Comment: 0,0:02:09.74,0:02:17.25,Sample KM [Up],,0,0,0,karaoke,{\k25}So {\k24}I {\k87}of{\k43}fer {\k45}my {\kf108}life,{\k44} {\k54}I {\k75}of{\k43}fer {\k54}my {\kf149}love
+Comment: 0,0:02:17.25,0:02:21.38,Sample KM [Choir],,0,0,0,karaoke,{\k61}For {\kf352}you
+Comment: 0,0:02:18.61,0:02:22.12,Sample KM [Up],,0,0,0,karaoke,{\k27}When {\k33}my {\k64}heart {\k35}was {\k68}ne{\k26}ver {\k41}o{\k57}pen
+Comment: 0,0:02:22.12,0:02:25.36,Sample KM [Up],,0,0,0,karaoke,{\k26}And {\k40}my {\k45}spi{\k45}rit {\k20}ne{\k28}ver {\kf120}free
+Comment: 0,0:02:25.53,0:02:31.38,Sample KM [Up],,0,0,0,karaoke,{\k54}To {\k24}the {\k54}world {\k29}that {\k41}you {\k32}have {\k55}shown {\kf296}me
+Comment: 0,0:02:32.61,0:02:36.92,Sample KM [Up],,0,0,0,karaoke,{\k31}But {\k18}my {\k76}eyes {\k30}could {\k58}not {\k29}en{\k26}vi{\kf163}sion
+Comment: 0,0:02:37.91,0:02:46.38,Sample KM [Up],,0,0,0,karaoke,{\k31}All {\k20}the {\kf119}co{\k28}lors {\k35}of {\k83}love{\k23} {\k37}and {\k31}of {\k75}life{\k34} {\k35}e{\k33}ver{\kf263}more
+Comment: 0,0:02:46.83,0:02:52.56,Sample KM [Up],,0,0,0,karaoke,{\k22}E{\k23}ver{\kf528}more
+Comment: 0,0:02:47.27,0:02:55.52,Sample KM [Choir],,0,0,0,karaoke,{\kf177}I {\kf130}see{\k47} {\k87}me {\k44}through {\k44}your {\kf296}eyes
+Comment: 0,0:02:54.57,0:02:58.83,Sample KM [Up],,0,0,0,karaoke,{\k33}I {\k30}see {\k83}me {\k24}through {\k35}your {\kf221}eyes
+Comment: 0,0:02:56.10,0:03:00.51,Sample KM [Choir],,0,0,0,karaoke,{\kf177}Brea{\kf131}thing {\k44}new {\k89}life
+Comment: 0,0:03:00.51,0:03:04.12,Sample KM [Up],,0,0,0,karaoke,{\k45}Fly{\k44}ing {\kf272}high
+Comment: 0,0:03:04.27,0:03:11.18,Sample KM [Up],,0,0,0,karaoke,{\k65}Your {\k87}love {\k52}shines {\k38}the {\k55}way{\k32} {\k46}in{\k44}to {\kf131}pa{\k44}ra{\k97}dise
+Comment: 0,0:03:11.51,0:03:18.04,Sample KM [Up],,0,0,0,karaoke,{\k20}So {\k27}I {\k88}of{\k44}fer {\k43}my {\k89}life {\k49}as {\k40}a {\kf109}sa{\k67}cri{\k77}fice
+Comment: 0,0:03:18.60,0:03:24.99,Sample KM [Up],,0,0,0,karaoke,{\k44}I {\kf153}live {\kf132}through {\k62}your {\kf248}love
+Comment: 0,0:03:25.57,0:03:30.15,Sample KM [Up],,0,0,0,karaoke,{\k53}I {\kf405}live
+Comment: 0,0:03:33.16,0:03:44.13,Sample KM [Up],,0,0,0,karaoke,{\kf190}I {\kf103}see{\k63} {\kf741}you
+Dialogue: 0,0:00:00.53,0:00:07.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k93}I{\k83} {\kf111}see{\k64} {\kf266}you
+Dialogue: 0,0:00:07.57,0:00:14.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Wal{\k46}king {\k49}through {\k30}a {\k96}dream,{\k48} {\kf107}I {\k52}see {\kf124}you
+Dialogue: 0,0:00:14.40,0:00:21.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}My {\k59}light {\k29}in {\k50}dark{\k42}ness, {\k41}brea{\k38}thing {\k44}hope{\k28} {\k34}of {\k72}new {\kf132}life
+Dialogue: 0,0:00:20.87,0:00:28.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Now {\k43}I {\k45}live {\k45}through {\k43}you {\k44}and {\k37}you {\k60}through {\k38}me,{\k41} {\k85}en{\k43}chan{\kf117}ted
+Dialogue: 0,0:00:28.44,0:00:38.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}I {\k82}pray{\k29} {\k40}in {\k38}my {\k79}heart{\k22} {\k34}that {\k30}this {\kf109}dream{\k33} {\k77}ne{\k38}ver {\kf272}ends
+Dialogue: 0,0:00:37.57,0:00:46.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf121}I{\k53} {\kf108}see{\k68} {\k88}me {\k74}through {\k50}your {\kf258}eyes
+Dialogue: 0,0:00:46.37,0:00:55.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf177}Brea{\kf103}thing{\k32} {\k40}new {\k84}life, {\kf122}fly{\k57}ing {\kf178}high
+Dialogue: 0,0:00:54.80,0:01:02.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Your {\k82}love {\k64}shines {\k25}the {\k64}way{\k26} {\k39}in{\k46}to {\kf114}pa{\k60}ra{\k95}dise
+Dialogue: 0,0:01:01.79,0:01:09.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}So {\k22}I {\k86}of{\k45}fer {\k46}my {\k51}life{\k38} {\k44}as {\k40}a {\kf119}sa{\k53}cri{\k94}fice
+Dialogue: 0,0:01:08.88,0:01:16.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}I {\kf165}live {\kf150}through {\k60}your {\kf273}love
+Dialogue: 0,0:01:16.16,0:01:23.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}You {\k51}teach {\k40}me {\k52}how {\k40}to {\k85}see {\k47}all {\k82}that's {\k30}beau{\k31}ti{\kf137}ful
+Dialogue: 0,0:01:23.21,0:01:30.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}My {\k45}sen{\k44}ses {\k57}touch {\k33}a {\k69}world {\k33}I've {\k22}ne{\k25}ver{\k25} {\k43}pic{\kf178}tured
+Dialogue: 0,0:01:29.53,0:01:37.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Now {\k44}I {\k44}give {\k42}my {\k44}hope {\k45}to {\k73}you,{\k58} {\kf104}I {\k60}sur{\k35}ren{\kf110}der
+Dialogue: 0,0:01:37.29,0:01:45.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\kf114}pray {\k35}in {\k47}my {\k64}heart{\k35} {\k29}that {\k29}this {\kf122}world {\k81}ne{\k42}ver {\kf109}ends
+Dialogue: 0,0:01:44.70,0:01:53.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf170}I {\kf110}see{\k64} {\k86}me {\k67}through {\k62}your {\kf210}eyes
+Dialogue: 0,0:01:53.44,0:02:02.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf176}Brea{\k81}thing{\k50} {\k47}new {\k71}life, {\k74}fly{\k52}ing {\kf240}high
+Dialogue: 0,0:02:01.87,0:02:09.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Your {\k85}love {\k67}shines {\k27}the {\k85}way {\k45}in{\k44}to {\kf109}pa{\k66}ra{\k89}dise
+Dialogue: 0,0:02:08.84,0:02:17.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}So {\k24}I {\k87}of{\k43}fer {\k45}my {\kf108}life,{\k44} {\k54}I {\k75}of{\k43}fer {\k54}my {\kf149}love
+Dialogue: 0,0:02:16.35,0:02:21.58,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k61}For {\kf352}you
+Dialogue: 0,0:02:17.71,0:02:22.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}When {\k33}my {\k64}heart {\k35}was {\k68}ne{\k26}ver {\k41}o{\k57}pen
+Dialogue: 0,0:02:21.22,0:02:25.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}And {\k40}my {\k45}spi{\k45}rit {\k20}ne{\k28}ver {\kf120}free
+Dialogue: 0,0:02:24.63,0:02:31.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}To {\k24}the {\k54}world {\k29}that {\k41}you {\k32}have {\k55}shown {\kf296}me
+Dialogue: 0,0:02:31.71,0:02:37.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}But {\k18}my {\k76}eyes {\k30}could {\k58}not {\k29}en{\k26}vi{\kf163}sion
+Dialogue: 0,0:02:37.01,0:02:46.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}All {\k20}the {\kf119}co{\k28}lors {\k35}of {\k83}love{\k23} {\k37}and {\k31}of {\k75}life{\k34} {\k35}e{\k33}ver{\kf263}more
+Dialogue: 0,0:02:45.93,0:02:52.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}E{\k23}ver{\kf528}more
+Dialogue: 0,0:02:46.37,0:02:55.72,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf177}I {\kf130}see{\k47} {\k87}me {\k44}through {\k44}your {\kf296}eyes
+Dialogue: 0,0:02:53.67,0:02:59.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}I {\k30}see {\k83}me {\k24}through {\k35}your {\kf221}eyes
+Dialogue: 0,0:02:55.20,0:03:00.71,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf177}Brea{\kf131}thing {\k44}new {\k89}life
+Dialogue: 0,0:02:59.61,0:03:04.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Fly{\k44}ing {\kf272}high
+Dialogue: 0,0:03:03.37,0:03:11.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Your {\k87}love {\k52}shines {\k38}the {\k55}way{\k32} {\k46}in{\k44}to {\kf131}pa{\k44}ra{\k97}dise
+Dialogue: 0,0:03:10.61,0:03:18.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}So {\k27}I {\k88}of{\k44}fer {\k43}my {\k89}life {\k49}as {\k40}a {\kf109}sa{\k67}cri{\k77}fice
+Dialogue: 0,0:03:17.70,0:03:25.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}I {\kf153}live {\kf132}through {\k62}your {\kf248}love
+Dialogue: 0,0:03:24.67,0:03:30.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}I {\kf405}live
+Dialogue: 0,0:03:32.26,0:03:44.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf190}I {\kf103}see{\k63} {\kf741}you
