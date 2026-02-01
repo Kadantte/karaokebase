@@ -1,0 +1,109 @@
+﻿[Script Info]
+Title: Dream As One
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00EB4DC1,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:09.00,0:00:12.24,Sample KM [Up],,0,0,0,karaoke,{\k43}Our {\k73}love {\k18}will {\k63}ne{\k23}ver {\k23}fade {\k22}a{\k59}way
+Comment: 0,0:00:12.56,0:00:15.65,Sample KM [Up],,0,0,0,karaoke,{\k40}We're {\k49}dia{\k43}monds {\k42}in {\k25}the {\kf110}dark
+Comment: 0,0:00:16.36,0:00:19.69,Sample KM [Up],,0,0,0,karaoke,{\k20}I {\k30}put {\k40}my {\k90}head {\k19}a{\k31}gainst {\k40}your {\k63}chest
+Comment: 0,0:00:19.70,0:00:22.41,Sample KM [Up],,0,0,0,karaoke,{\k28}And{\k17} {\k47}lis{\k45}ten {\k43}to {\k22}your {\k69}heart
+Comment: 0,0:00:22.58,0:00:25.25,Sample KM [Up],,0,0,0,karaoke,{\k23}’Cause {\k24}you {\k20}are {\k27}my {\kf173}home
+Comment: 0,0:00:26.38,0:00:29.72,Sample KM [Up],,0,0,0,karaoke,{\k27}No {\k19}mat{\k25}ter {\k90}where {\k89}I {\k84}go
+Comment: 0,0:00:29.94,0:00:32.24,Sample KM [Up],,0,0,0,karaoke,{\k25}Ne{\k18}ver {\k23}a{\kf164}lone
+Comment: 0,0:00:33.32,0:00:37.42,Sample KM [Up],,0,0,0,karaoke,{\k21}'Cause {\k25}some{\k17}how {\k29}I {\k87}al{\k96}ways {\kf135}know
+Comment: 0,0:00:38.91,0:00:42.10,Sample KM [Up],,0,0,0,karaoke,{\k25}E{\k22}ven {\k20}through {\k26}the {\kf226}flames
+Comment: 0,0:00:42.45,0:00:45.76,Sample KM [Up],,0,0,0,karaoke,{\k21}E{\k24}ven {\k24}through {\k18}the {\k50}a{\k46}shes {\k42}in {\k27}the {\k79}sky
+Comment: 0,0:00:46.00,0:00:51.92,Sample KM [Up],,0,0,0,karaoke,{\k25}Ba{\k22}by, {\k23}when {\k21}we {\k92}dream, {\k85}we {\k92}dream {\k89}as {\kf143}one
+Comment: 0,0:00:53.16,0:00:56.16,Sample KM [Up],,0,0,0,karaoke,{\k23}Eve{\k21}ry {\k24}time {\k21}I {\kf211}breathe
+Comment: 0,0:00:56.73,0:00:59.95,Sample KM [Up],,0,0,0,karaoke,{\k26}It's {\k18}a {\k26}song {\k25}to {\k44}keep {\k46}this {\k41}love {\k26}a{\k70}live
+Comment: 0,0:01:00.30,0:01:06.54,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k22}know {\k22}when {\k25}wе {\k86}dream, {\k88}we {\k93}dream {\k87}as {\kf177}onе
+Comment: 0,0:01:07.46,0:01:13.09,Sample KM [Up],,0,0,0,karaoke,{\k26}I {\k23}know {\k21}when {\k20}we {\k93}dream, {\k86}we {\k85}dream {\k90}as {\kf119}one
+Comment: 0,0:01:15.04,0:01:18.33,Sample KM [Up],,0,0,0,karaoke,{\k46}So {\k25}beau{\k21}ti{\k69}ful {\k24}when {\k19}we’re {\k19}to{\k26}ge{\k80}ther
+Comment: 0,0:01:18.60,0:01:21.68,Sample KM [Up],,0,0,0,karaoke,{\k43}Like {\k49}fea{\k39}thers {\k44}on {\k28}a {\kf105}wing
+Comment: 0,0:01:22.59,0:01:25.22,Sample KM [Up],,0,0,0,karaoke,{\k25}Ri{\k20}ding {\k86}right{\k27} {\k16}be{\k40}side {\k49}me
+Comment: 0,0:01:25.22,0:01:28.40,Sample KM [Up],,0,0,0,karaoke,{\k44}We're {\k49}two {\k45}ar{\k40}rows {\k49}in {\k23}the {\k68}wind
+Comment: 0,0:01:28.61,0:01:31.44,Sample KM [Up],,0,0,0,karaoke,{\k16}'Cause {\k26}you {\k20}are {\k23}my {\kf198}home
+Comment: 0,0:01:32.32,0:01:35.59,Sample KM [Up],,0,0,0,karaoke,{\k27}No {\k20}mat{\k27}ter {\k82}where {\k89}I {\k82}go
+Comment: 0,0:01:35.86,0:01:38.34,Sample KM [Up],,0,0,0,karaoke,{\k30}Ne{\k17}ver {\k29}a{\kf172}lone
+Comment: 0,0:01:39.67,0:01:42.82,Sample KM [Up],,0,0,0,karaoke,{\k20}I've {\k20}ne{\k23}ver {\k21}been {\k18}a{\k29}fraid {\k22}to {\k29}let {\k39}you {\k46}know {\k48}that
+Comment: 0,0:01:42.95,0:01:46.10,Sample KM [Up],,0,0,0,karaoke,{\k29}E{\k20}ven {\k21}through {\k20}the {\kf225}flames
+Comment: 0,0:01:46.51,0:01:49.65,Sample KM [Up],,0,0,0,karaoke,{\k21}E{\k27}ven {\k19}through {\k21}the {\k43}a{\k45}shes {\k47}in {\k17}the {\k74}sky
+Comment: 0,0:01:50.05,0:01:56.10,Sample KM [Up],,0,0,0,karaoke,{\k23}Ba{\k23}by, {\k21}when {\k22}we {\k89}dream, {\k59}we{\k33} {\k86}dream {\k87}as {\kf162}one
+Comment: 0,0:01:57.17,0:02:00.06,Sample KM [Up],,0,0,0,karaoke,{\k20}Eve{\k23}ry {\k24}time {\k20}I {\kf202}breathe
+Comment: 0,0:02:00.71,0:02:03.88,Sample KM [Up],,0,0,0,karaoke,{\k22}It's {\k18}a {\k27}song {\k27}to {\k45}keep {\k36}this {\k49}love {\k19}a{\k74}live
+Comment: 0,0:02:04.24,0:02:10.46,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k24}know {\k22}when {\k22}we {\k88}dream, {\k56}we{\k33} {\k88}dream {\k89}as {\kf178}one
+Comment: 0,0:02:12.22,0:02:16.20,Sample KM [Up],,0,0,0,karaoke,{\kf398}Dream
+Comment: 0,0:02:16.23,0:02:19.30,Sample KM [Choir],,0,0,0,karaoke,{\k41}Dream, {\k75}dream,{\k61} {\k66}dream, {\k64}dream
+Comment: 0,0:02:19.30,0:02:23.23,Sample KM [Up],,0,0,0,karaoke,{\kf393}Dream
+Comment: 0,0:02:22.67,0:02:26.29,Sample KM [Choir],,0,0,0,karaoke,{\kf123}Dream,{\k29} {\k46}dream, {\k68}dream, {\k61}dream, {\k35}dream
+Comment: 0,0:02:26.40,0:02:30.33,Sample KM [Up],,0,0,0,karaoke,{\kf393}Dream
+Comment: 0,0:02:30.81,0:02:33.27,Sample KM [Choir],,0,0,0,karaoke,{\k72}Dream, {\k88}dream, {\k86}dream
+Comment: 0,0:02:33.47,0:02:37.94,Sample KM [Up],,0,0,0,karaoke,{\kf447}Dream
+Comment: 0,0:02:36.93,0:02:39.62,Sample KM [Choir],,0,0,0,karaoke,{\kf101}Dream,{\k45} {\k44}dream, {\k79}dream
+Comment: 0,0:02:39.71,0:02:42.62,Sample KM [Up],,0,0,0,karaoke,{\k25}E{\k21}ven {\k21}through {\k29}the {\kf195}flames
+Comment: 0,0:02:43.32,0:02:46.41,Sample KM [Up],,0,0,0,karaoke,{\k20}E{\k22}ven {\k21}through {\k23}the {\k44}a{\k47}shes {\k45}in {\k28}the {\k59}sky
+Comment: 0,0:02:46.83,0:02:52.53,Sample KM [Up],,0,0,0,karaoke,{\k23}Ba{\k20}by, {\k25}when {\k20}we {\k85}dream, {\k56}we{\k32} {\k95}dream {\k82}as {\kf132}one
+Comment: 0,0:02:53.88,0:02:56.92,Sample KM [Up],,0,0,0,karaoke,{\k25}Eve{\k21}ry {\k24}time {\k67}I {\kf167}breathe
+Comment: 0,0:02:57.43,0:03:00.55,Sample KM [Up],,0,0,0,karaoke,{\k24}It's {\k18}a {\k25}song {\k27}to {\k44}keep {\k41}this {\k48}love {\k18}a{\k67}live
+Comment: 0,0:03:00.98,0:03:07.40,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k22}know {\k24}when {\k19}we {\k90}dream, {\k55}we{\k35} {\k87}dream {\k88}as {\kf200}one
+Comment: 0,0:03:08.08,0:03:14.72,Sample KM [Up],,0,0,0,karaoke,{\k21}Eve{\k24}ry {\k24}time {\k16}we {\k91}dream, {\k55}we{\k34} {\k88}dream {\k89}as {\kf222}one
+Comment: 0,0:03:15.18,0:03:21.82,Sample KM [Up],,0,0,0,karaoke,{\k23}Eve{\k18}ry {\k26}time {\k22}we {\k92}dream, {\k49}we{\k38} {\k95}dream {\kf127}as {\kf174}one
+Dialogue: 0,0:00:08.10,0:00:12.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Our {\k73}love {\k18}will {\k63}ne{\k23}ver {\k23}fade {\k22}a{\k59}way
+Dialogue: 0,0:00:11.66,0:00:15.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}We're {\k49}dia{\k43}monds {\k42}in {\k25}the {\kf110}dark
+Dialogue: 0,0:00:15.46,0:00:19.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k30}put {\k40}my {\k90}head {\k19}a{\k31}gainst {\k40}your {\k63}chest
+Dialogue: 0,0:00:18.80,0:00:22.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}And{\k17} {\k47}lis{\k45}ten {\k43}to {\k22}your {\k69}heart
+Dialogue: 0,0:00:21.68,0:00:25.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}’Cause {\k24}you {\k20}are {\k27}my {\kf173}home
+Dialogue: 0,0:00:25.48,0:00:29.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}No {\k19}mat{\k25}ter {\k90}where {\k89}I {\k84}go
+Dialogue: 0,0:00:29.04,0:00:32.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ne{\k18}ver {\k23}a{\kf164}lone
+Dialogue: 0,0:00:32.42,0:00:37.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}'Cause {\k25}some{\k17}how {\k29}I {\k87}al{\k96}ways {\kf135}know
+Dialogue: 0,0:00:38.01,0:00:42.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}E{\k22}ven {\k20}through {\k26}the {\kf226}flames
+Dialogue: 0,0:00:41.55,0:00:45.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}E{\k24}ven {\k24}through {\k18}the {\k50}a{\k46}shes {\k42}in {\k27}the {\k79}sky
+Dialogue: 0,0:00:45.10,0:00:52.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ba{\k22}by, {\k23}when {\k21}we {\k92}dream, {\k85}we {\k92}dream {\k89}as {\kf143}one
+Dialogue: 0,0:00:52.26,0:00:56.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Eve{\k21}ry {\k24}time {\k21}I {\kf211}breathe
+Dialogue: 0,0:00:55.83,0:01:00.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}It's {\k18}a {\k26}song {\k25}to {\k44}keep {\k46}this {\k41}love {\k26}a{\k70}live
+Dialogue: 0,0:00:59.40,0:01:06.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k22}know {\k22}when {\k25}wе {\k86}dream, {\k88}we {\k93}dream {\k87}as {\kf177}onе
+Dialogue: 0,0:01:06.56,0:01:13.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k23}know {\k21}when {\k20}we {\k93}dream, {\k86}we {\k85}dream {\k90}as {\kf119}one
+Dialogue: 0,0:01:14.14,0:01:18.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}So {\k25}beau{\k21}ti{\k69}ful {\k24}when {\k19}we’re {\k19}to{\k26}ge{\k80}ther
+Dialogue: 0,0:01:17.70,0:01:21.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Like {\k49}fea{\k39}thers {\k44}on {\k28}a {\kf105}wing
+Dialogue: 0,0:01:21.69,0:01:25.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ri{\k20}ding {\k86}right{\k27} {\k16}be{\k40}side {\k49}me
+Dialogue: 0,0:01:24.32,0:01:28.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}We're {\k49}two {\k45}ar{\k40}rows {\k49}in {\k23}the {\k68}wind
+Dialogue: 0,0:01:27.71,0:01:31.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}'Cause {\k26}you {\k20}are {\k23}my {\kf198}home
+Dialogue: 0,0:01:31.42,0:01:35.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}No {\k20}mat{\k27}ter {\k82}where {\k89}I {\k82}go
+Dialogue: 0,0:01:34.96,0:01:38.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ne{\k17}ver {\k29}a{\kf172}lone
+Dialogue: 0,0:01:38.77,0:01:43.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I've {\k20}ne{\k23}ver {\k21}been {\k18}a{\k29}fraid {\k22}to {\k29}let {\k39}you {\k46}know {\k48}that
+Dialogue: 0,0:01:42.05,0:01:46.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}E{\k20}ven {\k21}through {\k20}the {\kf225}flames
+Dialogue: 0,0:01:45.61,0:01:49.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}E{\k27}ven {\k19}through {\k21}the {\k43}a{\k45}shes {\k47}in {\k17}the {\k74}sky
+Dialogue: 0,0:01:49.15,0:01:56.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ba{\k23}by, {\k21}when {\k22}we {\k89}dream, {\k59}we{\k33} {\k86}dream {\k87}as {\kf162}one
+Dialogue: 0,0:01:56.27,0:02:00.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Eve{\k23}ry {\k24}time {\k20}I {\kf202}breathe
+Dialogue: 0,0:01:59.81,0:02:04.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}It's {\k18}a {\k27}song {\k27}to {\k45}keep {\k36}this {\k49}love {\k19}a{\k74}live
+Dialogue: 0,0:02:03.34,0:02:10.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k24}know {\k22}when {\k22}we {\k88}dream, {\k56}we{\k33} {\k88}dream {\k89}as {\kf178}one
+Dialogue: 0,0:02:11.32,0:02:16.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf398}Dream
+Dialogue: 0,0:02:15.33,0:02:19.50,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Dream, {\k75}dream,{\k61} {\k66}dream, {\k64}dream
+Dialogue: 0,0:02:18.40,0:02:23.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf393}Dream
+Dialogue: 0,0:02:21.77,0:02:26.49,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf123}Dream,{\k29} {\k46}dream, {\k68}dream, {\k61}dream, {\k35}dream
+Dialogue: 0,0:02:25.50,0:02:30.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf393}Dream
+Dialogue: 0,0:02:29.91,0:02:33.47,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k72}Dream, {\k88}dream, {\k86}dream
+Dialogue: 0,0:02:32.57,0:02:38.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf447}Dream
+Dialogue: 0,0:02:36.03,0:02:39.82,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf101}Dream,{\k45} {\k44}dream, {\k79}dream
+Dialogue: 0,0:02:38.81,0:02:42.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}E{\k21}ven {\k21}through {\k29}the {\kf195}flames
+Dialogue: 0,0:02:42.42,0:02:46.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}E{\k22}ven {\k21}through {\k23}the {\k44}a{\k47}shes {\k45}in {\k28}the {\k59}sky
+Dialogue: 0,0:02:45.93,0:02:52.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ba{\k20}by, {\k25}when {\k20}we {\k85}dream, {\k56}we{\k32} {\k95}dream {\k82}as {\kf132}one
+Dialogue: 0,0:02:52.98,0:02:57.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Eve{\k21}ry {\k24}time {\k67}I {\kf167}breathe
+Dialogue: 0,0:02:56.53,0:03:00.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}It's {\k18}a {\k25}song {\k27}to {\k44}keep {\k41}this {\k48}love {\k18}a{\k67}live
+Dialogue: 0,0:03:00.08,0:03:07.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k22}know {\k24}when {\k19}we {\k90}dream, {\k55}we{\k35} {\k87}dream {\k88}as {\kf200}one
+Dialogue: 0,0:03:07.18,0:03:14.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Eve{\k24}ry {\k24}time {\k16}we {\k91}dream, {\k55}we{\k34} {\k88}dream {\k89}as {\kf222}one
+Dialogue: 0,0:03:14.28,0:03:22.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Eve{\k18}ry {\k26}time {\k22}we {\k92}dream, {\k49}we{\k38} {\k95}dream {\kf127}as {\kf174}one
