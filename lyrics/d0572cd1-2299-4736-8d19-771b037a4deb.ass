@@ -1,0 +1,95 @@
+﻿[Script Info]
+Title: INERTIA
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H000000FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,40,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,40,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,40,legend,{\k1000}{\k0}{\rSample KM Duo [Voice 1]}Female {\2cHFFFFFF}| {\rSample KM Duo [Voice 2]}Male {\2cHFFFFFF}| {\rSample KM Duo [Voice 1&2]}Both
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.69,0:00:06.29,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k46}I {\k24}al{\k23}ways {\k97}knew {\k21}where {\k28}I {\kf121}stood
+Comment: 0,0:00:06.72,0:00:10.09,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}I {\k23}tried {\k25}to {\k91}be {\k57}so {\kf118}good
+Comment: 0,0:00:10.51,0:00:11.91,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}Look {\k25}at {\k24}me {\k68}now
+Comment: 0,0:00:12.16,0:00:13.85,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k49}I {\k27}don’t {\k23}know {\k70}how
+Comment: 0,0:00:14.11,0:00:17.63,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k42}But {\k31}I’m {\k24}a {\k99}real {\k48}he{\kf108}ro
+Comment: 0,0:00:19.70,0:00:21.72,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k34}No {\k26}hi{\k23}ding {\k22}in {\k22}the {\k50}sha{\k25}dows
+Comment: 0,0:00:21.72,0:00:23.16,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k49}Time {\k41}to {\k54}strut
+Comment: 0,0:00:23.62,0:00:26.72,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k25}I’m {\k23}gon{\k23}na {\k24}make {\k24}a {\k49}splash {\k24}to {\k44}make {\k49}this {\k25}cut
+Comment: 0,0:00:26.96,0:00:29.10,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k47}You’ve {\k43}got {\k29}to {\k23}be{\k72}lieve
+Comment: 0,0:00:29.54,0:00:30.60,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k28}That {\k22}I {\k25}am {\k31}free
+Comment: 0,0:00:30.74,0:00:33.15,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k50}So {\k47}no {\k24}he{\k25}si{\k45}ta{\k50}tion
+Comment: 0,0:00:34.33,0:00:39.11,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k33}Pic{\k38}ture {\k24}your {\k35}pla{\k40}net {\k23}in {\k41}dis{\k32}har{\k31}mo{\kf181}ny
+Comment: 0,0:00:40.99,0:00:42.06,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k26}Jump {\k22}in{\k26}to {\k13}the {\k20}night
+Comment: 0,0:00:42.19,0:00:44.35,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k46}'Cause {\k44}I {\k28}can {\k24}smell {\k14}the {\k36}trou{\k24}ble
+Comment: 0,0:00:44.79,0:00:46.00,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k25}Don’t {\k26}you {\k21}miss {\k15}the {\k34}fight
+Comment: 0,0:00:46.00,0:00:48.17,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k47}Just {\k47}get {\k25}there {\k23}at {\k16}the {\k33}dou{\k26}ble
+Comment: 0,0:00:48.38,0:00:50.17,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k12}I {\k36}got{\k24}ta {\k22}make {\k15}a {\k35}dif{\k35}ference
+Comment: 0,0:00:50.29,0:00:51.99,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k13}I’m {\k33}mo{\k25}ving {\k25}with {\k15}a {\k31}pur{\k28}pose
+Comment: 0,0:00:52.20,0:00:53.90,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k14}I’m {\k32}fee{\k26}ling {\k21}my {\k14}in{\k34}er{\k29}tia
+Comment: 0,0:00:54.10,0:00:54.93,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k14}In{\k31}er{\k38}tia
+Comment: 0,0:00:55.06,0:00:56.25,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k13}In{\k33}er{\k73}tia
+Comment: 0,0:00:56.69,0:00:59.59,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k17}Stub{\k23}born{\k33}ly, {\k25}I {\k22}will {\k14}be{\k35}lieve, {\k23}I {\k26}will {\k11}be{\k61}lieve
+Comment: 0,0:00:59.59,0:01:01.03,Sample KM Duo [Voice 2],,0,0,100,karaoke,{\k42}Keep {\k51}drea{\k51}ming
+Comment: 0,0:01:00.48,0:01:03.39,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}Stub{\k24}born{\k36}ly, {\k24}I {\k22}will {\k14}be{\k35}lieve, {\k23}I {\k24}will {\k13}be{\k59}lieve
+Comment: 0,0:01:03.37,0:01:04.96,Sample KM Duo [Voice 2],,0,0,100,karaoke,{\k47}Keep {\k49}drea{\k63}ming
+Comment: 0,0:01:04.34,0:01:06.25,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k12}Is {\k25}it {\k26}my {\k21}turn {\k11}to {\k24}be {\k14}the {\k24}he{\k34}ro?
+Comment: 0,0:01:06.25,0:01:06.70,Sample KM Duo [Voice 2],,0,0,100,karaoke,{\k45}Yeah
+Comment: 0,0:01:06.41,0:01:08.15,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}'Cause {\k27}I {\k21}got {\k12}to {\k24}be {\k9}the {\k27}he{\k34}ro
+Comment: 0,0:01:08.12,0:01:08.73,Sample KM Duo [Voice 2],,0,0,100,karaoke,{\k61}Yeah
+Comment: 0,0:01:08.32,0:01:10.19,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}'Cause {\k24}I {\k24}got {\k9}to {\k23}be {\k13}the {\k26}he{\k47}ro
+Comment: 0,0:01:10.08,0:01:10.64,Sample KM Duo [Voice 2],,0,0,100,karaoke,{\k56}Yeah
+Comment: 0,0:01:10.28,0:01:12.52,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k13}'Cause {\k25}I {\k24}got {\k13}to {\k23}be {\k9}the {\k27}he{\k90}ro
+Comment: 0,0:01:11.87,0:01:12.62,Sample KM Duo [Voice 2],,0,0,100,karaoke,{\k75}Yeah
+Comment: 0,0:01:13.75,0:01:17.02,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k35}All {\k26}my {\k23}life, {\k20}they {\k26}said {\k24}that {\k45}I {\k37}was {\k91}strange
+Comment: 0,0:01:17.62,0:01:20.76,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k28}But {\k21}I {\k26}knew {\k24}that {\k20}I {\k29}could {\k45}be {\k25}the {\k96}change
+Comment: 0,0:01:20.52,0:01:23.39,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k22}I {\k71}still {\k27}ain’t {\k70}done {\k27}e{\k70}nough
+Comment: 0,0:01:24.32,0:01:27.15,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k28}Not {\k68}e{\k25}ven {\kf162}close
+Dialogue: 0,0:00:01.79,0:00:06.49,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k46}I {\k24}al{\k23}ways {\k97}knew {\k21}where {\k28}I {\kf121}stood
+Dialogue: 0,0:00:05.82,0:00:10.29,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k23}tried {\k25}to {\k91}be {\k57}so {\kf118}good
+Dialogue: 0,0:00:09.61,0:00:12.11,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Look {\k25}at {\k24}me {\k68}now
+Dialogue: 0,0:00:11.26,0:00:14.05,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k49}I {\k27}don’t {\k23}know {\k70}how
+Dialogue: 0,0:00:13.21,0:00:17.83,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k42}But {\k31}I’m {\k24}a {\k99}real {\k48}he{\kf108}ro
+Dialogue: 0,0:00:18.80,0:00:21.92,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k34}No {\k26}hi{\k23}ding {\k22}in {\k22}the {\k50}sha{\k25}dows
+Dialogue: 0,0:00:20.82,0:00:23.36,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Time {\k41}to {\k54}strut
+Dialogue: 0,0:00:22.72,0:00:26.92,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I’m {\k23}gon{\k23}na {\k24}make {\k24}a {\k49}splash {\k24}to {\k44}make {\k49}this {\k25}cut
+Dialogue: 0,0:00:26.06,0:00:29.30,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k47}You’ve {\k43}got {\k29}to {\k23}be{\k72}lieve
+Dialogue: 0,0:00:28.64,0:00:30.80,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k28}That {\k22}I {\k25}am {\k31}free
+Dialogue: 0,0:00:29.84,0:00:33.35,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k50}So {\k47}no {\k24}he{\k25}si{\k45}ta{\k50}tion
+Dialogue: 0,0:00:33.43,0:00:39.31,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Pic{\k38}ture {\k24}your {\k35}pla{\k40}net {\k23}in {\k41}dis{\k32}har{\k31}mo{\kf181}ny
+Dialogue: 0,0:00:40.09,0:00:42.26,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Jump {\k22}in{\k26}to {\k13}the {\k20}night
+Dialogue: 0,0:00:41.29,0:00:44.55,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k46}'Cause {\k44}I {\k28}can {\k24}smell {\k14}the {\k36}trou{\k24}ble
+Dialogue: 0,0:00:43.89,0:00:46.20,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Don’t {\k26}you {\k21}miss {\k15}the {\k34}fight
+Dialogue: 0,0:00:45.10,0:00:48.37,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Just {\k47}get {\k25}there {\k23}at {\k16}the {\k33}dou{\k26}ble
+Dialogue: 0,0:00:47.48,0:00:50.37,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k12}I {\k36}got{\k24}ta {\k22}make {\k15}a {\k35}dif{\k35}ference
+Dialogue: 0,0:00:49.39,0:00:52.19,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k13}I’m {\k33}mo{\k25}ving {\k25}with {\k15}a {\k31}pur{\k28}pose
+Dialogue: 0,0:00:51.30,0:00:54.10,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k14}I’m {\k32}fee{\k26}ling {\k21}my {\k14}in{\k34}er{\k29}tia
+Dialogue: 0,0:00:53.20,0:00:55.13,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k14}In{\k31}er{\k38}tia
+Dialogue: 0,0:00:54.16,0:00:56.45,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k13}In{\k33}er{\k73}tia
+Dialogue: 0,0:00:55.79,0:00:59.79,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Stub{\k23}born{\k33}ly, {\k25}I {\k22}will {\k14}be{\k35}lieve, {\k23}I {\k26}will {\k11}be{\k61}lieve
+Dialogue: 0,0:00:58.69,0:01:01.23,Sample KM Duo [Voice 2],,0,0,100,fx,{\k90\fad(300,200)}{\k42}Keep {\k51}drea{\k51}ming
+Dialogue: 0,0:00:59.58,0:01:03.59,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Stub{\k24}born{\k36}ly, {\k24}I {\k22}will {\k14}be{\k35}lieve, {\k23}I {\k24}will {\k13}be{\k59}lieve
+Dialogue: 0,0:01:02.47,0:01:05.16,Sample KM Duo [Voice 2],,0,0,100,fx,{\k90\fad(300,200)}{\k47}Keep {\k49}drea{\k63}ming
+Dialogue: 0,0:01:03.44,0:01:06.45,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Is {\k25}it {\k26}my {\k21}turn {\k11}to {\k24}be {\k14}the {\k24}he{\k34}ro?
+Dialogue: 0,0:01:05.35,0:01:06.90,Sample KM Duo [Voice 2],,0,0,100,fx,{\k90\fad(300,200)}{\k45}Yeah
+Dialogue: 0,0:01:05.51,0:01:08.35,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k20}'Cause {\k27}I {\k21}got {\k12}to {\k24}be {\k9}the {\k27}he{\k34}ro
+Dialogue: 0,0:01:07.22,0:01:08.93,Sample KM Duo [Voice 2],,0,0,100,fx,{\k90\fad(300,200)}{\k61}Yeah
+Dialogue: 0,0:01:07.42,0:01:10.39,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k21}'Cause {\k24}I {\k24}got {\k9}to {\k23}be {\k13}the {\k26}he{\k47}ro
+Dialogue: 0,0:01:09.18,0:01:10.84,Sample KM Duo [Voice 2],,0,0,100,fx,{\k90\fad(300,200)}{\k56}Yeah
+Dialogue: 0,0:01:09.38,0:01:12.72,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k13}'Cause {\k25}I {\k24}got {\k13}to {\k23}be {\k9}the {\k27}he{\k90}ro
+Dialogue: 0,0:01:10.97,0:01:12.82,Sample KM Duo [Voice 2],,0,0,100,fx,{\k90\fad(300,200)}{\k75}Yeah
+Dialogue: 0,0:01:12.85,0:01:17.22,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k35}All {\k26}my {\k23}life, {\k20}they {\k26}said {\k24}that {\k45}I {\k37}was {\k91}strange
+Dialogue: 0,0:01:16.72,0:01:20.96,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k28}But {\k21}I {\k26}knew {\k24}that {\k20}I {\k29}could {\k45}be {\k25}the {\k96}change
+Dialogue: 0,0:01:19.62,0:01:23.59,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k71}still {\k27}ain’t {\k70}done {\k27}e{\k70}nough
+Dialogue: 0,0:01:23.42,0:01:27.35,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Not {\k68}e{\k25}ven {\kf162}close
