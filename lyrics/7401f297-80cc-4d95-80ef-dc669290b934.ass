@@ -1,0 +1,66 @@
+﻿[Script Info]
+Title: Doux no kôshin kyoku
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Louis Royer, NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up]-rubyscript-furigana,Arial,12,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0.75,0,8,2,2,20,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up]-rubyscript,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up]-rubyscript,,0,0,0,karaoke,There is a single line with furigana, so we apply rubyscript only to this single line. This avoids the lyrics file being big just because of this line
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up]-rubyscript,,0,0,0,template syl furi,!retime("line",$lstart < 900 and -$lstart or -900,200)!{\fade(!$lstart < 900 and $lstart or 300!,200)\an5\pos(!line.left+syl.center!,!$middle+offset()!)\k!$start/10+($lstart < 900 and $lstart or 900)/10!\!syl.tag!$skdur}
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up]-rubyscript,,0,0,0,code once,lineOffset=60 -- vertical offset between lines with different vertical margins value
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up]-rubyscript,,0,0,0,code once,function offset() return _G.tonumber(line.margin_t)*lineOffset end
+Comment: 0,0:00:09.79,0:00:13.32,Sample KM [Up],,0,0,0,karaoke,{\k54}ド{\k48}ゥ{\k46}が{\k20}い{\k13}く{\k21}よ {\k51}こ{\k49}う{\k51}しん
+Comment: 0,0:00:13.80,0:00:17.38,Sample KM [Up],,0,0,0,karaoke,{\k34}み{\k17}て{\k31}み{\k19}て{\k50}おお{\k32}き{\k18}く{\k50}なっ{\k52}ちゃっ{\k55}た
+Comment: 0,0:00:17.82,0:00:21.33,Sample KM [Up],,0,0,0,karaoke,{\k50}ド{\k51}ゥ{\k49}が{\k15}い{\k16}く{\k19}よ {\k50}こ{\k49}う{\k52}しん
+Comment: 0,0:00:21.81,0:00:25.38,Sample KM [Up]-rubyscript,,0,0,1,karaoke,{\k53}こん{\k35}な{\k18}に{\k45}大|おお{\k36}き{\k13}く{\k51}なっ{\k51}ちゃっ{\k55}た
+Comment: 0,0:00:25.80,0:00:29.38,Sample KM [Up],,0,0,0,karaoke,{\k51}なん{\k29}で{\k22}も{\k49}かん{\k28}で{\k22}も{\k51}ちい{\k48}さい{\k58}な
+Comment: 0,0:00:29.80,0:00:33.30,Sample KM [Up],,0,0,0,karaoke,{\k36}パ{\k16}パ{\k33}も{\k16}お{\k51}ねえ{\k29}ちゃん{\k21}も{\k50}ちい{\k49}さい{\k49}な
+Comment: 0,0:00:33.80,0:00:37.34,Sample KM [Up],,0,0,0,karaoke,{\k80}みん{\k22}な{\k31}ちい{\k19}さ{\k29}く{\k18}て{\k36}か{\k18}わい{\k49}い{\k52}な
+Comment: 0,0:00:37.81,0:00:41.59,Sample KM [Up],,0,0,0,karaoke,{\k51}ドゥ{\k45}の{\k37}せ{\k18}な{\k36}か{\k14}に{\k36}の{\k15}せて{\k37}あ{\k17}げ{\k72}る
+Comment: 0,0:00:49.80,0:00:53.32,Sample KM [Up],,0,0,0,karaoke,{\k52}ド{\k50}ゥ{\k50}が{\k16}い{\k15}く{\k19}よ {\k51}こ{\k48}う{\k51}しん
+Comment: 0,0:00:53.80,0:00:57.38,Sample KM [Up],,0,0,0,karaoke,{\k32}み{\k19}て{\k35}み{\k17}て{\k49}おお{\k34}き{\k17}く{\k49}なっ{\k50}ちゃっ{\k56}た
+Comment: 0,0:00:57.82,0:01:01.33,Sample KM [Up],,0,0,0,karaoke,{\k50}ド{\k50}ゥ{\k50}が{\k16}い{\k16}く{\k18}よ {\k50}こ{\k50}う{\k51}しん
+Comment: 0,0:01:01.81,0:01:05.33,Sample KM [Up],,0,0,0,karaoke,{\k53}こん{\k33}な{\k16}に{\k50}おお{\k35}き{\k15}く{\k49}なっ{\k51}ちゃっ{\k50}た
+Comment: 0,0:01:05.81,0:01:09.28,Sample KM [Up],,0,0,0,karaoke,{\k51}なん{\k33}で{\k17}も{\k48}かん{\k30}で{\k19}も{\k51}ちい{\k51}さい{\k47}な
+Comment: 0,0:01:09.77,0:01:13.31,Sample KM [Up],,0,0,0,karaoke,{\k15}サ{\k18}ラ{\k21}マン{\k34}ド{\k15}ラ{\k51}さん{\k50}も{\k51}ちい{\k50}さい{\k49}な
+Comment: 0,0:01:13.80,0:01:17.32,Sample KM [Up],,0,0,0,karaoke,{\k31}お{\k21}し{\k31}ろ{\k19}も{\k48}こん{\k31}な{\k21}に{\k49}ちい{\k49}さい{\k52}な
+Comment: 0,0:01:17.81,0:01:21.67,Sample KM [Up],,0,0,0,karaoke,{\k53}こん{\k31}なん{\k16}じゃ{\k35}お{\k17}へ{\k36}や{\k14}に{\k36}は{\k13}い{\k38}れ{\k18}な{\k79}い
+Dialogue: 0,0:00:00.00,0:00:00.20,Sample KM [Up]-rubyscript,,0,0,0,fx,{\fade(0,200)\an5\pos(-305.33653846154,32)\k0\0}
+Dialogue: 0,0:00:00.00,0:00:00.20,Sample KM [Up]-rubyscript,,0,0,0,fx,{\fade(0,200)\an5\pos(192,32)\k0\\k0}There is a single line with furigana, so we apply rubyscript only to this single line. This avoids the lyrics file being big just because of this line
+Dialogue: 0,0:00:08.89,0:00:13.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}ド{\k48}ゥ{\k46}が{\k20}い{\k13}く{\k21}よ {\k51}こ{\k49}う{\k51}しん
+Dialogue: 0,0:00:12.90,0:00:17.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}み{\k17}て{\k31}み{\k19}て{\k50}おお{\k32}き{\k18}く{\k50}なっ{\k52}ちゃっ{\k55}た
+Dialogue: 0,0:00:16.92,0:00:21.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}ド{\k51}ゥ{\k49}が{\k15}い{\k16}く{\k19}よ {\k50}こ{\k49}う{\k52}しん
+Dialogue: 0,0:00:20.91,0:00:25.58,Sample KM [Up]-rubyscript,,0,0,1,fx,{\fade(300,200)\an5\pos(75,73)\k90\0}
+Dialogue: 0,0:00:20.91,0:00:25.58,Sample KM [Up]-rubyscript,,0,0,1,fx,{\fade(300,200)\an5\pos(93,73)\k90\\k53}こん
+Dialogue: 0,0:00:20.91,0:00:25.58,Sample KM [Up]-rubyscript,,0,0,1,fx,{\fade(300,200)\an5\pos(120,73)\k143\\k35}な
+Dialogue: 0,0:00:20.91,0:00:25.58,Sample KM [Up]-rubyscript,,0,0,1,fx,{\fade(300,200)\an5\pos(138,73)\k178\\k18}に
+Dialogue: 0,0:00:20.91,0:00:25.58,Sample KM [Up]-rubyscript,,0,0,1,fx,{\fade(300,200)\an5\pos(156,73)\k196\\k45}大
+Dialogue: 0,0:00:20.91,0:00:25.58,Sample KM [Up]-rubyscript,,0,0,1,fx,{\fade(300,200)\an5\pos(174,73)\k241\\k36}き
+Dialogue: 0,0:00:20.91,0:00:25.58,Sample KM [Up]-rubyscript,,0,0,1,fx,{\fade(300,200)\an5\pos(192,73)\k277\\k13}く
+Dialogue: 0,0:00:20.91,0:00:25.58,Sample KM [Up]-rubyscript,,0,0,1,fx,{\fade(300,200)\an5\pos(219,73)\k290\\k51}なっ
+Dialogue: 0,0:00:20.91,0:00:25.58,Sample KM [Up]-rubyscript,,0,0,1,fx,{\fade(300,200)\an5\pos(264,73)\k341\\k51}ちゃっ
+Dialogue: 0,0:00:20.91,0:00:25.58,Sample KM [Up]-rubyscript,,0,0,1,fx,{\fade(300,200)\an5\pos(300,73)\k392\\k55}た
+Dialogue: 0,0:00:20.91,0:00:25.58,Sample KM [Up]-rubyscript-furigana,,0,0,1,fx,{\fade(300,200)\an5\pos(156,55)\k196\\k45}おお
+Dialogue: 0,0:00:24.90,0:00:29.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}なん{\k29}で{\k22}も{\k49}かん{\k28}で{\k22}も{\k51}ちい{\k48}さい{\k58}な
+Dialogue: 0,0:00:28.90,0:00:33.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}パ{\k16}パ{\k33}も{\k16}お{\k51}ねえ{\k29}ちゃん{\k21}も{\k50}ちい{\k49}さい{\k49}な
+Dialogue: 0,0:00:32.90,0:00:37.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k80}みん{\k22}な{\k31}ちい{\k19}さ{\k29}く{\k18}て{\k36}か{\k18}わい{\k49}い{\k52}な
+Dialogue: 0,0:00:36.91,0:00:41.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}ドゥ{\k45}の{\k37}せ{\k18}な{\k36}か{\k14}に{\k36}の{\k15}せて{\k37}あ{\k17}げ{\k72}る
+Dialogue: 0,0:00:48.90,0:00:53.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}ド{\k50}ゥ{\k50}が{\k16}い{\k15}く{\k19}よ {\k51}こ{\k48}う{\k51}しん
+Dialogue: 0,0:00:52.90,0:00:57.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}み{\k19}て{\k35}み{\k17}て{\k49}おお{\k34}き{\k17}く{\k49}なっ{\k50}ちゃっ{\k56}た
+Dialogue: 0,0:00:56.92,0:01:01.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}ド{\k50}ゥ{\k50}が{\k16}い{\k16}く{\k18}よ {\k50}こ{\k50}う{\k51}しん
+Dialogue: 0,0:01:00.91,0:01:05.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}こん{\k33}な{\k16}に{\k50}おお{\k35}き{\k15}く{\k49}なっ{\k51}ちゃっ{\k50}た
+Dialogue: 0,0:01:04.91,0:01:09.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}なん{\k33}で{\k17}も{\k48}かん{\k30}で{\k19}も{\k51}ちい{\k51}さい{\k47}な
+Dialogue: 0,0:01:08.87,0:01:13.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}サ{\k18}ラ{\k21}マン{\k34}ド{\k15}ラ{\k51}さん{\k50}も{\k51}ちい{\k50}さい{\k49}な
+Dialogue: 0,0:01:12.90,0:01:17.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}お{\k21}し{\k31}ろ{\k19}も{\k48}こん{\k31}な{\k21}に{\k49}ちい{\k49}さい{\k52}な
+Dialogue: 0,0:01:16.91,0:01:21.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}こん{\k31}なん{\k16}じゃ{\k35}お{\k17}へ{\k36}や{\k14}に{\k36}は{\k13}い{\k38}れ{\k18}な{\k79}い
