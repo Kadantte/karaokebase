@@ -16,7 +16,7 @@ Style: Sample KM [Up]-rubyscript,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H000
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up]-rubyscript,,0,0,0,karaoke,There is a single line with furigana, so we apply rubyscript only to this single line. This avoids the lyrics file being big just because of this line
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up]-rubyscript,,0,0,0,,There is a single line with furigana, so we apply rubyscript only to this single line. This avoids the lyrics file being big just because of this line
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up]-rubyscript,,0,0,0,template syl furi,!retime("line",$lstart < 900 and -$lstart or -900,200)!{\fade(!$lstart < 900 and $lstart or 300!,200)\an5\pos(!line.left+syl.center!,!$middle+offset()!)\k!$start/10+($lstart < 900 and $lstart or 900)/10!\!syl.tag!$skdur}
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up]-rubyscript,,0,0,0,code once,lineOffset=60 -- vertical offset between lines with different vertical margins value
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up]-rubyscript,,0,0,0,code once,function offset() return _G.tonumber(line.margin_t)*lineOffset end
@@ -36,8 +36,6 @@ Comment: 0,0:01:05.81,0:01:09.28,Sample KM [Up],,0,0,0,karaoke,{\k51}なん{\k33
 Comment: 0,0:01:09.77,0:01:13.31,Sample KM [Up],,0,0,0,karaoke,{\k15}サ{\k18}ラ{\k21}マン{\k34}ド{\k15}ラ{\k51}さん{\k50}も{\k51}ちい{\k50}さい{\k49}な
 Comment: 0,0:01:13.80,0:01:17.32,Sample KM [Up],,0,0,0,karaoke,{\k31}お{\k21}し{\k31}ろ{\k19}も{\k48}こん{\k31}な{\k21}に{\k49}ちい{\k49}さい{\k52}な
 Comment: 0,0:01:17.81,0:01:21.67,Sample KM [Up],,0,0,0,karaoke,{\k53}こん{\k31}なん{\k16}じゃ{\k35}お{\k17}へ{\k36}や{\k14}に{\k36}は{\k13}い{\k38}れ{\k18}な{\k79}い
-Dialogue: 0,0:00:00.00,0:00:00.20,Sample KM [Up]-rubyscript,,0,0,0,fx,{\fade(0,200)\an5\pos(-305.33653846154,32)\k0\0}
-Dialogue: 0,0:00:00.00,0:00:00.20,Sample KM [Up]-rubyscript,,0,0,0,fx,{\fade(0,200)\an5\pos(192,32)\k0\\k0}There is a single line with furigana, so we apply rubyscript only to this single line. This avoids the lyrics file being big just because of this line
 Dialogue: 0,0:00:08.89,0:00:13.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}ド{\k48}ゥ{\k46}が{\k20}い{\k13}く{\k21}よ {\k51}こ{\k49}う{\k51}しん
 Dialogue: 0,0:00:12.90,0:00:17.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}み{\k17}て{\k31}み{\k19}て{\k50}おお{\k32}き{\k18}く{\k50}なっ{\k52}ちゃっ{\k55}た
 Dialogue: 0,0:00:16.92,0:00:21.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}ド{\k51}ゥ{\k49}が{\k15}い{\k16}く{\k19}よ {\k50}こ{\k49}う{\k52}しん
