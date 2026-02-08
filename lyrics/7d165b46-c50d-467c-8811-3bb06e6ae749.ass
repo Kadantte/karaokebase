@@ -11,19 +11,32 @@ Original Timing: Kara.moe
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,24,&H00FFFFFF,&H000087EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,10,10,10,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.83,0:00:04.56,Default,,0,0,0,karaoke,{\fad(123,100)\k90\k9}ME{\k19}CHA{\k16}NI{\k16}CA{\k42}L {\k36}DAN{\k39}CING {\k89}FIGHT
-Dialogue: 0,0:00:07.10,0:00:13.07,Default,,0,0,0,karaoke,{\fad(750,100)\k90\k6}a{\k12}i{\k19}tsu {\k39}to {\k16}o{\k16}re {\k16}to {\k69}wa {\k29\k9}shi{\k16}n{\k99}yuu {\k29\k9}shi{\k16}n{\k82}yuu
-Dialogue: 0,0:00:13.41,0:00:19.48,Default,,0,0,0,karaoke,{\fad(850,100)\k90\k6}i{\k12}ki {\k19}mo {\k12}fu{\k16}re{\k16}a{\k19}u {\k19}ho{\k76}do {\k22\k9}shi{\k19}n{\k89}yuu {\k42\k9}shi{\k19}n{\k86}yuu
-Dialogue: 0,0:00:19.64,0:00:23.30,Default,,0,0,0,karaoke,{\fad(850,100)\k90\k6}i{\k12}tsu{\k19}mo {\k16}te{\k12}no{\k12}hi{\k12}ra {\k16}no {\k16}na{\k122}ka
-Dialogue: 0,0:00:23.37,0:00:26.25,Default,,0,0,0,karaoke,{\fad(850,100)\k52\k6}mi{\k12}tsu{\k22}me{\k12}te{\k22}ru {\k12}ma{\k19}mot{\k16}te{\k122}ru
-Dialogue: 0,0:00:28.82,0:00:31.99,Default,,0,0,0,karaoke,{\fad(850,100)\k90\k52}HEART  {\k59}HEART  {\k59}HEART  {\k42}HEART
-Dialogue: 0,0:00:35.13,0:00:38.26,Default,,0,0,0,karaoke,{\fad(850,100)\k90\k49}SHOT  {\k62}SHOT  {\k52}SHOT  {\k46}SHOT
-Dialogue: 0,0:00:41.47,0:00:47.07,Default,,0,0,0,karaoke,{\fad(850,100)\k90\k36}GO {\k39}GO {\k39}GO{\k19}L{\k19}D {\k16}L{\k19}IGH{\k62}TAN {\k39}L{\k19}IGH{\k142}TAN
-Dialogue: 0,0:00:03.93,0:00:07.50,Default,,0,0,0,karaoke,{\fad(433,100)\k90\k9}ME{\k19}CHA{\k19}NI{\k22}CA{\k36}L {\k42}DAN{\k36}CING {\k66}FIGHT
-Dialogue: 0,0:00:25.65,0:00:29.52,Default,,0,0,0,karaoke,{\fad(850,100)\k90\k86}mat{\k16}te{\k56}ru {\k22}mo{\k16}e{\k16}te{\k69}ru
-Dialogue: 0,0:00:31.09,0:00:35.83,Default,,0,0,0,karaoke,{\fad(850,100)\k90\k9}ta{\k36}ta{\k36}ka{\k42}u {\k36}HEAR{\k62}T {\k19}ga {\k39}FU{\k19}SIO{\k66}N
-Dialogue: 0,0:00:37.33,0:00:42.20,Default,,0,0,0,karaoke,{\fad(850,100)\k90\k12}ne{\k36}ra{\k39}e {\k16}a{\k46}ku {\k19}no {\k16}I{\k19}VA{\k19}L{\k156}DER
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.81,0:00:04.56,Sample KM [Up],,0,0,0,karaoke,{\k18}ME{\k19}CHA{\k19}NI{\k23}CA{\k36}L {\k39}DAN{\k43}CING {\k78}FIGHT
+Comment: 0,0:00:04.94,0:00:07.50,Sample KM [Up],,0,0,0,karaoke,{\k20}ME{\k24}CHA{\k15}NI{\k22}CA{\k37}L {\k42}DAN{\k36}CING {\k60}FIGHT
+Comment: 0,0:00:08.07,0:00:13.07,Sample KM [Up],,0,0,0,karaoke,{\k13}a{\k11}i{\k19}tsu {\k39}to {\k18}o{\k21}re {\k18}to {\k100}wa {\k19}shi{\k20}n{\k116}yuu {\k21}shi{\k20}n{\k65}yuu
+Comment: 0,0:00:14.37,0:00:19.48,Sample KM [Up],,0,0,0,karaoke,{\k11}i{\k9}ki {\k20}mo {\k19}fu{\k20}re{\k17}a{\k20}u {\k19}ho{\k102}do {\k18}shi{\k21}n{\k117}yuu {\k20}shi{\k21}n{\k77}yuu
+Comment: 0,0:00:20.66,0:00:23.30,Sample KM [Up],,0,0,0,karaoke,{\k8}i{\k12}tsu{\k20}mo {\k9}te{\k12}no{\k15}hi{\k21}ra {\k20}no {\k16}na{\kf131}ka
+Comment: 0,0:00:23.81,0:00:26.25,Sample KM [Up],,0,0,0,karaoke,{\k9}mi{\k8}tsu{\k19}me{\k13}te{\k8}ru {\k21}ma{\k22}mo{\k18}t{\k18}te{\kf108}ru
+Comment: 0,0:00:26.73,0:00:29.52,Sample KM [Up],,0,0,0,karaoke,{\k42}ma{\k38}t{\k22}te{\k59}ru {\k19}mo{\k21}e{\k19}te{\k59}ru
+Comment: 0,0:00:29.87,0:00:31.99,Sample KM [Up],,0,0,0,karaoke,{\k62}HEART  {\k59}HEART  {\k60}HEART  {\k31}HEART
+Comment: 0,0:00:32.07,0:00:35.83,Sample KM [Up],,0,0,0,karaoke,{\k18}ta{\k40}ta{\k40}ka{\k38}u {\k40}HEAR{\k57}T {\k21}ga {\k38}FU{\k26}SIO{\k58}N
+Comment: 0,0:00:36.15,0:00:38.26,Sample KM [Up],,0,0,0,karaoke,{\k64}SHOT  {\k60}SHOT  {\k56}SHOT  {\k31}SHOT
+Comment: 0,0:00:38.37,0:00:42.20,Sample KM [Up],,0,0,0,karaoke,{\k17}ne{\k38}ra{\k39}e {\k25}a{\k34}ku {\k20}no {\k20}I{\k21}VA{\k18}L{\kf151}DER
+Comment: 0,0:00:42.48,0:00:47.07,Sample KM [Up],,0,0,0,karaoke,{\k40}GO {\k40}GO {\k40}GO{\k20}L{\k20}D {\k19}L{\k20}IGH{\k64}TAN {\k38}L{\k16}IGH{\kf142}TAN
+Dialogue: 0,0:00:00.91,0:00:04.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}ME{\k19}CHA{\k19}NI{\k23}CA{\k36}L {\k39}DAN{\k43}CING {\k78}FIGHT
+Dialogue: 0,0:00:04.04,0:00:07.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ME{\k24}CHA{\k15}NI{\k22}CA{\k37}L {\k42}DAN{\k36}CING {\k60}FIGHT
+Dialogue: 0,0:00:07.17,0:00:13.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}a{\k11}i{\k19}tsu {\k39}to {\k18}o{\k21}re {\k18}to {\k100}wa {\k19}shi{\k20}n{\k116}yuu {\k21}shi{\k20}n{\k65}yuu
+Dialogue: 0,0:00:13.47,0:00:19.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}i{\k9}ki {\k20}mo {\k19}fu{\k20}re{\k17}a{\k20}u {\k19}ho{\k102}do {\k18}shi{\k21}n{\k117}yuu {\k20}shi{\k21}n{\k77}yuu
+Dialogue: 0,0:00:19.76,0:00:23.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}i{\k12}tsu{\k20}mo {\k9}te{\k12}no{\k15}hi{\k21}ra {\k20}no {\k16}na{\kf131}ka
+Dialogue: 0,0:00:22.91,0:00:26.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}mi{\k8}tsu{\k19}me{\k13}te{\k8}ru {\k21}ma{\k22}mo{\k18}t{\k18}te{\kf108}ru
+Dialogue: 0,0:00:25.83,0:00:29.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}ma{\k38}t{\k22}te{\k59}ru {\k19}mo{\k21}e{\k19}te{\k59}ru
+Dialogue: 0,0:00:28.97,0:00:32.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k62}HEART  {\k59}HEART  {\k60}HEART  {\k31}HEART
+Dialogue: 0,0:00:31.17,0:00:36.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}ta{\k40}ta{\k40}ka{\k38}u {\k40}HEAR{\k57}T {\k21}ga {\k38}FU{\k26}SIO{\k58}N
+Dialogue: 0,0:00:35.25,0:00:38.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k64}SHOT  {\k60}SHOT  {\k56}SHOT  {\k31}SHOT
+Dialogue: 0,0:00:37.47,0:00:42.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}ne{\k38}ra{\k39}e {\k25}a{\k34}ku {\k20}no {\k20}I{\k21}VA{\k18}L{\kf151}DER
+Dialogue: 0,0:00:41.58,0:00:47.27,Sample KM [Up],,0,0,0,fx,{\k90}{\fad(300,200)}{\k40}GO {\k40}GO {\k40}GO{\k20}L{\k20}D {\k19}L{\k20}IGH{\k64}TAN {\k38}L{\k16}IGH{\kf162}TAN
