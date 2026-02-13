@@ -1,0 +1,91 @@
+﻿[Script Info]
+Title: Never Meant
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\kf1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:54.59,0:00:59.01,Sample KM [Up],,0,0,0,karaoke,{\k44}Let's {\k85}just {\k20}for{\kf293}get
+Comment: 0,0:00:59.61,0:01:02.33,Sample KM [Up],,0,0,0,karaoke,{\k21}Eve{\k23}ry{\k98}thing {\kf130}said
+Comment: 0,0:01:04.40,0:01:07.58,Sample KM [Up],,0,0,0,karaoke,{\k20}And {\k23}eve{\k39}ry{\k46}thing {\k19}we {\kf171}did
+Comment: 0,0:01:09.62,0:01:11.29,Sample KM [Up],,0,0,0,karaoke,{\k41}Best {\kf126}friends
+Comment: 0,0:01:11.93,0:01:13.99,Sample KM [Up],,0,0,0,karaoke,{\k20}And {\k21}bet{\k24}ter {\kf141}halves
+Comment: 0,0:01:14.64,0:01:18.37,Sample KM [Up],,0,0,0,karaoke,{\kf146}Good{\kf227}byes
+Comment: 0,0:01:21.50,0:01:27.90,Sample KM [Up],,0,0,0,karaoke,{\k20}And {\k21}the {\k41}au{\k42}tumn {\k82}night{\k42} {\k20}when {\k41}we {\k67}re{\k62}a{\kf202}lized
+Comment: 0,0:01:31.63,0:01:38.51,Sample KM [Up],,0,0,0,karaoke,{\k23}We {\k19}were {\k20}fal{\k63}ling {\k62}out {\kf102}of {\kf399}love
+Comment: 0,0:01:35.56,0:01:38.49,Sample KM [Choir],,0,0,0,karaoke,{\k20}There {\k22}were {\k42}some {\k65}things{\k42} {\k18}that {\k40}were {\k44}said
+Comment: 0,0:01:39.13,0:01:40.24,Sample KM [Choir],,0,0,0,karaoke,{\k21}That {\k44}weren't {\k46}meant
+Comment: 0,0:01:40.64,0:01:43.60,Sample KM [Choir],,0,0,0,karaoke,{\k20}There {\k22}were {\k42}some {\k65}things{\k42} {\k20}that {\k40}were {\k45}said
+Comment: 0,0:01:44.21,0:01:45.30,Sample KM [Choir],,0,0,0,karaoke,{\k21}That {\k44}weren't {\k44}meant
+Comment: 0,0:01:45.68,0:01:48.66,Sample KM [Choir],,0,0,0,karaoke,{\k22}There {\k22}were {\k42}some {\k65}things{\k42} {\k20}that {\k40}were {\k45}said
+Comment: 0,0:01:49.27,0:01:50.36,Sample KM [Choir],,0,0,0,karaoke,{\k24}That {\k41}weren't {\k44}meant
+Comment: 0,0:01:50.79,0:01:53.77,Sample KM [Choir],,0,0,0,karaoke,{\k20}There {\k22}were {\k42}some {\k65}things{\k42} {\k22}that {\k40}were {\k45}said
+Comment: 0,0:01:54.38,0:01:55.48,Sample KM [Choir],,0,0,0,karaoke,{\k27}That {\k42}weren't {\k41}meant
+Comment: 0,0:01:55.94,0:01:58.88,Sample KM [Choir],,0,0,0,karaoke,{\k20}There {\k22}were {\k42}some {\k65}things{\k40} {\k20}that {\k40}were {\k45}said
+Comment: 0,0:01:59.50,0:02:00.54,Sample KM [Choir],,0,0,0,karaoke,{\k21}That {\k43}weren't {\k40}meant
+Comment: 0,0:02:01.00,0:02:03.94,Sample KM [Choir],,0,0,0,karaoke,{\k20}There {\k22}were {\k42}some {\k62}things{\k43} {\k20}that {\k40}were {\k45}said
+Comment: 0,0:02:04.55,0:02:05.51,Sample KM [Choir],,0,0,0,karaoke,{\k21}That {\k44}weren't {\k31}meant
+Comment: 0,0:02:06.01,0:02:08.99,Sample KM [Choir],,0,0,0,karaoke,{\k22}There {\k22}were {\k42}some {\k65}things{\k42} {\k20}that {\k40}were {\k45}said
+Comment: 0,0:02:09.60,0:02:10.65,Sample KM [Choir],,0,0,0,karaoke,{\k21}That {\k40}weren't {\k44}meant
+Comment: 0,0:02:11.05,0:02:13.98,Sample KM [Choir],,0,0,0,karaoke,{\k22}There {\k22}were {\k42}some {\k61}things{\k42} {\k20}that {\k40}were {\k44}said
+Comment: 0,0:02:13.55,0:02:17.70,Sample KM [Up],,0,0,0,karaoke,{\k22}But {\k42}we {\k21}ne{\kf118}ver {\kf212}did
+Comment: 0,0:02:22.23,0:02:24.68,Sample KM [Up],,0,0,0,karaoke,{\k37}Not {\k44}to {\kf164}be
+Comment: 0,0:02:27.98,0:02:31.51,Sample KM [Up],,0,0,0,karaoke,{\k85}O{\k80}ver{\kf188}ly
+Comment: 0,0:02:29.84,0:02:32.73,Sample KM [Choir],,0,0,0,karaoke,{\k64}O{\k81}ver{\kf144}ly
+Comment: 0,0:02:32.73,0:02:34.59,Sample KM [Up],,0,0,0,karaoke,{\k21}Dra{\k42}ma{\kf123}tic
+Comment: 0,0:02:41.63,0:02:44.18,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k42}just {\k21}think {\k40}it's {\kf131}best
+Comment: 0,0:02:48.46,0:02:53.03,Sample KM [Up],,0,0,0,karaoke,{\k43}'Cause {\k17}you {\k46}can't {\k60}miss {\k23}what {\k59}you {\k23}for{\kf186}get
+Comment: 0,0:03:00.86,0:03:04.46,Sample KM [Up],,0,0,0,karaoke,{\k43}So, {\k62}let's {\k68}just {\k18}pre{\kf169}tend
+Comment: 0,0:03:07.81,0:03:11.93,Sample KM [Up],,0,0,0,karaoke,{\k83}Eve{\k80}ry{\k86}thing {\kf163}and
+Comment: 0,0:03:15.42,0:03:17.14,Sample KM [Up],,0,0,0,karaoke,{\k25}A{\k44}ny{\kf103}thing
+Comment: 0,0:03:18.13,0:03:20.87,Sample KM [Up],,0,0,0,karaoke,{\k22}Be{\k42}tween {\k19}you {\k41}and {\kf150}me
+Comment: 0,0:03:26.86,0:03:30.63,Sample KM [Up],,0,0,0,karaoke,{\k22}Was {\k21}ne{\kf126}ver {\kf208}meant
+Comment: 0,0:03:47.09,0:03:58.12,Sample KM [Up],,0,0,0,karaoke,{\k21}Was {\k21}ne{\kf128}ver {\kf933}meant
+Dialogue: 0,0:00:53.69,0:00:59.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Let's {\k85}just {\k20}for{\kf293}get
+Dialogue: 0,0:00:58.71,0:01:02.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Eve{\k23}ry{\k98}thing {\kf130}said
+Dialogue: 0,0:01:03.50,0:01:07.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}And {\k23}eve{\k39}ry{\k46}thing {\k19}we {\kf171}did
+Dialogue: 0,0:01:08.72,0:01:11.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Best {\kf126}friends
+Dialogue: 0,0:01:11.03,0:01:14.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}And {\k21}bet{\k24}ter {\kf141}halves
+Dialogue: 0,0:01:13.74,0:01:18.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf146}Good{\kf227}byes
+Dialogue: 0,0:01:20.60,0:01:28.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}And {\k21}the {\k41}au{\k42}tumn {\k82}night{\k42} {\k20}when {\k41}we {\k67}re{\k62}a{\kf202}lized
+Dialogue: 0,0:01:30.73,0:01:38.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}We {\k19}were {\k20}fal{\k63}ling {\k62}out {\kf102}of {\kf399}love
+Dialogue: 0,0:01:34.66,0:01:38.69,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}There {\k22}were {\k42}some {\k65}things{\k42} {\k18}that {\k40}were {\k44}said
+Dialogue: 0,0:01:38.23,0:01:40.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}That {\k44}weren't {\k46}meant
+Dialogue: 0,0:01:39.74,0:01:43.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}There {\k22}were {\k42}some {\k65}things{\k42} {\k20}that {\k40}were {\k45}said
+Dialogue: 0,0:01:43.31,0:01:45.50,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}That {\k44}weren't {\k44}meant
+Dialogue: 0,0:01:44.78,0:01:48.86,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}There {\k22}were {\k42}some {\k65}things{\k42} {\k20}that {\k40}were {\k45}said
+Dialogue: 0,0:01:48.37,0:01:50.56,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}That {\k41}weren't {\k44}meant
+Dialogue: 0,0:01:49.89,0:01:53.97,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}There {\k22}were {\k42}some {\k65}things{\k42} {\k22}that {\k40}were {\k45}said
+Dialogue: 0,0:01:53.48,0:01:55.68,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}That {\k42}weren't {\k41}meant
+Dialogue: 0,0:01:55.04,0:01:59.08,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}There {\k22}were {\k42}some {\k65}things{\k40} {\k20}that {\k40}were {\k45}said
+Dialogue: 0,0:01:58.60,0:02:00.74,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}That {\k43}weren't {\k40}meant
+Dialogue: 0,0:02:00.10,0:02:04.14,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}There {\k22}were {\k42}some {\k62}things{\k43} {\k20}that {\k40}were {\k45}said
+Dialogue: 0,0:02:03.65,0:02:05.71,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}That {\k44}weren't {\k31}meant
+Dialogue: 0,0:02:05.11,0:02:09.19,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}There {\k22}were {\k42}some {\k65}things{\k42} {\k20}that {\k40}were {\k45}said
+Dialogue: 0,0:02:08.70,0:02:10.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}That {\k40}weren't {\k44}meant
+Dialogue: 0,0:02:10.15,0:02:14.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}There {\k22}were {\k42}some {\k61}things{\k42} {\k20}that {\k40}were {\k44}said
+Dialogue: 0,0:02:12.65,0:02:17.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}But {\k42}we {\k21}ne{\kf118}ver {\kf212}did
+Dialogue: 0,0:02:21.33,0:02:24.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Not {\k44}to {\kf164}be
+Dialogue: 0,0:02:27.08,0:02:31.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k85}O{\k80}ver{\kf188}ly
+Dialogue: 0,0:02:28.94,0:02:32.93,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k64}O{\k81}ver{\kf144}ly
+Dialogue: 0,0:02:31.83,0:02:34.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Dra{\k42}ma{\kf123}tic
+Dialogue: 0,0:02:40.73,0:02:44.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k42}just {\k21}think {\k40}it's {\kf131}best
+Dialogue: 0,0:02:47.56,0:02:53.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}'Cause {\k17}you {\k46}can't {\k60}miss {\k23}what {\k59}you {\k23}for{\kf186}get
+Dialogue: 0,0:02:59.96,0:03:04.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}So, {\k62}let's {\k68}just {\k18}pre{\kf169}tend
+Dialogue: 0,0:03:06.91,0:03:12.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k83}Eve{\k80}ry{\k86}thing {\kf163}and
+Dialogue: 0,0:03:14.52,0:03:17.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}A{\k44}ny{\kf103}thing
+Dialogue: 0,0:03:17.23,0:03:21.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Be{\k42}tween {\k19}you {\k41}and {\kf150}me
+Dialogue: 0,0:03:25.96,0:03:30.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Was {\k21}ne{\kf126}ver {\kf208}meant
+Dialogue: 0,0:03:46.19,0:03:58.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Was {\k21}ne{\kf128}ver {\kf933}meant
