@@ -1,0 +1,61 @@
+﻿[Script Info]
+Title: Omoide no Mori
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:11.46,0:00:12.76,Sample KM [Down],,0,0,0,karaoke,umarete kuru toki ni
+Comment: 0,0:00:12.87,0:00:14.95,Sample KM [Down],,0,0,0,karaoke,guuzen nigitte ita unmei no ishi ga
+Comment: 0,0:00:15.41,0:00:16.19,Sample KM [Down],,0,0,0,karaoke,hitobito wo
+Comment: 0,0:00:16.19,0:00:17.10,Sample KM [Down],,0,0,0,karaoke,yorokobi ya
+Comment: 0,0:00:17.10,0:00:18.92,Sample KM [Down],,0,0,0,karaoke,kanashimi ni michibiiteiku
+Comment: 0,0:00:20.70,0:00:21.91,Sample KM [Down],,0,0,0,karaoke,moshi te wo hiraite
+Comment: 0,0:00:21.91,0:00:22.77,Sample KM [Down],,0,0,0,karaoke,nagesutetara
+Comment: 0,0:00:22.91,0:00:24.08,Sample KM [Down],,0,0,0,karaoke,nanika wo kaeru koto ga
+Comment: 0,0:00:24.08,0:00:25.15,Sample KM [Down],,0,0,0,karaoke,dekiru no darou ka
+Comment: 0,0:00:25.73,0:00:27.83,Sample KM [Down],,0,0,0,karaoke,soretomo ishi wo nakushitara
+Comment: 0,0:00:28.07,0:00:29.36,Sample KM [Down],,0,0,0,karaoke,mayotte shimau dake?
+Comment: 0,0:00:29.83,0:00:34.24,Sample KM [Up],,0,0,0,karaoke,{\k31}wa{\k27}ta{\k31}shi {\k62}na{\k57}ra{\k26} {\k31}da{\k28}i{\k31}jo{\k60}u{\k57}bu
+Comment: 0,0:00:34.24,0:00:37.37,Sample KM [Up],,0,0,0,karaoke,{\k30}to{\k55}mo{\k27}da{\k65}chi {\k29}de{\kf107}mo
+Comment: 0,0:00:39.19,0:00:43.68,Sample KM [Up],,0,0,0,karaoke,{\k33}su{\k31}ki {\k29}ni {\k54}na{\k64}t{\kf118}ta {\k32}hi {\k88}no
+Comment: 0,0:00:43.95,0:00:48.07,Sample KM [Up],,0,0,0,karaoke,{\k27}ya{\k31}sa{\k30}shi{\k58}sa {\k58}no {\k60}ma{\k57}ma {\k91}de
+Comment: 0,0:00:48.67,0:00:53.05,Sample KM [Up],,0,0,0,karaoke,{\k28}o{\k28}wa{\k31}ra{\k53}se{\k64}ru {\kf112}ko{\k36}to {\k86}ga
+Comment: 0,0:00:53.31,0:01:01.27,Sample KM [Up],,0,0,0,karaoke,{\k32}wa{\k30}ta{\k31}shi {\k53}ni {\k65}to{\k58}t{\k58}te {\k60}no {\k28}sa{\k30}i{\k61}go {\kf290}no
+Comment: 0,0:00:58.05,0:01:02.49,Sample KM [Up],,0,0,0,karaoke,{\k27}da{\k33}ke{\k31}do {\k58}a{\k58}i{\kf116}shi{\k38}te{\k83}ru
+Comment: 0,0:01:02.77,0:01:07.01,Sample KM [Up],,0,0,0,karaoke,{\k30}ki{\k28}t{\k30}to {\k51}wa{\k66}su{\k59}re{\k57}na{\kf103}i
+Comment: 0,0:01:07.48,0:01:11.91,Sample KM [Up],,0,0,0,karaoke,{\k29}o{\k30}mo{\k29}i{\k60}de {\k58}no {\kf117}mo{\k31}ri {\k89}ni
+Comment: 0,0:01:12.19,0:01:22.49,Sample KM [Up],,0,0,0,karaoke,{\k28}hi{\k30}to{\k31}ri {\k51}ni {\k65}shi{\k58}na{\k57}i{\kf239}de{\k58} {\k31}na{\k28}i{\k58}te{\kf296}ru
+Comment: 0,0:01:35.41,0:01:36.47,Sample KM [Down],,0,0,0,karaoke,doko ni iku no?
+Dialogue: 0,0:00:10.56,0:00:12.96,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}umarete kuru toki ni
+Dialogue: 0,0:00:11.97,0:00:15.15,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}guuzen nigitte ita unmei no ishi ga
+Dialogue: 0,0:00:14.51,0:00:16.39,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}hitobito wo
+Dialogue: 0,0:00:15.29,0:00:17.30,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}yorokobi ya
+Dialogue: 0,0:00:16.20,0:00:19.12,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}kanashimi ni michibiiteiku
+Dialogue: 0,0:00:19.80,0:00:22.11,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}moshi te wo hiraite
+Dialogue: 0,0:00:21.01,0:00:22.97,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}nagesutetara
+Dialogue: 0,0:00:22.01,0:00:24.28,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}nanika wo kaeru koto ga
+Dialogue: 0,0:00:23.18,0:00:25.35,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}dekiru no darou ka
+Dialogue: 0,0:00:24.83,0:00:28.03,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}soretomo ishi wo nakushitara
+Dialogue: 0,0:00:27.17,0:00:29.56,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}mayotte shimau dake?
+Dialogue: 0,0:00:28.93,0:00:34.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}wa{\k27}ta{\k31}shi {\k62}na{\k57}ra{\k26} {\k31}da{\k28}i{\k31}jo{\k60}u{\k57}bu
+Dialogue: 0,0:00:33.34,0:00:37.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}to{\k55}mo{\k27}da{\k65}chi {\k29}de{\kf107}mo
+Dialogue: 0,0:00:38.29,0:00:43.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}su{\k31}ki {\k29}ni {\k54}na{\k64}t{\kf118}ta {\k32}hi {\k88}no
+Dialogue: 0,0:00:43.05,0:00:48.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}ya{\k31}sa{\k30}shi{\k58}sa {\k58}no {\k60}ma{\k57}ma {\k91}de
+Dialogue: 0,0:00:47.77,0:00:53.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}o{\k28}wa{\k31}ra{\k53}se{\k64}ru {\kf112}ko{\k36}to {\k86}ga
+Dialogue: 0,0:00:52.41,0:01:01.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}wa{\k30}ta{\k31}shi {\k53}ni {\k65}to{\k58}t{\k58}te {\k60}no {\k28}sa{\k30}i{\k61}go {\kf290}no
+Dialogue: 0,0:00:57.15,0:01:02.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}da{\k33}ke{\k31}do {\k58}a{\k58}i{\kf116}shi{\k38}te{\k83}ru
+Dialogue: 0,0:01:01.87,0:01:07.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}ki{\k28}t{\k30}to {\k51}wa{\k66}su{\k59}re{\k57}na{\kf103}i
+Dialogue: 0,0:01:06.58,0:01:12.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}o{\k30}mo{\k29}i{\k60}de {\k58}no {\kf117}mo{\k31}ri {\k89}ni
+Dialogue: 0,0:01:11.29,0:01:22.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}hi{\k30}to{\k31}ri {\k51}ni {\k65}shi{\k58}na{\k57}i{\kf239}de{\k58} {\k31}na{\k28}i{\k58}te{\kf296}ru
+Dialogue: 0,0:01:34.51,0:01:36.67,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}doko ni iku no?
