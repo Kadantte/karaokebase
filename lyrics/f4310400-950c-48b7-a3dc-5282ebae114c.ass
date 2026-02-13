@@ -1,0 +1,75 @@
+﻿[Script Info]
+Title: Lonely Chaser
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:20.18,0:00:22.62,Sample KM [Up],,0,0,0,karaoke,{\k19}yo{\k20}zo{\k42}ra {\k20}ko{\k20}ga{\k23}su {\k20}NE{\k20}O{\k21}N {\k39}LIGHT
+Comment: 0,0:00:23.46,0:00:24.90,Sample KM [Up],,0,0,0,karaoke,{\k20}ma{\k20}chi {\k19}wa {\k24}o{\k19}do{\k20}ru {\k22}yo
+Comment: 0,0:00:24.90,0:00:25.72,Sample KM [Up],,0,0,0,karaoke,{\k21}THROUGH {\k19}THE {\k42}NIGHT
+Comment: 0,0:00:26.35,0:00:29.33,Sample KM [Up],,0,0,0,karaoke,{\k19}G{\k23}LA{\k19}S {\k22}no {\k20}ma{\k40}ten{\k34}rou{\k28} {\k20}yo{\k21}ko{\k22}gi{\k30}ru
+Comment: 0,0:00:29.42,0:00:30.67,Sample KM [Up],,0,0,0,karaoke,{\k23}DAN{\k19}CING {\k41}PEO{\k42}PLE
+Comment: 0,0:00:31.08,0:00:32.54,Sample KM [Up],,0,0,0,karaoke,{\k22}RUN{\k21}NING {\k40}PEO{\k63}PLE
+Comment: 0,0:00:33.34,0:00:36.02,Sample KM [Up],,0,0,0,karaoke,{\k43}BAC{\k21}K {\k18}MIR{\k41}ROR {\k21}ga {\k20}u{\k20}tsu{\k24}shi{\k39}da{\k21}su
+Comment: 0,0:00:36.64,0:00:38.94,Sample KM [Up],,0,0,0,karaoke,{\k20}a{\k20}o{\k23}i {\k23}ki{\k16}zu{\k21}a{\k22}to {\k21}ME{\k18}MO{\k46}RIES
+Comment: 0,0:00:39.52,0:00:42.51,Sample KM [Up],,0,0,0,karaoke,{\k21}to{\k21}ki {\k20}wo {\k21}o{\k21}i{\k40}ka{\k20}ke{\k42}te {\k19}A{\k21}C{\k22}CE{\k31}L
+Comment: 0,0:00:42.60,0:00:45.49,Sample KM [Up],,0,0,0,karaoke,{\k22}CI{\k20}TY {\k41}CHA{\k42}SER,{\k40} {\k20}MIS{\k21}TY {\k40}CHA{\k43}SER
+Comment: 0,0:00:45.89,0:00:48.15,Sample KM [Up],,0,0,0,karaoke,{\k21}LONE{\k20}LY {\k42}CHA{\kf143}SER
+Comment: 0,0:00:47.14,0:00:47.55,Sample KM [Choir],,0,0,0,karaoke,{\k19}DON'T {\k11}WAN{\k5}NA {\k6}BE
+Comment: 0,0:00:47.55,0:00:48.36,Sample KM [Choir],,0,0,0,karaoke,{\k19}MIS{\k10}SING {\k11}YOU, {\k22}BA{\k19}BY
+Comment: 0,0:00:48.36,0:00:49.59,Sample KM [Up],,0,0,0,karaoke,{\k22}DON'T {\k20}YOU {\k21}KNOW {\k39}KNOW {\k21}KNOW
+Comment: 0,0:00:49.59,0:00:51.95,Sample KM [Up],,0,0,0,karaoke,{\k22}DREAM {\k18}A{\k43}BOUT {\k41}YOU {\k21}TO{\k91}NIGHT
+Comment: 0,0:00:52.07,0:00:54.33,Sample KM [Choir],,0,0,0,karaoke,{\k20}MIS{\k21}TY {\k21}LONE{\k19}LY {\k43}CHA{\kf102}SER
+Comment: 0,0:00:53.72,0:00:56.18,Sample KM [Up],,0,0,0,karaoke,{\k21}ma{\k9}chi {\k11}wa {\k20}kyo{\k13}u {\k10}mo {\k19}a{\k8}i {\k12}wo {\k22}yu{\k18}me {\k22}mi{\k41}te{\k20}ru
+Comment: 0,0:00:56.18,0:00:58.54,Sample KM [Up],,0,0,0,karaoke,{\k21}u{\k21}tsu{\k20}ro{\k20}na {\k42}LONE{\k21}LY {\k91}HEART
+Comment: 0,0:00:58.66,0:01:00.91,Sample KM [Up],,0,0,0,karaoke,{\k21}MIS{\k20}TY {\k21}LONE{\k18}LY {\k42}CHA{\kf103}SER
+Comment: 0,0:00:59.89,0:01:00.76,Sample KM [Choir],,0,0,0,karaoke,{\k11}DRI{\k9}VING {\k11}FOR {\k10}YOUR {\k46}LIFE
+Comment: 0,0:01:00.76,0:01:01.94,Sample KM [Choir],,0,0,0,karaoke,{\k15}YOU {\k21}CAN'T {\k19}RUN {\k22}A{\k41}WAY
+Comment: 0,0:01:01.94,0:01:04.02,Sample KM [Up],,0,0,0,karaoke,{\k20}MIS{\k21}TY {\k22}LONE{\k19}LY {\k41}CHA{\k85}SER
+Comment: 0,0:01:02.79,0:01:03.99,Sample KM [Choir],,0,0,0,karaoke,{\k18}DRI{\k20}VING {\k23}FOR {\k19}YOUR {\k40}LIFE
+Comment: 0,0:01:03.99,0:01:05.24,Sample KM [Choir],,0,0,0,karaoke,{\k21}YOU {\k21}CAN'T {\k20}HIDE {\k21}A{\k42}WAY
+Comment: 0,0:01:05.24,0:01:07.27,Sample KM [Up],,0,0,0,karaoke,{\k20}MIS{\k20}TY {\k22}LONE{\k18}LY {\k43}CHA{\k80}SER
+Comment: 0,0:01:07.27,0:01:08.84,Sample KM [Up],,0,0,0,karaoke,{\k43}OOH! {\k22}RUN{\k20}NING {\k20}TOO {\k52}FAST
+Comment: 0,0:01:08.93,0:01:12.02,Sample KM [Up],,0,0,0,karaoke,{\k22}MIS{\k18}TY {\k41}CHA{\kf105}SER{\k20} {\k22}LI{\k20}VING {\k22}TOO {\k39}FAST
+Comment: 0,0:01:13.90,0:01:17.69,Sample KM [Up],,0,0,0,karaoke,{\k20}LONE{\k20}LY {\k66}CHA{\kf273}SER
+Dialogue: 0,0:00:19.28,0:00:22.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}yo{\k20}zo{\k42}ra {\k20}ko{\k20}ga{\k23}su {\k20}NE{\k20}O{\k21}N {\k39}LIGHT
+Dialogue: 0,0:00:22.56,0:00:25.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ma{\k20}chi {\k19}wa {\k24}o{\k19}do{\k20}ru {\k22}yo
+Dialogue: 0,0:00:24.00,0:00:25.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}THROUGH {\k19}THE {\k42}NIGHT
+Dialogue: 0,0:00:25.45,0:00:29.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}G{\k23}LA{\k19}S {\k22}no {\k20}ma{\k40}ten{\k34}rou{\k28} {\k20}yo{\k21}ko{\k22}gi{\k30}ru
+Dialogue: 0,0:00:28.52,0:00:30.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}DAN{\k19}CING {\k41}PEO{\k42}PLE
+Dialogue: 0,0:00:30.18,0:00:32.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}RUN{\k21}NING {\k40}PEO{\k63}PLE
+Dialogue: 0,0:00:32.44,0:00:36.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}BAC{\k21}K {\k18}MIR{\k41}ROR {\k21}ga {\k20}u{\k20}tsu{\k24}shi{\k39}da{\k21}su
+Dialogue: 0,0:00:35.74,0:00:39.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}a{\k20}o{\k23}i {\k23}ki{\k16}zu{\k21}a{\k22}to {\k21}ME{\k18}MO{\k46}RIES
+Dialogue: 0,0:00:38.62,0:00:42.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}to{\k21}ki {\k20}wo {\k21}o{\k21}i{\k40}ka{\k20}ke{\k42}te {\k19}A{\k21}C{\k22}CE{\k31}L
+Dialogue: 0,0:00:41.70,0:00:45.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}CI{\k20}TY {\k41}CHA{\k42}SER,{\k40} {\k20}MIS{\k21}TY {\k40}CHA{\k43}SER
+Dialogue: 0,0:00:44.99,0:00:48.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}LONE{\k20}LY {\k42}CHA{\kf143}SER
+Dialogue: 0,0:00:46.24,0:00:47.75,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}DON'T {\k11}WAN{\k5}NA {\k6}BE
+Dialogue: 0,0:00:46.65,0:00:48.56,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}MIS{\k10}SING {\k11}YOU, {\k22}BA{\k19}BY
+Dialogue: 0,0:00:47.46,0:00:49.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}DON'T {\k20}YOU {\k21}KNOW {\k39}KNOW {\k21}KNOW
+Dialogue: 0,0:00:48.69,0:00:52.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}DREAM {\k18}A{\k43}BOUT {\k41}YOU {\k21}TO{\k91}NIGHT
+Dialogue: 0,0:00:51.17,0:00:54.53,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}MIS{\k21}TY {\k21}LONE{\k19}LY {\k43}CHA{\kf102}SER
+Dialogue: 0,0:00:52.82,0:00:56.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}ma{\k9}chi {\k11}wa {\k20}kyo{\k13}u {\k10}mo {\k19}a{\k8}i {\k12}wo {\k22}yu{\k18}me {\k22}mi{\k41}te{\k20}ru
+Dialogue: 0,0:00:55.28,0:00:58.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}u{\k21}tsu{\k20}ro{\k20}na {\k42}LONE{\k21}LY {\k91}HEART
+Dialogue: 0,0:00:57.76,0:01:01.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}MIS{\k20}TY {\k21}LONE{\k18}LY {\k42}CHA{\kf103}SER
+Dialogue: 0,0:00:58.99,0:01:00.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}DRI{\k9}VING {\k11}FOR {\k10}YOUR {\k46}LIFE
+Dialogue: 0,0:00:59.86,0:01:02.14,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k15}YOU {\k21}CAN'T {\k19}RUN {\k22}A{\k41}WAY
+Dialogue: 0,0:01:01.04,0:01:04.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}MIS{\k21}TY {\k22}LONE{\k19}LY {\k41}CHA{\k85}SER
+Dialogue: 0,0:01:01.89,0:01:04.19,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}DRI{\k20}VING {\k23}FOR {\k19}YOUR {\k40}LIFE
+Dialogue: 0,0:01:03.09,0:01:05.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}YOU {\k21}CAN'T {\k20}HIDE {\k21}A{\k42}WAY
+Dialogue: 0,0:01:04.34,0:01:07.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}MIS{\k20}TY {\k22}LONE{\k18}LY {\k43}CHA{\k80}SER
+Dialogue: 0,0:01:06.37,0:01:09.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}OOH! {\k22}RUN{\k20}NING {\k20}TOO {\k52}FAST
+Dialogue: 0,0:01:08.03,0:01:12.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}MIS{\k18}TY {\k41}CHA{\kf105}SER{\k20} {\k22}LI{\k20}VING {\k22}TOO {\k39}FAST
+Dialogue: 0,0:01:13.00,0:01:17.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}LONE{\k20}LY {\k66}CHA{\kf273}SER
