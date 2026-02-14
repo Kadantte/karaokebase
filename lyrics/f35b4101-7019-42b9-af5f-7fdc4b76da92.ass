@@ -1,0 +1,77 @@
+﻿[Script Info]
+Title: Kafka sings kuru kuru
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: Voltini
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Voltini,Arial,24,&H00FFEE44,&H00DAD9FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,2,8,2,2,20,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Voltini,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.72,0:00:01.57,Sample KM [Up],,0,0,0,karaoke,{\k23}sa{\k39}t{\k33}te
+Comment: 0,0:00:02.19,0:00:03.71,Sample KM [Up],,0,0,0,karaoke,{\k14}do{\k10}ko {\k11}ni {\k11}ka{\k12}ku{\k11}re{\k10}te{\k8}ru {\k14}no {\k7}ka{\k17}shi{\k27}ra
+Comment: 0,0:00:04.17,0:00:05.64,Sample KM [Up],,0,0,0,karaoke,{\k17}o{\k21}wa{\k13}ka{\k15}re {\k10}no {\k16}ji{\k14}ka{\k6}n {\k35}yo
+Comment: 0,0:00:06.16,0:00:06.60,Sample KM [Choir],,0,0,0,karaoke,{\k7}u{\k24}fu{\k13}fu
+Comment: 0,0:00:07.13,0:00:09.92,Sample KM [Up],,0,0,0,karaoke,{\k25}ku{\k17}ru {\k25}ku{\k82}ru{\k26} ku{\k34}ru {\k23}ku{\k47}ru
+Comment: 0,0:00:10.11,0:00:10.46,Sample KM [Choir],,0,0,0,karaoke,{\k7}u{\k11}fu{\k17}fu
+Comment: 0,0:00:10.46,0:00:13.17,Sample KM [Up],,0,0,0,karaoke,{\k20}ku{\k20}ru {\k25}ku{\k77}ru{\k26} ku{\k36}ru {\k24}ku{\k43}ru
+Comment: 0,0:00:13.53,0:00:16.62,Sample KM [Up],,0,0,0,karaoke,{\k21}ku{\k19}ru {\k23}ku{\k19}ru{\k79}rin {\k24}ku{\k18}ru {\k22}ku{\k20}ru{\k64}rin
+Comment: 0,0:00:16.86,0:00:19.37,Sample KM [Up],,0,0,0,karaoke,{\k15}ku{\k33}ru {\k9}ku{\k12}ru {\k8}ku{\k33}ru {\k10}ku{\k14}ru{\k19}ku{\k19}ru{\k79}rin
+Comment: 0,0:00:20.21,0:00:23.00,Sample KM [Up],,0,0,0,karaoke,{\k25}ku{\k17}ru {\k25}ku{\k82}ru{\k26} ku{\k34}ru {\k23}ku{\k47}ru
+Comment: 0,0:00:23.19,0:00:23.54,Sample KM [Choir],,0,0,0,karaoke,{\k7}u{\k11}fu{\k17}fu
+Comment: 0,0:00:23.54,0:00:26.25,Sample KM [Up],,0,0,0,karaoke,{\k20}ku{\k20}ru {\k25}ku{\k77}ru{\k26} ku{\k36}ru {\k24}ku{\k43}ru
+Comment: 0,0:00:26.61,0:00:29.70,Sample KM [Up],,0,0,0,karaoke,{\k21}ku{\k19}ru {\k23}ku{\k19}ru{\k79}rin {\k24}ku{\k18}ru {\k22}ku{\k20}ru{\k64}rin
+Comment: 0,0:00:29.94,0:00:32.45,Sample KM [Up],,0,0,0,karaoke,{\k15}ku{\k33}ru {\k9}ku{\k12}ru {\k8}ku{\k33}ru {\k10}ku{\k14}ru{\k19}ku{\k19}ru{\k79}rin
+Comment: 0,0:00:33.28,0:00:36.07,Sample KM [Up],,0,0,0,karaoke,{\k25}ku{\k17}ru {\k25}ku{\k82}ru{\k26} ku{\k34}ru {\k23}ku{\k47}ru
+Comment: 0,0:00:36.25,0:00:36.60,Sample KM [Choir],,0,0,0,karaoke,{\k7}u{\k11}fu{\k17}fu
+Comment: 0,0:00:36.61,0:00:39.32,Sample KM [Up],,0,0,0,karaoke,{\k20}ku{\k20}ru {\k25}ku{\k77}ru{\k26} ku{\k36}ru {\k24}ku{\k43}ru
+Comment: 0,0:00:39.68,0:00:42.77,Sample KM [Up],,0,0,0,karaoke,{\k21}ku{\k19}ru {\k23}ku{\k19}ru{\k79}rin {\k24}ku{\k18}ru {\k22}ku{\k20}ru{\k64}rin
+Comment: 0,0:00:43.01,0:00:45.52,Sample KM [Up],,0,0,0,karaoke,{\k15}ku{\k33}ru {\k9}ku{\k12}ru {\k8}ku{\k33}ru {\k10}ku{\k14}ru{\k19}ku{\k19}ru{\k79}rin
+Comment: 0,0:00:46.36,0:00:49.15,Sample KM [Up],,0,0,0,karaoke,{\k25}ku{\k17}ru {\k25}ku{\k82}ru{\k26} ku{\k34}ru {\k23}ku{\k47}ru
+Comment: 0,0:00:49.32,0:00:49.67,Sample KM [Choir],,0,0,0,karaoke,{\k7}u{\k11}fu{\k17}fu
+Comment: 0,0:00:49.69,0:00:52.40,Sample KM [Up],,0,0,0,karaoke,{\k20}ku{\k20}ru {\k25}ku{\k77}ru{\k26} ku{\k36}ru {\k24}ku{\k43}ru
+Comment: 0,0:00:52.76,0:00:55.85,Sample KM [Up],,0,0,0,karaoke,{\k21}ku{\k19}ru {\k23}ku{\k19}ru{\k79}rin {\k24}ku{\k18}ru {\k22}ku{\k20}ru{\k64}rin
+Comment: 0,0:00:56.09,0:00:58.60,Sample KM [Up],,0,0,0,karaoke,{\k15}ku{\k33}ru {\k9}ku{\k12}ru {\k8}ku{\k33}ru {\k10}ku{\k14}ru{\k19}ku{\k19}ru{\k79}rin
+Comment: 0,0:00:59.39,0:01:02.18,Sample KM [Up],,0,0,0,karaoke,{\k25}ku{\k17}ru {\k25}ku{\k82}ru{\k26} ku{\k34}ru {\k23}ku{\k47}ru
+Comment: 0,0:01:02.35,0:01:02.70,Sample KM [Choir],,0,0,0,karaoke,{\k7}u{\k11}fu{\k17}fu
+Comment: 0,0:01:02.72,0:01:04.74,Sample KM [Up],,0,0,0,karaoke,{\k20}ku{\k20}ru {\k25}ku{\k77}ru{\k26} ku{\k34}ru
+Comment: 0,0:00:18.37,0:00:22.37,Voltini,,0,0,0,karaoke,
+Dialogue: 0,0:00:00.00,0:00:01.77,Sample KM [Up],,0,0,0,fx,{\k72\fad(720,200)}{\k23}sa{\k39}t{\k33}te
+Dialogue: 0,0:00:01.29,0:00:03.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}do{\k10}ko {\k11}ni {\k11}ka{\k12}ku{\k11}re{\k10}te{\k8}ru {\k14}no {\k7}ka{\k17}shi{\k27}ra
+Dialogue: 0,0:00:03.27,0:00:05.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}o{\k21}wa{\k13}ka{\k15}re {\k10}no {\k16}ji{\k14}ka{\k6}n {\k35}yo
+Dialogue: 0,0:00:05.26,0:00:06.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k7}u{\k24}fu{\k13}fu
+Dialogue: 0,0:00:06.23,0:00:10.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ku{\k17}ru {\k25}ku{\k82}ru{\k26} ku{\k34}ru {\k23}ku{\k47}ru
+Dialogue: 0,0:00:09.21,0:00:10.66,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k7}u{\k11}fu{\k17}fu
+Dialogue: 0,0:00:09.56,0:00:13.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ku{\k20}ru {\k25}ku{\k77}ru{\k26} ku{\k36}ru {\k24}ku{\k43}ru
+Dialogue: 0,0:00:12.63,0:00:16.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}ku{\k19}ru {\k23}ku{\k19}ru{\k79}rin {\k24}ku{\k18}ru {\k22}ku{\k20}ru{\k64}rin
+Dialogue: 0,0:00:15.96,0:00:19.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}ku{\k33}ru {\k9}ku{\k12}ru {\k8}ku{\k33}ru {\k10}ku{\k14}ru{\k19}ku{\k19}ru{\k79}rin
+Dialogue: 0,0:00:19.31,0:00:23.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ku{\k17}ru {\k25}ku{\k82}ru{\k26} ku{\k34}ru {\k23}ku{\k47}ru
+Dialogue: 0,0:00:22.29,0:00:23.74,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k7}u{\k11}fu{\k17}fu
+Dialogue: 0,0:00:22.64,0:00:26.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ku{\k20}ru {\k25}ku{\k77}ru{\k26} ku{\k36}ru {\k24}ku{\k43}ru
+Dialogue: 0,0:00:25.71,0:00:29.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}ku{\k19}ru {\k23}ku{\k19}ru{\k79}rin {\k24}ku{\k18}ru {\k22}ku{\k20}ru{\k64}rin
+Dialogue: 0,0:00:29.04,0:00:32.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}ku{\k33}ru {\k9}ku{\k12}ru {\k8}ku{\k33}ru {\k10}ku{\k14}ru{\k19}ku{\k19}ru{\k79}rin
+Dialogue: 0,0:00:32.38,0:00:36.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ku{\k17}ru {\k25}ku{\k82}ru{\k26} ku{\k34}ru {\k23}ku{\k47}ru
+Dialogue: 0,0:00:35.35,0:00:36.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k7}u{\k11}fu{\k17}fu
+Dialogue: 0,0:00:35.71,0:00:39.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ku{\k20}ru {\k25}ku{\k77}ru{\k26} ku{\k36}ru {\k24}ku{\k43}ru
+Dialogue: 0,0:00:38.78,0:00:42.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}ku{\k19}ru {\k23}ku{\k19}ru{\k79}rin {\k24}ku{\k18}ru {\k22}ku{\k20}ru{\k64}rin
+Dialogue: 0,0:00:42.11,0:00:45.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}ku{\k33}ru {\k9}ku{\k12}ru {\k8}ku{\k33}ru {\k10}ku{\k14}ru{\k19}ku{\k19}ru{\k79}rin
+Dialogue: 0,0:00:45.46,0:00:49.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ku{\k17}ru {\k25}ku{\k82}ru{\k26} ku{\k34}ru {\k23}ku{\k47}ru
+Dialogue: 0,0:00:48.42,0:00:49.87,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k7}u{\k11}fu{\k17}fu
+Dialogue: 0,0:00:48.79,0:00:52.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ku{\k20}ru {\k25}ku{\k77}ru{\k26} ku{\k36}ru {\k24}ku{\k43}ru
+Dialogue: 0,0:00:51.86,0:00:56.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}ku{\k19}ru {\k23}ku{\k19}ru{\k79}rin {\k24}ku{\k18}ru {\k22}ku{\k20}ru{\k64}rin
+Dialogue: 0,0:00:55.19,0:00:58.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}ku{\k33}ru {\k9}ku{\k12}ru {\k8}ku{\k33}ru {\k10}ku{\k14}ru{\k19}ku{\k19}ru{\k79}rin
+Dialogue: 0,0:00:58.49,0:01:02.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ku{\k17}ru {\k25}ku{\k82}ru{\k26} ku{\k34}ru {\k23}ku{\k47}ru
+Dialogue: 0,0:01:01.45,0:01:02.90,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k7}u{\k11}fu{\k17}fu
+Dialogue: 0,0:01:01.82,0:01:04.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ku{\k20}ru {\k25}ku{\k77}ru{\k26} ku{\k34}ru
+Dialogue: 0,0:00:17.47,0:00:22.57,Voltini,,0,0,0,fx,{\k90\fad(300,200)}
