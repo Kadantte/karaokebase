@@ -1,0 +1,24 @@
+﻿[Script Info]
+Title: Pop'n Popcorn
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: jean marie
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H0000FF00,&H00FFFFFF,&H00F62909,&H00000000,0,0,0,0,100,100,0,0,1,1.5,2.5,8,2,2,20,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.29,0:00:03.76,Sample KM [Up],,0,0,0,karaoke,{\k31}POP{\k32}'N {\k31}PO{\k20}P, {\k44}POP{\k32}'N {\k32}PO{\k25}P!
+Comment: 0,0:00:04.01,0:00:07.47,Sample KM [Up],,0,0,0,karaoke,{\k14}PO{\k16}-PO{\k16}-PO {\k15}PO{\k15}-PO{\k18}-PO {\k46}POP{\k31}'N {\k34}PO{\k17}P{\kf124}CORN
+Comment: 0,0:00:09.28,0:00:11.39,Sample KM [Up],,0,0,0,karaoke,{\k13}ha{\k12}ji{\k11}ke{\k11}te {\k12}ta{\k10}no{\k27}shi, {\k21}POP{\k19}'N {\k22}PO{\k11}P{\k42}CORN!
+Dialogue: 0,0:00:00.39,0:00:03.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}POP{\k32}'N {\k31}PO{\k20}P, {\k44}POP{\k32}'N {\k32}PO{\k25}P!
+Dialogue: 0,0:00:03.11,0:00:07.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}PO{\k16}-PO{\k16}-PO {\k15}PO{\k15}-PO{\k18}-PO {\k46}POP{\k31}'N {\k34}PO{\k17}P{\kf124}CORN
+Dialogue: 0,0:00:08.38,0:00:11.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}ha{\k12}ji{\k11}ke{\k11}te {\k12}ta{\k10}no{\k27}shi, {\k21}POP{\k19}'N {\k22}PO{\k11}P{\k42}CORN!
