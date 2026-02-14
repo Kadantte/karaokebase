@@ -1,0 +1,111 @@
+﻿[Script Info]
+Title: RAIN
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:15.16,0:00:19.42,Sample KM [Up],,0,0,0,karaoke,{\k42}ka{\k44}ta {\k142}wo {\k39}nu{\k55}ra{\kf104}su
+Comment: 0,0:00:22.19,0:00:25.11,Sample KM [Up],,0,0,0,karaoke,{\k37}a{\k16}ma{\kf126}tsu{\k29}bu {\k84}de
+Comment: 0,0:00:26.92,0:00:31.02,Sample KM [Up],,0,0,0,karaoke,{\k36}ka{\k49}sa {\k96}wo {\k49}wa{\k39}su{\k47}re{\kf94}ta
+Comment: 0,0:00:32.81,0:00:37.13,Sample KM [Up],,0,0,0,karaoke,{\k35}ko{\k36}to {\k23}mo {\k50}wa{\k40}su{\k108}re{\k24}te{\kf116}ta
+Comment: 0,0:00:37.21,0:00:40.47,Sample KM [Up],,0,0,0,karaoke,{\k69}AH {\k23}ma{\k12}bu{\k19}shi{\k21}sa {\k18}wa {\k20}mu{\k21}na{\k13}shi{\k22}sa {\k17}te{\k37}rash'{\k34}te
+Comment: 0,0:00:40.84,0:00:43.39,Sample KM [Up],,0,0,0,karaoke,{\k23}sa{\k16}bi{\k16}shi{\k20}sa {\k22}wa {\k16}ku{\k20}ya{\k12}shi{\k20}sa {\k19}to{\k37}kash'{\k34}te
+Comment: 0,0:00:43.76,0:00:46.33,Sample KM [Up],,0,0,0,karaoke,{\k14}ki{\k9}mi {\k15}to {\k38}de{\k23}at{\k17}ta {\k32}a{\k31}no {\k42}hi {\k36}mo
+Comment: 0,0:00:46.62,0:00:49.28,Sample KM [Up],,0,0,0,karaoke,{\k10}fu{\k16}ta{\k20}ri {\k35}sh'te {\k14}zu{\k12}bu{\k11}nu{\k35}re {\k31}no {\k42}hi {\k40}mo
+Comment: 0,0:00:50.00,0:00:52.62,Sample KM [Up],,0,0,0,karaoke,{\k36}bo{\k39}ku {\k51}ga {\k28}shi{\k30}t{\k27}te{\k51}ru
+Comment: 0,0:00:53.03,0:01:01.43,Sample KM [Up],,0,0,0,karaoke,{\k33}a{\k33}me {\k58}wa {\k21}ko{\k26}n{\k26}na {\k83}ni {\k39}tsu{\k37}me{\kf104}ta{\k113}kat{\k40}ta {\k37}da{\kf111}ro{\k16}u {\k63}ka
+Comment: 0,0:01:01.79,0:01:06.62,Sample KM [Up],,0,0,0,karaoke,{\k28}i{\k20}ma {\k123}sa{\k27}ra {\kf122}da{\k22}ke{\kf141}do
+Comment: 0,0:01:07.34,0:01:09.03,Sample KM [Up],,0,0,0,karaoke,{\k26}fu{\k14}ri{\k17}da{\k25}su {\k87}RAIN
+Comment: 0,0:01:09.35,0:01:12.98,Sample KM [Up],,0,0,0,karaoke,{\k22}na{\k51}ni {\k23}mo {\k53}ka{\k36}mo {\k38}wo {\k23}na{\k69}gash'{\k48}te
+Comment: 0,0:01:13.42,0:01:18.89,Sample KM [Up],,0,0,0,karaoke,{\k19}do{\k16}u{\k22}shi{\k96}te{\k30} {\k16}a{\k56}no {\k20}to{\k51}ki {\k34}ki{\k40}zu{\k20}ke{\k38}na{\k37}kat{\k52}ta
+Comment: 0,0:01:19.27,0:01:21.94,Sample KM [Up],,0,0,0,karaoke,{\k37}ki{\k35}mi {\k38}no {\k21}i{\k51}nai {\k23}a{\k62}sa
+Comment: 0,0:01:22.52,0:01:24.95,Sample KM [Up],,0,0,0,karaoke,{\k38}mu{\k40}shi{\k18}n{\k61}ke{\k20}i {\k66}ni
+Comment: 0,0:01:25.50,0:01:30.20,Sample KM [Up],,0,0,0,karaoke,{\k35}ha{\k74}re{\k73}wa{\k52}ta{\k20}ru {\k39}so{\kf177}ra
+Comment: 0,0:01:30.73,0:01:32.58,Sample KM [Up],,0,0,0,karaoke,{\k23}ya{\k21}ma{\k18}na{\k17}i {\kf106}RAIN
+Comment: 0,0:01:32.79,0:01:36.41,Sample KM [Up],,0,0,0,karaoke,{\k19}ka{\k59}ke{\k15}da{\k56}shi{\k34}ta {\k39}so{\k20}ra {\k54}no {\k17}shi{\k49}ta
+Comment: 0,0:01:36.64,0:01:42.51,Sample KM [Up],,0,0,0,karaoke,{\k24}na{\k14}ni {\k18}mo {\k19}ka{\kf97}mo{\k28} {\k23}wa{\k52}su{\k22}re{\k55}te {\k32}ki{\k37}mi {\k22}to {\k50}no {\k22}hi {\k72}wo
+Comment: 0,0:01:42.65,0:01:48.57,Sample KM [Up],,0,0,0,karaoke,{\k40}mu{\k36}ne {\k35}ni {\k25}shi{\k41}ma{\k28}t{\k92}te {\k38}a{\k28}ru{\k44}ki{\k21}da{\k49}su {\k22}i{\k93}ma
+Comment: 0,0:01:48.87,0:01:53.66,Sample KM [Up],,0,0,0,karaoke,{\k37}so{\k75}ko {\k40}ni {\k35}i{\k53}te{\k20}ku{\k42}re{\kf177}te
+Comment: 0,0:01:54.19,0:01:56.59,Sample KM [Up],,0,0,0,karaoke,{\k25}a{\k35}ri{\k33}ga{\k37}to{\kf110}u~
+Comment: 0,0:02:00.05,0:02:05.75,Sample KM [Up],,0,0,0,karaoke,{\k15}u{\k42}shi{\k17}na{\k21}t{\k107}te {\k21}ki{\k105}zuk' {\k21}ya{\k18}su{\k20}ra{\k18}i{\k19}da {\k16}hi{\k18}bi{\k36}ta{\k20}chi {\k56}wa
+Comment: 0,0:02:06.13,0:02:11.07,Sample KM [Up],,0,0,0,karaoke,{\k35}do{\k37}ko{\k107}ka {\k24}to{\k123}ok' {\k19}he {\kf149}to
+Comment: 0,0:02:11.77,0:02:14.56,Sample KM [Up],,0,0,0,karaoke,{\k17}sou {\k38}a{\k38}me {\k109}ga {\k18}i{\k59}ma
+Comment: 0,0:02:15.08,0:02:17.48,Sample KM [Up],,0,0,0,karaoke,{\k20}ki{\k15}mi {\k20}ga {\k17}su{\k19}ki {\k18}da {\k19}to {\k35}i{\k20}t{\k57}ta
+Comment: 0,0:02:17.78,0:02:25.90,Sample KM [Up],,0,0,0,karaoke,{\k39}a{\k36}me {\k109}ga {\k21}i{\k125}ma {\k23}fu{\kf244}ru{\k26} {\k22}ho{\kf167}ra
+Comment: 0,0:02:26.32,0:02:27.99,Sample KM [Up],,0,0,0,karaoke,{\k29}fu{\k15}ri{\k20}da{\k23}su {\k80}RAIN
+Comment: 0,0:02:28.40,0:02:31.94,Sample KM [Up],,0,0,0,karaoke,{\k20}na{\k54}ni {\k21}mo {\k55}ka{\k34}mo {\k35}wo {\k23}na{\k54}ga{\k15}shi{\k43}te
+Comment: 0,0:02:32.30,0:02:37.88,Sample KM [Up],,0,0,0,karaoke,{\k16}a{\k19}fu{\k17}re{\k26}da{\k118}su {\k20}na{\k52}mi{\k21}da {\k57}wo {\k34}ka{\k34}ku{\k23}shi{\k51}te {\k21}ma{\k49}ta
+Comment: 0,0:02:38.32,0:02:44.16,Sample KM [Up],,0,0,0,karaoke,{\k35}da{\k35}re {\k40}mo {\k22}i{\k48}nai {\k23}he{\k87}ya {\k37}a{\k38}ma{\k36}o{\k27}to {\k46}da{\k26}ke {\k84}ga
+Comment: 0,0:02:44.54,0:02:50.14,Sample KM [Up],,0,0,0,karaoke,{\k33}bo{\k80}ku {\k71}wo {\k67}tsu{\k39}tsu{\kf140}mu {\k41}WOAH {\k89}OH
+Comment: 0,0:02:49.84,0:02:51.56,Sample KM [Up],,0,0,0,karaoke,{\k17}ka{\k19}ga{\k16}ya{\k21}ku {\kf99}RAIN
+Comment: 0,0:02:51.09,0:02:54.07,Sample KM [Choir],,0,0,0,karaoke,{\kf298}RAIN
+Comment: 0,0:02:51.81,0:02:55.50,Sample KM [Up],,0,0,0,karaoke,{\k20}ka{\k54}ke{\k20}da{\k54}shi{\k33}ta {\k43}so{\k20}ra {\k51}no {\k18}shi{\k56}ta
+Comment: 0,0:02:55.10,0:02:58.05,Sample KM [Choir],,0,0,0,karaoke,{\k39}so{\k18}ra {\k58}no {\k18}shi{\kf162}ta
+Comment: 0,0:02:55.71,0:02:57.47,Sample KM [Up],,0,0,0,karaoke,{\k14}ki{\k17}mi {\k19}to {\k18}iu {\kf108}RAIN
+Comment: 0,0:02:57.65,0:03:01.61,Sample KM [Up],,0,0,0,karaoke,{\k20}a{\k57}bi{\k20}te {\k55}yo{\k35}mi{\k35}ga{\k21}e{\k48}ru {\k29}hi{\k76}bi
+Comment: 0,0:03:00.55,0:03:03.45,Sample KM [Choir],,0,0,0,karaoke,{\k29}yo{\k14}mi{\k35}ga{\k30}e{\k46}ru {\k25}hi{\kf111}bi
+Comment: 0,0:03:01.67,0:03:04.26,Sample KM [Up],,0,0,0,karaoke,{\k43}ki{\k33}mi {\k39}no {\k19}i{\k51}nai {\k22}se{\k52}kai
+Comment: 0,0:03:04.26,0:03:05.30,Sample KM [Choir],,0,0,0,karaoke,{\kf104}WOAH
+Comment: 0,0:03:04.61,0:03:07.69,Sample KM [Up],,0,0,0,karaoke,{\k40}a{\k31}ru{\k42}ki{\k21}da{\k49}su {\k29}i{\k96}ma
+Comment: 0,0:03:07.20,0:03:07.95,Sample KM [Choir],,0,0,0,karaoke,{\k32}i{\k43}ma
+Comment: 0,0:03:07.95,0:03:12.88,Sample KM [Up],,0,0,0,karaoke,{\k34}de{\k74}at{\k72}te {\k74}ku{\k40}re{\kf199}te
+Comment: 0,0:03:13.19,0:03:16.59,Sample KM [Up],,0,0,0,karaoke,{\k26}a{\k37}ri{\k44}ga{\k42}to{\kf191}u~
+Comment: 0,0:03:19.99,0:03:25.21,Sample KM [Up],,0,0,0,karaoke,{\kf141}RAIN{\k81} {\k37}a{\k24}me {\k49}ga {\k29}fu{\kf161}ru
+Dialogue: 0,0:00:14.26,0:00:19.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}ka{\k44}ta {\k142}wo {\k39}nu{\k55}ra{\kf104}su
+Dialogue: 0,0:00:21.29,0:00:25.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}a{\k16}ma{\kf126}tsu{\k29}bu {\k84}de
+Dialogue: 0,0:00:26.02,0:00:31.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}ka{\k49}sa {\k96}wo {\k49}wa{\k39}su{\k47}re{\kf94}ta
+Dialogue: 0,0:00:31.91,0:00:37.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}ko{\k36}to {\k23}mo {\k50}wa{\k40}su{\k108}re{\k24}te{\kf116}ta
+Dialogue: 0,0:00:36.31,0:00:40.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k69}AH {\k23}ma{\k12}bu{\k19}shi{\k21}sa {\k18}wa {\k20}mu{\k21}na{\k13}shi{\k22}sa {\k17}te{\k37}rash'{\k34}te
+Dialogue: 0,0:00:39.94,0:00:43.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}sa{\k16}bi{\k16}shi{\k20}sa {\k22}wa {\k16}ku{\k20}ya{\k12}shi{\k20}sa {\k19}to{\k37}kash'{\k34}te
+Dialogue: 0,0:00:42.86,0:00:46.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}ki{\k9}mi {\k15}to {\k38}de{\k23}at{\k17}ta {\k32}a{\k31}no {\k42}hi {\k36}mo
+Dialogue: 0,0:00:45.72,0:00:49.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}fu{\k16}ta{\k20}ri {\k35}sh'te {\k14}zu{\k12}bu{\k11}nu{\k35}re {\k31}no {\k42}hi {\k40}mo
+Dialogue: 0,0:00:49.10,0:00:52.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}bo{\k39}ku {\k51}ga {\k28}shi{\k30}t{\k27}te{\k51}ru
+Dialogue: 0,0:00:52.13,0:01:01.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}a{\k33}me {\k58}wa {\k21}ko{\k26}n{\k26}na {\k83}ni {\k39}tsu{\k37}me{\kf104}ta{\k113}kat{\k40}ta {\k37}da{\kf111}ro{\k16}u {\k63}ka
+Dialogue: 0,0:01:00.89,0:01:06.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}i{\k20}ma {\k123}sa{\k27}ra {\kf122}da{\k22}ke{\kf141}do
+Dialogue: 0,0:01:06.44,0:01:09.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}fu{\k14}ri{\k17}da{\k25}su {\k87}RAIN
+Dialogue: 0,0:01:08.45,0:01:13.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}na{\k51}ni {\k23}mo {\k53}ka{\k36}mo {\k38}wo {\k23}na{\k69}gash'{\k48}te
+Dialogue: 0,0:01:12.52,0:01:19.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}do{\k16}u{\k22}shi{\k96}te{\k30} {\k16}a{\k56}no {\k20}to{\k51}ki {\k34}ki{\k40}zu{\k20}ke{\k38}na{\k37}kat{\k52}ta
+Dialogue: 0,0:01:18.37,0:01:22.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}ki{\k35}mi {\k38}no {\k21}i{\k51}nai {\k23}a{\k62}sa
+Dialogue: 0,0:01:21.62,0:01:25.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}mu{\k40}shi{\k18}n{\k61}ke{\k20}i {\k66}ni
+Dialogue: 0,0:01:24.60,0:01:30.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}ha{\k74}re{\k73}wa{\k52}ta{\k20}ru {\k39}so{\kf177}ra
+Dialogue: 0,0:01:29.83,0:01:32.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}ya{\k21}ma{\k18}na{\k17}i {\kf106}RAIN
+Dialogue: 0,0:01:31.89,0:01:36.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}ka{\k59}ke{\k15}da{\k56}shi{\k34}ta {\k39}so{\k20}ra {\k54}no {\k17}shi{\k49}ta
+Dialogue: 0,0:01:35.74,0:01:42.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}na{\k14}ni {\k18}mo {\k19}ka{\kf97}mo{\k28} {\k23}wa{\k52}su{\k22}re{\k55}te {\k32}ki{\k37}mi {\k22}to {\k50}no {\k22}hi {\k72}wo
+Dialogue: 0,0:01:41.75,0:01:48.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}mu{\k36}ne {\k35}ni {\k25}shi{\k41}ma{\k28}t{\k92}te {\k38}a{\k28}ru{\k44}ki{\k21}da{\k49}su {\k22}i{\k93}ma
+Dialogue: 0,0:01:47.97,0:01:53.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}so{\k75}ko {\k40}ni {\k35}i{\k53}te{\k20}ku{\k42}re{\kf177}te
+Dialogue: 0,0:01:53.29,0:01:56.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}a{\k35}ri{\k33}ga{\k37}to{\kf110}u~
+Dialogue: 0,0:01:59.15,0:02:05.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}u{\k42}shi{\k17}na{\k21}t{\k107}te {\k21}ki{\k105}zuk' {\k21}ya{\k18}su{\k20}ra{\k18}i{\k19}da {\k16}hi{\k18}bi{\k36}ta{\k20}chi {\k56}wa
+Dialogue: 0,0:02:05.23,0:02:11.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}do{\k37}ko{\k107}ka {\k24}to{\k123}ok' {\k19}he {\kf149}to
+Dialogue: 0,0:02:10.87,0:02:14.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}sou {\k38}a{\k38}me {\k109}ga {\k18}i{\k59}ma
+Dialogue: 0,0:02:14.18,0:02:17.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ki{\k15}mi {\k20}ga {\k17}su{\k19}ki {\k18}da {\k19}to {\k35}i{\k20}t{\k57}ta
+Dialogue: 0,0:02:16.88,0:02:26.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}a{\k36}me {\k109}ga {\k21}i{\k125}ma {\k23}fu{\kf244}ru{\k26} {\k22}ho{\kf167}ra
+Dialogue: 0,0:02:25.42,0:02:28.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}fu{\k15}ri{\k20}da{\k23}su {\k80}RAIN
+Dialogue: 0,0:02:27.50,0:02:32.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}na{\k54}ni {\k21}mo {\k55}ka{\k34}mo {\k35}wo {\k23}na{\k54}ga{\k15}shi{\k43}te
+Dialogue: 0,0:02:31.40,0:02:38.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}a{\k19}fu{\k17}re{\k26}da{\k118}su {\k20}na{\k52}mi{\k21}da {\k57}wo {\k34}ka{\k34}ku{\k23}shi{\k51}te {\k21}ma{\k49}ta
+Dialogue: 0,0:02:37.42,0:02:44.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}da{\k35}re {\k40}mo {\k22}i{\k48}nai {\k23}he{\k87}ya {\k37}a{\k38}ma{\k36}o{\k27}to {\k46}da{\k26}ke {\k84}ga
+Dialogue: 0,0:02:43.64,0:02:50.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}bo{\k80}ku {\k71}wo {\k67}tsu{\k39}tsu{\kf140}mu {\k41}WOAH {\k89}OH
+Dialogue: 0,0:02:48.94,0:02:51.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}ka{\k19}ga{\k16}ya{\k21}ku {\kf99}RAIN
+Dialogue: 0,0:02:50.19,0:02:54.27,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf298}RAIN
+Dialogue: 0,0:02:50.91,0:02:55.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ka{\k54}ke{\k20}da{\k54}shi{\k33}ta {\k43}so{\k20}ra {\k51}no {\k18}shi{\k56}ta
+Dialogue: 0,0:02:54.20,0:02:58.25,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}so{\k18}ra {\k58}no {\k18}shi{\kf162}ta
+Dialogue: 0,0:02:54.81,0:02:57.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}ki{\k17}mi {\k19}to {\k18}iu {\kf108}RAIN
+Dialogue: 0,0:02:56.75,0:03:01.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}a{\k57}bi{\k20}te {\k55}yo{\k35}mi{\k35}ga{\k21}e{\k48}ru {\k29}hi{\k76}bi
+Dialogue: 0,0:02:59.65,0:03:03.65,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}yo{\k14}mi{\k35}ga{\k30}e{\k46}ru {\k25}hi{\kf111}bi
+Dialogue: 0,0:03:00.77,0:03:04.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}ki{\k33}mi {\k39}no {\k19}i{\k51}nai {\k22}se{\k52}kai
+Dialogue: 0,0:03:03.36,0:03:05.50,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf104}WOAH
+Dialogue: 0,0:03:03.71,0:03:07.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}a{\k31}ru{\k42}ki{\k21}da{\k49}su {\k29}i{\k96}ma
+Dialogue: 0,0:03:06.30,0:03:08.15,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}i{\k43}ma
+Dialogue: 0,0:03:07.05,0:03:13.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}de{\k74}at{\k72}te {\k74}ku{\k40}re{\kf199}te
+Dialogue: 0,0:03:12.29,0:03:16.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}a{\k37}ri{\k44}ga{\k42}to{\kf191}u~
+Dialogue: 0,0:03:19.09,0:03:25.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf141}RAIN{\k81} {\k37}a{\k24}me {\k49}ga {\k29}fu{\kf161}ru
