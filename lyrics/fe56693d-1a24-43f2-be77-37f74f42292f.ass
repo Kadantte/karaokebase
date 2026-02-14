@@ -1,0 +1,65 @@
+﻿[Script Info]
+Title: La Llorona
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM Duo [Voice 1]}Female {\2cHFFFFFF}| {\rSample KM Duo [Voice 2]}Male {\2cHFFFFFF}| {\rSample KM Duo [Voice 1&2]}Both
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:13.30,0:00:18.21,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\kf175}Ay{\kf109} {\k15}de {\k15}mí, {\k16}Llo{\k69}ro{\k92}na
+Comment: 0,0:00:19.49,0:00:23.50,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}Llo{\k53}ro{\k79}na {\k9}de {\k26}a{\k89}zul {\k33}ce{\k32}les{\k64}te
+Comment: 0,0:00:26.47,0:00:30.82,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k96}Ay {\k21}de {\kf121}mí, {\k34}Llo{\k52}ro{\kf111}na
+Comment: 0,0:00:31.99,0:00:36.32,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k31}Llo{\k52}ro{\k72}na {\k13}de {\k33}a{\k83}zul {\k23}ce{\k36}les{\k90}te
+Comment: 0,0:00:38.19,0:00:42.75,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k24}Y {\k29}a{\k21}un{\k20}que {\k34}la {\k51}vi{\k17}da {\k21}me {\k63}cues{\k27}te, {\k24}Llo{\k48}ro{\k77}na
+Comment: 0,0:00:43.32,0:00:46.78,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}No {\k21}de{\k22}ja{\k38}ré{\k42} {\k19}de {\k24}que{\k68}rer{\k95}te
+Comment: 0,0:00:47.22,0:00:52.41,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k17}No {\k20}de{\k25}ja{\k71}ré {\k19}de {\k18}que{\k58}rer{\kf291}te
+Comment: 0,0:00:53.45,0:00:57.03,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}Me {\k21}su{\k13}bí {\k29}al {\k25}pi{\k16}no {\k23}más {\k67}al{\k24}to, {\k22}Llo{\k46}ro{\k47}na
+Comment: 0,0:00:57.27,0:00:59.73,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}A {\k63}ver {\k16}si {\k22}te {\k24}di{\k21}vi{\k20}sa{\k64}ba
+Comment: 0,0:01:00.18,0:01:04.25,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k11}Co{\k10}mo {\k23}el {\k59}pi{\k24}no {\k59}e{\k20}ra {\k20}ti{\k35}er{\k35}no, {\k19}Llo{\k52}ro{\k40}na
+Comment: 0,0:01:04.51,0:01:07.56,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}Al {\k24}ver{\k15}me {\k21}llo{\k62}rar, {\k22}llo{\k46}ra{\k93}ba
+Comment: 0,0:01:07.85,0:01:11.26,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k91}Ay {\k18}de {\k41}mí, {\k17}Llo{\k43}ro{\k27}na, {\k16}Llo{\k46}ro{\k42}na
+Comment: 0,0:01:11.48,0:01:14.57,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}Llo{\k27}ro{\k36}na {\k9}de {\k17}a{\k66}zul {\k11}ce{\k25}les{\k99}te
+Comment: 0,0:01:15.01,0:01:18.60,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k69}Ay {\k25}de {\k67}mí, {\k18}Llo{\k48}ro{\k21}na, {\k23}Llo{\k38}ro{\k50}na
+Comment: 0,0:01:18.87,0:01:21.58,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k12}Llo{\k20}ro{\k16}na {\k10}de {\k21}a{\k53}zul {\k24}ce{\k35}les{\k80}te
+Comment: 0,0:01:22.07,0:01:25.91,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k21}Y {\k26}a{\k19}un{\k21}que {\k18}la {\k44}vi{\k15}da {\k25}me {\k58}cues{\k17}te, {\k18}Llo{\k47}ro{\k55}na
+Comment: 0,0:01:26.19,0:01:29.18,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k12}No {\k15}de{\k26}ja{\k38}ré {\k24}de {\k23}que{\k46}rer{\rSample KM Duo [Voice 2]\kf115}te
+Comment: 0,0:01:29.37,0:01:33.02,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k10}Y {\k21}a{\k32}un{\k19}que {\k16}la {\k46}vi{\k15}da {\k24}me {\k52}cues{\k16}te, {\k19}Llo{\k46}ro{\k49}na
+Comment: 0,0:01:33.39,0:01:36.41,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k23}No {\k16}de{\k20}ja{\k59}ré {\k17}de {\k19}que{\k51}rer{\k97}te
+Comment: 0,0:01:37.00,0:01:40.17,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k17}No {\k16}de{\k13}ja{\k60}ré {\k18}de {\k20}que{\k47}rer{\kf126}te
+Comment: 0,0:01:40.58,0:01:44.90,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k18}No {\k12}de{\k14}ja{\k64}ré {\k15}de {\k16}que{\k51}rer{\kf242}te
+Comment: 0,0:01:45.19,0:01:48.80,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k18}¡Ay, {\k16}ay, {\k15}ay, {\kf312}ay!
+Dialogue: 0,0:00:12.40,0:00:18.41,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\kf175}Ay{\kf109} {\k15}de {\k15}mí, {\k16}Llo{\k69}ro{\k92}na
+Dialogue: 0,0:00:18.59,0:00:23.70,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Llo{\k53}ro{\k79}na {\k9}de {\k26}a{\k89}zul {\k33}ce{\k32}les{\k64}te
+Dialogue: 0,0:00:25.57,0:00:31.02,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k96}Ay {\k21}de {\kf121}mí, {\k34}Llo{\k52}ro{\kf111}na
+Dialogue: 0,0:00:31.09,0:00:36.52,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Llo{\k52}ro{\k72}na {\k13}de {\k33}a{\k83}zul {\k23}ce{\k36}les{\k90}te
+Dialogue: 0,0:00:37.29,0:00:42.95,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Y {\k29}a{\k21}un{\k20}que {\k34}la {\k51}vi{\k17}da {\k21}me {\k63}cues{\k27}te, {\k24}Llo{\k48}ro{\k77}na
+Dialogue: 0,0:00:42.42,0:00:46.98,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k17}No {\k21}de{\k22}ja{\k38}ré{\k42} {\k19}de {\k24}que{\k68}rer{\k95}te
+Dialogue: 0,0:00:46.32,0:00:52.61,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k17}No {\k20}de{\k25}ja{\k71}ré {\k19}de {\k18}que{\k58}rer{\kf291}te
+Dialogue: 0,0:00:52.55,0:00:57.23,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Me {\k21}su{\k13}bí {\k29}al {\k25}pi{\k16}no {\k23}más {\k67}al{\k24}to, {\k22}Llo{\k46}ro{\k47}na
+Dialogue: 0,0:00:56.37,0:00:59.93,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k16}A {\k63}ver {\k16}si {\k22}te {\k24}di{\k21}vi{\k20}sa{\k64}ba
+Dialogue: 0,0:00:59.28,0:01:04.45,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Co{\k10}mo {\k23}el {\k59}pi{\k24}no {\k59}e{\k20}ra {\k20}ti{\k35}er{\k35}no, {\k19}Llo{\k52}ro{\k40}na
+Dialogue: 0,0:01:03.61,0:01:07.76,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Al {\k24}ver{\k15}me {\k21}llo{\k62}rar, {\k22}llo{\k46}ra{\k93}ba
+Dialogue: 0,0:01:06.95,0:01:11.46,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k91}Ay {\k18}de {\k41}mí, {\k17}Llo{\k43}ro{\k27}na, {\k16}Llo{\k46}ro{\k42}na
+Dialogue: 0,0:01:10.58,0:01:14.77,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Llo{\k27}ro{\k36}na {\k9}de {\k17}a{\k66}zul {\k11}ce{\k25}les{\k99}te
+Dialogue: 0,0:01:14.11,0:01:18.80,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k69}Ay {\k25}de {\k67}mí, {\k18}Llo{\k48}ro{\k21}na, {\k23}Llo{\k38}ro{\k50}na
+Dialogue: 0,0:01:17.97,0:01:21.78,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Llo{\k20}ro{\k16}na {\k10}de {\k21}a{\k53}zul {\k24}ce{\k35}les{\k80}te
+Dialogue: 0,0:01:21.17,0:01:26.11,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Y {\k26}a{\k19}un{\k21}que {\k18}la {\k44}vi{\k15}da {\k25}me {\k58}cues{\k17}te, {\k18}Llo{\k47}ro{\k55}na
+Dialogue: 0,0:01:25.29,0:01:29.38,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k12}No {\k15}de{\k26}ja{\k38}ré {\k24}de {\k23}que{\k46}rer{\rSample KM Duo [Voice 2]\kf115}te
+Dialogue: 0,0:01:28.47,0:01:33.22,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Y {\k21}a{\k32}un{\k19}que {\k16}la {\k46}vi{\k15}da {\k24}me {\k52}cues{\k16}te, {\k19}Llo{\k46}ro{\k49}na
+Dialogue: 0,0:01:32.49,0:01:36.61,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k23}No {\k16}de{\k20}ja{\k59}ré {\k17}de {\k19}que{\k51}rer{\k97}te
+Dialogue: 0,0:01:36.10,0:01:40.37,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k17}No {\k16}de{\k13}ja{\k60}ré {\k18}de {\k20}que{\k47}rer{\kf126}te
+Dialogue: 0,0:01:39.68,0:01:45.10,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k18}No {\k12}de{\k14}ja{\k64}ré {\k15}de {\k16}que{\k51}rer{\kf242}te
+Dialogue: 0,0:01:44.29,0:01:49.00,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k18}¡Ay, {\k16}ay, {\k15}ay, {\kf312}ay!
