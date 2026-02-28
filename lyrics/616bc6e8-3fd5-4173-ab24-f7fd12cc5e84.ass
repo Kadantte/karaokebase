@@ -2,8 +2,8 @@
 Title: I See You
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 640
-PlayResY: 360
+PlayResX: 0
+PlayResY: 0
 ScaledBorderAndShadow: yes
 Original Timing: Soraya
 YCbCr Matrix: TV.709
@@ -12,11 +12,9 @@ YCbCr Matrix: TV.709
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
-Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:01.43,0:00:07.60,Sample KM [Choir],,0,0,0,karaoke,{\k93}I{\k83} {\kf111}see{\k64} {\kf266}you
 Comment: 0,0:00:08.47,0:00:14.37,Sample KM [Up],,0,0,0,karaoke,{\k38}Wal{\k46}king {\k49}through {\k30}a {\k96}dream,{\k48} {\kf107}I {\k52}see {\kf124}you

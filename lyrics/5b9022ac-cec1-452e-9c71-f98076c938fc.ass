@@ -4,25 +4,38 @@ ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
-PlayResX: 632
-PlayResY: 476
+PlayResX: 0
+PlayResY: 0
 Original Timing: Kara.moe
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,32,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:00:05.91,0:00:10.18,Default,,0,0,0,,{\k100}{\k23}EI{\k13}GHT{\k77}MAN {\k20}{\k30}EI{\k13}GHT{\k150}MAN
-Dialogue: 1,0:00:09.48,0:00:13.58,Default,,0,0,0,,{\k100}{\k47}FATE {\k43}{\k47}FATE {\k47}{\k43}FATE {\k43}FATE {\k40}FATE
-Dialogue: 1,0:00:13.11,0:00:17.15,Default,,0,0,0,,{\k100}{\k50}EIGHT {\k47}{\k43}EIGHT {\k43}{\k47}EIGHT {\k43}EIGHT {\k30}EIGHT
-Dialogue: 1,0:00:18.05,0:00:22.62,Default,,0,0,0,,{\k100}{\k37}hi{\k13}ka{\k70}ru {\k23}u{\k43}mi {\k33}hi{\k13}ka{\k27}ru {\k37}oo{\k20}zo{\k40}ra
-Dialogue: 1,0:00:21.62,0:00:26.03,Default,,0,0,0,,{\k100}{\k50}hi{\k43}ka{\k43}ru {\k27}da{\k63}i{\k113}chi
-Dialogue: 1,0:00:25.69,0:00:33.00,Default,,0,0,0,,{\k100}{\k110}yu{\k13}ko{\k33}u {\k13}mu{\k73}ge{\k10}n {\k53}no {\k40}{\k40}chi{\k40}he{\k30}i{\k60}se{\k113}n
-Dialogue: 1,0:00:32.63,0:00:36.27,Default,,0,0,0,,{\k100}{\k37}ha{\k50}shi{\k43}re {\k30}EI{\k13}GHT{\k90}MAN
-Dialogue: 1,0:00:35.70,0:00:40.01,Default,,0,0,0,,{\k100}{\k30}ta{\k13}ma {\k43}yo{\k43}ri {\k27}mo {\k43}ha{\k20}ya{\k110}ku
-Dialogue: 1,0:00:39.67,0:00:43.71,Default,,0,0,0,,{\k100}{\k90}sa{\k40}ke{\k43}be {\k30}mu{\k13}ne {\k30}wo {\k13}ha{\k43}re
-Dialogue: 1,0:00:42.71,0:00:47.05,Default,,0,0,0,,{\k100}{\k33}ko{\k13}u{\k67}te{\k17}tsu {\k47}no {\k33}mu{\k10}ne {\k113}wo
-Dialogue: 1,0:00:46.65,0:00:50.78,Default,,0,0,0,,{\k100}{\k43}FATE {\k47}{\k43}FATE {\k47}{\k43}EIGHT {\k43}{\k47}EIGHT
-Dialogue: 1,0:00:49.78,0:00:56.49,Default,,0,0,0,,{\k100}{\k30}EI{\k10}GHT{\k100}MAN {\k37}{\k33}EI{\k10}GHT{\k350}MAN
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:06.91,0:00:10.18,Sample KM [Up],,0,0,0,karaoke,{\k23}EI{\k13}GHT{\k77}MAN {\k20}{\k30}EI{\k13}GHT{\k150}MAN
+Comment: 0,0:00:10.48,0:00:13.58,Sample KM [Up],,0,0,0,karaoke,{\k47}FATE {\k43}{\k47}FATE {\k47}{\k43}FATE {\k43}FATE {\k40}FATE
+Comment: 0,0:00:14.11,0:00:17.15,Sample KM [Up],,0,0,0,karaoke,{\k50}EIGHT {\k47}{\k43}EIGHT {\k43}{\k47}EIGHT {\k43}EIGHT {\k30}EIGHT
+Comment: 0,0:00:19.05,0:00:22.62,Sample KM [Up],,0,0,0,karaoke,{\k37}hi{\k13}ka{\k70}ru {\k23}u{\k43}mi {\k33}hi{\k13}ka{\k27}ru {\k37}oo{\k20}zo{\k40}ra
+Comment: 0,0:00:22.62,0:00:26.03,Sample KM [Up],,0,0,0,karaoke,{\k50}hi{\k43}ka{\k43}ru {\k27}da{\k63}i{\k113}chi
+Comment: 0,0:00:26.69,0:00:33.00,Sample KM [Up],,0,0,0,karaoke,{\k110}yu{\k13}ko{\k33}u {\k13}mu{\k73}ge{\k10}n {\k53}no {\k40}{\k40}chi{\k40}he{\k30}i{\k60}se{\k113}n
+Comment: 0,0:00:33.63,0:00:36.27,Sample KM [Up],,0,0,0,karaoke,{\k37}ha{\k50}shi{\k43}re {\k30}EI{\k13}GHT{\k90}MAN
+Comment: 0,0:00:36.70,0:00:40.01,Sample KM [Up],,0,0,0,karaoke,{\k30}ta{\k13}ma {\k43}yo{\k43}ri {\k27}mo {\k43}ha{\k20}ya{\k110}ku
+Comment: 0,0:00:40.67,0:00:43.71,Sample KM [Up],,0,0,0,karaoke,{\k90}sa{\k40}ke{\k43}be {\k30}mu{\k13}ne {\k30}wo {\k13}ha{\k43}re
+Comment: 0,0:00:43.71,0:00:47.05,Sample KM [Up],,0,0,0,karaoke,{\k33}ko{\k13}u{\k67}te{\k17}tsu {\k47}no {\k33}mu{\k10}ne {\k113}wo
+Comment: 0,0:00:47.65,0:00:50.78,Sample KM [Up],,0,0,0,karaoke,{\k43}FATE {\k47}{\k43}FATE {\k47}{\k43}EIGHT {\k43}{\k47}EIGHT
+Comment: 0,0:00:50.78,0:00:56.49,Sample KM [Up],,0,0,0,karaoke,{\k30}EI{\k10}GHT{\k100}MAN {\k37}{\k33}EI{\k10}GHT{\k350}MAN
+Dialogue: 0,0:00:06.01,0:00:10.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}EI{\k13}GHT{\k77}MAN {\k20}{\k30}EI{\k13}GHT{\k150}MAN
+Dialogue: 0,0:00:09.58,0:00:13.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}FATE {\k43}{\k47}FATE {\k47}{\k43}FATE {\k43}FATE {\k40}FATE
+Dialogue: 0,0:00:13.21,0:00:17.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}EIGHT {\k47}{\k43}EIGHT {\k43}{\k47}EIGHT {\k43}EIGHT {\k30}EIGHT
+Dialogue: 0,0:00:18.15,0:00:22.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}hi{\k13}ka{\k70}ru {\k23}u{\k43}mi {\k33}hi{\k13}ka{\k27}ru {\k37}oo{\k20}zo{\k40}ra
+Dialogue: 0,0:00:21.72,0:00:26.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}hi{\k43}ka{\k43}ru {\k27}da{\k63}i{\k113}chi
+Dialogue: 0,0:00:25.79,0:00:33.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k110}yu{\k13}ko{\k33}u {\k13}mu{\k73}ge{\k10}n {\k53}no {\k40}{\k40}chi{\k40}he{\k30}i{\k60}se{\k113}n
+Dialogue: 0,0:00:32.73,0:00:36.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}ha{\k50}shi{\k43}re {\k30}EI{\k13}GHT{\k90}MAN
+Dialogue: 0,0:00:35.80,0:00:40.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}ta{\k13}ma {\k43}yo{\k43}ri {\k27}mo {\k43}ha{\k20}ya{\k110}ku
+Dialogue: 0,0:00:39.77,0:00:43.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k90}sa{\k40}ke{\k43}be {\k30}mu{\k13}ne {\k30}wo {\k13}ha{\k43}re
+Dialogue: 0,0:00:42.81,0:00:47.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}ko{\k13}u{\k67}te{\k17}tsu {\k47}no {\k33}mu{\k10}ne {\k113}wo
+Dialogue: 0,0:00:46.75,0:00:50.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}FATE {\k47}{\k43}FATE {\k47}{\k43}EIGHT {\k43}{\k47}EIGHT
+Dialogue: 0,0:00:49.88,0:00:56.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}EI{\k10}GHT{\k100}MAN {\k37}{\k33}EI{\k10}GHT{\k350}MAN
