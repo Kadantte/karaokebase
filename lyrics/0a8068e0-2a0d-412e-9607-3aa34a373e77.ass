@@ -1,0 +1,81 @@
+﻿[Script Info]
+Title: Breathe
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Machico,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: LIN,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H0090FD32,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Legend,Arial,24,&H00FFFFFF,&H0090FD32,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Legend,,0,0,0,,{\k1000} Duo {\2cFFFFFF}| {\rMachico}Female {\2cFFFFFF}| {\rLIN}Male
+Comment: 0,0:00:00.43,0:00:04.62,Machico,,0,0,0,karaoke,{\k40}No {\k41}mat{\k38}ter {\k78}what {\k39}hap{\k38}pens, {\k53}I'll {\k64}stay {\k28}me
+Comment: 0,0:00:06.37,0:00:07.35,Machico,,0,0,0,karaoke,{\k37}Like {\k21}the {\k40}tide
+Comment: 0,0:00:07.55,0:00:11.91,Machico,,0,0,0,karaoke,{\k19}it's {\k19}the {\k32}on{\k49}ly {\k37}way {\k40}to {\k38}breathe {\k40}and {\k59}break {\k103}free
+Comment: 0,0:00:13.06,0:00:17.57,Machico,,0,0,0,karaoke,{\k18}Li{\k24}ving {\k37}in {\k38}the {\k81}now {\k75}is {\k63}all {\k61}I {\k54}need
+Comment: 0,0:00:18.92,0:00:19.96,Machico,,0,0,0,karaoke,{\k44}Drif{\k25}ting {\k35}slow
+Comment: 0,0:00:20.17,0:00:24.64,Machico,,0,0,0,karaoke,{\k16}it's {\k25}the {\k40}on{\k41}ly {\k35}way {\k39}to {\k40}breathe {\k40}and {\k61}break {\k110}free
+Comment: 0,0:00:25.29,0:00:27.02,Machico,,0,0,0,karaoke,{\k41}Breathe {\k38}and {\k63}break {\k31}free
+Comment: 0,0:00:29.21,0:00:31.52,LIN,,0,0,0,karaoke,{\k21}i{\k13}tsu {\k34}dat{\k65}te {\k26}ho{\k15}shii {\k30}mo' {\k20}nan{\k7}te
+Comment: 0,0:00:31.55,0:00:32.87,LIN,,0,0,0,karaoke,{\k6}hi{\k18}to{\k16}tsu {\k16}mo {\k12}na{\k32}kut{\k32}te
+Comment: 0,0:00:33.23,0:00:35.43,LIN,,0,0,0,karaoke,{\k23}"mo{\k15}shi{\k27}mo" {\k22}ni {\k12}su{\k23}ga{\k12}ru {\k20}ki {\k16}mo {\k21}na{\k10}ku{\k19}te
+Comment: 0,0:00:35.44,0:00:37.51,LIN,,0,0,0,karaoke,{\k12}ki{\k22}nou {\k8}to {\k6}i{\k21}ma {\k9}su{\k12}ra {\k16}wo {\k11}tsu{\k18}na{\k9}gu {\k23}mo{\k14}no {\k18}nan{\k8}te
+Comment: 0,0:00:37.55,0:00:40.29,LIN,,0,0,0,karaoke,{\k10}ko{\k28}rep{\k22}poc{\k11}chi {\k20}mo {\k11}bo{\k18}ku {\k13}no {\k10}he{\k15}ya {\k19}ni {\k14}wa {\k9}na{\k36}kat{\k38}ta
+Comment: 0,0:00:40.57,0:00:42.91,LIN,,0,0,0,karaoke,{\k20}da{\k15}re {\k14}ni {\k19}mo {\k16}wa{\k18}ka{\k20}ri {\k26}nan{\k14}ka {\k11}shi{\k27}nai {\k34}yo
+Comment: 0,0:00:43.23,0:00:45.78,LIN,,0,0,0,karaoke,{\k21}sa{\k11}me{\k24}te {\k14}mou {\k18}a{\k15}ka{\k14}ri {\k30}han{\k17}sha {\k11}shi{\k24}nai {\k33}you {\k23}na
+Comment: 0,0:00:46.10,0:00:50.49,LIN,,0,0,0,karaoke,{\k12}ku{\k33}rai {\k31}dou{\k57}kou {\k13}tsu{\k36}tai {\k30}sou{\k51}zou {\k16}fu{\k20}ra{\k12}ri {\k30}tou{\k71}tou {\k27}OH
+Comment: 0,0:00:50.77,0:00:52.86,LIN,,0,0,0,karaoke,{\k12}ka{\k23}wa{\k12}ri {\k19}no {\k12}nai {\k20}RAI{\k17}SON {\k19}D'Ê{\k11}TRE {\k20}sa{\k12}ga{\k24}shi{\k8}te
+Comment: 0,0:00:52.91,0:00:54.21,LIN,,0,0,0,karaoke,{\k20}sei {\k9}wo {\k6}u{\k21}ke{\k14}ru {\k18}to {\k11}shi{\k21}ta{\k10}ra
+Comment: 0,0:00:54.23,0:00:56.05,LIN,,0,0,0,karaoke,{\k25}bok' {\k11}wa {\k19}ma{\k7}da {\k6}u{\k17}ma{\k7}re{\k8}o{\k8}chi{\k29}ru {\k14}ma{\k15}e {\k16}ka?
+Comment: 0,0:00:56.06,0:00:58.48,LIN,,0,0,0,karaoke,{\k14}ka{\k25}za{\k10}ri{\k20}ta{\k14}te{\k24}ta {\k13}mo{\k18}no {\k13}ni {\k18}i{\k14}mi {\k19}nan{\k14}te {\k17}nai {\k9}sa
+Comment: 0,0:00:58.49,0:01:01.56,LIN,,0,0,0,karaoke,{\k8}i{\k20}ki {\k13}no {\k24}de{\k12}ki{\k13}ru {\k16}i{\k25}ba{\k13}sho {\k16}de {\k12}i{\k15}gi {\k18}wo {\k18}te {\k12}ni {\k8}shi{\k31}tan {\k33}da
+Comment: 0,0:01:01.85,0:01:05.54,LIN,,0,0,0,karaoke,{\k38}ai{\k30}mai {\k24}de {\k36}sen{\k32}sai {\k18}na {\k32}sen {\k20}no {\k26}ue {\k17}ni {\k31}tat{\k65}te
+Comment: 0,0:01:06.06,0:01:07.97,LIN,,0,0,0,karaoke,{\k15}ka{\k35}wa{\k13}ru {\k19}ko{\k54}to {\k24}na{\k31}ku
+Comment: 0,0:01:08.05,0:01:11.20,LIN,,0,0,0,karaoke,{\k23}ma{\k50}ta {\k11}ne{\k51}mu{\k21}ri {\k47}ni {\k17}tsu{\k22}ke{\k17}ta {\k15}no {\k9}na{\k32}ra
+Comment: 0,0:01:11.20,0:01:14.96,Duo,,0,0,0,karaoke,{\k35}No {\k35}mat{\k32}ter {\k62}what {\k39}hap{\k31}pens, {\k50}I'll {\k53}stay {\k39}me
+Comment: 0,0:01:16.12,0:01:17.04,Duo,,0,0,0,karaoke,{\k42}Like {\k21}the {\k29}tide
+Comment: 0,0:01:17.21,0:01:21.01,Duo,,0,0,0,karaoke,{\k19}it's {\k19}the {\k32}on{\k32}ly {\k31}way {\k34}to {\k37}breathe {\k30}and {\k52}break {\k94}free
+Comment: 0,0:01:21.82,0:01:25.72,Duo,,0,0,0,karaoke,{\k21}Li{\k22}ving {\k29}in {\k33}the {\k67}now {\k65}is {\k54}all {\k48}I {\k51}need
+Comment: 0,0:01:26.82,0:01:27.76,Duo,,0,0,0,karaoke,{\k38}Drif{\k24}ting {\k32}slow
+Comment: 0,0:01:27.90,0:01:31.76,Duo,,0,0,0,karaoke,{\k16}it's {\k19}the {\k32}on{\k32}ly {\k35}way {\k31}to {\k36}breathe {\k32}and {\k51}break {\k102}free
+Comment: 0,0:01:32.21,0:01:33.91,Duo,,0,0,0,karaoke,{\k33}Breathe {\k31}and {\k57}break {\k49}free
+Dialogue: 0,0:00:00.00,0:00:04.82,Machico,,0,0,0,fx,{\k43\fad(430,200)}{\k40}No {\k41}mat{\k38}ter {\k78}what {\k39}hap{\k38}pens, {\k53}I'll {\k64}stay {\k28}me
+Dialogue: 0,0:00:05.47,0:00:07.55,Machico,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Like {\k21}the {\k40}tide
+Dialogue: 0,0:00:06.65,0:00:12.11,Machico,,0,0,0,fx,{\k90\fad(300,200)}{\k19}it's {\k19}the {\k32}on{\k49}ly {\k37}way {\k40}to {\k38}breathe {\k40}and {\k59}break {\k103}free
+Dialogue: 0,0:00:12.16,0:00:17.77,Machico,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Li{\k24}ving {\k37}in {\k38}the {\k81}now {\k75}is {\k63}all {\k61}I {\k54}need
+Dialogue: 0,0:00:18.02,0:00:20.16,Machico,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Drif{\k25}ting {\k35}slow
+Dialogue: 0,0:00:19.27,0:00:24.84,Machico,,0,0,0,fx,{\k90\fad(300,200)}{\k16}it's {\k25}the {\k40}on{\k41}ly {\k35}way {\k39}to {\k40}breathe {\k40}and {\k61}break {\k110}free
+Dialogue: 0,0:00:24.39,0:00:27.22,Machico,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Breathe {\k38}and {\k63}break {\k31}free
+Dialogue: 0,0:00:28.31,0:00:31.72,LIN,,0,0,0,fx,{\k90\fad(300,200)}{\k21}i{\k13}tsu {\k34}dat{\k65}te {\k26}ho{\k15}shii {\k30}mo' {\k20}nan{\k7}te
+Dialogue: 0,0:00:30.65,0:00:33.07,LIN,,0,0,0,fx,{\k90\fad(300,200)}{\k6}hi{\k18}to{\k16}tsu {\k16}mo {\k12}na{\k32}kut{\k32}te
+Dialogue: 0,0:00:32.33,0:00:35.63,LIN,,0,0,0,fx,{\k90\fad(300,200)}{\k23}"mo{\k15}shi{\k27}mo" {\k22}ni {\k12}su{\k23}ga{\k12}ru {\k20}ki {\k16}mo {\k21}na{\k10}ku{\k19}te
+Dialogue: 0,0:00:34.54,0:00:37.71,LIN,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ki{\k22}nou {\k8}to {\k6}i{\k21}ma {\k9}su{\k12}ra {\k16}wo {\k11}tsu{\k18}na{\k9}gu {\k23}mo{\k14}no {\k18}nan{\k8}te
+Dialogue: 0,0:00:36.65,0:00:40.49,LIN,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ko{\k28}rep{\k22}poc{\k11}chi {\k20}mo {\k11}bo{\k18}ku {\k13}no {\k10}he{\k15}ya {\k19}ni {\k14}wa {\k9}na{\k36}kat{\k38}ta
+Dialogue: 0,0:00:39.67,0:00:43.11,LIN,,0,0,0,fx,{\k90\fad(300,200)}{\k20}da{\k15}re {\k14}ni {\k19}mo {\k16}wa{\k18}ka{\k20}ri {\k26}nan{\k14}ka {\k11}shi{\k27}nai {\k34}yo
+Dialogue: 0,0:00:42.33,0:00:45.98,LIN,,0,0,0,fx,{\k90\fad(300,200)}{\k21}sa{\k11}me{\k24}te {\k14}mou {\k18}a{\k15}ka{\k14}ri {\k30}han{\k17}sha {\k11}shi{\k24}nai {\k33}you {\k23}na
+Dialogue: 0,0:00:45.20,0:00:50.69,LIN,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ku{\k33}rai {\k31}dou{\k57}kou {\k13}tsu{\k36}tai {\k30}sou{\k51}zou {\k16}fu{\k20}ra{\k12}ri {\k30}tou{\k71}tou {\k27}OH
+Dialogue: 0,0:00:49.87,0:00:53.06,LIN,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ka{\k23}wa{\k12}ri {\k19}no {\k12}nai {\k20}RAI{\k17}SON {\k19}D'Ê{\k11}TRE {\k20}sa{\k12}ga{\k24}shi{\k8}te
+Dialogue: 0,0:00:52.01,0:00:54.41,LIN,,0,0,0,fx,{\k90\fad(300,200)}{\k20}sei {\k9}wo {\k6}u{\k21}ke{\k14}ru {\k18}to {\k11}shi{\k21}ta{\k10}ra
+Dialogue: 0,0:00:53.33,0:00:56.25,LIN,,0,0,0,fx,{\k90\fad(300,200)}{\k25}bok' {\k11}wa {\k19}ma{\k7}da {\k6}u{\k17}ma{\k7}re{\k8}o{\k8}chi{\k29}ru {\k14}ma{\k15}e {\k16}ka?
+Dialogue: 0,0:00:55.16,0:00:58.68,LIN,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ka{\k25}za{\k10}ri{\k20}ta{\k14}te{\k24}ta {\k13}mo{\k18}no {\k13}ni {\k18}i{\k14}mi {\k19}nan{\k14}te {\k17}nai {\k9}sa
+Dialogue: 0,0:00:57.59,0:01:01.76,LIN,,0,0,0,fx,{\k90\fad(300,200)}{\k8}i{\k20}ki {\k13}no {\k24}de{\k12}ki{\k13}ru {\k16}i{\k25}ba{\k13}sho {\k16}de {\k12}i{\k15}gi {\k18}wo {\k18}te {\k12}ni {\k8}shi{\k31}tan {\k33}da
+Dialogue: 0,0:01:00.95,0:01:05.74,LIN,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ai{\k30}mai {\k24}de {\k36}sen{\k32}sai {\k18}na {\k32}sen {\k20}no {\k26}ue {\k17}ni {\k31}tat{\k65}te
+Dialogue: 0,0:01:05.16,0:01:08.17,LIN,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ka{\k35}wa{\k13}ru {\k19}ko{\k54}to {\k24}na{\k31}ku
+Dialogue: 0,0:01:07.15,0:01:11.40,LIN,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ma{\k50}ta {\k11}ne{\k51}mu{\k21}ri {\k47}ni {\k17}tsu{\k22}ke{\k17}ta {\k15}no {\k9}na{\k32}ra
+Dialogue: 0,0:01:10.30,0:01:15.16,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k35}No {\k35}mat{\k32}ter {\k62}what {\k39}hap{\k31}pens, {\k50}I'll {\k53}stay {\k39}me
+Dialogue: 0,0:01:15.22,0:01:17.24,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Like {\k21}the {\k29}tide
+Dialogue: 0,0:01:16.31,0:01:21.21,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k19}it's {\k19}the {\k32}on{\k32}ly {\k31}way {\k34}to {\k37}breathe {\k30}and {\k52}break {\k94}free
+Dialogue: 0,0:01:20.92,0:01:25.92,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Li{\k22}ving {\k29}in {\k33}the {\k67}now {\k65}is {\k54}all {\k48}I {\k51}need
+Dialogue: 0,0:01:25.92,0:01:27.96,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Drif{\k24}ting {\k32}slow
+Dialogue: 0,0:01:27.00,0:01:31.96,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k16}it's {\k19}the {\k32}on{\k32}ly {\k35}way {\k31}to {\k36}breathe {\k32}and {\k51}break {\k102}free
+Dialogue: 0,0:01:31.31,0:01:34.11,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Breathe {\k31}and {\k57}break {\k49}free
