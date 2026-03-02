@@ -10,21 +10,36 @@ Original Timing: Karaoke Mugen
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,12,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:11.37,0:00:14.99,Default,,0,0,0,karaoke,{\fad(137,100)\k90}{\k12}su{\k16}ba{\k20}ra{\k32}shi {\k32}chin{\k37}chin {\k28}mo{\k78}no
-Dialogue: 0,0:00:17.46,0:00:20.71,Default,,0,0,0,karaoke,{\fad(746,100)\k90}{\k7}so{\k16}re {\k20}no {\k16}o{\k28}to wa {\k28}SA{\k28}RU{\k24}BO{\k49}BO
-Dialogue: 0,0:00:23.42,0:00:27.05,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k16}HEY {\k41}HEY {\k41}LET'S {\k37}GO ! {\k24}ken{\k28}ka {\k24}su{\k45}ru
-Dialogue: 0,0:00:29.38,0:00:32.97,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k12}bo{\k20}ku {\k20}ga {\k16}wa{\k16}ru{\k37}i {\k20}SO {\k32}LET'S {\k32}FIGH{\k45}TING
-Dialogue: 0,0:00:35.43,0:00:38.51,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k41}LET'S {\k37}FIGH{\k32}TING {\k95}LOVE...
-Dialogue: 0,0:00:41.31,0:00:44.56,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k7}wa{\k32}ke {\k24}wa{\k45}ka{\k20}ra{\k91}nai
-Dialogue: 0,0:00:47.19,0:00:51.02,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k7}dai{\k20}jou{\k32}bu {\k28}WE {\k16}DO {\k16}IT {\k20}ALL {\k16}THE {\k120}TIME !
-Dialogue: 0,0:00:14.24,0:00:17.54,Default,,0,0,0,karaoke,{\fad(424,100)\k90}{\k7}kin{\k20}ta{\k16}ma {\k20}no {\k20}ka{\k28}me {\k24}a{\k87}ru
-Dialogue: 0,0:00:19.92,0:00:23.79,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k12}ii{\k24}e! {\k32}nin{\k28}ja {\k24}ga {\k24}i{\k20}ma{\k116}su
-Dialogue: 0,0:00:26.42,0:00:30.01,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k12}tai{\k16}set{\k16}su {\k16}na {\k20}mo{\k28}no {\k24}PRO{\k32}TECT {\k32}MY {\k53}BALLS
-Dialogue: 0,0:00:32.43,0:00:35.64,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k37}LET'S {\k37}FIGH{\k37}TING {\k107}LOVE...
-Dialogue: 0,0:00:38.39,0:00:41.98,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k12}ko{\k20}no {\k24}u{\k28}ta {\k32}chot{\k37}to {\k24}ba{\k74}ka
-Dialogue: 0,0:00:44.39,0:00:47.81,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k7}e{\k20}i{\k16}go {\k32}ga {\k41}me{\k37}cha{\k24}ku{\k57}cha
-Dialogue: 0,0:00:50.44,0:00:53.99,Default,,0,0,0,karaoke,{\fad(850,100)\k90}{\k16}HEY {\k41}HEY {\k37}LET'S {\k37}GO ! {\k24}ken{\k32}ka {\k20}su{\k41}ru
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.75,0:00:05.12,Sample KM [Up],,0,0,0,karaoke,{\k22}su{\k19}ba{\k14}ra{\k38}shii {\k40}chin{\k31}chin {\k22}mo{\k51}no
+Comment: 0,0:00:05.56,0:00:08.01,Sample KM [Up],,0,0,0,karaoke,{\k21}kin{\k20}ta{\k16}ma {\k20}no {\k20}ka{\k36}mi {\k22}a{\k90}ru
+Comment: 0,0:00:08.76,0:00:11.03,Sample KM [Up],,0,0,0,karaoke,{\k16}so{\k23}re {\k18}no {\k19}o{\k37}to {\k23}SA{\k32}RU{\k20}BO{\k39}BO
+Comment: 0,0:00:11.22,0:00:14.52,Sample KM [Up],,0,0,0,karaoke,{\k16}ii{\k40}e! {\k34}nin{\k19}ja {\k40}ga {\k15}i{\k22}ma{\kf144}su
+Comment: 0,0:00:14.77,0:00:17.36,Sample KM [Up],,0,0,0,karaoke,{\k34}HEY {\k34}HEY {\k41}LET'S {\k38}GO! {\k21}ken{\k41}ka {\k15}su{\k35}ru
+Comment: 0,0:00:17.74,0:00:20.49,Sample KM [Up],,0,0,0,karaoke,{\k22}tai{\k18}set{\k15}su {\k22}na {\k20}mo{\k36}no {\k15}PRO{\k42}TECT {\k35}MY {\k50}BALLS
+Comment: 0,0:00:20.76,0:00:23.45,Sample KM [Up],,0,0,0,karaoke,{\k17}bo{\k20}ku {\k20}ga {\k20}wa{\k17}ru{\k38}i {\k20}SO {\k39}LET'S {\k37}FIGH{\k41}TING
+Comment: 0,0:00:23.76,0:00:26.12,Sample KM [Up],,0,0,0,karaoke,{\k59}LET'S {\k35}FIGH{\k36}TING {\kf106}LOVE...
+Comment: 0,0:00:26.72,0:00:29.34,Sample KM [Up],,0,0,0,karaoke,{\k64}LET'S {\k32}FIGH{\k32}TING {\kf134}LOVE...
+Comment: 0,0:00:29.75,0:00:32.28,Sample KM [Up],,0,0,0,karaoke,{\k17}ko{\k16}no {\k26}u{\k36}ta {\k39}chot{\k38}to {\k19}ba{\k62}ka
+Comment: 0,0:00:32.56,0:00:35.24,Sample KM [Up],,0,0,0,karaoke,{\k37}wa{\k19}ke {\k19}ga {\k18}wa{\k34}ka{\k26}ra{\kf115}nai
+Comment: 0,0:00:35.66,0:00:38.18,Sample KM [Up],,0,0,0,karaoke,{\k24}ei{\k45}go {\k29}ga {\k45}me{\k35}cha{\k16}ku{\k58}cha
+Comment: 0,0:00:38.53,0:00:41.51,Sample KM [Up],,0,0,0,karaoke,{\k26}dai{\k17}jou{\k37}bu {\k19}WE {\k16}DO {\k16}IT {\k25}ALL {\k18}THE {\kf124}TIME!
+Comment: 0,0:00:41.76,0:00:44.38,Sample KM [Up],,0,0,0,karaoke,{\k33}HEY {\k30}HEY {\k49}LET'S {\k35}GO! {\k21}ken{\k33}ka {\k17}su{\k44}ru
+Dialogue: 0,0:00:01.85,0:00:05.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}su{\k19}ba{\k14}ra{\k38}shii {\k40}chin{\k31}chin {\k22}mo{\k51}no
+Dialogue: 0,0:00:04.66,0:00:08.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}kin{\k20}ta{\k16}ma {\k20}no {\k20}ka{\k36}mi {\k22}a{\k90}ru
+Dialogue: 0,0:00:07.86,0:00:11.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}so{\k23}re {\k18}no {\k19}o{\k37}to {\k23}SA{\k32}RU{\k20}BO{\k39}BO
+Dialogue: 0,0:00:10.32,0:00:14.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}ii{\k40}e! {\k34}nin{\k19}ja {\k40}ga {\k15}i{\k22}ma{\kf144}su
+Dialogue: 0,0:00:13.87,0:00:17.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}HEY {\k34}HEY {\k41}LET'S {\k38}GO! {\k21}ken{\k41}ka {\k15}su{\k35}ru
+Dialogue: 0,0:00:16.84,0:00:20.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}tai{\k18}set{\k15}su {\k22}na {\k20}mo{\k36}no {\k15}PRO{\k42}TECT {\k35}MY {\k50}BALLS
+Dialogue: 0,0:00:19.86,0:00:23.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}bo{\k20}ku {\k20}ga {\k20}wa{\k17}ru{\k38}i {\k20}SO {\k39}LET'S {\k37}FIGH{\k41}TING
+Dialogue: 0,0:00:22.86,0:00:26.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k59}LET'S {\k35}FIGH{\k36}TING {\kf106}LOVE...
+Dialogue: 0,0:00:25.82,0:00:29.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k64}LET'S {\k32}FIGH{\k32}TING {\kf134}LOVE...
+Dialogue: 0,0:00:28.85,0:00:32.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}ko{\k16}no {\k26}u{\k36}ta {\k39}chot{\k38}to {\k19}ba{\k62}ka
+Dialogue: 0,0:00:31.66,0:00:35.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}wa{\k19}ke {\k19}ga {\k18}wa{\k34}ka{\k26}ra{\kf115}nai
+Dialogue: 0,0:00:34.76,0:00:38.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}ei{\k45}go {\k29}ga {\k45}me{\k35}cha{\k16}ku{\k58}cha
+Dialogue: 0,0:00:37.63,0:00:41.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}dai{\k17}jou{\k37}bu {\k19}WE {\k16}DO {\k16}IT {\k25}ALL {\k18}THE {\kf124}TIME!
+Dialogue: 0,0:00:40.86,0:00:44.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}HEY {\k30}HEY {\k49}LET'S {\k35}GO! {\k21}ken{\k33}ka {\k17}su{\k44}ru
