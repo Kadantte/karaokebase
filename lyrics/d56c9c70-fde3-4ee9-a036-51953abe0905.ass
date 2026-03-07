@@ -1,0 +1,75 @@
+﻿[Script Info]
+Title: Bob le Bricoleur
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.63,0:00:04.26,Sample KM [Up],,0,0,0,karaoke,{\k68}Le {\k23}bri{\k43}co{\k29}leur
+Comment: 0,0:00:04.42,0:00:05.76,Sample KM [Choir],,0,0,0,karaoke,{\k45}Peut-{\k21}on {\k26}le {\k42}faire ?
+Comment: 0,0:00:06.21,0:00:07.79,Sample KM [Choir],,0,0,0,karaoke,{\k67}Le {\k21}bri{\k32}co{\k38}leur
+Comment: 0,0:00:08.01,0:00:09.35,Sample KM [Choir],,0,0,0,karaoke,{\k44}Oui, {\k45}on {\k45}peut
+Comment: 0,0:00:09.62,0:00:11.00,Sample KM [Up],,0,0,0,karaoke,{\k18}Et {\k43}oui, {\k22}c'est {\k21}bien {\k34}lui
+Comment: 0,0:00:11.37,0:00:12.57,Sample KM [Up],,0,0,0,karaoke,{\k21}C'est {\k28}l'a{\k40}mi {\k31}Bob
+Comment: 0,0:00:13.14,0:00:16.33,Sample KM [Up],,0,0,0,karaoke,{\k21}A{\k45}vec {\k23}toute {\k23}sa {\k29}bande,{\k39} {\k21}il {\k44}est {\k46}par{\k28}tout
+Comment: 0,0:00:16.97,0:00:19.95,Sample KM [Up],,0,0,0,karaoke,{\k43}Prèt {\k22}à {\k22}creu{\k25}ser{\k44} {\k22}ou {\k44}à {\k25}ré{\k19}pa{\k32}rer
+Comment: 0,0:00:20.32,0:00:23.67,Sample KM [Up],,0,0,0,karaoke,{\k20}Il {\k44}ré{\k25}pond {\k22}pré{\k29}sent,{\k38} {\k24}il {\k46}s'ap{\k43}pelle {\k44}Bob
+Comment: 0,0:00:24.02,0:00:25.70,Sample KM [Up],,0,0,0,karaoke,{\k78}Le {\k19}bri{\k28}co{\k43}leur
+Comment: 0,0:00:25.92,0:00:27.16,Sample KM [Choir],,0,0,0,karaoke,{\k42}Peut-{\k24}on {\k22}le {\k36}faire ?
+Comment: 0,0:00:27.71,0:00:29.24,Sample KM [Up],,0,0,0,karaoke,{\k65}Le {\k21}bri{\k26}co{\k41}leur
+Comment: 0,0:00:29.51,0:00:30.67,Sample KM [Choir],,0,0,0,karaoke,{\k43}Oui, {\k42}on {\k31}peut
+Comment: 0,0:00:31.30,0:00:32.63,Sample KM [Up],,0,0,0,karaoke,{\k40}Ne {\k24}traîn{\k22}ons {\k47}pas
+Comment: 0,0:00:32.63,0:00:34.29,Sample KM [Up],,0,0,0,karaoke,{\k22}Le {\k22}tra{\k22}vail {\k20}n'at{\k44}tend {\k36}pas
+Comment: 0,0:00:34.65,0:00:36.22,Sample KM [Up],,0,0,0,karaoke,{\k22}Cons{\k25}truire {\k18}et {\k19}ré{\k24}pa{\k49}rer
+Comment: 0,0:00:36.22,0:00:37.82,Sample KM [Up],,0,0,0,karaoke,{\k20}Tout {\k21}doit {\k21}ê{\k21}tre {\k44}par{\k33}fait
+Comment: 0,0:00:38.43,0:00:41.42,Sample KM [Up],,0,0,0,karaoke,{\k44}Bob {\k24}et {\k22}sa {\k33}ban{\k13}de{\k22} {\k18}s'a{\k25}mu{\k26}sent {\k34}si {\k38}bien
+Comment: 0,0:00:41.80,0:00:43.37,Sample KM [Up],,0,0,0,karaoke,{\k18}Tout {\k48}en {\k22}tra{\k24}vail{\k45}lant
+Comment: 0,0:00:43.37,0:00:45.20,Sample KM [Up],,0,0,0,karaoke,{\k20}En {\k27}ville {\k17}ou {\k27}dans {\k44}la {\k48}champs
+Comment: 0,0:00:46.83,0:00:47.73,Sample KM [Up],,0,0,0,karaoke,{\k14}Peut-{\k13}on {\k20}le {\k43}faire ?
+Comment: 0,0:00:48.31,0:00:49.58,Sample KM [Choir],,0,0,0,karaoke,{\kf127}Oui
+Comment: 0,0:00:50.39,0:00:51.48,Sample KM [Up],,0,0,0,karaoke,{\k21}Peut-{\k15}on {\k25}le {\k48}faire ?
+Comment: 0,0:00:51.86,0:00:52.71,Sample KM [Choir],,0,0,0,karaoke,{\k85}Oui
+Comment: 0,0:00:52.80,0:00:54.39,Sample KM [Up],,0,0,0,karaoke,{\k65}Le {\k22}bri{\k46}co{\k26}leur
+Comment: 0,0:00:54.58,0:00:55.97,Sample KM [Choir],,0,0,0,karaoke,{\k44}Peut-{\k23}on {\k25}le {\k47}faire ?
+Comment: 0,0:00:56.38,0:00:57.93,Sample KM [Up],,0,0,0,karaoke,{\k66}Le {\k24}bri{\k26}co{\k39}leur
+Comment: 0,0:00:58.16,0:00:59.96,Sample KM [Choir],,0,0,0,karaoke,{\k45}Oui, {\k46}on {\k89}peut
+Dialogue: 0,0:00:01.73,0:00:04.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k68}Le {\k23}bri{\k43}co{\k29}leur
+Dialogue: 0,0:00:03.52,0:00:05.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Peut-{\k21}on {\k26}le {\k42}faire ?
+Dialogue: 0,0:00:05.31,0:00:07.99,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k67}Le {\k21}bri{\k32}co{\k38}leur
+Dialogue: 0,0:00:07.11,0:00:09.55,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Oui, {\k45}on {\k45}peut
+Dialogue: 0,0:00:08.72,0:00:11.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Et {\k43}oui, {\k22}c'est {\k21}bien {\k34}lui
+Dialogue: 0,0:00:10.47,0:00:12.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}C'est {\k28}l'a{\k40}mi {\k31}Bob
+Dialogue: 0,0:00:12.24,0:00:16.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}A{\k45}vec {\k23}toute {\k23}sa {\k29}bande,{\k39} {\k21}il {\k44}est {\k46}par{\k28}tout
+Dialogue: 0,0:00:16.07,0:00:20.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Prèt {\k22}à {\k22}creu{\k25}ser{\k44} {\k22}ou {\k44}à {\k25}ré{\k19}pa{\k32}rer
+Dialogue: 0,0:00:19.42,0:00:23.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Il {\k44}ré{\k25}pond {\k22}pré{\k29}sent,{\k38} {\k24}il {\k46}s'ap{\k43}pelle {\k44}Bob
+Dialogue: 0,0:00:23.12,0:00:25.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k78}Le {\k19}bri{\k28}co{\k43}leur
+Dialogue: 0,0:00:25.02,0:00:27.36,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Peut-{\k24}on {\k22}le {\k36}faire ?
+Dialogue: 0,0:00:26.81,0:00:29.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Le {\k21}bri{\k26}co{\k41}leur
+Dialogue: 0,0:00:28.61,0:00:30.87,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Oui, {\k42}on {\k31}peut
+Dialogue: 0,0:00:30.40,0:00:32.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Ne {\k24}traîn{\k22}ons {\k47}pas
+Dialogue: 0,0:00:31.73,0:00:34.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Le {\k22}tra{\k22}vail {\k20}n'at{\k44}tend {\k36}pas
+Dialogue: 0,0:00:33.75,0:00:36.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Cons{\k25}truire {\k18}et {\k19}ré{\k24}pa{\k49}rer
+Dialogue: 0,0:00:35.32,0:00:38.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Tout {\k21}doit {\k21}ê{\k21}tre {\k44}par{\k33}fait
+Dialogue: 0,0:00:37.53,0:00:41.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Bob {\k24}et {\k22}sa {\k33}ban{\k13}de{\k22} {\k18}s'a{\k25}mu{\k26}sent {\k34}si {\k38}bien
+Dialogue: 0,0:00:40.90,0:00:43.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Tout {\k48}en {\k22}tra{\k24}vail{\k45}lant
+Dialogue: 0,0:00:42.47,0:00:45.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}En {\k27}ville {\k17}ou {\k27}dans {\k44}la {\k48}champs
+Dialogue: 0,0:00:45.93,0:00:47.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Peut-{\k13}on {\k20}le {\k43}faire ?
+Dialogue: 0,0:00:47.41,0:00:49.78,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf127}Oui
+Dialogue: 0,0:00:49.49,0:00:51.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Peut-{\k15}on {\k25}le {\k48}faire ?
+Dialogue: 0,0:00:50.96,0:00:52.91,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k85}Oui
+Dialogue: 0,0:00:51.90,0:00:54.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k65}Le {\k22}bri{\k46}co{\k26}leur
+Dialogue: 0,0:00:53.68,0:00:56.17,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Peut-{\k23}on {\k25}le {\k47}faire ?
+Dialogue: 0,0:00:55.48,0:00:58.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k66}Le {\k24}bri{\k26}co{\k39}leur
+Dialogue: 0,0:00:57.26,0:01:00.16,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Oui, {\k46}on {\k89}peut
