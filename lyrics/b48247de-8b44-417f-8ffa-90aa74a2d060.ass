@@ -1,0 +1,173 @@
+﻿[Script Info]
+Title: Du bist mein Digimon
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:13.54,0:00:16.31,Sample KM [Up],,0,0,0,karaoke,{\k28}Nimm {\k40}mich {\k42}bit{\k39}te {\k39}an {\k45}der {\k44}Hand
+Comment: 0,0:00:16.62,0:00:19.68,Sample KM [Up],,0,0,0,karaoke,{\k19}Und {\k23}führ {\k39}mich {\k40}durch {\k40}das {\k39}frem{\k40}de {\k66}Land
+Comment: 0,0:00:21.62,0:00:23.10,Sample KM [Up],,0,0,0,karaoke,{\k19}Komm {\k20}lass {\k23}uns {\k86}geh'n
+Comment: 0,0:00:26.22,0:00:29.21,Sample KM [Up],,0,0,0,karaoke,{\k19}Du {\k21}bist {\k41}schon {\k39}fast {\k38}ein {\k42}Teil {\k41}von {\k58}mir
+Comment: 0,0:00:29.63,0:00:32.65,Sample KM [Up],,0,0,0,karaoke,{\k19}Was {\k40}auch {\k40}kommt, {\k40}ich {\k40}fol{\k41}ge {\k82}dir
+Comment: 0,0:00:33.22,0:00:33.84,Sample KM [Up],,0,0,0,karaoke,{\k21}Oh {\k41}oh
+Comment: 0,0:00:34.02,0:00:35.84,Sample KM [Up],,0,0,0,karaoke,{\k19}Al{\k18}so {\k23}komm {\k20}lass {\k20}uns {\k82}geh'n
+Comment: 0,0:00:37.82,0:00:40.42,Sample KM [Up],,0,0,0,karaoke,{\k19}Wir {\k19}wer{\k22}den {\k39}im{\k41}mer {\k40}Freun{\k22}de {\k58}sein
+Comment: 0,0:00:41.03,0:00:43.60,Sample KM [Up],,0,0,0,karaoke,{\k17}Hab {\k23}kei{\k21}ne {\k37}Angst, {\k21}wir {\k20}sind {\k21}nicht {\k41}al{\k56}lein
+Comment: 0,0:00:44.23,0:00:47.43,Sample KM [Up],,0,0,0,karaoke,{\k19}Wir {\k19}wer{\k23}den {\k38}nie{\k40}mals {\k40}aus{\k40}ein{\k20}an{\k41}der{\k40}geh'n
+Comment: 0,0:00:47.43,0:00:50.02,Sample KM [Up],,0,0,0,karaoke,{\k20}Du {\k20}bist {\k20}mein {\k20}Di{\k19}gi{\k41}mon, {\k20}wir {\k18}sind {\k21}ein {\k60}Team
+Comment: 0,0:00:50.45,0:00:51.81,Sample KM [Up],,0,0,0,karaoke,{\k19}Wir {\k18}sind {\k21}ein {\k78}Team
+Comment: 0,0:01:04.81,0:01:07.62,Sample KM [Up],,0,0,0,karaoke,{\k21}Ich {\k40}weiß {\k41}nicht, {\k38}wo{\k40}her {\k41}du {\k60}bist
+Comment: 0,0:01:08.03,0:01:11.11,Sample KM [Up],,0,0,0,karaoke,{\k20}Ich {\k39}weiß {\k40}nicht, {\k38}was {\k21}ge{\k20}sche{\k42}hen {\k88}ist
+Comment: 0,0:01:12.64,0:01:14.48,Sample KM [Up],,0,0,0,karaoke,{\k18}Doch {\k19}ich {\k20}glaub {\k21}an {\kf106}dich
+Comment: 0,0:01:14.81,0:01:16.59,Sample KM [Choir],,0,0,0,karaoke,{\k20}Ich {\k40}glaub {\k40}an {\k78}dich
+Comment: 0,0:01:17.61,0:01:20.32,Sample KM [Up],,0,0,0,karaoke,{\k22}Ich {\k34}ver{\k45}trau {\k41}auf {\k40}dei{\k40}nen {\k49}Mut
+Comment: 0,0:01:20.61,0:01:23.93,Sample KM [Up],,0,0,0,karaoke,{\k21}Bist {\k21}du {\k41}bei {\k38}mir, {\k41}geht {\k40}es {\k41}mir {\k89}gut
+Comment: 0,0:01:24.25,0:01:24.98,Sample KM [Up],,0,0,0,karaoke,{\k38}Oh {\k35}oh
+Comment: 0,0:01:25.42,0:01:27.11,Sample KM [Up],,0,0,0,karaoke,{\k20}Denn {\k18}ich {\k21}glaub {\k22}an {\k88}dich
+Comment: 0,0:01:27.61,0:01:29.21,Sample KM [Choir],,0,0,0,karaoke,{\k19}Ich {\k43}glaub {\k40}an {\k58}dich
+Comment: 0,0:01:29.02,0:01:31.62,Sample KM [Up],,0,0,0,karaoke,{\k20}Wir {\k23}wer{\k18}den {\k40}im{\k38}mer {\k42}Freun{\k20}de {\k59}sein
+Comment: 0,0:01:32.22,0:01:34.84,Sample KM [Up],,0,0,0,karaoke,{\k20}Hab {\k21}kei{\k21}ne {\k37}Angst, {\k18}wir {\k23}sind {\k21}nicht {\k40}al{\k61}lein
+Comment: 0,0:01:35.43,0:01:38.63,Sample KM [Up],,0,0,0,karaoke,{\k19}Wir {\k22}wer{\k20}den {\k38}nie{\k39}mals {\k40}aus{\k40}ein{\k21}an{\k41}der{\k40}geh'n
+Comment: 0,0:01:38.63,0:01:41.25,Sample KM [Up],,0,0,0,karaoke,{\k20}Du {\k20}bist {\k19}mein {\k20}Di{\k21}gi{\k38}mon, {\k22}wir {\k19}sind {\k21}ein {\k62}Team
+Comment: 0,0:01:41.66,0:01:42.92,Sample KM [Up],,0,0,0,karaoke,{\k18}Wir {\k19}sind {\k21}ein {\k68}Team
+Comment: 0,0:01:43.22,0:01:45.94,Sample KM [Up],,0,0,0,karaoke,{\k23}Wir {\k37}sind {\k41}für{\k39}ein{\k40}an{\k40}der {\k52}da
+Comment: 0,0:01:46.22,0:01:49.52,Sample KM [Up],,0,0,0,karaoke,{\k19}Wir {\k25}stel{\k37}len {\k40}uns {\k39}je{\k39}der {\k39}Ge{\k92}fahr
+Comment: 0,0:01:50.59,0:01:52.54,Sample KM [Up],,0,0,0,karaoke,{\k22}Was {\k21}wird {\k19}noch {\k21}al{\k19}les {\k21}pas{\k72}sier'n?
+Comment: 0,0:01:53.03,0:01:54.92,Sample KM [Choir],,0,0,0,karaoke,{\k20}Was {\k20}wird {\k20}noch {\k20}al{\k20}les {\k17}pas{\k72}sier'n?
+Comment: 0,0:01:54.03,0:01:55.23,Sample KM [Up],,0,0,0,karaoke,{\k28}Hm {\k32}hm {\k60}hm
+Comment: 0,0:01:55.96,0:01:58.78,Sample KM [Up],,0,0,0,karaoke,{\k28}Ich {\k39}kann {\k39}im{\k41}mer {\k39}auf {\k41}dich {\k55}bau'n
+Comment: 0,0:01:59.02,0:02:02.12,Sample KM [Up],,0,0,0,karaoke,{\k20}Ich {\k20}werd {\k43}dir {\k37}hel{\k20}fen, {\k21}du {\k39}kannst {\k20}mir {\k15}ver{\k75}trau'n
+Comment: 0,0:02:02.02,0:02:03.83,Sample KM [Choir],,0,0,0,karaoke,{\k21}Oh {\k40}oh {\k39}oh {\k81}oh
+Comment: 0,0:02:03.42,0:02:05.56,Sample KM [Up],,0,0,0,karaoke,{\k18}Wir {\k21}kön{\k20}nen {\k20}nie{\k22}mals {\k21}ver{\k92}lier'n
+Comment: 0,0:02:05.83,0:02:07.61,Sample KM [Choir],,0,0,0,karaoke,{\k18}Wir {\k21}kön{\k20}nen {\k21}nie{\k19}mals {\k20}ver{\k59}lier'n
+Comment: 0,0:02:08.79,0:02:11.44,Sample KM [Up],,0,0,0,karaoke,{\k22}Was {\k42}auch {\k40}im{\k39}mer {\k41}kom{\k42}men {\k39}mag
+Comment: 0,0:02:12.02,0:02:15.01,Sample KM [Up],,0,0,0,karaoke,{\k22}Nur {\k38}ge{\k40}mein{\k19}sam {\k20}sind {\k21}wir {\k19}wirk{\k41}lich {\k79}stark
+Comment: 0,0:02:14.82,0:02:16.09,Sample KM [Choir],,0,0,0,karaoke,{\k36}Oh {\k36}oh {\k55}oh
+Comment: 0,0:02:16.24,0:02:18.04,Sample KM [Up],,0,0,0,karaoke,{\k18}Wir {\k21}wer{\k19}den {\k20}al{\k19}les {\k20}ris{\k63}kier'n
+Comment: 0,0:02:18.62,0:02:20.41,Sample KM [Choir],,0,0,0,karaoke,{\k20}Wir {\k21}wer{\k19}den {\k22}al{\k18}les {\k20}ris{\k59}kier'n
+Comment: 0,0:02:20.24,0:02:22.65,Sample KM [Up],,0,0,0,karaoke,{\k17}Wir {\k20}wer{\k23}den {\k38}im{\k39}mer {\k42}Freun{\k20}de {\k42}sein
+Comment: 0,0:02:22.43,0:02:24.25,Sample KM [Choir],,0,0,0,karaoke,{\k20}Im{\k40}mer {\k39}Freun{\k21}de {\k62}sein
+Comment: 0,0:02:23.43,0:02:26.02,Sample KM [Up],,0,0,0,karaoke,{\k18}Hab {\k22}kei{\k21}ne {\k37}Angst, {\k21}wir {\k20}sind {\k20}nicht {\k41}al{\k59}lein
+Comment: 0,0:02:26.63,0:02:29.80,Sample KM [Up],,0,0,0,karaoke,{\k19}Wir {\k21}wer{\k20}den {\k39}nie{\k39}mals {\k41}aus{\k42}ein{\k18}an{\k40}der{\k38}geh'n
+Comment: 0,0:02:27.40,0:02:30.21,Sample KM [Choir],,0,0,0,karaoke,{\k22}Wir {\k21}wer{\k20}den {\k18}nie{\k41}mals {\k39}aus{\k21}ein{\k21}an{\k21}der{\k57}geh'n
+Comment: 0,0:02:29.83,0:02:32.43,Sample KM [Up],,0,0,0,karaoke,{\k20}Du {\k19}bist {\k18}mein {\k23}Di{\k18}gi{\k41}mon, {\k20}wir {\k19}sind {\k20}ein {\k62}Team
+Comment: 0,0:02:32.43,0:02:34.02,Sample KM [Choir],,0,0,0,karaoke,{\k21}Wir {\k39}sind {\k41}ein {\k58}Team
+Comment: 0,0:02:36.23,0:02:38.03,Sample KM [Choir],,0,0,0,karaoke,{\k17}Wir {\k21}könn{\k21}ten {\k21}nie{\k20}mals {\k19}ver{\k61}lier'n
+Comment: 0,0:02:39.21,0:02:40.44,Sample KM [Choir],,0,0,0,karaoke,{\k22}Wir {\k18}sind {\k20}ein {\k63}Team
+Comment: 0,0:02:42.63,0:02:44.22,Sample KM [Choir],,0,0,0,karaoke,{\k19}Wir {\k19}wer{\k20}den {\k21}al{\k20}les {\k20}ris{\k40}kier'n
+Comment: 0,0:02:45.62,0:02:46.83,Sample KM [Choir],,0,0,0,karaoke,{\k22}Wir {\k18}sind {\k19}ein {\k62}Team
+Comment: 0,0:02:49.02,0:02:50.84,Sample KM [Choir],,0,0,0,karaoke,{\k19}Wir {\k21}könn{\k20}ten {\k19}nie{\k20}mals {\k21}ver{\k62}lier'n
+Comment: 0,0:02:52.02,0:02:53.21,Sample KM [Choir],,0,0,0,karaoke,{\k23}Wir {\k18}sind {\k21}ein {\k57}Team
+Comment: 0,0:02:55.42,0:02:57.02,Sample KM [Choir],,0,0,0,karaoke,{\k21}Wir {\k19}könn{\k21}ten {\k18}nie{\k21}mals {\k20}ver{\k40}lier'n
+Comment: 0,0:02:57.02,0:02:59.03,Sample KM [Choir],,0,0,0,karaoke,{\k20}Wir {\k23}wer{\k17}den {\k19}al{\k21}les {\k20}ris{\k81}kier'n
+Comment: 0,0:02:58.62,0:03:01.03,Sample KM [Up],,0,0,0,karaoke,{\k19}Wir {\k22}wer{\k20}den {\k39}im{\k41}mer {\k38}Freun{\k22}de {\k40}sein
+Comment: 0,0:03:00.63,0:03:02.43,Sample KM [Choir],,0,0,0,karaoke,{\k40}Freun{\k41}de {\k99}sein
+Comment: 0,0:03:01.84,0:03:04.41,Sample KM [Up],,0,0,0,karaoke,{\k18}Hab {\k21}kei{\k21}ne {\k37}Angst, {\k21}wir {\k19}sind {\k22}nicht {\k38}al{\k60}lein
+Comment: 0,0:03:05.02,0:03:08.22,Sample KM [Up],,0,0,0,karaoke,{\k21}Wir {\k20}wer{\k20}den {\k41}nie{\k36}mals {\k41}aus{\k41}ein{\k22}an{\k37}der{\k41}geh'n
+Comment: 0,0:03:08.22,0:03:10.82,Sample KM [Up],,0,0,0,karaoke,{\k20}Du {\k19}bist {\k20}mein {\k22}Di{\k19}gi{\k39}mon, {\k21}wir {\k19}sind {\k19}ein {\k62}Team
+Comment: 0,0:03:09.61,0:03:11.64,Sample KM [Choir],,0,0,0,karaoke,{\k21}Wir {\k19}sind {\k19}ein {\kf144}Team
+Comment: 0,0:03:12.03,0:03:13.82,Sample KM [Choir],,0,0,0,karaoke,{\k39}Im{\k40}mer {\k39}Freun{\k21}de {\k40}sein
+Comment: 0,0:03:12.27,0:03:14.94,Sample KM [Up],,0,0,0,karaoke,{\k55}Oh, {\k21}im{\k19}mer, {\k22}im{\k17}mer {\k42}Freun{\k19}de {\k72}sein
+Comment: 0,0:03:14.63,0:03:17.22,Sample KM [Choir],,0,0,0,karaoke,{\k19}Hab {\k20}kei{\k21}ne {\k37}Angst, {\k21}wir {\k21}sind {\k21}nicht {\k39}al{\k60}lein
+Comment: 0,0:03:15.42,0:03:18.10,Sample KM [Up],,0,0,0,karaoke,{\k20}Wir {\k20}ha{\k21}ben {\k20}kei{\k20}ne {\k20}Angst, {\k19}sind {\k21}nicht {\k39}al{\k68}lein
+Comment: 0,0:03:17.82,0:03:21.01,Sample KM [Choir],,0,0,0,karaoke,{\k21}Wir {\k20}wer{\k20}den {\k40}nie{\k36}mals {\k41}aus{\k41}ein{\k22}an{\k37}der{\k41}geh'n
+Comment: 0,0:03:18.63,0:03:21.02,Sample KM [Up],,0,0,0,karaoke,{\k21}Wir {\k18}wer{\k17}den {\k19}nie{\k24}mals {\k19}aus{\k19}ein{\k23}an{\k38}der{\k41}geh'n
+Comment: 0,0:03:21.02,0:03:24.21,Sample KM [Up],,0,0,0,karaoke,{\k20}Du {\k20}bist {\k20}mein {\k23}Di{\k16}gi{\k41}mon, {\k20}wir {\k20}sind {\k20}ein {\kf119}Team
+Comment: 0,0:03:24.24,0:03:26.82,Sample KM [Up],,0,0,0,karaoke,{\k18}Wir {\k21}wer{\k19}den {\k40}im{\k40}mer {\k40}Freun{\k21}de {\k59}sein
+Comment: 0,0:03:26.61,0:03:28.03,Sample KM [Choir],,0,0,0,karaoke,{\k41}Oh {\k44}oh {\k57}oh
+Comment: 0,0:03:27.43,0:03:30.02,Sample KM [Up],,0,0,0,karaoke,{\k18}Hab {\k21}kei{\k21}ne {\k39}Angst, {\k21}wir {\k19}sind {\k22}nicht {\k39}al{\k59}lein
+Comment: 0,0:03:30.63,0:03:33.82,Sample KM [Up],,0,0,0,karaoke,{\k21}Wir {\k20}wer{\k20}den {\k39}nie{\k36}mals {\k41}aus{\k41}ein{\k19}an{\k42}der{\k40}geh'n
+Comment: 0,0:03:32.22,0:03:34.82,Sample KM [Choir],,0,0,0,karaoke,{\k21}Wir {\k18}wer{\k17}den {\k19}nie{\k24}mals {\k21}aus{\k22}ein{\k18}an{\k20}der{\k80}geh'n
+Comment: 0,0:03:33.83,0:03:36.42,Sample KM [Up],,0,0,0,karaoke,{\k20}Du {\k19}bist {\k20}mein {\k22}Di{\k19}gi{\k39}mon, {\k21}wir {\k19}sind {\k20}ein {\k60}Team
+Comment: 0,0:03:35.03,0:03:37.04,Sample KM [Choir],,0,0,0,karaoke,{\k39}Oh {\k40}oh {\k60}oh {\k62}oh
+Comment: 0,0:03:36.84,0:03:38.09,Sample KM [Up],,0,0,0,karaoke,{\k20}Wir {\k19}sind {\k19}ein {\k67}Team
+Dialogue: 0,0:00:12.64,0:00:16.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Nimm {\k40}mich {\k42}bit{\k39}te {\k39}an {\k45}der {\k44}Hand
+Dialogue: 0,0:00:15.72,0:00:19.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Und {\k23}führ {\k39}mich {\k40}durch {\k40}das {\k39}frem{\k40}de {\k66}Land
+Dialogue: 0,0:00:20.72,0:00:23.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Komm {\k20}lass {\k23}uns {\k86}geh'n
+Dialogue: 0,0:00:25.32,0:00:29.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Du {\k21}bist {\k41}schon {\k39}fast {\k38}ein {\k42}Teil {\k41}von {\k58}mir
+Dialogue: 0,0:00:28.73,0:00:32.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Was {\k40}auch {\k40}kommt, {\k40}ich {\k40}fol{\k41}ge {\k82}dir
+Dialogue: 0,0:00:32.32,0:00:34.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Oh {\k41}oh
+Dialogue: 0,0:00:33.12,0:00:36.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Al{\k18}so {\k23}komm {\k20}lass {\k20}uns {\k82}geh'n
+Dialogue: 0,0:00:36.92,0:00:40.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wir {\k19}wer{\k22}den {\k39}im{\k41}mer {\k40}Freun{\k22}de {\k58}sein
+Dialogue: 0,0:00:40.13,0:00:43.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Hab {\k23}kei{\k21}ne {\k37}Angst, {\k21}wir {\k20}sind {\k21}nicht {\k41}al{\k56}lein
+Dialogue: 0,0:00:43.33,0:00:47.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wir {\k19}wer{\k23}den {\k38}nie{\k40}mals {\k40}aus{\k40}ein{\k20}an{\k41}der{\k40}geh'n
+Dialogue: 0,0:00:46.53,0:00:50.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Du {\k20}bist {\k20}mein {\k20}Di{\k19}gi{\k41}mon, {\k20}wir {\k18}sind {\k21}ein {\k60}Team
+Dialogue: 0,0:00:49.55,0:00:52.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wir {\k18}sind {\k21}ein {\k78}Team
+Dialogue: 0,0:01:03.91,0:01:07.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ich {\k40}weiß {\k41}nicht, {\k38}wo{\k40}her {\k41}du {\k60}bist
+Dialogue: 0,0:01:07.13,0:01:11.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ich {\k39}weiß {\k40}nicht, {\k38}was {\k21}ge{\k20}sche{\k42}hen {\k88}ist
+Dialogue: 0,0:01:11.74,0:01:14.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Doch {\k19}ich {\k20}glaub {\k21}an {\kf106}dich
+Dialogue: 0,0:01:13.91,0:01:16.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ich {\k40}glaub {\k40}an {\k78}dich
+Dialogue: 0,0:01:16.71,0:01:20.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ich {\k34}ver{\k45}trau {\k41}auf {\k40}dei{\k40}nen {\k49}Mut
+Dialogue: 0,0:01:19.71,0:01:24.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Bist {\k21}du {\k41}bei {\k38}mir, {\k41}geht {\k40}es {\k41}mir {\k89}gut
+Dialogue: 0,0:01:23.35,0:01:25.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k35}oh
+Dialogue: 0,0:01:24.52,0:01:27.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Denn {\k18}ich {\k21}glaub {\k22}an {\k88}dich
+Dialogue: 0,0:01:26.71,0:01:29.41,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Ich {\k43}glaub {\k40}an {\k58}dich
+Dialogue: 0,0:01:28.12,0:01:31.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Wir {\k23}wer{\k18}den {\k40}im{\k38}mer {\k42}Freun{\k20}de {\k59}sein
+Dialogue: 0,0:01:31.32,0:01:35.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Hab {\k21}kei{\k21}ne {\k37}Angst, {\k18}wir {\k23}sind {\k21}nicht {\k40}al{\k61}lein
+Dialogue: 0,0:01:34.53,0:01:38.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wir {\k22}wer{\k20}den {\k38}nie{\k39}mals {\k40}aus{\k40}ein{\k21}an{\k41}der{\k40}geh'n
+Dialogue: 0,0:01:37.73,0:01:41.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Du {\k20}bist {\k19}mein {\k20}Di{\k21}gi{\k38}mon, {\k22}wir {\k19}sind {\k21}ein {\k62}Team
+Dialogue: 0,0:01:40.76,0:01:43.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Wir {\k19}sind {\k21}ein {\k68}Team
+Dialogue: 0,0:01:42.32,0:01:46.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wir {\k37}sind {\k41}für{\k39}ein{\k40}an{\k40}der {\k52}da
+Dialogue: 0,0:01:45.32,0:01:49.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wir {\k25}stel{\k37}len {\k40}uns {\k39}je{\k39}der {\k39}Ge{\k92}fahr
+Dialogue: 0,0:01:49.69,0:01:52.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Was {\k21}wird {\k19}noch {\k21}al{\k19}les {\k21}pas{\k72}sier'n?
+Dialogue: 0,0:01:52.13,0:01:55.12,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Was {\k20}wird {\k20}noch {\k20}al{\k20}les {\k17}pas{\k72}sier'n?
+Dialogue: 0,0:01:53.13,0:01:55.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Hm {\k32}hm {\k60}hm
+Dialogue: 0,0:01:55.06,0:01:58.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Ich {\k39}kann {\k39}im{\k41}mer {\k39}auf {\k41}dich {\k55}bau'n
+Dialogue: 0,0:01:58.12,0:02:02.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ich {\k20}werd {\k43}dir {\k37}hel{\k20}fen, {\k21}du {\k39}kannst {\k20}mir {\k15}ver{\k75}trau'n
+Dialogue: 0,0:02:01.12,0:02:04.03,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Oh {\k40}oh {\k39}oh {\k81}oh
+Dialogue: 0,0:02:02.52,0:02:05.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Wir {\k21}kön{\k20}nen {\k20}nie{\k22}mals {\k21}ver{\k92}lier'n
+Dialogue: 0,0:02:04.93,0:02:07.81,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Wir {\k21}kön{\k20}nen {\k21}nie{\k19}mals {\k20}ver{\k59}lier'n
+Dialogue: 0,0:02:07.89,0:02:11.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Was {\k42}auch {\k40}im{\k39}mer {\k41}kom{\k42}men {\k39}mag
+Dialogue: 0,0:02:11.12,0:02:15.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Nur {\k38}ge{\k40}mein{\k19}sam {\k20}sind {\k21}wir {\k19}wirk{\k41}lich {\k79}stark
+Dialogue: 0,0:02:13.92,0:02:16.29,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Oh {\k36}oh {\k55}oh
+Dialogue: 0,0:02:15.34,0:02:18.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Wir {\k21}wer{\k19}den {\k20}al{\k19}les {\k20}ris{\k63}kier'n
+Dialogue: 0,0:02:17.72,0:02:20.61,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Wir {\k21}wer{\k19}den {\k22}al{\k18}les {\k20}ris{\k59}kier'n
+Dialogue: 0,0:02:19.34,0:02:22.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Wir {\k20}wer{\k23}den {\k38}im{\k39}mer {\k42}Freun{\k20}de {\k42}sein
+Dialogue: 0,0:02:21.53,0:02:24.45,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Im{\k40}mer {\k39}Freun{\k21}de {\k62}sein
+Dialogue: 0,0:02:22.53,0:02:26.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Hab {\k22}kei{\k21}ne {\k37}Angst, {\k21}wir {\k20}sind {\k20}nicht {\k41}al{\k59}lein
+Dialogue: 0,0:02:25.73,0:02:30.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wir {\k21}wer{\k20}den {\k39}nie{\k39}mals {\k41}aus{\k42}ein{\k18}an{\k40}der{\k38}geh'n
+Dialogue: 0,0:02:26.50,0:02:30.41,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Wir {\k21}wer{\k20}den {\k18}nie{\k41}mals {\k39}aus{\k21}ein{\k21}an{\k21}der{\k57}geh'n
+Dialogue: 0,0:02:28.93,0:02:32.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Du {\k19}bist {\k18}mein {\k23}Di{\k18}gi{\k41}mon, {\k20}wir {\k19}sind {\k20}ein {\k62}Team
+Dialogue: 0,0:02:31.53,0:02:34.22,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wir {\k39}sind {\k41}ein {\k58}Team
+Dialogue: 0,0:02:35.33,0:02:38.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Wir {\k21}könn{\k21}ten {\k21}nie{\k20}mals {\k19}ver{\k61}lier'n
+Dialogue: 0,0:02:38.31,0:02:40.64,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Wir {\k18}sind {\k20}ein {\k63}Team
+Dialogue: 0,0:02:41.73,0:02:44.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wir {\k19}wer{\k20}den {\k21}al{\k20}les {\k20}ris{\k40}kier'n
+Dialogue: 0,0:02:44.72,0:02:47.03,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Wir {\k18}sind {\k19}ein {\k62}Team
+Dialogue: 0,0:02:48.12,0:02:51.04,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wir {\k21}könn{\k20}ten {\k19}nie{\k20}mals {\k21}ver{\k62}lier'n
+Dialogue: 0,0:02:51.12,0:02:53.41,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wir {\k18}sind {\k21}ein {\k57}Team
+Dialogue: 0,0:02:54.52,0:02:57.22,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wir {\k19}könn{\k21}ten {\k18}nie{\k21}mals {\k20}ver{\k40}lier'n
+Dialogue: 0,0:02:56.12,0:02:59.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Wir {\k23}wer{\k17}den {\k19}al{\k21}les {\k20}ris{\k81}kier'n
+Dialogue: 0,0:02:57.72,0:03:01.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Wir {\k22}wer{\k20}den {\k39}im{\k41}mer {\k38}Freun{\k22}de {\k40}sein
+Dialogue: 0,0:02:59.73,0:03:02.63,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Freun{\k41}de {\k99}sein
+Dialogue: 0,0:03:00.94,0:03:04.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Hab {\k21}kei{\k21}ne {\k37}Angst, {\k21}wir {\k19}sind {\k22}nicht {\k38}al{\k60}lein
+Dialogue: 0,0:03:04.12,0:03:08.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wir {\k20}wer{\k20}den {\k41}nie{\k36}mals {\k41}aus{\k41}ein{\k22}an{\k37}der{\k41}geh'n
+Dialogue: 0,0:03:07.32,0:03:11.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Du {\k19}bist {\k20}mein {\k22}Di{\k19}gi{\k39}mon, {\k21}wir {\k19}sind {\k19}ein {\k62}Team
+Dialogue: 0,0:03:08.71,0:03:11.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wir {\k19}sind {\k19}ein {\kf144}Team
+Dialogue: 0,0:03:11.13,0:03:14.02,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Im{\k40}mer {\k39}Freun{\k21}de {\k40}sein
+Dialogue: 0,0:03:11.37,0:03:15.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Oh, {\k21}im{\k19}mer, {\k22}im{\k17}mer {\k42}Freun{\k19}de {\k72}sein
+Dialogue: 0,0:03:13.73,0:03:17.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Hab {\k20}kei{\k21}ne {\k37}Angst, {\k21}wir {\k21}sind {\k21}nicht {\k39}al{\k60}lein
+Dialogue: 0,0:03:14.52,0:03:18.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Wir {\k20}ha{\k21}ben {\k20}kei{\k20}ne {\k20}Angst, {\k19}sind {\k21}nicht {\k39}al{\k68}lein
+Dialogue: 0,0:03:16.92,0:03:21.21,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wir {\k20}wer{\k20}den {\k40}nie{\k36}mals {\k41}aus{\k41}ein{\k22}an{\k37}der{\k41}geh'n
+Dialogue: 0,0:03:17.73,0:03:21.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wir {\k18}wer{\k17}den {\k19}nie{\k24}mals {\k19}aus{\k19}ein{\k23}an{\k38}der{\k41}geh'n
+Dialogue: 0,0:03:20.12,0:03:24.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Du {\k20}bist {\k20}mein {\k23}Di{\k16}gi{\k41}mon, {\k20}wir {\k20}sind {\k20}ein {\kf119}Team
+Dialogue: 0,0:03:23.34,0:03:27.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Wir {\k21}wer{\k19}den {\k40}im{\k40}mer {\k40}Freun{\k21}de {\k59}sein
+Dialogue: 0,0:03:25.71,0:03:28.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Oh {\k44}oh {\k57}oh
+Dialogue: 0,0:03:26.53,0:03:30.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Hab {\k21}kei{\k21}ne {\k39}Angst, {\k21}wir {\k19}sind {\k22}nicht {\k39}al{\k59}lein
+Dialogue: 0,0:03:29.73,0:03:34.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wir {\k20}wer{\k20}den {\k39}nie{\k36}mals {\k41}aus{\k41}ein{\k19}an{\k42}der{\k40}geh'n
+Dialogue: 0,0:03:31.32,0:03:35.02,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wir {\k18}wer{\k17}den {\k19}nie{\k24}mals {\k21}aus{\k22}ein{\k18}an{\k20}der{\k80}geh'n
+Dialogue: 0,0:03:32.93,0:03:36.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Du {\k19}bist {\k20}mein {\k22}Di{\k19}gi{\k39}mon, {\k21}wir {\k19}sind {\k20}ein {\k60}Team
+Dialogue: 0,0:03:34.13,0:03:37.24,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Oh {\k40}oh {\k60}oh {\k62}oh
+Dialogue: 0,0:03:35.94,0:03:38.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Wir {\k19}sind {\k19}ein {\k67}Team
