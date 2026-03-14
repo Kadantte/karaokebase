@@ -1,0 +1,315 @@
+﻿[Script Info]
+Title: Koi no Science
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: RoyceThomas
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,23,&H00FF8100,&H00FFFAF6,&H00150A00,&HD2000000,-1,0,0,0,100,100,0.8,0,1,1.5,1,8,1,1,10,1
+Style: Sample KM [Down] ALLGM 14 if size 16,Arial,16,&H15FFFFFF,&H00FFFFFF,&H00000000,&HC0000000,-1,0,0,0,100,99,0.69,0,1,1.3,0.69,2,1,1,14,1
+Style: Sample KM [Choir-Calm],Arial,23,&H0000E4FF,&H00F6FEFF,&H00001215,&HC0000000,-1,-1,0,0,100,100,0.8,0,1,1.5,1,8,1,1,10,1
+Style: Sample KM [Count-in Bar],Arial,50,&H00FF8100,&H00FFFAF6,&H00150A00,&HD2000000,-1,0,0,0,100,100,0.3,0,1,1.69,1,6,1,25,1,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 1069 and -$start or -1069,150)!{!$start < 1069 and "\\k" .. ($start/10) or "\\k100"!\fad(!$start < 1069 and $start or 269!,150)}
+Comment: 0,0:00:00.43,0:00:04.70,Sample KM [Up],,0,0,0,karaoke,{\k23}ka{\k22}ta{\k22}ri{\kf95}ta{\k13}{\k22}~{\k21}i {\k42}no {\k20}ko{\k22}i {\k23}wa {\k44}SCI{\k19}E{\k24}NCE{\k15}
+Comment: 0,0:00:04.75,0:00:07.47,Sample KM [Up],,0,0,0,karaoke,{\k42}mot{\k22}to {\k41}jik{\k24}ke{\k18}n {\k23}shi{\k22}ta{\k21}i{\k20}yo {\k39}wo
+Comment: 0,0:00:07.53,0:00:11.49,Sample KM [Up],,0,0,0,karaoke,{\k36}HEY{\k8} {\kf103}mo{\k22}~{\k23}t{\k45}to {\k21}ki{\k20}mi {\k22}no {\k43}HAP{\k17}P{\k24}Y{\k12}
+Comment: 0,0:00:11.60,0:00:13.72,Sample KM [Up],,0,0,0,karaoke,{\k23}fu{\k21}ya{\k21}su {\k21}ma{\k20}ho{\k21}u {\k85}wo
+Comment: 0,0:00:14.38,0:00:28.75,Sample KM [Count-in Bar],,0,0,0,karaoke,{\kf1426}________{\k11}
+Comment: 0,0:00:14.80,0:00:16.32,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k44}ah {\k22}wo {\k39}ah {\k47}wo
+Comment: 0,0:00:16.53,0:00:18.02,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k41}ah {\k24}wo {\k42}ah {\k42}ah
+Comment: 0,0:00:18.24,0:00:19.74,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k44}ah {\k22}wo {\k39}ah {\k45}wo
+Comment: 0,0:00:19.97,0:00:21.48,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k41}ah {\k24}wo {\k42}ah {\k42}ah
+Comment: 0,0:00:21.70,0:00:23.13,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k41}ah {\k22}wo {\k39}ah {\k41}wo
+Comment: 0,0:00:23.36,0:00:24.87,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k41}ah {\k24}wo {\k42}ah {\k42}ah
+Comment: 0,0:00:25.11,0:00:26.57,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k43}ah {\k21}wo {\k40}ah {\k42}wo
+Comment: 0,0:00:26.80,0:00:28.50,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k46}ah {\k22}wo {\k40}ah {\k62}ah
+Comment: 0,0:00:28.75,0:00:31.50,Sample KM [Up],,0,0,0,karaoke,{\k22}kyo{\k20}u {\k20}mo {\k21}a{\k25}shi{\k19}ta {\k24}mo {\k21}ko{\k20}ko{\k23}ro {\k60}wa
+Comment: 0,0:00:32.16,0:00:34.75,Sample KM [Up],,0,0,0,karaoke,{\k23}ky{\k21}ou{\k22}me{\k20}i {\k22}shi{\k24}tei{\kf105}ru{\k22}
+Comment: 0,0:00:35.61,0:00:38.36,Sample KM [Up],,0,0,0,karaoke,{\k21}do{\k21}ko {\k22}he {\k44}it{\k19}te {\k22}mo {\k22}ko{\k22}ta{\k22}e {\k60}wa
+Comment: 0,0:00:38.81,0:00:41.44,Sample KM [Up],,0,0,0,karaoke,{\kf11}I{\k11} {\kf22}WAN{\kf15}NA{\k7} {\kf36}BE{\k8} {\kf38}WITH{\k10} {\kf79}YOU{\k26}
+Comment: 0,0:00:42.45,0:00:45.23,Sample KM [Up],,0,0,0,karaoke,{\k45}kit{\k20}to {\k21}mi {\k23}ra{\k18}i {\k24}no {\k20}a{\k25}na{\k18}ta {\k64}wa
+Comment: 0,0:00:45.87,0:00:48.55,Sample KM [Up],,0,0,0,karaoke,{\k22}ka{\k23}wa{\k21}ra{\k20}zu {\k23}ni {\k17}i{\kf114}ru{\k28}
+Comment: 0,0:00:49.29,0:00:52.08,Sample KM [Up],,0,0,0,karaoke,{\k20}to{\k23}do{\k25}ke {\kf43}HEAR{\kf10}T{\k9} {\k24}wa {\kf19}E{\kf23}VE{\kf22}RY{\kf43}DAY{\k18}
+Comment: 0,0:00:52.50,0:00:55.00,Sample KM [Up],,0,0,0,karaoke,{\kf11}I{\k11} {\kf22}WAN{\kf15}NA{\k7} {\kf36}BE{\k8} {\kf38}WITH{\k10} {\kf79}YOU{\k13}
+Comment: 0,0:00:55.93,0:00:59.33,Sample KM [Up],,0,0,0,karaoke,{\k48}zu{\k38}tto {\k23}su{\k23}ki{\k41}yo {\k44}ou{\k42}en {\k22}shi{\k23}te{\k21}ru{\k15}yo
+Comment: 0,0:00:59.40,0:01:02.79,Sample KM [Up],,0,0,0,karaoke,{\k44}zu{\k41}tto {\k22}su{\k21}ki{\k45}yo {\k41}dai{\k22}ji {\k19}ni {\k22}shi{\k21}ta{\k20}i{\k21}yo
+Comment: 0,0:01:02.81,0:01:06.25,Sample KM [Up],,0,0,0,karaoke,{\k45}zu{\k42}tto {\k18}ki{\k26}mi {\k42}to {\k42}is{\k20}sho {\k24}ga {\k22}i{\k20}chi{\k21}ba{\k22}n
+Comment: 0,0:01:06.26,0:01:09.44,Sample KM [Up],,0,0,0,karaoke,{\kf82}ah{\k24} {\k21}u{\k20}re{\kf153}shī{\k18}
+Comment: 0,0:01:10.70,0:01:14.92,Sample KM [Up],,0,0,0,karaoke,{\k28}wa{\k20}ka{\k22}ri{\kf102}ta{\k23}~{\k23}i {\k45}no {\k22}ko{\k18}i {\k24}wa {\k41}SCI{\k22}E{\k20}N{\k7}CE{\kf5}
+Comment: 0,0:01:15.04,0:01:17.69,Sample KM [Up],,0,0,0,karaoke,{\k20}i{\k24}tsu{\k18}ka {\k20}ha{\k25}tsu{\k21}me{\k15}i {\k28}shi{\k19}ta{\k22}i{\k22}yo {\k31}wo
+Comment: 0,0:01:17.72,0:01:21.69,Sample KM [Up],,0,0,0,karaoke,{\k52}HEY {\kf104}mo{\k25}~{\k18}t{\k45}to {\k22}ki{\k22}mi {\k21}no {\kf41}SMI{\kf16}LE{\k8} {\k23}wo
+Comment: 0,0:01:21.87,0:01:23.99,Sample KM [Up],,0,0,0,karaoke,{\k20}fu{\k25}ya{\k20}su {\k19}ho{\k25}u{\k18}so{\k85}ku
+Comment: 0,0:01:24.44,0:01:28.60,Sample KM [Up],,0,0,0,karaoke,{\k40}CHU ☆ {\k28}shi{\kf104}ta{\k21}~{\k21}i {\k46}no {\k20}ko{\k20}i {\k22}no {\k44}SCI{\k19}E{\k25}NCE{\kf6}
+Comment: 0,0:01:28.74,0:01:31.30,Sample KM [Up],,0,0,0,karaoke,{\k23}i{\k22}tsu{\k21}mo {\k17}do{\k24}ki{\k21}do{\k15}ki {\k28}shi{\k20}ta{\k18}i {\k27}no {\k20}wo
+Comment: 0,0:01:31.53,0:01:35.39,Sample KM [Up],,0,0,0,karaoke,{\k43}HEY! {\kf130}zū{\k21}~{\k41}tto {\k22}te {\k22}to {\k20}te {\k40}gyutu ☆ {\k25}shi{\k22}te
+Comment: 0,0:01:35.58,0:01:37.85,Sample KM [Up],,0,0,0,karaoke,{\k24}ha{\k20}na{\k21}sa{\k22}na{\k23}i{\k20}de{\k87}yo{\k10}
+Comment: 0,0:01:38.40,0:01:52.78,Sample KM [Count-in Bar],,0,0,0,karaoke,{\kf1433}________{\k5}
+Comment: 0,0:01:38.83,0:01:40.31,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k42}ah {\k23}wo {\k39}ah {\k44}wo
+Comment: 0,0:01:40.53,0:01:42.00,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k41}ah {\k24}wo {\k42}ah {\k40}ah
+Comment: 0,0:01:42.27,0:01:43.73,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k44}ah {\k20}wo {\k40}ah {\k42}wo
+Comment: 0,0:01:43.96,0:01:45.60,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k41}ah {\k24}wo {\k42}ah {\k57}ah
+Comment: 0,0:01:45.67,0:01:47.15,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k44}ah {\k22}wo {\k39}ah {\k47}wo
+Comment: 0,0:01:47.40,0:01:48.84,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k41}ah {\k24}wo {\k42}ah {\k37}ah
+Comment: 0,0:01:49.09,0:01:50.58,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k44}ah {\k22}wo {\k39}ah {\k47}wo
+Comment: 0,0:01:50.83,0:01:52.29,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k41}ah {\k26}wo {\k41}ah {\k38}ah
+Comment: 0,0:01:52.78,0:01:55.55,Sample KM [Up],,0,0,0,karaoke,{\k19}ky{\k20}ou {\k23}mo {\k19}a{\k24}shi{\k23}ta {\k20}mo {\k22}i{\k20}tsu {\k20}de{\k67}mo
+Comment: 0,0:01:56.15,0:01:58.77,Sample KM [Up],,0,0,0,karaoke,{\k25}ka{\k20}i{\k21}se{\k17}ki {\k28}shi{\k22}te{\kf110}ru{\kf19}
+Comment: 0,0:01:59.59,0:02:02.60,Sample KM [Up],,0,0,0,karaoke,{\k23}ki{\k20}mi {\k16}ta{\k30}su {\k20}bo{\k22}ku {\k22}no {\k21}ko{\k24}ta{\k19}e {\k84}wo
+Comment: 0,0:02:02.81,0:02:05.50,Sample KM [Up],,0,0,0,karaoke,{\kf15}I{\k5} {\kf21}WAN{\kf18}NA{\k8} {\kf36}BE{\k5} {\kf37}WITH{\k9} {\kf85}YOU{\k30}
+Comment: 0,0:02:06.48,0:02:09.31,Sample KM [Up],,0,0,0,karaoke,{\k42}ki{\k21}tto {\k17}mi{\k26}ra{\k22}i {\k22}no {\k19}fu{\k23}ta{\k22}ri {\k69}wa
+Comment: 0,0:02:09.89,0:02:12.35,Sample KM [Up],,0,0,0,karaoke,{\k23}ha{\k22}k{\k19}ke{\k18}n {\k26}shi{\k22}te{\kf107}ru{\kf9}
+Comment: 0,0:02:13.31,0:02:16.18,Sample KM [Up],,0,0,0,karaoke,{\k22}a{\k22}i {\k23}no {\k18}ko{\k25}ta{\k15}e {\k28}wa {\k19}EV{\k15}ER{\k29}Y{\k65}TIME{\k6}
+Comment: 0,0:02:16.55,0:02:19.00,Sample KM [Up],,0,0,0,karaoke,{\kf15}I{\k7} {\kf19}WAN{\kf18}NA{\k6} {\kf38}BE{\k5} {\kf37}WITH{\k9} {\kf85}YOU{\k6}
+Comment: 0,0:02:19.96,0:02:23.38,Sample KM [Up],,0,0,0,karaoke,{\k44}ip{\k43}pai {\k22}ki{\k20}mi {\k41}wo {\k25}yo{\k19}shi {\k23}yo{\k21}shi {\k20}shi{\k24}ta{\k18}i{\k22}yo
+Comment: 0,0:02:23.40,0:02:26.78,Sample KM [Up],,0,0,0,karaoke,{\k41}ip{\k43}pai {\k24}ki{\k20}mi {\k44}to {\k22}ma{\k22}ze {\k20}ma{\k20}ze {\k21}shi{\k23}ta{\k22}i{\k16}yo
+Comment: 0,0:02:26.81,0:02:30.23,Sample KM [Up],,0,0,0,karaoke,{\k45}ip{\k43}pai {\k19}ki{\k24}mi {\k42}to {\k19}i{\k24}ro{\k20}i{\k23}ro {\k20}shi{\k24}cha{\k20}u{\k19}zo
+Comment: 0,0:02:30.25,0:02:33.35,Sample KM [Up],,0,0,0,karaoke,{\kf88}ah{\kf17} {\k25}su{\k21}te{\kf151}ki ♥{\k8}
+Comment: 0,0:02:36.42,0:02:40.72,Sample KM [Up],,0,0,0,karaoke,{\k23}ka{\k22}ta{\k22}ri{\kf95}ta{\k13}{\k22}~{\k21}i {\k42}no {\k20}ko{\k22}i {\k23}wa {\k44}SCI{\k19}E{\k42}NCE
+Comment: 0,0:02:40.74,0:02:43.41,Sample KM [Up],,0,0,0,karaoke,{\k46}mot{\k19}to {\k43}jik{\k21}ke{\k21}n {\k23}shi{\k20}ta{\k22}i{\k23}yo {\k29}wo
+Comment: 0,0:02:43.51,0:02:47.48,Sample KM [Up],,0,0,0,karaoke,{\k36}HEY{\k5} {\kf107}mo{\k25}~{\k21}t{\k43}to {\k23}ki{\k21}mi {\k19}no {\k43}HAP{\k17}P{\k24}Y{\k13}
+Comment: 0,0:02:47.60,0:02:49.76,Sample KM [Up],,0,0,0,karaoke,{\k20}fu{\k24}ya{\k21}su {\k19}ma{\k22}ho{\k21}u {\k89}wo
+Comment: 0,0:02:50.18,0:02:54.45,Sample KM [Up],,0,0,0,karaoke,{\k40}CHU ☆ {\k26}shi{\kf104}ta{\k23}~{\k21}i {\k41}no {\k25}ko{\k20}i {\k22}no {\k43}SCI{\k20}E{\k25}NCE{\k17}
+Comment: 0,0:02:54.47,0:02:57.09,Sample KM [Up],,0,0,0,karaoke,{\k23}ki{\k20}mi {\k21}ga {\k21}wa{\k24}ra{\k17}t{\k25}te{\k21}ku{\k21}re{\k19}ta{\k19}ra {\k31}a
+Comment: 0,0:02:57.25,0:03:01.16,Sample KM [Up],,0,0,0,karaoke,{\k43}HEY! {\kf120}ki{\k8}{\k19}t{\k48}to {\k17}mu{\k23}ne {\k19}ga {\k43}kyun ☆ {\k26}shi{\k25}te
+Comment: 0,0:03:01.33,0:03:03.75,Sample KM [Up],,0,0,0,karaoke,{\k23}ba{\k19}ku{\k21}ha{\k19}tsu {\k25}shi{\k21}cha{\kf107}u{\k7}
+Comment: 0,0:03:04.54,0:03:06.24,Sample KM [Up],,0,0,0,karaoke,{\k23}ma{\k21}ze {\k21}ma{\k11}ze {\k19}ma{\k12}ze {\k23}ma{\k22}ze {\k18}tte
+Comment: 0,0:03:06.24,0:03:07.96,Sample KM [Up],,0,0,0,karaoke,{\k23}a{\k22}na{\k20}ta {\k15}to {\k20}a{\k22}ta{\k8}shi {\k42}wo {\k-50\c&H00E4FF&\2c&HF6FEFF&\3c&H001215&\i1}{\kf36}kyun!{\k8}
+Comment: 0,0:03:07.97,0:03:09.70,Sample KM [Up],,0,0,0,karaoke,{\k21}e{\k20}ro{\k24}e{\k11}ro{\k19}es{\k13}sa{\k21}i{\k22}mu {\k22}de
+Comment: 0,0:03:09.71,0:03:11.36,Sample KM [Up],,0,0,0,karaoke,{\k21}na{\k21}ni {\k20}ga {\k11}o{\k21}ki{\k25}ru {\k8}ka{\k38}na? {\k-43\c&H00E4FF&\2c&HF6FEFF&\3c&H001215&\i1}{\kf33}chu!{\k21}
+Comment: 0,0:03:11.40,0:03:13.10,Sample KM [Up],,0,0,0,karaoke,{\k22}fu{\k22}ri {\k21}fu{\k12}ri {\k19}fu{\k11}ri {\k20}fu{\k24}ri {\k19}de
+Comment: 0,0:03:13.10,0:03:14.80,Sample KM [Up],,0,0,0,karaoke,{\k22}a{\k22}na{\k23}ta {\k9}to {\k23}a{\k24}ta{\k8}shi {\k39}ga {\k-42\c&H00E4FF&\2c&HF6FEFF&\3c&H001215&\i1}{\kf26}kyun!{\k10}
+Comment: 0,0:03:14.82,0:03:18.69,Sample KM [Up],,0,0,0,karaoke,{\k23}e{\k10}ro{\k31}e{\k12}ro{\k22}es{\k11}sa{\k22}i{\k21}mu {\k42}to {\k44}ro {\k41}ke {\k41}cha {\k25}u! {\kf37}☆{\kf5}
+Comment: 0,0:03:18.28,0:03:45.02,Sample KM [Count-in Bar],,0,0,0,karaoke,{\kf2651}________{\k23}
+Comment: 0,0:03:45.00,0:03:49.23,Sample KM [Up],,0,0,0,karaoke,{\k27}wa{\k21}ka{\k23}ri{\kf100}ta{\k24}~{\k22}i {\k43}no {\k20}ko{\k24}i {\k24}wa {\k41}SCI{\k23}E{\k20}NCE{\k11}
+Comment: 0,0:03:49.34,0:03:52.09,Sample KM [Up],,0,0,0,karaoke,{\k19}i{\k23}tsu{\k19}ka {\k21}ha{\k23}tsu{\k21}me{\k14}i {\k30}shi{\k22}ta{\k19}i{\k23}yo {\k41}wo
+Comment: 0,0:03:52.11,0:03:56.19,Sample KM [Up],,0,0,0,karaoke,{\k43}HEY {\k104}mo{\k22}~{\k23}t{\k43}to {\k24}ki{\k20}mi {\k22}no {\kf42}SMI{\kf21}LE {\k44}wo
+Comment: 0,0:03:56.20,0:03:58.18,Sample KM [Up],,0,0,0,karaoke,{\k18}fu{\k24}ya{\k20}su {\k18}ho{\k25}u{\k20}so{\k73}ku
+Comment: 0,0:03:58.73,0:04:02.89,Sample KM [Up],,0,0,0,karaoke,{\k43}CHU ☆ {\k25}shi{\kf103}ta{\k24}~{\k22}i {\k42}no {\k21}ko{\k20}i {\k24}no {\k41}SCI{\k20}E{\k25}NCE{\k6}
+Comment: 0,0:04:03.04,0:04:05.71,Sample KM [Up],,0,0,0,karaoke,{\k23}i{\k20}tsu{\k21}mo {\k19}do{\k24}ki{\k21}do{\k18}ki {\k25}shi{\k20}ta{\k18}i {\k27}no {\k31}wo
+Comment: 0,0:04:05.73,0:04:09.90,Sample KM [Up],,0,0,0,karaoke,{\k51}HEY! {\kf128}zū{\k19}t{\k48}to {\k20}te {\k22}to {\k23}te {\k43}gyutu ☆ {\k19}shi{\k44}te
+Comment: 0,0:04:09.91,0:04:11.80,Sample KM [Up],,0,0,0,karaoke,{\k23}ha{\k19}na{\k23}sa{\k22}na{\k20}i{\k19}ka{\k63}ra
+Comment: 0,0:04:13.10,0:04:14.58,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k44}ah {\k22}wo {\k39}ah {\k47}wo
+Comment: 0,0:04:14.83,0:04:16.34,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k41}ah {\k26}wo {\k41}ah {\k43}ah
+Comment: 0,0:04:16.55,0:04:18.03,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k44}ah {\k22}wo {\k39}ah {\k47}wo
+Comment: 0,0:04:18.27,0:04:19.74,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k41}ah {\k26}wo {\k41}ah {\k39}ah
+Comment: 0,0:04:19.97,0:04:21.44,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k44}ah {\k22}wo {\k39}ah {\k47}wo
+Comment: 0,0:04:21.70,0:04:23.18,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k41}ah {\k26}wo {\k41}ah {\k40}ah
+Comment: 0,0:04:23.41,0:04:25.02,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k44}ah {\k22}wo {\k39}ah {\k47}wo
+Comment: 0,0:04:25.13,0:04:26.59,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k44}ah {\k22}wo {\k39}ah {\k47}wo
+Comment: 0,0:04:26.85,0:04:28.38,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k42}ah {\k22}wo {\k40}ah {\k49}wo
+Comment: 0,0:04:28.59,0:04:30.25,Sample KM [Choir-Calm],,0,0,0,karaoke,{\k41}ah {\k24}wo {\k41}ah {\k60}ah
+Comment: 0,0:00:01.23,0:00:04.30,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I want to discuss it - love is a science
+Comment: 0,0:00:05.55,0:00:07.02,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I want to conduct more experiments
+Comment: 0,0:00:08.33,0:00:11.04,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Hey, discover more of the magic
+Comment: 0,0:00:12.40,0:00:13.27,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,to amplify your happiness
+Comment: 0,0:00:29.55,0:00:31.05,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Today and tomorrow,
+Comment: 0,0:00:32.96,0:00:34.30,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,our hearts are resonating
+Comment: 0,0:00:36.41,0:00:37.91,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Wherever I go, the conclusion is:
+Comment: 0,0:00:39.61,0:00:40.99,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I want to be with you
+Comment: 0,0:00:43.25,0:00:44.78,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I'm sure your future self
+Comment: 0,0:00:46.67,0:00:48.10,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,will stay the same
+Comment: 0,0:00:50.09,0:00:51.63,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Let my heart reach yours every day,
+Comment: 0,0:00:53.30,0:00:54.55,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I want to be with you
+Comment: 0,0:00:56.73,0:00:58.88,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I've always loved you, and I'll keep rooting for you
+Comment: 0,0:01:00.20,0:01:02.34,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I've always loved you, I want to treasure you
+Comment: 0,0:01:03.61,0:01:05.80,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Being with you is always the best -
+Comment: 0,0:01:07.06,0:01:08.99,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,ah, it makes me so happy
+Comment: 0,0:01:11.50,0:01:14.47,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I want to understand it - love is a science
+Comment: 0,0:01:15.84,0:01:17.24,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Someday, I'll devise the formula
+Comment: 0,0:01:18.52,0:01:21.24,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Hey, I'll keep deriving the law
+Comment: 0,0:01:22.67,0:01:23.54,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,to enhance your SMILE
+Comment: 0,0:01:25.24,0:01:28.11,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,CHU☆ - I want to kiss you; love is a science
+Comment: 0,0:01:29.54,0:01:30.85,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I always want to feel that heart-pounding excitement
+Comment: 0,0:01:32.33,0:01:34.94,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Hey! Let's hold hands forever ☆
+Comment: 0,0:01:36.38,0:01:37.40,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,and never let go
+Comment: 0,0:01:53.58,0:01:55.10,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Today, tomorrow, and always,
+Comment: 0,0:01:56.95,0:01:58.32,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I'm analyzing
+Comment: 0,0:02:00.39,0:02:02.15,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,The conclusion derived between you + me is:
+Comment: 0,0:02:03.61,0:02:05.05,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I want to be with you
+Comment: 0,0:02:07.28,0:02:08.86,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Surely, in the future,
+Comment: 0,0:02:10.69,0:02:11.90,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,we'll concieve it together
+Comment: 0,0:02:14.11,0:02:15.73,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,The solution to love's equation every time is:
+Comment: 0,0:02:17.35,0:02:18.55,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I want to be with you
+Comment: 0,0:02:20.76,0:02:22.93,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I want to gently care for you endlessly
+Comment: 0,0:02:24.20,0:02:26.33,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I want to fuse together with you completely
+Comment: 0,0:02:27.61,0:02:29.78,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I want to exchange various moments with you,
+Comment: 0,0:02:31.05,0:02:32.90,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,ah, it's wonderful ♥
+Comment: 0,0:02:37.22,0:02:40.27,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I want to discuss it - love is a science
+Comment: 0,0:02:41.54,0:02:42.96,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I want to conduct more experiments
+Comment: 0,0:02:44.31,0:02:47.03,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Hey, discover more of the magic
+Comment: 0,0:02:48.40,0:02:49.31,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,to amplify your happiness
+Comment: 0,0:02:50.98,0:02:54.00,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,CHU☆ - I want to try it; love is a science
+Comment: 0,0:02:55.27,0:02:56.64,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,If you smile for me,
+Comment: 0,0:02:58.05,0:03:00.71,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Hey! For sure, my heart will skip a beat ☆
+Comment: 0,0:03:02.13,0:03:03.30,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,And burst into a big explosion
+Comment: 0,0:03:05.34,0:03:05.79,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Mix, mix, mix, mix -
+Comment: 0,0:03:07.04,0:03:07.51,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,it's you and me together
+Comment: 0,0:03:08.77,0:03:09.25,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,What will this "erotic essence"
+Comment: 0,0:03:10.51,0:03:10.91,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,synthesize between us?
+Comment: 0,0:03:12.20,0:03:12.65,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Shake, shake, shake -
+Comment: 0,0:03:13.90,0:03:14.35,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,it's you and me together
+Comment: 0,0:03:15.62,0:03:18.24,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,With this "erotic essence," we'll melt into one ☆
+Comment: 0,0:03:19.08,0:03:44.57,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,
+Comment: 0,0:03:45.80,0:03:48.78,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I want to understand it - love is a science
+Comment: 0,0:03:50.14,0:03:51.64,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Someday, I'll devise the formula
+Comment: 0,0:03:52.91,0:03:55.74,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Hey, I'll further develop the law
+Comment: 0,0:03:57.00,0:03:57.73,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,to enhance your SMILE
+Comment: 0,0:03:59.53,0:04:02.44,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,CHU☆ - I want to try it; love is a science
+Comment: 0,0:04:03.84,0:04:05.26,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,I always want to feel that heart-pounding excitement
+Comment: 0,0:04:06.53,0:04:09.45,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,Hey! Let's hold hands forever ☆
+Comment: 0,0:04:10.71,0:04:11.35,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,karaoke,and I'll never let go!
+Dialogue: 0,0:00:00.00,0:00:04.85,Sample KM [Up],,0,0,0,fx,{\k43\fad(430,150)}{\k23}ka{\k22}ta{\k22}ri{\kf95}ta{\k13}{\k22}~{\k21}i {\k42}no {\k20}ko{\k22}i {\k23}wa {\k44}SCI{\k19}E{\k24}NCE{\k15}
+Dialogue: 0,0:00:03.68,0:00:07.62,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k42}mot{\k22}to {\k41}jik{\k24}ke{\k18}n {\k23}shi{\k22}ta{\k21}i{\k20}yo {\k39}wo
+Dialogue: 0,0:00:06.46,0:00:11.64,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k36}HEY{\k8} {\kf103}mo{\k22}~{\k23}t{\k45}to {\k21}ki{\k20}mi {\k22}no {\k43}HAP{\k17}P{\k24}Y{\k12}
+Dialogue: 0,0:00:10.53,0:00:13.87,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k23}fu{\k21}ya{\k21}su {\k21}ma{\k20}ho{\k21}u {\k85}wo
+Dialogue: 0,0:00:13.31,0:00:28.90,Sample KM [Count-in Bar],,0,0,0,fx,{\k100\fad(269,150)}{\kf1426}________{\k11}
+Dialogue: 0,0:00:13.73,0:00:16.47,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k44}ah {\k22}wo {\k39}ah {\k47}wo
+Dialogue: 0,0:00:15.46,0:00:18.17,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k41}ah {\k24}wo {\k42}ah {\k42}ah
+Dialogue: 0,0:00:17.17,0:00:19.89,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k44}ah {\k22}wo {\k39}ah {\k45}wo
+Dialogue: 0,0:00:18.90,0:00:21.63,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k41}ah {\k24}wo {\k42}ah {\k42}ah
+Dialogue: 0,0:00:20.63,0:00:23.28,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k41}ah {\k22}wo {\k39}ah {\k41}wo
+Dialogue: 0,0:00:22.29,0:00:25.02,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k41}ah {\k24}wo {\k42}ah {\k42}ah
+Dialogue: 0,0:00:24.04,0:00:26.72,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k43}ah {\k21}wo {\k40}ah {\k42}wo
+Dialogue: 0,0:00:25.73,0:00:28.65,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k46}ah {\k22}wo {\k40}ah {\k62}ah
+Dialogue: 0,0:00:27.68,0:00:31.65,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k22}kyo{\k20}u {\k20}mo {\k21}a{\k25}shi{\k19}ta {\k24}mo {\k21}ko{\k20}ko{\k23}ro {\k60}wa
+Dialogue: 0,0:00:31.09,0:00:34.90,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k23}ky{\k21}ou{\k22}me{\k20}i {\k22}shi{\k24}tei{\kf105}ru{\k22}
+Dialogue: 0,0:00:34.54,0:00:38.51,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k21}do{\k21}ko {\k22}he {\k44}it{\k19}te {\k22}mo {\k22}ko{\k22}ta{\k22}e {\k60}wa
+Dialogue: 0,0:00:37.74,0:00:41.59,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\kf11}I{\k11} {\kf22}WAN{\kf15}NA{\k7} {\kf36}BE{\k8} {\kf38}WITH{\k10} {\kf79}YOU{\k26}
+Dialogue: 0,0:00:41.38,0:00:45.38,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k45}kit{\k20}to {\k21}mi {\k23}ra{\k18}i {\k24}no {\k20}a{\k25}na{\k18}ta {\k64}wa
+Dialogue: 0,0:00:44.80,0:00:48.70,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k22}ka{\k23}wa{\k21}ra{\k20}zu {\k23}ni {\k17}i{\kf114}ru{\k28}
+Dialogue: 0,0:00:48.22,0:00:52.23,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k20}to{\k23}do{\k25}ke {\kf43}HEAR{\kf10}T{\k9} {\k24}wa {\kf19}E{\kf23}VE{\kf22}RY{\kf43}DAY{\k18}
+Dialogue: 0,0:00:51.43,0:00:55.15,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\kf11}I{\k11} {\kf22}WAN{\kf15}NA{\k7} {\kf36}BE{\k8} {\kf38}WITH{\k10} {\kf79}YOU{\k13}
+Dialogue: 0,0:00:54.86,0:00:59.48,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k48}zu{\k38}tto {\k23}su{\k23}ki{\k41}yo {\k44}ou{\k42}en {\k22}shi{\k23}te{\k21}ru{\k15}yo
+Dialogue: 0,0:00:58.33,0:01:02.94,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k44}zu{\k41}tto {\k22}su{\k21}ki{\k45}yo {\k41}dai{\k22}ji {\k19}ni {\k22}shi{\k21}ta{\k20}i{\k21}yo
+Dialogue: 0,0:01:01.74,0:01:06.40,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k45}zu{\k42}tto {\k18}ki{\k26}mi {\k42}to {\k42}is{\k20}sho {\k24}ga {\k22}i{\k20}chi{\k21}ba{\k22}n
+Dialogue: 0,0:01:05.19,0:01:09.59,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\kf82}ah{\k24} {\k21}u{\k20}re{\kf153}shī{\k18}
+Dialogue: 0,0:01:09.63,0:01:15.07,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k28}wa{\k20}ka{\k22}ri{\kf102}ta{\k23}~{\k23}i {\k45}no {\k22}ko{\k18}i {\k24}wa {\k41}SCI{\k22}E{\k20}N{\k7}CE{\kf5}
+Dialogue: 0,0:01:13.97,0:01:17.84,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k20}i{\k24}tsu{\k18}ka {\k20}ha{\k25}tsu{\k21}me{\k15}i {\k28}shi{\k19}ta{\k22}i{\k22}yo {\k31}wo
+Dialogue: 0,0:01:16.65,0:01:21.84,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k52}HEY {\kf104}mo{\k25}~{\k18}t{\k45}to {\k22}ki{\k22}mi {\k21}no {\kf41}SMI{\kf16}LE{\k8} {\k23}wo
+Dialogue: 0,0:01:20.80,0:01:24.14,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k20}fu{\k25}ya{\k20}su {\k19}ho{\k25}u{\k18}so{\k85}ku
+Dialogue: 0,0:01:23.37,0:01:28.75,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k40}CHU ☆ {\k28}shi{\kf104}ta{\k21}~{\k21}i {\k46}no {\k20}ko{\k20}i {\k22}no {\k44}SCI{\k19}E{\k25}NCE{\kf6}
+Dialogue: 0,0:01:27.67,0:01:31.45,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k23}i{\k22}tsu{\k21}mo {\k17}do{\k24}ki{\k21}do{\k15}ki {\k28}shi{\k20}ta{\k18}i {\k27}no {\k20}wo
+Dialogue: 0,0:01:30.46,0:01:35.54,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k43}HEY! {\kf130}zū{\k21}~{\k41}tto {\k22}te {\k22}to {\k20}te {\k40}gyutu ☆ {\k25}shi{\k22}te
+Dialogue: 0,0:01:34.51,0:01:38.00,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k24}ha{\k20}na{\k21}sa{\k22}na{\k23}i{\k20}de{\k87}yo{\k10}
+Dialogue: 0,0:01:37.33,0:01:52.93,Sample KM [Count-in Bar],,0,0,0,fx,{\k100\fad(269,150)}{\kf1433}________{\k5}
+Dialogue: 0,0:01:37.76,0:01:40.46,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k42}ah {\k23}wo {\k39}ah {\k44}wo
+Dialogue: 0,0:01:39.46,0:01:42.15,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k41}ah {\k24}wo {\k42}ah {\k40}ah
+Dialogue: 0,0:01:41.20,0:01:43.88,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k44}ah {\k20}wo {\k40}ah {\k42}wo
+Dialogue: 0,0:01:42.89,0:01:45.75,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k41}ah {\k24}wo {\k42}ah {\k57}ah
+Dialogue: 0,0:01:44.60,0:01:47.30,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k44}ah {\k22}wo {\k39}ah {\k47}wo
+Dialogue: 0,0:01:46.33,0:01:48.99,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k41}ah {\k24}wo {\k42}ah {\k37}ah
+Dialogue: 0,0:01:48.02,0:01:50.73,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k44}ah {\k22}wo {\k39}ah {\k47}wo
+Dialogue: 0,0:01:49.76,0:01:52.44,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k41}ah {\k26}wo {\k41}ah {\k38}ah
+Dialogue: 0,0:01:51.71,0:01:55.70,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k19}ky{\k20}ou {\k23}mo {\k19}a{\k24}shi{\k23}ta {\k20}mo {\k22}i{\k20}tsu {\k20}de{\k67}mo
+Dialogue: 0,0:01:55.08,0:01:58.92,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k25}ka{\k20}i{\k21}se{\k17}ki {\k28}shi{\k22}te{\kf110}ru{\kf19}
+Dialogue: 0,0:01:58.52,0:02:02.75,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k23}ki{\k20}mi {\k16}ta{\k30}su {\k20}bo{\k22}ku {\k22}no {\k21}ko{\k24}ta{\k19}e {\k84}wo
+Dialogue: 0,0:02:01.74,0:02:05.65,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\kf15}I{\k5} {\kf21}WAN{\kf18}NA{\k8} {\kf36}BE{\k5} {\kf37}WITH{\k9} {\kf85}YOU{\k30}
+Dialogue: 0,0:02:05.41,0:02:09.46,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k42}ki{\k21}tto {\k17}mi{\k26}ra{\k22}i {\k22}no {\k19}fu{\k23}ta{\k22}ri {\k69}wa
+Dialogue: 0,0:02:08.82,0:02:12.50,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k23}ha{\k22}k{\k19}ke{\k18}n {\k26}shi{\k22}te{\kf107}ru{\kf9}
+Dialogue: 0,0:02:12.24,0:02:16.33,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k22}a{\k22}i {\k23}no {\k18}ko{\k25}ta{\k15}e {\k28}wa {\k19}EV{\k15}ER{\k29}Y{\k65}TIME{\k6}
+Dialogue: 0,0:02:15.48,0:02:19.15,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\kf15}I{\k7} {\kf19}WAN{\kf18}NA{\k6} {\kf38}BE{\k5} {\kf37}WITH{\k9} {\kf85}YOU{\k6}
+Dialogue: 0,0:02:18.89,0:02:23.53,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k44}ip{\k43}pai {\k22}ki{\k20}mi {\k41}wo {\k25}yo{\k19}shi {\k23}yo{\k21}shi {\k20}shi{\k24}ta{\k18}i{\k22}yo
+Dialogue: 0,0:02:22.33,0:02:26.93,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k41}ip{\k43}pai {\k24}ki{\k20}mi {\k44}to {\k22}ma{\k22}ze {\k20}ma{\k20}ze {\k21}shi{\k23}ta{\k22}i{\k16}yo
+Dialogue: 0,0:02:25.74,0:02:30.38,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k45}ip{\k43}pai {\k19}ki{\k24}mi {\k42}to {\k19}i{\k24}ro{\k20}i{\k23}ro {\k20}shi{\k24}cha{\k20}u{\k19}zo
+Dialogue: 0,0:02:29.18,0:02:33.50,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\kf88}ah{\kf17} {\k25}su{\k21}te{\kf151}ki ♥{\k8}
+Dialogue: 0,0:02:35.35,0:02:40.87,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k23}ka{\k22}ta{\k22}ri{\kf95}ta{\k13}{\k22}~{\k21}i {\k42}no {\k20}ko{\k22}i {\k23}wa {\k44}SCI{\k19}E{\k42}NCE
+Dialogue: 0,0:02:39.67,0:02:43.56,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k46}mot{\k19}to {\k43}jik{\k21}ke{\k21}n {\k23}shi{\k20}ta{\k22}i{\k23}yo {\k29}wo
+Dialogue: 0,0:02:42.44,0:02:47.63,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k36}HEY{\k5} {\kf107}mo{\k25}~{\k21}t{\k43}to {\k23}ki{\k21}mi {\k19}no {\k43}HAP{\k17}P{\k24}Y{\k13}
+Dialogue: 0,0:02:46.53,0:02:49.91,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k20}fu{\k24}ya{\k21}su {\k19}ma{\k22}ho{\k21}u {\k89}wo
+Dialogue: 0,0:02:49.11,0:02:54.60,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k40}CHU ☆ {\k26}shi{\kf104}ta{\k23}~{\k21}i {\k41}no {\k25}ko{\k20}i {\k22}no {\k43}SCI{\k20}E{\k25}NCE{\k17}
+Dialogue: 0,0:02:53.40,0:02:57.24,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k23}ki{\k20}mi {\k21}ga {\k21}wa{\k24}ra{\k17}t{\k25}te{\k21}ku{\k21}re{\k19}ta{\k19}ra {\k31}a
+Dialogue: 0,0:02:56.18,0:03:01.31,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k43}HEY! {\kf120}ki{\k8}{\k19}t{\k48}to {\k17}mu{\k23}ne {\k19}ga {\k43}kyun ☆ {\k26}shi{\k25}te
+Dialogue: 0,0:03:00.26,0:03:03.90,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k23}ba{\k19}ku{\k21}ha{\k19}tsu {\k25}shi{\k21}cha{\kf107}u{\k7}
+Dialogue: 0,0:03:03.47,0:03:06.39,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k23}ma{\k21}ze {\k21}ma{\k11}ze {\k19}ma{\k12}ze {\k23}ma{\k22}ze {\k18}tte
+Dialogue: 0,0:03:05.17,0:03:08.11,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k23}a{\k22}na{\k20}ta {\k15}to {\k20}a{\k22}ta{\k8}shi {\k42}wo {\k-50\c&H00E4FF&\2c&HF6FEFF&\3c&H001215&\i1}{\kf36}kyun!{\k8}
+Dialogue: 0,0:03:06.90,0:03:09.85,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k21}e{\k20}ro{\k24}e{\k11}ro{\k19}es{\k13}sa{\k21}i{\k22}mu {\k22}de
+Dialogue: 0,0:03:08.64,0:03:11.51,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k21}na{\k21}ni {\k20}ga {\k11}o{\k21}ki{\k25}ru {\k8}ka{\k38}na? {\k-43\c&H00E4FF&\2c&HF6FEFF&\3c&H001215&\i1}{\kf33}chu!{\k21}
+Dialogue: 0,0:03:10.33,0:03:13.25,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k22}fu{\k22}ri {\k21}fu{\k12}ri {\k19}fu{\k11}ri {\k20}fu{\k24}ri {\k19}de
+Dialogue: 0,0:03:12.03,0:03:14.95,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k22}a{\k22}na{\k23}ta {\k9}to {\k23}a{\k24}ta{\k8}shi {\k39}ga {\k-42\c&H00E4FF&\2c&HF6FEFF&\3c&H001215&\i1}{\kf26}kyun!{\k10}
+Dialogue: 0,0:03:13.75,0:03:18.84,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k23}e{\k10}ro{\k31}e{\k12}ro{\k22}es{\k11}sa{\k22}i{\k21}mu {\k42}to {\k44}ro {\k41}ke {\k41}cha {\k25}u! {\kf37}☆{\kf5}
+Dialogue: 0,0:03:17.21,0:03:45.17,Sample KM [Count-in Bar],,0,0,0,fx,{\k100\fad(269,150)}{\kf2651}________{\k23}
+Dialogue: 0,0:03:43.93,0:03:49.38,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k27}wa{\k21}ka{\k23}ri{\kf100}ta{\k24}~{\k22}i {\k43}no {\k20}ko{\k24}i {\k24}wa {\k41}SCI{\k23}E{\k20}NCE{\k11}
+Dialogue: 0,0:03:48.27,0:03:52.24,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k19}i{\k23}tsu{\k19}ka {\k21}ha{\k23}tsu{\k21}me{\k14}i {\k30}shi{\k22}ta{\k19}i{\k23}yo {\k41}wo
+Dialogue: 0,0:03:51.04,0:03:56.34,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k43}HEY {\k104}mo{\k22}~{\k23}t{\k43}to {\k24}ki{\k20}mi {\k22}no {\kf42}SMI{\kf21}LE {\k44}wo
+Dialogue: 0,0:03:55.13,0:03:58.33,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k18}fu{\k24}ya{\k20}su {\k18}ho{\k25}u{\k20}so{\k73}ku
+Dialogue: 0,0:03:57.66,0:04:03.04,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k43}CHU ☆ {\k25}shi{\kf103}ta{\k24}~{\k22}i {\k42}no {\k21}ko{\k20}i {\k24}no {\k41}SCI{\k20}E{\k25}NCE{\k6}
+Dialogue: 0,0:04:01.97,0:04:05.86,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k23}i{\k20}tsu{\k21}mo {\k19}do{\k24}ki{\k21}do{\k18}ki {\k25}shi{\k20}ta{\k18}i {\k27}no {\k31}wo
+Dialogue: 0,0:04:04.66,0:04:10.05,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k51}HEY! {\kf128}zū{\k19}t{\k48}to {\k20}te {\k22}to {\k23}te {\k43}gyutu ☆ {\k19}shi{\k44}te
+Dialogue: 0,0:04:08.84,0:04:11.95,Sample KM [Up],,0,0,0,fx,{\k100\fad(269,150)}{\k23}ha{\k19}na{\k23}sa{\k22}na{\k20}i{\k19}ka{\k63}ra
+Dialogue: 0,0:04:12.03,0:04:14.73,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k44}ah {\k22}wo {\k39}ah {\k47}wo
+Dialogue: 0,0:04:13.76,0:04:16.49,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k41}ah {\k26}wo {\k41}ah {\k43}ah
+Dialogue: 0,0:04:15.48,0:04:18.18,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k44}ah {\k22}wo {\k39}ah {\k47}wo
+Dialogue: 0,0:04:17.20,0:04:19.89,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k41}ah {\k26}wo {\k41}ah {\k39}ah
+Dialogue: 0,0:04:18.90,0:04:21.59,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k44}ah {\k22}wo {\k39}ah {\k47}wo
+Dialogue: 0,0:04:20.63,0:04:23.33,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k41}ah {\k26}wo {\k41}ah {\k40}ah
+Dialogue: 0,0:04:22.34,0:04:25.17,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k44}ah {\k22}wo {\k39}ah {\k47}wo
+Dialogue: 0,0:04:24.06,0:04:26.74,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k44}ah {\k22}wo {\k39}ah {\k47}wo
+Dialogue: 0,0:04:25.78,0:04:28.53,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k42}ah {\k22}wo {\k40}ah {\k49}wo
+Dialogue: 0,0:04:27.52,0:04:30.40,Sample KM [Choir-Calm],,0,0,0,fx,{\k100\fad(269,150)}{\k41}ah {\k24}wo {\k41}ah {\k60}ah
+Dialogue: 0,0:00:00.80,0:00:04.45,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k43\fad(430,150)}I want to discuss it - love is a science
+Dialogue: 0,0:00:04.48,0:00:07.17,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I want to conduct more experiments
+Dialogue: 0,0:00:07.26,0:00:11.19,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Hey, discover more of the magic
+Dialogue: 0,0:00:11.33,0:00:13.42,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}to amplify your happiness
+Dialogue: 0,0:00:28.48,0:00:31.20,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Today and tomorrow,
+Dialogue: 0,0:00:31.89,0:00:34.45,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}our hearts are resonating
+Dialogue: 0,0:00:35.34,0:00:38.06,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Wherever I go, the conclusion is:
+Dialogue: 0,0:00:38.54,0:00:41.14,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I want to be with you
+Dialogue: 0,0:00:42.18,0:00:44.93,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I'm sure your future self
+Dialogue: 0,0:00:45.60,0:00:48.25,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}will stay the same
+Dialogue: 0,0:00:49.02,0:00:51.78,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Let my heart reach yours every day,
+Dialogue: 0,0:00:52.23,0:00:54.70,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I want to be with you
+Dialogue: 0,0:00:55.66,0:00:59.03,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I've always loved you, and I'll keep rooting for you
+Dialogue: 0,0:00:59.13,0:01:02.49,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I've always loved you, I want to treasure you
+Dialogue: 0,0:01:02.54,0:01:05.95,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Being with you is always the best -
+Dialogue: 0,0:01:05.99,0:01:09.14,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}ah, it makes me so happy
+Dialogue: 0,0:01:10.43,0:01:14.62,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I want to understand it - love is a science
+Dialogue: 0,0:01:14.77,0:01:17.39,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Someday, I'll devise the formula
+Dialogue: 0,0:01:17.45,0:01:21.39,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Hey, I'll keep deriving the law
+Dialogue: 0,0:01:21.60,0:01:23.69,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}to enhance your SMILE
+Dialogue: 0,0:01:24.17,0:01:28.26,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}CHU☆ - I want to kiss you; love is a science
+Dialogue: 0,0:01:28.47,0:01:31.00,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I always want to feel that heart-pounding excitement
+Dialogue: 0,0:01:31.26,0:01:35.09,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Hey! Let's hold hands forever ☆
+Dialogue: 0,0:01:35.31,0:01:37.55,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}and never let go
+Dialogue: 0,0:01:52.51,0:01:55.25,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Today, tomorrow, and always,
+Dialogue: 0,0:01:55.88,0:01:58.47,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I'm analyzing
+Dialogue: 0,0:01:59.32,0:02:02.30,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}The conclusion derived between you + me is:
+Dialogue: 0,0:02:02.54,0:02:05.20,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I want to be with you
+Dialogue: 0,0:02:06.21,0:02:09.01,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Surely, in the future,
+Dialogue: 0,0:02:09.62,0:02:12.05,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}we'll concieve it together
+Dialogue: 0,0:02:13.04,0:02:15.88,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}The solution to love's equation every time is:
+Dialogue: 0,0:02:16.28,0:02:18.70,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I want to be with you
+Dialogue: 0,0:02:19.69,0:02:23.08,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I want to gently care for you endlessly
+Dialogue: 0,0:02:23.13,0:02:26.48,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I want to fuse together with you completely
+Dialogue: 0,0:02:26.54,0:02:29.93,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I want to exchange various moments with you,
+Dialogue: 0,0:02:29.98,0:02:33.05,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}ah, it's wonderful ♥
+Dialogue: 0,0:02:36.15,0:02:40.42,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I want to discuss it - love is a science
+Dialogue: 0,0:02:40.47,0:02:43.11,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I want to conduct more experiments
+Dialogue: 0,0:02:43.24,0:02:47.18,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Hey, discover more of the magic
+Dialogue: 0,0:02:47.33,0:02:49.46,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}to amplify your happiness
+Dialogue: 0,0:02:49.91,0:02:54.15,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}CHU☆ - I want to try it; love is a science
+Dialogue: 0,0:02:54.20,0:02:56.79,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}If you smile for me,
+Dialogue: 0,0:02:56.98,0:03:00.86,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Hey! For sure, my heart will skip a beat ☆
+Dialogue: 0,0:03:01.06,0:03:03.45,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}And burst into a big explosion
+Dialogue: 0,0:03:04.27,0:03:05.94,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Mix, mix, mix, mix -
+Dialogue: 0,0:03:05.97,0:03:07.66,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}it's you and me together
+Dialogue: 0,0:03:07.70,0:03:09.40,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}What will this "erotic essence"
+Dialogue: 0,0:03:09.44,0:03:11.06,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}synthesize between us?
+Dialogue: 0,0:03:11.13,0:03:12.80,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Shake, shake, shake -
+Dialogue: 0,0:03:12.83,0:03:14.50,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}it's you and me together
+Dialogue: 0,0:03:14.55,0:03:18.39,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}With this "erotic essence," we'll melt into one ☆
+Dialogue: 0,0:03:18.01,0:03:44.72,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}
+Dialogue: 0,0:03:44.73,0:03:48.93,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I want to understand it - love is a science
+Dialogue: 0,0:03:49.07,0:03:51.79,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Someday, I'll devise the formula
+Dialogue: 0,0:03:51.84,0:03:55.89,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Hey, I'll further develop the law
+Dialogue: 0,0:03:55.93,0:03:57.88,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}to enhance your SMILE
+Dialogue: 0,0:03:58.46,0:04:02.59,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}CHU☆ - I want to try it; love is a science
+Dialogue: 0,0:04:02.77,0:04:05.41,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}I always want to feel that heart-pounding excitement
+Dialogue: 0,0:04:05.46,0:04:09.60,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}Hey! Let's hold hands forever ☆
+Dialogue: 0,0:04:09.64,0:04:11.50,Sample KM [Down] ALLGM 14 if size 16,,0,0,0,fx,{\k100\fad(269,150)}and I'll never let go!
