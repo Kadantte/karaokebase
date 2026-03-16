@@ -1,0 +1,134 @@
+﻿[Script Info]
+Title: WAKE:WOKE
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: PC.601
+Original Timing: Azurys
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Guilty Kiss,Arial,24,&H00FFFFFF,&H00BE5B9F,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Yoshiko,Arial,24,&H00FFFFFF,&H00898989,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Mari,Arial,24,&H00FFFFFF,&H00C652C2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Riko,Arial,24,&H00FFFFFF,&H00AC9EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Saint Snow,Arial,24,&H00FFFFFF,&H003453DE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sarah,Arial,24,&H00FFFFFF,&H00FFA739,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: SarahChoir,Arial,24,&H00FFFFFF,&H00D2D029,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Leah,Arial,24,&H00FFFFFF,&H00F38773,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: COLOR CODE,Arial,20,&H0000B4FF,&H0000B4FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,GuiltyKiss,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:09.00,COLOR CODE,,0,0,0,karaoke,{\c&H3453DE&}Saint Snow {\c&HFFFFFF&}- {\c&HFFA739&}Sarah {\c&HFFFFFF&}- {\c&HF38773&}Leah
+Comment: 0,0:00:00.00,0:00:09.00,COLOR CODE,,0,0,0,karaoke,{\c&HBE5B9F&}Guilty Kiss {\c&HFFFFFF&}- {\c&HAC9EFF&}Riko {\c&HFFFFFF&}- {\c&H898989&}Yoshiko {\c&HFFFFFF&}- {\c&HC652C2&}Mari
+Comment: 0,0:00:00.00,0:00:09.00,COLOR CODE,,0,0,0,karaoke,{\c&H008AFF&}GKSS
+Comment: 0,0:00:21.79,0:00:27.24,Sarah,,0,0,0,karaoke,{\k29}a{\k30}sa{\k25}i {\k42}ne{\k39}mu{\k100}ri {\k28}ma{\k26}do{\k25}ro{\k28}mi {\k30}no {\k31}se{\k24}ka{\kf88}i
+Comment: 0,0:00:27.84,0:00:36.75,Sarah,,0,0,0,karaoke,{\k55}do{\k50}ko {\k31}ka{\k23}ra {\k76}ka {\k33}ka{\kf173}na{\kf79} {\k29}yo{\k26}n{\k34}de{\k20}ru {\k43}ko{\kf219}e
+Comment: 0,0:00:39.32,0:00:42.98,Yoshiko,,0,0,0,karaoke,{\k40}me{\k40}za{\k26}me {\k58}yo!{\k40} {\k44}sa{\k41}ke{\k24}be {\k53}yo!
+Comment: 0,0:00:43.46,0:00:47.65,Yoshiko,,0,0,0,karaoke,{\k43}sa{\k33}ka{\k29}se {\k42}yo! {\k36}ma{\k28}da {\k41}to{\k37}be{\k20}ru {\kf110}sa!
+Comment: 0,0:00:48.38,0:00:55.03,Yoshiko,,0,0,0,karaoke,{\k34}son{\k78}na {\k26}mo{\k35}n {\k43}ja{\k26}na{\k78}i {\k26}yo {\k78}ne? {\k27}i{\k104}ko{\kf110}u!
+Comment: 0,0:00:58.35,0:01:02.11,Guilty Kiss,,0,0,0,karaoke,{\k13}ki{\k14}zu{\k26}tsu{\k25}i{\k77}te,{\k28} {\k43}ki{\k36}zu{\k26}i{\kf88}ta
+Comment: 0,0:01:02.53,0:01:07.36,Guilty Kiss,,0,0,0,karaoke,{\k13}i{\k13}ki{\k27}zu{\k24}i{\k79}te{\k28}ru {\k51}bo{\k53}ku{\k52}ra {\k51}no {\k40}"o{\k39}mo{\k13}i"
+Comment: 0,0:01:07.48,0:01:10.36,Guilty Kiss,,0,0,0,karaoke,{\k41}nee {\k38}ma{\k24}da {\k43}to{\k38}be{\k26}ru {\k78}no?
+Comment: 0,0:01:10.83,0:01:15.23,Guilty Kiss,,0,0,0,karaoke,{\k31}tsu{\k12}ba{\k15}sa {\k26}wa {\k38}ma{\k40}ta {\k26}ha{\k39}ba{\k37}ta{\k28}ke{\k80}ru {\k68}no?
+Comment: 0,0:01:15.85,0:01:19.54,Saint Snow,,0,0,0,karaoke,{\k25}a{\k21}no {\k30}hi {\k14}ka{\k22}wa{\k43}shi{\k27}ta {\k24}ya{\k26}ku{\k28}so{\k26}ku {\k13}wa {\k26}te {\k44}ni
+Comment: 0,0:01:20.02,0:01:23.75,Saint Snow,,0,0,0,karaoke,{\k24}nu{\k28}ku{\k26}mo{\k13}ri {\k25}no{\k36}ko{\k30}shi{\k52}te, {\k26}ta{\k52}bi{\k25}da{\k36}tsu
+Comment: 0,0:01:24.20,0:01:27.85,Saint Snow,,0,0,0,karaoke,{\k25}ne{\k26}mu{\k23}ri {\k15}tsu{\k28}zu{\k38}ke{\k26}te{\k24}ta {\k29}ya{\k26}mi {\k24}no {\k15}ha{\k29}te {\k37}ni
+Comment: 0,0:01:28.36,0:01:32.18,Saint Snow,,0,0,0,karaoke,{\k27}i{\k26}no{\k25}ri {\k11}wo {\k28}se {\k36}ni {\k30}shi{\k52}te, {\k26}to{\k51}bi{\k26}ta{\k44}tsu
+Comment: 0,0:01:37.72,0:01:39.04,Sample KM [Up],,0,0,0,karaoke,{\k29}G{\k27}K{\k27}S{\k49}S
+Comment: 0,0:01:40.07,0:01:40.43,Sample KM [Up],,0,0,0,karaoke,{\k36}What?
+Comment: 0,0:01:41.12,0:01:42.93,Guilty Kiss,,0,0,0,karaoke,{\k28}GUIL{\k27}TY! {\k54}kiz'{\k15}na {\k10}wa {\k24}ei{\k23}kyuu
+Comment: 0,0:01:43.20,0:01:45.19,Sample KM [Up],,0,0,0,karaoke,{\k14}tsu{\k16}mi{\k25}bu{\k26}ka{\k25}ki {\k14}tsu{\k13}na{\k29}ga{\k37}ri
+Comment: 0,0:01:45.49,0:01:49.28,Saint Snow,,0,0,0,karaoke,{\k87}SAINT! {\k28}tos' {\k74}no {\k16}tsu{\k12}mi {\k14}na{\k12}ki {\k29}a{\k22}i {\k15}ko{\k13}no {\k28}ba {\k29}ni
+Comment: 0,0:01:49.69,0:01:54.47,Sample KM [Up],,0,0,0,karaoke,{\k33}SH{\k49}INE! {\k29}ko{\k25}re {\k26}wa {\k27}ta{\k25}ta{\k27}ka{\k15}u {\k36}bo{\k28}ku{\k26}ra {\k13}no {\k33}MES{\kf86}SAGE
+Comment: 0,0:01:54.93,0:01:57.80,Sample KM [Up],,0,0,0,karaoke,{\k17}to{\k12}do{\k17}ke {\k88}yo {\k27}mi{\k39}n{\k39}na {\k48}ni
+Comment: 0,0:01:58.61,0:02:02.30,Saint Snow,,0,0,0,karaoke,{\k40}me{\k40}za{\k26}me {\k58}yo!{\k40} {\k44}sa{\k41}ke{\k24}be {\k56}yo!
+Comment: 0,0:02:02.75,0:02:07.09,Mari,,0,0,0,karaoke,{\k43}sa{\k33}ka{\k29}se {\k42}yo! {\k36}ma{\k28}da {\k41}to{\k37}be{\k20}ru {\kf125}sa!
+Comment: 0,0:02:07.67,0:02:19.00,Mari,,0,0,0,karaoke,{\k34}son{\k78}na {\k26}mo{\k35}n {\k43}ja{\k26}na{\k78}i {\k26}yo {\k78}ne? {\k27}i{\k104}ko{\kf578}u!
+Comment: 0,0:02:13.48,0:02:17.24,Saint Snow,,0,0,0,karaoke,{\k13}ki{\k14}zu{\k26}tsu{\k25}i{\k77}te,{\k28} {\k43}ki{\k36}zu{\k26}i{\kf88}ta
+Comment: 0,0:02:17.66,0:02:22.49,Saint Snow,,0,0,0,karaoke,{\k13}i{\k13}ki{\k27}zu{\k24}i{\k79}te{\k28}ru {\k51}bo{\k53}ku{\k52}ra {\k51}no {\k40}"ne{\k39}ga{\k13}i"
+Comment: 0,0:02:22.61,0:02:25.49,Saint Snow,,0,0,0,karaoke,{\k41}nee {\k38}ma{\k24}da {\k43}to{\k38}be{\k26}ru {\k78}no?
+Comment: 0,0:02:25.96,0:02:30.36,Saint Snow,,0,0,0,karaoke,{\k31}tsu{\k12}ba{\k15}sa {\k26}wa {\k38}ma{\k40}ta {\k26}ha{\k39}ba{\k37}ta{\k28}ke{\k80}ru {\k68}no?
+Comment: 0,0:02:30.98,0:02:34.67,Guilty Kiss,,0,0,0,karaoke,{\k25}a{\k21}no {\k30}hi {\k14}ka{\k22}wa{\k43}shi{\k27}ta {\k24}ya{\k26}ku{\k28}so{\k26}ku {\k13}wa {\k26}te {\k44}ni
+Comment: 0,0:02:35.15,0:02:38.88,Guilty Kiss,,0,0,0,karaoke,{\k24}nu{\k28}ku{\k26}mo{\k13}ri {\k25}no{\k36}ko{\k30}shi{\k52}te, {\k26}ta{\k52}bi{\k25}da{\k36}tsu
+Comment: 0,0:02:39.33,0:02:42.98,Guilty Kiss,,0,0,0,karaoke,{\k25}ne{\k26}mu{\k23}ri {\k15}tsu{\k28}zu{\k38}ke{\k26}te{\k24}ta {\k29}ya{\k26}mi {\k24}no {\k15}ha{\k29}te {\k37}ni
+Comment: 0,0:02:43.49,0:02:47.31,Guilty Kiss,,0,0,0,karaoke,{\k27}i{\k26}no{\k25}ri {\k11}wo {\k28}se {\k36}ni {\k30}shi{\k52}te, {\k26}to{\k51}bi{\k26}ta{\k44}tsu
+Comment: 0,0:03:18.41,0:03:26.31,Sarah,,0,0,0,karaoke,{\k23}ma{\k17}i{\k19}o{\k33}ri{\k56}ta{\k52} {\rLeah}{\k15}yu{\k20}ki {\k15}no {\k16}ka{\k35}ke{\k71}ra{\k76} {\rSaint Snow}{\k25}o{\k39}i{\k38}ka{\k28}ke{\k43}ta {\k36}no {\k17}a{\k20}re {\kf96}wa
+Comment: 0,0:03:27.05,0:03:33.56,Guilty Kiss,,0,0,0,karaoke,{\k12}mo{\k17}shi{\k70}ka{\k33}shi{\k50}te {\k56}shi{\kf138}roi{\k39} {\k39}ha{\kf197}ne?
+Comment: 0,0:03:34.60,0:03:38.26,Riko,,0,0,0,karaoke,{\k40}me{\k40}za{\k26}me {\k58}yo!{\k40} {\k44}sa{\k41}ke{\k24}be {\k53}yo!
+Comment: 0,0:03:38.73,0:03:42.92,Riko,,0,0,0,karaoke,{\k43}sa{\k33}ka{\k29}se {\k42}yo! {\k36}ma{\k28}da {\k41}to{\k37}be{\k20}ru {\kf110}sa!
+Comment: 0,0:03:43.70,0:03:50.30,Riko,,0,0,0,karaoke,{\k29}kon{\k78}na {\k26}mo{\k35}n {\k43}ja{\k26}na{\k78}i {\k26}yo {\k78}ne? {\k27}i{\k104}ko{\kf110}u!
+Comment: 0,0:03:51.66,0:03:53.15,Leah,,0,0,0,karaoke,{\k82}"nee, {\k11}me{\k17}za{\k11}me{\k12}ru {\k16}yo"
+Comment: 0,0:03:53.63,0:03:57.39,Sample KM [Up],,0,0,0,karaoke,{\k13}ki{\k14}zu{\k26}tsu{\k25}i{\k77}te,{\k28} {\k43}ki{\k36}zu{\k26}i{\kf88}ta
+Comment: 0,0:03:53.63,0:03:56.92,SarahChoir,,0,0,0,karaoke,{\k13}ki{\k14}zu{\k26}tsu{\k25}i{\kf298}te
+Comment: 0,0:03:57.53,0:04:01.38,SarahChoir,,0,0,0,karaoke,{\kf103}ki{\k26}zu{\k19}i{\k13}te{\kf224}ru
+Comment: 0,0:03:57.81,0:04:02.64,Sample KM [Up],,0,0,0,karaoke,{\k13}i{\k13}ki{\k27}zu{\k24}i{\k79}te{\k28}ru {\k51}bo{\k53}ku{\k52}ra {\k51}no {\k40}"o{\k39}mo{\k13}i"
+Comment: 0,0:04:02.76,0:04:05.64,Sample KM [Up],,0,0,0,karaoke,{\k41}nee {\k38}ma{\k26}da {\k43}to{\k38}be{\k25}ru {\k77}no?
+Comment: 0,0:04:03.81,0:04:06.38,SarahChoir,,0,0,0,karaoke,{\k43}to{\k38}be{\k26}ru {\kf150}no
+Comment: 0,0:04:06.14,0:04:10.51,Sample KM [Up],,0,0,0,karaoke,{\k29}tsu{\k14}ba{\k14}sa {\k26}wa {\k38}ma{\k38}ta {\k28}ha{\k39}ba{\k35}ta{\k30}ke{\k79}ru {\k67}no?
+Comment: 0,0:04:07.73,0:04:10.51,SarahChoir,,0,0,0,karaoke,{\k28}ha{\k39}ba{\k35}ta{\k30}ke{\k79}ru {\k67}no?
+Comment: 0,0:04:11.15,0:04:14.84,Sample KM [Up],,0,0,0,karaoke,{\k25}a{\k21}no {\k30}hi {\k14}ka{\k22}wa{\k43}shi{\k27}ta {\k24}ya{\k26}ku{\k28}so{\k26}ku {\k13}wa {\k26}te {\k44}ni
+Comment: 0,0:04:15.32,0:04:19.05,Sample KM [Up],,0,0,0,karaoke,{\k24}nu{\k28}ku{\k26}mo{\k13}ri {\k25}no{\k36}ko{\k30}shi{\k52}te, {\k26}ta{\k52}bi{\k25}da{\k36}tsu
+Comment: 0,0:04:19.50,0:04:23.15,Sample KM [Up],,0,0,0,karaoke,{\k25}ne{\k26}mu{\k23}ri {\k15}tsu{\k28}zu{\k38}ke{\k26}te{\k24}ta {\k29}ya{\k26}mi {\k24}no {\k15}ha{\k29}te {\k37}ni
+Comment: 0,0:04:23.64,0:04:27.46,Sample KM [Up],,0,0,0,karaoke,{\k27}i{\k26}no{\k25}ri {\k11}wo {\k28}se {\k36}ni {\k30}shi{\k52}te, {\k26}to{\k51}bi{\k26}ta{\k44}tsu
+Comment: 0,0:04:27.84,0:04:35.77,Sample KM [Up],,0,0,0,karaoke,{\k27}a{\k25}na{\k26}ta {\k15}wa {\k24}da{\kf210}re?{\k91} {\k26}a{\k23}na{\k27}ta {\k15}no {\k27}ko{\k39}to{\k25}ba {\k52}de {\k27}ta{\k50}bi{\k27}da{\k37}tsu
+Comment: 0,0:04:36.18,0:04:44.19,Sample KM [Up],,0,0,0,karaoke,{\k27}a{\k25}na{\k26}ta {\k15}wa {\k24}da{\kf210}re?{\k91} {\k26}a{\k23}na{\k27}ta {\k15}no {\k27}ko{\k39}to{\k25}ba {\k52}de {\k27}ta{\k50}bi{\k27}da{\k45}tsu...
+Dialogue: 0,0:00:00.00,0:00:09.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H3453DE&}Saint Snow {\c&HFFFFFF&}- {\c&HFFA739&}Sarah {\c&HFFFFFF&}- {\c&HF38773&}Leah
+Dialogue: 0,0:00:00.00,0:00:09.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HBE5B9F&}Guilty Kiss {\c&HFFFFFF&}- {\c&HAC9EFF&}Riko {\c&HFFFFFF&}- {\c&H898989&}Yoshiko {\c&HFFFFFF&}- {\c&HC652C2&}Mari
+Dialogue: 0,0:00:00.00,0:00:09.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H008AFF&}GKSS
+Dialogue: 0,0:00:20.89,0:00:27.44,Sarah,,0,0,0,fx,{\k90\fad(300,200)}{\k29}a{\k30}sa{\k25}i {\k42}ne{\k39}mu{\k100}ri {\k28}ma{\k26}do{\k25}ro{\k28}mi {\k30}no {\k31}se{\k24}ka{\kf88}i
+Dialogue: 0,0:00:26.94,0:00:36.95,Sarah,,0,0,0,fx,{\k90\fad(300,200)}{\k55}do{\k50}ko {\k31}ka{\k23}ra {\k76}ka {\k33}ka{\kf173}na{\kf79} {\k29}yo{\k26}n{\k34}de{\k20}ru {\k43}ko{\kf219}e
+Dialogue: 0,0:00:38.42,0:00:43.18,Yoshiko,,0,0,0,fx,{\k90\fad(300,200)}{\k40}me{\k40}za{\k26}me {\k58}yo!{\k40} {\k44}sa{\k41}ke{\k24}be {\k53}yo!
+Dialogue: 0,0:00:42.56,0:00:47.85,Yoshiko,,0,0,0,fx,{\k90\fad(300,200)}{\k43}sa{\k33}ka{\k29}se {\k42}yo! {\k36}ma{\k28}da {\k41}to{\k37}be{\k20}ru {\kf110}sa!
+Dialogue: 0,0:00:47.48,0:00:55.23,Yoshiko,,0,0,0,fx,{\k90\fad(300,200)}{\k34}son{\k78}na {\k26}mo{\k35}n {\k43}ja{\k26}na{\k78}i {\k26}yo {\k78}ne? {\k27}i{\k104}ko{\kf110}u!
+Dialogue: 0,0:00:57.45,0:01:02.31,Guilty Kiss,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k14}zu{\k26}tsu{\k25}i{\k77}te,{\k28} {\k43}ki{\k36}zu{\k26}i{\kf88}ta
+Dialogue: 0,0:01:01.63,0:01:07.56,Guilty Kiss,,0,0,0,fx,{\k90\fad(300,200)}{\k13}i{\k13}ki{\k27}zu{\k24}i{\k79}te{\k28}ru {\k51}bo{\k53}ku{\k52}ra {\k51}no {\k40}"o{\k39}mo{\k13}i"
+Dialogue: 0,0:01:06.58,0:01:10.56,Guilty Kiss,,0,0,0,fx,{\k90\fad(300,200)}{\k41}nee {\k38}ma{\k24}da {\k43}to{\k38}be{\k26}ru {\k78}no?
+Dialogue: 0,0:01:09.93,0:01:15.43,Guilty Kiss,,0,0,0,fx,{\k90\fad(300,200)}{\k31}tsu{\k12}ba{\k15}sa {\k26}wa {\k38}ma{\k40}ta {\k26}ha{\k39}ba{\k37}ta{\k28}ke{\k80}ru {\k68}no?
+Dialogue: 0,0:01:14.95,0:01:19.74,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k25}a{\k21}no {\k30}hi {\k14}ka{\k22}wa{\k43}shi{\k27}ta {\k24}ya{\k26}ku{\k28}so{\k26}ku {\k13}wa {\k26}te {\k44}ni
+Dialogue: 0,0:01:19.12,0:01:23.95,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k24}nu{\k28}ku{\k26}mo{\k13}ri {\k25}no{\k36}ko{\k30}shi{\k52}te, {\k26}ta{\k52}bi{\k25}da{\k36}tsu
+Dialogue: 0,0:01:23.30,0:01:28.05,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ne{\k26}mu{\k23}ri {\k15}tsu{\k28}zu{\k38}ke{\k26}te{\k24}ta {\k29}ya{\k26}mi {\k24}no {\k15}ha{\k29}te {\k37}ni
+Dialogue: 0,0:01:27.46,0:01:32.38,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k27}i{\k26}no{\k25}ri {\k11}wo {\k28}se {\k36}ni {\k30}shi{\k52}te, {\k26}to{\k51}bi{\k26}ta{\k44}tsu
+Dialogue: 0,0:01:36.82,0:01:39.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}G{\k27}K{\k27}S{\k49}S
+Dialogue: 0,0:01:39.17,0:01:40.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}What?
+Dialogue: 0,0:01:40.22,0:01:43.13,Guilty Kiss,,0,0,0,fx,{\k90\fad(300,200)}{\k28}GUIL{\k27}TY! {\k54}kiz'{\k15}na {\k10}wa {\k24}ei{\k23}kyuu
+Dialogue: 0,0:01:42.30,0:01:45.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}tsu{\k16}mi{\k25}bu{\k26}ka{\k25}ki {\k14}tsu{\k13}na{\k29}ga{\k37}ri
+Dialogue: 0,0:01:44.59,0:01:49.48,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k87}SAINT! {\k28}tos' {\k74}no {\k16}tsu{\k12}mi {\k14}na{\k12}ki {\k29}a{\k22}i {\k15}ko{\k13}no {\k28}ba {\k29}ni
+Dialogue: 0,0:01:48.79,0:01:54.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}SH{\k49}INE! {\k29}ko{\k25}re {\k26}wa {\k27}ta{\k25}ta{\k27}ka{\k15}u {\k36}bo{\k28}ku{\k26}ra {\k13}no {\k33}MES{\kf86}SAGE
+Dialogue: 0,0:01:54.03,0:01:58.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}to{\k12}do{\k17}ke {\k88}yo {\k27}mi{\k39}n{\k39}na {\k48}ni
+Dialogue: 0,0:01:57.71,0:02:02.50,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k40}me{\k40}za{\k26}me {\k58}yo!{\k40} {\k44}sa{\k41}ke{\k24}be {\k56}yo!
+Dialogue: 0,0:02:01.85,0:02:07.29,Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k43}sa{\k33}ka{\k29}se {\k42}yo! {\k36}ma{\k28}da {\k41}to{\k37}be{\k20}ru {\kf125}sa!
+Dialogue: 0,0:02:06.77,0:02:19.20,Mari,,0,0,0,fx,{\k90\fad(300,200)}{\k34}son{\k78}na {\k26}mo{\k35}n {\k43}ja{\k26}na{\k78}i {\k26}yo {\k78}ne? {\k27}i{\k104}ko{\kf578}u!
+Dialogue: 0,0:02:12.58,0:02:17.44,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k14}zu{\k26}tsu{\k25}i{\k77}te,{\k28} {\k43}ki{\k36}zu{\k26}i{\kf88}ta
+Dialogue: 0,0:02:16.76,0:02:22.69,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k13}i{\k13}ki{\k27}zu{\k24}i{\k79}te{\k28}ru {\k51}bo{\k53}ku{\k52}ra {\k51}no {\k40}"ne{\k39}ga{\k13}i"
+Dialogue: 0,0:02:21.71,0:02:25.69,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k41}nee {\k38}ma{\k24}da {\k43}to{\k38}be{\k26}ru {\k78}no?
+Dialogue: 0,0:02:25.06,0:02:30.56,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k31}tsu{\k12}ba{\k15}sa {\k26}wa {\k38}ma{\k40}ta {\k26}ha{\k39}ba{\k37}ta{\k28}ke{\k80}ru {\k68}no?
+Dialogue: 0,0:02:30.08,0:02:34.87,Guilty Kiss,,0,0,0,fx,{\k90\fad(300,200)}{\k25}a{\k21}no {\k30}hi {\k14}ka{\k22}wa{\k43}shi{\k27}ta {\k24}ya{\k26}ku{\k28}so{\k26}ku {\k13}wa {\k26}te {\k44}ni
+Dialogue: 0,0:02:34.25,0:02:39.08,Guilty Kiss,,0,0,0,fx,{\k90\fad(300,200)}{\k24}nu{\k28}ku{\k26}mo{\k13}ri {\k25}no{\k36}ko{\k30}shi{\k52}te, {\k26}ta{\k52}bi{\k25}da{\k36}tsu
+Dialogue: 0,0:02:38.43,0:02:43.18,Guilty Kiss,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ne{\k26}mu{\k23}ri {\k15}tsu{\k28}zu{\k38}ke{\k26}te{\k24}ta {\k29}ya{\k26}mi {\k24}no {\k15}ha{\k29}te {\k37}ni
+Dialogue: 0,0:02:42.59,0:02:47.51,Guilty Kiss,,0,0,0,fx,{\k90\fad(300,200)}{\k27}i{\k26}no{\k25}ri {\k11}wo {\k28}se {\k36}ni {\k30}shi{\k52}te, {\k26}to{\k51}bi{\k26}ta{\k44}tsu
+Dialogue: 0,0:03:17.51,0:03:26.51,Sarah,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ma{\k17}i{\k19}o{\k33}ri{\k56}ta{\k52} {\rLeah}{\k15}yu{\k20}ki {\k15}no {\k16}ka{\k35}ke{\k71}ra{\k76} {\rSaint Snow}{\k25}o{\k39}i{\k38}ka{\k28}ke{\k43}ta {\k36}no {\k17}a{\k20}re {\kf96}wa
+Dialogue: 0,0:03:26.15,0:03:33.76,Guilty Kiss,,0,0,0,fx,{\k90\fad(300,200)}{\k12}mo{\k17}shi{\k70}ka{\k33}shi{\k50}te {\k56}shi{\kf138}roi{\k39} {\k39}ha{\kf197}ne?
+Dialogue: 0,0:03:33.70,0:03:38.46,Riko,,0,0,0,fx,{\k90\fad(300,200)}{\k40}me{\k40}za{\k26}me {\k58}yo!{\k40} {\k44}sa{\k41}ke{\k24}be {\k53}yo!
+Dialogue: 0,0:03:37.83,0:03:43.12,Riko,,0,0,0,fx,{\k90\fad(300,200)}{\k43}sa{\k33}ka{\k29}se {\k42}yo! {\k36}ma{\k28}da {\k41}to{\k37}be{\k20}ru {\kf110}sa!
+Dialogue: 0,0:03:42.80,0:03:50.50,Riko,,0,0,0,fx,{\k90\fad(300,200)}{\k29}kon{\k78}na {\k26}mo{\k35}n {\k43}ja{\k26}na{\k78}i {\k26}yo {\k78}ne? {\k27}i{\k104}ko{\kf110}u!
+Dialogue: 0,0:03:50.76,0:03:53.35,Leah,,0,0,0,fx,{\k90\fad(300,200)}{\k82}"nee, {\k11}me{\k17}za{\k11}me{\k12}ru {\k16}yo"
+Dialogue: 0,0:03:52.73,0:03:57.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k14}zu{\k26}tsu{\k25}i{\k77}te,{\k28} {\k43}ki{\k36}zu{\k26}i{\kf88}ta
+Dialogue: 0,0:03:52.73,0:03:57.12,SarahChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k14}zu{\k26}tsu{\k25}i{\kf298}te
+Dialogue: 0,0:03:56.63,0:04:01.58,SarahChoir,,0,0,0,fx,{\k90\fad(300,200)}{\kf103}ki{\k26}zu{\k19}i{\k13}te{\kf224}ru
+Dialogue: 0,0:03:56.91,0:04:02.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}i{\k13}ki{\k27}zu{\k24}i{\k79}te{\k28}ru {\k51}bo{\k53}ku{\k52}ra {\k51}no {\k40}"o{\k39}mo{\k13}i"
+Dialogue: 0,0:04:01.86,0:04:05.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}nee {\k38}ma{\k26}da {\k43}to{\k38}be{\k25}ru {\k77}no?
+Dialogue: 0,0:04:02.91,0:04:06.58,SarahChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k43}to{\k38}be{\k26}ru {\kf150}no
+Dialogue: 0,0:04:05.24,0:04:10.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}tsu{\k14}ba{\k14}sa {\k26}wa {\k38}ma{\k38}ta {\k28}ha{\k39}ba{\k35}ta{\k30}ke{\k79}ru {\k67}no?
+Dialogue: 0,0:04:06.83,0:04:10.71,SarahChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ha{\k39}ba{\k35}ta{\k30}ke{\k79}ru {\k67}no?
+Dialogue: 0,0:04:10.25,0:04:15.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}a{\k21}no {\k30}hi {\k14}ka{\k22}wa{\k43}shi{\k27}ta {\k24}ya{\k26}ku{\k28}so{\k26}ku {\k13}wa {\k26}te {\k44}ni
+Dialogue: 0,0:04:14.42,0:04:19.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}nu{\k28}ku{\k26}mo{\k13}ri {\k25}no{\k36}ko{\k30}shi{\k52}te, {\k26}ta{\k52}bi{\k25}da{\k36}tsu
+Dialogue: 0,0:04:18.60,0:04:23.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}ne{\k26}mu{\k23}ri {\k15}tsu{\k28}zu{\k38}ke{\k26}te{\k24}ta {\k29}ya{\k26}mi {\k24}no {\k15}ha{\k29}te {\k37}ni
+Dialogue: 0,0:04:22.74,0:04:27.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}i{\k26}no{\k25}ri {\k11}wo {\k28}se {\k36}ni {\k30}shi{\k52}te, {\k26}to{\k51}bi{\k26}ta{\k44}tsu
+Dialogue: 0,0:04:26.94,0:04:35.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}a{\k25}na{\k26}ta {\k15}wa {\k24}da{\kf210}re?{\k91} {\k26}a{\k23}na{\k27}ta {\k15}no {\k27}ko{\k39}to{\k25}ba {\k52}de {\k27}ta{\k50}bi{\k27}da{\k37}tsu
+Dialogue: 0,0:04:35.28,0:04:44.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}a{\k25}na{\k26}ta {\k15}wa {\k24}da{\kf210}re?{\k91} {\k26}a{\k23}na{\k27}ta {\k15}no {\k27}ko{\k39}to{\k25}ba {\k52}de {\k27}ta{\k50}bi{\k27}da{\k45}tsu...
