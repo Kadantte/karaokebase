@@ -1,0 +1,168 @@
+﻿[Script Info]
+Title: Zeig mir das Licht
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFB858,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:10.41,0:00:11.72,Sample KM [Up],,0,0,0,karaoke,{\k30}Bist {\k30}du {\k34}glück{\k37}lich
+Comment: 0,0:00:11.72,0:00:15.25,Sample KM [Up],,0,0,0,karaoke,{\k35}Wenn {\k34}du {\k30}mor{\k36}gens {\k32}dei{\k26}nen{\k38} {\k40}Tag {\k29}be{\k53}ginnst?
+Comment: 0,0:00:15.73,0:00:19.37,Sample KM [Up],,0,0,0,karaoke,{\k34}Freust {\k28}du {\k32}dich {\k36}auf {\k33}das, {\k32}was {\k73}kom{\k31}men {\k65}wird?
+Comment: 0,0:00:20.96,0:00:25.97,Sample KM [Up],,0,0,0,karaoke,{\k40}Hast {\k31}du {\k36}kei{\k35}ne {\k33}Angst {\k30}da{\k34}vor, {\k35}ein{\k37}mal {\k20}al{\k46}{\k32}lein {\k31}zu {\k61}sein?
+Comment: 0,0:00:26.37,0:00:30.08,Sample KM [Up],,0,0,0,karaoke,{\k35}Bist {\k31}du {\k35}stolz {\k31}da{\k38}rauf {\k32}nie{\k30}mals {\k34}zu {\k35}ver{\k70}lier'n?
+Comment: 0,0:00:31.66,0:00:34.37,Sample KM [Up],,0,0,0,karaoke,{\k37}Hast {\k33}du {\k36}Freun{\k32}de, {\k35}die {\k33}bei {\k33}dir {\k32}sind
+Comment: 0,0:00:34.37,0:00:36.77,Sample KM [Up],,0,0,0,karaoke,{\k34}Wenn {\k28}du{\k39} {\k33}Hil{\k33}fe {\k73}brauchst?
+Comment: 0,0:00:37.34,0:00:41.20,Sample KM [Up],,0,0,0,karaoke,{\k24}Hast {\k18}du {\k17}im{\k29}mer {\k32}je{\k22}mand,{\k27} {\k34}der {\k32}an {\k36}dich {\k115}glaubt?
+Comment: 0,0:00:42.37,0:00:44.37,Sample KM [Up],,0,0,0,karaoke,{\k34}Tust {\k32}du {\k34}nie{\k34}mals {\k33}Din{\k33}ge
+Comment: 0,0:00:44.37,0:00:47.30,Sample KM [Up],,0,0,0,karaoke,{\k34}Die {\k32}man {\k31}bes{\k35}ser {\k36}sein {\k31}las{\k35}sen {\k59}soll?
+Comment: 0,0:00:47.93,0:00:51.70,Sample KM [Up],,0,0,0,karaoke,{\k27}Bist {\k17}du {\k34}je{\k33}mand, {\k34}dem {\k33}man {\k33}im{\k31}mer {\k35}ver{\k100}traut?
+Comment: 0,0:00:52.71,0:00:54.70,Sample KM [Up],,0,0,0,karaoke,{\k31}Dann {\k27}zeig {\k20}mir {\k23}das {\k98}Licht
+Comment: 0,0:00:55.70,0:00:58.17,Sample KM [Up],,0,0,0,karaoke,{\k33}Führ {\k34}mich {\k34}durch {\k31}die {\k35}Dun{\k33}kel{\k47}heit
+Comment: 0,0:00:58.38,0:00:59.48,Sample KM [Up],,0,0,0,karaoke,{\k25}Zeig {\k17}mir {\k24}den {\k44}Weg
+Comment: 0,0:00:59.51,0:01:00.38,Sample KM [Choir],,0,0,0,karaoke,{\k21}Den {\k66}Weg
+Comment: 0,0:01:00.04,0:01:01.76,Sample KM [Up],,0,0,0,karaoke,{\k33}Du {\k33}weißt, {\k34}wie {\k34}das {\k38}geht
+Comment: 0,0:01:01.71,0:01:03.87,Sample KM [Choir],,0,0,0,karaoke,{\k32}Du {\k33}weißt, {\k34}wie {\k34}das {\k83}geht
+Comment: 0,0:01:03.69,0:01:05.04,Sample KM [Up],,0,0,0,karaoke,{\k26}Zeig {\k16}mir {\k27}das {\k66}Licht
+Comment: 0,0:01:06.37,0:01:08.75,Sample KM [Up],,0,0,0,karaoke,{\k32}Führ {\k34}mich {\k33}durch {\k34}die {\k33}Dun{\k34}kel{\k38}heit
+Comment: 0,0:01:05.04,0:01:06.34,Sample KM [Choir],,0,0,0,karaoke,{\k27}Zeig {\k19}mir {\k29}das {\k55}Licht
+Comment: 0,0:01:09.02,0:01:10.13,Sample KM [Up],,0,0,0,karaoke,{\k26}Zeig {\k18}mir {\k24}den {\k43}Weg
+Comment: 0,0:01:10.71,0:01:12.41,Sample KM [Up],,0,0,0,karaoke,{\k19}Denn {\k14}du {\k33}weißt, {\k32}wie {\k34}das {\k38}geht
+Comment: 0,0:01:12.26,0:01:14.35,Sample KM [Choir],,0,0,0,karaoke,{\k11}Du {\k34}weißt, {\k33}wie {\k33}das {\k98}geht
+Comment: 0,0:01:26.04,0:01:27.42,Sample KM [Up],,0,0,0,karaoke,{\k22}Kannst {\k11}du {\k18}im{\k33}mer {\k37}sa{\k17}gen
+Comment: 0,0:01:28.02,0:01:30.18,Sample KM [Up],,0,0,0,karaoke,{\k18}Wel{\k21}cher {\k45}Weg {\k17}der {\k21}rich{\k14}ti{\k32}ge {\k48}ist?
+Comment: 0,0:01:30.36,0:01:34.09,Sample KM [Up],,0,0,0,karaoke,{\k35}Hast {\k33}du {\k33}nie{\k35}mals {\k47}Angst, {\k34}dein {\k53}Ziel {\k30}zu {\k24}ver{\k49}lier'n?
+Comment: 0,0:01:35.70,0:01:37.47,Sample KM [Up],,0,0,0,karaoke,{\k34}Kennst {\k31}du {\k19}al{\k29}le {\k36}Re{\k28}geln
+Comment: 0,0:01:38.24,0:01:41.03,Sample KM [Up],,0,0,0,karaoke,{\k47}Um {\k31}das {\k39}Spiel {\k29}zu {\k21}En{\k16}de {\k31}zu {\k65}spiel'n?
+Comment: 0,0:01:41.37,0:01:44.74,Sample KM [Up],,0,0,0,karaoke,{\k18}Bist {\k13}du {\k16}be{\k51}reit,{\k36} {\k17}al{\k47}les {\k35}zu {\k33}ris{\k71}kier'n?
+Comment: 0,0:01:46.36,0:01:48.28,Sample KM [Up],,0,0,0,karaoke,{\k35}Sagst {\k32}du {\k21}nie{\k33}mals {\k31}Wor{\k40}te
+Comment: 0,0:01:49.03,0:01:51.47,Sample KM [Up],,0,0,0,karaoke,{\k35}Die {\k33}du {\k23}ir{\k30}gend{\k36}wann {\k31}mal {\k14}be{\k42}reust?
+Comment: 0,0:01:52.01,0:01:56.10,Sample KM [Up],,0,0,0,karaoke,{\k27}Hältst {\k15}du {\k15}im{\k32}mer {\k70}das, {\k38}was {\k45}du {\k43}ver{\k124}sprichst?
+Comment: 0,0:01:57.04,0:01:59.54,Sample KM [Up],,0,0,0,karaoke,{\k31}Ist {\k35}kein {\k72}Weg {\k46}zu {\k66}weit
+Comment: 0,0:02:00.23,0:02:02.13,Sample KM [Up],,0,0,0,karaoke,{\k15}Und {\k24}kei{\k27}ne {\k33}Mü{\k14}he {\k17}zu {\k60}groß?
+Comment: 0,0:02:02.55,0:02:06.10,Sample KM [Up],,0,0,0,karaoke,{\k25}Weißt {\k25}du {\k66}wirk{\k67}lich {\k17}im{\k34}mer, {\k30}was {\k16}zu {\k23}tu{\k13}en {\k39}ist?
+Comment: 0,0:02:07.36,0:02:09.29,Sample KM [Up],,0,0,0,karaoke,{\k34}Dann {\k27}zeig {\k19}mir {\k23}das {\k90}Licht
+Comment: 0,0:02:10.37,0:02:12.80,Sample KM [Up],,0,0,0,karaoke,{\k33}Führ {\k35}mich {\k32}durch {\k31}die {\k36}Dun{\k33}kel{\k43}heit
+Comment: 0,0:02:13.02,0:02:14.18,Sample KM [Up],,0,0,0,karaoke,{\k27}Zeig {\k21}mir {\k21}den {\k47}Weg
+Comment: 0,0:02:14.71,0:02:16.41,Sample KM [Up],,0,0,0,karaoke,{\k32}Du {\k33}weißt, {\k34}wie {\k34}das {\k37}geht
+Comment: 0,0:02:14.29,0:02:15.04,Sample KM [Choir],,0,0,0,karaoke,{\k22}Den {\k53}Weg
+Comment: 0,0:02:18.34,0:02:19.76,Sample KM [Up],,0,0,0,karaoke,{\k28}Zeig {\k19}mir {\k22}das {\k73}Licht
+Comment: 0,0:02:21.01,0:02:23.42,Sample KM [Up],,0,0,0,karaoke,{\k36}Führ {\k31}mich {\k35}durch {\k33}die {\k35}Dun{\k32}kel{\k39}heit
+Comment: 0,0:02:19.76,0:02:21.04,Sample KM [Choir],,0,0,0,karaoke,{\k28}Zeig {\k16}mir {\k30}das {\k54}Licht
+Comment: 0,0:02:23.70,0:02:24.78,Sample KM [Up],,0,0,0,karaoke,{\k26}Zeig {\k17}mir {\k25}den {\k40}Weg
+Comment: 0,0:02:25.37,0:02:27.04,Sample KM [Up],,0,0,0,karaoke,{\k20}Denn {\k14}du {\k34}weißt, {\k32}wie {\k33}das {\k34}geht
+Comment: 0,0:02:26.70,0:02:28.43,Sample KM [Choir],,0,0,0,karaoke,{\k33}Du {\k35}weißt, {\k32}wie {\k34}das {\k39}geht
+Comment: 0,0:02:30.34,0:02:32.70,Sample KM [Up],,0,0,0,karaoke,{\k22}Zeig {\k16}mir {\k31}das {\k36}Licht,{\k25} {\k22}zeig {\k16}mir {\k33}den {\k35}Weg
+Comment: 0,0:02:33.00,0:02:34.72,Sample KM [Up],,0,0,0,karaoke,{\k37}Zeig {\k32}mir, {\k20}wie {\k32}das {\k51}geht
+Comment: 0,0:02:35.67,0:02:38.04,Sample KM [Up],,0,0,0,karaoke,{\k22}Zeig {\k13}mir {\k31}das {\k36}Licht,{\k35} {\k20}zeig {\k13}mir {\k33}den {\k34}Weg
+Comment: 0,0:02:38.38,0:02:40.38,Sample KM [Up],,0,0,0,karaoke,{\k33}Zeig {\k32}mir, {\k33}wie {\k35}das {\k67}geht
+Comment: 0,0:02:41.03,0:02:43.38,Sample KM [Up],,0,0,0,karaoke,{\k22}Zeig {\k13}mir {\k31}das {\k36}Licht,{\k33} {\k22}zeig {\k11}mir {\k33}den {\k34}Weg
+Comment: 0,0:02:43.72,0:02:45.40,Sample KM [Up],,0,0,0,karaoke,{\k32}Zeig {\k32}mir, {\k20}wie {\k36}das {\k48}geht
+Comment: 0,0:02:46.32,0:02:48.71,Sample KM [Up],,0,0,0,karaoke,{\k22}Zeig {\k16}mir {\k33}das {\k34}Licht,{\k30} {\k22}zeig {\k16}mir {\k25}den {\k41}Weg
+Comment: 0,0:02:49.00,0:02:50.83,Sample KM [Up],,0,0,0,karaoke,{\k37}Zeig {\k32}mir, {\k34}wie {\k32}das {\k48}geht
+Comment: 0,0:02:50.31,0:02:51.70,Sample KM [Up],,0,0,0,karaoke,{\k31}Zeig {\k21}mir {\k24}das {\k63}Licht
+Comment: 0,0:02:51.70,0:02:53.03,Sample KM [Choir],,0,0,0,karaoke,{\k22}Zeig {\k21}mir {\k23}das {\k67}Licht
+Comment: 0,0:02:53.03,0:02:55.48,Sample KM [Up],,0,0,0,karaoke,{\k34}Führ {\k32}mich {\k36}durch {\k30}die {\k37}Dun{\k33}kel{\k43}heit
+Comment: 0,0:02:55.69,0:02:56.80,Sample KM [Up],,0,0,0,karaoke,{\k26}Zeig {\k20}mir {\k23}den {\k42}Weg
+Comment: 0,0:02:56.85,0:02:57.53,Sample KM [Choir],,0,0,0,karaoke,{\k19}Den {\k49}Weg
+Comment: 0,0:02:57.37,0:02:59.06,Sample KM [Up],,0,0,0,karaoke,{\k33}Du {\k34}weißt, {\k34}wie {\k33}das {\k35}geht
+Comment: 0,0:02:59.70,0:03:01.03,Sample KM [Choir],,0,0,0,karaoke,{\k23}Zeig {\k14}mir {\k31}das {\k65}Licht
+Comment: 0,0:03:01.03,0:03:02.38,Sample KM [Up],,0,0,0,karaoke,{\k26}Zeig {\k18}mir {\k24}das {\k67}Licht
+Comment: 0,0:03:03.70,0:03:06.09,Sample KM [Up],,0,0,0,karaoke,{\k34}Führ {\k32}mich {\k34}durch {\k32}die {\k35}Dun{\k32}kel{\k40}heit
+Comment: 0,0:03:06.36,0:03:14.38,Sample KM [Up],,0,0,0,karaoke,{\k25}Zeig {\k20}mir {\k23}den {\k66}Weg,{\k31} {\k20}denn {\k16}du {\k33}weißt, {\k33}wie {\k34}das {\kf501}geht
+Comment: 0,0:03:11.67,0:03:13.05,Sample KM [Up],,0,0,0,karaoke,{\k30}Zeig {\k17}mir {\k26}das {\k65}Licht
+Comment: 0,0:03:14.37,0:03:16.83,Sample KM [Up],,0,0,0,karaoke,{\k34}Führ {\k33}mich {\k33}durch {\k32}die {\k34}Dun{\k33}kel{\k47}heit
+Comment: 0,0:03:17.07,0:03:20.37,Sample KM [Up],,0,0,0,karaoke,{\k25}Zeig {\k17}mir {\k22}den {\k58}Weg,{\k42} {\k32}du {\k34}weißt, {\k33}wie {\k33}das {\k34}geht
+Comment: 0,0:03:18.23,0:03:19.32,Sample KM [Choir],,0,0,0,karaoke,{\k14}Den {\k95}Weg
+Comment: 0,0:03:21.03,0:03:22.75,Sample KM [Choir],,0,0,0,karaoke,{\k31}Zeig {\k23}mir {\k46}das {\k72}Licht
+Comment: 0,0:03:22.36,0:03:23.70,Sample KM [Up],,0,0,0,karaoke,{\k19}Zeig {\k22}mir {\k25}das {\k68}Licht
+Comment: 0,0:03:25.03,0:03:27.44,Sample KM [Up],,0,0,0,karaoke,{\k34}Führ {\k34}mich {\k32}durch {\k33}die {\k34}Dun{\k34}kel{\k40}heit
+Comment: 0,0:03:27.40,0:03:28.55,Sample KM [Choir],,0,0,0,karaoke,{\k15}Durch {\k15}die {\k19}Dun{\k11}kel{\k55}heit
+Comment: 0,0:03:27.70,0:03:31.05,Sample KM [Up],,0,0,0,karaoke,{\k28}Zeig {\k18}mir {\k21}den {\k56}Weg,{\k44} {\k19}denn {\k14}du {\k34}weißt, {\k33}wie {\k32}das {\k36}geht
+Comment: 0,0:03:30.91,0:03:33.52,Sample KM [Choir],,0,0,0,karaoke,{\k13}Du {\k34}weißt, {\k32}wie {\k34}das {\k100}geht, {\k33}oh {\k15}yeah
+Dialogue: 0,0:00:09.51,0:00:11.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Bist {\k30}du {\k34}glück{\k37}lich
+Dialogue: 0,0:00:10.82,0:00:15.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Wenn {\k34}du {\k30}mor{\k36}gens {\k32}dei{\k26}nen{\k38} {\k40}Tag {\k29}be{\k53}ginnst?
+Dialogue: 0,0:00:14.83,0:00:19.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Freust {\k28}du {\k32}dich {\k36}auf {\k33}das, {\k32}was {\k73}kom{\k31}men {\k65}wird?
+Dialogue: 0,0:00:20.06,0:00:26.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Hast {\k31}du {\k36}kei{\k35}ne {\k33}Angst {\k30}da{\k34}vor, {\k35}ein{\k37}mal {\k20}al{\k46}{\k32}lein {\k31}zu {\k61}sein?
+Dialogue: 0,0:00:25.47,0:00:30.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Bist {\k31}du {\k35}stolz {\k31}da{\k38}rauf {\k32}nie{\k30}mals {\k34}zu {\k35}ver{\k70}lier'n?
+Dialogue: 0,0:00:30.76,0:00:34.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Hast {\k33}du {\k36}Freun{\k32}de, {\k35}die {\k33}bei {\k33}dir {\k32}sind
+Dialogue: 0,0:00:33.47,0:00:36.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Wenn {\k28}du{\k39} {\k33}Hil{\k33}fe {\k73}brauchst?
+Dialogue: 0,0:00:36.44,0:00:41.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hast {\k18}du {\k17}im{\k29}mer {\k32}je{\k22}mand,{\k27} {\k34}der {\k32}an {\k36}dich {\k115}glaubt?
+Dialogue: 0,0:00:41.47,0:00:44.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Tust {\k32}du {\k34}nie{\k34}mals {\k33}Din{\k33}ge
+Dialogue: 0,0:00:43.47,0:00:47.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Die {\k32}man {\k31}bes{\k35}ser {\k36}sein {\k31}las{\k35}sen {\k59}soll?
+Dialogue: 0,0:00:47.03,0:00:51.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Bist {\k17}du {\k34}je{\k33}mand, {\k34}dem {\k33}man {\k33}im{\k31}mer {\k35}ver{\k100}traut?
+Dialogue: 0,0:00:51.81,0:00:54.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Dann {\k27}zeig {\k20}mir {\k23}das {\k98}Licht
+Dialogue: 0,0:00:54.80,0:00:58.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Führ {\k34}mich {\k34}durch {\k31}die {\k35}Dun{\k33}kel{\k47}heit
+Dialogue: 0,0:00:57.48,0:00:59.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Zeig {\k17}mir {\k24}den {\k44}Weg
+Dialogue: 0,0:00:58.61,0:01:00.58,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Den {\k66}Weg
+Dialogue: 0,0:00:59.14,0:01:01.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Du {\k33}weißt, {\k34}wie {\k34}das {\k38}geht
+Dialogue: 0,0:01:00.81,0:01:04.07,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Du {\k33}weißt, {\k34}wie {\k34}das {\k83}geht
+Dialogue: 0,0:01:02.79,0:01:05.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Zeig {\k16}mir {\k27}das {\k66}Licht
+Dialogue: 0,0:01:05.47,0:01:08.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Führ {\k34}mich {\k33}durch {\k34}die {\k33}Dun{\k34}kel{\k38}heit
+Dialogue: 0,0:01:04.14,0:01:06.54,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Zeig {\k19}mir {\k29}das {\k55}Licht
+Dialogue: 0,0:01:08.12,0:01:10.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Zeig {\k18}mir {\k24}den {\k43}Weg
+Dialogue: 0,0:01:09.81,0:01:12.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Denn {\k14}du {\k33}weißt, {\k32}wie {\k34}das {\k38}geht
+Dialogue: 0,0:01:11.36,0:01:14.55,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Du {\k34}weißt, {\k33}wie {\k33}das {\k98}geht
+Dialogue: 0,0:01:25.14,0:01:27.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Kannst {\k11}du {\k18}im{\k33}mer {\k37}sa{\k17}gen
+Dialogue: 0,0:01:27.12,0:01:30.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Wel{\k21}cher {\k45}Weg {\k17}der {\k21}rich{\k14}ti{\k32}ge {\k48}ist?
+Dialogue: 0,0:01:29.46,0:01:34.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Hast {\k33}du {\k33}nie{\k35}mals {\k47}Angst, {\k34}dein {\k53}Ziel {\k30}zu {\k24}ver{\k49}lier'n?
+Dialogue: 0,0:01:34.80,0:01:37.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Kennst {\k31}du {\k19}al{\k29}le {\k36}Re{\k28}geln
+Dialogue: 0,0:01:37.34,0:01:41.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Um {\k31}das {\k39}Spiel {\k29}zu {\k21}En{\k16}de {\k31}zu {\k65}spiel'n?
+Dialogue: 0,0:01:40.47,0:01:44.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Bist {\k13}du {\k16}be{\k51}reit,{\k36} {\k17}al{\k47}les {\k35}zu {\k33}ris{\k71}kier'n?
+Dialogue: 0,0:01:45.46,0:01:48.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Sagst {\k32}du {\k21}nie{\k33}mals {\k31}Wor{\k40}te
+Dialogue: 0,0:01:48.13,0:01:51.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Die {\k33}du {\k23}ir{\k30}gend{\k36}wann {\k31}mal {\k14}be{\k42}reust?
+Dialogue: 0,0:01:51.11,0:01:56.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Hältst {\k15}du {\k15}im{\k32}mer {\k70}das, {\k38}was {\k45}du {\k43}ver{\k124}sprichst?
+Dialogue: 0,0:01:56.14,0:01:59.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Ist {\k35}kein {\k72}Weg {\k46}zu {\k66}weit
+Dialogue: 0,0:01:59.33,0:02:02.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Und {\k24}kei{\k27}ne {\k33}Mü{\k14}he {\k17}zu {\k60}groß?
+Dialogue: 0,0:02:01.65,0:02:06.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Weißt {\k25}du {\k66}wirk{\k67}lich {\k17}im{\k34}mer, {\k30}was {\k16}zu {\k23}tu{\k13}en {\k39}ist?
+Dialogue: 0,0:02:06.46,0:02:09.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Dann {\k27}zeig {\k19}mir {\k23}das {\k90}Licht
+Dialogue: 0,0:02:09.47,0:02:13.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Führ {\k35}mich {\k32}durch {\k31}die {\k36}Dun{\k33}kel{\k43}heit
+Dialogue: 0,0:02:12.12,0:02:14.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Zeig {\k21}mir {\k21}den {\k47}Weg
+Dialogue: 0,0:02:13.81,0:02:16.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Du {\k33}weißt, {\k34}wie {\k34}das {\k37}geht
+Dialogue: 0,0:02:13.39,0:02:15.24,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Den {\k53}Weg
+Dialogue: 0,0:02:17.44,0:02:19.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Zeig {\k19}mir {\k22}das {\k73}Licht
+Dialogue: 0,0:02:20.11,0:02:23.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Führ {\k31}mich {\k35}durch {\k33}die {\k35}Dun{\k32}kel{\k39}heit
+Dialogue: 0,0:02:18.86,0:02:21.24,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Zeig {\k16}mir {\k30}das {\k54}Licht
+Dialogue: 0,0:02:22.80,0:02:24.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Zeig {\k17}mir {\k25}den {\k40}Weg
+Dialogue: 0,0:02:24.47,0:02:27.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Denn {\k14}du {\k34}weißt, {\k32}wie {\k33}das {\k34}geht
+Dialogue: 0,0:02:25.80,0:02:28.63,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Du {\k35}weißt, {\k32}wie {\k34}das {\k39}geht
+Dialogue: 0,0:02:29.44,0:02:32.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Zeig {\k16}mir {\k31}das {\k36}Licht,{\k25} {\k22}zeig {\k16}mir {\k33}den {\k35}Weg
+Dialogue: 0,0:02:32.10,0:02:34.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Zeig {\k32}mir, {\k20}wie {\k32}das {\k51}geht
+Dialogue: 0,0:02:34.77,0:02:38.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Zeig {\k13}mir {\k31}das {\k36}Licht,{\k35} {\k20}zeig {\k13}mir {\k33}den {\k34}Weg
+Dialogue: 0,0:02:37.48,0:02:40.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Zeig {\k32}mir, {\k33}wie {\k35}das {\k67}geht
+Dialogue: 0,0:02:40.13,0:02:43.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Zeig {\k13}mir {\k31}das {\k36}Licht,{\k33} {\k22}zeig {\k11}mir {\k33}den {\k34}Weg
+Dialogue: 0,0:02:42.82,0:02:45.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Zeig {\k32}mir, {\k20}wie {\k36}das {\k48}geht
+Dialogue: 0,0:02:45.42,0:02:48.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Zeig {\k16}mir {\k33}das {\k34}Licht,{\k30} {\k22}zeig {\k16}mir {\k25}den {\k41}Weg
+Dialogue: 0,0:02:48.10,0:02:51.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Zeig {\k32}mir, {\k34}wie {\k32}das {\k48}geht
+Dialogue: 0,0:02:49.41,0:02:51.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Zeig {\k21}mir {\k24}das {\k63}Licht
+Dialogue: 0,0:02:50.80,0:02:53.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Zeig {\k21}mir {\k23}das {\k67}Licht
+Dialogue: 0,0:02:52.13,0:02:55.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Führ {\k32}mich {\k36}durch {\k30}die {\k37}Dun{\k33}kel{\k43}heit
+Dialogue: 0,0:02:54.79,0:02:57.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Zeig {\k20}mir {\k23}den {\k42}Weg
+Dialogue: 0,0:02:55.95,0:02:57.73,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Den {\k49}Weg
+Dialogue: 0,0:02:56.47,0:02:59.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Du {\k34}weißt, {\k34}wie {\k33}das {\k35}geht
+Dialogue: 0,0:02:58.80,0:03:01.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Zeig {\k14}mir {\k31}das {\k65}Licht
+Dialogue: 0,0:03:00.13,0:03:02.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Zeig {\k18}mir {\k24}das {\k67}Licht
+Dialogue: 0,0:03:02.80,0:03:06.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Führ {\k32}mich {\k34}durch {\k32}die {\k35}Dun{\k32}kel{\k40}heit
+Dialogue: 0,0:03:05.46,0:03:14.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Zeig {\k20}mir {\k23}den {\k66}Weg,{\k31} {\k20}denn {\k16}du {\k33}weißt, {\k33}wie {\k34}das {\kf501}geht
+Dialogue: 0,0:03:10.77,0:03:13.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Zeig {\k17}mir {\k26}das {\k65}Licht
+Dialogue: 0,0:03:13.47,0:03:17.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Führ {\k33}mich {\k33}durch {\k32}die {\k34}Dun{\k33}kel{\k47}heit
+Dialogue: 0,0:03:16.17,0:03:20.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Zeig {\k17}mir {\k22}den {\k58}Weg,{\k42} {\k32}du {\k34}weißt, {\k33}wie {\k33}das {\k34}geht
+Dialogue: 0,0:03:17.33,0:03:19.52,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Den {\k95}Weg
+Dialogue: 0,0:03:20.13,0:03:22.95,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Zeig {\k23}mir {\k46}das {\k72}Licht
+Dialogue: 0,0:03:21.46,0:03:23.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Zeig {\k22}mir {\k25}das {\k68}Licht
+Dialogue: 0,0:03:24.13,0:03:27.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Führ {\k34}mich {\k32}durch {\k33}die {\k34}Dun{\k34}kel{\k40}heit
+Dialogue: 0,0:03:26.50,0:03:28.75,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Durch {\k15}die {\k19}Dun{\k11}kel{\k55}heit
+Dialogue: 0,0:03:26.80,0:03:31.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Zeig {\k18}mir {\k21}den {\k56}Weg,{\k44} {\k19}denn {\k14}du {\k34}weißt, {\k33}wie {\k32}das {\k36}geht
+Dialogue: 0,0:03:30.01,0:03:33.72,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Du {\k34}weißt, {\k32}wie {\k34}das {\k100}geht, {\k33}oh {\k15}yeah
