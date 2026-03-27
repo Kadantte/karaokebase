@@ -1,0 +1,17 @@
+---
+header:
+  description: Karaoke Mugen Hook File
+  version: 1
+hook:
+  name: THE FIRST TAKE - singergroups
+  repository: kara.moe
+  conditionsType: and
+  conditions:
+    tagPresence: b4889bcc-a32f-47d6-b594-f10633063269 # THE FIRST TAKE
+    tagNumber:
+      singergroups: 0 # strictly more than 0 singergroup ( = at least 1 singergroup)
+  actions:
+    changeFromDisplayType: 17 # singergroups
+    addTag:
+    - tid: f22ad8d7-e34b-4a0d-ae8b-9a01fd40c464 # Keisuke Shimizu
+      type: 4 # creators
