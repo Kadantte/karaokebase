@@ -1,0 +1,61 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 0
+PlayResY: 0
+Title: BOOM
+Original Timing: PrZozor
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Mikael,Arial,24,&H00FFFFFF,&H00FEC73A,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Monkey,Arial,24,&H00FFFFFF,&H001081F5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sub,Arial,24,&H00FFFFFF,&H001081F5,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,90,1
+Style: COLOR CODE,Arial,24,&H00FFFFFF,&H001081F5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,200,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,All,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:01.07,COLOR CODE,,0,0,0,karaoke,{\k1500}{\k0}{\rMonkey}Monkey{\r}{\2c&HFFFFFF&} - {\rMikael}Mikael{\r}
+Comment: 0,0:00:01.07,0:00:03.00,Monkey,,0,0,0,karaoke,{\k15}Mc{\k40}Mi{\k28}kael {\k17}was {\k24}wal{\k15}kin' {\k54}round'
+Comment: 0,0:00:02.85,0:00:03.51,Sub,,0,0,0,karaoke,{\k40}oh {\k26}oh
+Comment: 0,0:00:03.43,0:00:04.33,Monkey,,0,0,0,karaoke,{\k19}And {\k24}sca{\k15}va{\k32}ging
+Comment: 0,0:00:04.33,0:00:05.52,Monkey,,0,0,0,karaoke,{\k29}When {\k20}he {\k38}saw {\k32}me
+Comment: 0,0:00:05.52,0:00:06.66,Monkey,,0,0,0,karaoke,{\k11}A {\k21}lit{\k16}tle {\k24}ti{\k21}ny {\k21}thing
+Comment: 0,0:00:06.66,0:00:07.54,Monkey,,0,0,0,karaoke,{\k15}And {\k22}so {\k19}he {\k32}said
+Comment: 0,0:00:07.66,0:00:09.09,Sub,,0,0,0,karaoke,{\k40}a{\k36}-a {\k44}oh {\k23}oh
+Comment: 0,0:00:09.61,0:00:10.80,Mikael,,0,0,0,karaoke,{\k38}Hey, {\k19}lit{\k20}tle {\k29}mon{\k13}key!
+Comment: 0,0:00:10.84,0:00:11.98,Mikael,,0,0,0,karaoke,{\k20}What{\k19}cha' {\k25}do{\k16}in' {\k34}there?
+Comment: 0,0:00:12.04,0:00:14.45,Mikael,,0,0,0,karaoke,{\k24}Why {\k15}you {\k18}sit{\k21}tin' {\k24}all {\k17}a{\k24}lone {\k15}in{\k24}side {\k16}up {\k43}here?
+Comment: 0,0:00:14.39,0:00:15.58,Monkey,,0,0,0,karaoke,{\k38}Hey, {\k27}lit{\k18}tle {\k36}man!
+Comment: 0,0:00:15.64,0:00:16.76,Monkey,,0,0,0,karaoke,{\k17}I'm {\k21}just {\k22}han{\k16}gin' {\k36}round'
+Comment: 0,0:00:16.76,0:00:18.27,Monkey,,0,0,0,karaoke,{\k27}Go{\k20}ing {\k37}a{\k38}-a{\k29}-tcho!
+Comment: 0,0:00:18.44,0:00:19.02,Sub,,0,0,0,karaoke,{\k36}oh {\k22}oh
+Comment: 0,0:00:19.11,0:00:21.26,Mikael,,0,0,0,karaoke,{\k13}I {\k26}real{\k15}ly {\k40}dig {\k37}this {\k84}view!
+Comment: 0,0:00:21.46,0:00:23.20,Monkey,,0,0,0,karaoke,{\k11}I {\k31}think {\k16}I {\k38}do {\k36}like {\k42}you!
+Comment: 0,0:00:23.26,0:00:23.87,Sub,,0,0,0,karaoke,{\k39}oh {\k22}oh
+Comment: 0,0:00:23.85,0:00:26.05,Mikael,,0,0,0,karaoke,{\k17}You {\k22}wan{\k20}na {\k37}be {\k35}best {\k89}friends?
+Comment: 0,0:00:26.23,0:00:28.31,Monkey,,0,0,0,karaoke,{\k17}If {\k25}so {\k17}then {\k39}we {\k41}should {\k69}dance!
+Comment: 0,0:00:28.02,0:00:31.31,Sub,,0,0,0,karaoke,{\k40}a{\k289}-a
+Dialogue: 0,0:00:00.00,0:00:01.27,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\k1500}{\k0}{\rMonkey}Monkey{\r}{\2c&HFFFFFF&} - {\rMikael}Mikael{\r}
+Dialogue: 0,0:00:00.17,0:00:03.20,Monkey,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Mc{\k40}Mi{\k28}kael {\k17}was {\k24}wal{\k15}kin' {\k54}round'
+Dialogue: 0,0:00:01.95,0:00:03.71,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k40}oh {\k26}oh
+Dialogue: 0,0:00:02.53,0:00:04.53,Monkey,,0,0,0,fx,{\k90\fad(300,200)}{\k19}And {\k24}sca{\k15}va{\k32}ging
+Dialogue: 0,0:00:03.43,0:00:05.72,Monkey,,0,0,0,fx,{\k90\fad(300,200)}{\k29}When {\k20}he {\k38}saw {\k32}me
+Dialogue: 0,0:00:04.62,0:00:06.86,Monkey,,0,0,0,fx,{\k90\fad(300,200)}{\k11}A {\k21}lit{\k16}tle {\k24}ti{\k21}ny {\k21}thing
+Dialogue: 0,0:00:05.76,0:00:07.74,Monkey,,0,0,0,fx,{\k90\fad(300,200)}{\k15}And {\k22}so {\k19}he {\k32}said
+Dialogue: 0,0:00:06.76,0:00:09.29,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k40}a{\k36}-a {\k44}oh {\k23}oh
+Dialogue: 0,0:00:08.71,0:00:11.00,Mikael,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Hey, {\k19}lit{\k20}tle {\k29}mon{\k13}key!
+Dialogue: 0,0:00:09.94,0:00:12.18,Mikael,,0,0,0,fx,{\k90\fad(300,200)}{\k20}What{\k19}cha' {\k25}do{\k16}in' {\k34}there?
+Dialogue: 0,0:00:11.14,0:00:14.65,Mikael,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Why {\k15}you {\k18}sit{\k21}tin' {\k24}all {\k17}a{\k24}lone {\k15}in{\k24}side {\k16}up {\k43}here?
+Dialogue: 0,0:00:13.49,0:00:15.78,Monkey,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Hey, {\k27}lit{\k18}tle {\k36}man!
+Dialogue: 0,0:00:14.74,0:00:16.96,Monkey,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I'm {\k21}just {\k22}han{\k16}gin' {\k36}round'
+Dialogue: 0,0:00:15.86,0:00:18.47,Monkey,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Go{\k20}ing {\k37}a{\k38}-a{\k29}-tcho!
+Dialogue: 0,0:00:17.54,0:00:19.22,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k36}oh {\k22}oh
+Dialogue: 0,0:00:18.21,0:00:21.46,Mikael,,0,0,0,fx,{\k90\fad(300,200)}{\k13}I {\k26}real{\k15}ly {\k40}dig {\k37}this {\k84}view!
+Dialogue: 0,0:00:20.56,0:00:23.40,Monkey,,0,0,0,fx,{\k90\fad(300,200)}{\k11}I {\k31}think {\k16}I {\k38}do {\k36}like {\k42}you!
+Dialogue: 0,0:00:22.36,0:00:24.07,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k39}oh {\k22}oh
+Dialogue: 0,0:00:22.95,0:00:26.25,Mikael,,0,0,0,fx,{\k90\fad(300,200)}{\k17}You {\k22}wan{\k20}na {\k37}be {\k35}best {\k89}friends?
+Dialogue: 0,0:00:25.33,0:00:28.51,Monkey,,0,0,0,fx,{\k90\fad(300,200)}{\k17}If {\k25}so {\k17}then {\k39}we {\k41}should {\k69}dance!
+Dialogue: 0,0:00:27.12,0:00:31.51,Sub,,0,0,0,fx,{\k90\fad(300,200)}{\k40}a{\k289}-a
