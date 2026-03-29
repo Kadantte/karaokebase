@@ -1,0 +1,110 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Schwarzer Hund
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.57,0:00:03.51,Sample KM [Up],,0,0,0,karaoke,{\k20}Wärst {\k29}du {\k22}'ne {\k41}Far{\k19}be, {\k37}würd {\k22}ich {\k39}sa{\k16}gen: {\k49}„Bunt“
+Comment: 0,0:00:03.90,0:00:07.52,Sample KM [Up],,0,0,0,karaoke,{\k25}Doch {\k35}ne{\k25}ben {\k33}dir {\k22}läuft {\k32}die{\k21}ser {\k61}schwar{\k56}ze {\k52}Hund
+Comment: 0,0:00:10.05,0:00:12.14,Sample KM [Up],,0,0,0,karaoke,{\k15}Du {\k19}bist {\k37}blass,{\k43} {\k18}du {\k21}bist {\k37}lei{\k19}se
+Comment: 0,0:00:12.40,0:00:14.49,Sample KM [Up],,0,0,0,karaoke,{\k17}Vol{\k17}ler {\k35}Hass,{\k40} {\k16}al{\k17}les {\k41}schei{\k26}ße
+Comment: 0,0:00:15.16,0:00:16.81,Sample KM [Up],,0,0,0,karaoke,{\k12}Und {\k19}das {\k19}schon {\k18}seit {\k21}'ner {\k41}Wei{\k35}le
+Comment: 0,0:00:19.06,0:00:21.36,Sample KM [Up],,0,0,0,karaoke,{\k17}Willst {\k16}nicht {\k44}raus,{\k38} {\k19}nicht {\k18}be{\k40}we{\k38}gen
+Comment: 0,0:00:21.36,0:00:23.49,Sample KM [Up],,0,0,0,karaoke,{\k9}Ü{\k20}bers {\k25}Cha{\k27}os{\k30} {\k21}gar {\k15}nicht {\k38}re{\k28}den
+Comment: 0,0:00:24.19,0:00:26.13,Sample KM [Up],,0,0,0,karaoke,{\k15}Du {\k20}bist {\k16}im{\k20}mer {\k19}da{\k50}ge{\k54}gen
+Comment: 0,0:00:27.79,0:00:31.92,Sample KM [Up],,0,0,0,karaoke,{\k22}Mir {\k30}ist {\k18}schon {\k41}auf{\k16}ge{\k38}fall'n, {\k22}dass {\k34}du {\k26}nicht {\k32}mehr {\k21}al{\k36}lei{\k21}ne {\k56}kommst
+Comment: 0,0:00:32.31,0:00:33.95,Sample KM [Up],,0,0,0,karaoke,{\k14}Ich {\k20}seh' {\k18}sei{\k20}ne {\k29}gro{\k25}ßen {\k38}Krall'n
+Comment: 0,0:00:33.95,0:00:36.33,Sample KM [Up],,0,0,0,karaoke,{\k22}Und {\k36}weiß, {\k17}du {\k36}kannst {\k22}nicht {\k43}sein {\k19}wie {\k43}sonst
+Comment: 0,0:00:36.80,0:00:39.68,Sample KM [Up],,0,0,0,karaoke,{\k15}Du {\k39}hast {\k23}dich {\k30}wirk{\k22}lich {\k44}schwer {\k23}ver{\k56}än{\k36}dert
+Comment: 0,0:00:41.29,0:00:44.42,Sample KM [Up],,0,0,0,karaoke,{\k24}Du {\k36}wirkst {\k21}auf {\k35}ein{\k24}mal {\k31}wie {\k30}ein {\k54}Frem{\k58}der
+Comment: 0,0:00:45.82,0:00:48.86,Sample KM [Up],,0,0,0,karaoke,{\k29}Wärst {\k32}du {\k18}'ne {\k40}Far{\k21}be, {\k28}würd {\k26}ich {\k36}sa{\k22}gen: {\k52}„Bunt“
+Comment: 0,0:00:49.25,0:00:52.99,Sample KM [Up],,0,0,0,karaoke,{\k22}Doch {\k31}ne{\k20}ben {\k30}dir {\k28}läuft {\k36}die{\k22}ser {\k62}schwar{\k54}ze {\k69}Hund
+Comment: 0,0:00:53.23,0:00:57.71,Sample KM [Up],,0,0,0,karaoke,{\k18}Ich {\k36}seh' {\k22}ihn {\k38}ganz {\k21}ge{\k64}nau,{\k29} {\k15}er {\k33}färbt {\k23}dein {\k20}We{\k38}sen {\k91}grau
+Comment: 0,0:00:58.53,0:01:02.54,Sample KM [Up],,0,0,0,karaoke,{\k35}Ne{\k19}ben {\k37}dir {\k21}läuft {\k34}die{\k20}ser {\k60}schwar{\k58}ze {\kf117}Hund
+Comment: 0,0:01:04.38,0:01:06.31,Sample KM [Up],,0,0,0,karaoke,{\k20}Gan{\k18}zen {\k44}Tag{\k34} {\k16}nur {\k20}im {\k41}Bett
+Comment: 0,0:01:06.56,0:01:08.56,Sample KM [Up],,0,0,0,karaoke,{\k24}Kei{\k18}ner {\k46}da,{\k28} {\k18}der {\k22}das {\k44}checkt
+Comment: 0,0:01:09.51,0:01:10.86,Sample KM [Up],,0,0,0,karaoke,{\k13}Und {\k16}du {\k23}fühlst {\k19}dich {\k18}wie {\k46}Dreck
+Comment: 0,0:01:13.42,0:01:15.66,Sample KM [Up],,0,0,0,karaoke,{\k16}Du {\k20}bist {\k33}wach,{\k44} {\k19}du {\k18}bist {\k39}mü{\k35}de
+Comment: 0,0:01:15.68,0:01:17.83,Sample KM [Up],,0,0,0,karaoke,{\k21}Gan{\k18}ze {\k27}Nacht{\k40} {\k27}Pa{\k17}nik{\k40}schü{\k25}be
+Comment: 0,0:01:18.48,0:01:20.47,Sample KM [Up],,0,0,0,karaoke,{\k22}Kei{\k21}nen {\k18}Frie{\k15}den, {\k19}nur {\k43}Krie{\k61}ge
+Comment: 0,0:01:22.09,0:01:26.23,Sample KM [Up],,0,0,0,karaoke,{\k22}Mir {\k33}ist {\k20}schon {\k35}auf{\k21}ge{\k39}fall'n, {\k22}dass {\k38}du {\k19}nicht {\k34}mehr {\k19}al{\k37}lei{\k21}ne {\k54}kommst
+Comment: 0,0:01:26.65,0:01:28.30,Sample KM [Up],,0,0,0,karaoke,{\k14}Ich {\k20}seh' {\k18}sei{\k17}ne {\k39}gro{\k17}ßen {\k40}Krall'n
+Comment: 0,0:01:28.30,0:01:30.72,Sample KM [Up],,0,0,0,karaoke,{\k19}Und {\k37}weiß, {\k17}du {\k44}kannst {\k17}nicht {\k44}sein {\k17}wie {\k47}sonst
+Comment: 0,0:01:31.22,0:01:34.06,Sample KM [Up],,0,0,0,karaoke,{\k14}Du {\k31}hast {\k21}dich {\k35}wirk{\k24}lich {\k40}schwer {\k17}ver{\k63}än{\k39}dert
+Comment: 0,0:01:35.61,0:01:38.95,Sample KM [Up],,0,0,0,karaoke,{\k27}Denn {\k29}ne{\k22}ben {\k38}dir {\k24}ist {\k30}so {\k30}ein {\k58}Frem{\k76}der
+Comment: 0,0:01:40.21,0:01:43.18,Sample KM [Up],,0,0,0,karaoke,{\k25}Wärst {\k30}du {\k20}'ne {\k36}Far{\k21}be, {\k32}würd {\k25}ich {\k38}sa{\k19}gen: {\k51}„Bunt“
+Comment: 0,0:01:43.57,0:01:47.34,Sample KM [Up],,0,0,0,karaoke,{\k24}Doch {\k31}ne{\k20}ben {\k29}dir {\k30}läuft {\k35}die{\k22}ser {\k60}schwar{\k54}ze {\k72}Hund
+Comment: 0,0:01:47.59,0:01:52.04,Sample KM [Up],,0,0,0,karaoke,{\k17}Ich {\k36}seh' {\k21}ihn {\k37}ganz {\k24}ge{\k62}nau,{\k28} {\k16}er {\k33}färbt {\k24}dein {\k22}We{\k35}sen {\k90}grau
+Comment: 0,0:01:52.86,0:01:56.88,Sample KM [Up],,0,0,0,karaoke,{\k37}Ne{\k19}ben {\k25}dir {\k31}läuft {\k33}die{\k23}ser {\k61}schwar{\k57}ze {\kf116}Hund
+Comment: 0,0:01:58.32,0:02:01.27,Sample KM [Up],,0,0,0,karaoke,{\k22}Wärst {\k34}du {\k19}'ne {\k38}Far{\k20}be, {\k30}würd {\k23}ich {\k41}sa{\k18}gen: {\k50}„Bunt“
+Comment: 0,0:02:01.69,0:02:05.44,Sample KM [Up],,0,0,0,karaoke,{\k23}Doch {\k32}ne{\k20}ben {\k28}dir {\k29}läuft {\k35}die{\k23}ser {\k60}schwar{\k55}ze {\k70}Hund
+Comment: 0,0:02:05.69,0:02:10.18,Sample KM [Up],,0,0,0,karaoke,{\k17}Ich {\k33}seh' {\k25}ihn {\k38}ganz {\k22}ge{\k64}nau,{\k27} {\k18}er {\k32}färbt {\k22}dein {\k23}We{\k35}sen {\k93}grau
+Comment: 0,0:02:10.95,0:02:14.97,Sample KM [Up],,0,0,0,karaoke,{\k40}Ne{\k19}ben {\k30}dir {\k26}läuft {\k35}die{\k21}ser {\k60}schwar{\k58}ze {\kf113}Hund
+Comment: 0,0:02:16.43,0:02:19.38,Sample KM [Up],,0,0,0,karaoke,{\k24}Auch {\k33}ne{\k21}ben {\k32}mir {\k21}lief {\k30}die{\k22}ser {\k45}schwar{\k21}ze {\k46}Hund
+Comment: 0,0:02:19.99,0:02:23.34,Sample KM [Up],,0,0,0,karaoke,{\k34}Er {\k18}und {\k42}ich {\k23}hat{\k29}ten {\k23}den{\k63}sel{\k53}ben {\k50}Bund
+Comment: 0,0:02:23.72,0:02:28.00,Sample KM [Up],,0,0,0,karaoke,{\k22}Des{\k35}halb {\k24}kann {\k28}ich {\k27}ihn {\k52}seh'n{\k38} {\k22}und {\k36}dich {\k21}so {\k34}gut {\k29}ver{\k60}steh'n
+Comment: 0,0:02:28.78,0:02:32.49,Sample KM [Up],,0,0,0,karaoke,{\k27}Auch {\k33}ne{\k24}ben {\k37}mir {\k24}lief {\k28}die{\k27}ser {\k59}schwar{\k62}ze {\k50}Hund
+Comment: 0,0:02:32.22,0:02:44.23,Sample KM [Choir],,0,0,0,karaoke,{\k27}Mann, {\k30}die{\k22}ser {\k62}schwar{\k59}ze {\kf1001}Hund
+Comment: 0,0:02:36.74,0:02:39.88,Sample KM [Up],,0,0,0,karaoke,{\k25}Wärst {\k33}du {\k23}'ne {\k40}Far{\k21}be, {\k19}würd {\k31}ich {\k43}sa{\k23}gen: {\k56}„Bunt“
+Comment: 0,0:02:40.18,0:02:43.91,Sample KM [Up],,0,0,0,karaoke,{\k27}Doch {\k31}ne{\k19}ben {\k35}dir {\k22}läuft {\k35}die{\k20}ser {\k60}schwar{\k55}ze {\k69}Hund
+Comment: 0,0:02:44.18,0:02:48.80,Sample KM [Up],,0,0,0,karaoke,{\k17}Ich {\k29}seh' {\k30}ihn {\k38}ganz {\k21}ge{\k58}nau,{\k31} {\k20}er {\k33}färbt {\k21}dein {\k27}We{\k31}sen {\kf106}grau
+Comment: 0,0:02:49.20,0:02:53.26,Sample KM [Up],,0,0,0,karaoke,{\k25}Hey, {\k36}ne{\k21}ben {\k31}dir {\k24}läuft {\k33}die{\k22}ser {\k58}schwar{\k63}ze {\k93}Hund
+Dialogue: 0,0:00:00.00,0:00:03.71,Sample KM [Up],,0,0,0,fx,{\k57\fad(570,200)}{\k20}Wärst {\k29}du {\k22}'ne {\k41}Far{\k19}be, {\k37}würd {\k22}ich {\k39}sa{\k16}gen: {\k49}„Bunt“
+Dialogue: 0,0:00:03.00,0:00:07.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Doch {\k35}ne{\k25}ben {\k33}dir {\k22}läuft {\k32}die{\k21}ser {\k61}schwar{\k56}ze {\k52}Hund
+Dialogue: 0,0:00:09.15,0:00:12.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Du {\k19}bist {\k37}blass,{\k43} {\k18}du {\k21}bist {\k37}lei{\k19}se
+Dialogue: 0,0:00:11.50,0:00:14.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Vol{\k17}ler {\k35}Hass,{\k40} {\k16}al{\k17}les {\k41}schei{\k26}ße
+Dialogue: 0,0:00:14.26,0:00:17.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Und {\k19}das {\k19}schon {\k18}seit {\k21}'ner {\k41}Wei{\k35}le
+Dialogue: 0,0:00:18.16,0:00:21.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Willst {\k16}nicht {\k44}raus,{\k38} {\k19}nicht {\k18}be{\k40}we{\k38}gen
+Dialogue: 0,0:00:20.46,0:00:23.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Ü{\k20}bers {\k25}Cha{\k27}os{\k30} {\k21}gar {\k15}nicht {\k38}re{\k28}den
+Dialogue: 0,0:00:23.29,0:00:26.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Du {\k20}bist {\k16}im{\k20}mer {\k19}da{\k50}ge{\k54}gen
+Dialogue: 0,0:00:26.89,0:00:32.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Mir {\k30}ist {\k18}schon {\k41}auf{\k16}ge{\k38}fall'n, {\k22}dass {\k34}du {\k26}nicht {\k32}mehr {\k21}al{\k36}lei{\k21}ne {\k56}kommst
+Dialogue: 0,0:00:31.41,0:00:34.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ich {\k20}seh' {\k18}sei{\k20}ne {\k29}gro{\k25}ßen {\k38}Krall'n
+Dialogue: 0,0:00:33.05,0:00:36.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Und {\k36}weiß, {\k17}du {\k36}kannst {\k22}nicht {\k43}sein {\k19}wie {\k43}sonst
+Dialogue: 0,0:00:35.90,0:00:39.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Du {\k39}hast {\k23}dich {\k30}wirk{\k22}lich {\k44}schwer {\k23}ver{\k56}än{\k36}dert
+Dialogue: 0,0:00:40.39,0:00:44.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Du {\k36}wirkst {\k21}auf {\k35}ein{\k24}mal {\k31}wie {\k30}ein {\k54}Frem{\k58}der
+Dialogue: 0,0:00:44.92,0:00:49.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Wärst {\k32}du {\k18}'ne {\k40}Far{\k21}be, {\k28}würd {\k26}ich {\k36}sa{\k22}gen: {\k52}„Bunt“
+Dialogue: 0,0:00:48.35,0:00:53.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Doch {\k31}ne{\k20}ben {\k30}dir {\k28}läuft {\k36}die{\k22}ser {\k62}schwar{\k54}ze {\k69}Hund
+Dialogue: 0,0:00:52.33,0:00:57.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ich {\k36}seh' {\k22}ihn {\k38}ganz {\k21}ge{\k64}nau,{\k29} {\k15}er {\k33}färbt {\k23}dein {\k20}We{\k38}sen {\k91}grau
+Dialogue: 0,0:00:57.63,0:01:02.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Ne{\k19}ben {\k37}dir {\k21}läuft {\k34}die{\k20}ser {\k60}schwar{\k58}ze {\kf117}Hund
+Dialogue: 0,0:01:03.48,0:01:06.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Gan{\k18}zen {\k44}Tag{\k34} {\k16}nur {\k20}im {\k41}Bett
+Dialogue: 0,0:01:05.66,0:01:08.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Kei{\k18}ner {\k46}da,{\k28} {\k18}der {\k22}das {\k44}checkt
+Dialogue: 0,0:01:08.61,0:01:11.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Und {\k16}du {\k23}fühlst {\k19}dich {\k18}wie {\k46}Dreck
+Dialogue: 0,0:01:12.52,0:01:15.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Du {\k20}bist {\k33}wach,{\k44} {\k19}du {\k18}bist {\k39}mü{\k35}de
+Dialogue: 0,0:01:14.78,0:01:18.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Gan{\k18}ze {\k27}Nacht{\k40} {\k27}Pa{\k17}nik{\k40}schü{\k25}be
+Dialogue: 0,0:01:17.58,0:01:20.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Kei{\k21}nen {\k18}Frie{\k15}den, {\k19}nur {\k43}Krie{\k61}ge
+Dialogue: 0,0:01:21.19,0:01:26.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Mir {\k33}ist {\k20}schon {\k35}auf{\k21}ge{\k39}fall'n, {\k22}dass {\k38}du {\k19}nicht {\k34}mehr {\k19}al{\k37}lei{\k21}ne {\k54}kommst
+Dialogue: 0,0:01:25.75,0:01:28.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ich {\k20}seh' {\k18}sei{\k17}ne {\k39}gro{\k17}ßen {\k40}Krall'n
+Dialogue: 0,0:01:27.40,0:01:30.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Und {\k37}weiß, {\k17}du {\k44}kannst {\k17}nicht {\k44}sein {\k17}wie {\k47}sonst
+Dialogue: 0,0:01:30.32,0:01:34.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Du {\k31}hast {\k21}dich {\k35}wirk{\k24}lich {\k40}schwer {\k17}ver{\k63}än{\k39}dert
+Dialogue: 0,0:01:34.71,0:01:39.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Denn {\k29}ne{\k22}ben {\k38}dir {\k24}ist {\k30}so {\k30}ein {\k58}Frem{\k76}der
+Dialogue: 0,0:01:39.31,0:01:43.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Wärst {\k30}du {\k20}'ne {\k36}Far{\k21}be, {\k32}würd {\k25}ich {\k38}sa{\k19}gen: {\k51}„Bunt“
+Dialogue: 0,0:01:42.67,0:01:47.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Doch {\k31}ne{\k20}ben {\k29}dir {\k30}läuft {\k35}die{\k22}ser {\k60}schwar{\k54}ze {\k72}Hund
+Dialogue: 0,0:01:46.69,0:01:52.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ich {\k36}seh' {\k21}ihn {\k37}ganz {\k24}ge{\k62}nau,{\k28} {\k16}er {\k33}färbt {\k24}dein {\k22}We{\k35}sen {\k90}grau
+Dialogue: 0,0:01:51.96,0:01:57.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Ne{\k19}ben {\k25}dir {\k31}läuft {\k33}die{\k23}ser {\k61}schwar{\k57}ze {\kf116}Hund
+Dialogue: 0,0:01:57.42,0:02:01.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Wärst {\k34}du {\k19}'ne {\k38}Far{\k20}be, {\k30}würd {\k23}ich {\k41}sa{\k18}gen: {\k50}„Bunt“
+Dialogue: 0,0:02:00.79,0:02:05.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Doch {\k32}ne{\k20}ben {\k28}dir {\k29}läuft {\k35}die{\k23}ser {\k60}schwar{\k55}ze {\k70}Hund
+Dialogue: 0,0:02:04.79,0:02:10.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ich {\k33}seh' {\k25}ihn {\k38}ganz {\k22}ge{\k64}nau,{\k27} {\k18}er {\k32}färbt {\k22}dein {\k23}We{\k35}sen {\k93}grau
+Dialogue: 0,0:02:10.05,0:02:15.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Ne{\k19}ben {\k30}dir {\k26}läuft {\k35}die{\k21}ser {\k60}schwar{\k58}ze {\kf113}Hund
+Dialogue: 0,0:02:15.53,0:02:19.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Auch {\k33}ne{\k21}ben {\k32}mir {\k21}lief {\k30}die{\k22}ser {\k45}schwar{\k21}ze {\k46}Hund
+Dialogue: 0,0:02:19.09,0:02:23.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Er {\k18}und {\k42}ich {\k23}hat{\k29}ten {\k23}den{\k63}sel{\k53}ben {\k50}Bund
+Dialogue: 0,0:02:22.82,0:02:28.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Des{\k35}halb {\k24}kann {\k28}ich {\k27}ihn {\k52}seh'n{\k38} {\k22}und {\k36}dich {\k21}so {\k34}gut {\k29}ver{\k60}steh'n
+Dialogue: 0,0:02:27.88,0:02:32.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Auch {\k33}ne{\k24}ben {\k37}mir {\k24}lief {\k28}die{\k27}ser {\k59}schwar{\k62}ze {\k50}Hund
+Dialogue: 0,0:02:31.32,0:02:44.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Mann, {\k30}die{\k22}ser {\k62}schwar{\k59}ze {\kf1001}Hund
+Dialogue: 0,0:02:35.84,0:02:40.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Wärst {\k33}du {\k23}'ne {\k40}Far{\k21}be, {\k19}würd {\k31}ich {\k43}sa{\k23}gen: {\k56}„Bunt“
+Dialogue: 0,0:02:39.28,0:02:44.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Doch {\k31}ne{\k19}ben {\k35}dir {\k22}läuft {\k35}die{\k20}ser {\k60}schwar{\k55}ze {\k69}Hund
+Dialogue: 0,0:02:43.28,0:02:49.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Ich {\k29}seh' {\k30}ihn {\k38}ganz {\k21}ge{\k58}nau,{\k31} {\k20}er {\k33}färbt {\k21}dein {\k27}We{\k31}sen {\kf106}grau
+Dialogue: 0,0:02:48.30,0:02:53.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Hey, {\k36}ne{\k21}ben {\k31}dir {\k24}läuft {\k33}die{\k22}ser {\k58}schwar{\k63}ze {\k93}Hund
