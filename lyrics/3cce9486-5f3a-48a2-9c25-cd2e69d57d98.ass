@@ -1,0 +1,132 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Dance to Forget
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:12.12,0:00:17.05,Sample KM [Up],,0,0,0,karaoke,{\k45}It {\k25}seems {\k48}like {\k24}a {\k70}life{\k70}time {\k71}a{\kf140}go
+Comment: 0,0:00:17.81,0:00:22.70,Sample KM [Up],,0,0,0,karaoke,{\k41}That {\k26}I {\k47}saw {\k27}the {\k65}gold {\k72}sun{\k71}shine {\kf140}glow
+Comment: 0,0:00:23.41,0:00:27.60,Sample KM [Up],,0,0,0,karaoke,{\k47}No, {\k25}it {\k40}doe{\k30}sn't {\k40}reach{\k31} {\k69}down {\k69}be{\k68}low
+Comment: 0,0:00:27.60,0:00:30.22,Sample KM [Up],,0,0,0,karaoke,{\k27}Sha{\k23}dows {\k22}be{\k50}come {\k28}the {\kf112}light
+Comment: 0,0:00:30.53,0:00:33.76,Sample KM [Up],,0,0,0,karaoke,{\k24}Here {\k18}where {\k24}the {\k46}mons{\k36}ters {\kf175}hide
+Comment: 0,0:00:34.72,0:00:39.20,Sample KM [Up],,0,0,0,karaoke,{\k25}Nor{\k21}mal {\k29}is {\k67}just {\k65}a {\kf241}dream
+Comment: 0,0:00:40.39,0:00:44.58,Sample KM [Up],,0,0,0,karaoke,{\k23}For {\k20}all {\k24}the {\k70}ghosts {\k72}like {\kf210}me
+Comment: 0,0:00:45.05,0:00:47.67,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\k46}hate {\k24}my {\k47}me{\k23}tal {\k97}bones
+Comment: 0,0:00:47.88,0:00:50.56,Sample KM [Up],,0,0,0,karaoke,{\k23}My {\k47}bones {\k24}and {\k46}gears {\k23}creak {\k49}in {\k23}my {\k33}chest
+Comment: 0,0:00:50.71,0:00:53.31,Sample KM [Up],,0,0,0,karaoke,{\k23}My {\k47}chest {\k24}for{\k47}e{\k24}ver {\k95}cold
+Comment: 0,0:00:53.53,0:00:56.11,Sample KM [Up],,0,0,0,karaoke,{\k22}A {\k46}cold {\k26}and {\k46}mad{\k25}de{\k43}ning {\k25}des{\k25}cent
+Comment: 0,0:00:56.35,0:00:58.90,Sample KM [Up],,0,0,0,karaoke,{\k24}Des{\k45}cen{\k26}ding {\k45}down {\k24}so {\k91}far
+Comment: 0,0:00:59.14,0:01:01.83,Sample KM [Up],,0,0,0,karaoke,{\k28}Fall {\k46}far{\k23}ther {\k48}'til {\k23}there's {\k48}no{\k24}thing {\k29}left
+Comment: 0,0:01:02.00,0:01:05.99,Sample KM [Up],,0,0,0,karaoke,{\k23}I'm {\k44}left {\k26}here {\k48}in {\k25}the {\k92}dark,{\k24} {\k23}the {\k94}dark
+Comment: 0,0:01:06.23,0:01:08.26,Sample KM [Up],,0,0,0,karaoke,{\k29}I {\k86}dance {\k26}to {\k27}for{\k35}get
+Comment: 0,0:01:11.42,0:01:16.36,Sample KM [Up],,0,0,0,karaoke,{\k46}This {\k23}is {\k49}my {\k22}pe{\k48}ni{\k22}{\k77}ten{\k65}tia{\kf142}ry
+Comment: 0,0:01:17.05,0:01:22.47,Sample KM [Up],,0,0,0,karaoke,{\k26}Frac{\k21}tured {\k23}a{\k25}part {\k24}from {\k24}the {\k26}world {\k20}where {\k23}I {\k46}want{\k25} {\k48}to{\k24} {\kf187}be
+Comment: 0,0:01:22.75,0:01:26.68,Sample KM [Up],,0,0,0,karaoke,{\k42}Lock {\k25}the {\k46}door, {\k27}throw {\k36}a{\k31}{\k71}way {\k71}the {\k44}key
+Comment: 0,0:01:26.95,0:01:29.52,Sample KM [Up],,0,0,0,karaoke,{\k25}And {\k22}let {\k26}my {\k46}dance {\k31}re{\kf107}sume
+Comment: 0,0:01:29.81,0:01:33.65,Sample KM [Up],,0,0,0,karaoke,{\k24}Down {\k24}in {\k21}a {\k35}pitch-{\k36}black {\kf244}room
+Comment: 0,0:01:34.02,0:01:38.47,Sample KM [Up],,0,0,0,karaoke,{\k26}Nor{\k19}mal {\k23}is {\k70}just {\k35}a{\k30} {\kf242}dream
+Comment: 0,0:01:39.65,0:01:43.41,Sample KM [Up],,0,0,0,karaoke,{\k22}For {\k26}all {\k23}the {\k70}ghosts {\k78}like {\kf157}me
+Comment: 0,0:01:43.64,0:01:44.24,Sample KM [Choir],,0,0,0,karaoke,{\k24}Like {\k36}me
+Comment: 0,0:01:44.36,0:01:46.97,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k47}hate {\k23}my {\k48}me{\k24}tal {\k96}bones
+Comment: 0,0:01:47.17,0:01:49.85,Sample KM [Up],,0,0,0,karaoke,{\k24}My {\k46}bones {\k25}and {\k47}gears {\k23}creak {\k47}in {\k22}my {\k34}chest
+Comment: 0,0:01:50.00,0:01:52.60,Sample KM [Up],,0,0,0,karaoke,{\k23}My {\k45}chest {\k26}for{\k47}e{\k24}ver {\k95}cold
+Comment: 0,0:01:52.82,0:01:55.41,Sample KM [Up],,0,0,0,karaoke,{\k17}A {\k50}cold {\k27}and {\k47}mad{\k24}de{\k44}ning {\k25}des{\k25}cent
+Comment: 0,0:01:55.64,0:01:58.18,Sample KM [Up],,0,0,0,karaoke,{\k23}Des{\k48}cen{\k23}ding {\k44}down {\k27}so {\k89}far
+Comment: 0,0:01:58.47,0:02:01.14,Sample KM [Up],,0,0,0,karaoke,{\k24}Fall {\k47}far{\k24}ther {\k48}'til {\k21}there's {\k47}no{\k24}thing {\k32}left
+Comment: 0,0:02:01.29,0:02:05.23,Sample KM [Up],,0,0,0,karaoke,{\k24}I'm {\k46}left {\k25}here {\k46}in {\k26}the {\k88}dark,{\k27} {\k25}the {\k87}dark
+Comment: 0,0:02:05.53,0:02:07.46,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k97}dance {\k21}to {\k24}for{\k28}get
+Comment: 0,0:02:11.17,0:02:13.20,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k97}dance {\k21}to {\k24}for{\k37}get
+Comment: 0,0:02:21.28,0:02:24.11,Sample KM [Up],,0,0,0,karaoke,{\k72}Come {\k72}now, {\k44}dance {\k25}with {\k70}me
+Comment: 0,0:02:24.80,0:02:26.94,Sample KM [Up],,0,0,0,karaoke,{\k49}As {\k24}the {\k69}song {\k72}plays
+Comment: 0,0:02:26.94,0:02:29.54,Sample KM [Up],,0,0,0,karaoke,{\k69}Down, {\k72}down, {\k45}dance {\k26}with {\k48}me
+Comment: 0,0:02:30.44,0:02:32.59,Sample KM [Up],,0,0,0,karaoke,{\k50}Stuck {\k24}on {\k70}re{\k71}play
+Comment: 0,0:02:32.59,0:02:35.40,Sample KM [Up],,0,0,0,karaoke,{\k70}Come {\k70}now, {\k45}dance {\k27}with {\k69}me
+Comment: 0,0:02:36.11,0:02:38.23,Sample KM [Up],,0,0,0,karaoke,{\k47}As {\k25}the {\k70}song {\k70}plays
+Comment: 0,0:02:38.23,0:02:41.06,Sample KM [Up],,0,0,0,karaoke,{\k71}Down, {\k71}down, {\k44}dance {\k26}with {\k71}me
+Comment: 0,0:02:41.75,0:02:43.96,Sample KM [Up],,0,0,0,karaoke,{\k49}Stuck {\k23}on {\k71}re{\k78}play
+Comment: 0,0:02:46.45,0:02:49.11,Sample KM [Up],,0,0,0,karaoke,{\k27}I {\k45}hate {\k25}my {\k50}me{\k21}tal {\k98}bones
+Comment: 0,0:02:49.21,0:02:52.04,Sample KM [Up],,0,0,0,karaoke,{\k30}My {\k47}bones {\k27}and {\k43}gears {\k34}creak {\k42}in {\k24}my {\k36}chest
+Comment: 0,0:02:52.16,0:02:54.98,Sample KM [Up],,0,0,0,karaoke,{\k28}My {\k46}chest {\k26}for{\k45}e{\k25}ver {\kf112}cold
+Comment: 0,0:02:54.98,0:02:57.52,Sample KM [Up],,0,0,0,karaoke,{\k21}A {\k47}cold {\k31}and {\k43}mad{\k18}de{\k47}ning {\k22}des{\k25}cent
+Comment: 0,0:02:57.76,0:03:00.28,Sample KM [Up],,0,0,0,karaoke,{\k24}Des{\k47}cen{\k23}ding {\k46}down {\k26}so {\k86}far
+Comment: 0,0:03:00.58,0:03:03.18,Sample KM [Up],,0,0,0,karaoke,{\k24}Fall {\k48}far{\k22}ther {\k47}'til {\k24}there's {\k49}no{\k22}thing {\k24}left
+Comment: 0,0:03:03.40,0:03:07.41,Sample KM [Up],,0,0,0,karaoke,{\k25}I'm {\k47}left {\k24}here {\k45}in {\k25}the {\k89}dark,{\k28} {\k24}the {\k94}dark
+Comment: 0,0:03:07.64,0:03:09.70,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k96}dance {\k22}to {\k23}for{\k41}get
+Comment: 0,0:03:09.76,0:03:14.55,Sample KM [Choir],,0,0,0,karaoke,{\k24}I {\k75}dance,{\k42} {\k25}I {\k76}dance,{\k39} {\k26}I {\kf172}dance
+Comment: 0,0:03:13.30,0:03:15.22,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k97}dance {\k20}to {\k24}for{\k28}get
+Comment: 0,0:03:16.09,0:03:19.42,Sample KM [Choir],,0,0,0,karaoke,{\k25}I,{\k44} {\k28}I {\k84}dance,{\k27} {\k29}I {\k96}dance
+Comment: 0,0:03:18.94,0:03:20.91,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k93}dance {\k26}to {\k23}for{\k32}get
+Comment: 0,0:03:22.48,0:03:25.79,Sample KM [Choir],,0,0,0,karaoke,{\k94}I {\kf237}dance
+Comment: 0,0:03:24.59,0:03:26.52,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k94}dance {\k24}to {\k23}for{\k29}get
+Comment: 0,0:03:28.35,0:03:30.09,Sample KM [Choir],,0,0,0,karaoke,{\k70}I {\kf104}dance
+Comment: 0,0:03:30.23,0:03:32.34,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\k95}dance {\k22}to {\k29}fo{\k40}rget
+Dialogue: 0,0:00:11.22,0:00:17.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}It {\k25}seems {\k48}like {\k24}a {\k70}life{\k70}time {\k71}a{\kf140}go
+Dialogue: 0,0:00:16.91,0:00:22.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}That {\k26}I {\k47}saw {\k27}the {\k65}gold {\k72}sun{\k71}shine {\kf140}glow
+Dialogue: 0,0:00:22.51,0:00:27.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}No, {\k25}it {\k40}doe{\k30}sn't {\k40}reach{\k31} {\k69}down {\k69}be{\k68}low
+Dialogue: 0,0:00:26.70,0:00:30.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Sha{\k23}dows {\k22}be{\k50}come {\k28}the {\kf112}light
+Dialogue: 0,0:00:29.63,0:00:33.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Here {\k18}where {\k24}the {\k46}mons{\k36}ters {\kf175}hide
+Dialogue: 0,0:00:33.82,0:00:39.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Nor{\k21}mal {\k29}is {\k67}just {\k65}a {\kf241}dream
+Dialogue: 0,0:00:39.49,0:00:44.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}For {\k20}all {\k24}the {\k70}ghosts {\k72}like {\kf210}me
+Dialogue: 0,0:00:44.15,0:00:47.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k46}hate {\k24}my {\k47}me{\k23}tal {\k97}bones
+Dialogue: 0,0:00:46.98,0:00:50.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}My {\k47}bones {\k24}and {\k46}gears {\k23}creak {\k49}in {\k23}my {\k33}chest
+Dialogue: 0,0:00:49.81,0:00:53.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}My {\k47}chest {\k24}for{\k47}e{\k24}ver {\k95}cold
+Dialogue: 0,0:00:52.63,0:00:56.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}A {\k46}cold {\k26}and {\k46}mad{\k25}de{\k43}ning {\k25}des{\k25}cent
+Dialogue: 0,0:00:55.45,0:00:59.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Des{\k45}cen{\k26}ding {\k45}down {\k24}so {\k91}far
+Dialogue: 0,0:00:58.24,0:01:02.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Fall {\k46}far{\k23}ther {\k48}'til {\k23}there's {\k48}no{\k24}thing {\k29}left
+Dialogue: 0,0:01:01.10,0:01:06.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I'm {\k44}left {\k26}here {\k48}in {\k25}the {\k92}dark,{\k24} {\k23}the {\k94}dark
+Dialogue: 0,0:01:05.33,0:01:08.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}I {\k86}dance {\k26}to {\k27}for{\k35}get
+Dialogue: 0,0:01:10.52,0:01:16.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}This {\k23}is {\k49}my {\k22}pe{\k48}ni{\k22}{\k77}ten{\k65}tia{\kf142}ry
+Dialogue: 0,0:01:16.15,0:01:22.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Frac{\k21}tured {\k23}a{\k25}part {\k24}from {\k24}the {\k26}world {\k20}where {\k23}I {\k46}want{\k25} {\k48}to{\k24} {\kf187}be
+Dialogue: 0,0:01:21.85,0:01:26.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Lock {\k25}the {\k46}door, {\k27}throw {\k36}a{\k31}{\k71}way {\k71}the {\k44}key
+Dialogue: 0,0:01:26.05,0:01:29.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}And {\k22}let {\k26}my {\k46}dance {\k31}re{\kf107}sume
+Dialogue: 0,0:01:28.91,0:01:33.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Down {\k24}in {\k21}a {\k35}pitch-{\k36}black {\kf244}room
+Dialogue: 0,0:01:33.12,0:01:38.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Nor{\k19}mal {\k23}is {\k70}just {\k35}a{\k30} {\kf242}dream
+Dialogue: 0,0:01:38.75,0:01:43.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}For {\k26}all {\k23}the {\k70}ghosts {\k78}like {\kf157}me
+Dialogue: 0,0:01:42.74,0:01:44.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Like {\k36}me
+Dialogue: 0,0:01:43.46,0:01:47.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k47}hate {\k23}my {\k48}me{\k24}tal {\k96}bones
+Dialogue: 0,0:01:46.27,0:01:50.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}My {\k46}bones {\k25}and {\k47}gears {\k23}creak {\k47}in {\k22}my {\k34}chest
+Dialogue: 0,0:01:49.10,0:01:52.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}My {\k45}chest {\k26}for{\k47}e{\k24}ver {\k95}cold
+Dialogue: 0,0:01:51.92,0:01:55.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}A {\k50}cold {\k27}and {\k47}mad{\k24}de{\k44}ning {\k25}des{\k25}cent
+Dialogue: 0,0:01:54.74,0:01:58.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Des{\k48}cen{\k23}ding {\k44}down {\k27}so {\k89}far
+Dialogue: 0,0:01:57.57,0:02:01.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Fall {\k47}far{\k24}ther {\k48}'til {\k21}there's {\k47}no{\k24}thing {\k32}left
+Dialogue: 0,0:02:00.39,0:02:05.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I'm {\k46}left {\k25}here {\k46}in {\k26}the {\k88}dark,{\k27} {\k25}the {\k87}dark
+Dialogue: 0,0:02:04.63,0:02:07.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k97}dance {\k21}to {\k24}for{\k28}get
+Dialogue: 0,0:02:10.27,0:02:13.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k97}dance {\k21}to {\k24}for{\k37}get
+Dialogue: 0,0:02:20.38,0:02:24.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k72}Come {\k72}now, {\k44}dance {\k25}with {\k70}me
+Dialogue: 0,0:02:23.90,0:02:27.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}As {\k24}the {\k69}song {\k72}plays
+Dialogue: 0,0:02:26.04,0:02:29.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k69}Down, {\k72}down, {\k45}dance {\k26}with {\k48}me
+Dialogue: 0,0:02:29.54,0:02:32.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Stuck {\k24}on {\k70}re{\k71}play
+Dialogue: 0,0:02:31.69,0:02:35.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k70}Come {\k70}now, {\k45}dance {\k27}with {\k69}me
+Dialogue: 0,0:02:35.21,0:02:38.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}As {\k25}the {\k70}song {\k70}plays
+Dialogue: 0,0:02:37.33,0:02:41.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Down, {\k71}down, {\k44}dance {\k26}with {\k71}me
+Dialogue: 0,0:02:40.85,0:02:44.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Stuck {\k23}on {\k71}re{\k78}play
+Dialogue: 0,0:02:45.55,0:02:49.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k45}hate {\k25}my {\k50}me{\k21}tal {\k98}bones
+Dialogue: 0,0:02:48.31,0:02:52.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}My {\k47}bones {\k27}and {\k43}gears {\k34}creak {\k42}in {\k24}my {\k36}chest
+Dialogue: 0,0:02:51.26,0:02:55.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}My {\k46}chest {\k26}for{\k45}e{\k25}ver {\kf112}cold
+Dialogue: 0,0:02:54.08,0:02:57.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}A {\k47}cold {\k31}and {\k43}mad{\k18}de{\k47}ning {\k22}des{\k25}cent
+Dialogue: 0,0:02:56.86,0:03:00.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Des{\k47}cen{\k23}ding {\k46}down {\k26}so {\k86}far
+Dialogue: 0,0:02:59.68,0:03:03.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Fall {\k48}far{\k22}ther {\k47}'til {\k24}there's {\k49}no{\k22}thing {\k24}left
+Dialogue: 0,0:03:02.50,0:03:07.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I'm {\k47}left {\k24}here {\k45}in {\k25}the {\k89}dark,{\k28} {\k24}the {\k94}dark
+Dialogue: 0,0:03:06.74,0:03:09.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k96}dance {\k22}to {\k23}for{\k41}get
+Dialogue: 0,0:03:08.86,0:03:14.75,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k75}dance,{\k42} {\k25}I {\k76}dance,{\k39} {\k26}I {\kf172}dance
+Dialogue: 0,0:03:12.40,0:03:15.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k97}dance {\k20}to {\k24}for{\k28}get
+Dialogue: 0,0:03:15.19,0:03:19.62,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I,{\k44} {\k28}I {\k84}dance,{\k27} {\k29}I {\k96}dance
+Dialogue: 0,0:03:18.04,0:03:21.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k93}dance {\k26}to {\k23}for{\k32}get
+Dialogue: 0,0:03:21.58,0:03:25.99,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k94}I {\kf237}dance
+Dialogue: 0,0:03:23.69,0:03:26.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k94}dance {\k24}to {\k23}for{\k29}get
+Dialogue: 0,0:03:27.45,0:03:30.29,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k70}I {\kf104}dance
+Dialogue: 0,0:03:29.33,0:03:32.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k95}dance {\k22}to {\k29}fo{\k40}rget
