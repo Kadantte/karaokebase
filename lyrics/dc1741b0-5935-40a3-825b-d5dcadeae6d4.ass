@@ -1,0 +1,184 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: To all the Boys
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00EB4DC1,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 700 and -$start or -700,200)!{!$start < 700 and "\\k" .. ($start/10) or "\\k70"!\fad(!$start < 700 and $start or 300!,200)}
+Comment: 0,0:00:41.41,0:00:43.32,Sample KM [Up],,0,0,0,karaoke,{\k15}Loo{\k17}kin' {\k15}at {\k54}you, {\k12}loo{\k16}kin' {\k20}a{\k42}way
+Comment: 0,0:00:43.43,0:00:44.55,Sample KM [Up],,0,0,0,karaoke,{\k12}Loo{\k17}kin' {\k15}af{\k17}ter {\k17}o{\k17}ther {\k17}girls
+Comment: 0,0:00:44.55,0:00:45.28,Sample KM [Up],,0,0,0,karaoke,{\k15}You {\k18}could {\k40}play
+Comment: 0,0:00:45.28,0:00:46.21,Sample KM [Up],,0,0,0,karaoke,{\k14}I'm {\k14}ma{\k17}kin' {\k16}the {\k32}rules
+Comment: 0,0:00:46.21,0:00:47.67,Sample KM [Up],,0,0,0,karaoke,{\k21}Just {\k13}for {\k14}you {\k21}to {\k32}break {\k45}'em
+Comment: 0,0:00:49.42,0:00:51.34,Sample KM [Up],,0,0,0,karaoke,{\k16}You {\k14}were {\k16}the {\k53}king, {\k17}I {\k17}was {\k15}your {\k44}queen
+Comment: 0,0:00:51.44,0:00:53.17,Sample KM [Up],,0,0,0,karaoke,{\k14}Live{\k15}ac{\k17}ting {\k34}chess, {\k15}I {\k13}could{\k18}'ve {\k21}go{\k26}in'
+Comment: 0,0:00:53.40,0:00:54.71,Sample KM [Up],,0,0,0,karaoke,{\k34}A{\k15}ny{\k36}where, {\k18}but {\k28}chose
+Comment: 0,0:00:54.71,0:00:56.54,Sample KM [Up],,0,0,0,karaoke,{\k20}To {\k29}play {\k20}to {\k27}pro{\k48}tect {\k39}you
+Comment: 0,0:00:56.87,0:00:58.80,Sample KM [Up],,0,0,0,karaoke,{\k32}Hol{\k20}din' {\k34}back {\k16}and {\k18}co{\k14}ve{\k19}rin' {\k40}up
+Comment: 0,0:00:58.85,0:01:00.64,Sample KM [Up],,0,0,0,karaoke,{\k23}Brea{\k14}kin' {\k16}con{\k33}tact, {\k19}di{\k15}dn't {\k16}talk {\k17}too {\k26}much
+Comment: 0,0:01:00.89,0:01:02.39,Sample KM [Up],,0,0,0,karaoke,{\k35}Played {\k15}the {\k32}per{\k16}fect {\k32}house{\k20}wife
+Comment: 0,0:01:02.39,0:01:03.02,Sample KM [Up],,0,0,0,karaoke,{\k32}Or {\k31}whore
+Comment: 0,0:01:03.22,0:01:05.18,Sample KM [Up],,0,0,0,karaoke,{\k20}When {\k29}you {\k14}de{\k35}cided {\k19}it's {\k31}time {\k17}to {\k31}fuck
+Comment: 0,0:01:05.40,0:01:06.87,Sample KM [Up],,0,0,0,karaoke,{\k21}Han{\k10}d{\k16}ling {\k19}fee{\k14}lings {\k20}like {\k17}or{\k16}ga{\k14}sms
+Comment: 0,0:01:06.87,0:01:08.23,Sample KM [Up],,0,0,0,karaoke,{\k20}Fake {\k14}it {\k20}by {\k21}hea{\k10}vi{\k17}ly {\k18}brea{\k16}thing
+Comment: 0,0:01:08.23,0:01:09.24,Sample KM [Up],,0,0,0,karaoke,{\k18}That {\k16}heart{\k16}beat {\k16}you're {\k18}fee{\k17}ling's
+Comment: 0,0:01:09.24,0:01:11.04,Sample KM [Up],,0,0,0,karaoke,{\k15}Not {\k15}bea{\k17}ting {\k18}from {\k33}sex, {\k17}the {\k32}fuck? {\k33}Nah
+Comment: 0,0:01:11.41,0:01:12.78,Sample KM [Up],,0,0,0,karaoke,{\k20}Ba{\k11}by, {\k17}it's {\k19}pa{\k12}nic {\k22}at{\k36}tacks
+Comment: 0,0:01:13.85,0:01:18.39,Sample KM [Up],,0,0,0,karaoke,{\k50}To{\k46} {\k58}all {\k50}the {\k51}boys {\k50}I've {\k49}left {\k33}be{\k67}fore
+Comment: 0,0:01:20.22,0:01:21.65,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k27}hope {\k22}you're {\k28}wat{\k22}chin' {\k26}now
+Comment: 0,0:01:21.72,0:01:22.53,Sample KM [Up],,0,0,0,karaoke,{\k18}And {\k24}suck {\k39}it
+Comment: 0,0:01:22.87,0:01:26.29,Sample KM [Up],,0,0,0,karaoke,{\k51}What {\k51}your {\k34}mom{\k16}my {\k49}has {\k35}said {\k48}be{\k58}fore
+Comment: 0,0:01:28.21,0:01:29.90,Sample KM [Up],,0,0,0,karaoke,{\k19}Let {\k31}me {\k18}start {\k33}o{\k17}ver, {\k32}ba{\k19}by
+Comment: 0,0:01:29.90,0:01:34.24,Sample KM [Up],,0,0,0,karaoke,{\k60}To{\k37} {\k54}all {\k48}the {\k52}boys {\k48}I've {\k50}left {\k33}be{\k52}fore
+Comment: 0,0:01:34.40,0:01:36.22,Sample KM [Choir],,0,0,0,karaoke,{\k22}La{\k10}da{\k16}da{\k34}da-{\k18}da{\k32}da-{\k26}da{\k24}da
+Comment: 0,0:01:36.22,0:01:37.67,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k31}hope {\k21}you're {\k29}wat{\k21}chin' {\k26}now
+Comment: 0,0:01:37.72,0:01:38.55,Sample KM [Up],,0,0,0,karaoke,{\k23}And {\k20}suck {\k40}it
+Comment: 0,0:01:38.88,0:01:42.23,Sample KM [Up],,0,0,0,karaoke,{\k50}What {\k51}your {\k35}mom{\k17}my {\k47}has {\k35}said {\k49}be{\k51}fore
+Comment: 0,0:01:42.23,0:01:43.71,Sample KM [Up],,0,0,0,karaoke,{\k17}The {\k32}best {\k16}thing {\k30}you {\k24}could{\k29}'ve
+Comment: 0,0:01:43.71,0:01:45.59,Sample KM [Up],,0,0,0,karaoke,{\k51}E{\k17}ver {\k31}had {\k52}is {\k37}gone
+Comment: 0,0:01:46.57,0:01:47.74,Sample KM [Up],,0,0,0,karaoke,{\k14}Call {\k18}your {\k16}mo{\k15}ther {\k19}a{\k35}gain
+Comment: 0,0:01:48.39,0:01:49.87,Sample KM [Up],,0,0,0,karaoke,{\k22}Tell {\k13}her {\k15}how {\k23}cra{\k16}zy {\k13}I {\k46}am
+Comment: 0,0:01:49.87,0:01:50.44,Sample KM [Up],,0,0,0,karaoke,{\k36}Pleased {\k21}now
+Comment: 0,0:01:50.44,0:01:51.73,Sample KM [Up],,0,0,0,karaoke,{\k26}That {\k19}you're {\k33}scared {\k22}of {\k29}me
+Comment: 0,0:01:51.73,0:01:53.89,Sample KM [Up],,0,0,0,karaoke,{\k17}Let {\k35}me {\k15}be {\k29}your {\k50}arch-{\k15}e{\k17}ne{\k38}my
+Comment: 0,0:01:54.30,0:01:55.74,Sample KM [Up],,0,0,0,karaoke,{\k12}Let {\k16}me {\k20}play {\k12}the {\k14}vil{\k20}lain {\k16}you {\k34}met
+Comment: 0,0:01:55.74,0:01:56.20,Sample KM [Up],,0,0,0,karaoke,{\k16}And {\k18}call {\k12}me
+Comment: 0,0:01:56.20,0:01:57.71,Sample KM [Up],,0,0,0,karaoke,{\k17}The {\k39}cra{\k13}zy {\k22}ex-{\k17}bitch {\k14}you {\k29}left
+Comment: 0,0:01:57.71,0:01:59.70,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k28}should{\k20}'ve {\k35}tagged {\k16}the {\k34}price {\k18}you {\k30}pay
+Comment: 0,0:01:59.70,0:02:00.39,Sample KM [Up],,0,0,0,karaoke,{\k20}For {\k18}playin' {\k15}me {\k16}like
+Comment: 0,0:02:00.39,0:02:01.89,Sample KM [Up],,0,0,0,karaoke,{\k17}One {\k14}of {\k19}your {\k16}vi{\k16}de{\k18}o {\k50}games
+Comment: 0,0:02:02.24,0:02:03.66,Sample KM [Up],,0,0,0,karaoke,{\k15}They {\k18}said {\k16}you're {\k15}a{\k18}fraid {\k16}of {\k44}me
+Comment: 0,0:02:04.23,0:02:05.75,Sample KM [Up],,0,0,0,karaoke,{\k13}And {\k18}you {\k15}di{\k19}dn't {\k15}re{\k18}cog{\k19}nize {\k35}me
+Comment: 0,0:02:05.75,0:02:07.43,Sample KM [Up],,0,0,0,karaoke,{\k13}You're {\k33}cal{\k19}lin' {\k28}it {\k18}in{\k21}sa{\k15}ni{\k21}ty
+Comment: 0,0:02:07.43,0:02:09.73,Sample KM [Up],,0,0,0,karaoke,{\k15}I {\k13}call {\k16}it {\k34}ex{\k19}tra {\k33}per{\k17}so{\k17}na{\k16}li{\k50}ties
+Comment: 0,0:02:09.73,0:02:11.93,Sample KM [Up],,0,0,0,karaoke,{\k16}De{\k29}lete {\k22}you {\k30}like {\k17}you {\k34}should{\k18}'ve {\k34}done {\k20}it
+Comment: 0,0:02:11.93,0:02:13.22,Sample KM [Up],,0,0,0,karaoke,{\k30}With {\k21}your {\k26}e{\k19}xes' {\k33}nudes
+Comment: 0,0:02:13.22,0:02:14.08,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k34}pro{\k35}mised
+Comment: 0,0:02:14.58,0:02:16.03,Sample KM [Up],,0,0,0,karaoke,{\k18}"Break {\k13}a {\k21}pro{\k19}mise {\k12}you {\k62}made
+Comment: 0,0:02:16.62,0:02:17.74,Sample KM [Up],,0,0,0,karaoke,{\k10}And {\k17}I'm {\k17}brea{\k15}kin' {\k15}your {\k38}face"
+Comment: 0,0:02:17.77,0:02:22.40,Sample KM [Up],,0,0,0,karaoke,{\k59}To{\k44} {\k59}all {\k49}the {\k51}boys {\k51}I've {\k49}left {\k32}be{\k69}fore
+Comment: 0,0:02:24.23,0:02:25.71,Sample KM [Up],,0,0,0,karaoke,{\k16}I {\k29}hope {\k20}you're {\k32}wat{\k20}chin' {\k31}now
+Comment: 0,0:02:25.71,0:02:26.53,Sample KM [Up],,0,0,0,karaoke,{\k19}And {\k22}suck {\k41}it
+Comment: 0,0:02:26.87,0:02:30.25,Sample KM [Up],,0,0,0,karaoke,{\k52}What {\k49}your {\k35}mom{\k18}my {\k48}has {\k33}said {\k49}be{\k54}fore
+Comment: 0,0:02:32.21,0:02:33.87,Sample KM [Up],,0,0,0,karaoke,{\k20}Let {\k30}me {\k18}start {\k32}o{\k18}ver, {\k33}ba{\k15}by
+Comment: 0,0:02:33.87,0:02:38.27,Sample KM [Up],,0,0,0,karaoke,{\k58}To{\k43} {\k52}all {\k47}the {\k53}boys {\k50}I've {\k50}left {\k31}be{\k56}fore
+Comment: 0,0:02:38.40,0:02:40.22,Sample KM [Choir],,0,0,0,karaoke,{\k22}La{\k10}da{\k16}da{\k34}da-{\k18}da{\k32}da-{\k26}da{\k24}da
+Comment: 0,0:02:40.23,0:02:41.66,Sample KM [Up],,0,0,0,karaoke,{\k11}I {\k36}hope {\k19}you're {\k28}wat{\k22}chin' {\k27}now
+Comment: 0,0:02:41.72,0:02:42.48,Sample KM [Up],,0,0,0,karaoke,{\k17}And {\k28}suck {\k31}it
+Comment: 0,0:02:42.88,0:02:46.24,Sample KM [Up],,0,0,0,karaoke,{\k52}What {\k50}your {\k33}mom{\k21}my {\k45}has {\k33}said {\k49}be{\k53}fore
+Comment: 0,0:02:46.24,0:02:47.73,Sample KM [Up],,0,0,0,karaoke,{\k16}The {\k31}best {\k18}thing {\k30}you {\k24}could{\k30}'ve
+Comment: 0,0:02:47.73,0:02:49.61,Sample KM [Up],,0,0,0,karaoke,{\k49}E{\k18}ver {\k31}had {\k52}is {\k38}gone
+Comment: 0,0:02:50.17,0:02:52.29,Sample KM [Up],,0,0,0,karaoke,{\k24}On {\k46}tip{\kf142}toes
+Comment: 0,0:02:52.29,0:02:53.84,Sample KM [Up],,0,0,0,karaoke,{\k19}While {\k21}you {\k22}kept {\k35}cros{\k21}sing {\k37}lines
+Comment: 0,0:02:53.84,0:02:57.84,Sample KM [Up],,0,0,0,karaoke,{\k52}I {\k61}tight{\k77}rope{\k51} {\k17}wal{\k32}kin' {\k22}in {\k22}diz{\k13}zy{\k13}in' {\k40}heights
+Comment: 0,0:02:57.84,0:02:59.87,Sample KM [Up],,0,0,0,karaoke,{\k39}And {\k19}you {\k58}slept {\k87}through
+Comment: 0,0:03:00.28,0:03:05.77,Sample KM [Up],,0,0,0,karaoke,{\k12}While {\k32}I {\k24}stayed {\k23}up {\k73}all {\kf385}night
+Comment: 0,0:03:05.85,0:03:07.87,Sample KM [Up],,0,0,0,karaoke,{\k66}To{\k41} {\k51}all {\k44}the
+Comment: 0,0:03:25.50,0:03:26.37,Sample KM [Up],,0,0,0,karaoke,{\k14}The {\k36}fuck? {\k37}Nah
+Comment: 0,0:03:26.66,0:03:28.04,Sample KM [Up],,0,0,0,karaoke,{\k20}Ba{\k12}by, {\k19}it's {\k19}pa{\k13}nic {\k22}at{\k33}tacks
+Comment: 0,0:03:29.13,0:03:33.82,Sample KM [Up],,0,0,0,karaoke,{\k50}To{\k46} {\k58}all {\k50}the {\k51}boys {\k50}I've {\k49}left {\k33}be{\k82}fore
+Comment: 0,0:03:35.51,0:03:36.93,Sample KM [Up],,0,0,0,karaoke,{\k18}I {\k27}hope {\k22}you're {\k28}wat{\k22}chin' {\k25}now
+Comment: 0,0:03:36.93,0:03:37.74,Sample KM [Up],,0,0,0,karaoke,{\k18}And {\k24}suck {\k39}it
+Comment: 0,0:03:38.18,0:03:41.67,Sample KM [Up],,0,0,0,karaoke,{\k51}What {\k51}your {\k34}mom{\k16}my {\k49}has {\k35}said {\k48}be{\k65}fore
+Comment: 0,0:03:43.47,0:03:45.17,Sample KM [Up],,0,0,0,karaoke,{\k19}Let {\k31}me {\k18}start {\k33}o{\k17}ver, {\k32}ba{\k20}by
+Comment: 0,0:03:45.17,0:03:49.66,Sample KM [Up],,0,0,0,karaoke,{\k60}To{\k39} {\k54}all {\k48}the {\k52}boys {\k48}I've {\k50}left {\k33}be{\k65}fore
+Comment: 0,0:03:51.52,0:03:53.01,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k31}hope {\k21}you're {\k29}wat{\k21}chin' {\k30}now
+Comment: 0,0:03:53.01,0:03:53.84,Sample KM [Up],,0,0,0,karaoke,{\k23}And {\k20}suck {\k40}it
+Comment: 0,0:03:54.17,0:03:57.57,Sample KM [Up],,0,0,0,karaoke,{\k50}What {\k51}your {\k35}mom{\k17}my {\k47}has {\k35}said {\k49}be{\k56}fore
+Comment: 0,0:03:57.57,0:03:58.98,Sample KM [Up],,0,0,0,karaoke,{\k10}The {\k32}best {\k16}thing {\k30}you {\k24}could{\k29}'ve
+Comment: 0,0:03:58.98,0:04:01.00,Sample KM [Up],,0,0,0,karaoke,{\k51}E{\k17}ver {\k31}had {\k52}is {\k51}gone
+Dialogue: 0,0:00:40.71,0:00:43.52,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Loo{\k17}kin' {\k15}at {\k54}you, {\k12}loo{\k16}kin' {\k20}a{\k42}way
+Dialogue: 0,0:00:42.73,0:00:44.75,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Loo{\k17}kin' {\k15}af{\k17}ter {\k17}o{\k17}ther {\k17}girls
+Dialogue: 0,0:00:43.85,0:00:45.48,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k15}You {\k18}could {\k40}play
+Dialogue: 0,0:00:44.58,0:00:46.41,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k14}I'm {\k14}ma{\k17}kin' {\k16}the {\k32}rules
+Dialogue: 0,0:00:45.51,0:00:47.87,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k21}Just {\k13}for {\k14}you {\k21}to {\k32}break {\k45}'em
+Dialogue: 0,0:00:48.72,0:00:51.54,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k16}You {\k14}were {\k16}the {\k53}king, {\k17}I {\k17}was {\k15}your {\k44}queen
+Dialogue: 0,0:00:50.74,0:00:53.37,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Live{\k15}ac{\k17}ting {\k34}chess, {\k15}I {\k13}could{\k18}'ve {\k21}go{\k26}in'
+Dialogue: 0,0:00:52.70,0:00:54.91,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k34}A{\k15}ny{\k36}where, {\k18}but {\k28}chose
+Dialogue: 0,0:00:54.01,0:00:56.74,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k20}To {\k29}play {\k20}to {\k27}pro{\k48}tect {\k39}you
+Dialogue: 0,0:00:56.17,0:00:59.00,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k32}Hol{\k20}din' {\k34}back {\k16}and {\k18}co{\k14}ve{\k19}rin' {\k40}up
+Dialogue: 0,0:00:58.15,0:01:00.84,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k23}Brea{\k14}kin' {\k16}con{\k33}tact, {\k19}di{\k15}dn't {\k16}talk {\k17}too {\k26}much
+Dialogue: 0,0:01:00.19,0:01:02.59,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k35}Played {\k15}the {\k32}per{\k16}fect {\k32}house{\k20}wife
+Dialogue: 0,0:01:01.69,0:01:03.22,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k32}Or {\k31}whore
+Dialogue: 0,0:01:02.52,0:01:05.38,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k20}When {\k29}you {\k14}de{\k35}cided {\k19}it's {\k31}time {\k17}to {\k31}fuck
+Dialogue: 0,0:01:04.70,0:01:07.07,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k21}Han{\k10}d{\k16}ling {\k19}fee{\k14}lings {\k20}like {\k17}or{\k16}ga{\k14}sms
+Dialogue: 0,0:01:06.17,0:01:08.43,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k20}Fake {\k14}it {\k20}by {\k21}hea{\k10}vi{\k17}ly {\k18}brea{\k16}thing
+Dialogue: 0,0:01:07.53,0:01:09.44,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k18}That {\k16}heart{\k16}beat {\k16}you're {\k18}fee{\k17}ling's
+Dialogue: 0,0:01:08.54,0:01:11.24,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Not {\k15}bea{\k17}ting {\k18}from {\k33}sex, {\k17}the {\k32}fuck? {\k33}Nah
+Dialogue: 0,0:01:10.71,0:01:12.98,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k20}Ba{\k11}by, {\k17}it's {\k19}pa{\k12}nic {\k22}at{\k36}tacks
+Dialogue: 0,0:01:13.15,0:01:18.59,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k50}To{\k46} {\k58}all {\k50}the {\k51}boys {\k50}I've {\k49}left {\k33}be{\k67}fore
+Dialogue: 0,0:01:19.52,0:01:21.85,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k18}I {\k27}hope {\k22}you're {\k28}wat{\k22}chin' {\k26}now
+Dialogue: 0,0:01:21.02,0:01:22.73,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k18}And {\k24}suck {\k39}it
+Dialogue: 0,0:01:22.17,0:01:26.49,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k51}What {\k51}your {\k34}mom{\k16}my {\k49}has {\k35}said {\k48}be{\k58}fore
+Dialogue: 0,0:01:27.51,0:01:30.10,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k19}Let {\k31}me {\k18}start {\k33}o{\k17}ver, {\k32}ba{\k19}by
+Dialogue: 0,0:01:29.20,0:01:34.44,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k60}To{\k37} {\k54}all {\k48}the {\k52}boys {\k48}I've {\k50}left {\k33}be{\k52}fore
+Dialogue: 0,0:01:33.70,0:01:36.42,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k22}La{\k10}da{\k16}da{\k34}da-{\k18}da{\k32}da-{\k26}da{\k24}da
+Dialogue: 0,0:01:35.52,0:01:37.87,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k17}I {\k31}hope {\k21}you're {\k29}wat{\k21}chin' {\k26}now
+Dialogue: 0,0:01:37.02,0:01:38.75,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k23}And {\k20}suck {\k40}it
+Dialogue: 0,0:01:38.18,0:01:42.43,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k50}What {\k51}your {\k35}mom{\k17}my {\k47}has {\k35}said {\k49}be{\k51}fore
+Dialogue: 0,0:01:41.53,0:01:43.91,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k17}The {\k32}best {\k16}thing {\k30}you {\k24}could{\k29}'ve
+Dialogue: 0,0:01:43.01,0:01:45.79,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k51}E{\k17}ver {\k31}had {\k52}is {\k37}gone
+Dialogue: 0,0:01:45.87,0:01:47.94,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Call {\k18}your {\k16}mo{\k15}ther {\k19}a{\k35}gain
+Dialogue: 0,0:01:47.69,0:01:50.07,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k22}Tell {\k13}her {\k15}how {\k23}cra{\k16}zy {\k13}I {\k46}am
+Dialogue: 0,0:01:49.17,0:01:50.64,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k36}Pleased {\k21}now
+Dialogue: 0,0:01:49.74,0:01:51.93,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k26}That {\k19}you're {\k33}scared {\k22}of {\k29}me
+Dialogue: 0,0:01:51.03,0:01:54.09,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k17}Let {\k35}me {\k15}be {\k29}your {\k50}arch-{\k15}e{\k17}ne{\k38}my
+Dialogue: 0,0:01:53.60,0:01:55.94,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Let {\k16}me {\k20}play {\k12}the {\k14}vil{\k20}lain {\k16}you {\k34}met
+Dialogue: 0,0:01:55.04,0:01:56.40,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k16}And {\k18}call {\k12}me
+Dialogue: 0,0:01:55.50,0:01:57.91,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k17}The {\k39}cra{\k13}zy {\k22}ex-{\k17}bitch {\k14}you {\k29}left
+Dialogue: 0,0:01:57.01,0:01:59.90,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k18}I {\k28}should{\k20}'ve {\k35}tagged {\k16}the {\k34}price {\k18}you {\k30}pay
+Dialogue: 0,0:01:59.00,0:02:00.59,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k20}For {\k18}playin' {\k15}me {\k16}like
+Dialogue: 0,0:01:59.69,0:02:02.09,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k17}One {\k14}of {\k19}your {\k16}vi{\k16}de{\k18}o {\k50}games
+Dialogue: 0,0:02:01.54,0:02:03.86,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k15}They {\k18}said {\k16}you're {\k15}a{\k18}fraid {\k16}of {\k44}me
+Dialogue: 0,0:02:03.53,0:02:05.95,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k13}And {\k18}you {\k15}di{\k19}dn't {\k15}re{\k18}cog{\k19}nize {\k35}me
+Dialogue: 0,0:02:05.05,0:02:07.63,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k13}You're {\k33}cal{\k19}lin' {\k28}it {\k18}in{\k21}sa{\k15}ni{\k21}ty
+Dialogue: 0,0:02:06.73,0:02:09.93,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k15}I {\k13}call {\k16}it {\k34}ex{\k19}tra {\k33}per{\k17}so{\k17}na{\k16}li{\k50}ties
+Dialogue: 0,0:02:09.03,0:02:12.13,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k16}De{\k29}lete {\k22}you {\k30}like {\k17}you {\k34}should{\k18}'ve {\k34}done {\k20}it
+Dialogue: 0,0:02:11.23,0:02:13.42,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k30}With {\k21}your {\k26}e{\k19}xes' {\k33}nudes
+Dialogue: 0,0:02:12.52,0:02:14.28,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k17}I {\k34}pro{\k35}mised
+Dialogue: 0,0:02:13.88,0:02:16.23,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k18}"Break {\k13}a {\k21}pro{\k19}mise {\k12}you {\k62}made
+Dialogue: 0,0:02:15.92,0:02:17.94,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k10}And {\k17}I'm {\k17}brea{\k15}kin' {\k15}your {\k38}face"
+Dialogue: 0,0:02:17.07,0:02:22.60,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k59}To{\k44} {\k59}all {\k49}the {\k51}boys {\k51}I've {\k49}left {\k32}be{\k69}fore
+Dialogue: 0,0:02:23.53,0:02:25.91,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k16}I {\k29}hope {\k20}you're {\k32}wat{\k20}chin' {\k31}now
+Dialogue: 0,0:02:25.01,0:02:26.73,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k19}And {\k22}suck {\k41}it
+Dialogue: 0,0:02:26.17,0:02:30.45,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k52}What {\k49}your {\k35}mom{\k18}my {\k48}has {\k33}said {\k49}be{\k54}fore
+Dialogue: 0,0:02:31.51,0:02:34.07,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k20}Let {\k30}me {\k18}start {\k32}o{\k18}ver, {\k33}ba{\k15}by
+Dialogue: 0,0:02:33.17,0:02:38.47,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k58}To{\k43} {\k52}all {\k47}the {\k53}boys {\k50}I've {\k50}left {\k31}be{\k56}fore
+Dialogue: 0,0:02:37.70,0:02:40.42,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k22}La{\k10}da{\k16}da{\k34}da-{\k18}da{\k32}da-{\k26}da{\k24}da
+Dialogue: 0,0:02:39.53,0:02:41.86,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k11}I {\k36}hope {\k19}you're {\k28}wat{\k22}chin' {\k27}now
+Dialogue: 0,0:02:41.02,0:02:42.68,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k17}And {\k28}suck {\k31}it
+Dialogue: 0,0:02:42.18,0:02:46.44,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k52}What {\k50}your {\k33}mom{\k21}my {\k45}has {\k33}said {\k49}be{\k53}fore
+Dialogue: 0,0:02:45.54,0:02:47.93,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k16}The {\k31}best {\k18}thing {\k30}you {\k24}could{\k30}'ve
+Dialogue: 0,0:02:47.03,0:02:49.81,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k49}E{\k18}ver {\k31}had {\k52}is {\k38}gone
+Dialogue: 0,0:02:49.47,0:02:52.49,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k24}On {\k46}tip{\kf142}toes
+Dialogue: 0,0:02:51.59,0:02:54.04,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k19}While {\k21}you {\k22}kept {\k35}cros{\k21}sing {\k37}lines
+Dialogue: 0,0:02:53.14,0:02:58.04,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k52}I {\k61}tight{\k77}rope{\k51} {\k17}wal{\k32}kin' {\k22}in {\k22}diz{\k13}zy{\k13}in' {\k40}heights
+Dialogue: 0,0:02:57.14,0:03:00.07,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k39}And {\k19}you {\k58}slept {\k87}through
+Dialogue: 0,0:02:59.58,0:03:05.97,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k12}While {\k32}I {\k24}stayed {\k23}up {\k73}all {\kf385}night
+Dialogue: 0,0:03:05.15,0:03:08.07,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k66}To{\k41} {\k51}all {\k44}the
+Dialogue: 0,0:03:24.80,0:03:26.57,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k14}The {\k36}fuck? {\k37}Nah
+Dialogue: 0,0:03:25.96,0:03:28.24,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k20}Ba{\k12}by, {\k19}it's {\k19}pa{\k13}nic {\k22}at{\k33}tacks
+Dialogue: 0,0:03:28.43,0:03:34.02,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k50}To{\k46} {\k58}all {\k50}the {\k51}boys {\k50}I've {\k49}left {\k33}be{\k82}fore
+Dialogue: 0,0:03:34.81,0:03:37.13,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k18}I {\k27}hope {\k22}you're {\k28}wat{\k22}chin' {\k25}now
+Dialogue: 0,0:03:36.23,0:03:37.94,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k18}And {\k24}suck {\k39}it
+Dialogue: 0,0:03:37.48,0:03:41.87,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k51}What {\k51}your {\k34}mom{\k16}my {\k49}has {\k35}said {\k48}be{\k65}fore
+Dialogue: 0,0:03:42.77,0:03:45.37,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k19}Let {\k31}me {\k18}start {\k33}o{\k17}ver, {\k32}ba{\k20}by
+Dialogue: 0,0:03:44.47,0:03:49.86,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k60}To{\k39} {\k54}all {\k48}the {\k52}boys {\k48}I've {\k50}left {\k33}be{\k65}fore
+Dialogue: 0,0:03:50.82,0:03:53.21,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k17}I {\k31}hope {\k21}you're {\k29}wat{\k21}chin' {\k30}now
+Dialogue: 0,0:03:52.31,0:03:54.04,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k23}And {\k20}suck {\k40}it
+Dialogue: 0,0:03:53.47,0:03:57.77,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k50}What {\k51}your {\k35}mom{\k17}my {\k47}has {\k35}said {\k49}be{\k56}fore
+Dialogue: 0,0:03:56.87,0:03:59.18,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k10}The {\k32}best {\k16}thing {\k30}you {\k24}could{\k29}'ve
+Dialogue: 0,0:03:58.28,0:04:01.20,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k51}E{\k17}ver {\k31}had {\k52}is {\k51}gone
