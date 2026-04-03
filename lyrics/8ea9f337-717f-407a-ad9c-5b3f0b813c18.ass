@@ -1,0 +1,198 @@
+﻿[Script Info]
+Title: SNAKE EYES
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Uwhipa
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: EN,Arial,24,&H00FFFFFF,&H000C00FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: KR,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: EN Choir,Arial,24,&H00FFFFFF,&H000C00FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: KR Choir,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:06.02,0:00:07.73,KR,,0,0,0,karaoke,{\k28}jun{\kf143}bi~
+Comment: 0,0:00:07.90,0:00:09.52,EN,,0,0,0,karaoke,{\k22}That's {\k23}good {\k24}game, {\k26}what {\k21}a {\k23}sha{\k23}me
+Comment: 0,0:00:09.73,0:00:11.35,EN,,0,0,0,karaoke,{\k26}Pla{\k23}yers, {\k21}they {\k25}all {\k23}com{\k24}pla{\k20}in
+Comment: 0,0:00:11.59,0:00:13.15,EN,,0,0,0,karaoke,{\k24}"Why {\k22}me?" {\k23}"No, {\k24}not {\k23}a{\k23}ga{\k17}in!"
+Comment: 0,0:00:13.21,0:00:15.06,EN,,0,0,0,karaoke,{\k34}Shout! {\k35}Ra-{\k23}ta-{\k46}ta, {\k47}but
+Comment: 0,0:00:15.26,0:00:16.90,EN,,0,0,0,karaoke,{\k13}Ain't {\k13}got {\k23}time {\k21}so {\k25}dry {\k24}those {\k45}eyes
+Comment: 0,0:00:17.13,0:00:18.52,EN,,0,0,0,karaoke,{\k12}Look {\k12}a{\k22}round {\k23}what's {\k24}that {\k23}I {\k23}spy
+Comment: 0,0:00:18.52,0:00:20.10,EN,,0,0,0,karaoke,{\k23}The {\k35}bro{\k35}ken {\k23}and {\k42}bruised
+Comment: 0,0:00:20.10,0:00:22.52,EN,,0,0,0,karaoke,{\k26}All {\k23}got {\k35}some{\k35}thing {\k23}to {\k46}prove {\k54}now
+Comment: 0,0:00:22.92,0:00:24.23,EN,,0,0,0,karaoke,{\k18}A{\k12}bra{\k14}ca{\k18}da{\k10}bra, {\k19}let's {\k40}go
+Comment: 0,0:00:24.27,0:00:25.73,EN,,0,0,0,karaoke,{\k15}Watch {\k14}them {\k16}like {\k18}dice {\k14}as {\k17}they {\k52}fall
+Comment: 0,0:00:25.65,0:00:26.52,EN Choir,,0,0,0,karaoke,{\k45}They {\k42}fall
+Comment: 0,0:00:26.56,0:00:27.94,KR,,0,0,0,karaoke,{\k19}kkeut{\k18}kka{\k14}ji {\k16}ga{\k9}bo{\k19}ja {\k43}go
+Comment: 0,0:00:28.22,0:00:29.23,KR,,0,0,0,karaoke,{\k11}na{\k7}neun {\k5}nae {\k24}mam {\k8}dae{\k14}ro{\k32}hae
+Comment: 0,0:00:29.37,0:00:29.69,EN Choir,,0,0,0,karaoke,{\k32}Hey
+Comment: 0,0:00:29.82,0:00:31.66,EN,,0,0,0,karaoke,{\k39}Dou{\k30}ble {\k23}one, {\k37}dou{\k34}ble {\k21}win
+Comment: 0,0:00:31.66,0:00:33.49,EN,,0,0,0,karaoke,{\k38}Low{\k31}ly {\k24}to {\k36}lot{\k34}te{\k20}ry
+Comment: 0,0:00:33.49,0:00:36.35,EN,,0,0,0,karaoke,{\k95}Do {\k93}or {\k98}die
+Comment: 0,0:00:36.50,0:00:38.02,EN,,0,0,0,karaoke,{\k26}We {\k22}hit {\k24}that {\k80}high
+Comment: 0,0:00:37.62,0:00:39.60,EN Choir,,0,0,0,karaoke,{\k51}Snake {\k47}eyes, {\k45}Snake {\k55}eyes
+Comment: 0,0:00:39.69,0:00:41.69,EN,,0,0,0,karaoke,{\k29}Come {\k22}on {\k24}now {\k24}don't {\k23}be {\k78}shy
+Comment: 0,0:00:41.23,0:00:43.40,EN Choir,,0,0,0,karaoke,{\k60}Snake {\k46}eyes, {\k46}Snakе {\k65}eyes
+Comment: 0,0:00:43.90,0:00:46.65,KR,,0,0,0,karaoke,{\k25}tteu{\k22}gеop{\k23}ge {\k68}da{\k69}ra{\k22}ol{\k46}la
+Comment: 0,0:00:46.67,0:00:47.60,KR Choir,,0,0,0,karaoke,{\k23}bul{\k24}ta{\k23}ol{\k23}la
+Comment: 0,0:00:47.60,0:00:50.52,KR,,0,0,0,karaoke,{\k23}nol{\k22}ja {\k24}ALL {\k69}DAY {\k69}ALL {\k85}NIGHT
+Comment: 0,0:00:50.37,0:00:51.40,EN Choir,,0,0,0,karaoke,{\k21}All {\k25}day, {\k23}all {\k34}night
+Comment: 0,0:00:51.19,0:00:53.85,EN,,0,0,0,karaoke,{\k29}So {\k27}turn {\k23}it {\k35}up {\k34}can't {\k24}stop {\k23}won't {\k23}stop {\k22}prea{\k26}chin'
+Comment: 0,0:00:54.06,0:00:55.65,EN,,0,0,0,karaoke,{\k24}Who {\k22}said {\k23}the {\k24}sky's {\k22}the {\k24}li{\k20}mit?
+Comment: 0,0:00:55.67,0:00:57.52,EN,,0,0,0,karaoke,{\k36}Show {\k32}them {\k25}that {\k23}we {\k23}mean {\k23}busi{\k23}ness
+Comment: 0,0:00:57.75,0:00:59.35,EN,,0,0,0,karaoke,{\k23}We {\k23}are {\k23}the {\k23}young {\k23}and {\k24}vi{\k21}cious
+Comment: 0,0:00:59.35,0:01:01.27,EN,,0,0,0,karaoke,{\k36}Snake {\k34}eyes {\k24}they {\k23}ne{\k23}ver {\k52}lie
+Comment: 0,0:01:01.44,0:01:02.37,EN,,0,0,0,karaoke,{\k23}Fly {\k24}high {\k23}with {\k23}pride
+Comment: 0,0:01:02.37,0:01:05.85,EN,,0,0,0,karaoke,{\k23}And {\k22}leave {\k22}your {\k71}fears {\k70}be{\kf140}hind!
+Comment: 0,0:01:06.02,0:01:06.77,KR,,0,0,0,karaoke,{\k31}ji{\k31}gyeo{\k13}wo
+Comment: 0,0:01:06.98,0:01:08.65,KR,,0,0,0,karaoke,{\k11}u{\k28}ri{\k8} deu{\k20}rui {\k25}gwan{\k12}gra{\k10}nui {\k25}PAR{\k28}TY​
+Comment: 0,0:01:08.81,0:01:10.48,KR,,0,0,0,karaoke,{\k14}bo{\k23}yeo{\k11}jul{\k23}ge {\k27}hwans{\k9}ang {\k10}SA{\k23}FA{\k27}RI
+Comment: 0,0:01:10.68,0:01:12.27,EN,,0,0,0,karaoke,{\k13}Bad{\k22}die {\k13}bad{\k10}die​, {\k11}no{\k13}bo{\k8}dy {\k24}can {\k24}stop {\k21}me
+Comment: 0,0:01:12.27,0:01:14.15,KR,,0,0,0,karaoke,{\k11}kki{\k26}ri{\k14}kki{\k20}ri {\k12}bu{\k11}teo, {\k24}COME {\k21}ON {\k26}CLO{\k23}SER
+Comment: 0,0:01:14.15,0:01:15.52,KR,,0,0,0,karaoke,{\k33}​​GO! {\k35}GO! {\k23}deo {\k24}ppal{\k22}li​
+Comment: 0,0:01:15.52,0:01:15.98,EN Choir,,0,0,0,karaoke,{\k12}Check {\k12}it {\k22}out
+Comment: 0,0:01:15.98,0:01:17.56,EN,,0,0,0,karaoke,{\k34}Ac{\k35}tin' {\k24}all {\k28}naugh{\k37}ty
+Comment: 0,0:01:17.59,0:01:19.56,KR,,0,0,0,karaoke,{\k24}ssak{\k35}da {\k23}bu{\k11}syeo {\k21}mo{\k27}jo{\k56}ri​
+Comment: 0,0:01:19.91,0:01:21.60,KR,,0,0,0,karaoke,{\k22}mo{\k9}jo{\k12}ri {\k28}ssak{\k22}da{\k22}da{\k23}da{\k31}da
+Comment: 0,0:01:21.74,0:01:23.40,EN,,0,0,0,karaoke,{\k13}Shake {\k10}it {\k24}off, {\k22}what {\k25}goes {\k24}a{\k48}round
+Comment: 0,0:01:23.56,0:01:25.19,EN,,0,0,0,karaoke,{\k13}Shut {\k14}your {\k23}mouth, {\k22}will {\k25}come {\k22}back {\k44}down
+Comment: 0,0:01:25.21,0:01:26.69,EN,,0,0,0,karaoke,{\k35}Rea{\k34}dy {\k24}the {\k55}fight
+Comment: 0,0:01:27.05,0:01:29.15,EN,,0,0,0,karaoke,{\k36}Rea{\k34}dy {\k23}the {\k49}screa{\k68}ming
+Comment: 0,0:01:29.37,0:01:30.67,EN,,0,0,0,karaoke,{\k20}A{\k12}bra{\k14}ca{\k22}da{\k12}bra, {\k18}let's {\k32}go
+Comment: 0,0:01:30.75,0:01:32.23,EN,,0,0,0,karaoke,{\k19}Watch {\k12}it {\k16}we {\k14}rea{\k15}pin' {\k17}it {\k55}all
+Comment: 0,0:01:32.13,0:01:33.06,EN Choir,,0,0,0,karaoke,{\k22}Rea{\k11}pin' {\k15}it {\k45}all
+Comment: 0,0:01:33.06,0:01:34.41,KR,,0,0,0,karaoke,{\k16}kkeok{\k16}ki{\k14}ji {\k19}an{\k14}neun {\k13}ui{\k43}ji​
+Comment: 0,0:01:34.41,0:01:36.02,KR,,0,0,0,karaoke,{\k19}doel{\k15}dae{\k15}ro {\k16}dwae{\k13}bol{\k17}lae {\k66}PLAY
+Comment: 0,0:01:36.27,0:01:37.85,EN,,0,0,0,karaoke,{\k41}Rea{\k30}son, {\k24}our {\k34}de{\k29}mon
+Comment: 0,0:01:37.90,0:01:39.73,EN,,0,0,0,karaoke,{\k22}Be{\k38}lieve {\k34}in {\k22}the {\k33}bea{\k34}ten
+Comment: 0,0:01:39.73,0:01:42.69,EN,,0,0,0,karaoke,{\k30}Just {\k89}wait {\k93}and {\k84}see
+Comment: 0,0:01:42.94,0:01:44.40,EN,,0,0,0,karaoke,{\k20}We {\k28}hit {\k25}that {\k73}high
+Comment: 0,0:01:44.07,0:01:46.10,EN Choir,,0,0,0,karaoke,{\k51}Snake {\k48}eyes, {\k45}Snake {\k59}eyes
+Comment: 0,0:01:46.17,0:01:47.77,EN,,0,0,0,karaoke,{\k28}Come {\k23}on {\k21}now {\k25}don't {\k23}be {\k40}shy
+Comment: 0,0:01:47.77,0:01:49.81,EN Choir,,0,0,0,karaoke,{\k52}Snake {\k46}eyes, {\k46}Snake {\k60}eyes
+Comment: 0,0:01:50.36,0:01:53.31,KR,,0,0,0,karaoke,{\k24}tteu{\k23}geop{\k23}ge {\k69}da{\k69}ra{\k25}ol{\k62}la
+Comment: 0,0:01:53.14,0:01:54.06,KR Choir,,0,0,0,karaoke,{\k21}bul{\k21}ta{\k27}ol{\k23}la
+Comment: 0,0:01:54.06,0:01:57.06,KR,,0,0,0,karaoke,{\k23}nol{\k23}ja {\k23}ALL {\k70}DAY, {\k69}ALL {\k92}NIGHT
+Comment: 0,0:01:56.83,0:01:58.94,EN Choir,,0,0,0,karaoke,{\k24}All {\k22}day, {\k22}all {\kf143}night
+Comment: 0,0:01:59.61,0:02:00.30,EN,,0,0,0,karaoke,{\k13}Let {\k9}the {\k24}beat {\k23}drop!
+Comment: 0,0:02:02.14,0:02:04.73,EN,,0,0,0,karaoke,{\k116}Go! {\k21}We {\k46}go {\k76}hard
+Comment: 0,0:02:04.89,0:02:05.81,EN Choir,,0,0,0,karaoke,{\k47}Go {\k45}hard
+Comment: 0,0:02:06.03,0:02:07.67,KR,,0,0,0,karaoke,{\k13}gi{\k14}sa {\k22}hoe{\k23}saeng {\k23}jeon{\k12}bu{\k11}reul {\k11}geo{\k12}reo {\k23}BET​
+Comment: 0,0:02:07.67,0:02:11.98,EN,,0,0,0,karaoke,{\k117}Go! {\k22}We {\k46}go {\k111}hard, {\k27}I {\k26}want {\k22}it {\k60}all
+Comment: 0,0:02:12.40,0:02:15.02,KR,,0,0,0,karaoke,{\k22}da{\k17}si {\k9}i{\k10}reo{\k48}na {\k23}pa{\k24}goe{\k21} wa {\k47}jae{\k41}saeng
+Comment: 0,0:02:15.04,0:02:18.31,KR,,0,0,0,karaoke,{\k73}juk{\k69}ji {\k26}a{\k47}na, {\k21}jeon{\k20}bu {\k24}geo{\k47}reo
+Comment: 0,0:02:18.75,0:02:22.69,KR,,0,0,0,karaoke,{\k71}mat{\k67}seo {\k32}ssa{\k64}wo, {\k27}si{\k59}ja{\k29}gi{\k45}ya​
+Comment: 0,0:02:22.44,0:02:24.73,EN Choir,,0,0,0,karaoke,{\k70}Take {\k69}the {\k90}crown
+Comment: 0,0:02:24.73,0:02:28.31,KR,,0,0,0,karaoke,{\k49}kkeut{\k46}kka{\k45}ji {\k24}dal{\k23}lyeo{\k67}ga {\k25}RULE {\k24}THE {\k55}GAME
+Comment: 0,0:02:28.43,0:02:32.60,EN,,0,0,0,karaoke,{\k47}We'll {\k48}hit {\k44}that {\kf278}high
+Comment: 0,0:02:29.06,0:02:30.27,EN Choir,,0,0,0,karaoke,{\k25}We {\k28}hit {\k23}that {\k45}high
+Comment: 0,0:02:30.25,0:02:32.23,EN Choir,,0,0,0,karaoke,{\k49}Snake {\k45}eyes, {\k48}Snake {\k56}eyes
+Comment: 0,0:02:32.35,0:02:34.02,EN Choir,,0,0,0,karaoke,{\k25}Come {\k22}on {\k24}now {\k23}don't {\k23}be {\k50}shy
+Comment: 0,0:02:33.48,0:02:36.40,EN,,0,0,0,karaoke,{\kf292}Eye
+Comment: 0,0:02:33.90,0:02:35.98,EN Choir,,0,0,0,karaoke,{\k54}Snake {\k47}eyes, {\k45}Snake {\k62}eyes
+Comment: 0,0:02:36.50,0:02:39.02,KR,,0,0,0,karaoke,{\k26}ga{\k22}chi {\k24}chu{\k36}meul {\k32}chwo{\k23}bwa, {\k36}i{\k32}reo{\k21}ke​
+Comment: 0,0:02:39.29,0:02:43.77,KR,,0,0,0,karaoke,{\k23}meom{\k23}chul {\k21}sun {\k25}eop{\k23}seo {\k23}ga{\k23}chi {\k71}DANCE {\k68}ALL {\kf148}NIGHT
+Comment: 0,0:02:43.85,0:02:44.56,KR Choir,,0,0,0,karaoke,{\k29}jun{\k42}bi~
+Comment: 0,0:02:44.56,0:02:46.42,EN,,0,0,0,karaoke,{\k42}Don't {\k31}be {\k22}af{\k24}raid {\k23}of {\k23}lo{\k21}sing
+Comment: 0,0:02:46.65,0:02:48.27,EN,,0,0,0,karaoke,{\k24}It's {\k24}just {\k24}a {\k23}new {\k22}be{\k24}gin{\k21}ning
+Comment: 0,0:02:48.27,0:02:50.15,EN,,0,0,0,karaoke,{\k38}Look {\k33}at {\k21}the {\k24}cards {\k23}we {\k24}dea{\k25}ling
+Comment: 0,0:02:50.35,0:02:51.98,EN,,0,0,0,karaoke,{\k25}Some{\k23}times {\k23}it {\k23}takes {\k23}a {\k22}vil{\k24}lain
+Comment: 0,0:02:51.98,0:02:53.86,EN,,0,0,0,karaoke,{\k37}Snake {\k32}eyes {\k24}the {\k23}time {\k23}is {\k53}nigh
+Comment: 0,0:02:54.06,0:02:54.98,EN,,0,0,0,karaoke,{\k22}Fly {\k24}high {\k23}with {\k23}pride
+Comment: 0,0:02:54.98,0:02:58.81,EN,,0,0,0,karaoke,{\k23}And {\k22}leave {\k23}all {\k70}fears {\k69}be{\kf176}hind!
+Dialogue: 0,0:00:05.12,0:00:07.93,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k28}jun{\kf143}bi~
+Dialogue: 0,0:00:07.00,0:00:09.72,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k22}That's {\k23}good {\k24}game, {\k26}what {\k21}a {\k23}sha{\k23}me
+Dialogue: 0,0:00:08.83,0:00:11.55,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Pla{\k23}yers, {\k21}they {\k25}all {\k23}com{\k24}pla{\k20}in
+Dialogue: 0,0:00:10.69,0:00:13.35,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k24}"Why {\k22}me?" {\k23}"No, {\k24}not {\k23}a{\k23}ga{\k17}in!"
+Dialogue: 0,0:00:12.31,0:00:15.26,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Shout! {\k35}Ra-{\k23}ta-{\k46}ta, {\k47}but
+Dialogue: 0,0:00:14.36,0:00:17.10,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Ain't {\k13}got {\k23}time {\k21}so {\k25}dry {\k24}those {\k45}eyes
+Dialogue: 0,0:00:16.23,0:00:18.72,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Look {\k12}a{\k22}round {\k23}what's {\k24}that {\k23}I {\k23}spy
+Dialogue: 0,0:00:17.62,0:00:20.30,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k23}The {\k35}bro{\k35}ken {\k23}and {\k42}bruised
+Dialogue: 0,0:00:19.20,0:00:22.72,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k26}All {\k23}got {\k35}some{\k35}thing {\k23}to {\k46}prove {\k54}now
+Dialogue: 0,0:00:22.02,0:00:24.43,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k18}A{\k12}bra{\k14}ca{\k18}da{\k10}bra, {\k19}let's {\k40}go
+Dialogue: 0,0:00:23.37,0:00:25.93,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Watch {\k14}them {\k16}like {\k18}dice {\k14}as {\k17}they {\k52}fall
+Dialogue: 0,0:00:24.75,0:00:26.72,EN Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k45}They {\k42}fall
+Dialogue: 0,0:00:25.66,0:00:28.14,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k19}kkeut{\k18}kka{\k14}ji {\k16}ga{\k9}bo{\k19}ja {\k43}go
+Dialogue: 0,0:00:27.32,0:00:29.43,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k11}na{\k7}neun {\k5}nae {\k24}mam {\k8}dae{\k14}ro{\k32}hae
+Dialogue: 0,0:00:28.47,0:00:29.89,EN Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Hey
+Dialogue: 0,0:00:28.92,0:00:31.86,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Dou{\k30}ble {\k23}one, {\k37}dou{\k34}ble {\k21}win
+Dialogue: 0,0:00:30.76,0:00:33.69,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Low{\k31}ly {\k24}to {\k36}lot{\k34}te{\k20}ry
+Dialogue: 0,0:00:32.59,0:00:36.55,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k95}Do {\k93}or {\k98}die
+Dialogue: 0,0:00:35.60,0:00:38.22,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k26}We {\k22}hit {\k24}that {\k80}high
+Dialogue: 0,0:00:36.72,0:00:39.80,EN Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Snake {\k47}eyes, {\k45}Snake {\k55}eyes
+Dialogue: 0,0:00:38.79,0:00:41.89,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Come {\k22}on {\k24}now {\k24}don't {\k23}be {\k78}shy
+Dialogue: 0,0:00:40.33,0:00:43.60,EN Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k60}Snake {\k46}eyes, {\k46}Snakе {\k65}eyes
+Dialogue: 0,0:00:43.00,0:00:46.85,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k25}tteu{\k22}gеop{\k23}ge {\k68}da{\k69}ra{\k22}ol{\k46}la
+Dialogue: 0,0:00:45.77,0:00:47.80,KR Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}bul{\k24}ta{\k23}ol{\k23}la
+Dialogue: 0,0:00:46.70,0:00:50.72,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k23}nol{\k22}ja {\k24}ALL {\k69}DAY {\k69}ALL {\k85}NIGHT
+Dialogue: 0,0:00:49.47,0:00:51.60,EN Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}All {\k25}day, {\k23}all {\k34}night
+Dialogue: 0,0:00:50.29,0:00:54.05,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k29}So {\k27}turn {\k23}it {\k35}up {\k34}can't {\k24}stop {\k23}won't {\k23}stop {\k22}prea{\k26}chin'
+Dialogue: 0,0:00:53.16,0:00:55.85,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Who {\k22}said {\k23}the {\k24}sky's {\k22}the {\k24}li{\k20}mit?
+Dialogue: 0,0:00:54.77,0:00:57.72,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Show {\k32}them {\k25}that {\k23}we {\k23}mean {\k23}busi{\k23}ness
+Dialogue: 0,0:00:56.85,0:00:59.55,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k23}We {\k23}are {\k23}the {\k23}young {\k23}and {\k24}vi{\k21}cious
+Dialogue: 0,0:00:58.45,0:01:01.47,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Snake {\k34}eyes {\k24}they {\k23}ne{\k23}ver {\k52}lie
+Dialogue: 0,0:01:00.54,0:01:02.57,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Fly {\k24}high {\k23}with {\k23}pride
+Dialogue: 0,0:01:01.47,0:01:06.05,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k23}And {\k22}leave {\k22}your {\k71}fears {\k70}be{\kf140}hind!
+Dialogue: 0,0:01:05.12,0:01:06.97,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ji{\k31}gyeo{\k13}wo
+Dialogue: 0,0:01:06.08,0:01:08.85,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k11}u{\k28}ri{\k8} deu{\k20}rui {\k25}gwan{\k12}gra{\k10}nui {\k25}PAR{\k28}TY​
+Dialogue: 0,0:01:07.91,0:01:10.68,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k14}bo{\k23}yeo{\k11}jul{\k23}ge {\k27}hwans{\k9}ang {\k10}SA{\k23}FA{\k27}RI
+Dialogue: 0,0:01:09.78,0:01:12.47,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Bad{\k22}die {\k13}bad{\k10}die​, {\k11}no{\k13}bo{\k8}dy {\k24}can {\k24}stop {\k21}me
+Dialogue: 0,0:01:11.37,0:01:14.35,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k11}kki{\k26}ri{\k14}kki{\k20}ri {\k12}bu{\k11}teo, {\k24}COME {\k21}ON {\k26}CLO{\k23}SER
+Dialogue: 0,0:01:13.25,0:01:15.72,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k33}​​GO! {\k35}GO! {\k23}deo {\k24}ppal{\k22}li​
+Dialogue: 0,0:01:14.62,0:01:16.18,EN Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Check {\k12}it {\k22}out
+Dialogue: 0,0:01:15.08,0:01:17.76,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Ac{\k35}tin' {\k24}all {\k28}naugh{\k37}ty
+Dialogue: 0,0:01:16.69,0:01:19.76,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ssak{\k35}da {\k23}bu{\k11}syeo {\k21}mo{\k27}jo{\k56}ri​
+Dialogue: 0,0:01:19.01,0:01:21.80,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k22}mo{\k9}jo{\k12}ri {\k28}ssak{\k22}da{\k22}da{\k23}da{\k31}da
+Dialogue: 0,0:01:20.84,0:01:23.60,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Shake {\k10}it {\k24}off, {\k22}what {\k25}goes {\k24}a{\k48}round
+Dialogue: 0,0:01:22.66,0:01:25.39,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Shut {\k14}your {\k23}mouth, {\k22}will {\k25}come {\k22}back {\k44}down
+Dialogue: 0,0:01:24.31,0:01:26.89,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Rea{\k34}dy {\k24}the {\k55}fight
+Dialogue: 0,0:01:26.15,0:01:29.35,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Rea{\k34}dy {\k23}the {\k49}screa{\k68}ming
+Dialogue: 0,0:01:28.47,0:01:30.87,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k20}A{\k12}bra{\k14}ca{\k22}da{\k12}bra, {\k18}let's {\k32}go
+Dialogue: 0,0:01:29.85,0:01:32.43,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Watch {\k12}it {\k16}we {\k14}rea{\k15}pin' {\k17}it {\k55}all
+Dialogue: 0,0:01:31.23,0:01:33.26,EN Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Rea{\k11}pin' {\k15}it {\k45}all
+Dialogue: 0,0:01:32.16,0:01:34.61,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k16}kkeok{\k16}ki{\k14}ji {\k19}an{\k14}neun {\k13}ui{\k43}ji​
+Dialogue: 0,0:01:33.51,0:01:36.22,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k19}doel{\k15}dae{\k15}ro {\k16}dwae{\k13}bol{\k17}lae {\k66}PLAY
+Dialogue: 0,0:01:35.37,0:01:38.05,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Rea{\k30}son, {\k24}our {\k34}de{\k29}mon
+Dialogue: 0,0:01:37.00,0:01:39.93,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Be{\k38}lieve {\k34}in {\k22}the {\k33}bea{\k34}ten
+Dialogue: 0,0:01:38.83,0:01:42.89,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Just {\k89}wait {\k93}and {\k84}see
+Dialogue: 0,0:01:42.04,0:01:44.60,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k20}We {\k28}hit {\k25}that {\k73}high
+Dialogue: 0,0:01:43.17,0:01:46.30,EN Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Snake {\k48}eyes, {\k45}Snake {\k59}eyes
+Dialogue: 0,0:01:45.27,0:01:47.97,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Come {\k23}on {\k21}now {\k25}don't {\k23}be {\k40}shy
+Dialogue: 0,0:01:46.87,0:01:50.01,EN Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Snake {\k46}eyes, {\k46}Snake {\k60}eyes
+Dialogue: 0,0:01:49.46,0:01:53.51,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k24}tteu{\k23}geop{\k23}ge {\k69}da{\k69}ra{\k25}ol{\k62}la
+Dialogue: 0,0:01:52.24,0:01:54.26,KR Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}bul{\k21}ta{\k27}ol{\k23}la
+Dialogue: 0,0:01:53.16,0:01:57.26,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k23}nol{\k23}ja {\k23}ALL {\k70}DAY, {\k69}ALL {\k92}NIGHT
+Dialogue: 0,0:01:55.93,0:01:59.14,EN Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}All {\k22}day, {\k22}all {\kf143}night
+Dialogue: 0,0:01:58.71,0:02:00.50,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Let {\k9}the {\k24}beat {\k23}drop!
+Dialogue: 0,0:02:01.24,0:02:04.93,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k116}Go! {\k21}We {\k46}go {\k76}hard
+Dialogue: 0,0:02:03.99,0:02:06.01,EN Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Go {\k45}hard
+Dialogue: 0,0:02:05.13,0:02:07.87,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k13}gi{\k14}sa {\k22}hoe{\k23}saeng {\k23}jeon{\k12}bu{\k11}reul {\k11}geo{\k12}reo {\k23}BET​
+Dialogue: 0,0:02:06.77,0:02:12.18,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k117}Go! {\k22}We {\k46}go {\k111}hard, {\k27}I {\k26}want {\k22}it {\k60}all
+Dialogue: 0,0:02:11.50,0:02:15.22,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k22}da{\k17}si {\k9}i{\k10}reo{\k48}na {\k23}pa{\k24}goe{\k21} wa {\k47}jae{\k41}saeng
+Dialogue: 0,0:02:14.14,0:02:18.51,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k73}juk{\k69}ji {\k26}a{\k47}na, {\k21}jeon{\k20}bu {\k24}geo{\k47}reo
+Dialogue: 0,0:02:17.85,0:02:22.89,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k71}mat{\k67}seo {\k32}ssa{\k64}wo, {\k27}si{\k59}ja{\k29}gi{\k45}ya​
+Dialogue: 0,0:02:21.54,0:02:24.93,EN Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k70}Take {\k69}the {\k90}crown
+Dialogue: 0,0:02:23.83,0:02:28.51,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k49}kkeut{\k46}kka{\k45}ji {\k24}dal{\k23}lyeo{\k67}ga {\k25}RULE {\k24}THE {\k55}GAME
+Dialogue: 0,0:02:27.53,0:02:32.80,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k47}We'll {\k48}hit {\k44}that {\kf278}high
+Dialogue: 0,0:02:28.16,0:02:30.47,EN Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}We {\k28}hit {\k23}that {\k45}high
+Dialogue: 0,0:02:29.35,0:02:32.43,EN Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k49}Snake {\k45}eyes, {\k48}Snake {\k56}eyes
+Dialogue: 0,0:02:31.45,0:02:34.22,EN Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Come {\k22}on {\k24}now {\k23}don't {\k23}be {\k50}shy
+Dialogue: 0,0:02:32.58,0:02:36.60,EN,,0,0,0,fx,{\k90\fad(300,200)}{\kf292}Eye
+Dialogue: 0,0:02:33.00,0:02:36.18,EN Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k54}Snake {\k47}eyes, {\k45}Snake {\k62}eyes
+Dialogue: 0,0:02:35.60,0:02:39.22,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ga{\k22}chi {\k24}chu{\k36}meul {\k32}chwo{\k23}bwa, {\k36}i{\k32}reo{\k21}ke​
+Dialogue: 0,0:02:38.39,0:02:43.97,KR,,0,0,0,fx,{\k90\fad(300,200)}{\k23}meom{\k23}chul {\k21}sun {\k25}eop{\k23}seo {\k23}ga{\k23}chi {\k71}DANCE {\k68}ALL {\kf148}NIGHT
+Dialogue: 0,0:02:42.95,0:02:44.76,KR Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}jun{\k42}bi~
+Dialogue: 0,0:02:43.66,0:02:46.62,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Don't {\k31}be {\k22}af{\k24}raid {\k23}of {\k23}lo{\k21}sing
+Dialogue: 0,0:02:45.75,0:02:48.47,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k24}It's {\k24}just {\k24}a {\k23}new {\k22}be{\k24}gin{\k21}ning
+Dialogue: 0,0:02:47.37,0:02:50.35,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Look {\k33}at {\k21}the {\k24}cards {\k23}we {\k24}dea{\k25}ling
+Dialogue: 0,0:02:49.45,0:02:52.18,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Some{\k23}times {\k23}it {\k23}takes {\k23}a {\k22}vil{\k24}lain
+Dialogue: 0,0:02:51.08,0:02:54.06,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Snake {\k32}eyes {\k24}the {\k23}time {\k23}is {\k53}nigh
+Dialogue: 0,0:02:53.16,0:02:55.18,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Fly {\k24}high {\k23}with {\k23}pride
+Dialogue: 0,0:02:54.08,0:02:59.01,EN,,0,0,0,fx,{\k90\fad(300,200)}{\k23}And {\k22}leave {\k23}all {\k70}fears {\k69}be{\kf176}hind!
