@@ -1,0 +1,190 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Mach die Robbe
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:23.77,0:00:24.20,Sample KM [Up],,0,0,0,karaoke,{\k43}Yeah
+Comment: 0,0:00:25.58,0:00:27.45,Sample KM [Up],,0,0,0,karaoke,{\k24}Dein {\k19}Hund {\k25}frisst {\k27}dei{\k20}ne {\k23}Haus{\k24}auf{\k13}ga{\k12}ben
+Comment: 0,0:00:27.45,0:00:29.41,Sample KM [Up],,0,0,0,karaoke,{\k21}Wäh{\k24}rend {\k23}die {\k21}Rob{\k22}be {\k26}mei{\k23}ne {\k36}macht
+Comment: 0,0:00:29.50,0:00:31.34,Sample KM [Up],,0,0,0,karaoke,{\k24}Sie {\k24}muss {\k23}nie{\k21}mals {\k24}drau{\k23}ßen {\k23}war{\k22}ten
+Comment: 0,0:00:31.34,0:00:33.25,Sample KM [Up],,0,0,0,karaoke,{\k22}Vor {\k24}den {\k23}Shops {\k25}in {\k22}dei{\k26}ner {\k49}Stadt
+Comment: 0,0:00:33.39,0:00:34.57,Sample KM [Up],,0,0,0,karaoke,{\k26}Isst {\k21}mit {\k24}den {\k23}Stäb{\k24}chen
+Comment: 0,0:00:34.57,0:00:36.77,Sample KM [Up],,0,0,0,karaoke,{\k25}Hun{\k22}dert {\k23}Ki{\k24}lo {\k21}Su{\k24}shi {\k24}an {\k20}'nem {\k37}Tag
+Comment: 0,0:00:36.88,0:00:38.73,Sample KM [Up],,0,0,0,karaoke,{\k25}Bleibt {\k22}in {\k46}shape {\k20}wie {\k24}ein {\k24}Foot{\k24}ball
+Comment: 0,0:00:38.73,0:00:40.56,Sample KM [Up],,0,0,0,karaoke,{\k23}Mo{\k26}dels {\k22}fra{\k22}gen {\k25}sie {\k23}nach {\k42}Rat
+Comment: 0,0:00:40.84,0:00:42.40,Sample KM [Up],,0,0,0,karaoke,{\k20}Sie {\k24}krei{\k21}schen, {\k44}woll'n {\k25}Sel{\k22}fie
+Comment: 0,0:00:42.40,0:00:44.12,Sample KM [Up],,0,0,0,karaoke,{\k27}Wenn {\k22}sie {\k24}uns {\k22}bei{\k24}de {\k53}seh'n
+Comment: 0,0:00:44.27,0:00:45.44,Sample KM [Up],,0,0,0,karaoke,{\k24}Wenn {\k21}die {\k25}Knopf{\k21}au{\k26}gen
+Comment: 0,0:00:45.44,0:00:47.79,Sample KM [Up],,0,0,0,karaoke,{\k22}Die {\k22}Au{\k22}gen {\k25}al{\k23}ler {\k23}Mäd{\k24}chen {\k22}ver{\k52}dreh'n
+Comment: 0,0:00:47.97,0:00:49.81,Sample KM [Up],,0,0,0,karaoke,{\k23}Nie{\k21}mand {\k25}kann {\k20}wi{\k25}der{\k70}steh'n
+Comment: 0,0:00:49.81,0:00:51.43,Sample KM [Up],,0,0,0,karaoke,{\k22}Doch {\k25}sie {\k24}kann {\k21}nicht {\k25}mal {\k45}steh'n
+Comment: 0,0:00:51.43,0:00:53.28,Sample KM [Up],,0,0,0,karaoke,{\k22}Bei {\k23}Ki{\k23}ki-{\k25}Chal{\k22}lenge {\k23}fiel {\k24}sie {\k23}um
+Comment: 0,0:00:53.28,0:00:55.28,Sample KM [Up],,0,0,0,karaoke,{\k22}Und {\k24}war {\k22}zehn {\k24}Ta{\k20}ge {\k27}ge{\k61}lähmt
+Comment: 0,0:00:55.34,0:00:56.73,Sample KM [Up],,0,0,0,karaoke,{\k25}Leg' {\k19}dich {\k27}auf {\k24}den {\k22}Bo{\k22}den
+Comment: 0,0:00:57.19,0:00:58.89,Sample KM [Up],,0,0,0,karaoke,{\k23}Win{\k22}kel {\k25}dei{\k23}ne {\k24}Bei{\k21}ne {\k32}an
+Comment: 0,0:00:59.03,0:01:00.80,Sample KM [Up],,0,0,0,karaoke,{\k25}Spann' {\k22}dein'n {\k24}Kör{\k24}per {\k21}wie {\k24}im {\k23}Bo{\k14}gen
+Comment: 0,0:01:00.90,0:01:02.69,Sample KM [Up],,0,0,0,karaoke,{\k24}Nimm {\k22}die {\k25}Fü{\k19}ße {\k27}in {\k22}die {\k40}Hand
+Comment: 0,0:01:03.20,0:01:03.64,Sample KM [Choir],,0,0,0,karaoke,{\k44}Was?
+Comment: 0,0:01:03.64,0:01:04.57,Sample KM [Up],,0,0,0,karaoke,{\k26}Auf {\k24}den {\k21}Bo{\k22}den
+Comment: 0,0:01:04.81,0:01:05.48,Sample KM [Choir],,0,0,0,karaoke,{\k24}Und {\k43}jetzt?
+Comment: 0,0:01:05.48,0:01:06.42,Sample KM [Up],,0,0,0,karaoke,{\k28}Dei{\k22}ne {\k25}Bei{\k19}ne
+Comment: 0,0:01:06.67,0:01:07.34,Sample KM [Choir],,0,0,0,karaoke,{\k23}Wo{\k44}hin?
+Comment: 0,0:01:07.34,0:01:08.25,Sample KM [Up],,0,0,0,karaoke,{\k23}In {\k21}die {\k47}Hand
+Comment: 0,0:01:08.52,0:01:09.12,Sample KM [Choir],,0,0,0,karaoke,{\k20}Und {\k40}dann?
+Comment: 0,0:01:09.43,0:01:10.13,Sample KM [Up],,0,0,0,karaoke,{\k25}Und {\k45}dann
+Comment: 0,0:01:10.13,0:01:11.73,Sample KM [Up],,0,0,0,karaoke,{\k22}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k23}be
+Comment: 0,0:01:11.95,0:01:13.58,Sample KM [Up],,0,0,0,karaoke,{\k24}Mach {\k24}die {\k23}Rob{\k45}be, {\k23}Rob{\k24}be
+Comment: 0,0:01:13.79,0:01:15.44,Sample KM [Up],,0,0,0,karaoke,{\k25}Mach {\k24}die {\k24}Rob{\k44}be, {\k24}Rob{\k24}be
+Comment: 0,0:01:15.88,0:01:17.36,Sample KM [Up],,0,0,0,karaoke,{\k21}Ich {\k24}weiß, {\k24}dass {\k20}du {\k26}das {\k33}kannst
+Comment: 0,0:01:17.50,0:01:19.12,Sample KM [Up],,0,0,0,karaoke,{\k25}Mach {\k22}die {\k23}Rob{\k46}be, {\k23}Rob{\k23}be
+Comment: 0,0:01:19.34,0:01:20.97,Sample KM [Up],,0,0,0,karaoke,{\k24}Mach {\k23}die {\k23}Rob{\k47}be, {\k23}Rob{\k23}be
+Comment: 0,0:01:21.19,0:01:22.81,Sample KM [Up],,0,0,0,karaoke,{\k23}Mach {\k24}die {\k24}Rob{\k45}be, {\k23}Rob{\k23}be
+Comment: 0,0:01:23.27,0:01:24.83,Sample KM [Up],,0,0,0,karaoke,{\k22}Ich {\k23}weiß, {\k23}dass {\k20}du {\k24}das {\k44}kannst
+Comment: 0,0:01:24.65,0:01:26.72,Sample KM [Up],,0,0,0,karaoke,{\k23}Ihr {\k24}Hob{\k23}by {\k21}ist {\k24}Schif{\k22}fe {\k20}ver{\k29}sen{\k21}ken
+Comment: 0,0:01:26.72,0:01:28.35,Sample KM [Up],,0,0,0,karaoke,{\k24}Da{\k20}rin {\k27}ist {\k23}sie {\k24}der {\k45}Boss
+Comment: 0,0:01:28.35,0:01:29.72,Sample KM [Up],,0,0,0,karaoke,{\k22}Im {\k25}Bäl{\k22}le {\k22}ba{\k19}lan{\k27}cier'n
+Comment: 0,0:01:29.72,0:01:32.01,Sample KM [Up],,0,0,0,karaoke,{\k23}Hat {\k24}nicht {\k21}mal {\k21}Ar{\k22}jen {\k24}Rob{\k25}ben {\k23}'ne {\k46}Chance
+Comment: 0,0:01:32.01,0:01:33.65,Sample KM [Up],,0,0,0,karaoke,{\k27}Dein {\k22}Hund {\k21}holt {\k24}dei{\k21}ne {\k26}Zei{\k23}tung
+Comment: 0,0:01:33.65,0:01:35.68,Sample KM [Up],,0,0,0,karaoke,{\k22}Sie {\k23}bringt {\k25}mor{\k22}gens {\k24}Saft {\k21}und {\k25}Crois{\k41}sants
+Comment: 0,0:01:35.68,0:01:37.81,Sample KM [Up],,0,0,0,karaoke,{\k28}Hasst {\k24}Kro{\k23}ko{\k22}di{\k20}le, {\k25}trotz{\k24}dem {\k25}trägt {\k22}sie
+Comment: 0,0:01:37.81,0:01:39.36,Sample KM [Up],,0,0,0,karaoke,{\k23}Manch{\k24}mal {\k24}heim{\k19}lich {\k24}La{\k41}coste
+Comment: 0,0:01:39.44,0:01:41.24,Sample KM [Up],,0,0,0,karaoke,{\k22}Mit-{\k11}mit-{\k12}mit-{\k23}mit {\k23}Ro{\k19}bin{\k26}son {\k24}Cru{\k20}soe
+Comment: 0,0:01:41.24,0:01:43.60,Sample KM [Up],,0,0,0,karaoke,{\k25}Er{\k23}kund' {\k26}ich {\k21}je{\k21}den {\k23}noch {\k23}so {\k25}fer{\k23}nen {\k26}Ort
+Comment: 0,0:01:43.60,0:01:45.19,Sample KM [Up],,0,0,0,karaoke,{\k21}Sie {\k24}macht {\k20}ein {\k26}La{\k22}ger{\k24}feu{\k22}er
+Comment: 0,0:01:45.19,0:01:47.26,Sample KM [Up],,0,0,0,karaoke,{\k25}Singt {\k22}mir {\k22}un{\k24}ter {\k24}den {\k24}Ster{\k22}nen {\k22}was {\k22}vor
+Comment: 0,0:01:47.26,0:01:48.88,Sample KM [Up],,0,0,0,karaoke,{\k25}Und {\k23}nach {\k21}drei {\k25}Ta{\k22}gen {\k24}hab' {\k22}ich
+Comment: 0,0:01:48.88,0:01:50.74,Sample KM [Up],,0,0,0,karaoke,{\k26}Die {\k21}Me{\k25}lo{\k21}die {\k24}noch {\k23}im {\k46}Ohr
+Comment: 0,0:01:50.95,0:01:52.35,Sample KM [Up],,0,0,0,karaoke,{\k23}Der {\k23}Sound {\k24}geht {\k47}„Uh, {\k23}uh“
+Comment: 0,0:01:52.35,0:01:54.44,Sample KM [Up],,0,0,0,karaoke,{\k21}Und {\k22}die {\k28}gan{\k17}ze {\k26}Hal{\k25}le {\k22}so {\k48}„Boah“
+Comment: 0,0:01:54.44,0:01:55.70,Sample KM [Up],,0,0,0,karaoke,{\k23}Leg' {\k18}dich {\k27}auf {\k22}den {\k22}Bo{\k14}den
+Comment: 0,0:01:56.25,0:01:57.91,Sample KM [Up],,0,0,0,karaoke,{\k24}Win{\k23}kel {\k24}dei{\k23}ne {\k24}Bei{\k23}ne {\k25}an
+Comment: 0,0:01:58.10,0:01:59.95,Sample KM [Up],,0,0,0,karaoke,{\k25}Spann' {\k23}dein'n {\k24}Kör{\k22}per {\k22}wie {\k25}im {\k24}Bo{\k20}gen
+Comment: 0,0:01:59.95,0:02:01.76,Sample KM [Up],,0,0,0,karaoke,{\k25}Nimm {\k24}die {\k20}Fü{\k22}ße {\k27}in {\k24}die {\k39}Hand
+Comment: 0,0:02:02.27,0:02:02.72,Sample KM [Choir],,0,0,0,karaoke,{\k45}Was?
+Comment: 0,0:02:02.72,0:02:03.63,Sample KM [Up],,0,0,0,karaoke,{\k25}Auf {\k24}den {\k22}Bo{\k20}den
+Comment: 0,0:02:03.90,0:02:04.57,Sample KM [Choir],,0,0,0,karaoke,{\k21}Und {\k46}jetzt?
+Comment: 0,0:02:04.57,0:02:05.48,Sample KM [Up],,0,0,0,karaoke,{\k25}Dei{\k23}ne {\k27}Bei{\k16}ne
+Comment: 0,0:02:05.75,0:02:06.41,Sample KM [Choir],,0,0,0,karaoke,{\k23}Wo{\k43}hin?
+Comment: 0,0:02:06.41,0:02:07.34,Sample KM [Up],,0,0,0,karaoke,{\k25}In {\k22}die {\k46}Hand
+Comment: 0,0:02:07.59,0:02:08.18,Sample KM [Choir],,0,0,0,karaoke,{\k21}Und {\k38}dann?
+Comment: 0,0:02:08.51,0:02:09.20,Sample KM [Up],,0,0,0,karaoke,{\k26}Und {\k43}dann
+Comment: 0,0:02:09.20,0:02:10.81,Sample KM [Up],,0,0,0,karaoke,{\k24}Mach {\k22}die {\k23}Rob{\k46}be, {\k23}Rob{\k23}be
+Comment: 0,0:02:11.03,0:02:12.65,Sample KM [Up],,0,0,0,karaoke,{\k25}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k22}be
+Comment: 0,0:02:12.88,0:02:14.51,Sample KM [Up],,0,0,0,karaoke,{\k24}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k24}be
+Comment: 0,0:02:14.94,0:02:16.47,Sample KM [Up],,0,0,0,karaoke,{\k22}Ich {\k23}weiß, {\k23}dass {\k23}du {\k24}das {\k38}kannst
+Comment: 0,0:02:16.58,0:02:18.20,Sample KM [Up],,0,0,0,karaoke,{\k25}Mach {\k22}die {\k23}Rob{\k46}be, {\k23}Rob{\k23}be
+Comment: 0,0:02:18.41,0:02:20.05,Sample KM [Up],,0,0,0,karaoke,{\k25}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k24}be
+Comment: 0,0:02:20.26,0:02:21.89,Sample KM [Up],,0,0,0,karaoke,{\k25}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k23}be
+Comment: 0,0:02:22.37,0:02:23.89,Sample KM [Up],,0,0,0,karaoke,{\k20}Ich {\k23}weiß, {\k23}dass {\k20}du {\k24}das {\k42}kannst
+Comment: 0,0:02:23.96,0:02:25.59,Sample KM [Up],,0,0,0,karaoke,{\k23}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k25}be
+Comment: 0,0:02:25.81,0:02:27.44,Sample KM [Up],,0,0,0,karaoke,{\k24}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k24}be
+Comment: 0,0:02:27.66,0:02:29.27,Sample KM [Up],,0,0,0,karaoke,{\k24}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k22}be
+Comment: 0,0:02:29.74,0:02:31.25,Sample KM [Up],,0,0,0,karaoke,{\k22}Ich {\k23}weiß, {\k23}dass {\k24}du {\k20}das {\k39}kannst
+Comment: 0,0:02:31.35,0:02:32.97,Sample KM [Up],,0,0,0,karaoke,{\k24}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k23}be
+Comment: 0,0:02:33.18,0:02:34.81,Sample KM [Up],,0,0,0,karaoke,{\k25}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k23}be
+Comment: 0,0:02:35.01,0:02:36.66,Sample KM [Up],,0,0,0,karaoke,{\k28}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k22}be
+Comment: 0,0:02:37.12,0:02:38.60,Sample KM [Up],,0,0,0,karaoke,{\k25}Ich {\k23}weiß, {\k23}dass {\k18}du {\k26}das {\k33}kannst
+Comment: 0,0:02:38.73,0:02:40.37,Sample KM [Up],,0,0,0,karaoke,{\k25}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k24}be
+Comment: 0,0:02:40.59,0:02:42.19,Sample KM [Up],,0,0,0,karaoke,{\k23}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k22}be
+Comment: 0,0:02:42.42,0:02:44.05,Sample KM [Up],,0,0,0,karaoke,{\k24}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k24}be
+Comment: 0,0:02:44.52,0:02:46.03,Sample KM [Up],,0,0,0,karaoke,{\k20}Ich {\k23}weiß, {\k23}dass {\k20}du {\k24}das {\k41}kannst
+Dialogue: 0,0:00:22.87,0:00:24.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Yeah
+Dialogue: 0,0:00:24.68,0:00:27.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Dein {\k19}Hund {\k25}frisst {\k27}dei{\k20}ne {\k23}Haus{\k24}auf{\k13}ga{\k12}ben
+Dialogue: 0,0:00:26.55,0:00:29.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wäh{\k24}rend {\k23}die {\k21}Rob{\k22}be {\k26}mei{\k23}ne {\k36}macht
+Dialogue: 0,0:00:28.60,0:00:31.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Sie {\k24}muss {\k23}nie{\k21}mals {\k24}drau{\k23}ßen {\k23}war{\k22}ten
+Dialogue: 0,0:00:30.44,0:00:33.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Vor {\k24}den {\k23}Shops {\k25}in {\k22}dei{\k26}ner {\k49}Stadt
+Dialogue: 0,0:00:32.49,0:00:34.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Isst {\k21}mit {\k24}den {\k23}Stäb{\k24}chen
+Dialogue: 0,0:00:33.67,0:00:36.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Hun{\k22}dert {\k23}Ki{\k24}lo {\k21}Su{\k24}shi {\k24}an {\k20}'nem {\k37}Tag
+Dialogue: 0,0:00:35.98,0:00:38.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Bleibt {\k22}in {\k46}shape {\k20}wie {\k24}ein {\k24}Foot{\k24}ball
+Dialogue: 0,0:00:37.83,0:00:40.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Mo{\k26}dels {\k22}fra{\k22}gen {\k25}sie {\k23}nach {\k42}Rat
+Dialogue: 0,0:00:39.94,0:00:42.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Sie {\k24}krei{\k21}schen, {\k44}woll'n {\k25}Sel{\k22}fie
+Dialogue: 0,0:00:41.50,0:00:44.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Wenn {\k22}sie {\k24}uns {\k22}bei{\k24}de {\k53}seh'n
+Dialogue: 0,0:00:43.37,0:00:45.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Wenn {\k21}die {\k25}Knopf{\k21}au{\k26}gen
+Dialogue: 0,0:00:44.54,0:00:47.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Die {\k22}Au{\k22}gen {\k25}al{\k23}ler {\k23}Mäd{\k24}chen {\k22}ver{\k52}dreh'n
+Dialogue: 0,0:00:47.07,0:00:50.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Nie{\k21}mand {\k25}kann {\k20}wi{\k25}der{\k70}steh'n
+Dialogue: 0,0:00:48.91,0:00:51.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Doch {\k25}sie {\k24}kann {\k21}nicht {\k25}mal {\k45}steh'n
+Dialogue: 0,0:00:50.53,0:00:53.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Bei {\k23}Ki{\k23}ki-{\k25}Chal{\k22}lenge {\k23}fiel {\k24}sie {\k23}um
+Dialogue: 0,0:00:52.38,0:00:55.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Und {\k24}war {\k22}zehn {\k24}Ta{\k20}ge {\k27}ge{\k61}lähmt
+Dialogue: 0,0:00:54.44,0:00:56.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Leg' {\k19}dich {\k27}auf {\k24}den {\k22}Bo{\k22}den
+Dialogue: 0,0:00:56.29,0:00:59.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Win{\k22}kel {\k25}dei{\k23}ne {\k24}Bei{\k21}ne {\k32}an
+Dialogue: 0,0:00:58.13,0:01:01.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Spann' {\k22}dein'n {\k24}Kör{\k24}per {\k21}wie {\k24}im {\k23}Bo{\k14}gen
+Dialogue: 0,0:01:00.00,0:01:02.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Nimm {\k22}die {\k25}Fü{\k19}ße {\k27}in {\k22}die {\k40}Hand
+Dialogue: 0,0:01:02.30,0:01:03.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Was?
+Dialogue: 0,0:01:02.74,0:01:04.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Auf {\k24}den {\k21}Bo{\k22}den
+Dialogue: 0,0:01:03.91,0:01:05.68,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Und {\k43}jetzt?
+Dialogue: 0,0:01:04.58,0:01:06.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Dei{\k22}ne {\k25}Bei{\k19}ne
+Dialogue: 0,0:01:05.77,0:01:07.54,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wo{\k44}hin?
+Dialogue: 0,0:01:06.44,0:01:08.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}In {\k21}die {\k47}Hand
+Dialogue: 0,0:01:07.62,0:01:09.32,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Und {\k40}dann?
+Dialogue: 0,0:01:08.53,0:01:10.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Und {\k45}dann
+Dialogue: 0,0:01:09.23,0:01:11.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k23}be
+Dialogue: 0,0:01:11.05,0:01:13.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Mach {\k24}die {\k23}Rob{\k45}be, {\k23}Rob{\k24}be
+Dialogue: 0,0:01:12.89,0:01:15.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Mach {\k24}die {\k24}Rob{\k44}be, {\k24}Rob{\k24}be
+Dialogue: 0,0:01:14.98,0:01:17.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Ich {\k24}weiß, {\k24}dass {\k20}du {\k26}das {\k33}kannst
+Dialogue: 0,0:01:16.60,0:01:19.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Mach {\k22}die {\k23}Rob{\k46}be, {\k23}Rob{\k23}be
+Dialogue: 0,0:01:18.44,0:01:21.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Mach {\k23}die {\k23}Rob{\k47}be, {\k23}Rob{\k23}be
+Dialogue: 0,0:01:20.29,0:01:23.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Mach {\k24}die {\k24}Rob{\k45}be, {\k23}Rob{\k23}be
+Dialogue: 0,0:01:22.37,0:01:25.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ich {\k23}weiß, {\k23}dass {\k20}du {\k24}das {\k44}kannst
+Dialogue: 0,0:01:23.75,0:01:26.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ihr {\k24}Hob{\k23}by {\k21}ist {\k24}Schif{\k22}fe {\k20}ver{\k29}sen{\k21}ken
+Dialogue: 0,0:01:25.82,0:01:28.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Da{\k20}rin {\k27}ist {\k23}sie {\k24}der {\k45}Boss
+Dialogue: 0,0:01:27.45,0:01:29.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Im {\k25}Bäl{\k22}le {\k22}ba{\k19}lan{\k27}cier'n
+Dialogue: 0,0:01:28.82,0:01:32.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Hat {\k24}nicht {\k21}mal {\k21}Ar{\k22}jen {\k24}Rob{\k25}ben {\k23}'ne {\k46}Chance
+Dialogue: 0,0:01:31.11,0:01:33.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Dein {\k22}Hund {\k21}holt {\k24}dei{\k21}ne {\k26}Zei{\k23}tung
+Dialogue: 0,0:01:32.75,0:01:35.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Sie {\k23}bringt {\k25}mor{\k22}gens {\k24}Saft {\k21}und {\k25}Crois{\k41}sants
+Dialogue: 0,0:01:34.78,0:01:38.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Hasst {\k24}Kro{\k23}ko{\k22}di{\k20}le, {\k25}trotz{\k24}dem {\k25}trägt {\k22}sie
+Dialogue: 0,0:01:36.91,0:01:39.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Manch{\k24}mal {\k24}heim{\k19}lich {\k24}La{\k41}coste
+Dialogue: 0,0:01:38.54,0:01:41.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Mit-{\k11}mit-{\k12}mit-{\k23}mit {\k23}Ro{\k19}bin{\k26}son {\k24}Cru{\k20}soe
+Dialogue: 0,0:01:40.34,0:01:43.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Er{\k23}kund' {\k26}ich {\k21}je{\k21}den {\k23}noch {\k23}so {\k25}fer{\k23}nen {\k26}Ort
+Dialogue: 0,0:01:42.70,0:01:45.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Sie {\k24}macht {\k20}ein {\k26}La{\k22}ger{\k24}feu{\k22}er
+Dialogue: 0,0:01:44.29,0:01:47.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Singt {\k22}mir {\k22}un{\k24}ter {\k24}den {\k24}Ster{\k22}nen {\k22}was {\k22}vor
+Dialogue: 0,0:01:46.36,0:01:49.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Und {\k23}nach {\k21}drei {\k25}Ta{\k22}gen {\k24}hab' {\k22}ich
+Dialogue: 0,0:01:47.98,0:01:50.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Die {\k21}Me{\k25}lo{\k21}die {\k24}noch {\k23}im {\k46}Ohr
+Dialogue: 0,0:01:50.05,0:01:52.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Der {\k23}Sound {\k24}geht {\k47}„Uh, {\k23}uh“
+Dialogue: 0,0:01:51.45,0:01:54.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Und {\k22}die {\k28}gan{\k17}ze {\k26}Hal{\k25}le {\k22}so {\k48}„Boah“
+Dialogue: 0,0:01:53.54,0:01:55.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Leg' {\k18}dich {\k27}auf {\k22}den {\k22}Bo{\k14}den
+Dialogue: 0,0:01:55.35,0:01:58.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Win{\k23}kel {\k24}dei{\k23}ne {\k24}Bei{\k23}ne {\k25}an
+Dialogue: 0,0:01:57.20,0:02:00.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Spann' {\k23}dein'n {\k24}Kör{\k22}per {\k22}wie {\k25}im {\k24}Bo{\k20}gen
+Dialogue: 0,0:01:59.05,0:02:01.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Nimm {\k24}die {\k20}Fü{\k22}ße {\k27}in {\k24}die {\k39}Hand
+Dialogue: 0,0:02:01.37,0:02:02.92,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Was?
+Dialogue: 0,0:02:01.82,0:02:03.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Auf {\k24}den {\k22}Bo{\k20}den
+Dialogue: 0,0:02:03.00,0:02:04.77,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Und {\k46}jetzt?
+Dialogue: 0,0:02:03.67,0:02:05.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Dei{\k23}ne {\k27}Bei{\k16}ne
+Dialogue: 0,0:02:04.85,0:02:06.61,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Wo{\k43}hin?
+Dialogue: 0,0:02:05.51,0:02:07.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}In {\k22}die {\k46}Hand
+Dialogue: 0,0:02:06.69,0:02:08.38,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Und {\k38}dann?
+Dialogue: 0,0:02:07.61,0:02:09.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Und {\k43}dann
+Dialogue: 0,0:02:08.30,0:02:11.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Mach {\k22}die {\k23}Rob{\k46}be, {\k23}Rob{\k23}be
+Dialogue: 0,0:02:10.13,0:02:12.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k22}be
+Dialogue: 0,0:02:11.98,0:02:14.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k24}be
+Dialogue: 0,0:02:14.04,0:02:16.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ich {\k23}weiß, {\k23}dass {\k23}du {\k24}das {\k38}kannst
+Dialogue: 0,0:02:15.68,0:02:18.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Mach {\k22}die {\k23}Rob{\k46}be, {\k23}Rob{\k23}be
+Dialogue: 0,0:02:17.51,0:02:20.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k24}be
+Dialogue: 0,0:02:19.36,0:02:22.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k23}be
+Dialogue: 0,0:02:21.47,0:02:24.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ich {\k23}weiß, {\k23}dass {\k20}du {\k24}das {\k42}kannst
+Dialogue: 0,0:02:23.06,0:02:25.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k25}be
+Dialogue: 0,0:02:24.91,0:02:27.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k24}be
+Dialogue: 0,0:02:26.76,0:02:29.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k22}be
+Dialogue: 0,0:02:28.84,0:02:31.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ich {\k23}weiß, {\k23}dass {\k24}du {\k20}das {\k39}kannst
+Dialogue: 0,0:02:30.45,0:02:33.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k23}be
+Dialogue: 0,0:02:32.28,0:02:35.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k23}be
+Dialogue: 0,0:02:34.11,0:02:36.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k22}be
+Dialogue: 0,0:02:36.22,0:02:38.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ich {\k23}weiß, {\k23}dass {\k18}du {\k26}das {\k33}kannst
+Dialogue: 0,0:02:37.83,0:02:40.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k24}be
+Dialogue: 0,0:02:39.69,0:02:42.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k22}be
+Dialogue: 0,0:02:41.52,0:02:44.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Mach {\k23}die {\k23}Rob{\k46}be, {\k23}Rob{\k24}be
+Dialogue: 0,0:02:43.62,0:02:46.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ich {\k23}weiß, {\k23}dass {\k20}du {\k24}das {\k41}kannst
