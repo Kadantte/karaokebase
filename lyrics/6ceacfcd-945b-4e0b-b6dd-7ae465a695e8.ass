@@ -1,157 +1,149 @@
 ﻿[Script Info]
+; https://aegisub.org/
 Title: Live and Learn
 ScriptType: v4.00+
 WrapStyle: 0
-ScaledBorderAndShadow: yes
-YCbCr Matrix: TV.601
 PlayResX: 0
 PlayResY: 0
-Original Timing: Saikyo
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,24,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,10,10,10,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:30.49,0:00:32.49,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 1,0:00:32.49,0:00:35.15,Default,,0,0,0,karaoke,{\kf13}Can {\kf8}{\kf8}you {\kf4}{\kf113}feel {\kf13}{\kf108}life
-Comment: 1,0:00:35.57,0:00:37.91,Default,,0,0,0,karaoke,{\kf17}Mo{\kf8}{\kf17}ving {\kf17}{\kf29}through {\kf8}{\kf21}your {\kf13}{\kf104}mind?
-Comment: 1,0:00:38.78,0:00:39.91,Default,,0,0,0,karaoke,{\kf113}Oooooh
-Comment: 1,0:00:39.99,0:00:42.37,Default,,0,0,0,karaoke,{\kf8}Looks {\kf13}{\kf8}like {\kf4}{\kf13}it {\kf8}{\kf8}came {\kf8}{\kf8}back {\kf8}{\kf8}for {\kf8}{\kf133}more
-Comment: 1,0:00:42.58,0:00:43.49,Default,,0,0,0,karaoke,{\kf25}Ye{\kf8}{\kf25}a{\kf13}{\kf21}h
-Comment: 1,0:00:43.62,0:00:46.33,Default,,0,0,0,karaoke,{\kf13}Can {\kf4}{\kf13}you {\kf4}{\kf117}feel {\kf8}{\kf113}time
-Comment: 1,0:00:46.71,0:00:49.17,Default,,0,0,0,karaoke,{\kf13}Slip{\kf8}{\kf21}pin' {\kf17}{\kf25}down {\kf13}{\kf21}your {\kf13}{\kf117}spine?
-Comment: 1,0:00:50.08,0:00:51.17,Default,,0,0,0,karaoke,{\kf108}Oooooh
-Comment: 1,0:00:51.21,0:00:53.50,Default,,0,0,0,karaoke,{\kf8}You {\kf8}{\kf8}try {\kf8}{\kf8}and {\kf8}{\kf8}try {\kf13}{\kf8}to {\kf13}{\kf4}i{\kf8}{\kf125}gnore
-Comment: 1,0:00:53.71,0:00:55.05,Default,,0,0,0,karaoke,{\kf133}Yeah
-Comment: 1,0:00:55.84,0:01:00.72,Default,,0,0,0,karaoke,{\kf50}But {\kf17}{\kf50}you {\kf17}{\kf50}can {\kf21}{\kf50}har{\kf17}{\kf50}dly {\kf21}{\kf33}swal{\kf21}{\kf92}low
-Comment: 1,0:01:01.38,0:01:05.89,Default,,0,0,0,karaoke,{\kf54}Your {\kf13}{\kf71}fears {\kf13}{\kf38}and {\kf21}{\kf242}pain
-Comment: 1,0:01:06.97,0:01:12.14,Default,,0,0,0,karaoke,{\kf46}When {\kf17}{\kf50}you {\kf21}{\kf63}can't {\kf17}{\kf50}help {\kf17}{\kf50}but {\kf21}{\kf38}fol{\kf13}{\kf117}low
-Comment: 1,0:01:12.73,0:01:17.19,Default,,0,0,0,karaoke,{\kf13}It {\kf8}{\kf13}puts {\kf8}{\kf13}you {\kf4}{\kf21}right {\kf13}{\kf21}back {\kf17}{\kf8}where {\kf13}{\kf17}you {\kf13}{\kf267}came
-Comment: 1,0:01:19.57,0:01:21.32,Default,,0,0,0,karaoke,{\kf17}Live {\kf4}{\kf21}and {\kf13}{\kf121}Learn
-Comment: 1,0:01:21.65,0:01:24.95,Default,,0,0,0,karaoke,{\kf17}Han{\kf8}{\kf21}ging {\kf17}{\kf17}on {\kf13}{\kf25}the {\kf13}{\kf33}edge {\kf8}{\kf13}of {\kf13}{\kf8}to{\kf13}{\kf17}mor{\kf13}{\kf83}row
-Comment: 1,0:01:25.15,0:01:26.95,Default,,0,0,0,karaoke,{\kf13}Live {\kf8}{\kf13}and {\kf13}{\kf133}Learn
-Comment: 1,0:01:26.57,0:01:30.41,Default,,0,0,0,karaoke,{\kf17}From {\kf17}{\kf17}the {\kf17}{\kf17}works {\kf21}{\kf8}of {\kf8}{\kf21}yes{\kf13}{\kf33}ter{\kf13}{\kf183}day
-Comment: 1,0:01:30.70,0:01:32.45,Default,,0,0,0,karaoke,{\kf13}Live {\kf8}{\kf17}and {\kf17}{\kf121}Learn
-Comment: 1,0:01:32.83,0:01:36.21,Default,,0,0,0,karaoke,{\kf13}If {\kf8}{\kf21}you {\kf13}{\kf25}beg {\kf13}{\kf25}or {\kf17}{\kf21}if {\kf13}{\kf17}you {\kf13}{\kf21}bor{\kf8}{\kf113}row
-Comment: 1,0:01:36.29,0:01:37.91,Default,,0,0,0,karaoke,{\kf8}Live {\kf13}{\kf17}and {\kf13}{\kf113}Learn
-Comment: 1,0:01:37.75,0:01:43.25,Default,,0,0,0,karaoke,{\kf17}You {\kf13}{\kf21}may {\kf17}{\kf17}ne{\kf17}{\kf8}ver {\kf8}{\kf25}find {\kf8}{\kf46}your {\kf13}{\kf342}way
-Comment: 1,0:01:43.71,0:01:46.63,Default,,0,0,0,karaoke,{\kf83}Wha{\kf8}{\kf58}oh, {\kf13}{\kf54}oh, {\kf17}{\kf58}oh
-Comment: 1,0:01:46.76,0:01:47.88,Default,,0,0,0,karaoke,{\kf113}Yeah
-Comment: 1,0:01:49.22,0:01:51.97,Default,,0,0,0,karaoke,{\kf8}Can {\kf8}{\kf8}you {\kf8}{\kf117}feel {\kf8}{\kf117}life
-Comment: 1,0:01:52.26,0:01:54.80,Default,,0,0,0,karaoke,{\kf17}Tan{\kf8}{\kf29}gle {\kf13}{\kf13}you {\kf4}{\kf13}up {\kf4}{\kf13}in{\kf8}{\kf133}side?
-Comment: 1,0:01:55.05,0:01:55.85,Default,,0,0,0,karaoke,{\kf79}Yeah
-Comment: 1,0:01:56.26,0:01:58.97,Default,,0,0,0,karaoke,{\kf33}Now {\kf13}{\kf8}you're {\kf8}{\kf21}face {\kf17}{\kf8}down {\kf8}{\kf8}on {\kf8}{\kf8}the {\kf8}{\kf121}floor!
-Comment: 1,0:01:59.35,0:02:00.68,Default,,0,0,0,karaoke,{\kf133}Oh
-Comment: 1,0:02:01.35,0:02:06.15,Default,,0,0,0,karaoke,{\kf50}But {\kf21}{\kf54}you {\kf21}{\kf46}can't {\kf21}{\kf50}save {\kf21}{\kf50}your {\kf17}{\kf38}sor{\kf17}{\kf75}row
-Comment: 1,0:02:06.98,0:02:11.65,Default,,0,0,0,karaoke,{\kf58}You've {\kf13}{\kf63}paid {\kf13}{\kf42}in {\kf21}{\kf259}trade
-Comment: 1,0:02:12.57,0:02:17.66,Default,,0,0,0,karaoke,{\kf46}When {\kf21}{\kf46}you {\kf25}{\kf50}can't {\kf17}{\kf58}help {\kf13}{\kf54}but {\kf17}{\kf42}fol{\kf8}{\kf113}low!
-Comment: 1,0:02:18.24,0:02:19.55,Default,,0,0,0,karaoke,{\kf13}It {\kf13}{\kf8}puts {\kf8}{\kf8}you {\kf13}{\kf17}right {\kf13}{\kf21}back {\kf17}
-Comment: 1,0:02:19.55,0:02:22.83,Default,,0,0,0,karaoke,{\kf13}where {\kf8}{\kf21}you {\kf13}{\kf275}came
-Comment: 1,0:02:25.16,0:02:26.91,Default,,0,0,0,karaoke,{\kf13}Live {\kf8}{\kf17}and {\kf13}{\kf125}Learn
-Comment: 1,0:02:27.25,0:02:30.50,Default,,0,0,0,karaoke,{\kf13}Han{\kf8}{\kf21}ging {\kf13}{\kf21}on {\kf13}{\kf25}the {\kf8}{\kf42}edge {\kf8}{\kf13}of {\kf8}{\kf13}to{\kf8}{\kf17}mor{\kf13}{\kf83}row
-Comment: 1,0:02:30.71,0:02:32.42,Default,,0,0,0,karaoke,{\kf13}Live {\kf8}{\kf13}and {\kf17}{\kf121}Learn
-Comment: 1,0:02:32.09,0:02:35.80,Default,,0,0,0,karaoke,{\kf21}From {\kf13}{\kf25}the {\kf13}{\kf21}works {\kf17}{\kf8}of {\kf13}{\kf17}yes{\kf13}{\kf38}ter{\kf13}{\kf163}day
-Comment: 1,0:02:36.26,0:02:38.22,Default,,0,0,0,karaoke,{\kf17}Live {\kf4}{\kf21}and {\kf17}{\kf138}Learn
-Comment: 1,0:02:38.38,0:02:41.80,Default,,0,0,0,karaoke,{\kf17}If {\kf8}{\kf21}you {\kf8}{\kf29}beg {\kf13}{\kf25}or {\kf8}{\kf21}if {\kf13}{\kf21}you {\kf13}{\kf17}bor{\kf13}{\kf117}row
-Comment: 1,0:02:41.84,0:02:43.64,Default,,0,0,0,karaoke,{\kf17}Live {\kf4}{\kf17}and {\kf13}{\kf129}Learn
-Comment: 1,0:02:43.18,0:02:48.35,Default,,0,0,0,karaoke,{\kf25}You {\kf13}{\kf21}may {\kf21}{\kf13}ne{\kf13}{\kf13}ver {\kf13}{\kf13}find {\kf17}{\kf38}your {\kf21}{\kf300}way
-Comment: 1,0:02:52.35,0:02:58.07,Default,,0,0,0,karaoke,{\kf104}Whoa, {\kf13}{\kf100}whoa, {\kf13}{\kf29}OH {\kf17}{\kf296}YEAH!
-Comment: 1,0:03:04.86,0:03:07.32,Default,,0,0,0,karaoke,{\kf21}YEAH {\kf17}{\kf21}YEAH {\kf13}{\kf25}YEAH {\kf13}{\kf21}YEAH {\kf13}{\kf104}YEAH
-Comment: 1,0:03:17.41,0:03:21.26,Default,,0,0,0,karaoke,{\kf8}T{\kf8}{\kf88}here's {\kf8}{\kf21}a {\kf13}{\kf42}face {\kf8}{\kf33}sear{\kf17}{\kf21}chin' {\kf13}{\kf92}far, {\kf13}
-Comment: 1,0:03:21.26,0:03:22.75,Default,,0,0,0,karaoke,{\kf25}so {\kf13}{\kf17}far {\kf17}{\kf13}and {\kf8}{\kf58}wide
-Comment: 1,0:03:23.17,0:03:26.93,Default,,0,0,0,karaoke,{\kf83}There's {\kf8}{\kf21}a {\kf17}{\kf33}place {\kf13}{\kf33}where {\kf17}{\kf21}you {\kf17}{\kf100}dreamed {\kf13}
-Comment: 1,0:03:26.93,0:03:28.34,Default,,0,0,0,karaoke,{\kf21}you'd {\kf13}{\kf17}ne{\kf13}{\kf13}ver {\kf4}{\kf63}find
-Comment: 1,0:03:28.55,0:03:31.26,Default,,0,0,0,karaoke,{\kf38}Hold {\kf17}{\kf33}on {\kf25}{\kf25}to {\kf13}{\kf38}what {\kf13}{\kf71}if!
-Comment: 1,0:03:31.43,0:03:34.26,Default,,0,0,0,karaoke,{\kf38}Hold {\kf13}{\kf29}on {\kf17}{\kf25}to {\kf13}{\kf33}what {\kf17}{\kf100}if!
-Comment: 1,0:03:36.31,0:03:38.14,Default,,0,0,0,karaoke,{\kf8}Live {\kf8}{\kf21}and {\kf17}{\kf129}Learn
-Comment: 1,0:03:38.35,0:03:41.64,Default,,0,0,0,karaoke,{\kf21}Han{\kf8}{\kf21}ging {\kf13}{\kf21}on {\kf8}{\kf29}the {\kf8}{\kf42}edge {\kf8}{\kf8}of {\kf13}{\kf8}to{\kf8}{\kf21}mor{\kf8}{\kf83}row
-Comment: 1,0:03:41.85,0:03:43.27,Default,,0,0,0,karaoke,{\kf13}Live {\kf4}{\kf21}and {\kf13}{\kf92}Learn
-Comment: 1,0:03:43.35,0:03:47.11,Default,,0,0,0,karaoke,{\kf17}From {\kf13}{\kf17}the {\kf17}{\kf21}works {\kf17}{\kf8}of {\kf8}{\kf17}yes{\kf8}{\kf46}ter{\kf8}{\kf179}day
-Comment: 1,0:03:47.40,0:03:49.27,Default,,0,0,0,karaoke,{\kf13}Live {\kf8}{\kf21}and {\kf13}{\kf133}Learn
-Comment: 1,0:03:49.52,0:03:52.99,Default,,0,0,0,karaoke,{\kf13}If {\kf8}{\kf21}you {\kf13}{\kf21}beg {\kf17}{\kf25}or {\kf13}{\kf21}if {\kf8}{\kf21}you {\kf13}{\kf25}bor{\kf8}{\kf121}row
-Comment: 1,0:03:53.07,0:03:54.74,Default,,0,0,0,karaoke,{\kf13}Live {\kf8}{\kf17}and {\kf13}{\kf117}Learn
-Comment: 1,0:03:54.40,0:03:57.99,Default,,0,0,0,karaoke,{\kf21}You {\kf13}{\kf21}may {\kf17}{\kf17}ne{\kf13}{\kf13}ver {\kf8}{\kf21}find {\kf13}{\kf42}your {\kf13}{\kf150}way
-Comment: 1,0:03:59.28,0:04:01.12,Default,,0,0,0,karaoke,{\kf13}Live {\kf8}{\kf17}and {\kf17}{\kf129}Learn
-Comment: 1,0:04:01.41,0:04:04.87,Default,,0,0,0,karaoke,{\kf21}Han{\kf8}{\kf21}ging {\kf8}{\kf21}on {\kf8}{\kf29}the {\kf8}{\kf42}edge {\kf8}{\kf13}of {\kf8}{\kf13}to{\kf8}{\kf17}mor{\kf8}{\kf104}row
-Comment: 1,0:04:04.95,0:04:06.58,Default,,0,0,0,karaoke,{\kf13}Live {\kf4}{\kf21}and {\kf8}{\kf117}Learn
-Comment: 1,0:04:06.25,0:04:09.79,Default,,0,0,0,karaoke,{\kf21}From {\kf13}{\kf25}the {\kf17}{\kf25}works {\kf8}{\kf13}of {\kf4}{\kf21}yes{\kf13}{\kf46}ter{\kf8}{\kf142}day
-Comment: 1,0:04:10.46,0:04:12.29,Default,,0,0,0,karaoke,{\kf13}Live {\kf8}{\kf21}and {\kf8}{\kf133}Learn
-Comment: 1,0:04:12.71,0:04:16.09,Default,,0,0,0,karaoke,{\kf4}If {\kf8}{\kf8}you {\kf17}{\kf25}beg {\kf13}{\kf29}or {\kf13}{\kf33}if {\kf8}{\kf17}you {\kf17}{\kf17}bor{\kf13}{\kf117}row
-Comment: 1,0:04:16.13,0:04:17.76,Default,,0,0,0,karaoke,{\kf17}Live {\kf4}{\kf17}and {\kf13}{\kf113}Learn
-Comment: 1,0:04:17.38,0:04:23.89,Default,,0,0,0,karaoke,{\kf25}You {\kf17}{\kf17}may {\kf17}{\kf58}ne{\kf8}{\kf54}ver {\kf17}{\kf67}find {\kf8}{\kf46}your {\kf21}{\kf296}way
-Comment: 1,0:04:27.22,0:04:29.12,Default,,0,0,0,karaoke,{\kf30}Live {\kf34}and {\kf93}Learn
-Comment: 1,0:04:30.87,0:04:32.86,Default,,0,0,0,karaoke,{\kf21}YEAH {\kf17}{\kf21}YEAH {\kf13}{\kf25}YEAH {\kf13}{\kf21}YEAH {\kf13}{\kf104}YEAH
-Comment: 1,0:04:32.45,0:04:34.46,Default,,0,0,0,karaoke,{\kf30}Live {\kf34}and {\kf93}Learn
-Comment: 1,0:04:36.50,0:04:38.49,Default,,0,0,0,karaoke,{\kf21}YEAH {\kf17}{\kf21}YEAH {\kf13}{\kf25}YEAH {\kf13}{\kf21}YEAH {\kf13}{\kf104}YEAH
-Dialogue: 0,0:00:31.59,0:00:35.35,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}Can {\kf8}{\kf8}you {\kf4}{\kf113}feel {\kf13}{\kf108}life
-Dialogue: 0,0:00:34.67,0:00:38.11,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf17}Mo{\kf8}{\kf17}ving {\kf17}{\kf29}through {\kf8}{\kf21}your {\kf13}{\kf104}mind?
-Dialogue: 0,0:00:37.88,0:00:40.11,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf113}Oooooh
-Dialogue: 0,0:00:39.09,0:00:42.57,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf8}Looks {\kf13}{\kf8}like {\kf4}{\kf13}it {\kf8}{\kf8}came {\kf8}{\kf8}back {\kf8}{\kf8}for {\kf8}{\kf133}more
-Dialogue: 0,0:00:41.68,0:00:43.69,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf25}Ye{\kf8}{\kf25}a{\kf13}{\kf21}h
-Dialogue: 0,0:00:42.72,0:00:46.53,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}Can {\kf4}{\kf13}you {\kf4}{\kf117}feel {\kf8}{\kf113}time
-Dialogue: 0,0:00:45.81,0:00:49.37,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}Slip{\kf8}{\kf21}pin' {\kf17}{\kf25}down {\kf13}{\kf21}your {\kf13}{\kf117}spine?
-Dialogue: 0,0:00:49.18,0:00:51.37,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf108}Oooooh
-Dialogue: 0,0:00:50.31,0:00:53.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf8}You {\kf8}{\kf8}try {\kf8}{\kf8}and {\kf8}{\kf8}try {\kf13}{\kf8}to {\kf13}{\kf4}i{\kf8}{\kf125}gnore
-Dialogue: 0,0:00:52.81,0:00:55.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf133}Yeah
-Dialogue: 0,0:00:54.94,0:01:00.92,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf50}But {\kf17}{\kf50}you {\kf17}{\kf50}can {\kf21}{\kf50}har{\kf17}{\kf50}dly {\kf21}{\kf33}swal{\kf21}{\kf92}low
-Dialogue: 0,0:01:00.48,0:01:06.09,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf54}Your {\kf13}{\kf71}fears {\kf13}{\kf38}and {\kf21}{\kf242}pain
-Dialogue: 0,0:01:06.07,0:01:12.34,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf46}When {\kf17}{\kf50}you {\kf21}{\kf63}can't {\kf17}{\kf50}help {\kf17}{\kf50}but {\kf21}{\kf38}fol{\kf13}{\kf117}low
-Dialogue: 0,0:01:11.83,0:01:17.39,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}It {\kf8}{\kf13}puts {\kf8}{\kf13}you {\kf4}{\kf21}right {\kf13}{\kf21}back {\kf17}{\kf8}where {\kf13}{\kf17}you {\kf13}{\kf267}came
-Dialogue: 0,0:01:18.67,0:01:21.52,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf17}Live {\kf4}{\kf21}and {\kf13}{\kf121}Learn
-Dialogue: 0,0:01:20.75,0:01:25.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf17}Han{\kf8}{\kf21}ging {\kf17}{\kf17}on {\kf13}{\kf25}the {\kf13}{\kf33}edge {\kf8}{\kf13}of {\kf13}{\kf8}to{\kf13}{\kf17}mor{\kf13}{\kf83}row
-Dialogue: 0,0:01:24.25,0:01:27.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}Live {\kf8}{\kf13}and {\kf13}{\kf133}Learn
-Dialogue: 0,0:01:25.67,0:01:30.61,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf17}From {\kf17}{\kf17}the {\kf17}{\kf17}works {\kf21}{\kf8}of {\kf8}{\kf21}yes{\kf13}{\kf33}ter{\kf13}{\kf183}day
-Dialogue: 0,0:01:29.80,0:01:32.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}Live {\kf8}{\kf17}and {\kf17}{\kf121}Learn
-Dialogue: 0,0:01:31.93,0:01:36.41,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}If {\kf8}{\kf21}you {\kf13}{\kf25}beg {\kf13}{\kf25}or {\kf17}{\kf21}if {\kf13}{\kf17}you {\kf13}{\kf21}bor{\kf8}{\kf113}row
-Dialogue: 0,0:01:35.39,0:01:38.11,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf8}Live {\kf13}{\kf17}and {\kf13}{\kf113}Learn
-Dialogue: 0,0:01:36.85,0:01:43.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf17}You {\kf13}{\kf21}may {\kf17}{\kf17}ne{\kf17}{\kf8}ver {\kf8}{\kf25}find {\kf8}{\kf46}your {\kf13}{\kf342}way
-Dialogue: 0,0:01:42.81,0:01:46.83,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf83}Wha{\kf8}{\kf58}oh, {\kf13}{\kf54}oh, {\kf17}{\kf58}oh
-Dialogue: 0,0:01:45.86,0:01:48.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf113}Yeah
-Dialogue: 0,0:01:48.32,0:01:52.17,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf8}Can {\kf8}{\kf8}you {\kf8}{\kf117}feel {\kf8}{\kf117}life
-Dialogue: 0,0:01:51.36,0:01:55.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf17}Tan{\kf8}{\kf29}gle {\kf13}{\kf13}you {\kf4}{\kf13}up {\kf4}{\kf13}in{\kf8}{\kf133}side?
-Dialogue: 0,0:01:54.15,0:01:56.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf79}Yeah
-Dialogue: 0,0:01:55.36,0:01:59.17,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf33}Now {\kf13}{\kf8}you're {\kf8}{\kf21}face {\kf17}{\kf8}down {\kf8}{\kf8}on {\kf8}{\kf8}the {\kf8}{\kf121}floor!
-Dialogue: 0,0:01:58.45,0:02:00.88,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf133}Oh
-Dialogue: 0,0:02:00.45,0:02:06.35,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf50}But {\kf21}{\kf54}you {\kf21}{\kf46}can't {\kf21}{\kf50}save {\kf21}{\kf50}your {\kf17}{\kf38}sor{\kf17}{\kf75}row
-Dialogue: 0,0:02:06.08,0:02:11.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf58}You've {\kf13}{\kf63}paid {\kf13}{\kf42}in {\kf21}{\kf259}trade
-Dialogue: 0,0:02:11.67,0:02:17.86,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf46}When {\kf21}{\kf46}you {\kf25}{\kf50}can't {\kf17}{\kf58}help {\kf13}{\kf54}but {\kf17}{\kf42}fol{\kf8}{\kf113}low!
-Dialogue: 0,0:02:17.34,0:02:19.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}It {\kf13}{\kf8}puts {\kf8}{\kf8}you {\kf13}{\kf17}right {\kf13}{\kf21}back {\kf17}
-Dialogue: 0,0:02:18.65,0:02:23.03,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}where {\kf8}{\kf21}you {\kf13}{\kf275}came
-Dialogue: 0,0:02:24.26,0:02:27.11,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}Live {\kf8}{\kf17}and {\kf13}{\kf125}Learn
-Dialogue: 0,0:02:26.35,0:02:30.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}Han{\kf8}{\kf21}ging {\kf13}{\kf21}on {\kf13}{\kf25}the {\kf8}{\kf42}edge {\kf8}{\kf13}of {\kf8}{\kf13}to{\kf8}{\kf17}mor{\kf13}{\kf83}row
-Dialogue: 0,0:02:29.81,0:02:32.62,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}Live {\kf8}{\kf13}and {\kf17}{\kf121}Learn
-Dialogue: 0,0:02:31.19,0:02:36.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf21}From {\kf13}{\kf25}the {\kf13}{\kf21}works {\kf17}{\kf8}of {\kf13}{\kf17}yes{\kf13}{\kf38}ter{\kf13}{\kf163}day
-Dialogue: 0,0:02:35.36,0:02:38.42,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf17}Live {\kf4}{\kf21}and {\kf17}{\kf138}Learn
-Dialogue: 0,0:02:37.48,0:02:42.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf17}If {\kf8}{\kf21}you {\kf8}{\kf29}beg {\kf13}{\kf25}or {\kf8}{\kf21}if {\kf13}{\kf21}you {\kf13}{\kf17}bor{\kf13}{\kf117}row
-Dialogue: 0,0:02:40.94,0:02:43.84,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf17}Live {\kf4}{\kf17}and {\kf13}{\kf129}Learn
-Dialogue: 0,0:02:42.28,0:02:48.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf25}You {\kf13}{\kf21}may {\kf21}{\kf13}ne{\kf13}{\kf13}ver {\kf13}{\kf13}find {\kf17}{\kf38}your {\kf21}{\kf300}way
-Dialogue: 0,0:02:51.45,0:02:58.27,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf104}Whoa, {\kf13}{\kf100}whoa, {\kf13}{\kf29}OH {\kf17}{\kf296}YEAH!
-Dialogue: 0,0:03:03.96,0:03:07.52,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf21}YEAH {\kf17}{\kf21}YEAH {\kf13}{\kf25}YEAH {\kf13}{\kf21}YEAH {\kf13}{\kf104}YEAH
-Dialogue: 0,0:03:16.51,0:03:21.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf8}T{\kf8}{\kf88}here's {\kf8}{\kf21}a {\kf13}{\kf42}face {\kf8}{\kf33}sear{\kf17}{\kf21}chin' {\kf13}{\kf92}far, {\kf13}
-Dialogue: 0,0:03:20.36,0:03:22.95,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf25}so {\kf13}{\kf17}far {\kf17}{\kf13}and {\kf8}{\kf58}wide
-Dialogue: 0,0:03:22.27,0:03:27.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf83}There's {\kf8}{\kf21}a {\kf17}{\kf33}place {\kf13}{\kf33}where {\kf17}{\kf21}you {\kf17}{\kf100}dreamed {\kf13}
-Dialogue: 0,0:03:26.03,0:03:28.54,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf21}you'd {\kf13}{\kf17}ne{\kf13}{\kf13}ver {\kf4}{\kf63}find
-Dialogue: 0,0:03:27.65,0:03:31.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf38}Hold {\kf17}{\kf33}on {\kf25}{\kf25}to {\kf13}{\kf38}what {\kf13}{\kf71}if!
-Dialogue: 0,0:03:30.53,0:03:34.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf38}Hold {\kf13}{\kf29}on {\kf17}{\kf25}to {\kf13}{\kf33}what {\kf17}{\kf100}if!
-Dialogue: 0,0:03:35.41,0:03:38.34,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf8}Live {\kf8}{\kf21}and {\kf17}{\kf129}Learn
-Dialogue: 0,0:03:37.45,0:03:41.84,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf21}Han{\kf8}{\kf21}ging {\kf13}{\kf21}on {\kf8}{\kf29}the {\kf8}{\kf42}edge {\kf8}{\kf8}of {\kf13}{\kf8}to{\kf8}{\kf21}mor{\kf8}{\kf83}row
-Dialogue: 0,0:03:40.95,0:03:43.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}Live {\kf4}{\kf21}and {\kf13}{\kf92}Learn
-Dialogue: 0,0:03:42.45,0:03:47.31,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf17}From {\kf13}{\kf17}the {\kf17}{\kf21}works {\kf17}{\kf8}of {\kf8}{\kf17}yes{\kf8}{\kf46}ter{\kf8}{\kf179}day
-Dialogue: 0,0:03:46.50,0:03:49.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}Live {\kf8}{\kf21}and {\kf13}{\kf133}Learn
-Dialogue: 0,0:03:48.62,0:03:53.19,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}If {\kf8}{\kf21}you {\kf13}{\kf21}beg {\kf17}{\kf25}or {\kf13}{\kf21}if {\kf8}{\kf21}you {\kf13}{\kf25}bor{\kf8}{\kf121}row
-Dialogue: 0,0:03:52.17,0:03:54.94,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}Live {\kf8}{\kf17}and {\kf13}{\kf117}Learn
-Dialogue: 0,0:03:53.50,0:03:58.19,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf21}You {\kf13}{\kf21}may {\kf17}{\kf17}ne{\kf13}{\kf13}ver {\kf8}{\kf21}find {\kf13}{\kf42}your {\kf13}{\kf150}way
-Dialogue: 0,0:03:58.38,0:04:01.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}Live {\kf8}{\kf17}and {\kf17}{\kf129}Learn
-Dialogue: 0,0:04:00.51,0:04:05.07,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf21}Han{\kf8}{\kf21}ging {\kf8}{\kf21}on {\kf8}{\kf29}the {\kf8}{\kf42}edge {\kf8}{\kf13}of {\kf8}{\kf13}to{\kf8}{\kf17}mor{\kf8}{\kf104}row
-Dialogue: 0,0:04:04.05,0:04:06.78,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}Live {\kf4}{\kf21}and {\kf8}{\kf117}Learn
-Dialogue: 0,0:04:05.35,0:04:09.99,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf21}From {\kf13}{\kf25}the {\kf17}{\kf25}works {\kf8}{\kf13}of {\kf4}{\kf21}yes{\kf13}{\kf46}ter{\kf8}{\kf142}day
-Dialogue: 0,0:04:09.56,0:04:12.49,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf13}Live {\kf8}{\kf21}and {\kf8}{\kf133}Learn
-Dialogue: 0,0:04:11.81,0:04:16.29,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf4}If {\kf8}{\kf8}you {\kf17}{\kf25}beg {\kf13}{\kf29}or {\kf13}{\kf33}if {\kf8}{\kf17}you {\kf17}{\kf17}bor{\kf13}{\kf117}row
-Dialogue: 0,0:04:15.23,0:04:17.96,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf17}Live {\kf4}{\kf17}and {\kf13}{\kf113}Learn
-Dialogue: 0,0:04:16.48,0:04:24.09,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf25}You {\kf17}{\kf17}may {\kf17}{\kf58}ne{\kf8}{\kf54}ver {\kf17}{\kf67}find {\kf8}{\kf46}your {\kf21}{\kf296}way
-Dialogue: 0,0:04:26.32,0:04:29.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf30}Live {\kf34}and {\kf93}Learn
-Dialogue: 0,0:04:29.97,0:04:33.06,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf21}YEAH {\kf17}{\kf21}YEAH {\kf13}{\kf25}YEAH {\kf13}{\kf21}YEAH {\kf13}{\kf104}YEAH
-Dialogue: 0,0:04:31.55,0:04:34.66,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf30}Live {\kf34}and {\kf93}Learn
-Dialogue: 0,0:04:35.60,0:04:38.69,Default,,0,0,0,fx,{\k90\fad(300,200)}{\kf21}YEAH {\kf17}{\kf21}YEAH {\kf13}{\kf25}YEAH {\kf13}{\kf21}YEAH {\kf13}{\kf104}YEAH
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:16.41,0:00:19.08,Sample KM [Up],,0,0,0,karaoke,{\k23}Can {\k15}you {\kf125}feel {\kf104}life
+Comment: 0,0:00:19.60,0:00:21.51,Sample KM [Up],,0,0,0,karaoke,{\k21}Mo{\k37}vin' {\k30}through {\k34}your {\k69}mind?
+Comment: 0,0:00:23.08,0:00:24.81,Sample KM [Up],,0,0,0,karaoke,{\kf89}Ooh, {\k17}looks {\k17}like {\k15}it {\k21}came {\k14}back
+Comment: 0,0:00:24.81,0:00:27.57,Sample KM [Up],,0,0,0,karaoke,{\k21}For {\kf121}more,{\k30} {\kf104}yeah
+Comment: 0,0:00:27.63,0:00:30.03,Sample KM [Up],,0,0,0,karaoke,{\k21}Can {\k19}you {\kf112}feel {\k88}time
+Comment: 0,0:00:30.57,0:00:33.11,Sample KM [Up],,0,0,0,karaoke,{\k41}Slip{\k34}pin' {\k30}down {\k30}your {\kf119}spine?
+Comment: 0,0:00:34.24,0:00:38.95,Sample KM [Up],,0,0,0,karaoke,{\kf93}Ooh, {\k9}you {\k22}try {\k14}and {\k23}try {\k15}to {\k21}ig{\kf93}nore,{\k57} {\kf124}yeah
+Comment: 0,0:00:39.84,0:00:44.61,Sample KM [Up],,0,0,0,karaoke,{\k55}But {\k77}you {\k64}can {\k81}hard{\k51}ly {\k71}swal{\k78}low
+Comment: 0,0:00:45.38,0:00:49.73,Sample KM [Up],,0,0,0,karaoke,{\k70}Your {\k80}fears {\k64}and {\kf221}pain
+Comment: 0,0:00:50.99,0:00:55.78,Sample KM [Up],,0,0,0,karaoke,{\k68}When {\k69}you {\k63}can't {\k81}help {\k61}but {\k51}fol{\k86}low
+Comment: 0,0:00:56.75,0:00:57.98,Sample KM [Up],,0,0,0,karaoke,{\k17}It {\k19}puts {\k17}you {\k35}right {\k35}back
+Comment: 0,0:00:57.98,0:01:01.32,Sample KM [Up],,0,0,0,karaoke,{\k25}Where {\k25}you {\kf284}came
+Comment: 0,0:01:03.54,0:01:04.95,Sample KM [Up],,0,0,0,karaoke,{\k21}Live {\k35}and {\k85}learn
+Comment: 0,0:01:05.61,0:01:08.76,Sample KM [Up],,0,0,0,karaoke,{\k28}Han{\k32}ging {\k29}on {\k38}the {\k49}edge {\k16}of {\k20}to{\k32}mor{\k71}row
+Comment: 0,0:01:09.12,0:01:10.48,Sample KM [Up],,0,0,0,karaoke,{\k18}Live {\k32}and {\k86}learn
+Comment: 0,0:01:10.48,0:01:14.05,Sample KM [Up],,0,0,0,karaoke,{\k35}From {\k31}the {\k40}works {\k28}of {\k31}yes{\k45}ter{\kf147}day
+Comment: 0,0:01:14.73,0:01:16.13,Sample KM [Up],,0,0,0,karaoke,{\k18}Live {\k32}and {\k90}learn
+Comment: 0,0:01:16.79,0:01:20.27,Sample KM [Up],,0,0,0,karaoke,{\k19}If {\k35}you {\k37}beg {\k57}or {\k15}if {\k31}you {\k34}bor{\kf120}row
+Comment: 0,0:01:20.27,0:01:21.54,Sample KM [Up],,0,0,0,karaoke,{\k20}Live {\k33}and {\k74}learn
+Comment: 0,0:01:21.54,0:01:26.36,Sample KM [Up],,0,0,0,karaoke,{\k45}You {\k37}may {\k36}ne{\k22}ver {\k31}find {\k56}your {\kf255}way
+Comment: 0,0:01:27.62,0:01:31.64,Sample KM [Up],,0,0,0,karaoke,{\kf173}Whoa, {\kf139}oh {\k90}yeah
+Comment: 0,0:01:33.17,0:01:35.92,Sample KM [Up],,0,0,0,karaoke,{\k15}Can {\k18}you {\kf107}feel {\k18}your {\kf117}life
+Comment: 0,0:01:36.27,0:01:38.64,Sample KM [Up],,0,0,0,karaoke,{\k23}Tan{\k17}gle {\k23}you {\k33}up {\k33}in{\kf108}side?
+Comment: 0,0:01:38.95,0:01:41.48,Sample KM [Up],,0,0,0,karaoke,{\k97}Yeah,{\k44} {\k36}now {\k17}you're {\k33}face {\k26}down
+Comment: 0,0:01:41.48,0:01:44.60,Sample KM [Up],,0,0,0,karaoke,{\k12}On {\k11}the {\kf116}floor,{\k46} {\kf127}oh
+Comment: 0,0:01:45.41,0:01:50.15,Sample KM [Up],,0,0,0,karaoke,{\k70}But {\k66}you {\k65}can't {\k80}save {\k57}your {\k52}sor{\k84}row
+Comment: 0,0:01:50.97,0:01:55.45,Sample KM [Up],,0,0,0,karaoke,{\k67}You've {\k75}paid {\k52}in {\kf254}trade
+Comment: 0,0:01:56.57,0:02:01.37,Sample KM [Up],,0,0,0,karaoke,{\k61}When {\k71}you {\k69}can't {\k80}help {\k57}but {\k60}fol{\k82}low
+Comment: 0,0:02:02.47,0:02:06.98,Sample KM [Up],,0,0,0,karaoke,{\k21}Puts {\k18}you {\k34}right {\k34}back {\k18}where {\k29}you {\kf297}came
+Comment: 0,0:02:09.14,0:02:10.67,Sample KM [Up],,0,0,0,karaoke,{\k21}Live {\k30}and {\kf102}learn
+Comment: 0,0:02:11.19,0:02:14.36,Sample KM [Up],,0,0,0,karaoke,{\k30}Han{\k32}ging {\k33}on {\k33}the {\k48}edge {\k20}of {\k16}to{\k36}mor{\k69}row
+Comment: 0,0:02:14.63,0:02:16.08,Sample KM [Up],,0,0,0,karaoke,{\k24}Live {\k35}and {\k86}learn
+Comment: 0,0:02:16.08,0:02:19.59,Sample KM [Up],,0,0,0,karaoke,{\k37}From {\k36}the {\k39}works {\k20}of {\k32}yes{\k46}ter{\kf141}day
+Comment: 0,0:02:20.30,0:02:21.76,Sample KM [Up],,0,0,0,karaoke,{\k20}Live {\k33}and {\k93}learn
+Comment: 0,0:02:22.37,0:02:25.85,Sample KM [Up],,0,0,0,karaoke,{\k21}If {\k35}you {\k39}beg {\k51}or {\k17}if {\k33}you {\k33}bor{\kf119}row
+Comment: 0,0:02:25.85,0:02:27.30,Sample KM [Up],,0,0,0,karaoke,{\k18}Live {\k34}and {\k93}learn
+Comment: 0,0:02:27.30,0:02:31.95,Sample KM [Up],,0,0,0,karaoke,{\k30}You {\k37}may {\k35}ne{\k22}ver {\k29}find {\k50}your {\kf262}way
+Comment: 0,0:02:36.36,0:02:38.45,Sample KM [Up],,0,0,0,karaoke,{\k52}Hey, {\k68}whoa, {\k89}whoa
+Comment: 0,0:02:38.78,0:02:41.83,Sample KM [Up],,0,0,0,karaoke,{\k33}Oh {\kf272}yeah
+Comment: 0,0:02:48.87,0:02:51.00,Sample KM [Up],,0,0,0,karaoke,{\k36}Yeah, {\k38}yeah, {\k33}yeah, {\k35}yeah, {\k71}yeah
+Comment: 0,0:03:01.50,0:03:05.20,Sample KM [Up],,0,0,0,karaoke,{\kf104}There's {\k32}a {\k47}face {\k47}sear{\k36}ching {\kf104}far
+Comment: 0,0:03:05.20,0:03:06.71,Sample KM [Up],,0,0,0,karaoke,{\k37}So {\k42}far {\k22}and {\k50}wide
+Comment: 0,0:03:07.12,0:03:10.86,Sample KM [Up],,0,0,0,karaoke,{\k99}There's {\k22}a {\k64}place {\k51}where {\k25}you {\kf113}dream
+Comment: 0,0:03:10.86,0:03:12.28,Sample KM [Up],,0,0,0,karaoke,{\k37}You'd {\k35}ne{\k15}ver {\k55}find
+Comment: 0,0:03:12.64,0:03:15.08,Sample KM [Up],,0,0,0,karaoke,{\k55}Hold {\k44}on {\k40}to {\k50}"what {\k55}if"
+Comment: 0,0:03:15.38,0:03:18.18,Sample KM [Up],,0,0,0,karaoke,{\k54}Hold {\k48}on {\k41}to {\k51}"what {\k86}if"
+Comment: 0,0:03:20.29,0:03:21.94,Sample KM [Up],,0,0,0,karaoke,{\k19}Live {\k34}and {\kf112}learn
+Comment: 0,0:03:22.37,0:03:25.53,Sample KM [Up],,0,0,0,karaoke,{\k29}Han{\k31}ging {\k28}on {\k43}the {\k41}edge {\k22}of {\k17}to{\k34}mor{\k71}row
+Comment: 0,0:03:25.88,0:03:27.25,Sample KM [Up],,0,0,0,karaoke,{\k19}Live {\k31}and {\k87}learn
+Comment: 0,0:03:27.25,0:03:30.83,Sample KM [Up],,0,0,0,karaoke,{\k36}From {\k35}the {\k33}works {\k19}of {\k34}yes{\k51}ter{\kf150}day
+Comment: 0,0:03:31.46,0:03:32.81,Sample KM [Up],,0,0,0,karaoke,{\k18}Live {\k28}and {\k89}learn
+Comment: 0,0:03:33.53,0:03:37.02,Sample KM [Up],,0,0,0,karaoke,{\k18}If {\k37}you {\k38}beg {\k50}or {\k23}if {\k25}you {\k39}bor{\kf119}row
+Comment: 0,0:03:37.02,0:03:38.42,Sample KM [Up],,0,0,0,karaoke,{\k17}Live {\k32}and {\k91}learn
+Comment: 0,0:03:38.42,0:03:41.82,Sample KM [Up],,0,0,0,karaoke,{\k36}You {\k36}may {\k33}ne{\k20}ver {\k32}find {\k50}your {\kf133}way
+Comment: 0,0:03:43.30,0:03:44.69,Sample KM [Up],,0,0,0,karaoke,{\k20}Live {\k38}and {\k81}learn
+Comment: 0,0:03:45.41,0:03:48.91,Sample KM [Up],,0,0,0,karaoke,{\k26}Han{\k27}ging {\k37}on {\k32}the {\k53}edge {\k14}of {\k23}to{\k32}mor{\kf106}row
+Comment: 0,0:03:48.91,0:03:50.19,Sample KM [Up],,0,0,0,karaoke,{\k18}Live {\k32}and {\k78}learn
+Comment: 0,0:03:50.19,0:03:53.86,Sample KM [Up],,0,0,0,karaoke,{\k44}From {\k39}the {\k28}works {\k18}of {\k36}yes{\k50}ter{\kf152}day
+Comment: 0,0:03:54.47,0:03:55.90,Sample KM [Up],,0,0,0,karaoke,{\k20}Live {\k35}and {\k88}learn
+Comment: 0,0:03:56.53,0:04:00.07,Sample KM [Up],,0,0,0,karaoke,{\k20}If {\k36}you {\k36}beg {\k76}or {\k24}if {\k19}you {\k27}bor{\kf116}row
+Comment: 0,0:04:00.07,0:04:01.45,Sample KM [Up],,0,0,0,karaoke,{\k21}Live {\k30}and {\k87}learn
+Comment: 0,0:04:01.45,0:04:07.74,Sample KM [Up],,0,0,0,karaoke,{\k37}You {\k34}may {\k69}ne{\k69}ver {\k73}find {\k64}your {\kf283}way
+Comment: 0,0:04:11.24,0:04:12.84,Sample KM [Up],,0,0,0,karaoke,{\k18}Live {\k34}and {\kf108}learn
+Comment: 0,0:04:14.69,0:04:16.77,Sample KM [Up],,0,0,0,karaoke,{\k37}Yeah, {\k36}yeah, {\k31}yeah, {\k42}yeah, {\k62}yeah
+Comment: 0,0:04:16.77,0:04:18.48,Sample KM [Up],,0,0,0,karaoke,{\k21}Live {\k34}and {\kf116}learn
+Comment: 0,0:04:20.31,0:04:22.38,Sample KM [Up],,0,0,0,karaoke,{\k32}Yeah, {\k38}yeah, {\k34}yeah, {\k38}yeah, {\k65}yeah
+Dialogue: 0,0:00:15.51,0:00:19.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Can {\k15}you {\kf125}feel {\kf104}life
+Dialogue: 0,0:00:18.70,0:00:21.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Mo{\k37}vin' {\k30}through {\k34}your {\k69}mind?
+Dialogue: 0,0:00:22.18,0:00:25.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf89}Ooh, {\k17}looks {\k17}like {\k15}it {\k21}came {\k14}back
+Dialogue: 0,0:00:23.91,0:00:27.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}For {\kf121}more,{\k30} {\kf104}yeah
+Dialogue: 0,0:00:26.73,0:00:30.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Can {\k19}you {\kf112}feel {\k88}time
+Dialogue: 0,0:00:29.67,0:00:33.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Slip{\k34}pin' {\k30}down {\k30}your {\kf119}spine?
+Dialogue: 0,0:00:33.34,0:00:39.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf93}Ooh, {\k9}you {\k22}try {\k14}and {\k23}try {\k15}to {\k21}ig{\kf93}nore,{\k57} {\kf124}yeah
+Dialogue: 0,0:00:38.94,0:00:44.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}But {\k77}you {\k64}can {\k81}hard{\k51}ly {\k71}swal{\k78}low
+Dialogue: 0,0:00:44.48,0:00:49.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k70}Your {\k80}fears {\k64}and {\kf221}pain
+Dialogue: 0,0:00:50.09,0:00:55.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k68}When {\k69}you {\k63}can't {\k81}help {\k61}but {\k51}fol{\k86}low
+Dialogue: 0,0:00:55.85,0:00:58.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}It {\k19}puts {\k17}you {\k35}right {\k35}back
+Dialogue: 0,0:00:57.08,0:01:01.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Where {\k25}you {\kf284}came
+Dialogue: 0,0:01:02.64,0:01:05.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Live {\k35}and {\k85}learn
+Dialogue: 0,0:01:04.71,0:01:08.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Han{\k32}ging {\k29}on {\k38}the {\k49}edge {\k16}of {\k20}to{\k32}mor{\k71}row
+Dialogue: 0,0:01:08.22,0:01:10.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Live {\k32}and {\k86}learn
+Dialogue: 0,0:01:09.58,0:01:14.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}From {\k31}the {\k40}works {\k28}of {\k31}yes{\k45}ter{\kf147}day
+Dialogue: 0,0:01:13.83,0:01:16.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Live {\k32}and {\k90}learn
+Dialogue: 0,0:01:15.89,0:01:20.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}If {\k35}you {\k37}beg {\k57}or {\k15}if {\k31}you {\k34}bor{\kf120}row
+Dialogue: 0,0:01:19.37,0:01:21.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Live {\k33}and {\k74}learn
+Dialogue: 0,0:01:20.64,0:01:26.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}You {\k37}may {\k36}ne{\k22}ver {\k31}find {\k56}your {\kf255}way
+Dialogue: 0,0:01:26.72,0:01:31.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf173}Whoa, {\kf139}oh {\k90}yeah
+Dialogue: 0,0:01:32.27,0:01:36.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Can {\k18}you {\kf107}feel {\k18}your {\kf117}life
+Dialogue: 0,0:01:35.37,0:01:38.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Tan{\k17}gle {\k23}you {\k33}up {\k33}in{\kf108}side?
+Dialogue: 0,0:01:38.05,0:01:41.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k97}Yeah,{\k44} {\k36}now {\k17}you're {\k33}face {\k26}down
+Dialogue: 0,0:01:40.58,0:01:44.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}On {\k11}the {\kf116}floor,{\k46} {\kf127}oh
+Dialogue: 0,0:01:44.51,0:01:50.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k70}But {\k66}you {\k65}can't {\k80}save {\k57}your {\k52}sor{\k84}row
+Dialogue: 0,0:01:50.07,0:01:55.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k67}You've {\k75}paid {\k52}in {\kf254}trade
+Dialogue: 0,0:01:55.67,0:02:01.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k61}When {\k71}you {\k69}can't {\k80}help {\k57}but {\k60}fol{\k82}low
+Dialogue: 0,0:02:01.57,0:02:07.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Puts {\k18}you {\k34}right {\k34}back {\k18}where {\k29}you {\kf297}came
+Dialogue: 0,0:02:08.24,0:02:10.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Live {\k30}and {\kf102}learn
+Dialogue: 0,0:02:10.29,0:02:14.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Han{\k32}ging {\k33}on {\k33}the {\k48}edge {\k20}of {\k16}to{\k36}mor{\k69}row
+Dialogue: 0,0:02:13.73,0:02:16.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Live {\k35}and {\k86}learn
+Dialogue: 0,0:02:15.18,0:02:19.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}From {\k36}the {\k39}works {\k20}of {\k32}yes{\k46}ter{\kf141}day
+Dialogue: 0,0:02:19.40,0:02:21.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Live {\k33}and {\k93}learn
+Dialogue: 0,0:02:21.47,0:02:26.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}If {\k35}you {\k39}beg {\k51}or {\k17}if {\k33}you {\k33}bor{\kf119}row
+Dialogue: 0,0:02:24.95,0:02:27.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Live {\k34}and {\k93}learn
+Dialogue: 0,0:02:26.40,0:02:32.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}You {\k37}may {\k35}ne{\k22}ver {\k29}find {\k50}your {\kf262}way
+Dialogue: 0,0:02:35.46,0:02:38.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}Hey, {\k68}whoa, {\k89}whoa
+Dialogue: 0,0:02:37.88,0:02:42.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Oh {\kf272}yeah
+Dialogue: 0,0:02:47.97,0:02:51.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Yeah, {\k38}yeah, {\k33}yeah, {\k35}yeah, {\k71}yeah
+Dialogue: 0,0:03:00.60,0:03:05.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf104}There's {\k32}a {\k47}face {\k47}sear{\k36}ching {\kf104}far
+Dialogue: 0,0:03:04.30,0:03:06.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}So {\k42}far {\k22}and {\k50}wide
+Dialogue: 0,0:03:06.22,0:03:11.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k99}There's {\k22}a {\k64}place {\k51}where {\k25}you {\kf113}dream
+Dialogue: 0,0:03:09.96,0:03:12.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}You'd {\k35}ne{\k15}ver {\k55}find
+Dialogue: 0,0:03:11.74,0:03:15.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Hold {\k44}on {\k40}to {\k50}"what {\k55}if"
+Dialogue: 0,0:03:14.48,0:03:18.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Hold {\k48}on {\k41}to {\k51}"what {\k86}if"
+Dialogue: 0,0:03:19.39,0:03:22.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Live {\k34}and {\kf112}learn
+Dialogue: 0,0:03:21.47,0:03:25.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Han{\k31}ging {\k28}on {\k43}the {\k41}edge {\k22}of {\k17}to{\k34}mor{\k71}row
+Dialogue: 0,0:03:24.98,0:03:27.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Live {\k31}and {\k87}learn
+Dialogue: 0,0:03:26.35,0:03:31.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}From {\k35}the {\k33}works {\k19}of {\k34}yes{\k51}ter{\kf150}day
+Dialogue: 0,0:03:30.56,0:03:33.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Live {\k28}and {\k89}learn
+Dialogue: 0,0:03:32.63,0:03:37.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}If {\k37}you {\k38}beg {\k50}or {\k23}if {\k25}you {\k39}bor{\kf119}row
+Dialogue: 0,0:03:36.12,0:03:38.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Live {\k32}and {\k91}learn
+Dialogue: 0,0:03:37.52,0:03:42.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}You {\k36}may {\k33}ne{\k20}ver {\k32}find {\k50}your {\kf133}way
+Dialogue: 0,0:03:42.40,0:03:44.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Live {\k38}and {\k81}learn
+Dialogue: 0,0:03:44.51,0:03:49.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Han{\k27}ging {\k37}on {\k32}the {\k53}edge {\k14}of {\k23}to{\k32}mor{\kf106}row
+Dialogue: 0,0:03:48.01,0:03:50.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Live {\k32}and {\k78}learn
+Dialogue: 0,0:03:49.29,0:03:54.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}From {\k39}the {\k28}works {\k18}of {\k36}yes{\k50}ter{\kf152}day
+Dialogue: 0,0:03:53.57,0:03:56.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Live {\k35}and {\k88}learn
+Dialogue: 0,0:03:55.63,0:04:00.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}If {\k36}you {\k36}beg {\k76}or {\k24}if {\k19}you {\k27}bor{\kf116}row
+Dialogue: 0,0:03:59.17,0:04:01.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Live {\k30}and {\k87}learn
+Dialogue: 0,0:04:00.55,0:04:07.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}You {\k34}may {\k69}ne{\k69}ver {\k73}find {\k64}your {\kf283}way
+Dialogue: 0,0:04:10.34,0:04:13.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Live {\k34}and {\kf108}learn
+Dialogue: 0,0:04:13.79,0:04:16.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Yeah, {\k36}yeah, {\k31}yeah, {\k42}yeah, {\k62}yeah
+Dialogue: 0,0:04:15.87,0:04:18.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Live {\k34}and {\kf116}learn
+Dialogue: 0,0:04:19.41,0:04:22.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Yeah, {\k38}yeah, {\k34}yeah, {\k38}yeah, {\k65}yeah
