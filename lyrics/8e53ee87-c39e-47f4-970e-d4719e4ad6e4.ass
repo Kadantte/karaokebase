@@ -1,134 +1,141 @@
 ﻿[Script Info]
+; https://aegisub.org/
 Title: Try Everything
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 Original Timing: Vikuo
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,24,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,10,10,10,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,1.5,0,8,10,10,40,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rDefault}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
 Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 1,0:00:16.01,0:00:18.25,Default,,0,0,0,karaoke,{\k25}I {\k19}messed {\k25}up {\k32}to{\k110}night
-Comment: 1,0:00:18.41,0:00:20.40,Default,,0,0,0,karaoke,{\k19}I {\k25}lost {\k32}an{\k19}oth{\k32}er {\k58}fight
-Comment: 1,0:00:20.43,0:00:24.23,Default,,0,0,0,karaoke,{\k25}I {\k32}still {\k19}mess {\k32}up {\k19}but {\k51}I'll {\k32}just {\k19}start {\k32}a{\k103}gain
-Comment: 1,0:00:24.32,0:00:26.37,Default,,0,0,0,karaoke,{\k25}I {\k25}keep {\k25}fall{\k32}ing {\k84}down
-Comment: 1,0:00:26.40,0:00:28.78,Default,,0,0,0,karaoke,{\k25}I {\k25}keep {\k25}on {\k25}hit{\k25}ting {\k32}the {\k64}ground
-Comment: 1,0:00:28.81,0:00:32.68,Default,,0,0,0,karaoke,{\k19}I {\k25}al{\k32}ways {\k19}get {\k25}up {\k25}now {\k25}to {\k25}see {\k32}what's {\k142}next
-Comment: 1,0:00:34.01,0:00:36.90,Default,,0,0,0,karaoke,{\k77}Birds {\k51}don't {\k45}just {\k25}fly{\k77}~
-Comment: 1,0:00:36.93,0:00:41.39,Default,,0,0,0,karaoke,{\k45}They {\k51}fall {\k25}down{\k84}~ {\k71}and {\k25}get {\k45}up{\k84}~
-Comment: 1,0:00:42.33,0:00:45.22,Default,,0,0,0,karaoke,{\k77}No{\k51}bod{\k51}y {\k25}learns{\k71}~
-Comment: 1,0:00:45.25,0:00:49.31,Default,,0,0,0,karaoke,{\k45}with{\k51}out {\k96}get{\k51}ting {\k25}it {\k138}wrong
-Comment: 1,0:00:49.80,0:00:53.21,Default,,0,0,0,karaoke,{\k25}I {\k32}won't {\k19}give {\k57}up, {\k25}no {\k19}I {\k32}won't {\k25}give {\k107}in
-Comment: 1,0:00:53.24,0:00:55.23,Default,,0,0,0,karaoke,{\k19}Till {\k32}I {\k45}reach {\k25}the {\k64}end
-Comment: 1,0:00:55.26,0:00:57.57,Default,,0,0,0,karaoke,{\k25}Then {\k32}I'll {\k25}start {\k19}a{\k116}gain
-Comment: 1,0:00:57.66,0:00:59.71,Default,,0,0,0,karaoke,{\k25}Though {\k25}I'm {\k25}on {\k25}the {\k19}lead{\k71}~
-Comment: 1,0:00:59.74,0:01:01.72,Default,,0,0,0,karaoke,{\k19}I {\k25}wan{\k25}na {\k25}try {\k25}eve{\k32}ry{\k32}thing
-Comment: 1,0:01:01.75,0:01:05.69,Default,,0,0,0,karaoke,{\k25}I {\k25}wan{\k25}na {\k25}try {\k24}e{\k25}ven {\k50}though {\k25}I {\k32}could {\k138}fail
-Comment: 1,0:01:06.43,0:01:09.85,Default,,0,0,0,karaoke,{\k25}I {\k32}won't {\k19}give {\k58}up, {\k25}no {\k19}I {\k32}won't {\k25}give {\k90}in
-Comment: 1,0:01:09.88,0:01:11.73,Default,,0,0,0,karaoke,{\k19}Till {\k32}I {\k45}reach {\k25}the {\k51}end
-Comment: 1,0:01:11.76,0:01:14.20,Default,,0,0,0,karaoke,{\k12}And {\k25}then {\k32}I'll {\k25}start {\k19}a{\k116}gain
-Comment: 1,0:01:14.30,0:01:16.35,Default,,0,0,0,karaoke,{\k25}No {\k25}I {\k51}won't {\k90}leave
-Comment: 1,0:01:16.38,0:01:18.36,Default,,0,0,0,karaoke,{\k19}I {\k25}wan{\k25}na {\k25}try {\k25}eve{\k32}ry{\k32}thing
-Comment: 1,0:01:18.39,0:01:22.65,Default,,0,0,0,karaoke,{\k25}I {\k25}wan{\k25}na {\k25}try {\k24}e{\k25}ven {\k50}though {\k25}I {\k32}could {\k170}fail
-Comment: 1,0:01:23.85,0:01:26.42,Default,,0,0,0,karaoke,{\k38}Oh {\k38}oh {\k38}oh {\k38}oh {\k90}oh
-Comment: 1,0:01:26.45,0:01:27.98,Default,,0,0,0,karaoke,{\k25}Try {\k25}eve{\k25}ry{\k78}thing
-Comment: 1,0:01:28.01,0:01:30.58,Default,,0,0,0,karaoke,{\k38}Oh {\k38}oh {\k38}oh {\k38}oh {\k90}oh
-Comment: 1,0:01:30.61,0:01:32.14,Default,,0,0,0,karaoke,{\k25}Try {\k25}eve{\k25}ry{\k78}thing
-Comment: 1,0:01:32.17,0:01:34.74,Default,,0,0,0,karaoke,{\k38}Oh {\k38}oh {\k38}oh {\k38}oh {\k90}oh
-Comment: 1,0:01:34.77,0:01:36.30,Default,,0,0,0,karaoke,{\k25}Try {\k25}eve{\k25}ry{\k78}thing
-Comment: 1,0:01:36.33,0:01:39.35,Default,,0,0,0,karaoke,{\k38}Oh {\k38}oh {\k38}oh {\k38}oh {\k136}oh
-Comment: 1,0:01:39.77,0:01:41.62,Default,,0,0,0,karaoke,{\k25}Look {\k25}how {\k25}far {\k25}you've {\k71}come
-Comment: 1,0:01:41.65,0:01:43.64,Default,,0,0,0,karaoke,{\k19}You {\k32}filled {\k19}your {\k32}heart {\k25}with {\k58}love
-Comment: 1,0:01:43.67,0:01:45.46,Default,,0,0,0,karaoke,{\k19}Ba{\k32}by {\k25}you've {\k19}done {\k32}e{\k38}nough
-Comment: 1,0:01:45.49,0:01:47.54,Default,,0,0,0,karaoke,{\k19}That {\k32}cut {\k25}your {\k116}breath
-Comment: 1,0:01:48.09,0:01:49.88,Default,,0,0,0,karaoke,{\k25}Don't {\k25}beat {\k25}your{\k32}self {\k58}up
-Comment: 1,0:01:49.91,0:01:52.09,Default,,0,0,0,karaoke,{\k25}Don't {\k25}need {\k25}to {\k25}run {\k32}so {\k71}fast
-Comment: 1,0:01:52.18,0:01:53.52,Default,,0,0,0,karaoke,{\k32}Some{\k25}times {\k19}we {\k25}come {\k19}last
-Comment: 1,0:01:53.55,0:01:55.92,Default,,0,0,0,karaoke,{\k25}But {\k25}we {\k19}did {\k38}our {\k116}best
-Comment: 1,0:01:56.34,0:01:59.75,Default,,0,0,0,karaoke,{\k25}I {\k32}won't {\k19}give {\k57}up, {\k25}no {\k19}I {\k32}won't {\k25}give {\k107}in
-Comment: 1,0:01:59.78,0:02:01.64,Default,,0,0,0,karaoke,{\k19}Till {\k32}I {\k45}reach {\k25}the {\k51}end
-Comment: 1,0:02:01.67,0:02:04.11,Default,,0,0,0,karaoke,{\k12}And {\k25}then {\k32}I'll {\k25}start {\k19}a{\k116}gain
-Comment: 1,0:02:04.20,0:02:06.25,Default,,0,0,0,karaoke,{\k25}Though {\k25}I'm {\k25}on {\k25}the {\k19}lead{\k71}~
-Comment: 1,0:02:06.28,0:02:08.27,Default,,0,0,0,karaoke,{\k19}I {\k25}wan{\k25}na {\k25}try {\k25}eve{\k32}ry{\k32}thing
-Comment: 1,0:02:08.30,0:02:12.17,Default,,0,0,0,karaoke,{\k25}I {\k25}wan{\k25}na {\k25}try {\k24}e{\k25}ven {\k50}though {\k25}I {\k32}could {\k131}fail
-Comment: 1,0:02:13.04,0:02:16.39,Default,,0,0,0,karaoke,{\k25}I {\k25}won't {\k19}give {\k58}up, {\k25}no {\k19}I {\k32}won't {\k25}give {\k90}in
-Comment: 1,0:02:16.42,0:02:18.27,Default,,0,0,0,karaoke,{\k19}Till {\k32}I {\k45}reach {\k32}the {\k45}end
-Comment: 1,0:02:18.30,0:02:20.74,Default,,0,0,0,karaoke,{\k12}And {\k25}then {\k32}I'll {\k25}start {\k19}a{\k116}gain
-Comment: 1,0:02:20.84,0:02:22.89,Default,,0,0,0,karaoke,{\k25}No {\k25}I {\k51}won't {\k90}leave
-Comment: 1,0:02:22.92,0:02:24.90,Default,,0,0,0,karaoke,{\k19}I {\k25}wan{\k25}na {\k25}try {\k25}eve{\k32}ry{\k32}thing
-Comment: 1,0:02:24.93,0:02:29.13,Default,,0,0,0,karaoke,{\k25}I {\k25}wan{\k25}na {\k25}try {\k24}e{\k25}ven {\k50}though {\k25}I {\k32}could {\k164}fail
-Comment: 1,0:02:30.39,0:02:37.57,Default,,0,0,0,karaoke,{\k84}I'll {\k51}keep {\k77}on {\k77}mak{\k51}ing {\k76}those {\k77}new {\k77}mis{\k148}takes
-Comment: 1,0:02:38.71,0:02:46.35,Default,,0,0,0,karaoke,{\k84}I'll {\k51}keep {\k70}on {\k90}mak{\k45}ing {\k70}them {\k90}eve{\k70}ry {\k45}day{\k149}~
-Comment: 1,0:02:46.51,0:02:49.99,Default,,0,0,0,karaoke,{\k51}Those {\k84}new {\k77}mis{\k136}takes
-Comment: 1,0:02:51.19,0:02:53.76,Default,,0,0,0,karaoke,{\k38}Oh {\k38}oh {\k38}oh {\k38}oh {\k90}oh
-Comment: 1,0:02:53.79,0:02:55.32,Default,,0,0,0,karaoke,{\k25}Try {\k25}eve{\k25}ry{\k78}thing
-Comment: 1,0:02:55.35,0:02:57.98,Default,,0,0,0,karaoke,{\k38}Oh {\k38}oh {\k38}oh {\k38}oh {\k97}oh
-Comment: 1,0:02:58.01,0:02:59.54,Default,,0,0,0,karaoke,{\k25}Try {\k25}eve{\k25}ry{\k78}thing
-Comment: 1,0:02:59.57,0:03:02.14,Default,,0,0,0,karaoke,{\k38}Oh {\k38}oh {\k38}oh {\k38}oh {\k90}oh
-Comment: 1,0:03:02.17,0:03:03.70,Default,,0,0,0,karaoke,{\k25}Try {\k25}eve{\k25}ry{\k78}thing
-Comment: 1,0:03:03.73,0:03:07.01,Default,,0,0,0,karaoke,{\k38}Oh {\k38}oh {\k38}oh {\k38}oh {\k162}oh
-Comment: 1,0:03:07.95,0:03:11.69,Default,,0,0,0,karaoke,{\k64}Try{\k12}~ {\k45}eve{\k32}ry{\k32}thing{\k19}~{\k155}~
-Dialogue: 1,0:00:15.11,0:00:18.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k19}messed {\k25}up {\k32}to{\k110}night
-Dialogue: 1,0:00:17.51,0:00:20.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k25}lost {\k32}an{\k19}oth{\k32}er {\k58}fight
-Dialogue: 1,0:00:19.53,0:00:24.43,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k32}still {\k19}mess {\k32}up {\k19}but {\k51}I'll {\k32}just {\k19}start {\k32}a{\k103}gain
-Dialogue: 1,0:00:23.42,0:00:26.57,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k25}keep {\k25}fall{\k32}ing {\k84}down
-Dialogue: 1,0:00:25.50,0:00:28.98,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k25}keep {\k25}on {\k25}hit{\k25}ting {\k32}the {\k64}ground
-Dialogue: 1,0:00:27.91,0:00:32.88,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k25}al{\k32}ways {\k19}get {\k25}up {\k25}now {\k25}to {\k25}see {\k32}what's {\k142}next
-Dialogue: 1,0:00:33.11,0:00:37.10,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k77}Birds {\k51}don't {\k45}just {\k25}fly{\k77}~
-Dialogue: 1,0:00:36.03,0:00:41.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k45}They {\k51}fall {\k25}down{\k84}~ {\k71}and {\k25}get {\k45}up{\k84}~
-Dialogue: 1,0:00:41.43,0:00:45.42,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k77}No{\k51}bod{\k51}y {\k25}learns{\k71}~
-Dialogue: 1,0:00:44.35,0:00:49.51,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k45}with{\k51}out {\k96}get{\k51}ting {\k25}it {\k138}wrong
-Dialogue: 1,0:00:48.90,0:00:53.41,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k32}won't {\k19}give {\k57}up, {\k25}no {\k19}I {\k32}won't {\k25}give {\k107}in
-Dialogue: 1,0:00:52.34,0:00:55.43,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Till {\k32}I {\k45}reach {\k25}the {\k64}end
-Dialogue: 1,0:00:54.36,0:00:57.77,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Then {\k32}I'll {\k25}start {\k19}a{\k116}gain
-Dialogue: 1,0:00:56.76,0:00:59.91,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Though {\k25}I'm {\k25}on {\k25}the {\k19}lead{\k71}~
-Dialogue: 1,0:00:58.84,0:01:01.92,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k25}wan{\k25}na {\k25}try {\k25}eve{\k32}ry{\k32}thing
-Dialogue: 1,0:01:00.85,0:01:05.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k25}wan{\k25}na {\k25}try {\k24}e{\k25}ven {\k50}though {\k25}I {\k32}could {\k138}fail
-Dialogue: 1,0:01:05.53,0:01:10.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k32}won't {\k19}give {\k58}up, {\k25}no {\k19}I {\k32}won't {\k25}give {\k90}in
-Dialogue: 1,0:01:08.98,0:01:11.93,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Till {\k32}I {\k45}reach {\k25}the {\k51}end
-Dialogue: 1,0:01:10.86,0:01:14.40,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}And {\k25}then {\k32}I'll {\k25}start {\k19}a{\k116}gain
-Dialogue: 1,0:01:13.40,0:01:16.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}No {\k25}I {\k51}won't {\k90}leave
-Dialogue: 1,0:01:15.48,0:01:18.56,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k25}wan{\k25}na {\k25}try {\k25}eve{\k32}ry{\k32}thing
-Dialogue: 1,0:01:17.49,0:01:22.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k25}wan{\k25}na {\k25}try {\k24}e{\k25}ven {\k50}though {\k25}I {\k32}could {\k170}fail
-Dialogue: 1,0:01:22.95,0:01:26.62,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k38}oh {\k38}oh {\k38}oh {\k90}oh
-Dialogue: 1,0:01:25.55,0:01:28.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Try {\k25}eve{\k25}ry{\k78}thing
-Dialogue: 1,0:01:27.11,0:01:30.78,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k38}oh {\k38}oh {\k38}oh {\k90}oh
-Dialogue: 1,0:01:29.71,0:01:32.34,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Try {\k25}eve{\k25}ry{\k78}thing
-Dialogue: 1,0:01:31.27,0:01:34.94,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k38}oh {\k38}oh {\k38}oh {\k90}oh
-Dialogue: 1,0:01:33.87,0:01:36.50,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Try {\k25}eve{\k25}ry{\k78}thing
-Dialogue: 1,0:01:35.43,0:01:39.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k38}oh {\k38}oh {\k38}oh {\k136}oh
-Dialogue: 1,0:01:38.87,0:01:41.82,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Look {\k25}how {\k25}far {\k25}you've {\k71}come
-Dialogue: 1,0:01:40.75,0:01:43.84,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}You {\k32}filled {\k19}your {\k32}heart {\k25}with {\k58}love
-Dialogue: 1,0:01:42.77,0:01:45.66,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Ba{\k32}by {\k25}you've {\k19}done {\k32}e{\k38}nough
-Dialogue: 1,0:01:44.59,0:01:47.74,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}That {\k32}cut {\k25}your {\k116}breath
-Dialogue: 1,0:01:47.19,0:01:50.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Don't {\k25}beat {\k25}your{\k32}self {\k58}up
-Dialogue: 1,0:01:49.01,0:01:52.29,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Don't {\k25}need {\k25}to {\k25}run {\k32}so {\k71}fast
-Dialogue: 1,0:01:51.28,0:01:53.72,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Some{\k25}times {\k19}we {\k25}come {\k19}last
-Dialogue: 1,0:01:52.65,0:01:56.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}But {\k25}we {\k19}did {\k38}our {\k116}best
-Dialogue: 1,0:01:55.44,0:01:59.95,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k32}won't {\k19}give {\k57}up, {\k25}no {\k19}I {\k32}won't {\k25}give {\k107}in
-Dialogue: 1,0:01:58.88,0:02:01.84,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Till {\k32}I {\k45}reach {\k25}the {\k51}end
-Dialogue: 1,0:02:00.77,0:02:04.31,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}And {\k25}then {\k32}I'll {\k25}start {\k19}a{\k116}gain
-Dialogue: 1,0:02:03.30,0:02:06.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Though {\k25}I'm {\k25}on {\k25}the {\k19}lead{\k71}~
-Dialogue: 1,0:02:05.38,0:02:08.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k25}wan{\k25}na {\k25}try {\k25}eve{\k32}ry{\k32}thing
-Dialogue: 1,0:02:07.40,0:02:12.37,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k25}wan{\k25}na {\k25}try {\k24}e{\k25}ven {\k50}though {\k25}I {\k32}could {\k131}fail
-Dialogue: 1,0:02:12.14,0:02:16.59,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k25}won't {\k19}give {\k58}up, {\k25}no {\k19}I {\k32}won't {\k25}give {\k90}in
-Dialogue: 1,0:02:15.52,0:02:18.47,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Till {\k32}I {\k45}reach {\k32}the {\k45}end
-Dialogue: 1,0:02:17.40,0:02:20.94,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}And {\k25}then {\k32}I'll {\k25}start {\k19}a{\k116}gain
-Dialogue: 1,0:02:19.94,0:02:23.09,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}No {\k25}I {\k51}won't {\k90}leave
-Dialogue: 1,0:02:22.02,0:02:25.10,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k25}wan{\k25}na {\k25}try {\k25}eve{\k32}ry{\k32}thing
-Dialogue: 1,0:02:24.03,0:02:29.33,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k25}wan{\k25}na {\k25}try {\k24}e{\k25}ven {\k50}though {\k25}I {\k32}could {\k164}fail
-Dialogue: 1,0:02:29.49,0:02:37.77,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k84}I'll {\k51}keep {\k77}on {\k77}mak{\k51}ing {\k76}those {\k77}new {\k77}mis{\k148}takes
-Dialogue: 1,0:02:37.81,0:02:46.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k84}I'll {\k51}keep {\k70}on {\k90}mak{\k45}ing {\k70}them {\k90}eve{\k70}ry {\k45}day{\k149}~
-Dialogue: 1,0:02:45.61,0:02:50.19,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Those {\k84}new {\k77}mis{\k136}takes
-Dialogue: 1,0:02:50.29,0:02:53.96,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k38}oh {\k38}oh {\k38}oh {\k90}oh
-Dialogue: 1,0:02:52.89,0:02:55.52,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Try {\k25}eve{\k25}ry{\k78}thing
-Dialogue: 1,0:02:54.45,0:02:58.18,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k38}oh {\k38}oh {\k38}oh {\k97}oh
-Dialogue: 1,0:02:57.11,0:02:59.74,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Try {\k25}eve{\k25}ry{\k78}thing
-Dialogue: 1,0:02:58.67,0:03:02.34,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k38}oh {\k38}oh {\k38}oh {\k90}oh
-Dialogue: 1,0:03:01.27,0:03:03.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Try {\k25}eve{\k25}ry{\k78}thing
-Dialogue: 1,0:03:02.83,0:03:07.21,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k38}oh {\k38}oh {\k38}oh {\k162}oh
-Dialogue: 1,0:03:07.05,0:03:11.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k64}Try{\k12}~ {\k45}eve{\k32}ry{\k32}thing{\k19}~{\k155}~
+Comment: 1,0:00:16.13,0:00:18.00,Default,,0,0,0,karaoke,{\k24}I {\k24}messed {\k25}up {\k32}to{\k82}night
+Comment: 1,0:00:18.45,0:00:20.32,Default,,0,0,0,karaoke,{\k27}I {\k25}lost {\k29}an{\k22}oth{\k30}er {\k54}fight
+Comment: 1,0:00:20.53,0:00:23.94,Default,,0,0,0,karaoke,{\k25}I {\k28}still {\k26}mess {\k25}up {\k26}but {\k51}I'll {\k27}just {\k27}start {\k27}a{\k79}gain
+Comment: 1,0:00:24.42,0:00:26.25,Default,,0,0,0,karaoke,{\k27}I {\k27}keep {\k25}fall{\k27}ing {\k77}down
+Comment: 1,0:00:26.52,0:00:28.63,Default,,0,0,0,karaoke,{\k25}I {\k27}keep {\k25}on {\k25}hit{\k26}ting {\k28}the {\k55}ground
+Comment: 1,0:00:28.85,0:00:32.21,Default,,0,0,0,karaoke,{\k27}I {\k25}al{\k28}ways {\k24}get {\k26}up {\k26}now {\k26}to {\k25}see {\k28}what's {\kf101}next
+Comment: 1,0:00:34.06,0:00:36.84,Default,,0,0,0,karaoke,{\k79}Birds {\k51}don't {\k51}just {\k97}fly
+Comment: 1,0:00:36.92,0:00:40.90,Default,,0,0,0,karaoke,{\k51}They {\k54}fall {\kf104}down {\k76}and {\k28}get {\k85}up
+Comment: 1,0:00:42.37,0:00:45.22,Default,,0,0,0,karaoke,{\k81}No{\k53}bo{\k50}dy {\kf101}learns
+Comment: 1,0:00:45.25,0:00:49.18,Default,,0,0,0,karaoke,{\k54}With{\k51}out {\k99}get{\k54}ting {\k25}it {\kf110}wrong
+Comment: 1,0:00:49.91,0:00:53.21,Default,,0,0,0,karaoke,{\k25}I {\k28}won't {\k23}give {\k53}up, {\k29}no {\k24}I {\k27}won't {\k25}give {\k96}in
+Comment: 1,0:00:53.28,0:00:55.22,Default,,0,0,0,karaoke,{\k26}Till {\k26}I {\k44}reach {\k39}the {\k59}end
+Comment: 1,0:00:55.36,0:00:57.31,Default,,0,0,0,karaoke,{\k25}Then {\k28}I'll {\k25}start {\k28}a{\k89}gain
+Comment: 1,0:00:57.71,0:00:59.61,Default,,0,0,0,karaoke,{\k25}Though {\k25}I'm {\k28}on {\k25}the {\k87}lead
+Comment: 1,0:00:59.78,0:01:01.83,Default,,0,0,0,karaoke,{\k26}I {\k27}wan{\k25}na {\k27}try {\k25}eve{\k27}ry{\k48}thing
+Comment: 1,0:01:01.86,0:01:05.26,Default,,0,0,0,karaoke,{\k25}I {\k27}wan{\k25}na {\k25}try {\k29}e{\k25}ven {\k53}though {\k25}I {\k27}could {\k79}fail
+Comment: 1,0:01:06.53,0:01:09.84,Default,,0,0,0,karaoke,{\k28}I {\k24}won't {\k27}give {\k53}up, {\k25}no {\k26}I {\k25}won't {\k26}give {\k97}in
+Comment: 1,0:01:09.92,0:01:12.00,Default,,0,0,0,karaoke,{\k27}Till {\k26}I {\k41}reach {\k38}the {\k76}end
+Comment: 1,0:01:12.01,0:01:13.97,Default,,0,0,0,karaoke,{\k24}Then {\k28}I'll {\k26}start {\k26}a{\k92}gain
+Comment: 1,0:01:14.36,0:01:16.17,Default,,0,0,0,karaoke,{\k25}No, {\k25}I {\k54}won't {\k77}leave
+Comment: 1,0:01:16.42,0:01:18.49,Default,,0,0,0,karaoke,{\k26}I {\k27}wan{\k24}na {\k31}try {\k24}eve{\k26}ry{\k49}thing
+Comment: 1,0:01:18.51,0:01:21.88,Default,,0,0,0,karaoke,{\k25}I {\k25}wan{\k25}na {\k29}try {\k24}e{\k28}ven {\k53}though {\k25}I {\k27}could {\k76}fail
+Comment: 1,0:01:23.96,0:01:26.44,Sample KM [Choir],,0,0,0,karaoke,{\k38}Oh {\k42}oh {\k38}oh {\k38}oh {\k92}oh
+Comment: 1,0:01:26.57,0:01:28.12,Default,,0,0,0,karaoke,{\k25}Try {\k25}eve{\k28}ry{\k77}thing
+Comment: 1,0:01:28.12,0:01:30.54,Sample KM [Choir],,0,0,0,karaoke,{\k38}Oh {\k39}oh {\k38}oh {\k41}oh {\k86}oh
+Comment: 1,0:01:30.72,0:01:32.29,Default,,0,0,0,karaoke,{\k28}Try {\k25}eve{\k25}ry{\k79}thing
+Comment: 1,0:01:32.29,0:01:34.74,Sample KM [Choir],,0,0,0,karaoke,{\k38}Oh {\k41}oh {\k38}oh {\k38}oh {\k90}oh
+Comment: 1,0:01:34.88,0:01:36.44,Default,,0,0,0,karaoke,{\k28}Try {\k25}eve{\k25}ry{\k78}thing
+Comment: 1,0:01:36.44,0:01:38.91,Sample KM [Choir],,0,0,0,karaoke,{\k38}Oh {\k42}oh {\k38}oh {\k38}oh {\k91}oh
+Comment: 1,0:01:39.83,0:01:41.43,Default,,0,0,0,karaoke,{\k25}Look {\k28}how {\k25}far {\k27}you've {\k55}come
+Comment: 1,0:01:41.65,0:01:43.55,Default,,0,0,0,karaoke,{\k29}You {\k25}filled {\k26}your {\k24}heart {\k30}with {\k56}love
+Comment: 1,0:01:43.73,0:01:45.56,Default,,0,0,0,karaoke,{\k26}Ba{\k25}by, {\k28}you've {\k26}done {\k27}e{\k51}nough
+Comment: 1,0:01:45.56,0:01:47.22,Default,,0,0,0,karaoke,{\k24}That {\k32}cut {\k21}your {\k89}breath
+Comment: 1,0:01:48.15,0:01:49.72,Default,,0,0,0,karaoke,{\k25}Don't {\k25}beat {\k28}your{\k28}self {\k51}up
+Comment: 1,0:01:49.96,0:01:51.93,Default,,0,0,0,karaoke,{\k29}Don't {\k25}need {\k24}to {\k25}run {\k27}so {\k67}fast
+Comment: 1,0:01:52.28,0:01:53.61,Default,,0,0,0,karaoke,{\k30}Some{\k25}times {\k25}we {\k26}come {\k27}last
+Comment: 1,0:01:53.61,0:01:55.68,Default,,0,0,0,karaoke,{\k25}But {\k25}we {\k26}did {\k27}our {\kf104}best
+Comment: 1,0:01:56.49,0:01:59.82,Default,,0,0,0,karaoke,{\k25}I {\k27}won't {\k24}give {\k51}up, {\k27}no {\k25}I {\k27}won't {\k25}give {\kf102}in
+Comment: 1,0:01:59.84,0:02:01.70,Default,,0,0,0,karaoke,{\k27}Till {\k26}I {\k42}reach {\k38}the {\k53}end
+Comment: 1,0:02:01.70,0:02:03.86,Default,,0,0,0,karaoke,{\k23}And {\k25}then {\k27}I'll {\k25}start {\k26}a{\k90}gain
+Comment: 1,0:02:04.27,0:02:06.23,Default,,0,0,0,karaoke,{\k25}Though {\k26}I'm {\k25}on {\k28}the {\k92}lead
+Comment: 1,0:02:06.36,0:02:08.41,Default,,0,0,0,karaoke,{\k24}I {\k25}wan{\k25}na {\k29}try {\k25}eve{\k28}ry{\k49}thing
+Comment: 1,0:02:08.41,0:02:11.81,Default,,0,0,0,karaoke,{\k26}I {\k27}wan{\k23}na {\k29}try {\k26}e{\k25}ven {\k55}though {\k25}I {\k27}could {\k77}fail
+Comment: 1,0:02:13.10,0:02:16.47,Default,,0,0,0,karaoke,{\k25}I {\k27}won't {\k27}give {\k50}up, {\k25}no {\k28}I {\k26}won't {\k27}give {\kf102}in
+Comment: 1,0:02:16.47,0:02:18.57,Default,,0,0,0,karaoke,{\k27}Till {\k27}I {\k42}reach {\k38}the {\k76}end
+Comment: 1,0:02:18.57,0:02:20.50,Default,,0,0,0,karaoke,{\k25}Then {\k27}I'll {\k25}start {\k26}a{\k90}gain
+Comment: 1,0:02:20.91,0:02:22.73,Default,,0,0,0,karaoke,{\k25}No, {\k25}I {\k56}won't {\k76}leave
+Comment: 1,0:02:22.99,0:02:25.05,Default,,0,0,0,karaoke,{\k25}I {\k28}wan{\k22}na {\k31}try {\k25}eve{\k25}ry{\k50}thing
+Comment: 1,0:02:25.05,0:02:28.46,Default,,0,0,0,karaoke,{\k27}I {\k25}wan{\k25}na {\k30}try {\k24}e{\k25}ven {\k55}though {\k25}I {\k27}could {\k78}fail
+Comment: 1,0:02:30.54,0:02:37.47,Default,,0,0,0,karaoke,{\k77}I'll {\k53}keep {\k75}on {\k81}mak{\k53}ing {\k76}those {\k77}new {\k79}mis{\kf122}takes
+Comment: 1,0:02:38.84,0:02:45.93,Default,,0,0,0,karaoke,{\k80}I'll {\k51}keep {\k79}on {\k79}mak{\k52}ing {\k75}them {\k80}eve{\k77}ry {\kf136}day
+Comment: 1,0:02:46.65,0:02:49.76,Default,,0,0,0,karaoke,{\k51}Those {\k78}new {\k77}mis{\kf105}takes
+Comment: 1,0:02:51.33,0:02:53.83,Sample KM [Choir],,0,0,0,karaoke,{\k38}Oh {\k38}oh {\k38}oh {\k41}oh {\k95}oh
+Comment: 1,0:02:53.92,0:02:55.40,Default,,0,0,0,karaoke,{\k25}Try {\k25}eve{\k28}ry{\k70}thing
+Comment: 1,0:02:55.47,0:02:57.90,Sample KM [Choir],,0,0,0,karaoke,{\k38}Oh {\k38}oh {\k42}oh {\k40}oh {\k85}oh
+Comment: 1,0:02:58.04,0:02:59.65,Default,,0,0,0,karaoke,{\k33}Try {\k23}eve{\k28}ry{\k77}thing
+Comment: 1,0:02:59.65,0:03:02.24,Sample KM [Choir],,0,0,0,karaoke,{\k38}Oh {\k38}oh {\k38}oh {\k42}oh {\kf103}oh
+Comment: 1,0:03:02.27,0:03:03.81,Default,,0,0,0,karaoke,{\k27}Try {\k25}eve{\k25}ry{\k77}thing
+Comment: 1,0:03:03.81,0:03:06.16,Sample KM [Choir],,0,0,0,karaoke,{\k38}Oh {\k38}oh {\k40}oh {\k38}oh {\k81}oh
+Comment: 1,0:03:07.95,0:03:11.92,Default,,0,0,0,karaoke,{\k92}Try {\k39}eve{\k29}ry{\kf237}thing
+Dialogue: 1,0:00:15.23,0:00:18.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k24}messed {\k25}up {\k32}to{\k82}night
+Dialogue: 1,0:00:17.55,0:00:20.52,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k25}lost {\k29}an{\k22}oth{\k30}er {\k54}fight
+Dialogue: 1,0:00:19.63,0:00:24.14,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k28}still {\k26}mess {\k25}up {\k26}but {\k51}I'll {\k27}just {\k27}start {\k27}a{\k79}gain
+Dialogue: 1,0:00:23.52,0:00:26.45,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k27}keep {\k25}fall{\k27}ing {\k77}down
+Dialogue: 1,0:00:25.62,0:00:28.83,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k27}keep {\k25}on {\k25}hit{\k26}ting {\k28}the {\k55}ground
+Dialogue: 1,0:00:27.95,0:00:32.41,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k25}al{\k28}ways {\k24}get {\k26}up {\k26}now {\k26}to {\k25}see {\k28}what's {\kf101}next
+Dialogue: 1,0:00:33.16,0:00:37.04,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k79}Birds {\k51}don't {\k51}just {\k97}fly
+Dialogue: 1,0:00:36.02,0:00:41.10,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k51}They {\k54}fall {\kf104}down {\k76}and {\k28}get {\k85}up
+Dialogue: 1,0:00:41.47,0:00:45.42,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k81}No{\k53}bo{\k50}dy {\kf101}learns
+Dialogue: 1,0:00:44.35,0:00:49.38,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k54}With{\k51}out {\k99}get{\k54}ting {\k25}it {\kf110}wrong
+Dialogue: 1,0:00:49.01,0:00:53.41,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k28}won't {\k23}give {\k53}up, {\k29}no {\k24}I {\k27}won't {\k25}give {\k96}in
+Dialogue: 1,0:00:52.38,0:00:55.42,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Till {\k26}I {\k44}reach {\k39}the {\k59}end
+Dialogue: 1,0:00:54.46,0:00:57.51,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Then {\k28}I'll {\k25}start {\k28}a{\k89}gain
+Dialogue: 1,0:00:56.81,0:00:59.81,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Though {\k25}I'm {\k28}on {\k25}the {\k87}lead
+Dialogue: 1,0:00:58.88,0:01:02.03,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k27}wan{\k25}na {\k27}try {\k25}eve{\k27}ry{\k48}thing
+Dialogue: 1,0:01:00.96,0:01:05.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k27}wan{\k25}na {\k25}try {\k29}e{\k25}ven {\k53}though {\k25}I {\k27}could {\k79}fail
+Dialogue: 1,0:01:05.63,0:01:10.04,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}I {\k24}won't {\k27}give {\k53}up, {\k25}no {\k26}I {\k25}won't {\k26}give {\k97}in
+Dialogue: 1,0:01:09.02,0:01:12.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Till {\k26}I {\k41}reach {\k38}the {\k76}end
+Dialogue: 1,0:01:11.11,0:01:14.17,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Then {\k28}I'll {\k26}start {\k26}a{\k92}gain
+Dialogue: 1,0:01:13.46,0:01:16.37,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}No, {\k25}I {\k54}won't {\k77}leave
+Dialogue: 1,0:01:15.52,0:01:18.69,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k27}wan{\k24}na {\k31}try {\k24}eve{\k26}ry{\k49}thing
+Dialogue: 1,0:01:17.61,0:01:22.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k25}wan{\k25}na {\k29}try {\k24}e{\k28}ven {\k53}though {\k25}I {\k27}could {\k76}fail
+Dialogue: 1,0:01:23.06,0:01:26.64,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k42}oh {\k38}oh {\k38}oh {\k92}oh
+Dialogue: 1,0:01:25.67,0:01:28.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Try {\k25}eve{\k28}ry{\k77}thing
+Dialogue: 1,0:01:27.22,0:01:30.74,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k39}oh {\k38}oh {\k41}oh {\k86}oh
+Dialogue: 1,0:01:29.82,0:01:32.49,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Try {\k25}eve{\k25}ry{\k79}thing
+Dialogue: 1,0:01:31.39,0:01:34.94,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k41}oh {\k38}oh {\k38}oh {\k90}oh
+Dialogue: 1,0:01:33.98,0:01:36.64,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}Try {\k25}eve{\k25}ry{\k78}thing
+Dialogue: 1,0:01:35.54,0:01:39.11,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k42}oh {\k38}oh {\k38}oh {\k91}oh
+Dialogue: 1,0:01:38.93,0:01:41.63,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Look {\k28}how {\k25}far {\k27}you've {\k55}come
+Dialogue: 1,0:01:40.75,0:01:43.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}You {\k25}filled {\k26}your {\k24}heart {\k30}with {\k56}love
+Dialogue: 1,0:01:42.83,0:01:45.76,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ba{\k25}by, {\k28}you've {\k26}done {\k27}e{\k51}nough
+Dialogue: 1,0:01:44.66,0:01:47.42,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}That {\k32}cut {\k21}your {\k89}breath
+Dialogue: 1,0:01:47.25,0:01:49.92,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Don't {\k25}beat {\k28}your{\k28}self {\k51}up
+Dialogue: 1,0:01:49.06,0:01:52.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Don't {\k25}need {\k24}to {\k25}run {\k27}so {\k67}fast
+Dialogue: 1,0:01:51.38,0:01:53.81,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k30}Some{\k25}times {\k25}we {\k26}come {\k27}last
+Dialogue: 1,0:01:52.71,0:01:55.88,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}But {\k25}we {\k26}did {\k27}our {\kf104}best
+Dialogue: 1,0:01:55.59,0:02:00.02,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k27}won't {\k24}give {\k51}up, {\k27}no {\k25}I {\k27}won't {\k25}give {\kf102}in
+Dialogue: 1,0:01:58.94,0:02:01.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Till {\k26}I {\k42}reach {\k38}the {\k53}end
+Dialogue: 1,0:02:00.80,0:02:04.06,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}And {\k25}then {\k27}I'll {\k25}start {\k26}a{\k90}gain
+Dialogue: 1,0:02:03.37,0:02:06.43,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Though {\k26}I'm {\k25}on {\k28}the {\k92}lead
+Dialogue: 1,0:02:05.46,0:02:08.61,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k25}wan{\k25}na {\k29}try {\k25}eve{\k28}ry{\k49}thing
+Dialogue: 1,0:02:07.51,0:02:12.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k27}wan{\k23}na {\k29}try {\k26}e{\k25}ven {\k55}though {\k25}I {\k27}could {\k77}fail
+Dialogue: 1,0:02:12.20,0:02:16.67,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k27}won't {\k27}give {\k50}up, {\k25}no {\k28}I {\k26}won't {\k27}give {\kf102}in
+Dialogue: 1,0:02:15.57,0:02:18.77,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Till {\k27}I {\k42}reach {\k38}the {\k76}end
+Dialogue: 1,0:02:17.67,0:02:20.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Then {\k27}I'll {\k25}start {\k26}a{\k90}gain
+Dialogue: 1,0:02:20.01,0:02:22.93,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}No, {\k25}I {\k56}won't {\k76}leave
+Dialogue: 1,0:02:22.09,0:02:25.25,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k28}wan{\k22}na {\k31}try {\k25}eve{\k25}ry{\k50}thing
+Dialogue: 1,0:02:24.15,0:02:28.66,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k25}wan{\k25}na {\k30}try {\k24}e{\k25}ven {\k55}though {\k25}I {\k27}could {\k78}fail
+Dialogue: 1,0:02:29.64,0:02:37.67,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k77}I'll {\k53}keep {\k75}on {\k81}mak{\k53}ing {\k76}those {\k77}new {\k79}mis{\kf122}takes
+Dialogue: 1,0:02:37.94,0:02:46.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k80}I'll {\k51}keep {\k79}on {\k79}mak{\k52}ing {\k75}them {\k80}eve{\k77}ry {\kf136}day
+Dialogue: 1,0:02:45.75,0:02:49.96,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k51}Those {\k78}new {\k77}mis{\kf105}takes
+Dialogue: 1,0:02:50.43,0:02:54.03,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k38}oh {\k38}oh {\k41}oh {\k95}oh
+Dialogue: 1,0:02:53.02,0:02:55.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Try {\k25}eve{\k28}ry{\k70}thing
+Dialogue: 1,0:02:54.57,0:02:58.10,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k38}oh {\k42}oh {\k40}oh {\k85}oh
+Dialogue: 1,0:02:57.14,0:02:59.85,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Try {\k23}eve{\k28}ry{\k77}thing
+Dialogue: 1,0:02:58.75,0:03:02.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k38}oh {\k38}oh {\k42}oh {\kf103}oh
+Dialogue: 1,0:03:01.37,0:03:04.01,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Try {\k25}eve{\k25}ry{\k77}thing
+Dialogue: 1,0:03:02.91,0:03:06.36,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Oh {\k38}oh {\k40}oh {\k38}oh {\k81}oh
+Dialogue: 1,0:03:07.05,0:03:12.12,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k92}Try {\k39}eve{\k29}ry{\kf237}thing
