@@ -1,0 +1,97 @@
+﻿[Script Info]
+Title: Bubee
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Moka,Arial,24,&H00FFFFFF,&H00FF69BB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Yunah,Arial,24,&H00FFFFFF,&H006162FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Minju,Arial,24,&H00FFFFFF,&H0000F0FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Wonhee,Arial,24,&H00FFFFFF,&H00D580E3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Iroha,Arial,24,&H00FFFFFF,&H00FCDD6C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: All,Arial,24,&H00FFFFFF,&H0056B2FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Legend,Arial,24,&H00FFFFFF,&H0056B2FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Legend,,0,0,0,,{\k1000} ILLIT {\2cFFFFFF}| {\rYunah}Yunah {\2cFFFFFF}| {\rMoka}Moka {\2cFFFFFF}| {\rWonhee}Wonhee {\2cFFFFFF}| {\rIroha}Iroha {\2cFFFFFF}| {\rMinju}Minju
+Comment: 0,0:00:00.83,0:00:01.88,Moka,,0,0,0,karaoke,{\k49}BAE {\k33}BAE {\k23}BAE
+Comment: 0,0:00:01.98,0:00:03.09,Moka,,0,0,0,karaoke,{\k16}BAE {\k18}BAE {\k17}BAE {\k16}BAE {\k16}BAE {\k28}BAE
+Comment: 0,0:00:03.48,0:00:04.57,Moka,,0,0,0,karaoke,{\k50}BAE {\k31}BAE {\k28}BAE
+Comment: 0,0:00:05.10,0:00:05.83,All,,0,0,0,karaoke,{\k19}Bu{\k14}bee {\k18}Bu{\k22}bee
+Comment: 0,0:00:06.14,0:00:07.18,Wonhee,,0,0,0,karaoke,{\k49}BAE {\k32}BAE {\k23}BAE
+Comment: 0,0:00:07.30,0:00:08.38,Wonhee,,0,0,0,karaoke,{\k16}BAE {\k16}BAE {\k16}BAE {\k17}BAE {\k16}BAE {\k27}BAE
+Comment: 0,0:00:08.78,0:00:09.84,Wonhee,,0,0,0,karaoke,{\k50}BAE {\k34}BAE {\k11}BAE
+Comment: 0,0:00:09.95,0:00:11.07,Wonhee,,0,0,0,karaoke,{\k18}BAE {\k15}BAE {\k17}BAE {\k16}BAE {\k16}BAE {\k30}BAE
+Comment: 0,0:00:12.08,0:00:14.25,Minju,,0,0,0,karaoke,{\k24}HU{\k44}HU{\k18} HU{\k48}HU {\k18}HU{\k65}HU
+Comment: 0,0:00:14.74,0:00:16.68,Minju,,0,0,0,karaoke,{\k20}You're {\k48}my {\k16}lit{\k49}tle {\k17}bud{\k44}dy
+Comment: 0,0:00:16.73,0:00:21.50,Iroha,,0,0,0,karaoke,{\k34}Hey {\k34}Bu{\k32}bee {\kf377}Love
+Comment: 0,0:00:19.05,0:00:21.50,All,,0,0,0,karaoke,{\k18}Bu{\k48}bee {\k17}Bu{\k50}bee {\k17}Bu{\k49}bee {\k46}Love
+Comment: 0,0:00:22.03,0:00:24.18,Moka,,0,0,0,karaoke,{\k16}do{\k19}ki{\k15}do{\k22}ki {\k13}shi{\k20}te{\k16}i{\k31}ru {\k15}wa{\k15}ta{\k33}shi
+Comment: 0,0:00:24.69,0:00:26.83,Moka,,0,0,0,karaoke,{\k16}ko{\k18}no {\k16}me {\k17}ni {\k16}u{\k38}tsu{\k31}ru {\k30}no {\k32}wa
+Comment: 0,0:00:27.34,0:00:29.79,Moka,,0,0,0,karaoke,{\k17}a{\k16}ta{\k15}ra{\k33}shii {\k39}se{\k35}kai {\k28}no {\k38}i{\k24}ro
+Comment: 0,0:00:30.66,0:00:31.10,Moka,,0,0,0,karaoke,{\k16}WO{\k28}AH
+Comment: 0,0:00:32.64,0:00:34.82,Minju,,0,0,0,karaoke,{\k35}kyou {\k14}mo {\k36}so{\k35}ba {\k30}ni {\k32}i{\k36}te
+Comment: 0,0:00:35.27,0:00:37.89,Minju,,0,0,0,karaoke,{\k20}ki{\k16}mi {\k17}no {\k35}te {\k33}wo {\k35}to{\k30}t{\k34}te {\k15}yu{\k27}kou
+Comment: 0,0:00:38.27,0:00:41.77,Minju,,0,0,0,karaoke,{\k17}hi{\k17}ka{\k19}ri {\k48}ni {\k33}na{\k16}re{\k17}ru {\k17}ba{\k49}sho {\k17}ni {\k15}a{\k18}ko{\k16}ga{\k18}re{\k33}te
+Comment: 0,0:00:42.91,0:00:47.63,Iroha,,0,0,0,karaoke,{\k35}ma{\k32}ho{\k35}u {\k33}no {\k31}o{\k36}to {\k30}ga {\k23}su{\kf217}ru
+Comment: 0,0:00:48.89,0:00:50.69,Wonhee,,0,0,0,karaoke,{\k17}I {\k17}wan{\k17}na {\k49}sing {\k17}with {\k63}you
+Comment: 0,0:00:51.54,0:00:53.48,Wonhee,,0,0,0,karaoke,{\k16}fu{\k17}ta{\k19}ri {\k46}de {\k19}u{\k47}ta{\k30}ou
+Comment: 0,0:00:53.53,0:00:57.19,Wonhee,,0,0,0,karaoke,{\k34}ki{\k34}mi {\k33}wa {\k16}a{\k34}ka{\k31}ru{\k34}ku {\k17}ka{\k14}ga{\k19}ya{\k34}ku {\k17}ho{\k49}shi
+Comment: 0,0:00:57.34,0:00:59.04,Moka,,0,0,0,karaoke,{\k16}My {\k19}Bu{\k15}bee {\k17}Bu{\k15}bee {\k21}Bu{\k31}bee {\k36}Love
+Comment: 0,0:00:59.47,0:01:01.52,Yunah,,0,0,0,karaoke,{\k19}We {\k18}can {\k15}be {\k51}shi{\k11}ning {\k91}stars
+Comment: 0,0:01:01.97,0:01:06.24,Yunah,,0,0,0,karaoke,{\k19}ji{\k21}ka{\k11}n {\k18}ga {\k48}tat{\k17}te{\k49}mo {\k37}hi{\k29}mi{\k36}tsu {\k31}no {\k17}ma{\k34}ho{\k30}u {\k30}sa
+Comment: 0,0:01:06.46,0:01:10.24,Yunah,,0,0,0,karaoke,{\k33}My {\k18}Bu{\k51}bee {\k15}Bu{\k48}bee {\k22}Bu{\k45}bee {\kf146}Love
+Comment: 0,0:01:10.40,0:01:12.67,Moka,,0,0,0,karaoke,{\k21}O{\k49}OH {\k18}O{\k46}OH {\k20}WO{\k73}AH
+Comment: 0,0:01:13.09,0:01:15.01,Moka,,0,0,0,karaoke,{\k18}You're {\k49}my {\k17}lit{\k49}tle {\k17}bud{\k42}dy
+Comment: 0,0:01:15.07,0:01:19.93,Iroha,,0,0,0,karaoke,{\k34}Hey {\k34}Bu{\k32}bee {\kf386}Love
+Comment: 0,0:01:17.40,0:01:19.93,All,,0,0,0,karaoke,{\k17}Bu{\k49}bee {\k17}Bu{\k50}bee {\k16}Bu{\k49}bee {\k55}Love
+Comment: 0,0:01:20.38,0:01:21.42,Moka,,0,0,0,karaoke,{\k50}BAE {\k33}BAE {\k21}BAE
+Comment: 0,0:01:21.54,0:01:22.61,Moka,,0,0,0,karaoke,{\k17}BAE {\k17}BAE {\k16}BAE {\k17}BAE {\k16}BAE {\k24}BAE
+Comment: 0,0:01:23.04,0:01:24.11,Moka,,0,0,0,karaoke,{\k49}BAE {\k33}BAE {\k25}BAE
+Comment: 0,0:01:24.65,0:01:25.35,All,,0,0,0,karaoke,{\k20}Bu{\k14}bee {\k18}Bu{\k18}bee
+Comment: 0,0:01:25.35,0:01:27.24,All,,0,0,0,karaoke,{\k34}B.{\k34}U.{\k33}B.{\k31}E.{\k34}E.{\k23}E
+Comment: 0,0:01:27.32,0:01:28.66,All,,0,0,0,karaoke,{\k19}Bu{\k47}bee {\k20}Bu{\k16}bee {\k32}Love
+Dialogue: 0,0:00:00.00,0:00:02.08,Moka,,0,0,0,fx,{\k83\fad(830,200)}{\k49}BAE {\k33}BAE {\k23}BAE
+Dialogue: 0,0:00:01.08,0:00:03.29,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k16}BAE {\k18}BAE {\k17}BAE {\k16}BAE {\k16}BAE {\k28}BAE
+Dialogue: 0,0:00:02.58,0:00:04.77,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k50}BAE {\k31}BAE {\k28}BAE
+Dialogue: 0,0:00:04.20,0:00:06.03,All,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Bu{\k14}bee {\k18}Bu{\k22}bee
+Dialogue: 0,0:00:05.24,0:00:07.38,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k49}BAE {\k32}BAE {\k23}BAE
+Dialogue: 0,0:00:06.40,0:00:08.58,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k16}BAE {\k16}BAE {\k16}BAE {\k17}BAE {\k16}BAE {\k27}BAE
+Dialogue: 0,0:00:07.88,0:00:10.04,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k50}BAE {\k34}BAE {\k11}BAE
+Dialogue: 0,0:00:09.05,0:00:11.27,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k18}BAE {\k15}BAE {\k17}BAE {\k16}BAE {\k16}BAE {\k30}BAE
+Dialogue: 0,0:00:11.18,0:00:14.45,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k24}HU{\k44}HU{\k18} HU{\k48}HU {\k18}HU{\k65}HU
+Dialogue: 0,0:00:13.84,0:00:16.88,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k20}You're {\k48}my {\k16}lit{\k49}tle {\k17}bud{\k44}dy
+Dialogue: 0,0:00:15.83,0:00:21.70,Iroha,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Hey {\k34}Bu{\k32}bee {\kf377}Love
+Dialogue: 0,0:00:18.15,0:00:21.70,All,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Bu{\k48}bee {\k17}Bu{\k50}bee {\k17}Bu{\k49}bee {\k46}Love
+Dialogue: 0,0:00:21.13,0:00:24.38,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k16}do{\k19}ki{\k15}do{\k22}ki {\k13}shi{\k20}te{\k16}i{\k31}ru {\k15}wa{\k15}ta{\k33}shi
+Dialogue: 0,0:00:23.79,0:00:27.03,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ko{\k18}no {\k16}me {\k17}ni {\k16}u{\k38}tsu{\k31}ru {\k30}no {\k32}wa
+Dialogue: 0,0:00:26.44,0:00:29.99,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k17}a{\k16}ta{\k15}ra{\k33}shii {\k39}se{\k35}kai {\k28}no {\k38}i{\k24}ro
+Dialogue: 0,0:00:29.76,0:00:31.30,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k16}WO{\k28}AH
+Dialogue: 0,0:00:31.74,0:00:35.02,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k35}kyou {\k14}mo {\k36}so{\k35}ba {\k30}ni {\k32}i{\k36}te
+Dialogue: 0,0:00:34.37,0:00:38.09,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ki{\k16}mi {\k17}no {\k35}te {\k33}wo {\k35}to{\k30}t{\k34}te {\k15}yu{\k27}kou
+Dialogue: 0,0:00:37.37,0:00:41.97,Minju,,0,0,0,fx,{\k90\fad(300,200)}{\k17}hi{\k17}ka{\k19}ri {\k48}ni {\k33}na{\k16}re{\k17}ru {\k17}ba{\k49}sho {\k17}ni {\k15}a{\k18}ko{\k16}ga{\k18}re{\k33}te
+Dialogue: 0,0:00:42.01,0:00:47.83,Iroha,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ma{\k32}ho{\k35}u {\k33}no {\k31}o{\k36}to {\k30}ga {\k23}su{\kf217}ru
+Dialogue: 0,0:00:47.99,0:00:50.89,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k17}wan{\k17}na {\k49}sing {\k17}with {\k63}you
+Dialogue: 0,0:00:50.64,0:00:53.68,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k16}fu{\k17}ta{\k19}ri {\k46}de {\k19}u{\k47}ta{\k30}ou
+Dialogue: 0,0:00:52.63,0:00:57.39,Wonhee,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ki{\k34}mi {\k33}wa {\k16}a{\k34}ka{\k31}ru{\k34}ku {\k17}ka{\k14}ga{\k19}ya{\k34}ku {\k17}ho{\k49}shi
+Dialogue: 0,0:00:56.44,0:00:59.24,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k16}My {\k19}Bu{\k15}bee {\k17}Bu{\k15}bee {\k21}Bu{\k31}bee {\k36}Love
+Dialogue: 0,0:00:58.57,0:01:01.72,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k19}We {\k18}can {\k15}be {\k51}shi{\k11}ning {\k91}stars
+Dialogue: 0,0:01:01.07,0:01:06.44,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ji{\k21}ka{\k11}n {\k18}ga {\k48}tat{\k17}te{\k49}mo {\k37}hi{\k29}mi{\k36}tsu {\k31}no {\k17}ma{\k34}ho{\k30}u {\k30}sa
+Dialogue: 0,0:01:05.56,0:01:10.44,Yunah,,0,0,0,fx,{\k90\fad(300,200)}{\k33}My {\k18}Bu{\k51}bee {\k15}Bu{\k48}bee {\k22}Bu{\k45}bee {\kf146}Love
+Dialogue: 0,0:01:09.50,0:01:12.87,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k21}O{\k49}OH {\k18}O{\k46}OH {\k20}WO{\k73}AH
+Dialogue: 0,0:01:12.19,0:01:15.21,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k18}You're {\k49}my {\k17}lit{\k49}tle {\k17}bud{\k42}dy
+Dialogue: 0,0:01:14.17,0:01:20.13,Iroha,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Hey {\k34}Bu{\k32}bee {\kf386}Love
+Dialogue: 0,0:01:16.50,0:01:20.13,All,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Bu{\k49}bee {\k17}Bu{\k50}bee {\k16}Bu{\k49}bee {\k55}Love
+Dialogue: 0,0:01:19.48,0:01:21.62,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k50}BAE {\k33}BAE {\k21}BAE
+Dialogue: 0,0:01:20.64,0:01:22.81,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k17}BAE {\k17}BAE {\k16}BAE {\k17}BAE {\k16}BAE {\k24}BAE
+Dialogue: 0,0:01:22.14,0:01:24.31,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\k49}BAE {\k33}BAE {\k25}BAE
+Dialogue: 0,0:01:23.75,0:01:25.55,All,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Bu{\k14}bee {\k18}Bu{\k18}bee
+Dialogue: 0,0:01:24.45,0:01:27.44,All,,0,0,0,fx,{\k90\fad(300,200)}{\k34}B.{\k34}U.{\k33}B.{\k31}E.{\k34}E.{\k23}E
+Dialogue: 0,0:01:26.42,0:01:28.86,All,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Bu{\k47}bee {\k20}Bu{\k16}bee {\k32}Love
