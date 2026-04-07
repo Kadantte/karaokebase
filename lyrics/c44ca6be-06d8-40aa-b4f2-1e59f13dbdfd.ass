@@ -1,0 +1,64 @@
+﻿[Script Info]
+Title: blue hour
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: ENG,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Legend,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Legend,,0,0,0,karaoke,{\k1000} JPN {\2cFFFFFF}| {\rENG}ENG
+Comment: 0,0:00:08.82,0:00:15.14,ENG,,0,0,0,karaoke,{\k71}Hey, {\rJP}{\k20}u{\k26}n{\k23}me{\k25}i {\k66}ga {\k23}yo{\k24}n{\k22}de {\k22}i{\k113}ru {\rENG}{\k27}for {\k21}the {\k36}big {\k113}stage
+Comment: 0,0:00:16.85,0:00:18.57,ENG,,0,0,0,karaoke,{\k13}the {\k33}spot{\k23}light {\k17}fil{\k30}ling {\k22}my {\k34}heart
+Comment: 0,0:00:18.70,0:00:21.62,JP,,0,0,0,karaoke,{\k22}ma{\k23}ta {\k39}a{\k29}tsu{\k24}ku {\k45}na{\k23}ru {\k24}o{\k63}moi
+Comment: 0,0:00:22.35,0:00:22.90,ENG,,0,0,0,karaoke,{\k25}AH {\k30}AH
+Comment: 0,0:00:23.47,0:00:29.28,ENG,,0,0,0,karaoke,{\k69}Ah, {\rJP}{\k23}yu{\k26}me {\k20}o{\k27}t{\k66}te {\k24}na{\k20}mi{\k20}da {\k29}shi{\k111}ta {\rENG}{\k21}ones {\k23}be{\k50}fore {\k52}me
+Comment: 0,0:00:30.81,0:00:34.49,ENG,,0,0,0,karaoke,{\k42}I {\k49}sing {\k23}through {\k21}the {\k30}heart{\k63}break {\rJP}{\k24}shi{\k23}n{\k24}ji{\k69}tai
+Comment: 0,0:00:35.18,0:00:37.66,JP,,0,0,0,karaoke,{\k42}hi{\k27}ka{\k44}ri {\k26}ga {\k40}ma{\k26}t{\k23}te{\k20}ru
+Comment: 0,0:00:37.66,0:00:40.72,ENG,,0,0,0,karaoke,{\k48}I've {\k48}got {\k88}you, {\k46}you've {\k45}got {\k31}me
+Comment: 0,0:00:41.31,0:00:44.11,JP,,0,0,0,karaoke,{\k26}sa{\k24}i{\k22}go {\k24}ma{\k44}de {\k42}su{\k51}sun{\k47}de
+Comment: 0,0:00:45.01,0:00:48.16,ENG,,0,0,0,karaoke,{\k25}Oh {\k22}in {\k25}the {\k45}night {\k20}we {\k24}can {\k86}wish {\k15}on {\k16}a {\k37}star
+Comment: 0,0:00:48.44,0:00:51.83,ENG,,0,0,0,karaoke,{\k21}hi{\k27}ka{\k23}ri {\k88}no {\k26}sa{\k23}ki {\kf131}he
+Comment: 0,0:00:53.50,0:00:56.74,JP,,0,0,0,karaoke,{\k24}te {\k22}wo {\k46}no{\k20}ba{\k22}shi {\k22}tsu{\k25}zu{\k24}ke{\k23}ta {\rENG}{\k42}big {\k54}dream
+Comment: 0,0:00:57.15,0:01:00.37,JP,,0,0,0,karaoke,{\k24}da{\k24}re{\k46}ka {\k21}no {\k25}me {\k21}ni {\k21}wa {\rENG}{\k28}it's {\k21}a {\k42}day{\k49}dream
+Comment: 0,0:01:00.82,0:01:02.84,ENG,,0,0,0,karaoke,{\k23}"All {\k14}the {\k50}stars {\k20}that {\k50}shine {\k26}brigh{\k19}test
+Comment: 0,0:01:03.12,0:01:04.75,ENG,,0,0,0,karaoke,{\k44}Burn {\k24}out {\k22}the {\k48}fast{\k25}est”
+Comment: 0,0:01:04.97,0:01:07.78,JP,,0,0,0,karaoke,{\k41}bo{\k26}ku{\k21}ra {\k25}ko{\k23}e{\k25}te {\k21}yu{\k46}ke{\k53}ru
+Comment: 0,0:01:08.18,0:01:11.45,JP,,0,0,0,karaoke,{\k20}da{\k26}re {\k39}mo {\k26}shi{\k45}ra{\k44}nai {\rENG}{\k26}to{\k42}mo{\k26}r{\k33}row
+Comment: 0,0:01:11.82,0:01:15.03,JP,,0,0,0,karaoke,{\k23}ko{\k25}ko{\k44}ro {\k41}no {\k30}ko{\k20}e {\k21}d{\k24}ake {\rENG}{\k46}fol{\k47}low
+Comment: 0,0:01:15.46,0:01:17.46,JP,,0,0,0,karaoke,{\k21}ka{\k27}ke{\k47}nu{\k21}ke{\k84}tai
+Comment: 0,0:01:19.12,0:01:20.62,JP,,0,0,0,karaoke,{\k25}yu{\k23}me {\k46}to {\k23}mi{\k33}rai
+Comment: 0,0:01:20.95,0:01:24.93,JP,,0,0,0,karaoke,{\k24}ka{\k47}sa{\kf138}na{\k22}ru {\k45}you {\kf122}ni
+Comment: 0,0:01:26.01,0:01:28.35,ENG,,0,0,0,karaoke,{\k69}Oh {\k25}with {\k42}my {\k98}pledge
+Dialogue: 0,0:00:07.92,0:00:15.34,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k71}Hey, {\rJP}{\k20}u{\k26}n{\k23}me{\k25}i {\k66}ga {\k23}yo{\k24}n{\k22}de {\k22}i{\k113}ru {\rENG}{\k27}for {\k21}the {\k36}big {\k113}stage
+Dialogue: 0,0:00:15.95,0:00:18.77,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k13}the {\k33}spot{\k23}light {\k17}fil{\k30}ling {\k22}my {\k34}heart
+Dialogue: 0,0:00:17.80,0:00:21.82,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ma{\k23}ta {\k39}a{\k29}tsu{\k24}ku {\k45}na{\k23}ru {\k24}o{\k63}moi
+Dialogue: 0,0:00:21.45,0:00:23.10,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k25}AH {\k30}AH
+Dialogue: 0,0:00:22.57,0:00:29.48,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k69}Ah, {\rJP}{\k23}yu{\k26}me {\k20}o{\k27}t{\k66}te {\k24}na{\k20}mi{\k20}da {\k29}shi{\k111}ta {\rENG}{\k21}ones {\k23}be{\k50}fore {\k52}me
+Dialogue: 0,0:00:29.91,0:00:34.69,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k42}I {\k49}sing {\k23}through {\k21}the {\k30}heart{\k63}break {\rJP}{\k24}shi{\k23}n{\k24}ji{\k69}tai
+Dialogue: 0,0:00:34.28,0:00:37.86,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k42}hi{\k27}ka{\k44}ri {\k26}ga {\k40}ma{\k26}t{\k23}te{\k20}ru
+Dialogue: 0,0:00:36.76,0:00:40.92,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k48}I've {\k48}got {\k88}you {\k46}you've {\k45}got {\k31}me
+Dialogue: 0,0:00:40.41,0:00:44.31,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k26}sa{\k24}i{\k22}go {\k24}ma{\k44}de {\k42}su{\k51}sun{\k47}de
+Dialogue: 0,0:00:44.11,0:00:48.36,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Oh {\k22}in {\k25}the {\k45}night {\k20}we {\k24}can {\k86}wish {\k15}on {\k16}a {\k37}star
+Dialogue: 0,0:00:47.54,0:00:52.03,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k21}hi{\k27}ka{\k23}ri {\k88}no {\k26}sa{\k23}ki {\kf131}he
+Dialogue: 0,0:00:52.60,0:00:56.94,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k24}te {\k22}wo {\k46}no{\k20}ba{\k22}shi {\k22}tsu{\k25}zu{\k24}ke{\k23}ta {\rENG}{\k42}big {\k54}dream
+Dialogue: 0,0:00:56.25,0:01:00.57,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k24}da{\k24}re{\k46}ka {\k21}no {\k25}me {\k21}ni {\k21}wa {\rENG}{\k28}it's {\k21}a {\k42}day{\k49}dream
+Dialogue: 0,0:00:59.92,0:01:03.04,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}"All {\k14}the {\k50}stars {\k20}that {\k50}shine {\k26}brigh{\k19}test
+Dialogue: 0,0:01:02.22,0:01:04.95,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Burn {\k24}out {\k22}the {\k48}fast{\k25}est”
+Dialogue: 0,0:01:04.07,0:01:07.98,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k41}bo{\k26}ku{\k21}ra {\k25}ko{\k23}e{\k25}te {\k21}yu{\k46}ke{\k53}ru
+Dialogue: 0,0:01:07.28,0:01:11.65,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k20}da{\k26}re {\k39}mo {\k26}shi{\k45}ra{\k44}nai {\rENG}{\k26}to{\k42}mo{\k26}r{\k33}row
+Dialogue: 0,0:01:10.92,0:01:15.23,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ko{\k25}ko{\k44}ro {\k41}no {\k30}ko{\k20}e {\k21}d{\k24}ake {\rENG}{\k46}fol{\k47}low
+Dialogue: 0,0:01:14.56,0:01:17.66,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ka{\k27}ke{\k47}nu{\k21}ke{\k84}tai
+Dialogue: 0,0:01:18.22,0:01:20.82,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k25}yu{\k23}me {\k46}to {\k23}mi{\k33}rai
+Dialogue: 0,0:01:20.05,0:01:25.13,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ka{\k47}sa{\kf138}na{\k22}ru {\k45}you {\kf122}ni
+Dialogue: 0,0:01:25.11,0:01:28.55,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k69}Oh {\k25}with {\k42}my {\k98}pledge
