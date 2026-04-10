@@ -1,0 +1,133 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: BUBBLE GUM DANCE
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Nozomi,Arial,24,&H00FFFFFF,&H009B47EB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H002DACE7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Juis,Arial,24,&H00FFFFFF,&H0053CC52,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Chitose,Arial,24,&H00FFFFFF,&H00FDC50E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mashu,Arial,24,&H00FFFFFF,&H00897AF3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo Backing,Arial,24,&H00FFFFFF,&H002DACE7,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+Style: Juis backing,Arial,24,&H00FFFFFF,&H005DCA63,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+Style: Chitose Symbol,Arial,35,&H00FDC50E,&H00FDC50E,&H00000000,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mashu Symbol,Arial,35,&H00897AF3,&H00897AF3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Juis Symbol,Arial,35,&H0053CC52,&H0053CC52,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Nozomi Symbol,Arial,35,&H009B47EB,&H009B47EB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Up],,0,0,0,legend,{\k1000\k0}{\alignment(2)}ALL  {\rDuo}Duo  {\rJuis Symbol}♣ {\rJuis}Juis  {\rMashu Symbol}♥ {\rMashu}Mashu \N{\rNozomi Symbol}♠ {\rNozomi}Nozomi  {\rChitose Symbol}♦ {\rChitose}Chitose
+Comment: 0,0:00:17.68,0:00:21.07,Duo,,0,0,0,karaoke,{\k0}{\rJuis Symbol}♣ {\r}{\rNozomi Symbol}♠ {\r}{\k47}LUC{\k48}KY {\k24}LUC{\k54}KY {\k46}fu{\k28}ku{\k48}ran{\k44}da
+Comment: 0,0:00:25.52,0:00:29.06,Duo,,0,0,0,karaoke,{\k0}{\rMashu Symbol}♥ {\r}{\rChitose Symbol}♦ {\k48}{\r}LUC{\k48}KY {\k28}LUC{\k50}KY {\k50}BUB{\k22}BLE {\k50}GUM {\k58}DANCE
+Comment: 0,0:00:33.41,0:00:34.76,Sample KM [Up],,0,0,0,karaoke,{\k92}BE! {\k43}YOU!
+Comment: 0,0:00:35.10,0:00:37.34,Juis,,0,0,0,karaoke,{\k15}B.{\k13}U.{\k24}B.{\k23}B.{\k24}L.{\k50}E. {\k25}ton{\k11}de {\k27}SHOUT {\k12}IT
+Comment: 0,0:00:37.34,0:00:38.70,Sample KM [Up],,0,0,0,karaoke,{\k72}G.{\k26}U.{\k38}M.
+Comment: 0,0:00:39.05,0:00:40.43,Nozomi,,0,0,0,karaoke,{\k15}ku{\k13}mo {\k24}no {\k9}u{\k17}e {\k22}ma{\k38}de
+Comment: 0,0:00:40.48,0:00:41.18,Sample KM [Up],,0,0,0,karaoke,{\k30}JUMP {\k40}UP!
+Comment: 0,0:00:41.52,0:00:42.08,Nozomi,,0,0,0,karaoke,{\k25}DON'T {\k31}STOP!
+Comment: 0,0:00:42.24,0:00:43.39,Juis,,0,0,0,karaoke,{\k17}to{\k10}tsu{\k26}zen {\k22}fut{\k40}ta
+Comment: 0,0:00:43.47,0:00:44.02,Nozomi,,0,0,0,karaoke,{\k28}WON'T {\k27}STOP!
+Comment: 0,0:00:44.23,0:00:45.85,Juis,,0,0,0,karaoke,{\k13}a{\k13}me {\k12}de {\k12}sa{\k23}e {\k21}EN{\k42}JOY {\k26}IT
+Comment: 0,0:00:45.92,0:00:49.24,Juis,,0,0,0,karaoke,{\k29}ki{\k39}mi {\k34}to {\k21}i{\k31}ra{\k14}re{\k32}ta{\k25}ra {\k23}I'M {\k26}SO {\k58}GLAD
+Comment: 0,0:00:49.12,0:00:50.75,Duo,,0,0,0,karaoke,{\k0}{\rMashu Symbol}♥ {\r}{\rChitose Symbol}♦ {\k27}{\r}kei{\k12}ka{\k13}ku {\k25}doo{\k10}ri {\k15}ja{\k24}nak'{\k12}te{\k25}mo
+Comment: 0,0:00:50.75,0:00:52.70,Duo,,0,0,0,karaoke,{\k0}{\rMashu Symbol}♥ {\r}{\rChitose Symbol}♦ {\k25}{\r}dai{\k37}jou{\k12}bu {\k12}da {\k23}yo {\k24}kao {\k16}wo {\k10}a{\k13}ge{\k23}te
+Comment: 0,0:00:52.71,0:00:53.69,Mashu,,0,0,0,karaoke,{\k13}o{\k14}do{\k11}ri {\k23}dash'{\k14}ta{\k23}ra
+Comment: 0,0:00:53.69,0:00:54.71,Chitose,,0,0,0,karaoke,{\k14}wa{\k10}ra{\k11}e{\k27}chau {\k13}ka{\k27}ra
+Comment: 0,0:00:54.80,0:00:57.51,Nozomi,,0,0,0,karaoke,{\k22}tai{\k29}you {\k24}yo{\k22}ri {\k28}ho{\k22}shii {\k23}no {\k28}wa {\k23}YOUR {\k50}SMILE
+Comment: 0,0:00:57.51,0:01:00.93,Chitose,,0,0,0,karaoke,{\k51}don{\k68}na {\k53}so{\k28}ra {\k21}ga {\k20}hi{\k30}ro{\k24}gat{\k25}te {\k22}mo
+Comment: 0,0:01:01.43,0:01:04.87,Chitose,,0,0,0,karaoke,{\k49}DON'T {\k73}CRY {\k53}to{\k26}na{\k24}ri {\k24}de {\k23}i{\k24}tsu {\k27}de{\k21}mo
+Comment: 0,0:01:05.12,0:01:07.97,Mashu,,0,0,0,karaoke,{\k25}is{\k27}sho {\k22}ni {\k26}i{\k24}ru {\k25}ka{\k23}ra {\k27}IT'S {\k47}ALL {\k39}RIGHT
+Comment: 0,0:01:08.08,0:01:11.47,Mashu,,0,0,0,karaoke,{\k48}mai {\k50}a{\k26}ga{\k18}ru {\k29}yo {\k25}ki{\k25}mi {\k23}to {\k49}SO {\k46}HIGH
+Comment: 0,0:01:12.00,0:01:12.71,Nozomi,,0,0,0,karaoke,{\k26}I'M {\k24}FEE{\k21}LING
+Comment: 0,0:01:12.72,0:01:16.06,Sample KM [Up],,0,0,0,karaoke,{\k52}LUC{\k48}KY {\k24}LUC{\k54}KY {\k46}fu{\k28}ku{\k48}ran{\k44}da
+Comment: 0,0:01:16.19,0:01:18.12,Mashu,,0,0,0,karaoke,{\k13}ki{\k13}ta{\k11}i {\k13}ga {\k25}POP{\k49}PIN' {\k23}POP{\k46}PIN'
+Comment: 0,0:01:18.16,0:01:19.88,Chitose,,0,0,0,karaoke,{\k15}ha{\k10}ji{\k14}ke{\k9}ru {\k25}HOP{\k49}PIN' {\k27}HOP{\k23}PIN'
+Comment: 0,0:01:19.81,0:01:23.91,Juis,,0,0,0,karaoke,{\k32}kit{\k22}to {\k26}sai{\k48}kou {\k50}na {\k26}hi {\k47}sa {\k53}BUB{\k23}BLE {\k50}GUM {\k33}DANCE
+Comment: 0,0:01:24.05,0:01:30.04,Sample KM [Up],,0,0,0,karaoke,{\k20}ME{\k77}LO{\k25}DI{\k25}OU{\k26}S {\k49}ni {\k48}a{\k25}ma{\k22}ku {\k26}ha{\k24}zu{\k24}mu {\k27}STO{\kf181}RY
+Comment: 0,0:01:28.48,0:01:29.83,Sample KM [Up],,0,0,0,karaoke,{\k92}BE! {\k43}YOU!
+Comment: 0,0:01:30.22,0:01:32.41,Juis,,0,0,0,karaoke,{\k11}B.{\k13}U.{\k24}B.{\k23}B.{\k24}L.{\k50}E. {\k25}ton{\k11}de {\k27}SHOUT {\k11}IT
+Comment: 0,0:01:32.44,0:01:33.77,Sample KM [Up],,0,0,0,karaoke,{\k72}G.{\k26}U.{\k35}M.
+Comment: 0,0:01:34.15,0:01:35.50,Nozomi,,0,0,0,karaoke,{\k13}ku{\k13}mo {\k24}no {\k9}u{\k17}e {\k22}ma{\k37}de
+Comment: 0,0:01:35.58,0:01:36.32,Sample KM [Up],,0,0,0,karaoke,{\k28}JUMP {\k46}UP!
+Comment: 0,0:01:36.37,0:01:37.68,Sample KM [Up],,0,0,0,karaoke,{\k94}BE! {\k37}YOU!
+Comment: 0,0:01:38.07,0:01:40.26,Duo,,0,0,0,karaoke,{\k0}{\rMashu Symbol}♥ {\r}{\rChitose Symbol}♦ {\r}{\k13}B.{\k13}U.{\k24}B.{\k23}B.{\k24}L.{\k50}E. {\k25}ton{\k11}de {\k27}SHOUT {\k9}IT
+Comment: 0,0:01:40.30,0:01:41.67,Sample KM [Up],,0,0,0,karaoke,{\k72}G.{\k26}U.{\k39}M.
+Comment: 0,0:01:42.01,0:01:44.00,Nozomi,,0,0,0,karaoke,{\k13}ku{\k13}mo {\k22}no {\k26}u{\k25}e {\k45}he {\k29}LET'S {\k26}GO!
+Comment: 0,0:01:43.00,0:01:45.38,Juis backing,,0,0,0,karaoke,{\kf238}YEAH
+Comment: 0,0:01:43.46,0:01:47.55,Sample KM [Up],,0,0,0,karaoke,{\k25}I'M {\k27}FEE{\k25}LING {\k47}LUC{\k48}KY {\k24}LUC{\k50}KY {\k50}fu{\k26}ku{\k50}ran{\k37}da
+Comment: 0,0:01:47.66,0:01:49.42,Nozomi,,0,0,0,karaoke,{\k13}ki{\k13}ta{\k11}i {\k13}ga {\k25}POP{\k49}PIN' {\k23}POP{\k29}PIN'
+Comment: 0,0:01:49.42,0:01:50.31,Juis backing,,0,0,0,karaoke,{\k21}POP{\k68}PIN'
+Comment: 0,0:01:49.64,0:01:51.54,Nozomi,,0,0,0,karaoke,{\k15}ha{\k10}ji{\k14}ke{\k9}ru {\k25}HOP{\k49}PIN' {\k27}HOP{\k41}PIN'
+Comment: 0,0:01:51.30,0:01:52.79,Juis backing,,0,0,0,karaoke,{\k30}HOP{\kf119}PIN'
+Comment: 0,0:01:51.32,0:01:55.43,Duo,,0,0,0,karaoke,{\k0}{\rMashu Symbol}♥ {\r}{\rChitose Symbol}♦ {\k28}{\r}kit{\k22}to {\k26}sai{\k48}kou {\k50}na {\k26}hi {\k47}sa {\k53}BUB{\k23}BLE {\k50}GUM {\k38}DANCE
+Comment: 0,0:01:55.51,0:02:01.44,Duo,,0,0,0,karaoke,{\k0}{\rJuis Symbol}♣ {\r}{\rNozomi Symbol}♠ {\k23}{\r}ME{\k77}LO{\k25}DI{\k25}OU{\k26}S {\k49}ni {\k48}a{\k25}ma{\k22}ku {\k26}ha{\k24}zu{\k24}mu {\k27}STO{\kf172}RY
+Comment: 0,0:01:59.44,0:02:03.55,Duo Backing,,0,0,0,karaoke,{\k0}{\rMashu Symbol}♥ {\r}{\rChitose Symbol}♦ {\k28}{\r}LA {\k24}LA {\k48}LA {\k38}LA {\k13}LA {\k24}LA {\k49}LA {\k14}LA {\k11}LA {\k25}LA {\k24}LA {\k24}LA {\k89}LA
+Comment: 0,0:02:03.16,0:02:03.90,Juis backing,,0,0,0,karaoke,{\k25}OH {\k49}YEAH
+Comment: 0,0:02:03.58,0:02:05.60,Nozomi,,0,0,0,karaoke,{\k33}saa {\k25}HERE {\k11}WE {\k37}COME {\k16}LIKE {\k10}A {\k23}BUB{\k15}BLE {\k32}GUM
+Comment: 0,0:02:05.63,0:02:07.85,Nozomi,,0,0,0,karaoke,{\k13}u{\k11}go{\k25}ki{\k8}da{\k13}su {\k38}NEW {\k38}DAY, {\k19}O{\k57}KAY
+Comment: 0,0:02:07.34,0:02:11.15,Duo Backing,,0,0,0,karaoke,{\k0}{\rMashu Symbol}♥ {\r}{\rChitose Symbol}♦ {\k26}{\r}LA {\k24}LA {\k48}LA {\k38}LA {\k13}LA {\k24}LA {\k49}LA {\k14}LA {\k11}LA {\k25}LA {\k24}LA {\k24}LA {\k61}LA
+Comment: 0,0:02:10.76,0:02:12.69,Juis,,0,0,0,karaoke,{\k26}LA {\k15}LA {\k21}LA {\k24}LA {\kf107}LA
+Comment: 0,0:02:11.44,0:02:13.47,Nozomi,,0,0,0,karaoke,{\k19}a{\k14}ga{\k37}rou {\k36}ze {\k15}GO{\k11}ING {\k23}ALL {\k13}THE {\k35}WAY
+Comment: 0,0:02:13.47,0:02:16.24,Juis,,0,0,0,karaoke,{\k24}a{\k24}ma{\k28}ku {\k25}ha{\k22}zu{\k25}mu {\k24}OUR {\k53}STO{\k52}RY
+Dialogue: 0,0:00:16.78,0:00:21.27,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\rJuis Symbol}♣ {\r}{\rNozomi Symbol}♠ {\r}{\k47}LUC{\k48}KY {\k24}LUC{\k54}KY {\k46}fu{\k28}ku{\k48}ran{\k44}da
+Dialogue: 0,0:00:24.62,0:00:29.26,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\rMashu Symbol}♥ {\r}{\rChitose Symbol}♦ {\k48}{\r}LUC{\k48}KY {\k28}LUC{\k50}KY {\k50}BUB{\k22}BLE {\k50}GUM {\k58}DANCE
+Dialogue: 0,0:00:32.51,0:00:34.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k92}BE! {\k43}YOU!
+Dialogue: 0,0:00:34.20,0:00:37.54,Juis,,0,0,0,fx,{\k90\fad(300,200)}{\k15}B.{\k13}U.{\k24}B.{\k23}B.{\k24}L.{\k50}E. {\k25}ton{\k11}de {\k27}SHOUT {\k12}IT
+Dialogue: 0,0:00:36.44,0:00:38.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k72}G.{\k26}U.{\k38}M.
+Dialogue: 0,0:00:38.15,0:00:40.63,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ku{\k13}mo {\k24}no {\k9}u{\k17}e {\k22}ma{\k38}de
+Dialogue: 0,0:00:39.58,0:00:41.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}JUMP {\k40}UP!
+Dialogue: 0,0:00:40.62,0:00:42.28,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\k25}DON'T {\k31}STOP!
+Dialogue: 0,0:00:41.34,0:00:43.59,Juis,,0,0,0,fx,{\k90\fad(300,200)}{\k17}to{\k10}tsu{\k26}zen {\k22}fut{\k40}ta
+Dialogue: 0,0:00:42.57,0:00:44.22,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\k28}WON'T {\k27}STOP!
+Dialogue: 0,0:00:43.33,0:00:46.05,Juis,,0,0,0,fx,{\k90\fad(300,200)}{\k13}a{\k13}me {\k12}de {\k12}sa{\k23}e {\k21}EN{\k42}JOY {\k26}IT
+Dialogue: 0,0:00:45.02,0:00:49.44,Juis,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ki{\k39}mi {\k34}to {\k21}i{\k31}ra{\k14}re{\k32}ta{\k25}ra {\k23}I'M {\k26}SO {\k58}GLAD
+Dialogue: 0,0:00:48.22,0:00:50.95,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\rMashu Symbol}♥ {\r}{\rChitose Symbol}♦ {\k27}{\r}kei{\k12}ka{\k13}ku {\k25}doo{\k10}ri {\k15}ja{\k24}nak'{\k12}te{\k25}mo
+Dialogue: 0,0:00:49.85,0:00:52.90,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\rMashu Symbol}♥ {\r}{\rChitose Symbol}♦ {\k25}{\r}dai{\k37}jou{\k12}bu {\k12}da {\k23}yo {\k24}kao {\k16}wo {\k10}a{\k13}ge{\k23}te
+Dialogue: 0,0:00:51.81,0:00:53.89,Mashu,,0,0,0,fx,{\k90\fad(300,200)}{\k13}o{\k14}do{\k11}ri {\k23}dash'{\k14}ta{\k23}ra
+Dialogue: 0,0:00:52.79,0:00:54.91,Chitose,,0,0,0,fx,{\k90\fad(300,200)}{\k14}wa{\k10}ra{\k11}e{\k27}chau {\k13}ka{\k27}ra
+Dialogue: 0,0:00:53.90,0:00:57.71,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}tai{\k29}you {\k24}yo{\k22}ri {\k28}ho{\k22}shii {\k23}no {\k28}wa {\k23}YOUR {\k50}SMILE
+Dialogue: 0,0:00:56.61,0:01:01.13,Chitose,,0,0,0,fx,{\k90\fad(300,200)}{\k51}don{\k68}na {\k53}so{\k28}ra {\k21}ga {\k20}hi{\k30}ro{\k24}gat{\k25}te {\k22}mo
+Dialogue: 0,0:01:00.53,0:01:05.07,Chitose,,0,0,0,fx,{\k90\fad(300,200)}{\k49}DON'T {\k73}CRY {\k53}to{\k26}na{\k24}ri {\k24}de {\k23}i{\k24}tsu {\k27}de{\k21}mo
+Dialogue: 0,0:01:04.22,0:01:08.17,Mashu,,0,0,0,fx,{\k90\fad(300,200)}{\k25}is{\k27}sho {\k22}ni {\k26}i{\k24}ru {\k25}ka{\k23}ra {\k27}IT'S {\k47}ALL {\k39}RIGHT
+Dialogue: 0,0:01:07.18,0:01:11.67,Mashu,,0,0,0,fx,{\k90\fad(300,200)}{\k48}mai {\k50}a{\k26}ga{\k18}ru {\k29}yo {\k25}ki{\k25}mi {\k23}to {\k49}SO {\k46}HIGH
+Dialogue: 0,0:01:11.10,0:01:12.91,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\k26}I'M {\k24}FEE{\k21}LING
+Dialogue: 0,0:01:11.82,0:01:16.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k52}LUC{\k48}KY {\k24}LUC{\k54}KY {\k46}fu{\k28}ku{\k48}ran{\k44}da
+Dialogue: 0,0:01:15.29,0:01:18.32,Mashu,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k13}ta{\k11}i {\k13}ga {\k25}POP{\k49}PIN' {\k23}POP{\k46}PIN'
+Dialogue: 0,0:01:17.26,0:01:20.08,Chitose,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ha{\k10}ji{\k14}ke{\k9}ru {\k25}HOP{\k49}PIN' {\k27}HOP{\k23}PIN'
+Dialogue: 0,0:01:18.91,0:01:24.11,Juis,,0,0,0,fx,{\k90\fad(300,200)}{\k32}kit{\k22}to {\k26}sai{\k48}kou {\k50}na {\k26}hi {\k47}sa {\k53}BUB{\k23}BLE {\k50}GUM {\k33}DANCE
+Dialogue: 0,0:01:23.15,0:01:30.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}ME{\k77}LO{\k25}DI{\k25}OU{\k26}S {\k49}ni {\k48}a{\k25}ma{\k22}ku {\k26}ha{\k24}zu{\k24}mu {\k27}STO{\kf181}RY
+Dialogue: 0,0:01:27.58,0:01:30.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k92}BE! {\k43}YOU!
+Dialogue: 0,0:01:29.32,0:01:32.61,Juis,,0,0,0,fx,{\k90\fad(300,200)}{\k11}B.{\k13}U.{\k24}B.{\k23}B.{\k24}L.{\k50}E. {\k25}ton{\k11}de {\k27}SHOUT {\k11}IT
+Dialogue: 0,0:01:31.54,0:01:33.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k72}G.{\k26}U.{\k35}M.
+Dialogue: 0,0:01:33.25,0:01:35.70,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ku{\k13}mo {\k24}no {\k9}u{\k17}e {\k22}ma{\k37}de
+Dialogue: 0,0:01:34.68,0:01:36.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}JUMP {\k46}UP!
+Dialogue: 0,0:01:35.47,0:01:37.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k94}BE! {\k37}YOU!
+Dialogue: 0,0:01:37.17,0:01:40.46,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\rMashu Symbol}♥ {\r}{\rChitose Symbol}♦ {\r}{\k13}B.{\k13}U.{\k24}B.{\k23}B.{\k24}L.{\k50}E. {\k25}ton{\k11}de {\k27}SHOUT {\k9}IT
+Dialogue: 0,0:01:39.40,0:01:41.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k72}G.{\k26}U.{\k39}M.
+Dialogue: 0,0:01:41.11,0:01:44.20,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ku{\k13}mo {\k22}no {\k26}u{\k25}e {\k45}he {\k29}LET'S {\k26}GO!
+Dialogue: 0,0:01:42.10,0:01:45.58,Juis backing,,0,0,0,fx,{\k90\fad(300,200)}{\kf238}YEAH
+Dialogue: 0,0:01:42.56,0:01:47.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I'M {\k27}FEE{\k25}LING {\k47}LUC{\k48}KY {\k24}LUC{\k50}KY {\k50}fu{\k26}ku{\k50}ran{\k37}da
+Dialogue: 0,0:01:46.76,0:01:49.62,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k13}ta{\k11}i {\k13}ga {\k25}POP{\k49}PIN' {\k23}POP{\k29}PIN'
+Dialogue: 0,0:01:48.52,0:01:50.51,Juis backing,,0,0,0,fx,{\k90\fad(300,200)}{\k21}POP{\k68}PIN'
+Dialogue: 0,0:01:48.74,0:01:51.74,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ha{\k10}ji{\k14}ke{\k9}ru {\k25}HOP{\k49}PIN' {\k27}HOP{\k41}PIN'
+Dialogue: 0,0:01:50.40,0:01:52.99,Juis backing,,0,0,0,fx,{\k90\fad(300,200)}{\k30}HOP{\kf119}PIN'
+Dialogue: 0,0:01:50.42,0:01:55.63,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\rMashu Symbol}♥ {\r}{\rChitose Symbol}♦ {\k28}{\r}kit{\k22}to {\k26}sai{\k48}kou {\k50}na {\k26}hi {\k47}sa {\k53}BUB{\k23}BLE {\k50}GUM {\k38}DANCE
+Dialogue: 0,0:01:54.61,0:02:01.64,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\rJuis Symbol}♣ {\r}{\rNozomi Symbol}♠ {\k23}{\r}ME{\k77}LO{\k25}DI{\k25}OU{\k26}S {\k49}ni {\k48}a{\k25}ma{\k22}ku {\k26}ha{\k24}zu{\k24}mu {\k27}STO{\kf172}RY
+Dialogue: 0,0:01:58.54,0:02:03.75,Duo Backing,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\rMashu Symbol}♥ {\r}{\rChitose Symbol}♦ {\k28}{\r}LA {\k24}LA {\k48}LA {\k38}LA {\k13}LA {\k24}LA {\k49}LA {\k14}LA {\k11}LA {\k25}LA {\k24}LA {\k24}LA {\k89}LA
+Dialogue: 0,0:02:02.26,0:02:04.10,Juis backing,,0,0,0,fx,{\k90\fad(300,200)}{\k25}OH {\k49}YEAH
+Dialogue: 0,0:02:02.68,0:02:05.80,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\k33}saa {\k25}HERE {\k11}WE {\k37}COME {\k16}LIKE {\k10}A {\k23}BUB{\k15}BLE {\k32}GUM
+Dialogue: 0,0:02:04.73,0:02:08.05,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\k13}u{\k11}go{\k25}ki{\k8}da{\k13}su {\k38}NEW {\k38}DAY, {\k19}O{\k57}KAY
+Dialogue: 0,0:02:06.44,0:02:11.35,Duo Backing,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\rMashu Symbol}♥ {\r}{\rChitose Symbol}♦ {\k26}{\r}LA {\k24}LA {\k48}LA {\k38}LA {\k13}LA {\k24}LA {\k49}LA {\k14}LA {\k11}LA {\k25}LA {\k24}LA {\k24}LA {\k61}LA
+Dialogue: 0,0:02:09.86,0:02:12.89,Juis,,0,0,0,fx,{\k90\fad(300,200)}{\k26}LA {\k15}LA {\k21}LA {\k24}LA {\kf107}LA
+Dialogue: 0,0:02:10.54,0:02:13.67,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k14}ga{\k37}rou {\k36}ze {\k15}GO{\k11}ING {\k23}ALL {\k13}THE {\k35}WAY
+Dialogue: 0,0:02:12.57,0:02:16.44,Juis,,0,0,0,fx,{\k90\fad(300,200)}{\k24}a{\k24}ma{\k28}ku {\k25}ha{\k22}zu{\k25}mu {\k24}OUR {\k53}STO{\k52}RY
