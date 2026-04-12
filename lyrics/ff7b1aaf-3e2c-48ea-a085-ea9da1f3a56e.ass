@@ -1,0 +1,189 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Jason
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Lasagna
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Nikki,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: NikkiChoir,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Tyler,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: TylerChoir,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Duet,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: who,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,who,EXPLANATION,0,0,0,,SAME ACTOR = SAME LINE (length and timing). If you edit one, you can search and replace all of them to match
+Comment: 0,0:00:00.00,0:00:00.00,who,EXPLANATION D-2,0,0,0,,for the fade-in at the marked lines (READ EXPLANATION actor tag):     \N t1: time until text is sung. sum all the \k tag values until the syllable should be sung, and write that. substract 300, that's when the fade-in starts from fully transparent    \N t2: time until text is sung, without substracting 300.     \N the timing will appear off when you're editing the song, that's normal.   it will be aligned once the default karaoke script is applied (do not modify its durations unless you know what you're doing and what the logic behind this fade-in is!) also, please leave vertical margin values on each line as \t tags override the automatic alignment of lines and makes them overlap. without vertical margin values the alignment is broken
+Comment: 0,0:00:00.00,0:00:00.10,who,,0,0,0,,
+Comment: 0,0:00:00.10,0:00:10.00,Duet,,0,0,160,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,250)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,250)}!"♣ ♦ "!
+Comment: 0,0:00:00.10,0:00:10.00,Nikki,,0,0,160,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,250)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,250)}!"♣ "!
+Comment: 0,0:00:00.10,0:00:10.00,TylerChoir,,0,0,160,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,250)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,250)}!"♦ "!
+Comment: 0,0:00:00.10,0:00:10.00,Tyler,,0,0,160,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,250)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,250)}!"♦ "!
+Comment: 0,0:00:00.10,0:00:10.00,NikkiChoir,,0,0,160,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,250)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,250)}!"♣ "!
+Comment: 0,0:00:00.10,0:00:10.00,who,,0,0,160,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,250)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,250)}!"  "!
+Comment: 0,0:00:00.00,0:00:00.00,who,,0,0,0,,
+Comment: 0,0:00:00.10,0:00:09.77,who,,0,0,170,karaoke,{\k9999999}{\2c&HFFFFFF&}♣ {\rNikki}Nikki Flores  {\2c&HFFFFFF&}♦ {\rTyler}Tyler Lyle  \N\N{\2c&HFFFFFF&}♣ ♦{\rDuet} Duet
+Comment: 0,0:00:05.09,0:00:07.04,TylerChoir,A-1,0,0,0,karaoke,{\k39}Keep {\k36}on {\k56}run{\k64}ning
+Comment: 0,0:00:08.07,0:00:09.77,NikkiChoir,A-2,0,0,0,karaoke,{\k41}Keep {\k37}on {\k51}run{\k41}ning
+Comment: 0,0:00:16.99,0:00:18.94,TylerChoir,A-1,0,0,0,karaoke,{\k39}Keep {\k36}on {\k56}run{\k64}ning
+Comment: 0,0:00:35.64,0:00:38.28,Nikki,,0,0,0,karaoke,{\k20}He {\k22}comes {\k16}a{\k36}live {\k18}in {\k17}me{\k40}tro{\k16}po{\k20}lis {\k59}lights
+Comment: 0,0:00:38.28,0:00:40.61,Nikki,,0,0,0,karaoke,{\k16}when {\k17}the {\k38}mu{\k18}sic's {\k36}way {\k40}too {\k68}loud
+Comment: 0,0:00:41.58,0:00:44.18,Nikki,,0,0,0,karaoke,{\k18}Deep {\k19}in {\k19}the {\k37}night {\k40}it's {\k34}ea{\k18}sy {\k19}to {\k56}hide
+Comment: 0,0:00:44.18,0:00:46.56,Nikki,,0,0,0,karaoke,{\k19}and {\k18}he's {\k18}got {\k18}it {\k37}all {\k37}fi{\k19}gured {\k72}out
+Comment: 0,0:00:47.24,0:00:50.09,Nikki,,0,0,0,karaoke,{\k47}White {\k16}sa{\k17}tel{\k39}lites {\k19}get{\k18}ting {\k38}lost {\k17}in {\k19}his {\k55}eyes
+Comment: 0,0:00:50.09,0:00:52.66,Nikki,,0,0,0,karaoke,{\k21}but {\k13}to {\k23}him {\k20}she's {\k18}just {\k13}a{\k23}no{\k18}ther {\k108}girl
+Comment: 0,0:00:53.43,0:00:56.02,Nikki,,0,0,0,karaoke,{\k20}Roll {\k17}with {\k18}the {\k38}tide {\k18}like {\k21}the {\k35}wind {\k18}and {\k19}the {\k55}sky
+Comment: 0,0:00:56.02,0:00:58.51,Nikki,,0,0,0,karaoke,{\k20}and {\k23}he'll {\k31}on{\k20}ly {\k32}let {\k42}you {\k81}down
+Comment: 0,0:00:58.62,0:01:01.27,NikkiChoir,B (keep together),0,0,0,karaoke,{\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Comment: 0,0:01:01.57,0:01:04.22,NikkiChoir,B (keep together),0,0,0,karaoke,{\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Comment: 0,0:01:04.52,0:01:07.17,NikkiChoir,B (keep together),0,0,0,karaoke,{\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Comment: 0,0:01:07.47,0:01:10.12,NikkiChoir,B (keep together),0,0,0,karaoke,{\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Comment: 0,0:01:10.29,0:01:12.36,Nikki,C-1,0,0,0,karaoke,{\kf58}Oooh {\k19}{\k32}Ja{\kf94}son~{\k4}
+Comment: 0,0:01:12.69,0:01:15.84,Nikki,C-2,0,0,0,karaoke,{\k36}Tell {\k19}me {\k37}what {\k35}you're {\k40}cha{\kf144}sin'~{\k0}
+Comment: 0,0:01:16.40,0:01:18.44,Nikki,C-3,0,0,0,karaoke,{\k17}Be{\k20}cause {\k17}the {\k56}night {\k20}will {\k54}ne{\k20}ver
+Comment: 0,0:01:18.44,0:01:20.84,Nikki,C-4,0,0,0,karaoke,{\k54}give {\k21}you {\k53}what {\k20}you {\k92}want
+Comment: 0,0:01:22.13,0:01:24.20,Nikki,C-1,0,0,0,karaoke,{\kf58}Oooh {\k19}{\k32}Ja{\kf94}son~{\k0}
+Comment: 0,0:01:24.37,0:01:27.91,Nikki,C-5,0,0,0,karaoke,{\k20}And {\k34}if {\k18}you {\k39}can't {\k37}es{\k35}cape {\kf112}it{\kf5}{\kf50}~{\k4}
+Comment: 0,0:01:28.26,0:01:30.32,Nikki,C-6,0,0,0,karaoke,{\k16}I {\k20}hope {\k21}you {\k53}find {\k18}what{\k56}e{\k22}ver
+Comment: 0,0:01:30.32,0:01:32.79,Nikki,C-6,0,0,0,karaoke,{\k52}you've {\k18}been {\k56}look{\k19}ing {\kf102}for~
+Comment: 0,0:01:33.61,0:01:34.90,Nikki,C-7,0,0,0,karaoke,{\k30}Ooh- {\k9}{\kf75}ooh{\kf15}
+Comment: 0,0:01:46.77,0:01:49.17,Tyler,,0,0,0,karaoke,{\k18}Where {\k18}do {\k19}you {\k38}go {\k16}in {\k17}a {\k40}town {\k18}full {\k19}of {\k37}ghosts
+Comment: 0,0:01:49.17,0:01:51.73,Tyler,,0,0,0,karaoke,{\k18}and {\k20}eve{\k17}ry{\k19}bo{\k19}dy {\k37}knows {\k36}your {\k90}name
+Comment: 0,0:01:52.11,0:01:53.61,Tyler,,0,0,0,karaoke,{\k18}And {\k23}all {\k17}the {\k19}home{\k18}co{\k17}ming {\k38}queens
+Comment: 0,0:01:53.61,0:01:55.30,Tyler,,0,0,0,karaoke,{\k20}in {\k13}the {\k41}small {\k35}town {\k60}scenes
+Comment: 0,0:01:55.30,0:01:57.39,Tyler,,0,0,0,karaoke,{\k19}they'll {\k34}of{\k19}fer {\k24}you {\k13}a {\k37}place {\k19}to {\k44}stay
+Comment: 0,0:01:58.41,0:02:01.21,Tyler,,0,0,0,karaoke,{\k38}Some {\k24}want {\k13}for{\k36}e{\k20}ver {\k19}in{\k38}stead {\k18}of {\k21}when{\k35}e{\k18}ver
+Comment: 0,0:02:01.21,0:02:03.64,Tyler,,0,0,0,karaoke,{\k20}when {\k18}they're {\k35}na{\k21}ked {\k18}in {\k18}the {\k113}light
+Comment: 0,0:02:04.19,0:02:05.65,Tyler,,0,0,0,karaoke,{\k13}It's {\k19}a {\k27}strange {\k13}lit{\k19}tle {\k32}po{\k23}tion
+Comment: 0,0:02:05.65,0:02:07.13,Tyler,,0,0,0,karaoke,{\k17}but {\k33}some{\k25}times {\k17}the {\k37}mo{\k19}tion
+Comment: 0,0:02:07.13,0:02:09.08,Tyler,,0,0,0,karaoke,{\k17}al{\k20}most {\k33}makes {\k22}you {\k14}feel {\k23}a{\k66}live
+Comment: 0,0:02:09.72,0:02:12.37,NikkiChoir,B (keep together),0,0,0,karaoke,{\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Comment: 0,0:02:12.67,0:02:15.32,NikkiChoir,B (keep together),0,0,0,karaoke,{\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Comment: 0,0:02:15.62,0:02:18.27,NikkiChoir,B (keep together),0,0,0,karaoke,{\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Comment: 0,0:02:18.57,0:02:21.22,NikkiChoir,B (keep together),0,0,0,karaoke,{\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Comment: 0,0:02:21.41,0:02:23.48,Nikki,C-1,0,0,0,karaoke,{\kf58}Oooh {\k19}{\k32}Ja{\kf94}son~{\k4}
+Comment: 0,0:02:23.81,0:02:26.96,Nikki,C-2,0,0,0,karaoke,{\k36}Tell {\k19}me {\k37}what {\k35}you're {\k40}cha{\kf144}sin'~{\k0}
+Comment: 0,0:02:27.52,0:02:29.56,Nikki,C-3,0,0,0,karaoke,{\k17}Be{\k20}cause {\k17}the {\k56}night {\k20}will {\k54}ne{\k20}ver
+Comment: 0,0:02:29.56,0:02:31.96,Nikki,C-4,0,0,0,karaoke,{\k54}give {\k21}you {\k53}what {\k20}you {\k92}want
+Comment: 0,0:02:33.25,0:02:35.32,Nikki,C-1,0,0,0,karaoke,{\kf58}Oooh {\k19}{\k32}Ja{\kf94}son~{\k0}
+Comment: 0,0:02:35.49,0:02:39.03,Nikki,C-5,0,0,0,karaoke,{\k20}And {\k34}if {\k18}you {\k39}can't {\k37}es{\k35}cape {\kf167}it~{\k0}
+Comment: 0,0:02:39.38,0:02:41.44,Nikki,C-6,0,0,0,karaoke,{\k16}I {\k20}hope {\k21}you {\k53}find {\k18}what{\k56}e{\k22}ver
+Comment: 0,0:02:41.44,0:02:43.91,Nikki,C-6,0,0,0,karaoke,{\k52}you've {\k18}been {\k56}look{\k19}ing {\kf102}for~
+Comment: 0,0:02:45.09,0:02:46.93,Tyler,D-1 (keep together),0,0,20,karaoke,{\k19}And {\k19}I'm {\k17}gon{\k17}na {\k39}keep {\k73}on,
+Comment: 0,0:02:47.32,0:02:51.38,Duet,D-2 (keep together) READ EXPLANATIONy,0,0,48,karaoke,{\k39}keep {\k109}on, {\alpha&HFF&}{\t(1180,1480,\alpha&H0&)}{\k39}keep {\k109}on, {\alpha&HFF&}{\t(2660,2960,\alpha&H0&)}{\k39}keep {\k71}on
+Comment: 0,0:02:51.01,0:02:52.96,TylerChoir,D-3 (keep together),0,0,0,karaoke,{\k39}Keep {\k36}on {\k56}run{\k64}ning
+Comment: 0,0:02:53.98,0:02:55.93,NikkiChoir,D-3 (keep together),0,0,0,karaoke,{\k39}Keep {\k36}on {\k56}run{\k64}ning
+Comment: 0,0:02:56.88,0:02:58.72,Tyler,D-1 (keep together),0,0,20,karaoke,{\k19}And {\k19}I'm {\k17}gon{\k17}na {\k39}keep {\k73}on,
+Comment: 0,0:02:59.11,0:03:03.17,Duet,D-2 (keep together),0,0,48,karaoke,{\k39}keep {\k109}on, {\alpha&HFF&}{\t(1180,1480,\alpha&H0&)}{\k39}keep {\k109}on, {\alpha&HFF&}{\t(2660,2960,\alpha&H0&)}{\k39}keep {\k71}on
+Comment: 0,0:03:02.80,0:03:04.75,TylerChoir,D-3 (keep together),0,0,0,karaoke,{\k39}Keep {\k36}on {\k56}run{\k64}ning
+Comment: 0,0:03:05.77,0:03:07.72,NikkiChoir,D-3 (keep together),0,0,0,karaoke,{\k39}Keep {\k36}on {\k56}run{\k64}ning
+Comment: 0,0:03:56.21,0:03:58.28,Nikki,C-1,0,0,0,karaoke,{\kf58}Oooh {\k19}{\k32}Ja{\kf94}son~{\k4}
+Comment: 0,0:03:58.61,0:04:01.76,Nikki,C-2,0,0,0,karaoke,{\k36}Tell {\k19}me {\k37}what {\k35}you're {\k40}cha{\kf144}sin'~{\k0}
+Comment: 0,0:04:02.32,0:04:04.36,Nikki,C-3,0,0,0,karaoke,{\k17}Be{\k20}cause {\k17}the {\k56}night {\k20}will {\k54}ne{\k20}ver
+Comment: 0,0:04:04.36,0:04:06.76,Nikki,C-4,0,0,0,karaoke,{\k54}give {\k21}you {\k53}what {\k20}you {\k92}want
+Comment: 0,0:04:08.05,0:04:10.12,Nikki,C-1,0,0,0,karaoke,{\kf58}Oooh {\k19}{\k32}Ja{\kf94}son~{\k0}
+Comment: 0,0:04:10.29,0:04:13.83,Nikki,C-5,0,0,0,karaoke,{\k20}And {\k34}if {\k18}you {\k39}can't {\k37}es{\k35}cape {\kf167}it~{\k0}
+Comment: 0,0:04:14.18,0:04:16.24,Nikki,C-6,0,0,0,karaoke,{\k16}I {\k20}hope {\k21}you {\k53}find {\k18}what{\k56}e{\k22}ver
+Comment: 0,0:04:16.24,0:04:18.71,Nikki,C-6,0,0,0,karaoke,{\k52}you've {\k18}been {\k56}look{\k19}ing {\kf102}for~
+Comment: 0,0:04:19.53,0:04:20.82,Nikki,C-7,0,0,0,karaoke,{\k30}Ooh- {\k9}{\kf75}ooh{\kf15}
+Comment: 0,0:04:20.07,0:04:22.72,NikkiChoir,B (keep together),0,0,0,karaoke,{\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Comment: 0,0:04:23.02,0:04:25.67,NikkiChoir,B (keep together),0,0,0,karaoke,{\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Comment: 0,0:04:25.97,0:04:28.62,NikkiChoir,B (keep together),0,0,0,karaoke,{\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Comment: 0,0:04:28.92,0:04:31.57,NikkiChoir,B (keep together),0,0,0,karaoke,{\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Comment: 0,0:04:25.84,0:04:27.79,TylerChoir,A-1,0,0,48,karaoke,{\k39}Keep {\k36}on {\k56}run{\k64}ning
+Comment: 0,0:04:31.96,0:04:34.61,NikkiChoir,B (keep together),0,0,0,karaoke,{\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Comment: 0,0:04:34.91,0:04:37.56,NikkiChoir,B (keep together),0,0,0,karaoke,{\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Comment: 0,0:04:37.86,0:04:40.51,NikkiChoir,B (keep together),0,0,0,karaoke,{\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Comment: 0,0:04:40.81,0:04:43.46,NikkiChoir,B (keep together),0,0,0,karaoke,{\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Comment: 0,0:04:37.70,0:04:39.65,TylerChoir,A-1,0,0,48,karaoke,{\k39}Keep {\k36}on {\k56}run{\k64}ning
+Comment: 0,0:04:49.53,0:04:51.23,NikkiChoir,A-2,0,0,0,karaoke,{\k41}Keep {\k37}on {\k51}run{\k41}ning
+Comment: 0,0:04:52.50,0:04:54.20,NikkiChoir,A-2,0,0,0,karaoke,{\k41}Keep {\k37}on {\k51}run{\k41}ning
+Comment: 0,0:05:01.34,0:05:03.04,NikkiChoir,A-2,0,0,0,karaoke,{\k41}Keep {\k37}on {\k51}run{\k41}ning
+Comment: 0,0:05:04.36,0:05:06.06,NikkiChoir,A-2,0,0,0,karaoke,{\k41}Keep {\k37}on {\k51}run{\k41}ning
+Comment: 0,0:00:00.00,0:00:00.00,who,,0,0,0,karaoke,
+Dialogue: 0,0:00:00.00,0:00:10.02,who,,0,0,170,fx,{\k10\fad(100,250)}  {\k9999999}{\2c&HFFFFFF&}♣ {\rNikki}Nikki Flores  {\2c&HFFFFFF&}♦ {\rTyler}Tyler Lyle  \N\N{\2c&HFFFFFF&}♣ ♦{\rDuet} Duet
+Dialogue: 0,0:00:04.19,0:00:07.29,TylerChoir,A-1,0,0,0,fx,{\k90\fad(300,250)}♦ {\k39}Keep {\k36}on {\k56}run{\k64}ning
+Dialogue: 0,0:00:07.17,0:00:10.02,NikkiChoir,A-2,0,0,0,fx,{\k90\fad(300,250)}♣ {\k41}Keep {\k37}on {\k51}run{\k41}ning
+Dialogue: 0,0:00:16.09,0:00:19.19,TylerChoir,A-1,0,0,0,fx,{\k90\fad(300,250)}♦ {\k39}Keep {\k36}on {\k56}run{\k64}ning
+Dialogue: 0,0:00:34.74,0:00:38.53,Nikki,,0,0,0,fx,{\k90\fad(300,250)}♣ {\k20}He {\k22}comes {\k16}a{\k36}live {\k18}in {\k17}me{\k40}tro{\k16}po{\k20}lis {\k59}lights
+Dialogue: 0,0:00:37.38,0:00:40.86,Nikki,,0,0,0,fx,{\k90\fad(300,250)}♣ {\k16}when {\k17}the {\k38}mu{\k18}sic's {\k36}way {\k40}too {\k68}loud
+Dialogue: 0,0:00:40.68,0:00:44.43,Nikki,,0,0,0,fx,{\k90\fad(300,250)}♣ {\k18}Deep {\k19}in {\k19}the {\k37}night {\k40}it's {\k34}ea{\k18}sy {\k19}to {\k56}hide
+Dialogue: 0,0:00:43.28,0:00:46.81,Nikki,,0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}and {\k18}he's {\k18}got {\k18}it {\k37}all {\k37}fi{\k19}gured {\k72}out
+Dialogue: 0,0:00:46.34,0:00:50.34,Nikki,,0,0,0,fx,{\k90\fad(300,250)}♣ {\k47}White {\k16}sa{\k17}tel{\k39}lites {\k19}get{\k18}ting {\k38}lost {\k17}in {\k19}his {\k55}eyes
+Dialogue: 0,0:00:49.19,0:00:52.91,Nikki,,0,0,0,fx,{\k90\fad(300,250)}♣ {\k21}but {\k13}to {\k23}him {\k20}she's {\k18}just {\k13}a{\k23}no{\k18}ther {\k108}girl
+Dialogue: 0,0:00:52.53,0:00:56.27,Nikki,,0,0,0,fx,{\k90\fad(300,250)}♣ {\k20}Roll {\k17}with {\k18}the {\k38}tide {\k18}like {\k21}the {\k35}wind {\k18}and {\k19}the {\k55}sky
+Dialogue: 0,0:00:55.12,0:00:58.76,Nikki,,0,0,0,fx,{\k90\fad(300,250)}♣ {\k20}and {\k23}he'll {\k31}on{\k20}ly {\k32}let {\k42}you {\k81}down
+Dialogue: 0,0:00:57.72,0:01:01.52,NikkiChoir,B (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Dialogue: 0,0:01:00.67,0:01:04.47,NikkiChoir,B (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Dialogue: 0,0:01:03.62,0:01:07.42,NikkiChoir,B (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Dialogue: 0,0:01:06.57,0:01:10.37,NikkiChoir,B (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Dialogue: 0,0:01:09.39,0:01:12.61,Nikki,C-1,0,0,0,fx,{\k90\fad(300,250)}♣ {\kf58}Oooh {\k19}{\k32}Ja{\kf94}son~{\k4}
+Dialogue: 0,0:01:11.79,0:01:16.09,Nikki,C-2,0,0,0,fx,{\k90\fad(300,250)}♣ {\k36}Tell {\k19}me {\k37}what {\k35}you're {\k40}cha{\kf144}sin'~{\k0}
+Dialogue: 0,0:01:15.50,0:01:18.69,Nikki,C-3,0,0,0,fx,{\k90\fad(300,250)}♣ {\k17}Be{\k20}cause {\k17}the {\k56}night {\k20}will {\k54}ne{\k20}ver
+Dialogue: 0,0:01:17.54,0:01:21.09,Nikki,C-4,0,0,0,fx,{\k90\fad(300,250)}♣ {\k54}give {\k21}you {\k53}what {\k20}you {\k92}want
+Dialogue: 0,0:01:21.23,0:01:24.45,Nikki,C-1,0,0,0,fx,{\k90\fad(300,250)}♣ {\kf58}Oooh {\k19}{\k32}Ja{\kf94}son~{\k0}
+Dialogue: 0,0:01:23.47,0:01:28.16,Nikki,C-5,0,0,0,fx,{\k90\fad(300,250)}♣ {\k20}And {\k34}if {\k18}you {\k39}can't {\k37}es{\k35}cape {\kf112}it{\kf5}{\kf50}~{\k4}
+Dialogue: 0,0:01:27.36,0:01:30.57,Nikki,C-6,0,0,0,fx,{\k90\fad(300,250)}♣ {\k16}I {\k20}hope {\k21}you {\k53}find {\k18}what{\k56}e{\k22}ver
+Dialogue: 0,0:01:29.42,0:01:33.04,Nikki,C-6,0,0,0,fx,{\k90\fad(300,250)}♣ {\k52}you've {\k18}been {\k56}look{\k19}ing {\kf102}for~
+Dialogue: 0,0:01:32.71,0:01:35.15,Nikki,C-7,0,0,0,fx,{\k90\fad(300,250)}♣ {\k30}Ooh- {\k9}{\kf75}ooh{\kf15}
+Dialogue: 0,0:01:45.87,0:01:49.42,Tyler,,0,0,0,fx,{\k90\fad(300,250)}♦ {\k18}Where {\k18}do {\k19}you {\k38}go {\k16}in {\k17}a {\k40}town {\k18}full {\k19}of {\k37}ghosts
+Dialogue: 0,0:01:48.27,0:01:51.98,Tyler,,0,0,0,fx,{\k90\fad(300,250)}♦ {\k18}and {\k20}eve{\k17}ry{\k19}bo{\k19}dy {\k37}knows {\k36}your {\k90}name
+Dialogue: 0,0:01:51.21,0:01:53.86,Tyler,,0,0,0,fx,{\k90\fad(300,250)}♦ {\k18}And {\k23}all {\k17}the {\k19}home{\k18}co{\k17}ming {\k38}queens
+Dialogue: 0,0:01:52.71,0:01:55.55,Tyler,,0,0,0,fx,{\k90\fad(300,250)}♦ {\k20}in {\k13}the {\k41}small {\k35}town {\k60}scenes
+Dialogue: 0,0:01:54.40,0:01:57.64,Tyler,,0,0,0,fx,{\k90\fad(300,250)}♦ {\k19}they'll {\k34}of{\k19}fer {\k24}you {\k13}a {\k37}place {\k19}to {\k44}stay
+Dialogue: 0,0:01:57.51,0:02:01.46,Tyler,,0,0,0,fx,{\k90\fad(300,250)}♦ {\k38}Some {\k24}want {\k13}for{\k36}e{\k20}ver {\k19}in{\k38}stead {\k18}of {\k21}when{\k35}e{\k18}ver
+Dialogue: 0,0:02:00.31,0:02:03.89,Tyler,,0,0,0,fx,{\k90\fad(300,250)}♦ {\k20}when {\k18}they're {\k35}na{\k21}ked {\k18}in {\k18}the {\k113}light
+Dialogue: 0,0:02:03.29,0:02:05.90,Tyler,,0,0,0,fx,{\k90\fad(300,250)}♦ {\k13}It's {\k19}a {\k27}strange {\k13}lit{\k19}tle {\k32}po{\k23}tion
+Dialogue: 0,0:02:04.75,0:02:07.38,Tyler,,0,0,0,fx,{\k90\fad(300,250)}♦ {\k17}but {\k33}some{\k25}times {\k17}the {\k37}mo{\k19}tion
+Dialogue: 0,0:02:06.23,0:02:09.33,Tyler,,0,0,0,fx,{\k90\fad(300,250)}♦ {\k17}al{\k20}most {\k33}makes {\k22}you {\k14}feel {\k23}a{\k66}live
+Dialogue: 0,0:02:08.82,0:02:12.62,NikkiChoir,B (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Dialogue: 0,0:02:11.77,0:02:15.57,NikkiChoir,B (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Dialogue: 0,0:02:14.72,0:02:18.52,NikkiChoir,B (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Dialogue: 0,0:02:17.67,0:02:21.47,NikkiChoir,B (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Dialogue: 0,0:02:20.51,0:02:23.73,Nikki,C-1,0,0,0,fx,{\k90\fad(300,250)}♣ {\kf58}Oooh {\k19}{\k32}Ja{\kf94}son~{\k4}
+Dialogue: 0,0:02:22.91,0:02:27.21,Nikki,C-2,0,0,0,fx,{\k90\fad(300,250)}♣ {\k36}Tell {\k19}me {\k37}what {\k35}you're {\k40}cha{\kf144}sin'~{\k0}
+Dialogue: 0,0:02:26.62,0:02:29.81,Nikki,C-3,0,0,0,fx,{\k90\fad(300,250)}♣ {\k17}Be{\k20}cause {\k17}the {\k56}night {\k20}will {\k54}ne{\k20}ver
+Dialogue: 0,0:02:28.66,0:02:32.21,Nikki,C-4,0,0,0,fx,{\k90\fad(300,250)}♣ {\k54}give {\k21}you {\k53}what {\k20}you {\k92}want
+Dialogue: 0,0:02:32.35,0:02:35.57,Nikki,C-1,0,0,0,fx,{\k90\fad(300,250)}♣ {\kf58}Oooh {\k19}{\k32}Ja{\kf94}son~{\k0}
+Dialogue: 0,0:02:34.59,0:02:39.28,Nikki,C-5,0,0,0,fx,{\k90\fad(300,250)}♣ {\k20}And {\k34}if {\k18}you {\k39}can't {\k37}es{\k35}cape {\kf167}it~{\k0}
+Dialogue: 0,0:02:38.48,0:02:41.69,Nikki,C-6,0,0,0,fx,{\k90\fad(300,250)}♣ {\k16}I {\k20}hope {\k21}you {\k53}find {\k18}what{\k56}e{\k22}ver
+Dialogue: 0,0:02:40.54,0:02:44.16,Nikki,C-6,0,0,0,fx,{\k90\fad(300,250)}♣ {\k52}you've {\k18}been {\k56}look{\k19}ing {\kf102}for~
+Dialogue: 0,0:02:44.19,0:02:47.18,Tyler,D-1 (keep together),0,0,20,fx,{\k90\fad(300,250)}♦ {\k19}And {\k19}I'm {\k17}gon{\k17}na {\k39}keep {\k73}on,
+Dialogue: 0,0:02:46.42,0:02:51.63,Duet,D-2 (keep together) READ EXPLANATIONy,0,0,48,fx,{\k90\fad(300,250)}♣ ♦ {\k39}keep {\k109}on, {\alpha&HFF&}{\t(1180,1480,\alpha&H0&)}{\k39}keep {\k109}on, {\alpha&HFF&}{\t(2660,2960,\alpha&H0&)}{\k39}keep {\k71}on
+Dialogue: 0,0:02:50.11,0:02:53.21,TylerChoir,D-3 (keep together),0,0,0,fx,{\k90\fad(300,250)}♦ {\k39}Keep {\k36}on {\k56}run{\k64}ning
+Dialogue: 0,0:02:53.08,0:02:56.18,NikkiChoir,D-3 (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k39}Keep {\k36}on {\k56}run{\k64}ning
+Dialogue: 0,0:02:55.98,0:02:58.97,Tyler,D-1 (keep together),0,0,20,fx,{\k90\fad(300,250)}♦ {\k19}And {\k19}I'm {\k17}gon{\k17}na {\k39}keep {\k73}on,
+Dialogue: 0,0:02:58.21,0:03:03.42,Duet,D-2 (keep together),0,0,48,fx,{\k90\fad(300,250)}♣ ♦ {\k39}keep {\k109}on, {\alpha&HFF&}{\t(1180,1480,\alpha&H0&)}{\k39}keep {\k109}on, {\alpha&HFF&}{\t(2660,2960,\alpha&H0&)}{\k39}keep {\k71}on
+Dialogue: 0,0:03:01.90,0:03:05.00,TylerChoir,D-3 (keep together),0,0,0,fx,{\k90\fad(300,250)}♦ {\k39}Keep {\k36}on {\k56}run{\k64}ning
+Dialogue: 0,0:03:04.87,0:03:07.97,NikkiChoir,D-3 (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k39}Keep {\k36}on {\k56}run{\k64}ning
+Dialogue: 0,0:03:55.31,0:03:58.53,Nikki,C-1,0,0,0,fx,{\k90\fad(300,250)}♣ {\kf58}Oooh {\k19}{\k32}Ja{\kf94}son~{\k4}
+Dialogue: 0,0:03:57.71,0:04:02.01,Nikki,C-2,0,0,0,fx,{\k90\fad(300,250)}♣ {\k36}Tell {\k19}me {\k37}what {\k35}you're {\k40}cha{\kf144}sin'~{\k0}
+Dialogue: 0,0:04:01.42,0:04:04.61,Nikki,C-3,0,0,0,fx,{\k90\fad(300,250)}♣ {\k17}Be{\k20}cause {\k17}the {\k56}night {\k20}will {\k54}ne{\k20}ver
+Dialogue: 0,0:04:03.46,0:04:07.01,Nikki,C-4,0,0,0,fx,{\k90\fad(300,250)}♣ {\k54}give {\k21}you {\k53}what {\k20}you {\k92}want
+Dialogue: 0,0:04:07.15,0:04:10.37,Nikki,C-1,0,0,0,fx,{\k90\fad(300,250)}♣ {\kf58}Oooh {\k19}{\k32}Ja{\kf94}son~{\k0}
+Dialogue: 0,0:04:09.39,0:04:14.08,Nikki,C-5,0,0,0,fx,{\k90\fad(300,250)}♣ {\k20}And {\k34}if {\k18}you {\k39}can't {\k37}es{\k35}cape {\kf167}it~{\k0}
+Dialogue: 0,0:04:13.28,0:04:16.49,Nikki,C-6,0,0,0,fx,{\k90\fad(300,250)}♣ {\k16}I {\k20}hope {\k21}you {\k53}find {\k18}what{\k56}e{\k22}ver
+Dialogue: 0,0:04:15.34,0:04:18.96,Nikki,C-6,0,0,0,fx,{\k90\fad(300,250)}♣ {\k52}you've {\k18}been {\k56}look{\k19}ing {\kf102}for~
+Dialogue: 0,0:04:18.63,0:04:21.07,Nikki,C-7,0,0,0,fx,{\k90\fad(300,250)}♣ {\k30}Ooh- {\k9}{\kf75}ooh{\kf15}
+Dialogue: 0,0:04:19.17,0:04:22.97,NikkiChoir,B (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Dialogue: 0,0:04:22.12,0:04:25.92,NikkiChoir,B (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Dialogue: 0,0:04:25.07,0:04:28.87,NikkiChoir,B (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Dialogue: 0,0:04:28.02,0:04:31.82,NikkiChoir,B (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Dialogue: 0,0:04:24.94,0:04:28.04,TylerChoir,A-1,0,0,48,fx,{\k90\fad(300,250)}♦ {\k39}Keep {\k36}on {\k56}run{\k64}ning
+Dialogue: 0,0:04:31.06,0:04:34.86,NikkiChoir,B (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Dialogue: 0,0:04:34.01,0:04:37.81,NikkiChoir,B (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Dialogue: 0,0:04:36.96,0:04:40.76,NikkiChoir,B (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Dialogue: 0,0:04:39.91,0:04:43.71,NikkiChoir,B (keep together),0,0,0,fx,{\k90\fad(300,250)}♣ {\k19}O{\k19}o{\k19}o{\k52}oh {\k18}o{\k56}oh {\k19}o{\k63}oh
+Dialogue: 0,0:04:36.80,0:04:39.90,TylerChoir,A-1,0,0,48,fx,{\k90\fad(300,250)}♦ {\k39}Keep {\k36}on {\k56}run{\k64}ning
+Dialogue: 0,0:04:48.63,0:04:51.48,NikkiChoir,A-2,0,0,0,fx,{\k90\fad(300,250)}♣ {\k41}Keep {\k37}on {\k51}run{\k41}ning
+Dialogue: 0,0:04:51.60,0:04:54.45,NikkiChoir,A-2,0,0,0,fx,{\k90\fad(300,250)}♣ {\k41}Keep {\k37}on {\k51}run{\k41}ning
+Dialogue: 0,0:05:00.44,0:05:03.29,NikkiChoir,A-2,0,0,0,fx,{\k90\fad(300,250)}♣ {\k41}Keep {\k37}on {\k51}run{\k41}ning
+Dialogue: 0,0:05:03.46,0:05:06.31,NikkiChoir,A-2,0,0,0,fx,{\k90\fad(300,250)}♣ {\k41}Keep {\k37}on {\k51}run{\k41}ning
+Dialogue: 0,0:00:00.00,0:00:00.25,who,,0,0,0,fx,{\k0\fad(0,250)}
