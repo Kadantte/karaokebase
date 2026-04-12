@@ -1,0 +1,142 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Beautiful Moonlight
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Lasagna
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Kasumi,Arial,24,&H00FFFFFF,&H001FC7F8,&H00000000,&H0000C6FF,-1,0,0,0,100,100,0,0,1,1.5,1.8,8,2,2,20,1
+Style: Emma,Arial,24,&H00FFFFFF,&H002ADB59,&H00000000,&H0000FF44,-1,0,0,0,100,100,0,0,1,1.5,1.8,8,2,2,20,1
+Style: Kanata,Arial,24,&H00FFFFFF,&H00FF35FE,&H00000000,&H00FF00FF,-1,0,0,0,100,100,0,0,1,1.5,1.8,8,2,2,20,1
+Style: Rina,Arial,24,&H00FFFFFF,&H00CBB0A3,&H00000000,&H00D3C3B8,-1,0,0,0,100,100,0,0,1,1.5,1.8,8,2,2,20,1
+Style: Group,Arial,24,&H00FFFFFF,&H005A89FF,&H00000000,&H004A7EFF,-1,-1,0,0,100,100,0,0,1,1.5,1.8,8,2,2,20,1
+Style: RinaEmma,Arial,24,&H00FFFFFF,&H005481F1,&H00000000,&HFF5A89FF,-1,0,0,0,100,100,0,0,1,1.5,1.8,8,2,2,20,1
+Style: KanataKasumi,Arial,24,&H00FFFFFF,&H005481F1,&H00000000,&HFF5A89FF,-1,0,0,0,100,100,0,0,1,1.5,1.8,8,2,2,20,1
+Style: no,Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&HFF000000,-1,0,0,0,100,100,0,0,1,1.5,1.8,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:01.40,0:00:15.29,no,,0,0,120,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"  "!
+Comment: 0,0:00:01.40,0:00:15.29,RinaEmma,,0,0,120,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rRina}♣ {\\rEmma\\2c&HFFFFFF&}♠{\\rGroup\\4a&HFF&} "!
+Comment: 0,0:00:01.40,0:00:15.29,KanataKasumi,,0,0,120,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rKanata}♥ {\\rKasumi\\2c&HFFFFFF&}♦{\\rGroup\\4a&HFF&} "!
+Comment: 0,0:00:01.40,0:00:15.29,Group,,0,0,120,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs28}★{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:01.40,0:00:15.29,Kanata,,0,0,120,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♥{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:01.40,0:00:15.29,Kasumi,,0,0,120,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♦{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:01.40,0:00:15.29,Emma,,0,0,120,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♠{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:01.40,0:00:15.29,Rina,,0,0,120,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♣{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:15.29,0:00:18.29,no,,0,0,0,,
+Comment: 0,0:00:01.40,0:00:15.29,no,,0,0,120,karaoke,{\k13890} {\rKasumi\fs30\4a&H00&\2c&HFFFFFF&}♦{\fs\4a&HFF&\2c} Kasumi {\rKanata\fs30\4a&H00&\2c&HFFFFFF&}♥{\fs\4a&HFF&\2c} Kanata {\rEmma\fs30\4a&H00&\2c&HFFFFFF&}♠{\fs\4a&HFF&\2c} Emma {\rRina\fs30\4a&H00&\2c&HFFFFFF&}♣{\fs\4a&HFF&\2c} Rina \N\N {\rGroup\fs28\4a&H00&\2c&HFFFFFF&}★{\fs\4a&HFF&\2c} QU4RTZ
+Comment: 0,0:00:18.47,0:00:22.32,Rina,,0,0,0,karaoke,{\k26}yo{\k14}ru {\k38}ni {\k24}u{\k28}ka{\k76}bu {\k38}shi{\k41}roi {\k26}tsu{\k25}ki {\k49}ga
+Comment: 0,0:00:22.61,0:00:26.40,Rina,,0,0,0,karaoke,{\k38}ma{\k40}do{\k24}be {\k28}sot{\k51}to {\k25}te{\k54}ra{\k37}shi{\k38}te{\k44}ru
+Comment: 0,0:00:26.75,0:00:30.63,Emma,,0,0,0,karaoke,{\k25}hou{\k12}ka{\k40}go {\k25}no {\k27}CA{\k77}FE {\k26}ki{\k14}mi {\k39}to {\k25}no{\k26}n{\k52}da
+Comment: 0,0:00:30.88,0:00:34.51,Emma,,0,0,0,karaoke,{\k40}HO{\k39}T {\k25}MI{\k25}L{\k53}K {\k25}TE{\k52}A {\k37}no {\k40}a{\k27}ji
+Comment: 0,0:00:34.51,0:00:36.56,Kanata,,0,0,0,karaoke,{\k34}E{\k17}VERY{\k36}DAY {\k17}AND {\k101}NIGHT
+Comment: 0,0:00:36.83,0:00:38.64,Kasumi,,0,0,0,karaoke,{\k26}o{\k26}mo{\k14}i{\k36}da{\k27}shi{\k27}te{\k25}ru
+Comment: 0,0:00:38.64,0:00:40.81,Kanata,,0,0,0,karaoke,{\k39}A{\k13}NY{\k26}WHERE {\k13}A{\k13}NY{\k113}TIME
+Comment: 0,0:00:40.97,0:00:42.51,Kasumi,,0,0,0,karaoke,{\k28}ai{\k49}tai {\k26}ai{\k51}tai
+Comment: 0,0:00:42.51,0:00:44.86,Kanata,,0,0,0,karaoke,{\k27}YOU'RE {\k40}AL{\k12}WAYS {\k39}ON {\k12}MY {\k105}MIND
+Comment: 0,0:00:45.08,0:00:47.66,Kasumi,,0,0,0,karaoke,{\k28}tsu{\k41}gi {\k38}no {\k25}ya{\k23}ku{\k28}so{\k27}ku {\k25}ma{\k23}de
+Comment: 0,0:00:47.66,0:00:50.80,Kasumi,,0,0,0,karaoke,{\k55}mo{\k26}u {\k26}ma{\k52}te{\k23}na{\k29}i {\k103}na...
+Comment: 0,0:00:51.06,0:00:52.88,Group,,0,0,0,karaoke,{\k39}BEAU{\k25}TI{\k25}FUL {\k40}MOON{\k53}LIGHT
+Comment: 0,0:00:52.88,0:00:54.92,Group,,0,0,0,karaoke,{\k24}hi{\k27}to{\k13}to{\k25}ki {\k25}no {\k41}GOOD{\k49}BYE
+Comment: 0,0:00:54.92,0:00:59.07,Group,,0,0,0,karaoke,{\k28}ki{\k38}mi {\k26}no {\k26}ko{\k39}e {\k25}ga {\k25}ko{\k23}i{\k43}shi{\k38}ku {\k26}na{\k27}t{\k51}te
+Comment: 0,0:00:59.07,0:01:01.14,Rina,,0,0,0,karaoke,{\k26}hi{\k26}to{\k14}ri{\k25}ki{\k26}ri {\k39}TAS{\k51}TING
+Comment: 0,0:01:01.14,0:01:06.59,Rina,,0,0,0,karaoke,{\k26}chot{\k78}to {\k51}ho{\k27}ro {\k51}ni{\k38}gai {\k40}ka{\kf224}na~{\k10}
+Comment: 0,0:01:07.09,0:01:09.42,Group,,0,0,0,karaoke,{\k50}o{\k36}ya{\k32}su{\k21}mi {\k42}MOON{\k52}LIGHT
+Comment: 0,0:01:09.42,0:01:11.49,Group,,0,0,0,karaoke,{\k26}mi{\k25}ma{\k18}mo{\k22}t{\k25}te {\k40}ALL {\k51}NIGHT
+Comment: 0,0:01:11.49,0:01:16.64,Emma,,0,0,0,karaoke,{\k26}gyut{\k20}to {\k13}ma{\k18}bu{\k52}ta {\k19}to{\k17}ji{\k16}te {\k26}mo {\k26}u{\k51}ka{\k36}bu {\k44}ki{\k23}mi {\k26}no {\k26}ka{\k76}o
+Comment: 0,0:01:16.64,0:01:22.71,Emma,,0,0,0,karaoke,{\k79}yu{\k52}me {\k52}de {\k51}ai{\k53}tai {\kf161}naa~ {\k45}{\kf104}ah~{\k10}
+Comment: 0,0:01:28.78,0:01:32.70,Kanata,,0,0,0,karaoke,{\k29}ki{\k14}mi {\k35}to {\k29}su{\k24}go{\k78}su {\k41}ji{\k39}kan {\k24}wa {\k25}na{\k54}ze
+Comment: 0,0:01:32.95,0:01:36.72,Kanata,,0,0,0,karaoke,{\k25}i{\k14}chi{\k39}ban {\k25}ha{\k26}ya{\k51}ku {\k27}su{\k52}gi{\k39}te{\k38}ku {\k41}no?
+Comment: 0,0:01:37.07,0:01:40.93,Kasumi,,0,0,0,karaoke,{\k28}hi {\k10}ga {\k42}shi{\k26}zu{\k25}n{\k76}de {\k28}ka{\k13}e{\k40}ra{\k25}na{\k26}ku{\k47}cha
+Comment: 0,0:01:41.23,0:01:44.59,Kasumi,,0,0,0,karaoke,{\k39}TI{\k39}ME {\k25}LI{\k26}MI{\k51}T {\k27}gi{\k51}ri{\k39}gi{\k39}ri
+Comment: 0,0:01:44.59,0:01:47.01,Emma,,0,0,0,karaoke,{\k26}THE {\k51}WAY {\k53}BACK {\k112}HOME
+Comment: 0,0:01:47.16,0:01:48.97,Rina,,0,0,0,karaoke,{\k28}mu{\k26}ne {\k13}ga {\k38}i{\k24}ta{\k27}i {\k25}yo
+Comment: 0,0:01:48.97,0:01:51.19,Emma,,0,0,0,karaoke,{\k40}WAL{\k11}K {\k52}SO {\k119}SLOW
+Comment: 0,0:01:51.31,0:01:52.86,Rina,,0,0,0,karaoke,{\k14}ta{\k13}ri{\k52}nai {\k12}ta{\k13}ri{\k51}nai
+Comment: 0,0:01:52.86,0:01:55.17,Emma,,0,0,0,karaoke,{\k23}WAN{\k40}NA {\k15}BE {\k39}WITH {\k14}YOU {\k100}MORE
+Comment: 0,0:01:55.47,0:01:57.27,Rina,,0,0,0,karaoke,{\k24}su{\k25}ko{\k14}shi {\k37}de{\k28}mo {\k25}i{\k27}i
+Comment: 0,0:01:57.27,0:02:01.02,Rina,,0,0,0,karaoke,{\k24}to{\k27}ki {\k26}wo {\k51}to{\k26}me{\k26}ra{\k52}re{\k25}ta{\k27}ra {\k91}na...
+Comment: 0,0:02:01.40,0:02:03.19,Group,,0,0,0,karaoke,{\k38}BEAU{\k27}TI{\k26}FUL {\k38}MOON{\k50}LIGHT
+Comment: 0,0:02:03.19,0:02:05.28,Group,,0,0,0,karaoke,{\k28}shi{\k26}ta{\k13}ku{\k26}nai {\k27}yo {\k38}GOOD{\k51}BYE
+Comment: 0,0:02:05.28,0:02:09.42,Group,,0,0,0,karaoke,{\k25}wa{\k26}ka{\k14}re{\k26}gi{\k25}wa {\k39}ma{\k24}ta {\k29}sa{\k21}bi{\k43}shi{\k39}ku {\k22}na{\k29}t{\k52}te
+Comment: 0,0:02:09.42,0:02:11.49,Kasumi,,0,0,0,karaoke,{\k27}ha{\k25}na{\k13}re{\k26}te{\k26}ku {\k38}DIS{\k52}TANCE
+Comment: 0,0:02:11.49,0:02:16.92,Kasumi,,0,0,0,karaoke,{\k26}chot{\k74}to {\k81}se{\k52}tsu{\k40}nai {\k37}ka {\kf223}na~{\k10}
+Comment: 0,0:02:17.43,0:02:19.77,Group,,0,0,0,karaoke,{\k52}a{\k28}to {\k12}su{\k21}ko{\k25}shi {\k43}MOON{\k53}LIGHT
+Comment: 0,0:02:19.77,0:02:21.83,Group,,0,0,0,karaoke,{\k26}ka{\k24}wa{\k13}ra{\k27}nai {\k20}de {\k45}RED {\k51}LIGHT
+Comment: 0,0:02:21.83,0:02:26.99,Kanata,,0,0,0,karaoke,{\k25}mi{\k23}o{\k12}ku{\k18}t{\k50}ta {\k20}se{\k17}na{\k16}ka {\k25}ga {\k26}chii{\k53}sa{\k39}ku {\k34}na{\k30}t{\k26}te {\k26}i{\k76}ku
+Comment: 0,0:02:26.99,0:02:31.93,Kanata,,0,0,0,karaoke,{\k65}i{\k14}tsu{\k51}dat{\k52}te {\k53}ai{\k50}tai {\kf199}naa~{\k10}
+Comment: 0,0:02:45.88,0:02:48.94,Rina,,0,0,0,karaoke,{\k39}ko{\k39}i {\k26}i{\k35}ro {\k19}MI{\k35}L{\k14}K {\k99}TEA
+Comment: 0,0:02:49.24,0:02:53.03,Kanata,,0,0,0,karaoke,{\k25}a{\k26}to {\k14}a{\k39}ji {\k21}zu{\k30}t{\k27}to {\k39}no{\k14}ko{\k37}t{\k14}te{\k93}ru
+Comment: 0,0:02:53.39,0:02:54.89,Kasumi,,0,0,0,karaoke,{\k25}MEL{\k52}TY {\k26}AND {\k47}SWEET
+Comment: 0,0:02:54.89,0:03:03.59,Emma,,0,0,0,karaoke,{\k30}so{\k78}ra {\k54}wo {\k26}to{\k23}bi{\k102}ko{\k27}e{\k30}te {\k22}i{\k22}ma{\k30}su{\k154}gu {\k27}i{\k26}ki{\k38}ta{\kf171}i~{\k10}
+Comment: 0,0:03:05.54,0:03:07.34,Group,,0,0,0,karaoke,{\k39}BEAU{\k26}TI{\k25}FUL {\k38}MOON{\k52}LIGHT
+Comment: 0,0:03:07.34,0:03:09.41,Group,,0,0,0,karaoke,{\k28}hi{\k25}to{\k12}to{\k27}ki {\k24}no {\k40}GOOD{\k51}BYE
+Comment: 0,0:03:09.41,0:03:13.56,Group,,0,0,0,karaoke,{\k24}ki{\k41}mi {\k28}no {\k23}ko{\k40}e {\k26}ga {\k26}ko{\k22}i{\k43}shi{\k38}ku {\k24}na{\k28}t{\k52}te
+Comment: 0,0:03:13.56,0:03:15.61,RinaEmma,,0,0,0,karaoke,{\k26}hi{\k26}to{\k15}ri{\k24}ki{\k24}ri {\k40}TAS{\k50}TING
+Comment: 0,0:03:15.61,0:03:20.98,RinaEmma,,0,0,0,karaoke,{\k28}chot{\k77}to {\k54}ho{\k23}ro {\k52}ni{\k40}gai {\k38}ka{\kf215}na~{\k10}
+Comment: 0,0:03:21.57,0:03:23.91,Group,,0,0,0,karaoke,{\k52}o{\k34}ya{\k29}su{\k24}mi {\k42}MOON{\k53}LIGHT
+Comment: 0,0:03:23.91,0:03:25.98,Group,,0,0,0,karaoke,{\k26}mi{\k21}ma{\k19}mo{\k24}t{\k26}te {\k39}ALL {\k52}NIGHT
+Comment: 0,0:03:25.98,0:03:31.14,KanataKasumi,,0,0,0,karaoke,{\k25}gyut{\k15}to {\k20}ma{\k17}bu{\k51}ta {\k18}to{\k16}ji{\k18}te {\k25}mo {\k27}u{\k51}ka{\k40}bu {\k37}ki{\k27}mi {\k26}no {\k26}ka{\k77}o
+Comment: 0,0:03:31.14,0:03:37.19,Group,,0,0,0,karaoke,{\k78}yu{\k51}me {\k52}de {\k52}ai{\k52}tai {\kf161}naa~ {\k46}{\kf103}ah~{\k10}
+Comment: 0,0:03:38.12,0:03:42.21,Group,,0,0,0,karaoke,{\kf155}aah~ {\k52}{\kf172}aah~{\k30}
+Dialogue: 0,0:00:00.50,0:00:15.49,no,,0,0,120,fx,{\k90\fad(300,200)}  {\k13890} {\rKasumi\fs30\4a&H00&\2c&HFFFFFF&}♦{\fs\4a&HFF&\2c} Kasumi {\rKanata\fs30\4a&H00&\2c&HFFFFFF&}♥{\fs\4a&HFF&\2c} Kanata {\rEmma\fs30\4a&H00&\2c&HFFFFFF&}♠{\fs\4a&HFF&\2c} Emma {\rRina\fs30\4a&H00&\2c&HFFFFFF&}♣{\fs\4a&HFF&\2c} Rina \N\N {\rGroup\fs28\4a&H00&\2c&HFFFFFF&}★{\fs\4a&HFF&\2c} QU4RTZ
+Dialogue: 0,0:00:17.57,0:00:22.52,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k26}yo{\k14}ru {\k38}ni {\k24}u{\k28}ka{\k76}bu {\k38}shi{\k41}roi {\k26}tsu{\k25}ki {\k49}ga
+Dialogue: 0,0:00:21.71,0:00:26.60,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k38}ma{\k40}do{\k24}be {\k28}sot{\k51}to {\k25}te{\k54}ra{\k37}shi{\k38}te{\k44}ru
+Dialogue: 0,0:00:25.85,0:00:30.83,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k25}hou{\k12}ka{\k40}go {\k25}no {\k27}CA{\k77}FE {\k26}ki{\k14}mi {\k39}to {\k25}no{\k26}n{\k52}da
+Dialogue: 0,0:00:29.98,0:00:34.71,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k40}HO{\k39}T {\k25}MI{\k25}L{\k53}K {\k25}TE{\k52}A {\k37}no {\k40}a{\k27}ji
+Dialogue: 0,0:00:33.61,0:00:36.76,Kanata,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k34}E{\k17}VERY{\k36}DAY {\k17}AND {\k101}NIGHT
+Dialogue: 0,0:00:35.93,0:00:38.84,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k26}o{\k26}mo{\k14}i{\k36}da{\k27}shi{\k27}te{\k25}ru
+Dialogue: 0,0:00:37.74,0:00:41.01,Kanata,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k39}A{\k13}NY{\k26}WHERE {\k13}A{\k13}NY{\k113}TIME
+Dialogue: 0,0:00:40.07,0:00:42.71,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k28}ai{\k49}tai {\k26}ai{\k51}tai
+Dialogue: 0,0:00:41.61,0:00:45.06,Kanata,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k27}YOU'RE {\k40}AL{\k12}WAYS {\k39}ON {\k12}MY {\k105}MIND
+Dialogue: 0,0:00:44.18,0:00:47.86,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k28}tsu{\k41}gi {\k38}no {\k25}ya{\k23}ku{\k28}so{\k27}ku {\k25}ma{\k23}de
+Dialogue: 0,0:00:46.76,0:00:51.00,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k55}mo{\k26}u {\k26}ma{\k52}te{\k23}na{\k29}i {\k103}na...
+Dialogue: 0,0:00:50.16,0:00:53.08,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\k39}BEAU{\k25}TI{\k25}FUL {\k40}MOON{\k53}LIGHT
+Dialogue: 0,0:00:51.98,0:00:55.12,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\k24}hi{\k27}to{\k13}to{\k25}ki {\k25}no {\k41}GOOD{\k49}BYE
+Dialogue: 0,0:00:54.02,0:00:59.27,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\k28}ki{\k38}mi {\k26}no {\k26}ko{\k39}e {\k25}ga {\k25}ko{\k23}i{\k43}shi{\k38}ku {\k26}na{\k27}t{\k51}te
+Dialogue: 0,0:00:58.17,0:01:01.34,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k26}hi{\k26}to{\k14}ri{\k25}ki{\k26}ri {\k39}TAS{\k51}TING
+Dialogue: 0,0:01:00.24,0:01:06.79,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k26}chot{\k78}to {\k51}ho{\k27}ro {\k51}ni{\k38}gai {\k40}ka{\kf224}na~{\k10}
+Dialogue: 0,0:01:06.19,0:01:09.62,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\k50}o{\k36}ya{\k32}su{\k21}mi {\k42}MOON{\k52}LIGHT
+Dialogue: 0,0:01:08.52,0:01:11.69,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\k26}mi{\k25}ma{\k18}mo{\k22}t{\k25}te {\k40}ALL {\k51}NIGHT
+Dialogue: 0,0:01:10.59,0:01:16.84,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k26}gyut{\k20}to {\k13}ma{\k18}bu{\k52}ta {\k19}to{\k17}ji{\k16}te {\k26}mo {\k26}u{\k51}ka{\k36}bu {\k44}ki{\k23}mi {\k26}no {\k26}ka{\k76}o
+Dialogue: 0,0:01:15.74,0:01:22.91,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k79}yu{\k52}me {\k52}de {\k51}ai{\k53}tai {\kf161}naa~ {\k45}{\kf104}ah~{\k10}
+Dialogue: 0,0:01:27.88,0:01:32.90,Kanata,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k29}ki{\k14}mi {\k35}to {\k29}su{\k24}go{\k78}su {\k41}ji{\k39}kan {\k24}wa {\k25}na{\k54}ze
+Dialogue: 0,0:01:32.05,0:01:36.92,Kanata,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k25}i{\k14}chi{\k39}ban {\k25}ha{\k26}ya{\k51}ku {\k27}su{\k52}gi{\k39}te{\k38}ku {\k41}no?
+Dialogue: 0,0:01:36.17,0:01:41.13,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k28}hi {\k10}ga {\k42}shi{\k26}zu{\k25}n{\k76}de {\k28}ka{\k13}e{\k40}ra{\k25}na{\k26}ku{\k47}cha
+Dialogue: 0,0:01:40.33,0:01:44.79,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k39}TI{\k39}ME {\k25}LI{\k26}MI{\k51}T {\k27}gi{\k51}ri{\k39}gi{\k39}ri
+Dialogue: 0,0:01:43.69,0:01:47.21,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k26}THE {\k51}WAY {\k53}BACK {\k112}HOME
+Dialogue: 0,0:01:46.26,0:01:49.17,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k28}mu{\k26}ne {\k13}ga {\k38}i{\k24}ta{\k27}i {\k25}yo
+Dialogue: 0,0:01:48.07,0:01:51.39,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k40}WAL{\k11}K {\k52}SO {\k119}SLOW
+Dialogue: 0,0:01:50.41,0:01:53.06,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k14}ta{\k13}ri{\k52}nai {\k12}ta{\k13}ri{\k51}nai
+Dialogue: 0,0:01:51.96,0:01:55.37,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k23}WAN{\k40}NA {\k15}BE {\k39}WITH {\k14}YOU {\k100}MORE
+Dialogue: 0,0:01:54.57,0:01:57.47,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k24}su{\k25}ko{\k14}shi {\k37}de{\k28}mo {\k25}i{\k27}i
+Dialogue: 0,0:01:56.37,0:02:01.22,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k24}to{\k27}ki {\k26}wo {\k51}to{\k26}me{\k26}ra{\k52}re{\k25}ta{\k27}ra {\k91}na...
+Dialogue: 0,0:02:00.50,0:02:03.39,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\k38}BEAU{\k27}TI{\k26}FUL {\k38}MOON{\k50}LIGHT
+Dialogue: 0,0:02:02.29,0:02:05.48,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\k28}shi{\k26}ta{\k13}ku{\k26}nai {\k27}yo {\k38}GOOD{\k51}BYE
+Dialogue: 0,0:02:04.38,0:02:09.62,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\k25}wa{\k26}ka{\k14}re{\k26}gi{\k25}wa {\k39}ma{\k24}ta {\k29}sa{\k21}bi{\k43}shi{\k39}ku {\k22}na{\k29}t{\k52}te
+Dialogue: 0,0:02:08.52,0:02:11.69,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k27}ha{\k25}na{\k13}re{\k26}te{\k26}ku {\k38}DIS{\k52}TANCE
+Dialogue: 0,0:02:10.59,0:02:17.12,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k26}chot{\k74}to {\k81}se{\k52}tsu{\k40}nai {\k37}ka {\kf223}na~{\k10}
+Dialogue: 0,0:02:16.53,0:02:19.97,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\k52}a{\k28}to {\k12}su{\k21}ko{\k25}shi {\k43}MOON{\k53}LIGHT
+Dialogue: 0,0:02:18.87,0:02:22.03,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\k26}ka{\k24}wa{\k13}ra{\k27}nai {\k20}de {\k45}RED {\k51}LIGHT
+Dialogue: 0,0:02:20.93,0:02:27.19,Kanata,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k25}mi{\k23}o{\k12}ku{\k18}t{\k50}ta {\k20}se{\k17}na{\k16}ka {\k25}ga {\k26}chii{\k53}sa{\k39}ku {\k34}na{\k30}t{\k26}te {\k26}i{\k76}ku
+Dialogue: 0,0:02:26.09,0:02:32.13,Kanata,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k65}i{\k14}tsu{\k51}dat{\k52}te {\k53}ai{\k50}tai {\kf199}naa~{\k10}
+Dialogue: 0,0:02:44.98,0:02:49.14,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k39}ko{\k39}i {\k26}i{\k35}ro {\k19}MI{\k35}L{\k14}K {\k99}TEA
+Dialogue: 0,0:02:48.34,0:02:53.23,Kanata,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k25}a{\k26}to {\k14}a{\k39}ji {\k21}zu{\k30}t{\k27}to {\k39}no{\k14}ko{\k37}t{\k14}te{\k93}ru
+Dialogue: 0,0:02:52.49,0:02:55.09,Kasumi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k25}MEL{\k52}TY {\k26}AND {\k47}SWEET
+Dialogue: 0,0:02:53.99,0:03:03.79,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k30}so{\k78}ra {\k54}wo {\k26}to{\k23}bi{\k102}ko{\k27}e{\k30}te {\k22}i{\k22}ma{\k30}su{\k154}gu {\k27}i{\k26}ki{\k38}ta{\kf171}i~{\k10}
+Dialogue: 0,0:03:04.64,0:03:07.54,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\k39}BEAU{\k26}TI{\k25}FUL {\k38}MOON{\k52}LIGHT
+Dialogue: 0,0:03:06.44,0:03:09.61,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\k28}hi{\k25}to{\k12}to{\k27}ki {\k24}no {\k40}GOOD{\k51}BYE
+Dialogue: 0,0:03:08.51,0:03:13.76,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\k24}ki{\k41}mi {\k28}no {\k23}ko{\k40}e {\k26}ga {\k26}ko{\k22}i{\k43}shi{\k38}ku {\k24}na{\k28}t{\k52}te
+Dialogue: 0,0:03:12.66,0:03:15.81,RinaEmma,,0,0,0,fx,{\k90\fad(300,200)}{\rRina}♣ {\rEmma\2c&HFFFFFF&}♠{\rGroup\4a&HFF&} {\k26}hi{\k26}to{\k15}ri{\k24}ki{\k24}ri {\k40}TAS{\k50}TING
+Dialogue: 0,0:03:14.71,0:03:21.18,RinaEmma,,0,0,0,fx,{\k90\fad(300,200)}{\rRina}♣ {\rEmma\2c&HFFFFFF&}♠{\rGroup\4a&HFF&} {\k28}chot{\k77}to {\k54}ho{\k23}ro {\k52}ni{\k40}gai {\k38}ka{\kf215}na~{\k10}
+Dialogue: 0,0:03:20.67,0:03:24.11,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\k52}o{\k34}ya{\k29}su{\k24}mi {\k42}MOON{\k53}LIGHT
+Dialogue: 0,0:03:23.01,0:03:26.18,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\k26}mi{\k21}ma{\k19}mo{\k24}t{\k26}te {\k39}ALL {\k52}NIGHT
+Dialogue: 0,0:03:25.08,0:03:31.34,KanataKasumi,,0,0,0,fx,{\k90\fad(300,200)}{\rKanata}♥ {\rKasumi\2c&HFFFFFF&}♦{\rGroup\4a&HFF&} {\k25}gyut{\k15}to {\k20}ma{\k17}bu{\k51}ta {\k18}to{\k16}ji{\k18}te {\k25}mo {\k27}u{\k51}ka{\k40}bu {\k37}ki{\k27}mi {\k26}no {\k26}ka{\k77}o
+Dialogue: 0,0:03:30.24,0:03:37.39,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\k78}yu{\k51}me {\k52}de {\k52}ai{\k52}tai {\kf161}naa~ {\k46}{\kf103}ah~{\k10}
+Dialogue: 0,0:03:37.22,0:03:42.41,Group,,0,0,0,fx,{\k90\fad(300,200)}{\fs28}★{\fs\4a&HFF&} {\kf155}aah~ {\k52}{\kf172}aah~{\k30}
