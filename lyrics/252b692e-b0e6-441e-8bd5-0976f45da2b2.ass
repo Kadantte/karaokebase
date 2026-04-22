@@ -11,15 +11,16 @@ Original Timing: Deformer-Lua
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:21.99,0:00:26.24,Sample KM [Up],,0,0,0,karaoke,{\k130}Il {\k25}est {\k47}ve{\k38}nu, {\k30}un {\k44}mar{\k24}di {\k45}soi{\k42}r
 Comment: 0,0:00:29.24,0:00:33.62,Sample KM [Up],,0,0,0,karaoke,{\k139}A{\k23}vec {\k51}l'en{\k45}vie {\k22}d'a{\k35}per{\k26}ce{\k53}voi{\k44}r
-Comment: 0,0:00:36.80,0:00:38.60,Sample KM [Up],,0,0,0,karaoke,{\k26}Le {\k23}bon{\k40}heur, {\k28}la {\k18}dou{\k45}ceur,
+Comment: 0,0:00:36.80,0:00:38.60,Sample KM [Up],,0,0,0,karaoke,{\k26}Le {\k23}bon{\k40}heur, {\k28}la {\k18}dou{\k45}ceur
 Comment: 0,0:00:38.68,0:00:41.18,Sample KM [Up],,0,0,0,karaoke,{\k19}De {\k19}l'a{\k30}mour {\k43}à {\k24}l'in{\k40}té{\k75}rieur
-Comment: 0,0:00:41.32,0:00:42.32,Sample KM [Up],,0,0,0,karaoke,{\k22}{\i1}(Dans {\k27}l'cul, {\k20}en {\k31}fait)
+Comment: 0,0:00:41.32,0:00:42.32,Sample KM [Choir],,0,0,0,karaoke,{\k22}Dans {\k27}l'cul, {\k20}en {\k31}fait
 Comment: 0,0:00:44.16,0:00:48.52,Sample KM [Up],,0,0,0,karaoke,{\k26}Pour {\k21}u{\k42}ne {\k29}de{\k22}mie-{\k91}heure, {\k25}par{\k47}tir {\k16}ail{\k47}leu{\k70}rs
 Comment: 0,0:00:50.57,0:00:52.74,Sample KM [Up],,0,0,0,karaoke,{\k20}Oh {\k26}sup{\k26}po{\k24}site-{\k37}moi, {\k10}sup{\k11}po{\k32}site-{\k31}moi
 Comment: 0,0:00:52.74,0:00:54.62,Sample KM [Up],,0,0,0,karaoke,{\k39}Oh {\k25}je {\k20}veux {\k23}sen{\k21}tir {\k60}ça
@@ -35,14 +36,13 @@ Comment: 0,0:01:11.49,0:01:19.08,Sample KM [Up],,0,0,0,karaoke,{\k49}Oui, {\k44}
 Comment: 0,0:01:19.75,0:01:20.95,Sample KM [Up],,0,0,0,karaoke,{\k26}Sup{\k23}po{\k23}site-{\k48}moi
 Comment: 0,0:01:23.30,0:01:24.80,Sample KM [Up],,0,0,0,karaoke,{\k38}Sup{\k23}po{\k24}site-{\k65}moi
 Comment: 0,0:01:26.15,0:01:34.35,Sample KM [Up],,0,0,0,karaoke,{\k50}Oui, {\k43}un {\k23}sup{\k27}po {\k22}dans {\k134}l'cul{\k26}~{\k45}~{\k90}~{\k65}~{\k48}~{\k74}~{\k80}~
-Comment: 0,0:01:27.08,0:01:29.08,Sample KM [Up],,0,0,0,karaoke,{\k25}{\i1}(Sup{\k26}po{\k21}site-{\k145}moi)
-Comment: 0,0:01:30.30,0:01:35.35,Sample KM [Up],,0,0,0,karaoke,{\k171}{\i1}(Oh {\k334}yeah...)
-Comment: 0,0:01:35.35,0:01:37.35,Sample KM [Up],,0,0,0,karaoke,
+Comment: 0,0:01:27.08,0:01:29.08,Sample KM [Choir],,0,0,0,karaoke,{\k25}Sup{\k26}po{\k21}site-{\k145}moi
+Comment: 0,0:01:30.30,0:01:35.35,Sample KM [Choir],,0,0,0,karaoke,{\k171}Oh {\k334}yeah...
 Dialogue: 0,0:00:21.09,0:00:26.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k130}Il {\k25}est {\k47}ve{\k38}nu, {\k30}un {\k44}mar{\k24}di {\k45}soi{\k42}r
 Dialogue: 0,0:00:28.34,0:00:33.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k139}A{\k23}vec {\k51}l'en{\k45}vie {\k22}d'a{\k35}per{\k26}ce{\k53}voi{\k44}r
-Dialogue: 0,0:00:35.90,0:00:38.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Le {\k23}bon{\k40}heur, {\k28}la {\k18}dou{\k45}ceur,
+Dialogue: 0,0:00:35.90,0:00:38.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Le {\k23}bon{\k40}heur, {\k28}la {\k18}dou{\k45}ceur
 Dialogue: 0,0:00:37.78,0:00:41.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}De {\k19}l'a{\k30}mour {\k43}à {\k24}l'in{\k40}té{\k75}rieur
-Dialogue: 0,0:00:40.42,0:00:42.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}{\i1}(Dans {\k27}l'cul, {\k20}en {\k31}fait)
+Dialogue: 0,0:00:40.42,0:00:42.52,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Dans {\k27}l'cul, {\k20}en {\k31}fait
 Dialogue: 0,0:00:43.26,0:00:48.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Pour {\k21}u{\k42}ne {\k29}de{\k22}mie-{\k91}heure, {\k25}par{\k47}tir {\k16}ail{\k47}leu{\k70}rs
 Dialogue: 0,0:00:49.67,0:00:52.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Oh {\k26}sup{\k26}po{\k24}site-{\k37}moi, {\k10}sup{\k11}po{\k32}site-{\k31}moi
 Dialogue: 0,0:00:51.84,0:00:54.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Oh {\k25}je {\k20}veux {\k23}sen{\k21}tir {\k60}ça
@@ -58,6 +58,5 @@ Dialogue: 0,0:01:10.59,0:01:19.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\
 Dialogue: 0,0:01:18.85,0:01:21.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Sup{\k23}po{\k23}site-{\k48}moi
 Dialogue: 0,0:01:22.40,0:01:25.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Sup{\k23}po{\k24}site-{\k65}moi
 Dialogue: 0,0:01:25.25,0:01:34.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Oui, {\k43}un {\k23}sup{\k27}po {\k22}dans {\k134}l'cul{\k26}~{\k45}~{\k90}~{\k65}~{\k48}~{\k74}~{\k80}~
-Dialogue: 0,0:01:26.18,0:01:29.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}{\i1}(Sup{\k26}po{\k21}site-{\k145}moi)
-Dialogue: 0,0:01:29.40,0:01:35.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k171}{\i1}(Oh {\k334}yeah...)
-Dialogue: 0,0:01:34.45,0:01:37.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}
+Dialogue: 0,0:01:26.18,0:01:29.28,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Sup{\k26}po{\k21}site-{\k145}moi
+Dialogue: 0,0:01:29.40,0:01:35.55,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k171}Oh {\k334}yeah...
