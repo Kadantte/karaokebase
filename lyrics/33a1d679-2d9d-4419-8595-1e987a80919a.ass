@@ -1,0 +1,126 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Circle With Me
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Lasagna
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: scream,Arial,24,&H00E1E1E1,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Voice 1],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.59,0:00:03.69,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k34}Feel {\k29}the {\k31}weight {\k27}of {\k22}a {\k69}mar{\k86}tyr
+Comment: 0,0:00:03.86,0:00:06.09,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k27}It {\k32}could {\k87}all {\k30}be {\k59}yours
+Comment: 0,0:00:07.05,0:00:09.41,scream,,0,0,20,karaoke,{\k45}CUT {\k45}DOWN {\k31}THE {\k60}AL{\k55}TAR
+Comment: 0,0:00:31.63,0:00:35.63,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k32}Vi{\k60}sio{\k58}naire {\k87}and {\k30}deep{\k59}est {\k74}fake
+Comment: 0,0:00:36.34,0:00:40.28,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k31}Dir{\k60}ty {\k57}gold, {\k52}the {\k63}co{\k57}lours {\k74}change
+Comment: 0,0:00:41.00,0:00:44.83,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k31}Hands {\k56}are {\k60}fro{\k83}zen, {\k40}feel {\k55}no {\k58}pain
+Comment: 0,0:00:45.69,0:00:48.05,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k29}I {\k29}just {\k33}want {\k24}to {\k33}hold {\k23}the {\k65}flame
+Comment: 0,0:00:48.34,0:00:50.50,Sample KM Duo [Voice 1],B,0,0,0,karaoke,{\k29}Ne{\k31}ga{\k28}tive {\k29}feed{\k60}back {\k39}loop
+Comment: 0,0:00:50.68,0:00:52.78,Sample KM Duo [Voice 1],B,0,0,0,karaoke,{\k23}I’m {\k38}spin{\k27}ning {\k30}out {\k28}of {\k24}con{\k40}trol
+Comment: 0,0:00:53.03,0:00:55.69,Sample KM Duo [Voice 1],B,0,0,0,karaoke,{\k28}The {\k28}sick{\k27}ly {\k27}sweet{\k34}ness {\k32}is {\k31}crush{\k25}ing {\k34}me
+Comment: 0,0:00:55.97,0:00:57.45,Sample KM Duo [Voice 1],B,0,0,0,karaoke,{\k27}But {\k22}I {\k36}want {\k30}to {\k33}know
+Comment: 0,0:00:57.72,0:01:00.64,Sample KM Duo [Voice 1],B,0,0,0,karaoke,{\k29}If {\k28}there’s {\k21}no {\k67}heat {\k30}when {\k28}I {\k30}es{\k28}ca{\k31}late
+Comment: 0,0:01:00.64,0:01:02.16,Sample KM Duo [Voice 1],B,0,0,0,karaoke,{\k28}the {\k24}fi{\k35}re {\k27}is {\k38}cold
+Comment: 0,0:01:02.38,0:01:05.48,Sample KM Duo [Voice 1],B,0,0,0,karaoke,{\k28}They {\k30}e{\k54}cho: {\k35}{\k27}This {\k29}could {\k29}all {\k32}be {\k46}yours
+Comment: 0,0:01:06.14,0:01:09.12,Sample KM Duo [Voice 1],A,0,0,0,karaoke,{\k34}Feel {\k29}the {\k31}weight {\k27}of {\k22}a {\k69}mar{\k86}tyr
+Comment: 0,0:01:09.40,0:01:15.27,Sample KM Duo [Voice 1],A,0,0,0,karaoke,{\k27}It {\k32}could {\k87}all {\k30}be {\k59}yours {\k34}if {\k25}you {\k89}e{\k28}cho {\k85}birds {\k29}of {\k62}prey
+Comment: 0,0:01:15.53,0:01:18.53,Sample KM Duo [Voice 1],A,0,0,0,karaoke,{\k34}Trai{\k26}tor {\k30}cut {\k31}down {\k28}the {\k58}al{\k93}tar
+Comment: 0,0:01:18.78,0:01:21.13,Sample KM Duo [Voice 1],A,0,0,0,karaoke,{\k28}It {\k31}could {\k87}all {\k29}be {\k60}yours
+Comment: 0,0:01:21.13,0:01:24.40,Sample KM Duo [Voice 1],A,0,0,0,karaoke,{\k27}Vul{\k29}tures {\k87}cir{\k33}c{\k55}ling {\k27}the {\k69}flame
+Comment: 0,0:01:34.85,0:01:38.97,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k32}No{\k57}thing {\k56}sa{\k91}cred, {\k31}no{\k57}thing {\k88}lost
+Comment: 0,0:01:39.32,0:01:43.62,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k23}When {\k30}birds {\k55}of {\k63}prey {\k59}in{\k57}vade {\k58}my {\k85}thoughts
+Comment: 0,0:01:43.95,0:01:48.02,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k29}They {\k26}pro{\k62}mise {\k117}I {\k25}will {\k34}feel {\k58}the {\k56}pain
+Comment: 0,0:01:48.59,0:01:51.42,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k32}Not {\k27}strong {\k33}e{\k29}nough {\k27}to {\k32}hold {\k28}the {\k75}flame
+Comment: 0,0:01:51.55,0:01:53.71,Sample KM Duo [Voice 1],B,0,0,0,karaoke,{\k29}Ne{\k31}ga{\k28}tive {\k29}feed{\k60}back {\k39}loop
+Comment: 0,0:01:53.89,0:01:55.99,Sample KM Duo [Voice 1],B,0,0,0,karaoke,{\k23}I’m {\k38}spin{\k27}ning {\k30}out {\k28}of {\k24}con{\k40}trol
+Comment: 0,0:01:56.24,0:01:58.90,Sample KM Duo [Voice 1],B,0,0,0,karaoke,{\k28}The {\k28}sick{\k27}ly {\k27}sweet{\k34}ness {\k32}is {\k31}crush{\k25}ing {\k34}me
+Comment: 0,0:01:59.18,0:02:00.66,Sample KM Duo [Voice 1],B,0,0,0,karaoke,{\k27}But {\k22}I {\k36}want {\k30}to {\k33}know
+Comment: 0,0:02:00.93,0:02:03.85,Sample KM Duo [Voice 1],B,0,0,0,karaoke,{\k29}If {\k28}there’s {\k21}no {\k67}heat {\k30}when {\k28}I {\k30}es{\k28}ca{\k31}late
+Comment: 0,0:02:03.85,0:02:05.37,Sample KM Duo [Voice 1],B,0,0,0,karaoke,{\k28}the {\k24}fi{\k35}re {\k27}is {\k38}cold
+Comment: 0,0:02:05.59,0:02:08.69,Sample KM Duo [Voice 1],B,0,0,0,karaoke,{\k28}They {\k30}e{\k54}cho: {\k35}{\k27}This {\k29}could {\k29}all {\k32}be {\k46}yours
+Comment: 0,0:02:09.36,0:02:12.34,Sample KM Duo [Voice 1],A,0,0,0,karaoke,{\k34}Feel {\k29}the {\k31}weight {\k27}of {\k22}a {\k69}mar{\k86}tyr
+Comment: 0,0:02:12.62,0:02:18.49,Sample KM Duo [Voice 1],A,0,0,0,karaoke,{\k27}It {\k32}could {\k87}all {\k30}be {\k59}yours {\k34}if {\k25}you {\k89}e{\k28}cho {\k85}birds {\k29}of {\k62}prey
+Comment: 0,0:02:18.75,0:02:21.75,Sample KM Duo [Voice 1],A,0,0,0,karaoke,{\k34}Trai{\k26}tor {\k30}cut {\k31}down {\k28}the {\k58}al{\k93}tar
+Comment: 0,0:02:22.00,0:02:24.35,Sample KM Duo [Voice 1],A,0,0,0,karaoke,{\k28}It {\k31}could {\k87}all {\k29}be {\k60}yours
+Comment: 0,0:02:24.35,0:02:27.62,Sample KM Duo [Voice 1],A,0,0,0,karaoke,{\k27}Vul{\k29}tures {\k87}cir{\k33}c{\k55}ling {\k27}the {\k69}flame
+Comment: 0,0:02:36.99,0:02:40.86,scream,,0,0,0,karaoke,{\k25}I {\k33}HELD {\k26}THE {\k29}POW{\k30}ER {\k27}OF {\k31}A {\k26}DY{\k53}ING {\kf91}SUN{\k16}
+Comment: 0,0:02:41.49,0:02:43.55,scream,,0,0,0,karaoke,{\k32}I {\k30}CLIMB {\k27}THE {\k32}AL{\k24}TAR {\k30}AND {\k31}I
+Comment: 0,0:02:43.55,0:02:46.96,scream,,0,0,0,karaoke,{\k58}CLAIM {\k57}MY {\k56}PLACE {\k57}AS {\kf103}GOD{\k10}
+Comment: 0,0:02:52.67,0:02:55.11,scream,,0,0,0,karaoke,{\k60}CIR{\k57}CLE {\k57}WITH {\k72}ME
+Comment: 0,0:03:01.82,0:03:04.16,scream,,0,0,0,karaoke,{\k60}CIR{\k57}CLE {\k57}WITH {\k72}ME
+Comment: 0,0:03:04.68,0:03:07.12,scream,,0,0,0,karaoke,{\k31}THIS {\k28}COULD {\k32}ALL {\k30}BE {\kf107}YOURS{\kf16}
+Comment: 0,0:03:06.99,0:03:09.97,Sample KM Duo [Voice 1],A,0,0,0,karaoke,{\k34}Feel {\k29}the {\k31}weight {\k27}of {\k22}a {\k69}mar{\k86}tyr
+Comment: 0,0:03:10.25,0:03:16.12,Sample KM Duo [Voice 1],A,0,0,0,karaoke,{\k27}It {\k32}could {\k87}all {\k30}be {\k59}yours {\k34}if {\k25}you {\k89}e{\k28}cho {\k85}birds {\k29}of {\k62}prey
+Comment: 0,0:03:16.38,0:03:19.38,Sample KM Duo [Voice 1],A,0,0,0,karaoke,{\k34}Trai{\k26}tor {\k30}cut {\k31}down {\k28}the {\k58}al{\k93}tar
+Comment: 0,0:03:19.63,0:03:21.98,Sample KM Duo [Voice 1],A,0,0,0,karaoke,{\k28}It {\k31}could {\k87}all {\k29}be {\k60}yours
+Comment: 0,0:03:21.98,0:03:25.25,Sample KM Duo [Voice 1],A,0,0,0,karaoke,{\k27}Vul{\k29}tures {\k87}cir{\k33}c{\k55}ling {\k27}the {\k69}flame
+Comment: 0,0:03:25.76,0:03:28.74,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k34}Feel {\k29}the {\k31}weight {\k27}of {\k22}a {\k69}mar{\k86}tyr
+Comment: 0,0:03:29.23,0:03:34.64,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k28}A {\k55}trai{\k102}tor {\k69}{\k87}watch{\k26}ing {\k58}me {\kf104}as{\kf12}
+Comment: 0,0:03:34.91,0:03:37.72,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k24}birds {\k32}of {\k34}prey {\k29}ne{\k25}ver {\k59}fal{\k78}ter
+Comment: 0,0:03:38.07,0:03:40.36,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k28}This {\k25}could {\k88}all {\k26}be {\k62}yours
+Comment: 0,0:03:40.36,0:03:43.50,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k28}This {\k25}could {\k88}all {\k26}be {\k62}yours
+Comment: 0,0:03:50.31,0:03:52.77,scream,,0,0,0,karaoke,{\k60}CIR{\k57}CLE {\k57}WITH {\k72}ME
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM Duo [Voice 1],,0,0,0,karaoke,
+Dialogue: 0,0:00:00.00,0:00:03.89,Sample KM Duo [Voice 2],,0,0,0,fx,{\k59\fad(590,200)}{\k34}Feel {\k29}the {\k31}weight {\k27}of {\k22}a {\k69}mar{\k86}tyr
+Dialogue: 0,0:00:02.96,0:00:06.29,Sample KM Duo [Voice 2],,0,0,0,fx,{\k90\fad(300,200)}{\k27}It {\k32}could {\k87}all {\k30}be {\k59}yours
+Dialogue: 0,0:00:06.15,0:00:09.61,scream,,0,0,20,fx,{\k90\fad(300,200)}{\k45}CUT {\k45}DOWN {\k31}THE {\k60}AL{\k55}TAR
+Dialogue: 0,0:00:30.73,0:00:35.83,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Vi{\k60}sio{\k58}naire {\k87}and {\k30}deep{\k59}est {\k74}fake
+Dialogue: 0,0:00:35.44,0:00:40.48,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Dir{\k60}ty {\k57}gold, {\k52}the {\k63}co{\k57}lours {\k74}change
+Dialogue: 0,0:00:40.10,0:00:45.03,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Hands {\k56}are {\k60}fro{\k83}zen, {\k40}feel {\k55}no {\k58}pain
+Dialogue: 0,0:00:44.79,0:00:48.25,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k29}I {\k29}just {\k33}want {\k24}to {\k33}hold {\k23}the {\k65}flame
+Dialogue: 0,0:00:47.44,0:00:50.70,Sample KM Duo [Voice 1],B,0,0,0,fx,{\k90\fad(300,200)}{\k29}Ne{\k31}ga{\k28}tive {\k29}feed{\k60}back {\k39}loop
+Dialogue: 0,0:00:49.78,0:00:52.98,Sample KM Duo [Voice 1],B,0,0,0,fx,{\k90\fad(300,200)}{\k23}I’m {\k38}spin{\k27}ning {\k30}out {\k28}of {\k24}con{\k40}trol
+Dialogue: 0,0:00:52.13,0:00:55.89,Sample KM Duo [Voice 1],B,0,0,0,fx,{\k90\fad(300,200)}{\k28}The {\k28}sick{\k27}ly {\k27}sweet{\k34}ness {\k32}is {\k31}crush{\k25}ing {\k34}me
+Dialogue: 0,0:00:55.07,0:00:57.65,Sample KM Duo [Voice 1],B,0,0,0,fx,{\k90\fad(300,200)}{\k27}But {\k22}I {\k36}want {\k30}to {\k33}know
+Dialogue: 0,0:00:56.82,0:01:00.84,Sample KM Duo [Voice 1],B,0,0,0,fx,{\k90\fad(300,200)}{\k29}If {\k28}there’s {\k21}no {\k67}heat {\k30}when {\k28}I {\k30}es{\k28}ca{\k31}late
+Dialogue: 0,0:00:59.74,0:01:02.36,Sample KM Duo [Voice 1],B,0,0,0,fx,{\k90\fad(300,200)}{\k28}the {\k24}fi{\k35}re {\k27}is {\k38}cold
+Dialogue: 0,0:01:01.48,0:01:05.68,Sample KM Duo [Voice 1],B,0,0,0,fx,{\k90\fad(300,200)}{\k28}They {\k30}e{\k54}cho: {\k35}{\k27}This {\k29}could {\k29}all {\k32}be {\k46}yours
+Dialogue: 0,0:01:05.24,0:01:09.32,Sample KM Duo [Voice 1],A,0,0,0,fx,{\k90\fad(300,200)}{\k34}Feel {\k29}the {\k31}weight {\k27}of {\k22}a {\k69}mar{\k86}tyr
+Dialogue: 0,0:01:08.50,0:01:15.47,Sample KM Duo [Voice 1],A,0,0,0,fx,{\k90\fad(300,200)}{\k27}It {\k32}could {\k87}all {\k30}be {\k59}yours {\k34}if {\k25}you {\k89}e{\k28}cho {\k85}birds {\k29}of {\k62}prey
+Dialogue: 0,0:01:14.63,0:01:18.73,Sample KM Duo [Voice 1],A,0,0,0,fx,{\k90\fad(300,200)}{\k34}Trai{\k26}tor {\k30}cut {\k31}down {\k28}the {\k58}al{\k93}tar
+Dialogue: 0,0:01:17.88,0:01:21.33,Sample KM Duo [Voice 1],A,0,0,0,fx,{\k90\fad(300,200)}{\k28}It {\k31}could {\k87}all {\k29}be {\k60}yours
+Dialogue: 0,0:01:20.23,0:01:24.60,Sample KM Duo [Voice 1],A,0,0,0,fx,{\k90\fad(300,200)}{\k27}Vul{\k29}tures {\k87}cir{\k33}c{\k55}ling {\k27}the {\k69}flame
+Dialogue: 0,0:01:33.95,0:01:39.17,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k32}No{\k57}thing {\k56}sa{\k91}cred, {\k31}no{\k57}thing {\k88}lost
+Dialogue: 0,0:01:38.42,0:01:43.82,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k23}When {\k30}birds {\k55}of {\k63}prey {\k59}in{\k57}vade {\k58}my {\k85}thoughts
+Dialogue: 0,0:01:43.05,0:01:48.22,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k29}They {\k26}pro{\k62}mise {\k117}I {\k25}will {\k34}feel {\k58}the {\k56}pain
+Dialogue: 0,0:01:47.69,0:01:51.62,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Not {\k27}strong {\k33}e{\k29}nough {\k27}to {\k32}hold {\k28}the {\k75}flame
+Dialogue: 0,0:01:50.65,0:01:53.91,Sample KM Duo [Voice 1],B,0,0,0,fx,{\k90\fad(300,200)}{\k29}Ne{\k31}ga{\k28}tive {\k29}feed{\k60}back {\k39}loop
+Dialogue: 0,0:01:52.99,0:01:56.19,Sample KM Duo [Voice 1],B,0,0,0,fx,{\k90\fad(300,200)}{\k23}I’m {\k38}spin{\k27}ning {\k30}out {\k28}of {\k24}con{\k40}trol
+Dialogue: 0,0:01:55.34,0:01:59.10,Sample KM Duo [Voice 1],B,0,0,0,fx,{\k90\fad(300,200)}{\k28}The {\k28}sick{\k27}ly {\k27}sweet{\k34}ness {\k32}is {\k31}crush{\k25}ing {\k34}me
+Dialogue: 0,0:01:58.28,0:02:00.86,Sample KM Duo [Voice 1],B,0,0,0,fx,{\k90\fad(300,200)}{\k27}But {\k22}I {\k36}want {\k30}to {\k33}know
+Dialogue: 0,0:02:00.03,0:02:04.05,Sample KM Duo [Voice 1],B,0,0,0,fx,{\k90\fad(300,200)}{\k29}If {\k28}there’s {\k21}no {\k67}heat {\k30}when {\k28}I {\k30}es{\k28}ca{\k31}late
+Dialogue: 0,0:02:02.95,0:02:05.57,Sample KM Duo [Voice 1],B,0,0,0,fx,{\k90\fad(300,200)}{\k28}the {\k24}fi{\k35}re {\k27}is {\k38}cold
+Dialogue: 0,0:02:04.69,0:02:08.89,Sample KM Duo [Voice 1],B,0,0,0,fx,{\k90\fad(300,200)}{\k28}They {\k30}e{\k54}cho: {\k35}{\k27}This {\k29}could {\k29}all {\k32}be {\k46}yours
+Dialogue: 0,0:02:08.46,0:02:12.54,Sample KM Duo [Voice 1],A,0,0,0,fx,{\k90\fad(300,200)}{\k34}Feel {\k29}the {\k31}weight {\k27}of {\k22}a {\k69}mar{\k86}tyr
+Dialogue: 0,0:02:11.72,0:02:18.69,Sample KM Duo [Voice 1],A,0,0,0,fx,{\k90\fad(300,200)}{\k27}It {\k32}could {\k87}all {\k30}be {\k59}yours {\k34}if {\k25}you {\k89}e{\k28}cho {\k85}birds {\k29}of {\k62}prey
+Dialogue: 0,0:02:17.85,0:02:21.95,Sample KM Duo [Voice 1],A,0,0,0,fx,{\k90\fad(300,200)}{\k34}Trai{\k26}tor {\k30}cut {\k31}down {\k28}the {\k58}al{\k93}tar
+Dialogue: 0,0:02:21.10,0:02:24.55,Sample KM Duo [Voice 1],A,0,0,0,fx,{\k90\fad(300,200)}{\k28}It {\k31}could {\k87}all {\k29}be {\k60}yours
+Dialogue: 0,0:02:23.45,0:02:27.82,Sample KM Duo [Voice 1],A,0,0,0,fx,{\k90\fad(300,200)}{\k27}Vul{\k29}tures {\k87}cir{\k33}c{\k55}ling {\k27}the {\k69}flame
+Dialogue: 0,0:02:36.09,0:02:41.06,scream,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k33}HELD {\k26}THE {\k29}POW{\k30}ER {\k27}OF {\k31}A {\k26}DY{\k53}ING {\kf91}SUN{\k16}
+Dialogue: 0,0:02:40.59,0:02:43.75,scream,,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k30}CLIMB {\k27}THE {\k32}AL{\k24}TAR {\k30}AND {\k31}I
+Dialogue: 0,0:02:42.65,0:02:47.16,scream,,0,0,0,fx,{\k90\fad(300,200)}{\k58}CLAIM {\k57}MY {\k56}PLACE {\k57}AS {\kf103}GOD{\k10}
+Dialogue: 0,0:02:51.77,0:02:55.31,scream,,0,0,0,fx,{\k90\fad(300,200)}{\k60}CIR{\k57}CLE {\k57}WITH {\k72}ME
+Dialogue: 0,0:03:00.92,0:03:04.36,scream,,0,0,0,fx,{\k90\fad(300,200)}{\k60}CIR{\k57}CLE {\k57}WITH {\k72}ME
+Dialogue: 0,0:03:03.78,0:03:07.32,scream,,0,0,0,fx,{\k90\fad(300,200)}{\k31}THIS {\k28}COULD {\k32}ALL {\k30}BE {\kf107}YOURS{\kf16}
+Dialogue: 0,0:03:06.09,0:03:10.17,Sample KM Duo [Voice 1],A,0,0,0,fx,{\k90\fad(300,200)}{\k34}Feel {\k29}the {\k31}weight {\k27}of {\k22}a {\k69}mar{\k86}tyr
+Dialogue: 0,0:03:09.35,0:03:16.32,Sample KM Duo [Voice 1],A,0,0,0,fx,{\k90\fad(300,200)}{\k27}It {\k32}could {\k87}all {\k30}be {\k59}yours {\k34}if {\k25}you {\k89}e{\k28}cho {\k85}birds {\k29}of {\k62}prey
+Dialogue: 0,0:03:15.48,0:03:19.58,Sample KM Duo [Voice 1],A,0,0,0,fx,{\k90\fad(300,200)}{\k34}Trai{\k26}tor {\k30}cut {\k31}down {\k28}the {\k58}al{\k93}tar
+Dialogue: 0,0:03:18.73,0:03:22.18,Sample KM Duo [Voice 1],A,0,0,0,fx,{\k90\fad(300,200)}{\k28}It {\k31}could {\k87}all {\k29}be {\k60}yours
+Dialogue: 0,0:03:21.08,0:03:25.45,Sample KM Duo [Voice 1],A,0,0,0,fx,{\k90\fad(300,200)}{\k27}Vul{\k29}tures {\k87}cir{\k33}c{\k55}ling {\k27}the {\k69}flame
+Dialogue: 0,0:03:24.86,0:03:28.94,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Feel {\k29}the {\k31}weight {\k27}of {\k22}a {\k69}mar{\k86}tyr
+Dialogue: 0,0:03:28.33,0:03:34.84,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k28}A {\k55}trai{\k102}tor {\k69}{\k87}watch{\k26}ing {\k58}me {\kf104}as{\kf12}
+Dialogue: 0,0:03:34.01,0:03:37.92,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k24}birds {\k32}of {\k34}prey {\k29}ne{\k25}ver {\k59}fal{\k78}ter
+Dialogue: 0,0:03:37.17,0:03:40.56,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k28}This {\k25}could {\k88}all {\k26}be {\k62}yours
+Dialogue: 0,0:03:39.46,0:03:43.70,Sample KM Duo [Voice 1],,0,0,0,fx,{\k90\fad(300,200)}{\k28}This {\k25}could {\k88}all {\k26}be {\k62}yours
+Dialogue: 0,0:03:49.41,0:03:52.97,scream,,0,0,0,fx,{\k90\fad(300,200)}{\k60}CIR{\k57}CLE {\k57}WITH {\k72}ME
+Dialogue: 0,0:00:00.00,0:00:00.20,Sample KM Duo [Voice 1],,0,0,0,fx,{\k0\fad(0,200)}
