@@ -1,0 +1,87 @@
+﻿[Script Info]
+Title: WHITE OUT
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Asamin,Arial,24,&H00FFFFFF,&H00BF5E8E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hinahina,Arial,24,&H00FFFFFF,&H009772BA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Saint Snow,Arial,24,&H00FFFFFF,&H005239CE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:23.08,0:00:28.04,Hinahina,,0,0,0,karaoke,{\k20}ho{\k16}ho {\k33}wo {\k15}tsu{\k50}ki{\k21}sa{\k42}su {\k38}you{\k31}na {\k35}i{\k53}ta{\kf142}mi
+Comment: 0,0:00:28.46,0:00:33.33,Hinahina,,0,0,0,karaoke,{\k14}a{\k17}~{\k32}re {\k19}ka{\k48}ra {\k22}do{\k46}re {\k33}ku{\k35}ra{\k32}i {\k34}tat{\k15}ta {\kf140}no
+Comment: 0,0:00:33.76,0:00:38.08,Asamin,,0,0,0,karaoke,{\k20}mu{\k13}ne {\k34}wo {\k17}tsu{\k48}ki{\k25}sa{\k40}su {\k36}ho{\k37}do {\k32}no {\k50}a{\k80}i
+Comment: 0,0:00:38.41,0:00:43.38,Asamin,,0,0,0,karaoke,{\k35}kan{\k35}ji{\k16}ta {\k17}yo{\k100}~ {\k36}chan{\k31}to {\k33}ki{\k34}ko{\k21}e{\k45}ta {\kf94}yo
+Comment: 0,0:00:43.48,0:00:49.38,Saint Snow,,0,0,0,karaoke,{\k60}mi{\k68}te {\k35}mi{\k16}nu {\k46}fu{\k23}ri {\k46}su{\k20}ru {\k48}no {\k19}ga {\k46}o{\k18}to{\k50}na {\k18}da {\k77}to
+Comment: 0,0:00:49.78,0:00:54.70,Saint Snow,,0,0,0,karaoke,{\k14}C{\k18}LO{\k33}~{\k18}SE{\k47}~{\k18}T {\k50}ni {\k32}o{\k37}shi{\k31}ko{\k67}n{\k34}da {\k16}o{\k77}moi
+Comment: 0,0:00:55.08,0:00:59.48,Saint Snow,,0,0,0,karaoke,{\k20}shi{\k14}t{\k34}te{\k16}ta {\k51}yo {\k17}ko{\k48}no {\k23}ma{\k44}ma {\k19}ja {\k48}ho{\k19}n{\k48}to{\k17}u {\k22}no
+Comment: 0,0:00:59.76,0:01:04.80,Saint Snow,,0,0,0,karaoke,{\k34}wa{\k22}ta{\k28}shi {\kf153}de{\k27} {\rAsamin}{\k34}i{\k19}ra{\k33}re{\kf154}nai
+Comment: 0,0:01:05.41,0:01:10.13,Saint Snow,,0,0,0,karaoke,{\k34}te {\k34}wo {\k33}tsu{\k17}ka{\k49}mi {\k31}to{\k36}ki {\k34}ni {\k34}o{\k34}mo{\k31}i{\k19}da{\k86}su
+Comment: 0,0:01:10.41,0:01:15.75,Saint Snow,,0,0,0,karaoke,{\k35}yu{\k34}me {\k31}no {\kf100}yo{\k21}u{\k47}na {\k35}a{\k31}no {\k35}bu{\k33}ta{\k16}i {\kf116}wo
+Comment: 0,0:01:16.05,0:01:21.19,Saint Snow,,0,0,0,karaoke,{\k35}ta{\k33}da {\k36}shi{\k16}ro{\k48}ku {\k36}nu{\k32}ri{\k36}tsu{\k33}bu{\k32}sa{\k66}re{\k33}te {\k15}i{\k63}ku
+Comment: 0,0:01:21.43,0:01:26.32,Saint Snow,,0,0,0,karaoke,{\k33}za{\k30}n{\k36}ko{\k17}ku {\k49}na {\k20}to{\k49}ki {\k31}ni {\k34}sa{\k33}ka{\k35}ra{\k18}t{\kf104}te
+Comment: 0,0:01:26.76,0:01:32.02,Saint Snow,,0,0,0,karaoke,{\k33}ma{\k37}mo{\k62}ri{\k69}ta{\k62}i {\k39}ki{\k32}mi {\k53}no {\k45}e{\k18}ga{\k76}o
+Comment: 0,0:01:32.41,0:01:37.02,Saint Snow,,0,0,0,karaoke,{\k35}ta{\k32}da {\k37}so{\k31}re {\k33}da{\k68}ke {\k31}no {\k23}ta{\kf171}me
+Comment: 0,0:01:37.77,0:01:43.50,Saint Snow,,0,0,0,karaoke,{\k16}ma{\k46}ta {\k41}a{\k26}ru{\k36}ki{\k34}da{\k17}shi{\k49}te {\k19}yu{\kf289}ku
+Comment: 0,0:02:01.76,0:02:06.16,Asamin,,0,0,0,karaoke,{\k18}to{\k16}mo {\k33}ni {\k17}yu{\k51}me {\k16}wo {\k46}mo{\k36}tsu {\k34}mo{\k33}no {\k45}dou{\kf95}shi
+Comment: 0,0:02:07.04,0:02:11.74,Asamin,,0,0,0,karaoke,{\k39}ki{\k32}mi {\k18}to {\k48}na{\k19}ni {\k46}wo {\k35}mi{\k35}tsu{\k32}ke{\k34}yo{\k16}u {\kf116}ka
+Comment: 0,0:02:12.43,0:02:16.75,Hinahina,,0,0,0,karaoke,{\k16}mu{\k18}ne {\k36}no {\k18}u{\k44}chi {\k20}wo {\k45}u{\k33}chi{\k36}a{\k33}ke{\k50}yo{\k83}u
+Comment: 0,0:02:17.06,0:02:21.71,Hinahina,,0,0,0,karaoke,{\k36}shin{\k34}ji{\k16}ru {\k117}yo {\k34}shin{\k33}ji {\k32}tsu{\k34}zu{\k24}ke{\k42}ru {\k63}yo
+Comment: 0,0:02:22.09,0:02:28.05,Asamin,,0,0,0,karaoke,{\k72}da{\k62}re {\k37}no {\k18}a{\k43}shi{\k21}a{\k49}to {\k20}mo {\k46}na{\k21}i {\k48}se{\k18}tsu{\k45}ge{\k19}n {\k77}de
+Comment: 0,0:02:28.43,0:02:33.42,Asamin,,0,0,0,karaoke,{\k17}a{\k16}na{\k34}ta {\k22}to {\k45}wa{\k22}ta{\k45}shi {\k33}to {\k34}de {\k33}o{\k65}do{\k33}ri{\k16}ma{\k84}shou
+Comment: 0,0:02:33.76,0:02:38.19,Asamin,,0,0,0,karaoke,{\k13}so{\k18}re {\k37}wa {\k16}da{\k49}re {\k17}mo {\k48}mi{\k17}ta {\k52}ko{\k16}to {\k49}no {\k24}na{\k44}i {\k19}you{\k24}na
+Comment: 0,0:02:38.41,0:02:43.69,Asamin,,0,0,0,karaoke,{\k35}ka{\k17}ta{\k34}chi {\kf147}no{\k35} {\k32}wa{\k23}da{\k28}chi {\kf177}ni
+Comment: 0,0:02:44.08,0:02:48.74,Saint Snow,,0,0,0,karaoke,{\k34}te {\k34}wo {\k33}tsu{\k17}ka{\k49}mi {\k31}to{\k36}mo {\k34}ni {\k34}o{\k34}do{\k31}ri{\k25}da{\k74}su
+Comment: 0,0:02:49.08,0:02:54.38,Saint Snow,,0,0,0,karaoke,{\k35}yu{\k34}me {\k31}no {\kf100}yo{\k21}u{\k47}na {\k35}a{\k31}no {\k35}bu{\k33}ta{\k16}i {\kf116}de
+Comment: 0,0:02:54.74,0:02:59.74,Saint Snow,,0,0,0,karaoke,{\k35}ta{\k33}da {\k36}shi{\k16}ro{\k48}ku {\k36}nu{\k32}ri{\k36}tsu{\k33}bu{\k32}sa{\k66}re{\k33}te {\k15}i{\k63}ku
+Comment: 0,0:03:00.08,0:03:09.16,Saint Snow,,0,0,0,karaoke,{\k33}za{\k35}n{\k33}ko{\k24}ku {\k40}na {\k20}to{\k49}ki {\k31}ni {\k34}sa{\k33}ka{\k35}ra{\k23}t{\kf518}te
+Comment: 0,0:03:26.75,0:03:31.41,Saint Snow,,0,0,0,karaoke,{\k34}te {\k34}wo {\k33}tsu{\k24}ka{\k42}mi {\k31}to{\k36}ki {\k34}ni {\k34}o{\k34}mo{\k31}i{\k24}da{\k75}su
+Comment: 0,0:03:31.72,0:03:37.04,Saint Snow,,0,0,0,karaoke,{\k37}yu{\k32}me {\k31}no {\kf102}yo{\k19}u{\k47}na {\k35}a{\k31}no {\k35}bu{\k33}ta{\k16}i {\kf114}wo
+Comment: 0,0:03:37.39,0:03:42.40,Saint Snow,,0,0,0,karaoke,{\k35}ta{\k33}da {\k36}shi{\k16}ro{\k48}ku {\k36}nu{\k32}ri{\k36}tsu{\k33}bu{\k32}sa{\k66}re{\k33}te {\k15}i{\k63}ku
+Comment: 0,0:03:42.75,0:03:47.66,Saint Snow,,0,0,0,karaoke,{\k33}za{\k33}n{\k33}ko{\k17}ku {\k49}na {\k20}to{\k49}ki {\k31}ni {\k34}sa{\k33}ka{\k35}ra{\k23}t{\kf101}te
+Comment: 0,0:03:48.09,0:03:53.43,Saint Snow,,0,0,0,karaoke,{\k33}ma{\k35}mo{\k64}ri{\k69}ta{\k62}i {\k39}ki{\k32}mi {\k53}no {\k45}e{\k18}ga{\k84}o
+Comment: 0,0:03:53.74,0:03:58.59,Saint Snow,,0,0,0,karaoke,{\k36}ta{\k31}da {\k36}so{\k32}re {\k33}da{\k68}ke {\k31}no {\k18}ta{\kf200}me
+Comment: 0,0:03:59.10,0:04:04.19,Saint Snow,,0,0,0,karaoke,{\k16}ma{\k46}ta {\k38}a{\k29}ru{\k36}ki{\k34}da{\k17}shi{\k49}te {\k19}yu{\kf225}ku
+Dialogue: 0,0:00:22.18,0:00:28.24,Hinahina,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ho{\k16}ho {\k33}wo {\k15}tsu{\k50}ki{\k21}sa{\k42}su {\k38}you{\k31}na {\k35}i{\k53}ta{\kf142}mi
+Dialogue: 0,0:00:27.56,0:00:33.53,Hinahina,,0,0,0,fx,{\k90\fad(300,200)}{\k14}a{\k17}~{\k32}re {\k19}ka{\k48}ra {\k22}do{\k46}re {\k33}ku{\k35}ra{\k32}i {\k34}tat{\k15}ta {\kf140}no
+Dialogue: 0,0:00:32.86,0:00:38.28,Asamin,,0,0,0,fx,{\k90\fad(300,200)}{\k20}mu{\k13}ne {\k34}wo {\k17}tsu{\k48}ki{\k25}sa{\k40}su {\k36}ho{\k37}do {\k32}no {\k50}a{\k80}i
+Dialogue: 0,0:00:37.51,0:00:43.58,Asamin,,0,0,0,fx,{\k90\fad(300,200)}{\k35}kan{\k35}ji{\k16}ta {\k17}yo{\k100}~ {\k36}chan{\k31}to {\k33}ki{\k34}ko{\k21}e{\k45}ta {\kf94}yo
+Dialogue: 0,0:00:42.58,0:00:49.58,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k60}mi{\k68}te {\k35}mi{\k16}nu {\k46}fu{\k23}ri {\k46}su{\k20}ru {\k48}no {\k19}ga {\k46}o{\k18}to{\k50}na {\k18}da {\k77}to
+Dialogue: 0,0:00:48.88,0:00:54.90,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k14}C{\k18}LO{\k33}~{\k18}SE{\k47}~{\k18}T {\k50}ni {\k32}o{\k37}shi{\k31}ko{\k67}n{\k34}da {\k16}o{\k77}moi
+Dialogue: 0,0:00:54.18,0:00:59.68,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k20}shi{\k14}t{\k34}te{\k16}ta {\k51}yo {\k17}ko{\k48}no {\k23}ma{\k44}ma {\k19}ja {\k48}ho{\k19}n{\k48}to{\k17}u {\k22}no
+Dialogue: 0,0:00:58.86,0:01:05.00,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k34}wa{\k22}ta{\k28}shi {\kf153}de{\k27} {\rAsamin}{\k34}i{\k19}ra{\k33}re{\kf154}nai
+Dialogue: 0,0:01:04.51,0:01:10.33,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k34}te {\k34}wo {\k33}tsu{\k17}ka{\k49}mi {\k31}to{\k36}ki {\k34}ni {\k34}o{\k34}mo{\k31}i{\k19}da{\k86}su
+Dialogue: 0,0:01:09.51,0:01:15.95,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k35}yu{\k34}me {\k31}no {\kf100}yo{\k21}u{\k47}na {\k35}a{\k31}no {\k35}bu{\k33}ta{\k16}i {\kf116}wo
+Dialogue: 0,0:01:15.15,0:01:21.39,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ta{\k33}da {\k36}shi{\k16}ro{\k48}ku {\k36}nu{\k32}ri{\k36}tsu{\k33}bu{\k32}sa{\k66}re{\k33}te {\k15}i{\k63}ku
+Dialogue: 0,0:01:20.53,0:01:26.52,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k33}za{\k30}n{\k36}ko{\k17}ku {\k49}na {\k20}to{\k49}ki {\k31}ni {\k34}sa{\k33}ka{\k35}ra{\k18}t{\kf104}te
+Dialogue: 0,0:01:25.86,0:01:32.22,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ma{\k37}mo{\k62}ri{\k69}ta{\k62}i {\k39}ki{\k32}mi {\k53}no {\k45}e{\k18}ga{\k76}o
+Dialogue: 0,0:01:31.51,0:01:37.22,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ta{\k32}da {\k37}so{\k31}re {\k33}da{\k68}ke {\k31}no {\k23}ta{\kf171}me
+Dialogue: 0,0:01:36.87,0:01:43.70,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ma{\k46}ta {\k41}a{\k26}ru{\k36}ki{\k34}da{\k17}shi{\k49}te {\k19}yu{\kf289}ku
+Dialogue: 0,0:02:00.86,0:02:06.36,Asamin,,0,0,0,fx,{\k90\fad(300,200)}{\k18}to{\k16}mo {\k33}ni {\k17}yu{\k51}me {\k16}wo {\k46}mo{\k36}tsu {\k34}mo{\k33}no {\k45}dou{\kf95}shi
+Dialogue: 0,0:02:06.14,0:02:11.94,Asamin,,0,0,0,fx,{\k90\fad(300,200)}{\k39}ki{\k32}mi {\k18}to {\k48}na{\k19}ni {\k46}wo {\k35}mi{\k35}tsu{\k32}ke{\k34}yo{\k16}u {\kf116}ka
+Dialogue: 0,0:02:11.53,0:02:16.95,Hinahina,,0,0,0,fx,{\k90\fad(300,200)}{\k16}mu{\k18}ne {\k36}no {\k18}u{\k44}chi {\k20}wo {\k45}u{\k33}chi{\k36}a{\k33}ke{\k50}yo{\k83}u
+Dialogue: 0,0:02:16.16,0:02:21.91,Hinahina,,0,0,0,fx,{\k90\fad(300,200)}{\k36}shin{\k34}ji{\k16}ru {\k117}yo {\k34}shin{\k33}ji {\k32}tsu{\k34}zu{\k24}ke{\k42}ru {\k63}yo
+Dialogue: 0,0:02:21.19,0:02:28.25,Asamin,,0,0,0,fx,{\k90\fad(300,200)}{\k72}da{\k62}re {\k37}no {\k18}a{\k43}shi{\k21}a{\k49}to {\k20}mo {\k46}na{\k21}i {\k48}se{\k18}tsu{\k45}ge{\k19}n {\k77}de
+Dialogue: 0,0:02:27.53,0:02:33.62,Asamin,,0,0,0,fx,{\k90\fad(300,200)}{\k17}a{\k16}na{\k34}ta {\k22}to {\k45}wa{\k22}ta{\k45}shi {\k33}to {\k34}de {\k33}o{\k65}do{\k33}ri{\k16}ma{\k84}shou
+Dialogue: 0,0:02:32.86,0:02:38.39,Asamin,,0,0,0,fx,{\k90\fad(300,200)}{\k13}so{\k18}re {\k37}wa {\k16}da{\k49}re {\k17}mo {\k48}mi{\k17}ta {\k52}ko{\k16}to {\k49}no {\k24}na{\k44}i {\k19}you{\k24}na
+Dialogue: 0,0:02:37.51,0:02:43.89,Asamin,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ka{\k17}ta{\k34}chi {\kf147}no{\k35} {\k32}wa{\k23}da{\k28}chi {\kf177}ni
+Dialogue: 0,0:02:43.18,0:02:48.94,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k34}te {\k34}wo {\k33}tsu{\k17}ka{\k49}mi {\k31}to{\k36}mo {\k34}ni {\k34}o{\k34}do{\k31}ri{\k25}da{\k74}su
+Dialogue: 0,0:02:48.18,0:02:54.58,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k35}yu{\k34}me {\k31}no {\kf100}yo{\k21}u{\k47}na {\k35}a{\k31}no {\k35}bu{\k33}ta{\k16}i {\kf116}de
+Dialogue: 0,0:02:53.84,0:02:59.94,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ta{\k33}da {\k36}shi{\k16}ro{\k48}ku {\k36}nu{\k32}ri{\k36}tsu{\k33}bu{\k32}sa{\k66}re{\k33}te {\k15}i{\k63}ku
+Dialogue: 0,0:02:59.18,0:03:09.36,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k33}za{\k35}n{\k33}ko{\k24}ku {\k40}na {\k20}to{\k49}ki {\k31}ni {\k34}sa{\k33}ka{\k35}ra{\k23}t{\kf518}te
+Dialogue: 0,0:03:25.85,0:03:31.61,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k34}te {\k34}wo {\k33}tsu{\k24}ka{\k42}mi {\k31}to{\k36}ki {\k34}ni {\k34}o{\k34}mo{\k31}i{\k24}da{\k75}su
+Dialogue: 0,0:03:30.82,0:03:37.24,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k37}yu{\k32}me {\k31}no {\kf102}yo{\k19}u{\k47}na {\k35}a{\k31}no {\k35}bu{\k33}ta{\k16}i {\kf114}wo
+Dialogue: 0,0:03:36.49,0:03:42.60,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ta{\k33}da {\k36}shi{\k16}ro{\k48}ku {\k36}nu{\k32}ri{\k36}tsu{\k33}bu{\k32}sa{\k66}re{\k33}te {\k15}i{\k63}ku
+Dialogue: 0,0:03:41.85,0:03:47.86,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k33}za{\k33}n{\k33}ko{\k17}ku {\k49}na {\k20}to{\k49}ki {\k31}ni {\k34}sa{\k33}ka{\k35}ra{\k23}t{\kf101}te
+Dialogue: 0,0:03:47.19,0:03:53.63,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ma{\k35}mo{\k64}ri{\k69}ta{\k62}i {\k39}ki{\k32}mi {\k53}no {\k45}e{\k18}ga{\k84}o
+Dialogue: 0,0:03:52.84,0:03:58.79,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ta{\k31}da {\k36}so{\k32}re {\k33}da{\k68}ke {\k31}no {\k18}ta{\kf200}me
+Dialogue: 0,0:03:58.20,0:04:04.39,Saint Snow,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ma{\k46}ta {\k38}a{\k29}ru{\k36}ki{\k34}da{\k17}shi{\k49}te {\k19}yu{\kf225}ku
