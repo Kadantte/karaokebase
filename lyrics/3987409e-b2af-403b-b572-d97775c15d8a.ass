@@ -1,0 +1,90 @@
+﻿[Script Info]
+Title: Meguru
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+Original Timing: Hanaku
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Phantom Siita,Arial,24,&H000000DB,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mona,Arial,24,&H00D270EF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Miu,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rinka,Arial,24,&H00BA0BB5,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Moka,Arial,24,&H00E0A54C,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Choir,Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:10.00,Phantom Siita,,0,0,200,karaoke,{\rMona\fs30\4a&H00&\2c&HD270EF&}♥{\fs\4a&HFF&} Mona {\rMiu\fs30\4a&H00&\c&H008AFF&}♦{\fs\4a&HFF&} Miu {\rRinka\fs30\4a&H00&\c&HBA0BB5&}♣{\fs\4a&HFF&} Rinka {\rMoka\fs30\4a&H00&\c&HE0A54C&}♪{\fs\4a&HFF&} Moka {\rPhantom Siita\fs30\4a&H00&\c&H0000DB&}\N♠{\fs\4a&HFF&} Phantom Siita
+Comment: 0,0:00:10.77,0:00:14.18,Phantom Siita,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♠{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:10.77,0:00:14.18,Mona,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♥{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:10.77,0:00:14.18,Miu,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♦{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:10.77,0:00:14.18,Rinka,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♣{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:10.77,0:00:14.18,Moka,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♪{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:10.77,0:00:14.18,Choir,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♥{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:10.77,0:00:14.18,Mona,,0,0,0,karaoke,{\k27}ki{\k22}mi {\k21}to {\k45}kon{\k24}sei {\k40}mo {\k29}ki{\k21}mi {\k23}to {\k36}rai{\k31}se {\k22}mo
+Comment: 0,0:00:14.36,0:00:17.76,Mona,,0,0,0,karaoke,{\k25}ki{\k23}t{\k22}to {\k26}ko{\k22}i {\k21}shi{\k44}te {\k24}i{\k41}ta{\kf92}i
+Comment: 0,0:00:17.95,0:00:21.35,Miu,,0,0,0,karaoke,{\k25}nan {\k44}nen {\k46}tat{\k20}te {\k47}mo {\k23}nan {\k23}kou{\k21}nen {\k44}at{\k21}te {\k26}mo
+Comment: 0,0:00:21.54,0:00:25.29,Miu,,0,0,0,karaoke,{\k24}kes{\k21}sh'te {\k25}ka{\k45}wa{\k25}ra{\k43}nai {\k22}ne{\k44}ga{\kf126}i
+Comment: 0,0:00:25.81,0:00:27.39,Moka,,0,0,0,karaoke,{\k22}shun{\k26}ka {\k17}shuu{\k25}tou {\k9}su{\k13}gi{\k21}sat{\k25}te
+Comment: 0,0:00:27.59,0:00:29.31,Moka,,0,0,0,karaoke,{\k24}min{\k25}na {\k6}su{\k13}be{\k22}te {\k14}wa{\k10}su{\k21}re{\k37}te
+Comment: 0,0:00:29.39,0:00:32.78,Rinka,,0,0,0,karaoke,{\k23}nan{\k25}do {\k9}u{\k11}ma{\k22}re {\k34}ka{\k33}wat{\k23}te {\kf159}mo
+Comment: 0,0:00:33.56,0:00:38.46,Phantom Siita,,0,0,0,karaoke,{\k31}ma{\k32}ta {\k34}ki{\k24}mi {\kf369}to
+Comment: 0,0:00:40.79,0:00:45.43,Phantom Siita,,0,0,0,karaoke,{\k13}me{\k12}gu{\k33}ri {\k23}a{\k34}i{\kf349}tai
+Comment: 0,0:00:49.00,0:00:55.81,Moka,,0,0,0,karaoke,{\k58}u{\k42}n{\k45}me{\k44}i {\k33}to {\k35}i{\k63}u{\k48} {\k49}u{\k41}chu{\k44}u {\k29}no {\k17}SCE{\k34}NA{\k32}RI{\k67}O
+Comment: 0,0:00:56.04,0:00:59.34,Moka,,0,0,0,karaoke,{\k23}wa{\k44}ta{\k46}sh'to {\k30}i{\k32}u {\k27}"ya{\k34}ku{\k33}me{\k22}i" {\k39}wo
+Comment: 0,0:00:59.61,0:01:02.87,Moka,,0,0,0,karaoke,{\k22}se{\k35}ip{\k34}pai {\k11}i{\k11}ki{\k35}te {\k32}ki{\k23}ta {\kf123}no
+Comment: 0,0:01:03.41,0:01:06.59,Rinka,,0,0,0,karaoke,{\k24}a{\k22}to {\k45}nan {\k34}man {\k32}nen {\k46}su{\k22}gi{\k23}sa{\k22}t{\k27}te {\k21}mo
+Comment: 0,0:01:06.99,0:01:10.18,Rinka,,0,0,0,karaoke,{\k24}sei{\k22}za {\k23}no {\k23}ka{\k28}ta{\k35}chi {\k26}ka{\k23}wa{\k22}ri {\k22}ha{\k23}te{\k33}te {\k15}mo
+Comment: 0,0:01:10.59,0:01:13.94,Miu,,0,0,0,karaoke,{\k9}su{\k12}gu {\k19}ni {\k27}ki{\k22}mi {\k23}no {\k10}ko{\k34}to {\k43}yo{\k23}bi{\k23}da{\k24}se{\k37}ru {\k29}no
+Comment: 0,0:01:14.14,0:01:17.63,Miu,,0,0,0,karaoke,{\k26}ko{\k22}no {\k20}ta{\k25}ma{\k32}shii {\k23}ga {\k12}ki{\k44}zan{\k21}da {\k25}se{\k21}n{\k35}ri{\k43}tsu
+Comment: 0,0:01:18.32,0:01:22.37,Mona,,0,0,0,karaoke,{\k33}wa{\k37}ta{\k31}shi {\k19}no {\k46}a{\k28}ka{\k14}shi {\k26}wa {\k22}wa{\k25}ta{\kf124}shi
+Comment: 0,0:01:21.49,0:01:23.11,Moka,,0,0,0,karaoke,{\k18}ma{\k12}ta {\k10}u{\k11}ma{\k11}re {\k8}ka{\k27}wat{\k22}te {\k43}mo
+Comment: 0,0:01:22.88,0:01:26.40,Miu,,0,0,0,karaoke,{\k25}ki{\k31}mi {\k12}to {\k33}i{\k15}ki{\k23}ru {\k20}wa{\k25}ta{\kf168}shi
+Comment: 0,0:01:25.26,0:01:26.69,Moka,,0,0,0,karaoke,{\k10}hi{\k11}bi{\k11}ki {\k13}a{\k13}u {\k23}HAR{\k20}MO{\k42}NY
+Comment: 0,0:01:26.60,0:01:29.76,Rinka,,0,0,0,karaoke,{\k54}to{\k35}wa {\k12}no {\k43}gin{\k26}ga {\kf146}de
+Comment: 0,0:01:28.72,0:01:30.27,Mona,,0,0,0,karaoke,{\k12}i{\k13}ku{\k17}do {\k18}su{\k18}chi{\k23}gat{\k14}te {\k40}mo
+Comment: 0,0:01:29.93,0:01:33.73,Moka,,0,0,0,karaoke,{\k24}ma{\k13}ta {\k33}ki{\k11}mi {\k33}to {\k9}de{\k26}a{\k22}i{\k22}ta{\kf187}i
+Comment: 0,0:01:29.93,0:01:33.73,Miu,,0,0,0,karaoke,{\k24}ma{\k13}ta {\k33}ki{\k11}mi {\k33}to {\k9}de{\k26}a{\k22}i{\k22}ta{\kf187}i
+Comment: 0,0:01:33.87,0:01:35.44,Rinka,,0,0,0,karaoke,{\k24}sen {\k21}no {\k8}ki{\k15}se{\k15}tsu {\k11}o{\k15}i{\k25}ko{\k23}sh'te
+Comment: 0,0:01:35.62,0:01:37.32,Rinka,,0,0,0,karaoke,{\k11}ki{\k17}o{\k21}ku {\k10}su{\k13}be{\k19}te {\k10}ki{\k16}e{\k22}sat{\k31}te
+Comment: 0,0:01:37.34,0:01:41.32,Miu,,0,0,0,karaoke,{\k24}ya{\k8}mi {\k24}wo {\k11}nu{\k12}ke{\k22}ta {\k11}so{\k23}no {\k33}sa{\k25}ki {\kf205}de
+Comment: 0,0:01:41.70,0:01:44.80,Moka,,0,0,0,karaoke,{\k27}ma{\k33}ta {\k33}ki{\k20}mi {\kf197}to
+Comment: 0,0:01:45.30,0:01:48.56,Moka,,0,0,0,karaoke,{\k24}hi{\k18}ka{\k17}ri {\k32}wo {\k21}mi{\kf214}tai
+Comment: 0,0:01:48.87,0:01:51.98,Phantom Siita,,0,0,0,karaoke,{\k25}so{\k35}sh'te {\k31}ki{\k24}mi {\kf196}to
+Comment: 0,0:01:52.46,0:01:56.60,Phantom Siita,,0,0,0,karaoke,{\k15}me{\k8}gu{\k33}ri {\k34}a{\k27}i{\kf297}tai
+Dialogue: 0,0:00:09.87,0:00:14.38,Mona,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k27}ki{\k22}mi {\k21}to {\k45}kon{\k24}sei {\k40}mo {\k29}ki{\k21}mi {\k23}to {\k36}rai{\k31}se {\k22}mo
+Dialogue: 0,0:00:13.46,0:00:17.96,Mona,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k25}ki{\k23}t{\k22}to {\k26}ko{\k22}i {\k21}shi{\k44}te {\k24}i{\k41}ta{\kf92}i
+Dialogue: 0,0:00:17.05,0:00:21.55,Miu,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k25}nan {\k44}nen {\k46}tat{\k20}te {\k47}mo {\k23}nan {\k23}kou{\k21}nen {\k44}at{\k21}te {\k26}mo
+Dialogue: 0,0:00:20.64,0:00:25.49,Miu,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k24}kes{\k21}sh'te {\k25}ka{\k45}wa{\k25}ra{\k43}nai {\k22}ne{\k44}ga{\kf126}i
+Dialogue: 0,0:00:24.91,0:00:27.59,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k22}shun{\k26}ka {\k17}shuu{\k25}tou {\k9}su{\k13}gi{\k21}sat{\k25}te
+Dialogue: 0,0:00:26.69,0:00:29.51,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k24}min{\k25}na {\k6}su{\k13}be{\k22}te {\k14}wa{\k10}su{\k21}re{\k37}te
+Dialogue: 0,0:00:28.49,0:00:32.98,Rinka,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k23}nan{\k25}do {\k9}u{\k11}ma{\k22}re {\k34}ka{\k33}wat{\k23}te {\kf159}mo
+Dialogue: 0,0:00:32.66,0:00:38.66,Phantom Siita,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k31}ma{\k32}ta {\k34}ki{\k24}mi {\kf369}to
+Dialogue: 0,0:00:39.89,0:00:45.63,Phantom Siita,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k13}me{\k12}gu{\k33}ri {\k23}a{\k34}i{\kf349}tai
+Dialogue: 0,0:00:48.10,0:00:56.01,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k58}u{\k42}n{\k45}me{\k44}i {\k33}to {\k35}i{\k63}u{\k48} {\k49}u{\k41}chu{\k44}u {\k29}no {\k17}SCE{\k34}NA{\k32}RI{\k67}O
+Dialogue: 0,0:00:55.14,0:00:59.54,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k23}wa{\k44}ta{\k46}sh'to {\k30}i{\k32}u {\k27}"ya{\k34}ku{\k33}me{\k22}i" {\k39}wo
+Dialogue: 0,0:00:58.71,0:01:03.07,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k22}se{\k35}ip{\k34}pai {\k11}i{\k11}ki{\k35}te {\k32}ki{\k23}ta {\kf123}no
+Dialogue: 0,0:01:02.51,0:01:06.79,Rinka,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k24}a{\k22}to {\k45}nan {\k34}man {\k32}nen {\k46}su{\k22}gi{\k23}sa{\k22}t{\k27}te {\k21}mo
+Dialogue: 0,0:01:06.09,0:01:10.38,Rinka,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k24}sei{\k22}za {\k23}no {\k23}ka{\k28}ta{\k35}chi {\k26}ka{\k23}wa{\k22}ri {\k22}ha{\k23}te{\k33}te {\k15}mo
+Dialogue: 0,0:01:09.69,0:01:14.14,Miu,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k9}su{\k12}gu {\k19}ni {\k27}ki{\k22}mi {\k23}no {\k10}ko{\k34}to {\k43}yo{\k23}bi{\k23}da{\k24}se{\k37}ru {\k29}no
+Dialogue: 0,0:01:13.24,0:01:17.83,Miu,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k26}ko{\k22}no {\k20}ta{\k25}ma{\k32}shii {\k23}ga {\k12}ki{\k44}zan{\k21}da {\k25}se{\k21}n{\k35}ri{\k43}tsu
+Dialogue: 0,0:01:17.42,0:01:22.57,Mona,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k33}wa{\k37}ta{\k31}shi {\k19}no {\k46}a{\k28}ka{\k14}shi {\k26}wa {\k22}wa{\k25}ta{\kf124}shi
+Dialogue: 0,0:01:20.59,0:01:23.31,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k18}ma{\k12}ta {\k10}u{\k11}ma{\k11}re {\k8}ka{\k27}wat{\k22}te {\k43}mo
+Dialogue: 0,0:01:21.98,0:01:26.60,Miu,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k25}ki{\k31}mi {\k12}to {\k33}i{\k15}ki{\k23}ru {\k20}wa{\k25}ta{\kf168}shi
+Dialogue: 0,0:01:24.36,0:01:26.89,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k10}hi{\k11}bi{\k11}ki {\k13}a{\k13}u {\k23}HAR{\k20}MO{\k42}NY
+Dialogue: 0,0:01:25.70,0:01:29.96,Rinka,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k54}to{\k35}wa {\k12}no {\k43}gin{\k26}ga {\kf146}de
+Dialogue: 0,0:01:27.82,0:01:30.47,Mona,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k12}i{\k13}ku{\k17}do {\k18}su{\k18}chi{\k23}gat{\k14}te {\k40}mo
+Dialogue: 0,0:01:29.03,0:01:33.93,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k24}ma{\k13}ta {\k33}ki{\k11}mi {\k33}to {\k9}de{\k26}a{\k22}i{\k22}ta{\kf187}i
+Dialogue: 0,0:01:29.03,0:01:33.93,Miu,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k24}ma{\k13}ta {\k33}ki{\k11}mi {\k33}to {\k9}de{\k26}a{\k22}i{\k22}ta{\kf187}i
+Dialogue: 0,0:01:32.97,0:01:35.64,Rinka,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k24}sen {\k21}no {\k8}ki{\k15}se{\k15}tsu {\k11}o{\k15}i{\k25}ko{\k23}sh'te
+Dialogue: 0,0:01:34.72,0:01:37.52,Rinka,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k11}ki{\k17}o{\k21}ku {\k10}su{\k13}be{\k19}te {\k10}ki{\k16}e{\k22}sat{\k31}te
+Dialogue: 0,0:01:36.44,0:01:41.52,Miu,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k24}ya{\k8}mi {\k24}wo {\k11}nu{\k12}ke{\k22}ta {\k11}so{\k23}no {\k33}sa{\k25}ki {\kf205}de
+Dialogue: 0,0:01:40.80,0:01:45.00,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k27}ma{\k33}ta {\k33}ki{\k20}mi {\kf197}to
+Dialogue: 0,0:01:44.40,0:01:48.76,Moka,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k24}hi{\k18}ka{\k17}ri {\k32}wo {\k21}mi{\kf214}tai
+Dialogue: 0,0:01:47.97,0:01:52.18,Phantom Siita,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k25}so{\k35}sh'te {\k31}ki{\k24}mi {\kf196}to
+Dialogue: 0,0:01:51.56,0:01:56.80,Phantom Siita,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k15}me{\k8}gu{\k33}ri {\k34}a{\k27}i{\kf297}tai
