@@ -1,0 +1,141 @@
+﻿[Script Info]
+Title: Breakout
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Uwhipa
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: All,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Ravencroft Nerissa,Arial,24,&H00FFFFFF,&H00FF585A,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Abyssgard Mococo,Arial,24,&H00FFFFFF,&H00E59EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Abyssgard Fuwawa,Arial,24,&H00FFFFFF,&H00FFB601,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Novella Shiori,Arial,24,&H00FFFFFF,&H00A99681,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Kouseki Bijou,Arial,24,&H00FFFFFF,&H00F991B8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: COLOR CODE,Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,221,1
+Style: Bijou - Fuwawa,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Nerissa - Mococo,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Bijou - Mococo,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Nerissa - Fuwawa,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Bijou - Shiori,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:05.28,Kouseki Bijou,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♦ "!
+Comment: 0,0:00:00.00,0:00:05.28,Bijou - Shiori,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♦● "!
+Comment: 0,0:00:00.00,0:00:05.28,Nerissa - Fuwawa,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♣♥ "!
+Comment: 0,0:00:00.00,0:00:05.28,Bijou - Mococo,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♦♠ "!
+Comment: 0,0:00:00.00,0:00:05.28,Nerissa - Mococo,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♣♠ "!
+Comment: 0,0:00:00.00,0:00:05.28,Bijou - Fuwawa,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♦♥ "!
+Comment: 0,0:00:00.00,0:00:05.28,Novella Shiori,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"● "!
+Comment: 0,0:00:00.00,0:00:05.28,Abyssgard Fuwawa,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♥ "!
+Comment: 0,0:00:00.00,0:00:05.28,Abyssgard Mococo,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♠ "!
+Comment: 0,0:00:00.00,0:00:05.28,Ravencroft Nerissa,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♣ "!
+Comment: 0,0:00:00.00,0:00:05.28,All,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:05.28,COLOR CODE,,0,0,0,,{\c&H0000FF&}All{\c} | {\c&H008AFF&}Duo{\c} | ♣ {\c&HFF585A&}Nerisa{\c} | ♥ {\c&HFFB601&}Fuwawa{\c} ●\h{\c&HA99681&}Shiori{\c} | ♠ {\c&HE59EFF&}Mococo{\c} | ♦ {\c&HF991B8&}Bijou{\c}
+Comment: 0,0:00:09.25,0:00:12.50,Kouseki Bijou,,0,0,0,karaoke,{\k34}BREAK{\kf291}OUT
+Comment: 0,0:00:19.25,0:00:22.12,Abyssgard Fuwawa,,0,0,0,karaoke,{\k30}Feel {\k14}the {\k43}rum{\k27}ble {\k28}un{\k31}der{\kf114}ground
+Comment: 0,0:00:22.61,0:00:24.82,Kouseki Bijou,,0,0,0,karaoke,{\k34}I'm {\k15}the {\k43}ter{\k26}ror {\k30}in {\k29}your {\k44}walls
+Comment: 0,0:00:24.95,0:00:27.82,Bijou - Fuwawa,,0,0,0,karaoke,{\k28} La{\k14}shing {\k40}out {\k32}un{\k25}til {\k29}you {\k59}crum{\k60}ble
+Comment: 0,0:00:28.22,0:00:31.58,Abyssgard Mococo,,0,0,0,karaoke,{\k43}Smoke {\k14}and {\k40}fi{\k28}re {\k29}rain{\k27}ing {\kf155}down
+Comment: 0,0:00:31.63,0:00:33.57,Ravencroft Nerissa,,0,0,0,karaoke,{\k42}Let {\k15}the {\k42}sky {\kf95}fall
+Comment: 0,0:00:33.99,0:00:38.18,Nerissa - Mococo,,0,0,0,karaoke,{\k34}I’ll {\k13}e{\k40}vi{\k31}sce{\k29}rate {\k30}your {\k55}dark{\k59}ened {\kf128}halls
+Comment: 0,0:00:38.28,0:00:40.68,Novella Shiori,,0,0,0,karaoke,{\k32}Till {\k28}no{\k29}thing's {\k27}left {\k21}of{\k37} you {\k28}at {\k38}all
+Comment: 0,0:00:40.82,0:00:42.95,All,,0,0,0,karaoke,{\k33}With {\k28}a {\k48}cry {\k38}of {\k66}wrath
+Comment: 0,0:00:43.08,0:00:45.22,All,,0,0,0,karaoke,{\k34}I {\k29}will {\k42}crush {\k43}these {\k66}chains
+Comment: 0,0:00:45.37,0:00:47.89,Abyssgard Mococo,,0,0,0,karaoke,{\k34}Un{\k28}til {\k42}on{\k44}ly {\k29}your {\k43}wrec{\k32}kage
+Comment: 0,0:00:47.96,0:00:49.89,Abyssgard Mococo,,0,0,0,karaoke,{\k29}And {\k46}ash {\k39}re{\k79}mains
+Comment: 0,0:00:49.91,0:00:51.96,All,,0,0,0,karaoke,{\k34}A {\k28}re{\k42}bel{\k45}lious {\k56}spark
+Comment: 0,0:00:52.16,0:00:54.33,All,,0,0,0,karaoke,{\k37}Lights {\k28}a {\k44}bla{\k40}zing {\k68}flame
+Comment: 0,0:00:54.49,0:00:56.51,Novella Shiori,,0,0,0,karaoke,{\k13}Let {\k27}it {\k62}rage, {\k12}I {\k16}come {\k23}un{\k49}caged
+Comment: 0,0:00:56.72,0:00:58.22,Ravencroft Nerissa,,0,0,0,karaoke,{\k21}Screa{\k29}ming {\k29}out {\k15}in{\k14}to {\k7}the {\k22}sha{\k13}dows
+Comment: 0,0:00:58.22,0:01:01.90,Ravencroft Nerissa,,0,0,0,karaoke,{\k14}I {\k16}will {\k57}break {\k47}a{\kf234}way
+Comment: 0,0:01:08.13,0:01:11.38,Bijou - Mococo,,0,0,0,karaoke,{\k33}LET {\k27}ME {\kf265}OUT
+Comment: 0,0:01:12.70,0:01:15.98,Bijou - Mococo,,0,0,0,karaoke,{\k31}LET {\k28}ME {\kf269}OUT
+Comment: 0,0:01:18.41,0:01:21.49,Abyssgard Fuwawa,,0,0,0,karaoke,{\k29}Melt {\k13}a{\k43}way {\k29}your {\k28}grip {\k31}of {\kf135}steel
+Comment: 0,0:01:21.78,0:01:23.85,Ravencroft Nerissa,,0,0,0,karaoke,{\k33}See {\k16}the {\k40}bin{\k28}ding {\k29}wea{\k29}ring {\k32}thin
+Comment: 0,0:01:24.08,0:01:26.98,Nerissa - Fuwawa,,0,0,0,karaoke,{\k14}I {\k30}will {\k42}shat{\k28}ter {\k29}your {\k31}ob{\k55}ses{\k61}sion
+Comment: 0,0:01:27.47,0:01:30.55,Kouseki Bijou,,0,0,0,karaoke,{\k32}Therе {\k18}is {\k39}no{\k29}thing {\k31}left {\k32}to {\kf127}feel
+Comment: 0,0:01:30.91,0:01:32.88,Abyssgard Mococo,,0,0,0,karaoke,{\k30}No {\k14}de{\k42}lu{\kf111}sions
+Comment: 0,0:01:33.17,0:01:37.07,Bijou - Mococo,,0,0,0,karaoke,{\k29}From {\k16}the {\k36}hall {\k32}of {\k29}night{\k31}marеs {\k57}I {\k56}as{\kf104}cend
+Comment: 0,0:01:37.43,0:01:39.88,Novella Shiori,,0,0,0,karaoke,{\k31}And {\k29}I {\k29}will {\k26}bring {\k14}a{\k42}bout {\k31}your {\k43}end
+Comment: 0,0:01:39.93,0:01:42.05,All,,0,0,0,karaoke,{\k38}With {\k28}a {\k42}despe{\k43}rate {\k61}cry
+Comment: 0,0:01:42.28,0:01:44.28,All,,0,0,0,karaoke,{\k29}I {\k29}will {\k43}shat{\k42}ter {\k57}fate
+Comment: 0,0:01:44.50,0:01:46.65,Abyssgard Fuwawa,,0,0,0,karaoke,{\k35}You {\k29}can {\k43}sound {\k40}the {\k29}a{\k39}larms
+Comment: 0,0:01:46.69,0:01:48.87,Abyssgard Fuwawa,,0,0,0,karaoke,{\k44}But {\k28}it's {\k43}just {\k43}too {\k60}late
+Comment: 0,0:01:49.09,0:01:51.18,All,,0,0,0,karaoke,{\k32}See {\k28}the {\k42}world {\k43}re{\k64}born
+Comment: 0,0:01:51.38,0:01:53.48,All,,0,0,0,karaoke,{\k30}In {\k31}a {\k41}sea {\k41}of {\k67}flame
+Comment: 0,0:01:53.64,0:01:55.78,Novella Shiori,,0,0,0,karaoke,{\k18}Let {\k28}it {\k57}dance, {\k11}my {\k17}on{\k29}ly {\k54}chance
+Comment: 0,0:01:55.88,0:01:57.38,Abyssgard Mococo,,0,0,0,karaoke,{\k26}Screa{\k23}ming {\k28}out {\k14}in{\k15}to {\k16}the {\k16}sha{\k12}dows
+Comment: 0,0:01:57.38,0:02:00.82,Abyssgard Mococo,,0,0,0,karaoke,{\k11}I {\k13}will {\k59}break {\k58}a{\kf203}way
+Comment: 0,0:02:08.15,0:02:10.16,Novella Shiori,,0,0,0,karaoke,{\k32}Take {\k22}back {\k33}your {\k31}maze {\k24}of {\k59}lies
+Comment: 0,0:02:10.37,0:02:12.38,Bijou - Shiori,,0,0,0,karaoke,{\k37}I've {\k32}seen {\k23}the {\k26}o{\k32}ther {\k51}side
+Comment: 0,0:02:12.70,0:02:14.64,All,,0,0,0,karaoke,{\k30}The {\k29}point {\k28}of {\k27}no {\k30}re{\k50}turn
+Comment: 0,0:02:15.00,0:02:16.87,All,,0,0,0,karaoke,{\k27}This {\k29}fi{\k26}re's {\k31}gon{\k28}na {\k46}burn
+Comment: 0,0:02:16.98,0:02:22.05,Kouseki Bijou,,0,0,0,karaoke,{\kf507}BURN
+Comment: 0,0:02:24.88,0:02:29.25,Kouseki Bijou,,0,0,0,karaoke,{\k35}RISE {\k27}UP {\k28}AND {\k31}BREAK{\kf316}OUT
+Comment: 0,0:02:34.53,0:02:36.72,Ravencroft Nerissa,,0,0,0,karaoke,{\k38}With {\k27}a {\k45}cry {\k42}of {\k67}wrath
+Comment: 0,0:02:36.88,0:02:39.74,Ravencroft Nerissa,,0,0,0,karaoke,{\k36}I {\k24}will {\k41}crush {\k41}these {\k86}chains, {\k32}un{\k26}til
+Comment: 0,0:02:39.74,0:02:41.71,All,,0,0,0,karaoke,{\k41}{\rAll}On{\k43}ly {\k29}your {\k44}wrec{\k40}kage
+Comment: 0,0:02:41.73,0:02:43.52,All,,0,0,0,karaoke,{\k28}And {\k43}ash {\k42}re{\k66}mains
+Comment: 0,0:02:43.68,0:02:45.65,All,,0,0,0,karaoke,{\k32}A {\k29}re{\k42}bel{\k44}lious {\k50}spark
+Comment: 0,0:02:45.92,0:02:47.98,All,,0,0,0,karaoke,{\k36}Lights {\k28}a {\k44}bla{\k41}zing {\k57}flame
+Comment: 0,0:02:48.25,0:02:50.29,All,,0,0,0,karaoke,{\k19}Let {\k25}it {\k56}rage, {\k15}I {\k14}come {\k26}un{\k49}caged
+Comment: 0,0:02:50.52,0:02:51.98,All,,0,0,0,karaoke,{\k18}Screa{\k26}ming {\k29}out {\k15}in{\k13}to {\k15}the {\k13}sha{\k17}dows
+Comment: 0,0:02:51.98,0:02:55.02,All,,0,0,0,karaoke,{\k12}I {\k14}will {\k60}break {\k55}a{\kf163}way
+Comment: 0,0:03:02.11,0:03:05.09,Kouseki Bijou,,0,0,0,karaoke,{\k37}BREAK{\kf261}OUT
+Dialogue: 0,0:00:08.35,0:00:12.70,Kouseki Bijou,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k34}BREAK{\kf291}OUT
+Dialogue: 0,0:00:18.35,0:00:22.32,Abyssgard Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k30}Feel {\k14}the {\k43}rum{\k27}ble {\k28}un{\k31}der{\kf114}ground
+Dialogue: 0,0:00:21.71,0:00:25.02,Kouseki Bijou,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k34}I'm {\k15}the {\k43}ter{\k26}ror {\k30}in {\k29}your {\k44}walls
+Dialogue: 0,0:00:24.05,0:00:28.02,Bijou - Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}♦♥ {\k28} La{\k14}shing {\k40}out {\k32}un{\k25}til {\k29}you {\k59}crum{\k60}ble
+Dialogue: 0,0:00:27.32,0:00:31.78,Abyssgard Mococo,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k43}Smoke {\k14}and {\k40}fi{\k28}re {\k29}rain{\k27}ing {\kf155}down
+Dialogue: 0,0:00:30.73,0:00:33.77,Ravencroft Nerissa,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k42}Let {\k15}the {\k42}sky {\kf95}fall
+Dialogue: 0,0:00:33.09,0:00:38.38,Nerissa - Mococo,,0,0,0,fx,{\k90\fad(300,200)}♣♠ {\k34}I’ll {\k13}e{\k40}vi{\k31}sce{\k29}rate {\k30}your {\k55}dark{\k59}ened {\kf128}halls
+Dialogue: 0,0:00:37.38,0:00:40.88,Novella Shiori,,0,0,0,fx,{\k90\fad(300,200)}● {\k32}Till {\k28}no{\k29}thing's {\k27}left {\k21}of{\k37} you {\k28}at {\k38}all
+Dialogue: 0,0:00:39.92,0:00:43.15,All,,0,0,0,fx,{\k90\fad(300,200)}{\k33}With {\k28}a {\k48}cry {\k38}of {\k66}wrath
+Dialogue: 0,0:00:42.18,0:00:45.42,All,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I {\k29}will {\k42}crush {\k43}these {\k66}chains
+Dialogue: 0,0:00:44.47,0:00:48.09,Abyssgard Mococo,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k34}Un{\k28}til {\k42}on{\k44}ly {\k29}your {\k43}wrec{\k32}kage
+Dialogue: 0,0:00:47.06,0:00:50.09,Abyssgard Mococo,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k29}And {\k46}ash {\k39}re{\k79}mains
+Dialogue: 0,0:00:49.01,0:00:52.16,All,,0,0,0,fx,{\k90\fad(300,200)}{\k34}A {\k28}re{\k42}bel{\k45}lious {\k56}spark
+Dialogue: 0,0:00:51.26,0:00:54.53,All,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Lights {\k28}a {\k44}bla{\k40}zing {\k68}flame
+Dialogue: 0,0:00:53.59,0:00:56.71,Novella Shiori,,0,0,0,fx,{\k90\fad(300,200)}● {\k13}Let {\k27}it {\k62}rage, {\k12}I {\k16}come {\k23}un{\k49}caged
+Dialogue: 0,0:00:55.82,0:00:58.42,Ravencroft Nerissa,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k21}Screa{\k29}ming {\k29}out {\k15}in{\k14}to {\k7}the {\k22}sha{\k13}dows
+Dialogue: 0,0:00:57.32,0:01:02.10,Ravencroft Nerissa,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k14}I {\k16}will {\k57}break {\k47}a{\kf234}way
+Dialogue: 0,0:01:07.23,0:01:11.58,Bijou - Mococo,,0,0,0,fx,{\k90\fad(300,200)}♦♠ {\k33}LET {\k27}ME {\kf265}OUT
+Dialogue: 0,0:01:11.80,0:01:16.18,Bijou - Mococo,,0,0,0,fx,{\k90\fad(300,200)}♦♠ {\k31}LET {\k28}ME {\kf269}OUT
+Dialogue: 0,0:01:17.51,0:01:21.69,Abyssgard Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k29}Melt {\k13}a{\k43}way {\k29}your {\k28}grip {\k31}of {\kf135}steel
+Dialogue: 0,0:01:20.88,0:01:24.05,Ravencroft Nerissa,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k33}See {\k16}the {\k40}bin{\k28}ding {\k29}wea{\k29}ring {\k32}thin
+Dialogue: 0,0:01:23.18,0:01:27.18,Nerissa - Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}♣♥ {\k14}I {\k30}will {\k42}shat{\k28}ter {\k29}your {\k31}ob{\k55}ses{\k61}sion
+Dialogue: 0,0:01:26.57,0:01:30.75,Kouseki Bijou,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k32}Therе {\k18}is {\k39}no{\k29}thing {\k31}left {\k32}to {\kf127}feel
+Dialogue: 0,0:01:30.01,0:01:33.08,Abyssgard Mococo,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k30}No {\k14}de{\k42}lu{\kf111}sions
+Dialogue: 0,0:01:32.27,0:01:37.27,Bijou - Mococo,,0,0,0,fx,{\k90\fad(300,200)}♦♠ {\k29}From {\k16}the {\k36}hall {\k32}of {\k29}night{\k31}marеs {\k57}I {\k56}as{\kf104}cend
+Dialogue: 0,0:01:36.53,0:01:40.08,Novella Shiori,,0,0,0,fx,{\k90\fad(300,200)}● {\k31}And {\k29}I {\k29}will {\k26}bring {\k14}a{\k42}bout {\k31}your {\k43}end
+Dialogue: 0,0:01:39.03,0:01:42.25,All,,0,0,0,fx,{\k90\fad(300,200)}{\k38}With {\k28}a {\k42}despe{\k43}rate {\k61}cry
+Dialogue: 0,0:01:41.38,0:01:44.48,All,,0,0,0,fx,{\k90\fad(300,200)}{\k29}I {\k29}will {\k43}shat{\k42}ter {\k57}fate
+Dialogue: 0,0:01:43.60,0:01:46.85,Abyssgard Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k35}You {\k29}can {\k43}sound {\k40}the {\k29}a{\k39}larms
+Dialogue: 0,0:01:45.79,0:01:49.07,Abyssgard Fuwawa,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k44}But {\k28}it's {\k43}just {\k43}too {\k60}late
+Dialogue: 0,0:01:48.19,0:01:51.38,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}See {\k28}the {\k42}world {\k43}re{\k64}born
+Dialogue: 0,0:01:50.48,0:01:53.68,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}In {\k31}a {\k41}sea {\k41}of {\k67}flame
+Dialogue: 0,0:01:52.74,0:01:55.98,Novella Shiori,,0,0,0,fx,{\k90\fad(300,200)}● {\k18}Let {\k28}it {\k57}dance, {\k11}my {\k17}on{\k29}ly {\k54}chance
+Dialogue: 0,0:01:54.98,0:01:57.58,Abyssgard Mococo,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k26}Screa{\k23}ming {\k28}out {\k14}in{\k15}to {\k16}the {\k16}sha{\k12}dows
+Dialogue: 0,0:01:56.48,0:02:01.02,Abyssgard Mococo,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k11}I {\k13}will {\k59}break {\k58}a{\kf203}way
+Dialogue: 0,0:02:07.25,0:02:10.36,Novella Shiori,,0,0,0,fx,{\k90\fad(300,200)}● {\k32}Take {\k22}back {\k33}your {\k31}maze {\k24}of {\k59}lies
+Dialogue: 0,0:02:09.47,0:02:12.58,Bijou - Shiori,,0,0,0,fx,{\k90\fad(300,200)}♦● {\k37}I've {\k32}seen {\k23}the {\k26}o{\k32}ther {\k51}side
+Dialogue: 0,0:02:11.80,0:02:14.84,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}The {\k29}point {\k28}of {\k27}no {\k30}re{\k50}turn
+Dialogue: 0,0:02:14.10,0:02:17.07,All,,0,0,0,fx,{\k90\fad(300,200)}{\k27}This {\k29}fi{\k26}re's {\k31}gon{\k28}na {\k46}burn
+Dialogue: 0,0:02:16.08,0:02:22.25,Kouseki Bijou,,0,0,0,fx,{\k90\fad(300,200)}♦ {\kf507}BURN
+Dialogue: 0,0:02:23.98,0:02:29.45,Kouseki Bijou,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k35}RISE {\k27}UP {\k28}AND {\k31}BREAK{\kf316}OUT
+Dialogue: 0,0:02:33.63,0:02:36.92,Ravencroft Nerissa,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k38}With {\k27}a {\k45}cry {\k42}of {\k67}wrath
+Dialogue: 0,0:02:35.98,0:02:39.94,Ravencroft Nerissa,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k36}I {\k24}will {\k41}crush {\k41}these {\k86}chains, {\k32}un{\k26}til
+Dialogue: 0,0:02:38.84,0:02:41.91,All,,0,0,0,fx,{\k90\fad(300,200)}{\k41}{\rAll}On{\k43}ly {\k29}your {\k44}wrec{\k40}kage
+Dialogue: 0,0:02:40.83,0:02:43.72,All,,0,0,0,fx,{\k90\fad(300,200)}{\k28}And {\k43}ash {\k42}re{\k66}mains
+Dialogue: 0,0:02:42.78,0:02:45.85,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}A {\k29}re{\k42}bel{\k44}lious {\k50}spark
+Dialogue: 0,0:02:45.02,0:02:48.18,All,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Lights {\k28}a {\k44}bla{\k41}zing {\k57}flame
+Dialogue: 0,0:02:47.35,0:02:50.49,All,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Let {\k25}it {\k56}rage, {\k15}I {\k14}come {\k26}un{\k49}caged
+Dialogue: 0,0:02:49.62,0:02:52.18,All,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Screa{\k26}ming {\k29}out {\k15}in{\k13}to {\k15}the {\k13}sha{\k17}dows
+Dialogue: 0,0:02:51.08,0:02:55.22,All,,0,0,0,fx,{\k90\fad(300,200)}{\k12}I {\k14}will {\k60}break {\k55}a{\kf163}way
+Dialogue: 0,0:03:01.21,0:03:05.29,Kouseki Bijou,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k37}BREAK{\kf261}OUT
