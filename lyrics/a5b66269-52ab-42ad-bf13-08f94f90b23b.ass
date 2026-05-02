@@ -1,0 +1,156 @@
+﻿[Script Info]
+Title: Shadow Effect
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Azurys
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Ai,Arial,24,&H00FFFFFF,&H000058FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Karin,Arial,24,&H00FFFFFF,&H00C65E48,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: DiverDiva,Arial,24,&H00FFFFFF,&H00489CC4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: COLOR CODE,Arial,20,&H0000B4FF,&H0000B4FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,DiverDiva,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.62,0:00:05.50,Ai,,0,0,0,AU SECOURS,{\k117}Yeah {\k23}I'm {\k26}moon{\k22}light
+Comment: 0,0:00:06.68,0:00:07.59,Ai,,0,0,0,AU SECOURS,{\k25}Take {\k22}off {\k25}take {\k19}off
+Comment: 0,0:00:08.51,0:00:09.60,Ai,,0,0,0,AU SECOURS,{\k26}Space{\k29}ship {\k23}D{\k31}.D
+Comment: 0,0:00:09.95,0:00:13.21,Karin,,0,0,0,AU SECOURS,{\k29}SHA{\k23}DOW {\k23}LIGHT {\k24}ka{\k13}ge {\k23}mau {\k23}hi{\k24}to{\k12}shi{\k14}re{\k10}zu {\k24}ma{\k22}ta {\k24}ka{\k14}ga{\k24}yak'
+Comment: 0,0:00:13.31,0:00:14.07,Ai,,0,0,0,AU SECOURS,{\k23}Ye{\k53}ah
+Comment: 0,0:00:14.25,0:00:15.88,Karin,,0,0,0,AU SECOURS,{\k24}Lu{\k23}na {\k12}na {\k23}na {\k25}a{\k56}maze
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H0058FF&}Ai {\c&HFFFFFF&}- {\c&HC65E48&}Karin
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H489CC4&}DiverDiva
+Comment: 0,0:00:16.85,0:00:18.50,Karin,,0,0,0,karaoke,{\k22}TAKE {\k24}OFF {\k49}juu{\k34}ryo{\k14}ku {\k22}no
+Comment: 0,0:00:18.73,0:00:21.34,Karin,,0,0,0,karaoke,{\k25}kyo{\k23}u{\k21}kai{\k27}sen {\k12}ka{\k11}ra {\k11}to{\k22}ki{\k26}ha{\k12}na{\k24}ta{\k23}re{\k24}ta
+Comment: 0,0:00:21.57,0:00:24.99,Karin,,0,0,0,karaoke,{\k48}GAI{\k47}A {\k38}no {\k9}a{\k14}ka{\k10}ri {\k23}yat{\k13}to {\k12}ta{\k12}do{\k22}ri{\k22}tsu{\k14}i{\k24}ta {\k34}ne
+Comment: 0,0:00:24.88,0:00:28.65,Ai,,0,0,0,karaoke,{\k24}"ya{\k24}mi {\k24}ni {\k22}u{\k48}kab' {\k22}mi{\k25}chi {\k24}na{\k9}ru {\k13}se{\k25}kai" {\k24}O{\k44}H {\k49}YEAH
+Comment: 0,0:00:28.42,0:00:30.22,Karin,,0,0,0,karaoke,{\k24}wa{\k20}ta{\k15}shi {\k25}wa {\k24}i{\k22}ma {\k26}ka{\k24}ra
+Comment: 0,0:00:30.32,0:00:32.20,Karin,,0,0,0,karaoke,{\k12}a{\k12}ko{\k23}ga{\k13}re {\k24}no {\k24}MOON {\k21}WAL{\k25}KER {\k34}da
+Comment: 0,0:00:31.96,0:00:34.35,Ai,,0,0,0,karaoke,{\k12}ko{\k12}ko {\k13}wa {\k11}hi{\k23}ka{\k12}ri {\k24}a{\k25}ta{\k24}ra{\k24}nai {\k10}u{\k11}ra{\k13}ga{\k25}wa
+Comment: 0,0:00:34.53,0:00:37.32,Ai,,0,0,0,karaoke,{\k27}CRA{\k24}TER {\k11}chi{\k24}ka{\k24}ku {\k12}de {\k13}mi{\k10}re{\k11}ba {\k13}hi{\k35}roi! {\k12}su{\k34}goi! {\k14}kyo{\k15}dai!
+Comment: 0,0:00:37.38,0:00:40.07,Ai,,0,0,0,karaoke,{\k24}sou{\k25}zou {\k12}no {\k24}ha{\k23}ru{\k11}ka {\k13}ko{\k11}e{\k12}ta {\k26}A{\k22}R{\k12}T {\k23}dat{\k31}ta
+Comment: 0,0:00:40.00,0:00:43.79,Karin,,0,0,0,karaoke,{\k24}"ya{\k23}mi {\k23}ni {\k24}u{\k47}kab' {\k22}mi{\k28}chi {\k22}na{\k10}ru {\k13}se{\k24}kai" {\k23}O{\k45}H {\k51}YEAH
+Comment: 0,0:00:43.50,0:00:49.24,Ai,,0,0,0,karaoke,{\k28}shi{\k24}ra{\k14}na{\k20}i {\k26}kao {\k23}wo {\k21}no{\k25}zo{\k11}ka{\k53}se...{\k42} {\k24}ko{\k24}ko{\k14}ro {\k9}u{\k24}go{\k23}i{\kf169}ta
+Comment: 0,0:00:48.00,0:00:54.32,Karin,,0,0,0,karaoke,{\k26}tsu{\k24}ki {\k25}ga {\k23}ki{\k24}re{\k47}i {\k47}na {\k47}wa{\k73}ke{\k22} {\rAi}{\k23}wa{\k47}kat{\k46}ta {\k25}ki {\k42}ga {\k53}shi{\k38}ta
+Comment: 0,0:00:54.41,0:00:59.79,Karin,,0,0,0,karaoke,{\k21}i{\k26}ku {\k24}yo! {\rDiverDiva}{\k25}"u{\k22}h{\k27}-a{\k20}h{\k24}~"{\k23} {\k27}"u{\k21}h{\k22}-a{\k25}h{\k23}~"{\k24} {\rAi}{\k23}u{\k25}ta{\k24}e{\k23}ba {\rDiverDiva}{\k25}"u{\k22}h{\k23}-a{\k19}h"
+Comment: 0,0:00:59.83,0:01:02.70,DiverDiva,,0,0,0,karaoke,{\k48}Here {\k25}we {\k69}go!!{\k27} {\k41}Oh {\k50}ye{\k27}ah
+Comment: 0,0:01:02.91,0:01:04.22,DiverDiva,,0,0,0,karaoke,{\k11}Lu{\k13}na {\k25}na {\k10}lu{\k13}na {\k23}na {\k12}lu{\k11}na {\k13}na
+Comment: 0,0:01:04.22,0:01:06.50,DiverDiva,,0,0,0,karaoke,{\k11}o{\k12}mo{\k12}te {\k12}mi{\k12}ta {\k11}da{\k11}ke {\k25}ja {\k23}ka{\k24}ta{\k23}re{\k52}nai
+Comment: 0,0:01:06.68,0:01:08.07,DiverDiva,,0,0,0,karaoke,{\k13}Sha{\k12}dow {\k24}and {\k12}la {\k12}la {\k23}light {\k12}la {\k11}la {\k20}light
+Comment: 0,0:01:08.11,0:01:10.27,DiverDiva,,0,0,0,karaoke,{\k11}hi{\k11}to {\k14}shi{\k11}re{\k13}zu {\k11}ma{\k12}ru {\k12}de {\k23}hyou{\k24}ri {\k23}it{\k51}tai
+Comment: 0,0:01:10.15,0:01:13.41,Karin,,0,0,0,karaoke,{\k9}hi{\k24}ka{\k12}ri {\k23}to {\k36}ka{\k32}ge {\k13}sa{\k17}sa{\k8}e{\k24}au {\k23}bi{\k13}te{\k25}ki {\k33}hyou{\k34}gen
+Comment: 0,0:01:13.53,0:01:17.76,Ai,,0,0,0,karaoke,{\k25}ki{\k23}ri{\k25}ha{\k20}na{\k28}se{\k41}ba {\k53}SAME {\k46}AS {\k44}NO{\k50}THING!! {\k24}YE{\k44}AH
+Comment: 0,0:01:18.03,0:01:19.56,DiverDiva,,0,0,0,karaoke,{\k9}DAY {\k15}AND {\k13}NIGHT {\k10}ku{\k12}ro {\k11}ga {\k13}tsu{\k10}yo{\k14}ku {\k11}a{\k24}re{\k11}ba
+Comment: 0,0:01:19.57,0:01:21.59,DiverDiva,,0,0,0,karaoke,{\k12}CO{\k12}N{\k11}T{\k23}RAS{\k13}T {\k12}ga {\k13}ma{\k10}shi{\k24}te {\k23}it{\k49}te
+Comment: 0,0:01:21.82,0:01:23.19,DiverDiva,,0,0,0,karaoke,{\k22}tai{\k14}you {\k11}no {\k11}ka{\k12}ku{\k12}do {\k10}de {\k13}su{\k12}ga{\k20}ta
+Comment: 0,0:01:23.24,0:01:25.37,DiverDiva,,0,0,0,karaoke,{\k11}ka{\k11}ta{\k24}chi {\k12}ka{\k12}e{\k24}te {\k23}MAKE {\k24}UP {\k23}A{\k49}GAIN
+Comment: 0,0:01:25.32,0:01:28.50,Ai,,0,0,0,karaoke,{\k26}tsu{\k13}ki {\k25}no {\k34}you {\k47}ni {\k12}wa{\k11}ta{\k13}shi{\k11}ta{\k25}chi {\k11}mi{\k25}ta{\k34}i {\k31}ni
+Comment: 0,0:01:28.61,0:01:34.82,Karin,,0,0,0,karaoke,{\k29}SHA{\k24}DOW {\k24}AND {\k46}LIGHT {\rDiverDiva}{\k48}in{\k45}ryo{\k50}ku {\k47}de {\k47}hi{\k48}ki{\kf108}a{\kf105}u
+Comment: 0,0:01:39.95,0:01:41.59,Ai,,0,0,0,karaoke,{\k27}san {\k25}juu {\k38}ha{\k10}chi {\k37}ma{\k11}n {\k16}mo
+Comment: 0,0:01:41.79,0:01:44.48,Ai,,0,0,0,karaoke,{\k11}ha{\k35}na{\k12}re{\k23}ta {\k8}ba{\k15}sho {\k13}ka{\k11}ra {\k14}mi{\k22}e{\k22}ru {\k9}ke{\k27}shi{\k25}ki {\k22}wa
+Comment: 0,0:01:44.73,0:01:48.12,Ai,,0,0,0,karaoke,{\k34}PA{\k14}RA{\k46}DIGM {\k37}ka{\k11}e{\k23}ta {\k12}mu{\k12}ge{\k12}n {\k12}wa {\k8}u{\k24}so {\k38}ja{\k24}nai {\k32}ne
+Comment: 0,0:01:48.03,0:01:51.82,Karin,,0,0,0,karaoke,{\k24}"ya{\k23}mi {\k23}ni {\k24}u{\k47}kab' {\k22}mi{\k28}chi {\k22}na{\k10}ru {\k13}se{\k24}kai" {\k24}O{\k44}H {\k51}YEAH
+Comment: 0,0:01:51.54,0:01:57.16,Ai,,0,0,0,karaoke,{\k25}san{\k25}so {\k13}no {\k24}VE{\k24}I{\k23}L {\k24}no {\k21}mu{\k14}ko{\k49}u{\k45} {\rKarin}{\k24}me {\k23}de {\k24}ka{\k22}n{\k25}ji{\kf157}te
+Comment: 0,0:01:56.02,0:02:02.37,Ai,,0,0,0,karaoke,{\k27}tsu{\k24}ki {\k24}wa {\k21}mi{\k26}se{\k46}te {\k48}ku{\k47}re{\k75}ta{\k16} {\rKarin}{\k28}su{\k47}be{\k47}te {\k24}wa {\k46}ei{\k45}kyou {\k44}shiau
+Comment: 0,0:02:02.44,0:02:07.82,Ai,,0,0,0,karaoke,{\k21}i{\k26}ku {\k24}yo! {\rDiverDiva}{\k24}"u{\k23}h{\k25}-a{\k22}h{\k24}~"{\k23} {\k27}"u{\k21}h{\k25}-a{\k22}h{\k23}~"{\k24} {\rKarin}{\k23}u{\k25}ta{\k24}e{\k23}ba {\rDiverDiva}{\k25}"u{\k22}h{\k23}-a{\k19}h"
+Comment: 0,0:02:07.87,0:02:10.73,DiverDiva,,0,0,0,karaoke,{\k41}Re{\k26}flec{\k99}tion {\k43}oh {\k50}ye{\k27}ah
+Comment: 0,0:02:10.95,0:02:12.26,DiverDiva,,0,0,0,karaoke,{\k11}lu{\k13}na {\k25}na {\k10}lu{\k13}na {\k23}na {\k12}lu{\k11}na {\k13}na
+Comment: 0,0:02:12.26,0:02:14.54,DiverDiva,,0,0,0,karaoke,{\k11}o{\k12}mo{\k12}te {\k12}mi{\k12}ta {\k11}da{\k11}ke {\k25}ja {\k23}ka{\k24}ta{\k23}re{\k52}nai
+Comment: 0,0:02:14.72,0:02:16.11,DiverDiva,,0,0,0,karaoke,{\k13}Sha{\k12}dow {\k24}and {\k12}la {\k12}la {\k23}light {\k12}la {\k11}la {\k20}light
+Comment: 0,0:02:16.14,0:02:18.31,DiverDiva,,0,0,0,karaoke,{\k12}hi{\k10}to {\k14}shi{\k11}re{\k12}zu {\k12}ma{\k12}ru {\k13}de {\k23}hyou{\k23}ri {\k23}it{\k52}tai
+Comment: 0,0:02:18.24,0:02:21.43,Ai,,0,0,0,karaoke,{\k35}jin{\k30}se{\k33}i {\k43}no {\k27}sek{\k24}keiz' {\k22}hi{\k13}ko{\k23}u {\k36}ROU{\k33}TE
+Comment: 0,0:02:21.57,0:02:25.79,Karin,,0,0,0,karaoke,{\k22}ii{\k26}jii {\k24}na{\k20}ra {\k25}so{\k49}ko {\k23}ni {\k24}u{\k48}ma{\k47}re{\k46}nai {\k24}DRA{\k44}MA
+Comment: 0,0:02:26.07,0:02:27.91,DiverDiva,,0,0,0,karaoke,{\k11}DAY {\k11}AND {\k15}NIGHT {\k10}ha{\k9}te{\k14}shi{\k10}na{\k13}ku {\k24}LOO{\k17}P {\k19}sh'te {\k11}i{\k20}ku
+Comment: 0,0:02:27.95,0:02:29.66,DiverDiva,,0,0,0,karaoke,{\k12}na{\k11}ka {\k12}ni {\k12}a{\k11}ra{\k7}wa{\k6}re{\k24}ru {\k23}BEAU{\k53}TY
+Comment: 0,0:02:29.83,0:02:31.23,DiverDiva,,0,0,0,karaoke,{\k13}so{\k11}re{\k12}zo{\k13}re {\k12}ni {\k11}i{\k12}mi {\k12}ga {\k23}at{\k21}te
+Comment: 0,0:02:31.26,0:02:33.50,DiverDiva,,0,0,0,karaoke,{\k23}hak{\k25}ken {\k12}de{\k10}ki{\k13}ta{\k12}ra {\k23}chot{\k20}to {\k27}su{\k59}tek'
+Comment: 0,0:02:33.39,0:02:36.54,Karin,,0,0,0,karaoke,{\k31}ai{\k25}han {\k39}shi{\k46}te {\k12}i{\k12}ru {\k12}no {\k11}ni {\k25}ka{\k11}mi{\k24}hi{\k35}to{\k32}e
+Comment: 0,0:02:36.64,0:02:42.85,Ai,,0,0,0,karaoke,{\k29}SHA{\k24}DOW {\k24}AND {\k46}LIGHT {\rDiverDiva}{\k48}in{\k45}ryo{\k50}ku {\k47}de {\k47}hi{\k48}ki{\kf108}a{\kf105}u
+Comment: 0,0:02:55.38,0:02:58.70,DiverDiva,,0,0,0,karaoke,{\k19}i{\k26}ku {\k23}yo! {\k24}"u{\k24}h{\k22}-a{\k24}h{\k26}~"{\k22} {\k23}"u{\k24}h{\k26}-a{\k21}h{\k28}~"
+Comment: 0,0:02:58.88,0:03:03.34,DiverDiva,,0,0,0,karaoke,{\k49}kyo{\k47}u{\k67}mei {\k28}su{\k70}ru {\k24}G{\kf161}LOW...
+Comment: 0,0:03:02.92,0:03:08.30,DiverDiva,,0,0,0,karaoke,{\k21}i{\k26}ku {\k24}yo! {\k25}"u{\k22}h{\k21}-a{\k25}h{\k25}~"{\k23} {\k27}"u{\k21}h{\k21}-a{\k25}h{\k24}~"{\k24} {\k23}u{\k25}ta{\k24}e{\k23}ba {\k25}"u{\k22}h{\k23}-a{\k19}h"
+Comment: 0,0:03:08.35,0:03:09.55,DiverDiva,,0,0,0,karaoke,{\k46}Here {\k24}we {\k50}go!!
+Comment: 0,0:03:13.77,0:03:15.00,DiverDiva,,0,0,0,karaoke,{\k44}Oh {\k48}ye{\k31}ah
+Comment: 0,0:03:15.20,0:03:16.51,DiverDiva,,0,0,0,karaoke,{\k11}Lu{\k13}na {\k25}na {\k10}lu{\k13}na {\k23}na {\k12}lu{\k11}na {\k13}na
+Comment: 0,0:03:16.51,0:03:18.79,DiverDiva,,0,0,0,karaoke,{\k11}o{\k12}mo{\k12}te {\k12}mi{\k12}ta {\k11}da{\k11}ke {\k25}ja {\k23}ka{\k24}ta{\k23}re{\k52}nai
+Comment: 0,0:03:18.97,0:03:20.36,DiverDiva,,0,0,0,karaoke,{\k13}Sha{\k12}dow {\k24}and {\k12}la {\k12}la {\k23}light {\k12}la {\k11}la {\k20}light
+Comment: 0,0:03:20.40,0:03:22.56,DiverDiva,,0,0,0,karaoke,{\k11}hi{\k11}to {\k14}shi{\k11}re{\k13}zu {\k11}ma{\k12}ru {\k12}de {\k23}hyou{\k24}ri {\k23}it{\k51}tai
+Comment: 0,0:03:22.44,0:03:25.70,Karin,,0,0,0,karaoke,{\k9}hi{\k24}ka{\k12}ri {\k23}to {\k36}ka{\k32}ge {\k13}sa{\k17}sa{\k8}e{\k24}au {\k23}bi{\k13}te{\k25}ki {\k33}hyou{\k34}gen
+Comment: 0,0:03:25.82,0:03:30.04,Ai,,0,0,0,karaoke,{\k25}ki{\k23}ri{\k25}ha{\k20}na{\k28}se{\k41}ba {\k53}SAME {\k46}AS {\k44}NO{\k49}THING!! {\k24}YE{\k44}AH
+Comment: 0,0:03:30.32,0:03:31.85,DiverDiva,,0,0,0,karaoke,{\k9}DAY {\k15}AND {\k13}NIGHT {\k10}ku{\k12}ro {\k11}ga {\k13}tsu{\k10}yo{\k14}ku {\k11}a{\k24}re{\k11}ba
+Comment: 0,0:03:31.86,0:03:33.88,DiverDiva,,0,0,0,karaoke,{\k12}CO{\k12}N{\k11}T{\k23}RAS{\k13}T {\k12}ga {\k13}ma{\k10}shi{\k24}te {\k23}it{\k49}te
+Comment: 0,0:03:34.11,0:03:35.48,DiverDiva,,0,0,0,karaoke,{\k22}tai{\k14}you {\k11}no {\k11}ka{\k12}ku{\k12}do {\k10}de {\k13}su{\k12}ga{\k20}ta
+Comment: 0,0:03:35.53,0:03:37.66,DiverDiva,,0,0,0,karaoke,{\k11}ka{\k11}ta{\k24}chi {\k12}ka{\k12}e{\k24}te {\k23}MAKE {\k24}UP {\k23}A{\k49}GAIN
+Comment: 0,0:03:37.61,0:03:40.79,Ai,,0,0,0,karaoke,{\k26}tsu{\k13}ki {\k25}no {\k34}you {\k47}ni {\k12}wa{\k11}ta{\k13}shi{\k11}ta{\k25}chi {\k11}mi{\k25}ta{\k34}i {\k31}ni
+Comment: 0,0:03:40.89,0:03:47.10,Karin,,0,0,0,karaoke,{\k29}SHA{\k24}DOW {\k24}AND {\k46}LIGHT {\rDiverDiva}{\k48}in{\k45}ryo{\k50}ku {\k47}de {\k47}hi{\k48}ki{\kf108}a{\kf105}u
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H0058FF&}Ai {\c&HFFFFFF&}- {\c&HC65E48&}Karin
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H489CC4&}DiverDiva
+Dialogue: 0,0:00:15.95,0:00:18.70,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k22}TAKE {\k24}OFF {\k49}juu{\k34}ryo{\k14}ku {\k22}no
+Dialogue: 0,0:00:17.83,0:00:21.54,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k25}kyo{\k23}u{\k21}kai{\k27}sen {\k12}ka{\k11}ra {\k11}to{\k22}ki{\k26}ha{\k12}na{\k24}ta{\k23}re{\k24}ta
+Dialogue: 0,0:00:20.67,0:00:25.19,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k48}GAI{\k47}A {\k38}no {\k9}a{\k14}ka{\k10}ri {\k23}yat{\k13}to {\k12}ta{\k12}do{\k22}ri{\k22}tsu{\k14}i{\k24}ta {\k34}ne
+Dialogue: 0,0:00:23.98,0:00:28.85,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k24}"ya{\k24}mi {\k24}ni {\k22}u{\k48}kab' {\k22}mi{\k25}chi {\k24}na{\k9}ru {\k13}se{\k25}kai" {\k24}O{\k44}H {\k49}YEAH
+Dialogue: 0,0:00:27.52,0:00:30.42,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}wa{\k20}ta{\k15}shi {\k25}wa {\k24}i{\k22}ma {\k26}ka{\k24}ra
+Dialogue: 0,0:00:29.42,0:00:32.40,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k12}a{\k12}ko{\k23}ga{\k13}re {\k24}no {\k24}MOON {\k21}WAL{\k25}KER {\k34}da
+Dialogue: 0,0:00:31.06,0:00:34.55,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ko{\k12}ko {\k13}wa {\k11}hi{\k23}ka{\k12}ri {\k24}a{\k25}ta{\k24}ra{\k24}nai {\k10}u{\k11}ra{\k13}ga{\k25}wa
+Dialogue: 0,0:00:33.63,0:00:37.52,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k27}CRA{\k24}TER {\k11}chi{\k24}ka{\k24}ku {\k12}de {\k13}mi{\k10}re{\k11}ba {\k13}hi{\k35}roi! {\k12}su{\k34}goi! {\k14}kyo{\k15}dai!
+Dialogue: 0,0:00:36.48,0:00:40.27,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k24}sou{\k25}zou {\k12}no {\k24}ha{\k23}ru{\k11}ka {\k13}ko{\k11}e{\k12}ta {\k26}A{\k22}R{\k12}T {\k23}dat{\k31}ta
+Dialogue: 0,0:00:39.10,0:00:43.99,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}"ya{\k23}mi {\k23}ni {\k24}u{\k47}kab' {\k22}mi{\k28}chi {\k22}na{\k10}ru {\k13}se{\k24}kai" {\k23}O{\k45}H {\k51}YEAH
+Dialogue: 0,0:00:42.60,0:00:49.44,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k28}shi{\k24}ra{\k14}na{\k20}i {\k26}kao {\k23}wo {\k21}no{\k25}zo{\k11}ka{\k53}se...{\k42} {\k24}ko{\k24}ko{\k14}ro {\k9}u{\k24}go{\k23}i{\kf169}ta
+Dialogue: 0,0:00:47.10,0:00:54.52,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k26}tsu{\k24}ki {\k25}ga {\k23}ki{\k24}re{\k47}i {\k47}na {\k47}wa{\k73}ke{\k22} {\rAi}{\k23}wa{\k47}kat{\k46}ta {\k25}ki {\k42}ga {\k53}shi{\k38}ta
+Dialogue: 0,0:00:53.51,0:00:59.99,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k21}i{\k26}ku {\k24}yo! {\rDiverDiva}{\k25}"u{\k22}h{\k27}-a{\k20}h{\k24}~"{\k23} {\k27}"u{\k21}h{\k22}-a{\k25}h{\k23}~"{\k24} {\rAi}{\k23}u{\k25}ta{\k24}e{\k23}ba {\rDiverDiva}{\k25}"u{\k22}h{\k23}-a{\k19}h"
+Dialogue: 0,0:00:58.93,0:01:02.90,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Here {\k25}we {\k69}go!!{\k27} {\k41}Oh {\k50}ye{\k27}ah
+Dialogue: 0,0:01:02.01,0:01:04.42,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Lu{\k13}na {\k25}na {\k10}lu{\k13}na {\k23}na {\k12}lu{\k11}na {\k13}na
+Dialogue: 0,0:01:03.32,0:01:06.70,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k11}o{\k12}mo{\k12}te {\k12}mi{\k12}ta {\k11}da{\k11}ke {\k25}ja {\k23}ka{\k24}ta{\k23}re{\k52}nai
+Dialogue: 0,0:01:05.78,0:01:08.27,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Sha{\k12}dow {\k24}and {\k12}la {\k12}la {\k23}light {\k12}la {\k11}la {\k20}light
+Dialogue: 0,0:01:07.21,0:01:10.47,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k11}hi{\k11}to {\k14}shi{\k11}re{\k13}zu {\k11}ma{\k12}ru {\k12}de {\k23}hyou{\k24}ri {\k23}it{\k51}tai
+Dialogue: 0,0:01:09.25,0:01:13.61,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k9}hi{\k24}ka{\k12}ri {\k23}to {\k36}ka{\k32}ge {\k13}sa{\k17}sa{\k8}e{\k24}au {\k23}bi{\k13}te{\k25}ki {\k33}hyou{\k34}gen
+Dialogue: 0,0:01:12.63,0:01:17.96,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ki{\k23}ri{\k25}ha{\k20}na{\k28}se{\k41}ba {\k53}SAME {\k46}AS {\k44}NO{\k50}THING!! {\k24}YE{\k44}AH
+Dialogue: 0,0:01:17.13,0:01:19.76,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k9}DAY {\k15}AND {\k13}NIGHT {\k10}ku{\k12}ro {\k11}ga {\k13}tsu{\k10}yo{\k14}ku {\k11}a{\k24}re{\k11}ba
+Dialogue: 0,0:01:18.67,0:01:21.79,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k12}CO{\k12}N{\k11}T{\k23}RAS{\k13}T {\k12}ga {\k13}ma{\k10}shi{\k24}te {\k23}it{\k49}te
+Dialogue: 0,0:01:20.92,0:01:23.39,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k22}tai{\k14}you {\k11}no {\k11}ka{\k12}ku{\k12}do {\k10}de {\k13}su{\k12}ga{\k20}ta
+Dialogue: 0,0:01:22.34,0:01:25.57,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ka{\k11}ta{\k24}chi {\k12}ka{\k12}e{\k24}te {\k23}MAKE {\k24}UP {\k23}A{\k49}GAIN
+Dialogue: 0,0:01:24.42,0:01:28.70,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k26}tsu{\k13}ki {\k25}no {\k34}you {\k47}ni {\k12}wa{\k11}ta{\k13}shi{\k11}ta{\k25}chi {\k11}mi{\k25}ta{\k34}i {\k31}ni
+Dialogue: 0,0:01:27.71,0:01:35.02,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k29}SHA{\k24}DOW {\k24}AND {\k46}LIGHT {\rDiverDiva}{\k48}in{\k45}ryo{\k50}ku {\k47}de {\k47}hi{\k48}ki{\kf108}a{\kf105}u
+Dialogue: 0,0:01:39.05,0:01:41.79,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k27}san {\k25}juu {\k38}ha{\k10}chi {\k37}ma{\k11}n {\k16}mo
+Dialogue: 0,0:01:40.89,0:01:44.68,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ha{\k35}na{\k12}re{\k23}ta {\k8}ba{\k15}sho {\k13}ka{\k11}ra {\k14}mi{\k22}e{\k22}ru {\k9}ke{\k27}shi{\k25}ki {\k22}wa
+Dialogue: 0,0:01:43.83,0:01:48.32,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k34}PA{\k14}RA{\k46}DIGM {\k37}ka{\k11}e{\k23}ta {\k12}mu{\k12}ge{\k12}n {\k12}wa {\k8}u{\k24}so {\k38}ja{\k24}nai {\k32}ne
+Dialogue: 0,0:01:47.13,0:01:52.02,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k24}"ya{\k23}mi {\k23}ni {\k24}u{\k47}kab' {\k22}mi{\k28}chi {\k22}na{\k10}ru {\k13}se{\k24}kai" {\k24}O{\k44}H {\k51}YEAH
+Dialogue: 0,0:01:50.64,0:01:57.36,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k25}san{\k25}so {\k13}no {\k24}VE{\k24}I{\k23}L {\k24}no {\k21}mu{\k14}ko{\k49}u{\k45} {\rKarin}{\k24}me {\k23}de {\k24}ka{\k22}n{\k25}ji{\kf157}te
+Dialogue: 0,0:01:55.12,0:02:02.57,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k27}tsu{\k24}ki {\k24}wa {\k21}mi{\k26}se{\k46}te {\k48}ku{\k47}re{\k75}ta{\k16} {\rKarin}{\k28}su{\k47}be{\k47}te {\k24}wa {\k46}ei{\k45}kyou {\k44}shiau
+Dialogue: 0,0:02:01.54,0:02:08.02,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k21}i{\k26}ku {\k24}yo! {\rDiverDiva}{\k24}"u{\k23}h{\k25}-a{\k22}h{\k24}~"{\k23} {\k27}"u{\k21}h{\k25}-a{\k22}h{\k23}~"{\k24} {\rKarin}{\k23}u{\k25}ta{\k24}e{\k23}ba {\rDiverDiva}{\k25}"u{\k22}h{\k23}-a{\k19}h"
+Dialogue: 0,0:02:06.97,0:02:10.93,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Re{\k26}flec{\k99}tion {\k43}oh {\k50}ye{\k27}ah
+Dialogue: 0,0:02:10.05,0:02:12.46,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k11}lu{\k13}na {\k25}na {\k10}lu{\k13}na {\k23}na {\k12}lu{\k11}na {\k13}na
+Dialogue: 0,0:02:11.36,0:02:14.74,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k11}o{\k12}mo{\k12}te {\k12}mi{\k12}ta {\k11}da{\k11}ke {\k25}ja {\k23}ka{\k24}ta{\k23}re{\k52}nai
+Dialogue: 0,0:02:13.82,0:02:16.31,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Sha{\k12}dow {\k24}and {\k12}la {\k12}la {\k23}light {\k12}la {\k11}la {\k20}light
+Dialogue: 0,0:02:15.24,0:02:18.51,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k12}hi{\k10}to {\k14}shi{\k11}re{\k12}zu {\k12}ma{\k12}ru {\k13}de {\k23}hyou{\k23}ri {\k23}it{\k52}tai
+Dialogue: 0,0:02:17.34,0:02:21.63,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k35}jin{\k30}se{\k33}i {\k43}no {\k27}sek{\k24}keiz' {\k22}hi{\k13}ko{\k23}u {\k36}ROU{\k33}TE
+Dialogue: 0,0:02:20.67,0:02:25.99,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ii{\k26}jii {\k24}na{\k20}ra {\k25}so{\k49}ko {\k23}ni {\k24}u{\k48}ma{\k47}re{\k46}nai {\k24}DRA{\k44}MA
+Dialogue: 0,0:02:25.17,0:02:28.11,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k11}DAY {\k11}AND {\k15}NIGHT {\k10}ha{\k9}te{\k14}shi{\k10}na{\k13}ku {\k24}LOO{\k17}P {\k19}sh'te {\k11}i{\k20}ku
+Dialogue: 0,0:02:27.05,0:02:29.86,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k12}na{\k11}ka {\k12}ni {\k12}a{\k11}ra{\k7}wa{\k6}re{\k24}ru {\k23}BEAU{\k53}TY
+Dialogue: 0,0:02:28.93,0:02:31.43,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k13}so{\k11}re{\k12}zo{\k13}re {\k12}ni {\k11}i{\k12}mi {\k12}ga {\k23}at{\k21}te
+Dialogue: 0,0:02:30.36,0:02:33.70,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k23}hak{\k25}ken {\k12}de{\k10}ki{\k13}ta{\k12}ra {\k23}chot{\k20}to {\k27}su{\k59}tek'
+Dialogue: 0,0:02:32.49,0:02:36.74,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ai{\k25}han {\k39}shi{\k46}te {\k12}i{\k12}ru {\k12}no {\k11}ni {\k25}ka{\k11}mi{\k24}hi{\k35}to{\k32}e
+Dialogue: 0,0:02:35.74,0:02:43.05,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k29}SHA{\k24}DOW {\k24}AND {\k46}LIGHT {\rDiverDiva}{\k48}in{\k45}ryo{\k50}ku {\k47}de {\k47}hi{\k48}ki{\kf108}a{\kf105}u
+Dialogue: 0,0:02:54.48,0:02:58.90,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k19}i{\k26}ku {\k23}yo! {\k24}"u{\k24}h{\k22}-a{\k24}h{\k26}~"{\k22} {\k23}"u{\k24}h{\k26}-a{\k21}h{\k28}~"
+Dialogue: 0,0:02:57.98,0:03:03.54,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k49}kyo{\k47}u{\k67}mei {\k28}su{\k70}ru {\k24}G{\kf161}LOW...
+Dialogue: 0,0:03:02.02,0:03:08.50,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k21}i{\k26}ku {\k24}yo! {\k25}"u{\k22}h{\k21}-a{\k25}h{\k25}~"{\k23} {\k27}"u{\k21}h{\k21}-a{\k25}h{\k24}~"{\k24} {\k23}u{\k25}ta{\k24}e{\k23}ba {\k25}"u{\k22}h{\k23}-a{\k19}h"
+Dialogue: 0,0:03:07.45,0:03:09.75,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Here {\k24}we {\k50}go!!
+Dialogue: 0,0:03:12.87,0:03:15.20,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Oh {\k48}ye{\k31}ah
+Dialogue: 0,0:03:14.30,0:03:16.71,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Lu{\k13}na {\k25}na {\k10}lu{\k13}na {\k23}na {\k12}lu{\k11}na {\k13}na
+Dialogue: 0,0:03:15.61,0:03:18.99,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k11}o{\k12}mo{\k12}te {\k12}mi{\k12}ta {\k11}da{\k11}ke {\k25}ja {\k23}ka{\k24}ta{\k23}re{\k52}nai
+Dialogue: 0,0:03:18.07,0:03:20.56,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Sha{\k12}dow {\k24}and {\k12}la {\k12}la {\k23}light {\k12}la {\k11}la {\k20}light
+Dialogue: 0,0:03:19.50,0:03:22.76,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k11}hi{\k11}to {\k14}shi{\k11}re{\k13}zu {\k11}ma{\k12}ru {\k12}de {\k23}hyou{\k24}ri {\k23}it{\k51}tai
+Dialogue: 0,0:03:21.54,0:03:25.90,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k9}hi{\k24}ka{\k12}ri {\k23}to {\k36}ka{\k32}ge {\k13}sa{\k17}sa{\k8}e{\k24}au {\k23}bi{\k13}te{\k25}ki {\k33}hyou{\k34}gen
+Dialogue: 0,0:03:24.92,0:03:30.24,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ki{\k23}ri{\k25}ha{\k20}na{\k28}se{\k41}ba {\k53}SAME {\k46}AS {\k44}NO{\k49}THING!! {\k24}YE{\k44}AH
+Dialogue: 0,0:03:29.42,0:03:32.05,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k9}DAY {\k15}AND {\k13}NIGHT {\k10}ku{\k12}ro {\k11}ga {\k13}tsu{\k10}yo{\k14}ku {\k11}a{\k24}re{\k11}ba
+Dialogue: 0,0:03:30.96,0:03:34.08,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k12}CO{\k12}N{\k11}T{\k23}RAS{\k13}T {\k12}ga {\k13}ma{\k10}shi{\k24}te {\k23}it{\k49}te
+Dialogue: 0,0:03:33.21,0:03:35.68,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k22}tai{\k14}you {\k11}no {\k11}ka{\k12}ku{\k12}do {\k10}de {\k13}su{\k12}ga{\k20}ta
+Dialogue: 0,0:03:34.63,0:03:37.86,DiverDiva,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ka{\k11}ta{\k24}chi {\k12}ka{\k12}e{\k24}te {\k23}MAKE {\k24}UP {\k23}A{\k49}GAIN
+Dialogue: 0,0:03:36.71,0:03:40.99,Ai,,0,0,0,fx,{\k90\fad(300,200)}{\k26}tsu{\k13}ki {\k25}no {\k34}you {\k47}ni {\k12}wa{\k11}ta{\k13}shi{\k11}ta{\k25}chi {\k11}mi{\k25}ta{\k34}i {\k31}ni
+Dialogue: 0,0:03:39.99,0:03:47.30,Karin,,0,0,0,fx,{\k90\fad(300,200)}{\k29}SHA{\k24}DOW {\k24}AND {\k46}LIGHT {\rDiverDiva}{\k48}in{\k45}ryo{\k50}ku {\k47}de {\k47}hi{\k48}ki{\kf108}a{\kf105}u
