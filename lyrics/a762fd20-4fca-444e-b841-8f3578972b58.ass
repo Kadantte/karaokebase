@@ -1,0 +1,177 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Title: Catch Catch
+Original Timing: ono3000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Legend,Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Korean,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: English,Arial,24,&H00FFFFFF,&H00FFC124,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Korean,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:01.75,Legend,,0,0,0,karaoke,{\c&H008AFF&}Korean {\c}| {\c&HFFC124&}English
+Comment: 0,0:00:03.20,0:00:05.27,English,,0,0,0,karaoke,{\k103}Hey? {\k40}Catch {\k15}my {\k49}heart
+Comment: 0,0:00:05.27,0:00:07.68,English,,0,0,0,karaoke,{\k43}Ca-{\k23}ca-{\k45}catch {\k16}my {\k73}heart {\k22}ba{\k19}by
+Comment: 0,0:00:07.68,0:00:08.75,English,,0,0,0,karaoke,{\k43}Catch {\k16}my {\k48}heart
+Comment: 0,0:00:08.75,0:00:11.17,English,,0,0,0,karaoke,{\k43}Ca-{\k25}ca-{\k34}catch {\k21}my {\k53}heart {\k24}ba{\k42}by
+Comment: 0,0:00:11.17,0:00:12.91,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Comment: 0,0:00:12.91,0:00:14.65,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Comment: 0,0:00:14.65,0:00:16.38,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Comment: 0,0:00:16.39,0:00:18.13,English,,0,0,0,karaoke,{\k33}Mm-{\k33}mm-{\k65}mm {\k21}ba{\k22}by
+Comment: 0,0:00:18.13,0:00:19.87,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k42}da
+Comment: 0,0:00:19.87,0:00:21.61,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Comment: 0,0:00:21.61,0:00:23.34,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Comment: 0,0:00:23.35,0:00:24.62,English,,0,0,0,karaoke,{\k32}Ba{\k32}by {\k35}ba{\k28}by
+Comment: 0,0:00:24.62,0:00:28.12,Korean,,0,0,0,karaoke,{\k21}geo{\k27}teu{\k41}ro {\k20}bwa{\k25}seo{\k42}neun {\k44}nal {\k35}mol{\k29}la{\k66}yo
+Comment: 0,0:00:28.12,0:00:31.60,Korean,,0,0,0,karaoke,{\k25}keo{\k20}da{\k42}ran {\k23}na{\k22}mu{\k40}do {\k44}jal {\k35}ol{\k32}la{\k65}yo
+Comment: 0,0:00:31.74,0:00:35.08,Korean,,0,0,0,karaoke,{\k31}si{\k42}ryeo{\k23}geun {\k23}eol{\k40}ma{\k23}na {\k17}tto {\k36}jo{\k31}ke{\k68}yo
+Comment: 0,0:00:35.08,0:00:38.57,Korean,,0,0,0,karaoke,{\k23}wan{\k22}jeon {\kf103}{\rEnglish}good{\kf48}{\r} {\k22}da {\k25}al{\k42}lang{\k21}ga {\k20}mol{\k23}la
+Comment: 0,0:00:39.00,0:00:40.75,Korean,,0,0,0,karaoke,{\k44}oh-{\k36}oh {\k28}sal{\k23}jjak-{\k44}kung
+Comment: 0,0:00:40.75,0:00:42.48,Korean,,0,0,0,karaoke,{\k43}oh-{\k44}oh {\k18}neu{\k24}kkim {\k17}wat{\k27}ji?
+Comment: 0,0:00:42.48,0:00:45.96,Korean,,0,0,0,karaoke,{\k44}oh-{\k43}oh {\k17}mu{\k26}pyo{\k22}jeong{\k21}han {\k33}eol{\k32}gul{\k17}do {\k28}jae{\k22}min{\k43}ne?
+Comment: 0,0:00:45.96,0:00:47.70,Korean,,0,0,0,karaoke,{\k45}oh-{\k36}oh {\k26}jji{\k18}rit{\k49}hae
+Comment: 0,0:00:47.70,0:00:49.66,Korean,,0,0,0,karaoke,{\k44}oh-{\k43}oh {\k22}ttak {\k20}geol{\k23}lyeot{\k44}ji
+Comment: 0,0:00:49.80,0:00:52.50,Korean,,0,0,0,karaoke,{\k26}seo{\k23}ro {\k33}nu{\k35}ni {\k14}ma{\kf139}riya
+Comment: 0,0:00:52.17,0:00:56.16,Korean,,0,0,0,karaoke,{\k29}sim{\k24}jang'{\k44}i {\k42}{\rEnglish}up {\k65}down {\k45}down {\k21}{\r}tto {\k44}{\rEnglish}up {\k85}down
+Comment: 0,0:00:56.16,0:00:59.18,Korean,,0,0,0,karaoke,{\k22}sa{\k45}rang'{\k36}ui {\k42}hwa{\k30}sa{\k24}reul {\k32}dang{\k32}gyeo {\k39}bwa
+Comment: 0,0:00:59.18,0:01:03.36,Korean,,0,0,0,karaoke,{\k27}sim{\k22}jang'{\k42}i {\k42}{\rEnglish}up {\k87}down {\k45}{\r}tto {\k40}{\rEnglish}up {\kf113}down
+Comment: 0,0:01:03.36,0:01:05.66,Korean,,0,0,0,karaoke,{\k33}i{\k31}reo{\k21}da {\k31}no{\k34}chi{\k19}ge{\k61}sseo
+Comment: 0,0:01:05.93,0:01:06.83,English,,0,0,0,karaoke,{\k45}Catch {\k45}catch
+Comment: 0,0:01:06.83,0:01:08.57,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Comment: 0,0:01:08.57,0:01:10.31,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Comment: 0,0:01:10.31,0:01:12.04,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Comment: 0,0:01:12.05,0:01:13.79,English,,0,0,0,karaoke,{\k33}Mm-{\k33}mm-{\k65}mm {\k21}ba{\k22}by
+Comment: 0,0:01:13.79,0:01:15.53,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k42}da
+Comment: 0,0:01:15.53,0:01:17.27,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Comment: 0,0:01:17.27,0:01:19.00,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Comment: 0,0:01:20.97,0:01:22.48,English,,0,0,0,karaoke,{\k33}Mm-{\k23}mm-{\k31}mm-{\k13}mm-{\k30}mm-{\k21}mm
+Comment: 0,0:01:22.70,0:01:24.22,English,,0,0,0,karaoke,{\k35}Mm-{\k21}mm-{\k22}mm-{\k11}mm-{\k20}mm {\k23}ba{\k20}by
+Comment: 0,0:01:24.45,0:01:25.96,English,,0,0,0,karaoke,{\k33}Mm-{\k23}mm-{\k31}mm-{\k13}mm-{\k30}mm-{\k21}mm
+Comment: 0,0:01:27.22,0:01:30.75,Korean,,0,0,0,karaoke,{\k29}go{\k18}mi{\k44}rang {\k22}yeo{\k22}u {\k42}dul {\k45}da {\k38}da{\k25}lat{\k68}jyo
+Comment: 0,0:01:30.75,0:01:34.22,Korean,,0,0,0,karaoke,{\k22}kko{\k21}ri{\k43}do {\k16}i{\k28}sseo{\k40}yo {\k43}cham {\k35}ye{\k30}ppeu{\k69}jyo?
+Comment: 0,0:01:34.84,0:01:36.40,Korean,,0,0,0,karaoke,{\k15}dong{\k12}geu{\k16}ra{\k24}ke {\k24}nu{\k20}neul {\k24}tteu{\k21}myeon
+Comment: 0,0:01:36.40,0:01:39.23,Korean,,0,0,0,karaoke,{\k19}ban{\k24}chi{\k22}gin{\k18}de {\k25}cham{\k22}neun {\k22}geo{\k22}ra{\kf109}gu
+Comment: 0,0:01:39.58,0:01:41.62,English,,0,0,0,karaoke,{\k25}Say {\k22}"Yel{\k44}low {\k26}C-{\k21}A-{\k21}R-{\k45}D"
+Comment: 0,0:01:41.62,0:01:43.37,Korean,,0,0,0,karaoke,{\k43}oh-{\k36}oh {\k23}ip{\k25}sul {\k48}jjuk
+Comment: 0,0:01:43.37,0:01:45.10,Korean,,0,0,0,karaoke,{\k42}oh-{\k38}oh {\k27}ti{\k21}rеul {\k21}nae {\k24}bwa?
+Comment: 0,0:01:45.10,0:01:47.44,Korean,,0,0,0,karaoke,{\k43}oh-{\k44}oh {\k18}i {\k24}jeong{\k23}do{\k21}myeon {\k32}nun{\k29}chi
+Comment: 0,0:01:47.44,0:01:48.58,Korean,,0,0,0,karaoke,{\k19}jom {\k22}chaе{\k28}sseul{\k45}kka?
+Comment: 0,0:01:48.58,0:01:50.32,Korean,,0,0,0,karaoke,{\k42}oh-{\k43}oh {\k22}eo{\k22}meo{\k45}na
+Comment: 0,0:01:50.32,0:01:52.28,Korean,,0,0,0,karaoke,{\k43}oh-{\k44}oh {\k20}ttak {\k22}geol{\k22}lyeot{\k45}ji
+Comment: 0,0:01:52.44,0:01:55.09,Korean,,0,0,0,karaoke,{\k23}ne {\k20}jin{\k40}si{\k31}meul {\k14}ma{\kf137}riya
+Comment: 0,0:01:54.79,0:01:58.78,Korean,,0,0,0,karaoke,{\k29}sim{\k24}jang'{\k44}i {\k42}{\rEnglish}up {\k65}down {\k45}down {\k21}{\r}tto {\k44}{\rEnglish}up {\k85}down
+Comment: 0,0:01:58.78,0:02:01.80,Korean,,0,0,0,karaoke,{\k22}sa{\k45}rang'{\k36}ui {\k42}hwa{\k30}sa{\k24}reul {\k32}dang{\k32}gyeo {\k39}bwa
+Comment: 0,0:02:01.80,0:02:05.98,Korean,,0,0,0,karaoke,{\k27}sim{\k22}jang'{\k42}i {\k42}{\rEnglish}up {\k87}down {\k45}{\r}tto {\k40}{\rEnglish}up {\kf113}down
+Comment: 0,0:02:05.98,0:02:08.28,Korean,,0,0,0,karaoke,{\k33}i{\k31}reo{\k21}da {\k31}no{\k34}chi{\k19}ge{\k61}sseo
+Comment: 0,0:02:08.52,0:02:09.36,English,,0,0,0,karaoke,{\k45}Catch {\k39}catch
+Comment: 0,0:02:09.43,0:02:11.17,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Comment: 0,0:02:11.17,0:02:12.91,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Comment: 0,0:02:12.91,0:02:14.64,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Comment: 0,0:02:14.65,0:02:16.39,English,,0,0,0,karaoke,{\k33}Mm-{\k33}mm-{\k65}mm {\k21}ba{\k22}by
+Comment: 0,0:02:16.39,0:02:18.13,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k42}da
+Comment: 0,0:02:18.13,0:02:19.87,English,,0,0,0,karaoke,{\k67}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Comment: 0,0:02:19.87,0:02:21.60,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Comment: 0,0:02:23.52,0:02:25.08,Korean,,0,0,0,karaoke,{\k12}ye{\k13}na {\k8}ji{\k13}geu{\k11}mi{\k12}na {\k22}ma{\k21}meul {\k21}kkok{\k23}kkok
+Comment: 0,0:02:25.08,0:02:27.02,Korean,,0,0,0,karaoke,{\k23}sum{\k22}gi{\k21}neun {\k22}geol {\k17}mot{\k18}hae {\k71}cham
+Comment: 0,0:02:27.02,0:02:29.21,Korean,,0,0,0,karaoke,{\k9}geu{\k36}ge {\k22}nan {\k22}ma{\k21}me {\k23}deu{\k23}neun {\k63}geol
+Comment: 0,0:02:29.21,0:02:31.19,English,,0,0,0,karaoke,{\k22}Ba{\k21}by {\k25}catch {\k23}me {\k107}now
+Comment: 0,0:02:31.30,0:02:35.29,Korean,,0,0,0,karaoke,{\k29}sim{\k24}jang'{\k44}i {\k42}{\rEnglish}up {\k66}down {\k44}down {\k21}{\r}tto {\k44}{\rEnglish}up {\k85}down
+Comment: 0,0:02:35.30,0:02:38.32,Korean,,0,0,0,karaoke,{\k22}nun {\k44}gam{\k43}go {\k36}ttak {\k29}han {\k22}beon {\k30}dang{\k35}gyeo {\k41}bwa
+Comment: 0,0:02:38.32,0:02:42.49,Korean,,0,0,0,karaoke,{\k26}sim{\k22}jang'{\k42}i {\k42}{\rEnglish}up {\k87}down {\k45}{\r}tto {\k40}{\rEnglish}up {\kf113}down
+Comment: 0,0:02:42.49,0:02:44.79,Korean,,0,0,0,karaoke,{\k31}i{\k33}beo{\k21}nen {\k31}mat{\k34}chwo {\k23}bwa {\k57}kkok
+Comment: 0,0:02:45.03,0:02:45.94,English,,0,0,0,karaoke,{\k47}Catch {\k44}catch
+Comment: 0,0:02:45.94,0:02:47.68,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Comment: 0,0:02:47.68,0:02:49.42,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Comment: 0,0:02:49.42,0:02:51.15,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Comment: 0,0:02:51.16,0:02:52.90,English,,0,0,0,karaoke,{\k33}Mm-{\k33}mm-{\k65}mm {\k21}ba{\k22}by
+Comment: 0,0:02:52.90,0:02:54.64,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k42}da
+Comment: 0,0:02:54.64,0:02:56.38,English,,0,0,0,karaoke,{\k67}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Comment: 0,0:02:56.38,0:02:58.11,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Comment: 0,0:02:59.88,0:03:01.87,English,,0,0,0,karaoke,{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Dialogue: 0,0:00:00.00,0:00:01.95,Legend,,0,0,0,fx,{\k0\fad(0,200)}{\c&H008AFF&}Korean {\c}| {\c&HFFC124&}English
+Dialogue: 0,0:00:02.30,0:00:05.47,English,,0,0,0,fx,{\k90\fad(300,200)}{\k103}Hey? {\k40}Catch {\k15}my {\k49}heart
+Dialogue: 0,0:00:04.37,0:00:07.88,English,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Ca-{\k23}ca-{\k45}catch {\k16}my {\k73}heart {\k22}ba{\k19}by
+Dialogue: 0,0:00:06.78,0:00:08.95,English,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Catch {\k16}my {\k48}heart
+Dialogue: 0,0:00:07.85,0:00:11.37,English,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Ca-{\k25}ca-{\k34}catch {\k21}my {\k53}heart {\k24}ba{\k42}by
+Dialogue: 0,0:00:10.27,0:00:13.11,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Dialogue: 0,0:00:12.01,0:00:14.85,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Dialogue: 0,0:00:13.75,0:00:16.58,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Dialogue: 0,0:00:15.49,0:00:18.33,English,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Mm-{\k33}mm-{\k65}mm {\k21}ba{\k22}by
+Dialogue: 0,0:00:17.23,0:00:20.07,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k42}da
+Dialogue: 0,0:00:18.97,0:00:21.81,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Dialogue: 0,0:00:20.71,0:00:23.54,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Dialogue: 0,0:00:22.45,0:00:24.82,English,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Ba{\k32}by {\k35}ba{\k28}by
+Dialogue: 0,0:00:23.72,0:00:28.32,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k21}geo{\k27}teu{\k41}ro {\k20}bwa{\k25}seo{\k42}neun {\k44}nal {\k35}mol{\k29}la{\k66}yo
+Dialogue: 0,0:00:27.22,0:00:31.80,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k25}keo{\k20}da{\k42}ran {\k23}na{\k22}mu{\k40}do {\k44}jal {\k35}ol{\k32}la{\k65}yo
+Dialogue: 0,0:00:30.84,0:00:35.28,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k31}si{\k42}ryeo{\k23}geun {\k23}eol{\k40}ma{\k23}na {\k17}tto {\k36}jo{\k31}ke{\k68}yo
+Dialogue: 0,0:00:34.18,0:00:38.77,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k23}wan{\k22}jeon {\kf103}{\rEnglish}good{\kf48}{\r} {\k22}da {\k25}al{\k42}lang{\k21}ga {\k20}mol{\k23}la
+Dialogue: 0,0:00:38.10,0:00:40.95,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k44}oh-{\k36}oh {\k28}sal{\k23}jjak-{\k44}kung
+Dialogue: 0,0:00:39.85,0:00:42.68,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k43}oh-{\k44}oh {\k18}neu{\k24}kkim {\k17}wat{\k27}ji?
+Dialogue: 0,0:00:41.58,0:00:46.16,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k44}oh-{\k43}oh {\k17}mu{\k26}pyo{\k22}jeong{\k21}han {\k33}eol{\k32}gul{\k17}do {\k28}jae{\k22}min{\k43}ne?
+Dialogue: 0,0:00:45.06,0:00:47.90,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k45}oh-{\k36}oh {\k26}jji{\k18}rit{\k49}hae
+Dialogue: 0,0:00:46.80,0:00:49.86,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k44}oh-{\k43}oh {\k22}ttak {\k20}geol{\k23}lyeot{\k44}ji
+Dialogue: 0,0:00:48.90,0:00:52.70,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k26}seo{\k23}ro {\k33}nu{\k35}ni {\k14}ma{\kf139}riya
+Dialogue: 0,0:00:51.27,0:00:56.36,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k29}sim{\k24}jang'{\k44}i {\k42}{\rEnglish}up {\k65}down {\k45}down {\k21}{\r}tto {\k44}{\rEnglish}up {\k85}down
+Dialogue: 0,0:00:55.26,0:00:59.38,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k22}sa{\k45}rang'{\k36}ui {\k42}hwa{\k30}sa{\k24}reul {\k32}dang{\k32}gyeo {\k39}bwa
+Dialogue: 0,0:00:58.28,0:01:03.56,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k27}sim{\k22}jang'{\k42}i {\k42}{\rEnglish}up {\k87}down {\k45}{\r}tto {\k40}{\rEnglish}up {\kf113}down
+Dialogue: 0,0:01:02.46,0:01:05.86,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k33}i{\k31}reo{\k21}da {\k31}no{\k34}chi{\k19}ge{\k61}sseo
+Dialogue: 0,0:01:05.03,0:01:07.03,English,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Catch {\k45}catch
+Dialogue: 0,0:01:05.93,0:01:08.77,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Dialogue: 0,0:01:07.67,0:01:10.51,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Dialogue: 0,0:01:09.41,0:01:12.24,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Dialogue: 0,0:01:11.15,0:01:13.99,English,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Mm-{\k33}mm-{\k65}mm {\k21}ba{\k22}by
+Dialogue: 0,0:01:12.89,0:01:15.73,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k42}da
+Dialogue: 0,0:01:14.63,0:01:17.47,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Dialogue: 0,0:01:16.37,0:01:19.20,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Dialogue: 0,0:01:20.07,0:01:22.68,English,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Mm-{\k23}mm-{\k31}mm-{\k13}mm-{\k30}mm-{\k21}mm
+Dialogue: 0,0:01:21.80,0:01:24.42,English,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Mm-{\k21}mm-{\k22}mm-{\k11}mm-{\k20}mm {\k23}ba{\k20}by
+Dialogue: 0,0:01:23.55,0:01:26.16,English,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Mm-{\k23}mm-{\k31}mm-{\k13}mm-{\k30}mm-{\k21}mm
+Dialogue: 0,0:01:26.32,0:01:30.95,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k29}go{\k18}mi{\k44}rang {\k22}yeo{\k22}u {\k42}dul {\k45}da {\k38}da{\k25}lat{\k68}jyo
+Dialogue: 0,0:01:29.85,0:01:34.42,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k22}kko{\k21}ri{\k43}do {\k16}i{\k28}sseo{\k40}yo {\k43}cham {\k35}ye{\k30}ppeu{\k69}jyo?
+Dialogue: 0,0:01:33.94,0:01:36.60,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k15}dong{\k12}geu{\k16}ra{\k24}ke {\k24}nu{\k20}neul {\k24}tteu{\k21}myeon
+Dialogue: 0,0:01:35.50,0:01:39.43,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ban{\k24}chi{\k22}gin{\k18}de {\k25}cham{\k22}neun {\k22}geo{\k22}ra{\kf109}gu
+Dialogue: 0,0:01:38.68,0:01:41.82,English,,0,0,0,fx,{\k90\fad(300,200)}{\k25}Say {\k22}"Yel{\k44}low {\k26}C-{\k21}A-{\k21}R-{\k45}D"
+Dialogue: 0,0:01:40.72,0:01:43.57,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k43}oh-{\k36}oh {\k23}ip{\k25}sul {\k48}jjuk
+Dialogue: 0,0:01:42.47,0:01:45.30,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k42}oh-{\k38}oh {\k27}ti{\k21}rеul {\k21}nae {\k24}bwa?
+Dialogue: 0,0:01:44.20,0:01:47.64,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k43}oh-{\k44}oh {\k18}i {\k24}jeong{\k23}do{\k21}myeon {\k32}nun{\k29}chi
+Dialogue: 0,0:01:46.54,0:01:48.78,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k19}jom {\k22}chaе{\k28}sseul{\k45}kka?
+Dialogue: 0,0:01:47.68,0:01:50.52,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k42}oh-{\k43}oh {\k22}eo{\k22}meo{\k45}na
+Dialogue: 0,0:01:49.42,0:01:52.48,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k43}oh-{\k44}oh {\k20}ttak {\k22}geol{\k22}lyeot{\k45}ji
+Dialogue: 0,0:01:51.54,0:01:55.29,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ne {\k20}jin{\k40}si{\k31}meul {\k14}ma{\kf137}riya
+Dialogue: 0,0:01:53.89,0:01:58.98,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k29}sim{\k24}jang'{\k44}i {\k42}{\rEnglish}up {\k65}down {\k45}down {\k21}{\r}tto {\k44}{\rEnglish}up {\k85}down
+Dialogue: 0,0:01:57.88,0:02:02.00,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k22}sa{\k45}rang'{\k36}ui {\k42}hwa{\k30}sa{\k24}reul {\k32}dang{\k32}gyeo {\k39}bwa
+Dialogue: 0,0:02:00.90,0:02:06.18,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k27}sim{\k22}jang'{\k42}i {\k42}{\rEnglish}up {\k87}down {\k45}{\r}tto {\k40}{\rEnglish}up {\kf113}down
+Dialogue: 0,0:02:05.08,0:02:08.48,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k33}i{\k31}reo{\k21}da {\k31}no{\k34}chi{\k19}ge{\k61}sseo
+Dialogue: 0,0:02:07.62,0:02:09.56,English,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Catch {\k39}catch
+Dialogue: 0,0:02:08.53,0:02:11.37,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Dialogue: 0,0:02:10.27,0:02:13.11,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Dialogue: 0,0:02:12.01,0:02:14.84,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Dialogue: 0,0:02:13.75,0:02:16.59,English,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Mm-{\k33}mm-{\k65}mm {\k21}ba{\k22}by
+Dialogue: 0,0:02:15.49,0:02:18.33,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k42}da
+Dialogue: 0,0:02:17.23,0:02:20.07,English,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Dialogue: 0,0:02:18.97,0:02:21.80,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Dialogue: 0,0:02:22.62,0:02:25.28,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ye{\k13}na {\k8}ji{\k13}geu{\k11}mi{\k12}na {\k22}ma{\k21}meul {\k21}kkok{\k23}kkok
+Dialogue: 0,0:02:24.18,0:02:27.22,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k23}sum{\k22}gi{\k21}neun {\k22}geol {\k17}mot{\k18}hae {\k71}cham
+Dialogue: 0,0:02:26.12,0:02:29.41,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k9}geu{\k36}ge {\k22}nan {\k22}ma{\k21}me {\k23}deu{\k23}neun {\k63}geol
+Dialogue: 0,0:02:28.31,0:02:31.39,English,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ba{\k21}by {\k25}catch {\k23}me {\k107}now
+Dialogue: 0,0:02:30.40,0:02:35.49,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k29}sim{\k24}jang'{\k44}i {\k42}{\rEnglish}up {\k66}down {\k44}down {\k21}{\r}tto {\k44}{\rEnglish}up {\k85}down
+Dialogue: 0,0:02:34.40,0:02:38.52,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k22}nun {\k44}gam{\k43}go {\k36}ttak {\k29}han {\k22}beon {\k30}dang{\k35}gyeo {\k41}bwa
+Dialogue: 0,0:02:37.42,0:02:42.69,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k26}sim{\k22}jang'{\k42}i {\k42}{\rEnglish}up {\k87}down {\k45}{\r}tto {\k40}{\rEnglish}up {\kf113}down
+Dialogue: 0,0:02:41.59,0:02:44.99,Korean,,0,0,0,fx,{\k90\fad(300,200)}{\k31}i{\k33}beo{\k21}nen {\k31}mat{\k34}chwo {\k23}bwa {\k57}kkok
+Dialogue: 0,0:02:44.13,0:02:46.14,English,,0,0,0,fx,{\k90\fad(300,200)}{\k47}Catch {\k44}catch
+Dialogue: 0,0:02:45.04,0:02:47.88,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Dialogue: 0,0:02:46.78,0:02:49.62,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Dialogue: 0,0:02:48.52,0:02:51.35,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Dialogue: 0,0:02:50.26,0:02:53.10,English,,0,0,0,fx,{\k90\fad(300,200)}{\k33}Mm-{\k33}mm-{\k65}mm {\k21}ba{\k22}by
+Dialogue: 0,0:02:52.00,0:02:54.84,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k42}da
+Dialogue: 0,0:02:53.74,0:02:56.58,English,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Da-{\k22}da-{\k22}ra-{\k21}da-{\k44}da
+Dialogue: 0,0:02:55.48,0:02:58.31,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
+Dialogue: 0,0:02:58.98,0:03:02.07,English,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Da-{\k22}da-{\k22}ra-{\k21}da-{\k43}da
