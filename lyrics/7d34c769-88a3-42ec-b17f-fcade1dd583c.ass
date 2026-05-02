@@ -16,11 +16,10 @@ Style: Moco,Arial,24,&H00FFFFFF,&H0015D729,&H00000000,&H00000000,-1,0,0,0,100,10
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Bambi,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♥{\\fs\\4a&HFF&} "!
-Comment: 0,0:00:00.00,0:00:00.00,Duo,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}🎵{\\fs\\4a&HFF&} "!
-Comment: 0,0:00:00.00,0:00:00.00,Moco,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}★{\\fs\\4a&HFF&} "!
-Comment: 0,0:00:00.50,0:00:14.39,Duo,,0,0,200,karaoke,{\k13890} {\rDuo\fs30\4a&H00&\c&HFFFFFF&}🎵{\fs\4a&HFF&} Duo {\rBambi\fs30\4a&H00&\c&HFFFFFF&}♥{\fs\4a&HFF&} Bambi {\rMoco\fs30\4a&H00&\c&HFFFFFF&}★{\fs\4a&HFF&} Moco
-Comment: 0,0:00:12.79,0:00:15.73,Duo,,0,0,0,karaoke,{\k20}RUN {\k55}IT {\rBambi\k21}u{\k16}chi{\k18}ra {\k18}to{\k20}ma{\k19}ran {\k67}nee {\k24}ma{\k16}da
+Comment: 0,0:00:12.79,0:00:15.73,Duo,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♪{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:12.79,0:00:15.73,Bambi,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♠{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:12.79,0:00:15.73,Moco,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♥{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.50,0:00:14.39,Duo,,0,0,200,karaoke,{\k13890} {\rDuo\fs30\4a&H00&\c&HFFFFFF&}♪{\fs\4a&HFF&} Duo {\rBambi\fs30\4a&H00&\c&HFFFFFF&}♠{\fs\4a&HFF&} Bambi {\rMoco\fs30\4a&H00&\c&HFFFFFF&}♥{\fs\4a&HFF&} Moco
 Comment: 0,0:00:15.74,0:00:18.70,Duo,,0,0,0,karaoke,{\k21}RUN {\k54}IT {\rMoco\k20}i{\k18}ki {\k19}yo{\k17}ri {\k18}sa{\k19}ki {\k39}ni {\k36}ko{\k19}e {\k16}ga
 Comment: 0,0:00:18.72,0:00:21.67,Duo,,0,0,0,karaoke,{\k19}BURN {\k55}IN {\rBambi\k17}hi{\k21}ka{\k18}ri {\k19}o{\k19}ma{\k19}e {\k51}ni {\k22}ya{\k17}mi {\k18}wo
 Comment: 0,0:00:21.68,0:00:23.88,Duo,,0,0,0,karaoke,{\k21}Run {\k16}it {\k19}Run {\k19}it {\k19}Run {\k18}it {\k19}Run {\k19}it {\k17}Run {\k19}it {\k16}Run {\k18}it
@@ -100,84 +99,83 @@ Comment: 0,0:03:05.57,0:03:07.94,Moco,,0,0,0,karaoke,{\k20}u{\k19}chi{\k16}ra {\
 Comment: 0,0:03:07.98,0:03:10.74,Moco,,0,0,0,karaoke,{\k19}NE{\k19}ON {\k17}ni {\k19}to{\k15}ke{\k23}ru {\k18}RI{\k19}DE {\k18}RI{\k19}DE {\k19}RI{\k18}DE {\k19}RI{\k19}DE {\k35}RIDE
 Comment: 0,0:03:10.94,0:03:13.73,Moco,,0,0,0,karaoke,{\k19}kur' {\k18}he {\k20}ku{\k17}ru {\k17}he {\k21}TO{\kf182}NIGHT~
 Comment: 0,0:03:13.91,0:03:16.98,Moco,,0,0,0,karaoke,{\k19}moe{\k19}ro {\k19}mo{\k18}e{\k37}ro {\kf195}SKY~
-Dialogue: 0,0:00:00.00,0:00:14.59,Duo,,0,0,200,fx,{\k50\fad(500,200)}{\fs30}{\fs\4a&HFF&} {\k13890} {\rDuo\fs30\4a&H00&\c&HFFFFFF&}🎵{\fs\4a&HFF&} Duo {\rBambi\fs30\4a&H00&\c&HFFFFFF&}♥{\fs\4a&HFF&} Bambi {\rMoco\fs30\4a&H00&\c&HFFFFFF&}★{\fs\4a&HFF&} Moco
-Dialogue: 0,0:00:11.89,0:00:15.93,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k20}RUN {\k55}IT {\rBambi\k21}u{\k16}chi{\k18}ra {\k18}to{\k20}ma{\k19}ran {\k67}nee {\k24}ma{\k16}da
-Dialogue: 0,0:00:14.84,0:00:18.90,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k21}RUN {\k54}IT {\rMoco\k20}i{\k18}ki {\k19}yo{\k17}ri {\k18}sa{\k19}ki {\k39}ni {\k36}ko{\k19}e {\k16}ga
-Dialogue: 0,0:00:17.82,0:00:21.87,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k19}BURN {\k55}IN {\rBambi\k17}hi{\k21}ka{\k18}ri {\k19}o{\k19}ma{\k19}e {\k51}ni {\k22}ya{\k17}mi {\k18}wo
-Dialogue: 0,0:00:20.78,0:00:24.08,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k21}Run {\k16}it {\k19}Run {\k19}it {\k19}Run {\k18}it {\k19}Run {\k19}it {\k17}Run {\k19}it {\k16}Run {\k18}it
-Dialogue: 0,0:00:22.99,0:00:25.22,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k22}Run {\k16}it {\k20}Run {\k18}it {\k18}Run {\k19}it
-Dialogue: 0,0:00:24.49,0:00:27.81,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k18}Run {\k20}it {\k18}Run {\k18}it {\k19}Run {\k18}it {\k19}Run {\k19}it {\k18}Run {\k18}it {\k19}Run {\k18}it
-Dialogue: 0,0:00:27.03,0:00:30.88,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k20}i{\k23}ki{\k19}za{\k20}ma {\k17}so{\k20}no {\k18}ma{\k15}ma {\k42}FLE{\k16}X {\k16}de {\k21}RUN {\k28}IT
-Dialogue: 0,0:00:29.85,0:00:33.36,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k20}JET {\k19}BLA{\k18}CK {\k36}MIND {\k7}ki{\k12}rei {\k11}su{\k9}gi{\k18}te {\k19}gyak' {\k18}ni {\k18}ko{\k36}wai
-Dialogue: 0,0:00:32.81,0:00:36.34,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k20}yo{\k18}yuu {\k18}no {\k36}SMILE {\k9}shi{\k11}zu{\k11}mu {\k8}fu{\k12}ne {\k7}ni {\k18}wa {\k19}no{\k19}ra {\k37}nee
-Dialogue: 0,0:00:35.78,0:00:39.29,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k18}shi{\k18}zu{\k13}ka {\k8}ni {\k38}RISE {\k8}hi{\k8}ka{\k12}ri {\k7}yo{\k19}ri {\k10}ka{\k9}ge {\k19}ga {\k18}ni{\k36}au
-Dialogue: 0,0:00:38.19,0:00:42.05,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k10}a{\k9}ga{\k7}ru {\k12}ho{\k18}do {\k19}NOI{\k18}SE {\k10}de{\k9}mo {\k18}mi{\k19}mi {\k19}ni {\k18}wa {\k18}to{\k19}do{\k23}ka {\k30}nee
-Dialogue: 0,0:00:40.96,0:00:43.17,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k19}kei{\k20}san {\k18}to {\k18}chok{\k11}kan {\k8}no {\k17}CROSS
-Dialogue: 0,0:00:42.08,0:00:44.82,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k18}sei{\k12}do {\k8}wa {\k17}RA{\k20}ZOR {\k17}BLADE {\k39}un {\k33}NOPE?
-Dialogue: 0,0:00:43.75,0:00:46.32,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k18}kek{\k9}ka {\k11}ga {\k18}shou{\k18}mei {\k37}FAKE {\k36}NOPE
-Dialogue: 0,0:00:45.23,0:00:47.03,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k11}u{\k8}chi{\k8}ra {\k11}ga {\k16}hon{\k16}mei
-Dialogue: 0,0:00:45.96,0:00:48.55,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k8}to{\k12}ma{\k7}ru {\k10}ri{\k21}yuu {\k17}nee {\k9}zen{\k9}bu {\k20}kou{\k36}shin
-Dialogue: 0,0:00:47.45,0:00:49.84,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k9}i{\k10}ki{\k10}tsu{\k8}gi {\k19}nash' {\k8}de{\k10}mo {\k11}su{\k8}su{\k19}mu {\k17}FLOW
-Dialogue: 0,0:00:48.75,0:00:51.32,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k18}han{\k11}sha{\k8}te{\k18}ki {\k20}KILL{\k9} FEE{\k8}L {\k19}ja{\k9}na{\k9}ku {\k18}CODE
-Dialogue: 0,0:00:50.22,0:00:52.98,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k20}HIE{\k17}RAR{\k20}CHY {\k18}TOP {\k9}na{\k9}da{\k8}shi {\k11}de {\k8}yo{\k10}ba{\k7}re{\k11}ru {\k18}ZONE
-Dialogue: 0,0:00:51.88,0:00:54.66,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k21}MI{\k10}C {\k8}ni{\k9}giru {\k8}shun{\k19}kan {\k10}kuu{\k10}ki {\k18}ga {\k19}free{\k18}ze {\k18}kon
-Dialogue: 0,0:00:54.86,0:00:57.43,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k9}ki{\k12}ba {\k7}mu{\k8}ki{\k20}dash' {\k9}ko{\k10}e {\k18}ga {\k21}BANG {\k19}BANG {\k14}NO
-Dialogue: 0,0:00:56.52,0:00:58.97,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k18}sa{\k11}sa{\k9}ru {\k17}zen{\k20}shin {\k18}CLACK {\k19}CLACK {\k11}ji{\k12}men
-Dialogue: 0,0:00:57.90,0:01:00.16,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k11}ke{\k15}ru {\k21}STEP {\k19}shin{\k19}dou {\k17}ga {\k14}TRAP
-Dialogue: 0,0:00:59.12,0:01:02.03,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k11}ki{\k9}e{\k17}ru {\k20}kyou{\k16}kai{\k20}sen {\k19}kok' {\k7}ka{\k11}ra {\k18}O{\k20}VER{\k13}LAP
-Dialogue: 0,0:01:02.25,0:01:04.66,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k10}me {\k9}ga {\k21}att' {\k18}shun{\k17}kan {\k10}shu{\k20}ryou {\k18}kai{\k7}shi
-Dialogue: 0,0:01:03.56,0:01:06.68,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k18}en{\k19}ryo {\k9}ZE{\k10}RO {\k20}hon{\k18}nou {\k10}shou{\k17}bu {\k26}WILD {\k20}SPE{\k35}CIES
-Dialogue: 0,0:01:05.64,0:01:08.13,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k24}shitt' {\k10}ya {\k17}'wa{\k19}sa {\k18}zen{\k19}bu {\k32}FEED
-Dialogue: 0,0:01:07.08,0:01:09.66,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k19}nen{\k19}ryou {\k18}ni {\k10}sh'te {\k9}to{\k17}bu {\k19}NO {\k37}LEASH
-Dialogue: 0,0:01:08.56,0:01:10.76,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k9}i{\k10}ki {\k9}a{\k17}rai {\k11}ma{\k8}ma {\k9}de{\k7}mo {\k12}i{\k10}ke{\k8}ru
-Dialogue: 0,0:01:10.02,0:01:12.44,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k10}ha{\k11}ya{\k9}sa {\k10}wa {\k18}sai{\k18}nou {\k9}ja{\k20}ne {\k8}ku{\k19}se
-Dialogue: 0,0:01:11.56,0:01:13.85,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k9}ko{\k16}ron{\k9}de{\k20}mo {\k9}su{\k10}gu {\k14}ha{\k10}shi{\k9}re{\k13}ru
-Dialogue: 0,0:01:13.00,0:01:15.47,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k20}mui{\k9}te{\k7}ru {\k22}hou{\k17}kou {\k10}wa {\k9}shou{\k8}ri {\k10}da{\k25}ke
-Dialogue: 0,0:01:17.07,0:01:21.14,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k18}RUN {\k57}IT {\rBambi\k22}u{\k14}chi{\k19}ra {\k19}to{\k19}ma{\k19}ran {\k74}nee {\k17}ma{\k19}da
-Dialogue: 0,0:01:20.05,0:01:24.11,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k18}RUN {\k55}IT {\rMoco\k19}i{\k18}ki {\k19}yo{\k17}ri {\k19}sa{\k20}ki {\k37}ni {\k37}ko{\k18}e {\k19}ga
-Dialogue: 0,0:01:23.01,0:01:27.07,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k18}BURN {\k57}IN {\rBambi\k15}hi{\k21}ka{\k17}ri {\k20}ou {\k19}ma{\k19}e {\k55}ni {\k18}ya{\k19}mi {\k18}wo
-Dialogue: 0,0:01:25.97,0:01:29.29,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k18}Run {\k20}it {\k18}Run {\k19}it {\k16}Run {\k21}it {\k18}Run {\k19}it {\k17}Run {\k19}it {\k19}Run {\k18}it
-Dialogue: 0,0:01:28.19,0:01:30.40,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k21}Run {\k18}it {\k18}Run {\k18}it {\k18}Run {\k18}it
-Dialogue: 0,0:01:29.67,0:01:33.36,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k18}i{\k19}ki{\k19}za{\k18}ma {\k20}so{\k17}no {\k20}ma{\k18}ma {\k35}FLE{\k20}X {\k18}de {\rDuo\k19}RUN {\k18}IT
-Dialogue: 0,0:01:32.64,0:01:36.33,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k9}u{\k9}ta{\k15}gau {\k22}hi{\k19}ma {\k37}mo {\k74}nee {\k18}JUST {\k19}A {\rDuo\k19}RUN {\k18}IT
-Dialogue: 0,0:01:35.59,0:01:39.18,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k10}da{\k10}rek' {\k19}ga {\k19}mi{\k16}chi {\k19}fu{\k19}sa{\k19}gou {\k18}ga {\k38}kan{\k24}kei {\k38}nee
-Dialogue: 0,0:01:38.21,0:01:41.47,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k18}mi{\k17}ra{\k18}i {\k19}mo {\k19}ka{\k20}ko {\k21}mo {\k32}zen{\k21}bu {\k18}RUN {\k13}IT
-Dialogue: 0,0:01:40.38,0:01:41.89,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k21}Run {\k20}it
-Dialogue: 0,0:01:52.10,0:01:55.59,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k21}u{\k13}chi{\k20}ra {\k38}HIGH {\k36}HIGH {\k38}HIGH {\k32}HIGH {\k41}HIGH
-Dialogue: 0,0:01:54.49,0:01:58.71,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k19}yo{\k19}ru {\k18}wo {\k18}ke{\k21}to{\k16}bas' {\k38}RIDE {\k37}RIDE {\k36}RIDE {\k38}RIDE {\k52}RIDE
-Dialogue: 0,0:01:57.64,0:02:01.32,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k56}toman {\k16}nee {\k21}TO{\kf165}NIGHT~
-Dialogue: 0,0:02:00.22,0:02:04.60,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k19}sa{\k20}ke{\k17}be {\k19}sa{\k19}ke{\k37}be {\kf197}FLY~
-Dialogue: 0,0:02:03.93,0:02:07.44,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k19}u{\k19}chi{\k18}ra {\k37}HIGH {\k39}HIGH {\k36}HIGH {\k36}HIGH {\k37}HIGH
-Dialogue: 0,0:02:06.34,0:02:10.40,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k19}NE{\k19}ON {\k17}ni {\k19}to{\k15}ke{\k23}ru {\k18}RI{\k19}DE {\k18}RI{\k19}DE {\k19}RI{\k18}DE {\k19}RI{\k19}DE {\k35}RIDE
-Dialogue: 0,0:02:09.30,0:02:13.34,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k19}kur' {\k18}he {\k20}ku{\k17}ru {\k17}he {\k21}TO{\kf182}NIGHT~
-Dialogue: 0,0:02:12.26,0:02:16.70,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k20}moe{\k18}ro {\k19}mo{\k18}e{\k37}ro {\kf222}SKY~
-Dialogue: 0,0:02:16.33,0:02:18.92,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k10}ka{\k11}ge {\k12}fu{\k9}mi {\k8}shi{\k9}me {\k10}su{\k12}sum' {\k14}yo{\k11}ru {\k12}no {\k16}ma{\k15}chi
-Dialogue: 0,0:02:17.83,0:02:20.36,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k10}NE{\k11}ON {\k7}hi{\k7}ka{\k10}ri {\k9}de {\k7}me {\k12}ga {\k38}BURN {\k32}BURN
-Dialogue: 0,0:02:19.29,0:02:21.80,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k12}da{\k9}re {\k10}mo {\k8}to{\k8}me{\k11}ra {\k17}nee {\k37}SPEED {\k29}SPEED
-Dialogue: 0,0:02:20.79,0:02:23.32,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k18}kei{\k19}san {\k18}doo{\k7}ri {\k8}no {\k22}CHA{\k18}OS {\k33}FEEL
-Dialogue: 0,0:02:22.59,0:02:24.82,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k22}STEP {\k19}fu{\k10}mi {\k11}a{\k17}ras' {\k18}BOOM {\k16}BOOM
-Dialogue: 0,0:02:23.73,0:02:26.28,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k12}sa{\k8}ke{\k9}bi{\k10}go{\k9}e {\k7}de {\k11}E{\k11}CHO {\k37}ZOOM {\k31}ZOOM
-Dialogue: 0,0:02:25.23,0:02:27.79,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k18}LIGH{\k9}T {\k19}kou{\k21}sen {\k8}mi {\k19}wo {\k18}ma{\k18}ka{\k13}se
-Dialogue: 0,0:02:26.72,0:02:29.37,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k10}to{\k8}ma{\k8}ru {\k12}ri{\k16}yuu {\k11}na{\k10}shi {\k15}zen{\k20}in {\k45}CHASE
-Dialogue: 0,0:02:28.37,0:02:32.22,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k20}kou{\k19}sou {\k19}bi{\k18}ru {\k10}no {\k8}hi{\k18}ka{\k20}ri {\k16}ni {\k21}ka{\k15}ge {\k20}o{\k21}to{\k17}~{\k33}su
-Dialogue: 0,0:02:31.15,0:02:35.05,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k19}shi{\k16}zu{\k21}ka {\k20}ni {\k18}i{\k18}ki {\k18}wo {\k20}to{\k18}me {\k19}yo{\k18}ru {\k19}wo {\k37}yo{\k19}mu
-Dialogue: 0,0:02:34.10,0:02:38.06,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k22}da{\k19}re {\k15}mo {\k20}ki{\k18}zu{\k20}ka{\k18}nu {\k19}so{\k20}ku{\k17}do {\k22}de {\k15}su{\k37}su{\k24}mu
-Dialogue: 0,0:02:37.08,0:02:41.09,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k19}ko{\k19}no {\k18}shun{\k20}kan {\k35}ko{\k37}so {\k20}'chi{\k20}ra {\k17}no {\k25}ji{\k32}yu{\k29}u
-Dialogue: 0,0:02:40.03,0:02:42.61,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k13}NE{\k25}ON {\k12}ke{\k6}chi{\k19}rash'{\k18}te {\k20}STEP {\k18}BOOM {\k17}BOOM
-Dialogue: 0,0:02:41.52,0:02:44.10,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k12}wa{\k24}rai{\k9}go{\k11}e {\k18}ga {\k9}F{\k18}LOW {\k11}ni {\k19}BOUNCE {\k17}BOUNCE
-Dialogue: 0,0:02:43.01,0:02:45.36,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k7}LIGH{\k12}T {\k17}ni {\k9}sa{\k9}so{\k11}wa{\k11}re {\k35}JUMP {\k14}JUMP
-Dialogue: 0,0:02:44.48,0:02:47.24,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k10}to{\k10}ma{\k11}ru {\k8}ri{\k16}yuu {\k10}na{\k12}shi {\k18}zen{\k16}shin {\k55}THRILL
-Dialogue: 0,0:02:46.70,0:02:48.54,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k13}shi{\k8}zu{\k9}ka {\k10}ni {\k34}HIGH
-Dialogue: 0,0:02:47.40,0:02:49.28,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k23}Feel {\k20}it {\k35}rise
-Dialogue: 0,0:02:48.20,0:02:49.95,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k10}bu{\k8}chi{\k10}a{\k9}ge {\k28}FLY
-Dialogue: 0,0:02:48.93,0:02:50.89,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k21}No {\k17}dis{\k48}guise
-Dialogue: 0,0:02:49.62,0:02:51.50,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k8}su{\k12}ka{\k9}sa{\k15}zu {\k34}GLIDES
-Dialogue: 0,0:02:50.41,0:02:53.12,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}🎵{\fs\4a&HFF&} {\k20}EYES {\k19}ON {\k36}PRIZE {\k17}sai{\k20}kak'{\k19}tei {\k30}RISE
-Dialogue: 0,0:02:52.82,0:02:56.32,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k21}u{\k18}chi{\k16}ra {\k38}HIGH {\k39}HIGH {\k35}HIGH {\k37}HIGH {\k36}HIGH
-Dialogue: 0,0:02:55.23,0:02:59.34,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k19}yo{\k18}ru {\k19}wo {\k19}ke{\k15}to{\k14}ba{\k7}su {\k19}RI{\k19}DE {\k15}RI{\k22}DE {\k18}RI{\k18}DE {\k19}RI{\k19}DE {\k41}RIDE
-Dialogue: 0,0:02:58.37,0:03:01.85,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k20}to{\k37}man {\k18}nee {\k19}TO{\kf144}NIGHT~
-Dialogue: 0,0:03:00.97,0:03:05.46,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k17}sa{\k21}ke{\k18}be {\k19}sa{\k18}ke{\k36}be {\kf210}FLY~
-Dialogue: 0,0:03:04.67,0:03:08.14,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k20}u{\k19}chi{\k16}ra {\k38}HIGH {\k39}HIGH {\k35}HIGH {\k37}HIGH {\k51}HIGH
-Dialogue: 0,0:03:07.08,0:03:10.94,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k19}NE{\k19}ON {\k17}ni {\k19}to{\k15}ke{\k23}ru {\k18}RI{\k19}DE {\k18}RI{\k19}DE {\k19}RI{\k18}DE {\k19}RI{\k19}DE {\k35}RIDE
-Dialogue: 0,0:03:10.04,0:03:13.93,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k19}kur' {\k18}he {\k20}ku{\k17}ru {\k17}he {\k21}TO{\kf182}NIGHT~
-Dialogue: 0,0:03:13.01,0:03:17.18,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}★{\fs\4a&HFF&} {\k19}moe{\k19}ro {\k19}mo{\k18}e{\k37}ro {\kf195}SKY~
+Dialogue: 0,0:00:00.00,0:00:14.59,Duo,,0,0,200,fx,{\k50\fad(500,200)}{\fs30}{\fs\4a&HFF&} {\k13890} {\rDuo\fs30\4a&H00&\c&HFFFFFF&}♪{\fs\4a&HFF&} Duo {\rBambi\fs30\4a&H00&\c&HFFFFFF&}♠{\fs\4a&HFF&} Bambi {\rMoco\fs30\4a&H00&\c&HFFFFFF&}♥{\fs\4a&HFF&} Moco
+Dialogue: 0,0:00:14.84,0:00:18.90,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k21}RUN {\k54}IT {\rMoco\k20}i{\k18}ki {\k19}yo{\k17}ri {\k18}sa{\k19}ki {\k39}ni {\k36}ko{\k19}e {\k16}ga
+Dialogue: 0,0:00:17.82,0:00:21.87,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k19}BURN {\k55}IN {\rBambi\k17}hi{\k21}ka{\k18}ri {\k19}o{\k19}ma{\k19}e {\k51}ni {\k22}ya{\k17}mi {\k18}wo
+Dialogue: 0,0:00:20.78,0:00:24.08,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k21}Run {\k16}it {\k19}Run {\k19}it {\k19}Run {\k18}it {\k19}Run {\k19}it {\k17}Run {\k19}it {\k16}Run {\k18}it
+Dialogue: 0,0:00:22.99,0:00:25.22,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k22}Run {\k16}it {\k20}Run {\k18}it {\k18}Run {\k19}it
+Dialogue: 0,0:00:24.49,0:00:27.81,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k18}Run {\k20}it {\k18}Run {\k18}it {\k19}Run {\k18}it {\k19}Run {\k19}it {\k18}Run {\k18}it {\k19}Run {\k18}it
+Dialogue: 0,0:00:27.03,0:00:30.88,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k20}i{\k23}ki{\k19}za{\k20}ma {\k17}so{\k20}no {\k18}ma{\k15}ma {\k42}FLE{\k16}X {\k16}de {\k21}RUN {\k28}IT
+Dialogue: 0,0:00:29.85,0:00:33.36,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k20}JET {\k19}BLA{\k18}CK {\k36}MIND {\k7}ki{\k12}rei {\k11}su{\k9}gi{\k18}te {\k19}gyak' {\k18}ni {\k18}ko{\k36}wai
+Dialogue: 0,0:00:32.81,0:00:36.34,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k20}yo{\k18}yuu {\k18}no {\k36}SMILE {\k9}shi{\k11}zu{\k11}mu {\k8}fu{\k12}ne {\k7}ni {\k18}wa {\k19}no{\k19}ra {\k37}nee
+Dialogue: 0,0:00:35.78,0:00:39.29,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k18}shi{\k18}zu{\k13}ka {\k8}ni {\k38}RISE {\k8}hi{\k8}ka{\k12}ri {\k7}yo{\k19}ri {\k10}ka{\k9}ge {\k19}ga {\k18}ni{\k36}au
+Dialogue: 0,0:00:38.19,0:00:42.05,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k10}a{\k9}ga{\k7}ru {\k12}ho{\k18}do {\k19}NOI{\k18}SE {\k10}de{\k9}mo {\k18}mi{\k19}mi {\k19}ni {\k18}wa {\k18}to{\k19}do{\k23}ka {\k30}nee
+Dialogue: 0,0:00:40.96,0:00:43.17,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k19}kei{\k20}san {\k18}to {\k18}chok{\k11}kan {\k8}no {\k17}CROSS
+Dialogue: 0,0:00:42.08,0:00:44.82,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k18}sei{\k12}do {\k8}wa {\k17}RA{\k20}ZOR {\k17}BLADE {\k39}un {\k33}NOPE?
+Dialogue: 0,0:00:43.75,0:00:46.32,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k18}kek{\k9}ka {\k11}ga {\k18}shou{\k18}mei {\k37}FAKE {\k36}NOPE
+Dialogue: 0,0:00:45.23,0:00:47.03,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k11}u{\k8}chi{\k8}ra {\k11}ga {\k16}hon{\k16}mei
+Dialogue: 0,0:00:45.96,0:00:48.55,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k8}to{\k12}ma{\k7}ru {\k10}ri{\k21}yuu {\k17}nee {\k9}zen{\k9}bu {\k20}kou{\k36}shin
+Dialogue: 0,0:00:47.45,0:00:49.84,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k9}i{\k10}ki{\k10}tsu{\k8}gi {\k19}nash' {\k8}de{\k10}mo {\k11}su{\k8}su{\k19}mu {\k17}FLOW
+Dialogue: 0,0:00:48.75,0:00:51.32,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k18}han{\k11}sha{\k8}te{\k18}ki {\k20}KILL{\k9} FEE{\k8}L {\k19}ja{\k9}na{\k9}ku {\k18}CODE
+Dialogue: 0,0:00:50.22,0:00:52.98,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k20}HIE{\k17}RAR{\k20}CHY {\k18}TOP {\k9}na{\k9}da{\k8}shi {\k11}de {\k8}yo{\k10}ba{\k7}re{\k11}ru {\k18}ZONE
+Dialogue: 0,0:00:51.88,0:00:54.66,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k21}MI{\k10}C {\k8}ni{\k9}giru {\k8}shun{\k19}kan {\k10}kuu{\k10}ki {\k18}ga {\k19}free{\k18}ze {\k18}kon
+Dialogue: 0,0:00:54.86,0:00:57.43,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k9}ki{\k12}ba {\k7}mu{\k8}ki{\k20}dash' {\k9}ko{\k10}e {\k18}ga {\k21}BANG {\k19}BANG {\k14}NO
+Dialogue: 0,0:00:56.52,0:00:58.97,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k18}sa{\k11}sa{\k9}ru {\k17}zen{\k20}shin {\k18}CLACK {\k19}CLACK {\k11}ji{\k12}men
+Dialogue: 0,0:00:57.90,0:01:00.16,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k11}ke{\k15}ru {\k21}STEP {\k19}shin{\k19}dou {\k17}ga {\k14}TRAP
+Dialogue: 0,0:00:59.12,0:01:02.03,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k11}ki{\k9}e{\k17}ru {\k20}kyou{\k16}kai{\k20}sen {\k19}kok' {\k7}ka{\k11}ra {\k18}O{\k20}VER{\k13}LAP
+Dialogue: 0,0:01:02.25,0:01:04.66,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k10}me {\k9}ga {\k21}att' {\k18}shun{\k17}kan {\k10}shu{\k20}ryou {\k18}kai{\k7}shi
+Dialogue: 0,0:01:03.56,0:01:06.68,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k18}en{\k19}ryo {\k9}ZE{\k10}RO {\k20}hon{\k18}nou {\k10}shou{\k17}bu {\k26}WILD {\k20}SPE{\k35}CIES
+Dialogue: 0,0:01:05.64,0:01:08.13,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k24}shitt' {\k10}ya {\k17}'wa{\k19}sa {\k18}zen{\k19}bu {\k32}FEED
+Dialogue: 0,0:01:07.08,0:01:09.66,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k19}nen{\k19}ryou {\k18}ni {\k10}sh'te {\k9}to{\k17}bu {\k19}NO {\k37}LEASH
+Dialogue: 0,0:01:08.56,0:01:10.76,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k9}i{\k10}ki {\k9}a{\k17}rai {\k11}ma{\k8}ma {\k9}de{\k7}mo {\k12}i{\k10}ke{\k8}ru
+Dialogue: 0,0:01:10.02,0:01:12.44,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k10}ha{\k11}ya{\k9}sa {\k10}wa {\k18}sai{\k18}nou {\k9}ja{\k20}ne {\k8}ku{\k19}se
+Dialogue: 0,0:01:11.56,0:01:13.85,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k9}ko{\k16}ron{\k9}de{\k20}mo {\k9}su{\k10}gu {\k14}ha{\k10}shi{\k9}re{\k13}ru
+Dialogue: 0,0:01:13.00,0:01:15.47,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k20}mui{\k9}te{\k7}ru {\k22}hou{\k17}kou {\k10}wa {\k9}shou{\k8}ri {\k10}da{\k25}ke
+Dialogue: 0,0:01:17.07,0:01:21.14,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k18}RUN {\k57}IT {\rBambi\k22}u{\k14}chi{\k19}ra {\k19}to{\k19}ma{\k19}ran {\k74}nee {\k17}ma{\k19}da
+Dialogue: 0,0:01:20.05,0:01:24.11,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k18}RUN {\k55}IT {\rMoco\k19}i{\k18}ki {\k19}yo{\k17}ri {\k19}sa{\k20}ki {\k37}ni {\k37}ko{\k18}e {\k19}ga
+Dialogue: 0,0:01:23.01,0:01:27.07,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k18}BURN {\k57}IN {\rBambi\k15}hi{\k21}ka{\k17}ri {\k20}ou {\k19}ma{\k19}e {\k55}ni {\k18}ya{\k19}mi {\k18}wo
+Dialogue: 0,0:01:25.97,0:01:29.29,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k18}Run {\k20}it {\k18}Run {\k19}it {\k16}Run {\k21}it {\k18}Run {\k19}it {\k17}Run {\k19}it {\k19}Run {\k18}it
+Dialogue: 0,0:01:28.19,0:01:30.40,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k21}Run {\k18}it {\k18}Run {\k18}it {\k18}Run {\k18}it
+Dialogue: 0,0:01:29.67,0:01:33.36,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k18}i{\k19}ki{\k19}za{\k18}ma {\k20}so{\k17}no {\k20}ma{\k18}ma {\k35}FLE{\k20}X {\k18}de {\rDuo\k19}RUN {\k18}IT
+Dialogue: 0,0:01:32.64,0:01:36.33,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k9}u{\k9}ta{\k15}gau {\k22}hi{\k19}ma {\k37}mo {\k74}nee {\k18}JUST {\k19}A {\rDuo\k19}RUN {\k18}IT
+Dialogue: 0,0:01:35.59,0:01:39.18,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k10}da{\k10}rek' {\k19}ga {\k19}mi{\k16}chi {\k19}fu{\k19}sa{\k19}gou {\k18}ga {\k38}kan{\k24}kei {\k38}nee
+Dialogue: 0,0:01:38.21,0:01:41.47,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k18}mi{\k17}ra{\k18}i {\k19}mo {\k19}ka{\k20}ko {\k21}mo {\k32}zen{\k21}bu {\k18}RUN {\k13}IT
+Dialogue: 0,0:01:40.38,0:01:41.89,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k21}Run {\k20}it
+Dialogue: 0,0:01:52.10,0:01:55.59,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k21}u{\k13}chi{\k20}ra {\k38}HIGH {\k36}HIGH {\k38}HIGH {\k32}HIGH {\k41}HIGH
+Dialogue: 0,0:01:54.49,0:01:58.71,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k19}yo{\k19}ru {\k18}wo {\k18}ke{\k21}to{\k16}bas' {\k38}RIDE {\k37}RIDE {\k36}RIDE {\k38}RIDE {\k52}RIDE
+Dialogue: 0,0:01:57.64,0:02:01.32,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k56}toman {\k16}nee {\k21}TO{\kf165}NIGHT~
+Dialogue: 0,0:02:00.22,0:02:04.60,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k19}sa{\k20}ke{\k17}be {\k19}sa{\k19}ke{\k37}be {\kf197}FLY~
+Dialogue: 0,0:02:03.93,0:02:07.44,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k19}u{\k19}chi{\k18}ra {\k37}HIGH {\k39}HIGH {\k36}HIGH {\k36}HIGH {\k37}HIGH
+Dialogue: 0,0:02:06.34,0:02:10.40,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k19}NE{\k19}ON {\k17}ni {\k19}to{\k15}ke{\k23}ru {\k18}RI{\k19}DE {\k18}RI{\k19}DE {\k19}RI{\k18}DE {\k19}RI{\k19}DE {\k35}RIDE
+Dialogue: 0,0:02:09.30,0:02:13.34,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k19}kur' {\k18}he {\k20}ku{\k17}ru {\k17}he {\k21}TO{\kf182}NIGHT~
+Dialogue: 0,0:02:12.26,0:02:16.70,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k20}moe{\k18}ro {\k19}mo{\k18}e{\k37}ro {\kf222}SKY~
+Dialogue: 0,0:02:16.33,0:02:18.92,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k10}ka{\k11}ge {\k12}fu{\k9}mi {\k8}shi{\k9}me {\k10}su{\k12}sum' {\k14}yo{\k11}ru {\k12}no {\k16}ma{\k15}chi
+Dialogue: 0,0:02:17.83,0:02:20.36,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k10}NE{\k11}ON {\k7}hi{\k7}ka{\k10}ri {\k9}de {\k7}me {\k12}ga {\k38}BURN {\k32}BURN
+Dialogue: 0,0:02:19.29,0:02:21.80,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k12}da{\k9}re {\k10}mo {\k8}to{\k8}me{\k11}ra {\k17}nee {\k37}SPEED {\k29}SPEED
+Dialogue: 0,0:02:20.79,0:02:23.32,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k18}kei{\k19}san {\k18}doo{\k7}ri {\k8}no {\k22}CHA{\k18}OS {\k33}FEEL
+Dialogue: 0,0:02:22.59,0:02:24.82,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k22}STEP {\k19}fu{\k10}mi {\k11}a{\k17}ras' {\k18}BOOM {\k16}BOOM
+Dialogue: 0,0:02:23.73,0:02:26.28,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k12}sa{\k8}ke{\k9}bi{\k10}go{\k9}e {\k7}de {\k11}E{\k11}CHO {\k37}ZOOM {\k31}ZOOM
+Dialogue: 0,0:02:25.23,0:02:27.79,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k18}LIGH{\k9}T {\k19}kou{\k21}sen {\k8}mi {\k19}wo {\k18}ma{\k18}ka{\k13}se
+Dialogue: 0,0:02:26.72,0:02:29.37,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k10}to{\k8}ma{\k8}ru {\k12}ri{\k16}yuu {\k11}na{\k10}shi {\k15}zen{\k20}in {\k45}CHASE
+Dialogue: 0,0:02:28.37,0:02:32.22,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k20}kou{\k19}sou {\k19}bi{\k18}ru {\k10}no {\k8}hi{\k18}ka{\k20}ri {\k16}ni {\k21}ka{\k15}ge {\k20}o{\k21}to{\k17}~{\k33}su
+Dialogue: 0,0:02:31.15,0:02:35.05,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k19}shi{\k16}zu{\k21}ka {\k20}ni {\k18}i{\k18}ki {\k18}wo {\k20}to{\k18}me {\k19}yo{\k18}ru {\k19}wo {\k37}yo{\k19}mu
+Dialogue: 0,0:02:34.10,0:02:38.06,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k22}da{\k19}re {\k15}mo {\k20}ki{\k18}zu{\k20}ka{\k18}nu {\k19}so{\k20}ku{\k17}do {\k22}de {\k15}su{\k37}su{\k24}mu
+Dialogue: 0,0:02:37.08,0:02:41.09,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k19}ko{\k19}no {\k18}shun{\k20}kan {\k35}ko{\k37}so {\k20}'chi{\k20}ra {\k17}no {\k25}ji{\k32}yu{\k29}u
+Dialogue: 0,0:02:40.03,0:02:42.61,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k13}NE{\k25}ON {\k12}ke{\k6}chi{\k19}rash'{\k18}te {\k20}STEP {\k18}BOOM {\k17}BOOM
+Dialogue: 0,0:02:41.52,0:02:44.10,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k12}wa{\k24}rai{\k9}go{\k11}e {\k18}ga {\k9}F{\k18}LOW {\k11}ni {\k19}BOUNCE {\k17}BOUNCE
+Dialogue: 0,0:02:43.01,0:02:45.36,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k7}LIGH{\k12}T {\k17}ni {\k9}sa{\k9}so{\k11}wa{\k11}re {\k35}JUMP {\k14}JUMP
+Dialogue: 0,0:02:44.48,0:02:47.24,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k10}to{\k10}ma{\k11}ru {\k8}ri{\k16}yuu {\k10}na{\k12}shi {\k18}zen{\k16}shin {\k55}THRILL
+Dialogue: 0,0:02:46.70,0:02:48.54,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k13}shi{\k8}zu{\k9}ka {\k10}ni {\k34}HIGH
+Dialogue: 0,0:02:47.40,0:02:49.28,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k23}Feel {\k20}it {\k35}rise
+Dialogue: 0,0:02:48.20,0:02:49.95,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k10}bu{\k8}chi{\k10}a{\k9}ge {\k28}FLY
+Dialogue: 0,0:02:48.93,0:02:50.89,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k21}No {\k17}dis{\k48}guise
+Dialogue: 0,0:02:49.62,0:02:51.50,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k8}su{\k12}ka{\k9}sa{\k15}zu {\k34}GLIDES
+Dialogue: 0,0:02:50.41,0:02:53.12,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k20}EYES {\k19}ON {\k36}PRIZE {\k17}sai{\k20}kak'{\k19}tei {\k30}RISE
+Dialogue: 0,0:02:52.82,0:02:56.32,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k21}u{\k18}chi{\k16}ra {\k38}HIGH {\k39}HIGH {\k35}HIGH {\k37}HIGH {\k36}HIGH
+Dialogue: 0,0:02:55.23,0:02:59.34,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k19}yo{\k18}ru {\k19}wo {\k19}ke{\k15}to{\k14}ba{\k7}su {\k19}RI{\k19}DE {\k15}RI{\k22}DE {\k18}RI{\k18}DE {\k19}RI{\k19}DE {\k41}RIDE
+Dialogue: 0,0:02:58.37,0:03:01.85,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k20}to{\k37}man {\k18}nee {\k19}TO{\kf144}NIGHT~
+Dialogue: 0,0:03:00.97,0:03:05.46,Bambi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k17}sa{\k21}ke{\k18}be {\k19}sa{\k18}ke{\k36}be {\kf210}FLY~
+Dialogue: 0,0:03:04.67,0:03:08.14,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k20}u{\k19}chi{\k16}ra {\k38}HIGH {\k39}HIGH {\k35}HIGH {\k37}HIGH {\k51}HIGH
+Dialogue: 0,0:03:07.08,0:03:10.94,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k19}NE{\k19}ON {\k17}ni {\k19}to{\k15}ke{\k23}ru {\k18}RI{\k19}DE {\k18}RI{\k19}DE {\k19}RI{\k18}DE {\k19}RI{\k19}DE {\k35}RIDE
+Dialogue: 0,0:03:10.04,0:03:13.93,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k19}kur' {\k18}he {\k20}ku{\k17}ru {\k17}he {\k21}TO{\kf182}NIGHT~
+Dialogue: 0,0:03:13.01,0:03:17.18,Moco,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k19}moe{\k19}ro {\k19}mo{\k18}e{\k37}ro {\kf195}SKY~
