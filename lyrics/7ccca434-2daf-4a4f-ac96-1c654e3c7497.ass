@@ -1,0 +1,131 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Heartbeat
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up]_kor,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}English {\2cHFFFFFF}| {\rSample KM [Up]_kor}Korean {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:14.11,0:00:18.75,Sample KM [Up],,0,0,0,karaoke,{\k37}It {\k38}leaves {\k32}me {\k35}fee{\k34}ling {\k66}sea{\k84}sick {\k67}ba{\k71}by
+Comment: 0,0:00:19.81,0:00:24.43,Sample KM [Up]_kor,,0,0,0,karaoke,{\k35}kkum{\k31}ga{\k38}teun {\k37}hyeon{\k30}shil {\k73}gi{\k38}pi {\k28}ga{\k42}chyeot{\k69}na {\k41}bwa
+Comment: 0,0:00:25.46,0:00:30.14,Sample KM [Up],,0,0,0,karaoke,{\k33}It {\k39}spins {\k32}me {\k39}round {\k33}and {\k74}drives {\k62}me {\k70}cra{\k86}zy
+Comment: 0,0:00:31.08,0:00:36.52,Sample KM [Up]_kor,,0,0,0,karaoke,{\k36}han{\k35}na{\k35}je {\k38}tteun {\k35}dal {\k66}ga{\k43}teun {\k32}na{\k36}in{\k71}ga {\kf117}bwa
+Comment: 0,0:00:37.46,0:00:40.42,Sample KM [Up]_kor,,0,0,0,karaoke,{\k36}man{\k33}yak {\k37}na {\k33}hon{\k41}ja{\k31}yeo{\k40}tta{\k45}myeon
+Comment: 0,0:00:40.66,0:00:43.20,Sample KM [Up]_kor,,0,0,0,karaoke,{\k29}hok{\k40}shi {\k37}neol {\k32}mol{\k38}la{\k40}tta{\k38}myeon
+Comment: 0,0:00:43.44,0:00:47.92,Sample KM [Up]_kor,,0,0,0,karaoke,{\k38}po{\k36}gi{\k29}hae{\k32}sseul{\k47}ji {\k35}mol{\k61}la {\k43\rSample KM [Up]}lost {\k57}at {\k70}sea
+Comment: 0,0:00:49.11,0:00:51.57,Sample KM [Up],,0,0,0,karaoke,{\k31}But {\k35}my {\k38}heart's {\k34}still {\k35}on {\k39}fi{\k34}re
+Comment: 0,0:00:51.90,0:00:54.41,Sample KM [Up],,0,0,0,karaoke,{\k38}With {\k33}a {\k39}bur{\k33}ning {\k32}de{\k36}si{\k40}re
+Comment: 0,0:00:54.68,0:00:59.29,Sample KM [Up]_kor,,0,0,0,karaoke,{\k31}da{\k45}shi {\k27}neol {\k40}cha{\k42}jeul {\k33}geo{\k36}ya {\k34}un{\k34}myeong{\k75}cheo{\k64}reom
+Comment: 0,0:00:59.29,0:01:03.21,Sample KM [Up],,0,0,0,karaoke,{\k38}I {\k37}wish {\k29}that {\k41}you {\k37}would {\k141}love {\k69}me
+Comment: 0,0:01:03.59,0:01:09.91,Sample KM [Up]_kor,,0,0,0,karaoke,{\k29}eo{\k34}je{\k43}cheo{\k32}reom {\k70}da{\k109}shi {\k31}i {\k36}son {\k31}no{\k76}ji {\k74}mal{\k67}go
+Comment: 0,0:01:10.65,0:01:14.53,Sample KM [Up],,0,0,0,karaoke,{\k33}And {\k35}eve{\k32}ry {\k38}time {\k35}my {\k143}heart {\k72}beats
+Comment: 0,0:01:14.89,0:01:18.01,Sample KM [Up]_kor,,0,0,0,karaoke,{\k34}bal {\k32}mat{\k38}chwo{\k35}bwa {\k65}da{\kf108}shi
+Comment: 0,0:01:18.01,0:01:21.17,Sample KM [Up]_kor,,0,0,0,karaoke,{\k40}deo{\k19}neun {\k17}he{\k16}mae{\k13}i{\k11}ji {\k62}an{\k75}to{\k63}rok
+Comment: 0,0:01:21.95,0:01:27.45,Sample KM [Up]_kor,,0,0,0,karaoke,{\k33}un{\k37}myeong'{\k33}eul {\k33}neu{\k39}kkyeo {\k68}neol {\k71}oh {\k36}oh {\k72}oh {\kf128}neol
+Comment: 0,0:01:27.56,0:01:32.86,Sample KM [Up]_kor,,0,0,0,karaoke,{\k34}un{\k39}myeong'{\k34}eul {\k35}neu{\k37}kkyeo {\k68}nal {\k70}nal {\k35}na {\k72}ah {\kf106}nal
+Comment: 0,0:01:33.92,0:01:36.46,Sample KM [Up],,0,0,0,karaoke,{\k25}When {\k17}you {\k32}hear {\k32}my {\k37}heart{\k35}beat {\k36}ba{\k40}by
+Comment: 0,0:01:36.75,0:01:38.15,Sample KM [Up],,0,0,0,karaoke,{\k19}You {\k16}gave {\k17}me {\k20}a {\k31}new {\k37}life
+Comment: 0,0:01:38.15,0:01:39.59,Sample KM [Up],,0,0,0,karaoke,{\k22}You {\k16}gave {\k16}me {\k20}a {\k33}new {\k37}birth
+Comment: 0,0:01:39.59,0:01:42.23,Sample KM [Up],,0,0,0,karaoke,{\k32}I {\k40}feel {\k34}you're {\k39}heart{\k32}beat {\k36}a{\k51}way
+Comment: 0,0:01:42.41,0:01:43.85,Sample KM [Up],,0,0,0,karaoke,{\k19}I've {\k16}been {\k18}lo{\k17}sin' {\k34}my {\k40}mind
+Comment: 0,0:01:43.85,0:01:45.24,Sample KM [Up],,0,0,0,karaoke,{\k19}I've {\k14}been {\k20}cra{\k18}vin' {\k29}my {\k39}shine
+Comment: 0,0:01:45.24,0:01:47.99,Sample KM [Up],,0,0,0,karaoke,{\k16}I {\k18}knew {\k35}me {\k18}be{\k17}fore {\k40}you {\k17}was {\k16}a {\k20}rea{\k15}dy-{\k37}made {\k26}me
+Comment: 0,0:01:48.06,0:01:50.89,Sample KM [Up],,0,0,0,karaoke,{\k17}But {\k18}you {\k20}de{\k21}sig{\k27}nate {\k35}me {\k23}and {\k16}you {\k19}re{\k21}su{\k34}me {\k32}me
+Comment: 0,0:01:50.89,0:01:53.68,Sample KM [Up],,0,0,0,karaoke,{\k18}I've {\k17}been {\k21}cal{\k16}lin' {\k20}your {\k34}name {\k15}in {\k33}this {\k18}u{\k18}ni{\k69}verse
+Comment: 0,0:01:53.68,0:01:55.41,Sample KM [Choir],,0,0,0,karaoke,{\k23}Now {\k15}I {\k20}need {\k31}no {\k84}space
+Comment: 0,0:01:54.95,0:01:56.49,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k33}got {\k25}you{\k18}ni{\k59}verse
+Comment: 0,0:01:57.21,0:01:58.48,Sample KM [Up]_kor,,0,0,0,karaoke,{\k21}neol {\k16}man{\k39}nan {\k51}geon
+Comment: 0,0:01:59.36,0:02:02.36,Sample KM [Up]_kor,,0,0,0,karaoke,{\k18}i {\k18}u{\k14}ju{\k19}ga {\k15}bi{\k19}jeo{\k35}naen {\k19}han{\k18}pyeo{\k18}ne {\k19\rSample KM [Up]}dra{\k16}ma {\k16\rSample KM [Up]_kor}ga{\k56}ta
+Comment: 0,0:02:02.83,0:02:04.01,Sample KM [Up]_kor,,0,0,0,karaoke,{\k21}su{\k19}ma{\k36}na{\k42}tteon
+Comment: 0,0:02:04.98,0:02:07.95,Sample KM [Up]_kor,,0,0,0,karaoke,{\k20}he{\k20}mae{\k35}im {\k12}kkeu{\k20}chi {\k20}bo{\k15}i{\k15}ji{\k21}ga {\k25}an{\k27}teon {\k19}bang{\k48}hwang
+Comment: 0,0:02:08.00,0:02:10.65,Sample KM [Up]_kor,,0,0,0,karaoke,{\k16}geu {\k20}mi{\k14}ro {\k21}so{\k14}ge{\k41}seo {\k21}na{\k13}reul {\k23}i{\k14}kkeu{\k16}reo{\k18}jun {\k34}neo
+Comment: 0,0:02:10.98,0:02:13.48,Sample KM [Up]_kor,,0,0,0,karaoke,{\k20}neo{\k17}neun {\k19}na{\k17}ye {\k20}bi{\k22}chi{\k29}ja {\k27}na{\k28}ye {\k19}gu{\k32}won
+Comment: 0,0:02:14.05,0:02:15.81,Sample KM [Up]_kor,,0,0,0,karaoke,{\k17}i {\k16}bi{\k15}do {\k21}geu{\k17}chyeo{\k17}ga{\k8}ne {\k10}i{\k55}jen
+Comment: 0,0:02:16.81,0:02:18.40,Sample KM [Up]_kor,,0,0,0,karaoke,{\k18}ne {\k20}so{\k18}neul {\k20}no{\k17}ji {\k21}a{\k21}neul{\k24}lae
+Comment: 0,0:02:18.40,0:02:22.27,Sample KM [Up],,0,0,0,karaoke,{\k34}I {\k37}wish {\k29}that {\k43}you {\k33}would {\k141}love {\k70}me
+Comment: 0,0:02:22.62,0:02:29.01,Sample KM [Up]_kor,,0,0,0,karaoke,{\k33}eo{\k32}je{\k42}cheo{\k33}reom {\k71}da{\k109}shi {\k32}i {\k35}son {\k32}no{\k74}ji {\k74}mal{\k72}go
+Comment: 0,0:02:29.70,0:02:33.56,Sample KM [Up],,0,0,0,karaoke,{\k34}And {\k35}eve{\k30}ry {\k42}time {\k29}my {\k147}heart {\k69}beats
+Comment: 0,0:02:33.95,0:02:37.03,Sample KM [Up]_kor,,0,0,0,karaoke,{\k34}bal {\k28}mat{\k42}chwo{\k32}bwa {\k66}da{\kf106}shi
+Comment: 0,0:02:37.03,0:02:40.25,Sample KM [Up]_kor,,0,0,0,karaoke,{\k30}deo{\k14}neun {\k34}he{\k20}mae{\k11}i{\k10}ji {\k64}an{\k73}to{\k66}rok
+Comment: 0,0:02:41.00,0:02:46.58,Sample KM [Up]_kor,,0,0,0,karaoke,{\k34}un{\k36}myeong'{\k34}eul {\k32}neu{\k39}kkyeo {\k70}neol {\k72}oh {\k34}oh {\k69}oh {\kf138}neol
+Comment: 0,0:02:46.63,0:02:51.76,Sample KM [Up]_kor,,0,0,0,karaoke,{\k33}un{\k38}myeong'{\k35}eul {\k34}neu{\k36}kkyeo {\k69}nal {\k72}nal {\k34}na {\k71}ah {\k91}nal
+Comment: 0,0:02:52.29,0:02:57.79,Sample KM [Up]_kor,,0,0,0,karaoke,{\k33}un{\k36}myeong'{\k34}eul {\k34}neu{\k39}kkyeo {\k70}neol {\k70}oh {\k35}oh {\k71}oh {\kf128}neol
+Comment: 0,0:02:57.93,0:03:03.16,Sample KM [Up]_kor,,0,0,0,karaoke,{\k34}un{\k36}myeong'{\k35}eul {\k33}neu{\k36}kkyeo {\k72}nal {\k70}nal {\k36}na {\k70}ah {\kf101}nal
+Comment: 0,0:03:04.62,0:03:14.60,Sample KM [Up],,0,0,0,karaoke,{\k71}My {\kf106}heart's{\k39} {\kf103}on{\k28} {\kf110}fire {\k37}for {\k72}your {\kf432}love
+Comment: 0,0:03:15.87,0:03:26.10,Sample KM [Up],,0,0,0,karaoke,{\k39}Oh {\k36}my {\kf127}heart's{\k20} {\kf113}on{\k23} {\kf114}fire {\k33}for {\k66}your {\kf452}love
+Comment: 0,0:03:26.10,0:03:30.04,Sample KM [Up],,0,0,0,karaoke,{\k40}I {\k37}wish {\k35}that {\k35}you {\k37}would {\k139}love {\k71}me
+Comment: 0,0:03:30.40,0:03:36.77,Sample KM [Up]_kor,,0,0,0,karaoke,{\k33}eo{\k34}je{\k40}cheo{\k33}reom {\k68}da{\k110}shi {\k33}i {\k37}son {\k27}no{\k76}ji {\k75}mal{\k71}go
+Comment: 0,0:03:37.45,0:03:41.35,Sample KM [Up],,0,0,0,karaoke,{\k35}And {\k36}eve{\k30}ry {\k40}time {\k36}my {\k138}heart {\k75}beats
+Comment: 0,0:03:41.69,0:03:44.82,Sample KM [Up]_kor,,0,0,0,karaoke,{\k35}bal {\k35}mat{\k37}chwo{\k31}bwa {\k68}da{\kf107}shi
+Comment: 0,0:03:44.82,0:03:48.07,Sample KM [Up]_kor,,0,0,0,karaoke,{\k27}deo{\k17}neun {\k31}he{\k19}mae{\k13}i{\k9}ji {\k63}an{\k77}to{\k69}rok
+Comment: 0,0:03:48.81,0:03:54.19,Sample KM [Up]_kor,,0,0,0,karaoke,{\k31}un{\k34}myeong'{\k34}eul {\k32}neu{\k41}kkyeo {\k69}neol {\k69}oh {\k37}oh {\k71}oh {\kf120}neol
+Comment: 0,0:03:54.34,0:03:59.22,Sample KM [Up]_kor,,0,0,0,karaoke,{\k42}un{\k37}myeong'{\k33}eul {\k31}neu{\k40}kkyeo {\k70}nal {\k68}nal {\k38}na {\k66}ah {\k63}nal
+Comment: 0,0:04:00.12,0:04:05.54,Sample KM [Up]_kor,,0,0,0,karaoke,{\k33}un{\k35}myeong'{\k35}eul {\k34}neu{\k39}kkyeo {\k58}neol {\k70}oh {\k41}oh {\k65}oh {\kf132}neol
+Comment: 0,0:04:05.76,0:04:10.84,Sample KM [Up]_kor,,0,0,0,karaoke,{\k27}un{\k41}myeong'{\k34}eul {\k31}neu{\k36}kkyeo {\k70}nal {\k71}nal {\k37}na {\k68}ah {\k93}nal
+Dialogue: 0,0:00:13.21,0:00:18.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}It {\k38}leaves {\k32}me {\k35}fee{\k34}ling {\k66}sea{\k84}sick {\k67}ba{\k71}by
+Dialogue: 0,0:00:18.91,0:00:24.63,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k35}kkum{\k31}ga{\k38}teun {\k37}hyeon{\k30}shil {\k73}gi{\k38}pi {\k28}ga{\k42}chyeot{\k69}na {\k41}bwa
+Dialogue: 0,0:00:24.56,0:00:30.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}It {\k39}spins {\k32}me {\k39}round {\k33}and {\k74}drives {\k62}me {\k70}cra{\k86}zy
+Dialogue: 0,0:00:30.18,0:00:36.72,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k36}han{\k35}na{\k35}je {\k38}tteun {\k35}dal {\k66}ga{\k43}teun {\k32}na{\k36}in{\k71}ga {\kf117}bwa
+Dialogue: 0,0:00:36.56,0:00:40.62,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k36}man{\k33}yak {\k37}na {\k33}hon{\k41}ja{\k31}yeo{\k40}tta{\k45}myeon
+Dialogue: 0,0:00:39.76,0:00:43.40,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k29}hok{\k40}shi {\k37}neol {\k32}mol{\k38}la{\k40}tta{\k38}myeon
+Dialogue: 0,0:00:42.54,0:00:48.12,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k38}po{\k36}gi{\k29}hae{\k32}sseul{\k47}ji {\k35}mol{\k61}la {\k43\rSample KM [Up]}lost {\k57}at {\k70}sea
+Dialogue: 0,0:00:48.21,0:00:51.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}But {\k35}my {\k38}heart's {\k34}still {\k35}on {\k39}fi{\k34}re
+Dialogue: 0,0:00:51.00,0:00:54.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}With {\k33}a {\k39}bur{\k33}ning {\k32}de{\k36}si{\k40}re
+Dialogue: 0,0:00:53.78,0:00:59.49,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k31}da{\k45}shi {\k27}neol {\k40}cha{\k42}jeul {\k33}geo{\k36}ya {\k34}un{\k34}myeong{\k75}cheo{\k64}reom
+Dialogue: 0,0:00:58.39,0:01:03.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}I {\k37}wish {\k29}that {\k41}you {\k37}would {\k141}love {\k69}me
+Dialogue: 0,0:01:02.69,0:01:10.11,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k29}eo{\k34}je{\k43}cheo{\k32}reom {\k70}da{\k109}shi {\k31}i {\k36}son {\k31}no{\k76}ji {\k74}mal{\k67}go
+Dialogue: 0,0:01:09.75,0:01:14.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}And {\k35}eve{\k32}ry {\k38}time {\k35}my {\k143}heart {\k72}beats
+Dialogue: 0,0:01:13.99,0:01:18.21,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k34}bal {\k32}mat{\k38}chwo{\k35}bwa {\k65}da{\kf108}shi
+Dialogue: 0,0:01:17.11,0:01:21.37,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k40}deo{\k19}neun {\k17}he{\k16}mae{\k13}i{\k11}ji {\k62}an{\k75}to{\k63}rok
+Dialogue: 0,0:01:21.05,0:01:27.65,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k33}un{\k37}myeong'{\k33}eul {\k33}neu{\k39}kkyeo {\k68}neol {\k71}oh {\k36}oh {\k72}oh {\kf128}neol
+Dialogue: 0,0:01:26.66,0:01:33.06,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k34}un{\k39}myeong'{\k34}eul {\k35}neu{\k37}kkyeo {\k68}nal {\k70}nal {\k35}na {\k72}ah {\kf106}nal
+Dialogue: 0,0:01:33.02,0:01:36.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}When {\k17}you {\k32}hear {\k32}my {\k37}heart{\k35}beat {\k36}ba{\k40}by
+Dialogue: 0,0:01:35.85,0:01:38.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}You {\k16}gave {\k17}me {\k20}a {\k31}new {\k37}life
+Dialogue: 0,0:01:37.25,0:01:39.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}You {\k16}gave {\k16}me {\k20}a {\k33}new {\k37}birth
+Dialogue: 0,0:01:38.69,0:01:42.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}I {\k40}feel {\k34}you're {\k39}heart{\k32}beat {\k36}a{\k51}way
+Dialogue: 0,0:01:41.51,0:01:44.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I've {\k16}been {\k18}lo{\k17}sin' {\k34}my {\k40}mind
+Dialogue: 0,0:01:42.95,0:01:45.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I've {\k14}been {\k20}cra{\k18}vin' {\k29}my {\k39}shine
+Dialogue: 0,0:01:44.34,0:01:48.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}I {\k18}knew {\k35}me {\k18}be{\k17}fore {\k40}you {\k17}was {\k16}a {\k20}rea{\k15}dy-{\k37}made {\k26}me
+Dialogue: 0,0:01:47.16,0:01:51.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}But {\k18}you {\k20}de{\k21}sig{\k27}nate {\k35}me {\k23}and {\k16}you {\k19}re{\k21}su{\k34}me {\k32}me
+Dialogue: 0,0:01:49.99,0:01:53.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}I've {\k17}been {\k21}cal{\k16}lin' {\k20}your {\k34}name {\k15}in {\k33}this {\k18}u{\k18}ni{\k69}verse
+Dialogue: 0,0:01:52.78,0:01:55.61,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Now {\k15}I {\k20}need {\k31}no {\k84}space
+Dialogue: 0,0:01:54.05,0:01:56.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k33}got {\k25}you{\k18}ni{\k59}verse
+Dialogue: 0,0:01:56.31,0:01:58.68,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k21}neol {\k16}man{\k39}nan {\k51}geon
+Dialogue: 0,0:01:58.46,0:02:02.56,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k18}i {\k18}u{\k14}ju{\k19}ga {\k15}bi{\k19}jeo{\k35}naen {\k19}han{\k18}pyeo{\k18}ne {\k19\rSample KM [Up]}dra{\k16}ma {\k16\rSample KM [Up]_kor}ga{\k56}ta
+Dialogue: 0,0:02:01.93,0:02:04.21,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k21}su{\k19}ma{\k36}na{\k42}tteon
+Dialogue: 0,0:02:04.08,0:02:08.15,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k20}he{\k20}mae{\k35}im {\k12}kkeu{\k20}chi {\k20}bo{\k15}i{\k15}ji{\k21}ga {\k25}an{\k27}teon {\k19}bang{\k48}hwang
+Dialogue: 0,0:02:07.10,0:02:10.85,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k16}geu {\k20}mi{\k14}ro {\k21}so{\k14}ge{\k41}seo {\k21}na{\k13}reul {\k23}i{\k14}kkeu{\k16}reo{\k18}jun {\k34}neo
+Dialogue: 0,0:02:10.08,0:02:13.68,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k20}neo{\k17}neun {\k19}na{\k17}ye {\k20}bi{\k22}chi{\k29}ja {\k27}na{\k28}ye {\k19}gu{\k32}won
+Dialogue: 0,0:02:13.15,0:02:16.01,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k17}i {\k16}bi{\k15}do {\k21}geu{\k17}chyeo{\k17}ga{\k8}ne {\k10}i{\k55}jen
+Dialogue: 0,0:02:15.91,0:02:18.60,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ne {\k20}so{\k18}neul {\k20}no{\k17}ji {\k21}a{\k21}neul{\k24}lae
+Dialogue: 0,0:02:17.50,0:02:22.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}I {\k37}wish {\k29}that {\k43}you {\k33}would {\k141}love {\k70}me
+Dialogue: 0,0:02:21.72,0:02:29.21,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k33}eo{\k32}je{\k42}cheo{\k33}reom {\k71}da{\k109}shi {\k32}i {\k35}son {\k32}no{\k74}ji {\k74}mal{\k72}go
+Dialogue: 0,0:02:28.80,0:02:33.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}And {\k35}eve{\k30}ry {\k42}time {\k29}my {\k147}heart {\k69}beats
+Dialogue: 0,0:02:33.05,0:02:37.23,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k34}bal {\k28}mat{\k42}chwo{\k32}bwa {\k66}da{\kf106}shi
+Dialogue: 0,0:02:36.13,0:02:40.45,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k30}deo{\k14}neun {\k34}he{\k20}mae{\k11}i{\k10}ji {\k64}an{\k73}to{\k66}rok
+Dialogue: 0,0:02:40.10,0:02:46.78,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k34}un{\k36}myeong'{\k34}eul {\k32}neu{\k39}kkyeo {\k70}neol {\k72}oh {\k34}oh {\k69}oh {\kf138}neol
+Dialogue: 0,0:02:45.73,0:02:51.96,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k33}un{\k38}myeong'{\k35}eul {\k34}neu{\k36}kkyeo {\k69}nal {\k72}nal {\k34}na {\k71}ah {\k91}nal
+Dialogue: 0,0:02:51.39,0:02:57.99,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k33}un{\k36}myeong'{\k34}eul {\k34}neu{\k39}kkyeo {\k70}neol {\k70}oh {\k35}oh {\k71}oh {\kf128}neol
+Dialogue: 0,0:02:57.03,0:03:03.36,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k34}un{\k36}myeong'{\k35}eul {\k33}neu{\k36}kkyeo {\k72}nal {\k70}nal {\k36}na {\k70}ah {\kf101}nal
+Dialogue: 0,0:03:03.72,0:03:14.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k71}My {\kf106}heart's{\k39} {\kf103}on{\k28} {\kf110}fire {\k37}for {\k72}your {\kf432}love
+Dialogue: 0,0:03:14.97,0:03:26.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Oh {\k36}my {\kf127}heart's{\k20} {\kf113}on{\k23} {\kf114}fire {\k33}for {\k66}your {\kf452}love
+Dialogue: 0,0:03:25.20,0:03:30.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}I {\k37}wish {\k35}that {\k35}you {\k37}would {\k139}love {\k71}me
+Dialogue: 0,0:03:29.50,0:03:36.97,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k33}eo{\k34}je{\k40}cheo{\k33}reom {\k68}da{\k110}shi {\k33}i {\k37}son {\k27}no{\k76}ji {\k75}mal{\k71}go
+Dialogue: 0,0:03:36.55,0:03:41.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}And {\k36}eve{\k30}ry {\k40}time {\k36}my {\k138}heart {\k75}beats
+Dialogue: 0,0:03:40.79,0:03:45.02,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k35}bal {\k35}mat{\k37}chwo{\k31}bwa {\k68}da{\kf107}shi
+Dialogue: 0,0:03:43.92,0:03:48.27,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k27}deo{\k17}neun {\k31}he{\k19}mae{\k13}i{\k9}ji {\k63}an{\k77}to{\k69}rok
+Dialogue: 0,0:03:47.91,0:03:54.39,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k31}un{\k34}myeong'{\k34}eul {\k32}neu{\k41}kkyeo {\k69}neol {\k69}oh {\k37}oh {\k71}oh {\kf120}neol
+Dialogue: 0,0:03:53.44,0:03:59.42,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k42}un{\k37}myeong'{\k33}eul {\k31}neu{\k40}kkyeo {\k70}nal {\k68}nal {\k38}na {\k66}ah {\k63}nal
+Dialogue: 0,0:03:59.22,0:04:05.74,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k33}un{\k35}myeong'{\k35}eul {\k34}neu{\k39}kkyeo {\k58}neol {\k70}oh {\k41}oh {\k65}oh {\kf132}neol
+Dialogue: 0,0:04:04.86,0:04:11.04,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k27}un{\k41}myeong'{\k34}eul {\k31}neu{\k36}kkyeo {\k70}nal {\k71}nal {\k37}na {\k68}ah {\k93}nal
