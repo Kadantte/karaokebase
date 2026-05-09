@@ -1,0 +1,98 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Knock You Out
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFB858,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H0028D19C,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:15.56,0:00:17.62,Sample KM [Down],,0,0,0,karaoke,Welcome to the world of Street Fighter III
+Comment: 0,0:00:17.74,0:00:19.49,Sample KM [Up],,0,0,0,karaoke,{\k9}As {\k16}I {\k18}stare {\k12}at {\k15}my{\k26}self {\k12}in {\k12}the {\k25}mir{\k30}ror
+Comment: 0,0:00:19.72,0:00:21.50,Sample KM [Up],,0,0,0,karaoke,{\k11}And {\k13}the {\k22}noi{\k13}ses {\k14}a{\k25}round {\k36}me {\k44}fade
+Comment: 0,0:00:21.22,0:00:21.68,Sample KM [Choir],,0,0,0,karaoke,{\k46}Yeah
+Comment: 0,0:00:21.71,0:00:23.52,Sample KM [Up],,0,0,0,karaoke,{\k22}No {\k28}fear {\k11}for {\k12}my {\k27}health, {\k11}ne{\k12}ver {\k25}give {\k33}up
+Comment: 0,0:00:23.19,0:00:23.69,Sample KM [Choir],,0,0,0,karaoke,{\k50}Ah
+Comment: 0,0:00:23.72,0:00:25.44,Sample KM [Up],,0,0,0,karaoke,{\k12}Though {\k18}the {\k19}voi{\k9}ces {\k18}a{\k29}round {\k28}me {\k39}say
+Comment: 0,0:00:25.69,0:00:27.60,Sample KM [Up],,0,0,0,karaoke,{\k13}It's {\k13}a {\k26}long {\k23}shot, {\k13}it{\k12}'ll {\k13}ne{\k13}ver {\k37}hap{\k28}pen
+Comment: 0,0:00:27.60,0:00:29.70,Sample KM [Up],,0,0,0,karaoke,{\k10}Don't {\k14}put {\k11}you {\k12}mo{\k13}ney {\k24}on {\k25}that, {\k13}as {\k14}they {\k43}lau{\k31}ghin'
+Comment: 0,0:00:29.23,0:00:30.68,Sample KM [Choir],,0,0,0,karaoke,{\k22}Ha {\k27}Ha {\k24}Ha {\k26}Ha {\k46}Ha
+Comment: 0,0:00:30.09,0:00:31.19,Sample KM [Up],,0,0,0,karaoke,{\k11}I {\k13}know {\k12}I'm {\k12}up {\k11}a{\k12}gainst {\k15}the {\k24}best
+Comment: 0,0:00:31.20,0:00:33.31,Sample KM [Up],,0,0,0,karaoke,{\k9}But {\k17}we {\k11}figh{\k13}tin' {\k11}in {\k14}the {\k24}streets: {\k26}left {\k35}right, {\k21}right {\k30}left
+Comment: 0,0:00:33.31,0:00:33.95,Sample KM [Choir],,0,0,0,karaoke,{\k18}Don't {\k21}want {\k25}it
+Comment: 0,0:00:33.95,0:00:35.50,Sample KM [Up],,0,0,0,karaoke,{\k12}This {\k14}is {\k11}what {\k18}I {\k21}live {\k23}for {\k26}right {\k30}here
+Comment: 0,0:00:35.82,0:00:37.58,Sample KM [Up],,0,0,0,karaoke,{\k13}You {\k11}think {\k15}I'm {\k23}gon' {\k25}fold {\k13}'cause {\k12}the {\k33}lights {\k31}glare?
+Comment: 0,0:00:37.95,0:00:39.52,Sample KM [Up],,0,0,0,karaoke,{\k12}Like {\k14}I {\k25}don't {\k24}know {\k12}what {\k13}this {\k34}life {\k23}is?
+Comment: 0,0:00:39.52,0:00:41.58,Sample KM [Up],,0,0,0,karaoke,{\k19}Yeah, {\k11}think {\k13}a{\k24}gain {\k13}cause {\k19}I {\k21}won't; {\k25}no {\k31}hype {\k30}is
+Comment: 0,0:00:41.94,0:00:43.32,Sample KM [Up],,0,0,0,karaoke,{\k13}E{\k13}ver {\k12}what {\k12}they {\k13}paint {\k13}it {\k13}up {\k12}to {\k37}be
+Comment: 0,0:00:43.70,0:00:45.19,Sample KM [Up],,0,0,0,karaoke,{\k13}And {\k11}the {\k13}un{\k12}der{\k14}dog {\k12}is {\k13}e{\k12}vi{\k25}dent{\k24}ly
+Comment: 0,0:00:45.19,0:00:45.72,Sample KM [Choir],,0,0,0,karaoke,{\k53}Yeah
+Comment: 0,0:00:45.83,0:00:47.17,Sample KM [Up],,0,0,0,karaoke,{\k12}The {\k12}one {\k12}who {\k23}got {\k28}more {\k14}to {\k33}win
+Comment: 0,0:00:47.20,0:00:48.18,Sample KM [Up],,0,0,0,karaoke,{\k12}I{\k13}'ma {\k11}make {\k14}you {\k12}taste {\k12}the {\k24}ground
+Comment: 0,0:00:48.18,0:00:49.18,Sample KM [Up],,0,0,0,karaoke,{\k16}Here's {\k18}my {\k15}Ha{\k24}dou{\k27}ken!
+Comment: 0,0:00:49.95,0:00:51.25,Sample KM [Up],,0,0,0,karaoke,{\k24}You {\k26}know {\k26}what {\k30}they {\k24}say
+Comment: 0,0:00:51.69,0:00:53.40,Sample KM [Up],,0,0,0,karaoke,{\k26}The {\k26}Third {\k23}Strike {\k26}is {\k25}what {\k45}counts
+Comment: 0,0:00:53.20,0:00:55.20,Sample KM [Up],,0,0,0,karaoke,{\k10}And {\k15}you {\k30}know, {\k19}hey {\k24}you {\k27}can {\k26}get {\k23}it {\k26}too
+Comment: 0,0:00:55.20,0:00:57.45,Sample KM [Up],,0,0,0,karaoke,{\k26}Don't {\k25}think {\k25}that {\k23}I {\k26}can't {\k25}knock {\k24}you {\k51}out
+Comment: 0,0:00:57.21,0:00:58.46,Sample KM [Choir],,0,0,0,karaoke,{\k9}I{\k14}'ma {\k25}knock {\k25}you {\k52}out
+Comment: 0,0:00:57.45,0:00:59.49,Sample KM [Up],,0,0,0,karaoke,{\k49}Out, {\k26}out, {\k25}knock {\k25}knock {\k25}you {\k54}out
+Comment: 0,0:00:59.49,0:01:01.47,Sample KM [Up],,0,0,0,karaoke,{\k46}Out, {\k26}knock {\k24}knock {\k27}knock {\k24}you {\k51}out
+Comment: 0,0:01:01.22,0:01:02.05,Sample KM [Choir],,0,0,0,karaoke,{\k49}Yeah {\k34}yeah
+Comment: 0,0:01:01.47,0:01:03.23,Sample KM [Up],,0,0,0,karaoke,{\k48}Out, {\k25}out {\k14}kno- {\k12}kno- {\k25}knock {\k23}you {\k29}out
+Comment: 0,0:01:03.23,0:01:05.70,Sample KM [Up],,0,0,0,karaoke,{\k22}Don't {\k24}think {\k27}that {\k24}I {\k25}can't {\k37}knock {\k38}you {\k50}out
+Comment: 0,0:01:10.45,0:01:11.33,Sample KM [Down],,0,0,0,karaoke,Prepare for battle
+Comment: 0,0:01:15.13,0:01:17.13,Sample KM [Up],,0,0,0,karaoke,{\k49}Out, {\k19}out, {\k31}knock {\k35}knock {\k23}you {\k43}out
+Comment: 0,0:01:17.13,0:01:19.01,Sample KM [Up],,0,0,0,karaoke,{\k48}Out, {\k27}knock {\k28}knock {\k29}knock {\k18}you {\k38}out
+Comment: 0,0:01:19.18,0:01:20.93,Sample KM [Up],,0,0,0,karaoke,{\k44}Out, {\k31}out {\k12}kno- {\k11}kno- {\k26}knock {\k24}you {\k27}out
+Comment: 0,0:01:20.93,0:01:23.34,Sample KM [Up],,0,0,0,karaoke,{\k24}Don't {\k25}think {\k21}that {\k24}I {\k26}can't {\k36}knock {\k38}you {\k47}out
+Comment: 0,0:01:23.13,0:01:23.89,Sample KM [Down],,0,0,0,karaoke,It's over
+Dialogue: 0,0:00:14.66,0:00:17.82,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Welcome to the world of Street Fighter III
+Dialogue: 0,0:00:16.84,0:00:19.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}As {\k16}I {\k18}stare {\k12}at {\k15}my{\k26}self {\k12}in {\k12}the {\k25}mir{\k30}ror
+Dialogue: 0,0:00:18.82,0:00:21.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}And {\k13}the {\k22}noi{\k13}ses {\k14}a{\k25}round {\k36}me {\k44}fade
+Dialogue: 0,0:00:20.32,0:00:21.88,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Yeah
+Dialogue: 0,0:00:20.81,0:00:23.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}No {\k28}fear {\k11}for {\k12}my {\k27}health, {\k11}ne{\k12}ver {\k25}give {\k33}up
+Dialogue: 0,0:00:22.29,0:00:23.89,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Ah
+Dialogue: 0,0:00:22.82,0:00:25.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Though {\k18}the {\k19}voi{\k9}ces {\k18}a{\k29}round {\k28}me {\k39}say
+Dialogue: 0,0:00:24.79,0:00:27.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}It's {\k13}a {\k26}long {\k23}shot, {\k13}it{\k12}'ll {\k13}ne{\k13}ver {\k37}hap{\k28}pen
+Dialogue: 0,0:00:26.70,0:00:29.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Don't {\k14}put {\k11}you {\k12}mo{\k13}ney {\k24}on {\k25}that, {\k13}as {\k14}they {\k43}lau{\k31}ghin'
+Dialogue: 0,0:00:28.33,0:00:30.88,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Ha {\k27}Ha {\k24}Ha {\k26}Ha {\k46}Ha
+Dialogue: 0,0:00:29.19,0:00:31.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}I {\k13}know {\k12}I'm {\k12}up {\k11}a{\k12}gainst {\k15}the {\k24}best
+Dialogue: 0,0:00:30.30,0:00:33.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}But {\k17}we {\k11}figh{\k13}tin' {\k11}in {\k14}the {\k24}streets: {\k26}left {\k35}right, {\k21}right {\k30}left
+Dialogue: 0,0:00:32.41,0:00:34.15,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Don't {\k21}want {\k25}it
+Dialogue: 0,0:00:33.05,0:00:35.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}This {\k14}is {\k11}what {\k18}I {\k21}live {\k23}for {\k26}right {\k30}here
+Dialogue: 0,0:00:34.92,0:00:37.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}You {\k11}think {\k15}I'm {\k23}gon' {\k25}fold {\k13}'cause {\k12}the {\k33}lights {\k31}glare?
+Dialogue: 0,0:00:37.05,0:00:39.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Like {\k14}I {\k25}don't {\k24}know {\k12}what {\k13}this {\k34}life {\k23}is?
+Dialogue: 0,0:00:38.62,0:00:41.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Yeah, {\k11}think {\k13}a{\k24}gain {\k13}cause {\k19}I {\k21}won't; {\k25}no {\k31}hype {\k30}is
+Dialogue: 0,0:00:41.04,0:00:43.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}E{\k13}ver {\k12}what {\k12}they {\k13}paint {\k13}it {\k13}up {\k12}to {\k37}be
+Dialogue: 0,0:00:42.80,0:00:45.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}And {\k11}the {\k13}un{\k12}der{\k14}dog {\k12}is {\k13}e{\k12}vi{\k25}dent{\k24}ly
+Dialogue: 0,0:00:44.29,0:00:45.92,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Yeah
+Dialogue: 0,0:00:44.93,0:00:47.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}The {\k12}one {\k12}who {\k23}got {\k28}more {\k14}to {\k33}win
+Dialogue: 0,0:00:46.30,0:00:48.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}I{\k13}'ma {\k11}make {\k14}you {\k12}taste {\k12}the {\k24}ground
+Dialogue: 0,0:00:47.28,0:00:49.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Here's {\k18}my {\k15}Ha{\k24}dou{\k27}ken!
+Dialogue: 0,0:00:49.05,0:00:51.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}You {\k26}know {\k26}what {\k30}they {\k24}say
+Dialogue: 0,0:00:50.79,0:00:53.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}The {\k26}Third {\k23}Strike {\k26}is {\k25}what {\k45}counts
+Dialogue: 0,0:00:52.30,0:00:55.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}And {\k15}you {\k30}know, {\k19}hey {\k24}you {\k27}can {\k26}get {\k23}it {\k26}too
+Dialogue: 0,0:00:54.30,0:00:57.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Don't {\k25}think {\k25}that {\k23}I {\k26}can't {\k25}knock {\k24}you {\k51}out
+Dialogue: 0,0:00:56.31,0:00:58.66,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k9}I{\k14}'ma {\k25}knock {\k25}you {\k52}out
+Dialogue: 0,0:00:56.55,0:00:59.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Out, {\k26}out, {\k25}knock {\k25}knock {\k25}you {\k54}out
+Dialogue: 0,0:00:58.59,0:01:01.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Out, {\k26}knock {\k24}knock {\k27}knock {\k24}you {\k51}out
+Dialogue: 0,0:01:00.32,0:01:02.25,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Yeah {\k34}yeah
+Dialogue: 0,0:01:00.57,0:01:03.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Out, {\k25}out {\k14}kno- {\k12}kno- {\k25}knock {\k23}you {\k29}out
+Dialogue: 0,0:01:02.33,0:01:05.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Don't {\k24}think {\k27}that {\k24}I {\k25}can't {\k37}knock {\k38}you {\k50}out
+Dialogue: 0,0:01:09.55,0:01:11.53,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Prepare for battle
+Dialogue: 0,0:01:14.23,0:01:17.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Out, {\k19}out, {\k31}knock {\k35}knock {\k23}you {\k43}out
+Dialogue: 0,0:01:16.23,0:01:19.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Out, {\k27}knock {\k28}knock {\k29}knock {\k18}you {\k38}out
+Dialogue: 0,0:01:18.28,0:01:21.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Out, {\k31}out {\k12}kno- {\k11}kno- {\k26}knock {\k24}you {\k27}out
+Dialogue: 0,0:01:20.03,0:01:23.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Don't {\k25}think {\k21}that {\k24}I {\k26}can't {\k36}knock {\k38}you {\k47}out
+Dialogue: 0,0:01:22.23,0:01:24.09,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}It's over
