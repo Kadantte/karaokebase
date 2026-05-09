@@ -1,0 +1,122 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Remember Me ~ Credit Vers.
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM Duo [Voice 1],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 2],Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,40,legend,{\k1000}{\k0}{\rSample KM Duo [Voice 1]}Male {\2cHFFFFFF}| {\rSample KM Duo [Voice 2]}Female {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 700 and -$start or -700,200)!{!$start < 700 and "\\k" .. ($start/10) or "\\k70"!\fad(!$start < 700 and $start or 300!,200)}
+Comment: 0,0:00:01.22,0:00:03.34,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k37}Re{\k41}mem{\k30}ber {\kf104}me
+Comment: 0,0:00:04.39,0:00:06.88,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k38}Though {\k36}I {\k34}have {\k17}to {\k54}say {\k35}good{\k35}bye
+Comment: 0,0:00:07.19,0:00:09.18,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k22}Re{\k46}mem{\k28}ber {\kf103}me
+Comment: 0,0:00:10.40,0:00:12.70,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k37}Don't {\k22}let {\k30}it {\k53}make {\k35}you {\k53}cry
+Comment: 0,0:00:13.25,0:00:18.37,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k35}For {\k34}e{\k34}ven {\k38}if {\k37}I'm {\k30}far {\k24}a{\k49}way, {\k36}I {\k44}hold {\k29}you {\k32}in {\k37}my {\k53}heart
+Comment: 0,0:00:18.88,0:00:21.72,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k36}I {\k37}sing {\k39}a {\k30}se{\k33}cret {\k35}song {\k22}to {\k52}you
+Comment: 0,0:00:21.72,0:00:23.83,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k35}Each {\k42}night {\k24}we {\k32}are {\k26}a{\k52}part
+Comment: 0,0:00:24.02,0:00:25.95,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k25}Re{\k43}mem{\k38}ber {\k87}me
+Comment: 0,0:00:26.99,0:00:29.48,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k40}Though {\k33}I {\k35}have {\k16}to {\k56}tra{\k33}vel {\k36}far
+Comment: 0,0:00:29.66,0:00:35.48,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}Re{\k73}mem{\k34}ber {\kf106}me,{\k34} {\k34}each {\k37}time {\k34}you {\k36}hear {\k20}a {\k51}sad {\k34}gui{\k71}tar
+Comment: 0,0:00:36.21,0:00:37.97,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k34}Know {\k35}that {\k39}I'm {\k31}with {\k37}you
+Comment: 0,0:00:37.97,0:00:41.16,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k34}The {\k38}on{\k34}ly {\k37}way {\k34}that {\k37}I {\k34}can {\k71}be
+Comment: 0,0:00:41.50,0:00:48.74,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k34}Un{\k35}til {\k36}you're {\k35}in {\k38}my {\k33}arms {\k35}a{\kf219}gain,{\k30} {\k34}re{\k36}mem{\k35}ber {\kf124}me
+Comment: 0,0:00:47.86,0:00:50.35,Sample KM [Choir],,0,0,0,karaoke,{\k16}Que {\k15}nues{\k19}tra {\k21}can{\k16}ción {\k19}no {\k36}de{\k18}je {\k32}de {\k19}la{\k38}tir
+Comment: 0,0:00:50.70,0:00:52.99,Sample KM [Choir],,0,0,0,karaoke,{\k16}So{\k14}lo {\k20}con {\k9}tu {\k9}a{\k16}mor {\k21}yo {\k32}pue{\k17}do {\k37}ex{\k18}is{\k20}tir
+Comment: 0,0:00:52.07,0:00:54.21,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}Re{\k52}cuér{\k38}da{\kf103}me
+Comment: 0,0:00:53.52,0:00:55.99,Sample KM [Choir],,0,0,0,karaoke,{\k13}Que {\k19}nues{\k17}tra {\k20}can{\k16}ción {\k20}no {\k33}de{\k20}je {\k32}de {\k19}la{\k38}tir
+Comment: 0,0:00:56.31,0:00:58.09,Sample KM [Choir],,0,0,0,karaoke,{\k19}So{\k16}lo {\k19}con {\k8}tu {\k9}a{\k15}mor {\k23}yo {\k33}pue{\k36}do
+Comment: 0,0:00:57.73,0:00:59.88,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k35}Re{\k39}cuér{\k32}da{\kf109}me
+Comment: 0,0:01:00.85,0:01:03.70,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k13}Si {\k34}en {\k34}tu {\k34}men{\k31}te {\k22}vi{\k7}vo {\k33}es{\k77}toy
+Comment: 0,0:01:03.40,0:01:05.20,Sample KM [Choir],,0,0,0,karaoke,{\k33}Re{\k38}cuér{\k23}da{\k86}me
+Comment: 0,0:01:06.94,0:01:09.22,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k34}Mis {\k33}sue{\k34}ños {\k29}yo {\k24}te {\k74}doy
+Comment: 0,0:01:09.76,0:01:14.69,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k33}Te {\k35}lle{\k35}vo {\k36}en {\k37}mi {\k21}co{\k31}ra{\k21}zón{\k35} {\k27}y {\k14}te {\k28}a{\k36}com{\k37}pa{\k24}ña{\k43}ré
+Comment: 0,0:01:15.41,0:01:20.35,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k35}U{\k37}ni{\k31}dos {\k38}en {\k9}nu{\k28}es{\k21}tra {\k39}can{\k44}ción, {\k36}con{\k34}ti{\k12}go {\k10}a{\k11}hí {\k37}es{\k20}ta{\k52}ré
+Comment: 0,0:01:20.36,0:01:22.21,Sample KM [Choir],,0,0,0,karaoke,{\k34}Re{\k37}cuér{\k30}da{\k84}me
+Comment: 0,0:01:23.85,0:01:26.37,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k40}Si {\k35}so{\k34}la {\k37}crees {\k33}es{\k73}tar
+Comment: 0,0:01:26.00,0:01:27.87,Sample KM [Choir],,0,0,0,karaoke,{\k36}Re{\k36}cuér{\k20}da{\k95}me
+Comment: 0,0:01:28.85,0:01:31.96,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k33}Y {\k36}mi {\k36}can{\k36}tar {\k16}te {\k17}i{\k7}rá {\k7}a {\k9}a{\k45}bra{\k69}zar
+Comment: 0,0:01:32.37,0:01:37.32,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k31}A{\k39}ún {\k33}en {\k39}la {\k34}dis{\k36}tan{\k34}cia {\k35}nun{\k20}ca {\k52}va{\k30}yas {\k13}a {\k29}ol{\k21}vi{\k49}dar
+Comment: 0,0:01:38.01,0:01:46.34,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k36}Que {\k36}yo {\k33}con{\k37}ti{\k37}go {\k34}siem{\k55}pre {\kf184}voy,{\k40} {\k36}re{\k38}cuér{\k33}da{\kf234}me
+Comment: 0,0:01:44.44,0:01:46.87,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k14}If {\k15}you {\k20}close {\k17}your {\k18}eyes {\k18}and {\k34}let {\k21}the {\k31}mu{\k21}sic {\k34}play
+Comment: 0,0:01:47.22,0:01:49.69,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k20}Keep {\k15}our {\k20}love {\k16}a{\k18}live, {\k17}I'll {\k35}ne{\k18}ver {\k36}fade {\k15}a{\k37}way
+Comment: 0,0:01:50.06,0:01:52.52,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k16}If {\k17}you {\k19}close {\k16}your {\k20}eyes {\k18}and {\k35}let {\k26}the {\k25}mu{\k19}sic {\k35}play
+Comment: 0,0:01:52.85,0:01:55.32,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}Keep {\k14}our {\k21}love {\k15}a{\k21}live, {\k15}I'll {\k35}ne{\k22}ver {\k33}fade {\k17}a{\k33}way
+Comment: 0,0:01:55.75,0:01:58.18,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k13}If {\k15}you {\k21}close {\k16}your {\k19}eyes {\k17}and {\k35}let {\k21}the {\k28}mu{\k21}sic {\k37}play
+Comment: 0,0:01:58.53,0:02:05.09,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k18}Keep {\k18}our {\k16}love {\k16}a{\k19}live, {\k19}I'll {\k70}ne{\k73}ver {\k74}fade {\k66}a{\kf267}way
+Comment: 0,0:02:05.58,0:02:07.55,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k31}Re{\k40}mem{\k36}ber {\k90}me
+Comment: 0,0:02:09.13,0:02:11.23,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k39}For {\k29}I {\k18}will {\k53}soon {\k35}be {\k36}gone
+Comment: 0,0:02:11.43,0:02:17.20,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k26}Re{\k50}mem{\k41}ber {\kf109}me,{\k38} {\k31}and {\k40}let {\k33}the {\k36}love {\k22}we {\k48}have {\k37}live {\k66}on
+Comment: 0,0:02:17.60,0:02:19.71,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k35}And {\k34}know {\k36}that {\k34}I'm {\k38}with {\k34}you
+Comment: 0,0:02:19.71,0:02:22.96,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k21}The {\k51}on{\k35}ly {\k52}way {\k19}that {\k46}I {\k24}can {\k77}be
+Comment: 0,0:02:23.24,0:02:32.10,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k19}So, {\k18}un{\k33}til {\k38}you're {\k32}in {\k39}my {\k51}arms {\k18}a{\kf208}gain,{\k36} {\k19}re{\k55}mem{\k36}ber {\kf284}me
+Comment: 0,0:02:29.63,0:02:31.94,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k14}Que {\k15}nues{\k17}tra {\k19}can{\k19}ción {\k19}no {\k35}de{\k19}je {\k36}de {\k16}la{\k22}tir
+Comment: 0,0:02:31.95,0:02:33.33,Sample KM Duo [Voice 1],,0,0,120,karaoke,{\k49}Ye{\k89}ah
+Comment: 0,0:02:32.44,0:02:34.92,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k19}So{\k16}lo {\k16}con {\k10}tu {\k10}a{\k13}mor {\k22}yo {\k34}pue{\k18}do {\k28}e{\k24}xis{\k38}tir
+Comment: 0,0:02:33.84,0:02:36.84,Sample KM Duo [Voice 1],,0,0,60,karaoke,{\k19}Re{\k50}mem{\k38}ber {\kf193}me
+Comment: 0,0:02:36.84,0:02:38.75,Sample KM Duo [Voice 1],,0,0,80,karaoke,{\k54}Ye{\k36}ah {\kf101}oh
+Comment: 0,0:02:35.27,0:02:37.68,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k17}Que {\k14}nues{\k18}tra {\k20}can{\k19}ción {\k19}no {\k32}de{\k19}je {\k35}de {\k17}la{\k31}tir
+Comment: 0,0:02:38.08,0:02:40.52,Sample KM Duo [Voice 2],,0,0,0,karaoke,{\k18}So{\k16}lo {\k18}con {\k8}tu {\k11}a{\k16}mor {\k19}yo {\k33}pue{\k21}do {\k25}e{\k27}xis{\k32}tir
+Comment: 0,0:02:39.48,0:02:42.21,Sample KM Duo [Voice 1],,0,0,0,karaoke,{\k38}Re{\k35}mem{\k38}ber {\kf162}me
+Dialogue: 0,0:00:00.52,0:00:03.54,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k37}Re{\k41}mem{\k30}ber {\kf104}me
+Dialogue: 0,0:00:03.69,0:00:07.08,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k38}Though {\k36}I {\k34}have {\k17}to {\k54}say {\k35}good{\k35}bye
+Dialogue: 0,0:00:06.49,0:00:09.38,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k22}Re{\k46}mem{\k28}ber {\kf103}me
+Dialogue: 0,0:00:09.70,0:00:12.90,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k37}Don't {\k22}let {\k30}it {\k53}make {\k35}you {\k53}cry
+Dialogue: 0,0:00:12.55,0:00:18.57,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k35}For {\k34}e{\k34}ven {\k38}if {\k37}I'm {\k30}far {\k24}a{\k49}way, {\k36}I {\k44}hold {\k29}you {\k32}in {\k37}my {\k53}heart
+Dialogue: 0,0:00:18.18,0:00:21.92,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k36}I {\k37}sing {\k39}a {\k30}se{\k33}cret {\k35}song {\k22}to {\k52}you
+Dialogue: 0,0:00:21.02,0:00:24.03,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k35}Each {\k42}night {\k24}we {\k32}are {\k26}a{\k52}part
+Dialogue: 0,0:00:23.32,0:00:26.15,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k25}Re{\k43}mem{\k38}ber {\k87}me
+Dialogue: 0,0:00:26.29,0:00:29.68,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k40}Though {\k33}I {\k35}have {\k16}to {\k56}tra{\k33}vel {\k36}far
+Dialogue: 0,0:00:28.96,0:00:35.68,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Re{\k73}mem{\k34}ber {\kf106}me,{\k34} {\k34}each {\k37}time {\k34}you {\k36}hear {\k20}a {\k51}sad {\k34}gui{\k71}tar
+Dialogue: 0,0:00:35.51,0:00:38.17,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k34}Know {\k35}that {\k39}I'm {\k31}with {\k37}you
+Dialogue: 0,0:00:37.27,0:00:41.36,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k34}The {\k38}on{\k34}ly {\k37}way {\k34}that {\k37}I {\k34}can {\k71}be
+Dialogue: 0,0:00:40.80,0:00:48.94,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k34}Un{\k35}til {\k36}you're {\k35}in {\k38}my {\k33}arms {\k35}a{\kf219}gain,{\k30} {\k34}re{\k36}mem{\k35}ber {\kf124}me
+Dialogue: 0,0:00:47.16,0:00:50.55,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Que {\k15}nues{\k19}tra {\k21}can{\k16}ción {\k19}no {\k36}de{\k18}je {\k32}de {\k19}la{\k38}tir
+Dialogue: 0,0:00:50.00,0:00:53.19,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}So{\k14}lo {\k20}con {\k9}tu {\k9}a{\k16}mor {\k21}yo {\k32}pue{\k17}do {\k37}ex{\k18}is{\k20}tir
+Dialogue: 0,0:00:51.37,0:00:54.41,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k21}Re{\k52}cuér{\k38}da{\kf103}me
+Dialogue: 0,0:00:52.82,0:00:56.19,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k13}Que {\k19}nues{\k17}tra {\k20}can{\k16}ción {\k20}no {\k33}de{\k20}je {\k32}de {\k19}la{\k38}tir
+Dialogue: 0,0:00:55.61,0:00:58.29,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k19}So{\k16}lo {\k19}con {\k8}tu {\k9}a{\k15}mor {\k23}yo {\k33}pue{\k36}do
+Dialogue: 0,0:00:57.03,0:01:00.08,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k35}Re{\k39}cuér{\k32}da{\kf109}me
+Dialogue: 0,0:01:00.15,0:01:03.90,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k13}Si {\k34}en {\k34}tu {\k34}men{\k31}te {\k22}vi{\k7}vo {\k33}es{\k77}toy
+Dialogue: 0,0:01:02.70,0:01:05.40,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k33}Re{\k38}cuér{\k23}da{\k86}me
+Dialogue: 0,0:01:06.24,0:01:09.42,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k34}Mis {\k33}sue{\k34}ños {\k29}yo {\k24}te {\k74}doy
+Dialogue: 0,0:01:09.06,0:01:14.89,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k33}Te {\k35}lle{\k35}vo {\k36}en {\k37}mi {\k21}co{\k31}ra{\k21}zón{\k35} {\k27}y {\k14}te {\k28}a{\k36}com{\k37}pa{\k24}ña{\k43}ré
+Dialogue: 0,0:01:14.71,0:01:20.55,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k35}U{\k37}ni{\k31}dos {\k38}en {\k9}nu{\k28}es{\k21}tra {\k39}can{\k44}ción, {\k36}con{\k34}ti{\k12}go {\k10}a{\k11}hí {\k37}es{\k20}ta{\k52}ré
+Dialogue: 0,0:01:19.66,0:01:22.41,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k34}Re{\k37}cuér{\k30}da{\k84}me
+Dialogue: 0,0:01:23.15,0:01:26.57,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k40}Si {\k35}so{\k34}la {\k37}crees {\k33}es{\k73}tar
+Dialogue: 0,0:01:25.30,0:01:28.07,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k36}Re{\k36}cuér{\k20}da{\k95}me
+Dialogue: 0,0:01:28.15,0:01:32.16,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k33}Y {\k36}mi {\k36}can{\k36}tar {\k16}te {\k17}i{\k7}rá {\k7}a {\k9}a{\k45}bra{\k69}zar
+Dialogue: 0,0:01:31.67,0:01:37.52,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k31}A{\k39}ún {\k33}en {\k39}la {\k34}dis{\k36}tan{\k34}cia {\k35}nun{\k20}ca {\k52}va{\k30}yas {\k13}a {\k29}ol{\k21}vi{\k49}dar
+Dialogue: 0,0:01:37.31,0:01:46.54,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k36}Que {\k36}yo {\k33}con{\k37}ti{\k37}go {\k34}siem{\k55}pre {\kf184}voy,{\k40} {\k36}re{\k38}cuér{\k33}da{\kf234}me
+Dialogue: 0,0:01:43.74,0:01:47.07,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k14}If {\k15}you {\k20}close {\k17}your {\k18}eyes {\k18}and {\k34}let {\k21}the {\k31}mu{\k21}sic {\k34}play
+Dialogue: 0,0:01:46.52,0:01:49.89,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k20}Keep {\k15}our {\k20}love {\k16}a{\k18}live, {\k17}I'll {\k35}ne{\k18}ver {\k36}fade {\k15}a{\k37}way
+Dialogue: 0,0:01:49.36,0:01:52.72,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k16}If {\k17}you {\k19}close {\k16}your {\k20}eyes {\k18}and {\k35}let {\k26}the {\k25}mu{\k19}sic {\k35}play
+Dialogue: 0,0:01:52.15,0:01:55.52,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k21}Keep {\k14}our {\k21}love {\k15}a{\k21}live, {\k15}I'll {\k35}ne{\k22}ver {\k33}fade {\k17}a{\k33}way
+Dialogue: 0,0:01:55.05,0:01:58.38,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k13}If {\k15}you {\k21}close {\k16}your {\k19}eyes {\k17}and {\k35}let {\k21}the {\k28}mu{\k21}sic {\k37}play
+Dialogue: 0,0:01:57.83,0:02:05.29,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Keep {\k18}our {\k16}love {\k16}a{\k19}live, {\k19}I'll {\k70}ne{\k73}ver {\k74}fade {\k66}a{\kf267}way
+Dialogue: 0,0:02:04.88,0:02:07.75,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k31}Re{\k40}mem{\k36}ber {\k90}me
+Dialogue: 0,0:02:08.43,0:02:11.43,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k39}For {\k29}I {\k18}will {\k53}soon {\k35}be {\k36}gone
+Dialogue: 0,0:02:10.73,0:02:17.40,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k26}Re{\k50}mem{\k41}ber {\kf109}me,{\k38} {\k31}and {\k40}let {\k33}the {\k36}love {\k22}we {\k48}have {\k37}live {\k66}on
+Dialogue: 0,0:02:16.90,0:02:19.91,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k35}And {\k34}know {\k36}that {\k34}I'm {\k38}with {\k34}you
+Dialogue: 0,0:02:19.01,0:02:23.16,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k21}The {\k51}on{\k35}ly {\k52}way {\k19}that {\k46}I {\k24}can {\k77}be
+Dialogue: 0,0:02:22.54,0:02:32.30,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k19}So, {\k18}un{\k33}til {\k38}you're {\k32}in {\k39}my {\k51}arms {\k18}a{\kf208}gain,{\k36} {\k19}re{\k55}mem{\k36}ber {\kf284}me
+Dialogue: 0,0:02:28.93,0:02:32.14,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Que {\k15}nues{\k17}tra {\k19}can{\k19}ción {\k19}no {\k35}de{\k19}je {\k36}de {\k16}la{\k22}tir
+Dialogue: 0,0:02:31.25,0:02:33.53,Sample KM Duo [Voice 1],,0,0,120,fx,{\k70\fad(300,200)}{\k49}Ye{\k89}ah
+Dialogue: 0,0:02:31.74,0:02:35.12,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k19}So{\k16}lo {\k16}con {\k10}tu {\k10}a{\k13}mor {\k22}yo {\k34}pue{\k18}do {\k28}e{\k24}xis{\k38}tir
+Dialogue: 0,0:02:33.14,0:02:37.04,Sample KM Duo [Voice 1],,0,0,60,fx,{\k70\fad(300,200)}{\k19}Re{\k50}mem{\k38}ber {\kf193}me
+Dialogue: 0,0:02:36.14,0:02:38.95,Sample KM Duo [Voice 1],,0,0,80,fx,{\k70\fad(300,200)}{\k54}Ye{\k36}ah {\kf101}oh
+Dialogue: 0,0:02:34.57,0:02:37.88,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k17}Que {\k14}nues{\k18}tra {\k20}can{\k19}ción {\k19}no {\k32}de{\k19}je {\k35}de {\k17}la{\k31}tir
+Dialogue: 0,0:02:37.38,0:02:40.72,Sample KM Duo [Voice 2],,0,0,0,fx,{\k70\fad(300,200)}{\k18}So{\k16}lo {\k18}con {\k8}tu {\k11}a{\k16}mor {\k19}yo {\k33}pue{\k21}do {\k25}e{\k27}xis{\k32}tir
+Dialogue: 0,0:02:38.78,0:02:42.41,Sample KM Duo [Voice 1],,0,0,0,fx,{\k70\fad(300,200)}{\k38}Re{\k35}mem{\k38}ber {\kf162}me
