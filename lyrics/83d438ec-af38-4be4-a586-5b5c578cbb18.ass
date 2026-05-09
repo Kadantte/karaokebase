@@ -1,0 +1,134 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Still Dancing
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:21.03,0:00:23.01,Sample KM [Up],,0,0,0,karaoke,{\k25}When {\k25}I {\k25}was {\k18}a {\k20}lit{\k24}tle {\k61}girl
+Comment: 0,0:00:23.03,0:00:24.94,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\k22}would {\k27}tap {\k19}and {\k23}I {\k28}would {\k47}twirl
+Comment: 0,0:00:25.02,0:00:26.77,Sample KM [Up],,0,0,0,karaoke,{\k25}And {\k25}my {\k26}dream {\k25}was {\k19}to {\k21}move {\k34}on
+Comment: 0,0:00:26.77,0:00:28.76,Sample KM [Up],,0,0,0,karaoke,{\k25}While {\k26}dan{\k25}cing {\k17}all {\k22}o{\k29}ver {\k22}the {\k33}world
+Comment: 0,0:00:28.82,0:00:30.78,Sample KM [Up],,0,0,0,karaoke,{\k21}But {\k27}I {\k25}was {\k23}struck {\k17}with {\k23}a {\k21}di{\k39}sease
+Comment: 0,0:00:30.78,0:00:32.77,Sample KM [Up],,0,0,0,karaoke,{\k24}That {\k26}brought {\k25}me {\k24}down {\k15}on{\k27}to {\k25}my {\k33}knees
+Comment: 0,0:00:33.02,0:00:34.77,Sample KM [Up],,0,0,0,karaoke,{\k27}Lo{\k23}sing {\k25}all {\k18}of {\k22}my {\k22}de{\k38}sires
+Comment: 0,0:00:34.77,0:00:37.55,Sample KM [Up],,0,0,0,karaoke,{\k25}And {\k22}lo{\k25}sing {\k21}all {\k23}my {\k22}hopes {\k23}and {\kf117}dreams
+Comment: 0,0:00:37.55,0:00:39.27,Sample KM [Choir],,0,0,0,karaoke,{\k46}Give {\k50}up {\k37}dan{\k39}cing
+Comment: 0,0:00:39.14,0:00:41.53,Sample KM [Up],,0,0,0,karaoke,{\k27}No, {\k23}you {\k26}can’t {\k25}stop {\k12}me {\k12}cus {\k13}it’s {\k16}still {\k8}not {\k14}the {\k63}end
+Comment: 0,0:00:41.53,0:00:43.24,Sample KM [Choir],,0,0,0,karaoke,{\k49}Give {\k49}up {\k31}dan{\k42}cing
+Comment: 0,0:00:42.82,0:00:44.76,Sample KM [Up],,0,0,0,karaoke,{\k18}Cus {\k23}this {\k28}is {\k20}what {\k17}my {\k23}ba{\k28}by {\k37}said
+Comment: 0,0:00:44.76,0:00:46.77,Sample KM [Up],,0,0,0,karaoke,{\k22}If {\k27}you {\k26}can’t {\k49}dance {\k19}with {\k22}your {\k36}feet
+Comment: 0,0:00:46.77,0:00:49.19,Sample KM [Up],,0,0,0,karaoke,{\k23}Then {\k26}move {\k25}your {\k47}arms {\k18}to {\k21}the {\k82}beat
+Comment: 0,0:00:49.01,0:00:50.99,Sample KM [Up],,0,0,0,karaoke,{\k24}You {\k25}can{\k24} {\k38}dance {\k35}dance {\k52}dance
+Comment: 0,0:00:50.99,0:00:53.00,Sample KM [Up],,0,0,0,karaoke,{\k26}Still {\k24}can{\k25} {\k39}dance {\k36}dance {\k51}dance
+Comment: 0,0:00:53.00,0:00:54.75,Sample KM [Up],,0,0,0,karaoke,{\k26}Who {\k27}says {\k42}you {\k21}can{\k20}not {\k39}tap
+Comment: 0,0:00:54.75,0:00:57.26,Sample KM [Up],,0,0,0,karaoke,{\k23}When {\k26}you {\k25}can {\k47}tap {\k21}with {\k23}a {\k86}clap
+Comment: 0,0:00:57.01,0:00:58.95,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k25}can{\k22} {\k40}dance {\k37}dance {\k47}dance
+Comment: 0,0:00:58.97,0:01:00.99,Sample KM [Up],,0,0,0,karaoke,{\k27}Still {\k26}can{\k22} {\k39}dance {\k38}dance {\k50}dance
+Comment: 0,0:01:00.99,0:01:05.16,Sample KM [Up],,0,0,0,karaoke,{\k26}Though {\k22}I {\k42}can’t {\k27}I’m {\k21}still {\k29}dan{\k24}cing {\k24}a{\k21}ny{\kf181}way
+Comment: 0,0:01:11.47,0:01:12.79,Sample KM [Up],,0,0,0,karaoke,{\k21}Star{\k26}ting {\k23}from {\k25}my {\k37}chest
+Comment: 0,0:01:12.79,0:01:14.72,Sample KM [Up],,0,0,0,karaoke,{\k27}And {\k23}slow{\k19}ly {\k22}rea{\k22}ching {\k26}to {\k26}my {\k28}head
+Comment: 0,0:01:14.98,0:01:17.21,Sample KM [Up],,0,0,0,karaoke,{\k25}Oh, {\k24}this {\k26}mons{\k19}ter {\k25}left {\k23}me {\k26}pa{\k20}ra{\k35}lyzed
+Comment: 0,0:01:17.21,0:01:18.72,Sample KM [Up],,0,0,0,karaoke,{\k26}Con{\k20}ti{\k20}nu{\k26}ing {\k24}to {\k35}spread
+Comment: 0,0:01:18.97,0:01:20.73,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k28}could {\k22}bare{\k19}ly {\k23}move {\k23}my {\k39}hands
+Comment: 0,0:01:20.73,0:01:22.72,Sample KM [Up],,0,0,0,karaoke,{\k24}It’s {\k25}like {\k25}all {\k21}move{\k21}ment {\k27}has {\k21}been {\k35}banned
+Comment: 0,0:01:22.97,0:01:24.71,Sample KM [Up],,0,0,0,karaoke,{\k24}My {\k26}whole {\k20}bo{\k22}dy {\k22}was {\k26}all {\k34}stuck
+Comment: 0,0:01:24.71,0:01:27.47,Sample KM [Up],,0,0,0,karaoke,{\k26}Like {\k24}I {\k25}was {\k23}sin{\k20}king {\k23}in {\k25}the {\kf110}sand
+Comment: 0,0:01:27.47,0:01:29.12,Sample KM [Choir],,0,0,0,karaoke,{\k50}Give {\k46}up {\k41}dan{\k28}cing
+Comment: 0,0:01:29.12,0:01:31.60,Sample KM [Up],,0,0,0,karaoke,{\k22}No, {\k23}you {\k30}can’t {\k22}stop {\k13}me {\k11}cus {\k13}it’s {\k15}still {\k11}not {\k15}the {\k73}end
+Comment: 0,0:01:31.47,0:01:33.12,Sample KM [Choir],,0,0,0,karaoke,{\k49}Give {\k46}up {\k41}dan{\k29}cing
+Comment: 0,0:01:32.86,0:01:34.93,Sample KM [Up],,0,0,0,karaoke,{\k13}‘Cause {\k22}this {\k23}is {\k22}what {\k22}my {\k25}ba{\k25}by {\k55}said
+Comment: 0,0:01:34.72,0:01:36.72,Sample KM [Up],,0,0,0,karaoke,{\k20}If {\k26}you {\k26}can’t {\k51}dance {\k17}with {\k18}your {\k42}arms
+Comment: 0,0:01:36.72,0:01:39.17,Sample KM [Up],,0,0,0,karaoke,{\k23}Then {\k26}use {\k25}your {\k44}voice {\k21}as {\k21}a {\k85}charm
+Comment: 0,0:01:38.97,0:01:40.94,Sample KM [Up],,0,0,0,karaoke,{\k22}You {\k23}can{\k27} {\k39}dance {\k36}dance {\k50}dance
+Comment: 0,0:01:40.94,0:01:42.93,Sample KM [Up],,0,0,0,karaoke,{\k25}Still {\k24}can{\k23} {\k41}dance {\k38}dance {\k48}dance
+Comment: 0,0:01:42.93,0:01:44.71,Sample KM [Up],,0,0,0,karaoke,{\k26}Who {\k25}says {\k43}you {\k20}can’t {\k20}at {\k44}all
+Comment: 0,0:01:44.71,0:01:47.14,Sample KM [Up],,0,0,0,karaoke,{\k21}When {\k27}you {\k24}can {\k49}dance {\k17}with {\k23}a {\k82}call
+Comment: 0,0:01:46.96,0:01:48.89,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k20}can{\k28} {\k39}dance {\k39}dance {\k45}dance
+Comment: 0,0:01:48.89,0:01:50.93,Sample KM [Up],,0,0,0,karaoke,{\k29}Still {\k25}can{\k27} {\k38}dance {\k36}dance {\k49}dance
+Comment: 0,0:01:50.93,0:01:54.96,Sample KM [Up],,0,0,0,karaoke,{\k26}Though {\k24}I {\k40}can’t {\k28}I’m {\k21}still {\k30}dan{\k22}cing {\k23}a{\k28}ny{\kf161}way
+Comment: 0,0:02:17.39,0:02:19.13,Sample KM [Choir],,0,0,0,karaoke,{\k49}Give {\k52}up {\k41}dan{\k32}cing
+Comment: 0,0:02:21.41,0:02:23.17,Sample KM [Choir],,0,0,0,karaoke,{\k49}Give {\k48}up {\k41}dan{\k38}cing
+Comment: 0,0:02:25.40,0:02:27.17,Sample KM [Choir],,0,0,0,karaoke,{\k49}Give {\k49}up {\k41}dan{\k38}cing
+Comment: 0,0:02:27.39,0:02:29.53,Sample KM [Up],,0,0,0,karaoke,{\k27}Du {\k24}du {\k26}du {\k24}du {\k18}di {\k8}bi {\k16}di {\k33}bau {\k38}ah
+Comment: 0,0:02:29.40,0:02:31.06,Sample KM [Choir],,0,0,0,karaoke,{\k49}Give {\k48}up {\k39}dan{\k30}cing
+Comment: 0,0:02:31.39,0:02:35.88,Sample KM [Up],,0,0,0,karaoke,{\kf177}Oh {\kf272}no
+Comment: 0,0:02:35.61,0:02:37.66,Sample KM [Up],,0,0,0,karaoke,{\k27}If {\k25}you {\k27}can’t {\k47}dance, {\k20}don’t {\k21}you {\k38}dread
+Comment: 0,0:02:37.66,0:02:40.09,Sample KM [Up],,0,0,0,karaoke,{\k24}You {\k25}still {\k25}can {\k47}dance {\k21}in {\k21}your {\k80}head
+Comment: 0,0:02:39.89,0:02:41.85,Sample KM [Up],,0,0,0,karaoke,{\k24}You {\k23}can{\k27} {\k37}dance {\k36}dance {\k49}dance
+Comment: 0,0:02:41.85,0:02:43.84,Sample KM [Up],,0,0,0,karaoke,{\k25}Still {\k27}can{\k25} {\k36}dance {\k37}dance {\k49}dance
+Comment: 0,0:02:44.11,0:02:45.87,Sample KM [Up],,0,0,0,karaoke,{\k28}And {\k49}just {\k19}as {\k21}she {\k59}said
+Comment: 0,0:02:45.87,0:02:47.74,Sample KM [Up],,0,0,0,karaoke,{\k26}I’m {\k23}still {\k28}dan{\k24}cing {\k17}though {\k23}I'm {\k46}dead
+Comment: 0,0:02:47.86,0:02:49.82,Sample KM [Up],,0,0,0,karaoke,{\k28}I {\k25}can{\k23} {\k40}dance {\k36}dance {\k44}dance
+Comment: 0,0:02:49.82,0:02:51.99,Sample KM [Up],,0,0,0,karaoke,{\k32}Still {\k24}can{\k20} {\k40}dance {\k38}dance {\k63}dance
+Comment: 0,0:03:04.36,0:03:08.42,Sample KM [Up],,0,0,0,karaoke,{\kf193}No {\kf159}oh {\k54}I
+Dialogue: 0,0:00:20.13,0:00:23.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}When {\k25}I {\k25}was {\k18}a {\k20}lit{\k24}tle {\k61}girl
+Dialogue: 0,0:00:22.13,0:00:25.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k22}would {\k27}tap {\k19}and {\k23}I {\k28}would {\k47}twirl
+Dialogue: 0,0:00:24.12,0:00:26.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}And {\k25}my {\k26}dream {\k25}was {\k19}to {\k21}move {\k34}on
+Dialogue: 0,0:00:25.87,0:00:28.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}While {\k26}dan{\k25}cing {\k17}all {\k22}o{\k29}ver {\k22}the {\k33}world
+Dialogue: 0,0:00:27.92,0:00:30.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}But {\k27}I {\k25}was {\k23}struck {\k17}with {\k23}a {\k21}di{\k39}sease
+Dialogue: 0,0:00:29.88,0:00:32.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}That {\k26}brought {\k25}me {\k24}down {\k15}on{\k27}to {\k25}my {\k33}knees
+Dialogue: 0,0:00:32.12,0:00:34.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Lo{\k23}sing {\k25}all {\k18}of {\k22}my {\k22}de{\k38}sires
+Dialogue: 0,0:00:33.87,0:00:37.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}And {\k22}lo{\k25}sing {\k21}all {\k23}my {\k22}hopes {\k23}and {\kf117}dreams
+Dialogue: 0,0:00:36.65,0:00:39.47,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Give {\k50}up {\k37}dan{\k39}cing
+Dialogue: 0,0:00:38.24,0:00:41.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}No, {\k23}you {\k26}can’t {\k25}stop {\k12}me {\k12}cus {\k13}it’s {\k16}still {\k8}not {\k14}the {\k63}end
+Dialogue: 0,0:00:40.63,0:00:43.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Give {\k49}up {\k31}dan{\k42}cing
+Dialogue: 0,0:00:41.92,0:00:44.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Cus {\k23}this {\k28}is {\k20}what {\k17}my {\k23}ba{\k28}by {\k37}said
+Dialogue: 0,0:00:43.86,0:00:46.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}If {\k27}you {\k26}can’t {\k49}dance {\k19}with {\k22}your {\k36}feet
+Dialogue: 0,0:00:45.87,0:00:49.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Then {\k26}move {\k25}your {\k47}arms {\k18}to {\k21}the {\k82}beat
+Dialogue: 0,0:00:48.11,0:00:51.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}You {\k25}can{\k24} {\k38}dance {\k35}dance {\k52}dance
+Dialogue: 0,0:00:50.09,0:00:53.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Still {\k24}can{\k25} {\k39}dance {\k36}dance {\k51}dance
+Dialogue: 0,0:00:52.10,0:00:54.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Who {\k27}says {\k42}you {\k21}can{\k20}not {\k39}tap
+Dialogue: 0,0:00:53.85,0:00:57.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}When {\k26}you {\k25}can {\k47}tap {\k21}with {\k23}a {\k86}clap
+Dialogue: 0,0:00:56.11,0:00:59.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k25}can{\k22} {\k40}dance {\k37}dance {\k47}dance
+Dialogue: 0,0:00:58.07,0:01:01.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Still {\k26}can{\k22} {\k39}dance {\k38}dance {\k50}dance
+Dialogue: 0,0:01:00.09,0:01:05.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Though {\k22}I {\k42}can’t {\k27}I’m {\k21}still {\k29}dan{\k24}cing {\k24}a{\k21}ny{\kf181}way
+Dialogue: 0,0:01:10.57,0:01:12.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Star{\k26}ting {\k23}from {\k25}my {\k37}chest
+Dialogue: 0,0:01:11.89,0:01:14.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}And {\k23}slow{\k19}ly {\k22}rea{\k22}ching {\k26}to {\k26}my {\k28}head
+Dialogue: 0,0:01:14.08,0:01:17.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Oh, {\k24}this {\k26}mons{\k19}ter {\k25}left {\k23}me {\k26}pa{\k20}ra{\k35}lyzed
+Dialogue: 0,0:01:16.31,0:01:18.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Con{\k20}ti{\k20}nu{\k26}ing {\k24}to {\k35}spread
+Dialogue: 0,0:01:18.07,0:01:20.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k28}could {\k22}bare{\k19}ly {\k23}move {\k23}my {\k39}hands
+Dialogue: 0,0:01:19.83,0:01:22.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}It’s {\k25}like {\k25}all {\k21}move{\k21}ment {\k27}has {\k21}been {\k35}banned
+Dialogue: 0,0:01:22.07,0:01:24.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}My {\k26}whole {\k20}bo{\k22}dy {\k22}was {\k26}all {\k34}stuck
+Dialogue: 0,0:01:23.81,0:01:27.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Like {\k24}I {\k25}was {\k23}sin{\k20}king {\k23}in {\k25}the {\kf110}sand
+Dialogue: 0,0:01:26.57,0:01:29.32,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Give {\k46}up {\k41}dan{\k28}cing
+Dialogue: 0,0:01:28.22,0:01:31.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}No, {\k23}you {\k30}can’t {\k22}stop {\k13}me {\k11}cus {\k13}it’s {\k15}still {\k11}not {\k15}the {\k73}end
+Dialogue: 0,0:01:30.57,0:01:33.32,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Give {\k46}up {\k41}dan{\k29}cing
+Dialogue: 0,0:01:31.96,0:01:35.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}‘Cause {\k22}this {\k23}is {\k22}what {\k22}my {\k25}ba{\k25}by {\k55}said
+Dialogue: 0,0:01:33.82,0:01:36.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}If {\k26}you {\k26}can’t {\k51}dance {\k17}with {\k18}your {\k42}arms
+Dialogue: 0,0:01:35.82,0:01:39.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Then {\k26}use {\k25}your {\k44}voice {\k21}as {\k21}a {\k85}charm
+Dialogue: 0,0:01:38.07,0:01:41.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}You {\k23}can{\k27} {\k39}dance {\k36}dance {\k50}dance
+Dialogue: 0,0:01:40.04,0:01:43.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Still {\k24}can{\k23} {\k41}dance {\k38}dance {\k48}dance
+Dialogue: 0,0:01:42.03,0:01:44.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Who {\k25}says {\k43}you {\k20}can’t {\k20}at {\k44}all
+Dialogue: 0,0:01:43.81,0:01:47.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}When {\k27}you {\k24}can {\k49}dance {\k17}with {\k23}a {\k82}call
+Dialogue: 0,0:01:46.06,0:01:49.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I {\k20}can{\k28} {\k39}dance {\k39}dance {\k45}dance
+Dialogue: 0,0:01:47.99,0:01:51.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Still {\k25}can{\k27} {\k38}dance {\k36}dance {\k49}dance
+Dialogue: 0,0:01:50.03,0:01:55.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Though {\k24}I {\k40}can’t {\k28}I’m {\k21}still {\k30}dan{\k22}cing {\k23}a{\k28}ny{\kf161}way
+Dialogue: 0,0:02:16.49,0:02:19.33,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Give {\k52}up {\k41}dan{\k32}cing
+Dialogue: 0,0:02:20.51,0:02:23.37,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Give {\k48}up {\k41}dan{\k38}cing
+Dialogue: 0,0:02:24.50,0:02:27.37,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Give {\k49}up {\k41}dan{\k38}cing
+Dialogue: 0,0:02:26.49,0:02:29.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Du {\k24}du {\k26}du {\k24}du {\k18}di {\k8}bi {\k16}di {\k33}bau {\k38}ah
+Dialogue: 0,0:02:28.50,0:02:31.26,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Give {\k48}up {\k39}dan{\k30}cing
+Dialogue: 0,0:02:30.49,0:02:36.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf177}Oh {\kf272}no
+Dialogue: 0,0:02:34.71,0:02:37.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}If {\k25}you {\k27}can’t {\k47}dance, {\k20}don’t {\k21}you {\k38}dread
+Dialogue: 0,0:02:36.76,0:02:40.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}You {\k25}still {\k25}can {\k47}dance {\k21}in {\k21}your {\k80}head
+Dialogue: 0,0:02:38.99,0:02:42.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}You {\k23}can{\k27} {\k37}dance {\k36}dance {\k49}dance
+Dialogue: 0,0:02:40.95,0:02:44.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Still {\k27}can{\k25} {\k36}dance {\k37}dance {\k49}dance
+Dialogue: 0,0:02:43.21,0:02:46.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}And {\k49}just {\k19}as {\k21}she {\k59}said
+Dialogue: 0,0:02:44.97,0:02:47.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}I’m {\k23}still {\k28}dan{\k24}cing {\k17}though {\k23}I'm {\k46}dead
+Dialogue: 0,0:02:46.96,0:02:50.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}I {\k25}can{\k23} {\k40}dance {\k36}dance {\k44}dance
+Dialogue: 0,0:02:48.92,0:02:52.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Still {\k24}can{\k20} {\k40}dance {\k38}dance {\k63}dance
+Dialogue: 0,0:03:03.46,0:03:08.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf193}No {\kf159}oh {\k54}I
