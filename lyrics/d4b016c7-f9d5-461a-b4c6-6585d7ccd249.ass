@@ -1,0 +1,127 @@
+﻿[Script Info]
+Title: One Live One Love
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Straylight,Arial,24,&H00FFFFFF,&H008B74FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Asahi,Arial,24,&H00FFFFFF,&H000001C2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Fuyuko,Arial,24,&H00FFFFFF,&H0027D77B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Mei,Arial,24,&H00FFFFFF,&H00CC00CC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Straylight - Choir,Arial,24,&H00FFFFFF,&H00DBD155,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Legend,Arial,24,&H00FFFFFF,&H008B74FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,2,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,Legend,,0,0,40,karaoke,{\k1000} Straylight {\2cFFFFFF}| {\rAsahi}Asahi {\2cFFFFFF}| {\rFuyuko}Fuyuko {\2cFFFFFF}| {\rMei}Mei {\2cFFFFFF}| {\rStraylight - Choir}Choir
+Comment: 0,0:00:02.24,0:00:06.32,Straylight - Choir,,0,0,0,karaoke,{\k78}ONE {\k78}LI-{\k77}LI-{\k78}LI-{\k97}LIVE
+Comment: 0,0:00:10.52,0:00:14.70,Straylight - Choir,,0,0,0,karaoke,{\k78}ONE {\k77}LO-{\k78}LO-{\k78}LO-{\k107}LOVE
+Comment: 0,0:00:18.79,0:00:26.12,Fuyuko,,0,0,0,karaoke,{\kf140}YOU{\k17} {\k26}WERE {\k103}BORN {\k23}mo{\k27}ku{\k25}te{\k27}ki {\kf126}mo{\k29} {\k26}shi{\k23}ra{\kf141}zu
+Comment: 0,0:00:27.07,0:00:34.24,Mei,,0,0,0,karaoke,{\kf140}YOU{\k16} {\k26}A{\k103}LIVE {\k25}P{\k26}RO{\k26}G{\k27}RA{\k155}M {\k25}do{\k27}o{\kf121}ri
+Comment: 0,0:00:35.35,0:00:39.14,Straylight,,0,0,0,karaoke,{\k78}ONE {\k78}LI-{\k77}LI-{\k78}LI-{\k97}LIVE
+Comment: 0,0:00:39.48,0:00:43.18,Straylight,,0,0,0,karaoke,{\k78}ONE {\k77}LO-{\k78}LO-{\k78}LO-{\k107}LOVE
+Comment: 0,0:00:43.62,0:00:50.95,Fuyuko,,0,0,0,karaoke,{\kf125}BOUN{\k30}CE {\k27}WITH {\k98}YOU {\k31}ki {\k26}ga {\k26}ka{\k25}yo{\kf155}t{\k30}te{\k22}i{\kf138}ku
+Comment: 0,0:00:51.90,0:00:59.05,Asahi,,0,0,0,karaoke,{\k110}WE{\k43} {\k28}GIVE {\k102}YOU {\k24}so{\k30}so{\k23}gi{\k28}ko{\kf121}mu{\k32} {\k28}E{\k26}NER{\kf120}GY
+Comment: 0,0:00:59.65,0:01:03.29,Mei,,0,0,0,karaoke,{\k52}MO{\k49}NO{\k30}CH{\k51}RO{\k26}ME {\kf156}ni
+Comment: 0,0:01:04.06,0:01:08.03,Asahi,,0,0,0,karaoke,{\k24}mu{\k28}su{\k13}u {\k36}no {\k27}hi{\k27}ka{\k13}ri {\k38}ga {\k23}mya{\k28}ku {\k15}wo {\k35}u{\k25}chi {\k30}na{\k12}ga{\k23}ra
+Comment: 0,0:01:08.16,0:01:11.61,Fuyuko,,0,0,0,karaoke,{\k29}SC{\k50}I{\k28}E{\k50}N{\k25}CE {\kf163}ja
+Comment: 0,0:01:12.30,0:01:15.93,Asahi,,0,0,0,karaoke,{\k27}se{\k28}tsu{\k14}me{\k37}i {\k27}tsu{\k25}ka{\k13}na{\k40}i {\k25}MI{\k24}RA{\k14}C{\k40}LE {\k49}ga
+Comment: 0,0:01:16.21,0:01:27.07,Straylight,,0,0,0,karaoke,{\k52}ONE {\kf203}LI{\k159}VE {\k52}ONE {\kf204}LI{\k156}VE {\k52}ONE {\kf195}LI{\k13}VE
+Comment: 0,0:01:27.84,0:01:31.31,Fuyuko,,0,0,0,karaoke,{\k24}o{\k41}so{\k40}re {\k25}ni {\k78}nat{\k13}te {\kf126}mo
+Comment: 0,0:01:31.99,0:01:33.18,Straylight,,0,0,0,karaoke,{\k25}E{\k52}VOL{\k42}VING
+Comment: 0,0:01:33.27,0:01:37.11,Straylight,,0,0,0,karaoke,{\k78}La {\k78}La {\k78}La {\k76}La {\k74}La
+Comment: 0,0:01:37.13,0:01:41.54,Straylight,,0,0,0,karaoke,{\k28}gu{\k38}u{\k40}zou {\k24}wa {\k41}NOI{\k37}SE {\k24}ka{\k41}ki{\k37}ke{\k29}shi{\kf102}te
+Comment: 0,0:01:41.53,0:01:45.37,Straylight,,0,0,0,karaoke,{\k80}La {\k78}La {\k77}La {\k76}La {\k73}La
+Comment: 0,0:01:45.41,0:01:50.31,Straylight,,0,0,0,karaoke,{\k24}ge{\k43}ki{\k39}dou {\k24}no {\k40}FRIC{\k39}TION {\k25}nu{\k37}ri{\k41}ka{\k27}e{\k35}tei{\k41}ku {\k25}RE{\k50}CORD
+Comment: 0,0:01:50.55,0:01:57.61,Mei,,0,0,0,karaoke,{\k30}sa{\k40}i{\k38}ko{\k27}u {\k78}ga {\k25}mu{\k42}ge{\k36}n {\k26}na{\k77}ra {\k25}ha{\k40}te{\k39}ru {\k25}ma{\kf158}de
+Comment: 0,0:01:58.06,0:02:03.83,Asahi,,0,0,0,karaoke,{\k78}sou {\k27}kyo{\k42}ku{\k39}ge{\k25}n {\k77}no {\k27}ta{\k38}bi {\k38}wo {\k26}tsu{\k77}zu{\k28}ke{\k55}you
+Comment: 0,0:02:04.06,0:02:08.49,Straylight,,0,0,0,karaoke,{\k25}mi{\k38}ra{\k40}i {\k24}no {\k37}sa{\k43}ki {\k26}ma{\kf210}de
+Comment: 0,0:02:14.90,0:02:22.92,Mei,,0,0,0,karaoke,{\k26}ka{\k52}so{\k39}ku {\k41}shi{\k50}te {\k24}hi{\k51}ki{\k42}ha{\k38}na{\k52}su {\k26}fu{\k49}ri{\k42}ka{\k39}et{\k52}te {\k22}ta{\k53}shi{\k41}ka{\k38}me{\k25}ta
+Comment: 0,0:02:23.19,0:02:30.44,Fuyuko,,0,0,0,karaoke,{\k26}o{\k50}i{\k41}tsu{\k39}ka{\k52}re {\k26}fu{\k48}ri{\k42}ki{\k38}t{\k49}te {\k29}tsu{\k52}ki{\k39}nu{\k38}ke{\k26}te {\k36}mi{\k41}se{\k53}ru
+Comment: 0,0:02:30.66,0:02:34.47,Asahi,,0,0,0,karaoke,{\k51}chi{\k55}ka{\k25}ra {\k48}tsu{\k31}ki{\kf171}te
+Comment: 0,0:02:35.06,0:02:39.01,Mei,,0,0,0,karaoke,{\k29}tsu{\k27}me{\k12}ta{\k38}i {\k26}F{\k27}LO{\k14}OR {\k38}ni {\k23}ta{\k28}o{\k11}re{\k40}kon {\k26}de{\k26}mo {\k13}na{\k17}o
+Comment: 0,0:02:39.22,0:02:42.68,Fuyuko,,0,0,0,karaoke,{\k27}mu{\k51}ne {\k27}no {\k49}o{\k28}ku {\kf164}ni
+Comment: 0,0:02:43.35,0:02:46.97,Asahi,,0,0,0,karaoke,{\k28}to{\k28}mo{\k11}shi{\k36}ta {\k26}hi{\k28}ka{\k12}ri {\k37}wa {\k26}ke{\k26}se{\k14}ya{\k40}shi{\k50}nai
+Comment: 0,0:02:47.25,0:02:58.11,Straylight,,0,0,0,karaoke,{\k52}ONE {\kf203}LO{\k158}VE {\k52}ONE {\kf204}LO{\k158}VE {\k51}ONE {\kf203}LO{\k5}VE
+Comment: 0,0:02:58.89,0:03:06.41,Mei,,0,0,0,karaoke,{\k23}fu{\k39}ka{\k41}shi {\k24}no {\k80}SIG{\k103}NAL {\k24}BEA{\k26}T {\k12}wo {\k38}ki{\k29}za{\k26}mi {\k11}tsu{\k40}zu{\k26}ke{\kf210}ru
+Comment: 0,0:03:10.23,0:03:14.68,Mei,,0,0,0,karaoke,{\k16}ka{\k13}ku{\k27}shin {\k12}wa {\k39}do{\k28}ko {\k21}he {\k16}mu{\k38}ka{\k26}u {\kf209}no?
+Comment: 0,0:03:20.60,0:03:28.60,Fuyuko,,0,0,0,karaoke,{\k14}ka{\k10}n{\kf105}se{\kf91}i{\k14} {\kf121}no{\k60} {\k11}ho{\k14}u{\kf96}bu{\kf108}tsu{\kf89}sen{\k17} {\k50}ga
+Comment: 0,0:03:28.87,0:03:38.75,Mei,,0,0,0,karaoke,{\k15}so{\k14}u{\kf101}zo{\k104}u {\kf134}wo{\kf47} {\k15}shi{\k11}n{\k77}ka {\k26}he {\k39}to {\k37}i{\k28}za{\kf322}na{\k18}u
+Comment: 0,0:03:39.23,0:03:47.08,Straylight - Choir,,0,0,0,karaoke,{\k58}FOR {\kf245}YOU{\k173} {\k59}AND {\kf250}ME
+Comment: 0,0:03:47.99,0:03:57.84,Asahi,,0,0,0,karaoke,{\k41}i{\k43}ki{\k31}tsu{\kf109}ku{\k30} {\k55}EN{\k136}DING {\k43}ha{\k38}me{\k30}tsu{\k80}da {\k66}to {\k14}shi{\k27}te {\kf242}mo
+Comment: 0,0:03:58.58,0:03:59.77,Straylight - Choir,,0,0,0,karaoke,{\k21}DE{\k55}SI{\k43}RE
+Comment: 0,0:03:58.83,0:04:02.96,Asahi,,0,0,0,karaoke,{\kf92}AH{\k10} {\kf311}AH
+Comment: 0,0:03:59.84,0:04:03.67,Straylight,,0,0,0,karaoke,{\k79}La {\k78}La {\k78}La {\k77}La {\k71}La
+Comment: 0,0:04:03.75,0:04:08.17,Straylight,,0,0,0,karaoke,{\k21}wa{\k43}ki{\k38}ta{\k26}tsu {\k34}PAS{\k44}SION {\k24}ta{\k41}ka{\k39}nat{\k26}te{\kf106}ru
+Comment: 0,0:04:08.09,0:04:11.98,Straylight,,0,0,0,karaoke,{\k82}La {\k78}La {\k78}La {\k76}La {\k75}La
+Comment: 0,0:04:11.99,0:04:16.97,Straylight,,0,0,0,karaoke,{\k26}kou{\k40}sa {\k41}su{\k25}ru {\k38}AC{\k40}TION {\k25}mi{\k37}ga{\k41}ka{\k26}re{\k38}te{\k39}ku {\k24}MY {\k58}SOUL
+Comment: 0,0:04:17.16,0:04:23.95,Mei,,0,0,0,karaoke,{\k29}ka{\k40}n{\k37}jo{\k26}u {\k78}wa {\k21}ne{\k44}tsu {\k38}ni {\k26}na{\k78}ri {\k24}na{\k41}ga{\k39}re{\k25}te{\kf133}ku
+Comment: 0,0:04:24.68,0:04:30.32,Asahi,,0,0,0,karaoke,{\k76}aa {\k27}so{\k39}no {\k39}ko{\k27}e {\k75}ga {\k26}chi{\k42}ka{\k37}ra {\k27}ni {\k78}nat{\k25}te{\k46}ku
+Comment: 0,0:04:30.62,0:04:34.92,Straylight,,0,0,0,karaoke,{\k28}ka{\k38}ra{\k38}da{\k27}ju{\k39}u {\k36}de {\k27}FEE{\kf197}LING
+Comment: 0,0:04:32.63,0:04:40.61,Asahi,,0,0,0,karaoke,{\k32}yo{\k40}ro{\k40}ko{\k52}bi {\k50}mo {\k27}ka{\k35}na{\k42}shi{\k52}mi {\k51}mo {\k27}o{\k39}do{\k33}ro{\k57}ki {\k52}mo {\k21}o{\k44}so{\k38}re {\k66}mo
+Comment: 0,0:04:40.99,0:04:46.97,Fuyuko,,0,0,0,karaoke,{\k25}u{\k39}re{\k40}i {\k51}dat{\k52}te {\k24}i{\k40}ka{\k39}ri {\k52}dat{\k51}te {\k26}o{\k39}mo{\k38}i {\k53}zen{\k29}bu
+Comment: 0,0:04:47.18,0:04:51.55,Fuyuko,,0,0,0,karaoke,{\k27}i{\k37}no{\k41}chi {\k77}ni {\rStraylight}{\k51}na{\k204}ru
+Comment: 0,0:04:49.51,0:04:53.48,Straylight,,0,0,0,karaoke,{\k78}ONE {\k79}LI-{\k77}LI-{\k77}LI-{\k86}LIVE
+Comment: 0,0:04:57.80,0:05:01.97,Straylight,,0,0,0,karaoke,{\k78}ONE {\k77}LO-{\k78}LO-{\k78}LO-{\k107}LOVE
+Comment: 0,0:05:06.07,0:05:10.27,Straylight,,0,0,0,karaoke,{\k78}ONE {\k78}LI-{\k77}LI-{\k78}LI-{\k97}LIVE
+Comment: 0,0:05:14.35,0:05:18.55,Straylight,,0,0,0,karaoke,{\k78}ONE {\k77}LO-{\k78}LO-{\k78}LO-{\k107}LOVE
+Comment: 0,0:05:22.60,0:05:26.58,Straylight,,0,0,0,karaoke,{\k78}ONE {\k78}LI-{\k79}LI-{\k78}LI-{\k85}LIVE
+Dialogue: 0,0:00:00.00,0:00:10.20,Legend,,0,0,40,fx,{\k0\fad(0,200)}{\k1000} Straylight {\2cFFFFFF}| {\rAsahi}Asahi {\2cFFFFFF}| {\rFuyuko}Fuyuko {\2cFFFFFF}| {\rMei}Mei {\2cFFFFFF}| {\rStraylight - Choir}Choir
+Dialogue: 0,0:00:01.34,0:00:06.52,Straylight - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k78}ONE {\k78}LI-{\k77}LI-{\k78}LI-{\k97}LIVE
+Dialogue: 0,0:00:09.62,0:00:14.90,Straylight - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k78}ONE {\k77}LO-{\k78}LO-{\k78}LO-{\k107}LOVE
+Dialogue: 0,0:00:17.89,0:00:26.32,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\kf140}YOU{\k17} {\k26}WERE {\k103}BORN {\k23}mo{\k27}ku{\k25}te{\k27}ki {\kf126}mo{\k29} {\k26}shi{\k23}ra{\kf141}zu
+Dialogue: 0,0:00:26.17,0:00:34.44,Mei,,0,0,0,fx,{\k90\fad(300,200)}{\kf140}YOU{\k16} {\k26}A{\k103}LIVE {\k25}P{\k26}RO{\k26}G{\k27}RA{\k155}M {\k25}do{\k27}o{\kf121}ri
+Dialogue: 0,0:00:34.45,0:00:39.34,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k78}ONE {\k78}LI-{\k77}LI-{\k78}LI-{\k97}LIVE
+Dialogue: 0,0:00:38.58,0:00:43.38,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k78}ONE {\k77}LO-{\k78}LO-{\k78}LO-{\k107}LOVE
+Dialogue: 0,0:00:42.72,0:00:51.15,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\kf125}BOUN{\k30}CE {\k27}WITH {\k98}YOU {\k31}ki {\k26}ga {\k26}ka{\k25}yo{\kf155}t{\k30}te{\k22}i{\kf138}ku
+Dialogue: 0,0:00:51.00,0:00:59.25,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k110}WE{\k43} {\k28}GIVE {\k102}YOU {\k24}so{\k30}so{\k23}gi{\k28}ko{\kf121}mu{\k32} {\k28}E{\k26}NER{\kf120}GY
+Dialogue: 0,0:00:58.75,0:01:03.49,Mei,,0,0,0,fx,{\k90\fad(300,200)}{\k52}MO{\k49}NO{\k30}CH{\k51}RO{\k26}ME {\kf156}ni
+Dialogue: 0,0:01:03.16,0:01:08.23,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k24}mu{\k28}su{\k13}u {\k36}no {\k27}hi{\k27}ka{\k13}ri {\k38}ga {\k23}mya{\k28}ku {\k15}wo {\k35}u{\k25}chi {\k30}na{\k12}ga{\k23}ra
+Dialogue: 0,0:01:07.26,0:01:11.81,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k29}SC{\k50}I{\k28}E{\k50}N{\k25}CE {\kf163}ja
+Dialogue: 0,0:01:11.40,0:01:16.13,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k27}se{\k28}tsu{\k14}me{\k37}i {\k27}tsu{\k25}ka{\k13}na{\k40}i {\k25}MI{\k24}RA{\k14}C{\k40}LE {\k49}ga
+Dialogue: 0,0:01:15.31,0:01:27.27,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k52}ONE {\kf203}LI{\k159}VE {\k52}ONE {\kf204}LI{\k156}VE {\k52}ONE {\kf195}LI{\k13}VE
+Dialogue: 0,0:01:26.94,0:01:31.51,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k24}o{\k41}so{\k40}re {\k25}ni {\k78}nat{\k13}te {\kf126}mo
+Dialogue: 0,0:01:31.09,0:01:33.38,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k25}E{\k52}VOL{\k42}VING
+Dialogue: 0,0:01:32.37,0:01:37.31,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k78}La {\k78}La {\k78}La {\k76}La {\k74}La
+Dialogue: 0,0:01:36.23,0:01:41.74,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k28}gu{\k38}u{\k40}zou {\k24}wa {\k41}NOI{\k37}SE {\k24}ka{\k41}ki{\k37}ke{\k29}shi{\kf102}te
+Dialogue: 0,0:01:40.63,0:01:45.57,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k80}La {\k78}La {\k77}La {\k76}La {\k73}La
+Dialogue: 0,0:01:44.51,0:01:50.51,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ge{\k43}ki{\k39}dou {\k24}no {\k40}FRIC{\k39}TION {\k25}nu{\k37}ri{\k41}ka{\k27}e{\k35}tei{\k41}ku {\k25}RE{\k50}CORD
+Dialogue: 0,0:01:49.65,0:01:57.81,Mei,,0,0,0,fx,{\k90\fad(300,200)}{\k30}sa{\k40}i{\k38}ko{\k27}u {\k78}ga {\k25}mu{\k42}ge{\k36}n {\k26}na{\k77}ra {\k25}ha{\k40}te{\k39}ru {\k25}ma{\kf158}de
+Dialogue: 0,0:01:57.16,0:02:04.03,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k78}sou {\k27}kyo{\k42}ku{\k39}ge{\k25}n {\k77}no {\k27}ta{\k38}bi {\k38}wo {\k26}tsu{\k77}zu{\k28}ke{\k55}you
+Dialogue: 0,0:02:03.16,0:02:08.69,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k25}mi{\k38}ra{\k40}i {\k24}no {\k37}sa{\k43}ki {\k26}ma{\kf210}de
+Dialogue: 0,0:02:14.00,0:02:23.12,Mei,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ka{\k52}so{\k39}ku {\k41}shi{\k50}te {\k24}hi{\k51}ki{\k42}ha{\k38}na{\k52}su {\k26}fu{\k49}ri{\k42}ka{\k39}et{\k52}te {\k22}ta{\k53}shi{\k41}ka{\k38}me{\k25}ta
+Dialogue: 0,0:02:22.29,0:02:30.64,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k26}o{\k50}i{\k41}tsu{\k39}ka{\k52}re {\k26}fu{\k48}ri{\k42}ki{\k38}t{\k49}te {\k29}tsu{\k52}ki{\k39}nu{\k38}ke{\k26}te {\k36}mi{\k41}se{\k53}ru
+Dialogue: 0,0:02:29.76,0:02:34.67,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k51}chi{\k55}ka{\k25}ra {\k48}tsu{\k31}ki{\kf171}te
+Dialogue: 0,0:02:34.16,0:02:39.21,Mei,,0,0,0,fx,{\k90\fad(300,200)}{\k29}tsu{\k27}me{\k12}ta{\k38}i {\k26}F{\k27}LO{\k14}OR {\k38}ni {\k23}ta{\k28}o{\k11}re{\k40}kon {\k26}de{\k26}mo {\k13}na{\k17}o
+Dialogue: 0,0:02:38.32,0:02:42.88,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k27}mu{\k51}ne {\k27}no {\k49}o{\k28}ku {\kf164}ni
+Dialogue: 0,0:02:42.45,0:02:47.17,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k28}to{\k28}mo{\k11}shi{\k36}ta {\k26}hi{\k28}ka{\k12}ri {\k37}wa {\k26}ke{\k26}se{\k14}ya{\k40}shi{\k50}nai
+Dialogue: 0,0:02:46.35,0:02:58.31,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k52}ONE {\kf203}LO{\k158}VE {\k52}ONE {\kf204}LO{\k158}VE {\k51}ONE {\kf203}LO{\k5}VE
+Dialogue: 0,0:02:57.99,0:03:06.61,Mei,,0,0,0,fx,{\k90\fad(300,200)}{\k23}fu{\k39}ka{\k41}shi {\k24}no {\k80}SIG{\k103}NAL {\k24}BEA{\k26}T {\k12}wo {\k38}ki{\k29}za{\k26}mi {\k11}tsu{\k40}zu{\k26}ke{\kf210}ru
+Dialogue: 0,0:03:09.33,0:03:14.88,Mei,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ka{\k13}ku{\k27}shin {\k12}wa {\k39}do{\k28}ko {\k21}he {\k16}mu{\k38}ka{\k26}u {\kf209}no?
+Dialogue: 0,0:03:19.70,0:03:28.80,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ka{\k10}n{\kf105}se{\kf91}i{\k14} {\kf121}no{\k60} {\k11}ho{\k14}u{\kf96}bu{\kf108}tsu{\kf89}sen{\k17} {\k50}ga
+Dialogue: 0,0:03:27.97,0:03:38.95,Mei,,0,0,0,fx,{\k90\fad(300,200)}{\k15}so{\k14}u{\kf101}zo{\k104}u {\kf134}wo{\kf47} {\k15}shi{\k11}n{\k77}ka {\k26}he {\k39}to {\k37}i{\k28}za{\kf322}na{\k18}u
+Dialogue: 0,0:03:38.33,0:03:47.28,Straylight - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k58}FOR {\kf245}YOU{\k173} {\k59}AND {\kf250}ME
+Dialogue: 0,0:03:47.09,0:03:58.04,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k41}i{\k43}ki{\k31}tsu{\kf109}ku{\k30} {\k55}EN{\k136}DING {\k43}ha{\k38}me{\k30}tsu{\k80}da {\k66}to {\k14}shi{\k27}te {\kf242}mo
+Dialogue: 0,0:03:57.68,0:03:59.97,Straylight - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}DE{\k55}SI{\k43}RE
+Dialogue: 0,0:03:57.93,0:04:03.16,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\kf92}AH{\k10} {\kf311}AH
+Dialogue: 0,0:03:58.94,0:04:03.87,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k79}La {\k78}La {\k78}La {\k77}La {\k71}La
+Dialogue: 0,0:04:02.85,0:04:08.37,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k21}wa{\k43}ki{\k38}ta{\k26}tsu {\k34}PAS{\k44}SION {\k24}ta{\k41}ka{\k39}nat{\k26}te{\kf106}ru
+Dialogue: 0,0:04:07.19,0:04:12.18,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k82}La {\k78}La {\k78}La {\k76}La {\k75}La
+Dialogue: 0,0:04:11.09,0:04:17.17,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k26}kou{\k40}sa {\k41}su{\k25}ru {\k38}AC{\k40}TION {\k25}mi{\k37}ga{\k41}ka{\k26}re{\k38}te{\k39}ku {\k24}MY {\k58}SOUL
+Dialogue: 0,0:04:16.26,0:04:24.15,Mei,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ka{\k40}n{\k37}jo{\k26}u {\k78}wa {\k21}ne{\k44}tsu {\k38}ni {\k26}na{\k78}ri {\k24}na{\k41}ga{\k39}re{\k25}te{\kf133}ku
+Dialogue: 0,0:04:23.78,0:04:30.52,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k76}aa {\k27}so{\k39}no {\k39}ko{\k27}e {\k75}ga {\k26}chi{\k42}ka{\k37}ra {\k27}ni {\k78}nat{\k25}te{\k46}ku
+Dialogue: 0,0:04:29.72,0:04:35.12,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ka{\k38}ra{\k38}da{\k27}ju{\k39}u {\k36}de {\k27}FEE{\kf197}LING
+Dialogue: 0,0:04:31.73,0:04:40.81,Asahi,,0,0,0,fx,{\k90\fad(300,200)}{\k32}yo{\k40}ro{\k40}ko{\k52}bi {\k50}mo {\k27}ka{\k35}na{\k42}shi{\k52}mi {\k51}mo {\k27}o{\k39}do{\k33}ro{\k57}ki {\k52}mo {\k21}o{\k44}so{\k38}re {\k66}mo
+Dialogue: 0,0:04:40.09,0:04:47.17,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k25}u{\k39}re{\k40}i {\k51}dat{\k52}te {\k24}i{\k40}ka{\k39}ri {\k52}dat{\k51}te {\k26}o{\k39}mo{\k38}i {\k53}zen{\k29}bu
+Dialogue: 0,0:04:46.28,0:04:51.75,Fuyuko,,0,0,0,fx,{\k90\fad(300,200)}{\k27}i{\k37}no{\k41}chi {\k77}ni {\rStraylight}{\k51}na{\k204}ru
+Dialogue: 0,0:04:48.61,0:04:53.68,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k78}ONE {\k79}LI-{\k77}LI-{\k77}LI-{\k86}LIVE
+Dialogue: 0,0:04:56.90,0:05:02.17,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k78}ONE {\k77}LO-{\k78}LO-{\k78}LO-{\k107}LOVE
+Dialogue: 0,0:05:05.17,0:05:10.47,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k78}ONE {\k78}LI-{\k77}LI-{\k78}LI-{\k97}LIVE
+Dialogue: 0,0:05:13.45,0:05:18.75,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k78}ONE {\k77}LO-{\k78}LO-{\k78}LO-{\k107}LOVE
+Dialogue: 0,0:05:21.70,0:05:26.78,Straylight,,0,0,0,fx,{\k90\fad(300,200)}{\k78}ONE {\k78}LI-{\k79}LI-{\k78}LI-{\k85}LIVE
