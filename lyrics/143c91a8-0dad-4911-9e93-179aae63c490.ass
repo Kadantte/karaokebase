@@ -1,0 +1,178 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Kissing Someone Else
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFB858,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.83,0:00:04.29,Sample KM [Up],,0,0,0,karaoke,{\k22}I {\k25}can {\k26}see {\k26}you {\k49}now,{\k75} {\k24}you're {\k22}all {\k26}dressed {\k51}up
+Comment: 0,0:00:05.00,0:00:06.47,Sample KM [Up],,0,0,0,karaoke,{\k11}Got {\k16}your {\k23}best {\k26}shoes {\k71}on
+Comment: 0,0:00:06.98,0:00:08.32,Sample KM [Up],,0,0,0,karaoke,{\k10}That {\k8}I {\k13}helped {\k17}to {\k25}pick {\k61}out
+Comment: 0,0:00:10.43,0:00:13.64,Sample KM [Up],,0,0,0,karaoke,{\k25}You're {\k11}mo{\k13}ving {\k52}on,{\k96} {\k24}you're {\k13}mo{\k12}ving {\k75}on
+Comment: 0,0:00:14.35,0:00:15.60,Sample KM [Up],,0,0,0,karaoke,{\k25}You're {\k15}mo{\k10}ving {\k75}on
+Comment: 0,0:00:16.58,0:00:18.32,Sample KM [Up],,0,0,0,karaoke,{\k22}Now {\k25}don't {\k26}get {\k24}me {\k77}wrong
+Comment: 0,0:00:18.79,0:00:20.07,Sample KM [Up],,0,0,0,karaoke,{\k11}Let{\k13}ting {\k19}go {\k19}was {\k66}right
+Comment: 0,0:00:20.75,0:00:24.68,Sample KM [Up],,0,0,0,karaoke,{\k8}But {\k16}I {\k24}can't {\k25}shake {\k25}the {\k26}fee{\k42}ling{\k28} {\k28}of {\k24}you {\k25}by {\k47}my {\k75}side
+Comment: 0,0:00:26.17,0:00:29.63,Sample KM [Up],,0,0,0,karaoke,{\k24}You're {\k13}mo{\k11}ving {\k73}on,{\k75} {\k25}you're {\k13}mo{\k12}ving {\kf100}on
+Comment: 0,0:00:30.12,0:00:32.29,Sample KM [Up],,0,0,0,karaoke,{\k22}You're {\k12}mo{\k13}ving {\kf170}on
+Comment: 0,0:00:32.78,0:00:34.77,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k26}can {\k25}feel {\k26}your {\k49}heart{\k49}beat
+Comment: 0,0:00:34.77,0:00:37.69,Sample KM [Up],,0,0,0,karaoke,{\k23}While {\k22}you're {\k25}kis{\k28}sing {\k50}some{\k48}one {\k96}else
+Comment: 0,0:00:39.92,0:00:42.63,Sample KM [Up],,0,0,0,karaoke,{\k25}You {\k24}met {\k24}her {\k26}drin{\k25}king {\k24}in {\k25}a {\k51}dive-{\k47}bar
+Comment: 0,0:00:42.63,0:00:45.10,Sample KM [Up],,0,0,0,karaoke,{\k23}As{\k27}king {\k49}'bout {\k51}books {\k23}you've {\k74}read
+Comment: 0,0:00:48.51,0:00:50.50,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k27}can {\k25}feel {\k19}your {\k57}heart{\k48}beat
+Comment: 0,0:00:50.50,0:00:53.44,Sample KM [Up],,0,0,0,karaoke,{\k21}While {\k24}you're {\k25}kis{\k29}sing {\k49}some{\k48}one {\k98}else
+Comment: 0,0:00:55.66,0:00:58.37,Sample KM [Up],,0,0,0,karaoke,{\k26}You {\k23}met {\k24}her {\k27}drin{\k25}king {\k24}in {\k24}a {\k48}divе-{\k50}bar
+Comment: 0,0:00:58.37,0:01:00.84,Sample KM [Up],,0,0,0,karaoke,{\k22}As{\k28}king {\k50}'bout {\k47}books {\k25}you've {\k75}read
+Comment: 0,0:01:01.82,0:01:03.23,Sample KM [Up],,0,0,0,karaoke,{\k24}You've {\kf117}rеad
+Comment: 0,0:01:03.78,0:01:05.51,Sample KM [Up],,0,0,0,karaoke,{\k22}I'm {\k16}go{\k11}ing {\k39}out {\k11}to{\k74}night
+Comment: 0,0:01:06.00,0:01:07.33,Sample KM [Up],,0,0,0,karaoke,{\k10}In {\k14}my {\k24}best {\k24}blue {\k61}dress
+Comment: 0,0:01:07.97,0:01:09.50,Sample KM [Up],,0,0,0,karaoke,{\k12}Got {\k13}my {\k20}red {\k28}pumps {\k80}on
+Comment: 0,0:01:09.94,0:01:11.49,Sample KM [Up],,0,0,0,karaoke,{\k7}But, {\k15}I {\k26}feel {\k22}de{\k85}pressed
+Comment: 0,0:01:11.16,0:01:12.15,Sample KM [Choir],,0,0,0,karaoke,{\k25}Why, {\k74}girl?
+Comment: 0,0:01:13.37,0:01:16.57,Sample KM [Up],,0,0,0,karaoke,{\k25}You're {\k14}mo{\k11}ving {\k64}on,{\k84} {\k24}you're {\k12}mo{\k14}ving {\k72}on
+Comment: 0,0:01:17.31,0:01:18.54,Sample KM [Up],,0,0,0,karaoke,{\k25}You're {\k12}mo{\k12}ving {\k74}on
+Comment: 0,0:01:19.52,0:01:21.07,Sample KM [Up],,0,0,0,karaoke,{\k25}Oh, {\k23}but {\k17}who {\k9}am {\k24}I {\k24}kid{\k33}ding?
+Comment: 0,0:01:21.74,0:01:22.96,Sample KM [Up],,0,0,0,karaoke,{\k9}We {\k14}can {\k9}ne{\k14}ver {\k23}be {\k53}right
+Comment: 0,0:01:23.19,0:01:28.38,Sample KM [Up],,0,0,0,karaoke,{\k27}Coul{\k22}dn't {\k49}get {\k26}the {\k22}girl {\k28}you {\k26}wan{\k23}ted {\k26}out {\k25}of {\k24}my {\kf221}mind
+Comment: 0,0:01:29.10,0:01:32.67,Sample KM [Up],,0,0,0,karaoke,{\k27}You're {\k14}mo{\k10}ving {\k74}on,{\k71} {\k27}you're {\k13}mo{\k13}ving {\kf108}on
+Comment: 0,0:01:33.04,0:01:35.00,Sample KM [Up],,0,0,0,karaoke,{\k26}I'm {\k13}mo{\k12}ving {\kf145}on
+Comment: 0,0:01:35.00,0:01:35.63,Sample KM [Choir],,0,0,0,karaoke,{\k26}Oh {\k37}my
+Comment: 0,0:01:35.75,0:01:37.72,Sample KM [Up],,0,0,0,karaoke,{\k26}I {\k24}can {\k25}feel {\k24}your {\k48}heart{\k50}beat
+Comment: 0,0:01:37.72,0:01:40.80,Sample KM [Up],,0,0,0,karaoke,{\k24}While {\k23}you're {\k25}kis{\k24}sing {\k53}some{\k48}one {\kf111}else
+Comment: 0,0:01:40.18,0:01:43.58,Sample KM [Choir],,0,0,0,karaoke,{\k49}You're {\k24}kis{\k50}sing {\k73}some{\k50}one {\k94}else
+Comment: 0,0:01:42.88,0:01:45.59,Sample KM [Up],,0,0,0,karaoke,{\k26}You {\k25}met {\k21}her {\k26}drin{\k26}king {\k24}in {\k24}a {\k49}dive-{\k50}bar
+Comment: 0,0:01:45.59,0:01:48.06,Sample KM [Up],,0,0,0,karaoke,{\k21}As{\k29}king {\k47}'bout {\k48}books {\k26}you've {\k76}read
+Comment: 0,0:01:48.06,0:01:51.46,Sample KM [Choir],,0,0,0,karaoke,{\k48}You're {\k25}kis{\k42}sing {\k79}some{\k51}one {\k95}else
+Comment: 0,0:01:49.22,0:01:51.05,Sample KM [Up],,0,0,0,karaoke,{\k50}Ha-{\k51}ha-{\k82}ha
+Comment: 0,0:01:51.47,0:01:53.47,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k25}can {\k27}feel {\k23}your {\k50}heart{\k51}beat
+Comment: 0,0:01:53.47,0:01:56.35,Sample KM [Up],,0,0,0,karaoke,{\k23}While {\k22}you're {\k25}kis{\k25}sing {\k51}some{\k51}one {\k91}else
+Comment: 0,0:01:55.91,0:01:59.31,Sample KM [Choir],,0,0,0,karaoke,{\k50}You're {\k24}kis{\k47}sing {\k76}some{\k51}one {\k92}else
+Comment: 0,0:01:58.60,0:02:01.32,Sample KM [Up],,0,0,0,karaoke,{\k26}You {\k25}met {\k20}her {\k27}drin{\k26}king {\k25}in {\k24}a {\k51}dive-{\k48}bar
+Comment: 0,0:02:01.32,0:02:03.78,Sample KM [Up],,0,0,0,karaoke,{\k24}As{\k26}king {\k50}'bout {\k48}books {\k27}you've {\k71}read
+Comment: 0,0:02:04.72,0:02:05.74,Sample KM [Up],,0,0,0,karaoke,{\k30}You've {\k72}read
+Comment: 0,0:02:05.99,0:02:09.69,Sample KM [Up],,0,0,0,karaoke,{\k26}I {\k23}feel {\k25}it {\k49}go {\k75}bum-{\k74}bum-{\k24}ba-{\k74}dum
+Comment: 0,0:02:11.16,0:02:13.62,Sample KM [Up],,0,0,0,karaoke,{\k75}Bum-{\k72}bum-{\k26}ba-{\k73}dum
+Comment: 0,0:02:14.33,0:02:17.56,Sample KM [Up],,0,0,0,karaoke,{\k27}I {\k27}feel {\k20}it {\k76}bum-{\k74}bum-{\k24}ba-{\k75}dum
+Comment: 0,0:02:18.30,0:02:21.47,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k24}feel {\k26}it {\k73}bum-{\k73}bum-{\k25}ba-{\k72}dum
+Comment: 0,0:02:22.23,0:02:25.66,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\k24}feel {\k25}it {\k74}bum-{\k72}bum-{\k26}ba-{\k97}dum
+Comment: 0,0:02:25.17,0:02:26.90,Sample KM [Choir],,0,0,0,karaoke,{\k25}Don't {\k24}wan{\k26}na {\k22}feel {\k27}it, {\k49}no
+Comment: 0,0:02:26.14,0:02:29.61,Sample KM [Up],,0,0,0,karaoke,{\k27}I {\k25}feel {\k23}it {\k74}bum-{\k74}bum-{\k25}ba-{\k99}dum
+Comment: 0,0:02:29.11,0:02:30.87,Sample KM [Choir],,0,0,0,karaoke,{\k25}Don't {\k23}wan{\k25}na {\k25}feel {\k25}it, {\k53}no
+Comment: 0,0:02:30.08,0:02:33.28,Sample KM [Up],,0,0,0,karaoke,{\k27}I {\k21}feel {\k25}it {\k76}bum-{\k74}bum-{\k25}ba-{\k72}dum
+Comment: 0,0:02:33.03,0:02:34.76,Sample KM [Choir],,0,0,0,karaoke,{\k27}Don't {\k22}wan{\k27}na {\k25}feel {\k23}it, {\k49}no
+Comment: 0,0:02:34.79,0:02:37.42,Sample KM [Up],,0,0,0,karaoke,{\k71}Bum-{\k75}bum-{\k24}ba-{\k93}dum
+Comment: 0,0:02:38.67,0:02:40.69,Sample KM [Up],,0,0,0,karaoke,{\k27}I {\k26}can {\k25}feel {\k22}your {\k52}heart{\k50}beat
+Comment: 0,0:02:40.69,0:02:43.70,Sample KM [Up],,0,0,0,karaoke,{\k22}While {\k24}you're {\k25}kis{\k25}sing {\k47}some{\k53}one {\kf105}else
+Comment: 0,0:02:45.84,0:02:48.55,Sample KM [Up],,0,0,0,karaoke,{\k24}You {\k20}met {\k26}her {\k29}drin{\k25}king {\k21}in {\k27}a {\k48}dive-{\k51}bar
+Comment: 0,0:02:48.55,0:02:52.48,Sample KM [Up],,0,0,0,karaoke,{\k22}As{\k26}king {\k52}'bout {\k47}books {\k92}you've {\kf154}read
+Comment: 0,0:02:54.35,0:02:55.93,Sample KM [Up],,0,0,0,karaoke,{\k27}I {\k26}can {\k26}feel {\k20}your {\k59}heart
+Comment: 0,0:02:56.37,0:02:58.39,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k29}can {\k23}feel {\k27}your {\k47}heart{\k52}beat
+Comment: 0,0:02:58.39,0:03:01.32,Sample KM [Up],,0,0,0,karaoke,{\k23}While {\k22}you're {\k25}kis{\k27}sing {\k48}some{\k51}one {\k97}else
+Comment: 0,0:03:00.84,0:03:04.03,Sample KM [Choir],,0,0,0,karaoke,{\k48}You're {\k24}kis{\k49}sing {\k75}some{\k51}one {\k72}else
+Comment: 0,0:03:03.53,0:03:06.25,Sample KM [Up],,0,0,0,karaoke,{\k25}You {\k25}met {\k23}her {\k25}drin{\k27}king {\k24}in {\k22}a {\k52}dive-{\k49}bar
+Comment: 0,0:03:06.25,0:03:08.70,Sample KM [Up],,0,0,0,karaoke,{\k22}As{\k28}king {\k47}'bout {\k49}books {\k28}you've {\k71}read
+Comment: 0,0:03:08.71,0:03:11.85,Sample KM [Choir],,0,0,0,karaoke,{\k48}You're {\k25}kis{\k45}sing {\k78}some{\k50}one {\k68}else
+Comment: 0,0:03:09.90,0:03:11.74,Sample KM [Up],,0,0,0,karaoke,{\k48}Ha-{\k52}ha-{\k84}ha
+Comment: 0,0:03:12.14,0:03:14.13,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k29}can {\k24}feel {\k25}your {\k48}heart{\k52}beat
+Comment: 0,0:03:14.13,0:03:17.04,Sample KM [Up],,0,0,0,karaoke,{\k22}While {\k23}you're {\k25}kis{\k26}sing {\k50}some{\k49}one {\k96}else
+Comment: 0,0:03:16.57,0:03:20.04,Sample KM [Choir],,0,0,0,karaoke,{\k51}You're {\k22}kis{\k49}sing {\k74}some{\k50}one {\kf101}else
+Comment: 0,0:03:19.26,0:03:21.99,Sample KM [Up],,0,0,0,karaoke,{\k26}You {\k24}met {\k22}her {\k28}drin{\k24}king {\k25}in {\k24}a {\k50}dive-{\k50}bar
+Comment: 0,0:03:21.99,0:03:24.45,Sample KM [Up],,0,0,0,karaoke,{\k24}As{\k24}king {\k51}'bout {\k47}books {\k27}you've {\k73}read
+Comment: 0,0:03:25.39,0:03:26.65,Sample KM [Up],,0,0,0,karaoke,{\k31}You've {\k95}read
+Comment: 0,0:03:27.88,0:03:29.86,Sample KM [Up],,0,0,0,karaoke,{\k23}I {\k27}can {\k22}feel {\k24}your {\k51}heart{\k51}beat
+Comment: 0,0:03:29.86,0:03:33.30,Sample KM [Up],,0,0,0,karaoke,{\k20}While {\k27}you're {\k24}kis{\k26}sing {\k56}some{\k48}one {\kf143}else
+Comment: 0,0:03:35.02,0:03:37.67,Sample KM [Up],,0,0,0,karaoke,{\k25}You {\k22}met {\k23}her {\k29}drin{\k27}king {\k24}in {\k22}a {\k52}dive-{\k41}bar
+Comment: 0,0:03:37.67,0:03:40.35,Sample KM [Up],,0,0,0,karaoke,{\k30}As{\k27}king {\k49}'bout {\k47}books {\k28}you've {\k87}read
+Comment: 0,0:03:41.15,0:03:42.59,Sample KM [Up],,0,0,0,karaoke,{\k30}You've {\kf114}read
+Dialogue: 0,0:00:00.00,0:00:04.49,Sample KM [Up],,0,0,0,fx,{\k83\fad(830,200)}{\k22}I {\k25}can {\k26}see {\k26}you {\k49}now,{\k75} {\k24}you're {\k22}all {\k26}dressed {\k51}up
+Dialogue: 0,0:00:04.10,0:00:06.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Got {\k16}your {\k23}best {\k26}shoes {\k71}on
+Dialogue: 0,0:00:06.08,0:00:08.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}That {\k8}I {\k13}helped {\k17}to {\k25}pick {\k61}out
+Dialogue: 0,0:00:09.53,0:00:13.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}You're {\k11}mo{\k13}ving {\k52}on,{\k96} {\k24}you're {\k13}mo{\k12}ving {\k75}on
+Dialogue: 0,0:00:13.45,0:00:15.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}You're {\k15}mo{\k10}ving {\k75}on
+Dialogue: 0,0:00:15.68,0:00:18.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Now {\k25}don't {\k26}get {\k24}me {\k77}wrong
+Dialogue: 0,0:00:17.89,0:00:20.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Let{\k13}ting {\k19}go {\k19}was {\k66}right
+Dialogue: 0,0:00:19.85,0:00:24.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}But {\k16}I {\k24}can't {\k25}shake {\k25}the {\k26}fee{\k42}ling{\k28} {\k28}of {\k24}you {\k25}by {\k47}my {\k75}side
+Dialogue: 0,0:00:25.27,0:00:29.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}You're {\k13}mo{\k11}ving {\k73}on,{\k75} {\k25}you're {\k13}mo{\k12}ving {\kf100}on
+Dialogue: 0,0:00:29.22,0:00:32.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}You're {\k12}mo{\k13}ving {\kf170}on
+Dialogue: 0,0:00:31.88,0:00:34.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k26}can {\k25}feel {\k26}your {\k49}heart{\k49}beat
+Dialogue: 0,0:00:33.87,0:00:37.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}While {\k22}you're {\k25}kis{\k28}sing {\k50}some{\k48}one {\k96}else
+Dialogue: 0,0:00:39.02,0:00:42.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}You {\k24}met {\k24}her {\k26}drin{\k25}king {\k24}in {\k25}a {\k51}dive-{\k47}bar
+Dialogue: 0,0:00:41.73,0:00:45.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}As{\k27}king {\k49}'bout {\k51}books {\k23}you've {\k74}read
+Dialogue: 0,0:00:47.61,0:00:50.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k27}can {\k25}feel {\k19}your {\k57}heart{\k48}beat
+Dialogue: 0,0:00:49.60,0:00:53.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}While {\k24}you're {\k25}kis{\k29}sing {\k49}some{\k48}one {\k98}else
+Dialogue: 0,0:00:54.76,0:00:58.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}You {\k23}met {\k24}her {\k27}drin{\k25}king {\k24}in {\k24}a {\k48}divе-{\k50}bar
+Dialogue: 0,0:00:57.47,0:01:01.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}As{\k28}king {\k50}'bout {\k47}books {\k25}you've {\k75}read
+Dialogue: 0,0:01:00.92,0:01:03.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}You've {\kf117}rеad
+Dialogue: 0,0:01:02.88,0:01:05.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}I'm {\k16}go{\k11}ing {\k39}out {\k11}to{\k74}night
+Dialogue: 0,0:01:05.10,0:01:07.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}In {\k14}my {\k24}best {\k24}blue {\k61}dress
+Dialogue: 0,0:01:07.07,0:01:09.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Got {\k13}my {\k20}red {\k28}pumps {\k80}on
+Dialogue: 0,0:01:09.04,0:01:11.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k7}But, {\k15}I {\k26}feel {\k22}de{\k85}pressed
+Dialogue: 0,0:01:10.26,0:01:12.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Why, {\k74}girl?
+Dialogue: 0,0:01:12.47,0:01:16.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}You're {\k14}mo{\k11}ving {\k64}on,{\k84} {\k24}you're {\k12}mo{\k14}ving {\k72}on
+Dialogue: 0,0:01:16.41,0:01:18.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}You're {\k12}mo{\k12}ving {\k74}on
+Dialogue: 0,0:01:18.62,0:01:21.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Oh, {\k23}but {\k17}who {\k9}am {\k24}I {\k24}kid{\k33}ding?
+Dialogue: 0,0:01:20.84,0:01:23.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}We {\k14}can {\k9}ne{\k14}ver {\k23}be {\k53}right
+Dialogue: 0,0:01:22.29,0:01:28.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Coul{\k22}dn't {\k49}get {\k26}the {\k22}girl {\k28}you {\k26}wan{\k23}ted {\k26}out {\k25}of {\k24}my {\kf221}mind
+Dialogue: 0,0:01:28.20,0:01:32.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}You're {\k14}mo{\k10}ving {\k74}on,{\k71} {\k27}you're {\k13}mo{\k13}ving {\kf108}on
+Dialogue: 0,0:01:32.14,0:01:35.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}I'm {\k13}mo{\k12}ving {\kf145}on
+Dialogue: 0,0:01:34.10,0:01:35.83,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Oh {\k37}my
+Dialogue: 0,0:01:34.85,0:01:37.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k24}can {\k25}feel {\k24}your {\k48}heart{\k50}beat
+Dialogue: 0,0:01:36.82,0:01:41.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}While {\k23}you're {\k25}kis{\k24}sing {\k53}some{\k48}one {\kf111}else
+Dialogue: 0,0:01:39.28,0:01:43.78,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k49}You're {\k24}kis{\k50}sing {\k73}some{\k50}one {\k94}else
+Dialogue: 0,0:01:41.98,0:01:45.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}You {\k25}met {\k21}her {\k26}drin{\k26}king {\k24}in {\k24}a {\k49}dive-{\k50}bar
+Dialogue: 0,0:01:44.69,0:01:48.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}As{\k29}king {\k47}'bout {\k48}books {\k26}you've {\k76}read
+Dialogue: 0,0:01:47.16,0:01:51.66,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k48}You're {\k25}kis{\k42}sing {\k79}some{\k51}one {\k95}else
+Dialogue: 0,0:01:48.32,0:01:51.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Ha-{\k51}ha-{\k82}ha
+Dialogue: 0,0:01:50.57,0:01:53.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k25}can {\k27}feel {\k23}your {\k50}heart{\k51}beat
+Dialogue: 0,0:01:52.57,0:01:56.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}While {\k22}you're {\k25}kis{\k25}sing {\k51}some{\k51}one {\k91}else
+Dialogue: 0,0:01:55.01,0:01:59.51,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k50}You're {\k24}kis{\k47}sing {\k76}some{\k51}one {\k92}else
+Dialogue: 0,0:01:57.70,0:02:01.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}You {\k25}met {\k20}her {\k27}drin{\k26}king {\k25}in {\k24}a {\k51}dive-{\k48}bar
+Dialogue: 0,0:02:00.42,0:02:03.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}As{\k26}king {\k50}'bout {\k48}books {\k27}you've {\k71}read
+Dialogue: 0,0:02:03.82,0:02:05.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}You've {\k72}read
+Dialogue: 0,0:02:05.09,0:02:09.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k23}feel {\k25}it {\k49}go {\k75}bum-{\k74}bum-{\k24}ba-{\k74}dum
+Dialogue: 0,0:02:10.26,0:02:13.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k75}Bum-{\k72}bum-{\k26}ba-{\k73}dum
+Dialogue: 0,0:02:13.43,0:02:17.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k27}feel {\k20}it {\k76}bum-{\k74}bum-{\k24}ba-{\k75}dum
+Dialogue: 0,0:02:17.40,0:02:21.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k24}feel {\k26}it {\k73}bum-{\k73}bum-{\k25}ba-{\k72}dum
+Dialogue: 0,0:02:21.33,0:02:25.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k24}feel {\k25}it {\k74}bum-{\k72}bum-{\k26}ba-{\k97}dum
+Dialogue: 0,0:02:24.27,0:02:27.10,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Don't {\k24}wan{\k26}na {\k22}feel {\k27}it, {\k49}no
+Dialogue: 0,0:02:25.24,0:02:29.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k25}feel {\k23}it {\k74}bum-{\k74}bum-{\k25}ba-{\k99}dum
+Dialogue: 0,0:02:28.21,0:02:31.07,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Don't {\k23}wan{\k25}na {\k25}feel {\k25}it, {\k53}no
+Dialogue: 0,0:02:29.18,0:02:33.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k21}feel {\k25}it {\k76}bum-{\k74}bum-{\k25}ba-{\k72}dum
+Dialogue: 0,0:02:32.13,0:02:34.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Don't {\k22}wan{\k27}na {\k25}feel {\k23}it, {\k49}no
+Dialogue: 0,0:02:33.89,0:02:37.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Bum-{\k75}bum-{\k24}ba-{\k93}dum
+Dialogue: 0,0:02:37.77,0:02:40.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k26}can {\k25}feel {\k22}your {\k52}heart{\k50}beat
+Dialogue: 0,0:02:39.79,0:02:43.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}While {\k24}you're {\k25}kis{\k25}sing {\k47}some{\k53}one {\kf105}else
+Dialogue: 0,0:02:44.94,0:02:48.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}You {\k20}met {\k26}her {\k29}drin{\k25}king {\k21}in {\k27}a {\k48}dive-{\k51}bar
+Dialogue: 0,0:02:47.65,0:02:52.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}As{\k26}king {\k52}'bout {\k47}books {\k92}you've {\kf154}read
+Dialogue: 0,0:02:53.45,0:02:56.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}I {\k26}can {\k26}feel {\k20}your {\k59}heart
+Dialogue: 0,0:02:55.47,0:02:58.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k29}can {\k23}feel {\k27}your {\k47}heart{\k52}beat
+Dialogue: 0,0:02:57.49,0:03:01.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}While {\k22}you're {\k25}kis{\k27}sing {\k48}some{\k51}one {\k97}else
+Dialogue: 0,0:02:59.94,0:03:04.23,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k48}You're {\k24}kis{\k49}sing {\k75}some{\k51}one {\k72}else
+Dialogue: 0,0:03:02.63,0:03:06.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}You {\k25}met {\k23}her {\k25}drin{\k27}king {\k24}in {\k22}a {\k52}dive-{\k49}bar
+Dialogue: 0,0:03:05.35,0:03:08.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}As{\k28}king {\k47}'bout {\k49}books {\k28}you've {\k71}read
+Dialogue: 0,0:03:07.81,0:03:12.05,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k48}You're {\k25}kis{\k45}sing {\k78}some{\k50}one {\k68}else
+Dialogue: 0,0:03:09.00,0:03:11.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Ha-{\k52}ha-{\k84}ha
+Dialogue: 0,0:03:11.24,0:03:14.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k29}can {\k24}feel {\k25}your {\k48}heart{\k52}beat
+Dialogue: 0,0:03:13.23,0:03:17.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}While {\k23}you're {\k25}kis{\k26}sing {\k50}some{\k49}one {\k96}else
+Dialogue: 0,0:03:15.67,0:03:20.24,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k51}You're {\k22}kis{\k49}sing {\k74}some{\k50}one {\kf101}else
+Dialogue: 0,0:03:18.36,0:03:22.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}You {\k24}met {\k22}her {\k28}drin{\k24}king {\k25}in {\k24}a {\k50}dive-{\k50}bar
+Dialogue: 0,0:03:21.09,0:03:24.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}As{\k24}king {\k51}'bout {\k47}books {\k27}you've {\k73}read
+Dialogue: 0,0:03:24.49,0:03:26.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}You've {\k95}read
+Dialogue: 0,0:03:26.98,0:03:30.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k27}can {\k22}feel {\k24}your {\k51}heart{\k51}beat
+Dialogue: 0,0:03:28.96,0:03:33.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}While {\k27}you're {\k24}kis{\k26}sing {\k56}some{\k48}one {\kf143}else
+Dialogue: 0,0:03:34.12,0:03:37.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}You {\k22}met {\k23}her {\k29}drin{\k27}king {\k24}in {\k22}a {\k52}dive-{\k41}bar
+Dialogue: 0,0:03:36.77,0:03:40.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}As{\k27}king {\k49}'bout {\k47}books {\k28}you've {\k87}read
+Dialogue: 0,0:03:40.25,0:03:42.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}You've {\kf114}read
