@@ -1,0 +1,135 @@
+﻿[Script Info]
+Title: HIDE AND SEEK
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Soyeon,Arial,24,&H00FFFFFF,&H00AD00FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Miyeon,Arial,24,&H00FFFFFF,&H0017FF00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Yuqi,Arial,24,&H00FFFFFF,&H00F68FC0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Shuhua,Arial,24,&H00FFFFFF,&H007CDBF7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Minnie,Arial,24,&H00FFFFFF,&H00F68A4B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Minnie,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♥ "!
+Comment: 0,0:00:00.00,0:00:00.00,Yuqi,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♦ "!
+Comment: 0,0:00:00.00,0:00:00.00,Miyeon,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♣ "!
+Comment: 0,0:00:00.00,0:00:00.00,Soyeon,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♠ "!
+Comment: 0,0:00:00.00,0:00:00.00,Shuhua,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"● "!
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Choir],,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:06.57,Sample KM [Choir],,0,0,0,karaoke,{\k1000\pos(179.73,224)}{\k0}{\2cHFFFFFF}♥ {\rMinnie}Minnie {\2cHFFFFFF}| ● {\rShuhua}Shuhua {\2cHFFFFFF}| ♠ {\rSoyeon}Soyeon {\2cHFFFFFF}\N♣ {\rMiyeon}Miyeon {\2cHFFFFFF}| {\2cHFFFFFF}♦ {\rYuqi}Yuqi
+Comment: 0,0:00:01.36,0:00:04.03,Yuqi,,0,0,0,karaoke,{\k74}Yeah {\k6}it {\k19}was {\k31}nice {\k14}to {\k25}meet {\k12}you {\k10}and {\k21}every{\k55}thing
+Comment: 0,0:00:04.48,0:00:06.15,Yuqi,,0,0,0,karaoke,{\k16}But {\k16}there {\k5}are {\k20}some {\k30}things {\k10}you {\k23}should {\k47}know
+Comment: 0,0:00:07.03,0:00:09.49,Yuqi,,0,0,0,karaoke,{\k18}I’m {\k19}not {\k23}like {\k17}those {\k13}o{\k13}ther {\k36}girls {\k22}you’re {\k29}used {\k56}to
+Comment: 0,0:00:10.16,0:00:11.82,Yuqi,,0,0,0,karaoke,{\k12}If {\k18}you {\k24}think {\k9}you {\k24}have {\k10}what {\k13}it {\k30}ta{\k26}kes
+Comment: 0,0:00:12.41,0:00:13.83,Yuqi,,0,0,0,karaoke,{\k21}Then {\k27}I’ll {\k11}be {\k15}right {\k68}here
+Comment: 0,0:00:14.91,0:00:18.41,Minnie,,0,0,0,karaoke,{\k22}I’ve {\k24}been {\k28}all {\kf98}alone,{\kf28} {\k31}for {\k17}oh {\k20}so {\k82}long
+Comment: 0,0:00:18.58,0:00:22.17,Minnie,,0,0,0,karaoke,{\k23}Think {\k24}I’m {\k23}bet{\k18}ter {\kf118}off, {\k23}just {\k27}on {\k17}my {\k86}own
+Comment: 0,0:00:22.29,0:00:23.96,Minnie,,0,0,0,karaoke,{\k23}When {\k23}you’re {\k23}loo{\k20}king {\k26}for {\k52}love
+Comment: 0,0:00:23.96,0:00:25.76,Minnie,,0,0,0,karaoke,{\k18}It’s {\k20}al{\k23}ways {\k26}hi{\k25}ding {\k17}a{\k51}way
+Comment: 0,0:00:25.76,0:00:29.09,Minnie,,0,0,0,karaoke,{\k15}I {\k25}know {\k27}how {\k24}boys {\k20}just {\k22}love {\k26}to {\k39}play {\k33}their {\k63}ga{\k39}mes
+Comment: 0,0:00:29.63,0:00:30.63,Soyeon,,0,0,0,karaoke,{\k14}They {\k26}say {\k25}love {\k35}is
+Comment: 0,0:00:30.59,0:00:31.01,Sample KM [Choir],,0,0,0,karaoke,{\k42}Blind
+Comment: 0,0:00:30.80,0:00:31.51,Soyeon,,0,0,0,karaoke,{\k20}to{\k20}ji{\k31}nai
+Comment: 0,0:00:31.51,0:00:32.01,Sample KM [Choir],,0,0,0,karaoke,{\k50}Eyes
+Comment: 0,0:00:31.76,0:00:32.39,Soyeon,,0,0,0,karaoke,{\k18}ni{\k18}git{\k27}te
+Comment: 0,0:00:32.39,0:00:32.85,Sample KM [Choir],,0,0,0,karaoke,{\k46}Tight
+Comment: 0,0:00:32.68,0:00:33.35,Soyeon,,0,0,0,karaoke,{\k15}En{\k22}joy {\k30}the
+Comment: 0,0:00:33.35,0:00:33.80,Sample KM [Choir],,0,0,0,karaoke,{\k45}Ride
+Comment: 0,0:00:33.80,0:00:34.26,Soyeon,,0,0,0,karaoke,{\k13}I’m {\k33}not
+Comment: 0,0:00:34.26,0:00:34.68,Sample KM [Choir],,0,0,0,karaoke,{\k15}Ea{\k27}sy
+Comment: 0,0:00:34.68,0:00:35.18,Soyeon,,0,0,0,karaoke,{\k26}It’s {\k24}not
+Comment: 0,0:00:35.18,0:00:35.64,Sample KM [Choir],,0,0,0,karaoke,{\k46}Hard
+Comment: 0,0:00:35.43,0:00:36.06,Soyeon,,0,0,0,karaoke,{\k24}Just {\k14}give {\k25}a
+Comment: 0,0:00:36.10,0:00:36.56,Sample KM [Choir],,0,0,0,karaoke,{\k46}Girl
+Comment: 0,0:00:36.31,0:00:37.06,Soyeon,,0,0,0,karaoke,{\k25}su{\k16}be{\k34}te
+Comment: 0,0:00:37.06,0:00:37.56,Sample KM [Choir],,0,0,0,karaoke,{\k50}World
+Comment: 0,0:00:37.48,0:00:39.94,Shuhua,,0,0,0,karaoke,{\k27}na{\k19}ni{\k19}mo {\k54}iwa{\k14}na{\k7}ku{\k25}te{\k43}mo{\k38}~
+Comment: 0,0:00:40.06,0:00:41.19,Shuhua,,0,0,0,karaoke,{\k23}Your {\k20}eyes {\k15}are {\k30}say{\k25}ing
+Comment: 0,0:00:41.19,0:00:43.69,Shuhua,,0,0,0,karaoke,{\k30}All {\k17}that {\k23}I {\k61}need {\k30}to {\k89}know
+Comment: 0,0:00:43.69,0:00:45.48,Shuhua,,0,0,0,karaoke,{\k23}From {\kf156}you
+Comment: 0,0:00:45.48,0:00:47.11,Miyeon,,0,0,0,karaoke,{\k21}I {\k13}know {\k17}all {\k15}of {\k14}the {\k13}bag{\k19}gage {\k14}and {\k16}bur{\k21}dens
+Comment: 0,0:00:47.11,0:00:48.86,Miyeon,,0,0,0,karaoke,{\k10}You {\k19}car{\k14}ry {\k8}be{\k42}side {\k82}you
+Comment: 0,0:00:49.28,0:00:50.86,Miyeon,,0,0,0,karaoke,{\k11}There’s {\k13}a {\k23}beau{\k14}ty {\k6}in {\k17}ta{\k15}king {\k12}a {\k27}chan{\k20}ce
+Comment: 0,0:00:50.86,0:00:52.53,Miyeon,,0,0,0,karaoke,{\k7}And {\k14}let{\k14}ting {\k16}it {\k33}guide {\k83}you
+Comment: 0,0:00:53.12,0:00:55.03,Minnie,,0,0,0,karaoke,{\k32}Look {\k12}in{\k31}side {\k23}the {\k43}cry{\k50}stal
+Comment: 0,0:00:55.03,0:00:56.16,Minnie,,0,0,0,karaoke,{\k29}There’s {\k15}no {\k22}ans{\k47}wers
+Comment: 0,0:00:56.16,0:00:57.91,Minnie,,0,0,0,karaoke,{\k29}No {\k67}map {\k24}no {\k55}guide
+Comment: 0,0:00:57.91,0:00:59.04,Yuqi,,0,0,0,karaoke,{\k14}Fol{\k16}low {\k13}what {\k16}you’re {\k20}fee{\k34}ling
+Comment: 0,0:00:59.83,0:01:01.54,Miyeon,,0,0,0,karaoke,{\k28}No {\k27}I {\k19}don’t {\kf97}chase
+Comment: 0,0:01:01.75,0:01:03.46,Miyeon,,0,0,0,karaoke,{\k22}I {\k22}don’t {\k23}play {\k26}hide {\k20}and {\k58}seek
+Comment: 0,0:01:03.58,0:01:05.88,Miyeon,,0,0,0,karaoke,{\k24}hon{\k22}ki {\k24}na{\k20}ra {\k18}mi{\k30}se{\k51}te {\k41}yo
+Comment: 0,0:01:05.88,0:01:07.46,Miyeon,,0,0,0,karaoke,{\k37}Come {\k53}find {\k68}me
+Comment: 0,0:01:07.46,0:01:09.05,Minnie,,0,0,0,karaoke,{\k30}Girl {\k19}be {\kf110}mine
+Comment: 0,0:01:09.13,0:01:10.88,Minnie,,0,0,0,karaoke,{\k39}nan{\k16}te {\k37}shin{\k21}ji{\k62}nai
+Comment: 0,0:01:10.97,0:01:11.88,Minnie,,0,0,0,karaoke,{\k11}Got{\k11}ta {\k24}show {\k18}me {\k27}boy
+Comment: 0,0:01:11.88,0:01:14.68,Minnie,,0,0,0,karaoke,{\k25}hi{\k18}mi{\k42}tsu {\k52}wa {\k38}na{\k36}shi {\k21}da {\k48}yo
+Comment: 0,0:01:14.47,0:01:17.85,Soyeon,,0,0,0,karaoke,{\k20}Yes{\k11}ter{\k35}day {\k24}the {\k27}stars {\k17}a{\k19}ligned {\k29}our {\kf156}way
+Comment: 0,0:01:17.89,0:01:18.72,Soyeon,,0,0,0,karaoke,{\k23}To{\k25}day {\k12}I {\k23}know
+Comment: 0,0:01:18.72,0:01:21.27,Soyeon,,0,0,0,karaoke,{\k12}I’ve {\k18}been {\k25}run{\k26}ning {\k17}around {\k26}your {\kf131}brain
+Comment: 0,0:01:21.35,0:01:23.19,Yuqi,,0,0,0,karaoke,{\k24}I {\k21}want {\k24}rose{\k17}s {\k32}no {\k17}red {\k35}fla{\k14}gs
+Comment: 0,0:01:23.19,0:01:25.15,Yuqi,,0,0,0,karaoke,{\k9}GON{\k7}NA {\k21}SAY {\k31}sa{\k16}yo{\k17}na{\k12}ra {\k26}BYE {\k57}BYE
+Comment: 0,0:01:25.27,0:01:27.98,Yuqi,,0,0,0,karaoke,{\k24}I’m {\k24}not {\k9}a{\k31}fraid {\k22}to {\k34}throw {\k20}it {\k23}all {\k17}a{\k67}way
+Comment: 0,0:01:28.03,0:01:29.36,Shuhua,,0,0,0,karaoke,{\k24}Think {\k35}twice {\k37}about {\k37}it
+Dialogue: 0,0:00:00.00,0:00:06.77,Sample KM [Choir],,0,0,0,fx,{\k0\fad(0,200)}{\k1000\pos(179.73,224)}{\k0}{\2cHFFFFFF}♥ {\rMinnie}Minnie {\2cHFFFFFF}| ● {\rShuhua}Shuhua {\2cHFFFFFF}| ♠ {\rSoyeon}Soyeon {\2cHFFFFFF}\N♣ {\rMiyeon}Miyeon {\2cHFFFFFF}| {\2cHFFFFFF}♦ {\rYuqi}Yuqi
+Dialogue: 0,0:00:00.46,0:00:04.23,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k74}Yeah {\k6}it {\k19}was {\k31}nice {\k14}to {\k25}meet {\k12}you {\k10}and {\k21}every{\k55}thing
+Dialogue: 0,0:00:03.58,0:00:06.35,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k16}But {\k16}there {\k5}are {\k20}some {\k30}things {\k10}you {\k23}should {\k47}know
+Dialogue: 0,0:00:06.13,0:00:09.69,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k18}I’m {\k19}not {\k23}like {\k17}those {\k13}o{\k13}ther {\k36}girls {\k22}you’re {\k29}used {\k56}to
+Dialogue: 0,0:00:09.26,0:00:12.02,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k12}If {\k18}you {\k24}think {\k9}you {\k24}have {\k10}what {\k13}it {\k30}ta{\k26}kes
+Dialogue: 0,0:00:11.51,0:00:14.03,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k21}Then {\k27}I’ll {\k11}be {\k15}right {\k68}here
+Dialogue: 0,0:00:14.01,0:00:18.61,Minnie,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k22}I’ve {\k24}been {\k28}all {\kf98}alone,{\kf28} {\k31}for {\k17}oh {\k20}so {\k82}long
+Dialogue: 0,0:00:17.68,0:00:22.37,Minnie,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k23}Think {\k24}I’m {\k23}bet{\k18}ter {\kf118}off, {\k23}just {\k27}on {\k17}my {\k86}own
+Dialogue: 0,0:00:21.39,0:00:24.16,Minnie,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k23}When {\k23}you’re {\k23}loo{\k20}king {\k26}for {\k52}love
+Dialogue: 0,0:00:23.06,0:00:25.96,Minnie,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k18}It’s {\k20}al{\k23}ways {\k26}hi{\k25}ding {\k17}a{\k51}way
+Dialogue: 0,0:00:24.86,0:00:29.29,Minnie,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k15}I {\k25}know {\k27}how {\k24}boys {\k20}just {\k22}love {\k26}to {\k39}play {\k33}their {\k63}ga{\k39}mes
+Dialogue: 0,0:00:28.73,0:00:30.83,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k14}They {\k26}say {\k25}love {\k35}is
+Dialogue: 0,0:00:29.69,0:00:31.21,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Blind
+Dialogue: 0,0:00:29.90,0:00:31.71,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k20}to{\k20}ji{\k31}nai
+Dialogue: 0,0:00:30.61,0:00:32.21,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k50}Eyes
+Dialogue: 0,0:00:30.86,0:00:32.59,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k18}ni{\k18}git{\k27}te
+Dialogue: 0,0:00:31.49,0:00:33.05,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Tight
+Dialogue: 0,0:00:31.78,0:00:33.55,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k15}En{\k22}joy {\k30}the
+Dialogue: 0,0:00:32.45,0:00:34.00,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Ride
+Dialogue: 0,0:00:32.90,0:00:34.46,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k13}I’m {\k33}not
+Dialogue: 0,0:00:33.36,0:00:34.88,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Ea{\k27}sy
+Dialogue: 0,0:00:33.78,0:00:35.38,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k26}It’s {\k24}not
+Dialogue: 0,0:00:34.28,0:00:35.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Hard
+Dialogue: 0,0:00:34.53,0:00:36.26,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k24}Just {\k14}give {\k25}a
+Dialogue: 0,0:00:35.20,0:00:36.76,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Girl
+Dialogue: 0,0:00:35.41,0:00:37.26,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k25}su{\k16}be{\k34}te
+Dialogue: 0,0:00:36.16,0:00:37.76,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k50}World
+Dialogue: 0,0:00:36.58,0:00:40.14,Shuhua,,0,0,0,fx,{\k90\fad(300,200)}● {\k27}na{\k19}ni{\k19}mo {\k54}iwa{\k14}na{\k7}ku{\k25}te{\k43}mo{\k38}~
+Dialogue: 0,0:00:39.16,0:00:41.39,Shuhua,,0,0,0,fx,{\k90\fad(300,200)}● {\k23}Your {\k20}eyes {\k15}are {\k30}say{\k25}ing
+Dialogue: 0,0:00:40.29,0:00:43.89,Shuhua,,0,0,0,fx,{\k90\fad(300,200)}● {\k30}All {\k17}that {\k23}I {\k61}need {\k30}to {\k89}know
+Dialogue: 0,0:00:42.79,0:00:45.68,Shuhua,,0,0,0,fx,{\k90\fad(300,200)}● {\k23}From {\kf156}you
+Dialogue: 0,0:00:44.58,0:00:47.31,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k21}I {\k13}know {\k17}all {\k15}of {\k14}the {\k13}bag{\k19}gage {\k14}and {\k16}bur{\k21}dens
+Dialogue: 0,0:00:46.21,0:00:49.06,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k10}You {\k19}car{\k14}ry {\k8}be{\k42}side {\k82}you
+Dialogue: 0,0:00:48.38,0:00:51.06,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k11}There’s {\k13}a {\k23}beau{\k14}ty {\k6}in {\k17}ta{\k15}king {\k12}a {\k27}chan{\k20}ce
+Dialogue: 0,0:00:49.96,0:00:52.73,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k7}And {\k14}let{\k14}ting {\k16}it {\k33}guide {\k83}you
+Dialogue: 0,0:00:52.22,0:00:55.23,Minnie,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k32}Look {\k12}in{\k31}side {\k23}the {\k43}cry{\k50}stal
+Dialogue: 0,0:00:54.13,0:00:56.36,Minnie,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k29}There’s {\k15}no {\k22}ans{\k47}wers
+Dialogue: 0,0:00:55.26,0:00:58.11,Minnie,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k29}No {\k67}map {\k24}no {\k55}guide
+Dialogue: 0,0:00:57.01,0:00:59.24,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k14}Fol{\k16}low {\k13}what {\k16}you’re {\k20}fee{\k34}ling
+Dialogue: 0,0:00:58.93,0:01:01.74,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k28}No {\k27}I {\k19}don’t {\kf97}chase
+Dialogue: 0,0:01:00.85,0:01:03.66,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k22}I {\k22}don’t {\k23}play {\k26}hide {\k20}and {\k58}seek
+Dialogue: 0,0:01:02.68,0:01:06.08,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k24}hon{\k22}ki {\k24}na{\k20}ra {\k18}mi{\k30}se{\k51}te {\k41}yo
+Dialogue: 0,0:01:04.98,0:01:07.66,Miyeon,,0,0,0,fx,{\k90\fad(300,200)}♣ {\k37}Come {\k53}find {\k68}me
+Dialogue: 0,0:01:06.56,0:01:09.25,Minnie,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k30}Girl {\k19}be {\kf110}mine
+Dialogue: 0,0:01:08.23,0:01:11.08,Minnie,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k39}nan{\k16}te {\k37}shin{\k21}ji{\k62}nai
+Dialogue: 0,0:01:10.07,0:01:12.08,Minnie,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k11}Got{\k11}ta {\k24}show {\k18}me {\k27}boy
+Dialogue: 0,0:01:10.98,0:01:14.88,Minnie,,0,0,0,fx,{\k90\fad(300,200)}♥ {\k25}hi{\k18}mi{\k42}tsu {\k52}wa {\k38}na{\k36}shi {\k21}da {\k48}yo
+Dialogue: 0,0:01:13.57,0:01:18.05,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k20}Yes{\k11}ter{\k35}day {\k24}the {\k27}stars {\k17}a{\k19}ligned {\k29}our {\kf156}way
+Dialogue: 0,0:01:16.99,0:01:18.92,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k23}To{\k25}day {\k12}I {\k23}know
+Dialogue: 0,0:01:17.82,0:01:21.47,Soyeon,,0,0,0,fx,{\k90\fad(300,200)}♠ {\k12}I’ve {\k18}been {\k25}run{\k26}ning {\k17}around {\k26}your {\kf131}brain
+Dialogue: 0,0:01:20.45,0:01:23.39,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k24}I {\k21}want {\k24}rose{\k17}s {\k32}no {\k17}red {\k35}fla{\k14}gs
+Dialogue: 0,0:01:22.29,0:01:25.35,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k9}GON{\k7}NA {\k21}SAY {\k31}sa{\k16}yo{\k17}na{\k12}ra {\k26}BYE {\k57}BYE
+Dialogue: 0,0:01:24.37,0:01:28.18,Yuqi,,0,0,0,fx,{\k90\fad(300,200)}♦ {\k24}I’m {\k24}not {\k9}a{\k31}fraid {\k22}to {\k34}throw {\k20}it {\k23}all {\k17}a{\k67}way
+Dialogue: 0,0:01:27.13,0:01:29.56,Shuhua,,0,0,0,fx,{\k90\fad(300,200)}● {\k24}Think {\k35}twice {\k37}about {\k37}it
