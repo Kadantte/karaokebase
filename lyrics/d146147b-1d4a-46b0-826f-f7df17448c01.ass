@@ -1,0 +1,116 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Itsudemo Touch
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Lasagna
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ENG,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H78000000,-1,0,0,0,100,100,0,0,1,1.8,0.2,8,2,2,20,1
+Style: JPN,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H78000000,-1,-1,0,0,100,100,0,0,1,1.8,0.2,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,ENG,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.00,0:00:10.00,ENG,,0,0,180,karaoke,{\k30000} english :D {\2c&HFFFFFF&} / {\rJPN}nihongo ^ω^
+Comment: 0,0:00:04.02,0:00:06.90,ENG,,0,0,0,karaoke,{\k44}I {\k67}still {\k64}hear {\k44}your {\k69}voice
+Comment: 0,0:00:06.90,0:00:10.62,ENG,,0,0,0,karaoke,{\k64}when {\k43}you {\k67}sleep {\rJPN}{\k66}to{\k44}na{\k88}ri
+Comment: 0,0:00:11.06,0:00:17.45,ENG,,0,0,0,karaoke,{\k37}I {\k67}still {\k66}feel {\k43}your {\k68}touch {\rJPN}{\k66}yu{\k89}me {\kf188}ni{\k15}
+Comment: 0,0:00:18.03,0:00:21.56,JPN,,0,0,0,karaoke,{\k45}yu{\k50}ru{\k17}shi{\k65}te {\rENG}{\k47}my {\k65}weak{\k64}ness
+Comment: 0,0:00:21.56,0:00:24.81,JPN,,0,0,0,karaoke,{\k44}ri{\k65}kai {\k63}de{\k48}ki{\k105}nai
+Comment: 0,0:00:25.08,0:00:30.86,ENG,,0,0,0,karaoke,{\k44}With{\k66}out {\k61}you {\rJPN}{\k45}mou {\k45}i{\k24}ki{\k62}ra{\k86}re{\kf130}nai{\k15}
+Comment: 0,0:00:31.42,0:00:33.12,ENG,,0,0,0,karaoke,{\k23}Cause {\rJPN}{\k20}i{\k21}tsu{\k22}de{\k23}mo {\rENG}{\k60}touch
+Comment: 0,0:00:33.12,0:00:34.92,ENG,,0,0,0,karaoke,{\k26}I {\k45}get {\k21}this {\rJPN}{\k44}kan{\k44}jou
+Comment: 0,0:00:34.92,0:00:36.44,ENG,,0,0,0,karaoke,{\k18}And {\rJPN}{\k25}i{\k23}tsu{\k22}de{\k19}mo {\k45}chuu
+Comment: 0,0:00:36.44,0:00:38.36,ENG,,0,0,0,karaoke,{\k24}I {\k43}swear {\rJPN}{\k22}to{\k22}bi{\k81}masu
+Comment: 0,0:00:38.62,0:00:40.83,ENG,,0,0,0,karaoke,{\k26}Can’t {\k20}you {\k23}feel {\k21}my {\rJPN}{\k44}ko{\k43}ko{\k44}ro
+Comment: 0,0:00:41.05,0:00:42.59,JPN,,0,0,0,karaoke,{\k20}i{\k24}tsu{\k22}ma{\k22}de{\k66}mo
+Comment: 0,0:00:42.79,0:00:45.23,ENG,,0,0,0,karaoke,{\k23}I {\k42}need {\k25}you {\k42}by {\k42}my {\k70}side
+Comment: 0,0:00:45.42,0:00:47.14,ENG,,0,0,0,karaoke,{\k23}Cause {\rJPN}{\k20}i{\k23}tsu{\k23}de{\k21}mo {\rEng}{\k62}touch
+Comment: 0,0:00:47.14,0:00:48.94,ENG,,0,0,0,karaoke,{\k26}I {\k40}feel {\rJPN}{\k26}sei{\k43}den{\k45}ki
+Comment: 0,0:00:48.94,0:00:52.43,ENG,,0,0,0,karaoke,{\k21}And {\rJPN}{\k22}i{\k23}tsu{\k22}de{\k20}mo {\k42}chuu {\k25}so{\k42}ra {\k22}fu{\k23}re{\k87}tai
+Comment: 0,0:00:52.64,0:00:54.84,ENG,,0,0,0,karaoke,{\k26}Can’t {\k20}you {\k21}hear {\k23}my {\rJPN}{\k43}ko{\k43}ko{\k44}ro
+Comment: 0,0:00:55.06,0:00:56.61,ENG,,0,0,0,karaoke,{\k21}I {\k25}can’t {\k21}let {\k23}you {\k65}go
+Comment: 0,0:00:56.78,0:00:59.44,JPN,,0,0,0,karaoke,{\k26}is{\k43}sho{\k24}ni {\k42}na{\k43}ri{\k88}tai
+Comment: 0,0:01:40.79,0:01:43.79,ENG,,0,0,0,karaoke,
+Comment: 0,0:01:43.79,0:01:47.36,ENG,,0,0,0,karaoke,{\k55}Your {\k64}arms {\k66}are {\k38}my {\rJPN}{\k72}shi{\k45}ro
+Comment: 0,0:01:47.36,0:01:50.47,ENG,,0,0,0,karaoke,{\k45}Heart {\rJPN}{\k66}so{\k70}ra {\k41}mi{\k71}tai
+Comment: 0,0:01:50.91,0:01:57.14,ENG,,0,0,0,karaoke,{\k43}They {\k70}wipe {\rJPN}{\k62}na{\k44}mi{\k66}da {\rENG}{\k66}that {\k75}I {\kf182}cry{\k15}
+Comment: 0,0:01:57.93,0:02:04.96,ENG,,0,0,0,karaoke,{\k42}The {\rJPN}{\k64}ii {\k65}to{\k44}ki {\k63}mo {\k71}wa{\k42}ru{\k63}i {\k70}to{\k44}ki {\k135}mo
+Comment: 0,0:02:05.28,0:02:10.83,ENG,,0,0,0,karaoke,{\k74}You {\k64}make {\k44}me {\k66}rise {\k65}when {\rJPN}{\k83}ten{\kf144}to{\kf15}
+Comment: 0,0:02:10.83,0:02:10.83,ENG,,0,0,0,karaoke,
+Comment: 0,0:02:11.28,0:02:12.98,ENG,,0,0,0,karaoke,{\k23}Cause {\rJPN}{\k20}i{\k21}tsu{\k22}de{\k23}mo {\rENG}{\k60}touch
+Comment: 0,0:02:12.98,0:02:14.78,ENG,,0,0,0,karaoke,{\k26}I {\k45}get {\k21}this {\rJPN}{\k44}kan{\k44}jou
+Comment: 0,0:02:14.78,0:02:16.30,ENG,,0,0,0,karaoke,{\k18}And {\rJPN}{\k25}i{\k23}tsu{\k22}de{\k19}mo {\k45}chuu
+Comment: 0,0:02:16.30,0:02:18.22,ENG,,0,0,0,karaoke,{\k24}I {\k43}swear {\rJPN}{\k22}to{\k22}bi{\k81}masu
+Comment: 0,0:02:18.48,0:02:20.69,ENG,,0,0,0,karaoke,{\k26}Can’t {\k20}you {\k23}feel {\k21}my {\rJPN}{\k44}ko{\k43}ko{\k44}ro
+Comment: 0,0:02:20.91,0:02:22.45,JPN,,0,0,0,karaoke,{\k20}i{\k24}tsu{\k22}ma{\k22}de{\k66}mo
+Comment: 0,0:02:22.65,0:02:25.09,ENG,,0,0,0,karaoke,{\k23}I {\k42}need {\k25}you {\k42}by {\k42}my {\k70}side
+Comment: 0,0:02:25.28,0:02:27.00,ENG,,0,0,0,karaoke,{\k23}Cause {\rJPN}{\k20}i{\k23}tsu{\k23}de{\k21}mo {\rEng}{\k62}touch
+Comment: 0,0:02:27.00,0:02:28.80,ENG,,0,0,0,karaoke,{\k26}I {\k40}feel {\rJPN}{\k26}sei{\k43}den{\k45}ki
+Comment: 0,0:02:28.80,0:02:32.29,ENG,,0,0,0,karaoke,{\k21}And {\rJPN}{\k22}i{\k23}tsu{\k22}de{\k20}mo {\k42}chuu {\k25}so{\k42}ra {\k22}fu{\k23}re{\k87}tai
+Comment: 0,0:02:32.50,0:02:34.70,ENG,,0,0,0,karaoke,{\k26}Can’t {\k20}you {\k21}hear {\k23}my {\rJPN}{\k43}ko{\k43}ko{\k44}ro
+Comment: 0,0:02:34.92,0:02:36.47,ENG,,0,0,0,karaoke,{\k21}I {\k25}can’t {\k21}let {\k23}you {\k65}go
+Comment: 0,0:02:36.64,0:02:39.30,JPN,,0,0,0,karaoke,{\k26}is{\k43}sho{\k24}ni {\k42}na{\k43}ri{\k88}tai
+Comment: 0,0:02:10.83,0:02:11.28,ENG,,0,0,0,karaoke,
+Comment: 0,0:03:07.32,0:03:08.86,ENG,,0,0,0,karaoke,{\k23}Cause {\rJPN}{\k20}i{\k21}tsu{\k22}de{\k23}mo {\rENG}{\k45}touch
+Comment: 0,0:03:08.86,0:03:10.82,ENG,,0,0,0,karaoke,{\k44}I {\k43}get {\k21}this {\rJPN}{\k44}kan{\k44}jou
+Comment: 0,0:03:10.82,0:03:12.34,ENG,,0,0,0,karaoke,{\k18}And {\rJPN}{\k25}i{\k23}tsu{\k22}de{\k19}mo {\k45}chuu
+Comment: 0,0:03:12.34,0:03:14.26,ENG,,0,0,0,karaoke,{\k24}I {\k43}swear {\rJPN}{\k22}to{\k22}bi{\k81}masu
+Comment: 0,0:03:14.52,0:03:16.73,ENG,,0,0,0,karaoke,{\k26}Can’t {\k20}you {\k23}feel {\k21}my {\rJPN}{\k44}ko{\k43}ko{\k44}ro
+Comment: 0,0:03:16.95,0:03:18.49,JPN,,0,0,0,karaoke,{\k20}i{\k24}tsu{\k22}ma{\k22}de{\k66}mo
+Comment: 0,0:03:18.69,0:03:22.50,ENG,,0,0,0,karaoke,{\k23}I {\k42}need {\k25}you {\k42}by {\k42}my {\kf192}side{\k15}
+Comment: 0,0:03:04.32,0:03:07.32,ENG,,0,0,0,karaoke,
+Dialogue: 0,0:00:00.10,0:00:10.20,ENG,,0,0,180,fx,{\k90\fad(300,200)}{\k30000} english :D {\2c&HFFFFFF&} / {\rJPN}nihongo ^ω^
+Dialogue: 0,0:00:03.12,0:00:07.10,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k44}I {\k67}still {\k64}hear {\k44}your {\k69}voice
+Dialogue: 0,0:00:06.00,0:00:10.82,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k64}when {\k43}you {\k67}sleep {\rJPN}{\k66}to{\k44}na{\k88}ri
+Dialogue: 0,0:00:10.16,0:00:17.65,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k37}I {\k67}still {\k66}feel {\k43}your {\k68}touch {\rJPN}{\k66}yu{\k89}me {\kf188}ni{\k15}
+Dialogue: 0,0:00:17.13,0:00:21.76,JPN,,0,0,0,fx,{\k90\fad(300,200)}{\k45}yu{\k50}ru{\k17}shi{\k65}te {\rENG}{\k47}my {\k65}weak{\k64}ness
+Dialogue: 0,0:00:20.66,0:00:25.01,JPN,,0,0,0,fx,{\k90\fad(300,200)}{\k44}ri{\k65}kai {\k63}de{\k48}ki{\k105}nai
+Dialogue: 0,0:00:24.18,0:00:31.06,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k44}With{\k66}out {\k61}you {\rJPN}{\k45}mou {\k45}i{\k24}ki{\k62}ra{\k86}re{\kf130}nai{\k15}
+Dialogue: 0,0:00:30.52,0:00:33.32,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Cause {\rJPN}{\k20}i{\k21}tsu{\k22}de{\k23}mo {\rENG}{\k60}touch
+Dialogue: 0,0:00:32.22,0:00:35.12,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k45}get {\k21}this {\rJPN}{\k44}kan{\k44}jou
+Dialogue: 0,0:00:34.02,0:00:36.64,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}And {\rJPN}{\k25}i{\k23}tsu{\k22}de{\k19}mo {\k45}chuu
+Dialogue: 0,0:00:35.54,0:00:38.56,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k43}swear {\rJPN}{\k22}to{\k22}bi{\k81}masu
+Dialogue: 0,0:00:37.72,0:00:41.03,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Can’t {\k20}you {\k23}feel {\k21}my {\rJPN}{\k44}ko{\k43}ko{\k44}ro
+Dialogue: 0,0:00:40.15,0:00:42.79,JPN,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k24}tsu{\k22}ma{\k22}de{\k66}mo
+Dialogue: 0,0:00:41.89,0:00:45.43,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k42}need {\k25}you {\k42}by {\k42}my {\k70}side
+Dialogue: 0,0:00:44.52,0:00:47.34,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Cause {\rJPN}{\k20}i{\k23}tsu{\k23}de{\k21}mo {\rEng}{\k62}touch
+Dialogue: 0,0:00:46.24,0:00:49.14,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k40}feel {\rJPN}{\k26}sei{\k43}den{\k45}ki
+Dialogue: 0,0:00:48.04,0:00:52.63,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k21}And {\rJPN}{\k22}i{\k23}tsu{\k22}de{\k20}mo {\k42}chuu {\k25}so{\k42}ra {\k22}fu{\k23}re{\k87}tai
+Dialogue: 0,0:00:51.74,0:00:55.04,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Can’t {\k20}you {\k21}hear {\k23}my {\rJPN}{\k43}ko{\k43}ko{\k44}ro
+Dialogue: 0,0:00:54.16,0:00:56.81,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k25}can’t {\k21}let {\k23}you {\k65}go
+Dialogue: 0,0:00:55.88,0:00:59.64,JPN,,0,0,0,fx,{\k90\fad(300,200)}{\k26}is{\k43}sho{\k24}ni {\k42}na{\k43}ri{\k88}tai
+Dialogue: 0,0:01:39.89,0:01:43.99,ENG,,0,0,0,fx,{\k90\fad(300,200)}
+Dialogue: 0,0:01:42.89,0:01:47.56,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k55}Your {\k64}arms {\k66}are {\k38}my {\rJPN}{\k72}shi{\k45}ro
+Dialogue: 0,0:01:46.46,0:01:50.67,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Heart {\rJPN}{\k66}so{\k70}ra {\k41}mi{\k71}tai
+Dialogue: 0,0:01:50.01,0:01:57.34,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k43}They {\k70}wipe {\rJPN}{\k62}na{\k44}mi{\k66}da {\rENG}{\k66}that {\k75}I {\kf182}cry{\k15}
+Dialogue: 0,0:01:57.03,0:02:05.16,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k42}The {\rJPN}{\k64}ii {\k65}to{\k44}ki {\k63}mo {\k71}wa{\k42}ru{\k63}i {\k70}to{\k44}ki {\k135}mo
+Dialogue: 0,0:02:04.38,0:02:11.03,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k74}You {\k64}make {\k44}me {\k66}rise {\k65}when {\rJPN}{\k83}ten{\kf144}to{\kf15}
+Dialogue: 0,0:02:09.93,0:02:11.03,ENG,,0,0,0,fx,{\k90\fad(300,200)}
+Dialogue: 0,0:02:10.38,0:02:13.18,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Cause {\rJPN}{\k20}i{\k21}tsu{\k22}de{\k23}mo {\rENG}{\k60}touch
+Dialogue: 0,0:02:12.08,0:02:14.98,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k45}get {\k21}this {\rJPN}{\k44}kan{\k44}jou
+Dialogue: 0,0:02:13.88,0:02:16.50,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}And {\rJPN}{\k25}i{\k23}tsu{\k22}de{\k19}mo {\k45}chuu
+Dialogue: 0,0:02:15.40,0:02:18.42,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k43}swear {\rJPN}{\k22}to{\k22}bi{\k81}masu
+Dialogue: 0,0:02:17.58,0:02:20.89,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Can’t {\k20}you {\k23}feel {\k21}my {\rJPN}{\k44}ko{\k43}ko{\k44}ro
+Dialogue: 0,0:02:20.01,0:02:22.65,JPN,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k24}tsu{\k22}ma{\k22}de{\k66}mo
+Dialogue: 0,0:02:21.75,0:02:25.29,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k42}need {\k25}you {\k42}by {\k42}my {\k70}side
+Dialogue: 0,0:02:24.38,0:02:27.20,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Cause {\rJPN}{\k20}i{\k23}tsu{\k23}de{\k21}mo {\rEng}{\k62}touch
+Dialogue: 0,0:02:26.10,0:02:29.00,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k40}feel {\rJPN}{\k26}sei{\k43}den{\k45}ki
+Dialogue: 0,0:02:27.90,0:02:32.49,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k21}And {\rJPN}{\k22}i{\k23}tsu{\k22}de{\k20}mo {\k42}chuu {\k25}so{\k42}ra {\k22}fu{\k23}re{\k87}tai
+Dialogue: 0,0:02:31.60,0:02:34.90,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Can’t {\k20}you {\k21}hear {\k23}my {\rJPN}{\k43}ko{\k43}ko{\k44}ro
+Dialogue: 0,0:02:34.02,0:02:36.67,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k25}can’t {\k21}let {\k23}you {\k65}go
+Dialogue: 0,0:02:35.74,0:02:39.50,JPN,,0,0,0,fx,{\k90\fad(300,200)}{\k26}is{\k43}sho{\k24}ni {\k42}na{\k43}ri{\k88}tai
+Dialogue: 0,0:02:09.93,0:02:11.48,ENG,,0,0,0,fx,{\k90\fad(300,200)}
+Dialogue: 0,0:03:06.42,0:03:09.06,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Cause {\rJPN}{\k20}i{\k21}tsu{\k22}de{\k23}mo {\rENG}{\k45}touch
+Dialogue: 0,0:03:07.96,0:03:11.02,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k44}I {\k43}get {\k21}this {\rJPN}{\k44}kan{\k44}jou
+Dialogue: 0,0:03:09.92,0:03:12.54,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}And {\rJPN}{\k25}i{\k23}tsu{\k22}de{\k19}mo {\k45}chuu
+Dialogue: 0,0:03:11.44,0:03:14.46,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k43}swear {\rJPN}{\k22}to{\k22}bi{\k81}masu
+Dialogue: 0,0:03:13.62,0:03:16.93,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k26}Can’t {\k20}you {\k23}feel {\k21}my {\rJPN}{\k44}ko{\k43}ko{\k44}ro
+Dialogue: 0,0:03:16.05,0:03:18.69,JPN,,0,0,0,fx,{\k90\fad(300,200)}{\k20}i{\k24}tsu{\k22}ma{\k22}de{\k66}mo
+Dialogue: 0,0:03:17.79,0:03:22.70,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}I {\k42}need {\k25}you {\k42}by {\k42}my {\kf192}side{\k15}
+Dialogue: 0,0:03:03.42,0:03:07.52,ENG,,0,0,0,fx,{\k90\fad(300,200)}
