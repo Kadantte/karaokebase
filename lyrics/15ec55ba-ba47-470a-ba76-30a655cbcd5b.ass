@@ -1,0 +1,170 @@
+﻿[Script Info]
+Title: Deutsche Bahn Stole The Precious Punctuality
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: ZugChef, Alerymin
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Train,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: DB Man,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:04.99,0:00:05.66,Train,,0,0,0,karaoke,{\k13}Näch{\k18}ster {\k36}Halt
+Comment: 0,0:00:06.41,0:00:07.16,Train,,0,0,0,karaoke,{\k13}Näch{\k18}ster {\k36}Halt
+Comment: 0,0:00:07.83,0:00:08.13,Train,,0,0,0,karaoke,{\k107}Halt
+Comment: 0,0:00:09.23,0:00:09.51,Train,,0,0,0,karaoke,{\k70}Halt
+Comment: 0,0:00:09.58,0:00:10.64,Train,,0,0,0,karaoke,{\k12}Bi{\k24}tte {\k20}die {\k18}Fre{\k32}sse
+Comment: 0,0:00:11.34,0:00:12.94,Train,,0,0,0,karaoke,{\k17}Eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei
+Comment: 0,0:00:12.94,0:00:14.08,Train,,0,0,0,karaoke,{\k16}Eins {\k19}zwei {\k20}drei {\k12}näch{\k15}ster {\k43}Halt
+Comment: 0,0:00:14.16,0:00:15.76,Train,,0,0,0,karaoke,{\k17}Eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei
+Comment: 0,0:00:15.78,0:00:16.89,Train,,0,0,0,karaoke,{\k16}Eins {\k19}zwei {\k20}drei {\k12}näch{\k15}ster {\k43}Halt
+Comment: 0,0:00:16.99,0:00:18.58,Train,,0,0,0,karaoke,{\k17}Eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei
+Comment: 0,0:00:18.58,0:00:19.82,Train,,0,0,0,karaoke,{\k16}Eins {\k19}zwei {\k20}drei {\k12}näch{\k15}ster {\k43}Halt
+Comment: 0,0:00:19.82,0:00:21.10,Train,,0,0,0,karaoke,{\k36}Eins {\k25}zwei {\k12}Wir {\k10}bi{\k16}tten {\k7}a{\k8}lle
+Comment: 0,0:00:20.98,0:00:22.49,Train,,0,0,0,karaoke,{\k21}Fahr{\k23}gä{\k19}ste{\k12} aus{\k6}zu{\k46}stei{\k20}gen
+Comment: 0,0:00:22.29,0:00:22.59,Sample KM [Choir],,0,0,0,karaoke,{\k35}Häh ?
+Comment: 0,0:00:22.64,0:00:24.23,Train,,0,0,0,karaoke,{\k17}Eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei
+Comment: 0,0:00:24.23,0:00:25.33,Train,,0,0,0,karaoke,{\k19}eins {\k23}zwei {\k19}drei {\k16}eins {\k17}eins {\k29}zwei
+Comment: 0,0:00:25.46,0:00:27.03,Train,,0,0,0,karaoke,{\k17}Eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei
+Comment: 0,0:00:27.03,0:00:28.13,Train,,0,0,0,karaoke,{\k15}eins {\k14}zwei {\k22}drei {\k20}eins {\k18}eins {\k21}zwei
+Comment: 0,0:00:28.28,0:00:29.88,Train,,0,0,0,karaoke,{\k17}Eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei
+Comment: 0,0:00:29.88,0:00:30.94,Train,,0,0,0,karaoke,{\k15}eins {\k14}zwei {\k22}drei {\k20}eins {\k17}eins {\k18}zwei
+Comment: 0,0:00:30.98,0:00:32.11,Train,,0,0,0,karaoke,{\k13}Ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei
+Comment: 0,0:00:32.11,0:00:33.24,Train,,0,0,0,karaoke,{\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei
+Comment: 0,0:00:33.24,0:00:34.08,Train,,0,0,0,karaoke,{\k15}eins {\k20}zwei {\k17}drei {\k32}vier
+Comment: 0,0:00:45.23,0:00:46.64,Train,,0,0,0,karaoke,{\k17}Frank{\k19}furt {\k15}Frank{\k20}furt {\k19}Frank{\k17}furt {\k15}Frank{\k19}furt
+Comment: 0,0:00:46.64,0:00:48.06,Train,,0,0,0,karaoke,{\k17}Frank{\k19}furt {\k15}Frank{\k20}furt {\k19}Frank{\k17}furt {\k15}Frank{\k19}furt
+Comment: 0,0:00:48.06,0:00:49.46,Train,,0,0,0,karaoke,{\k17}Frank{\k19}furt {\k15}Frank{\k20}furt {\k19}Frank{\k17}furt {\k15}Frank{\k19}furt
+Comment: 0,0:00:49.46,0:00:50.87,Train,,0,0,0,karaoke,{\k17}Frank{\k18}furt {\k17}Frank{\k19}furt {\k19}S{\k29} Neun {\k22}nach
+Comment: 0,0:00:50.87,0:00:52.28,Train,,0,0,0,karaoke,{\k7}Ga{\k11}te{\k18}way {\k8}Ga{\k11}te{\k16}way {\k9}Ga{\k10}te{\k16}way {\k9}Ga{\k9}te{\k17}way
+Comment: 0,0:00:52.28,0:00:53.69,Train,,0,0,0,karaoke,{\k7}Ga{\k11}te{\k18}way {\k8}Ga{\k11}te{\k16}way {\k9}Ga{\k10}te{\k16}way {\k9}Ga{\k9}te{\k17}way
+Comment: 0,0:00:53.69,0:00:55.18,Train,,0,0,0,karaoke,{\k9}Ga{\k9}te{\k17}way {\k19}Gar{\k18}dens {\k8}Ga{\k10}te{\k17}way {\k18}Gar{\k24}dens
+Comment: 0,0:00:55.18,0:00:56.52,Train,,0,0,0,karaoke,{\k11}Auss{\k35}tieg {\k11}in {\k15}Fahrt{\k10}rich{\k15}tung {\k37}links
+Comment: 0,0:00:56.52,0:00:57.93,Train,,0,0,0,karaoke,{\k35}Höchst {\k36}Höchst {\k35}Höchst {\k35}Höchst
+Comment: 0,0:00:57.93,0:00:59.34,Train,,0,0,0,karaoke,{\k35}Höchst {\k36}Höchst {\k35}Höchst {\k35}Höchst
+Comment: 0,0:00:59.34,0:01:02.16,Train,,0,0,0,karaoke,{\k34}Köl{\k34}löl{\k34}löl{\k34}löl{\k34}löl{\k34}löl{\k34}löl{\k35}löl
+Comment: 0,0:01:02.16,0:01:03.60,Train,,0,0,0,karaoke,{\k18}'Spä{\k18}tung {\k18}'Spä{\k18}tung {\k18}'Spä{\k18}tung {\k18}'Spä{\k18}tung
+Comment: 0,0:01:03.60,0:01:05.00,Train,,0,0,0,karaoke,{\k14}'Spä{\k19}tung {\k18}'Spä{\k18}tung {\k18}'Spä{\k17}tung {\k17}'Spä{\k19}tung
+Comment: 0,0:01:05.00,0:01:06.35,Train,,0,0,0,karaoke,{\k12}De{\k23}lay {\k13}de{\k22}lay {\k14}de{\k21}lay {\k15}de{\k15}lay
+Comment: 0,0:01:06.50,0:01:08.06,Train,,0,0,0,karaoke,{\k8}E{\k18}xit {\k9}to {\k8}the {\k11}right {\k7}in {\k9}the {\k9}di{\k10}re{\k18}ction {\k16}of {\k26}tra{\k18}vel
+Comment: 0,0:01:07.83,0:01:09.05,DB Man,,0,0,0,karaoke,{\k16}Meine {\k18}Da{\k17}men {\k18}und {\k17}Her{\k36}ren
+Comment: 0,0:01:09.06,0:01:11.47,DB Man,,0,0,0,karaoke,{\k19}auf{\k16}grund {\k17}von {\k18}Ver{\k18}zö{\k18}gerun{\k17}gen {\k13}im {\k7}Be{\k16}trieb{\k36}sab{\k46}lauf
+Comment: 0,0:01:13.10,0:01:13.97,DB Man,,0,0,0,karaoke,{\k20}wird {\k11}sich {\k23}un{\k18}se{\k15}re
+Comment: 0,0:01:14.17,0:01:17.10,DB Man,,0,0,0,karaoke,{\k35}Ab{\k18}fahrt {\k35}um {\k18}we{\k17}ni{\k18}ge {\k6}Mi{\k8}nu{\k22}ten {\k28}ver{\k59}spä{\k29}ten
+Comment: 0,0:01:17.10,0:01:19.23,DB Man,,0,0,0,karaoke,{\k5}wir {\k9}bit{\k12}ten {\k33}sie {\k77}dies {\k12}zu {\k7}ent{\k18}schul{\k17}di{\k12}gen
+Comment: 0,0:01:19.23,0:01:20.86,DB Man,,0,0,0,karaoke,{\k10}Bit{\k14}te {\k23}beach{\k18}ten {\k11}Sie {\k18}beim {\k38}Aus{\k31}stieg
+Comment: 0,0:01:21.43,0:01:22.77,DB Man,,0,0,0,karaoke,{\k30}auf {\k19}den {\k19}Höen{\k20}un{\k16}ter{\k30}schied
+Comment: 0,0:01:23.54,0:01:25.29,DB Man,,0,0,0,karaoke,{\k16}Why {\k35}why {\k28}why {\k25}why {\k71}why
+Comment: 0,0:01:25.29,0:01:29.06,DB Man,,0,0,0,karaoke,{\k52}Don't {\k33}I {\k57}miss {\k18}you {\k16}a {\k16}lot {\k38}for{\k55}e{\k92}ver
+Comment: 0,0:01:28.29,0:01:29.44,Train,,0,0,0,karaoke,{\k15}Mei{\k16}ne {\k10}da{\k13}men {\k18}und {\k20}Her{\k28}ren
+Comment: 0,0:01:30.39,0:01:31.81,Train,,0,0,0,karaoke,{\k14}auf{\k22}grund {\k24}von {\k17}Per{\k13}so{\k6}nnen {\k10}im {\k36}Gleis
+Comment: 0,0:01:31.81,0:01:33.29,Train,,0,0,0,karaoke,{\k18}ver{\k16}zö{\k15}gert {\k22}sich {\k10}un{\k8}se{\k17}re {\k10}Wei{\k10}ter{\k22}fahrt
+Comment: 0,0:01:33.29,0:01:34.82,Train,,0,0,0,karaoke,{\k30}auf {\k17}un{\k16}be{\k18}stim{\k16}mte {\k56}Zeit
+Comment: 0,0:01:34.97,0:01:36.92,Train,,0,0,0,karaoke,{\k19}so{\k22}bald {\k15}nä{\k15}here {\k8}In{\k11}for{\k18}ma{\k18}tio{\k13}nnen {\k22}vor{\k15}lie{\k19}gen
+Comment: 0,0:01:36.92,0:01:37.81,Train,,0,0,0,karaoke,{\k19}wer{\k5}den {\k13}wir {\k11}Sie {\k7}In{\k17}for{\k9}mie{\k8}ren
+Comment: 0,0:01:37.81,0:01:38.87,Train,,0,0,0,karaoke,{\k18}Mei{\k17}ne {\k19}Da{\k16}men {\k19}und {\k9}He{\k8}rren
+Comment: 0,0:01:38.87,0:01:39.85,Train,,0,0,0,karaoke,{\k8}Bi{\k8}tte {\k3}be{\k17}ach{\k7}ten {\k10}Sie {\k18}beim {\k18}Auss{\k9}tieg
+Comment: 0,0:01:39.85,0:01:40.64,Train,,0,0,0,karaoke,{\k17}auf{\k10} den {\k9}Auss{\k17}tieg {\k8}zwi{\k18}schen
+Comment: 0,0:01:40.64,0:01:41.69,Train,,0,0,0,karaoke,{\k24}Zug {\k7}und {\k14}Bahn{\k22}stei{\k20}gkan{\k18}te
+Comment: 0,0:01:41.69,0:01:43.46,Train,,0,0,0,karaoke,{\k20}S {\k16}Sie{\k18}ben {\k21}nach {\k20}Ried{\k18}stadt{\k17}-God{\k10}de{\k8}la{\k17}u
+Comment: 0,0:01:43.46,0:01:44.56,Train,,0,0,0,karaoke,{\k16}Nä{\k19}chste {\k18}Sta{\k57}tion
+Comment: 0,0:01:44.56,0:01:46.30,Train,,0,0,0,karaoke,{\k14}Nie{\k18}der{\k35}rad{\k18} Frank{\k17}furt {\k33}Sta{\k39}dion
+Comment: 0,0:01:46.36,0:01:47.62,Train,,0,0,0,karaoke,{\k22}Next {\k27}stop{\k14} Frank{\k18}furt {\k18}Sta{\k27}dion
+Comment: 0,0:01:47.69,0:01:49.29,Train,,0,0,0,karaoke,{\k19}Zep{\k10}pel{\k11}in{\k14}heim {\k17}Wall{\k42}dorf {\k12}Mör{\k16}fel{\k19}den
+Comment: 0,0:01:49.29,0:01:51.22,Train,,0,0,0,karaoke,{\k27}Groß {\k9}Ge{\k17}rau{\k17}-Dorn{\k18}berg {\k21}Dorn{\k14}heim{\k35} Wolfs{\k17}keh{\k18}len
+Comment: 0,0:01:51.22,0:01:52.11,Train,,0,0,0,karaoke,{\k18}Lie{\k12}be {\k24}Farhr{\k9}gä{\k26}ste
+Comment: 0,0:01:52.11,0:01:53.54,Train,,0,0,0,karaoke,{\k14}wir {\k9}er{\k12}rei{\k18}chen {\k11}in {\k9}we{\k15}ni{\k10}gen {\k9}Mi{\k11}nu{\k25}ten
+Comment: 0,0:01:53.59,0:01:54.40,Train,,0,0,0,karaoke,{\k11}Ried{\k18}stadt{\k9}-God{\k8}de{\k11}la{\k24}u
+Comment: 0,0:01:54.40,0:01:55.81,Train,,0,0,0,karaoke,{\k16}Un{\k10}se{\k10}re {\k18}Zug{\k17}fahrt {\k17}en{\k18}det {\k35}dort
+Comment: 0,0:01:55.81,0:01:56.50,Train,,0,0,0,karaoke,{\k18}EN{\k17}DET {\k34}DORT
+Comment: 0,0:01:56.50,0:01:57.22,Train,,0,0,0,karaoke,{\k18}EN{\k17}DET {\k34}DORT
+Comment: 0,0:01:57.22,0:01:57.93,Train,,0,0,0,karaoke,{\k18}EN{\k17}DET {\k34}DORT
+Comment: 0,0:01:57.93,0:01:58.63,Train,,0,0,0,karaoke,{\k18}EN{\k17}DET {\k34}DORT
+Comment: 0,0:01:58.63,0:01:59.34,Train,,0,0,0,karaoke,{\k18}EN{\k17}DET {\k34}DORT
+Comment: 0,0:01:59.34,0:02:00.03,Train,,0,0,0,karaoke,{\k18}EN{\k17}DET {\k34}DORT
+Comment: 0,0:02:00.03,0:02:00.74,Train,,0,0,0,karaoke,{\k18}EN{\k17}DET {\k34}DORT
+Comment: 0,0:02:00.74,0:02:01.59,Train,,0,0,0,karaoke,{\k18}EN{\k17}DET {\k34}DORT
+Dialogue: 0,0:00:04.09,0:00:05.86,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Näch{\k18}ster {\k36}Halt
+Dialogue: 0,0:00:05.51,0:00:07.36,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Näch{\k18}ster {\k36}Halt
+Dialogue: 0,0:00:06.93,0:00:08.33,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k107}Halt
+Dialogue: 0,0:00:08.33,0:00:09.71,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k70}Halt
+Dialogue: 0,0:00:08.68,0:00:10.84,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k12}Bi{\k24}tte {\k20}die {\k18}Fre{\k32}sse
+Dialogue: 0,0:00:10.44,0:00:13.14,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei
+Dialogue: 0,0:00:12.04,0:00:14.28,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Eins {\k19}zwei {\k20}drei {\k12}näch{\k15}ster {\k43}Halt
+Dialogue: 0,0:00:13.26,0:00:15.96,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei
+Dialogue: 0,0:00:14.88,0:00:17.09,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Eins {\k19}zwei {\k20}drei {\k12}näch{\k15}ster {\k43}Halt
+Dialogue: 0,0:00:16.09,0:00:18.78,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei
+Dialogue: 0,0:00:17.68,0:00:20.02,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Eins {\k19}zwei {\k20}drei {\k12}näch{\k15}ster {\k43}Halt
+Dialogue: 0,0:00:18.92,0:00:21.30,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Eins {\k25}zwei {\k12}Wir {\k10}bi{\k16}tten {\k7}a{\k8}lle
+Dialogue: 0,0:00:20.08,0:00:22.69,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Fahr{\k23}gä{\k19}ste{\k12} aus{\k6}zu{\k46}stei{\k20}gen
+Dialogue: 0,0:00:21.39,0:00:22.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Häh ?
+Dialogue: 0,0:00:21.74,0:00:24.43,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei
+Dialogue: 0,0:00:23.33,0:00:25.53,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k19}eins {\k23}zwei {\k19}drei {\k16}eins {\k17}eins {\k29}zwei
+Dialogue: 0,0:00:24.56,0:00:27.23,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei
+Dialogue: 0,0:00:26.13,0:00:28.33,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k15}eins {\k14}zwei {\k22}drei {\k20}eins {\k18}eins {\k21}zwei
+Dialogue: 0,0:00:27.38,0:00:30.08,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei {\k16}eins {\k19}zwei {\k18}drei
+Dialogue: 0,0:00:28.98,0:00:31.14,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k15}eins {\k14}zwei {\k22}drei {\k20}eins {\k17}eins {\k18}zwei
+Dialogue: 0,0:00:30.08,0:00:32.31,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k13}Ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei
+Dialogue: 0,0:00:31.21,0:00:33.44,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei {\k9}ei
+Dialogue: 0,0:00:32.34,0:00:34.28,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k15}eins {\k20}zwei {\k17}drei {\k32}vier
+Dialogue: 0,0:00:44.33,0:00:46.84,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Frank{\k19}furt {\k15}Frank{\k20}furt {\k19}Frank{\k17}furt {\k15}Frank{\k19}furt
+Dialogue: 0,0:00:45.74,0:00:48.26,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Frank{\k19}furt {\k15}Frank{\k20}furt {\k19}Frank{\k17}furt {\k15}Frank{\k19}furt
+Dialogue: 0,0:00:47.16,0:00:49.66,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Frank{\k19}furt {\k15}Frank{\k20}furt {\k19}Frank{\k17}furt {\k15}Frank{\k19}furt
+Dialogue: 0,0:00:48.56,0:00:51.07,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Frank{\k18}furt {\k17}Frank{\k19}furt {\k19}S{\k29} Neun {\k22}nach
+Dialogue: 0,0:00:49.97,0:00:52.48,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k7}Ga{\k11}te{\k18}way {\k8}Ga{\k11}te{\k16}way {\k9}Ga{\k10}te{\k16}way {\k9}Ga{\k9}te{\k17}way
+Dialogue: 0,0:00:51.38,0:00:53.89,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k7}Ga{\k11}te{\k18}way {\k8}Ga{\k11}te{\k16}way {\k9}Ga{\k10}te{\k16}way {\k9}Ga{\k9}te{\k17}way
+Dialogue: 0,0:00:52.79,0:00:55.38,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k9}Ga{\k9}te{\k17}way {\k19}Gar{\k18}dens {\k8}Ga{\k10}te{\k17}way {\k18}Gar{\k24}dens
+Dialogue: 0,0:00:54.28,0:00:56.72,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Auss{\k35}tieg {\k11}in {\k15}Fahrt{\k10}rich{\k15}tung {\k37}links
+Dialogue: 0,0:00:55.62,0:00:58.13,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Höchst {\k36}Höchst {\k35}Höchst {\k35}Höchst
+Dialogue: 0,0:00:57.03,0:00:59.54,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Höchst {\k36}Höchst {\k35}Höchst {\k35}Höchst
+Dialogue: 0,0:00:58.44,0:01:02.36,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Köl{\k34}löl{\k34}löl{\k34}löl{\k34}löl{\k34}löl{\k34}löl{\k35}löl
+Dialogue: 0,0:01:01.26,0:01:03.80,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k18}'Spä{\k18}tung {\k18}'Spä{\k18}tung {\k18}'Spä{\k18}tung {\k18}'Spä{\k18}tung
+Dialogue: 0,0:01:02.70,0:01:05.20,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k14}'Spä{\k19}tung {\k18}'Spä{\k18}tung {\k18}'Spä{\k17}tung {\k17}'Spä{\k19}tung
+Dialogue: 0,0:01:04.10,0:01:06.55,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k12}De{\k23}lay {\k13}de{\k22}lay {\k14}de{\k21}lay {\k15}de{\k15}lay
+Dialogue: 0,0:01:05.60,0:01:08.26,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k8}E{\k18}xit {\k9}to {\k8}the {\k11}right {\k7}in {\k9}the {\k9}di{\k10}re{\k18}ction {\k16}of {\k26}tra{\k18}vel
+Dialogue: 0,0:01:06.93,0:01:09.25,DB Man,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Meine {\k18}Da{\k17}men {\k18}und {\k17}Her{\k36}ren
+Dialogue: 0,0:01:08.16,0:01:11.67,DB Man,,0,0,0,fx,{\k90\fad(300,200)}{\k19}auf{\k16}grund {\k17}von {\k18}Ver{\k18}zö{\k18}gerun{\k17}gen {\k13}im {\k7}Be{\k16}trieb{\k36}sab{\k46}lauf
+Dialogue: 0,0:01:12.20,0:01:14.17,DB Man,,0,0,0,fx,{\k90\fad(300,200)}{\k20}wird {\k11}sich {\k23}un{\k18}se{\k15}re
+Dialogue: 0,0:01:13.27,0:01:17.30,DB Man,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Ab{\k18}fahrt {\k35}um {\k18}we{\k17}ni{\k18}ge {\k6}Mi{\k8}nu{\k22}ten {\k28}ver{\k59}spä{\k29}ten
+Dialogue: 0,0:01:16.20,0:01:19.43,DB Man,,0,0,0,fx,{\k90\fad(300,200)}{\k5}wir {\k9}bit{\k12}ten {\k33}sie {\k77}dies {\k12}zu {\k7}ent{\k18}schul{\k17}di{\k12}gen
+Dialogue: 0,0:01:18.33,0:01:21.06,DB Man,,0,0,0,fx,{\k90\fad(300,200)}{\k10}Bit{\k14}te {\k23}beach{\k18}ten {\k11}Sie {\k18}beim {\k38}Aus{\k31}stieg
+Dialogue: 0,0:01:20.53,0:01:22.97,DB Man,,0,0,0,fx,{\k90\fad(300,200)}{\k30}auf {\k19}den {\k19}Höen{\k20}un{\k16}ter{\k30}schied
+Dialogue: 0,0:01:22.64,0:01:25.49,DB Man,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Why {\k35}why {\k28}why {\k25}why {\k71}why
+Dialogue: 0,0:01:24.39,0:01:29.26,DB Man,,0,0,0,fx,{\k90\fad(300,200)}{\k52}Don't {\k33}I {\k57}miss {\k18}you {\k16}a {\k16}lot {\k38}for{\k55}e{\k92}ver
+Dialogue: 0,0:01:27.39,0:01:29.64,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Mei{\k16}ne {\k10}da{\k13}men {\k18}und {\k20}Her{\k28}ren
+Dialogue: 0,0:01:29.49,0:01:32.01,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k14}auf{\k22}grund {\k24}von {\k17}Per{\k13}so{\k6}nnen {\k10}im {\k36}Gleis
+Dialogue: 0,0:01:30.91,0:01:33.49,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ver{\k16}zö{\k15}gert {\k22}sich {\k10}un{\k8}se{\k17}re {\k10}Wei{\k10}ter{\k22}fahrt
+Dialogue: 0,0:01:32.39,0:01:35.02,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k30}auf {\k17}un{\k16}be{\k18}stim{\k16}mte {\k56}Zeit
+Dialogue: 0,0:01:34.07,0:01:37.12,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k19}so{\k22}bald {\k15}nä{\k15}here {\k8}In{\k11}for{\k18}ma{\k18}tio{\k13}nnen {\k22}vor{\k15}lie{\k19}gen
+Dialogue: 0,0:01:36.02,0:01:38.01,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k19}wer{\k5}den {\k13}wir {\k11}Sie {\k7}In{\k17}for{\k9}mie{\k8}ren
+Dialogue: 0,0:01:36.91,0:01:39.07,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Mei{\k17}ne {\k19}Da{\k16}men {\k19}und {\k9}He{\k8}rren
+Dialogue: 0,0:01:37.97,0:01:40.05,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k8}Bi{\k8}tte {\k3}be{\k17}ach{\k7}ten {\k10}Sie {\k18}beim {\k18}Auss{\k9}tieg
+Dialogue: 0,0:01:38.95,0:01:40.84,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k17}auf{\k10} den {\k9}Auss{\k17}tieg {\k8}zwi{\k18}schen
+Dialogue: 0,0:01:39.74,0:01:41.89,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k24}Zug {\k7}und {\k14}Bahn{\k22}stei{\k20}gkan{\k18}te
+Dialogue: 0,0:01:40.79,0:01:43.66,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k20}S {\k16}Sie{\k18}ben {\k21}nach {\k20}Ried{\k18}stadt{\k17}-God{\k10}de{\k8}la{\k17}u
+Dialogue: 0,0:01:42.56,0:01:44.76,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Nä{\k19}chste {\k18}Sta{\k57}tion
+Dialogue: 0,0:01:43.66,0:01:46.50,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k14}Nie{\k18}der{\k35}rad{\k18} Frank{\k17}furt {\k33}Sta{\k39}dion
+Dialogue: 0,0:01:45.46,0:01:47.82,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Next {\k27}stop{\k14} Frank{\k18}furt {\k18}Sta{\k27}dion
+Dialogue: 0,0:01:46.79,0:01:49.49,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Zep{\k10}pel{\k11}in{\k14}heim {\k17}Wall{\k42}dorf {\k12}Mör{\k16}fel{\k19}den
+Dialogue: 0,0:01:48.39,0:01:51.42,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Groß {\k9}Ge{\k17}rau{\k17}-Dorn{\k18}berg {\k21}Dorn{\k14}heim{\k35} Wolfs{\k17}keh{\k18}len
+Dialogue: 0,0:01:50.32,0:01:52.31,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Lie{\k12}be {\k24}Farhr{\k9}gä{\k26}ste
+Dialogue: 0,0:01:51.21,0:01:53.74,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k14}wir {\k9}er{\k12}rei{\k18}chen {\k11}in {\k9}we{\k15}ni{\k10}gen {\k9}Mi{\k11}nu{\k25}ten
+Dialogue: 0,0:01:52.69,0:01:54.60,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Ried{\k18}stadt{\k9}-God{\k8}de{\k11}la{\k24}u
+Dialogue: 0,0:01:53.50,0:01:56.01,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Un{\k10}se{\k10}re {\k18}Zug{\k17}fahrt {\k17}en{\k18}det {\k35}dort
+Dialogue: 0,0:01:54.91,0:01:56.70,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k18}EN{\k17}DET {\k34}DORT
+Dialogue: 0,0:01:55.60,0:01:57.42,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k18}EN{\k17}DET {\k34}DORT
+Dialogue: 0,0:01:56.32,0:01:58.13,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k18}EN{\k17}DET {\k34}DORT
+Dialogue: 0,0:01:57.03,0:01:58.83,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k18}EN{\k17}DET {\k34}DORT
+Dialogue: 0,0:01:57.73,0:01:59.54,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k18}EN{\k17}DET {\k34}DORT
+Dialogue: 0,0:01:58.44,0:02:00.23,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k18}EN{\k17}DET {\k34}DORT
+Dialogue: 0,0:01:59.13,0:02:00.94,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k18}EN{\k17}DET {\k34}DORT
+Dialogue: 0,0:01:59.84,0:02:01.79,Train,,0,0,0,fx,{\k90\fad(300,200)}{\k18}EN{\k17}DET {\k34}DORT
