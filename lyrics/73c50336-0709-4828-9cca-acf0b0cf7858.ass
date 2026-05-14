@@ -1,0 +1,128 @@
+﻿[Script Info]
+Title: Nyao Signyal
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: torash
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Miracra Park,Arial,24,&H00FFFFFF,&H007827BB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Rurino,Arial,24,&H00FFFFFF,&H009E60E7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hime,Arial,24,&H00FFFFFF,&H00E28D9D,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: MirapaChoir,Arial,24,&H007827BB,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.84,0:00:05.74,Miracra Park,,0,0,0,karaoke,{\k32}ou{\k26}tou{\k17}se {\k30}yo {\k16}SI{\k16}G{\k16}NA{\k37}L
+Comment: 0,0:00:15.55,0:00:17.92,Rurino,,0,0,0,karaoke,{\k47}nyan {\k15}u{\k29}chuu {\k18}he {\k26}na{\k17}ge{\k29}ka{\k31}ke{\k25}ru
+Comment: 0,0:00:17.97,0:00:20.67,Rurino,,0,0,0,karaoke,{\k48}nyan {\k12}i{\k15}ku{\k36}ok' {\k35}kou{\k31}nen {\k19}sa{\k17}ki {\k27}he {\k30}to
+Comment: 0,0:00:20.67,0:00:23.03,Hime,,0,0,0,karaoke,{\k9}wa{\k10}re{\k11}wa{\k27}re {\k11}wa{\k10}re{\k10}wa{\k30}re {\k9}wa{\k9}re{\k13}wa{\k15}re {\k13}wa {\k32}kyou {\k27}mo
+Comment: 0,0:00:23.03,0:00:25.22,Rurino,,0,0,0,karaoke,{\k18}a{\k13}na{\k20}ta {\k13}to {\k17}ko{\k13}to{\k9}ba {\k20}wo {\k10}ka{\k20}wash'{\k20}ta{\k20}ku{\k26}te
+Comment: 0,0:00:25.22,0:00:27.55,Hime,,0,0,0,karaoke,{\k41}nyan {\k13}ji{\k15}yu{\k15}u {\k15}ni {\k30}to{\k16}bi{\k29}ma{\k30}wa{\k29}ru
+Comment: 0,0:00:27.55,0:00:30.10,Hime,,0,0,0,karaoke,{\k49}nyan {\k14}na {\k14}mo {\k14}na{\k18}ki {\k27}chii{\k16}san{\k30}a {\k15}ho{\k14}shi {\k28}he {\k16}mo
+Comment: 0,0:00:29.95,0:00:32.03,Rurino,,0,0,0,karaoke,{\k16}so{\k16}re {\k29}jaa {\k30}PAR{\k30}TY {\k11}wo {\k17}ha{\k14}ji{\k15}me{\k30}you
+Comment: 0,0:00:32.37,0:00:34.62,Rurino,,0,0,0,karaoke,{\k13}ko{\k16}ko {\k16}ga {\k15}u{\k14}chi{\k15}ra {\k15}no {\k27}dek{\k28}kai {\k18}F{\k48}LOOR
+Comment: 0,0:00:34.92,0:00:39.50,Hime,,0,0,0,karaoke,{\k20}a{\k10}shi{\k14}ta {\k28}no {\k32}ko{\k45}to {\k42}to{\k48}ka {\rRurino}{\k15}o{\k14}to{\k17}na {\k29}no {\k31}ji{\k44}jou {\k39}to{\k30}ka
+Comment: 0,0:00:39.50,0:00:44.32,Hime,,0,0,0,karaoke,{\k27}wa{\k19}ka{\k23}ru {\rRurino}{\k20}wa{\k21}ka{\k17}ru {\rHime}{\k20}wa{\k25}ka{\k15}ru {\k30}yo {\rRurino}{\k15}de{\k15}mo {\kf118}mat{\kf117}te
+Comment: 0,0:00:44.63,0:00:46.40,Hime,,0,0,0,karaoke,{\k34}hon{\k31}ne {\k14}de {\k34}bu{\k10}tsu{\k15}ka{\k15}ra{\k24}nai
+Comment: 0,0:00:46.46,0:00:48.52,Miracra Park,,0,0,0,karaoke,{\k30}nyan{\k29}tet{\k31}ta {\k16}tte {\k28}yap{\k16}pa {\k15}ta{\k15}no{\k26}shii
+Comment: 0,0:00:48.52,0:00:51.26,Miracra Park,,0,0,0,karaoke,{\k18}so{\k15}re {\k16}na{\k15}ra {\k16}ko{\k14}ko{\k16}ro {\k14}mo {\k30}kit{\k17}to {\k29}mu{\k14}ju{\k16}u{\k15}ryo{\k29}ku
+Comment: 0,0:00:51.26,0:00:53.66,Rurino,,0,0,0,karaoke,{\k16}ma{\k15}wa{\k15}ru {\k14}ko{\k18}u{\k12}se{\k30}i {\rHime}{\k14}ha{\k34}na{\k12}tsu {\k15}hi{\k16}ka{\k29}ri
+Comment: 0,0:00:53.66,0:00:55.94,Rurino,,0,0,0,karaoke,{\k15}MIR{\k30}ROR {\k15}B{\k30}ALL {\k28}he {\k17}to {\k29}ha{\k16}ya{\k16}ga{\k14}wa{\k18}ri
+Comment: 0,0:00:56.06,0:00:58.09,Miracra Park,,0,0,0,karaoke,{\k29}nyan{\k30}tet{\k32}ta {\k17}tte {\k27}min{\k16}na {\k15}hi{\k18}to {\k19}jan
+Comment: 0,0:00:58.15,0:01:00.74,Miracra Park,,0,0,0,karaoke,{\k15}so{\k16}re {\k10}ko{\k21}so {\k15}da{\k17}i{\k14}ji {\k13}na{\k30}no {\k16}wa {\k24}mu{\k21}ju{\k14}u{\k16}ryo{\k17}ku
+Comment: 0,0:01:00.85,0:01:03.80,Hime,,0,0,0,karaoke,{\k30}kan{\k18}ga{\k14}e{\k14}ru {\k16}no {\k30}wa {\rRurino}{\k16}a{\k23}to{\k14}ma{\k19}wa{\k15}shi {\k30}de {\rHime}{\k18}i{\k10}ma {\k28}wa
+Comment: 0,0:01:03.85,0:01:05.67,Miracra Park,,0,0,0,karaoke,{\k28}ou{\k28}tou{\k20}se {\k25}yo {\k20}SI{\k15}G{\k15}NA{\k31}L
+Comment: 0,0:01:16.73,0:01:19.01,Hime,,0,0,0,karaoke,{\k47}nyan {\k17}ne{\k29}gai {\k16}ga {\k29}o{\k15}do{\k30}ri{\k29}da{\k16}su
+Comment: 0,0:01:19.15,0:01:21.47,Hime,,0,0,0,karaoke,{\k46}nyan {\k16}ko{\k15}do{\k16}ku {\k14}ni {\k42}mi'{\k30}ta {\k17}yo{\k15}ru {\k21}he
+Comment: 0,0:01:21.56,0:01:22.99,Rurino,,0,0,0,karaoke,{\k19}u{\k25}chuu{\k16}sen {\k16}but{\k15}to{\k20}bash'{\k10}te{\k10}ta{\k12}ra
+Comment: 0,0:01:23.15,0:01:25.77,Rurino,,0,0,0,karaoke,{\k17}na{\k15}ga{\k13}re{\k22}boshi {\k15}to {\k18}ma{\k13}chi{\k12}ga{\k13}e{\k15}ra{\k19}re{\k26}chi{\k64}ta
+Comment: 0,0:01:25.48,0:01:26.65,Hime,,0,0,0,karaoke,{\k15}so{\k14}re {\k16}mo {\k36}ii {\k36}ka
+Comment: 0,0:01:27.44,0:01:28.35,Rurino,,0,0,0,karaoke,{\k24}no{\k16}ga{\k32}san {\k19}ze
+Comment: 0,0:01:28.45,0:01:30.24,Rurino,,0,0,0,karaoke,{\k15}don{\k18}na {\k17}hi{\k11}to{\k30}ri{\k19}go{\k11}to {\k30}mo {\k10}sa{\k9}ke{\k9}bu
+Comment: 0,0:01:30.24,0:01:31.40,Rurino,,0,0,0,karaoke,{\k10}ko{\k8}e {\k14}mo {\k31}CATCH {\k9}su{\k8}ru {\k11}ka{\k25}ra
+Comment: 0,0:01:31.45,0:01:33.52,Hime,,0,0,0,karaoke,{\k8}wa{\k12}re{\k11}wa{\k27}re {\k13}wa{\k11}re{\k10}wa{\k26}re {\k11}wa{\k11}re{\k9}wa{\k16}re {\k12}wa {\k30}mou
+Comment: 0,0:01:33.55,0:01:36.01,Miracra Park,,0,0,0,karaoke,{\k22}to{\k19}mo {\k20}ni {\k20}to{\k18}mo {\k19}to {\rRurino}{\k31}yo{\k33}bi {\k15}a{\k17}e{\k32}ru
+Comment: 0,0:01:36.13,0:01:40.71,Hime,,0,0,0,karaoke,{\k28}mei{\k15}wa{\k29}ku {\k31}ka{\k44}mo {\k43}to{\k45}ka {\rRurino}{\k32}kuu{\k18}ki {\k24}wo {\k35}yo{\k44}mu {\k39}to{\k31}ka
+Comment: 0,0:01:40.71,0:01:42.73,Hime,,0,0,0,karaoke,{\k27}wa{\k24}ka{\k13}ru {\rRurino}{\k24}wa{\k23}ka{\k10}ru {\k26}wa{\k26}ka{\k11}ru {\k18}yo
+Comment: 0,0:01:42.84,0:01:44.61,Rurino,,0,0,0,karaoke,{\k19}de{\k14}mo {\k29}choc{\k30}choc{\k31}cho {\k30}mat{\k24}te
+Comment: 0,0:01:44.82,0:01:52.76,Miracra Park,,0,0,0,karaoke,{\k16}do{\k24}u{\k19}shi{\k16}ta{\kf356}i~ {\k47}so{\k43}re {\k25}da{\kf248}ke
+Comment: 0,0:01:54.68,0:01:55.44,MirapaChoir,,0,0,0,karaoke,{\k17}i{\k59}kee
+Comment: 0,0:01:55.31,0:01:57.65,Hime,,0,0,0,karaoke,{\k14}mo{\k14}ku{\k31}sei {\k15}no {\k16}wa {\k12}ni {\k19}ha{\k15}ri {\k13}wo {\k31}o{\k13}to{\k17}shi{\k24}te
+Comment: 0,0:01:57.71,0:01:59.96,Rurino,,0,0,0,karaoke,{\k15}ba{\k18}ku{\k28}on {\k22}de {\k21}s'ki {\k20}na {\k12}o{\k16}to {\k28}na{\k12}ga{\k19}shi{\k14}te
+Comment: 0,0:02:00.01,0:02:02.18,Hime,,0,0,0,karaoke,{\k25}min{\k11}na {\k22}mot{\k23}to {\k14}ji{\k16}bun {\k13}no {\k24}suki {\k8}wo {\k14}i{\k11}ki{\k61}rou
+Comment: 0,0:02:02.30,0:02:03.72,Rurino,,0,0,0,karaoke,{\k30}nyan {\rHime}{\k33}nyan {\rRurino}{\k32}nyan {\rHime}{\k30}nyan {\rRurino}{\k17}nyan
+Comment: 0,0:02:03.84,0:02:05.87,Miracra Park,,0,0,0,karaoke,{\k32}nyan{\k31}ko {\k30}da {\kf110}ze
+Comment: 0,0:02:06.04,0:02:06.89,Hime,,0,0,0,karaoke,{\k8}ki{\k6}ko{\k8}e{\k22}ma{\k14}su {\k27}ka
+Comment: 0,0:02:07.36,0:02:08.66,Hime,,0,0,0,karaoke,{\k11}a{\k21}na{\k12}ta {\k10}no {\k16}nou{\k14}na{\k12}i {\k34}ni
+Comment: 0,0:02:09.34,0:02:09.98,Rurino,,0,0,0,karaoke,{\k25}chok'{\k39}sets'
+Comment: 0,0:02:10.45,0:02:12.05,Rurino,,0,0,0,karaoke,{\k20}ka{\k13}ta{\k16}ri{\k12}ka{\k16}ke{\k26}te {\k13}i{\k44}mas'
+Comment: 0,0:02:12.26,0:02:14.04,Miracra Park,,0,0,0,karaoke,{\k31}hon{\k30}ne {\k15}de {\k32}bu{\k10}tsu{\k17}ka{\k15}ra{\k28}nai
+Comment: 0,0:02:14.04,0:02:16.80,Rurino,,0,0,0,karaoke,{\k32}nyan{\k29}tet{\k31}ta {\k16}tte {\k28}yap{\k16}pa {\k15}ta{\k15}no{\k31}shii {\k63}de
+Comment: 0,0:02:17.03,0:02:23.67,Hime,,0,0,0,karaoke,{\k33}ka{\k31}ga{\k29}ya{\k47}ku {\k45}hi{\k26}bi {\k119}wa {\k43}ho{\k48}shi{\k34}zo{\k26}ra {\k35}yo{\k28}ri {\k13}mo {\k31}ma{\k13}bu{\k9}shi{\k22}i {\k32}ze
+Comment: 0,0:02:23.67,0:02:25.69,Rurino,,0,0,0,karaoke,{\k29}nyan{\k30}tet{\k30}ta {\k16}tte {\k27}min{\k18}na {\k14}hi{\k16}to {\k22}jan
+Comment: 0,0:02:25.74,0:02:28.41,Miracra Park,,0,0,0,karaoke,{\k14}so{\k17}re {\k14}ko{\k17}so {\k30}dai{\k14}ji {\k16}na{\k30}no {\k16}wa {\k27}mu{\k16}ju{\k15}u{\k17}ryo{\k24}ku
+Comment: 0,0:02:28.41,0:02:31.39,Rurino,,0,0,0,karaoke,{\k30}kan{\k18}ga{\k13}e{\k16}ru {\k15}no {\k27}wa {\rHime}{\k18}a{\k34}to{\k15}ma{\k16}wa{\k14}shi {\k27}de {\rMiraCra Park}{\k16}i{\k16}ma {\k23}wa
+Comment: 0,0:02:31.45,0:02:33.29,Miracra Park,,0,0,0,karaoke,{\k31}ou{\k28}tou{\k17}se {\k27}yo {\k17}SI{\k14}G{\k16}NA{\k34}L
+Comment: 0,0:02:33.55,0:02:35.72,Rurino,,0,0,0,karaoke,{\k34}sai{\k26}kou {\k31}no {\k15}e{\k30}ga{\k17}o {\k14}ni {\k14}su{\k36}ru
+Comment: 0,0:02:40.43,0:02:44.44,Miracra Park,,0,0,0,karaoke,{\k29}kyou {\k32}mo {\k32}u{\k16}chu{\k29}u {\k13}no {\k16}do{\k15}ko{\k29}ka {\kf190}de
+Comment: 0,0:02:50.05,0:02:53.91,Miracra Park,,0,0,0,karaoke,{\k30}tat{\k30}ta {\k31}hi{\k18}to{\k27}ri {\k14}no {\k15}a{\k16}na{\k28}ta {\kf177}he
+Dialogue: 0,0:00:02.94,0:00:05.94,Miracra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ou{\k26}tou{\k17}se {\k30}yo {\k16}SI{\k16}G{\k16}NA{\k37}L
+Dialogue: 0,0:00:14.65,0:00:18.12,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k47}nyan {\k15}u{\k29}chuu {\k18}he {\k26}na{\k17}ge{\k29}ka{\k31}ke{\k25}ru
+Dialogue: 0,0:00:17.07,0:00:20.87,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k48}nyan {\k12}i{\k15}ku{\k36}ok' {\k35}kou{\k31}nen {\k19}sa{\k17}ki {\k27}he {\k30}to
+Dialogue: 0,0:00:19.77,0:00:23.23,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k9}wa{\k10}re{\k11}wa{\k27}re {\k11}wa{\k10}re{\k10}wa{\k30}re {\k9}wa{\k9}re{\k13}wa{\k15}re {\k13}wa {\k32}kyou {\k27}mo
+Dialogue: 0,0:00:22.13,0:00:25.42,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k18}a{\k13}na{\k20}ta {\k13}to {\k17}ko{\k13}to{\k9}ba {\k20}wo {\k10}ka{\k20}wash'{\k20}ta{\k20}ku{\k26}te
+Dialogue: 0,0:00:24.32,0:00:27.75,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k41}nyan {\k13}ji{\k15}yu{\k15}u {\k15}ni {\k30}to{\k16}bi{\k29}ma{\k30}wa{\k29}ru
+Dialogue: 0,0:00:26.65,0:00:30.30,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k49}nyan {\k14}na {\k14}mo {\k14}na{\k18}ki {\k27}chii{\k16}san{\k30}a {\k15}ho{\k14}shi {\k28}he {\k16}mo
+Dialogue: 0,0:00:29.05,0:00:32.23,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k16}so{\k16}re {\k29}jaa {\k30}PAR{\k30}TY {\k11}wo {\k17}ha{\k14}ji{\k15}me{\k30}you
+Dialogue: 0,0:00:31.47,0:00:34.82,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ko{\k16}ko {\k16}ga {\k15}u{\k14}chi{\k15}ra {\k15}no {\k27}dek{\k28}kai {\k18}F{\k48}LOOR
+Dialogue: 0,0:00:34.02,0:00:39.70,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k20}a{\k10}shi{\k14}ta {\k28}no {\k32}ko{\k45}to {\k42}to{\k48}ka {\rRurino}{\k15}o{\k14}to{\k17}na {\k29}no {\k31}ji{\k44}jou {\k39}to{\k30}ka
+Dialogue: 0,0:00:38.60,0:00:44.52,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k27}wa{\k19}ka{\k23}ru {\rRurino}{\k20}wa{\k21}ka{\k17}ru {\rHime}{\k20}wa{\k25}ka{\k15}ru {\k30}yo {\rRurino}{\k15}de{\k15}mo {\kf118}mat{\kf117}te
+Dialogue: 0,0:00:43.73,0:00:46.60,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k34}hon{\k31}ne {\k14}de {\k34}bu{\k10}tsu{\k15}ka{\k15}ra{\k24}nai
+Dialogue: 0,0:00:45.56,0:00:48.72,Miracra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k30}nyan{\k29}tet{\k31}ta {\k16}tte {\k28}yap{\k16}pa {\k15}ta{\k15}no{\k26}shii
+Dialogue: 0,0:00:47.62,0:00:51.46,Miracra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k18}so{\k15}re {\k16}na{\k15}ra {\k16}ko{\k14}ko{\k16}ro {\k14}mo {\k30}kit{\k17}to {\k29}mu{\k14}ju{\k16}u{\k15}ryo{\k29}ku
+Dialogue: 0,0:00:50.36,0:00:53.86,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ma{\k15}wa{\k15}ru {\k14}ko{\k18}u{\k12}se{\k30}i {\rHime}{\k14}ha{\k34}na{\k12}tsu {\k15}hi{\k16}ka{\k29}ri
+Dialogue: 0,0:00:52.76,0:00:56.14,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k15}MIR{\k30}ROR {\k15}B{\k30}ALL {\k28}he {\k17}to {\k29}ha{\k16}ya{\k16}ga{\k14}wa{\k18}ri
+Dialogue: 0,0:00:55.16,0:00:58.29,Miracra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k29}nyan{\k30}tet{\k32}ta {\k17}tte {\k27}min{\k16}na {\k15}hi{\k18}to {\k19}jan
+Dialogue: 0,0:00:57.25,0:01:00.94,Miracra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k15}so{\k16}re {\k10}ko{\k21}so {\k15}da{\k17}i{\k14}ji {\k13}na{\k30}no {\k16}wa {\k24}mu{\k21}ju{\k14}u{\k16}ryo{\k17}ku
+Dialogue: 0,0:00:59.95,0:01:04.00,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k30}kan{\k18}ga{\k14}e{\k14}ru {\k16}no {\k30}wa {\rRurino}{\k16}a{\k23}to{\k14}ma{\k19}wa{\k15}shi {\k30}de {\rHime}{\k18}i{\k10}ma {\k28}wa
+Dialogue: 0,0:01:02.95,0:01:05.87,Miracra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ou{\k28}tou{\k20}se {\k25}yo {\k20}SI{\k15}G{\k15}NA{\k31}L
+Dialogue: 0,0:01:15.83,0:01:19.21,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k47}nyan {\k17}ne{\k29}gai {\k16}ga {\k29}o{\k15}do{\k30}ri{\k29}da{\k16}su
+Dialogue: 0,0:01:18.25,0:01:21.67,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k46}nyan {\k16}ko{\k15}do{\k16}ku {\k14}ni {\k42}mi'{\k30}ta {\k17}yo{\k15}ru {\k21}he
+Dialogue: 0,0:01:20.66,0:01:23.19,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k19}u{\k25}chuu{\k16}sen {\k16}but{\k15}to{\k20}bash'{\k10}te{\k10}ta{\k12}ra
+Dialogue: 0,0:01:22.25,0:01:25.97,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k17}na{\k15}ga{\k13}re{\k22}boshi {\k15}to {\k18}ma{\k13}chi{\k12}ga{\k13}e{\k15}ra{\k19}re{\k26}chi{\k64}ta
+Dialogue: 0,0:01:24.58,0:01:26.85,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k15}so{\k14}re {\k16}mo {\k36}ii {\k36}ka
+Dialogue: 0,0:01:26.54,0:01:28.55,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k24}no{\k16}ga{\k32}san {\k19}ze
+Dialogue: 0,0:01:27.55,0:01:30.44,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k15}don{\k18}na {\k17}hi{\k11}to{\k30}ri{\k19}go{\k11}to {\k30}mo {\k10}sa{\k9}ke{\k9}bu
+Dialogue: 0,0:01:29.34,0:01:31.60,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ko{\k8}e {\k14}mo {\k31}CATCH {\k9}su{\k8}ru {\k11}ka{\k25}ra
+Dialogue: 0,0:01:30.55,0:01:33.72,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k8}wa{\k12}re{\k11}wa{\k27}re {\k13}wa{\k11}re{\k10}wa{\k26}re {\k11}wa{\k11}re{\k9}wa{\k16}re {\k12}wa {\k30}mou
+Dialogue: 0,0:01:32.65,0:01:36.21,Miracra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k22}to{\k19}mo {\k20}ni {\k20}to{\k18}mo {\k19}to {\rRurino}{\k31}yo{\k33}bi {\k15}a{\k17}e{\k32}ru
+Dialogue: 0,0:01:35.23,0:01:40.91,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k28}mei{\k15}wa{\k29}ku {\k31}ka{\k44}mo {\k43}to{\k45}ka {\rRurino}{\k32}kuu{\k18}ki {\k24}wo {\k35}yo{\k44}mu {\k39}to{\k31}ka
+Dialogue: 0,0:01:39.81,0:01:42.93,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k27}wa{\k24}ka{\k13}ru {\rRurino}{\k24}wa{\k23}ka{\k10}ru {\k26}wa{\k26}ka{\k11}ru {\k18}yo
+Dialogue: 0,0:01:41.94,0:01:44.81,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k19}de{\k14}mo {\k29}choc{\k30}choc{\k31}cho {\k30}mat{\k24}te
+Dialogue: 0,0:01:43.92,0:01:52.96,Miracra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k16}do{\k24}u{\k19}shi{\k16}ta{\kf356}i~ {\k47}so{\k43}re {\k25}da{\kf248}ke
+Dialogue: 0,0:01:53.78,0:01:55.64,MirapaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k17}i{\k59}kee
+Dialogue: 0,0:01:54.41,0:01:57.85,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k14}mo{\k14}ku{\k31}sei {\k15}no {\k16}wa {\k12}ni {\k19}ha{\k15}ri {\k13}wo {\k31}o{\k13}to{\k17}shi{\k24}te
+Dialogue: 0,0:01:56.81,0:02:00.16,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ba{\k18}ku{\k28}on {\k22}de {\k21}s'ki {\k20}na {\k12}o{\k16}to {\k28}na{\k12}ga{\k19}shi{\k14}te
+Dialogue: 0,0:01:59.11,0:02:02.38,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k25}min{\k11}na {\k22}mot{\k23}to {\k14}ji{\k16}bun {\k13}no {\k24}suki {\k8}wo {\k14}i{\k11}ki{\k61}rou
+Dialogue: 0,0:02:01.40,0:02:03.92,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k30}nyan {\rHime}{\k33}nyan {\rRurino}{\k32}nyan {\rHime}{\k30}nyan {\rRurino}{\k17}nyan
+Dialogue: 0,0:02:02.94,0:02:06.07,Miracra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k32}nyan{\k31}ko {\k30}da {\kf110}ze
+Dialogue: 0,0:02:05.14,0:02:07.09,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k8}ki{\k6}ko{\k8}e{\k22}ma{\k14}su {\k27}ka
+Dialogue: 0,0:02:06.46,0:02:08.86,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k11}a{\k21}na{\k12}ta {\k10}no {\k16}nou{\k14}na{\k12}i {\k34}ni
+Dialogue: 0,0:02:08.44,0:02:10.18,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k25}chok'{\k39}sets'
+Dialogue: 0,0:02:09.55,0:02:12.25,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ka{\k13}ta{\k16}ri{\k12}ka{\k16}ke{\k26}te {\k13}i{\k44}mas'
+Dialogue: 0,0:02:11.36,0:02:14.24,Miracra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k31}hon{\k30}ne {\k15}de {\k32}bu{\k10}tsu{\k17}ka{\k15}ra{\k28}nai
+Dialogue: 0,0:02:13.14,0:02:17.00,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k32}nyan{\k29}tet{\k31}ta {\k16}tte {\k28}yap{\k16}pa {\k15}ta{\k15}no{\k31}shii {\k63}de
+Dialogue: 0,0:02:16.13,0:02:23.87,Hime,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ka{\k31}ga{\k29}ya{\k47}ku {\k45}hi{\k26}bi {\k119}wa {\k43}ho{\k48}shi{\k34}zo{\k26}ra {\k35}yo{\k28}ri {\k13}mo {\k31}ma{\k13}bu{\k9}shi{\k22}i {\k32}ze
+Dialogue: 0,0:02:22.77,0:02:25.89,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k29}nyan{\k30}tet{\k30}ta {\k16}tte {\k27}min{\k18}na {\k14}hi{\k16}to {\k22}jan
+Dialogue: 0,0:02:24.84,0:02:28.61,Miracra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k14}so{\k17}re {\k14}ko{\k17}so {\k30}dai{\k14}ji {\k16}na{\k30}no {\k16}wa {\k27}mu{\k16}ju{\k15}u{\k17}ryo{\k24}ku
+Dialogue: 0,0:02:27.51,0:02:31.59,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k30}kan{\k18}ga{\k13}e{\k16}ru {\k15}no {\k27}wa {\rHime}{\k18}a{\k34}to{\k15}ma{\k16}wa{\k14}shi {\k27}de {\rMiraCra Park}{\k16}i{\k16}ma {\k23}wa
+Dialogue: 0,0:02:30.55,0:02:33.49,Miracra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ou{\k28}tou{\k17}se {\k27}yo {\k17}SI{\k14}G{\k16}NA{\k34}L
+Dialogue: 0,0:02:32.65,0:02:35.92,Rurino,,0,0,0,fx,{\k90\fad(300,200)}{\k34}sai{\k26}kou {\k31}no {\k15}e{\k30}ga{\k17}o {\k14}ni {\k14}su{\k36}ru
+Dialogue: 0,0:02:39.53,0:02:44.64,Miracra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k29}kyou {\k32}mo {\k32}u{\k16}chu{\k29}u {\k13}no {\k16}do{\k15}ko{\k29}ka {\kf190}de
+Dialogue: 0,0:02:49.15,0:02:54.11,Miracra Park,,0,0,0,fx,{\k90\fad(300,200)}{\k30}tat{\k30}ta {\k31}hi{\k18}to{\k27}ri {\k14}no {\k15}a{\k16}na{\k28}ta {\kf177}he
