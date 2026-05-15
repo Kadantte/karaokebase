@@ -9,16 +9,15 @@ Original Timing: PrZozor
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: All,Arial,24,&H00FEE439,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: All,Arial,24,&H00FFFFFF,&H00FEE439,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Fubuki,Arial,24,&H00FFFFFF,&H00FFA865,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Kanna,Arial,24,&H00FFFFFF,&H00259CFC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Kirino,Arial,24,&H00FFFFFF,&H00D68CA0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: COLOR CODE,Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,All,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Comment: 0,0:00:00.00,0:00:03.27,COLOR CODE,,0,0,0,karaoke,{\c&HD68CA0&}Kirino{\c} | {\c&H259CFC&}Kanna{\c} | {\c&HFFA865&}Fubuki
+Dialogue: 0,0:00:00.00,0:00:15.00,Kirino,,0,0,200,legend,{\k1500}{\k0}{\rKirino}Kirino{\r} {\2cHFFFFFF}- {\rKanna}Kanna{\r} {\2cHFFFFFF}- {\rFubuki}Fubuki{\r} {\2cHFFFFFF}- {\rAll}All{\r}
 Comment: 0,0:00:01.45,0:00:03.27,All,,0,0,0,karaoke,{\k27}ji{\k27}ke{\k24}n {\k29}ga {\k37}has{\k38}sei
 Comment: 0,0:00:03.52,0:00:05.35,All,,0,0,0,karaoke,{\k27}jo{\k29}u{\k26}ho{\k14}u {\k38}shuu{\k49}shuu
 Comment: 0,0:00:05.63,0:00:07.41,All,,0,0,0,karaoke,{\k31}ge{\k23}n{\k26}ba {\k24}he {\k39}kyuu{\k35}kou
@@ -102,7 +101,6 @@ Comment: 0,0:02:50.62,0:02:52.43,All,,0,0,0,karaoke,{\k40}PEACE {\k56}AND {\k49}
 Comment: 0,0:02:52.69,0:02:54.42,Kirino,,0,0,0,karaoke,{\k27}kyo{\k27}u {\k24}mo {\k20}a{\k33}shi{\k13}ta {\k29}mo
 Comment: 0,0:02:54.79,0:02:57.20,Fubuki,,0,0,0,karaoke,{\k31}he{\k20}i{\k33}wa {\k20}wo {\k25}ma{\k19}mo{\k32}ru {\k29}ta{\k32}me
 Comment: 0,0:02:58.87,0:03:03.21,Kanna,,0,0,0,karaoke,{\k36}shi{\k26}go{\k26}to {\k25}ni {\k52}ha{\k50}ge{\kf219}mou
-Dialogue: 0,0:00:00.00,0:00:03.47,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HD68CA0&}Kirino{\c} | {\c&H259CFC&}Kanna{\c} | {\c&HFFA865&}Fubuki
 Dialogue: 0,0:00:00.55,0:00:03.47,All,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ji{\k27}ke{\k24}n {\k29}ga {\k37}has{\k38}sei
 Dialogue: 0,0:00:02.62,0:00:05.55,All,,0,0,0,fx,{\k90\fad(300,200)}{\k27}jo{\k29}u{\k26}ho{\k14}u {\k38}shuu{\k49}shuu
 Dialogue: 0,0:00:04.73,0:00:07.61,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ge{\k23}n{\k26}ba {\k24}he {\k39}kyuu{\k35}kou
