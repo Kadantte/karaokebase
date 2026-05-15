@@ -1,0 +1,82 @@
+﻿[Script Info]
+Title: Freesia
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dollchestra,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,10,1
+Style: Sayaka,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,10,1
+Style: Kosuzu,Arial,24,&H00FFFFFF,&H0036C0ED,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Dollchestra,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:15.00,Sayaka,,140,0,180,legend,{\k1500}{\k0}{\rSayaka}Sayaka{\r} {\2cHFFFFFF}- {\rKosuzu}Kosuzu{\r}
+Dialogue: 0,0:00:00.00,0:00:15.00,Sayaka,,140,0,180,legend,{\k1500}{\k0}{\rDollchestra}Dollchestra{\r}
+Comment: 0,0:00:19.36,0:00:22.65,Kosuzu,,0,0,0,karaoke,{\k29}i{\k44}ma {\k25}ka{\k24}ko {\k25}no {\k47}yu{\k25}me {\kf110}ga
+Comment: 0,0:00:23.23,0:00:26.72,Kosuzu,,0,0,0,karaoke,{\k28}so{\k47}ra {\k23}ta{\k24}ka{\k25}ku {\k37}ta{\k37}da{\k21}yo{\kf107}u
+Comment: 0,0:00:27.10,0:00:30.74,Kosuzu,,0,0,0,karaoke,{\k26}ma{\k47}ta {\k25}ha{\k26}ra{\k23}ha{\k47}ra {\k26}to {\k26}ma{\k22}i {\k21}tsu{\k25}chi {\k50}ni
+Comment: 0,0:00:30.97,0:00:34.68,Kosuzu,,0,0,0,karaoke,{\k26}ma{\k120}zat{\k70}te{\kf155}ku
+Comment: 0,0:00:34.85,0:00:39.72,Sayaka,,0,0,0,karaoke,{\k48}hi{\kf145}tots' {\k26}fu{\k120}tats' {\k48}to{\k48}ke{\k52}ta
+Comment: 0,0:00:39.95,0:00:42.44,Sayaka,,0,0,0,karaoke,{\k23}so{\k72}no {\k24}ka{\k49}ke{\k23}ra {\k58}wa
+Comment: 0,0:00:42.82,0:00:50.69,Sayaka,,0,0,0,karaoke,{\k25}ho{\k122}ra {\k46}tsu{\k26}gi {\k24}no {\k23}yu{\k25}me {\k100}no {\k24}ka{\k48}te {\k47}ni {\k48}ka{\k50}wa{\kf179}ru
+Comment: 0,0:00:51.30,0:00:55.16,Dollchestra,,0,0,0,karaoke,{\k50}F{\k67}REE{\k29}SI{\k69}A {\k27}ka{\k23}ze {\k26}a{\k24}bi{\k71}te
+Comment: 0,0:00:55.16,0:00:59.60,Dollchestra,,0,0,0,karaoke,{\k50}me{\k45}bu{\k26}i{\k97}ta {\k27}chi{\k23}i{\k24}sa{\k22}na {\k26}yu{\kf104}me
+Comment: 0,0:01:00.00,0:01:06.78,Kosuzu,,0,0,0,karaoke,{\k25}i{\k24}ki{\k73}ta {\k25}a{\k46}ka{\k26}shi {\k95}wo {\k24}a{\k50}shi{\k24}a{\k26}to {\k71}wo {\k24}no{\k49}kos' {\k25}da{\k71}rou
+Comment: 0,0:01:07.01,0:01:10.48,Dollchestra,,0,0,0,karaoke,{\k26}F{\k69}REE{\k30}SI{\k70}A {\k25}ta{\k20}da {\k29}a{\k22}su {\k56}he
+Comment: 0,0:01:10.66,0:01:14.99,Dollchestra,,0,0,0,karaoke,{\k47}mi{\k49}gat{\k25}te {\k96}na {\k24}i{\k26}no{\k22}ri {\k28}ko{\k22}me{\kf94}te
+Comment: 0,0:01:15.27,0:01:19.15,Kosuzu,,0,0,0,karaoke,{\k23}so{\k49}u {\k21}bo{\k28}ku{\k21}ra {\k51}no {\k23}ma{\k24}i{\k47}ta {\k25}hi{\k26}bi {\k50}ga
+Comment: 0,0:01:19.36,0:01:25.85,Sayaka,,0,0,0,karaoke,{\k17}mi{\k13}no{\k19}ru {\k72}you {\k72}ni {\k15}hi{\k19}ka{\k15}ri{\k78}mas' {\kf115}you {\kf214}ni
+Comment: 0,0:01:34.87,0:01:38.32,Sayaka,,0,0,0,karaoke,{\k23}i{\k47}ma {\k26}jo{\k22}u{\k27}ro {\k37}no {\k34}na{\kf129}ka
+Comment: 0,0:01:38.72,0:01:42.26,Sayaka,,0,0,0,karaoke,{\k27}ko {\k46}wo {\k23}e{\k24}ga{\k25}ku {\k37}ko{\k38}to {\k22}no {\kf112}ha
+Comment: 0,0:01:42.59,0:01:46.10,Sayaka,,0,0,0,karaoke,{\k25}ma{\k47}da {\k27}yu{\k24}ra{\k21}yu{\k50}ra {\k24}to {\k22}yu{\k26}ki{\k23}sa{\k26}ki {\k36}wo
+Comment: 0,0:01:46.48,0:01:50.02,Sayaka,,0,0,0,karaoke,{\k23}sa{\kf120}gash'{\k74}te{\kf137}ru
+Comment: 0,0:01:50.54,0:01:56.02,Dollchestra,,0,0,0,karaoke,{\k26}na{\k51}mi{\k49}da {\k46}no {\k47}a{\k74}me {\k29}fu{\k61}ru {\k32}hi {\kf133}wa
+Comment: 0,0:01:56.37,0:02:04.61,Dollchestra,,0,0,0,karaoke,{\k26}i{\k47}tsu{\k51}ka {\k44}no {\k49}yu{\k74}me {\k26}hi{\k47}roi {\k23}a{\k24}ge{\kf112}te{\k33} {\k49}sot{\kf219}to
+Comment: 0,0:02:17.90,0:02:20.32,Kosuzu,,0,0,0,karaoke,{\k100}dan{\k92}dan {\k50}to
+Comment: 0,0:02:20.59,0:02:25.16,Kosuzu,,0,0,0,karaoke,{\k24}mi{\k47}chi{\k24}te {\k25}yu{\k69}ku {\k27}hi {\k72}no {\k23}hi{\k51}ka{\k24}ri {\k71}yo
+Comment: 0,0:02:25.40,0:02:33.38,Dollchestra,,0,0,0,karaoke,{\k26}mi{\kf119}rai {\k52}hen{\k23}ka {\k23}no {\k21}sa{\k27}ki {\k99}wo {\k22}mi{\k48}te {\k50}i{\k46}te {\k45}ho{\kf197}shii
+Comment: 0,0:02:33.86,0:02:37.50,Dollchestra,,0,0,0,karaoke,{\k50}F{\k67}REE{\k29}SI{\k69}A {\k27}ka{\k23}ze {\k26}a{\k24}bi{\k71}te
+Comment: 0,0:02:37.73,0:02:42.28,Dollchestra,,0,0,0,karaoke,{\k50}me{\k45}bu{\k26}i{\k97}ta {\k27}chi{\k23}i{\k24}sa{\k22}na {\k26}yu{\kf104}me
+Comment: 0,0:02:42.61,0:02:49.38,Sayaka,,0,0,0,karaoke,{\k25}i{\k24}ki{\k73}ta {\k25}a{\k46}ka{\k26}shi {\k95}wo {\k24}a{\k50}shi{\k24}a{\k26}to {\k71}wo {\k24}no{\k49}kos' {\k25}da{\k71}rou
+Comment: 0,0:02:49.58,0:02:53.01,Dollchestra,,0,0,0,karaoke,{\k26}F{\k69}REE{\k30}SI{\k70}A {\k25}ta{\k20}da {\k29}a{\k25}su {\k49}he
+Comment: 0,0:02:53.25,0:02:57.64,Dollchestra,,0,0,0,karaoke,{\k47}mi{\k49}gat{\k25}te {\k96}na {\k24}i{\k26}no{\k22}ri {\k28}ko{\k21}me{\kf101}te
+Comment: 0,0:02:57.85,0:03:01.75,Sayaka,,0,0,0,karaoke,{\k23}so{\k49}u {\k21}bo{\k28}ku{\k23}ra {\k49}no {\k23}shi{\k24}ra{\k47}nai {\k25}yu{\k25}me {\k53}ga
+Comment: 0,0:03:01.95,0:03:05.63,Kosuzu,,0,0,0,karaoke,{\k16}sa{\k18}ku {\k13}se{\k75}kai {\k73}ni {\k15}to{\k14}do{\k17}ku {\k73}you {\k54}ni
+Comment: 0,0:03:05.82,0:03:16.21,Dollchestra,,0,0,0,karaoke,{\k17}so{\k14}no {\k16}se{\k73}kai {\k74}de {\k16}hi{\k16}ka{\k15}ri{\k72}mas' {\kf281}you{\k34} {\kf411}ni
+Dialogue: 0,0:00:18.46,0:00:22.85,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k29}i{\k44}ma {\k25}ka{\k24}ko {\k25}no {\k47}yu{\k25}me {\kf110}ga
+Dialogue: 0,0:00:22.33,0:00:26.92,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k28}so{\k47}ra {\k23}ta{\k24}ka{\k25}ku {\k37}ta{\k37}da{\k21}yo{\kf107}u
+Dialogue: 0,0:00:26.20,0:00:30.94,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ma{\k47}ta {\k25}ha{\k26}ra{\k23}ha{\k47}ra {\k26}to {\k26}ma{\k22}i {\k21}tsu{\k25}chi {\k50}ni
+Dialogue: 0,0:00:30.07,0:00:34.88,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ma{\k120}zat{\k70}te{\kf155}ku
+Dialogue: 0,0:00:33.95,0:00:39.92,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k48}hi{\kf145}tots' {\k26}fu{\k120}tats' {\k48}to{\k48}ke{\k52}ta
+Dialogue: 0,0:00:39.05,0:00:42.64,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k23}so{\k72}no {\k24}ka{\k49}ke{\k23}ra {\k58}wa
+Dialogue: 0,0:00:41.92,0:00:50.89,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ho{\k122}ra {\k46}tsu{\k26}gi {\k24}no {\k23}yu{\k25}me {\k100}no {\k24}ka{\k48}te {\k47}ni {\k48}ka{\k50}wa{\kf179}ru
+Dialogue: 0,0:00:50.40,0:00:55.36,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k50}F{\k67}REE{\k29}SI{\k69}A {\k27}ka{\k23}ze {\k26}a{\k24}bi{\k71}te
+Dialogue: 0,0:00:54.26,0:00:59.80,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k50}me{\k45}bu{\k26}i{\k97}ta {\k27}chi{\k23}i{\k24}sa{\k22}na {\k26}yu{\kf104}me
+Dialogue: 0,0:00:59.10,0:01:06.98,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k25}i{\k24}ki{\k73}ta {\k25}a{\k46}ka{\k26}shi {\k95}wo {\k24}a{\k50}shi{\k24}a{\k26}to {\k71}wo {\k24}no{\k49}kos' {\k25}da{\k71}rou
+Dialogue: 0,0:01:06.11,0:01:10.68,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k26}F{\k69}REE{\k30}SI{\k70}A {\k25}ta{\k20}da {\k29}a{\k22}su {\k56}he
+Dialogue: 0,0:01:09.76,0:01:15.19,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k47}mi{\k49}gat{\k25}te {\k96}na {\k24}i{\k26}no{\k22}ri {\k28}ko{\k22}me{\kf94}te
+Dialogue: 0,0:01:14.37,0:01:19.35,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k23}so{\k49}u {\k21}bo{\k28}ku{\k21}ra {\k51}no {\k23}ma{\k24}i{\k47}ta {\k25}hi{\k26}bi {\k50}ga
+Dialogue: 0,0:01:18.46,0:01:26.05,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k17}mi{\k13}no{\k19}ru {\k72}you {\k72}ni {\k15}hi{\k19}ka{\k15}ri{\k78}mas' {\kf115}you {\kf214}ni
+Dialogue: 0,0:01:33.97,0:01:38.52,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k23}i{\k47}ma {\k26}jo{\k22}u{\k27}ro {\k37}no {\k34}na{\kf129}ka
+Dialogue: 0,0:01:37.82,0:01:42.46,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ko {\k46}wo {\k23}e{\k24}ga{\k25}ku {\k37}ko{\k38}to {\k22}no {\kf112}ha
+Dialogue: 0,0:01:41.69,0:01:46.30,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ma{\k47}da {\k27}yu{\k24}ra{\k21}yu{\k50}ra {\k24}to {\k22}yu{\k26}ki{\k23}sa{\k26}ki {\k36}wo
+Dialogue: 0,0:01:45.58,0:01:50.22,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k23}sa{\kf120}gash'{\k74}te{\kf137}ru
+Dialogue: 0,0:01:49.64,0:01:56.22,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k26}na{\k51}mi{\k49}da {\k46}no {\k47}a{\k74}me {\k29}fu{\k61}ru {\k32}hi {\kf133}wa
+Dialogue: 0,0:01:55.47,0:02:04.81,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k26}i{\k47}tsu{\k51}ka {\k44}no {\k49}yu{\k74}me {\k26}hi{\k47}roi {\k23}a{\k24}ge{\kf112}te{\k33} {\k49}sot{\kf219}to
+Dialogue: 0,0:02:17.00,0:02:20.52,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k100}dan{\k92}dan {\k50}to
+Dialogue: 0,0:02:19.69,0:02:25.36,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k24}mi{\k47}chi{\k24}te {\k25}yu{\k69}ku {\k27}hi {\k72}no {\k23}hi{\k51}ka{\k24}ri {\k71}yo
+Dialogue: 0,0:02:24.50,0:02:33.58,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k26}mi{\kf119}rai {\k52}hen{\k23}ka {\k23}no {\k21}sa{\k27}ki {\k99}wo {\k22}mi{\k48}te {\k50}i{\k46}te {\k45}ho{\kf197}shii
+Dialogue: 0,0:02:32.96,0:02:37.70,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k50}F{\k67}REE{\k29}SI{\k69}A {\k27}ka{\k23}ze {\k26}a{\k24}bi{\k71}te
+Dialogue: 0,0:02:36.83,0:02:42.48,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k50}me{\k45}bu{\k26}i{\k97}ta {\k27}chi{\k23}i{\k24}sa{\k22}na {\k26}yu{\kf104}me
+Dialogue: 0,0:02:41.71,0:02:49.58,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k25}i{\k24}ki{\k73}ta {\k25}a{\k46}ka{\k26}shi {\k95}wo {\k24}a{\k50}shi{\k24}a{\k26}to {\k71}wo {\k24}no{\k49}kos' {\k25}da{\k71}rou
+Dialogue: 0,0:02:48.68,0:02:53.21,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k26}F{\k69}REE{\k30}SI{\k70}A {\k25}ta{\k20}da {\k29}a{\k25}su {\k49}he
+Dialogue: 0,0:02:52.35,0:02:57.84,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k47}mi{\k49}gat{\k25}te {\k96}na {\k24}i{\k26}no{\k22}ri {\k28}ko{\k21}me{\kf101}te
+Dialogue: 0,0:02:56.95,0:03:01.95,Sayaka,,0,0,0,fx,{\k90\fad(300,200)}{\k23}so{\k49}u {\k21}bo{\k28}ku{\k23}ra {\k49}no {\k23}shi{\k24}ra{\k47}nai {\k25}yu{\k25}me {\k53}ga
+Dialogue: 0,0:03:01.05,0:03:05.83,Kosuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k16}sa{\k18}ku {\k13}se{\k75}kai {\k73}ni {\k15}to{\k14}do{\k17}ku {\k73}you {\k54}ni
+Dialogue: 0,0:03:04.92,0:03:16.41,Dollchestra,,0,0,0,fx,{\k90\fad(300,200)}{\k17}so{\k14}no {\k16}se{\k73}kai {\k74}de {\k16}hi{\k16}ka{\k15}ri{\k72}mas' {\kf281}you{\k34} {\kf411}ni
