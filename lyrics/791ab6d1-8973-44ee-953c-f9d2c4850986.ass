@@ -1,0 +1,83 @@
+﻿[Script Info]
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Original Timing: yohane 2026.4.4 (https://github.com/Japan7/yohane)
+ScriptType: v4.00+
+PlayResX: 0
+PlayResY: 0
+Title: Bon Bon Voyage!
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: elza,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: kirara,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: choir,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: elza&kirara,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,elza&kirara,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.95,0:00:01.62,elza,,0,0,0,karaoke,{\k16}BON {\k18}VO{\k33}YAGE!
+Comment: 0,0:00:01.60,0:00:04.30,elza,,0,0,0,karaoke,{\k26}so{\k25}ra {\k12}to {\k34}u{\k24}mi {\k21}to {\k14}ga {\k26}ka{\k29}sa{\k30}na{\k29}ru
+Comment: 0,0:00:04.63,0:00:15.06,kirara,,0,0,0,karaoke,{\k19}so{\k12}no {\k10}B{\k34}LUE {\k26}ki{\k24}ri{\k10}hi{\k35}ra{\k23}i{\k22}te {\k21}ka{\k25}ze {\k29}ki{\k22}t{\kf731}te
+Comment: 0,0:00:15.25,0:00:19.23,elza,,0,0,0,karaoke,{\k9}T{\k34}RUN{\k28}K {\k22}ip{\k15}pa{\k32}i {\k23}ni {\k24}yu{\k39}me {\k31}tsu{\k21}me{\k26}ko{\k22}n{\k24}da {\k25}na{\k23}ra
+Comment: 0,0:00:19.46,0:00:21.06,elza,,0,0,0,karaoke,{\k21}mi{\k24}chi {\k10}na{\k39}ki {\k19}mi{\k29}chi {\k18}he!
+Comment: 0,0:00:21.58,0:00:22.76,choir,,0,0,0,karaoke,{\k46}BON {\k41}VO{\k31}YAGE!
+Comment: 0,0:00:22.74,0:00:24.81,kirara,,0,0,0,karaoke,{\k10}ki{\k38}bo {\k21}wo {\k25}sa{\k12}su {\k57}COM{\k24}PAS{\k20}S
+Comment: 0,0:00:25.03,0:00:28.60,kirara,,0,0,0,karaoke,{\k30}sa{\k22}n{\k21}bya{\k26}ku {\k21}ryo{\k25}ku{\k23}ju{\k25}u{\k45}do {\k26}gu{\k46}ru{\k23}gu{\k24}ru
+Comment: 0,0:00:29.77,0:00:36.20,elza,,0,0,0,karaoke,{\k25}su{\k22}be{\k12}te {\kf154}no{\k18} {\k14}ka{\k36}nou{\k26}se{\k22}i {\k15}ga {\k34}fu{\k22}ne {\k20}wo {\k19}yo{\kf204}bu
+Comment: 0,0:00:30.73,0:00:31.89,choir,,0,0,0,karaoke,{\k23}su{\k22}be{\k21}te {\k50}no
+Comment: 0,0:00:34.15,0:00:36.20,choir,,0,0,0,karaoke,{\k32}fu{\k24}ne {\k22}wo {\k24}yo{\kf103}bu
+Comment: 0,0:00:37.26,0:00:42.97,kirara,,0,0,0,karaoke,{\k27}a{\k21}i {\k12}ni {\k16}yu{\k20}ko{\kf128}u{\k9} {\k15}to{\k35}ki{\k24}me{\k23}ki {\k14}ni {\k31}a{\k26}i {\k21}ni {\k15}yu{\kf134}kou
+Comment: 0,0:00:38.31,0:00:39.50,choir,,0,0,0,karaoke,{\k14}ai {\k34}ni {\k25}yu{\k14}ko{\k32}u
+Comment: 0,0:00:41.97,0:00:42.97,choir,,0,0,0,karaoke,{\k23}ai {\k24}ni {\k22}yu{\k31}kou
+Comment: 0,0:00:43.28,0:00:49.17,elza,,0,0,0,karaoke,{\k21}su{\k34}i{\k23}he{\k17}i{\k29}se{\k25}n {\k47}ga {\k12}ki{\k36}ra{\k24}ri {\k21}to {\k12}hi{\k37}kat{\kf251}ta
+Comment: 0,0:00:46.42,0:00:49.17,choir,,0,0,0,karaoke,{\k24}ki{\k13}ra{\k23}ri {\k23}to {\k12}hi{\k23}kat{\kf157}ta
+Comment: 0,0:00:49.48,0:00:50.90,kirara,,0,0,0,karaoke,{\k26}do{\k21}ki{\k27}do{\k13}ki {\k22}SU{\k33}RROUND
+Comment: 0,0:00:51.03,0:00:52.12,elza&kirara,,0,0,0,karaoke,{\k55}SAY {\k21}BON {\k13}VO{\k20}YAGE!
+Comment: 0,0:00:52.26,0:00:54.86,elza&kirara,,0,0,0,karaoke,{\k26}so{\k25}ra {\k21}to {\k25}u{\k23}mi {\k20}to {\k17}ga {\k32}ka{\k24}sa{\k25}na{\k22}ru
+Comment: 0,0:00:54.86,0:00:55.23,choir,,0,0,0,karaoke,{\k37}LINE
+Comment: 0,0:00:55.23,0:00:58.55,elza&kirara,,0,0,0,karaoke,{\k20}so{\k13}no {\k8}B{\k35}LUE {\k27}ki{\k23}ri{\k19}hi{\k29}ra{\k22}i{\k22}te {\k23}ka{\k23}ze {\k27}ki{\k22}t{\k19}te
+Comment: 0,0:00:58.53,0:00:58.89,choir,,0,0,0,karaoke,{\k36}saa
+Comment: 0,0:00:59.00,0:01:02.36,elza&kirara,,0,0,0,karaoke,{\k27}se{\k16}ka{\k32}i {\k24}wa {\k38}don{\k36}na {\k21}ni {\k15}mo {\k16}u{\k39}tsu{\k23}ku{\k24}shi{\k25}ku
+Comment: 0,0:01:02.58,0:01:05.11,elza&kirara,,0,0,0,karaoke,{\k23}a{\k25}ta{\k23}ra{\k24}shi{\k21}i {\k25}ka{\kf112}na
+Comment: 0,0:01:05.42,0:01:07.87,elza,,0,0,0,karaoke,{\k22}BO{\k22}N {\k13}VO{\kf188}YAGE!
+Comment: 0,0:01:09.15,0:01:11.63,kirara,,0,0,0,karaoke,{\k23}mi{\k23}ra{\k14}i {\kf188}he
+Comment: 0,0:01:10.11,0:01:11.63,choir,,0,0,0,karaoke,{\k23}mi{\k21}ra{\k18}i {\k90}he
+Comment: 0,0:01:12.90,0:01:15.47,elza,,0,0,0,karaoke,{\k22}ta{\k23}bi {\k16}no {\k20}to{\k13}chu{\kf114}u
+Comment: 0,0:01:13.84,0:01:15.47,choir,,0,0,0,karaoke,{\k25}ta{\k23}bi {\k10}no {\k26}to{\k15}chu{\k64}u
+Comment: 0,0:01:16.66,0:01:19.12,kirara,,0,0,0,karaoke,{\k21}mi{\k26}ra{\k11}i {\kf188}he
+Comment: 0,0:01:17.61,0:01:19.12,choir,,0,0,0,karaoke,{\k23}mi{\k24}ra{\k22}i {\k82}he
+Comment: 0,0:01:22.27,0:01:24.92,elza&kirara,,0,0,0,karaoke,{\k24}BO{\k22}N {\k14}VO{\kf205}YAGE!
+Dialogue: 0,0:00:00.05,0:00:01.82,elza,,0,0,0,fx,{\k90\fad(300,200)}{\k16}BON {\k18}VO{\k33}YAGE!
+Dialogue: 0,0:00:00.70,0:00:04.50,elza,,0,0,0,fx,{\k90\fad(300,200)}{\k26}so{\k25}ra {\k12}to {\k34}u{\k24}mi {\k21}to {\k14}ga {\k26}ka{\k29}sa{\k30}na{\k29}ru
+Dialogue: 0,0:00:03.73,0:00:15.26,kirara,,0,0,0,fx,{\k90\fad(300,200)}{\k19}so{\k12}no {\k10}B{\k34}LUE {\k26}ki{\k24}ri{\k10}hi{\k35}ra{\k23}i{\k22}te {\k21}ka{\k25}ze {\k29}ki{\k22}t{\kf731}te
+Dialogue: 0,0:00:14.35,0:00:19.43,elza,,0,0,0,fx,{\k90\fad(300,200)}{\k9}T{\k34}RUN{\k28}K {\k22}ip{\k15}pa{\k32}i {\k23}ni {\k24}yu{\k39}me {\k31}tsu{\k21}me{\k26}ko{\k22}n{\k24}da {\k25}na{\k23}ra
+Dialogue: 0,0:00:18.56,0:00:21.26,elza,,0,0,0,fx,{\k90\fad(300,200)}{\k21}mi{\k24}chi {\k10}na{\k39}ki {\k19}mi{\k29}chi {\k18}he!
+Dialogue: 0,0:00:20.68,0:00:22.96,choir,,0,0,0,fx,{\k90\fad(300,200)}{\k46}BON {\k41}VO{\k31}YAGE!
+Dialogue: 0,0:00:21.84,0:00:25.01,kirara,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ki{\k38}bo {\k21}wo {\k25}sa{\k12}su {\k57}COM{\k24}PAS{\k20}S
+Dialogue: 0,0:00:24.13,0:00:28.80,kirara,,0,0,0,fx,{\k90\fad(300,200)}{\k30}sa{\k22}n{\k21}bya{\k26}ku {\k21}ryo{\k25}ku{\k23}ju{\k25}u{\k45}do {\k26}gu{\k46}ru{\k23}gu{\k24}ru
+Dialogue: 0,0:00:28.87,0:00:36.40,elza,,0,0,0,fx,{\k90\fad(300,200)}{\k25}su{\k22}be{\k12}te {\kf154}no{\k18} {\k14}ka{\k36}nou{\k26}se{\k22}i {\k15}ga {\k34}fu{\k22}ne {\k20}wo {\k19}yo{\kf204}bu
+Dialogue: 0,0:00:29.83,0:00:32.09,choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}su{\k22}be{\k21}te {\k50}no
+Dialogue: 0,0:00:33.25,0:00:36.40,choir,,0,0,0,fx,{\k90\fad(300,200)}{\k32}fu{\k24}ne {\k22}wo {\k24}yo{\kf103}bu
+Dialogue: 0,0:00:36.36,0:00:43.17,kirara,,0,0,0,fx,{\k90\fad(300,200)}{\k27}a{\k21}i {\k12}ni {\k16}yu{\k20}ko{\kf128}u{\k9} {\k15}to{\k35}ki{\k24}me{\k23}ki {\k14}ni {\k31}a{\k26}i {\k21}ni {\k15}yu{\kf134}kou
+Dialogue: 0,0:00:37.41,0:00:39.70,choir,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ai {\k34}ni {\k25}yu{\k14}ko{\k32}u
+Dialogue: 0,0:00:41.07,0:00:43.17,choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ai {\k24}ni {\k22}yu{\k31}kou
+Dialogue: 0,0:00:42.38,0:00:49.37,elza,,0,0,0,fx,{\k90\fad(300,200)}{\k21}su{\k34}i{\k23}he{\k17}i{\k29}se{\k25}n {\k47}ga {\k12}ki{\k36}ra{\k24}ri {\k21}to {\k12}hi{\k37}kat{\kf251}ta
+Dialogue: 0,0:00:45.52,0:00:49.37,choir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ki{\k13}ra{\k23}ri {\k23}to {\k12}hi{\k23}kat{\kf157}ta
+Dialogue: 0,0:00:48.58,0:00:51.10,kirara,,0,0,0,fx,{\k90\fad(300,200)}{\k26}do{\k21}ki{\k27}do{\k13}ki {\k22}SU{\k33}RROUND
+Dialogue: 0,0:00:50.13,0:00:52.32,elza&kirara,,0,0,0,fx,{\k90\fad(300,200)}{\k55}SAY {\k21}BON {\k13}VO{\k20}YAGE!
+Dialogue: 0,0:00:51.36,0:00:55.06,elza&kirara,,0,0,0,fx,{\k90\fad(300,200)}{\k26}so{\k25}ra {\k21}to {\k25}u{\k23}mi {\k20}to {\k17}ga {\k32}ka{\k24}sa{\k25}na{\k22}ru
+Dialogue: 0,0:00:53.96,0:00:55.43,choir,,0,0,0,fx,{\k90\fad(300,200)}{\k37}LINE
+Dialogue: 0,0:00:54.33,0:00:58.75,elza&kirara,,0,0,0,fx,{\k90\fad(300,200)}{\k20}so{\k13}no {\k8}B{\k35}LUE {\k27}ki{\k23}ri{\k19}hi{\k29}ra{\k22}i{\k22}te {\k23}ka{\k23}ze {\k27}ki{\k22}t{\k19}te
+Dialogue: 0,0:00:57.63,0:00:59.09,choir,,0,0,0,fx,{\k90\fad(300,200)}{\k36}saa
+Dialogue: 0,0:00:58.10,0:01:02.56,elza&kirara,,0,0,0,fx,{\k90\fad(300,200)}{\k27}se{\k16}ka{\k32}i {\k24}wa {\k38}don{\k36}na {\k21}ni {\k15}mo {\k16}u{\k39}tsu{\k23}ku{\k24}shi{\k25}ku
+Dialogue: 0,0:01:01.68,0:01:05.31,elza&kirara,,0,0,0,fx,{\k90\fad(300,200)}{\k23}a{\k25}ta{\k23}ra{\k24}shi{\k21}i {\k25}ka{\kf112}na
+Dialogue: 0,0:01:04.52,0:01:08.07,elza,,0,0,0,fx,{\k90\fad(300,200)}{\k22}BO{\k22}N {\k13}VO{\kf188}YAGE!
+Dialogue: 0,0:01:08.25,0:01:11.83,kirara,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mi{\k23}ra{\k14}i {\kf188}he
+Dialogue: 0,0:01:09.21,0:01:11.83,choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mi{\k21}ra{\k18}i {\k90}he
+Dialogue: 0,0:01:12.00,0:01:15.67,elza,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ta{\k23}bi {\k16}no {\k20}to{\k13}chu{\kf114}u
+Dialogue: 0,0:01:12.94,0:01:15.67,choir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ta{\k23}bi {\k10}no {\k26}to{\k15}chu{\k64}u
+Dialogue: 0,0:01:15.76,0:01:19.32,kirara,,0,0,0,fx,{\k90\fad(300,200)}{\k21}mi{\k26}ra{\k11}i {\kf188}he
+Dialogue: 0,0:01:16.71,0:01:19.32,choir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mi{\k24}ra{\k22}i {\k82}he
+Dialogue: 0,0:01:21.37,0:01:25.12,elza&kirara,,0,0,0,fx,{\k90\fad(300,200)}{\k24}BO{\k22}N {\k14}VO{\kf205}YAGE!
