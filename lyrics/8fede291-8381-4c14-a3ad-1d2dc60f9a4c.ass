@@ -1,0 +1,98 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Run Around
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:12.12,0:00:13.20,Sample KM [Up],,0,0,0,karaoke,{\k46}Things{\k20} {\k42}are
+Comment: 0,0:00:13.48,0:00:16.26,Sample KM [Up],,0,0,0,karaoke,{\k36}Star{\k35}ting {\k42}to {\k26}ac{\k11}ce{\k13}le{\k15}rate {\k16}in{\k19}to {\k17}some{\k17}thing {\k16}ne{\k15}ver
+Comment: 0,0:00:16.31,0:00:18.23,Sample KM [Up],,0,0,0,karaoke,{\k19}Stop{\k18}ping {\k17}al{\k20}ways {\k16}trou{\k15}bled {\k37}but {\k50}now
+Comment: 0,0:00:18.47,0:00:21.53,Sample KM [Up],,0,0,0,karaoke,{\k46}I{\k23} {\k36}think {\k34}I'm {\k35}get{\k32}ting {\k18}diz{\k18}zy {\k20}too {\k20}much {\k14}spin{\k10}ning
+Comment: 0,0:00:21.63,0:00:23.50,Sample KM [Up],,0,0,0,karaoke,{\k17}Pace {\k18}my {\k16}pa{\k19}tience {\k18}line {\k17}is {\k11}thic{\k8}ke{\k16}ning, {\k10}quic{\k9}ke{\k28}ning
+Comment: 0,0:00:23.74,0:00:28.97,Sample KM [Up],,0,0,0,karaoke,{\k33}It's {\k37}get{\k34}ting{\k33} {\k37}too {\k31}in{\k38}sane,{\k27} {\k42}I'm {\k36}try{\k34}ing{\k32} {\k40}to {\k35}main{\k34}tain
+Comment: 0,0:00:29.04,0:00:33.22,Sample KM [Up],,0,0,0,karaoke,{\k32}Woah,{\k18} {\k50}woah, {\k36}woah, {\k36}woah,{\k19} {\k49}woah, {\k38}woah, {\kf140}woah
+Comment: 0,0:00:34.97,0:00:37.51,Sample KM [Up],,0,0,0,karaoke,{\k36}You {\k20}run {\k16}a{\k41}round,{\k25} {\k38}I {\k22}run {\k17}a{\k39}round
+Comment: 0,0:00:37.85,0:00:40.41,Sample KM [Up],,0,0,0,karaoke,{\k35}We're {\k32}all {\k18}gon{\k19}na {\k36}run, {\k38}run, {\k18}run {\k16}a{\k44}round
+Comment: 0,0:00:40.68,0:00:43.21,Sample KM [Up],,0,0,0,karaoke,{\k31}You {\k22}run {\k18}a{\k36}round,{\k27} {\k36}I {\k16}run {\k24}a{\k43}round
+Comment: 0,0:00:43.51,0:00:46.05,Sample KM [Up],,0,0,0,karaoke,{\k32}We {\k35}all {\k21}do {\k18}a {\k33}run, {\k38}run, {\k17}run {\k17}a{\k43}round
+Comment: 0,0:00:46.10,0:00:48.71,Sample KM [Up],,0,0,0,karaoke,{\k26}It{\k34} {\k42}is{\k29} {\k34}get{\k33}ting {\k39}clo{\k24}ser
+Comment: 0,0:00:48.79,0:00:50.17,Sample KM [Up],,0,0,0,karaoke,{\k36}More {\k36}tense {\k15}e{\k19}ver {\k14}spin{\k18}ning
+Comment: 0,0:00:50.17,0:00:51.58,Sample KM [Up],,0,0,0,karaoke,{\k19}Twis{\k16}ting, {\k20}tur{\k16}ning {\k17}rol{\k18}ler {\k19}coas{\k16}ter
+Comment: 0,0:00:51.63,0:00:54.44,Sample KM [Up],,0,0,0,karaoke,{\k49}Inch{\k20} {\k46}by{\k23} {\k37}inch {\k33}the {\k37}gap {\k36}is
+Comment: 0,0:00:54.44,0:00:55.82,Sample KM [Up],,0,0,0,karaoke,{\k18}Clo{\k17}sing {\k16}pres{\k20}sure, {\k15}buil{\k17}ding {\k10}tem{\k9}pera{\k16}ture
+Comment: 0,0:00:55.82,0:00:57.45,Sample KM [Up],,0,0,0,karaoke,{\k20}Ri{\k27}sing{\k26} {\k19}hot{\k9}ter {\k10}and {\k21}hot{\k31}ter
+Comment: 0,0:00:57.62,0:01:02.84,Sample KM [Up],,0,0,0,karaoke,{\k37}It's {\k34}get{\k44}ting{\k19} {\k40}too {\k36}cra{\k38}zy{\k28} {\k39}I {\k35}wish {\k41}I{\k27} {\k39}could {\k32}may{\k33}be
+Comment: 0,0:01:02.91,0:01:07.39,Sample KM [Up],,0,0,0,karaoke,{\k34}Woah,{\k17} {\k50}woah, {\k39}woah, {\k29}woah,{\k24} {\k50}woah, {\k36}woah, {\kf169}woah
+Comment: 0,0:01:10.31,0:01:11.42,Sample KM [Up],,0,0,0,karaoke,{\k34}Run, {\k34}run {\k19}ba{\k24}by
+Comment: 0,0:01:13.13,0:01:14.21,Sample KM [Up],,0,0,0,karaoke,{\k37}Run, {\k35}run {\k19}ba{\k17}by
+Comment: 0,0:01:15.98,0:01:17.09,Sample KM [Up],,0,0,0,karaoke,{\k38}Run, {\k31}run {\k18}ba{\k24}by
+Comment: 0,0:01:18.78,0:01:19.86,Sample KM [Up],,0,0,0,karaoke,{\k38}Run, {\k33}run {\k19}ba{\k18}by
+Comment: 0,0:01:21.60,0:01:22.77,Sample KM [Up],,0,0,0,karaoke,{\k33}Run, {\k37}run {\k19}ba{\k28}by
+Comment: 0,0:01:24.45,0:01:25.61,Sample KM [Up],,0,0,0,karaoke,{\k35}Run, {\k33}run {\k20}ba{\k28}by
+Comment: 0,0:01:25.85,0:01:26.93,Sample KM [Up],,0,0,0,karaoke,{\k17}Like {\k16}a {\k35}roc{\k40}ket
+Comment: 0,0:01:27.22,0:01:28.31,Sample KM [Up],,0,0,0,karaoke,{\k21}Like {\k17}a {\k31}roc{\k40}ket
+Comment: 0,0:01:28.65,0:01:29.82,Sample KM [Up],,0,0,0,karaoke,{\k16}Ne{\k19}ver {\k37}stop{\k45}ping
+Comment: 0,0:01:29.93,0:01:31.15,Sample KM [Up],,0,0,0,karaoke,{\k13}Oh, {\k13}ne{\k23}ver {\k36}stop{\k37}ping
+Comment: 0,0:01:37.15,0:01:39.66,Sample KM [Up],,0,0,0,karaoke,{\k36}You {\k20}run {\k16}a{\k41}round,{\k25} {\k38}I {\k18}run {\k15}a{\k42}round
+Comment: 0,0:01:39.96,0:01:42.63,Sample KM [Up],,0,0,0,karaoke,{\k39}We're {\k32}all {\k18}gon{\k19}na {\k36}run, {\k38}run, {\k18}run {\k16}a{\k51}round
+Comment: 0,0:01:42.83,0:01:45.46,Sample KM [Up],,0,0,0,karaoke,{\k36}You {\k20}run {\k16}a{\k41}round,{\k25} {\k38}I {\k16}run {\k23}a{\k48}round
+Comment: 0,0:01:45.64,0:01:48.28,Sample KM [Up],,0,0,0,karaoke,{\k35}We're {\k37}all {\k18}do {\k19}a {\k36}run, {\k32}run, {\k18}run {\k16}a{\k53}round
+Comment: 0,0:01:48.11,0:01:51.53,Sample KM [Choir],,0,0,0,karaoke,{\kf136}You {\k76}run {\k67}a{\k63}round
+Comment: 0,0:01:48.48,0:01:50.93,Sample KM [Up],,0,0,0,karaoke,{\k36}You {\k20}run {\k16}a{\k41}round,{\k25} {\k38}I {\k22}run {\k17}a{\k30}round
+Comment: 0,0:01:51.27,0:01:53.73,Sample KM [Up],,0,0,0,karaoke,{\k35}We're {\k34}all {\k18}gon{\k19}na {\k36}run, {\k38}run, {\k18}run {\k16}a{\k32}round
+Comment: 0,0:01:53.73,0:01:57.11,Sample KM [Choir],,0,0,0,karaoke,{\kf142}You {\k77}run {\k65}a{\k54}round
+Comment: 0,0:01:54.10,0:01:56.70,Sample KM [Up],,0,0,0,karaoke,{\k36}You {\k20}run {\k16}a{\k41}round,{\k27} {\k38}I {\k22}run {\k17}a{\k43}round
+Comment: 0,0:01:57.00,0:01:59.59,Sample KM [Up],,0,0,0,karaoke,{\k28}We're {\k35}all {\k18}do {\k19}a {\k36}run, {\k34}run, {\k18}run {\k16}a{\k55}round
+Dialogue: 0,0:00:11.22,0:00:13.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Things{\k20} {\k42}are
+Dialogue: 0,0:00:12.58,0:00:16.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Star{\k35}ting {\k42}to {\k26}ac{\k11}ce{\k13}le{\k15}rate {\k16}in{\k19}to {\k17}some{\k17}thing {\k16}ne{\k15}ver
+Dialogue: 0,0:00:15.41,0:00:18.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Stop{\k18}ping {\k17}al{\k20}ways {\k16}trou{\k15}bled {\k37}but {\k50}now
+Dialogue: 0,0:00:17.57,0:00:21.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}I{\k23} {\k36}think {\k34}I'm {\k35}get{\k32}ting {\k18}diz{\k18}zy {\k20}too {\k20}much {\k14}spin{\k10}ning
+Dialogue: 0,0:00:20.73,0:00:23.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Pace {\k18}my {\k16}pa{\k19}tience {\k18}line {\k17}is {\k11}thic{\k8}ke{\k16}ning, {\k10}quic{\k9}ke{\k28}ning
+Dialogue: 0,0:00:22.84,0:00:29.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}It's {\k37}get{\k34}ting{\k33} {\k37}too {\k31}in{\k38}sane,{\k27} {\k42}I'm {\k36}try{\k34}ing{\k32} {\k40}to {\k35}main{\k34}tain
+Dialogue: 0,0:00:28.14,0:00:33.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Woah,{\k18} {\k50}woah, {\k36}woah, {\k36}woah,{\k19} {\k49}woah, {\k38}woah, {\kf140}woah
+Dialogue: 0,0:00:34.07,0:00:37.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}You {\k20}run {\k16}a{\k41}round,{\k25} {\k38}I {\k22}run {\k17}a{\k39}round
+Dialogue: 0,0:00:36.95,0:00:40.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}We're {\k32}all {\k18}gon{\k19}na {\k36}run, {\k38}run, {\k18}run {\k16}a{\k44}round
+Dialogue: 0,0:00:39.78,0:00:43.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}You {\k22}run {\k18}a{\k36}round,{\k27} {\k36}I {\k16}run {\k24}a{\k43}round
+Dialogue: 0,0:00:42.61,0:00:46.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}We {\k35}all {\k21}do {\k18}a {\k33}run, {\k38}run, {\k17}run {\k17}a{\k43}round
+Dialogue: 0,0:00:45.20,0:00:48.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}It{\k34} {\k42}is{\k29} {\k34}get{\k33}ting {\k39}clo{\k24}ser
+Dialogue: 0,0:00:47.89,0:00:50.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}More {\k36}tense {\k15}e{\k19}ver {\k14}spin{\k18}ning
+Dialogue: 0,0:00:49.27,0:00:51.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Twis{\k16}ting, {\k20}tur{\k16}ning {\k17}rol{\k18}ler {\k19}coas{\k16}ter
+Dialogue: 0,0:00:50.73,0:00:54.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Inch{\k20} {\k46}by{\k23} {\k37}inch {\k33}the {\k37}gap {\k36}is
+Dialogue: 0,0:00:53.54,0:00:56.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Clo{\k17}sing {\k16}pres{\k20}sure, {\k15}buil{\k17}ding {\k10}tem{\k9}pera{\k16}ture
+Dialogue: 0,0:00:54.92,0:00:57.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Ri{\k27}sing{\k26} {\k19}hot{\k9}ter {\k10}and {\k21}hot{\k31}ter
+Dialogue: 0,0:00:56.72,0:01:03.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}It's {\k34}get{\k44}ting{\k19} {\k40}too {\k36}cra{\k38}zy{\k28} {\k39}I {\k35}wish {\k41}I{\k27} {\k39}could {\k32}may{\k33}be
+Dialogue: 0,0:01:02.01,0:01:07.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Woah,{\k17} {\k50}woah, {\k39}woah, {\k29}woah,{\k24} {\k50}woah, {\k36}woah, {\kf169}woah
+Dialogue: 0,0:01:09.41,0:01:11.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Run, {\k34}run {\k19}ba{\k24}by
+Dialogue: 0,0:01:12.23,0:01:14.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Run, {\k35}run {\k19}ba{\k17}by
+Dialogue: 0,0:01:15.08,0:01:17.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Run, {\k31}run {\k18}ba{\k24}by
+Dialogue: 0,0:01:17.88,0:01:20.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Run, {\k33}run {\k19}ba{\k18}by
+Dialogue: 0,0:01:20.70,0:01:22.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Run, {\k37}run {\k19}ba{\k28}by
+Dialogue: 0,0:01:23.55,0:01:25.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Run, {\k33}run {\k20}ba{\k28}by
+Dialogue: 0,0:01:24.95,0:01:27.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Like {\k16}a {\k35}roc{\k40}ket
+Dialogue: 0,0:01:26.32,0:01:28.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Like {\k17}a {\k31}roc{\k40}ket
+Dialogue: 0,0:01:27.75,0:01:30.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ne{\k19}ver {\k37}stop{\k45}ping
+Dialogue: 0,0:01:29.03,0:01:31.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Oh, {\k13}ne{\k23}ver {\k36}stop{\k37}ping
+Dialogue: 0,0:01:36.25,0:01:39.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}You {\k20}run {\k16}a{\k41}round,{\k25} {\k38}I {\k18}run {\k15}a{\k42}round
+Dialogue: 0,0:01:39.06,0:01:42.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}We're {\k32}all {\k18}gon{\k19}na {\k36}run, {\k38}run, {\k18}run {\k16}a{\k51}round
+Dialogue: 0,0:01:41.93,0:01:45.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}You {\k20}run {\k16}a{\k41}round,{\k25} {\k38}I {\k16}run {\k23}a{\k48}round
+Dialogue: 0,0:01:44.74,0:01:48.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}We're {\k37}all {\k18}do {\k19}a {\k36}run, {\k32}run, {\k18}run {\k16}a{\k53}round
+Dialogue: 0,0:01:47.21,0:01:51.73,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf136}You {\k76}run {\k67}a{\k63}round
+Dialogue: 0,0:01:47.58,0:01:51.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}You {\k20}run {\k16}a{\k41}round,{\k25} {\k38}I {\k22}run {\k17}a{\k30}round
+Dialogue: 0,0:01:50.37,0:01:53.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}We're {\k34}all {\k18}gon{\k19}na {\k36}run, {\k38}run, {\k18}run {\k16}a{\k32}round
+Dialogue: 0,0:01:52.83,0:01:57.31,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf142}You {\k77}run {\k65}a{\k54}round
+Dialogue: 0,0:01:53.20,0:01:56.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}You {\k20}run {\k16}a{\k41}round,{\k27} {\k38}I {\k22}run {\k17}a{\k43}round
+Dialogue: 0,0:01:56.10,0:01:59.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}We're {\k35}all {\k18}do {\k19}a {\k36}run, {\k34}run, {\k18}run {\k16}a{\k55}round
