@@ -1,0 +1,68 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Die Mumins, sie lieben das Lachen
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:13.53,0:00:16.72,Sample KM [Up],,0,0,0,karaoke,{\k23}Hin{\k19}ter {\k37}den {\k30}Ber{\k29}gen {\k34}und {\k31}Bäu{\k29}men {\k22}ver{\k31}bor{\k34}gen
+Comment: 0,0:00:16.72,0:00:20.25,Sample KM [Up],,0,0,0,karaoke,{\k37}Da {\k38}liegt {\k16}Mu{\k23}min{\k63}tal, {\k18}ei{\k20}ne {\k43}Welt {\k19}oh{\k16}ne {\k36}Sor{\k24}gen
+Comment: 0,0:00:20.42,0:00:22.85,Sample KM [Up],,0,0,0,karaoke,{\k39}Beim {\k31}nächs{\k22}ten {\k53}Mal {\k34}kommt {\k14}wie{\k26}der {\k24}mit
+Comment: 0,0:00:23.16,0:00:25.73,Sample KM [Up],,0,0,0,karaoke,{\k29}Ich {\k34}führ {\k44}euch {\k46}dort {\kf104}hin
+Comment: 0,0:00:27.99,0:00:31.20,Sample KM [Up],,0,0,0,karaoke,{\k25}Im {\k28}blau{\k29}en {\k32}Turm{\k38}haus {\k31}hoch {\k29}un{\k24}ter {\k29}dem {\k56}Dach
+Comment: 0,0:00:31.20,0:00:33.14,Sample KM [Up],,0,0,0,karaoke,{\k43}Liegt {\k16}Mu{\k28}min {\k28}im {\k38}Mond{\k41}schein
+Comment: 0,0:00:33.14,0:00:34.60,Sample KM [Up],,0,0,0,karaoke,{\k30}Ist {\k21}im{\k22}mer {\k28}noch {\k45}wach
+Comment: 0,0:00:34.90,0:00:37.67,Sample KM [Up],,0,0,0,karaoke,{\k35}Und {\k42}freut {\k18}sich {\k31}auf {\k31}den {\k32}nächs{\k30}ten {\k58}Tag
+Comment: 0,0:00:37.67,0:00:40.15,Sample KM [Up],,0,0,0,karaoke,{\k31}Was {\k42}er {\k19}brin{\k31}gen {\kf125}mag?
+Comment: 0,0:00:41.26,0:00:44.38,Sample KM [Up],,0,0,0,karaoke,{\k37}Was {\k43}er {\k32}brin{\k30}gen {\kf170}mag?
+Comment: 0,0:00:45.83,0:00:49.48,Sample KM [Up],,0,0,0,karaoke,{\k33}Sie {\k28}lie{\k30}ben {\k35}das {\k18}La{\k39}chen {\k30}und {\k27}lie{\k30}ben {\k36}das {\k25}Le{\k34}ben
+Comment: 0,0:00:49.48,0:00:52.23,Sample KM [Up],,0,0,0,karaoke,{\k32}Die {\k91}Mu{\kf152}mins
+Comment: 0,0:00:51.30,0:00:53.60,Sample KM [Choir],,0,0,0,karaoke,{\k30}Die {\k93}Mu{\kf107}mins
+Comment: 0,0:00:53.06,0:00:56.74,Sample KM [Up],,0,0,0,karaoke,{\k33}Sie {\k29}lie{\k31}ben {\k18}die {\k47}Wol{\k28}ken {\k32}und {\k29}da{\k31}rauf {\k31}zu {\k31}schwe{\k28}ben
+Comment: 0,0:00:56.75,0:00:59.52,Sample KM [Up],,0,0,0,karaoke,{\k33}Die {\k86}Mu{\kf158}mins
+Comment: 0,0:00:58.57,0:01:00.75,Sample KM [Choir],,0,0,0,karaoke,{\k31}Die {\k90}Mu{\k97}mins
+Comment: 0,0:01:00.31,0:01:03.72,Sample KM [Up],,0,0,0,karaoke,{\k39}So {\k26}wun{\k22}der{\k45}sam {\k41}schö{\k16}ne {\k24}Ge{\k30}schich{\k23}ten {\k21}ge{\k54}scheh'n
+Comment: 0,0:01:03.98,0:01:07.59,Sample KM [Up],,0,0,0,karaoke,{\k29}In {\k22}Mu{\k27}min{\k47}tal, {\k26}ihr {\k27}könnt {\k28}sie {\k55}bald {\k16}wie{\k26}der{\k58}seh'n
+Comment: 0,0:01:07.59,0:01:10.43,Sample KM [Up],,0,0,0,karaoke,{\k36}Die {\k91}Mu{\kf157}mins
+Comment: 0,0:01:09.48,0:01:11.67,Sample KM [Choir],,0,0,0,karaoke,{\k28}Die {\k91}Mu{\kf100}mins
+Comment: 0,0:01:10.97,0:01:14.12,Sample KM [Up],,0,0,0,karaoke,{\k24}Eu{\k37}re {\k91}Mu{\kf163}mins
+Comment: 0,0:01:13.09,0:01:15.24,Sample KM [Choir],,0,0,0,karaoke,{\k30}Die {\k93}Mu{\k92}mins
+Comment: 0,0:01:14.89,0:01:25.22,Sample KM [Up],,0,0,0,karaoke,{\k30}Die {\k94}Mu{\kf909}mins
+Comment: 0,0:01:16.72,0:01:24.09,Sample KM [Choir],,0,0,0,karaoke,{\k32}Die {\k92}Mu{\kf613}mins
+Dialogue: 0,0:00:12.63,0:00:16.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Hin{\k19}ter {\k37}den {\k30}Ber{\k29}gen {\k34}und {\k31}Bäu{\k29}men {\k22}ver{\k31}bor{\k34}gen
+Dialogue: 0,0:00:15.82,0:00:20.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Da {\k38}liegt {\k16}Mu{\k23}min{\k63}tal, {\k18}ei{\k20}ne {\k43}Welt {\k19}oh{\k16}ne {\k36}Sor{\k24}gen
+Dialogue: 0,0:00:19.52,0:00:23.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Beim {\k31}nächs{\k22}ten {\k53}Mal {\k34}kommt {\k14}wie{\k26}der {\k24}mit
+Dialogue: 0,0:00:22.26,0:00:25.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Ich {\k34}führ {\k44}euch {\k46}dort {\kf104}hin
+Dialogue: 0,0:00:27.09,0:00:31.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Im {\k28}blau{\k29}en {\k32}Turm{\k38}haus {\k31}hoch {\k29}un{\k24}ter {\k29}dem {\k56}Dach
+Dialogue: 0,0:00:30.30,0:00:33.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Liegt {\k16}Mu{\k28}min {\k28}im {\k38}Mond{\k41}schein
+Dialogue: 0,0:00:32.24,0:00:34.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Ist {\k21}im{\k22}mer {\k28}noch {\k45}wach
+Dialogue: 0,0:00:34.00,0:00:37.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Und {\k42}freut {\k18}sich {\k31}auf {\k31}den {\k32}nächs{\k30}ten {\k58}Tag
+Dialogue: 0,0:00:36.77,0:00:40.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Was {\k42}er {\k19}brin{\k31}gen {\kf125}mag?
+Dialogue: 0,0:00:40.36,0:00:44.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Was {\k43}er {\k32}brin{\k30}gen {\kf170}mag?
+Dialogue: 0,0:00:44.93,0:00:49.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Sie {\k28}lie{\k30}ben {\k35}das {\k18}La{\k39}chen {\k30}und {\k27}lie{\k30}ben {\k36}das {\k25}Le{\k34}ben
+Dialogue: 0,0:00:48.58,0:00:52.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Die {\k91}Mu{\kf152}mins
+Dialogue: 0,0:00:50.40,0:00:53.80,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Die {\k93}Mu{\kf107}mins
+Dialogue: 0,0:00:52.16,0:00:56.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Sie {\k29}lie{\k31}ben {\k18}die {\k47}Wol{\k28}ken {\k32}und {\k29}da{\k31}rauf {\k31}zu {\k31}schwe{\k28}ben
+Dialogue: 0,0:00:55.85,0:00:59.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Die {\k86}Mu{\kf158}mins
+Dialogue: 0,0:00:57.67,0:01:00.95,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Die {\k90}Mu{\k97}mins
+Dialogue: 0,0:00:59.41,0:01:03.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}So {\k26}wun{\k22}der{\k45}sam {\k41}schö{\k16}ne {\k24}Ge{\k30}schich{\k23}ten {\k21}ge{\k54}scheh'n
+Dialogue: 0,0:01:03.08,0:01:07.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}In {\k22}Mu{\k27}min{\k47}tal, {\k26}ihr {\k27}könnt {\k28}sie {\k55}bald {\k16}wie{\k26}der{\k58}seh'n
+Dialogue: 0,0:01:06.69,0:01:10.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Die {\k91}Mu{\kf157}mins
+Dialogue: 0,0:01:08.58,0:01:11.87,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Die {\k91}Mu{\kf100}mins
+Dialogue: 0,0:01:10.07,0:01:14.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Eu{\k37}re {\k91}Mu{\kf163}mins
+Dialogue: 0,0:01:12.19,0:01:15.44,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Die {\k93}Mu{\k92}mins
+Dialogue: 0,0:01:13.99,0:01:25.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Die {\k94}Mu{\kf909}mins
+Dialogue: 0,0:01:15.82,0:01:24.29,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Die {\k92}Mu{\kf613}mins
