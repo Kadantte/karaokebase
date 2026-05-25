@@ -1,0 +1,126 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Hey Digimon
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 700 and -$start or -700,200)!{!$start < 700 and "\\k" .. ($start/10) or "\\k70"!\fad(!$start < 700 and $start or 300!,200)}
+Comment: 0,0:00:02.03,0:00:03.72,Sample KM [Up],,0,0,0,karaoke,{\k28}Hey {\k13}Di{\k14}gi{\k26}mon, {\k27}hey {\k14}Di{\k14}gi{\k33}mon
+Comment: 0,0:00:04.21,0:00:06.39,Sample KM [Choir],,0,0,0,karaoke,{\k28}Mons{\k15}ter {\k39}friends {\k15}to {\k11}the {\k29}boys {\k27}and {\k54}girls
+Comment: 0,0:00:06.39,0:00:08.11,Sample KM [Up],,0,0,0,karaoke,{\k27}Hey {\k14}Di{\k14}gi{\k27}mon, {\k27}hey {\k14}Di{\k14}gi{\k35}mon
+Comment: 0,0:00:08.58,0:00:10.75,Sample KM [Choir],,0,0,0,karaoke,{\k28}Cham{\k13}pi{\k32}ons {\k22}of {\k12}the {\k17}di{\k12}gi{\k29}tal {\k52}world
+Comment: 0,0:00:10.75,0:00:12.48,Sample KM [Up],,0,0,0,karaoke,{\k27}Hey {\k14}Di{\k14}gi{\k27}mon, {\k27}hey {\k14}Di{\k14}gi{\k36}mon
+Comment: 0,0:00:12.94,0:00:15.13,Sample KM [Choir],,0,0,0,karaoke,{\k15}Ul{\k13}ti{\k15}mate {\k38}friends {\k14}to {\k13}the {\k28}boys {\k28}and {\k55}girls
+Comment: 0,0:00:15.13,0:00:16.75,Sample KM [Up],,0,0,0,karaoke,{\k26}Hey {\k15}Di{\k12}gi{\k27}mon, {\k27}hey {\k15}Di{\k13}gi{\k27}mon
+Comment: 0,0:00:17.29,0:00:19.48,Sample KM [Choir],,0,0,0,karaoke,{\k29}Cham{\k13}pi{\k32}ons {\k22}of {\k12}the {\k17}di{\k12}gi{\k29}tal {\k53}world
+Comment: 0,0:00:19.48,0:00:21.37,Sample KM [Up],,0,0,0,karaoke,{\k14}Se{\k14}ven {\k27}young {\k27}kids {\k14}go {\k13}to {\k26}camp {\k14}for {\k14}the {\k16}sum{\k10}mer
+Comment: 0,0:00:21.67,0:00:23.49,Sample KM [Up],,0,0,0,karaoke,{\k28}Wind {\k24}up {\k15}li{\k13}vin' {\k14}in {\k13}the {\k14}di{\k14}gi{\k15}tal {\k32}land
+Comment: 0,0:00:23.71,0:00:24.50,Sample KM [Up],,0,0,0,karaoke,{\k13}Where {\k13}eve{\k15}ry{\k12}bo{\k14}dy {\k12}gets
+Comment: 0,0:00:24.50,0:00:25.90,Sample KM [Up],,0,0,0,karaoke,{\k16}To {\k13}meet {\k14}his {\k27}own {\k15}Di{\k12}gi{\k30}mons{\k13}ter
+Comment: 0,0:00:25.90,0:00:27.94,Sample KM [Up],,0,0,0,karaoke,{\k14}A {\k11}di{\k13}gi{\k16}tal {\k13}com{\k26}pan{\k15}ion {\k13}a {\k15}di{\k12}gi{\k27}tal {\k29}friend
+Comment: 0,0:00:28.08,0:00:30.17,Sample KM [Up],,0,0,0,karaoke,{\k12}A {\k14}Di{\k14}gi{\k12}mon {\k14}in {\k14}trai{\k27}ning {\k15}will {\k13}Di{\k12}gi{\k17}volve {\k11}to {\k16}Roo{\k18}kie
+Comment: 0,0:00:30.24,0:00:32.23,Sample KM [Up],,0,0,0,karaoke,{\k15}And {\k12}Di{\k12}gi{\k16}volve {\k14}to {\k16}cham{\k10}pi{\k14}on {\k12}and {\k17}ul{\k12}ti{\k26}mate {\k23}too
+Comment: 0,0:00:32.42,0:00:34.46,Sample KM [Up],,0,0,0,karaoke,{\k12}I'm {\k13}gon{\k15}na {\k15}save {\k14}the {\k13}di{\k10}gi{\k18}tal {\k39}world {\k28}for {\k27}me
+Comment: 0,0:00:34.60,0:00:36.68,Sample KM [Up],,0,0,0,karaoke,{\k14}I'm {\k14}gon{\k14}na {\k15}save {\k12}the {\k15}di{\k12}gi{\k16}tal {\k39}world {\k27}for {\k30}you
+Comment: 0,0:00:36.93,0:00:38.61,Sample KM [Up],,0,0,0,karaoke,{\k28}Hey {\k13}Di{\k14}gi{\k26}mon, {\k27}hey {\k14}Di{\k14}gi{\k32}mon
+Comment: 0,0:00:39.12,0:00:41.30,Sample KM [Choir],,0,0,0,karaoke,{\k28}Mons{\k15}ter {\k39}friends {\k15}to {\k11}the {\k28}boys {\k28}and {\k54}girls
+Comment: 0,0:00:41.30,0:00:42.94,Sample KM [Up],,0,0,0,karaoke,{\k27}Hey {\k14}Di{\k14}gi{\k27}mon, {\k27}hey {\k14}Di{\k14}gi{\k27}mon
+Comment: 0,0:00:43.48,0:00:45.67,Sample KM [Choir],,0,0,0,karaoke,{\k28}Cham{\k13}pi{\k32}ons {\k22}of {\k12}the {\k17}di{\k12}gi{\k28}tal {\k55}world
+Comment: 0,0:00:45.67,0:00:47.31,Sample KM [Up],,0,0,0,karaoke,{\k27}Hey {\k14}Di{\k14}gi{\k27}mon, {\k27}hey {\k14}Di{\k13}gi{\k28}mon
+Comment: 0,0:00:47.85,0:00:50.04,Sample KM [Choir],,0,0,0,karaoke,{\k15}Ul{\k13}ti{\k15}mate {\k38}friends {\k14}to {\k13}the {\k28}boys {\k27}and {\k56}girls
+Comment: 0,0:00:50.04,0:00:51.65,Sample KM [Up],,0,0,0,karaoke,{\k26}Hey {\k13}Di{\k14}gi{\k27}mon, {\k27}hey {\k13}Di{\k15}gi{\k26}mon
+Comment: 0,0:00:52.21,0:00:54.40,Sample KM [Choir],,0,0,0,karaoke,{\k29}Cham{\k13}pi{\k32}ons {\k22}of {\k12}the {\k17}di{\k12}gi{\k27}tal {\k55}world
+Comment: 0,0:00:54.24,0:00:56.30,Sample KM [Up],,0,0,0,karaoke,{\k14}The {\k13}Di{\k15}gi{\k14}world {\k14}is {\k27}safe {\k13}in {\k13}the {\k13}Di{\k14}gi{\k28}mon's {\k28}hands
+Comment: 0,0:00:56.30,0:00:58.48,Sample KM [Up],,0,0,0,karaoke,{\k14}What {\k14}the {\k13}Roo{\k13}kie {\k26}can't {\k22}do{\k19} {\k13}the {\k18}Cham{\k10}pi{\k29}on {\k27}can
+Comment: 0,0:00:58.48,0:01:00.66,Sample KM [Up],,0,0,0,karaoke,{\k12}When {\k16}a {\k12}Di{\k13}gi{\k28}mon {\k29}fights {\k13}then {\k11}the {\k15}Di{\k14}gi{\k26}mon {\k29}wins
+Comment: 0,0:01:00.79,0:01:02.85,Sample KM [Up],,0,0,0,karaoke,{\k15}The {\k12}Di{\k14}gi{\k14}mon {\k14}is {\k13}gon{\k14}na {\k13}find {\k14}the {\k27}strength {\k28}with{\k28}in
+Comment: 0,0:01:03.01,0:01:05.06,Sample KM [Up],,0,0,0,karaoke,{\k10}A {\k16}Di{\k12}gi{\k14}mon {\k12}is {\k15}al{\k13}ways {\k15}gon{\k12}na {\k27}be {\k28}your {\k31}friend
+Comment: 0,0:01:05.17,0:01:07.23,Sample KM [Up],,0,0,0,karaoke,{\k14}A {\k15}Di{\k11}gi{\k14}mon {\k12}is {\k15}gon{\k13}na {\k15}be {\k12}there {\k28}'til {\k26}the {\k31}end
+Comment: 0,0:01:07.38,0:01:09.40,Sample KM [Up],,0,0,0,karaoke,{\k11}And {\k15}eve{\k13}ry{\k12}bo{\k14}dy {\k30}knows {\k24}when {\k27}things {\k27}go {\k29}wrong
+Comment: 0,0:01:09.66,0:01:11.70,Sample KM [Up],,0,0,0,karaoke,{\k28}That's {\k14}when {\k12}the {\k12}Di{\k14}gi{\k14}mon {\k13}is {\k15}gon{\k13}na {\k28}be {\k41}strong
+Comment: 0,0:01:11.84,0:01:13.48,Sample KM [Up],,0,0,0,karaoke,{\k28}Hey {\k13}Di{\k14}gi{\k26}mon, {\k27}hey {\k14}Di{\k14}gi{\k28}mon
+Comment: 0,0:01:14.03,0:01:16.22,Sample KM [Choir],,0,0,0,karaoke,{\k28}Mons{\k15}ter {\k39}friends {\k15}to {\k11}the {\k29}boys {\k26}and {\k56}girls
+Comment: 0,0:01:16.22,0:01:17.85,Sample KM [Up],,0,0,0,karaoke,{\k27}Hey {\k13}Di{\k14}gi{\k27}mon, {\k27}hey {\k14}Di{\k14}gi{\k27}mon
+Comment: 0,0:01:18.39,0:01:20.57,Sample KM [Choir],,0,0,0,karaoke,{\k28}Cham{\k13}pi{\k32}ons {\k22}of {\k12}the {\k17}di{\k12}gi{\k28}tal {\k54}world
+Comment: 0,0:01:20.57,0:01:22.23,Sample KM [Up],,0,0,0,karaoke,{\k27}Hey {\k14}Di{\k14}gi{\k27}mon, {\k26}hey {\k14}Di{\k14}gi{\k30}mon
+Comment: 0,0:01:22.76,0:01:24.93,Sample KM [Choir],,0,0,0,karaoke,{\k14}Ul{\k13}ti{\k15}mate {\k38}friends {\k14}to {\k13}the {\k28}boys {\k28}and {\k54}girls
+Comment: 0,0:01:24.93,0:01:26.58,Sample KM [Up],,0,0,0,karaoke,{\k26}Hey {\k15}Di{\k12}gi{\k29}mon, {\k25}hey {\k15}Di{\k13}gi{\k30}mon
+Comment: 0,0:01:27.12,0:01:29.32,Sample KM [Choir],,0,0,0,karaoke,{\k29}Cham{\k13}pi{\k32}ons {\k22}of {\k12}the {\k16}di{\k12}gi{\k27}tal {\k57}world
+Comment: 0,0:01:46.75,0:01:48.39,Sample KM [Up],,0,0,0,karaoke,{\k28}Hey {\k13}Di{\k12}gi{\k29}mon, {\k25}hey {\k15}Di{\k13}gi{\k29}mon
+Comment: 0,0:01:51.11,0:01:52.76,Sample KM [Up],,0,0,0,karaoke,{\k27}Hey {\k15}Di{\k12}gi{\k29}mon, {\k25}hey {\k15}Di{\k13}gi{\k29}mon
+Comment: 0,0:01:55.47,0:01:57.19,Sample KM [Up],,0,0,0,karaoke,{\k28}Hey {\k13}Di{\k14}gi{\k27}mon, {\k25}hey {\k15}Di{\k13}gi{\k37}mon
+Comment: 0,0:01:59.85,0:02:01.51,Sample KM [Up],,0,0,0,karaoke,{\k26}Hey {\k15}Di{\k12}gi{\k29}mon, {\k25}hey {\k15}Di{\k13}gi{\k31}mon
+Comment: 0,0:02:04.22,0:02:05.84,Sample KM [Up],,0,0,0,karaoke,{\k26}Hey {\k13}Di{\k14}gi{\k26}mon, {\k27}hey {\k14}Di{\k14}gi{\k28}mon
+Comment: 0,0:02:06.39,0:02:08.58,Sample KM [Choir],,0,0,0,karaoke,{\k27}Mons{\k15}ter {\k39}friends {\k15}to {\k11}the {\k29}boys {\k26}and {\k57}girls
+Comment: 0,0:02:08.58,0:02:10.19,Sample KM [Up],,0,0,0,karaoke,{\k27}Hey {\k13}Di{\k14}gi{\k27}mon, {\k27}hey {\k14}Di{\k13}gi{\k26}mon
+Comment: 0,0:02:10.75,0:02:12.93,Sample KM [Choir],,0,0,0,karaoke,{\k28}Cham{\k13}pi{\k32}ons {\k22}of {\k12}the {\k17}di{\k12}gi{\k30}tal {\k52}world
+Comment: 0,0:02:12.93,0:02:14.59,Sample KM [Up],,0,0,0,karaoke,{\k27}Hey {\k14}Di{\k14}gi{\k27}mon, {\k26}hey {\k14}Di{\k15}gi{\k29}mon
+Comment: 0,0:02:15.13,0:02:17.30,Sample KM [Choir],,0,0,0,karaoke,{\k14}Ul{\k13}ti{\k15}mate {\k38}friends {\k14}to {\k13}the {\k28}boys {\k27}and {\k55}girls
+Comment: 0,0:02:17.30,0:02:18.94,Sample KM [Up],,0,0,0,karaoke,{\k26}Hey {\k15}Di{\k12}gi{\k29}mon, {\k25}hey {\k14}Di{\k14}gi{\k29}mon
+Comment: 0,0:02:19.48,0:02:21.66,Sample KM [Choir],,0,0,0,karaoke,{\k29}Cham{\k13}pi{\k32}ons {\k22}of {\k12}the {\k16}di{\k12}gi{\k28}tal {\k54}world
+Dialogue: 0,0:00:01.33,0:00:03.92,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k28}Hey {\k13}Di{\k14}gi{\k26}mon, {\k27}hey {\k14}Di{\k14}gi{\k33}mon
+Dialogue: 0,0:00:03.51,0:00:06.59,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k28}Mons{\k15}ter {\k39}friends {\k15}to {\k11}the {\k29}boys {\k27}and {\k54}girls
+Dialogue: 0,0:00:05.69,0:00:08.31,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k27}Hey {\k14}Di{\k14}gi{\k27}mon, {\k27}hey {\k14}Di{\k14}gi{\k35}mon
+Dialogue: 0,0:00:07.88,0:00:10.95,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k28}Cham{\k13}pi{\k32}ons {\k22}of {\k12}the {\k17}di{\k12}gi{\k29}tal {\k52}world
+Dialogue: 0,0:00:10.05,0:00:12.68,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k27}Hey {\k14}Di{\k14}gi{\k27}mon, {\k27}hey {\k14}Di{\k14}gi{\k36}mon
+Dialogue: 0,0:00:12.24,0:00:15.33,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Ul{\k13}ti{\k15}mate {\k38}friends {\k14}to {\k13}the {\k28}boys {\k28}and {\k55}girls
+Dialogue: 0,0:00:14.43,0:00:16.95,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k26}Hey {\k15}Di{\k12}gi{\k27}mon, {\k27}hey {\k15}Di{\k13}gi{\k27}mon
+Dialogue: 0,0:00:16.59,0:00:19.68,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k29}Cham{\k13}pi{\k32}ons {\k22}of {\k12}the {\k17}di{\k12}gi{\k29}tal {\k53}world
+Dialogue: 0,0:00:18.78,0:00:21.57,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Se{\k14}ven {\k27}young {\k27}kids {\k14}go {\k13}to {\k26}camp {\k14}for {\k14}the {\k16}sum{\k10}mer
+Dialogue: 0,0:00:20.97,0:00:23.69,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k28}Wind {\k24}up {\k15}li{\k13}vin' {\k14}in {\k13}the {\k14}di{\k14}gi{\k15}tal {\k32}land
+Dialogue: 0,0:00:23.01,0:00:24.70,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k13}Where {\k13}eve{\k15}ry{\k12}bo{\k14}dy {\k12}gets
+Dialogue: 0,0:00:23.80,0:00:26.10,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k16}To {\k13}meet {\k14}his {\k27}own {\k15}Di{\k12}gi{\k30}mons{\k13}ter
+Dialogue: 0,0:00:25.20,0:00:28.14,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k14}A {\k11}di{\k13}gi{\k16}tal {\k13}com{\k26}pan{\k15}ion {\k13}a {\k15}di{\k12}gi{\k27}tal {\k29}friend
+Dialogue: 0,0:00:27.38,0:00:30.37,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k12}A {\k14}Di{\k14}gi{\k12}mon {\k14}in {\k14}trai{\k27}ning {\k15}will {\k13}Di{\k12}gi{\k17}volve {\k11}to {\k16}Roo{\k18}kie
+Dialogue: 0,0:00:29.54,0:00:32.43,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k15}And {\k12}Di{\k12}gi{\k16}volve {\k14}to {\k16}cham{\k10}pi{\k14}on {\k12}and {\k17}ul{\k12}ti{\k26}mate {\k23}too
+Dialogue: 0,0:00:31.72,0:00:34.66,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k12}I'm {\k13}gon{\k15}na {\k15}save {\k14}the {\k13}di{\k10}gi{\k18}tal {\k39}world {\k28}for {\k27}me
+Dialogue: 0,0:00:33.90,0:00:36.88,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k14}I'm {\k14}gon{\k14}na {\k15}save {\k12}the {\k15}di{\k12}gi{\k16}tal {\k39}world {\k27}for {\k30}you
+Dialogue: 0,0:00:36.23,0:00:38.81,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k28}Hey {\k13}Di{\k14}gi{\k26}mon, {\k27}hey {\k14}Di{\k14}gi{\k32}mon
+Dialogue: 0,0:00:38.42,0:00:41.50,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k28}Mons{\k15}ter {\k39}friends {\k15}to {\k11}the {\k28}boys {\k28}and {\k54}girls
+Dialogue: 0,0:00:40.60,0:00:43.14,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k27}Hey {\k14}Di{\k14}gi{\k27}mon, {\k27}hey {\k14}Di{\k14}gi{\k27}mon
+Dialogue: 0,0:00:42.78,0:00:45.87,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k28}Cham{\k13}pi{\k32}ons {\k22}of {\k12}the {\k17}di{\k12}gi{\k28}tal {\k55}world
+Dialogue: 0,0:00:44.97,0:00:47.51,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k27}Hey {\k14}Di{\k14}gi{\k27}mon, {\k27}hey {\k14}Di{\k13}gi{\k28}mon
+Dialogue: 0,0:00:47.15,0:00:50.24,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Ul{\k13}ti{\k15}mate {\k38}friends {\k14}to {\k13}the {\k28}boys {\k27}and {\k56}girls
+Dialogue: 0,0:00:49.34,0:00:51.85,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k26}Hey {\k13}Di{\k14}gi{\k27}mon, {\k27}hey {\k13}Di{\k15}gi{\k26}mon
+Dialogue: 0,0:00:51.51,0:00:54.60,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k29}Cham{\k13}pi{\k32}ons {\k22}of {\k12}the {\k17}di{\k12}gi{\k27}tal {\k55}world
+Dialogue: 0,0:00:53.54,0:00:56.50,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k14}The {\k13}Di{\k15}gi{\k14}world {\k14}is {\k27}safe {\k13}in {\k13}the {\k13}Di{\k14}gi{\k28}mon's {\k28}hands
+Dialogue: 0,0:00:55.60,0:00:58.68,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k14}What {\k14}the {\k13}Roo{\k13}kie {\k26}can't {\k22}do{\k19} {\k13}the {\k18}Cham{\k10}pi{\k29}on {\k27}can
+Dialogue: 0,0:00:57.78,0:01:00.86,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k12}When {\k16}a {\k12}Di{\k13}gi{\k28}mon {\k29}fights {\k13}then {\k11}the {\k15}Di{\k14}gi{\k26}mon {\k29}wins
+Dialogue: 0,0:01:00.09,0:01:03.05,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k15}The {\k12}Di{\k14}gi{\k14}mon {\k14}is {\k13}gon{\k14}na {\k13}find {\k14}the {\k27}strength {\k28}with{\k28}in
+Dialogue: 0,0:01:02.31,0:01:05.26,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k10}A {\k16}Di{\k12}gi{\k14}mon {\k12}is {\k15}al{\k13}ways {\k15}gon{\k12}na {\k27}be {\k28}your {\k31}friend
+Dialogue: 0,0:01:04.47,0:01:07.43,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k14}A {\k15}Di{\k11}gi{\k14}mon {\k12}is {\k15}gon{\k13}na {\k15}be {\k12}there {\k28}'til {\k26}the {\k31}end
+Dialogue: 0,0:01:06.68,0:01:09.60,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k11}And {\k15}eve{\k13}ry{\k12}bo{\k14}dy {\k30}knows {\k24}when {\k27}things {\k27}go {\k29}wrong
+Dialogue: 0,0:01:08.96,0:01:11.90,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k28}That's {\k14}when {\k12}the {\k12}Di{\k14}gi{\k14}mon {\k13}is {\k15}gon{\k13}na {\k28}be {\k41}strong
+Dialogue: 0,0:01:11.14,0:01:13.68,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k28}Hey {\k13}Di{\k14}gi{\k26}mon, {\k27}hey {\k14}Di{\k14}gi{\k28}mon
+Dialogue: 0,0:01:13.33,0:01:16.42,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k28}Mons{\k15}ter {\k39}friends {\k15}to {\k11}the {\k29}boys {\k26}and {\k56}girls
+Dialogue: 0,0:01:15.52,0:01:18.05,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k27}Hey {\k13}Di{\k14}gi{\k27}mon, {\k27}hey {\k14}Di{\k14}gi{\k27}mon
+Dialogue: 0,0:01:17.69,0:01:20.77,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k28}Cham{\k13}pi{\k32}ons {\k22}of {\k12}the {\k17}di{\k12}gi{\k28}tal {\k54}world
+Dialogue: 0,0:01:19.87,0:01:22.43,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k27}Hey {\k14}Di{\k14}gi{\k27}mon, {\k26}hey {\k14}Di{\k14}gi{\k30}mon
+Dialogue: 0,0:01:22.06,0:01:25.13,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Ul{\k13}ti{\k15}mate {\k38}friends {\k14}to {\k13}the {\k28}boys {\k28}and {\k54}girls
+Dialogue: 0,0:01:24.23,0:01:26.78,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k26}Hey {\k15}Di{\k12}gi{\k29}mon, {\k25}hey {\k15}Di{\k13}gi{\k30}mon
+Dialogue: 0,0:01:26.42,0:01:29.52,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k29}Cham{\k13}pi{\k32}ons {\k22}of {\k12}the {\k16}di{\k12}gi{\k27}tal {\k57}world
+Dialogue: 0,0:01:46.05,0:01:48.59,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k28}Hey {\k13}Di{\k12}gi{\k29}mon, {\k25}hey {\k15}Di{\k13}gi{\k29}mon
+Dialogue: 0,0:01:50.41,0:01:52.96,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k27}Hey {\k15}Di{\k12}gi{\k29}mon, {\k25}hey {\k15}Di{\k13}gi{\k29}mon
+Dialogue: 0,0:01:54.77,0:01:57.39,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k28}Hey {\k13}Di{\k14}gi{\k27}mon, {\k25}hey {\k15}Di{\k13}gi{\k37}mon
+Dialogue: 0,0:01:59.15,0:02:01.71,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k26}Hey {\k15}Di{\k12}gi{\k29}mon, {\k25}hey {\k15}Di{\k13}gi{\k31}mon
+Dialogue: 0,0:02:03.52,0:02:06.04,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k26}Hey {\k13}Di{\k14}gi{\k26}mon, {\k27}hey {\k14}Di{\k14}gi{\k28}mon
+Dialogue: 0,0:02:05.69,0:02:08.78,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k27}Mons{\k15}ter {\k39}friends {\k15}to {\k11}the {\k29}boys {\k26}and {\k57}girls
+Dialogue: 0,0:02:07.88,0:02:10.39,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k27}Hey {\k13}Di{\k14}gi{\k27}mon, {\k27}hey {\k14}Di{\k13}gi{\k26}mon
+Dialogue: 0,0:02:10.05,0:02:13.13,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k28}Cham{\k13}pi{\k32}ons {\k22}of {\k12}the {\k17}di{\k12}gi{\k30}tal {\k52}world
+Dialogue: 0,0:02:12.23,0:02:14.79,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k27}Hey {\k14}Di{\k14}gi{\k27}mon, {\k26}hey {\k14}Di{\k15}gi{\k29}mon
+Dialogue: 0,0:02:14.43,0:02:17.50,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Ul{\k13}ti{\k15}mate {\k38}friends {\k14}to {\k13}the {\k28}boys {\k27}and {\k55}girls
+Dialogue: 0,0:02:16.60,0:02:19.14,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k26}Hey {\k15}Di{\k12}gi{\k29}mon, {\k25}hey {\k14}Di{\k14}gi{\k29}mon
+Dialogue: 0,0:02:18.78,0:02:21.86,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k29}Cham{\k13}pi{\k32}ons {\k22}of {\k12}the {\k16}di{\k12}gi{\k28}tal {\k54}world
