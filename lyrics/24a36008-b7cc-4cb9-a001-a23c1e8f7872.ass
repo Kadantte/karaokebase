@@ -1,0 +1,98 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Here We Go
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:07.99,0:00:08.81,Sample KM [Up],,0,0,0,karaoke,{\k9}Here {\k16}we {\k57}go
+Comment: 0,0:00:15.44,0:00:16.66,Sample KM [Up],,0,0,0,karaoke,{\k23}Hey, {\k19}what's {\k22}up, {\k18}su{\k13}per{\k27}star?
+Comment: 0,0:00:17.09,0:00:18.33,Sample KM [Up],,0,0,0,karaoke,{\k20}Looks {\k20}like {\k24}you're {\k12}go{\k18}in' {\k30}far
+Comment: 0,0:00:18.74,0:00:19.99,Sample KM [Up],,0,0,0,karaoke,{\k19}Hey, {\k22}look {\k20}it's {\k22}won{\k8}der{\k34}guy
+Comment: 0,0:00:20.40,0:00:21.91,Sample KM [Up],,0,0,0,karaoke,{\k10}Gon{\k10}na {\k21}make {\k24}ya {\k19}plen{\k19}ty {\k48}fine
+Comment: 0,0:00:22.05,0:00:23.45,Sample KM [Up],,0,0,0,karaoke,{\k22}Now {\k20}what's {\k19}up, {\k20}won{\k13}der{\k46}girl?
+Comment: 0,0:00:23.71,0:00:26.97,Sample KM [Up],,0,0,0,karaoke,{\k21}You're {\k21}gon{\k20}na {\k44}change {\k37}the {\kf183}world
+Comment: 0,0:00:28.86,0:00:31.97,Sample KM [Up],,0,0,0,karaoke,{\k88}So {\k18}eve{\k39}ry{\k41}thing's {\k21}not {\k45}per{\k59}fect
+Comment: 0,0:00:32.16,0:00:33.59,Sample KM [Up],,0,0,0,karaoke,{\k42}Don't {\k22}mat{\k20}ter {\k59}'cause
+Comment: 0,0:00:33.61,0:00:34.94,Sample KM [Up],,0,0,0,karaoke,{\k43}You {\k21}re{\k42}work {\k27}it
+Comment: 0,0:00:35.08,0:00:38.44,Sample KM [Up],,0,0,0,karaoke,{\k46}No{\k40}{\k61}thing's{\k20} {\k82}hol{\k41}ding {\k46}you
+Comment: 0,0:00:38.63,0:00:40.20,Sample KM [Up],,0,0,0,karaoke,{\k40}Ne{\k21}ver {\k42}stop{\k54}ping
+Comment: 0,0:00:40.29,0:00:41.72,Sample KM [Up],,0,0,0,karaoke,{\k40}Ne{\k20}ver {\k43}stop{\k40}ping
+Comment: 0,0:00:41.93,0:00:45.26,Sample KM [Up],,0,0,0,karaoke,{\k42}Ne{\k21}ver {\k42}stop{\k39}ping {\kf189}now
+Comment: 0,0:00:43.72,0:00:46.79,Sample KM [Up],,0,0,0,karaoke,{\k51}Oh-{\k43}oh, {\k39}oh-{\k36}oh, {\k40}oh-{\k47}oh-{\k51}oh
+Comment: 0,0:00:47.08,0:00:50.21,Sample KM [Up],,0,0,0,karaoke,{\k44}Oh-{\k44}oh, {\k40}oh-{\k43}oh, {\k39}oh-{\kf103}oh
+Comment: 0,0:00:49.38,0:00:50.21,Sample KM [Choir],,0,0,0,karaoke,{\k11}Here {\k14}we {\k58}go
+Comment: 0,0:00:50.38,0:00:56.35,Sample KM [Up],,0,0,0,karaoke,{\k51}Oh-{\k37}oh, {\k39}oh-{\k39}oh, {\k40}oh-{\k47}oh-{\k41}oh-{\kf303}oh
+Comment: 0,0:00:56.80,0:00:57.98,Sample KM [Up],,0,0,0,karaoke,{\k21}Hey, {\k20}what's {\k22}up, {\k19}dy{\k11}na{\k25}mite?
+Comment: 0,0:00:58.43,0:00:59.69,Sample KM [Up],,0,0,0,karaoke,{\k13}Ta{\k10}kin' {\k19}off {\k11}on {\k14}a {\k27}new {\k32}flight
+Comment: 0,0:01:00.09,0:01:01.34,Sample KM [Up],,0,0,0,karaoke,{\k12}Step {\k10}it {\k20}up {\k22}to {\k20}num{\k12}ber {\k29}one
+Comment: 0,0:01:01.74,0:01:03.33,Sample KM [Up],,0,0,0,karaoke,{\k21}It {\k21}won't {\k23}back {\k19}off {\k22}un{\k19}til {\k34}it's
+Comment: 0,0:01:03.42,0:01:04.66,Sample KM [Up],,0,0,0,karaoke,{\k8}Co{\k14}min' {\k19}through {\k23}that {\k31}great {\k29}fire
+Comment: 0,0:01:05.08,0:01:08.33,Sample KM [Up],,0,0,0,karaoke,{\k22}You're {\k18}gon{\k21}na {\k20}be {\k23}the {\k39}next {\kf182}flier
+Comment: 0,0:01:10.24,0:01:13.35,Sample KM [Up],,0,0,0,karaoke,{\k85}So {\k22}eve{\k40}ry{\k39}thing {\k23}is {\k42}cra{\k60}zy
+Comment: 0,0:01:13.57,0:01:14.74,Sample KM [Up],,0,0,0,karaoke,{\k37}Don't {\k24}mat{\k22}ter {\k34}'cause
+Comment: 0,0:01:15.02,0:01:16.43,Sample KM [Up],,0,0,0,karaoke,{\k37}No{\k24}thing's {\k42}fa{\k38}zing
+Comment: 0,0:01:16.43,0:01:19.36,Sample KM [Up],,0,0,0,karaoke,{\k50}You{\k37} {\k42}get{\k42} {\k48}though{\k34} {\k40}it
+Comment: 0,0:01:20.01,0:01:21.52,Sample KM [Up],,0,0,0,karaoke,{\k40}Ne{\k22}ver {\k41}stop{\k48}ping
+Comment: 0,0:01:21.66,0:01:23.11,Sample KM [Up],,0,0,0,karaoke,{\k42}Ne{\k22}ver {\k41}stop{\k40}ping
+Comment: 0,0:01:46.28,0:01:49.71,Sample KM [Choir],,0,0,0,karaoke,{\kf343}Oh
+Comment: 0,0:01:56.67,0:01:59.55,Sample KM [Up],,0,0,0,karaoke,{\k45}Oh-{\k37}oh, {\k39}oh-{\k39}oh, {\k40}oh-{\k49}oh-{\k39}oh
+Comment: 0,0:01:59.99,0:02:03.05,Sample KM [Up],,0,0,0,karaoke,{\k40}Oh-{\k44}oh, {\k40}oh-{\k41}oh, {\k39}oh-{\kf102}oh
+Comment: 0,0:02:02.23,0:02:03.05,Sample KM [Choir],,0,0,0,karaoke,{\k11}Here {\k14}we {\k57}go
+Comment: 0,0:02:03.29,0:02:09.17,Sample KM [Up],,0,0,0,karaoke,{\k39}Oh-{\k40}oh, {\k39}oh-{\k39}oh, {\k48}oh-{\k43}oh-{\k41}oh-{\kf299}oh
+Comment: 0,0:02:09.89,0:02:12.77,Sample KM [Up],,0,0,0,karaoke,{\k45}Oh-{\k38}oh, {\k42}oh-{\k33}oh, {\k43}oh-{\k44}oh-{\k43}oh
+Comment: 0,0:02:13.17,0:02:16.36,Sample KM [Up],,0,0,0,karaoke,{\k44}Oh-{\k44}oh, {\k40}oh-{\k43}oh, {\k39}oh-{\kf103}oh
+Comment: 0,0:02:15.48,0:02:16.36,Sample KM [Choir],,0,0,0,karaoke,{\k11}Here {\k14}we {\k63}go
+Comment: 0,0:02:16.51,0:02:23.17,Sample KM [Up],,0,0,0,karaoke,{\k43}Oh-{\k38}oh, {\k44}oh-{\k39}oh, {\k40}oh-{\k45}oh-{\k41}oh-{\kf376}oh
+Dialogue: 0,0:00:07.09,0:00:09.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Here {\k16}we {\k57}go
+Dialogue: 0,0:00:14.54,0:00:16.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Hey, {\k19}what's {\k22}up, {\k18}su{\k13}per{\k27}star?
+Dialogue: 0,0:00:16.19,0:00:18.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Looks {\k20}like {\k24}you're {\k12}go{\k18}in' {\k30}far
+Dialogue: 0,0:00:17.84,0:00:20.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Hey, {\k22}look {\k20}it's {\k22}won{\k8}der{\k34}guy
+Dialogue: 0,0:00:19.50,0:00:22.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}Gon{\k10}na {\k21}make {\k24}ya {\k19}plen{\k19}ty {\k48}fine
+Dialogue: 0,0:00:21.15,0:00:23.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Now {\k20}what's {\k19}up, {\k20}won{\k13}der{\k46}girl?
+Dialogue: 0,0:00:22.81,0:00:27.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}You're {\k21}gon{\k20}na {\k44}change {\k37}the {\kf183}world
+Dialogue: 0,0:00:27.96,0:00:32.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k88}So {\k18}eve{\k39}ry{\k41}thing's {\k21}not {\k45}per{\k59}fect
+Dialogue: 0,0:00:31.26,0:00:33.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Don't {\k22}mat{\k20}ter {\k59}'cause
+Dialogue: 0,0:00:32.71,0:00:35.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}You {\k21}re{\k42}work {\k27}it
+Dialogue: 0,0:00:34.18,0:00:38.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}No{\k40}{\k61}thing's{\k20} {\k82}hol{\k41}ding {\k46}you
+Dialogue: 0,0:00:37.73,0:00:40.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Ne{\k21}ver {\k42}stop{\k54}ping
+Dialogue: 0,0:00:39.39,0:00:41.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Ne{\k20}ver {\k43}stop{\k40}ping
+Dialogue: 0,0:00:41.03,0:00:45.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Ne{\k21}ver {\k42}stop{\k39}ping {\kf189}now
+Dialogue: 0,0:00:42.82,0:00:46.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Oh-{\k43}oh, {\k39}oh-{\k36}oh, {\k40}oh-{\k47}oh-{\k51}oh
+Dialogue: 0,0:00:46.18,0:00:50.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Oh-{\k44}oh, {\k40}oh-{\k43}oh, {\k39}oh-{\kf103}oh
+Dialogue: 0,0:00:48.48,0:00:50.41,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Here {\k14}we {\k58}go
+Dialogue: 0,0:00:49.48,0:00:56.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k51}Oh-{\k37}oh, {\k39}oh-{\k39}oh, {\k40}oh-{\k47}oh-{\k41}oh-{\kf303}oh
+Dialogue: 0,0:00:55.90,0:00:58.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Hey, {\k20}what's {\k22}up, {\k19}dy{\k11}na{\k25}mite?
+Dialogue: 0,0:00:57.53,0:00:59.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Ta{\k10}kin' {\k19}off {\k11}on {\k14}a {\k27}new {\k32}flight
+Dialogue: 0,0:00:59.19,0:01:01.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Step {\k10}it {\k20}up {\k22}to {\k20}num{\k12}ber {\k29}one
+Dialogue: 0,0:01:00.84,0:01:03.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}It {\k21}won't {\k23}back {\k19}off {\k22}un{\k19}til {\k34}it's
+Dialogue: 0,0:01:02.52,0:01:04.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}Co{\k14}min' {\k19}through {\k23}that {\k31}great {\k29}fire
+Dialogue: 0,0:01:04.18,0:01:08.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}You're {\k18}gon{\k21}na {\k20}be {\k23}the {\k39}next {\kf182}flier
+Dialogue: 0,0:01:09.34,0:01:13.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k85}So {\k22}eve{\k40}ry{\k39}thing {\k23}is {\k42}cra{\k60}zy
+Dialogue: 0,0:01:12.67,0:01:14.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Don't {\k24}mat{\k22}ter {\k34}'cause
+Dialogue: 0,0:01:14.12,0:01:16.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}No{\k24}thing's {\k42}fa{\k38}zing
+Dialogue: 0,0:01:15.53,0:01:19.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}You{\k37} {\k42}get{\k42} {\k48}though{\k34} {\k40}it
+Dialogue: 0,0:01:19.11,0:01:21.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Ne{\k22}ver {\k41}stop{\k48}ping
+Dialogue: 0,0:01:20.76,0:01:23.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Ne{\k22}ver {\k41}stop{\k40}ping
+Dialogue: 0,0:01:45.38,0:01:49.91,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf343}Oh
+Dialogue: 0,0:01:55.77,0:01:59.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Oh-{\k37}oh, {\k39}oh-{\k39}oh, {\k40}oh-{\k49}oh-{\k39}oh
+Dialogue: 0,0:01:59.09,0:02:03.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Oh-{\k44}oh, {\k40}oh-{\k41}oh, {\k39}oh-{\kf102}oh
+Dialogue: 0,0:02:01.33,0:02:03.25,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Here {\k14}we {\k57}go
+Dialogue: 0,0:02:02.39,0:02:09.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Oh-{\k40}oh, {\k39}oh-{\k39}oh, {\k48}oh-{\k43}oh-{\k41}oh-{\kf299}oh
+Dialogue: 0,0:02:08.99,0:02:12.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Oh-{\k38}oh, {\k42}oh-{\k33}oh, {\k43}oh-{\k44}oh-{\k43}oh
+Dialogue: 0,0:02:12.27,0:02:16.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k44}Oh-{\k44}oh, {\k40}oh-{\k43}oh, {\k39}oh-{\kf103}oh
+Dialogue: 0,0:02:14.58,0:02:16.56,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Here {\k14}we {\k63}go
+Dialogue: 0,0:02:15.61,0:02:23.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Oh-{\k38}oh, {\k44}oh-{\k39}oh, {\k40}oh-{\k45}oh-{\k41}oh-{\kf376}oh
