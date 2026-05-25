@@ -1,0 +1,86 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Digi Rap
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.23,0:00:03.10,Sample KM [Choir],,0,0,0,karaoke,{\k18}Di-{\k18}{\k19}Di-{\k18}{\k14}Di
+Comment: 0,0:00:06.18,0:00:07.15,Sample KM [Choir],,0,0,0,karaoke,{\k19}Di-{\k17}{\k19}Di-{\k18}{\k24}Di
+Comment: 0,0:00:10.66,0:00:11.04,Sample KM [Choir],,0,0,0,karaoke,{\k12}Di{\k10}gi{\k16}mon
+Comment: 0,0:00:11.66,0:00:12.05,Sample KM [Choir],,0,0,0,karaoke,{\k13}Di{\k9}gi{\k17}mon
+Comment: 0,0:00:13.65,0:00:14.10,Sample KM [Choir],,0,0,0,karaoke,{\k16}Di-{\k10}{\k19}Di
+Comment: 0,0:00:13.92,0:00:15.92,Sample KM [Up],,0,0,0,karaoke,{\k23}The {\k19}Di{\k25}gi{\k13}vo{\k21}lu{\k17}tion {\k17}is {\k15}up {\k25}and {\k14}run{\k11}ning
+Comment: 0,0:00:15.92,0:00:17.98,Sample KM [Up],,0,0,0,karaoke,{\k11}Di{\k16}gi{\k23}See? {\k13}Di{\k12}gi{\k26}Hear? {\k13}Di{\k12}gi{\k23}Know? {\k25}What's {\k16}co{\k16}ming?
+Comment: 0,0:00:18.09,0:00:20.01,Sample KM [Up],,0,0,0,karaoke,{\k13}Our {\k18}Di{\k22}gi{\k24}Des{\k19}ti{\k22}ny {\k30}starts {\k11}to{\k33}day
+Comment: 0,0:00:20.17,0:00:22.16,Sample KM [Up],,0,0,0,karaoke,{\k27}Let {\k29}me {\k27}hear {\k23}you {\k93}say
+Comment: 0,0:00:22.16,0:00:24.18,Sample KM [Up],,0,0,0,karaoke,{\k25}Di{\k25}gi{\k51}mon {\k13}Di{\k12}gi{\k25}tal {\k28}Mons{\k23}ters
+Comment: 0,0:00:24.18,0:00:25.71,Sample KM [Up],,0,0,0,karaoke,{\k14}Di{\k11}gi{\k24}mon {\k26}are {\k22}the {\k26}cham{\k30}pions
+Comment: 0,0:00:26.17,0:00:28.18,Sample KM [Up],,0,0,0,karaoke,{\k25}Di{\k25}gi{\k51}mon {\k13}Di{\k12}gi{\k24}tal {\k28}Mons{\k23}ters
+Comment: 0,0:00:28.18,0:00:29.77,Sample KM [Up],,0,0,0,karaoke,{\k14}Di{\k11}gi{\k24}mon {\k26}are {\k22}the {\k26}cham{\k36}pions
+Comment: 0,0:00:29.93,0:00:31.95,Sample KM [Up],,0,0,0,karaoke,{\k25}With {\k17}Di{\k24}gi{\k20}Will {\k14}and {\k12}Di{\k12}gi{\k32}vice {\k18}in {\k28}hand
+Comment: 0,0:00:31.95,0:00:33.99,Sample KM [Up],,0,0,0,karaoke,{\k15}There's {\k10}a {\k15}Di{\k11}gi{\k21}Dy{\k16}na{\k21}mic {\k25}force {\k13}in {\k15}Di{\k11}gi{\k31}Land
+Comment: 0,0:00:34.01,0:00:36.05,Sample KM [Up],,0,0,0,karaoke,{\k9}When {\k13}the {\k16}Di{\k18}gi{\k27}Past {\k9}and {\k10}Di{\k15}gi{\k15}Pre{\k9}sent {\k14}col{\k49}lide
+Comment: 0,0:00:36.18,0:00:37.85,Sample KM [Up],,0,0,0,karaoke,{\k32}Time {\k22}to {\k23}Di{\k27}gi{\k63}Size
+Comment: 0,0:00:37.67,0:00:38.10,Sample KM [Choir],,0,0,0,karaoke,{\k15}Di{\k11}gi{\k17}mon
+Comment: 0,0:00:38.18,0:00:40.19,Sample KM [Up],,0,0,0,karaoke,{\k25}Di{\k25}gi{\k51}mon {\k13}Di{\k12}gi{\k24}tal {\k28}Mons{\k23}ters
+Comment: 0,0:00:40.19,0:00:41.73,Sample KM [Up],,0,0,0,karaoke,{\k14}Di{\k11}gi{\k24}mon {\k26}are {\k22}the {\k26}cham{\k31}pions
+Comment: 0,0:00:42.18,0:00:44.19,Sample KM [Up],,0,0,0,karaoke,{\k25}Di{\k25}gi{\k51}mon {\k13}Di{\k12}gi{\k25}tal {\k27}Mons{\k23}ters
+Comment: 0,0:00:44.19,0:00:45.71,Sample KM [Up],,0,0,0,karaoke,{\k14}Di{\k11}gi{\k24}mon {\k26}are {\k22}the {\k26}cham{\k29}pions
+Comment: 0,0:00:46.19,0:00:46.65,Sample KM [Choir],,0,0,0,karaoke,{\k13}Di{\k12}gi{\k21}mon
+Comment: 0,0:00:46.94,0:00:47.53,Sample KM [Choir],,0,0,0,karaoke,{\k24}Di-{\k13}Di{\k10}gi{\k12}mon
+Comment: 0,0:00:47.97,0:00:49.97,Sample KM [Up],,0,0,0,karaoke,{\k22}The {\k19}Di{\k23}gi{\k38}Dudes {\k22}will {\k15}Di{\k23}gi{\k38}Rule
+Comment: 0,0:00:49.97,0:00:52.02,Sample KM [Up],,0,0,0,karaoke,{\k22}With {\k17}Di{\k23}gi{\k11}A{\k18}bi{\k20}li{\k22}ty {\k13}and {\k16}Di{\k14}gi{\k29}tude
+Comment: 0,0:00:52.19,0:00:54.08,Sample KM [Up],,0,0,0,karaoke,{\k26}Save {\k14}the {\k36}world {\k13}from {\k11}a {\k16}Di{\k11}gi{\k15}Di{\k27}sas{\k20}ter
+Comment: 0,0:00:54.09,0:00:54.95,Sample KM [Up],,0,0,0,karaoke,{\k16}The {\k20}threat {\k15}from {\k12}the {\k23}'net
+Comment: 0,0:00:54.95,0:00:56.43,Sample KM [Up],,0,0,0,karaoke,{\k20}Meets {\k12}the {\k16}Di{\k12}gi{\k13}tal {\k28}Mas{\k47}ters
+Comment: 0,0:00:56.19,0:00:58.20,Sample KM [Up],,0,0,0,karaoke,{\k25}Di{\k25}gi{\k51}mon {\k13}Di{\k12}gi{\k24}tal {\k28}Mons{\k23}ters
+Comment: 0,0:00:58.20,0:00:59.70,Sample KM [Up],,0,0,0,karaoke,{\k14}Di{\k11}gi{\k24}mon {\k26}are {\k22}the {\k27}cham{\k26}pions
+Comment: 0,0:01:00.19,0:01:02.15,Sample KM [Up],,0,0,0,karaoke,{\k25}Di{\k25}gi{\k51}mon {\k13}Di{\k12}gi{\k24}tal {\k27}Mons{\k19}ters
+Comment: 0,0:01:02.19,0:01:02.71,Sample KM [Choir],,0,0,0,karaoke,{\k15}Di{\k12}gi{\k25}mon
+Dialogue: 0,0:00:01.33,0:00:03.30,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Di-{\k18}{\k19}Di-{\k18}{\k14}Di
+Dialogue: 0,0:00:05.28,0:00:07.35,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Di-{\k17}{\k19}Di-{\k18}{\k24}Di
+Dialogue: 0,0:00:09.76,0:00:11.24,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Di{\k10}gi{\k16}mon
+Dialogue: 0,0:00:10.76,0:00:12.25,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Di{\k9}gi{\k17}mon
+Dialogue: 0,0:00:12.75,0:00:14.30,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Di-{\k10}{\k19}Di
+Dialogue: 0,0:00:13.02,0:00:16.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}The {\k19}Di{\k25}gi{\k13}vo{\k21}lu{\k17}tion {\k17}is {\k15}up {\k25}and {\k14}run{\k11}ning
+Dialogue: 0,0:00:15.02,0:00:18.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Di{\k16}gi{\k23}See? {\k13}Di{\k12}gi{\k26}Hear? {\k13}Di{\k12}gi{\k23}Know? {\k25}What's {\k16}co{\k16}ming?
+Dialogue: 0,0:00:17.19,0:00:20.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Our {\k18}Di{\k22}gi{\k24}Des{\k19}ti{\k22}ny {\k30}starts {\k11}to{\k33}day
+Dialogue: 0,0:00:19.27,0:00:22.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Let {\k29}me {\k27}hear {\k23}you {\k93}say
+Dialogue: 0,0:00:21.26,0:00:24.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Di{\k25}gi{\k51}mon {\k13}Di{\k12}gi{\k25}tal {\k28}Mons{\k23}ters
+Dialogue: 0,0:00:23.28,0:00:25.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Di{\k11}gi{\k24}mon {\k26}are {\k22}the {\k26}cham{\k30}pions
+Dialogue: 0,0:00:25.27,0:00:28.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Di{\k25}gi{\k51}mon {\k13}Di{\k12}gi{\k24}tal {\k28}Mons{\k23}ters
+Dialogue: 0,0:00:27.28,0:00:29.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Di{\k11}gi{\k24}mon {\k26}are {\k22}the {\k26}cham{\k36}pions
+Dialogue: 0,0:00:29.03,0:00:32.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}With {\k17}Di{\k24}gi{\k20}Will {\k14}and {\k12}Di{\k12}gi{\k32}vice {\k18}in {\k28}hand
+Dialogue: 0,0:00:31.05,0:00:34.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}There's {\k10}a {\k15}Di{\k11}gi{\k21}Dy{\k16}na{\k21}mic {\k25}force {\k13}in {\k15}Di{\k11}gi{\k31}Land
+Dialogue: 0,0:00:33.11,0:00:36.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}When {\k13}the {\k16}Di{\k18}gi{\k27}Past {\k9}and {\k10}Di{\k15}gi{\k15}Pre{\k9}sent {\k14}col{\k49}lide
+Dialogue: 0,0:00:35.28,0:00:38.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Time {\k22}to {\k23}Di{\k27}gi{\k63}Size
+Dialogue: 0,0:00:36.77,0:00:38.30,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Di{\k11}gi{\k17}mon
+Dialogue: 0,0:00:37.28,0:00:40.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Di{\k25}gi{\k51}mon {\k13}Di{\k12}gi{\k24}tal {\k28}Mons{\k23}ters
+Dialogue: 0,0:00:39.29,0:00:41.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Di{\k11}gi{\k24}mon {\k26}are {\k22}the {\k26}cham{\k31}pions
+Dialogue: 0,0:00:41.28,0:00:44.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Di{\k25}gi{\k51}mon {\k13}Di{\k12}gi{\k25}tal {\k27}Mons{\k23}ters
+Dialogue: 0,0:00:43.29,0:00:45.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Di{\k11}gi{\k24}mon {\k26}are {\k22}the {\k26}cham{\k29}pions
+Dialogue: 0,0:00:45.29,0:00:46.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Di{\k12}gi{\k21}mon
+Dialogue: 0,0:00:46.04,0:00:47.73,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Di-{\k13}Di{\k10}gi{\k12}mon
+Dialogue: 0,0:00:47.07,0:00:50.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}The {\k19}Di{\k23}gi{\k38}Dudes {\k22}will {\k15}Di{\k23}gi{\k38}Rule
+Dialogue: 0,0:00:49.07,0:00:52.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}With {\k17}Di{\k23}gi{\k11}A{\k18}bi{\k20}li{\k22}ty {\k13}and {\k16}Di{\k14}gi{\k29}tude
+Dialogue: 0,0:00:51.29,0:00:54.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Save {\k14}the {\k36}world {\k13}from {\k11}a {\k16}Di{\k11}gi{\k15}Di{\k27}sas{\k20}ter
+Dialogue: 0,0:00:53.19,0:00:55.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}The {\k20}threat {\k15}from {\k12}the {\k23}'net
+Dialogue: 0,0:00:54.05,0:00:56.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Meets {\k12}the {\k16}Di{\k12}gi{\k13}tal {\k28}Mas{\k47}ters
+Dialogue: 0,0:00:55.29,0:00:58.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Di{\k25}gi{\k51}mon {\k13}Di{\k12}gi{\k24}tal {\k28}Mons{\k23}ters
+Dialogue: 0,0:00:57.30,0:00:59.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Di{\k11}gi{\k24}mon {\k26}are {\k22}the {\k27}cham{\k26}pions
+Dialogue: 0,0:00:59.29,0:01:02.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Di{\k25}gi{\k51}mon {\k13}Di{\k12}gi{\k24}tal {\k27}Mons{\k19}ters
+Dialogue: 0,0:01:01.29,0:01:02.91,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Di{\k12}gi{\k25}mon
