@@ -1,0 +1,95 @@
+﻿[Script Info]
+Title: Discotic Night
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+Original Timing: Sinclair
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: TETO,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: UI,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: BOTH,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,BOTH,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:13.74,0:00:14.96,UI,,0,0,0,karaoke,{\k21}ONE {\k23}TWO {\k23}THREE {\k20}S{\k21}TE{\k14}P
+Comment: 0,0:00:14.96,0:00:17.18,UI,,0,0,0,karaoke,{\k19}fun{\k10}de {\k24}mou {\k21}nu{\k21}ke{\k21}da{\k22}se{\k43}nai {\k41}wa
+Comment: 0,0:00:17.17,0:00:18.69,TETO,,0,0,0,karaoke,{\k23}THREE {\k22}FOUR {\k21}FIVE {\k21}bu{\k22}re{\k12}bu{\k31}re
+Comment: 0,0:00:18.69,0:00:20.65,TETO,,0,0,0,karaoke,{\k21}na {\k34}kan{\k33}shou {\k18}do{\k34}sei{\k31}ron {\k25}wa
+Comment: 0,0:00:20.67,0:00:23.83,TETO,,0,0,0,karaoke,{\k39}BRAIN {\k43}BRAIN {\k31}BRAIN {\k32}OU{\k22}T! {\k22\rUI}mi{\k21}to{\k21}me{\k21}na{\k22}i {\k22}DOUB{\k20}T
+Comment: 0,0:00:24.05,0:00:27.46,TETO,,0,0,0,karaoke,{\k43}BRAIN {\k44}BRAIN {\k31}BRAIN {\k32}OU{\k22}T!  {\k32\rBOTH}san{\k32}so {\k11}no{\k10}mi{\k43}kon{\k41}de
+Comment: 0,0:00:27.46,0:00:30.91,UI,,0,0,0,karaoke,{\k33}TIC{\k12}K {\k28}TAC{\k15}K {\k11}ha{\k21}mat{\k52}te {\k22}nu{\k22}ma{\k21}ra{\k22}se{\k13}te {\k20}hai{\k53}te
+Comment: 0,0:00:30.91,0:00:34.14,TETO,,0,0,0,karaoke,{\k21}o{\k21}to{\k22}to {\k20}ga {\k12}suu {\k21}da{\k31}ke {\k22}{\rBOTH}o{\k33}do{\k34}re{\k21}ba {\k42}ii {\k23}jan
+Comment: 0,0:00:34.32,0:00:37.51,UI,,0,0,0,karaoke,{\k26}TIC{\k18}K {\k24}TAC{\k16}K {\k5}ha{\k6}ya{\k8}ku {\k16}shi{\k55}te! {\k19}S{\k23}C{\k22}RO{\k18}L{\k14}L {\k20}shi{\k29}te
+Comment: 0,0:00:37.76,0:00:40.73,UI,,0,0,0,karaoke,{\k22}mi{\k22}ta{\k22}ku{\k17}na{\k26}i {\k21}no {\k21}wa {\k21\rBOTH}B{\k31}LO{\k28}CK {\k24}shi{\k42}te
+Comment: 0,0:00:41.14,0:00:42.77,BOTH,,0,0,0,karaoke,{\k20}DIS{\k22}CO{\k19}THE{\k22}QUE {\k40}NIGH{\k40}T
+Comment: 0,0:00:42.79,0:00:44.45,BOTH,,0,0,0,karaoke,{\k9}ki{\k14}mi {\k11}ga {\k27}mou {\k21}i{\k43}nai {\k41}to
+Comment: 0,0:00:44.45,0:00:47.75,BOTH,,0,0,0,karaoke,{\k62}DAN{\k19}CE {\k64}DAN{\k18}CE {\k22}o{\k20}do{\k21}re{\k21}na{\k42}i {\k41}no
+Comment: 0,0:00:47.75,0:00:49.40,BOTH,,0,0,0,karaoke,{\k20}DIS{\k11}CO{\k32}THE{\k20}QUE {\k40}NIGH{\k42}T
+Comment: 0,0:00:49.40,0:00:50.85,BOTH,,0,0,0,karaoke,{\k22}no{\k21}u{\k17}nai {\k25}wa {\k40}"ai" {\k20}to
+Comment: 0,0:00:51.06,0:00:54.37,BOTH,,0,0,0,karaoke,{\k32}kan{\k30}chi{\k22}ga{\k39}i {\k23}wa {\k40\rUI}mo{\k21}u {\k20}ya{\k22}me{\k82}te
+Comment: 0,0:01:01.22,0:01:02.93,TETO,,0,0,0,karaoke,{\k22}dai{\k11}su{\k12}ki {\k20}no {\k11}hyo{\k8}u{\k15}kae{\k19}shi {\k11}mu{\k23}kan{\k20}shin
+Comment: 0,0:01:02.93,0:01:04.65,TETO,,0,0,0,karaoke,{\k23}mou{\k21}ma{\k20}ku {\k12}ya{\k9}ki{\k10}tsu{\k14}ku {\k8}ho{\k12}do {\k21}kan{\k21}shi
+Comment: 0,0:01:04.67,0:01:06.38,UI,,0,0,0,karaoke,{\k19}mou{\k12}mo{\k12}ku {\k20}ni {\k22}oi{\k9}tsu{\k12}zu{\k10}ke{\k12}ru {\k20}DAN{\k23}CING
+Comment: 0,0:01:06.38,0:01:07.70,BOTH,,0,0,0,karaoke,{\k20}o{\k23}do{\k21}ri{\k20}ma{\k48}shou
+Comment: 0,0:01:08.07,0:01:11.32,TETO,,0,0,0,karaoke,{\k45}BRAIN {\k43}BRAIN {\k31}BRAIN {\k33}OU{\k21}T!  {\k22}{\rUI}ki{\k21}ko{\k22}e{\k10}na{\k31}i {\k23}SHOU{\k23}T
+Comment: 0,0:01:11.48,0:01:14.97,TETO,,0,0,0,karaoke,{\k44}BRAIN {\k43}BRAIN {\k33}BRAIN {\k32}OU{\k24}T!  {\k29\rBOTH}tan{\k32}so {\k14}no{\k11}mi{\k20}ho{\k22}shi{\k45}te
+Comment: 0,0:01:14.97,0:01:18.17,BOTH,,0,0,0,karaoke,{\k27}TIC{\k13}K {\k30}TAC{\k13}K {\k12}ba{\k20}zut{\k54}te {\k22\rTETO}ha{\k21}ya{\k23}ra{\k19}se{\k14}te {\k8}a{\k11}ki{\k33}te
+Comment: 0,0:01:18.34,0:01:21.78,UI,,0,0,0,karaoke,{\k25}hi{\k21}to {\k21}no {\k23}ka{\k9}zu {\k22}da{\k32}ke {\k22\rBOTH}o{\k33}do{\k31}re{\k23}ba {\k42}ii {\k40}jan
+Comment: 0,0:01:21.78,0:01:25.03,BOTH,,0,0,0,karaoke,{\k32}TAC{\k12}K {\k24}TAC{\k8}K {\k10}ha{\k13}ya{\k11}ku {\k11}shi{\k53}te! {\k19}S{\k23}C{\k22}RO{\k18}L{\k14}L {\k20}shi{\k29}te
+Comment: 0,0:01:25.23,0:01:28.28,TETO,,0,0,0,karaoke,{\k22}mi{\k22}to{\k20}me{\k27}na {\k17}i{\k21}no {\k22}wa {\k18}{\rBOTH}B{\k36}LO{\k32}CK {\k20}shi{\k48}te
+Comment: 0,0:01:30.36,0:01:31.86,UI,,0,0,0,karaoke,{\k25}DIS{\k10}CO{\k33}THE{\k19}QUE {\k44}NIGH{\k19}T
+Comment: 0,0:01:32.09,0:01:33.79,UI,,0,0,0,karaoke,{\k11}ki{\k12}mi {\k20}ga {\k22}mi{\k20}e{\k44}nai {\k41}to
+Comment: 0,0:01:33.79,0:01:37.24,UI,,0,0,0,karaoke,{\k64}DAN{\k24}CE {\k62}DAN{\k21}CE {\k24}o{\k20}do{\k22}re{\k20}na{\k45}i {\k43}no
+Comment: 0,0:01:37.24,0:01:38.94,BOTH,,0,0,0,karaoke,{\k20}DIS{\k22}CO{\k22}THE{\k21}QUE {\k41}NIGH{\k44}T
+Comment: 0,0:01:38.94,0:01:40.66,BOTH,,0,0,0,karaoke,{\k34}HEAR{\k32}T {\k21}wa {\k42}ai {\k43}to
+Comment: 0,0:01:40.66,0:01:43.67,UI,,0,0,0,karaoke,{\k34}kan{\k30}chi{\k22}ga{\k42}i {\k23}wa {\k42}mo{\k19}u {\k24}ya{\k22}me{\k43}te
+Comment: 0,0:01:47.40,0:01:48.86,BOTH,,0,0,0,karaoke,{\k20}DIS{\k22}CO{\k19}THE{\k22}QUE {\k40}NIGH{\k40}T
+Comment: 0,0:01:49.00,0:01:50.71,BOTH,,0,0,0,karaoke,{\k9}ki{\k14}mi {\k11}ga {\k34}mou {\k21}i{\k41}nai {\k41}to
+Comment: 0,0:01:50.71,0:01:54.03,BOTH,,0,0,0,karaoke,{\k64}DAN{\k19}CE {\k62}DAN{\k21}CE {\k20}o{\k21}do{\k20}re{\k22}na{\k41}i {\k42}no
+Comment: 0,0:01:54.03,0:01:55.70,BOTH,,0,0,0,karaoke,{\k20}DIS{\k22}CO{\k19}THE{\k22}QUE {\k40}NIGH{\k40}T
+Comment: 0,0:01:55.70,0:01:57.32,BOTH,,0,0,0,karaoke,{\k25}ho{\k35}re {\k25}wa {\k36}"ai" {\k41}to
+Comment: 0,0:01:57.32,0:02:00.23,BOTH,,0,0,0,karaoke,{\k34}kan{\k30}chi{\k22}ga{\k39}i {\k21}wa {\k42}mo{\k19}u {\k22}ya{\k21}me{\k41}te
+Dialogue: 0,0:00:12.84,0:00:15.16,UI,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ONE {\k23}TWO {\k23}THREE {\k20}S{\k21}TE{\k14}P
+Dialogue: 0,0:00:14.06,0:00:17.38,UI,,0,0,0,fx,{\k90\fad(300,200)}{\k19}fun{\k10}de {\k24}mou {\k21}nu{\k21}ke{\k21}da{\k22}se{\k43}nai {\k41}wa
+Dialogue: 0,0:00:16.27,0:00:18.89,TETO,,0,0,0,fx,{\k90\fad(300,200)}{\k23}THREE {\k22}FOUR {\k21}FIVE {\k21}bu{\k22}re{\k12}bu{\k31}re
+Dialogue: 0,0:00:17.79,0:00:20.85,TETO,,0,0,0,fx,{\k90\fad(300,200)}{\k21}na {\k34}kan{\k33}shou {\k18}do{\k34}sei{\k31}ron {\k25}wa
+Dialogue: 0,0:00:19.77,0:00:24.03,TETO,,0,0,0,fx,{\k90\fad(300,200)}{\k39}BRAIN {\k43}BRAIN {\k31}BRAIN {\k32}OU{\k22}T! {\k22\rUI}mi{\k21}to{\k21}me{\k21}na{\k22}i {\k22}DOUB{\k20}T
+Dialogue: 0,0:00:23.15,0:00:27.66,TETO,,0,0,0,fx,{\k90\fad(300,200)}{\k43}BRAIN {\k44}BRAIN {\k31}BRAIN {\k32}OU{\k22}T!  {\k32\rBOTH}san{\k32}so {\k11}no{\k10}mi{\k43}kon{\k41}de
+Dialogue: 0,0:00:26.56,0:00:31.11,UI,,0,0,0,fx,{\k90\fad(300,200)}{\k33}TIC{\k12}K {\k28}TAC{\k15}K {\k11}ha{\k21}mat{\k52}te {\k22}nu{\k22}ma{\k21}ra{\k22}se{\k13}te {\k20}hai{\k53}te
+Dialogue: 0,0:00:30.01,0:00:34.34,TETO,,0,0,0,fx,{\k90\fad(300,200)}{\k21}o{\k21}to{\k22}to {\k20}ga {\k12}suu {\k21}da{\k31}ke {\k22}{\rBOTH}o{\k33}do{\k34}re{\k21}ba {\k42}ii {\k23}jan
+Dialogue: 0,0:00:33.42,0:00:37.71,UI,,0,0,0,fx,{\k90\fad(300,200)}{\k26}TIC{\k18}K {\k24}TAC{\k16}K {\k5}ha{\k6}ya{\k8}ku {\k16}shi{\k55}te! {\k19}S{\k23}C{\k22}RO{\k18}L{\k14}L {\k20}shi{\k29}te
+Dialogue: 0,0:00:36.86,0:00:40.93,UI,,0,0,0,fx,{\k90\fad(300,200)}{\k22}mi{\k22}ta{\k22}ku{\k17}na{\k26}i {\k21}no {\k21}wa {\k21\rBOTH}B{\k31}LO{\k28}CK {\k24}shi{\k42}te
+Dialogue: 0,0:00:40.24,0:00:42.97,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k20}DIS{\k22}CO{\k19}THE{\k22}QUE {\k40}NIGH{\k40}T
+Dialogue: 0,0:00:41.89,0:00:44.65,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k9}ki{\k14}mi {\k11}ga {\k27}mou {\k21}i{\k43}nai {\k41}to
+Dialogue: 0,0:00:43.55,0:00:47.95,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k62}DAN{\k19}CE {\k64}DAN{\k18}CE {\k22}o{\k20}do{\k21}re{\k21}na{\k42}i {\k41}no
+Dialogue: 0,0:00:46.85,0:00:49.60,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k20}DIS{\k11}CO{\k32}THE{\k20}QUE {\k40}NIGH{\k42}T
+Dialogue: 0,0:00:48.50,0:00:51.05,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k22}no{\k21}u{\k17}nai {\k25}wa {\k40}"ai" {\k20}to
+Dialogue: 0,0:00:50.16,0:00:54.57,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k32}kan{\k30}chi{\k22}ga{\k39}i {\k23}wa {\k40\rUI}mo{\k21}u {\k20}ya{\k22}me{\k82}te
+Dialogue: 0,0:01:00.32,0:01:03.13,TETO,,0,0,0,fx,{\k90\fad(300,200)}{\k22}dai{\k11}su{\k12}ki {\k20}no {\k11}hyo{\k8}u{\k15}kae{\k19}shi {\k11}mu{\k23}kan{\k20}shin
+Dialogue: 0,0:01:02.03,0:01:04.85,TETO,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mou{\k21}ma{\k20}ku {\k12}ya{\k9}ki{\k10}tsu{\k14}ku {\k8}ho{\k12}do {\k21}kan{\k21}shi
+Dialogue: 0,0:01:03.77,0:01:06.58,UI,,0,0,0,fx,{\k90\fad(300,200)}{\k19}mou{\k12}mo{\k12}ku {\k20}ni {\k22}oi{\k9}tsu{\k12}zu{\k10}ke{\k12}ru {\k20}DAN{\k23}CING
+Dialogue: 0,0:01:05.48,0:01:07.90,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k20}o{\k23}do{\k21}ri{\k20}ma{\k48}shou
+Dialogue: 0,0:01:07.17,0:01:11.52,TETO,,0,0,0,fx,{\k90\fad(300,200)}{\k45}BRAIN {\k43}BRAIN {\k31}BRAIN {\k33}OU{\k21}T!  {\k22}{\rUI}ki{\k21}ko{\k22}e{\k10}na{\k31}i {\k23}SHOU{\k23}T
+Dialogue: 0,0:01:10.58,0:01:15.17,TETO,,0,0,0,fx,{\k90\fad(300,200)}{\k44}BRAIN {\k43}BRAIN {\k33}BRAIN {\k32}OU{\k24}T!  {\k29\rBOTH}tan{\k32}so {\k14}no{\k11}mi{\k20}ho{\k22}shi{\k45}te
+Dialogue: 0,0:01:14.07,0:01:18.37,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k27}TIC{\k13}K {\k30}TAC{\k13}K {\k12}ba{\k20}zut{\k54}te {\k22\rTETO}ha{\k21}ya{\k23}ra{\k19}se{\k14}te {\k8}a{\k11}ki{\k33}te
+Dialogue: 0,0:01:17.44,0:01:21.98,UI,,0,0,0,fx,{\k90\fad(300,200)}{\k25}hi{\k21}to {\k21}no {\k23}ka{\k9}zu {\k22}da{\k32}ke {\k22\rBOTH}o{\k33}do{\k31}re{\k23}ba {\k42}ii {\k40}jan
+Dialogue: 0,0:01:20.88,0:01:25.23,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k32}TAC{\k12}K {\k24}TAC{\k8}K {\k10}ha{\k13}ya{\k11}ku {\k11}shi{\k53}te! {\k19}S{\k23}C{\k22}RO{\k18}L{\k14}L {\k20}shi{\k29}te
+Dialogue: 0,0:01:24.33,0:01:28.48,TETO,,0,0,0,fx,{\k90\fad(300,200)}{\k22}mi{\k22}to{\k20}me{\k27}na {\k17}i{\k21}no {\k22}wa {\k18}{\rBOTH}B{\k36}LO{\k32}CK {\k20}shi{\k48}te
+Dialogue: 0,0:01:29.46,0:01:32.06,UI,,0,0,0,fx,{\k90\fad(300,200)}{\k25}DIS{\k10}CO{\k33}THE{\k19}QUE {\k44}NIGH{\k19}T
+Dialogue: 0,0:01:31.19,0:01:33.99,UI,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ki{\k12}mi {\k20}ga {\k22}mi{\k20}e{\k44}nai {\k41}to
+Dialogue: 0,0:01:32.89,0:01:37.44,UI,,0,0,0,fx,{\k90\fad(300,200)}{\k64}DAN{\k24}CE {\k62}DAN{\k21}CE {\k24}o{\k20}do{\k22}re{\k20}na{\k45}i {\k43}no
+Dialogue: 0,0:01:36.34,0:01:39.14,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k20}DIS{\k22}CO{\k22}THE{\k21}QUE {\k41}NIGH{\k44}T
+Dialogue: 0,0:01:38.04,0:01:40.86,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k34}HEAR{\k32}T {\k21}wa {\k42}ai {\k43}to
+Dialogue: 0,0:01:39.76,0:01:43.87,UI,,0,0,0,fx,{\k90\fad(300,200)}{\k34}kan{\k30}chi{\k22}ga{\k42}i {\k23}wa {\k42}mo{\k19}u {\k24}ya{\k22}me{\k43}te
+Dialogue: 0,0:01:46.50,0:01:49.06,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k20}DIS{\k22}CO{\k19}THE{\k22}QUE {\k40}NIGH{\k40}T
+Dialogue: 0,0:01:48.10,0:01:50.91,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k9}ki{\k14}mi {\k11}ga {\k34}mou {\k21}i{\k41}nai {\k41}to
+Dialogue: 0,0:01:49.81,0:01:54.23,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k64}DAN{\k19}CE {\k62}DAN{\k21}CE {\k20}o{\k21}do{\k20}re{\k22}na{\k41}i {\k42}no
+Dialogue: 0,0:01:53.13,0:01:55.90,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k20}DIS{\k22}CO{\k19}THE{\k22}QUE {\k40}NIGH{\k40}T
+Dialogue: 0,0:01:54.80,0:01:57.52,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ho{\k35}re {\k25}wa {\k36}"ai" {\k41}to
+Dialogue: 0,0:01:56.42,0:02:00.43,BOTH,,0,0,0,fx,{\k90\fad(300,200)}{\k34}kan{\k30}chi{\k22}ga{\k39}i {\k21}wa {\k42}mo{\k19}u {\k22}ya{\k21}me{\k41}te
