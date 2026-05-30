@@ -1,0 +1,153 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Hooligan
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Up]_kor,Arial,24,&H00FFFFFF,&H00FE9251,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}English {\2cHFFFFFF}| {\rSample KM [Up]_kor}Korean {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:25.25,0:00:28.53,Sample KM [Up],,0,0,0,karaoke,{\k37}Watch {\k29}this {\k36}watch {\k32}this {\k30}beat {\k19}go{\k37}in' {\k31}hoo{\k16}li{\k61}gan
+Comment: 0,0:00:28.81,0:00:32.02,Sample KM [Up],,0,0,0,karaoke,{\k31}We {\k37}pop {\k34}out {\k31}we {\k34}ac{\k29}tin' {\k24}a {\k32}fool {\k14}a{\k55}gain
+Comment: 0,0:00:32.32,0:00:34.40,Sample KM [Choir],,0,0,0,karaoke,{\k16}Ha {\k16}ha {\k16}ha {\k16}ha {\k14}ha {\k15}ha {\k14}ha {\k14}ha {\k13}ha {\k15}ha {\k14}ha {\k19}ha {\k26}ha
+Comment: 0,0:00:34.56,0:00:35.67,Sample KM [Up],,0,0,0,karaoke,{\k33}Hoo{\k14}li{\k64}gan
+Comment: 0,0:00:35.90,0:00:39.08,Sample KM [Up],,0,0,0,karaoke,{\k37}Watch {\k30}this {\k35}watch {\k32}this {\k30}beat {\k34}go{\k25}in' {\k31}hoo{\k13}li{\k51}gan
+Comment: 0,0:00:39.44,0:00:42.64,Sample KM [Up],,0,0,0,karaoke,{\k40}Why {\k29}this {\k34}bass{\k32}line {\k36}slap{\k28}pin' {\k25}so {\kf96}rude
+Comment: 0,0:00:42.96,0:00:48.34,Sample KM [Up],,0,0,0,karaoke,{\k42}Drop {\k30}it {\k33}lo{\k32}wer {\k29}than {\k34}chopped {\k26}and {\kf312}screwed
+Comment: 0,0:00:46.54,0:00:48.61,Sample KM [Choir],,0,0,0,karaoke,{\k16}Ha {\k16}ha {\k16}ha {\k16}ha {\k14}ha {\k15}ha {\k14}ha {\k14}ha {\k13}ha {\k15}ha {\k14}ha {\k19}ha {\k26}ha
+Comment: 0,0:00:48.72,0:00:49.72,Sample KM [Up],,0,0,0,karaoke,{\k36}Hoo{\k12}li{\k52}gan
+Comment: 0,0:00:50.10,0:00:53.18,Sample KM [Up],,0,0,0,karaoke,{\k37}Watch {\k30}this {\k35}watch {\k29}this {\k26}beat {\k42}go{\k20}in' {\k33}hoo{\k16}li{\k40}gan
+Comment: 0,0:00:53.18,0:00:54.69,Sample KM [Up],,0,0,0,karaoke,{\k14}Man {\k19}I'm {\k14}'bout {\k12}to {\k16}blow {\k15}a {\k61}fuse
+Comment: 0,0:00:54.96,0:00:56.32,Sample KM [Up]_kor,,0,0,0,karaoke,{\k17}tong{\k14}je{\k14}bul{\k16}leung {\k11}meo{\k17}ri {\k47}chum
+Comment: 0,0:00:56.30,0:00:56.67,Sample KM [Choir],,0,0,0,karaoke,{\k37}Yeah
+Comment: 0,0:00:56.77,0:00:58.11,Sample KM [Up]_kor,,0,0,0,karaoke,{\k13}ttwi{\k15}eo {\k13}mi{\k14}chin{\k13}no{\k18}min {\k48}deut
+Comment: 0,0:00:58.28,0:01:00.06,Sample KM [Up],,0,0,0,karaoke,{\k27}Me {\k13}eve{\k14}ry{\k40}where {\k33\rSample KM [Up]_kor}eol{\k51}ssu
+Comment: 0,0:01:00.25,0:01:02.07,Sample KM [Up],,0,0,0,karaoke,{\k40}Some{\k15}bo{\k14}dy {\k26}move {\k35}some{\k15}bo{\k13}dy {\k24}move
+Comment: 0,0:01:02.07,0:01:03.49,Sample KM [Up]_kor,,0,0,0,karaoke,{\k18}da{\k15}deul {\k12}mo{\k16}yeo {\k11}ha{\k18}na {\k52}dul
+Comment: 0,0:01:03.86,0:01:05.33,Sample KM [Up],,0,0,0,karaoke,{\k13}I {\k15}can {\k15}ne{\k16}ver {\k14}e{\k16}ver {\k58}choose
+Comment: 0,0:01:05.20,0:01:05.62,Sample KM [Choir],,0,0,0,karaoke,{\k42}Yeah
+Comment: 0,0:01:05.62,0:01:07.14,Sample KM [Up],,0,0,0,karaoke,{\k14}Eve{\k15}ry {\k14}one {\k16}of {\k14}you {\k15}a {\k64}muse
+Comment: 0,0:01:07.37,0:01:09.03,Sample KM [Up],,0,0,0,karaoke,{\k39}Crowd {\k15}loo{\k14}kin' {\k15}like {\k15}a {\k37}cam{\k31}pus
+Comment: 0,0:01:09.22,0:01:10.79,Sample KM [Up],,0,0,0,karaoke,{\k26}Beat {\k33}drop {\k7\rSample KM [Up]_kor}u{\k24}rin {\k38\rSample KM [Up]}dan{\k29}cin'
+Comment: 0,0:01:11.41,0:01:14.54,Sample KM [Up],,0,0,0,karaoke,{\k37}Watch {\k31}this {\k39}watch {\k26}this {\k30}beat {\k35}go{\k19}in' {\k34}hoo{\k15}li{\k47}gan
+Comment: 0,0:01:14.94,0:01:18.09,Sample KM [Up],,0,0,0,karaoke,{\k29}We {\k40}pop {\k40}out {\k25}we {\k32}ac{\k35}tin' {\k22}a {\k32}fool {\k14}a{\k46}gain
+Comment: 0,0:01:18.49,0:01:20.57,Sample KM [Choir],,0,0,0,karaoke,{\k16}Ha {\k16}ha {\k16}ha {\k16}ha {\k14}ha {\k15}ha {\k14}ha {\k14}ha {\k13}ha {\k15}ha {\k14}ha {\k19}ha {\k26}ha
+Comment: 0,0:01:20.67,0:01:21.72,Sample KM [Up],,0,0,0,karaoke,{\k37}Hoo{\k13}li{\k55}gan
+Comment: 0,0:01:22.04,0:01:25.26,Sample KM [Up],,0,0,0,karaoke,{\k38}Watch {\k29}this {\k36}watch {\k28}this {\k27}beat {\k42}go{\k18}in' {\k38}hoo{\k12}li{\k54}gan
+Comment: 0,0:01:25.59,0:01:28.87,Sample KM [Up],,0,0,0,karaoke,{\k39}Why {\k31}this {\k33}bass{\k30}line {\k37}slap{\k29}pin' {\k26}so {\kf103}rude
+Comment: 0,0:01:29.14,0:01:34.35,Sample KM [Up],,0,0,0,karaoke,{\k37}Drop {\k31}it {\k35}lo{\k31}wer {\k23}than {\k43}chopped {\k24}and {\kf297}screwed
+Comment: 0,0:01:32.70,0:01:34.74,Sample KM [Choir],,0,0,0,karaoke,{\k16}Ha {\k16}ha {\k16}ha {\k16}ha {\k14}ha {\k15}ha {\k14}ha {\k14}ha {\k13}ha {\k15}ha {\k14}ha {\k19}ha {\k26}ha
+Comment: 0,0:01:34.92,0:01:36.00,Sample KM [Up],,0,0,0,karaoke,{\k31}Hoo{\k15}li{\k62}gan
+Comment: 0,0:01:36.25,0:01:39.36,Sample KM [Up],,0,0,0,karaoke,{\k38}Watch {\k30}this {\k34}watch {\k32}this {\k33}beat {\k31}go{\k25}in' {\k32}hoo{\k14}li{\k42}gan
+Comment: 0,0:01:39.36,0:01:42.46,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k23}go {\k32}cu{\k32}ckoo {\k44}cra{\k26}zy {\k30}lo{\k30}co {\k41}save {\k31}me
+Comment: 0,0:01:42.92,0:01:46.00,Sample KM [Up],,0,0,0,karaoke,{\k24}Like {\k19}El {\k32}Cu{\k36}cuy {\k33\rSample KM [Up]_kor}gu{\k30}ji {\k27}mal {\k19}an {\k22}hae{\k14}do {\k19}al{\k11}ja{\k22}na
+Comment: 0,0:01:46.42,0:01:48.01,Sample KM [Up],,0,0,0,karaoke,{\k20}Hoo{\k12}li{\k33}gan {\k24}like {\k22}hoo{\k12}li{\k36}gan
+Comment: 0,0:01:48.27,0:01:49.76,Sample KM [Up]_kor,,0,0,0,karaoke,{\k20}ttae{\k15}ryeo {\k17}bus{\k14}weo {\k19\rSample KM [Up]}like {\k21}hoo{\k10}li{\k33}gan
+Comment: 0,0:01:49.98,0:01:51.76,Sample KM [Up]_kor,,0,0,0,karaoke,{\k21}shi{\k13}gan {\k17}dwae{\k14}sseu{\k10}ni {\k16}jom {\k16}bi{\k16}gyeo {\k55}jom
+Comment: 0,0:01:51.76,0:01:53.25,Sample KM [Up],,0,0,0,karaoke,{\k22}All {\k10}c{\k60}lear {\k11\rSample KM [Up]_kor}i{\k20}sang {\k26}mu
+Comment: 0,0:01:55.68,0:01:56.51,Sample KM [Up],,0,0,0,karaoke,{\k33}Take {\k15}you {\k35}out
+Comment: 0,0:01:57.45,0:01:58.25,Sample KM [Up],,0,0,0,karaoke,{\k33}Take {\k14}you {\k33}out
+Comment: 0,0:01:59.22,0:02:00.48,Sample KM [Up],,0,0,0,karaoke,{\k32}What's {\k14}the {\k38}fu{\k42}ture?
+Comment: 0,0:02:01.01,0:02:01.92,Sample KM [Up],,0,0,0,karaoke,{\k32}Where's {\k14}the {\k45}now?
+Comment: 0,0:02:02.34,0:02:05.48,Sample KM [Up],,0,0,0,karaoke,{\k45}This {\k46}is {\k40}in{\k45}ter{\k44}na{\k46}tio{\k48}nal
+Comment: 0,0:02:05.92,0:02:09.13,Sample KM [Up],,0,0,0,karaoke,{\k45}Make {\k43}it {\k43}un{\k47}for{\k45}get{\k42}ta{\k56}ble
+Comment: 0,0:02:10.34,0:02:13.48,Sample KM [Up],,0,0,0,karaoke,{\k38}Watch {\k30}this {\k33}watch {\k33}this {\k32}beat {\k33}go{\k23}in' {\k28}hoo{\k17}li{\k47}gan
+Comment: 0,0:02:13.88,0:02:17.05,Sample KM [Up],,0,0,0,karaoke,{\k32}We {\k36}pop {\k34}out {\k32}we {\k30}ac{\k36}tin' {\k21}a {\k32}fool {\k14}a{\k50}gain
+Comment: 0,0:02:17.41,0:02:19.50,Sample KM [Choir],,0,0,0,karaoke,{\k16}Ha {\k16}ha {\k16}ha {\k16}ha {\k14}ha {\k15}ha {\k14}ha {\k14}ha {\k13}ha {\k15}ha {\k14}ha {\k19}ha {\k26}ha
+Comment: 0,0:02:19.67,0:02:20.66,Sample KM [Up],,0,0,0,karaoke,{\k31}Hoo{\k13}li{\k55}gan
+Comment: 0,0:02:20.98,0:02:24.09,Sample KM [Up],,0,0,0,karaoke,{\k37}Watch {\k33}this {\k33}watch {\k32}this {\k30}beat {\k33}go{\k25}in' {\k31}hoo{\k15}li{\k42}gan
+Comment: 0,0:02:24.09,0:02:24.57,Sample KM [Up],,0,0,0,karaoke,{\k48}Yeah
+Comment: 0,0:02:24.98,0:02:28.08,Sample KM [Up],,0,0,0,karaoke,{\k19}We {\k27}the {\k46}mess {\k19}gon{\k25}na {\k20}get {\k25}a {\k17}big{\k26}ger {\k42}mop {\k44}here
+Comment: 0,0:02:28.56,0:02:31.56,Sample KM [Up],,0,0,0,karaoke,{\k20}This {\k23}that {\k45}K {\k22}got{\k23}ta {\k20}get {\k23}a {\k19}bet{\k25}ter {\k44}pop {\k36}here
+Comment: 0,0:02:31.65,0:02:32.07,Sample KM [Choir],,0,0,0,karaoke,{\k42}Pop
+Comment: 0,0:02:32.10,0:02:33.41,Sample KM [Up],,0,0,0,karaoke,{\k24}You {\k19}gon' {\k18}hear {\k27}this {\k43}one
+Comment: 0,0:02:33.41,0:02:35.17,Sample KM [Up],,0,0,0,karaoke,{\k25}Play{\k22}in' {\k21}round {\k19}the {\k48}clock {\k41}yeah
+Comment: 0,0:02:35.20,0:02:35.62,Sample KM [Choir],,0,0,0,karaoke,{\k42}Clock
+Comment: 0,0:02:35.62,0:02:37.76,Sample KM [Up],,0,0,0,karaoke,{\k22}Round {\k20}the {\k44}clock {\k48}clock {\k43}clock {\k37}clock
+Comment: 0,0:02:38.71,0:02:41.94,Sample KM [Up],,0,0,0,karaoke,{\k43}Why {\k32}this {\k31}bass{\k31}line {\k34}slap{\k31}pin' {\k30}so {\kf91}rude
+Comment: 0,0:02:42.24,0:02:47.63,Sample KM [Up],,0,0,0,karaoke,{\k40}Drop {\k29}it {\k35}lo{\k32}wer {\k28}than {\k35}chopped {\k28}and {\kf312}screwed
+Comment: 0,0:02:45.80,0:02:47.89,Sample KM [Choir],,0,0,0,karaoke,{\k16}Ha {\k16}ha {\k16}ha {\k16}ha {\k14}ha {\k15}ha {\k14}ha {\k14}ha {\k13}ha {\k15}ha {\k14}ha {\k19}ha {\k26}ha
+Comment: 0,0:02:48.07,0:02:49.03,Sample KM [Up],,0,0,0,karaoke,{\k30}Hoo{\k16}li{\k50}gan
+Comment: 0,0:02:49.38,0:02:52.60,Sample KM [Up],,0,0,0,karaoke,{\k37}Watch {\k33}this {\k37}watch {\k29}this {\k30}beat {\k33}go{\k25}in' {\k30}hoo{\k15}li{\k53}gan
+Comment: 0,0:02:52.91,0:02:56.13,Sample KM [Up],,0,0,0,karaoke,{\k38}Why {\k33}this {\k33}bass{\k29}line {\k40}slap{\k29}pin' {\k26}so {\kf94}rude
+Comment: 0,0:02:56.45,0:03:01.83,Sample KM [Up],,0,0,0,karaoke,{\k37}Drop {\k33}it {\k39}lo{\k29}wer {\k27}than {\k39}chopped {\k25}and {\kf309}screwed
+Comment: 0,0:03:00.01,0:03:02.22,Sample KM [Choir],,0,0,0,karaoke,{\k16}Ha {\k16}ha {\k16}ha {\k16}ha {\k14}ha {\k15}ha {\k14}ha {\k14}ha {\k13}ha {\k15}ha {\k14}ha {\k19}ha {\k26}ha
+Comment: 0,0:03:02.24,0:03:03.27,Sample KM [Up],,0,0,0,karaoke,{\k30}Hoo{\k15}li{\k58}gan
+Comment: 0,0:03:03.58,0:03:06.74,Sample KM [Up],,0,0,0,karaoke,{\k39}Watch {\k29}this {\k42}watch {\k27}this {\k29}beat {\k35}go{\k26}in' {\k33}hoo{\k13}li{\k43}gan
+Dialogue: 0,0:00:24.35,0:00:28.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Watch {\k29}this {\k36}watch {\k32}this {\k30}beat {\k19}go{\k37}in' {\k31}hoo{\k16}li{\k61}gan
+Dialogue: 0,0:00:27.91,0:00:32.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}We {\k37}pop {\k34}out {\k31}we {\k34}ac{\k29}tin' {\k24}a {\k32}fool {\k14}a{\k55}gain
+Dialogue: 0,0:00:31.42,0:00:34.60,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ha {\k16}ha {\k16}ha {\k16}ha {\k14}ha {\k15}ha {\k14}ha {\k14}ha {\k13}ha {\k15}ha {\k14}ha {\k19}ha {\k26}ha
+Dialogue: 0,0:00:33.66,0:00:35.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Hoo{\k14}li{\k64}gan
+Dialogue: 0,0:00:35.00,0:00:39.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Watch {\k30}this {\k35}watch {\k32}this {\k30}beat {\k34}go{\k25}in' {\k31}hoo{\k13}li{\k51}gan
+Dialogue: 0,0:00:38.54,0:00:42.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Why {\k29}this {\k34}bass{\k32}line {\k36}slap{\k28}pin' {\k25}so {\kf96}rude
+Dialogue: 0,0:00:42.06,0:00:48.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Drop {\k30}it {\k33}lo{\k32}wer {\k29}than {\k34}chopped {\k26}and {\kf312}screwed
+Dialogue: 0,0:00:45.64,0:00:48.81,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ha {\k16}ha {\k16}ha {\k16}ha {\k14}ha {\k15}ha {\k14}ha {\k14}ha {\k13}ha {\k15}ha {\k14}ha {\k19}ha {\k26}ha
+Dialogue: 0,0:00:47.82,0:00:49.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Hoo{\k12}li{\k52}gan
+Dialogue: 0,0:00:49.20,0:00:53.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Watch {\k30}this {\k35}watch {\k29}this {\k26}beat {\k42}go{\k20}in' {\k33}hoo{\k16}li{\k40}gan
+Dialogue: 0,0:00:52.28,0:00:54.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Man {\k19}I'm {\k14}'bout {\k12}to {\k16}blow {\k15}a {\k61}fuse
+Dialogue: 0,0:00:54.06,0:00:56.52,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k17}tong{\k14}je{\k14}bul{\k16}leung {\k11}meo{\k17}ri {\k47}chum
+Dialogue: 0,0:00:55.40,0:00:56.87,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Yeah
+Dialogue: 0,0:00:55.87,0:00:58.31,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ttwi{\k15}eo {\k13}mi{\k14}chin{\k13}no{\k18}min {\k48}deut
+Dialogue: 0,0:00:57.38,0:01:00.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Me {\k13}eve{\k14}ry{\k40}where {\k33\rSample KM [Up]_kor}eol{\k51}ssu
+Dialogue: 0,0:00:59.35,0:01:02.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Some{\k15}bo{\k14}dy {\k26}move {\k35}some{\k15}bo{\k13}dy {\k24}move
+Dialogue: 0,0:01:01.17,0:01:03.69,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k18}da{\k15}deul {\k12}mo{\k16}yeo {\k11}ha{\k18}na {\k52}dul
+Dialogue: 0,0:01:02.96,0:01:05.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}I {\k15}can {\k15}ne{\k16}ver {\k14}e{\k16}ver {\k58}choose
+Dialogue: 0,0:01:04.30,0:01:05.82,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Yeah
+Dialogue: 0,0:01:04.72,0:01:07.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Eve{\k15}ry {\k14}one {\k16}of {\k14}you {\k15}a {\k64}muse
+Dialogue: 0,0:01:06.47,0:01:09.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Crowd {\k15}loo{\k14}kin' {\k15}like {\k15}a {\k37}cam{\k31}pus
+Dialogue: 0,0:01:08.32,0:01:10.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Beat {\k33}drop {\k7\rSample KM [Up]_kor}u{\k24}rin {\k38\rSample KM [Up]}dan{\k29}cin'
+Dialogue: 0,0:01:10.51,0:01:14.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Watch {\k31}this {\k39}watch {\k26}this {\k30}beat {\k35}go{\k19}in' {\k34}hoo{\k15}li{\k47}gan
+Dialogue: 0,0:01:14.04,0:01:18.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}We {\k40}pop {\k40}out {\k25}we {\k32}ac{\k35}tin' {\k22}a {\k32}fool {\k14}a{\k46}gain
+Dialogue: 0,0:01:17.59,0:01:20.77,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ha {\k16}ha {\k16}ha {\k16}ha {\k14}ha {\k15}ha {\k14}ha {\k14}ha {\k13}ha {\k15}ha {\k14}ha {\k19}ha {\k26}ha
+Dialogue: 0,0:01:19.77,0:01:21.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Hoo{\k13}li{\k55}gan
+Dialogue: 0,0:01:21.14,0:01:25.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Watch {\k29}this {\k36}watch {\k28}this {\k27}beat {\k42}go{\k18}in' {\k38}hoo{\k12}li{\k54}gan
+Dialogue: 0,0:01:24.69,0:01:29.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Why {\k31}this {\k33}bass{\k30}line {\k37}slap{\k29}pin' {\k26}so {\kf103}rude
+Dialogue: 0,0:01:28.24,0:01:34.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Drop {\k31}it {\k35}lo{\k31}wer {\k23}than {\k43}chopped {\k24}and {\kf297}screwed
+Dialogue: 0,0:01:31.80,0:01:34.94,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ha {\k16}ha {\k16}ha {\k16}ha {\k14}ha {\k15}ha {\k14}ha {\k14}ha {\k13}ha {\k15}ha {\k14}ha {\k19}ha {\k26}ha
+Dialogue: 0,0:01:34.02,0:01:36.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Hoo{\k15}li{\k62}gan
+Dialogue: 0,0:01:35.35,0:01:39.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Watch {\k30}this {\k34}watch {\k32}this {\k33}beat {\k31}go{\k25}in' {\k32}hoo{\k14}li{\k42}gan
+Dialogue: 0,0:01:38.46,0:01:42.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k23}go {\k32}cu{\k32}ckoo {\k44}cra{\k26}zy {\k30}lo{\k30}co {\k41}save {\k31}me
+Dialogue: 0,0:01:42.02,0:01:46.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Like {\k19}El {\k32}Cu{\k36}cuy {\k33\rSample KM [Up]_kor}gu{\k30}ji {\k27}mal {\k19}an {\k22}hae{\k14}do {\k19}al{\k11}ja{\k22}na
+Dialogue: 0,0:01:45.52,0:01:48.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Hoo{\k12}li{\k33}gan {\k24}like {\k22}hoo{\k12}li{\k36}gan
+Dialogue: 0,0:01:47.37,0:01:49.96,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ttae{\k15}ryeo {\k17}bus{\k14}weo {\k19\rSample KM [Up]}like {\k21}hoo{\k10}li{\k33}gan
+Dialogue: 0,0:01:49.08,0:01:51.96,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k21}shi{\k13}gan {\k17}dwae{\k14}sseu{\k10}ni {\k16}jom {\k16}bi{\k16}gyeo {\k55}jom
+Dialogue: 0,0:01:50.86,0:01:53.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}All {\k10}c{\k60}lear {\k11\rSample KM [Up]_kor}i{\k20}sang {\k26}mu
+Dialogue: 0,0:01:54.78,0:01:56.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Take {\k15}you {\k35}out
+Dialogue: 0,0:01:56.55,0:01:58.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Take {\k14}you {\k33}out
+Dialogue: 0,0:01:58.32,0:02:00.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}What's {\k14}the {\k38}fu{\k42}ture?
+Dialogue: 0,0:02:00.11,0:02:02.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Where's {\k14}the {\k45}now?
+Dialogue: 0,0:02:01.44,0:02:05.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}This {\k46}is {\k40}in{\k45}ter{\k44}na{\k46}tio{\k48}nal
+Dialogue: 0,0:02:05.02,0:02:09.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Make {\k43}it {\k43}un{\k47}for{\k45}get{\k42}ta{\k56}ble
+Dialogue: 0,0:02:09.44,0:02:13.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Watch {\k30}this {\k33}watch {\k33}this {\k32}beat {\k33}go{\k23}in' {\k28}hoo{\k17}li{\k47}gan
+Dialogue: 0,0:02:12.98,0:02:17.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}We {\k36}pop {\k34}out {\k32}we {\k30}ac{\k36}tin' {\k21}a {\k32}fool {\k14}a{\k50}gain
+Dialogue: 0,0:02:16.51,0:02:19.70,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ha {\k16}ha {\k16}ha {\k16}ha {\k14}ha {\k15}ha {\k14}ha {\k14}ha {\k13}ha {\k15}ha {\k14}ha {\k19}ha {\k26}ha
+Dialogue: 0,0:02:18.77,0:02:20.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Hoo{\k13}li{\k55}gan
+Dialogue: 0,0:02:20.08,0:02:24.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Watch {\k33}this {\k33}watch {\k32}this {\k30}beat {\k33}go{\k25}in' {\k31}hoo{\k15}li{\k42}gan
+Dialogue: 0,0:02:23.19,0:02:24.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Yeah
+Dialogue: 0,0:02:24.08,0:02:28.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}We {\k27}the {\k46}mess {\k19}gon{\k25}na {\k20}get {\k25}a {\k17}big{\k26}ger {\k42}mop {\k44}here
+Dialogue: 0,0:02:27.66,0:02:31.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}This {\k23}that {\k45}K {\k22}got{\k23}ta {\k20}get {\k23}a {\k19}bet{\k25}ter {\k44}pop {\k36}here
+Dialogue: 0,0:02:30.75,0:02:32.27,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Pop
+Dialogue: 0,0:02:31.20,0:02:33.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}You {\k19}gon' {\k18}hear {\k27}this {\k43}one
+Dialogue: 0,0:02:32.51,0:02:35.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Play{\k22}in' {\k21}round {\k19}the {\k48}clock {\k41}yeah
+Dialogue: 0,0:02:34.30,0:02:35.82,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Clock
+Dialogue: 0,0:02:34.72,0:02:37.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Round {\k20}the {\k44}clock {\k48}clock {\k43}clock {\k37}clock
+Dialogue: 0,0:02:37.81,0:02:42.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Why {\k32}this {\k31}bass{\k31}line {\k34}slap{\k31}pin' {\k30}so {\kf91}rude
+Dialogue: 0,0:02:41.34,0:02:47.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Drop {\k29}it {\k35}lo{\k32}wer {\k28}than {\k35}chopped {\k28}and {\kf312}screwed
+Dialogue: 0,0:02:44.90,0:02:48.09,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ha {\k16}ha {\k16}ha {\k16}ha {\k14}ha {\k15}ha {\k14}ha {\k14}ha {\k13}ha {\k15}ha {\k14}ha {\k19}ha {\k26}ha
+Dialogue: 0,0:02:47.17,0:02:49.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Hoo{\k16}li{\k50}gan
+Dialogue: 0,0:02:48.48,0:02:52.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Watch {\k33}this {\k37}watch {\k29}this {\k30}beat {\k33}go{\k25}in' {\k30}hoo{\k15}li{\k53}gan
+Dialogue: 0,0:02:52.01,0:02:56.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Why {\k33}this {\k33}bass{\k29}line {\k40}slap{\k29}pin' {\k26}so {\kf94}rude
+Dialogue: 0,0:02:55.55,0:03:02.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}Drop {\k33}it {\k39}lo{\k29}wer {\k27}than {\k39}chopped {\k25}and {\kf309}screwed
+Dialogue: 0,0:02:59.11,0:03:02.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Ha {\k16}ha {\k16}ha {\k16}ha {\k14}ha {\k15}ha {\k14}ha {\k14}ha {\k13}ha {\k15}ha {\k14}ha {\k19}ha {\k26}ha
+Dialogue: 0,0:03:01.34,0:03:03.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Hoo{\k15}li{\k58}gan
+Dialogue: 0,0:03:02.68,0:03:06.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Watch {\k29}this {\k42}watch {\k27}this {\k29}beat {\k35}go{\k26}in' {\k33}hoo{\k13}li{\k43}gan
