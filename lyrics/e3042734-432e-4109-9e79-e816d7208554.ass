@@ -1,0 +1,190 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Zoo
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,40,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.31,0:00:01.58,Sample KM [Up],,0,0,0,karaoke,{\k10}Come {\k24}on, {\k11}get {\k22}on {\k60}up
+Comment: 0,0:00:02.11,0:00:04.29,Sample KM [Up],,0,0,0,karaoke,{\k12}We're {\k23}wild {\k22}and {\k13}we {\k25}can't {\k21}be {\kf102}tamed
+Comment: 0,0:00:04.45,0:00:05.74,Sample KM [Up],,0,0,0,karaoke,{\k9}And {\k12}we're {\k14}tur{\k9}nin' {\k15}the {\k22}floor {\k14}in{\k34}to
+Comment: 0,0:00:05.89,0:00:07.35,Sample KM [Up],,0,0,0,karaoke,{\k19}A {\k49}zoo, {\k45}ooh, {\k33}ooh
+Comment: 0,0:00:07.39,0:00:10.04,Sample KM [Choir],,0,0,0,karaoke,{\k11}Hop-{\k33}ah, {\k36}ah, {\k22}hop-{\k24}ah, {\k23}hop-{\k23}ah, {\k24}hop-{\k34}ah, {\k35}ah
+Comment: 0,0:00:10.04,0:00:11.90,Sample KM [Choir],,0,0,0,karaoke,{\k24}Hop-{\k22}ah, {\k25}hop-{\k22}ah, {\k23}hop-{\k35}ah, {\k34}ah
+Comment: 0,0:00:11.90,0:00:13.75,Sample KM [Choir],,0,0,0,karaoke,{\k24}Hop-{\k22}ah, {\k23}hop-{\k22}ah, {\k26}hop-{\k34}ah, {\k34}ah
+Comment: 0,0:00:13.75,0:00:14.92,Sample KM [Choir],,0,0,0,karaoke,{\k26}Hop-{\k22}ah, {\k23}hop-{\k26}ah, {\k20}oh
+Comment: 0,0:00:15.18,0:00:18.72,Sample KM [Up],,0,0,0,karaoke,{\k10}We {\k22}live {\k13}in {\k21}a {\k24}cra{\k23}zy {\k40}world,{\k31} {\k12}caught {\k24}up {\k10}in {\k25}a {\k44}rat {\k55}race
+Comment: 0,0:00:18.99,0:00:22.39,Sample KM [Up],,0,0,0,karaoke,{\k36}Con{\k23}crete {\k23}jun{\k23}gle {\k37}life{\k30} {\k14}is {\k21}some{\k25}times {\k15}a {\k44}mad {\k49}place
+Comment: 0,0:00:22.72,0:00:26.13,Sample KM [Up],,0,0,0,karaoke,{\k21}It's {\k14}you {\k23}and {\k24}me {\k22}to{\k24}ge{\k24}ther{\k13} {\k10}at {\k11}the {\k28}end {\k19}of {\k10}a {\k47}wild {\k51}day
+Comment: 0,0:00:26.31,0:00:27.75,Sample KM [Up],,0,0,0,karaoke,{\k13}Don't {\k22}keep {\k13}it {\k23}all {\k22}bot{\k25}tled {\k26}up
+Comment: 0,0:00:28.18,0:00:29.69,Sample KM [Up],,0,0,0,karaoke,{\k11}And {\k23}re{\k22}lease {\k15}your {\k23}e{\k21}ner{\k36}gy
+Comment: 0,0:00:29.80,0:00:31.17,Sample KM [Up],,0,0,0,karaoke,{\k71}Hey, {\k22}oh-{\k44}ayy
+Comment: 0,0:00:31.43,0:00:34.85,Sample KM [Up],,0,0,0,karaoke,{\k9}On{\k14}ly {\k23}rea{\k25}son {\k22}we {\k22}are {\k25}here {\k23}is {\k24}to {\k91}ce{\k24}le{\k40}brate
+Comment: 0,0:00:35.16,0:00:38.52,Sample KM [Up],,0,0,0,karaoke,{\k9}In {\k14}a {\k21}place {\k27}where {\k23}a{\k20}ny{\k24}one {\k24}can {\k24}be {\k92}a{\k23}ny{\k35}thing
+Comment: 0,0:00:38.87,0:00:42.38,Sample KM [Up],,0,0,0,karaoke,{\k11}Hold {\k13}on {\k23}to {\k24}this {\k23}mo{\k24}ment, {\k23}don't {\k22}let {\k24}it {\k93}fade {\k21}a{\k50}way
+Comment: 0,0:00:42.59,0:00:44.51,Sample KM [Up],,0,0,0,karaoke,{\k11}Ba{\k16}by, {\k23}keep {\k22}the {\k24}mu{\k23}sic {\k45}pla{\k28}yin'
+Comment: 0,0:00:44.87,0:00:46.42,Sample KM [Up],,0,0,0,karaoke,{\k16}Come {\k23}on, {\k13}get {\k24}on {\k79}up
+Comment: 0,0:00:46.77,0:00:48.87,Sample KM [Up],,0,0,0,karaoke,{\k13}We're {\k22}wild {\k23}and {\k12}we {\k25}can't {\k20}be {\k95}tamed
+Comment: 0,0:00:49.11,0:00:50.34,Sample KM [Up],,0,0,0,karaoke,{\k9}And {\k13}we're {\k12}tur{\k11}nin' {\k12}the {\k20}floor {\k14}in{\k32}to
+Comment: 0,0:00:50.52,0:00:52.08,Sample KM [Up],,0,0,0,karaoke,{\k21}A {\k46}zoo, {\k47}ooh, {\k42}ooh
+Comment: 0,0:00:52.34,0:00:53.72,Sample KM [Up],,0,0,0,karaoke,{\k14}Come {\k22}on, {\k13}keep {\k23}it {\k66}up
+Comment: 0,0:00:54.19,0:00:56.27,Sample KM [Up],,0,0,0,karaoke,{\k14}It's {\k25}fun {\k20}if {\k13}you're {\k23}down {\k22}to {\k91}play
+Comment: 0,0:00:56.54,0:00:57.76,Sample KM [Up],,0,0,0,karaoke,{\k10}And {\k12}we're {\k12}tur{\k10}nin' {\k15}the {\k21}floor {\k12}in{\k30}to
+Comment: 0,0:00:57.95,0:00:59.50,Sample KM [Up],,0,0,0,karaoke,{\k21}A {\k47}zoo, {\k47}ooh, {\k40}ooh
+Comment: 0,0:00:59.57,0:01:02.13,Sample KM [Choir],,0,0,0,karaoke,{\k36}Hop-{\k34}ah, {\k23}hop-{\k23}ah, {\k24}hop-{\k25}ah, {\k21}hop-{\k36}ah, {\k34}ah
+Comment: 0,0:01:02.13,0:01:03.99,Sample KM [Choir],,0,0,0,karaoke,{\k24}Hop-{\k22}ah, {\k25}hop-{\k24}ah, {\k22}hop-{\k35}ah, {\k34}ah
+Comment: 0,0:01:03.99,0:01:05.85,Sample KM [Choir],,0,0,0,karaoke,{\k24}Hop-{\k22}ah, {\k23}hop-{\k26}ah, {\k22}hop-{\k34}ah, {\k35}ah
+Comment: 0,0:01:05.40,0:01:06.96,Sample KM [Up],,0,0,0,karaoke,{\k21}A {\k47}zoo, {\k47}ooh, {\k41}ooh
+Comment: 0,0:01:05.86,0:01:07.20,Sample KM [Choir],,0,0,0,karaoke,{\k24}Hop-{\k22}ah, {\k23}hop-{\k25}ah, {\k40}oh
+Comment: 0,0:01:07.25,0:01:10.79,Sample KM [Up],,0,0,0,karaoke,{\k14}We {\k19}live {\k11}in {\k26}a {\k22}hea{\k22}ted {\k45}time,{\k36} {\k28}no {\k22}chance {\k11}to {\k46}cool {\k52}down
+Comment: 0,0:01:10.95,0:01:14.46,Sample KM [Up],,0,0,0,karaoke,{\k15}Con{\k19}ti{\k14}nu{\k23}ous{\k24}ly {\k23}con{\k50}fined,{\k18} {\k13}and {\k25}what {\k22}do {\k11}we {\k46}do {\k48}now?
+Comment: 0,0:01:14.71,0:01:16.54,Sample KM [Up],,0,0,0,karaoke,{\k9}It's {\k23}all {\k11}a{\k25}bout {\k24}fin{\k24}ding {\k67}love
+Comment: 0,0:01:16.54,0:01:18.18,Sample KM [Up],,0,0,0,karaoke,{\k11}Some{\k24}times {\k25}hard {\k10}to {\k47}come {\k47}by
+Comment: 0,0:01:18.53,0:01:21.81,Sample KM [Up],,0,0,0,karaoke,{\k27}But {\k8}when {\k21}it {\k25}comes {\k24}to {\k44}us,{\k25} {\k12}it's {\k22}al{\k22}ways {\k14}a {\k44}good {\k40}time
+Comment: 0,0:01:21.89,0:01:23.20,Sample KM [Up],,0,0,0,karaoke,{\k71}Hey, {\k21}oh-{\k39}ayy
+Comment: 0,0:01:23.53,0:01:26.93,Sample KM [Up],,0,0,0,karaoke,{\k9}On{\k13}ly {\k23}rea{\k24}son {\k24}we {\k22}are {\k24}here {\k22}is {\k28}to {\k91}ce{\k22}le{\k38}brate
+Comment: 0,0:01:27.23,0:01:30.73,Sample KM [Up],,0,0,0,karaoke,{\k11}In {\k13}a {\k23}place {\k25}where {\k23}a{\k23}ny{\k23}one {\k24}can {\k24}be {\k92}a{\k23}ny{\k46}thing
+Comment: 0,0:01:30.99,0:01:34.46,Sample KM [Up],,0,0,0,karaoke,{\k9}Hold {\k15}on {\k23}to {\k22}this {\k23}mo{\k23}ment, {\k22}don't {\k24}let {\k25}it {\k91}fade {\k21}a{\k49}way
+Comment: 0,0:01:34.69,0:01:36.60,Sample KM [Up],,0,0,0,karaoke,{\k11}Ba{\k14}by, {\k22}keep {\k25}the {\k24}mu{\k20}sic {\k48}pla{\k27}yin'
+Comment: 0,0:01:37.01,0:01:38.57,Sample KM [Up],,0,0,0,karaoke,{\k13}Come {\k24}on, {\k11}get {\k23}on {\k85}up
+Comment: 0,0:01:38.88,0:01:40.95,Sample KM [Up],,0,0,0,karaoke,{\k12}We're {\k24}wild {\k21}and {\k13}we {\k23}can't {\k22}be {\k92}tamed
+Comment: 0,0:01:41.20,0:01:42.45,Sample KM [Up],,0,0,0,karaoke,{\k8}And {\k14}we're {\k12}tur{\k9}nin' {\k13}the {\k25}floor {\k12}in{\k32}to
+Comment: 0,0:01:42.60,0:01:44.14,Sample KM [Up],,0,0,0,karaoke,{\k21}A {\k48}zoo, {\k47}ooh, {\k38}ooh
+Comment: 0,0:01:44.41,0:01:45.95,Sample KM [Up],,0,0,0,karaoke,{\k16}Come {\k22}on, {\k13}keep {\k24}it {\k79}up
+Comment: 0,0:01:46.32,0:01:48.40,Sample KM [Up],,0,0,0,karaoke,{\k12}It's {\k26}fun {\k20}if {\k12}you're {\k23}down {\k23}to {\k92}play
+Comment: 0,0:01:48.63,0:01:49.85,Sample KM [Up],,0,0,0,karaoke,{\k12}And {\k11}we're {\k15}tur{\k9}nin' {\k12}the {\k25}floor {\k13}in{\k25}to
+Comment: 0,0:01:50.04,0:01:51.62,Sample KM [Up],,0,0,0,karaoke,{\k21}A {\k49}zoo, {\k47}ooh, {\k41}ooh
+Comment: 0,0:01:51.67,0:01:54.23,Sample KM [Choir],,0,0,0,karaoke,{\k36}Hop-{\k34}ah, {\k23}hop-{\k23}ah, {\k24}hop-{\k25}ah, {\k21}hop-{\k36}ah, {\k34}ah
+Comment: 0,0:01:53.74,0:01:55.39,Sample KM [Up],,0,0,0,karaoke,{\k24}A {\k48}zoo, {\k47}ooh, {\k46}ooh
+Comment: 0,0:01:54.22,0:01:56.08,Sample KM [Choir],,0,0,0,karaoke,{\k24}Hop-{\k22}ah, {\k25}hop-{\k24}ah, {\k22}hop-{\k35}ah, {\k34}ah
+Comment: 0,0:01:56.08,0:01:57.95,Sample KM [Choir],,0,0,0,karaoke,{\k24}Hop-{\k24}ah, {\k23}hop-{\k26}ah, {\k21}hop-{\k34}ah, {\k35}ah
+Comment: 0,0:01:57.48,0:01:59.09,Sample KM [Up],,0,0,0,karaoke,{\k23}A {\k47}zoo, {\k46}ooh, {\k45}ooh
+Comment: 0,0:01:57.95,0:01:59.81,Sample KM [Choir],,0,0,0,karaoke,{\k24}Hop-{\k22}ah, {\k23}hop-{\k25}ah, {\k22}hop-{\k35}ah,{\k35} ah
+Comment: 0,0:01:59.81,0:02:01.68,Sample KM [Choir],,0,0,0,karaoke,{\k23}Hop-{\k23}ah, {\k24}hop-{\k25}ah, {\k21}hop-{\k36}ah, {\k35}ah
+Comment: 0,0:02:01.19,0:02:02.83,Sample KM [Up],,0,0,0,karaoke,{\k24}A {\k47}zoo, {\k47}ooh, {\k46}ooh
+Comment: 0,0:02:01.68,0:02:03.52,Sample KM [Choir],,0,0,0,karaoke,{\k23}Hop-{\k22}ah, {\k25}hop-{\k23}ah, {\k22}hop-{\k35}ah, {\k34}ah
+Comment: 0,0:02:03.52,0:02:05.40,Sample KM [Choir],,0,0,0,karaoke,{\k24}Hop-{\k23}ah, {\k23}hop-{\k26}ah, {\k22}hop-{\k34}ah, {\k36}ah
+Comment: 0,0:02:04.94,0:02:06.57,Sample KM [Up],,0,0,0,karaoke,{\k22}A {\k47}zoo, {\k46}ooh, {\k48}ooh
+Comment: 0,0:02:05.40,0:02:06.57,Sample KM [Choir],,0,0,0,karaoke,{\k24}Hop-{\k22}ah, {\k23}hop-{\k25}ah, {\k40}oh
+Comment: 0,0:02:07.27,0:02:10.93,Sample KM [Up],,0,0,0,karaoke,{\k23}I'll {\k22}take {\k22}you {\k25}hi{\k91}gher, {\k24}I'll {\k23}take {\k21}you {\k34}hi{\k81}gher
+Comment: 0,0:02:11.19,0:02:14.07,Sample KM [Up],,0,0,0,karaoke,{\k19}We {\k27}can't {\k22}be {\k61}tamed, {\k22}ba{\k15}by, {\k20}I'll {\k22}take {\k22}you {\k26}hi{\k32}gher
+Comment: 0,0:02:14.68,0:02:18.08,Sample KM [Up],,0,0,0,karaoke,{\k24}I'll {\k22}take {\k22}you {\k26}hi{\k63}gher,{\k29} {\k25}I'll {\k24}take {\k20}you {\k32}hi{\k53}gher
+Comment: 0,0:02:18.45,0:02:21.55,Sample KM [Up],,0,0,0,karaoke,{\k22}And {\k19}we {\k23}can't {\k22}be {\k62}tamed, {\k23}ba{\k12}by, {\k21}I'll {\k23}take {\k24}you {\k25}hi{\k34}gher
+Comment: 0,0:02:22.35,0:02:25.50,Sample KM [Up],,0,0,0,karaoke,{\k23}Es {\k24}u{\k24}na {\k36}fies{\k22}ta {\k24}que {\k12}su{\k23}be {\k23}co{\k24}mo {\k8}la {\k17}es{\k32}pu{\k23}ma
+Comment: 0,0:02:25.50,0:02:28.91,Sample KM [Up],,0,0,0,karaoke,{\k21}Yo {\k14}por {\k14}ti {\k11}i{\k8}ré {\k13}has{\k24}ta {\k25}la {\k35}lu{\k21}na {\k25}de {\k10}i{\k11}da {\k13}y {\k46}vuel{\k50}ta
+Comment: 0,0:02:29.82,0:02:32.93,Sample KM [Up],,0,0,0,karaoke,{\k21}Es {\k24}u{\k24}na {\k36}fies{\k22}ta {\k21}que {\k12}su{\k23}be {\k25}co{\k22}mo {\k8}la {\k17}es{\k33}pu{\k23}ma
+Comment: 0,0:02:32.93,0:02:36.32,Sample KM [Up],,0,0,0,karaoke,{\k23}Yo {\k14}por {\k14}ti {\k10}i{\k8}ré {\k13}has{\k24}ta {\k25}la {\k35}lu{\k21}na {\k22}de {\k13}i{\k11}da {\k13}y {\k46}vuel{\k47}ta
+Comment: 0,0:02:36.49,0:02:38.08,Sample KM [Up],,0,0,0,karaoke,{\k18}Come {\k23}on, {\k12}get {\k23}on {\k83}up
+Comment: 0,0:02:38.39,0:02:40.49,Sample KM [Up],,0,0,0,karaoke,{\k14}We're {\k21}wild {\k21}and {\k12}we {\k26}can't {\k20}be {\k96}tamed
+Comment: 0,0:02:40.74,0:02:41.94,Sample KM [Up],,0,0,0,karaoke,{\k9}And {\k12}we're {\k14}tur{\k9}nin' {\k12}the {\k23}floor {\k15}in{\k26}to
+Comment: 0,0:02:42.14,0:02:43.69,Sample KM [Up],,0,0,0,karaoke,{\k21}A {\k47}zoo, {\k49}ooh, {\k38}ooh
+Comment: 0,0:02:43.97,0:02:45.41,Sample KM [Up],,0,0,0,karaoke,{\k14}Come {\k22}on, {\k13}keep {\k23}it {\k72}up
+Comment: 0,0:02:45.83,0:02:47.94,Sample KM [Up],,0,0,0,karaoke,{\k12}It's {\k26}fun {\k20}if {\k13}you're {\k23}down {\k24}to {\k93}play
+Comment: 0,0:02:48.18,0:02:49.35,Sample KM [Up],,0,0,0,karaoke,{\k11}And {\k11}we're {\k13}tur{\k10}nin' {\k13}the {\k23}floor {\k11}in{\k25}to
+Comment: 0,0:02:49.58,0:02:51.10,Sample KM [Up],,0,0,0,karaoke,{\k22}A {\k47}zoo, {\k46}ooh, {\k37}ooh
+Comment: 0,0:02:51.44,0:02:52.80,Sample KM [Up],,0,0,0,karaoke,{\k15}Come {\k24}on, {\k10}get {\k23}on {\k64}up
+Comment: 0,0:02:53.31,0:02:55.41,Sample KM [Up],,0,0,0,karaoke,{\k14}We're {\k24}wild {\k19}and {\k13}we {\k25}can't {\k21}be {\k94}tamed
+Comment: 0,0:02:55.63,0:02:56.85,Sample KM [Up],,0,0,0,karaoke,{\k8}And {\k12}we're {\k14}tur{\k9}nin' {\k14}the {\k24}floor {\k12}in{\k29}to
+Comment: 0,0:02:57.03,0:02:58.55,Sample KM [Up],,0,0,0,karaoke,{\k20}A {\k49}zoo, {\k46}ooh, {\k37}ooh
+Comment: 0,0:02:58.85,0:03:00.26,Sample KM [Up],,0,0,0,karaoke,{\k12}Come {\k23}on, {\k14}keep {\k24}it {\k68}up
+Comment: 0,0:03:00.73,0:03:02.78,Sample KM [Up],,0,0,0,karaoke,{\k12}It's {\k26}fun {\k20}if {\k12}you're {\k23}down {\k24}to {\k88}play
+Comment: 0,0:03:03.06,0:03:04.34,Sample KM [Up],,0,0,0,karaoke,{\k12}And {\k10}we're {\k17}tur{\k8}nin' {\k11}the {\k22}floor {\k15}in{\k33}to
+Comment: 0,0:03:04.46,0:03:06.04,Sample KM [Up],,0,0,0,karaoke,{\k21}A {\k50}zoo, {\k47}ooh, {\k40}ooh
+Dialogue: 0,0:00:00.00,0:00:01.78,Sample KM [Up],,0,0,0,fx,{\k31\fad(310,200)}{\k10}Come {\k24}on, {\k11}get {\k22}on {\k60}up
+Dialogue: 0,0:00:01.21,0:00:04.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}We're {\k23}wild {\k22}and {\k13}we {\k25}can't {\k21}be {\kf102}tamed
+Dialogue: 0,0:00:03.55,0:00:05.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}And {\k12}we're {\k14}tur{\k9}nin' {\k15}the {\k22}floor {\k14}in{\k34}to
+Dialogue: 0,0:00:04.99,0:00:07.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}A {\k49}zoo, {\k45}ooh, {\k33}ooh
+Dialogue: 0,0:00:06.49,0:00:10.24,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Hop-{\k33}ah, {\k36}ah, {\k22}hop-{\k24}ah, {\k23}hop-{\k23}ah, {\k24}hop-{\k34}ah, {\k35}ah
+Dialogue: 0,0:00:09.14,0:00:12.10,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hop-{\k22}ah, {\k25}hop-{\k22}ah, {\k23}hop-{\k35}ah, {\k34}ah
+Dialogue: 0,0:00:11.00,0:00:13.95,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hop-{\k22}ah, {\k23}hop-{\k22}ah, {\k26}hop-{\k34}ah, {\k34}ah
+Dialogue: 0,0:00:12.85,0:00:15.12,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Hop-{\k22}ah, {\k23}hop-{\k26}ah, {\k20}oh
+Dialogue: 0,0:00:14.28,0:00:18.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}We {\k22}live {\k13}in {\k21}a {\k24}cra{\k23}zy {\k40}world,{\k31} {\k12}caught {\k24}up {\k10}in {\k25}a {\k44}rat {\k55}race
+Dialogue: 0,0:00:18.09,0:00:22.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Con{\k23}crete {\k23}jun{\k23}gle {\k37}life{\k30} {\k14}is {\k21}some{\k25}times {\k15}a {\k44}mad {\k49}place
+Dialogue: 0,0:00:21.82,0:00:26.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}It's {\k14}you {\k23}and {\k24}me {\k22}to{\k24}ge{\k24}ther{\k13} {\k10}at {\k11}the {\k28}end {\k19}of {\k10}a {\k47}wild {\k51}day
+Dialogue: 0,0:00:25.41,0:00:27.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Don't {\k22}keep {\k13}it {\k23}all {\k22}bot{\k25}tled {\k26}up
+Dialogue: 0,0:00:27.28,0:00:29.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}And {\k23}re{\k22}lease {\k15}your {\k23}e{\k21}ner{\k36}gy
+Dialogue: 0,0:00:28.90,0:00:31.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Hey, {\k22}oh-{\k44}ayy
+Dialogue: 0,0:00:30.53,0:00:35.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}On{\k14}ly {\k23}rea{\k25}son {\k22}we {\k22}are {\k25}here {\k23}is {\k24}to {\k91}ce{\k24}le{\k40}brate
+Dialogue: 0,0:00:34.26,0:00:38.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}In {\k14}a {\k21}place {\k27}where {\k23}a{\k20}ny{\k24}one {\k24}can {\k24}be {\k92}a{\k23}ny{\k35}thing
+Dialogue: 0,0:00:37.97,0:00:42.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Hold {\k13}on {\k23}to {\k24}this {\k23}mo{\k24}ment, {\k23}don't {\k22}let {\k24}it {\k93}fade {\k21}a{\k50}way
+Dialogue: 0,0:00:41.69,0:00:44.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Ba{\k16}by, {\k23}keep {\k22}the {\k24}mu{\k23}sic {\k45}pla{\k28}yin'
+Dialogue: 0,0:00:43.97,0:00:46.62,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Come {\k23}on, {\k13}get {\k24}on {\k79}up
+Dialogue: 0,0:00:45.87,0:00:49.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}We're {\k22}wild {\k23}and {\k12}we {\k25}can't {\k20}be {\k95}tamed
+Dialogue: 0,0:00:48.21,0:00:50.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}And {\k13}we're {\k12}tur{\k11}nin' {\k12}the {\k20}floor {\k14}in{\k32}to
+Dialogue: 0,0:00:49.62,0:00:52.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}A {\k46}zoo, {\k47}ooh, {\k42}ooh
+Dialogue: 0,0:00:51.44,0:00:53.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Come {\k22}on, {\k13}keep {\k23}it {\k66}up
+Dialogue: 0,0:00:53.29,0:00:56.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}It's {\k25}fun {\k20}if {\k13}you're {\k23}down {\k22}to {\k91}play
+Dialogue: 0,0:00:55.64,0:00:57.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k10}And {\k12}we're {\k12}tur{\k10}nin' {\k15}the {\k21}floor {\k12}in{\k30}to
+Dialogue: 0,0:00:57.05,0:00:59.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}A {\k47}zoo, {\k47}ooh, {\k40}ooh
+Dialogue: 0,0:00:58.67,0:01:02.33,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Hop-{\k34}ah, {\k23}hop-{\k23}ah, {\k24}hop-{\k25}ah, {\k21}hop-{\k36}ah, {\k34}ah
+Dialogue: 0,0:01:01.23,0:01:04.19,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hop-{\k22}ah, {\k25}hop-{\k24}ah, {\k22}hop-{\k35}ah, {\k34}ah
+Dialogue: 0,0:01:03.09,0:01:06.05,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hop-{\k22}ah, {\k23}hop-{\k26}ah, {\k22}hop-{\k34}ah, {\k35}ah
+Dialogue: 0,0:01:04.50,0:01:07.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}A {\k47}zoo, {\k47}ooh, {\k41}ooh
+Dialogue: 0,0:01:04.96,0:01:07.40,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hop-{\k22}ah, {\k23}hop-{\k25}ah, {\k40}oh
+Dialogue: 0,0:01:06.35,0:01:10.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}We {\k19}live {\k11}in {\k26}a {\k22}hea{\k22}ted {\k45}time,{\k36} {\k28}no {\k22}chance {\k11}to {\k46}cool {\k52}down
+Dialogue: 0,0:01:10.05,0:01:14.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Con{\k19}ti{\k14}nu{\k23}ous{\k24}ly {\k23}con{\k50}fined,{\k18} {\k13}and {\k25}what {\k22}do {\k11}we {\k46}do {\k48}now?
+Dialogue: 0,0:01:13.81,0:01:16.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}It's {\k23}all {\k11}a{\k25}bout {\k24}fin{\k24}ding {\k67}love
+Dialogue: 0,0:01:15.64,0:01:18.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Some{\k24}times {\k25}hard {\k10}to {\k47}come {\k47}by
+Dialogue: 0,0:01:17.63,0:01:22.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}But {\k8}when {\k21}it {\k25}comes {\k24}to {\k44}us,{\k25} {\k12}it's {\k22}al{\k22}ways {\k14}a {\k44}good {\k40}time
+Dialogue: 0,0:01:20.99,0:01:23.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k71}Hey, {\k21}oh-{\k39}ayy
+Dialogue: 0,0:01:22.63,0:01:27.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}On{\k13}ly {\k23}rea{\k24}son {\k24}we {\k22}are {\k24}here {\k22}is {\k28}to {\k91}ce{\k22}le{\k38}brate
+Dialogue: 0,0:01:26.33,0:01:30.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}In {\k13}a {\k23}place {\k25}where {\k23}a{\k23}ny{\k23}one {\k24}can {\k24}be {\k92}a{\k23}ny{\k46}thing
+Dialogue: 0,0:01:30.09,0:01:34.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}Hold {\k15}on {\k23}to {\k22}this {\k23}mo{\k23}ment, {\k22}don't {\k24}let {\k25}it {\k91}fade {\k21}a{\k49}way
+Dialogue: 0,0:01:33.79,0:01:36.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}Ba{\k14}by, {\k22}keep {\k25}the {\k24}mu{\k20}sic {\k48}pla{\k27}yin'
+Dialogue: 0,0:01:36.11,0:01:38.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Come {\k24}on, {\k11}get {\k23}on {\k85}up
+Dialogue: 0,0:01:37.98,0:01:41.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}We're {\k24}wild {\k21}and {\k13}we {\k23}can't {\k22}be {\k92}tamed
+Dialogue: 0,0:01:40.30,0:01:42.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}And {\k14}we're {\k12}tur{\k9}nin' {\k13}the {\k25}floor {\k12}in{\k32}to
+Dialogue: 0,0:01:41.70,0:01:44.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}A {\k48}zoo, {\k47}ooh, {\k38}ooh
+Dialogue: 0,0:01:43.51,0:01:46.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Come {\k22}on, {\k13}keep {\k24}it {\k79}up
+Dialogue: 0,0:01:45.42,0:01:48.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}It's {\k26}fun {\k20}if {\k12}you're {\k23}down {\k23}to {\k92}play
+Dialogue: 0,0:01:47.73,0:01:50.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}And {\k11}we're {\k15}tur{\k9}nin' {\k12}the {\k25}floor {\k13}in{\k25}to
+Dialogue: 0,0:01:49.14,0:01:51.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}A {\k49}zoo, {\k47}ooh, {\k41}ooh
+Dialogue: 0,0:01:50.77,0:01:54.43,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}Hop-{\k34}ah, {\k23}hop-{\k23}ah, {\k24}hop-{\k25}ah, {\k21}hop-{\k36}ah, {\k34}ah
+Dialogue: 0,0:01:52.84,0:01:55.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}A {\k48}zoo, {\k47}ooh, {\k46}ooh
+Dialogue: 0,0:01:53.32,0:01:56.28,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hop-{\k22}ah, {\k25}hop-{\k24}ah, {\k22}hop-{\k35}ah, {\k34}ah
+Dialogue: 0,0:01:55.18,0:01:58.15,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hop-{\k24}ah, {\k23}hop-{\k26}ah, {\k21}hop-{\k34}ah, {\k35}ah
+Dialogue: 0,0:01:56.58,0:01:59.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}A {\k47}zoo, {\k46}ooh, {\k45}ooh
+Dialogue: 0,0:01:57.05,0:02:00.01,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hop-{\k22}ah, {\k23}hop-{\k25}ah, {\k22}hop-{\k35}ah,{\k35} ah
+Dialogue: 0,0:01:58.91,0:02:01.88,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Hop-{\k23}ah, {\k24}hop-{\k25}ah, {\k21}hop-{\k36}ah, {\k35}ah
+Dialogue: 0,0:02:00.29,0:02:03.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}A {\k47}zoo, {\k47}ooh, {\k46}ooh
+Dialogue: 0,0:02:00.78,0:02:03.72,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Hop-{\k22}ah, {\k25}hop-{\k23}ah, {\k22}hop-{\k35}ah, {\k34}ah
+Dialogue: 0,0:02:02.62,0:02:05.60,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hop-{\k23}ah, {\k23}hop-{\k26}ah, {\k22}hop-{\k34}ah, {\k36}ah
+Dialogue: 0,0:02:04.04,0:02:06.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}A {\k47}zoo, {\k46}ooh, {\k48}ooh
+Dialogue: 0,0:02:04.50,0:02:06.77,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Hop-{\k22}ah, {\k23}hop-{\k25}ah, {\k40}oh
+Dialogue: 0,0:02:06.37,0:02:11.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}I'll {\k22}take {\k22}you {\k25}hi{\k91}gher, {\k24}I'll {\k23}take {\k21}you {\k34}hi{\k81}gher
+Dialogue: 0,0:02:10.29,0:02:14.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}We {\k27}can't {\k22}be {\k61}tamed, {\k22}ba{\k15}by, {\k20}I'll {\k22}take {\k22}you {\k26}hi{\k32}gher
+Dialogue: 0,0:02:13.78,0:02:18.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I'll {\k22}take {\k22}you {\k26}hi{\k63}gher,{\k29} {\k25}I'll {\k24}take {\k20}you {\k32}hi{\k53}gher
+Dialogue: 0,0:02:17.55,0:02:21.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}And {\k19}we {\k23}can't {\k22}be {\k62}tamed, {\k23}ba{\k12}by, {\k21}I'll {\k23}take {\k24}you {\k25}hi{\k34}gher
+Dialogue: 0,0:02:21.45,0:02:25.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Es {\k24}u{\k24}na {\k36}fies{\k22}ta {\k24}que {\k12}su{\k23}be {\k23}co{\k24}mo {\k8}la {\k17}es{\k32}pu{\k23}ma
+Dialogue: 0,0:02:24.60,0:02:29.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Yo {\k14}por {\k14}ti {\k11}i{\k8}ré {\k13}has{\k24}ta {\k25}la {\k35}lu{\k21}na {\k25}de {\k10}i{\k11}da {\k13}y {\k46}vuel{\k50}ta
+Dialogue: 0,0:02:28.92,0:02:33.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Es {\k24}u{\k24}na {\k36}fies{\k22}ta {\k21}que {\k12}su{\k23}be {\k25}co{\k22}mo {\k8}la {\k17}es{\k33}pu{\k23}ma
+Dialogue: 0,0:02:32.03,0:02:36.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Yo {\k14}por {\k14}ti {\k10}i{\k8}ré {\k13}has{\k24}ta {\k25}la {\k35}lu{\k21}na {\k22}de {\k13}i{\k11}da {\k13}y {\k46}vuel{\k47}ta
+Dialogue: 0,0:02:35.59,0:02:38.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Come {\k23}on, {\k12}get {\k23}on {\k83}up
+Dialogue: 0,0:02:37.49,0:02:40.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}We're {\k21}wild {\k21}and {\k12}we {\k26}can't {\k20}be {\k96}tamed
+Dialogue: 0,0:02:39.84,0:02:42.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k9}And {\k12}we're {\k14}tur{\k9}nin' {\k12}the {\k23}floor {\k15}in{\k26}to
+Dialogue: 0,0:02:41.24,0:02:43.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}A {\k47}zoo, {\k49}ooh, {\k38}ooh
+Dialogue: 0,0:02:43.07,0:02:45.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Come {\k22}on, {\k13}keep {\k23}it {\k72}up
+Dialogue: 0,0:02:44.93,0:02:48.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}It's {\k26}fun {\k20}if {\k13}you're {\k23}down {\k24}to {\k93}play
+Dialogue: 0,0:02:47.28,0:02:49.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}And {\k11}we're {\k13}tur{\k10}nin' {\k13}the {\k23}floor {\k11}in{\k25}to
+Dialogue: 0,0:02:48.68,0:02:51.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}A {\k47}zoo, {\k46}ooh, {\k37}ooh
+Dialogue: 0,0:02:50.54,0:02:53.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Come {\k24}on, {\k10}get {\k23}on {\k64}up
+Dialogue: 0,0:02:52.41,0:02:55.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}We're {\k24}wild {\k19}and {\k13}we {\k25}can't {\k21}be {\k94}tamed
+Dialogue: 0,0:02:54.73,0:02:57.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k8}And {\k12}we're {\k14}tur{\k9}nin' {\k14}the {\k24}floor {\k12}in{\k29}to
+Dialogue: 0,0:02:56.13,0:02:58.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}A {\k49}zoo, {\k46}ooh, {\k37}ooh
+Dialogue: 0,0:02:57.95,0:03:00.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Come {\k23}on, {\k14}keep {\k24}it {\k68}up
+Dialogue: 0,0:02:59.83,0:03:02.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}It's {\k26}fun {\k20}if {\k12}you're {\k23}down {\k24}to {\k88}play
+Dialogue: 0,0:03:02.16,0:03:04.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}And {\k10}we're {\k17}tur{\k8}nin' {\k11}the {\k22}floor {\k15}in{\k33}to
+Dialogue: 0,0:03:03.56,0:03:06.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}A {\k50}zoo, {\k47}ooh, {\k40}ooh
