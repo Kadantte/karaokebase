@@ -1,0 +1,124 @@
+﻿[Script Info]
+Title: CHANGELESS
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Hanaku
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Chika,Arial,24,&H00FFFFFF,&H000BA2F0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: You,Arial,24,&H00FFFFFF,&H00F9B949,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Ruby,Arial,24,&H00FFFFFF,&H00E475FB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Aqours,Arial,24,&H00FFFFFF,&H00E89F00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Chika,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♥{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Aqours,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,You,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♠{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Ruby,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♦{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.50,0:00:14.39,Aqours,,0,0,0,karaoke,{\an2\k13890} {\rChika}♥ Chika {\2cHFFFFFF}| {\rYou}♠ You {\2cHFFFFFF}| {\rRuby}♦ Ruby {\2cHFFFFFF}| {\rAqours} Aqours
+Comment: 0,0:00:14.70,0:00:22.71,You,,0,0,0,karaoke,{\kf103}da{\k33}re {\kf133}no{\k99} {\k34}wa{\k33}su{\k34}re{\k33}mo{\k34}no {\k100}da{\k32}ro{\kf133}u
+Comment: 0,0:00:23.72,0:00:26.04,You,,0,0,0,karaoke,{\k32}ka{\k37}ta{\k31}ho{\k33}u {\k33}da{\k66}ke
+Comment: 0,0:00:27.06,0:00:29.94,You,,0,0,0,karaoke,{\k29}u{\k34}mo{\k35}re{\k66}te {\k68}i{\k56}ta
+Comment: 0,0:00:30.38,0:00:35.38,You,,0,0,0,karaoke,{\k28}SA{\k40}N{\k31}DA{\k36}L {\k30}hi{\k67}rot{\k69}te {\kf99}mi{\k35}ta{\k65}ra
+Comment: 0,0:00:36.02,0:00:38.71,You,,0,0,0,karaoke,{\kf99}a{\k35}tsu{\kf135}i
+Comment: 0,0:00:39.72,0:00:44.02,You,,0,0,0,karaoke,{\k32}su{\k31}na {\k35}no {\k34}ki{\k34}se{\kf98}tsu {\k34}he {\kf132}to
+Comment: 0,0:00:45.02,0:00:47.37,You,,0,0,0,karaoke,{\k36}o{\k24}mo{\k43}i {\k35}ga {\k31}to{\k66}bu
+Comment: 0,0:00:47.71,0:00:51.35,You,,0,0,0,karaoke,{\k32}so{\k35}u{\k32}da {\k32}a{\k34}se {\k68}to {\k37}na{\k30}mi{\k64}da
+Comment: 0,0:00:52.02,0:00:55.70,You,,0,0,0,karaoke,{\k37}u{\k32}mi {\k31}no {\k35}ni{\k37}o{\k28}i {\k69}dat{\kf99}ta
+Comment: 0,0:00:56.03,0:01:00.03,Ruby,,0,0,0,karaoke,{\k35}i{\k33}so{\k31}i{\k35}de {\kf97}u{\k37}e {\kf132}wo
+Comment: 0,0:00:56.03,0:01:00.03,Chika,,0,0,0,karaoke,{\k35}i{\k33}so{\k31}i{\k35}de {\kf97}u{\k37}e {\kf132}wo
+Comment: 0,0:01:01.02,0:01:05.38,Ruby,,0,0,0,karaoke,{\k34}mu{\k34}ka{\k36}na{\k34}ku{\k27}cha {\kf105}ki{\k33}t{\kf133}to
+Comment: 0,0:01:01.02,0:01:05.38,Chika,,0,0,0,karaoke,{\k34}mu{\k34}ka{\k36}na{\k34}ku{\k27}cha {\kf105}ki{\k33}t{\kf133}to
+Comment: 0,0:01:06.36,0:01:08.70,Ruby,,0,0,0,karaoke,{\k36}ma{\k32}ta {\k33}ko{\k34}bo{\k33}re{\k66}ru
+Comment: 0,0:01:06.36,0:01:08.70,Chika,,0,0,0,karaoke,{\k36}ma{\k32}ta {\k33}ko{\k34}bo{\k33}re{\k66}ru
+Comment: 0,0:01:09.01,0:01:12.70,Ruby,,0,0,0,karaoke,{\k38}a{\k65}o{\k69}i {\k99}ki{\k32}se{\k66}tsu
+Comment: 0,0:01:09.01,0:01:12.70,Chika,,0,0,0,karaoke,{\k38}a{\k65}o{\k69}i {\k99}ki{\k32}se{\k66}tsu
+Comment: 0,0:01:13.02,0:01:18.74,Ruby,,0,0,0,karaoke,{\k34}a{\k66}no {\k68}hi {\k50}he {\k50}to {\k11}ka{\k22}e{\kf98}ri{\k19}ta{\k17}ku {\k67}na{\k70}ru
+Comment: 0,0:01:13.02,0:01:18.74,Chika,,0,0,0,karaoke,{\k34}a{\k66}no {\k68}hi {\k50}he {\k50}to {\k11}ka{\k22}e{\kf98}ri{\k19}ta{\k17}ku {\k67}na{\k70}ru
+Comment: 0,0:01:20.34,0:01:30.60,Aqours,,0,0,0,karaoke,{\k34}ko{\k36}ko {\k32}de {\kf101}mat{\k34}te {\kf99}i{\k36}ru {\kf124}to{\k43} {\k30}tsu{\k34}ta{\k35}e{\kf100}ta{\k32}i {\kf98}ke{\k36}re{\kf122}do
+Comment: 0,0:01:31.02,0:01:36.04,Aqours,,0,0,0,karaoke,{\k35}ko{\k34}to{\k34}ba {\k97}wa {\k35}chu{\k67}u {\k65}wo {\k69}mat{\k66}te
+Comment: 0,0:01:36.70,0:01:41.36,Aqours,,0,0,0,karaoke,{\k35}so{\k34}ra {\kf162}he {\k35}ki{\k34}e{\k70}te{\kf96}ku
+Comment: 0,0:01:41.67,0:01:51.92,Aqours,,0,0,0,karaoke,{\k37}ko{\k34}ko {\k34}de {\kf99}mat{\k33}te {\kf101}i{\k32}ru {\kf119}to{\k50} {\k32}tsu{\k32}ta{\k34}wa{\kf99}re{\k35}ba {\kf98}i{\k34}i {\kf122}na
+Comment: 0,0:01:52.35,0:01:58.04,Aqours,,0,0,0,karaoke,{\k36}hi{\k32}to{\k34}ri {\k66}de {\k67}a{\k67}ru{\k33}ku {\k35}u{\k65}mi{\k66}be {\k68}wa
+Comment: 0,0:01:58.41,0:02:03.44,Aqours,,0,0,0,karaoke,{\k31}shi{\k32}o{\k32}sa{\k34}i {\k36}da{\k32}ke {\k32}ki{\k33}ko{\k35}e{\kf206}ru
+Comment: 0,0:02:06.70,0:02:09.38,Ruby,,0,0,0,karaoke,{\kf101}chii{\k33}sa{\kf134}na
+Comment: 0,0:02:10.36,0:02:14.70,Ruby,,0,0,0,karaoke,{\k36}ka{\k34}ga{\k31}ya{\k34}ki {\k35}wa {\k96}ta{\k35}da {\kf133}no
+Comment: 0,0:02:15.68,0:02:17.74,Ruby,,0,0,0,karaoke,{\k38}G{\k33}LA{\k31}SS {\k34}da{\k34}t{\k36}ta
+Comment: 0,0:02:19.02,0:02:27.42,Ruby,,0,0,0,karaoke,{\k36}so{\k31}n{\k36}na {\k65}ko{\k68}to {\k97}wo {\k35}na{\k37}n{\k34}do {\k31}mo {\k32}ku{\k66}ri{\k66}ka{\kf100}e{\k34}shi{\k72}te
+Comment: 0,0:02:28.02,0:02:36.04,Chika,,0,0,0,karaoke,{\kf105}oo{\k29}ki{\kf132}na{\k99} {\k34}ka{\k35}ke{\k34}te{\k33}na{\k33}i {\kf101}kai{\k33}ga{\kf134}ra
+Comment: 0,0:02:37.01,0:02:39.36,Chika,,0,0,0,karaoke,{\k38}mi{\k33}tsu{\k33}ke{\k34}ta{\k32}k{\k65}ke
+Comment: 0,0:02:39.66,0:02:43.36,Chika,,0,0,0,karaoke,{\k40}so{\k32}u{\k34}da {\k27}mi{\k38}n{\k66}na {\k37}i{\k30}tsu{\k66}mo
+Comment: 0,0:02:44.02,0:02:47.42,Chika,,0,0,0,karaoke,{\k35}sa{\k33}ga{\k34}shi {\k34}tsu{\k34}zu{\k33}ke{\k65}run {\k72}da
+Comment: 0,0:02:48.02,0:02:52.04,You,,0,0,0,karaoke,{\k36}to{\k37}o{\k29}ku {\k32}he {\kf102}it{\k34}te {\kf132}mo
+Comment: 0,0:02:53.00,0:02:57.30,You,,0,0,0,karaoke,{\k38}ha{\k33}na{\k35}re{\k34}te {\k30}shi{\kf102}mat{\k33}te {\kf125}mo
+Comment: 0,0:02:58.36,0:03:04.70,You,,0,0,0,karaoke,{\k36}o{\k33}na{\k32}ji {\k36}ki{\k31}se{\k66}tsu{\k37} {\k33}su{\k65}go{\k67}shi{\kf99}ta {\k35}ko{\k64}to
+Comment: 0,0:03:05.04,0:03:09.96,You,,0,0,0,karaoke,{\k31}mu{\k68}ne {\k69}ni {\k51}ki{\k46}zan{\k34}da{\kf193}ra
+Comment: 0,0:03:10.35,0:03:18.44,You,,0,0,0,karaoke,{\k35}dai{\k68}jou{\k65}bu {\k56}da{\k45}ka{\kf540}ra
+Comment: 0,0:03:39.02,0:03:49.36,Aqours,,0,0,0,karaoke,{\k34}ko{\k36}ko {\k32}de {\kf101}mat{\k34}te {\kf99}i{\k36}ru {\kf124}to{\k43} {\k30}tsu{\k34}ta{\k35}e{\kf100}ta{\k32}i {\kf98}ke{\k36}re{\kf122}do
+Comment: 0,0:03:49.69,0:03:54.75,Aqours,,0,0,0,karaoke,{\k35}ko{\k34}to{\k34}ba {\k97}wa {\k35}chu{\k67}u {\k65}wo {\k69}mat{\k66}te
+Comment: 0,0:03:55.36,0:04:00.01,Aqours,,0,0,0,karaoke,{\k35}so{\k34}ra {\kf162}he {\k35}ki{\k34}e{\k70}te{\kf96}ku
+Comment: 0,0:04:00.37,0:04:10.71,Aqours,,0,0,0,karaoke,{\k37}ko{\k34}ko {\k34}de {\kf99}mat{\k33}te {\kf101}i{\k32}ru {\kf119}to{\k50} {\k32}tsu{\k32}ta{\k34}wa{\kf99}re{\k35}ba {\kf98}i{\k34}i {\kf122}na
+Comment: 0,0:04:11.03,0:04:16.71,Aqours,,0,0,0,karaoke,{\k37}hi{\k31}to{\k34}ri {\k66}de {\k67}a{\k67}ru{\k33}ku {\k35}u{\k65}mi{\k66}be {\k68}wa{\k37}
+Comment: 0,0:04:16.94,0:04:22.00,Aqours,,0,0,0,karaoke,{\k31}shi{\k32}o{\k32}sa{\k34}i {\k36}da{\k32}ke {\k32}ki{\k33}ko{\k35}e{\kf206}ru
+Comment: 0,0:04:25.37,0:04:28.04,You,,0,0,0,karaoke,{\kf104}i{\k31}tsu{\kf132}ka
+Comment: 0,0:04:29.04,0:04:32.70,You,,0,0,0,karaoke,{\k34}ma{\k34}ta {\k36}i{\k30}tsu{\k34}ka {\kf101}i{\k33}tsu{\k64}ka
+Comment: 0,0:04:34.37,0:04:38.58,Ruby,,0,0,0,karaoke,{\k36}a{\k35}e{\k29}ru {\k36}ka{\k33}ra {\k65}to{\k30} {\k38}tsu{\k32}bu{\k34}ya{\k32}i{\k21}ta
+Comment: 0,0:04:38.66,0:04:40.71,Ruby,,0,0,0,karaoke,{\k73}saa {\k36}ki{\k30}mi {\k66}wa
+Comment: 0,0:04:41.37,0:04:45.04,Chika,,0,0,0,karaoke,{\k36}a{\k32}ta{\k34}ra{\k34}shi{\k34}i {\k33}mi{\k65}chi {\kf99}he
+Comment: 0,0:04:46.70,0:04:52.49,Aqours,,0,0,0,karaoke,{\k39}i{\k34}tsu {\k33}ka {\k38}ma{\k41}ta {\k41}a{\kf112}ou {\kf241}yo
+Dialogue: 0,0:00:00.00,0:00:14.59,Aqours,,0,0,0,fx,{\k50\fad(500,200)}{\an2\k13890} {\rChika}♥ Chika {\2cHFFFFFF}| {\rYou}♠ You {\2cHFFFFFF}| {\rRuby}♦ Ruby {\2cHFFFFFF}| {\rAqours} Aqours
+Dialogue: 0,0:00:13.80,0:00:22.91,You,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\kf103}da{\k33}re {\kf133}no{\k99} {\k34}wa{\k33}su{\k34}re{\k33}mo{\k34}no {\k100}da{\k32}ro{\kf133}u
+Dialogue: 0,0:00:22.82,0:00:26.24,You,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k32}ka{\k37}ta{\k31}ho{\k33}u {\k33}da{\k66}ke
+Dialogue: 0,0:00:26.16,0:00:30.14,You,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k29}u{\k34}mo{\k35}re{\k66}te {\k68}i{\k56}ta
+Dialogue: 0,0:00:29.48,0:00:35.58,You,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k28}SA{\k40}N{\k31}DA{\k36}L {\k30}hi{\k67}rot{\k69}te {\kf99}mi{\k35}ta{\k65}ra
+Dialogue: 0,0:00:35.12,0:00:38.91,You,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\kf99}a{\k35}tsu{\kf135}i
+Dialogue: 0,0:00:38.82,0:00:44.22,You,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k32}su{\k31}na {\k35}no {\k34}ki{\k34}se{\kf98}tsu {\k34}he {\kf132}to
+Dialogue: 0,0:00:44.12,0:00:47.57,You,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k36}o{\k24}mo{\k43}i {\k35}ga {\k31}to{\k66}bu
+Dialogue: 0,0:00:46.81,0:00:51.55,You,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k32}so{\k35}u{\k32}da {\k32}a{\k34}se {\k68}to {\k37}na{\k30}mi{\k64}da
+Dialogue: 0,0:00:51.12,0:00:55.90,You,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k37}u{\k32}mi {\k31}no {\k35}ni{\k37}o{\k28}i {\k69}dat{\kf99}ta
+Dialogue: 0,0:00:55.13,0:01:00.23,Ruby,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k35}i{\k33}so{\k31}i{\k35}de {\kf97}u{\k37}e {\kf132}wo
+Dialogue: 0,0:00:55.13,0:01:00.23,Chika,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k35}i{\k33}so{\k31}i{\k35}de {\kf97}u{\k37}e {\kf132}wo
+Dialogue: 0,0:01:00.12,0:01:05.58,Ruby,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k34}mu{\k34}ka{\k36}na{\k34}ku{\k27}cha {\kf105}ki{\k33}t{\kf133}to
+Dialogue: 0,0:01:00.12,0:01:05.58,Chika,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k34}mu{\k34}ka{\k36}na{\k34}ku{\k27}cha {\kf105}ki{\k33}t{\kf133}to
+Dialogue: 0,0:01:05.46,0:01:08.90,Ruby,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k36}ma{\k32}ta {\k33}ko{\k34}bo{\k33}re{\k66}ru
+Dialogue: 0,0:01:05.46,0:01:08.90,Chika,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k36}ma{\k32}ta {\k33}ko{\k34}bo{\k33}re{\k66}ru
+Dialogue: 0,0:01:08.11,0:01:12.90,Ruby,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k38}a{\k65}o{\k69}i {\k99}ki{\k32}se{\k66}tsu
+Dialogue: 0,0:01:08.11,0:01:12.90,Chika,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k38}a{\k65}o{\k69}i {\k99}ki{\k32}se{\k66}tsu
+Dialogue: 0,0:01:12.12,0:01:18.94,Ruby,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k34}a{\k66}no {\k68}hi {\k50}he {\k50}to {\k11}ka{\k22}e{\kf98}ri{\k19}ta{\k17}ku {\k67}na{\k70}ru
+Dialogue: 0,0:01:12.12,0:01:18.94,Chika,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k34}a{\k66}no {\k68}hi {\k50}he {\k50}to {\k11}ka{\k22}e{\kf98}ri{\k19}ta{\k17}ku {\k67}na{\k70}ru
+Dialogue: 0,0:01:19.44,0:01:30.80,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ko{\k36}ko {\k32}de {\kf101}mat{\k34}te {\kf99}i{\k36}ru {\kf124}to{\k43} {\k30}tsu{\k34}ta{\k35}e{\kf100}ta{\k32}i {\kf98}ke{\k36}re{\kf122}do
+Dialogue: 0,0:01:30.12,0:01:36.24,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ko{\k34}to{\k34}ba {\k97}wa {\k35}chu{\k67}u {\k65}wo {\k69}mat{\k66}te
+Dialogue: 0,0:01:35.80,0:01:41.56,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k35}so{\k34}ra {\kf162}he {\k35}ki{\k34}e{\k70}te{\kf96}ku
+Dialogue: 0,0:01:40.77,0:01:52.12,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ko{\k34}ko {\k34}de {\kf99}mat{\k33}te {\kf101}i{\k32}ru {\kf119}to{\k50} {\k32}tsu{\k32}ta{\k34}wa{\kf99}re{\k35}ba {\kf98}i{\k34}i {\kf122}na
+Dialogue: 0,0:01:51.45,0:01:58.24,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k36}hi{\k32}to{\k34}ri {\k66}de {\k67}a{\k67}ru{\k33}ku {\k35}u{\k65}mi{\k66}be {\k68}wa
+Dialogue: 0,0:01:57.51,0:02:03.64,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k31}shi{\k32}o{\k32}sa{\k34}i {\k36}da{\k32}ke {\k32}ki{\k33}ko{\k35}e{\kf206}ru
+Dialogue: 0,0:02:05.80,0:02:09.58,Ruby,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\kf101}chii{\k33}sa{\kf134}na
+Dialogue: 0,0:02:09.46,0:02:14.90,Ruby,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k36}ka{\k34}ga{\k31}ya{\k34}ki {\k35}wa {\k96}ta{\k35}da {\kf133}no
+Dialogue: 0,0:02:14.78,0:02:17.94,Ruby,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k38}G{\k33}LA{\k31}SS {\k34}da{\k34}t{\k36}ta
+Dialogue: 0,0:02:18.12,0:02:27.62,Ruby,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k36}so{\k31}n{\k36}na {\k65}ko{\k68}to {\k97}wo {\k35}na{\k37}n{\k34}do {\k31}mo {\k32}ku{\k66}ri{\k66}ka{\kf100}e{\k34}shi{\k72}te
+Dialogue: 0,0:02:27.12,0:02:36.24,Chika,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\kf105}oo{\k29}ki{\kf132}na{\k99} {\k34}ka{\k35}ke{\k34}te{\k33}na{\k33}i {\kf101}kai{\k33}ga{\kf134}ra
+Dialogue: 0,0:02:36.11,0:02:39.56,Chika,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k38}mi{\k33}tsu{\k33}ke{\k34}ta{\k32}k{\k65}ke
+Dialogue: 0,0:02:38.76,0:02:43.56,Chika,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k40}so{\k32}u{\k34}da {\k27}mi{\k38}n{\k66}na {\k37}i{\k30}tsu{\k66}mo
+Dialogue: 0,0:02:43.12,0:02:47.62,Chika,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k35}sa{\k33}ga{\k34}shi {\k34}tsu{\k34}zu{\k33}ke{\k65}run {\k72}da
+Dialogue: 0,0:02:47.12,0:02:52.24,You,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k36}to{\k37}o{\k29}ku {\k32}he {\kf102}it{\k34}te {\kf132}mo
+Dialogue: 0,0:02:52.10,0:02:57.50,You,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k38}ha{\k33}na{\k35}re{\k34}te {\k30}shi{\kf102}mat{\k33}te {\kf125}mo
+Dialogue: 0,0:02:57.46,0:03:04.90,You,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k36}o{\k33}na{\k32}ji {\k36}ki{\k31}se{\k66}tsu{\k37} {\k33}su{\k65}go{\k67}shi{\kf99}ta {\k35}ko{\k64}to
+Dialogue: 0,0:03:04.14,0:03:10.16,You,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k31}mu{\k68}ne {\k69}ni {\k51}ki{\k46}zan{\k34}da{\kf193}ra
+Dialogue: 0,0:03:09.45,0:03:18.64,You,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k35}dai{\k68}jou{\k65}bu {\k56}da{\k45}ka{\kf540}ra
+Dialogue: 0,0:03:38.12,0:03:49.56,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ko{\k36}ko {\k32}de {\kf101}mat{\k34}te {\kf99}i{\k36}ru {\kf124}to{\k43} {\k30}tsu{\k34}ta{\k35}e{\kf100}ta{\k32}i {\kf98}ke{\k36}re{\kf122}do
+Dialogue: 0,0:03:48.79,0:03:54.95,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ko{\k34}to{\k34}ba {\k97}wa {\k35}chu{\k67}u {\k65}wo {\k69}mat{\k66}te
+Dialogue: 0,0:03:54.46,0:04:00.21,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k35}so{\k34}ra {\kf162}he {\k35}ki{\k34}e{\k70}te{\kf96}ku
+Dialogue: 0,0:03:59.47,0:04:10.91,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ko{\k34}ko {\k34}de {\kf99}mat{\k33}te {\kf101}i{\k32}ru {\kf119}to{\k50} {\k32}tsu{\k32}ta{\k34}wa{\kf99}re{\k35}ba {\kf98}i{\k34}i {\kf122}na
+Dialogue: 0,0:04:10.13,0:04:16.91,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k37}hi{\k31}to{\k34}ri {\k66}de {\k67}a{\k67}ru{\k33}ku {\k35}u{\k65}mi{\k66}be {\k68}wa{\k37}
+Dialogue: 0,0:04:16.04,0:04:22.20,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k31}shi{\k32}o{\k32}sa{\k34}i {\k36}da{\k32}ke {\k32}ki{\k33}ko{\k35}e{\kf206}ru
+Dialogue: 0,0:04:24.47,0:04:28.24,You,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\kf104}i{\k31}tsu{\kf132}ka
+Dialogue: 0,0:04:28.14,0:04:32.90,You,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k34}ma{\k34}ta {\k36}i{\k30}tsu{\k34}ka {\kf101}i{\k33}tsu{\k64}ka
+Dialogue: 0,0:04:33.47,0:04:38.78,Ruby,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k36}a{\k35}e{\k29}ru {\k36}ka{\k33}ra {\k65}to{\k30} {\k38}tsu{\k32}bu{\k34}ya{\k32}i{\k21}ta
+Dialogue: 0,0:04:37.76,0:04:40.91,Ruby,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k73}saa {\k36}ki{\k30}mi {\k66}wa
+Dialogue: 0,0:04:40.47,0:04:45.24,Chika,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k36}a{\k32}ta{\k34}ra{\k34}shi{\k34}i {\k33}mi{\k65}chi {\kf99}he
+Dialogue: 0,0:04:45.80,0:04:52.69,Aqours,,0,0,0,fx,{\k90\fad(300,200)}{\k39}i{\k34}tsu {\k33}ka {\k38}ma{\k41}ta {\k41}a{\kf112}ou {\kf241}yo
