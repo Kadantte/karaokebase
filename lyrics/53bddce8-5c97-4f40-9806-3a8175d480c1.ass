@@ -1,0 +1,105 @@
+﻿[Script Info]
+Title: 散花-sanka-
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Azurys
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: COLOR CODE,Arial,22,&H0000B4FF,&H0000B4FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+Style: Higanryuu,Arial,24,&H00FFFFFF,&H002A2BFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sakuya,Arial,24,&H00FFFFFF,&H0093AA5E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Mei Izumi,Arial,24,&H00FFFFFF,&H00FF00FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Natsuha Arisugawa,Arial,24,&H00FFFFFF,&H0067E690,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Chiyuki Kuwayama,Arial,24,&H00FFFFFF,&H0045B2F1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hiori Kazano,Arial,24,&H00FFFFFF,&H00F07824,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Higanryuu,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Sakuya,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♠{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Mei Izumi,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}●{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Natsuha Arisugawa,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♥{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Chiyuki Kuwayama,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♣{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Hiori Kazano,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♪{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:17.00,COLOR CODE,,0,0,0,karaoke,{\c&HEB72AF&}♥ Natsuha {\c&HFFFFFF&}- {\c&H45B2F1&}♣ Chiyuki {\c&HFFFFFF&}- {\c&H93AA5E&}♠ Sakuya {\c&HFFFFFF&}- {\c&HC6903B&}● Mei {\c&HFFFFFF&}- {\c&HF07824&}♪ Hiori
+Comment: 0,0:00:00.00,0:00:17.00,COLOR CODE,,0,0,0,karaoke,{\c&H2A2BFF&}Higanryuu
+Comment: 0,0:00:02.35,0:00:05.21,Chiyuki Kuwayama,,0,0,0,karaoke,{\k37}ha{\k32}na {\k10}to {\k11}sa{\k43}ke {\k44}ya{\k23}mi {\k10}ho{\k33}ko{\k21}ro{\k22}bi
+Comment: 0,0:00:05.42,0:00:08.84,Chiyuki Kuwayama,,0,0,0,karaoke,{\k44}su{\k21}gi{\k12}yu{\k30}ku {\k25}hi{\k63}bi {\rSakuya}{\k24}su{\k22}ga{\k11}ru {\k32}yo{\k22}u {\k36}ni
+Comment: 0,0:00:09.13,0:00:11.96,Sakuya,,0,0,0,karaoke,{\k22}mu{\k21}ne {\k11}wo {\k23}so{\k11}me {\k20}yu{\kf175}ku
+Comment: 0,0:00:24.36,0:00:25.85,Hiori Kazano,,0,0,0,karaoke,{\k9}ha{\k11}ka{\k10}na{\k12}sa {\k13}ma{\k10}to{\k22}u {\k21}too{\k9}i {\k13}so{\k19}ra
+Comment: 0,0:00:26.08,0:00:27.83,Hiori Kazano,,0,0,0,karaoke,{\k12}ho{\k10}shi {\k12}no {\k11}shi{\k11}zu{\k10}ku {\k22}wa {\k21}fu{\k22}ra{\k23}zu {\k21}ni
+Comment: 0,0:00:27.92,0:00:31.01,Hiori Kazano,,0,0,0,karaoke,{\k34}ko{\k22}no {\k33}te {\k33}ga {\k21}u{\k31}re{\k35}i{\k21}te{\kf79}ru
+Comment: 0,0:00:31.29,0:00:32.81,Mei Izumi,,0,0,0,karaoke,{\k11}ki{\k12}zu {\k11}ni {\k11}ni{\k12}ta {\k10}ya{\k24}ma{\k20}nu {\k11}to{\k11}ki {\k19}wa
+Comment: 0,0:00:33.04,0:00:37.39,Mei Izumi,,0,0,0,karaoke,{\k11}ka{\k11}su{\k12}mi {\k10}no {\k11}o{\k11}ku {\k22}he {\k20}to {\k22}tsu{\k23}ki {\k30}no {\k35}you {\k62}ni{\k26} {\k21}yu{\k33}ra{\k32}yu{\k43}ra
+Comment: 0,0:00:37.59,0:00:40.76,Natsuha Arisugawa,,0,0,0,karaoke,{\k23}ka{\k22}ke{\k43}yu{\k24}ku{\k63}~ {\k22}ka{\k23}ke{\k20}nu{\k24}ke{\k23}ru{\k30}~
+Comment: 0,0:00:41.08,0:00:44.26,Natsuha Arisugawa,,0,0,0,karaoke,{\k20}a{\k22}su {\k43}he {\k25}to{\k65}~ {\k19}a{\k25}su {\k20}ma{\k23}de {\k23}to{\k33}~
+Comment: 0,0:00:44.57,0:00:51.97,Natsuha Arisugawa,,0,0,0,karaoke,{\k20}yu{\k23}ku{\k24}e{\k62}~ {\k39}mo {\k26}shi{\k23}ra{\k22}nu{\k22}~ {\k21}no {\k22}na{\k65}ra {\k22}ma{\k42}yo{\k45}e{\k40}ba {\k46}i{\kf176}i~
+Comment: 0,0:00:52.79,0:00:55.02,Higanryuu,,0,0,0,karaoke,{\k36}ha{\k32}na {\k10}to {\k12}sa{\k34}ke {\k28}ta{\k14}so{\k12}ga{\k21}re {\k10}no {\k14}yo
+Comment: 0,0:00:55.22,0:00:57.09,Higanryuu,,0,0,0,karaoke,{\k22}a{\k22}de{\k11}i{\k20}ro {\k11}u{\k10}shi{\k13}na{\k22}u {\k18}to {\k14}shi{\k11}te {\k13}mo
+Comment: 0,0:00:57.17,0:00:59.37,Chiyuki Kuwayama,,0,0,0,karaoke,{\k66}aa {\k21}ka{\k23}o{\k11}re{\k32}ru {\k21}ma{\k46}ma
+Comment: 0,0:00:59.79,0:01:01.97,Higanryuu,,0,0,0,karaoke,{\k31}i{\k33}ma {\k10}to {\k13}sa{\k31}ke {\k34}yu{\k11}re{\k8}ru {\k24}so{\k11}ra {\k12}ni
+Comment: 0,0:01:02.16,0:01:04.54,Higanryuu,,0,0,0,karaoke,{\k23}hi{\k21}to{\k11}hi{\k22}ra {\k12}chi{\k22}ri{\k43}nu{\k42}ru {\k42}wo
+Comment: 0,0:01:04.79,0:01:07.28,Natsuha Arisugawa,,0,0,0,karaoke,{\k10}yo{\k12}ru {\k20}wo {\k12}yu{\k33}ke {\k20}ma{\k63}i{\k14}a{\k12}ga{\k53}re
+Comment: 0,0:01:07.62,0:01:10.68,Mei Izumi,,0,0,0,karaoke,{\k21}ya{\k21}~{\k43}ma{\k34}nu {\k31}ka{\k24}ze {\k33}ni {\k10}ka{\k22}~{\k21}re{\k22}ru{\k24}~
+Comment: 0,0:01:10.86,0:01:16.27,Sakuya,,0,0,0,karaoke,{\k22}ko{\k42}no {\k44}ku{\k33}chi {\k35}ku{\k21}ru{\k32}u {\k33}ha{\k21}na{\k34}bi{\k32}ra {\k21}de {\kf171}mo
+Comment: 0,0:01:21.49,0:01:27.98,Chiyuki Kuwayama,,0,0,0,karaoke,{\kf91}ki{\kf87}ra{\k43}me{\k44}i{\k43}te{\k41} {\k44}tsu{\k46}yu {\k43}to {\k43}na{\k61}ri {\k25}sa{\k38}ke
+Comment: 0,0:01:28.48,0:01:37.19,Mei Izumi,,0,0,0,karaoke,{\k87}i{\k67}no{\k19}{\k44}chi {\k44}ma{\k36}e{\k48} {\k46}hi{\k43}ra{\k44}hi{\k44}ra {\k75}ma{\k12}{\k57}i{\k20}a{\k17}ga{\k27}~{\kf141}re
+Comment: 0,0:01:41.48,0:01:44.30,Sakuya,,0,0,0,karaoke,{\k35}tsu{\k34}yo{\k11}ku {\k13}a{\k40}re {\k45}yo{\k21}ru {\k12}no {\k32}to{\k22}ba{\k17}ri
+Comment: 0,0:01:44.54,0:01:48.09,Sakuya,,0,0,0,karaoke,{\k46}ya{\k21}bu{\k12}ri {\k32}na{\k22}ga{\k62}ra {\k21}ku{\k25}chi{\k12}te {\k32}mo {\k22}ta{\k48}da
+Comment: 0,0:01:48.45,0:01:51.31,Natsuha Arisugawa,,0,0,0,karaoke,{\k34}hi{\k33}ka{\k12}ri {\k12}a{\k42}re {\k44}i{\k21}ma {\k11}wo {\k31}i{\k24}ki{\k22}yo
+Comment: 0,0:01:51.50,0:01:55.03,Natsuha Arisugawa,,0,0,0,karaoke,{\k40}se{\k27}tsu{\k12}na {\k31}na {\k23}yu{\k65}me {\k17}u{\k23}tsu{\k9}ku{\k27}shi{\k9}ku {\k21}a{\k49}re
+Comment: 0,0:01:55.40,0:01:57.63,Higanryuu,,0,0,0,karaoke,{\k36}ha{\k32}na {\k10}to {\k12}sa{\k34}ke {\k28}ta{\k14}so{\k12}ga{\k21}re {\k10}no {\k14}yo
+Comment: 0,0:01:57.83,0:01:59.70,Higanryuu,,0,0,0,karaoke,{\k22}a{\k22}de{\k11}i{\k20}ro {\k11}u{\k10}shi{\k13}na{\k22}u {\k18}to {\k14}shi{\k11}te {\k13}mo
+Comment: 0,0:01:59.78,0:02:01.98,Mei Izumi,,0,0,0,karaoke,{\k66}aa {\k21}ka{\k23}o{\k11}re{\k32}ru {\k21}ma{\k46}ma
+Comment: 0,0:02:02.40,0:02:04.58,Higanryuu,,0,0,0,karaoke,{\k31}i{\k33}ma {\k10}to {\k13}sa{\k31}ke {\k34}yu{\k11}re{\k8}ru {\k24}so{\k11}ra {\k12}ni
+Comment: 0,0:02:04.77,0:02:07.15,Higanryuu,,0,0,0,karaoke,{\k23}hi{\k21}to{\k11}hi{\k22}ra {\k12}chi{\k22}ri{\k43}nu{\k42}ru {\k42}wo
+Comment: 0,0:02:07.40,0:02:09.89,Natsuha Arisugawa,,0,0,0,karaoke,{\k10}yo{\k12}ru {\k20}wo {\k12}yu{\k33}ke {\k20}ma{\k63}i{\k14}a{\k12}ga{\k53}re
+Comment: 0,0:02:10.23,0:02:13.29,Hiori Kazano,,0,0,0,karaoke,{\k42}ya{\k43}ma{\k34}nu {\k31}ka{\k24}ze {\k33}ni {\k10}ka{\k22}~{\k21}re{\k22}ru{\k24}~
+Comment: 0,0:02:13.47,0:02:18.88,Chiyuki Kuwayama,,0,0,0,karaoke,{\k22}ko{\k42}no {\k44}ku{\k33}chi {\k35}ku{\k21}ru{\k32}u {\k33}ha{\k21}na{\k34}bi{\k32}ra {\k21}de {\kf171}mo
+Comment: 0,0:02:24.14,0:02:30.65,Higanryuu,,0,0,0,karaoke,{\k43}ho{\k38}ra {\k49}su{\k43}be{\k44}te {\k43}wa {\k22}a{\k20}a {\k26}sho{\k62}gyou {\k42}mu{\k45}jo{\k22}u{\k22} {\k22}ka{\k22}re{\k21}te {\k20}yu{\k45}ku
+Comment: 0,0:02:31.07,0:02:36.08,Higanryuu,,0,0,0,karaoke,{\k46}ho{\k44}ra {\k42}wa{\k41}ta{\k47}shi {\k44}wa {\k18}a{\k21}a {\k25}sho{\k66}gyou {\k39}mu{\k47}jo{\k21}u
+Comment: 0,0:02:36.25,0:02:38.91,Natsuha Arisugawa,,0,0,0,karaoke,{\k54}sa{\k26}i{\k31}~{\k28}ta{\kf127}~
+Dialogue: 0,0:00:00.00,0:00:17.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HEB72AF&}♥ Natsuha {\c&HFFFFFF&}- {\c&H45B2F1&}♣ Chiyuki {\c&HFFFFFF&}- {\c&H93AA5E&}♠ Sakuya {\c&HFFFFFF&}- {\c&HC6903B&}● Mei {\c&HFFFFFF&}- {\c&HF07824&}♪ Hiori
+Dialogue: 0,0:00:00.00,0:00:17.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H2A2BFF&}Higanryuu
+Dialogue: 0,0:00:01.45,0:00:05.41,Chiyuki Kuwayama,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k37}ha{\k32}na {\k10}to {\k11}sa{\k43}ke {\k44}ya{\k23}mi {\k10}ho{\k33}ko{\k21}ro{\k22}bi
+Dialogue: 0,0:00:04.52,0:00:09.04,Chiyuki Kuwayama,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣♠{\fs\4a&HFF&} {\k44}su{\k21}gi{\k12}yu{\k30}ku {\k25}hi{\k63}bi {\rSakuya}{\k24}su{\k22}ga{\k11}ru {\k32}yo{\k22}u {\k36}ni
+Dialogue: 0,0:00:08.23,0:00:12.16,Sakuya,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k22}mu{\k21}ne {\k11}wo {\k23}so{\k11}me {\k20}yu{\kf175}ku
+Dialogue: 0,0:00:23.46,0:00:26.05,Hiori Kazano,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k9}ha{\k11}ka{\k10}na{\k12}sa {\k13}ma{\k10}to{\k22}u {\k21}too{\k9}i {\k13}so{\k19}ra
+Dialogue: 0,0:00:25.18,0:00:28.03,Hiori Kazano,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k12}ho{\k10}shi {\k12}no {\k11}shi{\k11}zu{\k10}ku {\k22}wa {\k21}fu{\k22}ra{\k23}zu {\k21}ni
+Dialogue: 0,0:00:27.02,0:00:31.21,Hiori Kazano,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k34}ko{\k22}no {\k33}te {\k33}ga {\k21}u{\k31}re{\k35}i{\k21}te{\kf79}ru
+Dialogue: 0,0:00:30.39,0:00:33.01,Mei Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}●{\fs\4a&HFF&} {\k11}ki{\k12}zu {\k11}ni {\k11}ni{\k12}ta {\k10}ya{\k24}ma{\k20}nu {\k11}to{\k11}ki {\k19}wa
+Dialogue: 0,0:00:32.14,0:00:37.59,Mei Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}●{\fs\4a&HFF&} {\k11}ka{\k11}su{\k12}mi {\k10}no {\k11}o{\k11}ku {\k22}he {\k20}to {\k22}tsu{\k23}ki {\k30}no {\k35}you {\k62}ni{\k26} {\k21}yu{\k33}ra{\k32}yu{\k43}ra
+Dialogue: 0,0:00:36.69,0:00:40.96,Natsuha Arisugawa,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k23}ka{\k22}ke{\k43}yu{\k24}ku{\k63}~ {\k22}ka{\k23}ke{\k20}nu{\k24}ke{\k23}ru{\k30}~
+Dialogue: 0,0:00:40.18,0:00:44.46,Natsuha Arisugawa,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k20}a{\k22}su {\k43}he {\k25}to{\k65}~ {\k19}a{\k25}su {\k20}ma{\k23}de {\k23}to{\k33}~
+Dialogue: 0,0:00:43.67,0:00:52.17,Natsuha Arisugawa,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k20}yu{\k23}ku{\k24}e{\k62}~ {\k39}mo {\k26}shi{\k23}ra{\k22}nu{\k22}~ {\k21}no {\k22}na{\k65}ra {\k22}ma{\k42}yo{\k45}e{\k40}ba {\k46}i{\kf176}i~
+Dialogue: 0,0:00:51.89,0:00:55.22,Higanryuu,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ha{\k32}na {\k10}to {\k12}sa{\k34}ke {\k28}ta{\k14}so{\k12}ga{\k21}re {\k10}no {\k14}yo
+Dialogue: 0,0:00:54.32,0:00:57.29,Higanryuu,,0,0,0,fx,{\k90\fad(300,200)}{\k22}a{\k22}de{\k11}i{\k20}ro {\k11}u{\k10}shi{\k13}na{\k22}u {\k18}to {\k14}shi{\k11}te {\k13}mo
+Dialogue: 0,0:00:56.27,0:00:59.57,Chiyuki Kuwayama,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k66}aa {\k21}ka{\k23}o{\k11}re{\k32}ru {\k21}ma{\k46}ma
+Dialogue: 0,0:00:58.89,0:01:02.17,Higanryuu,,0,0,0,fx,{\k90\fad(300,200)}{\k31}i{\k33}ma {\k10}to {\k13}sa{\k31}ke {\k34}yu{\k11}re{\k8}ru {\k24}so{\k11}ra {\k12}ni
+Dialogue: 0,0:01:01.26,0:01:04.74,Higanryuu,,0,0,0,fx,{\k90\fad(300,200)}{\k23}hi{\k21}to{\k11}hi{\k22}ra {\k12}chi{\k22}ri{\k43}nu{\k42}ru {\k42}wo
+Dialogue: 0,0:01:03.89,0:01:07.48,Natsuha Arisugawa,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k10}yo{\k12}ru {\k20}wo {\k12}yu{\k33}ke {\k20}ma{\k63}i{\k14}a{\k12}ga{\k53}re
+Dialogue: 0,0:01:06.72,0:01:10.88,Mei Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}●{\fs\4a&HFF&} {\k21}ya{\k21}~{\k43}ma{\k34}nu {\k31}ka{\k24}ze {\k33}ni {\k10}ka{\k22}~{\k21}re{\k22}ru{\k24}~
+Dialogue: 0,0:01:09.96,0:01:16.47,Sakuya,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k22}ko{\k42}no {\k44}ku{\k33}chi {\k35}ku{\k21}ru{\k32}u {\k33}ha{\k21}na{\k34}bi{\k32}ra {\k21}de {\kf171}mo
+Dialogue: 0,0:01:20.59,0:01:28.18,Chiyuki Kuwayama,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\kf91}ki{\kf87}ra{\k43}me{\k44}i{\k43}te{\k41} {\k44}tsu{\k46}yu {\k43}to {\k43}na{\k61}ri {\k25}sa{\k38}ke
+Dialogue: 0,0:01:27.58,0:01:37.39,Mei Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}●{\fs\4a&HFF&} {\k87}i{\k67}no{\k19}{\k44}chi {\k44}ma{\k36}e{\k48} {\k46}hi{\k43}ra{\k44}hi{\k44}ra {\k75}ma{\k12}{\k57}i{\k20}a{\k17}ga{\k27}~{\kf141}re
+Dialogue: 0,0:01:40.58,0:01:44.50,Sakuya,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k35}tsu{\k34}yo{\k11}ku {\k13}a{\k40}re {\k45}yo{\k21}ru {\k12}no {\k32}to{\k22}ba{\k17}ri
+Dialogue: 0,0:01:43.64,0:01:48.29,Sakuya,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k46}ya{\k21}bu{\k12}ri {\k32}na{\k22}ga{\k62}ra {\k21}ku{\k25}chi{\k12}te {\k32}mo {\k22}ta{\k48}da
+Dialogue: 0,0:01:47.55,0:01:51.51,Natsuha Arisugawa,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k34}hi{\k33}ka{\k12}ri {\k12}a{\k42}re {\k44}i{\k21}ma {\k11}wo {\k31}i{\k24}ki{\k22}yo
+Dialogue: 0,0:01:50.60,0:01:55.23,Natsuha Arisugawa,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k40}se{\k27}tsu{\k12}na {\k31}na {\k23}yu{\k65}me {\k17}u{\k23}tsu{\k9}ku{\k27}shi{\k9}ku {\k21}a{\k49}re
+Dialogue: 0,0:01:54.50,0:01:57.83,Higanryuu,,0,0,0,fx,{\k90\fad(300,200)}{\k36}ha{\k32}na {\k10}to {\k12}sa{\k34}ke {\k28}ta{\k14}so{\k12}ga{\k21}re {\k10}no {\k14}yo
+Dialogue: 0,0:01:56.93,0:01:59.90,Higanryuu,,0,0,0,fx,{\k90\fad(300,200)}{\k22}a{\k22}de{\k11}i{\k20}ro {\k11}u{\k10}shi{\k13}na{\k22}u {\k18}to {\k14}shi{\k11}te {\k13}mo
+Dialogue: 0,0:01:58.88,0:02:02.18,Mei Izumi,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}●{\fs\4a&HFF&} {\k66}aa {\k21}ka{\k23}o{\k11}re{\k32}ru {\k21}ma{\k46}ma
+Dialogue: 0,0:02:01.50,0:02:04.78,Higanryuu,,0,0,0,fx,{\k90\fad(300,200)}{\k31}i{\k33}ma {\k10}to {\k13}sa{\k31}ke {\k34}yu{\k11}re{\k8}ru {\k24}so{\k11}ra {\k12}ni
+Dialogue: 0,0:02:03.87,0:02:07.35,Higanryuu,,0,0,0,fx,{\k90\fad(300,200)}{\k23}hi{\k21}to{\k11}hi{\k22}ra {\k12}chi{\k22}ri{\k43}nu{\k42}ru {\k42}wo
+Dialogue: 0,0:02:06.50,0:02:10.09,Natsuha Arisugawa,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k10}yo{\k12}ru {\k20}wo {\k12}yu{\k33}ke {\k20}ma{\k63}i{\k14}a{\k12}ga{\k53}re
+Dialogue: 0,0:02:09.33,0:02:13.49,Hiori Kazano,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♪{\fs\4a&HFF&} {\k42}ya{\k43}ma{\k34}nu {\k31}ka{\k24}ze {\k33}ni {\k10}ka{\k22}~{\k21}re{\k22}ru{\k24}~
+Dialogue: 0,0:02:12.57,0:02:19.08,Chiyuki Kuwayama,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k22}ko{\k42}no {\k44}ku{\k33}chi {\k35}ku{\k21}ru{\k32}u {\k33}ha{\k21}na{\k34}bi{\k32}ra {\k21}de {\kf171}mo
+Dialogue: 0,0:02:23.24,0:02:30.85,Higanryuu,,0,0,0,fx,{\k90\fad(300,200)}{\k43}ho{\k38}ra {\k49}su{\k43}be{\k44}te {\k43}wa {\k22}a{\k20}a {\k26}sho{\k62}gyou {\k42}mu{\k45}jo{\k22}u{\k22} {\k22}ka{\k22}re{\k21}te {\k20}yu{\k45}ku
+Dialogue: 0,0:02:30.17,0:02:36.28,Higanryuu,,0,0,0,fx,{\k90\fad(300,200)}{\k46}ho{\k44}ra {\k42}wa{\k41}ta{\k47}shi {\k44}wa {\k18}a{\k21}a {\k25}sho{\k66}gyou {\k39}mu{\k47}jo{\k21}u
+Dialogue: 0,0:02:35.35,0:02:39.11,Natsuha Arisugawa,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♥{\fs\4a&HFF&} {\k54}sa{\k26}i{\k31}~{\k28}ta{\kf127}~
