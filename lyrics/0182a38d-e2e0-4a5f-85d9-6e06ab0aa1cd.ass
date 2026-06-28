@@ -1,0 +1,163 @@
+﻿[Script Info]
+Title: Indoor Kei nara Trackmaker
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+Original Timing: Tnight, Atsuyas
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Choir,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: uto,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: nabi,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Duo,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:15.00,uto,,0,0,200,legend,{\k1500}{\k0}{\ruto}Amatsuka Uto{\r} {\2cHFFFFFF}- {\rnabi}Aoi Nabi{\r} {\2cHFFFFFF}- {\rDuo}Duo{\r} {\2cHFFFFFF}- {\rChoir}Choir{\r}
+Comment: 0,0:00:15.98,0:00:17.61,uto,,0,0,0,karaoke,{\k21}MY {\k27}HOU{\k24}SE {\k23}{\rDuo}IS {\k24}dan{\k23}boo{\k21}ru{\r}
+Comment: 0,0:00:17.64,0:00:19.48,nabi,,0,0,0,karaoke,{\k25}NEW {\k21}HOU{\k25}SE {\k8}{\rDuo}E{\k27}LE{\k13}CT{\k21}RO {\k24}HOU{\k20}SE{\r}
+Comment: 0,0:00:19.51,0:00:21.28,uto,,0,0,0,karaoke,{\k11}T{\k25}RU{\k11}CK {\k23}DRI{\k24}VER {\k24}{\rDuo}tsuu{\k22}kin {\k18}RU{\k19}SH{\r}
+Comment: 0,0:00:21.39,0:00:23.23,nabi,,0,0,0,karaoke,{\k22}U{\k14}P {\k10}na {\k24}ROA{\k10}D {\k14}wa {\k24}{\rDuo}TEN{\k23}SION {\k28}MA{\k15}X{\r}
+Comment: 0,0:00:23.26,0:00:24.85,uto,,0,0,0,karaoke,{\k25}HOU{\k23}SE {\k23}DUS{\k24}T {\k23}{\rDuo}NON {\k24}FIC{\k17}TION{\r}
+Comment: 0,0:00:25.13,0:00:26.72,nabi,,0,0,0,karaoke,{\k16}ka{\k32}fun {\k23}shou {\k12}ni {\k13}wa {\k24}{\rDuo}MUS{\k9}K{\k12}ME{\k18}LON{\r}
+Comment: 0,0:00:27.01,0:00:28.60,uto,,0,0,0,karaoke,{\k24}CUR{\k12}SO{\k12}R {\k21}mat{\k10}te {\k15}yo {\k11}{\rDuo}K{\k24}LA{\k12}X{\k18}ON{\r}
+Comment: 0,0:00:28.64,0:00:30.73,nabi,,0,0,0,karaoke,{\k10}ho{\k14}ra {\k12}C{\k24}LI{\k12}CK {\k13\rDuo}LY{\k21}RI{\k12}C {\k9}T{\k27}RA{\k12}CK{\k22}MA{\k28}KER
+Comment: 0,0:00:30.76,0:00:32.61,nabi,,0,0,0,karaoke,{\k7}o{\k17}sha{\k12}re {\k12}no {\k15}kyo{\k10}ku{\k10}chi {\k11}da {\k21}{\ruto}FA{\k26}SHION {\k26}CEN{\k18}TER{\r}
+Comment: 0,0:00:32.64,0:00:34.44,nabi,,0,0,0,karaoke,{\k23}ryou{\k8}te {\k15}wo {\k12}ka{\k12}ka{\k15}ge{\k9}te {\k9}{\ruto}C{\k21}LAP{\k17} YOUR {\k22}HANDS {\k17}UP{\r}
+Comment: 0,0:00:34.49,0:00:36.33,nabi,,0,0,0,karaoke,{\k24}JER{\k11}SEY {\k12}ni {\k23}Y-{\k14}SHIR{\k9}TS {\k24}{\ruto}zet{\k23}tai {\k25}hen {\k19}da{\r}
+Comment: 0,0:00:36.38,0:00:38.25,nabi,,0,0,0,karaoke,{\k22}M. {\k23}I. {\k23}D. {\k24}I. {\k12}{\ruto}T{\k24}RA{\k10}CK{\k25}MA{\k24}KER{\r}
+Comment: 0,0:00:38.27,0:00:40.12,uto,,0,0,0,karaoke,{\k12}o{\k7}sha{\k10}re {\k16}no {\k24}sei{\k8}chi {\k16}da {\k23}{\rnabi}FA{\k24}SHION {\k24}CE{\k21}NTER{\r}
+Comment: 0,0:00:40.14,0:00:41.92,uto,,0,0,0,karaoke,{\k23}ryou{\k8}te {\k15}wo {\k12}ka{\k12}ka{\k15}ge{\k9}te {\k9}{\rnabi}C{\k21}LAP{\k17} YOUR {\k22}HANDS {\k15}UP{\r}
+Comment: 0,0:00:42.01,0:00:43.81,uto,,0,0,0,karaoke,{\k23}nou{\k12}ki {\k13}wa {\k11}a{\k11}shi{\k10}ta {\k13}da {\k24}{\rnabi}zet{\k24}tai {\k11}te{\k11}tsu{\k17}ya{\r}
+Comment: 0,0:00:43.89,0:00:45.77,Duo,,0,0,0,karaoke,{\k11}{\rnabi}EVE{\k12}RY {\k23}DAY {\r}{\k12}{\ruto}EVE{\k13}RY {\k23}NIGHT {\r}{\k10}{\rDuo}T{\k25}RA{\k12}CK{\k24}MA{\k23}KER{\r}
+Comment: 0,0:00:45.75,0:00:49.04,Choir,,0,0,0,karaoke,{\k50}HEY {\k46}HEY {\k45}HEY {\k46}HEY {\k47}HEY {\k51}HEY {\k44}HEY
+Comment: 0,0:00:49.52,0:00:52.79,Choir,,0,0,0,karaoke,{\k51}HEY {\k45}HEY {\k45}HEY {\k46}HEY {\k47}HEY {\k47}HEY {\k46}HEY
+Comment: 0,0:00:53.27,0:00:56.54,Choir,,0,0,0,karaoke,{\k47}HEY {\k49}HEY {\k45}HEY {\k46}HEY {\k47}HEY {\k51}HEY {\k42}HEY
+Comment: 0,0:00:57.00,0:00:58.88,Choir,,0,0,0,karaoke,{\k51}HEY {\k45}HEY {\k45}HEY {\k47}HEY
+Comment: 0,0:00:48.58,0:00:49.57,Duo,,0,0,0,karaoke,{\k10}T{\k25}RA{\k12}CK{\k23}MA{\k29}KER
+Comment: 0,0:00:52.33,0:00:53.25,Duo,,0,0,0,karaoke,{\k9}C{\k25}LAP{\k13} YOUR {\k23}HANDS {\k22}UP
+Comment: 0,0:00:56.07,0:00:57.01,Duo,,0,0,0,karaoke,{\k12}T{\k24}RA{\k11}CK{\k23}MA{\k24}KER
+Comment: 0,0:00:59.82,0:01:00.74,Duo,,0,0,0,karaoke,{\k9}C{\k26}LAP{\k12} YOUR {\k26}HANDS {\k19}UP
+Comment: 0,0:01:00.76,0:01:02.60,uto,,0,0,0,karaoke,{\k11}LO{\k12}LI {\k24}gao {\k24}kon{\k8}pu {\k15}na {\k13}tsu{\k21}ru {\k12}pe{\k24}tap{\k20}pu
+Comment: 0,0:01:02.62,0:01:04.48,uto,,0,0,0,karaoke,{\k24}HO{\k11}P {\k16}de {\k33}STE{\k23}P {\k13}DU{\k21}B{\k24}STE{\k21}P
+Comment: 0,0:01:04.51,0:01:06.29,nabi,,0,0,0,karaoke,{\k9}F{\k16}LO{\k14}OR {\k8}no {\k16}a{\k8}i{\k12}tsu {\k11}wa {\k14}RO{\k22}BO{\k12}T {\k23}DAN{\k13}CE
+Comment: 0,0:01:06.39,0:01:08.20,uto,,0,0,0,karaoke,{\k10}o{\k11}sa{\k16}ke {\k9}mo {\k25}hait{\k22}te {\k12}so{\k11}ko{\k15}so{\k9}ko {\k24}NI{\k17}CE
+Comment: 0,0:01:08.26,0:01:10.12,nabi,,0,0,0,karaoke,{\k24}NECK{\k23}TIE {\k12}yu{\k12}ru{\k12}me {\k12}ta {\k9}i{\k14}ma {\k10}ko{\k14}so {\k27}CHAN{\k17}CE
+Comment: 0,0:01:10.14,0:01:12.00,uto,,0,0,0,karaoke,{\k9}ku{\k16}ro {\k11}bu{\k12}chi {\k13}me{\k10}ga{\k7}ne {\k17}ni {\k10}ho{\k12}so{\k11}mi {\k14}no {\k24}pan{\k20}tsu
+Comment: 0,0:01:12.02,0:01:13.81,nabi,,0,0,0,karaoke,{\k11}fu{\k11}ta{\k12}ri {\k13}wo {\k10}yu{\k13}ru{\k9}ga{\k14}su {\k25}WOB{\k22}BLE {\k39}BASS
+Comment: 0,0:01:13.89,0:01:15.56,uto,,0,0,0,karaoke,{\k25}kon'{\k10}ya {\k11}mo {\k22}zan{\k26}nen {\k17}gyo{\k7}ku{\k24}sai {\k25}desu
+Comment: 0,0:01:15.76,0:01:17.63,uto,,0,0,0,karaoke,{\k10}o{\k14}sha{\k12}re {\k12}no {\k15}kyo{\k8}ku{\k12}chi {\k11}da {\k21}{\rnabi}FA{\k26}SHION {\k26}CEN{\k20}TER{\r}
+Comment: 0,0:01:17.63,0:01:19.47,uto,,0,0,0,karaoke,{\k23}ryou{\k8}te {\k15}wo {\k12}ka{\k12}ka{\k15}ge{\k9}te {\k9}{\rnabi}C{\k21}LAP{\k17} YOUR {\k22}HANDS {\k21}UP{\r}
+Comment: 0,0:01:19.51,0:01:21.35,uto,,0,0,0,karaoke,{\k23}JER{\k13}SEY {\k11}ni {\k22}JER{\k13}SEY {\k25}wa {\k22}{\rnabi}OU{\k12}T{\k21}DOOR {\k22}ha{\r}
+Comment: 0,0:01:21.39,0:01:23.23,uto,,0,0,0,karaoke,{\k25}IN{\k23}DOOR {\k22}kei {\k12}na{\k12}ra {\k12}{\rnabi}T{\k23}RA{\k10}CK{\k25}MA{\k20}KER{\r}
+Comment: 0,0:01:23.27,0:01:25.10,uto,,0,0,0,karaoke,{\k13}o{\k12}sha{\k12}re {\k11}no {\k23}sei{\k12}chi {\k12}da {\k22}{\rnabi}FA{\k24}SHION {\k23}CEN{\k19}TER{\r}
+Comment: 0,0:01:25.15,0:01:26.93,uto,,0,0,0,karaoke,{\k23}ryou{\k8}te {\k15}wo {\k12}ka{\k12}ka{\k11}ge{\k13}te {\k9}{\rnabi}C{\k26}LAP{\k12} YOUR {\k22}HANDS {\k15}UP{\r}
+Comment: 0,0:01:27.02,0:01:28.87,uto,,0,0,0,karaoke,{\k22}PEA{\k10}K {\k15}wo {\k11}o{\k15}sa{\k10}e{\k24}ro {\k18}{\rnabi}MA{\k17}XI{\k21}MI{\k22}SER{\r}
+Comment: 0,0:01:28.87,0:01:30.76,Duo,,0,0,0,karaoke,{\k12}ne{\k13}mu{\k9}ke {\k15}no {\k22}PEA{\k11}K {\k13}ni {\k16}CAF{\k12}FE{\k20}INE {\k23}tou{\k23}ka
+Comment: 0,0:01:30.75,0:01:34.04,Choir,,0,0,0,karaoke,{\k50}HEY {\k46}HEY {\k45}HEY {\k46}HEY {\k47}HEY {\k51}HEY {\k44}HEY
+Comment: 0,0:01:34.52,0:01:37.79,Choir,,0,0,0,karaoke,{\k51}HEY {\k45}HEY {\k45}HEY {\k46}HEY {\k47}HEY {\k47}HEY {\k46}HEY
+Comment: 0,0:01:38.27,0:01:41.54,Choir,,0,0,0,karaoke,{\k47}HEY {\k49}HEY {\k45}HEY {\k46}HEY {\k47}HEY {\k51}HEY {\k42}HEY
+Comment: 0,0:01:42.00,0:01:43.88,Choir,,0,0,0,karaoke,{\k51}HEY {\k45}HEY {\k45}HEY {\k47}HEY
+Comment: 0,0:01:43.89,0:01:47.77,Duo,,0,0,0,karaoke,{\k12}ne{\k12}mu{\k10}ke {\k13}no {\k23}PEA{\k12}K {\k13}ni {\k12}CAF{\k14}FE{\k23}INE {\k27}tou{\kf217}ka
+Comment: 0,0:02:00.77,0:02:02.59,nabi,,0,0,0,karaoke,{\k14}o{\k9}sha{\k13}re {\k11}no {\k12}kyo{\k11}ku{\k12}chi {\k11}da {\k23}{\ruto}FA{\k24}SHION {\k24}CEN{\k18}TER
+Comment: 0,0:02:02.65,0:02:04.51,nabi,,0,0,0,karaoke,{\k23}ryou{\k8}te {\k15}wo {\k10}ka{\k14}ka{\k13}ge{\k11}te {\k9}{\ruto}C{\k28}LAP{\k10} YOUR {\k22}HANDS {\k23}UP{\r}
+Comment: 0,0:02:04.52,0:02:06.30,nabi,,0,0,0,karaoke,{\k23}JER{\k14}SEY {\k10}ni {\k24}Y-{\k14}SHIR{\k12}TS {\k20}{\ruto}zet{\k23}tai {\k26}hen {\k12}da{\r}
+Comment: 0,0:02:06.39,0:02:08.28,nabi,,0,0,0,karaoke,{\k23}M. {\k26}I. {\k22}D. {\k24}I. {\k11}{\ruto}T{\k25}RA{\k10}CK{\k23}MA{\k25}KER{\r}
+Comment: 0,0:02:08.28,0:02:10.12,nabi,,0,0,0,karaoke,{\k12}o{\k10}sha{\k12}re {\k11}no {\k28}sei{\k7}chi {\k12}da {\k27}{\ruto}FA{\k23}SHION {\k21}CEN{\k21}TER{\r}
+Comment: 0,0:02:10.12,0:02:11.98,nabi,,0,0,0,karaoke,{\k23}ryou{\k13}te {\k13}wo {\k9}ka{\k12}ka{\k15}ge{\k9}te {\k9}{\ruto}C{\k28}LAP{\k10} YOUR {\k25}HANDS {\k20}UP{\r}
+Comment: 0,0:02:12.00,0:02:13.89,nabi,,0,0,0,karaoke,{\k22}nou{\k11}ki {\k9}wa {\k17}a{\k15}shi{\k9}ta {\k9}da {\k28}{\ruto}zet{\k23}tai {\k19}te{\k9}tsu{\k18}ya{\r}
+Comment: 0,0:02:13.89,0:02:15.86,Duo,,0,0,0,karaoke,{\k11}EVE{\k12}RY {\k24}DAY {\k11}EVE{\k11}RY {\k24}NIGHT {\k9}T{\k27}RA{\k12}CK{\k22}MA{\k34}KER
+Comment: 0,0:02:30.76,0:02:32.58,uto,,0,0,0,karaoke,{\k11}o{\k12}sha{\k13}re {\k11}no {\k12}kyo{\k11}ku{\k12}chi {\k13}da {\k23}{\rnabi}FA{\k22}SHION {\k27}CEN{\k15}TER{\r}
+Comment: 0,0:02:32.64,0:02:34.52,uto,,0,0,0,karaoke,{\k23}ryou{\k8}te {\k15}wo {\k12}ka{\k11}ka{\k13}ge{\k12}te {\k9}{\rnabi}C{\k21}LAP{\k17} YOUR {\k24}HANDS {\k23}UP{\r}
+Comment: 0,0:02:34.52,0:02:36.39,uto,,0,0,0,karaoke,{\k24}JER{\k12}SEY {\k12}ni {\k20}Y-{\k15}SHIR{\k11}TS {\k23}{\rnabi}zet{\k22}tai {\k25}hen {\k23}da{\r}
+Comment: 0,0:02:36.39,0:02:38.25,uto,,0,0,0,karaoke,{\k22}M. {\k24}I. {\k25}D. {\k22}I. {\k13}{\rnabi}T{\k22}RA{\k13}CK{\k23}MA{\k22}KER{\r}
+Comment: 0,0:02:38.26,0:02:40.14,uto,,0,0,0,karaoke,{\k9}o{\k13}sha{\k12}re {\k13}no {\k23}sei{\k12}chi {\k13}da {\k25}{\rnabi}FA{\k21}SHION {\k25}CEN{\k22}TER{\r}
+Comment: 0,0:02:40.14,0:02:42.01,uto,,0,0,0,karaoke,{\k23}ryou{\k8}te {\k15}wo {\k12}ka{\k12}ka{\k12}ge{\k12}te {\k9}{\rnabi}C{\k26}LAP{\k12} YOUR {\k26}HANDS {\k20}UP{\r}
+Comment: 0,0:02:42.01,0:02:43.88,uto,,0,0,0,karaoke,{\k23}nou{\k9}ki {\k15}wa {\k12}a{\k12}shi{\k10}ta {\k13}da {\k24}{\rnabi}zet{\k22}tai {\k16}te{\k11}tsu{\k20}ya{\r}
+Comment: 0,0:02:43.88,0:02:45.74,Duo,,0,0,0,karaoke,{\k12}EVE{\k12}RY {\k23}DAY {\k11}EVE{\k13}RY {\k24}NIGHT {\k9}T{\k26}RA{\k12}CK{\k21}MA{\k23}KER
+Comment: 0,0:02:45.76,0:02:48.93,Choir,,0,0,0,karaoke,{\k48}HEY {\k46}HEY {\k47}HEY {\k47}HEY {\k46}HEY {\k46}HEY {\k37}HEY
+Comment: 0,0:02:48.55,0:02:49.53,nabi,,0,0,0,karaoke,{\k26}FA{\k24}SHION {\k23}CEN{\k25}TER
+Comment: 0,0:02:49.52,0:02:52.68,Choir,,0,0,0,karaoke,{\k47}HEY {\k47}HEY {\k47}HEY {\k47}HEY {\k45}HEY {\k48}HEY {\k35}HEY
+Comment: 0,0:02:52.33,0:02:53.24,nabi,,0,0,0,karaoke,{\k9}C{\k29}LAP{\k9} YOUR {\k23}HANDS {\k21}UP
+Comment: 0,0:02:54.20,0:02:55.22,uto,,0,0,0,karaoke,{\k24}FA{\k22}SHION {\k24}CEN{\k32}TER
+Comment: 0,0:02:56.08,0:02:57.02,uto,,0,0,0,karaoke,{\k9}C{\k25}LAP{\k13} YOUR {\k23}HANDS {\k24}UP
+Comment: 0,0:02:53.25,0:02:56.50,Choir,,0,0,0,karaoke,{\k48}HEY {\k46}HEY {\k48}HEY {\k48}HEY {\k44}HEY {\k48}HEY {\k43}HEY
+Comment: 0,0:02:57.95,0:02:58.92,Duo,,0,0,0,karaoke,{\k24}FA{\k23}SHION {\k24}CEN{\k26}TER
+Comment: 0,0:02:59.83,0:03:00.74,Duo,,0,0,0,karaoke,{\k11}C{\k23}LAP{\k13} YOUR {\k23}HANDS {\k21}UP
+Comment: 0,0:02:57.01,0:03:00.16,Choir,,0,0,0,karaoke,{\k45}HEY {\k47}HEY {\k48}HEY {\k47}HEY {\k62}HEY {\k31}HEY {\k35}HEY
+Dialogue: 0,0:00:15.08,0:00:17.81,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k21}MY {\k27}HOU{\k24}SE {\k23}{\rDuo}IS {\k24}dan{\k23}boo{\k21}ru{\r}
+Dialogue: 0,0:00:16.74,0:00:19.68,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k25}NEW {\k21}HOU{\k25}SE {\k8}{\rDuo}E{\k27}LE{\k13}CT{\k21}RO {\k24}HOU{\k20}SE{\r}
+Dialogue: 0,0:00:18.61,0:00:21.48,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k11}T{\k25}RU{\k11}CK {\k23}DRI{\k24}VER {\k24}{\rDuo}tsuu{\k22}kin {\k18}RU{\k19}SH{\r}
+Dialogue: 0,0:00:20.49,0:00:23.43,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}U{\k14}P {\k10}na {\k24}ROA{\k10}D {\k14}wa {\k24}{\rDuo}TEN{\k23}SION {\k28}MA{\k15}X{\r}
+Dialogue: 0,0:00:22.36,0:00:25.05,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k25}HOU{\k23}SE {\k23}DUS{\k24}T {\k23}{\rDuo}NON {\k24}FIC{\k17}TION{\r}
+Dialogue: 0,0:00:24.23,0:00:26.92,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ka{\k32}fun {\k23}shou {\k12}ni {\k13}wa {\k24}{\rDuo}MUS{\k9}K{\k12}ME{\k18}LON{\r}
+Dialogue: 0,0:00:26.11,0:00:28.80,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k24}CUR{\k12}SO{\k12}R {\k21}mat{\k10}te {\k15}yo {\k11}{\rDuo}K{\k24}LA{\k12}X{\k18}ON{\r}
+Dialogue: 0,0:00:27.74,0:00:30.93,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ho{\k14}ra {\k12}C{\k24}LI{\k12}CK {\k13\rDuo}LY{\k21}RI{\k12}C {\k9}T{\k27}RA{\k12}CK{\k22}MA{\k28}KER
+Dialogue: 0,0:00:29.86,0:00:32.81,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k7}o{\k17}sha{\k12}re {\k12}no {\k15}kyo{\k10}ku{\k10}chi {\k11}da {\k21}{\ruto}FA{\k26}SHION {\k26}CEN{\k18}TER{\r}
+Dialogue: 0,0:00:31.74,0:00:34.64,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ryou{\k8}te {\k15}wo {\k12}ka{\k12}ka{\k15}ge{\k9}te {\k9}{\ruto}C{\k21}LAP{\k17} YOUR {\k22}HANDS {\k17}UP{\r}
+Dialogue: 0,0:00:33.59,0:00:36.53,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k24}JER{\k11}SEY {\k12}ni {\k23}Y-{\k14}SHIR{\k9}TS {\k24}{\ruto}zet{\k23}tai {\k25}hen {\k19}da{\r}
+Dialogue: 0,0:00:35.48,0:00:38.45,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}M. {\k23}I. {\k23}D. {\k24}I. {\k12}{\ruto}T{\k24}RA{\k10}CK{\k25}MA{\k24}KER{\r}
+Dialogue: 0,0:00:37.37,0:00:40.32,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k12}o{\k7}sha{\k10}re {\k16}no {\k24}sei{\k8}chi {\k16}da {\k23}{\rnabi}FA{\k24}SHION {\k24}CE{\k21}NTER{\r}
+Dialogue: 0,0:00:39.24,0:00:42.12,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ryou{\k8}te {\k15}wo {\k12}ka{\k12}ka{\k15}ge{\k9}te {\k9}{\rnabi}C{\k21}LAP{\k17} YOUR {\k22}HANDS {\k15}UP{\r}
+Dialogue: 0,0:00:41.11,0:00:44.01,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k23}nou{\k12}ki {\k13}wa {\k11}a{\k11}shi{\k10}ta {\k13}da {\k24}{\rnabi}zet{\k24}tai {\k11}te{\k11}tsu{\k17}ya{\r}
+Dialogue: 0,0:00:42.99,0:00:45.97,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k11}{\rnabi}EVE{\k12}RY {\k23}DAY {\r}{\k12}{\ruto}EVE{\k13}RY {\k23}NIGHT {\r}{\k10}{\rDuo}T{\k25}RA{\k12}CK{\k24}MA{\k23}KER{\r}
+Dialogue: 0,0:00:44.85,0:00:49.24,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k50}HEY {\k46}HEY {\k45}HEY {\k46}HEY {\k47}HEY {\k51}HEY {\k44}HEY
+Dialogue: 0,0:00:48.62,0:00:52.99,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k51}HEY {\k45}HEY {\k45}HEY {\k46}HEY {\k47}HEY {\k47}HEY {\k46}HEY
+Dialogue: 0,0:00:52.37,0:00:56.74,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k47}HEY {\k49}HEY {\k45}HEY {\k46}HEY {\k47}HEY {\k51}HEY {\k42}HEY
+Dialogue: 0,0:00:56.10,0:00:59.08,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k51}HEY {\k45}HEY {\k45}HEY {\k47}HEY
+Dialogue: 0,0:00:47.68,0:00:49.77,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k10}T{\k25}RA{\k12}CK{\k23}MA{\k29}KER
+Dialogue: 0,0:00:51.43,0:00:53.45,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k9}C{\k25}LAP{\k13} YOUR {\k23}HANDS {\k22}UP
+Dialogue: 0,0:00:55.17,0:00:57.21,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k12}T{\k24}RA{\k11}CK{\k23}MA{\k24}KER
+Dialogue: 0,0:00:58.92,0:01:00.94,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k9}C{\k26}LAP{\k12} YOUR {\k26}HANDS {\k19}UP
+Dialogue: 0,0:00:59.86,0:01:02.80,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k11}LO{\k12}LI {\k24}gao {\k24}kon{\k8}pu {\k15}na {\k13}tsu{\k21}ru {\k12}pe{\k24}tap{\k20}pu
+Dialogue: 0,0:01:01.72,0:01:04.68,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k24}HO{\k11}P {\k16}de {\k33}STE{\k23}P {\k13}DU{\k21}B{\k24}STE{\k21}P
+Dialogue: 0,0:01:03.61,0:01:06.49,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k9}F{\k16}LO{\k14}OR {\k8}no {\k16}a{\k8}i{\k12}tsu {\k11}wa {\k14}RO{\k22}BO{\k12}T {\k23}DAN{\k13}CE
+Dialogue: 0,0:01:05.49,0:01:08.40,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k10}o{\k11}sa{\k16}ke {\k9}mo {\k25}hait{\k22}te {\k12}so{\k11}ko{\k15}so{\k9}ko {\k24}NI{\k17}CE
+Dialogue: 0,0:01:07.36,0:01:10.32,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k24}NECK{\k23}TIE {\k12}yu{\k12}ru{\k12}me {\k12}ta {\k9}i{\k14}ma {\k10}ko{\k14}so {\k27}CHAN{\k17}CE
+Dialogue: 0,0:01:09.24,0:01:12.20,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k9}ku{\k16}ro {\k11}bu{\k12}chi {\k13}me{\k10}ga{\k7}ne {\k17}ni {\k10}ho{\k12}so{\k11}mi {\k14}no {\k24}pan{\k20}tsu
+Dialogue: 0,0:01:11.12,0:01:14.01,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k11}fu{\k11}ta{\k12}ri {\k13}wo {\k10}yu{\k13}ru{\k9}ga{\k14}su {\k25}WOB{\k22}BLE {\k39}BASS
+Dialogue: 0,0:01:12.99,0:01:15.76,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k25}kon'{\k10}ya {\k11}mo {\k22}zan{\k26}nen {\k17}gyo{\k7}ku{\k24}sai {\k25}desu
+Dialogue: 0,0:01:14.86,0:01:17.83,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k10}o{\k14}sha{\k12}re {\k12}no {\k15}kyo{\k8}ku{\k12}chi {\k11}da {\k21}{\rnabi}FA{\k26}SHION {\k26}CEN{\k20}TER{\r}
+Dialogue: 0,0:01:16.73,0:01:19.67,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ryou{\k8}te {\k15}wo {\k12}ka{\k12}ka{\k15}ge{\k9}te {\k9}{\rnabi}C{\k21}LAP{\k17} YOUR {\k22}HANDS {\k21}UP{\r}
+Dialogue: 0,0:01:18.61,0:01:21.55,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k23}JER{\k13}SEY {\k11}ni {\k22}JER{\k13}SEY {\k25}wa {\k22}{\rnabi}OU{\k12}T{\k21}DOOR {\k22}ha{\r}
+Dialogue: 0,0:01:20.49,0:01:23.43,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k25}IN{\k23}DOOR {\k22}kei {\k12}na{\k12}ra {\k12}{\rnabi}T{\k23}RA{\k10}CK{\k25}MA{\k20}KER{\r}
+Dialogue: 0,0:01:22.37,0:01:25.30,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k13}o{\k12}sha{\k12}re {\k11}no {\k23}sei{\k12}chi {\k12}da {\k22}{\rnabi}FA{\k24}SHION {\k23}CEN{\k19}TER{\r}
+Dialogue: 0,0:01:24.25,0:01:27.13,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ryou{\k8}te {\k15}wo {\k12}ka{\k12}ka{\k11}ge{\k13}te {\k9}{\rnabi}C{\k26}LAP{\k12} YOUR {\k22}HANDS {\k15}UP{\r}
+Dialogue: 0,0:01:26.12,0:01:29.07,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k22}PEA{\k10}K {\k15}wo {\k11}o{\k15}sa{\k10}e{\k24}ro {\k18}{\rnabi}MA{\k17}XI{\k21}MI{\k22}SER{\r}
+Dialogue: 0,0:01:27.97,0:01:30.96,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ne{\k13}mu{\k9}ke {\k15}no {\k22}PEA{\k11}K {\k13}ni {\k16}CAF{\k12}FE{\k20}INE {\k23}tou{\k23}ka
+Dialogue: 0,0:01:29.85,0:01:34.24,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k50}HEY {\k46}HEY {\k45}HEY {\k46}HEY {\k47}HEY {\k51}HEY {\k44}HEY
+Dialogue: 0,0:01:33.62,0:01:37.99,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k51}HEY {\k45}HEY {\k45}HEY {\k46}HEY {\k47}HEY {\k47}HEY {\k46}HEY
+Dialogue: 0,0:01:37.37,0:01:41.74,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k47}HEY {\k49}HEY {\k45}HEY {\k46}HEY {\k47}HEY {\k51}HEY {\k42}HEY
+Dialogue: 0,0:01:41.10,0:01:44.08,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k51}HEY {\k45}HEY {\k45}HEY {\k47}HEY
+Dialogue: 0,0:01:42.99,0:01:47.97,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ne{\k12}mu{\k10}ke {\k13}no {\k23}PEA{\k12}K {\k13}ni {\k12}CAF{\k14}FE{\k23}INE {\k27}tou{\kf217}ka
+Dialogue: 0,0:01:59.87,0:02:02.79,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k14}o{\k9}sha{\k13}re {\k11}no {\k12}kyo{\k11}ku{\k12}chi {\k11}da {\k23}{\ruto}FA{\k24}SHION {\k24}CEN{\k18}TER
+Dialogue: 0,0:02:01.75,0:02:04.71,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ryou{\k8}te {\k15}wo {\k10}ka{\k14}ka{\k13}ge{\k11}te {\k9}{\ruto}C{\k28}LAP{\k10} YOUR {\k22}HANDS {\k23}UP{\r}
+Dialogue: 0,0:02:03.62,0:02:06.50,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}JER{\k14}SEY {\k10}ni {\k24}Y-{\k14}SHIR{\k12}TS {\k20}{\ruto}zet{\k23}tai {\k26}hen {\k12}da{\r}
+Dialogue: 0,0:02:05.49,0:02:08.48,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}M. {\k26}I. {\k22}D. {\k24}I. {\k11}{\ruto}T{\k25}RA{\k10}CK{\k23}MA{\k25}KER{\r}
+Dialogue: 0,0:02:07.38,0:02:10.32,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k12}o{\k10}sha{\k12}re {\k11}no {\k28}sei{\k7}chi {\k12}da {\k27}{\ruto}FA{\k23}SHION {\k21}CEN{\k21}TER{\r}
+Dialogue: 0,0:02:09.22,0:02:12.18,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ryou{\k13}te {\k13}wo {\k9}ka{\k12}ka{\k15}ge{\k9}te {\k9}{\ruto}C{\k28}LAP{\k10} YOUR {\k25}HANDS {\k20}UP{\r}
+Dialogue: 0,0:02:11.10,0:02:14.09,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k22}nou{\k11}ki {\k9}wa {\k17}a{\k15}shi{\k9}ta {\k9}da {\k28}{\ruto}zet{\k23}tai {\k19}te{\k9}tsu{\k18}ya{\r}
+Dialogue: 0,0:02:12.99,0:02:16.06,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k11}EVE{\k12}RY {\k24}DAY {\k11}EVE{\k11}RY {\k24}NIGHT {\k9}T{\k27}RA{\k12}CK{\k22}MA{\k34}KER
+Dialogue: 0,0:02:29.86,0:02:32.78,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k11}o{\k12}sha{\k13}re {\k11}no {\k12}kyo{\k11}ku{\k12}chi {\k13}da {\k23}{\rnabi}FA{\k22}SHION {\k27}CEN{\k15}TER{\r}
+Dialogue: 0,0:02:31.74,0:02:34.72,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ryou{\k8}te {\k15}wo {\k12}ka{\k11}ka{\k13}ge{\k12}te {\k9}{\rnabi}C{\k21}LAP{\k17} YOUR {\k24}HANDS {\k23}UP{\r}
+Dialogue: 0,0:02:33.62,0:02:36.59,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k24}JER{\k12}SEY {\k12}ni {\k20}Y-{\k15}SHIR{\k11}TS {\k23}{\rnabi}zet{\k22}tai {\k25}hen {\k23}da{\r}
+Dialogue: 0,0:02:35.49,0:02:38.45,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k22}M. {\k24}I. {\k25}D. {\k22}I. {\k13}{\rnabi}T{\k22}RA{\k13}CK{\k23}MA{\k22}KER{\r}
+Dialogue: 0,0:02:37.36,0:02:40.34,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k9}o{\k13}sha{\k12}re {\k13}no {\k23}sei{\k12}chi {\k13}da {\k25}{\rnabi}FA{\k21}SHION {\k25}CEN{\k22}TER{\r}
+Dialogue: 0,0:02:39.24,0:02:42.21,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ryou{\k8}te {\k15}wo {\k12}ka{\k12}ka{\k12}ge{\k12}te {\k9}{\rnabi}C{\k26}LAP{\k12} YOUR {\k26}HANDS {\k20}UP{\r}
+Dialogue: 0,0:02:41.11,0:02:44.08,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k23}nou{\k9}ki {\k15}wa {\k12}a{\k12}shi{\k10}ta {\k13}da {\k24}{\rnabi}zet{\k22}tai {\k16}te{\k11}tsu{\k20}ya{\r}
+Dialogue: 0,0:02:42.98,0:02:45.94,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k12}EVE{\k12}RY {\k23}DAY {\k11}EVE{\k13}RY {\k24}NIGHT {\k9}T{\k26}RA{\k12}CK{\k21}MA{\k23}KER
+Dialogue: 0,0:02:44.86,0:02:49.13,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k48}HEY {\k46}HEY {\k47}HEY {\k47}HEY {\k46}HEY {\k46}HEY {\k37}HEY
+Dialogue: 0,0:02:47.65,0:02:49.73,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k26}FA{\k24}SHION {\k23}CEN{\k25}TER
+Dialogue: 0,0:02:48.62,0:02:52.88,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k47}HEY {\k47}HEY {\k47}HEY {\k47}HEY {\k45}HEY {\k48}HEY {\k35}HEY
+Dialogue: 0,0:02:51.43,0:02:53.44,nabi,,0,0,0,fx,{\k90\fad(300,200)}{\k9}C{\k29}LAP{\k9} YOUR {\k23}HANDS {\k21}UP
+Dialogue: 0,0:02:53.30,0:02:55.42,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k24}FA{\k22}SHION {\k24}CEN{\k32}TER
+Dialogue: 0,0:02:55.18,0:02:57.22,uto,,0,0,0,fx,{\k90\fad(300,200)}{\k9}C{\k25}LAP{\k13} YOUR {\k23}HANDS {\k24}UP
+Dialogue: 0,0:02:52.35,0:02:56.70,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k48}HEY {\k46}HEY {\k48}HEY {\k48}HEY {\k44}HEY {\k48}HEY {\k43}HEY
+Dialogue: 0,0:02:57.05,0:02:59.12,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k24}FA{\k23}SHION {\k24}CEN{\k26}TER
+Dialogue: 0,0:02:58.93,0:03:00.94,Duo,,0,0,0,fx,{\k90\fad(300,200)}{\k11}C{\k23}LAP{\k13} YOUR {\k23}HANDS {\k21}UP
+Dialogue: 0,0:02:56.11,0:03:00.36,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k45}HEY {\k47}HEY {\k48}HEY {\k47}HEY {\k62}HEY {\k31}HEY {\k35}HEY
