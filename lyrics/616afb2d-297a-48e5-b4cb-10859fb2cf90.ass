@@ -1,0 +1,151 @@
+﻿[Script Info]
+Title: Pneus Hiver
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: fabthehedgehog
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Default,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1.5,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:06.76,0:00:09.91,Sample KM [Up],,0,0,0,karaoke,{\k32}C'est {\k21}plus {\k21}l'é{\k71}té, {\k23}on {\k26}a {\k19}pas{\k23}sé {\k23}dé{\k56}cembre
+Comment: 0,0:00:10.09,0:00:11.54,Sample KM [Up],,0,0,0,karaoke,{\k24}Il {\k21}va {\k26}bien{\k21}tôt {\k15}nei{\k38}ger
+Comment: 0,0:00:11.54,0:00:13.77,Sample KM [Up],,0,0,0,karaoke,{\k21}Mais {\k13}t'es {\k32}en {\k25}train {\k24}de {\k19}te {\k26}dé{\k63}tendre
+Comment: 0,0:00:14.11,0:00:15.52,Sample KM [Up],,0,0,0,karaoke,{\k22}De{\k23}hors {\k15}c'est {\k21}l'hi{\k60}ver
+Comment: 0,0:00:15.52,0:00:17.47,Sample KM [Up],,0,0,0,karaoke,{\k23}Mais {\k23}toi {\k24}t'en {\k20}as {\k23}rien {\k27}à {\k55}faire
+Comment: 0,0:00:17.61,0:00:19.26,Sample KM [Up],,0,0,0,karaoke,{\k25}Le {\k20}bi{\k27}tume {\k22}s'ra {\k23}tout {\k48}blanc
+Comment: 0,0:00:19.26,0:00:20.86,Sample KM [Up],,0,0,0,karaoke,{\k23}Et {\k23}toi {\k21}tu {\k24}s'ras {\k19}comme {\k24}un {\k26}gland
+Comment: 0,0:00:22.28,0:00:23.70,Sample KM [Up],,0,0,0,karaoke,{\k26}Car {\k24}t'au{\k24}ras {\k18}pas {\k28}mon{\k22}té
+Comment: 0,0:00:23.70,0:00:24.93,Sample KM [Up],,0,0,0,karaoke,{\k27}Tes {\k20}pneus {\k25}hi{\k51}ver
+Comment: 0,0:00:25.57,0:00:26.91,Sample KM [Up],,0,0,0,karaoke,{\k27}Tes {\k20}pneus {\k25}hi{\k62}ver
+Comment: 0,0:00:27.18,0:00:28.53,Sample KM [Up],,0,0,0,karaoke,{\k26}Mainte{\k25}nant {\k23}tu {\k24}ga{\k37}lères
+Comment: 0,0:00:28.53,0:00:30.52,Sample KM [Up],,0,0,0,karaoke,{\k23}Tu {\k34}t’sens {\k25}con {\k18}mon {\k27}p'tit {\k24}pé{\k48}père
+Comment: 0,0:00:31.21,0:00:32.52,Sample KM [Up],,0,0,0,karaoke,{\k27}Tes {\k20}pneus {\k25}hi{\k59}ver
+Comment: 0,0:00:32.58,0:00:33.22,Sample KM [Choir],,0,0,0,karaoke,{\k29}Vin{\k35}dieu
+Comment: 0,0:00:33.10,0:00:34.22,Sample KM [Up],,0,0,0,karaoke,{\k24}Tes {\k20}pneus {\k25}hi{\k43}ver
+Comment: 0,0:00:34.22,0:00:35.93,Sample KM [Up],,0,0,0,karaoke,{\k29}Viens {\k20}pas {\k25}m'de{\k18}man{\k29}der {\k19}d'pous{\k31}ser
+Comment: 0,0:00:36.10,0:00:37.98,Sample KM [Up],,0,0,0,karaoke,{\k26}J't'ai {\k22}vu {\k27}t'as {\k22}les {\k21}pneus {\k25}é{\k45}té
+Comment: 0,0:00:53.72,0:00:54.90,Sample KM [Up],,0,0,0,karaoke,{\k21}T'es {\k25}in{\k24}con{\k48}scient
+Comment: 0,0:00:54.90,0:00:56.78,Sample KM [Up],,0,0,0,karaoke,{\k22}Pour {\k27}moi {\k14}t'es {\k28}un {\k20}dé{\k33}lin{\k44}quant
+Comment: 0,0:00:57.00,0:00:58.63,Sample KM [Up],,0,0,0,karaoke,{\k26}Si {\k24}tu as {\k20}un {\k18}ac{\k26}ci{\k49}dent
+Comment: 0,0:00:58.63,0:01:00.31,Sample KM [Up],,0,0,0,karaoke,{\k24}Viens {\k23}pas {\k22}me {\k23}voir {\k28}en {\k15}pleu{\k33}rant
+Comment: 0,0:01:00.97,0:01:02.26,Sample KM [Up],,0,0,0,karaoke,{\k25}Au {\k21}pre{\k22}mier {\k12}vi{\k49}rage
+Comment: 0,0:01:02.26,0:01:04.41,Sample KM [Up],,0,0,0,karaoke,{\k13}Tu {\k24}vas {\k22}glis{\k17}ser {\k34}dans {\k21}le {\k21}pâ{\k14}tu{\k49}rage
+Comment: 0,0:01:04.70,0:01:08.17,Sample KM [Up],,0,0,0,karaoke,{\k25}Pas {\k21}be{\k27}soin {\k17}d'cou{\k78}rage {\k20}pour {\k22}é{\k23}vi{\k23}ter {\k25}l'car{\k66}nage
+Comment: 0,0:01:09.62,0:01:10.55,Sample KM [Up],,0,0,0,karaoke,{\k20}Faut {\k29}juste {\k20}mon{\k24}ter
+Comment: 0,0:01:10.55,0:01:11.78,Sample KM [Up],,0,0,0,karaoke,{\k27}Tes {\k20}pneus {\k25}hi{\k51}ver
+Comment: 0,0:01:12.42,0:01:13.76,Sample KM [Up],,0,0,0,karaoke,{\k27}Tes {\k20}pneus {\k25}hi{\k62}ver
+Comment: 0,0:01:14.03,0:01:15.38,Sample KM [Up],,0,0,0,karaoke,{\k26}Mainte{\k25}nant {\k23}tu {\k24}ga{\k37}lères
+Comment: 0,0:01:15.38,0:01:17.37,Sample KM [Up],,0,0,0,karaoke,{\k23}Tu {\k34}t’sens {\k25}con {\k18}mon {\k27}p'tit {\k24}pé{\k48}père
+Comment: 0,0:01:18.06,0:01:19.37,Sample KM [Up],,0,0,0,karaoke,{\k27}Tes {\k20}pneus {\k25}hi{\k59}ver
+Comment: 0,0:01:19.43,0:01:20.07,Sample KM [Choir],,0,0,0,karaoke,{\k29}Vin{\k35}dieu
+Comment: 0,0:01:19.95,0:01:21.07,Sample KM [Up],,0,0,0,karaoke,{\k27}Tes {\k20}pneus {\k25}hi{\k51}ver
+Comment: 0,0:01:21.07,0:01:22.78,Sample KM [Up],,0,0,0,karaoke,{\k29}Viens {\k20}pas {\k25}m'de{\k18}man{\k29}der {\k19}d'pous{\k31}ser
+Comment: 0,0:01:22.95,0:01:24.83,Sample KM [Up],,0,0,0,karaoke,{\k26}J't'ai {\k22}vu {\k27}t'as {\k22}les {\k21}pneus {\k25}é{\k45}té
+Comment: 0,0:01:40.31,0:01:41.74,Sample KM [Up],,0,0,0,karaoke,{\k25}Quand {\k24}ça {\k24}neige {\k29}bien {\k41}dru
+Comment: 0,0:01:41.87,0:01:43.58,Sample KM [Up],,0,0,0,karaoke,{\k35}J'pra{\k24}tique {\k19}pas {\k27}dans {\k24}l'pen{\k42}tu
+Comment: 0,0:01:43.83,0:01:45.29,Sample KM [Up],,0,0,0,karaoke,{\k18}Moi {\k31}y'a {\k13}per{\k33}sonne {\k25}qui {\k26}m'pousse
+Comment: 0,0:01:45.29,0:01:47.30,Sample KM [Up],,0,0,0,karaoke,{\k24}Per{\k22}sonne {\k27}ne {\k19}vient {\k24}à {\k19}ma {\k31}res{\k35}cousse
+Comment: 0,0:01:47.59,0:01:48.95,Sample KM [Up],,0,0,0,karaoke,{\k24}J'suis {\k25}un {\k23}as {\k18}du {\k22}vo{\k24}lant
+Comment: 0,0:01:49.50,0:01:50.98,Sample KM [Up],,0,0,0,karaoke,{\k16}Mais {\k27}j'ai {\k24}rien {\k16}d'é{\k20}pa{\k45}tant
+Comment: 0,0:01:51.28,0:01:52.95,Sample KM [Up],,0,0,0,karaoke,{\k29}Y'a {\k21}pas {\k26}d'se{\k19}cret {\k25}mon {\k47}grand
+Comment: 0,0:01:53.00,0:01:54.76,Sample KM [Up],,0,0,0,karaoke,{\k15}Y'a {\k36}juste {\k18}à {\k24}être {\k24}pré{\k18}vo{\k41}yant
+Comment: 0,0:01:56.47,0:01:57.44,Sample KM [Up],,0,0,0,karaoke,{\k26}Moi {\k21}j'ai {\k25}mon{\k25}té
+Comment: 0,0:01:57.44,0:01:58.67,Sample KM [Up],,0,0,0,karaoke,{\k27}Mes {\k20}pneus {\k25}hi{\k51}ver
+Comment: 0,0:01:59.31,0:02:00.65,Sample KM [Up],,0,0,0,karaoke,{\k27}Mes {\k20}pneus {\k25}hi{\k62}ver
+Comment: 0,0:02:00.73,0:02:02.35,Sample KM [Up],,0,0,0,karaoke,{\k24}Quand {\k24}vient {\k23}l'hi{\k16}ver, {\k29}je {\k46}gère
+Comment: 0,0:02:02.35,0:02:04.26,Sample KM [Up],,0,0,0,karaoke,{\k25}Je {\k26}glisse {\k20}ja{\k24}mais {\k23}dans {\k27}l'dé{\k46}vers
+Comment: 0,0:02:04.68,0:02:06.12,Sample KM [Up],,0,0,0,karaoke,{\k27}Et {\k23}toi {\k21}tu {\k24}ga{\k49}lères
+Comment: 0,0:02:06.12,0:02:07.96,Sample KM [Up],,0,0,0,karaoke,{\k23}Tu {\k34}t’sens {\k25}con {\k18}mon {\k27}p'tit {\k24}pé{\k33}père
+Comment: 0,0:02:07.96,0:02:09.67,Sample KM [Up],,0,0,0,karaoke,{\k29}Viens {\k20}pas {\k25}m'de{\k18}man{\k29}der {\k19}d'pous{\k31}ser
+Comment: 0,0:02:09.84,0:02:11.72,Sample KM [Up],,0,0,0,karaoke,{\k26}J't'ai {\k22}vu {\k27}t'as {\k22}les {\k21}pneus {\k25}é{\k45}té
+Comment: 0,0:02:28.32,0:02:29.26,Default,,0,0,0,karaoke,Et bah alors...
+Comment: 0,0:02:30.01,0:02:31.11,Default,,0,0,0,karaoke,Tu peux me dire c'que t'attends ?
+Comment: 0,0:02:32.03,0:02:34.25,Default,,0,0,0,karaoke,Nan mais dis-moi pas quand même que t'attends le dégel.
+Comment: 0,0:02:35.11,0:02:36.79,Default,,0,0,0,karaoke,Hé, attends pas trop longtemps.
+Comment: 0,0:02:37.27,0:02:38.92,Default,,0,0,0,karaoke,Tu vais filer tout droit dans le tournant.
+Comment: 0,0:02:39.40,0:02:40.54,Default,,0,0,0,karaoke,Hé, tu m'entends mon grand ?
+Comment: 0,0:02:57.45,0:02:58.83,Sample KM [Up],,0,0,0,karaoke,{\k27}Des {\k20}pneus {\k25}hi{\k51}ver
+Comment: 0,0:02:59.33,0:03:00.73,Sample KM [Up],,0,0,0,karaoke,{\k27}Des {\k20}pneus {\k25}hi{\k51}ver
+Comment: 0,0:03:00.96,0:03:02.31,Sample KM [Up],,0,0,0,karaoke,{\k26}Mainte{\k25}nant {\k23}tu {\k24}ga{\k37}lères
+Comment: 0,0:03:02.31,0:03:04.25,Sample KM [Up],,0,0,0,karaoke,{\k23}Tu {\k34}t’sens {\k25}con {\k18}mon {\k27}p'tit {\k24}pé{\k48}père
+Comment: 0,0:03:04.95,0:03:06.26,Sample KM [Up],,0,0,0,karaoke,{\k27}Tes {\k20}pneus {\k25}hi{\k51}ver
+Comment: 0,0:03:06.32,0:03:06.96,Sample KM [Choir],,0,0,0,karaoke,{\k29}Vin{\k35}dieu
+Comment: 0,0:03:06.84,0:03:07.96,Sample KM [Up],,0,0,0,karaoke,{\k27}Tes {\k20}pneus {\k25}hi{\k51}ver
+Comment: 0,0:03:07.96,0:03:09.67,Sample KM [Up],,0,0,0,karaoke,{\k29}Viens {\k20}pas {\k25}m'de{\k18}man{\k29}der {\k19}d'pous{\k31}ser
+Comment: 0,0:03:09.84,0:03:11.72,Sample KM [Up],,0,0,0,karaoke,{\k26}J't'ai {\k22}vu {\k27}t'as {\k22}les {\k21}pneus {\k25}é{\k45}té
+Dialogue: 0,0:00:05.86,0:00:10.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}C'est {\k21}plus {\k21}l'é{\k71}té, {\k23}on {\k26}a {\k19}pas{\k23}sé {\k23}dé{\k56}cembre
+Dialogue: 0,0:00:09.19,0:00:11.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Il {\k21}va {\k26}bien{\k21}tôt {\k15}nei{\k38}ger
+Dialogue: 0,0:00:10.64,0:00:13.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Mais {\k13}t'es {\k32}en {\k25}train {\k24}de {\k19}te {\k26}dé{\k63}tendre
+Dialogue: 0,0:00:13.21,0:00:15.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}De{\k23}hors {\k15}c'est {\k21}l'hi{\k60}ver
+Dialogue: 0,0:00:14.62,0:00:17.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Mais {\k23}toi {\k24}t'en {\k20}as {\k23}rien {\k27}à {\k55}faire
+Dialogue: 0,0:00:16.71,0:00:19.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Le {\k20}bi{\k27}tume {\k22}s'ra {\k23}tout {\k48}blanc
+Dialogue: 0,0:00:18.36,0:00:21.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Et {\k23}toi {\k21}tu {\k24}s'ras {\k19}comme {\k24}un {\k26}gland
+Dialogue: 0,0:00:21.38,0:00:23.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Car {\k24}t'au{\k24}ras {\k18}pas {\k28}mon{\k22}té
+Dialogue: 0,0:00:22.80,0:00:25.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Tes {\k20}pneus {\k25}hi{\k51}ver
+Dialogue: 0,0:00:24.67,0:00:27.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Tes {\k20}pneus {\k25}hi{\k62}ver
+Dialogue: 0,0:00:26.28,0:00:28.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Mainte{\k25}nant {\k23}tu {\k24}ga{\k37}lères
+Dialogue: 0,0:00:27.63,0:00:30.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Tu {\k34}t’sens {\k25}con {\k18}mon {\k27}p'tit {\k24}pé{\k48}père
+Dialogue: 0,0:00:30.31,0:00:32.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Tes {\k20}pneus {\k25}hi{\k59}ver
+Dialogue: 0,0:00:31.68,0:00:33.42,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Vin{\k35}dieu
+Dialogue: 0,0:00:32.20,0:00:34.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Tes {\k20}pneus {\k25}hi{\k43}ver
+Dialogue: 0,0:00:33.32,0:00:36.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Viens {\k20}pas {\k25}m'de{\k18}man{\k29}der {\k19}d'pous{\k31}ser
+Dialogue: 0,0:00:35.20,0:00:38.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}J't'ai {\k22}vu {\k27}t'as {\k22}les {\k21}pneus {\k25}é{\k45}té
+Dialogue: 0,0:00:52.82,0:00:55.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}T'es {\k25}in{\k24}con{\k48}scient
+Dialogue: 0,0:00:54.00,0:00:56.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Pour {\k27}moi {\k14}t'es {\k28}un {\k20}dé{\k33}lin{\k44}quant
+Dialogue: 0,0:00:56.10,0:00:58.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Si {\k24}tu as {\k20}un {\k18}ac{\k26}ci{\k49}dent
+Dialogue: 0,0:00:57.73,0:01:00.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Viens {\k23}pas {\k22}me {\k23}voir {\k28}en {\k15}pleu{\k33}rant
+Dialogue: 0,0:01:00.07,0:01:02.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Au {\k21}pre{\k22}mier {\k12}vi{\k49}rage
+Dialogue: 0,0:01:01.36,0:01:04.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Tu {\k24}vas {\k22}glis{\k17}ser {\k34}dans {\k21}le {\k21}pâ{\k14}tu{\k49}rage
+Dialogue: 0,0:01:03.80,0:01:08.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Pas {\k21}be{\k27}soin {\k17}d'cou{\k78}rage {\k20}pour {\k22}é{\k23}vi{\k23}ter {\k25}l'car{\k66}nage
+Dialogue: 0,0:01:08.72,0:01:10.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Faut {\k29}juste {\k20}mon{\k24}ter
+Dialogue: 0,0:01:09.65,0:01:11.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Tes {\k20}pneus {\k25}hi{\k51}ver
+Dialogue: 0,0:01:11.52,0:01:13.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Tes {\k20}pneus {\k25}hi{\k62}ver
+Dialogue: 0,0:01:13.13,0:01:15.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Mainte{\k25}nant {\k23}tu {\k24}ga{\k37}lères
+Dialogue: 0,0:01:14.48,0:01:17.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Tu {\k34}t’sens {\k25}con {\k18}mon {\k27}p'tit {\k24}pé{\k48}père
+Dialogue: 0,0:01:17.16,0:01:19.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Tes {\k20}pneus {\k25}hi{\k59}ver
+Dialogue: 0,0:01:18.53,0:01:20.27,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Vin{\k35}dieu
+Dialogue: 0,0:01:19.05,0:01:21.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Tes {\k20}pneus {\k25}hi{\k51}ver
+Dialogue: 0,0:01:20.17,0:01:22.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Viens {\k20}pas {\k25}m'de{\k18}man{\k29}der {\k19}d'pous{\k31}ser
+Dialogue: 0,0:01:22.05,0:01:25.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}J't'ai {\k22}vu {\k27}t'as {\k22}les {\k21}pneus {\k25}é{\k45}té
+Dialogue: 0,0:01:39.41,0:01:41.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Quand {\k24}ça {\k24}neige {\k29}bien {\k41}dru
+Dialogue: 0,0:01:40.97,0:01:43.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}J'pra{\k24}tique {\k19}pas {\k27}dans {\k24}l'pen{\k42}tu
+Dialogue: 0,0:01:42.93,0:01:45.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Moi {\k31}y'a {\k13}per{\k33}sonne {\k25}qui {\k26}m'pousse
+Dialogue: 0,0:01:44.39,0:01:47.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Per{\k22}sonne {\k27}ne {\k19}vient {\k24}à {\k19}ma {\k31}res{\k35}cousse
+Dialogue: 0,0:01:46.69,0:01:49.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}J'suis {\k25}un {\k23}as {\k18}du {\k22}vo{\k24}lant
+Dialogue: 0,0:01:48.60,0:01:51.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}Mais {\k27}j'ai {\k24}rien {\k16}d'é{\k20}pa{\k45}tant
+Dialogue: 0,0:01:50.38,0:01:53.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Y'a {\k21}pas {\k26}d'se{\k19}cret {\k25}mon {\k47}grand
+Dialogue: 0,0:01:52.10,0:01:54.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Y'a {\k36}juste {\k18}à {\k24}être {\k24}pré{\k18}vo{\k41}yant
+Dialogue: 0,0:01:55.57,0:01:57.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Moi {\k21}j'ai {\k25}mon{\k25}té
+Dialogue: 0,0:01:56.54,0:01:58.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Mes {\k20}pneus {\k25}hi{\k51}ver
+Dialogue: 0,0:01:58.41,0:02:00.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Mes {\k20}pneus {\k25}hi{\k62}ver
+Dialogue: 0,0:01:59.83,0:02:02.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Quand {\k24}vient {\k23}l'hi{\k16}ver, {\k29}je {\k46}gère
+Dialogue: 0,0:02:01.45,0:02:04.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Je {\k26}glisse {\k20}ja{\k24}mais {\k23}dans {\k27}l'dé{\k46}vers
+Dialogue: 0,0:02:03.78,0:02:06.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Et {\k23}toi {\k21}tu {\k24}ga{\k49}lères
+Dialogue: 0,0:02:05.22,0:02:08.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Tu {\k34}t’sens {\k25}con {\k18}mon {\k27}p'tit {\k24}pé{\k33}père
+Dialogue: 0,0:02:07.06,0:02:09.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Viens {\k20}pas {\k25}m'de{\k18}man{\k29}der {\k19}d'pous{\k31}ser
+Dialogue: 0,0:02:08.94,0:02:11.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}J't'ai {\k22}vu {\k27}t'as {\k22}les {\k21}pneus {\k25}é{\k45}té
+Dialogue: 0,0:02:27.42,0:02:29.46,Default,,0,0,0,fx,{\k90\fad(300,200)}Et bah alors...
+Dialogue: 0,0:02:29.11,0:02:31.31,Default,,0,0,0,fx,{\k90\fad(300,200)}Tu peux me dire c'que t'attends ?
+Dialogue: 0,0:02:31.13,0:02:34.45,Default,,0,0,0,fx,{\k90\fad(300,200)}Nan mais dis-moi pas quand même que t'attends le dégel.
+Dialogue: 0,0:02:34.21,0:02:36.99,Default,,0,0,0,fx,{\k90\fad(300,200)}Hé, attends pas trop longtemps.
+Dialogue: 0,0:02:36.37,0:02:39.12,Default,,0,0,0,fx,{\k90\fad(300,200)}Tu vais filer tout droit dans le tournant.
+Dialogue: 0,0:02:38.50,0:02:40.74,Default,,0,0,0,fx,{\k90\fad(300,200)}Hé, tu m'entends mon grand ?
+Dialogue: 0,0:02:56.55,0:02:59.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Des {\k20}pneus {\k25}hi{\k51}ver
+Dialogue: 0,0:02:58.43,0:03:00.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Des {\k20}pneus {\k25}hi{\k51}ver
+Dialogue: 0,0:03:00.06,0:03:02.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Mainte{\k25}nant {\k23}tu {\k24}ga{\k37}lères
+Dialogue: 0,0:03:01.41,0:03:04.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Tu {\k34}t’sens {\k25}con {\k18}mon {\k27}p'tit {\k24}pé{\k48}père
+Dialogue: 0,0:03:04.05,0:03:06.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Tes {\k20}pneus {\k25}hi{\k51}ver
+Dialogue: 0,0:03:05.42,0:03:07.16,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Vin{\k35}dieu
+Dialogue: 0,0:03:05.94,0:03:08.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Tes {\k20}pneus {\k25}hi{\k51}ver
+Dialogue: 0,0:03:07.06,0:03:09.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Viens {\k20}pas {\k25}m'de{\k18}man{\k29}der {\k19}d'pous{\k31}ser
+Dialogue: 0,0:03:08.94,0:03:11.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}J't'ai {\k22}vu {\k27}t'as {\k22}les {\k21}pneus {\k25}é{\k45}té
