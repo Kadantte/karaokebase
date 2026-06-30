@@ -1,0 +1,216 @@
+﻿[Script Info]
+Title: Avis de tempête
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: fabthehedgehog
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Default,Arial,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,1.5,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 700 and -$start or -700,200)!{!$start < 700 and "\\k" .. ($start/10) or "\\k70"!\fad(!$start < 700 and $start or 300!,200)}
+Dialogue: 0,0:00:00.98,0:00:02.11,Default,,0,0,0,,Salut Sandrine, tu vas bien ?
+Dialogue: 0,0:00:02.91,0:00:04.73,Default,,0,0,0,,Super. OK tout le monde est prêt ?
+Dialogue: 0,0:00:05.05,0:00:06.69,Default,,0,0,0,,On est en direct dans une minute. Moteur.
+Dialogue: 0,0:00:07.89,0:00:09.09,Default,,0,0,0,,Silence plateau...
+Dialogue: 0,0:00:09.71,0:00:12.48,Default,,0,0,0,,Faut qu'on envoie le bulletin\N météo juste après les infos, c'est parti.
+Comment: 0,0:00:16.07,0:00:17.78,Sample KM [Up],,0,0,0,karaoke,{\k20}Ce {\k10}mi{\k11}di {\k16}dans {\k23}vo{\k13}tre {\k17}bulle{\k16}tin {\k16}mé{\k16}té{\k13}o
+Comment: 0,0:00:17.78,0:00:18.91,Sample KM [Up],,0,0,0,karaoke,{\k21}Rien {\k12}de {\k23}frais {\k20}rien {\k7}d'{\k13}nou{\k17}veau
+Comment: 0,0:00:18.91,0:00:20.33,Sample KM [Up],,0,0,0,karaoke,{\k15}Les {\k17}tem{\k13}pé{\k13}ra{\k23}tures {\k13}sont {\k13}en {\k35}hausse
+Comment: 0,0:00:20.33,0:00:21.90,Sample KM [Up],,0,0,0,karaoke,{\k6}Et {\k19}le {\k12}so{\k24}leil {\k24}tape {\k17}sur {\k16}les {\k39}côtes
+Comment: 0,0:00:21.90,0:00:23.18,Sample KM [Up],,0,0,0,karaoke,{\k13}À {\k13}la {\k17}fron{\k17}tière {\k29}est, {\k17}pour{\k22}tant
+Comment: 0,0:00:23.18,0:00:24.31,Sample KM [Up],,0,0,0,karaoke,{\k12}C'est {\k11}le {\k21}grand {\k12}re{\k15}tour {\k14}des {\k28}bottes
+Comment: 0,0:00:24.34,0:00:25.51,Sample KM [Up],,0,0,0,karaoke,{\k16}Une {\k15}pluie {\k16}bat{\k19}tante, {\k12}des {\k18}o{\k21}rages
+Comment: 0,0:00:25.51,0:00:26.33,Sample KM [Up],,0,0,0,karaoke,{\k16}Mais {\k19}rien {\k12}d'in{\k16}quié{\k19}tant
+Comment: 0,0:00:26.33,0:00:27.80,Sample KM [Up],,0,0,0,karaoke,{\k16}Pro{\k11}fi{\k19}tez {\k19}d'la {\k12}plage {\k14}et {\k11}des {\k16}com{\k29}potes
+Comment: 0,0:00:27.97,0:00:30.05,Sample KM [Up],,0,0,0,karaoke,{\k7}Je {\k14}peux {\k7}au {\k14}moins {\k11}vous {\k16}ga{\k12}ran{\k17}tir {\k12}à {\k12}cet {\k24}ins{\k26}tant {\k36}qu'il
+Comment: 0,0:00:30.67,0:00:31.70,Sample KM [Up],,0,0,0,karaoke,{\k23}Qu'il {\k15}va {\k19}faire {\k46}chaud
+Comment: 0,0:00:31.70,0:00:32.68,Sample KM [Choir],,0,0,0,karaoke,{\k16}Il {\k15}fait {\k30}chaud {\k15}là, {\k22}non ?
+Comment: 0,0:00:32.68,0:00:33.36,Sample KM [Choir],,0,0,0,karaoke,{\k68}- Hmmm...
+Comment: 0,0:00:36.06,0:00:37.00,Sample KM [Up],,0,0,0,karaoke,{\k17}Il {\k16}va {\k25}faire {\k36}chaud
+Comment: 0,0:00:40.70,0:00:41.70,Sample KM [Up],,0,0,0,karaoke,{\k10}Il {\k13}va {\k26}faire {\k26}très {\k25}chaud
+Comment: 0,0:00:44.68,0:00:45.29,Sample KM [Up],,0,0,0,karaoke,{\k15}Il {\k23}fait {\k23}chaud
+Comment: 0,0:00:49.43,0:00:50.56,Sample KM [Up],,0,0,0,karaoke,{\k19}Mes{\k23}dames {\k22}mes{\k49}sieurs
+Comment: 0,0:00:50.56,0:00:51.73,Sample KM [Choir],,0,0,0,karaoke,{\k16}Il {\k31}fait {\k70}chaud
+Comment: 0,0:00:51.40,0:00:52.70,Sample KM [Up],,0,0,0,karaoke,{\k17}Ce{\k14}ci {\k14}est {\k14}un {\k9}a{\k12}vis {\k11}de {\k18}tem{\k21}pête
+Comment: 0,0:00:52.52,0:00:55.69,Sample KM [Choir],,0,0,0,karaoke,{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k68}chaud
+Comment: 0,0:00:56.38,0:00:57.70,Sample KM [Choir],,0,0,0,karaoke,{\k16}Il {\k31}fait {\k85}chaud
+Comment: 0,0:00:57.34,0:00:58.32,Sample KM [Up],,0,0,0,karaoke,{\k19}Mes{\k23}dames {\k22}mes{\k34}sieurs
+Comment: 0,0:00:58.41,0:00:59.66,Sample KM [Choir],,0,0,0,karaoke,{\k16}Il {\k31}fait {\k78}chaud
+Comment: 0,0:00:59.29,0:01:00.62,Sample KM [Up],,0,0,0,karaoke,{\k14}C'est {\k24}c'qu'on {\k13}m'a {\k11}dit {\k13}dans {\k14}l'o{\k14}reil{\k30}lette
+Comment: 0,0:01:00.34,0:01:03.46,Sample KM [Choir],,0,0,0,karaoke,{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k68}chaud
+Comment: 0,0:01:05.21,0:01:06.70,Sample KM [Up],,0,0,0,karaoke,{\k12}Ras{\k19}su{\k16}rez-{\k17}vous {\k12}c'est {\k16}une {\k17}fausse {\k13}a{\k27}lerte
+Comment: 0,0:01:07.17,0:01:08.75,Sample KM [Up],,0,0,0,karaoke,{\k12}In{\k15}quié{\k14}tons-{\k19}nous {\k15}plu{\k16}tôt {\k14}des {\k15}vents {\k14}con{\k24}traires
+Comment: 0,0:01:08.81,0:01:09.72,Sample KM [Up],,0,0,0,karaoke,{\k17}Qui {\k8}ra{\k27}vivent {\k12}le {\k12}pas{\k15}sé
+Comment: 0,0:01:09.72,0:01:10.96,Sample KM [Up],,0,0,0,karaoke,{\k23}Qu'on {\k12}pen{\k19}sait {\k15}six {\k23}pieds {\k19}sous {\k19}terre
+Comment: 0,0:01:11.14,0:01:12.39,Sample KM [Up],,0,0,0,karaoke,{\k19}Sans {\k13}par{\k15}ler {\k12}des {\k12}tem{\k12}pé{\k15}ra{\k27}tures
+Comment: 0,0:01:12.39,0:01:13.43,Sample KM [Up],,0,0,0,karaoke,{\k16}Qui {\k15}grimpent {\k15}à {\k15}toute {\k14}al{\k29}lure
+Comment: 0,0:01:13.43,0:01:14.79,Sample KM [Up],,0,0,0,karaoke,{\k17}Ça {\k15}f'ra {\k17}plai{\k12}sir {\k14}aux {\k25}en{\k36}fants
+Comment: 0,0:01:14.79,0:01:15.90,Sample KM [Up],,0,0,0,karaoke,{\k13}Un {\k17}peu {\k17}moins {\k8}à {\k15}grand-{\k17}ma{\k24}man
+Comment: 0,0:01:15.90,0:01:16.89,Sample KM [Up],,0,0,0,karaoke,{\k17}Mais {\k13}que {\k20}vou{\k9}lez-{\k40}vous
+Comment: 0,0:01:16.89,0:01:19.04,Sample KM [Up],,0,0,0,karaoke,{\k15}Il {\k9}fau{\k19}dra {\k15}pro{\k15}fi{\k24}ter, {\k21}ce {\k19}soir {\k12}c'est {\k20}bar{\k10}be{\k36}cue
+Comment: 0,0:01:19.15,0:01:20.30,Sample KM [Up],,0,0,0,karaoke,{\k16}Et {\k16}moi {\k11}j'peux {\k14}vous {\k15}as{\k14}su{\k29}rer
+Comment: 0,0:01:20.30,0:01:21.18,Sample KM [Up],,0,0,0,karaoke,{\k18}Qu'il {\k13}va {\k21}faire {\k36}chaud
+Comment: 0,0:01:24.03,0:01:25.59,Sample KM [Up],,0,0,0,karaoke,{\k12}Il {\k18}va {\k36}faire {\k30}très {\k60}chaud...
+Comment: 0,0:01:27.86,0:01:29.05,Sample KM [Up],,0,0,0,karaoke,{\k14}On {\k19}s'hy{\k24}drate {\k14}grand-{\k13}ma{\k35}man
+Comment: 0,0:01:29.05,0:01:30.10,Sample KM [Up],,0,0,0,karaoke,{\k14}On {\k23}boit {\k14}beau{\k19}coup {\k35}d'eau
+Comment: 0,0:01:30.10,0:01:31.49,Sample KM [Up],,0,0,0,karaoke,{\k26}Car {\k10}on {\k14}m'dit {\k14}dans {\k14}l'o{\k18}reil{\k43}lette
+Comment: 0,0:01:31.83,0:01:33.02,Sample KM [Up],,0,0,0,karaoke,{\k16}Qu'il {\k15}va {\k25}faire {\k63}chaud...
+Comment: 0,0:01:33.97,0:01:35.14,Sample KM [Up],,0,0,0,karaoke,{\k16}Il {\k18}va {\k23}faire {\k60}chaud
+Comment: 0,0:01:35.74,0:01:36.98,Sample KM [Choir],,0,0,0,karaoke,{\k18}Il {\k31}fait {\k75}chaud
+Comment: 0,0:01:36.76,0:01:37.53,Sample KM [Up],,0,0,0,karaoke,{\k20}Mes{\k23}dames {\k22}mes{\k12}sieurs
+Comment: 0,0:01:37.66,0:01:38.77,Sample KM [Choir],,0,0,0,karaoke,{\k16}Il {\k31}fait {\k64}chaud
+Comment: 0,0:01:38.63,0:01:40.09,Sample KM [Up],,0,0,0,karaoke,{\k13}Ce{\k21}ci {\k11}est {\k12}un {\k11}a{\k9}vis {\k10}de {\k24}tem{\k35}pête
+Comment: 0,0:01:39.75,0:01:42.82,Sample KM [Choir],,0,0,0,karaoke,{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k58}chaud
+Comment: 0,0:01:43.56,0:01:44.57,Sample KM [Choir],,0,0,0,karaoke,{\k16}Il {\k31}fait {\k54}chaud
+Comment: 0,0:01:44.57,0:01:45.53,Sample KM [Up],,0,0,0,karaoke,{\k19}Mes{\k23}dames {\k22}mes{\k32}sieurs
+Comment: 0,0:01:45.53,0:01:46.62,Sample KM [Choir],,0,0,0,karaoke,{\k16}Il {\k31}fait {\k62}chaud
+Comment: 0,0:01:46.63,0:01:48.22,Sample KM [Up],,0,0,0,karaoke,{\k17}C'est {\k19}c'qu'on {\k26}m'ré{\k13}pète {\k13}dans {\k13}l'o{\k13}reil{\k45}lette
+Comment: 0,0:01:47.62,0:01:50.68,Sample KM [Choir],,0,0,0,karaoke,{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k57}chaud
+Comment: 0,0:01:50.44,0:01:52.07,Sample KM [Up],,0,0,0,karaoke,{\k15}Mais {\k15}nous {\k16}fê{\k13}tons {\k15}les {\k16}Jé{\k16}ré{\k57}my
+Comment: 0,0:01:51.40,0:01:52.76,Sample KM [Choir],,0,0,0,karaoke,{\k16}Il {\k31}fait {\k89}chaud
+Comment: 0,0:01:52.47,0:01:53.39,Sample KM [Up],,0,0,0,karaoke,{\k16}Mon{\k17}sieur {\k6}le {\k12}pré{\k10}si{\k31}dent
+Comment: 0,0:01:54.39,0:01:55.22,Sample KM [Up],,0,0,0,karaoke,{\k19}Ras{\k21}su{\k17}rez-{\k26}nous
+Comment: 0,0:01:55.42,0:01:58.37,Sample KM [Choir],,0,0,0,karaoke,{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k46}chaud
+Comment: 0,0:01:58.24,0:01:59.32,Sample KM [Up],,0,0,0,karaoke,{\k31}J'crois {\k19}qu'il {\k32}s'en {\k26}fout
+Comment: 0,0:01:59.43,0:02:00.50,Sample KM [Choir],,0,0,0,karaoke,{\k16}Il {\k31}fait {\k60}chaud
+Comment: 0,0:02:00.31,0:02:01.28,Sample KM [Up],,0,0,0,karaoke,{\k19}Mes{\k23}dames {\k22}mes{\k33}sieurs
+Comment: 0,0:02:01.37,0:02:02.55,Sample KM [Choir],,0,0,0,karaoke,{\k16}Il {\k31}fait {\k71}chaud
+Comment: 0,0:02:02.15,0:02:03.29,Sample KM [Up],,0,0,0,karaoke,{\k31}J'sais {\k19}plus {\k21}quoi {\k43}dire
+Comment: 0,0:02:03.34,0:02:06.52,Sample KM [Choir],,0,0,0,karaoke,{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k69}chaud
+Comment: 0,0:02:06.04,0:02:07.79,Sample KM [Up],,0,0,0,karaoke,{\k22}C'est {\k17}quand {\k16}vous {\k11}vou{\k21}lez {\k11}pour {\k13}les {\k14}in{\k50}fos
+Comment: 0,0:02:07.93,0:02:10.44,Sample KM [Up],,0,0,0,karaoke,{\k44}Euh, {\k29}ce {\k10}mi{\k18}di {\k16}dans {\k16}vo{\k35}tre {\k17}bulle{\k16}tin {\k16}mé{\k16}té{\k18}o
+Comment: 0,0:02:10.44,0:02:11.98,Sample KM [Up],,0,0,0,karaoke,{\k52}Bah, {\k19}tout {\k17}part {\k16}à {\k12}vo{\k38}lo
+Comment: 0,0:02:11.98,0:02:13.86,Sample KM [Up],,0,0,0,karaoke,{\k31}D'ouest {\k14}en {\k24}est {\k9}et {\k29}sur {\k13}tous {\k16}les {\k22}ré{\k30}seaux
+Comment: 0,0:02:13.91,0:02:15.29,Sample KM [Up],,0,0,0,karaoke,{\k18}Ça {\k22}sent {\k18}la {\k19}fin {\k9}des {\k10}ha{\k18}ri{\k24}cots
+Comment: 0,0:02:16.51,0:02:17.05,Sample KM [Up],,0,0,0,karaoke,{\k25}Mais {\k29}bon...
+Comment: 0,0:02:18.32,0:02:19.29,Sample KM [Up],,0,0,0,karaoke,{\k16}De{\k17}main {\k16}il {\k17}fait {\k31}beau !
+Comment: 0,0:02:21.06,0:02:22.52,Sample KM [Up],,0,0,0,karaoke,{\k14}Et {\k9}a{\k21}près-{\k10}de{\k17}main {\k16}il {\k17}fait {\k42}beau !
+Comment: 0,0:02:23.62,0:02:25.24,Sample KM [Up],,0,0,0,karaoke,{\k13}Et {\k16}a{\k13}près-{\k9}a{\k15}près-{\k8}de{\k17}main {\k19}il {\k17}fait {\k35}beau !
+Comment: 0,0:02:27.01,0:02:28.36,Sample KM [Up],,0,0,0,karaoke,{\k18}Il {\k38}fait {\k18}tou{\k32}jours {\k29}beau !
+Comment: 0,0:02:46.49,0:02:47.58,Sample KM [Choir],,0,0,0,karaoke,{\k27}Il {\k31}fait {\k51}chaud
+Comment: 0,0:02:47.60,0:02:48.45,Sample KM [Up],,0,0,0,karaoke,{\k13}Mes{\k18}dames {\k19}mes{\k35}sieurs
+Comment: 0,0:02:48.61,0:02:49.60,Sample KM [Choir],,0,0,0,karaoke,{\k16}Il {\k31}fait {\k52}chaud
+Comment: 0,0:02:49.42,0:02:51.16,Sample KM [Up],,0,0,0,karaoke,{\k30}Ce{\k14}ci {\k10}est {\k11}un {\k12}a{\k12}vis {\k11}de {\k18}tem{\k56}pête
+Comment: 0,0:02:50.50,0:02:53.63,Sample KM [Choir],,0,0,0,karaoke,{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k64}chaud
+Comment: 0,0:02:54.36,0:02:55.58,Sample KM [Choir],,0,0,0,karaoke,{\k16}Il {\k31}fait {\k70}chaud
+Comment: 0,0:02:55.29,0:02:56.35,Sample KM [Up],,0,0,0,karaoke,{\k19}Mes{\k23}dames {\k22}mes{\k42}sieurs
+Comment: 0,0:02:56.44,0:02:57.59,Sample KM [Choir],,0,0,0,karaoke,{\k16}Il {\k31}fait {\k70}chaud
+Comment: 0,0:02:57.33,0:02:58.99,Sample KM [Up],,0,0,0,karaoke,{\k20}J'ai {\k8}re{\k10}ti{\k23}ré {\k15}mon {\k16}o{\k19}reil{\k55}lette
+Comment: 0,0:02:58.39,0:03:01.50,Sample KM [Choir],,0,0,0,karaoke,{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k62}chaud
+Comment: 0,0:03:03.30,0:03:04.08,Sample KM [Up],,0,0,0,karaoke,{\k19}Mes{\k23}dames {\k22}mes{\k14}sieurs
+Comment: 0,0:03:04.26,0:03:05.44,Sample KM [Choir],,0,0,0,karaoke,{\k16}Il {\k31}fait {\k70}chaud
+Comment: 0,0:03:06.25,0:03:09.54,Sample KM [Choir],,0,0,0,karaoke,{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k80}chaud
+Comment: 0,0:03:10.10,0:03:11.32,Sample KM [Choir],,0,0,0,karaoke,{\k16}Il {\k31}fait {\k70}chaud
+Comment: 0,0:03:12.10,0:03:13.33,Sample KM [Choir],,0,0,0,karaoke,{\k16}Il {\k31}fait {\k70}chaud
+Comment: 0,0:03:14.07,0:03:17.30,Sample KM [Choir],,0,0,0,karaoke,{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k74}chaud
+Comment: 0,0:03:04.08,0:03:06.54,Sample KM [Up],,0,0,0,karaoke,{\k16}Pro{\k15}fi{\k15}tez {\k16}du {\k18}beau {\k40}temps {\k16}et {\k17}puis {\k17}du {\k14}mau{\k15}vais {\k47}temps
+Comment: 0,0:03:06.54,0:03:08.34,Sample KM [Up],,0,0,0,karaoke,{\k11}Mais {\k29}sur{\k17}tout {\k18}du {\k19}temps {\k13}qu'il {\k17}vous {\k56}reste
+Comment: 0,0:03:08.41,0:03:10.09,Sample KM [Up],,0,0,0,karaoke,{\k11}Ce{\k27}ci {\k22}n'est {\k15}pas {\k21}une {\k15}fausse {\k17}a{\k40}lerte
+Comment: 0,0:03:11.13,0:03:11.91,Sample KM [Up],,0,0,0,karaoke,{\k19}Mes{\k23}dames {\k22}mes{\k14}sieurs
+Comment: 0,0:03:11.91,0:03:14.39,Sample KM [Up],,0,0,0,karaoke,{\k27}Lâ{\k18}chez-{\k94}moi, {\k28}lâ{\k21}chez-{\k60}moi !!
+Comment: 0,0:03:16.99,0:03:17.98,Sample KM [Up],,0,0,0,karaoke,{\k13}Il {\k18}va {\k31}faire {\k37}chaud...
+Dialogue: 0,0:00:15.37,0:00:17.98,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k20}Ce {\k10}mi{\k11}di {\k16}dans {\k23}vo{\k13}tre {\k17}bulle{\k16}tin {\k16}mé{\k16}té{\k13}o
+Dialogue: 0,0:00:17.08,0:00:19.11,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k21}Rien {\k12}de {\k23}frais {\k20}rien {\k7}d'{\k13}nou{\k17}veau
+Dialogue: 0,0:00:18.21,0:00:20.53,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Les {\k17}tem{\k13}pé{\k13}ra{\k23}tures {\k13}sont {\k13}en {\k35}hausse
+Dialogue: 0,0:00:19.63,0:00:22.10,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k6}Et {\k19}le {\k12}so{\k24}leil {\k24}tape {\k17}sur {\k16}les {\k39}côtes
+Dialogue: 0,0:00:21.20,0:00:23.38,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k13}À {\k13}la {\k17}fron{\k17}tière {\k29}est, {\k17}pour{\k22}tant
+Dialogue: 0,0:00:22.48,0:00:24.51,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k12}C'est {\k11}le {\k21}grand {\k12}re{\k15}tour {\k14}des {\k28}bottes
+Dialogue: 0,0:00:23.64,0:00:25.71,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Une {\k15}pluie {\k16}bat{\k19}tante, {\k12}des {\k18}o{\k21}rages
+Dialogue: 0,0:00:24.81,0:00:26.53,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Mais {\k19}rien {\k12}d'in{\k16}quié{\k19}tant
+Dialogue: 0,0:00:25.63,0:00:28.00,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Pro{\k11}fi{\k19}tez {\k19}d'la {\k12}plage {\k14}et {\k11}des {\k16}com{\k29}potes
+Dialogue: 0,0:00:27.27,0:00:30.25,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k7}Je {\k14}peux {\k7}au {\k14}moins {\k11}vous {\k16}ga{\k12}ran{\k17}tir {\k12}à {\k12}cet {\k24}ins{\k26}tant {\k36}qu'il
+Dialogue: 0,0:00:29.97,0:00:31.90,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k23}Qu'il {\k15}va {\k19}faire {\k46}chaud
+Dialogue: 0,0:00:31.00,0:00:32.88,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k15}fait {\k30}chaud {\k15}là, {\k22}non ?
+Dialogue: 0,0:00:31.98,0:00:33.56,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k68}- Hmmm...
+Dialogue: 0,0:00:35.36,0:00:37.20,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k17}Il {\k16}va {\k25}faire {\k36}chaud
+Dialogue: 0,0:00:40.00,0:00:41.90,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k10}Il {\k13}va {\k26}faire {\k26}très {\k25}chaud
+Dialogue: 0,0:00:43.98,0:00:45.49,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Il {\k23}fait {\k23}chaud
+Dialogue: 0,0:00:48.73,0:00:50.76,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k19}Mes{\k23}dames {\k22}mes{\k49}sieurs
+Dialogue: 0,0:00:49.86,0:00:51.93,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k31}fait {\k70}chaud
+Dialogue: 0,0:00:50.70,0:00:52.90,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k17}Ce{\k14}ci {\k14}est {\k14}un {\k9}a{\k12}vis {\k11}de {\k18}tem{\k21}pête
+Dialogue: 0,0:00:51.82,0:00:55.89,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k68}chaud
+Dialogue: 0,0:00:55.68,0:00:57.90,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k31}fait {\k85}chaud
+Dialogue: 0,0:00:56.64,0:00:58.52,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k19}Mes{\k23}dames {\k22}mes{\k34}sieurs
+Dialogue: 0,0:00:57.71,0:00:59.86,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k31}fait {\k78}chaud
+Dialogue: 0,0:00:58.59,0:01:00.82,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k14}C'est {\k24}c'qu'on {\k13}m'a {\k11}dit {\k13}dans {\k14}l'o{\k14}reil{\k30}lette
+Dialogue: 0,0:00:59.64,0:01:03.66,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k68}chaud
+Dialogue: 0,0:01:04.51,0:01:06.90,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Ras{\k19}su{\k16}rez-{\k17}vous {\k12}c'est {\k16}une {\k17}fausse {\k13}a{\k27}lerte
+Dialogue: 0,0:01:06.47,0:01:08.95,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k12}In{\k15}quié{\k14}tons-{\k19}nous {\k15}plu{\k16}tôt {\k14}des {\k15}vents {\k14}con{\k24}traires
+Dialogue: 0,0:01:08.11,0:01:09.92,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k17}Qui {\k8}ra{\k27}vivent {\k12}le {\k12}pas{\k15}sé
+Dialogue: 0,0:01:09.02,0:01:11.16,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k23}Qu'on {\k12}pen{\k19}sait {\k15}six {\k23}pieds {\k19}sous {\k19}terre
+Dialogue: 0,0:01:10.44,0:01:12.59,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k19}Sans {\k13}par{\k15}ler {\k12}des {\k12}tem{\k12}pé{\k15}ra{\k27}tures
+Dialogue: 0,0:01:11.69,0:01:13.63,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Qui {\k15}grimpent {\k15}à {\k15}toute {\k14}al{\k29}lure
+Dialogue: 0,0:01:12.73,0:01:14.99,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k17}Ça {\k15}f'ra {\k17}plai{\k12}sir {\k14}aux {\k25}en{\k36}fants
+Dialogue: 0,0:01:14.09,0:01:16.10,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k13}Un {\k17}peu {\k17}moins {\k8}à {\k15}grand-{\k17}ma{\k24}man
+Dialogue: 0,0:01:15.20,0:01:17.09,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k17}Mais {\k13}que {\k20}vou{\k9}lez-{\k40}vous
+Dialogue: 0,0:01:16.19,0:01:19.24,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Il {\k9}fau{\k19}dra {\k15}pro{\k15}fi{\k24}ter, {\k21}ce {\k19}soir {\k12}c'est {\k20}bar{\k10}be{\k36}cue
+Dialogue: 0,0:01:18.45,0:01:20.50,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Et {\k16}moi {\k11}j'peux {\k14}vous {\k15}as{\k14}su{\k29}rer
+Dialogue: 0,0:01:19.60,0:01:21.38,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Qu'il {\k13}va {\k21}faire {\k36}chaud
+Dialogue: 0,0:01:23.33,0:01:25.79,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k12}Il {\k18}va {\k36}faire {\k30}très {\k60}chaud...
+Dialogue: 0,0:01:27.16,0:01:29.25,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k14}On {\k19}s'hy{\k24}drate {\k14}grand-{\k13}ma{\k35}man
+Dialogue: 0,0:01:28.35,0:01:30.30,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k14}On {\k23}boit {\k14}beau{\k19}coup {\k35}d'eau
+Dialogue: 0,0:01:29.40,0:01:31.69,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k26}Car {\k10}on {\k14}m'dit {\k14}dans {\k14}l'o{\k18}reil{\k43}lette
+Dialogue: 0,0:01:31.13,0:01:33.22,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Qu'il {\k15}va {\k25}faire {\k63}chaud...
+Dialogue: 0,0:01:33.27,0:01:35.34,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k18}va {\k23}faire {\k60}chaud
+Dialogue: 0,0:01:35.04,0:01:37.18,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Il {\k31}fait {\k75}chaud
+Dialogue: 0,0:01:36.06,0:01:37.73,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k20}Mes{\k23}dames {\k22}mes{\k12}sieurs
+Dialogue: 0,0:01:36.96,0:01:38.97,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k31}fait {\k64}chaud
+Dialogue: 0,0:01:37.93,0:01:40.29,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k13}Ce{\k21}ci {\k11}est {\k12}un {\k11}a{\k9}vis {\k10}de {\k24}tem{\k35}pête
+Dialogue: 0,0:01:39.05,0:01:43.02,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k58}chaud
+Dialogue: 0,0:01:42.86,0:01:44.77,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k31}fait {\k54}chaud
+Dialogue: 0,0:01:43.87,0:01:45.73,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k19}Mes{\k23}dames {\k22}mes{\k32}sieurs
+Dialogue: 0,0:01:44.83,0:01:46.82,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k31}fait {\k62}chaud
+Dialogue: 0,0:01:45.93,0:01:48.42,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k17}C'est {\k19}c'qu'on {\k26}m'ré{\k13}pète {\k13}dans {\k13}l'o{\k13}reil{\k45}lette
+Dialogue: 0,0:01:46.92,0:01:50.88,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k57}chaud
+Dialogue: 0,0:01:49.74,0:01:52.27,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k15}Mais {\k15}nous {\k16}fê{\k13}tons {\k15}les {\k16}Jé{\k16}ré{\k57}my
+Dialogue: 0,0:01:50.70,0:01:52.96,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k31}fait {\k89}chaud
+Dialogue: 0,0:01:51.77,0:01:53.59,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Mon{\k17}sieur {\k6}le {\k12}pré{\k10}si{\k31}dent
+Dialogue: 0,0:01:53.69,0:01:55.42,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k19}Ras{\k21}su{\k17}rez-{\k26}nous
+Dialogue: 0,0:01:54.72,0:01:58.57,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k46}chaud
+Dialogue: 0,0:01:57.54,0:01:59.52,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k31}J'crois {\k19}qu'il {\k32}s'en {\k26}fout
+Dialogue: 0,0:01:58.73,0:02:00.70,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k31}fait {\k60}chaud
+Dialogue: 0,0:01:59.61,0:02:01.48,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k19}Mes{\k23}dames {\k22}mes{\k33}sieurs
+Dialogue: 0,0:02:00.67,0:02:02.75,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k31}fait {\k71}chaud
+Dialogue: 0,0:02:01.45,0:02:03.49,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k31}J'sais {\k19}plus {\k21}quoi {\k43}dire
+Dialogue: 0,0:02:02.64,0:02:06.72,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k69}chaud
+Dialogue: 0,0:02:05.34,0:02:07.99,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k22}C'est {\k17}quand {\k16}vous {\k11}vou{\k21}lez {\k11}pour {\k13}les {\k14}in{\k50}fos
+Dialogue: 0,0:02:07.23,0:02:10.64,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k44}Euh, {\k29}ce {\k10}mi{\k18}di {\k16}dans {\k16}vo{\k35}tre {\k17}bulle{\k16}tin {\k16}mé{\k16}té{\k18}o
+Dialogue: 0,0:02:09.74,0:02:12.18,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k52}Bah, {\k19}tout {\k17}part {\k16}à {\k12}vo{\k38}lo
+Dialogue: 0,0:02:11.28,0:02:14.06,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k31}D'ouest {\k14}en {\k24}est {\k9}et {\k29}sur {\k13}tous {\k16}les {\k22}ré{\k30}seaux
+Dialogue: 0,0:02:13.21,0:02:15.49,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Ça {\k22}sent {\k18}la {\k19}fin {\k9}des {\k10}ha{\k18}ri{\k24}cots
+Dialogue: 0,0:02:15.81,0:02:17.25,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k25}Mais {\k29}bon...
+Dialogue: 0,0:02:17.62,0:02:19.49,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k16}De{\k17}main {\k16}il {\k17}fait {\k31}beau !
+Dialogue: 0,0:02:20.36,0:02:22.72,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k14}Et {\k9}a{\k21}près-{\k10}de{\k17}main {\k16}il {\k17}fait {\k42}beau !
+Dialogue: 0,0:02:22.92,0:02:25.44,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k13}Et {\k16}a{\k13}près-{\k9}a{\k15}près-{\k8}de{\k17}main {\k19}il {\k17}fait {\k35}beau !
+Dialogue: 0,0:02:26.31,0:02:28.56,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Il {\k38}fait {\k18}tou{\k32}jours {\k29}beau !
+Dialogue: 0,0:02:45.79,0:02:47.78,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k27}Il {\k31}fait {\k51}chaud
+Dialogue: 0,0:02:46.90,0:02:48.65,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k13}Mes{\k18}dames {\k19}mes{\k35}sieurs
+Dialogue: 0,0:02:47.91,0:02:49.80,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k31}fait {\k52}chaud
+Dialogue: 0,0:02:48.72,0:02:51.36,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k30}Ce{\k14}ci {\k10}est {\k11}un {\k12}a{\k12}vis {\k11}de {\k18}tem{\k56}pête
+Dialogue: 0,0:02:49.80,0:02:53.83,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k64}chaud
+Dialogue: 0,0:02:53.66,0:02:55.78,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k31}fait {\k70}chaud
+Dialogue: 0,0:02:54.59,0:02:56.55,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k19}Mes{\k23}dames {\k22}mes{\k42}sieurs
+Dialogue: 0,0:02:55.74,0:02:57.79,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k31}fait {\k70}chaud
+Dialogue: 0,0:02:56.63,0:02:59.19,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k20}J'ai {\k8}re{\k10}ti{\k23}ré {\k15}mon {\k16}o{\k19}reil{\k55}lette
+Dialogue: 0,0:02:57.69,0:03:01.70,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k62}chaud
+Dialogue: 0,0:03:02.60,0:03:04.28,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k19}Mes{\k23}dames {\k22}mes{\k14}sieurs
+Dialogue: 0,0:03:03.56,0:03:05.64,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k31}fait {\k70}chaud
+Dialogue: 0,0:03:05.55,0:03:09.74,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k80}chaud
+Dialogue: 0,0:03:09.40,0:03:11.52,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k31}fait {\k70}chaud
+Dialogue: 0,0:03:11.40,0:03:13.53,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Il {\k31}fait {\k70}chaud
+Dialogue: 0,0:03:13.37,0:03:17.50,Sample KM [Choir],,0,0,0,fx,{\k70\fad(300,200)}{\k18}Il {\k31}fait {\k52}chaud, {\k21}il {\k25}fait {\k49}chaud, {\k25}il {\k28}fait {\k74}chaud
+Dialogue: 0,0:03:03.38,0:03:06.74,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k16}Pro{\k15}fi{\k15}tez {\k16}du {\k18}beau {\k40}temps {\k16}et {\k17}puis {\k17}du {\k14}mau{\k15}vais {\k47}temps
+Dialogue: 0,0:03:05.84,0:03:08.54,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k11}Mais {\k29}sur{\k17}tout {\k18}du {\k19}temps {\k13}qu'il {\k17}vous {\k56}reste
+Dialogue: 0,0:03:07.71,0:03:10.29,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k11}Ce{\k27}ci {\k22}n'est {\k15}pas {\k21}une {\k15}fausse {\k17}a{\k40}lerte
+Dialogue: 0,0:03:10.43,0:03:12.11,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k19}Mes{\k23}dames {\k22}mes{\k14}sieurs
+Dialogue: 0,0:03:11.21,0:03:14.59,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k27}Lâ{\k18}chez-{\k94}moi, {\k28}lâ{\k21}chez-{\k60}moi !!
+Dialogue: 0,0:03:16.29,0:03:18.18,Sample KM [Up],,0,0,0,fx,{\k70\fad(300,200)}{\k13}Il {\k18}va {\k31}faire {\k37}chaud...
