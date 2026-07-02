@@ -1,0 +1,141 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: BaD＝DoLL
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: IvannAkiyama
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Rie,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rei,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: REIRIE,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: COLOR CODE,Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,REIRIE,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HFF843C&}Rei{\c} | {\c&H008AFF&}Rie{\c} | {\c&HEB4DC1&}REIRIE{\c}
+Comment: 0,0:00:04.63,0:00:09.50,REIRIE,,0,0,0,karaoke,{\k73}LIKE {\k57}MY {\k67}MO{\k60}THER {\k56}ai{\k35}shi{\k29}te {\k32}a{\k31}ge{\k47}ru
+Comment: 0,0:00:09.59,0:00:14.00,REIRIE,,0,0,0,karaoke,{\k58}da{\k64}re {\k61}yo{\k60}ri {\k56}mo {\k58}fu{\k84}kak'
+Comment: 0,0:00:14.97,0:00:15.56,REIRIE,,0,0,0,karaoke,{\k59}AW
+Comment: 0,0:00:19.72,0:00:20.59,REIRIE,,0,0,0,karaoke,{\k36}BAD {\k51}DOLL
+Comment: 0,0:00:25.04,0:00:26.94,Rei,,0,0,0,karaoke,{\k76}iyaan {\k16}ma'{\k11}kae{\k20}su {\k13}P{\k54}LAN
+Comment: 0,0:00:26.94,0:00:29.48,Rei,,0,0,0,karaoke,{\k14}a{\k10}ku{\k9}na{\k6}ki {\k13}yo{\k15}ku{\k32}bou {\k16}ka{\k15}ra {\k26}aa {\k16}shi{\k17}te {\k27}kou {\k16}shi{\k22}te
+Comment: 0,0:00:29.26,0:00:31.97,Rie,,0,0,0,karaoke,{\k29}S{\k12}PE{\k19}CIA{\k14}L {\k17}wo {\k14}RE{\k16}BUI{\k14}L{\k19}D {\k27}SU{\k32}PER {\k12}na {\k18}GUI{\k14}L{\k14}D
+Comment: 0,0:00:31.97,0:00:34.17,Rie,,0,0,0,karaoke,{\k13}o{\k18}so{\k13}re {\k20}o{\k12}no{\k14}no{\k11}ke {\rREIRIE}{\k32}O{\k31}VER{\k56}DRIVE
+Comment: 0,0:00:34.17,0:00:36.98,Rie,,0,0,0,karaoke,{\k20}ta{\k16}ri{\k30}nai {\k17}hi{\k28}zu{\k27}mi {\k18}ku{\k14}wa{\k27}e {\k33}DIS{\k29}TOR{\k22}TION
+Comment: 0,0:00:37.03,0:00:39.40,Rie,,0,0,0,karaoke,{\k18}so{\k16}no {\k15}ko{\k18}ko{\k12}ro {\k16}ko{\k14}so {\k27}UN{\k31}TOU{\k18}CHA{\k52}BLE
+Comment: 0,0:00:39.44,0:00:42.28,Rei,,0,0,0,karaoke,{\k17}mi{\k27}kan{\k32}sei {\k18}ka{\k13}ra {\k16}no{\k9}bi{\k18}shi{\k18}ro {\k13}ho{\k16}ra {\k16}ka{\k23}o {\k17}wo {\k6}a{\k14}ge {\k11}na
+Comment: 0,0:00:42.30,0:00:44.52,Rei,,0,0,0,karaoke,{\k18}yu{\k14}me {\k15}wo {\k14}mi{\k15}sa{\k17}se{\k28}te {\k31}a{\k30}ge{\k40}ru
+Comment: 0,0:00:45.58,0:00:47.95,REIRIE,,0,0,0,karaoke,{\k33}LIKE {\k28}MY {\k31}MO{\k33}THER {\k26}mot{\k27}to {\k36}chou{\k23}dai
+Comment: 0,0:00:48.03,0:00:50.34,REIRIE,,0,0,0,karaoke,{\k23}HOLD {\k30}ON {\k34}TIGH{\k18}T {\k14}ni {\k30}hi{\k23}ri{\k37}tsu{\k22}ku
+Comment: 0,0:00:50.40,0:00:55.05,REIRIE,,0,0,0,karaoke,{\k45}KA{\k18}R{\k38}MA {\k15}sa{\k35}sa{\k29}ya{\k48}ku {\k12}ki{\k18}zu{\k25}na {\k32}STU{\k44}PID {\k30}CU{\k34}PI{\k42}D
+Comment: 0,0:00:55.13,0:00:59.13,Rei,,0,0,0,karaoke,{\k38}o{\k33}shi{\k26}o{\k33}ki {\k30}yo {\k29}hit{\k15}ta{\k15}ta{\k13}ku {\k31}se{\k32}kai {\k15}ni {\k28}ES{\k31}CA{\k31}PE
+Comment: 0,0:00:59.82,0:01:00.62,Rie,,0,0,0,karaoke,{\k14}ku{\k22}ra{\k44}e!
+Comment: 0,0:01:01.07,0:01:01.93,Rei,,0,0,0,karaoke,{\k14}ku{\k24}ra{\k48}e!
+Comment: 0,0:01:02.32,0:01:05.94,REIRIE,,0,0,0,karaoke,{\k23}mu{\k14}te{\k16}ki {\k14}no {\k29}BI{\k28}BLE {\k19}ka{\k13}ka{\k19}ge{\k12}ru {\k30}SUR{\k31}VI{\k60}VO{\k54}R
+Comment: 0,0:01:10.13,0:01:10.96,REIRIE,,0,0,0,karaoke,{\k36}BAD {\k47}DOLL
+Comment: 0,0:01:15.01,0:01:17.85,Rie,,0,0,0,karaoke,{\k17}ko{\k13}to{\k18}ba {\k13}no {\k21}ya{\k25}i{\k28}ba {\k17}ke{\k13}o{\k18}to{\k12}shi{\k16}te {\k16}ta{\k15}wa{\k15}mu{\k18}re{\k9}ru
+Comment: 0,0:01:17.85,0:01:20.37,Rie,,0,0,0,karaoke,{\k17}so{\k16}no {\k15}sa{\k15}ma {\k14}wa {\k29}kok{\k30}kei {\k25}EN{\k33}TER{\k33}TAIN{\k25}MENT
+Comment: 0,0:01:20.37,0:01:22.72,Rei,,0,0,0,karaoke,{\k28}END {\k36}ROLL {\k30}BAD {\k30}DOLL {\k28}DOL{\k19}CE {\k14}ku{\k20}wa{\k11}e{\k19}te
+Comment: 0,0:01:22.72,0:01:25.07,Rei,,0,0,0,karaoke,{\k40}SWEE{\k19}T {\k12}ni {\k30}HA{\k29}TE {\k15}pa{\k13}ku{\k28}rin{\k49}cho
+Comment: 0,0:01:25.17,0:01:34.62,REIRIE,,0,0,0,karaoke,{\k119}bon{\k118}nou {\k123}tai{\k87}san {\k35}me{\k90}za{\k28}me {\k88}no {\k36}KIS{\k111}S {\k110}wa
+Comment: 0,0:01:34.76,0:01:35.32,Rie,,0,0,0,karaoke,{\k14}i{\k16}ka{\k26}ga??
+Comment: 0,0:01:35.90,0:01:38.35,REIRIE,,0,0,0,karaoke,{\k42}LIGHT {\k27}AND {\k34}DAR{\k15}K {\k10}ni {\k34}sei{\k14}gi {\k17}wa {\k29}mai{\k23}go
+Comment: 0,0:01:38.40,0:01:40.73,REIRIE,,0,0,0,karaoke,{\k29}MAKE {\k27}IT {\k36}RIGHT {\k23}wo {\k34}ROC{\k19}K {\k14}ni {\k14}no{\k16}se{\k21}te
+Comment: 0,0:01:40.80,0:01:45.45,REIRIE,,0,0,0,karaoke,{\k62}sa{\k58}ra{\k32}ke{\k29}dash'{\k44}ta {\k29}jin{\k26}sei {\k35}TWIS{\k44}TED {\k30}WIC{\k26}KE{\k50}D
+Comment: 0,0:01:45.55,0:01:49.76,Rei,,0,0,0,karaoke,{\k31}o{\k33}ki{\k34}za{\k30}ri {\k26}ni {\k33}nan{\k24}te {\k22}shi{\k30}nai {\k14}yo {\k30}ES{\k30}CO{\k27}R{\k57}T
+Comment: 0,0:01:50.26,0:01:51.25,Rei,,0,0,0,karaoke,{\k14}C{\k27}RA{\k58}Y!
+Comment: 0,0:01:51.42,0:01:52.29,Rie,,0,0,0,karaoke,{\k16}C{\k20}RA{\k51}Y!
+Comment: 0,0:01:52.64,0:01:55.44,REIRIE,,0,0,0,karaoke,{\k33}sai{\k27}nou {\k15}ga {\k30}kai{\k18}ka {\k30}un{\k30}mei {\k13}no {\k31}hen{\k53}ka
+Comment: 0,0:01:56.05,0:01:57.83,REIRIE,,0,0,0,karaoke,{\k32}uz{\kf146}zee!
+Comment: 0,0:01:57.58,0:01:58.83,Rie,,0,0,0,karaoke,{\k25}ri{\k23}ron {\k15}bu{\k30}sou {\k20}ka{\k12}ra
+Comment: 0,0:01:58.83,0:02:01.19,Rie,,0,0,0,karaoke,{\k30}kan{\k29}jou {\k16}MI{\k13}RA{\k15}C{\k9}LE {\k24}a{\k11}ra{\k15}bu{\k18}ru {\k28}hou{\k28}den
+Comment: 0,0:02:01.19,0:02:02.03,Rei,,0,0,0,karaoke,{\k14}ba{\k6}ka {\k7}ni {\k35}sun{\k22}na
+Comment: 0,0:02:02.33,0:02:04.68,Rei,,0,0,0,karaoke,{\k17}ma{\k9}nu{\k37}ke {\k13}fu{\k9}nu{\k38}ke {\k11}ko{\k13}shi{\k12}nu{\k30}ke {\k13}a{\k11}ga{\k22}ke
+Comment: 0,0:02:04.79,0:02:06.16,REIRIE,,0,0,0,karaoke,{\k24}CHEAT {\k24}sun{\k14}na {\k20}BANG {\k12}shi{\k14}ro {\k29}ya!
+Comment: 0,0:02:06.01,0:02:07.23,Rei,,0,0,0,karaoke,{\k15}nan{\k10}de{\k8}mo {\k9}a{\k11}ri {\k8}ni {\k15}sun {\k14}ja {\k32}nee
+Comment: 0,0:02:07.19,0:02:08.42,Rie,,0,0,0,karaoke,{\k22}nan{\k9}to{\k10}nak' {\k7}de {\k15}sun{\k12}jau {\k9}ha{\k10}zu {\k29}nee
+Comment: 0,0:02:08.42,0:02:09.38,Rei,,0,0,0,karaoke,{\k10}ha{\k10}zu{\k14}re {\k9}ha{\k10}zu{\k14}re {\k10}ha{\k9}zu{\k10}re
+Comment: 0,0:02:09.33,0:02:10.78,Rie,,0,0,0,karaoke,{\k12}no{\k8}ke{\k6}mo{\k4}no {\k8}sa{\k7}ra{\k8}sa{\k7}re {\k14}ON {\k16}PA{\k24}RA{\k31}DE
+Comment: 0,0:02:10.78,0:02:11.98,Rei,,0,0,0,karaoke,{\k18}UN{\k15}DER{\k28}GROUND {\rRie}{\k12}ha{\k7}ji{\k8}ka{\k7}re{\k10}cha{\k15}e
+Comment: 0,0:02:12.02,0:02:13.22,Rei,,0,0,0,karaoke,{\k17}WON{\k13}DER{\k15}LAND {\rRie}{\k12}o{\k33}do{\k30}re
+Comment: 0,0:02:13.22,0:02:16.06,REIRIE,,0,0,0,karaoke,{\k20}VIL{\k33}LAIN'S {\k37}jou{\k30}tou {\k24}GOOD {\k30}BYE {\k34}PRIN{\k76}CESS
+Comment: 0,0:02:15.63,0:02:22.95,Rei,,0,0,0,karaoke,{\k52}ba{\k126}tou {\rRie}{\k60}at{\kf494}tou
+Comment: 0,0:02:26.33,0:02:27.62,REIRIE,,0,0,0,karaoke,{\kf129}HMM
+Comment: 0,0:02:27.58,0:02:32.31,REIRIE,,0,0,0,karaoke,{\k58}LIKE {\k62}MY {\k64}MO{\k59}THER {\k52}ai{\k40}shi{\k26}te {\k34}a{\k28}ge{\k50}ru
+Comment: 0,0:02:32.41,0:02:36.65,REIRIE,,0,0,0,karaoke,{\k59}da{\k57}re {\k63}yo{\k60}ri {\k58}mo {\k58}fu{\k69}kak'
+Comment: 0,0:02:37.74,0:02:40.12,REIRIE,,0,0,0,karaoke,{\k34}LIKE {\k29}MY {\k35}MO{\k27}THER {\k26}mot{\k30}to {\k38}chou{\k19}dai
+Comment: 0,0:02:40.16,0:02:42.55,REIRIE,,0,0,0,karaoke,{\k32}HOLD {\k28}ON {\k33}TIGH{\k17}T {\k16}ni {\k31}hi{\k23}ri{\k37}tsu{\k22}ku
+Comment: 0,0:02:42.58,0:02:47.35,REIRIE,,0,0,0,karaoke,{\k50}KA{\k14}R{\k40}MA {\k14}sa{\k36}sa{\k28}ya{\k48}ku {\k12}ki{\k18}zu{\k24}na {\k34}STU{\k43}PID {\k31}CU{\k30}PI{\k55}D
+Comment: 0,0:02:47.42,0:02:51.33,Rei,,0,0,0,karaoke,{\k27}o{\k34}shi{\k29}o{\k31}ki {\k29}yo {\k30}hit{\k15}ta{\k16}ta{\k12}ku {\k31}se{\k31}kai {\k15}ni {\k29}ES{\k28}CA{\k34}PE
+Comment: 0,0:02:52.03,0:02:52.95,Rei,,0,0,0,karaoke,{\k18}ku{\k21}ra{\k53}e!
+Comment: 0,0:02:53.29,0:02:54.18,Rie,,0,0,0,karaoke,{\k14}ku{\k23}ra{\k52}e!
+Comment: 0,0:02:54.53,0:02:58.16,REIRIE,,0,0,0,karaoke,{\k22}mu{\k15}te{\k14}ki {\k16}no {\k31}BI{\k27}BLE {\k18}ka{\k13}ka{\k12}ge{\k16}ru {\k35}SUR{\k30}VI{\k59}VO{\k55}R
+Comment: 0,0:03:02.35,0:03:03.12,REIRIE,,0,0,0,karaoke,{\k36}BAD {\k41}DOLL
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HFF843C&}Rei{\c} | {\c&H008AFF&}Rie{\c} | {\c&HEB4DC1&}REIRIE{\c}
+Dialogue: 0,0:00:03.73,0:00:09.70,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k73}LIKE {\k57}MY {\k67}MO{\k60}THER {\k56}ai{\k35}shi{\k29}te {\k32}a{\k31}ge{\k47}ru
+Dialogue: 0,0:00:08.69,0:00:14.20,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k58}da{\k64}re {\k61}yo{\k60}ri {\k56}mo {\k58}fu{\k84}kak'
+Dialogue: 0,0:00:14.07,0:00:15.76,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k59}AW
+Dialogue: 0,0:00:18.82,0:00:20.79,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k36}BAD {\k51}DOLL
+Dialogue: 0,0:00:24.14,0:00:27.14,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k76}iyaan {\k16}ma'{\k11}kae{\k20}su {\k13}P{\k54}LAN
+Dialogue: 0,0:00:26.04,0:00:29.68,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k14}a{\k10}ku{\k9}na{\k6}ki {\k13}yo{\k15}ku{\k32}bou {\k16}ka{\k15}ra {\k26}aa {\k16}shi{\k17}te {\k27}kou {\k16}shi{\k22}te
+Dialogue: 0,0:00:28.36,0:00:32.17,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k29}S{\k12}PE{\k19}CIA{\k14}L {\k17}wo {\k14}RE{\k16}BUI{\k14}L{\k19}D {\k27}SU{\k32}PER {\k12}na {\k18}GUI{\k14}L{\k14}D
+Dialogue: 0,0:00:31.07,0:00:34.37,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k13}o{\k18}so{\k13}re {\k20}o{\k12}no{\k14}no{\k11}ke {\rREIRIE}{\k32}O{\k31}VER{\k56}DRIVE
+Dialogue: 0,0:00:33.27,0:00:37.18,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ta{\k16}ri{\k30}nai {\k17}hi{\k28}zu{\k27}mi {\k18}ku{\k14}wa{\k27}e {\k33}DIS{\k29}TOR{\k22}TION
+Dialogue: 0,0:00:36.13,0:00:39.60,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k18}so{\k16}no {\k15}ko{\k18}ko{\k12}ro {\k16}ko{\k14}so {\k27}UN{\k31}TOU{\k18}CHA{\k52}BLE
+Dialogue: 0,0:00:38.54,0:00:42.48,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k17}mi{\k27}kan{\k32}sei {\k18}ka{\k13}ra {\k16}no{\k9}bi{\k18}shi{\k18}ro {\k13}ho{\k16}ra {\k16}ka{\k23}o {\k17}wo {\k6}a{\k14}ge {\k11}na
+Dialogue: 0,0:00:41.40,0:00:44.72,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k18}yu{\k14}me {\k15}wo {\k14}mi{\k15}sa{\k17}se{\k28}te {\k31}a{\k30}ge{\k40}ru
+Dialogue: 0,0:00:44.68,0:00:48.15,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k33}LIKE {\k28}MY {\k31}MO{\k33}THER {\k26}mot{\k27}to {\k36}chou{\k23}dai
+Dialogue: 0,0:00:47.13,0:00:50.54,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k23}HOLD {\k30}ON {\k34}TIGH{\k18}T {\k14}ni {\k30}hi{\k23}ri{\k37}tsu{\k22}ku
+Dialogue: 0,0:00:49.50,0:00:55.25,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k45}KA{\k18}R{\k38}MA {\k15}sa{\k35}sa{\k29}ya{\k48}ku {\k12}ki{\k18}zu{\k25}na {\k32}STU{\k44}PID {\k30}CU{\k34}PI{\k42}D
+Dialogue: 0,0:00:54.23,0:00:59.33,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k38}o{\k33}shi{\k26}o{\k33}ki {\k30}yo {\k29}hit{\k15}ta{\k15}ta{\k13}ku {\k31}se{\k32}kai {\k15}ni {\k28}ES{\k31}CA{\k31}PE
+Dialogue: 0,0:00:58.92,0:01:00.82,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ku{\k22}ra{\k44}e!
+Dialogue: 0,0:01:00.17,0:01:02.13,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ku{\k24}ra{\k48}e!
+Dialogue: 0,0:01:01.42,0:01:06.14,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mu{\k14}te{\k16}ki {\k14}no {\k29}BI{\k28}BLE {\k19}ka{\k13}ka{\k19}ge{\k12}ru {\k30}SUR{\k31}VI{\k60}VO{\k54}R
+Dialogue: 0,0:01:09.23,0:01:11.16,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k36}BAD {\k47}DOLL
+Dialogue: 0,0:01:14.11,0:01:18.05,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ko{\k13}to{\k18}ba {\k13}no {\k21}ya{\k25}i{\k28}ba {\k17}ke{\k13}o{\k18}to{\k12}shi{\k16}te {\k16}ta{\k15}wa{\k15}mu{\k18}re{\k9}ru
+Dialogue: 0,0:01:16.95,0:01:20.57,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k17}so{\k16}no {\k15}sa{\k15}ma {\k14}wa {\k29}kok{\k30}kei {\k25}EN{\k33}TER{\k33}TAIN{\k25}MENT
+Dialogue: 0,0:01:19.47,0:01:22.92,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k28}END {\k36}ROLL {\k30}BAD {\k30}DOLL {\k28}DOL{\k19}CE {\k14}ku{\k20}wa{\k11}e{\k19}te
+Dialogue: 0,0:01:21.82,0:01:25.27,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k40}SWEE{\k19}T {\k12}ni {\k30}HA{\k29}TE {\k15}pa{\k13}ku{\k28}rin{\k49}cho
+Dialogue: 0,0:01:24.27,0:01:34.82,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k119}bon{\k118}nou {\k123}tai{\k87}san {\k35}me{\k90}za{\k28}me {\k88}no {\k36}KIS{\k111}S {\k110}wa
+Dialogue: 0,0:01:33.86,0:01:35.52,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k14}i{\k16}ka{\k26}ga??
+Dialogue: 0,0:01:35.00,0:01:38.55,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k42}LIGHT {\k27}AND {\k34}DAR{\k15}K {\k10}ni {\k34}sei{\k14}gi {\k17}wa {\k29}mai{\k23}go
+Dialogue: 0,0:01:37.50,0:01:40.93,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k29}MAKE {\k27}IT {\k36}RIGHT {\k23}wo {\k34}ROC{\k19}K {\k14}ni {\k14}no{\k16}se{\k21}te
+Dialogue: 0,0:01:39.90,0:01:45.65,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k62}sa{\k58}ra{\k32}ke{\k29}dash'{\k44}ta {\k29}jin{\k26}sei {\k35}TWIS{\k44}TED {\k30}WIC{\k26}KE{\k50}D
+Dialogue: 0,0:01:44.65,0:01:49.96,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k31}o{\k33}ki{\k34}za{\k30}ri {\k26}ni {\k33}nan{\k24}te {\k22}shi{\k30}nai {\k14}yo {\k30}ES{\k30}CO{\k27}R{\k57}T
+Dialogue: 0,0:01:49.36,0:01:51.45,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k14}C{\k27}RA{\k58}Y!
+Dialogue: 0,0:01:50.52,0:01:52.49,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k16}C{\k20}RA{\k51}Y!
+Dialogue: 0,0:01:51.74,0:01:55.64,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k33}sai{\k27}nou {\k15}ga {\k30}kai{\k18}ka {\k30}un{\k30}mei {\k13}no {\k31}hen{\k53}ka
+Dialogue: 0,0:01:55.15,0:01:58.03,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k32}uz{\kf146}zee!
+Dialogue: 0,0:01:56.68,0:01:59.03,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ri{\k23}ron {\k15}bu{\k30}sou {\k20}ka{\k12}ra
+Dialogue: 0,0:01:57.93,0:02:01.39,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k30}kan{\k29}jou {\k16}MI{\k13}RA{\k15}C{\k9}LE {\k24}a{\k11}ra{\k15}bu{\k18}ru {\k28}hou{\k28}den
+Dialogue: 0,0:02:00.29,0:02:02.23,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ba{\k6}ka {\k7}ni {\k35}sun{\k22}na
+Dialogue: 0,0:02:01.43,0:02:04.88,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ma{\k9}nu{\k37}ke {\k13}fu{\k9}nu{\k38}ke {\k11}ko{\k13}shi{\k12}nu{\k30}ke {\k13}a{\k11}ga{\k22}ke
+Dialogue: 0,0:02:03.89,0:02:06.36,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k24}CHEAT {\k24}sun{\k14}na {\k20}BANG {\k12}shi{\k14}ro {\k29}ya!
+Dialogue: 0,0:02:05.11,0:02:07.43,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k15}nan{\k10}de{\k8}mo {\k9}a{\k11}ri {\k8}ni {\k15}sun {\k14}ja {\k32}nee
+Dialogue: 0,0:02:06.29,0:02:08.62,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k22}nan{\k9}to{\k10}nak' {\k7}de {\k15}sun{\k12}jau {\k9}ha{\k10}zu {\k29}nee
+Dialogue: 0,0:02:07.52,0:02:09.58,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ha{\k10}zu{\k14}re {\k9}ha{\k10}zu{\k14}re {\k10}ha{\k9}zu{\k10}re
+Dialogue: 0,0:02:08.43,0:02:10.98,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k12}no{\k8}ke{\k6}mo{\k4}no {\k8}sa{\k7}ra{\k8}sa{\k7}re {\k14}ON {\k16}PA{\k24}RA{\k31}DE
+Dialogue: 0,0:02:09.88,0:02:12.18,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k18}UN{\k15}DER{\k28}GROUND {\rRie}{\k12}ha{\k7}ji{\k8}ka{\k7}re{\k10}cha{\k15}e
+Dialogue: 0,0:02:11.12,0:02:13.42,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k17}WON{\k13}DER{\k15}LAND {\rRie}{\k12}o{\k33}do{\k30}re
+Dialogue: 0,0:02:12.32,0:02:16.26,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k20}VIL{\k33}LAIN'S {\k37}jou{\k30}tou {\k24}GOOD {\k30}BYE {\k34}PRIN{\k76}CESS
+Dialogue: 0,0:02:14.73,0:02:23.15,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k52}ba{\k126}tou {\rRie}{\k60}at{\kf494}tou
+Dialogue: 0,0:02:25.43,0:02:27.82,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\kf129}HMM
+Dialogue: 0,0:02:26.68,0:02:32.51,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k58}LIKE {\k62}MY {\k64}MO{\k59}THER {\k52}ai{\k40}shi{\k26}te {\k34}a{\k28}ge{\k50}ru
+Dialogue: 0,0:02:31.51,0:02:36.85,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k59}da{\k57}re {\k63}yo{\k60}ri {\k58}mo {\k58}fu{\k69}kak'
+Dialogue: 0,0:02:36.84,0:02:40.32,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k34}LIKE {\k29}MY {\k35}MO{\k27}THER {\k26}mot{\k30}to {\k38}chou{\k19}dai
+Dialogue: 0,0:02:39.26,0:02:42.75,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k32}HOLD {\k28}ON {\k33}TIGH{\k17}T {\k16}ni {\k31}hi{\k23}ri{\k37}tsu{\k22}ku
+Dialogue: 0,0:02:41.68,0:02:47.55,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k50}KA{\k14}R{\k40}MA {\k14}sa{\k36}sa{\k28}ya{\k48}ku {\k12}ki{\k18}zu{\k24}na {\k34}STU{\k43}PID {\k31}CU{\k30}PI{\k55}D
+Dialogue: 0,0:02:46.52,0:02:51.53,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k27}o{\k34}shi{\k29}o{\k31}ki {\k29}yo {\k30}hit{\k15}ta{\k16}ta{\k12}ku {\k31}se{\k31}kai {\k15}ni {\k29}ES{\k28}CA{\k34}PE
+Dialogue: 0,0:02:51.13,0:02:53.15,Rei,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ku{\k21}ra{\k53}e!
+Dialogue: 0,0:02:52.39,0:02:54.38,Rie,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ku{\k23}ra{\k52}e!
+Dialogue: 0,0:02:53.63,0:02:58.36,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k22}mu{\k15}te{\k14}ki {\k16}no {\k31}BI{\k27}BLE {\k18}ka{\k13}ka{\k12}ge{\k16}ru {\k35}SUR{\k30}VI{\k59}VO{\k55}R
+Dialogue: 0,0:03:01.45,0:03:03.32,REIRIE,,0,0,0,fx,{\k90\fad(300,200)}{\k36}BAD {\k41}DOLL
