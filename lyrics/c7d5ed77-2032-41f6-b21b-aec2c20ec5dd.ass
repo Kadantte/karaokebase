@@ -1,0 +1,99 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: Up From The Bottom
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,23,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,23,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:20.76,0:00:25.59,Sample KM [Up],,0,0,0,karaoke,{\k26}In{\k37}side {\k23}it {\k60}feels {\k54}like {\k28}I've {\k16}been {\k40}bare{\k28}ly {\k63}brea{\kf108}thin'
+Comment: 0,0:00:26.08,0:00:29.40,Sample KM [Up],,0,0,0,karaoke,{\k56}Feels {\k61}like {\k29}air {\k18}is {\k36}run{\k30}nin' {\kf102}out
+Comment: 0,0:00:29.76,0:00:34.28,Sample KM [Up],,0,0,0,karaoke,{\k26}In{\k32}side {\k26}I'm {\k52}stuck {\k60}here {\k28}sta{\k16}rin' {\k41}at {\k26}a {\k55}cei{\k90}lin'
+Comment: 0,0:00:35.06,0:00:37.89,Sample KM [Up],,0,0,0,karaoke,{\k58}You {\k59}put {\k27}up {\k15}to {\k38}keep {\k32}me {\k54}down
+Comment: 0,0:00:37.89,0:00:40.14,Sample KM [Choir],,0,0,0,karaoke,{\k57}Down, {\k55}down, {\k57}down, {\k56}down
+Comment: 0,0:00:39.86,0:00:41.12,Sample KM [Up],,0,0,0,karaoke,{\k13}Wa{\k15}kin' {\k13}up {\k15}with{\k16}out {\k14}a {\k40}name
+Comment: 0,0:00:41.26,0:00:43.39,Sample KM [Up],,0,0,0,karaoke,{\k14}O{\k13}pen {\k14}up {\k15}my {\k27}eyes {\k15}kno{\k13}win' {\k14}no{\k15}thin' {\k13}is {\k13}the {\k47}same
+Comment: 0,0:00:44.29,0:00:45.62,Sample KM [Up],,0,0,0,karaoke,{\k17}Cir{\k14}c{\k14}lin' {\k16}a{\k14}round {\k13}a {\k45}drain
+Comment: 0,0:00:45.74,0:00:47.76,Sample KM [Up],,0,0,0,karaoke,{\k15}As {\k14}I {\k14}re{\k14}a{\k28}lize {\k13}that {\k16}there's {\k12}no {\k15}one {\k13}else {\k15}to {\k33}blame
+Comment: 0,0:00:47.76,0:00:52.36,Sample KM [Up],,0,0,0,karaoke,{\k23}You {\k26}keep {\k30}me {\k57}wai{\k80}tin' {\k30}down {\k78}here {\k33}so {\k43}far {\k13}be{\k47}low
+Comment: 0,0:00:52.42,0:00:56.96,Sample KM [Up],,0,0,0,karaoke,{\k33}Sta{\k29}rin' {\k51}up {\k44}from {\k14}the {\k21}bot{\k91}tom {\k53}up {\k46}from {\k14}the {\k17}bot{\k41}tom
+Comment: 0,0:00:56.64,0:01:01.28,Sample KM [Up],,0,0,0,karaoke,{\k26}I {\k34}try {\k27}es{\k49}ca{\k89}pin' {\k29}but {\k81}there's {\k29}no{\k46}where {\k14}to {\k40}go
+Comment: 0,0:01:01.41,0:01:06.56,Sample KM [Up],,0,0,0,karaoke,{\k31}Sta{\k28}rin' {\k49}up {\k48}from {\k15}the {\k19}bot{\k89}tom {\k56}up {\k45}from {\k14}the {\k17}bot{\kf104}tom
+Comment: 0,0:01:10.10,0:01:14.89,Sample KM [Up],,0,0,0,karaoke,{\k28}Each {\k29}time {\k28}I {\k59}hold {\k52}my {\k30}fist {\k20}in{\k36}side {\k25}my {\k57}po{\kf115}cket
+Comment: 0,0:01:15.44,0:01:18.75,Sample KM [Up],,0,0,0,karaoke,{\k57}Hold {\k53}my {\k32}breath {\k17}un{\k40}til {\k25}I'm {\kf107}blue
+Comment: 0,0:01:19.07,0:01:23.99,Sample KM [Up],,0,0,0,karaoke,{\k31}Feels {\k28}like {\k29}a {\k53}knife {\k56}pushed {\k30}deep {\k15}in{\k41}side {\k28}a {\k56}so{\kf125}cket
+Comment: 0,0:01:24.41,0:01:27.15,Sample KM [Up],,0,0,0,karaoke,{\k60}Brist{\k52}lin' {\k27}lis{\k19}te{\k37}nin' {\k32}to {\k47}you
+Comment: 0,0:01:27.21,0:01:29.21,Sample KM [Choir],,0,0,0,karaoke,{\k58}You, {\k52}you, {\k57}you, {\k33}you
+Comment: 0,0:01:29.21,0:01:31.43,Sample KM [Up],,0,0,0,karaoke,{\k14}Wa{\k14}kin' {\k12}up {\k15}wi{\k17}thout {\k14}a {\k53}name {\k16}o{\k12}pen {\k16}up {\k17}my {\k22}eyes
+Comment: 0,0:01:31.45,0:01:32.83,Sample KM [Up],,0,0,0,karaoke,{\k14}Kno{\k13}win' {\k15}no{\k13}thing's {\k12}gon{\k14}na {\k57}change
+Comment: 0,0:01:33.64,0:01:35.93,Sample KM [Up],,0,0,0,karaoke,{\k19}Cir{\k13}c{\k13}lin' {\k16}a{\k14}round {\k13}a {\k56}drain {\k15}as {\k14}I {\k15}re{\k13}a{\k28}lize
+Comment: 0,0:01:35.93,0:01:37.10,Sample KM [Up],,0,0,0,karaoke,{\k15}That {\k14}there's {\k14}no {\k14}one {\k14}else {\k13}to {\k33}blame
+Comment: 0,0:01:37.01,0:01:41.68,Sample KM [Up],,0,0,0,karaoke,{\k25}You {\k32}keep {\k29}me {\k58}wai{\k81}tin' {\k29}down {\k80}here {\k29}so {\k47}far {\k15}be{\k42}low
+Comment: 0,0:01:41.78,0:01:46.25,Sample KM [Up],,0,0,0,karaoke,{\k32}Sta{\k29}rin' {\k50}up {\k45}from {\k15}the {\k16}bot{\k95}tom {\k54}up {\k46}from {\k15}the {\k13}bot{\k37}tom
+Comment: 0,0:01:46.09,0:01:50.64,Sample KM [Up],,0,0,0,karaoke,{\k17}I {\k32}try {\k27}es{\k51}ca{\k88}pin' {\k28}but {\k81}there's {\k29}no{\k48}where {\k13}to {\k41}go
+Comment: 0,0:01:50.78,0:01:55.93,Sample KM [Up],,0,0,0,karaoke,{\k30}Sta{\k29}rin' {\k47}up {\k48}from {\k15}the {\k19}bot{\k90}tom {\k56}up {\k44}from {\k12}the {\k17}bot{\kf108}tom
+Comment: 0,0:02:00.30,0:02:02.44,Sample KM [Up],,0,0,0,karaoke,{\k18}Eve{\k16}ry{\k15}bo{\k14}dy {\k25}out {\k29}that {\k17}de{\k15}vil {\k23}is {\k23}co{\k19}min'
+Comment: 0,0:02:02.58,0:02:04.65,Sample KM [Up],,0,0,0,karaoke,{\k20}Poi{\k11}son {\k15}on {\k12}his {\k27}lips {\k14}and {\k14}his {\k26}words {\k30}mean {\k18}no{\k20}thin'
+Comment: 0,0:02:04.82,0:02:07.02,Sample KM [Up],,0,0,0,karaoke,{\k24}Cold {\k19}like {\k13}a {\k13}moun{\k15}tain{\k29}top {\k15}fa{\k13}ther {\k17}ne{\k12}ver {\k24}loved {\k26}him
+Comment: 0,0:02:07.06,0:02:09.32,Sample KM [Up],,0,0,0,karaoke,{\k14}Ma{\k14}ma {\k14}said {\k15}he's {\k19}bad {\k11}e{\k23}nough {\k28}times {\k19}that {\k17}it {\k22}sunk {\k30}in
+Comment: 0,0:02:09.32,0:02:11.38,Sample KM [Up],,0,0,0,karaoke,{\k15}Eve{\k15}ry{\k15}bo{\k14}dy {\k24}out {\k27}that {\k17}de{\k15}vil {\k25}is {\k21}co{\k18}min'
+Comment: 0,0:02:11.56,0:02:13.66,Sample KM [Up],,0,0,0,karaoke,{\k18}Pro{\k9}mise {\k18}you {\k11}the {\k25}world {\k19}but {\k12}he's {\k28}al{\k26}ways {\k22}bluf{\k22}fin'
+Comment: 0,0:02:13.66,0:02:15.92,Sample KM [Up],,0,0,0,karaoke,{\k14}Be{\k16}fore {\k13}you {\k14}e{\k14}ven {\k30}know {\k12}it's {\k12}a {\k27}trap {\k28}you're {\k18}stuck {\k28}in
+Comment: 0,0:02:15.92,0:02:18.15,Sample KM [Up],,0,0,0,karaoke,{\k12}He's {\k27}gone {\k13}like {\k14}a {\k31}ghost {\k26}al{\k17}rea{\k16}dy {\k22}off {\k24}run{\k21}nin'
+Comment: 0,0:02:35.34,0:02:39.96,Sample KM [Up],,0,0,0,karaoke,{\k30}You {\k25}keep {\k31}me {\k61}wai{\k75}tin' {\k35}down {\k81}here {\k27}so {\k45}far {\k15}be{\k37}low
+Comment: 0,0:02:40.13,0:02:44.69,Sample KM [Up],,0,0,0,karaoke,{\k30}Sta{\k29}rin' {\k46}up {\k48}from {\k17}the {\k22}bot{\k88}tom {\k54}up {\k46}from {\k12}the {\k19}bot{\k45}tom
+Comment: 0,0:02:44.29,0:02:48.97,Sample KM [Up],,0,0,0,karaoke,{\k25}I {\k36}try {\k26}es{\k52}ca{\k89}pin' {\k24}but {\k87}there's {\k27}no{\k45}where {\k12}to {\k45}go
+Comment: 0,0:02:49.08,0:02:51.81,Sample KM [Up],,0,0,0,karaoke,{\k31}Sta{\k28}rin' {\k51}up {\k46}from {\k14}the {\k19}bot{\k84}tom
+Comment: 0,0:02:52.11,0:02:53.90,Sample KM [Up],,0,0,0,karaoke,{\k35}Got{\k27}ta {\k29}get {\k28}out{\k26}ta {\k34}here
+Comment: 0,0:02:54.12,0:02:58.67,Sample KM [Up],,0,0,0,karaoke,{\k53}Up {\k48}from {\k16}the {\k19}bot{\k113}tom {\k33}got{\k28}ta {\k31}get {\k27}out{\k24}ta {\k63}here
+Dialogue: 0,0:00:19.86,0:00:25.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}In{\k37}side {\k23}it {\k60}feels {\k54}like {\k28}I've {\k16}been {\k40}bare{\k28}ly {\k63}brea{\kf108}thin'
+Dialogue: 0,0:00:25.18,0:00:29.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k56}Feels {\k61}like {\k29}air {\k18}is {\k36}run{\k30}nin' {\kf102}out
+Dialogue: 0,0:00:28.86,0:00:34.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}In{\k32}side {\k26}I'm {\k52}stuck {\k60}here {\k28}sta{\k16}rin' {\k41}at {\k26}a {\k55}cei{\k90}lin'
+Dialogue: 0,0:00:34.16,0:00:38.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}You {\k59}put {\k27}up {\k15}to {\k38}keep {\k32}me {\k54}down
+Dialogue: 0,0:00:36.99,0:00:40.34,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k57}Down, {\k55}down, {\k57}down, {\k56}down
+Dialogue: 0,0:00:38.96,0:00:41.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Wa{\k15}kin' {\k13}up {\k15}with{\k16}out {\k14}a {\k40}name
+Dialogue: 0,0:00:40.36,0:00:43.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}O{\k13}pen {\k14}up {\k15}my {\k27}eyes {\k15}kno{\k13}win' {\k14}no{\k15}thin' {\k13}is {\k13}the {\k47}same
+Dialogue: 0,0:00:43.39,0:00:45.82,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Cir{\k14}c{\k14}lin' {\k16}a{\k14}round {\k13}a {\k45}drain
+Dialogue: 0,0:00:44.84,0:00:47.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}As {\k14}I {\k14}re{\k14}a{\k28}lize {\k13}that {\k16}there's {\k12}no {\k15}one {\k13}else {\k15}to {\k33}blame
+Dialogue: 0,0:00:46.86,0:00:52.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}You {\k26}keep {\k30}me {\k57}wai{\k80}tin' {\k30}down {\k78}here {\k33}so {\k43}far {\k13}be{\k47}low
+Dialogue: 0,0:00:51.52,0:00:57.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Sta{\k29}rin' {\k51}up {\k44}from {\k14}the {\k21}bot{\k91}tom {\k53}up {\k46}from {\k14}the {\k17}bot{\k41}tom
+Dialogue: 0,0:00:55.74,0:01:01.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k34}try {\k27}es{\k49}ca{\k89}pin' {\k29}but {\k81}there's {\k29}no{\k46}where {\k14}to {\k40}go
+Dialogue: 0,0:01:00.51,0:01:06.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Sta{\k28}rin' {\k49}up {\k48}from {\k15}the {\k19}bot{\k89}tom {\k56}up {\k45}from {\k14}the {\k17}bot{\kf104}tom
+Dialogue: 0,0:01:09.20,0:01:15.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Each {\k29}time {\k28}I {\k59}hold {\k52}my {\k30}fist {\k20}in{\k36}side {\k25}my {\k57}po{\kf115}cket
+Dialogue: 0,0:01:14.54,0:01:18.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k57}Hold {\k53}my {\k32}breath {\k17}un{\k40}til {\k25}I'm {\kf107}blue
+Dialogue: 0,0:01:18.17,0:01:24.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Feels {\k28}like {\k29}a {\k53}knife {\k56}pushed {\k30}deep {\k15}in{\k41}side {\k28}a {\k56}so{\kf125}cket
+Dialogue: 0,0:01:23.51,0:01:27.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Brist{\k52}lin' {\k27}lis{\k19}te{\k37}nin' {\k32}to {\k47}you
+Dialogue: 0,0:01:26.31,0:01:29.41,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k58}You, {\k52}you, {\k57}you, {\k33}you
+Dialogue: 0,0:01:28.31,0:01:31.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Wa{\k14}kin' {\k12}up {\k15}wi{\k17}thout {\k14}a {\k53}name {\k16}o{\k12}pen {\k16}up {\k17}my {\k22}eyes
+Dialogue: 0,0:01:30.55,0:01:33.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Kno{\k13}win' {\k15}no{\k13}thing's {\k12}gon{\k14}na {\k57}change
+Dialogue: 0,0:01:32.74,0:01:36.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Cir{\k13}c{\k13}lin' {\k16}a{\k14}round {\k13}a {\k56}drain {\k15}as {\k14}I {\k15}re{\k13}a{\k28}lize
+Dialogue: 0,0:01:35.03,0:01:37.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}That {\k14}there's {\k14}no {\k14}one {\k14}else {\k13}to {\k33}blame
+Dialogue: 0,0:01:36.11,0:01:41.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}You {\k32}keep {\k29}me {\k58}wai{\k81}tin' {\k29}down {\k80}here {\k29}so {\k47}far {\k15}be{\k42}low
+Dialogue: 0,0:01:40.88,0:01:46.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Sta{\k29}rin' {\k50}up {\k45}from {\k15}the {\k16}bot{\k95}tom {\k54}up {\k46}from {\k15}the {\k13}bot{\k37}tom
+Dialogue: 0,0:01:45.19,0:01:50.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k32}try {\k27}es{\k51}ca{\k88}pin' {\k28}but {\k81}there's {\k29}no{\k48}where {\k13}to {\k41}go
+Dialogue: 0,0:01:49.88,0:01:56.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Sta{\k29}rin' {\k47}up {\k48}from {\k15}the {\k19}bot{\k90}tom {\k56}up {\k44}from {\k12}the {\k17}bot{\kf108}tom
+Dialogue: 0,0:01:59.40,0:02:02.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Eve{\k16}ry{\k15}bo{\k14}dy {\k25}out {\k29}that {\k17}de{\k15}vil {\k23}is {\k23}co{\k19}min'
+Dialogue: 0,0:02:01.68,0:02:04.85,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Poi{\k11}son {\k15}on {\k12}his {\k27}lips {\k14}and {\k14}his {\k26}words {\k30}mean {\k18}no{\k20}thin'
+Dialogue: 0,0:02:03.92,0:02:07.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Cold {\k19}like {\k13}a {\k13}moun{\k15}tain{\k29}top {\k15}fa{\k13}ther {\k17}ne{\k12}ver {\k24}loved {\k26}him
+Dialogue: 0,0:02:06.16,0:02:09.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Ma{\k14}ma {\k14}said {\k15}he's {\k19}bad {\k11}e{\k23}nough {\k28}times {\k19}that {\k17}it {\k22}sunk {\k30}in
+Dialogue: 0,0:02:08.42,0:02:11.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Eve{\k15}ry{\k15}bo{\k14}dy {\k24}out {\k27}that {\k17}de{\k15}vil {\k25}is {\k21}co{\k18}min'
+Dialogue: 0,0:02:10.66,0:02:13.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Pro{\k9}mise {\k18}you {\k11}the {\k25}world {\k19}but {\k12}he's {\k28}al{\k26}ways {\k22}bluf{\k22}fin'
+Dialogue: 0,0:02:12.76,0:02:16.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}Be{\k16}fore {\k13}you {\k14}e{\k14}ven {\k30}know {\k12}it's {\k12}a {\k27}trap {\k28}you're {\k18}stuck {\k28}in
+Dialogue: 0,0:02:15.02,0:02:18.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}He's {\k27}gone {\k13}like {\k14}a {\k31}ghost {\k26}al{\k17}rea{\k16}dy {\k22}off {\k24}run{\k21}nin'
+Dialogue: 0,0:02:34.44,0:02:40.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}You {\k25}keep {\k31}me {\k61}wai{\k75}tin' {\k35}down {\k81}here {\k27}so {\k45}far {\k15}be{\k37}low
+Dialogue: 0,0:02:39.23,0:02:44.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Sta{\k29}rin' {\k46}up {\k48}from {\k17}the {\k22}bot{\k88}tom {\k54}up {\k46}from {\k12}the {\k19}bot{\k45}tom
+Dialogue: 0,0:02:43.39,0:02:49.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k36}try {\k26}es{\k52}ca{\k89}pin' {\k24}but {\k87}there's {\k27}no{\k45}where {\k12}to {\k45}go
+Dialogue: 0,0:02:48.18,0:02:52.01,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}Sta{\k28}rin' {\k51}up {\k46}from {\k14}the {\k19}bot{\k84}tom
+Dialogue: 0,0:02:51.21,0:02:54.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Got{\k27}ta {\k29}get {\k28}out{\k26}ta {\k34}here
+Dialogue: 0,0:02:53.22,0:02:58.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Up {\k48}from {\k16}the {\k19}bot{\k113}tom {\k33}got{\k28}ta {\k31}get {\k27}out{\k24}ta {\k63}here
