@@ -2,31 +2,41 @@
 Title: Marukaite Chikyû ~ Italy Vers.
 ScriptType: v4.00+
 WrapStyle: 0
-PlayResX: 640
-PlayResY: 480
+PlayResX: 0
+PlayResY: 0
 ScaledBorderAndShadow: yes
 Video Aspect Ratio: 0
 Video Zoom: 6
-Video Position: 0
-Last Style Storage: Default
 Original Timing: Bakaclub
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,42,&H001F99FF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,10,10,10,1
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.73,0:00:02.61,Default,,0000,0000,0000,,{\k24}nee {\k25}nee {\k24}PA{\k23}PA {\k26}WINE {\k20}wo {\k21}chou{\k25}dai
-Dialogue: 0,0:00:01.61,0:00:04.51,Default,,0000,0000,0000,,{\k90}{\k24}nee {\k23}nee {\k25}MA{\k23}MA {\k25}nee {\k22}nee {\k24}MA{\k24}MA
-Dialogue: 0,0:00:03.51,0:00:06.04,Default,,0000,0000,0000,,{\k90}{\k6}mu{\k17}ka{\k7}shi {\k6}ni {\k9}ta{\k11}be{\k11}ta {\k12}BO{\k15}LO{\k30}GNE{\k12}SE {\k17}no
-Dialogue: 0,0:00:05.37,0:00:08.18,Default,,0000,0000,0000,,{\k90}{\k7}a{\k8}no {\k7}a{\k10}ji {\k11}ga {\k12}wa{\k13}su{\k12}re{\k13}ra{\k7}re{\k12}na{\k13}i{\k12}n {\k44}da
-Dialogue: 0,0:00:07.18,0:00:10.07,Default,,0000,0000,0000,,{\k90}{\k29}ma{\k25}ru{\k24}kai{\k25}te {\k21}chi{\k25}kyu{\k40}u
-Dialogue: 0,0:00:09.07,0:00:11.76,Default,,0000,0000,0000,,{\k90}{\k28}ma{\k25}ru{\k24}kai{\k25}te {\k20}chi{\k21}kyu{\k26}u
-Dialogue: 0,0:00:10.93,0:00:13.63,Default,,0000,0000,0000,,{\k90}{\k28}ma{\k22}ru{\k38}kai{\k12}te {\k24}chi{\k22}kyu{\k24}u
-Dialogue: 0,0:00:12.63,0:00:15.27,Default,,0000,0000,0000,,{\k90}{\k23}bo{\k29}ku {\k21}HE{\k23}TA{\k23}LI{\k45}A
-Dialogue: 0,0:00:14.68,0:00:19.03,Default,,0000,0000,0000,,{\k90}{\K121}aa {\k27}hi{\k31}to{\k18}fu{\K96}de {\k42}de
-Dialogue: 0,0:00:18.03,0:00:22.29,Default,,0000,0000,0000,,{\k90}{\k30}mi{\k15}e{\k15}ru {\k33}su{\k27}ba{\k14}ra{\k58}shii {\k28}se{\k16}ka{\k90}i
-Dialogue: 0,0:00:21.67,0:00:26.53,Default,,0000,0000,0000,,{\k90}{\k58}na{\K117}ga{\k19}gu{\k34}tsu {\k16}de {\k25}ka{\k23}n{\k33}pa{\k15}i {\k46}da
-Dialogue: 0,0:00:25.53,0:00:30.18,Default,,0000,0000,0000,,{\k90}{\k47}HE{\k95}TA{\k101}LI{\K172}A
-Dialogue: 0,0:00:29.18,0:00:32.18,Default,,0000,0000,0000,,{\k90}
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.73,0:00:02.61,Sample KM [Up],,0,0,0,karaoke,{\k24}nee {\k25}nee {\k24}PA{\k23}PA {\k26}WINE {\k20}wo {\k21}chou{\k25}dai
+Comment: 0,0:00:02.51,0:00:04.51,Sample KM [Up],,0,0,0,karaoke,{\k24}nee {\k23}nee {\k25}MA{\k23}MA {\k25}nee {\k22}nee {\k24}MA{\k34}MA
+Comment: 0,0:00:04.41,0:00:06.04,Sample KM [Up],,0,0,0,karaoke,{\k6}mu{\k17}ka{\k7}shi {\k6}ni {\k9}ta{\k11}be{\k11}ta {\k12}BO{\k15}LO{\k30}GNE{\k12}SE {\k27}no
+Comment: 0,0:00:06.27,0:00:08.18,Sample KM [Up],,0,0,0,karaoke,{\k7}a{\k8}no {\k7}a{\k10}ji {\k11}ga {\k12}wa{\k13}su{\k12}re{\k13}ra{\k7}re{\k12}na{\k13}i{\k12}n {\k54}da
+Comment: 0,0:00:08.08,0:00:10.07,Sample KM [Up],,0,0,0,karaoke,{\k29}ma{\k25}ru{\k24}kai{\k25}te {\k21}chi{\k25}kyu{\k50}u
+Comment: 0,0:00:09.97,0:00:11.76,Sample KM [Up],,0,0,0,karaoke,{\k28}ma{\k25}ru{\k24}kai{\k25}te {\k20}chi{\k21}kyu{\k36}u
+Comment: 0,0:00:11.83,0:00:13.63,Sample KM [Up],,0,0,0,karaoke,{\k28}ma{\k22}ru{\k38}kai{\k12}te {\k24}chi{\k22}kyu{\k34}u
+Comment: 0,0:00:13.53,0:00:15.27,Sample KM [Up],,0,0,0,karaoke,{\k23}bo{\k29}ku {\k21}HE{\k23}TA{\k23}LI{\k55}A
+Comment: 0,0:00:15.58,0:00:19.03,Sample KM [Up],,0,0,0,karaoke,{\kf121}aa {\k27}hi{\k31}to{\k18}fu{\kf96}de {\k52}de
+Comment: 0,0:00:18.93,0:00:22.29,Sample KM [Up],,0,0,0,karaoke,{\k30}mi{\k15}e{\k15}ru {\k33}su{\k27}ba{\k14}ra{\k58}shii {\k28}se{\k16}ka{\k100}i
+Comment: 0,0:00:22.57,0:00:26.53,Sample KM [Up],,0,0,0,karaoke,{\k58}na{\kf117}ga{\k19}gu{\k34}tsu {\k16}de {\k25}ka{\k23}n{\k33}pa{\k15}i {\k56}da
+Comment: 0,0:00:26.43,0:00:30.18,Sample KM [Up],,0,0,0,karaoke,{\k47}HE{\k95}TA{\k101}LI{\kf132}A
+Dialogue: 0,0:00:00.00,0:00:02.81,Sample KM [Up],,0,0,0,fx,{\k73\fad(730,200)}{\k24}nee {\k25}nee {\k24}PA{\k23}PA {\k26}WINE {\k20}wo {\k21}chou{\k25}dai
+Dialogue: 0,0:00:01.61,0:00:04.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}nee {\k23}nee {\k25}MA{\k23}MA {\k25}nee {\k22}nee {\k24}MA{\k34}MA
+Dialogue: 0,0:00:03.51,0:00:06.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k6}mu{\k17}ka{\k7}shi {\k6}ni {\k9}ta{\k11}be{\k11}ta {\k12}BO{\k15}LO{\k30}GNE{\k12}SE {\k27}no
+Dialogue: 0,0:00:05.37,0:00:08.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k7}a{\k8}no {\k7}a{\k10}ji {\k11}ga {\k12}wa{\k13}su{\k12}re{\k13}ra{\k7}re{\k12}na{\k13}i{\k12}n {\k54}da
+Dialogue: 0,0:00:07.18,0:00:10.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}ma{\k25}ru{\k24}kai{\k25}te {\k21}chi{\k25}kyu{\k50}u
+Dialogue: 0,0:00:09.07,0:00:11.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}ma{\k25}ru{\k24}kai{\k25}te {\k20}chi{\k21}kyu{\k36}u
+Dialogue: 0,0:00:10.93,0:00:13.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}ma{\k22}ru{\k38}kai{\k12}te {\k24}chi{\k22}kyu{\k34}u
+Dialogue: 0,0:00:12.63,0:00:15.47,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}bo{\k29}ku {\k21}HE{\k23}TA{\k23}LI{\k55}A
+Dialogue: 0,0:00:14.68,0:00:19.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf121}aa {\k27}hi{\k31}to{\k18}fu{\kf96}de {\k52}de
+Dialogue: 0,0:00:18.03,0:00:22.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}mi{\k15}e{\k15}ru {\k33}su{\k27}ba{\k14}ra{\k58}shii {\k28}se{\k16}ka{\k100}i
+Dialogue: 0,0:00:21.67,0:00:26.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}na{\kf117}ga{\k19}gu{\k34}tsu {\k16}de {\k25}ka{\k23}n{\k33}pa{\k15}i {\k56}da
+Dialogue: 0,0:00:25.53,0:00:30.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}HE{\k95}TA{\k101}LI{\kf132}A
