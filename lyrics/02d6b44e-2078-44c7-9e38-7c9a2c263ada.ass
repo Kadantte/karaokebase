@@ -1,0 +1,58 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Uchuu no Fushigi
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Lucinecoconut
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Arale mugendai,,24,&H00FFFFFF,&H0033DDFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.10,0:00:04.72,Arale mugendai,,0,0,0,karaoke,{\k33}to{\k18}ri {\k48}wa {\k48}nan{\k48}de {\k28}so{\k21}ra {\k32}wo {\k17}to{\k30}be{\k20}ru {\k19}no?
+Comment: 0,0:00:05.00,0:00:08.68,Arale mugendai,,0,0,0,karaoke,{\k35}ne{\k19}ko {\k41}wa {\k55}nan{\k49}de {\k48}zut{\k32}to {\k16}ne{\k31}te{\k15}ru {\k27}no?
+Comment: 0,0:00:08.92,0:00:12.62,Arale mugendai,,0,0,0,karaoke,{\k37}ki{\k21}mi {\k44}wa {\k42}don{\k55}na {\k51}kyou {\k30}wo {\k18}i{\k33}ki{\k17}ru {\k22}no?
+Comment: 0,0:00:12.88,0:00:20.55,Arale mugendai,,0,0,0,karaoke,{\k49}zen{\k50}bu {\k50}zen{\k51}bu {\k50}zen{\k76}bu {\k18}sa{\k33}ga{\k18}shi {\k31}ni {\k18}i{\kf323}kou
+Comment: 0,0:00:16.83,0:00:20.64,Sample KM [Choir],,0,0,0,karaoke,{\k31}LA {\k20}LA {\k48}LA {\k50}LA {\k50}LA {\k49}LA {\k32}LA {\k17}LA {\k32}LA {\k17}LA {\k35}LA
+Comment: 0,0:00:20.75,0:00:24.95,Sample KM [Choir],,0,0,0,karaoke,{\k33}LA {\k19}LA {\k46}LA {\k52}LA {\k49}LA {\k48}LA {\k69}LA {\k15}LA {\k14}LA {\k25}LA
+Comment: 0,0:00:24.69,0:00:28.47,Arale mugendai,,0,0,0,karaoke,{\k34}a{\k24}sa {\k40}wa {\k50}nan{\k47}de {\k35}bo{\k18}ku {\k29}wo {\k17}te{\k33}ra{\k19}su {\k32}no?
+Comment: 0,0:00:28.62,0:00:32.28,Arale mugendai,,0,0,0,karaoke,{\k31}yo{\k21}ru {\k45}wa {\k50}nan{\k50}de {\k33}sa{\k15}bi{\k35}shi{\k16}ku {\k32}na{\k17}ru {\k21}no?
+Comment: 0,0:00:32.55,0:00:36.41,Arale mugendai,,0,0,0,karaoke,{\k31}ka{\k18}na{\k47}shii {\k50}ko{\k51}to{\k44}ba {\k42}han{\k60}bun{\k43}ko
+Comment: 0,0:00:36.83,0:00:39.80,Arale mugendai,,0,0,0,karaoke,{\k16}de{\k34}ki{\k16}ta{\k28}ra {\k21}i{\k48}i {\k34}no {\k16}ni {\k41}ne{\k43}e?
+Comment: 0,0:00:40.66,0:00:43.90,Arale mugendai,,0,0,0,karaoke,{\k23}wa{\k29}ra{\k21}t{\k36}ta{\k44}ri {\k22}na{\k32}ya{\k16}n{\k30}de {\k18}mi{\k34}ta{\k19}ri
+Comment: 0,0:00:44.22,0:00:47.82,Arale mugendai,,0,0,0,karaoke,{\k15}ko{\k22}no {\k26}hi{\k51}roi {\k29}se{\k54}kai {\k44}no {\k20}su{\k34}mi{\k16}k{\k31}ko {\k18}de
+Comment: 0,0:00:48.79,0:00:51.90,Arale mugendai,,0,0,0,karaoke,{\k27}bo{\k23}ku{\k32}ra {\k49}ne {\k21}u{\k24}chu{\k20}u {\k38}no {\k14}fu{\k33}shi{\k30}gi
+Comment: 0,0:00:52.24,0:00:56.81,Arale mugendai,,0,0,0,karaoke,{\k46}to{\k55}ki{\k45}a{\k52}ka{\k47}shi{\k51}te {\k49}mi{\kf112}you
+Comment: 0,0:00:58.14,0:01:01.79,Arale mugendai,,0,0,0,karaoke,{\k28}kyo{\k29}u{\k42} wa {\k50}don{\k42}na {\k38}ha{\k15}na{\k36}shi {\k15}wo {\k35}shi{\k16}yo{\k19}u?
+Comment: 0,0:01:02.05,0:01:05.73,Arale mugendai,,0,0,0,karaoke,{\k32}ki{\k20}mi {\k50}to {\k49}don{\k49}na {\k30}u{\k22}ta {\k30}wo {\k17}u{\k33}ta{\k17}o{\k19}u?
+Comment: 0,0:01:06.00,0:01:09.67,Arale mugendai,,0,0,0,karaoke,{\k35}da{\k14}re {\k46}mo {\k52}ma{\k51}da {\k30}shi{\k18}ra{\k36}na{\k10}i {\k36}ha{\k19}na {\k20}mo
+Comment: 0,0:01:09.93,0:01:16.86,Arale mugendai,,0,0,0,karaoke,{\k52}zen{\k48}bu {\k51}zen{\k47}bu {\k51}zen{\k72}bu {\k24}sa{\k25}ga{\k24}shi {\k26}ni {\k21}i{\kf252}kou
+Comment: 0,0:01:17.80,0:01:24.53,Arale mugendai,,0,0,0,karaoke,{\k49}zen{\k54}bu {\k45}zen{\k55}bu {\k46}zen{\k79}bu {\k18}sa{\k33}ga{\k18}shi {\k31}ni {\k18}i{\kf227}kou
+Dialogue: 0,0:00:00.20,0:00:04.92,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k33}to{\k18}ri {\k48}wa {\k48}nan{\k48}de {\k28}so{\k21}ra {\k32}wo {\k17}to{\k30}be{\k20}ru {\k19}no?
+Dialogue: 0,0:00:04.10,0:00:08.88,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k35}ne{\k19}ko {\k41}wa {\k55}nan{\k49}de {\k48}zut{\k32}to {\k16}ne{\k31}te{\k15}ru {\k27}no?
+Dialogue: 0,0:00:08.02,0:00:12.82,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ki{\k21}mi {\k44}wa {\k42}don{\k55}na {\k51}kyou {\k30}wo {\k18}i{\k33}ki{\k17}ru {\k22}no?
+Dialogue: 0,0:00:11.98,0:00:20.75,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k49}zen{\k50}bu {\k50}zen{\k51}bu {\k50}zen{\k76}bu {\k18}sa{\k33}ga{\k18}shi {\k31}ni {\k18}i{\kf323}kou
+Dialogue: 0,0:00:15.93,0:00:20.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k31}LA {\k20}LA {\k48}LA {\k50}LA {\k50}LA {\k49}LA {\k32}LA {\k17}LA {\k32}LA {\k17}LA {\k35}LA
+Dialogue: 0,0:00:19.85,0:00:25.15,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k33}LA {\k19}LA {\k46}LA {\k52}LA {\k49}LA {\k48}LA {\k69}LA {\k15}LA {\k14}LA {\k25}LA
+Dialogue: 0,0:00:23.79,0:00:28.67,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k34}a{\k24}sa {\k40}wa {\k50}nan{\k47}de {\k35}bo{\k18}ku {\k29}wo {\k17}te{\k33}ra{\k19}su {\k32}no?
+Dialogue: 0,0:00:27.72,0:00:32.48,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k31}yo{\k21}ru {\k45}wa {\k50}nan{\k50}de {\k33}sa{\k15}bi{\k35}shi{\k16}ku {\k32}na{\k17}ru {\k21}no?
+Dialogue: 0,0:00:31.65,0:00:36.61,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ka{\k18}na{\k47}shii {\k50}ko{\k51}to{\k44}ba {\k42}han{\k60}bun{\k43}ko
+Dialogue: 0,0:00:35.93,0:00:40.00,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k16}de{\k34}ki{\k16}ta{\k28}ra {\k21}i{\k48}i {\k34}no {\k16}ni {\k41}ne{\k43}e?
+Dialogue: 0,0:00:39.76,0:00:44.10,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k23}wa{\k29}ra{\k21}t{\k36}ta{\k44}ri {\k22}na{\k32}ya{\k16}n{\k30}de {\k18}mi{\k34}ta{\k19}ri
+Dialogue: 0,0:00:43.32,0:00:48.02,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ko{\k22}no {\k26}hi{\k51}roi {\k29}se{\k54}kai {\k44}no {\k20}su{\k34}mi{\k16}k{\k31}ko {\k18}de
+Dialogue: 0,0:00:47.89,0:00:52.10,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k27}bo{\k23}ku{\k32}ra {\k49}ne {\k21}u{\k24}chu{\k20}u {\k38}no {\k14}fu{\k33}shi{\k30}gi
+Dialogue: 0,0:00:51.34,0:00:57.01,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k46}to{\k55}ki{\k45}a{\k52}ka{\k47}shi{\k51}te {\k49}mi{\kf112}you
+Dialogue: 0,0:00:57.24,0:01:01.99,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k28}kyo{\k29}u{\k42} wa {\k50}don{\k42}na {\k38}ha{\k15}na{\k36}shi {\k15}wo {\k35}shi{\k16}yo{\k19}u?
+Dialogue: 0,0:01:01.15,0:01:05.93,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ki{\k20}mi {\k50}to {\k49}don{\k49}na {\k30}u{\k22}ta {\k30}wo {\k17}u{\k33}ta{\k17}o{\k19}u?
+Dialogue: 0,0:01:05.10,0:01:09.87,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k35}da{\k14}re {\k46}mo {\k52}ma{\k51}da {\k30}shi{\k18}ra{\k36}na{\k10}i {\k36}ha{\k19}na {\k20}mo
+Dialogue: 0,0:01:09.03,0:01:17.06,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k52}zen{\k48}bu {\k51}zen{\k47}bu {\k51}zen{\k72}bu {\k24}sa{\k25}ga{\k24}shi {\k26}ni {\k21}i{\kf252}kou
+Dialogue: 0,0:01:16.90,0:01:24.73,Arale mugendai,,0,0,0,fx,{\k90\fad(300,200)}{\k49}zen{\k54}bu {\k45}zen{\k55}bu {\k46}zen{\k79}bu {\k18}sa{\k33}ga{\k18}shi {\k31}ni {\k18}i{\kf227}kou
