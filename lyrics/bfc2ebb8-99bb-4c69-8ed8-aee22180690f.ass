@@ -1,0 +1,188 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Echoign Chaos Countdown
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: IvannAkiyama
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Kyoko,Arial,24,&H00FFFFFF,&H003233FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Shinobu,Arial,24,&H00FFFFFF,&H00B464C7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Yuka,Arial,24,&H00FFFFFF,&H000BAADC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Esora,Arial,24,&H00FFFFFF,&H007CAB46,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Peaky P-key,Arial,24,&H00FFFFFF,&H00848484,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kyoko Choir,Arial,24,&H00FFFFFF,&H003233FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Peaky P-key Choir,Arial,24,&H00FFFFFF,&H00848484,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+Style: Kyoko Symbol,Arial,24,&H003233FF,&H003233FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Shinobu Symbol,Arial,24,&H00B464C7,&H00B464C7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Yuka Symbol,Arial,24,&H000BAADC,&H000BAADC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Esora Symbol,Arial,24,&H007CAB46,&H007CAB46,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kyoko Choir Symbol,Arial,24,&H003233FF,&H003233FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:10.00,Kyoko,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rKyoko Symbol\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:10.00,Shinobu,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rShinobu Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:10.00,Yuka,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rYuka Symbol\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:10.00,Esora,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rEsora Symbol\\fs30}♣{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:10.00,Peaky P-key,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,Kyoko Choir,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rKyoko Choir Symbol\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:10.00,Peaky P-key Choir,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H3233FF&}♥ Kyoko{\c} | {\c&HB464C7&}♠ Shinobu{\c} | {\c&H0BAADC&}♦ Yuka{\c} | {\c&H7CAB46&}♣ Esora{\c} | {\c&H848484&}Peaky P-key
+Comment: 0,0:00:00.42,0:00:07.77,Peaky P-key,,0,0,0,karaoke,{\k129}ko{\k44}yo{\k124}i {\k47}wa {\k128}MA{\k42}SH{\k86}U{\k82}P {\k53}sh'te
+Comment: 0,0:00:08.57,0:00:22.12,Peaky P-key,,0,0,0,karaoke,{\k43}RE{\k128}AL {\k42}na {\k128}IN{\k44}SI{\k85}DE {\k87}ka{\k88}ra {\k105}no {\k118}BLU{\k145}SH {\kf342}UP
+Comment: 0,0:00:29.38,0:00:32.27,Shinobu,,0,0,0,karaoke,{\k22}gou{\k10}ka {\k44}ken{\k34}ran {\k45}yo {\k9}ho{\k10}ra {\k21}mot{\k22}to {\k14}yo{\k16}ku {\k13}mi{\k29}te
+Comment: 0,0:00:32.59,0:00:34.61,Shinobu,,0,0,0,karaoke,{\k10}ki{\k13}ba{\k23}tsu {\k21}dai{\k22}tan {\k12}ko{\k10}so {\k23}ga {\k8}THE{\k11}O{\k21}RY {\k13}na {\k15}no
+Comment: 0,0:00:34.76,0:00:35.87,Shinobu,,0,0,0,karaoke,{\k8}so{\k11}re {\k23}ga {\k10}pi{\k11}ki{\k23}pi{\k25}ki!!
+Comment: 0,0:00:36.24,0:00:39.22,Yuka,,0,0,0,karaoke,{\k13}juu{\k13}ryo{\k17}ku {\k43}san{\k16}bya{\k12}ku {\k14}ro{\k46}ku {\k11}juu {\k16}do {\k15}FU{\k14}LL {\k18}ka{\k12}i{\k38}ten
+Comment: 0,0:00:39.45,0:00:40.77,Yuka,,0,0,0,karaoke,{\k24}e? {\k10}so{\k19}ret{\k12}te {\k29}kek{\k14}kyo{\k24}ku
+Comment: 0,0:00:40.97,0:00:42.70,Yuka,,0,0,0,karaoke,{\k17}na{\k11}ni {\k15}mo {\k13}ka{\k15}wa{\k15}ra{\k29}nai {\k15}ja{\k43}nai
+Comment: 0,0:00:42.90,0:00:44.37,Esora,,0,0,0,karaoke,{\k19}ten{\k18}ka {\k14}mu{\k10}te{\k23}ki {\k11}wo {\k14}mo {\k17}chou{\k11}e{\k10}tsu
+Comment: 0,0:00:44.41,0:00:46.20,Esora,,0,0,0,karaoke,{\k21}DA{\k11}DA{\k11}DA{\k53}DONE! {\k16}ko{\k15}u {\k8}go{\k21}ki{\k23}tai!
+Comment: 0,0:00:46.26,0:00:49.34,Esora,,0,0,0,karaoke,{\k14}ko{\k15}ko {\k57}mo! {\k13}so{\k16}ko {\k57}mo! {\k11}mi{\k17}n{\k55}na! {\k16}PUT{\k15}'EM {\k22}UP!
+Comment: 0,0:00:49.96,0:00:53.01,Kyoko,,0,0,0,karaoke,{\k44}jo{\k43}u{\k41}shi{\k46}ki {\k42}na{\k41}n{\k48}te
+Comment: 0,0:00:53.40,0:00:56.35,Kyoko,,0,0,0,karaoke,{\k27}O{\k16}VER{\k129}TURN {\k29}O{\k14}VER{\k80}RULE
+Comment: 0,0:00:56.83,0:00:59.51,Kyoko,,0,0,0,karaoke,{\k27}O{\k17}VER{\k128}RIDE {\k27}O{\k19}VER{\k50}THROW
+Comment: 0,0:00:59.81,0:01:03.35,Kyoko,,0,0,0,karaoke,{\kf354}BREAK!
+Comment: 0,0:01:05.19,0:01:07.01,Peaky P-key Choir,,0,0,0,karaoke,{\k33}DAWN {\k31}DAWN {\k30}BI{\k25}TE {\k31}BI{\k32}TE
+Comment: 0,0:01:12.05,0:01:13.90,Peaky P-key Choir,,0,0,0,karaoke,{\k35}DAWN {\k30}DAWN {\k26}BI{\k31}TE {\k27}BI{\k36}TE
+Comment: 0,0:01:18.90,0:01:20.77,Peaky P-key Choir,,0,0,0,karaoke,{\k34}DAWN {\k31}DAWN {\k26}BI{\k28}TE {\k28}BI{\k40}TE
+Comment: 0,0:01:30.69,0:01:32.31,Kyoko,,0,0,0,karaoke,{\k44}DAWN {\k22}BITE {\k24}BITE {\k18}HERE {\k21}WE {\k33}GO
+Comment: 0,0:01:32.40,0:01:35.32,Peaky P-key,,0,0,0,karaoke,{\k40}chou{\k24}ha{\k11}tsu {\k33}wa {\k21}BE{\k22}A{\k21}T {\k21}de {\k14}ka{\k29}e{\k20}su{\k12}n{\k32}da
+Comment: 0,0:01:35.39,0:01:37.66,Peaky P-key,,0,0,0,karaoke,{\k13}te{\k13}a{\k7}shi {\k12}shi{\k20}bi{\k22}re{\k21}te {\k22}ze{\k21}n{\k22}shi{\k20}n {\k34}wa
+Comment: 0,0:01:37.74,0:01:39.04,Peaky P-key,,0,0,0,karaoke,{\k13}HEA{\k18}VEN {\k14}HEA{\k17}VEN {\k16}HEA{\k16}VEN {\k14}HEA{\k22}VEN
+Comment: 0,0:01:39.26,0:01:42.77,Peaky P-key,,0,0,0,karaoke,{\k21}E{\k22}DI{\k21}~{\k10}T {\k32}shi{\k23}te {\k20}ba{\k22}ke{\k21}te {\k10}mo {\k33}ko{\k22}ko{\k10}ro {\k32}wa {\k12}O{\k17}N {\k23}sh'te
+Comment: 0,0:01:42.68,0:01:44.91,Kyoko,,0,0,0,karaoke,{\k84}P! {\k89}KEY! {\k50}SHOW!!
+Comment: 0,0:01:46.48,0:01:49.12,Kyoko Choir,,0,0,0,karaoke,{\k23}Space {\k21}of {\k19}the {\k81}ruins {\k16}gloo{\k15}my {\k17}and {\k16}is {\k56}small
+Comment: 0,0:01:49.25,0:01:50.62,Kyoko Choir,,0,0,0,karaoke,{\k7}We {\k9}are {\k25}not {\k20}al{\k14}rea{\k20}dy {\k22}frigh{\k20}tened
+Comment: 0,0:01:50.83,0:01:52.92,Kyoko Choir,,0,0,0,karaoke,{\k19}Be{\k75}cause {\k21}there {\k18}is {\k17}fur{\k18}ther {\k41}trust
+Comment: 0,0:01:53.30,0:01:54.80,Kyoko Choir,,0,0,0,karaoke,{\k18}To {\k15}the {\k41}space {\k22}thrown {\k17}o{\k37}pen
+Comment: 0,0:01:55.06,0:01:56.91,Kyoko Choir,,0,0,0,karaoke,{\k17}It {\k16}is {\k16}all {\k43}right {\k23}if {\k14}with {\k6}e{\k14}very{\k10}bo{\k26}dy
+Comment: 0,0:01:57.20,0:01:58.01,Kyoko Choir,,0,0,0,karaoke,{\k18}There{\k17}fore {\k14}pre{\k32}pare
+Comment: 0,0:01:58.30,0:01:58.85,Kyoko Choir,,0,0,0,karaoke,{\k16}Ha {\k15}ha {\k13}ha {\k11}ha
+Comment: 0,0:02:06.67,0:02:08.27,Shinobu,,0,0,0,karaoke,{\k13}ka{\k12}ra{\k9}da {\k9}ni {\k23}CLAP {\k25}CLAP {\k7}shi{\k11}te {\k12}ku{\k9}ra{\k12}ku{\k18}ra
+Comment: 0,0:02:08.40,0:02:09.85,Shinobu,,0,0,0,karaoke,{\k20}NOI{\k10}SE {\k13}RE{\k21}VI{\k9}VA{\k10}L {\k14}he {\k12}SUR{\k20}VI{\k16}VAL
+Comment: 0,0:02:09.91,0:02:11.81,Shinobu,,0,0,0,karaoke,{\k21}OUT{\k24}RIGHT {\k12}wa{\k7}ki{\k12}ta{\k10}tsu {\k20}B{\k21}RIGHT {\k22}MO{\k13}VE{\k28}MENT
+Comment: 0,0:02:11.83,0:02:13.52,Shinobu,,0,0,0,karaoke,{\k11}uwa{\k10}sa {\k19}too{\k10}ri {\k7}ja {\k15}tsu{\k9}ma{\k5}ra{\k21}nai {\k22}BOO! {\k40}BOO!
+Comment: 0,0:02:13.45,0:02:15.08,Yuka,,0,0,0,karaoke,{\k10}T{\k20}RY {\k6}shi{\k14}te {\k13}TH{\k12}RI{\k10}LL {\k11}C{\k21}LEAN {\k11}na {\k10}B{\k25}RAIN
+Comment: 0,0:02:15.15,0:02:16.71,Yuka,,0,0,0,karaoke,{\k11}hi{\k10}to{\k10}tsu {\k13}ni {\k10}na{\k12}t{\k10}te {\k12}bu{\k9}re{\k23}nai {\k19}FEE{\k17}LING
+Comment: 0,0:02:16.76,0:02:18.09,Yuka,,0,0,0,karaoke,{\k22}YOUR {\k54}MIND {\k8}OU{\k23}R {\k26}MIND
+Comment: 0,0:02:18.26,0:02:20.39,Yuka,,0,0,0,karaoke,{\k10}so{\k8}re {\k26}ga {\k16}PEA{\k17}KY {\k28}P-{\k46}KEY {\k19}OH {\k43}YEAH
+Comment: 0,0:02:20.39,0:02:22.02,Kyoko,,0,0,0,karaoke,{\k14}ba{\k8}ku{\k11}on {\k11}ni {\k40}MIX! {\k25}MAX {\k12}ma{\k9}de {\k21}ran{\k12}nyuu!
+Comment: 0,0:02:22.04,0:02:23.72,Kyoko,,0,0,0,karaoke,{\k4}is{\k20}sen {\k16}o{\k9}ku {\k13}GA{\k10}LA{\k22}XY {\k20}mon{\k16}zets' {\k24}JUMP! {\k14}JUMP!
+Comment: 0,0:02:23.81,0:02:25.31,Kyoko,,0,0,0,karaoke,{\k20}hon{\k12}ne {\k13}to{\k8}ma{\k9}ra{\k13}nai {\k11}mu{\k10}da{\k11}gu{\k14}chi {\k9}ni {\k20}CHUCK
+Comment: 0,0:02:25.47,0:02:27.09,Kyoko,,0,0,0,karaoke,{\k7}wa{\k14}tash'{\k9}ta{\k15}chi {\k6}ni {\k22}SO {\k14}ka{\k7}te{\k25}nai {\k18}hai{\k25}in
+Comment: 0,0:02:27.25,0:02:28.80,Esora,,0,0,0,karaoke,{\k12}hi{\k11}to{\k9}ri {\k12}no {\k33}WISH {\k10}mi{\k21}n{\k11}na {\k11}no {\k25}WISH
+Comment: 0,0:02:28.96,0:02:30.65,Esora,,0,0,0,karaoke,{\k20}juu{\k23}nin{\k13}to{\k7}i{\k12}ro {\k11}ko{\k12}ko {\k11}ni {\k11}a{\k9}tsu{\k12}ma{\k28}rou
+Comment: 0,0:02:30.78,0:02:32.49,Esora,,0,0,0,karaoke,{\k12}mu{\k22}sou {\k22}MO{\k11}DE {\k10}de {\k21}SIN{\k22}GING {\k22}DAN{\k29}CING
+Comment: 0,0:02:32.52,0:02:34.12,Esora,,0,0,0,karaoke,{\k13}yo{\k17}yuu {\k23}MO{\k20}DE {\k6}ko{\k16}a{\k9}ku{\k11}ma {\k33}SWIT{\k12}CH
+Comment: 0,0:02:34.33,0:02:35.54,Esora,,0,0,0,karaoke,{\k22}YOUR {\k64}MIND {\k21}OUR {\k14}MIND
+Comment: 0,0:02:35.59,0:02:36.66,Esora,,0,0,0,karaoke,{\k8}so{\k9}re {\k12}ga {\k16}PEA{\k22}KY {\k21}P-{\k19}KEY!!
+Comment: 0,0:02:37.55,0:02:39.17,Kyoko,,0,0,0,karaoke,{\k22}OU{\k19}R {\k21}PEA{\k21}KY {\k24}HERE {\k17}WE {\k38}GO
+Comment: 0,0:02:39.26,0:02:42.20,Peaky P-key,,0,0,0,karaoke,{\k41}sai{\k33}jou{\k33}kyuu {\k22}mo {\k20}mi{\k22}o{\k22}ro{\k10}shi{\k32}te{\k21}ku {\k12}PO{\k26}WER
+Comment: 0,0:02:42.26,0:02:44.44,Peaky P-key,,0,0,0,karaoke,{\k22}chou{\k21}nou{\k22}ryo{\k8}ku {\k35}ja {\k21}na{\k22}i {\k19}i{\k24}ma {\k24}no
+Comment: 0,0:02:44.62,0:02:45.94,Peaky P-key,,0,0,0,karaoke,{\k11}HEA{\k20}VEN {\k12}HEA{\k19}VEN {\k14}HEA{\k18}VEN {\k12}HEA{\k26}VEN
+Comment: 0,0:02:46.12,0:02:49.62,Peaky P-key,,0,0,0,karaoke,{\k22}su{\k16}mi {\k25}tsu{\k11}i{\k33}ta {\k20}o{\k23}to {\k18}wo {\k24}tsu{\k11}mi{\k32}ka{\k22}sa{\k11}ne{\k32}te {\k12}a{\k9}ga{\k7}ru {\k22}yo!
+Comment: 0,0:02:49.55,0:02:51.71,Kyoko,,0,0,0,karaoke,{\k83}P! {\k88}KEY! {\k45}SHOW!!
+Comment: 0,0:02:52.97,0:02:53.58,Peaky P-key Choir,,0,0,0,karaoke,{\k61}TEN
+Comment: 0,0:02:56.38,0:02:56.95,Peaky P-key Choir,,0,0,0,karaoke,{\k57}NINE
+Comment: 0,0:02:59.84,0:03:03.83,Peaky P-key Choir,,0,0,0,karaoke,{\k171}EIGHT {\k18}SE{\k155}VEN {\k55}SIX
+Comment: 0,0:03:04.93,0:03:06.70,Peaky P-key,,0,0,0,karaoke,{\k23}FIVE {\k23}FOUR {\k20}THREE {\k21}TWO {\k23}ONE {\k20}PEA{\k47}KY!
+Comment: 0,0:03:20.40,0:03:27.05,Peaky P-key,,0,0,0,karaoke,{\k65}da{\k21}re {\k63}ni {\k22}tsu{\k62}ta{\k23}e{\k45}ta{\k43}i {\k64}na{\k22}ni {\k59}wo {\k25}tsu{\k61}ta{\k25}e{\k44}ta{\k21}i
+Comment: 0,0:03:27.27,0:03:32.01,Peaky P-key,,0,0,0,karaoke,{\k40}WHAT {\k24}DO {\k21}YOU {\k43}WANT {\k38}TO {\kf308}GRANT
+Comment: 0,0:03:34.09,0:03:35.62,Kyoko,,0,0,0,karaoke,{\k46}DAWN {\k21}BITE {\k21}BITE {\k22}HERE {\k20}WE {\k23}GO
+Comment: 0,0:03:35.80,0:03:38.75,Peaky P-key,,0,0,0,karaoke,{\k24}yu{\k19}me {\k25}wa {\k15}BE{\k26}A{\k23}T {\k23}ka{\k20}ra {\k23}CO{\k12}U{\k28}N{\k23}T{\k14}DOW{\k20}N
+Comment: 0,0:03:38.83,0:03:41.01,Peaky P-key,,0,0,0,karaoke,{\k9}te{\k12}a{\k11}shi {\k11}shi{\k17}bi{\k15}re{\k33}te {\k21}ze{\k23}n{\k20}shi{\k21}n {\k25}wa
+Comment: 0,0:03:41.17,0:03:42.55,Peaky P-key,,0,0,0,karaoke,{\k13}HEA{\k20}VEN {\k12}HEA{\k18}VEN {\k14}HEA{\k20}VEN {\k13}HEA{\k28}VEN
+Comment: 0,0:03:42.69,0:03:46.09,Peaky P-key,,0,0,0,karaoke,{\k22}E{\k21}DI{\k20}~{\k13}T {\k31}shi{\k22}te {\k21}ba{\k20}ke{\k23}te {\k10}mo {\k32}ko{\k22}ko{\k11}ro {\k31}wa {\k11}O{\k18}N {\k12}sh'te
+Comment: 0,0:03:46.12,0:03:48.26,Peaky P-key,,0,0,0,karaoke,{\k84}P! {\k88}KEY! {\k42}SHOW!!
+Comment: 0,0:03:49.55,0:03:52.48,Peaky P-key,,0,0,0,karaoke,{\k43}sai{\k31}jou{\k34}kyuu {\k21}mo {\k21}mi{\k21}o{\k22}ro{\k11}shi{\k32}te{\k21}ku {\k11}PO{\k25}WER
+Comment: 0,0:03:52.55,0:03:54.70,Peaky P-key,,0,0,0,karaoke,{\k22}chou{\k21}nou{\k20}ryo{\k11}ku {\k33}ja {\k21}na{\k23}i {\k20}i{\k23}ma {\k21}no
+Comment: 0,0:03:54.88,0:03:56.24,Peaky P-key,,0,0,0,karaoke,{\k14}HEA{\k19}VEN {\k13}HEA{\k17}VEN {\k19}HEA{\k12}VEN {\k16}HEA{\k26}VEN
+Comment: 0,0:03:56.40,0:03:59.88,Peaky P-key,,0,0,0,karaoke,{\k23}su{\k17}mi {\k20}tsu{\k14}i{\k32}ta {\k23}o{\k22}to {\k17}wo {\k25}tsu{\k11}mi{\k32}ka{\k21}sa{\k11}ne{\k27}te {\k17}a{\k9}ga{\k7}ru {\k20}yo!
+Comment: 0,0:03:59.83,0:04:02.21,Kyoko,,0,0,0,karaoke,{\k83}P! {\k86}KEY! {\k69}SHOW!!
+Comment: 0,0:04:03.26,0:04:10.65,Peaky P-key,,0,0,0,karaoke,{\k129}ko{\k43}yo{\k129}i {\k43}wa {\k128}MA{\k43}SH{\k84}U{\k87}P {\k53}sh'te
+Comment: 0,0:04:11.41,0:04:22.35,Peaky P-key,,0,0,0,karaoke,{\k42}VIR{\k129}TUAL {\k43}na {\k130}OUT{\k42}SI{\k82}DE {\k89}ka{\k86}ra {\k85}no {\k86}BLU{\k86}SH {\kf194}UP
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H3233FF&}♥ Kyoko{\c} | {\c&HB464C7&}♠ Shinobu{\c} | {\c&H0BAADC&}♦ Yuka{\c} | {\c&H7CAB46&}♣ Esora{\c} | {\c&H848484&}Peaky P-key
+Dialogue: 0,0:00:00.00,0:00:07.97,Peaky P-key,,0,0,0,fx,{\k42\fad(420,200)}{\k129}ko{\k44}yo{\k124}i {\k47}wa {\k128}MA{\k42}SH{\k86}U{\k82}P {\k53}sh'te
+Dialogue: 0,0:00:07.67,0:00:22.32,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k43}RE{\k128}AL {\k42}na {\k128}IN{\k44}SI{\k85}DE {\k87}ka{\k88}ra {\k105}no {\k118}BLU{\k145}SH {\kf342}UP
+Dialogue: 0,0:00:28.48,0:00:32.47,Shinobu,,0,0,0,fx,{\k90\fad(300,200)}{\rShinobu Symbol\fs30}♠{\r\fs\4a&HFF&} {\k22}gou{\k10}ka {\k44}ken{\k34}ran {\k45}yo {\k9}ho{\k10}ra {\k21}mot{\k22}to {\k14}yo{\k16}ku {\k13}mi{\k29}te
+Dialogue: 0,0:00:31.69,0:00:34.81,Shinobu,,0,0,0,fx,{\k90\fad(300,200)}{\rShinobu Symbol\fs30}♠{\r\fs\4a&HFF&} {\k10}ki{\k13}ba{\k23}tsu {\k21}dai{\k22}tan {\k12}ko{\k10}so {\k23}ga {\k8}THE{\k11}O{\k21}RY {\k13}na {\k15}no
+Dialogue: 0,0:00:33.86,0:00:36.07,Shinobu,,0,0,0,fx,{\k90\fad(300,200)}{\rShinobu Symbol\fs30}♠{\r\fs\4a&HFF&} {\k8}so{\k11}re {\k23}ga {\k10}pi{\k11}ki{\k23}pi{\k25}ki!!
+Dialogue: 0,0:00:35.34,0:00:39.42,Yuka,,0,0,0,fx,{\k90\fad(300,200)}{\rYuka Symbol\fs30}♦{\r\fs\4a&HFF&} {\k13}juu{\k13}ryo{\k17}ku {\k43}san{\k16}bya{\k12}ku {\k14}ro{\k46}ku {\k11}juu {\k16}do {\k15}FU{\k14}LL {\k18}ka{\k12}i{\k38}ten
+Dialogue: 0,0:00:38.55,0:00:40.97,Yuka,,0,0,0,fx,{\k90\fad(300,200)}{\rYuka Symbol\fs30}♦{\r\fs\4a&HFF&} {\k24}e? {\k10}so{\k19}ret{\k12}te {\k29}kek{\k14}kyo{\k24}ku
+Dialogue: 0,0:00:40.07,0:00:42.90,Yuka,,0,0,0,fx,{\k90\fad(300,200)}{\rYuka Symbol\fs30}♦{\r\fs\4a&HFF&} {\k17}na{\k11}ni {\k15}mo {\k13}ka{\k15}wa{\k15}ra{\k29}nai {\k15}ja{\k43}nai
+Dialogue: 0,0:00:42.00,0:00:44.57,Esora,,0,0,0,fx,{\k90\fad(300,200)}{\rEsora Symbol\fs30}♣{\r\fs\4a&HFF&} {\k19}ten{\k18}ka {\k14}mu{\k10}te{\k23}ki {\k11}wo {\k14}mo {\k17}chou{\k11}e{\k10}tsu
+Dialogue: 0,0:00:43.51,0:00:46.40,Esora,,0,0,0,fx,{\k90\fad(300,200)}{\rEsora Symbol\fs30}♣{\r\fs\4a&HFF&} {\k21}DA{\k11}DA{\k11}DA{\k53}DONE! {\k16}ko{\k15}u {\k8}go{\k21}ki{\k23}tai!
+Dialogue: 0,0:00:45.36,0:00:49.54,Esora,,0,0,0,fx,{\k90\fad(300,200)}{\rEsora Symbol\fs30}♣{\r\fs\4a&HFF&} {\k14}ko{\k15}ko {\k57}mo! {\k13}so{\k16}ko {\k57}mo! {\k11}mi{\k17}n{\k55}na! {\k16}PUT{\k15}'EM {\k22}UP!
+Dialogue: 0,0:00:49.06,0:00:53.21,Kyoko,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Symbol\fs30}♥{\r\fs\4a&HFF&} {\k44}jo{\k43}u{\k41}shi{\k46}ki {\k42}na{\k41}n{\k48}te
+Dialogue: 0,0:00:52.50,0:00:56.55,Kyoko,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Symbol\fs30}♥{\r\fs\4a&HFF&} {\k27}O{\k16}VER{\k129}TURN {\k29}O{\k14}VER{\k80}RULE
+Dialogue: 0,0:00:55.93,0:00:59.71,Kyoko,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Symbol\fs30}♥{\r\fs\4a&HFF&} {\k27}O{\k17}VER{\k128}RIDE {\k27}O{\k19}VER{\k50}THROW
+Dialogue: 0,0:00:58.91,0:01:03.55,Kyoko,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Symbol\fs30}♥{\r\fs\4a&HFF&} {\kf354}BREAK!
+Dialogue: 0,0:01:04.29,0:01:07.21,Peaky P-key Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k33}DAWN {\k31}DAWN {\k30}BI{\k25}TE {\k31}BI{\k32}TE
+Dialogue: 0,0:01:11.15,0:01:14.10,Peaky P-key Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k35}DAWN {\k30}DAWN {\k26}BI{\k31}TE {\k27}BI{\k36}TE
+Dialogue: 0,0:01:18.00,0:01:20.97,Peaky P-key Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}DAWN {\k31}DAWN {\k26}BI{\k28}TE {\k28}BI{\k40}TE
+Dialogue: 0,0:01:29.79,0:01:32.51,Kyoko,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Symbol\fs30}♥{\r\fs\4a&HFF&} {\k44}DAWN {\k22}BITE {\k24}BITE {\k18}HERE {\k21}WE {\k33}GO
+Dialogue: 0,0:01:31.50,0:01:35.52,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k40}chou{\k24}ha{\k11}tsu {\k33}wa {\k21}BE{\k22}A{\k21}T {\k21}de {\k14}ka{\k29}e{\k20}su{\k12}n{\k32}da
+Dialogue: 0,0:01:34.49,0:01:37.86,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k13}te{\k13}a{\k7}shi {\k12}shi{\k20}bi{\k22}re{\k21}te {\k22}ze{\k21}n{\k22}shi{\k20}n {\k34}wa
+Dialogue: 0,0:01:36.84,0:01:39.24,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k13}HEA{\k18}VEN {\k14}HEA{\k17}VEN {\k16}HEA{\k16}VEN {\k14}HEA{\k22}VEN
+Dialogue: 0,0:01:38.36,0:01:42.97,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k21}E{\k22}DI{\k21}~{\k10}T {\k32}shi{\k23}te {\k20}ba{\k22}ke{\k21}te {\k10}mo {\k33}ko{\k22}ko{\k10}ro {\k32}wa {\k12}O{\k17}N {\k23}sh'te
+Dialogue: 0,0:01:41.78,0:01:45.11,Kyoko,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Symbol\fs30}♥{\r\fs\4a&HFF&} {\k84}P! {\k89}KEY! {\k50}SHOW!!
+Dialogue: 0,0:01:45.58,0:01:49.32,Kyoko Choir,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Choir Symbol\fs30}♥{\r\fs\4a&HFF&} {\k23}Space {\k21}of {\k19}the {\k81}ruins {\k16}gloo{\k15}my {\k17}and {\k16}is {\k56}small
+Dialogue: 0,0:01:48.35,0:01:50.82,Kyoko Choir,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Choir Symbol\fs30}♥{\r\fs\4a&HFF&} {\k7}We {\k9}are {\k25}not {\k20}al{\k14}rea{\k20}dy {\k22}frigh{\k20}tened
+Dialogue: 0,0:01:49.93,0:01:53.12,Kyoko Choir,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Choir Symbol\fs30}♥{\r\fs\4a&HFF&} {\k19}Be{\k75}cause {\k21}there {\k18}is {\k17}fur{\k18}ther {\k41}trust
+Dialogue: 0,0:01:52.40,0:01:55.00,Kyoko Choir,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Choir Symbol\fs30}♥{\r\fs\4a&HFF&} {\k18}To {\k15}the {\k41}space {\k22}thrown {\k17}o{\k37}pen
+Dialogue: 0,0:01:54.16,0:01:57.11,Kyoko Choir,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Choir Symbol\fs30}♥{\r\fs\4a&HFF&} {\k17}It {\k16}is {\k16}all {\k43}right {\k23}if {\k14}with {\k6}e{\k14}very{\k10}bo{\k26}dy
+Dialogue: 0,0:01:56.30,0:01:58.21,Kyoko Choir,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Choir Symbol\fs30}♥{\r\fs\4a&HFF&} {\k18}There{\k17}fore {\k14}pre{\k32}pare
+Dialogue: 0,0:01:57.40,0:01:59.05,Kyoko Choir,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Choir Symbol\fs30}♥{\r\fs\4a&HFF&} {\k16}Ha {\k15}ha {\k13}ha {\k11}ha
+Dialogue: 0,0:02:05.77,0:02:08.47,Shinobu,,0,0,0,fx,{\k90\fad(300,200)}{\rShinobu Symbol\fs30}♠{\r\fs\4a&HFF&} {\k13}ka{\k12}ra{\k9}da {\k9}ni {\k23}CLAP {\k25}CLAP {\k7}shi{\k11}te {\k12}ku{\k9}ra{\k12}ku{\k18}ra
+Dialogue: 0,0:02:07.50,0:02:10.05,Shinobu,,0,0,0,fx,{\k90\fad(300,200)}{\rShinobu Symbol\fs30}♠{\r\fs\4a&HFF&} {\k20}NOI{\k10}SE {\k13}RE{\k21}VI{\k9}VA{\k10}L {\k14}he {\k12}SUR{\k20}VI{\k16}VAL
+Dialogue: 0,0:02:09.01,0:02:12.01,Shinobu,,0,0,0,fx,{\k90\fad(300,200)}{\rShinobu Symbol\fs30}♠{\r\fs\4a&HFF&} {\k21}OUT{\k24}RIGHT {\k12}wa{\k7}ki{\k12}ta{\k10}tsu {\k20}B{\k21}RIGHT {\k22}MO{\k13}VE{\k28}MENT
+Dialogue: 0,0:02:10.93,0:02:13.72,Shinobu,,0,0,0,fx,{\k90\fad(300,200)}{\rShinobu Symbol\fs30}♠{\r\fs\4a&HFF&} {\k11}uwa{\k10}sa {\k19}too{\k10}ri {\k7}ja {\k15}tsu{\k9}ma{\k5}ra{\k21}nai {\k22}BOO! {\k40}BOO!
+Dialogue: 0,0:02:12.55,0:02:15.28,Yuka,,0,0,0,fx,{\k90\fad(300,200)}{\rYuka Symbol\fs30}♦{\r\fs\4a&HFF&} {\k10}T{\k20}RY {\k6}shi{\k14}te {\k13}TH{\k12}RI{\k10}LL {\k11}C{\k21}LEAN {\k11}na {\k10}B{\k25}RAIN
+Dialogue: 0,0:02:14.25,0:02:16.91,Yuka,,0,0,0,fx,{\k90\fad(300,200)}{\rYuka Symbol\fs30}♦{\r\fs\4a&HFF&} {\k11}hi{\k10}to{\k10}tsu {\k13}ni {\k10}na{\k12}t{\k10}te {\k12}bu{\k9}re{\k23}nai {\k19}FEE{\k17}LING
+Dialogue: 0,0:02:15.86,0:02:18.29,Yuka,,0,0,0,fx,{\k90\fad(300,200)}{\rYuka Symbol\fs30}♦{\r\fs\4a&HFF&} {\k22}YOUR {\k54}MIND {\k8}OU{\k23}R {\k26}MIND
+Dialogue: 0,0:02:17.36,0:02:20.59,Yuka,,0,0,0,fx,{\k90\fad(300,200)}{\rYuka Symbol\fs30}♦{\r\fs\4a&HFF&} {\k10}so{\k8}re {\k26}ga {\k16}PEA{\k17}KY {\k28}P-{\k46}KEY {\k19}OH {\k43}YEAH
+Dialogue: 0,0:02:19.49,0:02:22.22,Kyoko,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Symbol\fs30}♥{\r\fs\4a&HFF&} {\k14}ba{\k8}ku{\k11}on {\k11}ni {\k40}MIX! {\k25}MAX {\k12}ma{\k9}de {\k21}ran{\k12}nyuu!
+Dialogue: 0,0:02:21.14,0:02:23.92,Kyoko,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Symbol\fs30}♥{\r\fs\4a&HFF&} {\k4}is{\k20}sen {\k16}o{\k9}ku {\k13}GA{\k10}LA{\k22}XY {\k20}mon{\k16}zets' {\k24}JUMP! {\k14}JUMP!
+Dialogue: 0,0:02:22.91,0:02:25.51,Kyoko,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Symbol\fs30}♥{\r\fs\4a&HFF&} {\k20}hon{\k12}ne {\k13}to{\k8}ma{\k9}ra{\k13}nai {\k11}mu{\k10}da{\k11}gu{\k14}chi {\k9}ni {\k20}CHUCK
+Dialogue: 0,0:02:24.57,0:02:27.29,Kyoko,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Symbol\fs30}♥{\r\fs\4a&HFF&} {\k7}wa{\k14}tash'{\k9}ta{\k15}chi {\k6}ni {\k22}SO {\k14}ka{\k7}te{\k25}nai {\k18}hai{\k25}in
+Dialogue: 0,0:02:26.35,0:02:29.00,Esora,,0,0,0,fx,{\k90\fad(300,200)}{\rEsora Symbol\fs30}♣{\r\fs\4a&HFF&} {\k12}hi{\k11}to{\k9}ri {\k12}no {\k33}WISH {\k10}mi{\k21}n{\k11}na {\k11}no {\k25}WISH
+Dialogue: 0,0:02:28.06,0:02:30.85,Esora,,0,0,0,fx,{\k90\fad(300,200)}{\rEsora Symbol\fs30}♣{\r\fs\4a&HFF&} {\k20}juu{\k23}nin{\k13}to{\k7}i{\k12}ro {\k11}ko{\k12}ko {\k11}ni {\k11}a{\k9}tsu{\k12}ma{\k28}rou
+Dialogue: 0,0:02:29.88,0:02:32.69,Esora,,0,0,0,fx,{\k90\fad(300,200)}{\rEsora Symbol\fs30}♣{\r\fs\4a&HFF&} {\k12}mu{\k22}sou {\k22}MO{\k11}DE {\k10}de {\k21}SIN{\k22}GING {\k22}DAN{\k29}CING
+Dialogue: 0,0:02:31.62,0:02:34.32,Esora,,0,0,0,fx,{\k90\fad(300,200)}{\rEsora Symbol\fs30}♣{\r\fs\4a&HFF&} {\k13}yo{\k17}yuu {\k23}MO{\k20}DE {\k6}ko{\k16}a{\k9}ku{\k11}ma {\k33}SWIT{\k12}CH
+Dialogue: 0,0:02:33.43,0:02:35.74,Esora,,0,0,0,fx,{\k90\fad(300,200)}{\rEsora Symbol\fs30}♣{\r\fs\4a&HFF&} {\k22}YOUR {\k64}MIND {\k21}OUR {\k14}MIND
+Dialogue: 0,0:02:34.69,0:02:36.86,Esora,,0,0,0,fx,{\k90\fad(300,200)}{\rEsora Symbol\fs30}♣{\r\fs\4a&HFF&} {\k8}so{\k9}re {\k12}ga {\k16}PEA{\k22}KY {\k21}P-{\k19}KEY!!
+Dialogue: 0,0:02:36.65,0:02:39.37,Kyoko,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Symbol\fs30}♥{\r\fs\4a&HFF&} {\k22}OU{\k19}R {\k21}PEA{\k21}KY {\k24}HERE {\k17}WE {\k38}GO
+Dialogue: 0,0:02:38.36,0:02:42.40,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k41}sai{\k33}jou{\k33}kyuu {\k22}mo {\k20}mi{\k22}o{\k22}ro{\k10}shi{\k32}te{\k21}ku {\k12}PO{\k26}WER
+Dialogue: 0,0:02:41.36,0:02:44.64,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k22}chou{\k21}nou{\k22}ryo{\k8}ku {\k35}ja {\k21}na{\k22}i {\k19}i{\k24}ma {\k24}no
+Dialogue: 0,0:02:43.72,0:02:46.14,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k11}HEA{\k20}VEN {\k12}HEA{\k19}VEN {\k14}HEA{\k18}VEN {\k12}HEA{\k26}VEN
+Dialogue: 0,0:02:45.22,0:02:49.82,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k22}su{\k16}mi {\k25}tsu{\k11}i{\k33}ta {\k20}o{\k23}to {\k18}wo {\k24}tsu{\k11}mi{\k32}ka{\k22}sa{\k11}ne{\k32}te {\k12}a{\k9}ga{\k7}ru {\k22}yo!
+Dialogue: 0,0:02:48.65,0:02:51.91,Kyoko,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Symbol\fs30}♥{\r\fs\4a&HFF&} {\k83}P! {\k88}KEY! {\k45}SHOW!!
+Dialogue: 0,0:02:52.07,0:02:53.78,Peaky P-key Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k61}TEN
+Dialogue: 0,0:02:55.48,0:02:57.15,Peaky P-key Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k57}NINE
+Dialogue: 0,0:02:58.94,0:03:04.03,Peaky P-key Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k171}EIGHT {\k18}SE{\k155}VEN {\k55}SIX
+Dialogue: 0,0:03:04.03,0:03:06.90,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k23}FIVE {\k23}FOUR {\k20}THREE {\k21}TWO {\k23}ONE {\k20}PEA{\k47}KY!
+Dialogue: 0,0:03:19.50,0:03:27.25,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k65}da{\k21}re {\k63}ni {\k22}tsu{\k62}ta{\k23}e{\k45}ta{\k43}i {\k64}na{\k22}ni {\k59}wo {\k25}tsu{\k61}ta{\k25}e{\k44}ta{\k21}i
+Dialogue: 0,0:03:26.37,0:03:32.21,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k40}WHAT {\k24}DO {\k21}YOU {\k43}WANT {\k38}TO {\kf308}GRANT
+Dialogue: 0,0:03:33.19,0:03:35.82,Kyoko,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Symbol\fs30}♥{\r\fs\4a&HFF&} {\k46}DAWN {\k21}BITE {\k21}BITE {\k22}HERE {\k20}WE {\k23}GO
+Dialogue: 0,0:03:34.90,0:03:38.95,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k24}yu{\k19}me {\k25}wa {\k15}BE{\k26}A{\k23}T {\k23}ka{\k20}ra {\k23}CO{\k12}U{\k28}N{\k23}T{\k14}DOW{\k20}N
+Dialogue: 0,0:03:37.93,0:03:41.21,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k9}te{\k12}a{\k11}shi {\k11}shi{\k17}bi{\k15}re{\k33}te {\k21}ze{\k23}n{\k20}shi{\k21}n {\k25}wa
+Dialogue: 0,0:03:40.27,0:03:42.75,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k13}HEA{\k20}VEN {\k12}HEA{\k18}VEN {\k14}HEA{\k20}VEN {\k13}HEA{\k28}VEN
+Dialogue: 0,0:03:41.79,0:03:46.29,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k22}E{\k21}DI{\k20}~{\k13}T {\k31}shi{\k22}te {\k21}ba{\k20}ke{\k23}te {\k10}mo {\k32}ko{\k22}ko{\k11}ro {\k31}wa {\k11}O{\k18}N {\k12}sh'te
+Dialogue: 0,0:03:45.22,0:03:48.46,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k84}P! {\k88}KEY! {\k42}SHOW!!
+Dialogue: 0,0:03:48.65,0:03:52.68,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k43}sai{\k31}jou{\k34}kyuu {\k21}mo {\k21}mi{\k21}o{\k22}ro{\k11}shi{\k32}te{\k21}ku {\k11}PO{\k25}WER
+Dialogue: 0,0:03:51.65,0:03:54.90,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k22}chou{\k21}nou{\k20}ryo{\k11}ku {\k33}ja {\k21}na{\k23}i {\k20}i{\k23}ma {\k21}no
+Dialogue: 0,0:03:53.98,0:03:56.44,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k14}HEA{\k19}VEN {\k13}HEA{\k17}VEN {\k19}HEA{\k12}VEN {\k16}HEA{\k26}VEN
+Dialogue: 0,0:03:55.50,0:04:00.08,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k23}su{\k17}mi {\k20}tsu{\k14}i{\k32}ta {\k23}o{\k22}to {\k17}wo {\k25}tsu{\k11}mi{\k32}ka{\k21}sa{\k11}ne{\k27}te {\k17}a{\k9}ga{\k7}ru {\k20}yo!
+Dialogue: 0,0:03:58.93,0:04:02.41,Kyoko,,0,0,0,fx,{\k90\fad(300,200)}{\rKyoko Symbol\fs30}♥{\r\fs\4a&HFF&} {\k83}P! {\k86}KEY! {\k69}SHOW!!
+Dialogue: 0,0:04:02.36,0:04:10.85,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k129}ko{\k43}yo{\k129}i {\k43}wa {\k128}MA{\k43}SH{\k84}U{\k87}P {\k53}sh'te
+Dialogue: 0,0:04:10.51,0:04:22.55,Peaky P-key,,0,0,0,fx,{\k90\fad(300,200)}{\k42}VIR{\k129}TUAL {\k43}na {\k130}OUT{\k42}SI{\k82}DE {\k89}ka{\k86}ra {\k85}no {\k86}BLU{\k86}SH {\kf194}UP
