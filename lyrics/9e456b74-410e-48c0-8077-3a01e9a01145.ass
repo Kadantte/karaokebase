@@ -1,0 +1,128 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Title: DNA
+Original Timing: NikoNikoD
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFFFFF,&H00FE9251,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up]_ita,Arial,24,&H00FFFFFF,&H0005CA07,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Up]_kor,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H00FFFFFF,&H005050E2,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}English {\2cHFFFFFF}| {\rSample KM [Up]_ita}Italian {\2cHFFFFFF}| {\rSample KM [Up]_kor}Korean {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:27.15,0:00:28.67,Sample KM [Up],,0,0,0,karaoke,{\k30}And {\k27}I {\k31}say {\k64}hey
+Comment: 0,0:00:29.16,0:00:33.36,Sample KM [Up]_ita,,0,0,0,karaoke,{\k32}An{\k20}che {\k28}se {\k30}ca{\k59}dia{\k53}mo {\k34}poi {\k22}noi {\k28}ci {\k28}rial{\k63}zia{\k23}mo
+Comment: 0,0:00:33.42,0:00:36.93,Sample KM [Up],,0,0,0,karaoke,{\k22}It's {\k35}more {\k22}than {\k31}just {\k26}a {\k60}game {\k25}it's {\k33}our {\k29}D{\k30}N{\k38}A
+Comment: 0,0:00:37.61,0:00:42.11,Sample KM [Up],,0,0,0,karaoke,{\k33}Yeah {\k29\rSample KM [Up]_kor}tto {\k29}neo{\k28}meo{\k26}jyeo{\k30}do {\k84}nan {\k27}tto{\k26}da{\k32}si {\k27}i{\k29}reo{\k50}na
+Comment: 0,0:00:42.20,0:00:46.50,Sample KM [Up],,0,0,0,karaoke,{\k26}This {\k25}is {\k32}more {\k25}than {\k30}just {\k29}a {\k60}game {\k22}it's {\k33}our {\k45}D{\k38}N{\k65}A
+Comment: 0,0:00:48.08,0:00:50.79,Sample KM [Up],,0,0,0,karaoke,{\k30}To{\k29}night {\k25}we {\k33}live {\k28}our {\k29}des{\k27}ti{\k70}ny
+Comment: 0,0:00:52.06,0:00:55.41,Sample KM [Up],,0,0,0,karaoke,{\k15}On{\k15}ly {\k28}got {\k22}one {\k37}shot {\k26}and {\k28}I {\k29}know {\k30}I {\k24}be{\k81}lieve
+Comment: 0,0:00:56.00,0:00:57.61,Sample KM [Up],,0,0,0,karaoke,{\k16}That {\k15}we'll {\k29}keep {\k28}on {\k32}figh{\k41}tin'
+Comment: 0,0:00:58.27,0:00:59.72,Sample KM [Up],,0,0,0,karaoke,{\k18}While {\k15}the {\k27}world {\k25}is {\k28}wa{\k32}tchin'
+Comment: 0,0:01:01.71,0:01:04.29,Sample KM [Up],,0,0,0,karaoke,{\k12}I {\k15}know {\k34}eve{\k23}ry{\k28}thing {\k28}is {\k29}meant {\k29}to {\k60}be
+Comment: 0,0:01:04.50,0:01:05.95,Sample KM [Up],,0,0,0,karaoke,{\k31}We'll {\k28}stand {\k15}to{\k44}ge{\k27}ther
+Comment: 0,0:01:06.75,0:01:08.17,Sample KM [Up],,0,0,0,karaoke,{\k29}We'll {\k26}stand {\k14}the {\k43}pres{\k30}sure
+Comment: 0,0:01:08.17,0:01:11.68,Sample KM [Up],,0,0,0,karaoke,{\k20}Wave {\k21}your {\k48}flags {\k27}up {\k24}in {\k23}the {\k38}sky {\k30}let {\k31}fate {\k18}de{\k71}cide
+Comment: 0,0:01:12.42,0:01:16.09,Sample KM [Up],,0,0,0,karaoke,{\k31}So {\k25}we {\k27}say {\k118}hey {\k31}we're {\k26}not {\k28}gon{\k29}na {\k52}break
+Comment: 0,0:01:16.09,0:01:18.33,Sample KM [Up],,0,0,0,karaoke,{\k32}Yeah {\k30}we're {\k29}stan{\k24}ding {\k31}here {\k27}to{\k51}day
+Comment: 0,0:01:18.35,0:01:20.64,Sample KM [Up],,0,0,0,karaoke,{\k29}'cause {\k29}it's {\k34}more {\k24}than {\k30}just {\k27}a {\k56}game
+Comment: 0,0:01:20.64,0:01:22.19,Sample KM [Up],,0,0,0,karaoke,{\k26}It's {\k32}our {\k28}D{\k28}N{\k41}A
+Comment: 0,0:01:22.84,0:01:25.16,Sample KM [Up],,0,0,0,karaoke,{\k35}Yeah {\k27}we're {\k33}shoo{\k25}ting {\k28}for {\k28}the {\k56}stars
+Comment: 0,0:01:25.19,0:01:27.44,Sample KM [Up],,0,0,0,karaoke,{\k30}Got {\k25}this {\k30}fi{\k29}re {\k28}in {\k27}our {\k56}hearts
+Comment: 0,0:01:27.44,0:01:31.85,Sample KM [Up],,0,0,0,karaoke,{\k28}This {\k27}is {\k32}more {\k26}than {\k29}just {\k27}a {\k62}game {\k24}it's {\k30}our {\k53}D{\k32}N{\k71}A
+Comment: 0,0:01:31.86,0:01:37.84,Sample KM [Choir],,0,0,0,karaoke,{\k42}Woah-{\kf104}oh{\k79} {\k42}woah-{\kf105}oh{\k77} {\k44}woah-{\kf105}oh
+Comment: 0,0:01:38.77,0:01:41.61,Sample KM [Up],,0,0,0,karaoke,{\k30}It's {\k29}our {\k45}D{\k37}N{\kf143}A~
+Comment: 0,0:01:40.90,0:01:46.92,Sample KM [Choir],,0,0,0,karaoke,{\k43}Woah-{\kf104}oh{\k79} {\k43}woah-{\kf104}oh{\k77} {\k46}woah-{\kf106}oh
+Comment: 0,0:01:47.81,0:01:50.12,Sample KM [Up],,0,0,0,karaoke,{\k29}It's {\k27}our {\k43}D{\k40}N{\k92}A
+Comment: 0,0:01:51.80,0:01:54.31,Sample KM [Up],,0,0,0,karaoke,{\k28}Eve{\k28}ry {\k28}mo{\k27}ment's {\k31}like {\k27}a {\k82}dream
+Comment: 0,0:01:54.62,0:01:58.88,Sample KM [Up],,0,0,0,karaoke,{\kf143}Oooh {\k27}it's {\k28}time {\k28}to {\k29}make {\k27}some {\k30}me{\k28}mo{\k86}ries
+Comment: 0,0:01:59.40,0:02:01.32,Sample KM [Up],,0,0,0,karaoke,{\k13}Let {\k15}me {\k32}hold {\k22}you {\k52}clo{\k58}ser
+Comment: 0,0:02:01.67,0:02:03.56,Sample KM [Up],,0,0,0,karaoke,{\k19}When {\k14}your {\k41}heart {\k32}beats {\k22}like {\k17}a {\k44}drum
+Comment: 0,0:02:03.88,0:02:06.04,Sample KM [Up],,0,0,0,karaoke,{\k21}Then {\k28}it's {\k37}far {\k26}from {\k53}o{\k51}ver
+Comment: 0,0:02:05.89,0:02:08.16,Sample KM [Up],,0,0,0,karaoke,{\k30}It's {\k33}our {\k41}D{\k42}N{\k81}A
+Comment: 0,0:02:09.59,0:02:12.19,Sample KM [Up],,0,0,0,karaoke,{\k31}To{\k25}night {\k29}we {\k32}live {\k28}our {\k29}des{\k26}ti{\k60}ny
+Comment: 0,0:02:13.58,0:02:16.97,Sample KM [Up],,0,0,0,karaoke,{\k14}On{\k15}ly {\k28}got {\k25}one {\k35}shot {\k24}and {\k29}I {\k29}know {\k27}I {\k29}be{\k84}lieve
+Comment: 0,0:02:17.49,0:02:19.17,Sample KM [Up],,0,0,0,karaoke,{\k18}That {\k16}we'll {\k28}keep {\k28}on {\k30}figh{\k48}tin'
+Comment: 0,0:02:19.79,0:02:21.25,Sample KM [Up],,0,0,0,karaoke,{\k16}While {\k14}the {\k30}world {\k25}is {\k28}wa{\k33}tchin'
+Comment: 0,0:02:23.21,0:02:25.90,Sample KM [Up],,0,0,0,karaoke,{\k14}I {\k16}know {\k32}eve{\k21}ry{\k29}thing {\k29}is {\k31}meant {\k28}to {\k69}be
+Comment: 0,0:02:25.98,0:02:27.48,Sample KM [Up],,0,0,0,karaoke,{\k34}We'll {\k25}stand {\k17}to{\k44}ge{\k30}ther
+Comment: 0,0:02:28.24,0:02:29.69,Sample KM [Up],,0,0,0,karaoke,{\k32}We'll {\k25}stand {\k15}the {\k46}pres{\k27}sure
+Comment: 0,0:02:29.69,0:02:33.20,Sample KM [Up],,0,0,0,karaoke,{\k18}Wave {\k21}your {\k48}flags {\k28}up {\k21}in {\k27}the {\k39}sky {\k27}let {\k32}fate {\k19}de{\k71}cide
+Comment: 0,0:02:33.92,0:02:37.59,Sample KM [Up],,0,0,0,karaoke,{\k31}So {\k25}we {\k27}say {\k118}hey {\k31}we're {\k26}not {\k28}gon{\k29}na {\k52}break
+Comment: 0,0:02:37.59,0:02:39.83,Sample KM [Up],,0,0,0,karaoke,{\k32}Yeah {\k30}we're {\k29}stan{\k24}ding {\k31}here {\k27}to{\k51}day
+Comment: 0,0:02:39.85,0:02:42.14,Sample KM [Up],,0,0,0,karaoke,{\k29}'cause {\k29}it's {\k34}more {\k24}than {\k30}just {\k27}a {\k56}game
+Comment: 0,0:02:42.14,0:02:43.69,Sample KM [Up],,0,0,0,karaoke,{\k26}It's {\k32}our {\k28}D{\k28}N{\k41}A
+Comment: 0,0:02:44.34,0:02:46.66,Sample KM [Up],,0,0,0,karaoke,{\k35}Yeah {\k27}we're {\k33}shoo{\k25}ting {\k28}for {\k28}the {\k56}stars
+Comment: 0,0:02:46.69,0:02:48.94,Sample KM [Up],,0,0,0,karaoke,{\k30}Got {\k25}this {\k30}fi{\k29}re {\k28}in {\k27}our {\k56}hearts
+Comment: 0,0:02:48.94,0:02:53.35,Sample KM [Up],,0,0,0,karaoke,{\k28}This {\k27}is {\k32}more {\k26}than {\k29}just {\k27}a {\k62}game {\k24}it's {\k30}our {\k53}D{\k32}N{\k71}A
+Comment: 0,0:02:53.36,0:02:59.34,Sample KM [Choir],,0,0,0,karaoke,{\k42}Woah-{\kf104}oh{\k79} {\k42}woah-{\kf105}oh{\k77} {\k44}woah-{\kf105}oh
+Comment: 0,0:03:00.27,0:03:03.11,Sample KM [Up],,0,0,0,karaoke,{\k30}It's {\k29}our {\k45}D{\k37}N{\kf143}A~
+Comment: 0,0:03:02.40,0:03:08.42,Sample KM [Choir],,0,0,0,karaoke,{\k43}Woah-{\kf104}oh{\k79} {\k43}woah-{\kf104}oh{\k77} {\k46}woah-{\kf106}oh
+Comment: 0,0:03:09.31,0:03:11.62,Sample KM [Choir],,0,0,0,karaoke,{\k29}It's {\k27}our {\k43}D{\k40}N{\k92}A
+Comment: 0,0:03:10.15,0:03:11.68,Sample KM [Up],,0,0,0,karaoke,{\k32}And {\k28}I {\k32}say {\k61}hey
+Comment: 0,0:03:12.18,0:03:16.40,Sample KM [Up]_ita,,0,0,0,karaoke,{\k30}An{\k19}che {\k30}se {\k30}ca{\k60}dia{\k56}mo {\k31}poi {\k24}noi {\k24}ci {\k34}rial{\k57}zia{\k27}mo
+Comment: 0,0:03:16.40,0:03:19.95,Sample KM [Up],,0,0,0,karaoke,{\k24}It's {\k37}more {\k23}than {\k31}just {\k26}a {\k61}game {\k22}it's {\k36}our {\k32}D{\k35}N{\k28}A
+Comment: 0,0:03:20.95,0:03:25.14,Sample KM [Up]_kor,,0,0,0,karaoke,{\k31}tto {\k29}neo{\k27}meo{\k26}jyeo{\k30}do {\k81}nan {\k30}tto{\k25}da{\k27}si {\k31}i{\k31}reo{\k51}na
+Comment: 0,0:03:25.14,0:03:29.39,Sample KM [Up],,0,0,0,karaoke,{\k34}This {\k26}is {\k31}more {\k21}than {\k34}just {\k28}a {\k60}game {\k25}it's {\k27}our {\k46}D{\k42}N{\k51}A
+Dialogue: 0,0:00:26.25,0:00:28.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}And {\k27}I {\k31}say {\k64}hey
+Dialogue: 0,0:00:28.26,0:00:33.56,Sample KM [Up]_ita,,0,0,0,fx,{\k90\fad(300,200)}{\k32}An{\k20}che {\k28}se {\k30}ca{\k59}dia{\k53}mo {\k34}poi {\k22}noi {\k28}ci {\k28}rial{\k63}zia{\k23}mo
+Dialogue: 0,0:00:32.52,0:00:37.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}It's {\k35}more {\k22}than {\k31}just {\k26}a {\k60}game {\k25}it's {\k33}our {\k29}D{\k30}N{\k38}A
+Dialogue: 0,0:00:36.71,0:00:42.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Yeah {\k29\rSample KM [Up]_kor}tto {\k29}neo{\k28}meo{\k26}jyeo{\k30}do {\k84}nan {\k27}tto{\k26}da{\k32}si {\k27}i{\k29}reo{\k50}na
+Dialogue: 0,0:00:41.30,0:00:46.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}This {\k25}is {\k32}more {\k25}than {\k30}just {\k29}a {\k60}game {\k22}it's {\k33}our {\k45}D{\k38}N{\k65}A
+Dialogue: 0,0:00:47.18,0:00:50.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}To{\k29}night {\k25}we {\k33}live {\k28}our {\k29}des{\k27}ti{\k70}ny
+Dialogue: 0,0:00:51.16,0:00:55.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}On{\k15}ly {\k28}got {\k22}one {\k37}shot {\k26}and {\k28}I {\k29}know {\k30}I {\k24}be{\k81}lieve
+Dialogue: 0,0:00:55.10,0:00:57.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}That {\k15}we'll {\k29}keep {\k28}on {\k32}figh{\k41}tin'
+Dialogue: 0,0:00:57.37,0:00:59.92,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}While {\k15}the {\k27}world {\k25}is {\k28}wa{\k32}tchin'
+Dialogue: 0,0:01:00.81,0:01:04.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}I {\k15}know {\k34}eve{\k23}ry{\k28}thing {\k28}is {\k29}meant {\k29}to {\k60}be
+Dialogue: 0,0:01:03.60,0:01:06.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}We'll {\k28}stand {\k15}to{\k44}ge{\k27}ther
+Dialogue: 0,0:01:05.85,0:01:08.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}We'll {\k26}stand {\k14}the {\k43}pres{\k30}sure
+Dialogue: 0,0:01:07.27,0:01:11.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Wave {\k21}your {\k48}flags {\k27}up {\k24}in {\k23}the {\k38}sky {\k30}let {\k31}fate {\k18}de{\k71}cide
+Dialogue: 0,0:01:11.52,0:01:16.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}So {\k25}we {\k27}say {\k118}hey {\k31}we're {\k26}not {\k28}gon{\k29}na {\k52}break
+Dialogue: 0,0:01:15.19,0:01:18.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Yeah {\k30}we're {\k29}stan{\k24}ding {\k31}here {\k27}to{\k51}day
+Dialogue: 0,0:01:17.45,0:01:20.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}'cause {\k29}it's {\k34}more {\k24}than {\k30}just {\k27}a {\k56}game
+Dialogue: 0,0:01:19.74,0:01:22.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}It's {\k32}our {\k28}D{\k28}N{\k41}A
+Dialogue: 0,0:01:21.94,0:01:25.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Yeah {\k27}we're {\k33}shoo{\k25}ting {\k28}for {\k28}the {\k56}stars
+Dialogue: 0,0:01:24.29,0:01:27.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Got {\k25}this {\k30}fi{\k29}re {\k28}in {\k27}our {\k56}hearts
+Dialogue: 0,0:01:26.54,0:01:32.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}This {\k27}is {\k32}more {\k26}than {\k29}just {\k27}a {\k62}game {\k24}it's {\k30}our {\k53}D{\k32}N{\k71}A
+Dialogue: 0,0:01:30.96,0:01:38.04,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Woah-{\kf104}oh{\k79} {\k42}woah-{\kf105}oh{\k77} {\k44}woah-{\kf105}oh
+Dialogue: 0,0:01:37.87,0:01:41.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}It's {\k29}our {\k45}D{\k37}N{\kf143}A~
+Dialogue: 0,0:01:40.00,0:01:47.12,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Woah-{\kf104}oh{\k79} {\k43}woah-{\kf104}oh{\k77} {\k46}woah-{\kf106}oh
+Dialogue: 0,0:01:46.91,0:01:50.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}It's {\k27}our {\k43}D{\k40}N{\k92}A
+Dialogue: 0,0:01:50.90,0:01:54.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Eve{\k28}ry {\k28}mo{\k27}ment's {\k31}like {\k27}a {\k82}dream
+Dialogue: 0,0:01:53.72,0:01:59.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf143}Oooh {\k27}it's {\k28}time {\k28}to {\k29}make {\k27}some {\k30}me{\k28}mo{\k86}ries
+Dialogue: 0,0:01:58.50,0:02:01.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}Let {\k15}me {\k32}hold {\k22}you {\k52}clo{\k58}ser
+Dialogue: 0,0:02:00.77,0:02:03.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}When {\k14}your {\k41}heart {\k32}beats {\k22}like {\k17}a {\k44}drum
+Dialogue: 0,0:02:02.98,0:02:06.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Then {\k28}it's {\k37}far {\k26}from {\k53}o{\k51}ver
+Dialogue: 0,0:02:04.99,0:02:08.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}It's {\k33}our {\k41}D{\k42}N{\k81}A
+Dialogue: 0,0:02:08.69,0:02:12.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}To{\k25}night {\k29}we {\k32}live {\k28}our {\k29}des{\k26}ti{\k60}ny
+Dialogue: 0,0:02:12.68,0:02:17.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}On{\k15}ly {\k28}got {\k25}one {\k35}shot {\k24}and {\k29}I {\k29}know {\k27}I {\k29}be{\k84}lieve
+Dialogue: 0,0:02:16.59,0:02:19.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}That {\k16}we'll {\k28}keep {\k28}on {\k30}figh{\k48}tin'
+Dialogue: 0,0:02:18.89,0:02:21.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}While {\k14}the {\k30}world {\k25}is {\k28}wa{\k33}tchin'
+Dialogue: 0,0:02:22.31,0:02:26.10,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}I {\k16}know {\k32}eve{\k21}ry{\k29}thing {\k29}is {\k31}meant {\k28}to {\k69}be
+Dialogue: 0,0:02:25.08,0:02:27.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}We'll {\k25}stand {\k17}to{\k44}ge{\k30}ther
+Dialogue: 0,0:02:27.34,0:02:29.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}We'll {\k25}stand {\k15}the {\k46}pres{\k27}sure
+Dialogue: 0,0:02:28.79,0:02:33.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Wave {\k21}your {\k48}flags {\k28}up {\k21}in {\k27}the {\k39}sky {\k27}let {\k32}fate {\k19}de{\k71}cide
+Dialogue: 0,0:02:33.02,0:02:37.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}So {\k25}we {\k27}say {\k118}hey {\k31}we're {\k26}not {\k28}gon{\k29}na {\k52}break
+Dialogue: 0,0:02:36.69,0:02:40.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Yeah {\k30}we're {\k29}stan{\k24}ding {\k31}here {\k27}to{\k51}day
+Dialogue: 0,0:02:38.95,0:02:42.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}'cause {\k29}it's {\k34}more {\k24}than {\k30}just {\k27}a {\k56}game
+Dialogue: 0,0:02:41.24,0:02:43.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}It's {\k32}our {\k28}D{\k28}N{\k41}A
+Dialogue: 0,0:02:43.44,0:02:46.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Yeah {\k27}we're {\k33}shoo{\k25}ting {\k28}for {\k28}the {\k56}stars
+Dialogue: 0,0:02:45.79,0:02:49.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Got {\k25}this {\k30}fi{\k29}re {\k28}in {\k27}our {\k56}hearts
+Dialogue: 0,0:02:48.04,0:02:53.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}This {\k27}is {\k32}more {\k26}than {\k29}just {\k27}a {\k62}game {\k24}it's {\k30}our {\k53}D{\k32}N{\k71}A
+Dialogue: 0,0:02:52.46,0:02:59.54,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k42}Woah-{\kf104}oh{\k79} {\k42}woah-{\kf105}oh{\k77} {\k44}woah-{\kf105}oh
+Dialogue: 0,0:02:59.37,0:03:03.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}It's {\k29}our {\k45}D{\k37}N{\kf143}A~
+Dialogue: 0,0:03:01.50,0:03:08.62,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k43}Woah-{\kf104}oh{\k79} {\k43}woah-{\kf104}oh{\k77} {\k46}woah-{\kf106}oh
+Dialogue: 0,0:03:08.41,0:03:11.82,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k29}It's {\k27}our {\k43}D{\k40}N{\k92}A
+Dialogue: 0,0:03:09.25,0:03:11.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}And {\k28}I {\k32}say {\k61}hey
+Dialogue: 0,0:03:11.28,0:03:16.60,Sample KM [Up]_ita,,0,0,0,fx,{\k90\fad(300,200)}{\k30}An{\k19}che {\k30}se {\k30}ca{\k60}dia{\k56}mo {\k31}poi {\k24}noi {\k24}ci {\k34}rial{\k57}zia{\k27}mo
+Dialogue: 0,0:03:15.50,0:03:20.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}It's {\k37}more {\k23}than {\k31}just {\k26}a {\k61}game {\k22}it's {\k36}our {\k32}D{\k35}N{\k28}A
+Dialogue: 0,0:03:20.05,0:03:25.34,Sample KM [Up]_kor,,0,0,0,fx,{\k90\fad(300,200)}{\k31}tto {\k29}neo{\k27}meo{\k26}jyeo{\k30}do {\k81}nan {\k30}tto{\k25}da{\k27}si {\k31}i{\k31}reo{\k51}na
+Dialogue: 0,0:03:24.24,0:03:29.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}This {\k26}is {\k31}more {\k21}than {\k34}just {\k28}a {\k60}game {\k25}it's {\k27}our {\k46}D{\k42}N{\k51}A
