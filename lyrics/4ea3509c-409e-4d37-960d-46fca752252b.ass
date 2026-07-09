@@ -1,0 +1,55 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Taisetsu na Mono
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Misuzu,Arial,24,&H00FFFFFF,&H00CF997A,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: MisuzuChoir,Arial,24,&H00CF997A,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Misuzu,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:11.73,0:00:16.01,Misuzu,,0,0,0,karaoke,{\k24}po{\k40}ka{\k21}po{\k43}ka {\k27}hi{\k39}da{\k20}ma{\k43}ri {\k23}no {\k40}o{\k24}n{\k84}pu
+Comment: 0,0:00:16.88,0:00:20.50,Misuzu,,0,0,0,karaoke,{\k23}i{\k40}s{\k24}sho {\k42}ni {\k25}ka{\k35}n{\k26}ji{\k39}ru {\k25}shi{\k42}a{\k22}wa{\k19}se
+Comment: 0,0:00:20.73,0:00:29.25,Misuzu,,0,0,0,karaoke,{\k23}zu{\k23}t{\k41}to {\k41}ma{\k62}mo{\k24}ru {\k128}no {\k45}ma{\k63}mo{\k22}ru {\k128}no {\kf252}uuh
+Comment: 0,0:00:31.02,0:00:35.72,Misuzu,,0,0,0,karaoke,{\k23}a{\k20}ri{\k22}no{\k20}ma{\kf145}ma{\k26} {\k22}ka{\k24}za{\k19}ra{\k22}zu {\kf127}ni
+Comment: 0,0:00:36.14,0:00:40.86,Misuzu,,0,0,0,karaoke,{\k22}ho{\k21}t{\k24}to {\k20}shi{\k83}te {\k44}tsu{\k43}tsu{\k44}mi {\k19}a{\k25}e{\kf127}ru
+Comment: 0,0:00:41.27,0:00:46.06,Misuzu,,0,0,0,karaoke,{\k26}so{\k18}no {\k22}yu{\k25}me {\kf128}no{\k41} {\k23}se {\k21}ni {\k21}no{\k21}t{\kf133}te
+Comment: 0,0:00:46.43,0:00:49.95,Misuzu,,0,0,0,karaoke,{\k21}do{\k22}ko {\k20}ma{\k25}de {\k84}mo {\k44}yo{\k41}ri{\k46}so{\k49}u
+Comment: 0,0:00:53.72,0:00:57.80,MisuzuChoir,,0,0,0,karaoke,{\kf172}suu{\k84} {\kf152}suu
+Comment: 0,0:00:54.45,0:00:58.30,Misuzu,,0,0,0,karaoke,{\kf158}suu{\kf100} {\kf127}suu
+Comment: 0,0:00:58.88,0:01:07.51,Misuzu,,0,0,0,karaoke,{\k86}fu{\k81}ka{\kf171}ku{\k87} {\k44}shin{\k63}ko{\k25}kyu{\kf306}u
+Comment: 0,0:01:20.29,0:01:25.02,Misuzu,,0,0,0,karaoke,{\k20}o{\k22}na{\k20}ji {\k27}yu{\kf122}me{\k48} {\k20}da{\k22}ki{\k20}shi{\k22}me{\kf130}te
+Comment: 0,0:01:25.45,0:01:29.86,Misuzu,,0,0,0,karaoke,{\k19}yo{\k23}ro{\k23}ko{\k21}bi {\k84}mo {\k42}ha{\k48}zu{\k40}mi {\k41}da{\kf100}su
+Comment: 0,0:01:30.15,0:01:34.78,Misuzu,,0,0,0,karaoke,{\k44}Sha {\k23}la {\k62}la {\k40}Crin{\k86}kle {\k45}Rat {\k24}a {\k59}tat {\k46}Tri{\k34}ckle
+Comment: 0,0:01:35.24,0:01:39.87,Misuzu,,0,0,0,karaoke,{\k48}Sha {\k21}la {\k60}la {\k43}Crin{\k88}kle {\k43}Rat {\k23}a {\k57}tat {\k47}Tri{\k33}ckle
+Comment: 0,0:01:40.24,0:01:50.39,Misuzu,,0,0,0,karaoke,{\k19}to{\k40}i{\k24}ki {\k59}ka{\kf272}ra{\k79} {\k40}ya{\k47}wa{\k18}ra{\k65}ka{\kf149}ku{\k64} {\k45}i{\k40}no{\k54}ru
+Comment: 0,0:01:50.71,0:01:55.38,Misuzu,,0,0,0,karaoke,{\k45}Ting {\k23}a {\k62}ling {\k40}Tin{\k88}kling {\k46}Ding {\k22}a {\k60}ling {\k44}Ding{\k37}ding
+Comment: 0,0:01:55.85,0:02:00.47,Misuzu,,0,0,0,karaoke,{\k45}Ting {\k23}a {\k62}ling {\k40}Tin{\k88}kling {\k46}Ding {\k22}a {\k60}ling {\k44}Ding{\k37}ding
+Comment: 0,0:02:00.80,0:02:15.53,Misuzu,,0,0,0,karaoke,{\k20}da{\k44}i{\k20}su{\k68}ki {\kf254}to{\k88} {\k43}da{\k39}i{\k21}su{\k67}ki {\kf170}wo{\k43} {\k45}ka{\k41}na{\k86}e{\k42}te {\k90}yu{\kf292}ku
+Dialogue: 0,0:00:10.83,0:00:16.21,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k24}po{\k40}ka{\k21}po{\k43}ka {\k27}hi{\k39}da{\k20}ma{\k43}ri {\k23}no {\k40}o{\k24}n{\k84}pu
+Dialogue: 0,0:00:15.98,0:00:20.70,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k23}i{\k40}s{\k24}sho {\k42}ni {\k25}ka{\k35}n{\k26}ji{\k39}ru {\k25}shi{\k42}a{\k22}wa{\k19}se
+Dialogue: 0,0:00:19.83,0:00:29.45,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k23}zu{\k23}t{\k41}to {\k41}ma{\k62}mo{\k24}ru {\k128}no {\k45}ma{\k63}mo{\k22}ru {\k128}no {\kf252}uuh
+Dialogue: 0,0:00:30.12,0:00:35.92,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k23}a{\k20}ri{\k22}no{\k20}ma{\kf145}ma{\k26} {\k22}ka{\k24}za{\k19}ra{\k22}zu {\kf127}ni
+Dialogue: 0,0:00:35.24,0:00:41.06,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ho{\k21}t{\k24}to {\k20}shi{\k83}te {\k44}tsu{\k43}tsu{\k44}mi {\k19}a{\k25}e{\kf127}ru
+Dialogue: 0,0:00:40.37,0:00:46.26,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k26}so{\k18}no {\k22}yu{\k25}me {\kf128}no{\k41} {\k23}se {\k21}ni {\k21}no{\k21}t{\kf133}te
+Dialogue: 0,0:00:45.53,0:00:50.15,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k21}do{\k22}ko {\k20}ma{\k25}de {\k84}mo {\k44}yo{\k41}ri{\k46}so{\k49}u
+Dialogue: 0,0:00:52.82,0:00:58.00,MisuzuChoir,,0,0,0,fx,{\k90\fad(300,200)}{\kf172}suu{\k84} {\kf152}suu
+Dialogue: 0,0:00:53.55,0:00:58.50,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\kf158}suu{\kf100} {\kf127}suu
+Dialogue: 0,0:00:57.98,0:01:07.71,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k86}fu{\k81}ka{\kf171}ku{\k87} {\k44}shin{\k63}ko{\k25}kyu{\kf306}u
+Dialogue: 0,0:01:19.39,0:01:25.22,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k20}o{\k22}na{\k20}ji {\k27}yu{\kf122}me{\k48} {\k20}da{\k22}ki{\k20}shi{\k22}me{\kf130}te
+Dialogue: 0,0:01:24.55,0:01:30.06,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k19}yo{\k23}ro{\k23}ko{\k21}bi {\k84}mo {\k42}ha{\k48}zu{\k40}mi {\k41}da{\kf100}su
+Dialogue: 0,0:01:29.25,0:01:34.98,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Sha {\k23}la {\k62}la {\k40}Crin{\k86}kle {\k45}Rat {\k24}a {\k59}tat {\k46}Tri{\k34}ckle
+Dialogue: 0,0:01:34.34,0:01:40.07,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k48}Sha {\k21}la {\k60}la {\k43}Crin{\k88}kle {\k43}Rat {\k23}a {\k57}tat {\k47}Tri{\k33}ckle
+Dialogue: 0,0:01:39.34,0:01:50.59,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k19}to{\k40}i{\k24}ki {\k59}ka{\kf272}ra{\k79} {\k40}ya{\k47}wa{\k18}ra{\k65}ka{\kf149}ku{\k64} {\k45}i{\k40}no{\k54}ru
+Dialogue: 0,0:01:49.81,0:01:55.58,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Ting {\k23}a {\k62}ling {\k40}Tin{\k88}kling {\k46}Ding {\k22}a {\k60}ling {\k44}Ding{\k37}ding
+Dialogue: 0,0:01:54.95,0:02:00.67,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Ting {\k23}a {\k62}ling {\k40}Tin{\k88}kling {\k46}Ding {\k22}a {\k60}ling {\k44}Ding{\k37}ding
+Dialogue: 0,0:01:59.90,0:02:15.73,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k20}da{\k44}i{\k20}su{\k68}ki {\kf254}to{\k88} {\k43}da{\k39}i{\k21}su{\k67}ki {\kf170}wo{\k43} {\k45}ka{\k41}na{\k86}e{\k42}te {\k90}yu{\kf292}ku
