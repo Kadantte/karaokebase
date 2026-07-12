@@ -1,5 +1,4 @@
 ﻿[Script Info]
-; https://aegisub.org/
 Title: Uchuu no Fushigi
 ScriptType: v4.00+
 WrapStyle: 0
@@ -11,13 +10,12 @@ Original Timing: Lucinecoconut
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
-Style: Arale mugendai,,24,&H00FFFFFF,&H0033DDFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Arale mugendai,,24,&H0033DDFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Arale mugendai,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:01.10,0:00:04.72,Arale mugendai,,0,0,0,karaoke,{\k33}to{\k18}ri {\k48}wa {\k48}nan{\k48}de {\k28}so{\k21}ra {\k32}wo {\k17}to{\k30}be{\k20}ru {\k19}no?
 Comment: 0,0:00:05.00,0:00:08.68,Arale mugendai,,0,0,0,karaoke,{\k35}ne{\k19}ko {\k41}wa {\k55}nan{\k49}de {\k48}zut{\k32}to {\k16}ne{\k31}te{\k15}ru {\k27}no?
 Comment: 0,0:00:08.92,0:00:12.62,Arale mugendai,,0,0,0,karaoke,{\k37}ki{\k21}mi {\k44}wa {\k42}don{\k55}na {\k51}kyou {\k30}wo {\k18}i{\k33}ki{\k17}ru {\k22}no?
