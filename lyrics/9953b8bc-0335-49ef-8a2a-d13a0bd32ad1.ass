@@ -1,0 +1,221 @@
+﻿[Script Info]
+Title: Gimme more!
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Script: Karaoke Mugen
+Original Timing: puyo
+Synch Point: puyo
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,60,1
+Style: MMJ!,Arial,24,&H00FFFFFF,&H0044DD88,&H00000000,&H0044DD88,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Miku,Arial,24,&H00FFFFFF,&H00A7B82E,&H00000000,&H00A7B82E,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Minori,Arial,24,&H00FFFFFF,&H00579AFF,&H00000000,&H00579AFF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Haruka,Arial,24,&H00FFFFFF,&H00FFA547,&H00000000,&H00FFA547,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Airi,Arial,24,&H00FFFFFF,&H00CCA9FF,&H00000000,&H00CCA9FF,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Shizuku,Arial,24,&H00FFFFFF,&H00BDDD35,&H00000000,&H00BDDD35,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Airi - Choir,Arial,24,&H00FFFFFF,&H00CCA9FF,&H00000000,&H00CCA9FF,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Haruka - Choir,Arial,24,&H00FFFFFF,&H00FFA547,&H00000000,&H00FFA547,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Minori - Choir,Arial,24,&H00FFFFFF,&H00579AFF,&H00000000,&H00579AFF,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: Miku - Choir,Arial,24,&H00FFFFFF,&H00A7B82E,&H00000000,&H00A7B82E,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+Style: MMJ! - Choir,Arial,24,&H00FFFFFF,&H0044DD88,&H00000000,&H0044DD88,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\kf90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H20CB6C&}MMJ!{\c}, {\c&HA7B82E&}Miku{\c}, {\c&H579AFF&}Minori{\c}, {\c&HFFA547&}Haruka{\c}, {\c&HCCA9FF&}Airi{\c}, {\c&HBDDD35&}Shizuku
+Comment: 0,0:00:02.07,0:00:02.63,MMJ! - Choir,,0,0,0,karaoke,{\k13}Na{\k14}na{\k29}na
+Comment: 0,0:00:02.93,0:00:06.11,Minori,,0,0,0,karaoke,{\kf123}Uhh {\k24}please {\k26}gim{\k23}me {\k25}mo {\k24}more {\k73}like
+Comment: 0,0:00:05.99,0:00:06.55,MMJ! - Choir,,0,0,0,karaoke,{\k12}Na{\k13}na{\k31}na
+Comment: 0,0:00:06.83,0:00:10.14,MMJ!,,0,0,0,karaoke,{\k13}Are {\k84}you {\k17}rea{\k82}dy? {\k14}Sin{\k34}ging {\k14}MORE {\k34}MORE {\k39}JUMP!
+Comment: 0,0:00:09.90,0:00:10.46,MMJ! - Choir,,0,0,0,karaoke,{\k11}Na{\k13}na{\k32}na
+Comment: 0,0:00:10.74,0:00:13.51,Minori,,0,0,0,karaoke,{\k25}o{\k24}chi{\k27}ko{\k22}n{\k25}de {\k23}ma{\k17}ta {\k19}a{\k24}ge{\k13}ru {\k25}mai{\k33}nich'
+Comment: 0,0:00:13.80,0:00:14.36,MMJ! - Choir,,0,0,0,karaoke,{\k12}Na{\k12}na{\k32}na
+Comment: 0,0:00:14.64,0:00:17.29,Minori,,0,0,0,karaoke,{\k25}so{\k24}no {\k26}ta{\k23}bi {\k25}ni {\k23}wa{\k27}ka{\k10}ru {\k36}gen{\k25}zai{\k21}chi
+Comment: 0,0:00:17.70,0:00:18.18,MMJ! - Choir,,0,0,0,karaoke,{\k12}Na{\k12}na{\k24}na
+Comment: 0,0:00:18.06,0:00:21.61,Shizuku,,0,0,0,karaoke,{\k12}fu{\k13}ri{\k13}ka{\k10}e{\k24}ru {\k25}ME{\k37}MO{\k25}RY {\k27}tsu{\k20}zu{\k14}i{\k23}te i{\k27}ku {\k23}MY {\k37}STO{\k25}RY
+Comment: 0,0:00:21.61,0:00:22.08,MMJ! - Choir,,0,0,0,karaoke,{\k11}Na{\k12}na{\k24}na
+Comment: 0,0:00:21.96,0:00:25.83,Miku,,0,0,0,karaoke,{\k13}su{\k18}ko{\k17}shi{\k13}zu{\k12}tsu {\k25}de{\k13}mo {\k12}ho{\k23}ra {\k25}mi{\k23}e{\k48}te {\k50}ki{\k50}ta {\k45}yo
+Comment: 0,0:00:25.87,0:00:29.32,Haruka,,0,0,0,karaoke,{\k24}hi{\k13}to{\k23}ri {\k26}ja {\k23}fu{\k25}an {\k22}bak{\k29}ka {\k9}so{\k26}n{\k49}na {\k23}se{\k24}i{\k29}kak'
+Comment: 0,0:00:29.77,0:00:33.35,Haruka,,0,0,0,karaoke,{\k23}de{\k11}mo {\k27}ip{\k19}po {\k7}f'{\k23}mi{\k25}da{\k24}se{\k24}ta {\k37}no {\k49}wa {\k12}so{\k37}re {\k40}wa
+Comment: 0,0:00:33.66,0:00:34.99,Airi,,0,0,0,karaoke,{\k18}na{\k13}ya{\k18}mi {\k23}na{\k12}n{\k15}te {\k34\rMMJ!}SHOO!!
+Comment: 0,0:00:35.11,0:00:37.12,Airi,,0,0,0,karaoke,{\k13}i{\k21}tsu{\k17}no{\k16}ma{\k16}ni {\k16}kon{\k17}na {\k14}ni {\k18}mu{\k53\rMMJ!}chuu!!
+Comment: 0,0:00:37.34,0:00:42.43,Minori,,0,0,0,karaoke,{\k12}wa{\k36}ta{\k48}shi {\k14}ka{\k35}wat{\k48}ta? {\k25}chi{\k15}ka{\k9}zu{\k25}ke{\k24}te {\k25}i{\k37}ru {\k35}no {\k25}ka {\kf96}na
+Comment: 0,0:00:41.72,0:00:45.20,Miku,,0,0,0,karaoke,{\k12}hi{\k11}ro{\k25}ga{\k24}ru {\k38}ke{\k85}shik' {\k12}yu{\k13}me {\k24}no {\k24}tsu{\k34}zu{\k46}ki
+Comment: 0,0:00:45.37,0:00:48.79,Miku,,0,0,0,karaoke,{\k25}sa{\k24}ga{\k25}shi {\k24}ni {\k23}i{\k26}ko{\k24}u {\kf171}yo
+Comment: 0,0:00:49.28,0:00:50.85,MMJ!,,0,0,0,karaoke,{\k12}Gim{\k12}me {\k24}more {\k13}gim{\k13}me {\k27}more, {\k33}your {\k23}smile
+Comment: 0,0:00:50.87,0:00:52.81,MMJ!,,0,0,0,karaoke,{\k25}so{\k24}re {\k11}da{\k24}ke {\k26}de {\k24}BE {\k35}AL{\k25}RIGHT
+Comment: 0,0:00:53.18,0:00:54.77,MMJ!,,0,0,0,karaoke,{\k12}ki{\k13}mi {\k22}no {\k13}ki{\k13}mi {\k24}no {\k38}I{\k24}DOL
+Comment: 0,0:00:54.77,0:00:56.85,MMJ!,,0,0,0,karaoke,{\k24}te{\k29}ras' {\k31}yo {\k26}SHINE {\k21}SO {\k77}BRIGHT
+Comment: 0,0:00:57.07,0:01:00.95,Minori,,0,0,0,karaoke,{\k10}tsu{\k17}yo{\k22}ku {\k26}na{\k24}re{\k37}ta {\k24}kit{\k26}to {\k23}ki{\k12}mi {\k9}ga {\k14}i{\k25}ta {\k25}ka{\k37}ra {\k28}da {\k29}yo
+Comment: 0,0:01:00.98,0:01:04.03,Miku,,0,0,0,karaoke,{\k13}ma{\k25}da{\k24}ma{\k23}da {\k25}ta{\k24}ri{\k25}nai {\k36}yo {\k37\rMMJ!}E{\k37}VERY{\k11}BO{\k25}DY
+Comment: 0,0:01:04.16,0:01:04.87,MMJ! - Choir,,0,0,0,karaoke,{\k25}Let's {\k46}go!!
+Comment: 0,0:01:04.87,0:01:06.30,Haruka,,0,0,0,karaoke,{\k76}Sweet {\k23}I {\k26}like {\k18}it
+Comment: 0,0:01:05.37,0:01:05.84,MMJ! - Choir,,0,0,0,karaoke,{\k47}MORE!!
+Comment: 0,0:01:06.34,0:01:06.84,MMJ! - Choir,,0,0,0,karaoke,{\k50}MORE!!
+Comment: 0,0:01:06.59,0:01:08.19,Airi,,0,0,0,karaoke,{\k25}Yes, {\k26}PA {\k12}PI {\k24}PU {\k12}PE {\k23}PO {\k24}POP {\k14}UP!
+Comment: 0,0:01:08.30,0:01:08.75,MMJ! - Choir,,0,0,0,karaoke,{\k45}Hey!!
+Comment: 0,0:01:08.79,0:01:10.22,Shizuku,,0,0,0,karaoke,{\k73}Feel {\k25}so {\k25}hap{\k20}py
+Comment: 0,0:01:09.27,0:01:09.73,MMJ! - Choir,,0,0,0,karaoke,{\k46}JUMP!!
+Comment: 0,0:01:10.25,0:01:10.71,MMJ! - Choir,,0,0,0,karaoke,{\k46}JUMP!!
+Comment: 0,0:01:10.47,0:01:12.61,Minori,,0,0,0,karaoke,{\k15}ko{\k12}no {\k13}ma{\k15}ma {\k21}se{\k25}kai {\k24}he {\k12}to{\k13}bi{\k9}ko{\k13}me {\k42}JUMP!!
+Comment: 0,0:01:12.19,0:01:12.67,MMJ! - Choir,,0,0,0,karaoke,{\k48}Foo!!
+Comment: 0,0:01:12.69,0:01:14.15,Miku,,0,0,0,karaoke,{\k74}Sweet {\k23}I {\k23}like {\k26}it
+Comment: 0,0:01:13.17,0:01:13.66,MMJ! - Choir,,0,0,0,karaoke,{\k49}MORE!!
+Comment: 0,0:01:14.15,0:01:14.64,MMJ! - Choir,,0,0,0,karaoke,{\k49}MORE!!
+Comment: 0,0:01:14.40,0:01:16.09,MMJ!,,0,0,0,karaoke,{\k24}Yes, {\k25}MA {\k12}MI {\k23}MU {\k14}ME {\k24}MO {\k22}MORE {\k25}JUMP!
+Comment: 0,0:01:16.11,0:01:17.57,MMJ! - Choir,,0,0,0,karaoke,{\kf146}Yeah!!
+Comment: 0,0:01:16.84,0:01:20.59,MMJ!,,0,0,0,karaoke,{\k24}chi{\k25}ka{\k24}t{\k25}ta{\k24}n {\k24}da {\k24}ko{\k35}re{\k39}ka{\k12}ra {\k38}mo {\k23}{\rMinori}kit{\k58}to
+Comment: 0,0:01:21.69,0:01:22.43,MMJ!,,0,0,0,karaoke,{\k12}Here {\k14}we {\k48}go!!
+Comment: 0,0:01:22.45,0:01:23.64,Miku,,0,0,0,karaoke,{\k13}me{\k15}za{\k10}su {\k10}wa {\k25}TOP {\k24}TOP {\k22}TOP
+Comment: 0,0:01:23.67,0:01:24.39,MMJ! - Choir,,0,0,0,karaoke,{\k24}Go!! {\k48}Go!!
+Comment: 0,0:01:24.39,0:01:25.53,Miku,,0,0,0,karaoke,{\k13}ko{\k12}no {\k14}ma{\k11}ma {\k24}don{\k24}don{\k16}don
+Comment: 0,0:01:25.61,0:01:26.32,MMJ! - Choir,,0,0,0,karaoke,{\k25}More!! {\k46}More!!
+Comment: 0,0:01:25.86,0:01:27.55,Minori,,0,0,0,karaoke,{\k12}wa{\k18}ta{\k19}shi {\k49}ga? {\k15}ho{\k17}n{\k17}tou {\k22}ni?
+Comment: 0,0:01:27.81,0:01:29.34,Minori,,0,0,0,karaoke,{\k12}ki{\k13}mi {\k24}no {\k11}o{\k13}shi {\k18}de {\k19}iin {\k21}desu {\k22}ka?
+Comment: 0,0:01:29.52,0:01:30.26,MMJ! - Choir,,0,0,0,karaoke,{\k23}us{\k51}so!?
+Comment: 0,0:01:29.89,0:01:33.46,Haruka,,0,0,0,karaoke,{\k14}so{\k12}n{\k27}na {\k23}fuu {\k22}ni {\k11}i{\k15}wa{\k23}re{\k24}ru {\k24}to {\k25}nan{\k25}ka {\k11}ni{\k12}ya{\k12}ke{\k26}cha{\k23}u {\k28}na
+Comment: 0,0:01:33.79,0:01:35.72,Airi,,0,0,0,karaoke,{\k13}kyo{\k12}u {\k26}yo{\k11}ri {\k10}mo {\k29}as' {\k9}mu{\k14}ne {\k22}wo {\k13}ha{\k14}re{\k20}ru
+Comment: 0,0:01:35.72,0:01:39.03,Airi,,0,0,0,karaoke,{\k26}e{\k37}ga{\k24}o {\k26}wo {\k23}to{\k36}do{\k37}ke{\k25}ru {\kf97}yo
+Comment: 0,0:01:38.31,0:01:45.37,Shizuku,,0,0,0,karaoke,{\k10}ki{\k15}ra{\k21}me{\k26}ku {\k37}mi{\k86}rai {\k12}u{\k14}ta {\k22}no {\k23}tsu{\k37}zu{\k62}ki {\k25}e{\k23}ga{\k25}ki {\k25}ni {\k23}i{\k26}ko{\k24}u {\kf170}yo
+Comment: 0,0:01:45.86,0:01:47.43,MMJ!,,0,0,0,karaoke,{\k12}Gim{\k12}me {\k24}more {\k13}gim{\k13}me {\k27}more, {\k33}your {\k23}smile
+Comment: 0,0:01:47.45,0:01:49.39,MMJ!,,0,0,0,karaoke,{\k25}so{\k24}re {\k11}da{\k24}ke {\k26}de {\k24}BE {\k35}AL{\k25}RIGHT
+Comment: 0,0:01:49.76,0:01:51.35,MMJ!,,0,0,0,karaoke,{\k13}ki{\k12}mi {\k23}mo {\k14}ki{\k12}mi {\k11}mo {\k13}is{\k37}shou {\k24}ni
+Comment: 0,0:01:51.35,0:01:53.43,MMJ!,,0,0,0,karaoke,{\k24}u{\k24}ta{\k12}ou {\k24}yo {\k25}WE {\k24}CAN {\k75}FLY
+Comment: 0,0:01:53.65,0:01:57.53,Miku,,0,0,0,karaoke,{\k10}ki{\k17}ko{\k22}e{\k26}te{\k24}ru {\k37}yo {\k24}ho{\k26}ra {\k23}ki{\k12}mi {\k23}no {\k25}ko{\k25}e {\k37}ga {\k28}de{\k29}mo
+Comment: 0,0:01:57.56,0:02:00.61,Minori,,0,0,0,karaoke,{\k13}ma{\k25}da{\k24}ma{\k23}da {\k25}ta{\k24}ri{\k25}nai {\k36}yo {\k37\rMMJ!}E{\k37}VERY{\k11}BO{\k25}DY
+Comment: 0,0:02:00.73,0:02:02.81,Shizuku,,0,0,0,karaoke,{\k26}ki{\k36}ka{\k12}se{\kf134}te
+Comment: 0,0:02:01.98,0:02:04.87,MMJ!,,0,0,0,karaoke,{\k11}fu{\k36}a{\k18}n {\k31}mo {\k14}ma{\k34}yo{\k20}i {\k30}mo {\k16}i{\k32}ma {\k47}wa
+Comment: 0,0:02:05.87,0:02:08.68,MMJ!,,0,0,0,karaoke,{\k13}no{\k34}ri{\k17}ko{\k34}e{\k14}ra{\k35}re{\k16}ru {\k32}yo {\k12}da{\k36}t{\k38}te
+Comment: 0,0:02:08.79,0:02:16.20,MMJ!,,0,0,0,karaoke,{\k23}na{\kf100}ka{\k23}ma {\k25}ga {\k48}i{\k50}ru {\k23}so{\k24}shi{\kf96}te {\k26}ki{\k49}mi {\k25}ga {\k49}i{\k23}ru {\k26}ka{\kf131}ra
+Comment: 0,0:02:16.35,0:02:21.70,Miku - Choir,,0,0,0,karaoke,{\k49}Ohh {\kf174}yeah {\kf312}yeah
+Comment: 0,0:02:19.02,0:02:20.59,MMJ!,,0,0,0,karaoke,{\k12}Gim{\k12}me {\k24}more {\k13}gim{\k13}me {\k27}more, {\k33}your {\k23}smile
+Comment: 0,0:02:20.61,0:02:22.55,MMJ!,,0,0,0,karaoke,{\k25}so{\k24}re {\k11}da{\k24}ke {\k26}de {\k24}BE {\k35}AL{\k25}RIGHT
+Comment: 0,0:02:22.36,0:02:24.51,Minori - Choir,,0,0,0,karaoke,{\k9}Gim{\k13}me {\k26}your {\kf167}smile
+Comment: 0,0:02:22.92,0:02:24.51,MMJ!,,0,0,0,karaoke,{\k12}ki{\k13}mi {\k22}no {\k13}ki{\k13}mi {\k24}no {\k38}I{\k24}DOL
+Comment: 0,0:02:24.51,0:02:26.59,MMJ!,,0,0,0,karaoke,{\k24}te{\k29}ras' {\k31}yo {\k26}SHINE {\k21}SO {\k77}BRIGHT
+Comment: 0,0:02:25.85,0:02:27.58,Airi - Choir,,0,0,0,karaoke,{\k75}shine {\k24}so {\k74}bright
+Comment: 0,0:02:26.81,0:02:30.69,Minori,,0,0,0,karaoke,{\k10}tsu{\k17}yo{\k22}ku {\k26}na{\k24}re{\k37}ta {\k24}kit{\k26}to {\k23}ki{\k12}mi {\k9}ga {\k14}i{\k25}ta {\k25}ka{\k37}ra {\k28}da {\k29}yo
+Comment: 0,0:02:30.01,0:02:30.70,Haruka - Choir,,0,0,0,karaoke,{\k24}yeah {\k45}yeah
+Comment: 0,0:02:30.72,0:02:33.77,Minori,,0,0,0,karaoke,{\k13}ma{\k25}da{\k24}ma{\k23}da {\k25}ta{\k24}ri{\k25}nai {\k38}yo {\k35}{\rMMJ!}E{\k37}VERY{\k11}BO{\k25}DY
+Comment: 0,0:02:33.90,0:02:36.59,Miku - Choir,,0,0,0,karaoke,{\k26}ki{\k24}t{\kf219}to
+Comment: 0,0:02:33.90,0:02:34.61,MMJ! - Choir,,0,0,0,karaoke,{\k25}Let's {\k46}go!!
+Comment: 0,0:02:34.61,0:02:36.04,Haruka,,0,0,0,karaoke,{\k76}Sweet {\k23}I {\k26}like {\k18}it
+Comment: 0,0:02:35.11,0:02:35.58,MMJ! - Choir,,0,0,0,karaoke,{\k47}MORE!!
+Comment: 0,0:02:36.08,0:02:36.58,MMJ! - Choir,,0,0,0,karaoke,{\k50}MORE!!
+Comment: 0,0:02:36.33,0:02:37.93,Airi,,0,0,0,karaoke,{\k25}Yes, {\k26}PA {\k12}PI {\k24}PU {\k12}PE {\k23}PO {\k24}POP {\k14}UP!
+Comment: 0,0:02:38.04,0:02:38.49,MMJ! - Choir,,0,0,0,karaoke,{\k45}Hey!!
+Comment: 0,0:02:38.06,0:02:38.97,Haruka - Choir,,0,0,0,karaoke,{\k23}I {\k50}like {\k18}it
+Comment: 0,0:02:38.53,0:02:39.96,Shizuku,,0,0,0,karaoke,{\k73}Feel {\k25}so {\k25}hap{\k20}py
+Comment: 0,0:02:39.01,0:02:39.47,MMJ! - Choir,,0,0,0,karaoke,{\k46}JUMP!!
+Comment: 0,0:02:39.99,0:02:40.45,MMJ! - Choir,,0,0,0,karaoke,{\k46}JUMP!!
+Comment: 0,0:02:40.21,0:02:42.35,Minori,,0,0,0,karaoke,{\k15}ko{\k12}no {\k13}ma{\k15}ma {\k21}se{\k25}kai {\k24}he {\k12}to{\k13}bi{\k9}ko{\k13}me {\k42}JUMP!!
+Comment: 0,0:02:41.93,0:02:42.41,MMJ! - Choir,,0,0,0,karaoke,{\k48}Foo!!
+Comment: 0,0:02:42.43,0:02:43.89,Miku,,0,0,0,karaoke,{\k74}Sweet {\k23}I {\k23}like {\k26}it
+Comment: 0,0:02:42.91,0:02:43.40,MMJ! - Choir,,0,0,0,karaoke,{\k49}MORE!!
+Comment: 0,0:02:42.93,0:02:44.33,Airi - Choir,,0,0,0,karaoke,{\k49}sweet{\k49} {\k42}feel
+Comment: 0,0:02:43.89,0:02:44.38,MMJ! - Choir,,0,0,0,karaoke,{\k49}MORE!!
+Comment: 0,0:02:44.14,0:02:45.83,MMJ!,,0,0,0,karaoke,{\k24}Yes, {\k25}MA {\k12}MI {\k23}MU {\k14}ME {\k24}MO {\k22}MORE {\k25}JUMP!
+Comment: 0,0:02:45.13,0:02:48.30,Minori - Choir,,0,0,0,karaoke,{\k24}ko{\k48}re{\k27}ka{\k48}ra {\kf170}mo
+Comment: 0,0:02:45.85,0:02:47.31,MMJ! - Choir,,0,0,0,karaoke,{\kf146}Yeah!!
+Comment: 0,0:02:46.54,0:02:50.33,MMJ!,,0,0,0,karaoke,{\k28}chi{\k25}ka{\k22}t{\k27}ta{\k24}n {\k24}da {\k24}ko{\k35}re{\k39}ka{\k12}ra {\k38}mo {\k23}kit{\k58}to
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H20CB6C&}MMJ!{\c}, {\c&HA7B82E&}Miku{\c}, {\c&H579AFF&}Minori{\c}, {\c&HFFA547&}Haruka{\c}, {\c&HCCA9FF&}Airi{\c}, {\c&HBDDD35&}Shizuku
+Dialogue: 0,0:00:01.17,0:00:02.83,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k13}Na{\k14}na{\k29}na
+Dialogue: 0,0:00:02.03,0:00:06.31,Minori,,0,0,0,fx,{\kf90\fad(300,200)}{\kf123}Uhh {\k24}please {\k26}gim{\k23}me {\k25}mo {\k24}more {\k73}like
+Dialogue: 0,0:00:05.09,0:00:06.75,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k12}Na{\k13}na{\k31}na
+Dialogue: 0,0:00:05.93,0:00:10.34,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k13}Are {\k84}you {\k17}rea{\k82}dy? {\k14}Sin{\k34}ging {\k14}MORE {\k34}MORE {\k39}JUMP!
+Dialogue: 0,0:00:09.00,0:00:10.66,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k11}Na{\k13}na{\k32}na
+Dialogue: 0,0:00:09.84,0:00:13.71,Minori,,0,0,0,fx,{\kf90\fad(300,200)}{\k25}o{\k24}chi{\k27}ko{\k22}n{\k25}de {\k23}ma{\k17}ta {\k19}a{\k24}ge{\k13}ru {\k25}mai{\k33}nich'
+Dialogue: 0,0:00:12.90,0:00:14.56,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k12}Na{\k12}na{\k32}na
+Dialogue: 0,0:00:13.74,0:00:17.49,Minori,,0,0,0,fx,{\kf90\fad(300,200)}{\k25}so{\k24}no {\k26}ta{\k23}bi {\k25}ni {\k23}wa{\k27}ka{\k10}ru {\k36}gen{\k25}zai{\k21}chi
+Dialogue: 0,0:00:16.80,0:00:18.38,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k12}Na{\k12}na{\k24}na
+Dialogue: 0,0:00:17.16,0:00:21.81,Shizuku,,0,0,0,fx,{\kf90\fad(300,200)}{\k12}fu{\k13}ri{\k13}ka{\k10}e{\k24}ru {\k25}ME{\k37}MO{\k25}RY {\k27}tsu{\k20}zu{\k14}i{\k23}te i{\k27}ku {\k23}MY {\k37}STO{\k25}RY
+Dialogue: 0,0:00:20.71,0:00:22.28,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k11}Na{\k12}na{\k24}na
+Dialogue: 0,0:00:21.06,0:00:26.03,Miku,,0,0,0,fx,{\kf90\fad(300,200)}{\k13}su{\k18}ko{\k17}shi{\k13}zu{\k12}tsu {\k25}de{\k13}mo {\k12}ho{\k23}ra {\k25}mi{\k23}e{\k48}te {\k50}ki{\k50}ta {\k45}yo
+Dialogue: 0,0:00:24.97,0:00:29.52,Haruka,,0,0,0,fx,{\kf90\fad(300,200)}{\k24}hi{\k13}to{\k23}ri {\k26}ja {\k23}fu{\k25}an {\k22}bak{\k29}ka {\k9}so{\k26}n{\k49}na {\k23}se{\k24}i{\k29}kak'
+Dialogue: 0,0:00:28.87,0:00:33.55,Haruka,,0,0,0,fx,{\kf90\fad(300,200)}{\k23}de{\k11}mo {\k27}ip{\k19}po {\k7}f'{\k23}mi{\k25}da{\k24}se{\k24}ta {\k37}no {\k49}wa {\k12}so{\k37}re {\k40}wa
+Dialogue: 0,0:00:32.76,0:00:35.19,Airi,,0,0,0,fx,{\kf90\fad(300,200)}{\k18}na{\k13}ya{\k18}mi {\k23}na{\k12}n{\k15}te {\k34\rMMJ!}SHOO!!
+Dialogue: 0,0:00:34.21,0:00:37.32,Airi,,0,0,0,fx,{\kf90\fad(300,200)}{\k13}i{\k21}tsu{\k17}no{\k16}ma{\k16}ni {\k16}kon{\k17}na {\k14}ni {\k18}mu{\k53\rMMJ!}chuu!!
+Dialogue: 0,0:00:36.44,0:00:42.63,Minori,,0,0,0,fx,{\kf90\fad(300,200)}{\k12}wa{\k36}ta{\k48}shi {\k14}ka{\k35}wat{\k48}ta? {\k25}chi{\k15}ka{\k9}zu{\k25}ke{\k24}te {\k25}i{\k37}ru {\k35}no {\k25}ka {\kf96}na
+Dialogue: 0,0:00:40.82,0:00:45.40,Miku,,0,0,0,fx,{\kf90\fad(300,200)}{\k12}hi{\k11}ro{\k25}ga{\k24}ru {\k38}ke{\k85}shik' {\k12}yu{\k13}me {\k24}no {\k24}tsu{\k34}zu{\k46}ki
+Dialogue: 0,0:00:44.47,0:00:48.99,Miku,,0,0,0,fx,{\kf90\fad(300,200)}{\k25}sa{\k24}ga{\k25}shi {\k24}ni {\k23}i{\k26}ko{\k24}u {\kf171}yo
+Dialogue: 0,0:00:48.38,0:00:51.05,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k12}Gim{\k12}me {\k24}more {\k13}gim{\k13}me {\k27}more, {\k33}your {\k23}smile
+Dialogue: 0,0:00:49.97,0:00:53.01,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k25}so{\k24}re {\k11}da{\k24}ke {\k26}de {\k24}BE {\k35}AL{\k25}RIGHT
+Dialogue: 0,0:00:52.28,0:00:54.97,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k12}ki{\k13}mi {\k22}no {\k13}ki{\k13}mi {\k24}no {\k38}I{\k24}DOL
+Dialogue: 0,0:00:53.87,0:00:57.05,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k24}te{\k29}ras' {\k31}yo {\k26}SHINE {\k21}SO {\k77}BRIGHT
+Dialogue: 0,0:00:56.17,0:01:01.15,Minori,,0,0,0,fx,{\kf90\fad(300,200)}{\k10}tsu{\k17}yo{\k22}ku {\k26}na{\k24}re{\k37}ta {\k24}kit{\k26}to {\k23}ki{\k12}mi {\k9}ga {\k14}i{\k25}ta {\k25}ka{\k37}ra {\k28}da {\k29}yo
+Dialogue: 0,0:01:00.08,0:01:04.23,Miku,,0,0,0,fx,{\kf90\fad(300,200)}{\k13}ma{\k25}da{\k24}ma{\k23}da {\k25}ta{\k24}ri{\k25}nai {\k36}yo {\k37\rMMJ!}E{\k37}VERY{\k11}BO{\k25}DY
+Dialogue: 0,0:01:03.26,0:01:05.07,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k25}Let's {\k46}go!!
+Dialogue: 0,0:01:03.97,0:01:06.50,Haruka,,0,0,0,fx,{\kf90\fad(300,200)}{\k76}Sweet {\k23}I {\k26}like {\k18}it
+Dialogue: 0,0:01:04.47,0:01:06.04,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k47}MORE!!
+Dialogue: 0,0:01:05.44,0:01:07.04,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k50}MORE!!
+Dialogue: 0,0:01:05.69,0:01:08.39,Airi,,0,0,0,fx,{\kf90\fad(300,200)}{\k25}Yes, {\k26}PA {\k12}PI {\k24}PU {\k12}PE {\k23}PO {\k24}POP {\k14}UP!
+Dialogue: 0,0:01:07.40,0:01:08.95,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k45}Hey!!
+Dialogue: 0,0:01:07.89,0:01:10.42,Shizuku,,0,0,0,fx,{\kf90\fad(300,200)}{\k73}Feel {\k25}so {\k25}hap{\k20}py
+Dialogue: 0,0:01:08.37,0:01:09.93,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k46}JUMP!!
+Dialogue: 0,0:01:09.35,0:01:10.91,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k46}JUMP!!
+Dialogue: 0,0:01:09.57,0:01:12.81,Minori,,0,0,0,fx,{\kf90\fad(300,200)}{\k15}ko{\k12}no {\k13}ma{\k15}ma {\k21}se{\k25}kai {\k24}he {\k12}to{\k13}bi{\k9}ko{\k13}me {\k42}JUMP!!
+Dialogue: 0,0:01:11.29,0:01:12.87,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k48}Foo!!
+Dialogue: 0,0:01:11.79,0:01:14.35,Miku,,0,0,0,fx,{\kf90\fad(300,200)}{\k74}Sweet {\k23}I {\k23}like {\k26}it
+Dialogue: 0,0:01:12.27,0:01:13.86,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k49}MORE!!
+Dialogue: 0,0:01:13.25,0:01:14.84,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k49}MORE!!
+Dialogue: 0,0:01:13.50,0:01:16.29,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k24}Yes, {\k25}MA {\k12}MI {\k23}MU {\k14}ME {\k24}MO {\k22}MORE {\k25}JUMP!
+Dialogue: 0,0:01:15.21,0:01:17.77,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\kf146}Yeah!!
+Dialogue: 0,0:01:15.94,0:01:20.79,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k24}chi{\k25}ka{\k24}t{\k25}ta{\k24}n {\k24}da {\k24}ko{\k35}re{\k39}ka{\k12}ra {\k38}mo {\k23}{\rMinori}kit{\k58}to
+Dialogue: 0,0:01:20.79,0:01:22.63,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k12}Here {\k14}we {\k48}go!!
+Dialogue: 0,0:01:21.55,0:01:23.84,Miku,,0,0,0,fx,{\kf90\fad(300,200)}{\k13}me{\k15}za{\k10}su {\k10}wa {\k25}TOP {\k24}TOP {\k22}TOP
+Dialogue: 0,0:01:22.77,0:01:24.59,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k24}Go!! {\k48}Go!!
+Dialogue: 0,0:01:23.49,0:01:25.73,Miku,,0,0,0,fx,{\kf90\fad(300,200)}{\k13}ko{\k12}no {\k14}ma{\k11}ma {\k24}don{\k24}don{\k16}don
+Dialogue: 0,0:01:24.71,0:01:26.52,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k25}More!! {\k46}More!!
+Dialogue: 0,0:01:24.96,0:01:27.75,Minori,,0,0,0,fx,{\kf90\fad(300,200)}{\k12}wa{\k18}ta{\k19}shi {\k49}ga? {\k15}ho{\k17}n{\k17}tou {\k22}ni?
+Dialogue: 0,0:01:26.91,0:01:29.54,Minori,,0,0,0,fx,{\kf90\fad(300,200)}{\k12}ki{\k13}mi {\k24}no {\k11}o{\k13}shi {\k18}de {\k19}iin {\k21}desu {\k22}ka?
+Dialogue: 0,0:01:28.62,0:01:30.46,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k23}us{\k51}so!?
+Dialogue: 0,0:01:28.99,0:01:33.66,Haruka,,0,0,0,fx,{\kf90\fad(300,200)}{\k14}so{\k12}n{\k27}na {\k23}fuu {\k22}ni {\k11}i{\k15}wa{\k23}re{\k24}ru {\k24}to {\k25}nan{\k25}ka {\k11}ni{\k12}ya{\k12}ke{\k26}cha{\k23}u {\k28}na
+Dialogue: 0,0:01:32.89,0:01:35.92,Airi,,0,0,0,fx,{\kf90\fad(300,200)}{\k13}kyo{\k12}u {\k26}yo{\k11}ri {\k10}mo {\k29}as' {\k9}mu{\k14}ne {\k22}wo {\k13}ha{\k14}re{\k20}ru
+Dialogue: 0,0:01:34.82,0:01:39.23,Airi,,0,0,0,fx,{\kf90\fad(300,200)}{\k26}e{\k37}ga{\k24}o {\k26}wo {\k23}to{\k36}do{\k37}ke{\k25}ru {\kf97}yo
+Dialogue: 0,0:01:37.41,0:01:45.57,Shizuku,,0,0,0,fx,{\kf90\fad(300,200)}{\k10}ki{\k15}ra{\k21}me{\k26}ku {\k37}mi{\k86}rai {\k12}u{\k14}ta {\k22}no {\k23}tsu{\k37}zu{\k62}ki {\k25}e{\k23}ga{\k25}ki {\k25}ni {\k23}i{\k26}ko{\k24}u {\kf170}yo
+Dialogue: 0,0:01:44.96,0:01:47.63,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k12}Gim{\k12}me {\k24}more {\k13}gim{\k13}me {\k27}more, {\k33}your {\k23}smile
+Dialogue: 0,0:01:46.55,0:01:49.59,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k25}so{\k24}re {\k11}da{\k24}ke {\k26}de {\k24}BE {\k35}AL{\k25}RIGHT
+Dialogue: 0,0:01:48.86,0:01:51.55,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k13}ki{\k12}mi {\k23}mo {\k14}ki{\k12}mi {\k11}mo {\k13}is{\k37}shou {\k24}ni
+Dialogue: 0,0:01:50.45,0:01:53.63,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k24}u{\k24}ta{\k12}ou {\k24}yo {\k25}WE {\k24}CAN {\k75}FLY
+Dialogue: 0,0:01:52.75,0:01:57.73,Miku,,0,0,0,fx,{\kf90\fad(300,200)}{\k10}ki{\k17}ko{\k22}e{\k26}te{\k24}ru {\k37}yo {\k24}ho{\k26}ra {\k23}ki{\k12}mi {\k23}no {\k25}ko{\k25}e {\k37}ga {\k28}de{\k29}mo
+Dialogue: 0,0:01:56.66,0:02:00.81,Minori,,0,0,0,fx,{\kf90\fad(300,200)}{\k13}ma{\k25}da{\k24}ma{\k23}da {\k25}ta{\k24}ri{\k25}nai {\k36}yo {\k37\rMMJ!}E{\k37}VERY{\k11}BO{\k25}DY
+Dialogue: 0,0:01:59.83,0:02:03.01,Shizuku,,0,0,0,fx,{\kf90\fad(300,200)}{\k26}ki{\k36}ka{\k12}se{\kf134}te
+Dialogue: 0,0:02:01.08,0:02:05.07,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k11}fu{\k36}a{\k18}n {\k31}mo {\k14}ma{\k34}yo{\k20}i {\k30}mo {\k16}i{\k32}ma {\k47}wa
+Dialogue: 0,0:02:04.97,0:02:08.88,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k13}no{\k34}ri{\k17}ko{\k34}e{\k14}ra{\k35}re{\k16}ru {\k32}yo {\k12}da{\k36}t{\k38}te
+Dialogue: 0,0:02:07.89,0:02:16.40,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k23}na{\kf100}ka{\k23}ma {\k25}ga {\k48}i{\k50}ru {\k23}so{\k24}shi{\kf96}te {\k26}ki{\k49}mi {\k25}ga {\k49}i{\k23}ru {\k26}ka{\kf131}ra
+Dialogue: 0,0:02:15.45,0:02:21.90,Miku - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k49}Ohh {\kf174}yeah {\kf312}yeah
+Dialogue: 0,0:02:18.12,0:02:20.79,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k12}Gim{\k12}me {\k24}more {\k13}gim{\k13}me {\k27}more, {\k33}your {\k23}smile
+Dialogue: 0,0:02:19.71,0:02:22.75,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k25}so{\k24}re {\k11}da{\k24}ke {\k26}de {\k24}BE {\k35}AL{\k25}RIGHT
+Dialogue: 0,0:02:21.46,0:02:24.71,Minori - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k9}Gim{\k13}me {\k26}your {\kf167}smile
+Dialogue: 0,0:02:22.02,0:02:24.71,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k12}ki{\k13}mi {\k22}no {\k13}ki{\k13}mi {\k24}no {\k38}I{\k24}DOL
+Dialogue: 0,0:02:23.61,0:02:26.79,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k24}te{\k29}ras' {\k31}yo {\k26}SHINE {\k21}SO {\k77}BRIGHT
+Dialogue: 0,0:02:24.95,0:02:27.78,Airi - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k75}shine {\k24}so {\k74}bright
+Dialogue: 0,0:02:25.91,0:02:30.89,Minori,,0,0,0,fx,{\kf90\fad(300,200)}{\k10}tsu{\k17}yo{\k22}ku {\k26}na{\k24}re{\k37}ta {\k24}kit{\k26}to {\k23}ki{\k12}mi {\k9}ga {\k14}i{\k25}ta {\k25}ka{\k37}ra {\k28}da {\k29}yo
+Dialogue: 0,0:02:29.11,0:02:30.90,Haruka - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k24}yeah {\k45}yeah
+Dialogue: 0,0:02:29.82,0:02:33.97,Minori,,0,0,0,fx,{\kf90\fad(300,200)}{\k13}ma{\k25}da{\k24}ma{\k23}da {\k25}ta{\k24}ri{\k25}nai {\k38}yo {\k35}{\rMMJ!}E{\k37}VERY{\k11}BO{\k25}DY
+Dialogue: 0,0:02:33.00,0:02:36.79,Miku - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k26}ki{\k24}t{\kf219}to
+Dialogue: 0,0:02:33.00,0:02:34.81,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k25}Let's {\k46}go!!
+Dialogue: 0,0:02:33.71,0:02:36.24,Haruka,,0,0,0,fx,{\kf90\fad(300,200)}{\k76}Sweet {\k23}I {\k26}like {\k18}it
+Dialogue: 0,0:02:34.21,0:02:35.78,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k47}MORE!!
+Dialogue: 0,0:02:35.18,0:02:36.78,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k50}MORE!!
+Dialogue: 0,0:02:35.43,0:02:38.13,Airi,,0,0,0,fx,{\kf90\fad(300,200)}{\k25}Yes, {\k26}PA {\k12}PI {\k24}PU {\k12}PE {\k23}PO {\k24}POP {\k14}UP!
+Dialogue: 0,0:02:37.14,0:02:38.69,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k45}Hey!!
+Dialogue: 0,0:02:37.16,0:02:39.17,Haruka - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k23}I {\k50}like {\k18}it
+Dialogue: 0,0:02:37.63,0:02:40.16,Shizuku,,0,0,0,fx,{\kf90\fad(300,200)}{\k73}Feel {\k25}so {\k25}hap{\k20}py
+Dialogue: 0,0:02:38.11,0:02:39.67,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k46}JUMP!!
+Dialogue: 0,0:02:39.09,0:02:40.65,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k46}JUMP!!
+Dialogue: 0,0:02:39.31,0:02:42.55,Minori,,0,0,0,fx,{\kf90\fad(300,200)}{\k15}ko{\k12}no {\k13}ma{\k15}ma {\k21}se{\k25}kai {\k24}he {\k12}to{\k13}bi{\k9}ko{\k13}me {\k42}JUMP!!
+Dialogue: 0,0:02:41.03,0:02:42.61,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k48}Foo!!
+Dialogue: 0,0:02:41.53,0:02:44.09,Miku,,0,0,0,fx,{\kf90\fad(300,200)}{\k74}Sweet {\k23}I {\k23}like {\k26}it
+Dialogue: 0,0:02:42.01,0:02:43.60,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k49}MORE!!
+Dialogue: 0,0:02:42.03,0:02:44.53,Airi - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k49}sweet{\k49} {\k42}feel
+Dialogue: 0,0:02:42.99,0:02:44.58,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k49}MORE!!
+Dialogue: 0,0:02:43.24,0:02:46.03,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k24}Yes, {\k25}MA {\k12}MI {\k23}MU {\k14}ME {\k24}MO {\k22}MORE {\k25}JUMP!
+Dialogue: 0,0:02:44.23,0:02:48.50,Minori - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\k24}ko{\k48}re{\k27}ka{\k48}ra {\kf170}mo
+Dialogue: 0,0:02:44.95,0:02:47.51,MMJ! - Choir,,0,0,0,fx,{\kf90\fad(300,200)}{\kf146}Yeah!!
+Dialogue: 0,0:02:45.64,0:02:50.53,MMJ!,,0,0,0,fx,{\kf90\fad(300,200)}{\k28}chi{\k25}ka{\k22}t{\k27}ta{\k24}n {\k24}da {\k24}ko{\k35}re{\k39}ka{\k12}ra {\k38}mo {\k23}kit{\k58}to
