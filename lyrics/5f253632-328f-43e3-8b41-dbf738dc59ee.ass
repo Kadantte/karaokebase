@@ -1,0 +1,234 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Kasô Kyôsôkyoku ~ Temari Tsukimura Vers.
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: DaBi
+LayoutResX: 0
+LayoutResY: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Temari,Arial,24,&H00FFFFFF,&H00E7A71A,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: China,Arial,24,&H00FFFFFF,&H00167AFE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hiro,Arial,24,&H00FFFFFF,&H0048C2E1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Gakumas,Arial,24,&H00FFFFFF,&H003C5DFE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: GakumasChoir,Arial,24,&H003C5DFE,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.50,0:00:14.39,Gakumas,,0,0,0,karaoke,{\an2\k13890} {\rGakumas} Gakumas {\2cHFFFFFF}| {\rTemari}♣ Temari {\2cHFFFFFF}| {\rChina}♠ China {\2cHFFFFFF}| {\rHiro}♦ Hiro
+Comment: 0,0:00:00.00,0:00:00.00,Temari,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♣{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,China,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♠{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Hiro,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♦{\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Gakumas,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,GakumasChoir,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:07.50,0:00:10.48,Gakumas,,0,0,0,karaoke,{\k20}a{\k23}re {\k16}yo {\k21}to {\k20}i{\k20}u {\k20}ma {\k19}ni {\k21}no{\k19}mi{\k21}ko{\k19}ma{\k59}rer'
+Comment: 0,0:00:10.72,0:00:13.85,Gakumas,,0,0,0,karaoke,{\k18}dai{\k13}dai{\k9}i{\k18}ro {\k19}no {\k21}TI{\k18}DAL {\k23}WA{\k18}VE {\k37}ya{\k40}kou {\k41}ya{\k38}kou
+Comment: 0,0:00:13.90,0:00:15.48,China,,0,0,0,karaoke,{\k19}HAN{\k13}D{\k16}MA{\k11}DE {\k12}ka{\k8}ra {\k21}OR{\k11}DER{\k19}MA{\k9}DE {\k10}ma{\k9}de
+Comment: 0,0:00:15.49,0:00:16.65,China,,0,0,0,karaoke,{\k10}shi{\k10}ka{\k10}ke{\k10}ru {\k20}dai{\k19}ryuu{\k37}kou
+Comment: 0,0:00:16.68,0:00:17.08,GakumasChoir,,0,0,0,karaoke,{\k40}HI
+Comment: 0,0:00:17.11,0:00:18.68,Hiro,,0,0,0,karaoke,{\k17}hon{\k14}mo{\k27}no {\k9}ka{\k11}ra {\k12}ni{\k9}se{\k15}mo{\k23}no {\k11}ma{\k9}de
+Comment: 0,0:00:18.70,0:00:19.70,Hiro,,0,0,0,karaoke,{\k11}ma{\k7}to{\k12}me{\k10}te {\k18}dai{\k21}shuu{\k22}gou
+Comment: 0,0:00:19.86,0:00:20.29,GakumasChoir,,0,0,0,karaoke,{\k43}HI
+Comment: 0,0:00:20.30,0:00:21.87,Temari,,0,0,0,karaoke,{\k19}so{\k9}roi {\k11}mo {\k10}so{\k9}rot{\k9}te {\k11}fu{\k21}zo{\k11}roi {\k10}no {\k10}se{\k9}kai{\k9}kan {\k9}ni
+Comment: 0,0:00:21.90,0:00:23.38,Temari,,0,0,0,karaoke,{\k11}o{\k10}so{\k10}roi {\k9}no {\k18}youch' {\k14}sa {\k7}ni {\k12}he{\k10}kie{\k7}ki {\k12}na {\k13}kou{\k15}rei
+Comment: 0,0:00:23.41,0:00:25.01,Gakumas,,0,0,0,karaoke,{\k7}mo{\k20}yoo{\k10}shi {\k10}no {\k11}do{\k21}rei {\k10}yo{\k18}doo{\k9}shi {\k9}o{\k12}do{\k23}re
+Comment: 0,0:00:25.07,0:00:26.58,Gakumas,,0,0,0,karaoke,{\k11}jou{\k10}rei {\k11}sho{\k9}kei {\k12}FOR{\k8}MA{\k10}TION {\k8}de {\k22}hou{\k9}bi {\k12}wo {\k8}to{\k21}re
+Comment: 0,0:00:26.58,0:00:27.87,Hiro,,0,0,0,karaoke,{\k9}MAR{\k7}MA{\k15}LA{\k10}DE {\k10}ga {\k19}to{\k11}ke{\k9}ru {\k10}ko{\k29}ro
+Comment: 0,0:00:27.70,0:00:28.28,GakumasChoir,,0,0,0,karaoke,{\k20}wo {\k39}woi
+Comment: 0,0:00:28.09,0:00:29.44,Hiro,,0,0,0,karaoke,{\k9}kya{\k6}pa {\k5}i{\k19}jou {\k10}ni {\k11}o{\k20}dou{\k11}ke{\k9}ru {\k11}mo{\k24}no
+Comment: 0,0:00:29.29,0:00:29.93,GakumasChoir,,0,0,0,karaoke,{\k20}wo {\k44}woi
+Comment: 0,0:00:29.86,0:00:31.50,Gakumas,,0,0,0,karaoke,{\k9}chi{\k14}ya{\k8}ho{\k13}ya {\k18}shi{\k10}ta{\k9}ri {\k7}sa{\k12}re{\k6}ta{\k6}ri {\k10}ga {\k12}iin {\k8}de{\k22}sho
+Comment: 0,0:00:31.43,0:00:32.43,China,,0,0,0,karaoke,{\k6}a{\k15}mai {\k6}da{\k8}ke {\k11}ja {\k10}mo{\k10}no{\k12}ta{\k7}ri{\k15}nai
+Comment: 0,0:00:32.43,0:00:32.85,China,,0,0,0,karaoke,{\k8}GIVE {\k7}ME {\k10}SOME {\k17}MORE
+Comment: 0,0:00:32.88,0:00:33.31,GakumasChoir,,0,0,0,karaoke,{\k43}wahhh
+Comment: 0,0:00:33.06,0:00:34.53,Temari,,0,0,0,karaoke,{\k14}CHECK {\k24}IT {\k6}shi{\k13}ge{\k6}ki{\k16}te{\k11}ki {\k13}HYS{\k12}TE{\k8}RIA {\k11}BA{\k13}BY
+Comment: 0,0:00:34.58,0:00:35.66,Temari,,0,0,0,karaoke,{\k12}mu{\k15}gen {\k14}ni {\k9}en{\k9}bi {\k23}SEN{\k9}SI{\k17}TIVE
+Comment: 0,0:00:35.69,0:00:36.25,GakumasChoir,,0,0,0,karaoke,{\k21}TICK {\k35}TICK
+Comment: 0,0:00:36.06,0:00:36.71,China,,0,0,0,karaoke,{\k13}WHAT {\k10}YOU {\k42}WANT
+Comment: 0,0:00:36.50,0:00:37.13,GakumasChoir,,0,0,0,karaoke,{\k18}ah {\k45}ha
+Comment: 0,0:00:36.89,0:00:37.50,Temari,,0,0,0,karaoke,{\k10}WHERE {\k10}YOU {\k41}GO
+Comment: 0,0:00:37.29,0:00:38.01,GakumasChoir,,0,0,0,karaoke,{\k19}ah {\k53}ha
+Comment: 0,0:00:37.67,0:00:39.05,Hiro,,0,0,0,karaoke,{\k13}ja{\k9}ki {\k9}ni {\k10}no{\k11}ma{\k9}re {\k20}sei{\k21}gyo {\k17}fu{\k19}nou
+Comment: 0,0:00:38.86,0:00:39.56,GakumasChoir,,0,0,0,karaoke,{\k23}ah {\k47}ha
+Comment: 0,0:00:39.20,0:00:40.49,China,,0,0,0,karaoke,{\k8}su{\k10}ki {\k5}ni {\k5}u{\k20}bai{\k10}sa{\k10}ru {\k8}i{\k13}gi {\k19}MI{\k21}NUS
+Comment: 0,0:00:40.49,0:00:41.66,China,,0,0,0,karaoke,{\k11}in{\k9}ki {\k19}VI{\k11}RA{\k10}L {\k12}i{\k7}ni{\k19}kai{\k11}sa{\k8}zu
+Comment: 0,0:00:41.68,0:00:42.53,China,,0,0,0,karaoke,{\k12}ee{\k8}ny {\k10}mee{\k12}ny {\k7}mi{\k12}ny {\k24}moe
+Comment: 0,0:00:42.68,0:00:45.68,Hiro,,0,0,0,karaoke,{\k62}o{\k20}so{\k40}ro{\k20}shi {\k19}ya {\k60}so{\k21}zo{\k58}ro
+Comment: 0,0:00:45.29,0:00:45.95,GakumasChoir,,0,0,0,karaoke,{\k20}HEL{\k46}LO
+Comment: 0,0:00:45.88,0:00:48.65,Temari,,0,0,0,karaoke,{\k13}u{\k14}ka{\k14}bi{\k15}a{\k13}ga{\k13}ri {\k13}ma{\k15}wa{\k12}ru {\k10}tsu{\k13}ki {\k14}ni {\k13}ha{\k9}ri {\k19}ga {\k26}o{\k16}chi{\k35}ru
+Comment: 0,0:00:48.69,0:00:49.07,GakumasChoir,,0,0,0,karaoke,{\k38}waaah
+Comment: 0,0:00:49.09,0:00:51.83,Hiro,,0,0,0,karaoke,{\k17}oo{\k14}ki{\k11}na {\k16}ku{\k13}chi {\k13}de {\k16}wa{\k10}ra{\k9}u {\k16}ka{\k13}bo{\k12}cha{\k14}ta{\k13}chi {\k13}ga {\k29}u{\k14}ta{\k31}u
+Comment: 0,0:00:51.88,0:00:52.27,GakumasChoir,,0,0,0,karaoke,{\k39}waaah
+Comment: 0,0:00:52.27,0:00:54.95,China,,0,0,0,karaoke,{\k15}so{\k13}re {\k14}ga {\k14}a{\k14}i{\k12}zu {\k16}ma{\k14}mo{\k10}no{\k14}ta{\k11}chi {\k14}ga {\k13}me{\k14}za{\k13}me {\k31}o{\k10}do{\k26}ru
+Comment: 0,0:00:55.09,0:00:55.63,GakumasChoir,,0,0,0,karaoke,{\k54}waaah
+Comment: 0,0:00:55.28,0:00:58.76,Gakumas,,0,0,0,karaoke,{\k41}kou {\k20}na{\k19}re{\k20}ba {\k20}a{\k21}to {\k19}wa {\k40}o{\k23}mo{\k19}i {\k19}no {\k39}ma{\k48}ma
+Comment: 0,0:01:00.23,0:01:03.48,Gakumas,,0,0,0,karaoke,{\k82}hon{\k71}rou {\k13}ho{\k19}ne{\k20}nu{\k20}ki {\k41}DANCE{\k20}A{\k39}BLE
+Comment: 0,0:01:03.65,0:01:06.68,Temari,,0,0,0,karaoke,{\k23}S{\k22}CA{\k18}RE{\k40}CROWS {\k20}mo {\k41}to{\k19}bi{\k12}ha{\k49}ne {\k19}ma{\k20}wa{\k20}ru
+Comment: 0,0:01:06.66,0:01:09.73,Gakumas,,0,0,0,karaoke,{\k81}HOL{\k68}LOW {\k10}tsu{\k23}ki{\k21}yo {\k18}no {\k40}TURN{\k22}TA{\k24}BLE
+Comment: 0,0:01:09.86,0:01:12.20,China,,0,0,0,karaoke,{\k40}k'ru{\k41}k'ru {\k42}k'ru{\k38}o{\k22}shii {\k11}ta{\k9}ka{\k20}ma{\k11}ri
+Comment: 0,0:01:12.29,0:01:13.49,China,,0,0,0,karaoke,{\k20}WE {\k9}GOT {\k13}THE {\k20}PAR{\k19}TY {\k39}NIGHT
+Comment: 0,0:01:18.07,0:01:19.49,Gakumas,,0,0,0,karaoke,{\k22}A{\k20}NY{\k12}WAY {\k7}EN{\k20}JOY {\k20}THE {\k21}PAR{\k20}TY
+Comment: 0,0:01:19.49,0:01:20.59,Temari,,0,0,0,karaoke,{\k40}NIGHT {\rHiro}{\k39}NIGHT {\rChina}{\k31}NIGHT
+Comment: 0,0:01:21.08,0:01:22.61,Temari,,0,0,0,karaoke,{\k22}woo {\k19}wee {\k19}woo {\k20}wee {\k12}LOOK {\k9}AT {\k9}ME {\k11}NOW {\k20}FRUI{\k12}TY
+Comment: 0,0:01:22.61,0:01:24.03,Temari,,0,0,0,karaoke,{\k7}mu{\k20}ja{\k8}ki {\k12}na {\k20}kuu{\k9}ki {\k13}ja {\k19}mu{\k34}ri
+Comment: 0,0:01:23.89,0:01:24.37,GakumasChoir,,0,0,0,karaoke,{\k19}mu{\k29}ri
+Comment: 0,0:01:24.27,0:01:25.83,China,,0,0,0,karaoke,{\k20}zei{\k6}ta{\k6}ku {\k9}ni {\k20}sei{\k9}da{\k3}ku {\k8}wo {\k14}CHA{\k7}SER {\k9}na{\k11}shi {\k34}de
+Comment: 0,0:01:25.83,0:01:27.45,China,,0,0,0,karaoke,{\k6}i{\k10}ta{\k10}da{\k11}ke{\k9}ba {\k12}he{\k7}ra{\k8}he{\k13}ra {\k12}GREAT {\k10}A{\k10}S {\k24}HELL {\k20}YEAH
+Comment: 0,0:01:27.46,0:01:27.90,GakumasChoir,,0,0,0,karaoke,{\k44}YEAH
+Comment: 0,0:01:27.68,0:01:28.89,Hiro,,0,0,0,karaoke,{\k11}WHERE {\k9}IS {\k20}MY {\k9}su{\k11}te{\k11}ki {\k11}na {\k19}NIGH{\k20}T
+Comment: 0,0:01:28.89,0:01:30.48,Hiro,,0,0,0,karaoke,{\k11}mi{\k8}tsu{\k10}ka{\k11}ra{\k10}na{\k10}ku{\k9}te {\k11}mo {\k10}su{\k10}de {\k10}ni {\k10}ba{\k20}rai{\k19}ro{\k0}
+Comment: 0,0:01:30.48,0:01:30.87,GakumasChoir,,0,0,0,karaoke,{\k39}hoo
+Comment: 0,0:01:30.67,0:01:32.09,Temari,,0,0,0,karaoke,{\k7}shit{\k5}to {\k10}wa {\k10}mi{\k8}gu{\k11}ru{\k11}shii {\k7}ka{\k12}ra {\k12}ki{\k9}gu{\k10}ru{\k19}mi {\k11}ni
+Comment: 0,0:01:32.09,0:01:33.74,Temari,,0,0,0,karaoke,{\k11}shi{\k9}mat{\k11}te {\k8}ka{\k9}ra {\k22}hai{\k5}de {\k6}a{\k10}ge{\k10}ru {\k10}mi{\k8}gu{\k12}ru{\k34}mi
+Comment: 0,0:01:33.48,0:01:33.99,GakumasChoir,,0,0,0,karaoke,{\k19}yi{\k32}pee
+Comment: 0,0:01:33.87,0:01:35.48,Gakumas,,0,0,0,karaoke,{\k10}ka{\k12}ri {\k9}no {\k10}i{\k21}shou {\k11}de{\k8}mo {\k11}ta{\k10}ma{\k8}shii {\k12}ga {\k21}hon{\k8}mo{\k10}no
+Comment: 0,0:01:35.48,0:01:36.90,Gakumas,,0,0,0,karaoke,{\k12}na{\k8}ra{\k12}ba {\k10}mi{\k17}ryou {\k12}shi{\k5}te {\k6}I{\k8}MA{\k10}GI{\k10}NA{\k4}RY {\k4}i{\k24}jou
+Comment: 0,0:01:37.09,0:01:38.49,Gakumas,,0,0,0,karaoke,{\k12}shi{\k9}ryou {\k9}i{\k9}ki{\k21}ryou {\k11}ka{\k9}ma{\k10}wa{\k10}zu {\k19}kai{\k21}kou
+Comment: 0,0:01:38.49,0:01:40.17,Gakumas,,0,0,0,karaoke,{\k11}to{\k9}bi{\k10}ki{\k10}ri {\k8}no {\k12}bi{\k19}bou {\k12}HA{\k9}PPY {\k10}na {\k9}hi{\k10}ni{\k10}chi{\k29}jou
+Comment: 0,0:01:40.48,0:01:41.87,China,,0,0,0,karaoke,{\k9}GA{\k12}LA{\k9}PA{\k10}GO{\k11}S {\k11}ni {\k10}ma{\k9}ji{\k9}wa{\k11}ru {\k9}i{\k11}se{\k18}kai
+Comment: 0,0:01:41.87,0:01:43.10,Gakumas,,0,0,0,karaoke,{\k31}dai{\k19}kou{\k12}ryuu {\k20}PAR{\k41}TY
+Comment: 0,0:01:42.88,0:01:43.49,GakumasChoir,,0,0,0,karaoke,{\k21}WEL{\k40}COME
+Comment: 0,0:01:43.49,0:01:46.29,Temari,,0,0,0,karaoke,{\k60}fu{\k20}ri{\k41}ki{\k18}re{\k20}ru {\k61}ko{\k19}do{\k41}u
+Comment: 0,0:01:46.09,0:01:46.68,GakumasChoir,,0,0,0,karaoke,{\k21}HE{\k38}LLO
+Comment: 0,0:01:46.69,0:01:49.42,Hiro,,0,0,0,karaoke,{\k16}wa{\k10}ru{\k14}me{\k15}da{\k12}chi {\k13}no {\k13}D{\k14}RA{\k14}CU{\k26}LA {\k12}mo {\k16}sa{\k12}ke {\k14}wo {\k27}a{\k12}o{\k33}ru
+Comment: 0,0:01:49.48,0:01:49.86,GakumasChoir,,0,0,0,karaoke,{\k38}waaah
+Comment: 0,0:01:49.86,0:01:52.63,China,,0,0,0,karaoke,{\k15}ka{\k13}mo{\k13}ku {\k23}sou {\k18}na {\k20}DUL{\k19}LA{\k26}HAN {\k15}mo {\k14}a{\k15}ta{\k12}ma {\k25}wo {\k13}fu{\k36}ru
+Comment: 0,0:01:52.68,0:01:53.10,GakumasChoir,,0,0,0,karaoke,{\k42}waaah
+Comment: 0,0:01:53.08,0:01:55.83,Temari,,0,0,0,karaoke,{\k27}shin{\k14}shi{\k14}te{\k13}ki {\k13}na {\k24}mii{\k17}ra {\k11}su{\k16}ra {\k13}mo {\k10}fu{\k13}ku {\k16}ga {\k13}ha{\k17}da{\k10}ke{\k34}ru
+Comment: 0,0:01:55.88,0:01:56.43,GakumasChoir,,0,0,0,karaoke,{\k55}waaah
+Comment: 0,0:01:56.08,0:01:59.56,Hiro,,0,0,0,karaoke,{\k41}dou {\k20}a{\k20}re{\k19}do {\k20}yu{\k20}ka{\k20}i {\k40}zen{\k21}ka{\k20}i {\k19}no {\k40}ma{\k48}ma
+Comment: 0,0:02:01.05,0:02:04.28,Gakumas,,0,0,0,karaoke,{\k80}hon{\k73}shou {\k10}a{\k20}ra{\k21}wa {\k11}ni {\k9}a{\k39}ba{\k21}re{\k39}you
+Comment: 0,0:02:04.48,0:02:07.45,China,,0,0,0,karaoke,{\k21}so{\k20}no {\k18}ka{\k23}so{\k20}u {\k17}mo {\k42}se{\k13}i{\k27}so{\k40}u {\k19}ni {\k21}na{\k16}ru
+Comment: 0,0:02:07.46,0:02:10.68,Gakumas,,0,0,0,karaoke,{\k81}kyou{\k76}sou{\k24}kyo{\k22}ku {\k18}no {\k41}TURN{\k21}TA{\k39}BLE
+Comment: 0,0:02:10.69,0:02:13.06,Hiro,,0,0,0,karaoke,{\k40}ai{\k31}ai {\k9}i{\k40}to{\k40}o{\k20}shii {\k10}ta{\k10}ka{\k20}ma{\k17}ri
+Comment: 0,0:02:13.09,0:02:14.21,Hiro,,0,0,0,karaoke,{\k20}WE {\k10}GOT {\k9}THE {\k21}PAR{\k22}TY {\k30}NIGHT
+Comment: 0,0:02:15.08,0:02:15.84,Temari,,0,0,0,karaoke,{\k41}HI-{\k35}FI
+Comment: 0,0:02:15.89,0:02:17.41,GakumasChoir,,0,0,0,karaoke,{\k40}ALL {\k40}NIGHT {\k41}ALL {\k31}NIGHT
+Comment: 0,0:02:17.69,0:02:19.17,Hiro,,0,0,0,karaoke,{\k21}ne{\k20}mu{\k18}re{\k21}ya{\k22}shi{\k46}nai
+Comment: 0,0:02:19.10,0:02:20.61,GakumasChoir,,0,0,0,karaoke,{\k40}woo {\k19}la {\k19}la {\k21}la {\k20}la {\k32}la
+Comment: 0,0:02:21.47,0:02:22.23,China,,0,0,0,karaoke,{\k43}FLY {\k33}HIGH
+Comment: 0,0:02:22.28,0:02:23.80,GakumasChoir,,0,0,0,karaoke,{\k41}ALL {\k39}NIGHT {\k42}ALL {\k30}NIGHT
+Comment: 0,0:02:24.07,0:02:25.46,Temari,,0,0,0,karaoke,{\k23}na{\k19}ri{\k21}ya{\k21}ma{\k19}na{\k36}i
+Comment: 0,0:02:25.49,0:02:27.03,GakumasChoir,,0,0,0,karaoke,{\k42}woo {\k18}la {\k20}la {\k20}la {\k18}la {\k36}la
+Comment: 0,0:02:27.27,0:02:29.86,Hiro,,0,0,0,karaoke,{\k21}ko{\k20}dai{\k20}mou{\k21}sou {\k19}na {\k32}a{\k29}so{\kf97}bi
+Comment: 0,0:02:30.41,0:02:33.07,China,,0,0,0,karaoke,{\k28}LAN{\k20}TERN {\k12}wa {\k7}ma{\k21}ru{\k19}de {\k31}ta{\k27}ma{\kf101}shii
+Comment: 0,0:02:33.68,0:02:36.28,Temari,,0,0,0,karaoke,{\k20}i{\k21}zen {\k19}ki{\k22}kai {\k17}na {\k34}JAM{\k27}BO{\kf100}REE
+Comment: 0,0:02:36.88,0:02:40.11,Gakumas,,0,0,0,karaoke,{\k12}LET {\k11}ME {\k17}HEAR {\k21}YOU {\k38}SAY {\k32}HA{\k30}LLO{\kf162}WEEN
+Comment: 0,0:02:41.03,0:02:44.25,Gakumas,,0,0,0,karaoke,{\k84}hon{\k69}rou {\k14}ho{\k19}ne{\k20}nu{\k20}ki {\k40}DANCE{\k20}A{\k36}BLE
+Comment: 0,0:02:44.48,0:02:47.45,Gakumas,,0,0,0,karaoke,{\k20}S{\k25}CA{\k16}RE{\k42}CROWS {\k19}mo {\k41}to{\k18}bi{\k21}ha{\k39}ne {\k23}ma{\k19}wa{\k14}ru
+Comment: 0,0:02:47.48,0:02:50.60,Gakumas,,0,0,0,karaoke,{\k80}HO{\k70}LLOW {\k9}tsu{\k22}ki{\k22}yo {\k16}no {\k40}TURN{\k21}TA{\k32}BLE
+Comment: 0,0:02:50.66,0:02:53.06,Gakumas,,0,0,0,karaoke,{\k41}k'ru{\k39}k'ru {\k41}k'ru{\k40}o{\k22}shii {\k9}ta{\k11}ka{\k20}ma{\k17}ri
+Comment: 0,0:02:53.09,0:02:54.28,Gakumas,,0,0,0,karaoke,{\k17}WE {\k10}GOT {\k12}THE {\k20}PAR{\k21}TY {\k39}NIGHT
+Comment: 0,0:02:58.86,0:03:00.73,Gakumas,,0,0,0,karaoke,{\k23}A{\k20}NY{\k12}WAY {\k9}EN{\k18}JOY {\k20}THE {\k19}PAR{\k19}TY {\k47}NIGHT
+Comment: 0,0:03:03.43,0:03:05.85,Gakumas,,0,0,0,karaoke,{\k41}k'ru{\k42}k'ru {\k42}k'ru{\k40}o{\k21}shii {\k10}ta{\k12}ka{\k19}ma{\k15}ri
+Comment: 0,0:03:05.89,0:03:06.68,Gakumas,,0,0,0,karaoke,{\k19}WE {\k19}GOT {\k22}THE {\k19}PARTY
+Comment: 0,0:03:06.68,0:03:07.74,China,,0,0,0,karaoke,{\k40}NIGHT {\rTemari}{\k41}NIGHT {\rHiro}{\k25}NIGHT
+Dialogue: 0,0:00:00.00,0:00:14.59,Gakumas,,0,0,0,fx,{\k50\fad(500,200)}{\an2\k13890} {\rGakumas} Gakumas {\2cHFFFFFF}| {\rTemari}♣ Temari {\2cHFFFFFF}| {\rChina}♠ China {\2cHFFFFFF}| {\rHiro}♦ Hiro
+Dialogue: 0,0:00:06.60,0:00:10.68,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k20}a{\k23}re {\k16}yo {\k21}to {\k20}i{\k20}u {\k20}ma {\k19}ni {\k21}no{\k19}mi{\k21}ko{\k19}ma{\k59}rer'
+Dialogue: 0,0:00:09.82,0:00:14.05,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k18}dai{\k13}dai{\k9}i{\k18}ro {\k19}no {\k21}TI{\k18}DAL {\k23}WA{\k18}VE {\k37}ya{\k40}kou {\k41}ya{\k38}kou
+Dialogue: 0,0:00:13.00,0:00:15.68,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k19}HAN{\k13}D{\k16}MA{\k11}DE {\k12}ka{\k8}ra {\k21}OR{\k11}DER{\k19}MA{\k9}DE {\k10}ma{\k9}de
+Dialogue: 0,0:00:14.59,0:00:16.85,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k10}shi{\k10}ka{\k10}ke{\k10}ru {\k20}dai{\k19}ryuu{\k37}kou
+Dialogue: 0,0:00:15.78,0:00:17.28,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k40}HI
+Dialogue: 0,0:00:16.21,0:00:18.88,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k17}hon{\k14}mo{\k27}no {\k9}ka{\k11}ra {\k12}ni{\k9}se{\k15}mo{\k23}no {\k11}ma{\k9}de
+Dialogue: 0,0:00:17.80,0:00:19.90,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k11}ma{\k7}to{\k12}me{\k10}te {\k18}dai{\k21}shuu{\k22}gou
+Dialogue: 0,0:00:18.96,0:00:20.49,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k43}HI
+Dialogue: 0,0:00:19.40,0:00:22.07,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k19}so{\k9}roi {\k11}mo {\k10}so{\k9}rot{\k9}te {\k11}fu{\k21}zo{\k11}roi {\k10}no {\k10}se{\k9}kai{\k9}kan {\k9}ni
+Dialogue: 0,0:00:21.00,0:00:23.58,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k11}o{\k10}so{\k10}roi {\k9}no {\k18}youch' {\k14}sa {\k7}ni {\k12}he{\k10}kie{\k7}ki {\k12}na {\k13}kou{\k15}rei
+Dialogue: 0,0:00:22.51,0:00:25.21,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k7}mo{\k20}yoo{\k10}shi {\k10}no {\k11}do{\k21}rei {\k10}yo{\k18}doo{\k9}shi {\k9}o{\k12}do{\k23}re
+Dialogue: 0,0:00:24.17,0:00:26.78,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k11}jou{\k10}rei {\k11}sho{\k9}kei {\k12}FOR{\k8}MA{\k10}TION {\k8}de {\k22}hou{\k9}bi {\k12}wo {\k8}to{\k21}re
+Dialogue: 0,0:00:25.68,0:00:28.07,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k9}MAR{\k7}MA{\k15}LA{\k10}DE {\k10}ga {\k19}to{\k11}ke{\k9}ru {\k10}ko{\k29}ro
+Dialogue: 0,0:00:26.80,0:00:28.48,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}wo {\k39}woi
+Dialogue: 0,0:00:27.19,0:00:29.64,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k9}kya{\k6}pa {\k5}i{\k19}jou {\k10}ni {\k11}o{\k20}dou{\k11}ke{\k9}ru {\k11}mo{\k24}no
+Dialogue: 0,0:00:28.39,0:00:30.13,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}wo {\k44}woi
+Dialogue: 0,0:00:28.96,0:00:31.70,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k9}chi{\k14}ya{\k8}ho{\k13}ya {\k18}shi{\k10}ta{\k9}ri {\k7}sa{\k12}re{\k6}ta{\k6}ri {\k10}ga {\k12}iin {\k8}de{\k22}sho
+Dialogue: 0,0:00:30.53,0:00:32.63,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k6}a{\k15}mai {\k6}da{\k8}ke {\k11}ja {\k10}mo{\k10}no{\k12}ta{\k7}ri{\k15}nai
+Dialogue: 0,0:00:31.53,0:00:33.05,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k8}GIVE {\k7}ME {\k10}SOME {\k17}MORE
+Dialogue: 0,0:00:31.98,0:00:33.51,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k43}wahhh
+Dialogue: 0,0:00:32.16,0:00:34.73,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k14}CHECK {\k24}IT {\k6}shi{\k13}ge{\k6}ki{\k16}te{\k11}ki {\k13}HYS{\k12}TE{\k8}RIA {\k11}BA{\k13}BY
+Dialogue: 0,0:00:33.68,0:00:35.86,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k12}mu{\k15}gen {\k14}ni {\k9}en{\k9}bi {\k23}SEN{\k9}SI{\k17}TIVE
+Dialogue: 0,0:00:34.79,0:00:36.45,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}TICK {\k35}TICK
+Dialogue: 0,0:00:35.16,0:00:36.91,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k13}WHAT {\k10}YOU {\k42}WANT
+Dialogue: 0,0:00:35.60,0:00:37.33,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ah {\k45}ha
+Dialogue: 0,0:00:35.99,0:00:37.70,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k10}WHERE {\k10}YOU {\k41}GO
+Dialogue: 0,0:00:36.39,0:00:38.21,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ah {\k53}ha
+Dialogue: 0,0:00:36.77,0:00:39.25,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k13}ja{\k9}ki {\k9}ni {\k10}no{\k11}ma{\k9}re {\k20}sei{\k21}gyo {\k17}fu{\k19}nou
+Dialogue: 0,0:00:37.96,0:00:39.76,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ah {\k47}ha
+Dialogue: 0,0:00:38.30,0:00:40.69,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k8}su{\k10}ki {\k5}ni {\k5}u{\k20}bai{\k10}sa{\k10}ru {\k8}i{\k13}gi {\k19}MI{\k21}NUS
+Dialogue: 0,0:00:39.59,0:00:41.86,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k11}in{\k9}ki {\k19}VI{\k11}RA{\k10}L {\k12}i{\k7}ni{\k19}kai{\k11}sa{\k8}zu
+Dialogue: 0,0:00:40.78,0:00:42.73,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k12}ee{\k8}ny {\k10}mee{\k12}ny {\k7}mi{\k12}ny {\k24}moe
+Dialogue: 0,0:00:41.78,0:00:45.88,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k62}o{\k20}so{\k40}ro{\k20}shi {\k19}ya {\k60}so{\k21}zo{\k58}ro
+Dialogue: 0,0:00:44.39,0:00:46.15,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}HEL{\k46}LO
+Dialogue: 0,0:00:44.98,0:00:48.85,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k13}u{\k14}ka{\k14}bi{\k15}a{\k13}ga{\k13}ri {\k13}ma{\k15}wa{\k12}ru {\k10}tsu{\k13}ki {\k14}ni {\k13}ha{\k9}ri {\k19}ga {\k26}o{\k16}chi{\k35}ru
+Dialogue: 0,0:00:47.79,0:00:49.27,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k38}waaah
+Dialogue: 0,0:00:48.19,0:00:52.03,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k17}oo{\k14}ki{\k11}na {\k16}ku{\k13}chi {\k13}de {\k16}wa{\k10}ra{\k9}u {\k16}ka{\k13}bo{\k12}cha{\k14}ta{\k13}chi {\k13}ga {\k29}u{\k14}ta{\k31}u
+Dialogue: 0,0:00:50.98,0:00:52.47,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k39}waaah
+Dialogue: 0,0:00:51.37,0:00:55.15,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k15}so{\k13}re {\k14}ga {\k14}a{\k14}i{\k12}zu {\k16}ma{\k14}mo{\k10}no{\k14}ta{\k11}chi {\k14}ga {\k13}me{\k14}za{\k13}me {\k31}o{\k10}do{\k26}ru
+Dialogue: 0,0:00:54.19,0:00:55.83,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k54}waaah
+Dialogue: 0,0:00:54.38,0:00:58.96,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k41}kou {\k20}na{\k19}re{\k20}ba {\k20}a{\k21}to {\k19}wa {\k40}o{\k23}mo{\k19}i {\k19}no {\k39}ma{\k48}ma
+Dialogue: 0,0:00:59.33,0:01:03.68,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k82}hon{\k71}rou {\k13}ho{\k19}ne{\k20}nu{\k20}ki {\k41}DANCE{\k20}A{\k39}BLE
+Dialogue: 0,0:01:02.75,0:01:06.88,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k23}S{\k22}CA{\k18}RE{\k40}CROWS {\k20}mo {\k41}to{\k19}bi{\k12}ha{\k49}ne {\k19}ma{\k20}wa{\k20}ru
+Dialogue: 0,0:01:05.76,0:01:09.93,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k81}HOL{\k68}LOW {\k10}tsu{\k23}ki{\k21}yo {\k18}no {\k40}TURN{\k22}TA{\k24}BLE
+Dialogue: 0,0:01:08.96,0:01:12.40,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k40}k'ru{\k41}k'ru {\k42}k'ru{\k38}o{\k22}shii {\k11}ta{\k9}ka{\k20}ma{\k11}ri
+Dialogue: 0,0:01:11.39,0:01:13.69,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k20}WE {\k9}GOT {\k13}THE {\k20}PAR{\k19}TY {\k39}NIGHT
+Dialogue: 0,0:01:17.17,0:01:19.69,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k22}A{\k20}NY{\k12}WAY {\k7}EN{\k20}JOY {\k20}THE {\k21}PAR{\k20}TY
+Dialogue: 0,0:01:18.59,0:01:20.79,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k40}NIGHT {\rHiro}{\k39}NIGHT {\rChina}{\k31}NIGHT
+Dialogue: 0,0:01:20.18,0:01:22.81,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k22}woo {\k19}wee {\k19}woo {\k20}wee {\k12}LOOK {\k9}AT {\k9}ME {\k11}NOW {\k20}FRUI{\k12}TY
+Dialogue: 0,0:01:21.71,0:01:24.23,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k7}mu{\k20}ja{\k8}ki {\k12}na {\k20}kuu{\k9}ki {\k13}ja {\k19}mu{\k34}ri
+Dialogue: 0,0:01:22.99,0:01:24.57,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}mu{\k29}ri
+Dialogue: 0,0:01:23.37,0:01:26.03,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k20}zei{\k6}ta{\k6}ku {\k9}ni {\k20}sei{\k9}da{\k3}ku {\k8}wo {\k14}CHA{\k7}SER {\k9}na{\k11}shi {\k34}de
+Dialogue: 0,0:01:24.93,0:01:27.65,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k6}i{\k10}ta{\k10}da{\k11}ke{\k9}ba {\k12}he{\k7}ra{\k8}he{\k13}ra {\k12}GREAT {\k10}A{\k10}S {\k24}HELL {\k20}YEAH
+Dialogue: 0,0:01:26.56,0:01:28.10,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k44}YEAH
+Dialogue: 0,0:01:26.78,0:01:29.09,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k11}WHERE {\k9}IS {\k20}MY {\k9}su{\k11}te{\k11}ki {\k11}na {\k19}NIGH{\k20}T
+Dialogue: 0,0:01:27.99,0:01:30.68,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k11}mi{\k8}tsu{\k10}ka{\k11}ra{\k10}na{\k10}ku{\k9}te {\k11}mo {\k10}su{\k10}de {\k10}ni {\k10}ba{\k20}rai{\k19}ro{\k0}
+Dialogue: 0,0:01:29.58,0:01:31.07,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k39}hoo
+Dialogue: 0,0:01:29.77,0:01:32.29,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k7}shit{\k5}to {\k10}wa {\k10}mi{\k8}gu{\k11}ru{\k11}shii {\k7}ka{\k12}ra {\k12}ki{\k9}gu{\k10}ru{\k19}mi {\k11}ni
+Dialogue: 0,0:01:31.19,0:01:33.94,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k11}shi{\k9}mat{\k11}te {\k8}ka{\k9}ra {\k22}hai{\k5}de {\k6}a{\k10}ge{\k10}ru {\k10}mi{\k8}gu{\k12}ru{\k34}mi
+Dialogue: 0,0:01:32.58,0:01:34.19,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}yi{\k32}pee
+Dialogue: 0,0:01:32.97,0:01:35.68,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ka{\k12}ri {\k9}no {\k10}i{\k21}shou {\k11}de{\k8}mo {\k11}ta{\k10}ma{\k8}shii {\k12}ga {\k21}hon{\k8}mo{\k10}no
+Dialogue: 0,0:01:34.58,0:01:37.10,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k12}na{\k8}ra{\k12}ba {\k10}mi{\k17}ryou {\k12}shi{\k5}te {\k6}I{\k8}MA{\k10}GI{\k10}NA{\k4}RY {\k4}i{\k24}jou
+Dialogue: 0,0:01:36.19,0:01:38.69,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k12}shi{\k9}ryou {\k9}i{\k9}ki{\k21}ryou {\k11}ka{\k9}ma{\k10}wa{\k10}zu {\k19}kai{\k21}kou
+Dialogue: 0,0:01:37.59,0:01:40.37,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k11}to{\k9}bi{\k10}ki{\k10}ri {\k8}no {\k12}bi{\k19}bou {\k12}HA{\k9}PPY {\k10}na {\k9}hi{\k10}ni{\k10}chi{\k29}jou
+Dialogue: 0,0:01:39.58,0:01:42.07,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k9}GA{\k12}LA{\k9}PA{\k10}GO{\k11}S {\k11}ni {\k10}ma{\k9}ji{\k9}wa{\k11}ru {\k9}i{\k11}se{\k18}kai
+Dialogue: 0,0:01:40.97,0:01:43.30,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k31}dai{\k19}kou{\k12}ryuu {\k20}PAR{\k41}TY
+Dialogue: 0,0:01:41.98,0:01:43.69,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}WEL{\k40}COME
+Dialogue: 0,0:01:42.59,0:01:46.49,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k60}fu{\k20}ri{\k41}ki{\k18}re{\k20}ru {\k61}ko{\k19}do{\k41}u
+Dialogue: 0,0:01:45.19,0:01:46.88,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}HE{\k38}LLO
+Dialogue: 0,0:01:45.79,0:01:49.62,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k16}wa{\k10}ru{\k14}me{\k15}da{\k12}chi {\k13}no {\k13}D{\k14}RA{\k14}CU{\k26}LA {\k12}mo {\k16}sa{\k12}ke {\k14}wo {\k27}a{\k12}o{\k33}ru
+Dialogue: 0,0:01:48.58,0:01:50.06,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k38}waaah
+Dialogue: 0,0:01:48.96,0:01:52.83,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k15}ka{\k13}mo{\k13}ku {\k23}sou {\k18}na {\k20}DUL{\k19}LA{\k26}HAN {\k15}mo {\k14}a{\k15}ta{\k12}ma {\k25}wo {\k13}fu{\k36}ru
+Dialogue: 0,0:01:51.78,0:01:53.30,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k42}waaah
+Dialogue: 0,0:01:52.18,0:01:56.03,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k27}shin{\k14}shi{\k14}te{\k13}ki {\k13}na {\k24}mii{\k17}ra {\k11}su{\k16}ra {\k13}mo {\k10}fu{\k13}ku {\k16}ga {\k13}ha{\k17}da{\k10}ke{\k34}ru
+Dialogue: 0,0:01:54.98,0:01:56.63,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k55}waaah
+Dialogue: 0,0:01:55.18,0:01:59.76,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k41}dou {\k20}a{\k20}re{\k19}do {\k20}yu{\k20}ka{\k20}i {\k40}zen{\k21}ka{\k20}i {\k19}no {\k40}ma{\k48}ma
+Dialogue: 0,0:02:00.15,0:02:04.48,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k80}hon{\k73}shou {\k10}a{\k20}ra{\k21}wa {\k11}ni {\k9}a{\k39}ba{\k21}re{\k39}you
+Dialogue: 0,0:02:03.58,0:02:07.65,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k21}so{\k20}no {\k18}ka{\k23}so{\k20}u {\k17}mo {\k42}se{\k13}i{\k27}so{\k40}u {\k19}ni {\k21}na{\k16}ru
+Dialogue: 0,0:02:06.56,0:02:10.88,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k81}kyou{\k76}sou{\k24}kyo{\k22}ku {\k18}no {\k41}TURN{\k21}TA{\k39}BLE
+Dialogue: 0,0:02:09.79,0:02:13.26,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k40}ai{\k31}ai {\k9}i{\k40}to{\k40}o{\k20}shii {\k10}ta{\k10}ka{\k20}ma{\k17}ri
+Dialogue: 0,0:02:12.19,0:02:14.41,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k20}WE {\k10}GOT {\k9}THE {\k21}PAR{\k22}TY {\k30}NIGHT
+Dialogue: 0,0:02:14.18,0:02:16.04,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k41}HI-{\k35}FI
+Dialogue: 0,0:02:14.99,0:02:17.61,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k40}ALL {\k40}NIGHT {\k41}ALL {\k31}NIGHT
+Dialogue: 0,0:02:16.79,0:02:19.37,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k21}ne{\k20}mu{\k18}re{\k21}ya{\k22}shi{\k46}nai
+Dialogue: 0,0:02:18.20,0:02:20.81,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k40}woo {\k19}la {\k19}la {\k21}la {\k20}la {\k32}la
+Dialogue: 0,0:02:20.57,0:02:22.43,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k43}FLY {\k33}HIGH
+Dialogue: 0,0:02:21.38,0:02:24.00,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k41}ALL {\k39}NIGHT {\k42}ALL {\k30}NIGHT
+Dialogue: 0,0:02:23.17,0:02:25.66,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k23}na{\k19}ri{\k21}ya{\k21}ma{\k19}na{\k36}i
+Dialogue: 0,0:02:24.59,0:02:27.23,GakumasChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k42}woo {\k18}la {\k20}la {\k20}la {\k18}la {\k36}la
+Dialogue: 0,0:02:26.37,0:02:30.06,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♦{\fs\4a&HFF&} {\k21}ko{\k20}dai{\k20}mou{\k21}sou {\k19}na {\k32}a{\k29}so{\kf97}bi
+Dialogue: 0,0:02:29.51,0:02:33.27,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k28}LAN{\k20}TERN {\k12}wa {\k7}ma{\k21}ru{\k19}de {\k31}ta{\k27}ma{\kf101}shii
+Dialogue: 0,0:02:32.78,0:02:36.48,Temari,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k20}i{\k21}zen {\k19}ki{\k22}kai {\k17}na {\k34}JAM{\k27}BO{\kf100}REE
+Dialogue: 0,0:02:35.98,0:02:40.31,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k12}LET {\k11}ME {\k17}HEAR {\k21}YOU {\k38}SAY {\k32}HA{\k30}LLO{\kf162}WEEN
+Dialogue: 0,0:02:40.13,0:02:44.45,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k84}hon{\k69}rou {\k14}ho{\k19}ne{\k20}nu{\k20}ki {\k40}DANCE{\k20}A{\k36}BLE
+Dialogue: 0,0:02:43.58,0:02:47.65,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k20}S{\k25}CA{\k16}RE{\k42}CROWS {\k19}mo {\k41}to{\k18}bi{\k21}ha{\k39}ne {\k23}ma{\k19}wa{\k14}ru
+Dialogue: 0,0:02:46.58,0:02:50.80,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k80}HO{\k70}LLOW {\k9}tsu{\k22}ki{\k22}yo {\k16}no {\k40}TURN{\k21}TA{\k32}BLE
+Dialogue: 0,0:02:49.76,0:02:53.26,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k41}k'ru{\k39}k'ru {\k41}k'ru{\k40}o{\k22}shii {\k9}ta{\k11}ka{\k20}ma{\k17}ri
+Dialogue: 0,0:02:52.19,0:02:54.48,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k17}WE {\k10}GOT {\k12}THE {\k20}PAR{\k21}TY {\k39}NIGHT
+Dialogue: 0,0:02:57.96,0:03:00.93,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k23}A{\k20}NY{\k12}WAY {\k9}EN{\k18}JOY {\k20}THE {\k19}PAR{\k19}TY {\k47}NIGHT
+Dialogue: 0,0:03:02.53,0:03:06.05,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k41}k'ru{\k42}k'ru {\k42}k'ru{\k40}o{\k21}shii {\k10}ta{\k12}ka{\k19}ma{\k15}ri
+Dialogue: 0,0:03:04.99,0:03:06.88,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k19}WE {\k19}GOT {\k22}THE {\k19}PARTY
+Dialogue: 0,0:03:05.78,0:03:07.94,China,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♠{\fs\4a&HFF&} {\k40}NIGHT {\rTemari}{\k41}NIGHT {\rHiro}{\k25}NIGHT
