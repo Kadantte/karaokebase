@@ -1,0 +1,64 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Decensus ad Nihilum
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 0
+PlayResY: 0
+Original Timing: SkyLight
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:18.98,0:00:24.87,Sample KM [Up],,0,0,0,karaoke,{\k46}A {\kf116}shoo{\k36}ting {\kf119}star {\k36}falls {\kf115}through {\k43}the {\k78}sea
+Comment: 0,0:00:25.56,0:00:30.84,Sample KM [Up],,0,0,0,karaoke,{\kf125}Floa{\k35}ting {\kf123}down {\k33}in{\kf116}to {\k27}my {\k69}dreams
+Comment: 0,0:00:30.86,0:00:33.67,Sample KM [Up],,0,0,0,karaoke,{\k25}Your {\k30}e{\k19}cho {\k43}cries {\k54}from {\k44}far {\k23}a{\k43}way
+Comment: 0,0:00:33.96,0:00:36.86,Sample KM [Up],,0,0,0,karaoke,{\k18}O{\k42}bli{\k25}vi{\k34}on {\k59}calls {\k37}out {\k41}my {\k34}name
+Comment: 0,0:00:37.33,0:00:43.84,Sample KM [Up],,0,0,0,karaoke,{\k33}Ne{\k40}ver {\k74}mind {\k81}what {\k70}I {\k82}be{\kf271}came
+Comment: 0,0:00:44.21,0:00:50.04,Sample KM [Up],,0,0,0,karaoke,{\k41}Meet {\k76}me {\k79}by {\k79}the {\k76}bro{\k77}ken {\kf155}gates
+Comment: 0,0:00:50.43,0:00:56.24,Sample KM [Up],,0,0,0,karaoke,{\k39}Bid {\k78}the {\k76}light {\k78}one {\k77}last {\k79}em{\kf154}brace
+Comment: 0,0:00:56.60,0:01:00.56,Sample KM [Up],,0,0,0,karaoke,{\k41}God {\k39}it {\k77}feels {\k35}good {\k42}to {\k35}pre{\kf127}tend
+Comment: 0,0:01:00.89,0:01:05.85,Sample KM [Up],,0,0,0,karaoke,{\k29}Un{\k49}til {\k37}we {\k40}meet {\k36}a{\kf305}gain
+Comment: 0,0:01:14.83,0:01:17.53,Sample KM [Up],,0,0,0,karaoke,{\k17}Rea{\k20}ching {\k38}through {\k40}the {\k39}sta{\kf116}tic
+Comment: 0,0:01:17.92,0:01:19.86,Sample KM [Up],,0,0,0,karaoke,{\k22}Feel {\k17}my {\k39}hands {\k38}go {\k78}numb
+Comment: 0,0:01:21.40,0:01:23.50,Sample KM [Up],,0,0,0,karaoke,{\k40}Night{\k29}mares {\k8}are {\k41}brea{\kf92}thing
+Comment: 0,0:01:23.52,0:01:26.25,Sample KM [Up],,0,0,0,karaoke,{\k20}I {\k12}don't {\k29}know {\k16}where {\k20}they're {\k58}co{\k48}ming {\k70}from
+Comment: 0,0:01:26.62,0:01:29.47,Sample KM [Up],,0,0,0,karaoke,{\k20}Your {\k36}e{\k19}cho {\k40}cries {\k59}from {\k40}far {\k19}a{\k52}way
+Comment: 0,0:01:29.72,0:01:36.11,Sample KM [Up],,0,0,0,karaoke,{\k16}O{\k44}bli{\k29}vi{\k29}on {\k57}calls {\k39}out {\k76}my {\kf349}name
+Comment: 0,0:01:36.90,0:01:42.83,Sample KM [Up],,0,0,0,karaoke,{\k45}Meet {\k69}me {\k82}by {\k74}the {\k75}bro{\k77}ken {\kf171}gates
+Comment: 0,0:01:43.07,0:01:48.77,Sample KM [Up],,0,0,0,karaoke,{\k39}Bid {\k73}the {\k82}light {\k76}one {\k79}last {\k77}em{\kf144}brace
+Comment: 0,0:01:49.26,0:01:54.10,Sample KM [Up],,0,0,0,karaoke,{\k39}God {\k39}it {\k73}feels {\k36}good {\k42}to {\k26}pre{\kf229}tend
+Comment: 0,0:01:54.68,0:02:00.49,Sample KM [Up],,0,0,0,karaoke,{\k67}Don't {\kf124}look {\kf118}down, {\k79}don't {\kf112}look {\k81}down
+Comment: 0,0:02:00.89,0:02:04.10,Sample KM [Up],,0,0,0,karaoke,{\k76}Just {\k37}leave {\k37}time {\k36}to {\k46}sus{\kf89}pend
+Comment: 0,0:02:04.36,0:02:10.88,Sample KM [Up],,0,0,0,karaoke,{\k39}We're {\k38}safe {\k40}right {\k39}here {\k34}un{\k40}til {\k42}we {\k38}meet {\k36}a{\kf306}gain
+Comment: 0,0:02:16.37,0:02:18.49,Sample KM [Up],,0,0,0,karaoke,{\k20\i1}Yet {\k21}when {\k35}I {\k24}stare {\k8}in{\k9}to {\k19}the {\k37}dar{\k39}kness
+Comment: 0,0:02:18.49,0:02:20.24,Sample KM [Up],,0,0,0,karaoke,{\k16\i1}The {\k47}void {\k11}be{\k31}gins {\k30}to {\k40}speak{\i0}
+Dialogue: 0,0:00:18.08,0:00:25.07,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}A {\kf116}shoo{\k36}ting {\kf119}star {\k36}falls {\kf115}through {\k43}the {\k78}sea
+Dialogue: 0,0:00:24.66,0:00:31.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf125}Floa{\k35}ting {\kf123}down {\k33}in{\kf116}to {\k27}my {\k69}dreams
+Dialogue: 0,0:00:29.96,0:00:33.87,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Your {\k30}e{\k19}cho {\k43}cries {\k54}from {\k44}far {\k23}a{\k43}way
+Dialogue: 0,0:00:33.06,0:00:37.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}O{\k42}bli{\k25}vi{\k34}on {\k59}calls {\k37}out {\k41}my {\k34}name
+Dialogue: 0,0:00:36.43,0:00:44.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Ne{\k40}ver {\k74}mind {\k81}what {\k70}I {\k82}be{\kf271}came
+Dialogue: 0,0:00:43.31,0:00:50.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Meet {\k76}me {\k79}by {\k79}the {\k76}bro{\k77}ken {\kf155}gates
+Dialogue: 0,0:00:49.53,0:00:56.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Bid {\k78}the {\k76}light {\k78}one {\k77}last {\k79}em{\kf154}brace
+Dialogue: 0,0:00:55.70,0:01:00.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}God {\k39}it {\k77}feels {\k35}good {\k42}to {\k35}pre{\kf127}tend
+Dialogue: 0,0:00:59.99,0:01:06.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Un{\k49}til {\k37}we {\k40}meet {\k36}a{\kf305}gain
+Dialogue: 0,0:01:13.93,0:01:17.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}Rea{\k20}ching {\k38}through {\k40}the {\k39}sta{\kf116}tic
+Dialogue: 0,0:01:17.02,0:01:20.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Feel {\k17}my {\k39}hands {\k38}go {\k78}numb
+Dialogue: 0,0:01:20.50,0:01:23.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Night{\k29}mares {\k8}are {\k41}brea{\kf92}thing
+Dialogue: 0,0:01:22.62,0:01:26.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}I {\k12}don't {\k29}know {\k16}where {\k20}they're {\k58}co{\k48}ming {\k70}from
+Dialogue: 0,0:01:25.72,0:01:29.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Your {\k36}e{\k19}cho {\k40}cries {\k59}from {\k40}far {\k19}a{\k52}way
+Dialogue: 0,0:01:28.82,0:01:36.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}O{\k44}bli{\k29}vi{\k29}on {\k57}calls {\k39}out {\k76}my {\kf349}name
+Dialogue: 0,0:01:36.00,0:01:43.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Meet {\k69}me {\k82}by {\k74}the {\k75}bro{\k77}ken {\kf171}gates
+Dialogue: 0,0:01:42.17,0:01:48.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Bid {\k73}the {\k82}light {\k76}one {\k79}last {\k77}em{\kf144}brace
+Dialogue: 0,0:01:48.36,0:01:54.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}God {\k39}it {\k73}feels {\k36}good {\k42}to {\k26}pre{\kf229}tend
+Dialogue: 0,0:01:53.78,0:02:00.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k67}Don't {\kf124}look {\kf118}down, {\k79}don't {\kf112}look {\k81}down
+Dialogue: 0,0:01:59.99,0:02:04.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k76}Just {\k37}leave {\k37}time {\k36}to {\k46}sus{\kf89}pend
+Dialogue: 0,0:02:03.46,0:02:11.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}We're {\k38}safe {\k40}right {\k39}here {\k34}un{\k40}til {\k42}we {\k38}meet {\k36}a{\kf306}gain
+Dialogue: 0,0:02:15.47,0:02:18.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20\i1}Yet {\k21}when {\k35}I {\k24}stare {\k8}in{\k9}to {\k19}the {\k37}dar{\k39}kness
+Dialogue: 0,0:02:17.59,0:02:20.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16\i1}The {\k47}void {\k11}be{\k31}gins {\k30}to {\k40}speak{\i0}
