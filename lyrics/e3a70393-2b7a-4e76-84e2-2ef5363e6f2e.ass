@@ -4,46 +4,46 @@ ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: None
-PlayResX: 1280
-PlayResY: 720
+PlayResX: 0
+PlayResY: 0
 Original Timing: Nabashi
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,53,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,4.5,0,8,15,15,15,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:20.90,0:00:22.90,Default,,0,0,0,template pre-line all keeptags,!retime("line",($lstart<1000) and -$lstart or -1000,100)!{\fade(255,0,255,0,!($lstart<1000) and ($lstart-150) or 850!,!1000 + $ldur!,!1100 + $ldur!)\k!($lstart<1000) and ($lstart-100)/10 or 90!}
-Comment: 0,0:00:22.90,0:00:25.68,Default,,0,0,0,karaoke,{\k14}ka{\k31}kat{\k11}te {\k26}koi {\k33}yo {\k31}sou {\k26}sa{\k33}ken{\k21}da {\k52}ze {\k0}
-Comment: 0,0:00:26.49,0:00:30.85,Default,,0,0,0,karaoke,{\k27}sou {\k17}o{\k13}mo{\k30}t{\k16}te{\k25}na{\k19}i {\k14}to{\k41}ki {\k19}mo {\k34}at{\k16}te {\k7}shi{\k20}ma{\k21}u {\k15}de{\k45}sho{\k57}u {\k0}
-Comment: 0,0:00:32.13,0:00:35.38,Default,,0,0,0,karaoke,{\k15}ko{\k19}ta{\k21}e {\k15}wo {\k14}mi{\k9}tsu{\k23}ke{\k15}ta{\k15}n {\k19}ja{\k39}na{\k25}ku{\k96}te {\k0}
-Comment: 0,0:00:35.60,0:00:40.10,Default,,0,0,0,karaoke,{\k12}o{\k18}ma{\k12}e {\k14}to {\k40}ta{\k7}bi {\k14}shi{\k42}ta {\k17}ka{\k31}ra {\k23}tte {\k42}da{\k17}ke {\k37}na {\k20}no {\k42}ka{\k62}mo {\k0}
-Comment: 0,0:00:41.46,0:00:45.55,Default,,0,0,0,karaoke,{\k49}mo{\k18}ga{\k22}i{\k57}te{\k30}mo {\k26}DARK{\k34}NESS {\k48}FALLS {\k40}IN {\k85}TIME {\k0}
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:22.90,0:00:25.68,Default,,0,0,0,karaoke,{\k14}ka{\k31}kat{\k11}te {\k26}koi {\k33}yo {\k31}sou {\k26}sa{\k33}ken{\k21}da {\k52}ze
+Comment: 0,0:00:26.49,0:00:30.85,Default,,0,0,0,karaoke,{\k27}sou {\k17}o{\k13}mo{\k30}t{\k16}te{\k25}na{\k19}i {\k14}to{\k41}ki {\k19}mo {\k34}at{\k16}te {\k7}shi{\k20}ma{\k21}u {\k15}de{\k45}sho{\k57}u
+Comment: 0,0:00:32.13,0:00:35.38,Default,,0,0,0,karaoke,{\k15}ko{\k19}ta{\k21}e {\k15}wo {\k14}mi{\k9}tsu{\k23}ke{\k15}ta{\k15}n {\k19}ja{\k39}na{\k25}ku{\k96}te
+Comment: 0,0:00:35.60,0:00:40.10,Default,,0,0,0,karaoke,{\k12}o{\k18}ma{\k12}e {\k14}to {\k40}ta{\k7}bi {\k14}shi{\k42}ta {\k17}ka{\k31}ra {\k23}tte {\k42}da{\k17}ke {\k37}na {\k20}no {\k42}ka{\k62}mo
+Comment: 0,0:00:41.46,0:00:45.55,Default,,0,0,0,karaoke,{\k49}mo{\k18}ga{\k22}i{\k57}te{\k30}mo {\k26}DARK{\k34}NESS {\k48}FALLS {\k40}IN {\k85}TIME
 Comment: 0,0:00:45.93,0:00:50.37,Default,,0,0,0,karaoke,{\k18}fu{\k37}ka{\k13}i {\k38}yo{\k56}ku {\k61}ga {\k29}ON {\k41}STREETS {\k34}A{\k117}LIGNED
-Comment: 0,0:00:50.66,0:00:55.70,Default,,0,0,0,karaoke,{\k42}dou {\k42}yat{\k63}te {\k29}ko{\k29}ko {\k31}ni {\k37}ki{\k54}ta {\k54}no {\k57}ka {\k66}na {\k0}
-Comment: 0,0:00:56.20,0:00:58.42,Default,,0,0,0,karaoke,{\k13}wa{\k37}su{\k36}re{\k25}te {\k11}shi{\k53}mat{\k47}ta {\k0}
-Comment: 0,0:00:59.63,0:01:04.69,Default,,0,0,0,karaoke,{\k26}mi{\k8}tsu{\k40}kat{\k44}te {\k30}na{\k34}ku{\k13}shi{\k35}te {\k31}wa{\k44}ka{\k40}ra{\k19}na{\k17}i {\k40}ma{\k46}ma {\k39}de {\k0}
+Comment: 0,0:00:50.66,0:00:55.70,Default,,0,0,0,karaoke,{\k42}dou {\k42}yat{\k63}te {\k29}ko{\k29}ko {\k31}ni {\k37}ki{\k54}ta {\k54}no {\k57}ka {\k66}na
+Comment: 0,0:00:56.20,0:00:58.42,Default,,0,0,0,karaoke,{\k13}wa{\k37}su{\k36}re{\k25}te {\k11}shi{\k53}mat{\k47}ta
+Comment: 0,0:00:59.63,0:01:04.69,Default,,0,0,0,karaoke,{\k26}mi{\k8}tsu{\k40}kat{\k44}te {\k30}na{\k34}ku{\k13}shi{\k35}te {\k31}wa{\k44}ka{\k40}ra{\k19}na{\k17}i {\k40}ma{\k46}ma {\k39}de
 Comment: 0,0:01:04.90,0:01:06.56,Default,,0,0,0,karaoke,{\k28}FATE {\k22}SOME{\k33}HOW {\k29}BRINGS {\k17}ME {\k23}HOPE
 Comment: 0,0:01:06.57,0:01:08.74,Default,,0,0,0,karaoke,{\k37}IN{\k50}SIDE {\k39}MY {\k106}HEART
-Comment: 0,0:01:08.90,0:01:14.10,Default,,0,0,0,karaoke,{\k29}o{\k44}kot{\k38}te {\k20}wa{\k48}rat{\k21}te {\k27}na{\k13}i{\k64}te {\k40}nan{\k16}te {\k14}shi{\k43}mat{\k46}tat{\k57}te {\k0}
+Comment: 0,0:01:08.90,0:01:14.10,Default,,0,0,0,karaoke,{\k29}o{\k44}kot{\k38}te {\k20}wa{\k48}rat{\k21}te {\k27}na{\k13}i{\k64}te {\k40}nan{\k16}te {\k14}shi{\k43}mat{\k46}tat{\k57}te
 Comment: 0,0:01:14.11,0:01:15.79,Default,,0,0,0,karaoke,{\k26}FATE {\k24}SOME{\k37}HOW {\k31}BRINGS {\k22}ME {\k28}HOPE
 Comment: 0,0:01:15.80,0:01:18.11,Default,,0,0,0,karaoke,{\k21}IN{\k50}SIDE {\k37}MY {\k123}HEART
 Comment: 0,0:01:19.35,0:01:22.02,Default,,0,0,0,karaoke,{\k15}IN{\k51}SIDE {\k38}MY {\k163}HEART
 Comment: 0,0:01:24.85,0:01:27.82,Default,,0,0,0,karaoke,{\k40}IN{\k51}SIDE {\k38}MY {\k168}HEART
-Dialogue: 0,0:00:21.90,0:00:25.78,Default,,0,0,0,fx,{\fade(255,0,255,0,850,3780,3880)\k90}{\k14}ka{\k31}kat{\k11}te {\k26}koi {\k33}yo {\k31}sou {\k26}sa{\k33}ken{\k21}da {\k52}ze {\k0}
-Dialogue: 0,0:00:25.49,0:00:30.95,Default,,0,0,0,fx,{\fade(255,0,255,0,850,5360,5460)\k90}{\k27}sou {\k17}o{\k13}mo{\k30}t{\k16}te{\k25}na{\k19}i {\k14}to{\k41}ki {\k19}mo {\k34}at{\k16}te {\k7}shi{\k20}ma{\k21}u {\k15}de{\k45}sho{\k57}u {\k0}
-Dialogue: 0,0:00:31.13,0:00:35.48,Default,,0,0,0,fx,{\fade(255,0,255,0,850,4250,4350)\k90}{\k15}ko{\k19}ta{\k21}e {\k15}wo {\k14}mi{\k9}tsu{\k23}ke{\k15}ta{\k15}n {\k19}ja{\k39}na{\k25}ku{\k96}te {\k0}
-Dialogue: 0,0:00:34.60,0:00:40.20,Default,,0,0,0,fx,{\fade(255,0,255,0,850,5500,5600)\k90}{\k12}o{\k18}ma{\k12}e {\k14}to {\k40}ta{\k7}bi {\k14}shi{\k42}ta {\k17}ka{\k31}ra {\k23}tte {\k42}da{\k17}ke {\k37}na {\k20}no {\k42}ka{\k62}mo {\k0}
-Dialogue: 0,0:00:40.46,0:00:45.65,Default,,0,0,0,fx,{\fade(255,0,255,0,850,5090,5190)\k90}{\k49}mo{\k18}ga{\k22}i{\k57}te{\k30}mo {\k26}DARK{\k34}NESS {\k48}FALLS {\k40}IN {\k85}TIME {\k0}
-Dialogue: 0,0:00:44.93,0:00:50.47,Default,,0,0,0,fx,{\fade(255,0,255,0,850,5440,5540)\k90}{\k18}fu{\k37}ka{\k13}i {\k38}yo{\k56}ku {\k61}ga {\k29}ON {\k41}STREETS {\k34}A{\k117}LIGNED
-Dialogue: 0,0:00:49.66,0:00:55.80,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6040,6140)\k90}{\k42}dou {\k42}yat{\k63}te {\k29}ko{\k29}ko {\k31}ni {\k37}ki{\k54}ta {\k54}no {\k57}ka {\k66}na {\k0}
-Dialogue: 0,0:00:55.20,0:00:58.52,Default,,0,0,0,fx,{\fade(255,0,255,0,850,3220,3320)\k90}{\k13}wa{\k37}su{\k36}re{\k25}te {\k11}shi{\k53}mat{\k47}ta {\k0}
-Dialogue: 0,0:00:58.63,0:01:04.79,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6060,6160)\k90}{\k26}mi{\k8}tsu{\k40}kat{\k44}te {\k30}na{\k34}ku{\k13}shi{\k35}te {\k31}wa{\k44}ka{\k40}ra{\k19}na{\k17}i {\k40}ma{\k46}ma {\k39}de {\k0}
-Dialogue: 0,0:01:03.90,0:01:06.66,Default,,0,0,0,fx,{\fade(255,0,255,0,850,2660,2760)\k90}{\k28}FATE {\k22}SOME{\k33}HOW {\k29}BRINGS {\k17}ME {\k23}HOPE
-Dialogue: 0,0:01:05.57,0:01:08.84,Default,,0,0,0,fx,{\fade(255,0,255,0,850,3170,3270)\k90}{\k37}IN{\k50}SIDE {\k39}MY {\k106}HEART
-Dialogue: 0,0:01:07.90,0:01:14.20,Default,,0,0,0,fx,{\fade(255,0,255,0,850,6200,6300)\k90}{\k29}o{\k44}kot{\k38}te {\k20}wa{\k48}rat{\k21}te {\k27}na{\k13}i{\k64}te {\k40}nan{\k16}te {\k14}shi{\k43}mat{\k46}tat{\k57}te {\k0}
-Dialogue: 0,0:01:13.11,0:01:15.89,Default,,0,0,0,fx,{\fade(255,0,255,0,850,2680,2780)\k90}{\k26}FATE {\k24}SOME{\k37}HOW {\k31}BRINGS {\k22}ME {\k28}HOPE
-Dialogue: 0,0:01:14.80,0:01:18.21,Default,,0,0,0,fx,{\fade(255,0,255,0,850,3310,3410)\k90}{\k21}IN{\k50}SIDE {\k37}MY {\k123}HEART
-Dialogue: 0,0:01:18.35,0:01:22.12,Default,,0,0,0,fx,{\fade(255,0,255,0,850,3670,3770)\k90}{\k15}IN{\k51}SIDE {\k38}MY {\k163}HEART
-Dialogue: 0,0:01:23.85,0:01:27.92,Default,,0,0,0,fx,{\fade(255,0,255,0,850,3970,4070)\k90}{\k40}IN{\k51}SIDE {\k38}MY {\k168}HEART
+Dialogue: 0,0:00:22.00,0:00:25.88,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ka{\k31}kat{\k11}te {\k26}koi {\k33}yo {\k31}sou {\k26}sa{\k33}ken{\k21}da {\k52}ze
+Dialogue: 0,0:00:25.59,0:00:31.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k27}sou {\k17}o{\k13}mo{\k30}t{\k16}te{\k25}na{\k19}i {\k14}to{\k41}ki {\k19}mo {\k34}at{\k16}te {\k7}shi{\k20}ma{\k21}u {\k15}de{\k45}sho{\k57}u
+Dialogue: 0,0:00:31.23,0:00:35.58,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ko{\k19}ta{\k21}e {\k15}wo {\k14}mi{\k9}tsu{\k23}ke{\k15}ta{\k15}n {\k19}ja{\k39}na{\k25}ku{\k96}te
+Dialogue: 0,0:00:34.70,0:00:40.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k12}o{\k18}ma{\k12}e {\k14}to {\k40}ta{\k7}bi {\k14}shi{\k42}ta {\k17}ka{\k31}ra {\k23}tte {\k42}da{\k17}ke {\k37}na {\k20}no {\k42}ka{\k62}mo
+Dialogue: 0,0:00:40.56,0:00:45.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k49}mo{\k18}ga{\k22}i{\k57}te{\k30}mo {\k26}DARK{\k34}NESS {\k48}FALLS {\k40}IN {\k85}TIME
+Dialogue: 0,0:00:45.03,0:00:50.57,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}fu{\k37}ka{\k13}i {\k38}yo{\k56}ku {\k61}ga {\k29}ON {\k41}STREETS {\k34}A{\k117}LIGNED
+Dialogue: 0,0:00:49.76,0:00:55.90,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}dou {\k42}yat{\k63}te {\k29}ko{\k29}ko {\k31}ni {\k37}ki{\k54}ta {\k54}no {\k57}ka {\k66}na
+Dialogue: 0,0:00:55.30,0:00:58.62,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}wa{\k37}su{\k36}re{\k25}te {\k11}shi{\k53}mat{\k47}ta
+Dialogue: 0,0:00:58.73,0:01:04.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}mi{\k8}tsu{\k40}kat{\k44}te {\k30}na{\k34}ku{\k13}shi{\k35}te {\k31}wa{\k44}ka{\k40}ra{\k19}na{\k17}i {\k40}ma{\k46}ma {\k39}de
+Dialogue: 0,0:01:04.00,0:01:06.76,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k28}FATE {\k22}SOME{\k33}HOW {\k29}BRINGS {\k17}ME {\k23}HOPE
+Dialogue: 0,0:01:05.67,0:01:08.94,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}IN{\k50}SIDE {\k39}MY {\k106}HEART
+Dialogue: 0,0:01:08.00,0:01:14.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}o{\k44}kot{\k38}te {\k20}wa{\k48}rat{\k21}te {\k27}na{\k13}i{\k64}te {\k40}nan{\k16}te {\k14}shi{\k43}mat{\k46}tat{\k57}te
+Dialogue: 0,0:01:13.21,0:01:15.99,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k26}FATE {\k24}SOME{\k37}HOW {\k31}BRINGS {\k22}ME {\k28}HOPE
+Dialogue: 0,0:01:14.90,0:01:18.31,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}IN{\k50}SIDE {\k37}MY {\k123}HEART
+Dialogue: 0,0:01:18.45,0:01:22.22,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}IN{\k51}SIDE {\k38}MY {\k163}HEART
+Dialogue: 0,0:01:23.95,0:01:28.02,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k40}IN{\k51}SIDE {\k38}MY {\k168}HEART
