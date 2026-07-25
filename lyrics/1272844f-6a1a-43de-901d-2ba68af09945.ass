@@ -1,0 +1,40 @@
+﻿[Script Info]
+Title: Ta ga Tame ni
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Choir],Arial,24,&H001819FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:20.07,0:00:27.10,Sample KM [Up],,0,0,0,karaoke,{\k23}fu{\k21}ki{\k35}su{\k38}sa{\k20}bu {\k46}ka{\k48}ze {\kf93}ga{\k46} {\k29}yo{\k28}ku {\kf87}ni{\k56}a{\kf72}~{\k61}u
+Comment: 0,0:00:27.57,0:00:35.02,Sample KM [Up],,0,0,0,karaoke,{\k28}ku{\k26}ni{\k64}n {\k22}no {\k34}se{\k33}n{\k26}ki {\k141}to {\k49}hi{\k87}to {\k52}no {\k47}i{\k136}u
+Comment: 0,0:00:37.43,0:00:40.77,Sample KM [Up],,0,0,0,karaoke,{\k22}da{\k22}ga {\k25}wa{\k20}re{\k20}wa{\k17}re {\k60}wa {\k27}a{\k19}i {\k31}no {\k21}ta{\k50}me
+Comment: 0,0:00:41.15,0:00:44.41,Sample KM [Up],,0,0,0,karaoke,{\k13}ta{\k11}ta{\k10}ka{\k11}i {\k18}wa{\k9}su{\k14}re{\k104}ta {\k24}hi{\k23}to {\k22}no {\k13}ta{\k54}me
+Comment: 0,0:00:44.69,0:00:48.17,Sample KM [Up],,0,0,0,karaoke,{\k28}na{\k20}mi{\k22}da {\k22}de {\k21}wa{\k31}ta{\k27}ru {\k20}chi {\k21}no {\k70}ta{\k22}i{\k44}ga
+Comment: 0,0:00:48.50,0:00:56.70,Sample KM [Up],,0,0,0,karaoke,{\k19}yu{\k28}me{\k17}mi{\k22}te {\k24}ha{\k24}shi{\k24}ru {\k22}shi {\k23}no {\kf350}ko{\k24}u{\kf243}ya
+Comment: 0,0:00:57.97,0:00:59.46,Sample KM [Up],,0,0,0,karaoke,{\k53}CY{\k41}BORG {\k31}sen{\k24}shi
+Comment: 0,0:00:59.70,0:01:03.10,Sample KM [Up],,0,0,0,karaoke,{\k23}ta{\k68}ga {\k13}ta{\k14}me {\k45}ni {\k29}ta{\k27}ta{\k30}ka{\k91}u
+Comment: 0,0:01:03.67,0:01:05.09,Sample KM [Up],,0,0,0,karaoke,{\k48}CY{\k42}BORG {\k26}sen{\k26}shi
+Comment: 0,0:01:05.31,0:01:12.97,Sample KM [Up],,0,0,0,karaoke,{\k27}ta{\k59}ga {\k13}ta{\k17}me {\k48}ni {\k30}ta{\k25}ta{\k37}ka{\k130}u {\k81}YEAH {\kf299}YEAH
+Comment: 0,0:01:13.52,0:01:15.58,Sample KM [Choir],,0,0,0,karaoke,{\kf114}UH {\kf92}YEAH
+Dialogue: 0,0:00:19.17,0:00:27.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}fu{\k21}ki{\k35}su{\k38}sa{\k20}bu {\k46}ka{\k48}ze {\kf93}ga{\k46} {\k29}yo{\k28}ku {\kf87}ni{\k56}a{\kf72}~{\k61}u
+Dialogue: 0,0:00:26.67,0:00:35.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}ku{\k26}ni{\k64}n {\k22}no {\k34}se{\k33}n{\k26}ki {\k141}to {\k49}hi{\k87}to {\k52}no {\k47}i{\k136}u
+Dialogue: 0,0:00:36.53,0:00:40.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}da{\k22}ga {\k25}wa{\k20}re{\k20}wa{\k17}re {\k60}wa {\k27}a{\k19}i {\k31}no {\k21}ta{\k50}me
+Dialogue: 0,0:00:40.25,0:00:44.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}ta{\k11}ta{\k10}ka{\k11}i {\k18}wa{\k9}su{\k14}re{\k104}ta {\k24}hi{\k23}to {\k22}no {\k13}ta{\k54}me
+Dialogue: 0,0:00:43.79,0:00:48.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}na{\k20}mi{\k22}da {\k22}de {\k21}wa{\k31}ta{\k27}ru {\k20}chi {\k21}no {\k70}ta{\k22}i{\k44}ga
+Dialogue: 0,0:00:47.60,0:00:56.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}yu{\k28}me{\k17}mi{\k22}te {\k24}ha{\k24}shi{\k24}ru {\k22}shi {\k23}no {\kf350}ko{\k24}u{\kf243}ya
+Dialogue: 0,0:00:57.07,0:00:59.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}CY{\k41}BORG {\k31}sen{\k24}shi
+Dialogue: 0,0:00:58.80,0:01:03.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}ta{\k68}ga {\k13}ta{\k14}me {\k45}ni {\k29}ta{\k27}ta{\k30}ka{\k91}u
+Dialogue: 0,0:01:02.77,0:01:05.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}CY{\k42}BORG {\k26}sen{\k26}shi
+Dialogue: 0,0:01:04.41,0:01:13.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}ta{\k59}ga {\k13}ta{\k17}me {\k48}ni {\k30}ta{\k25}ta{\k37}ka{\k130}u {\k81}YEAH {\kf299}YEAH
+Dialogue: 0,0:01:12.62,0:01:15.78,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf114}UH {\kf92}YEAH
