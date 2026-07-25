@@ -1,0 +1,87 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: SUNFADED
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Hiro,Arial,24,&H00FFFFFF,&H0048C2E1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: HiroChoir,Arial,24,&H0048C2E1,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,100,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Hiro,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:21.10,0:00:28.87,Hiro,,0,0,0,karaoke,{\k111}aa {\k38}hi{\k16}ya{\k26}ke {\k30}to{\k133}me {\k30}nu{\k14}ra{\k28}na{\k46}i {\k56}ma{\k60}ma {\k60}de {\k27}i{\k60}ta {\k42}na
+Comment: 0,0:00:29.44,0:00:33.58,Hiro,,0,0,0,karaoke,{\k20}a{\k26}n{\k32}na {\k57}ni {\k82}mo {\k30}oo{\k32}ki{\k28}na {\k44}ko{\k16}e {\k47}ga
+Comment: 0,0:00:33.99,0:00:39.87,Hiro,,0,0,0,karaoke,{\k27}ha{\k29}da {\k29}su{\k33}re{\k15}su{\k20}re {\k165}ni {\k125}ku{\k52}ru {\k32}ko{\k28}to {\k33}mo
+Comment: 0,0:00:39.86,0:00:47.63,Hiro,,0,0,0,karaoke,{\k116}hi{\k27}ka{\k17}ri {\k30}wa {\k29}yu{\k137}bi{\k25}wa {\k15}mi{\k25}ta{\k49}i {\k58}ni {\k56}na{\k64}ru {\k24}ko{\k64}to {\k41}mo
+Comment: 0,0:00:48.02,0:00:52.27,Hiro,,0,0,0,karaoke,{\k31}i{\k35}zu{\k24}re {\k37}ze{\k23}n{\k70}bu {\k15}a{\k29}ka{\k29}ru{\k30}i {\k41}mi{\k22}chi {\k39}no
+Comment: 0,0:00:52.69,0:00:59.07,Hiro,,0,0,0,karaoke,{\k34}hi{\k26}mi{\k31}tsu {\k45}no {\k17}you {\kf113}ni{\k56} {\k129}o{\k51}mo{\k28}i{\k28}da{\k80}su
+Comment: 0,0:01:00.40,0:01:04.28,Hiro,,0,0,0,karaoke,{\k24}a{\k118}a {\k23}bo{\k34}ku{\k27}ta{\k33}chi {\kf129}wa
+Comment: 0,0:01:05.03,0:01:08.37,Hiro,,0,0,0,karaoke,{\k26}i{\k119}tsu {\k34}de{\k29}a{\k30}u {\k26}da{\k70}rou
+Comment: 0,0:01:08.82,0:01:10.94,Hiro,,0,0,0,karaoke,{\k31}de{\k29}a{\k26}u {\k29}to{\k62}ki {\k35}wa
+Comment: 0,0:01:11.44,0:01:15.67,Hiro,,0,0,0,karaoke,{\k30}bo{\k31}ku {\k29}ni {\k37}tot{\k93}te {\k19}ta{\k25}da{\k36}shi{\k28}i {\k33}hi{\k23}to {\k39}no
+Comment: 0,0:01:16.14,0:01:21.40,Hiro,,0,0,0,karaoke,{\k37}bo{\k24}ku {\k25}ni {\k45}tot{\k87}te {\k21}ta{\k22}da{\k34}shi{\k25}i {\k44}ko{\k15}e {\k64}de {\k49}i{\k34}ru
+Comment: 0,0:01:40.75,0:01:46.30,Hiro,,0,0,0,karaoke,{\k85}a{\k32}so{\k25}bu {\k29}yu{\k30}bi{\k53}sa{\k23}ki {\k102}ya {\k27}ma{\k26}tsu{\k34}ge {\k89}ya
+Comment: 0,0:01:46.57,0:01:53.40,Hiro,,0,0,0,karaoke,{\k33}ka{\k28}mi{\k29}do{\k59}me {\k143}ga {\k33}a{\k201}na{\k29}ta{\k46}ta{\k14}chi {\k68}no
+Comment: 0,0:01:53.86,0:01:58.10,Hiro,,0,0,0,karaoke,{\k30}su{\k33}ga{\k56}ta {\k146}wo {\k27}o{\k29}bo{\k17}e{\k15}te {\k53}'ru
+Comment: 0,0:01:58.53,0:02:02.79,Hiro,,0,0,0,karaoke,{\k33}ki{\k31}ra{\k29}me{\k87}ki {\k27}to {\k20}ku{\k18}ra{\k15}ya{\k12}mi {\k24}no {\k30}so{\k31}u {\k69}ni
+Comment: 0,0:02:03.28,0:02:12.69,Hiro,,0,0,0,karaoke,{\k29}o{\k31}do{\k40}ri{\k26}i{\k50}ru {\k25}bo{\k31}ku {\k28}no {\k33}ko{\k49}to {\k100}wo {\k21}da{\k31}re {\k29}ka {\k110}ga {\k124}mi{\k107}te{\k77}ru
+Comment: 0,0:02:13.13,0:02:18.08,Hiro,,0,0,0,karaoke,{\k37}an{\k41}shin {\k32}shi{\k47}te {\k37}bo{\k35}ku {\k44}wa {\k38}ka{\k36}e{\k42}ra{\k56}nai {\k14}ho{\k20}ra {\k16}ne
+Comment: 0,0:02:35.47,0:02:37.54,Hiro,,0,0,0,karaoke,{\k55}do{\k31}ko {\k31}de {\kf90}mo
+Comment: 0,0:02:38.65,0:02:42.42,Hiro,,0,0,0,karaoke,{\k39}a{\k112}a {\k29}na{\k27}n{\k31}do {\k32}de{\kf107}mo
+Comment: 0,0:02:43.36,0:02:46.55,Hiro,,0,0,0,karaoke,{\k30}me {\k112}wo {\k34}tsu{\k27}bu{\k29}ru {\k35}ho{\k52}do
+Comment: 0,0:02:47.12,0:02:49.32,Hiro,,0,0,0,karaoke,{\k33}hi {\k29}ga {\k21}sa{\k31}su {\k38}ho{\k28}u {\k40}de
+Comment: 0,0:02:49.81,0:02:51.91,Hiro,,0,0,0,karaoke,{\k26}bo{\k30}ku {\k30}wa {\k44}iu{\k80}~
+Comment: 0,0:02:52.13,0:02:54.22,Hiro,,0,0,0,karaoke,{\k37}bo{\k27}ku {\k22}wa {\k48}kin{\k19}ji{\k56}ru
+Comment: 0,0:02:54.46,0:02:56.47,Hiro,,0,0,0,karaoke,{\k32}bo{\k29}ku {\k30}wa {\k29}o{\k17}bo{\k20}e{\k44}ru
+Comment: 0,0:02:56.79,0:02:58.82,Hiro,,0,0,0,karaoke,{\k30}bo{\k33}ku {\k20}wa {\k14}o{\k40}no{\k14}no{\k52}ku
+Comment: 0,0:02:59.15,0:03:01.01,Hiro,,0,0,0,karaoke,{\k29}bo{\k32}ku {\k17}wa {\k11}o{\k44}do{\k53}ru
+Comment: 0,0:03:01.50,0:03:03.34,Hiro,,0,0,0,karaoke,{\k29}bo{\k32}ku {\k17}wa {\k13}u{\k39}ma{\k20}re{\k34}ru
+Comment: 0,0:03:03.81,0:03:05.79,Hiro,,0,0,0,karaoke,{\k24}bo{\k37}ku {\k12}wa {\k19}a{\k43}se{\k63}ru
+Comment: 0,0:03:06.16,0:03:09.21,Hiro,,0,0,0,karaoke,{\k35}bo{\k27}ku {\k29}wa {\k43}han{\k16}da{\k56}n {\k18}su{\k81}ru
+Comment: 0,0:03:09.69,0:03:12.13,HiroChoir,,0,0,0,karaoke,{\k23}Th-{\k12}th-{\k11}th-{\k10}th-{\k10}th-{\k12}th-{\k39}things {\k16}made {\k34}me {\k19}who {\k23}I {\k20}be{\k15}came
+Comment: 0,0:03:12.22,0:03:14.25,HiroChoir,,0,0,0,karaoke,{\k16}To{\k27}day {\k27}with{\k17}out {\k15}know{\k25}ing {\k23}who {\k29}made {\k24}them
+Comment: 0,0:03:14.43,0:03:15.88,HiroChoir,,0,0,0,karaoke,{\k53}Tapes {\k29}re{\k32}cords {\k31}books
+Comment: 0,0:03:16.13,0:03:19.08,HiroChoir,,0,0,0,karaoke,{\k18}Eve{\k16}ry{\k21}thing {\k19}I {\k32}found {\k41}great {\k27}was {\k48}sun{\k41}fa{\k32}ded
+Dialogue: 0,0:00:20.20,0:00:29.07,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k111}aa {\k38}hi{\k16}ya{\k26}ke {\k30}to{\k133}me {\k30}nu{\k14}ra{\k28}na{\k46}i {\k56}ma{\k60}ma {\k60}de {\k27}i{\k60}ta {\k42}na
+Dialogue: 0,0:00:28.54,0:00:33.78,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k20}a{\k26}n{\k32}na {\k57}ni {\k82}mo {\k30}oo{\k32}ki{\k28}na {\k44}ko{\k16}e {\k47}ga
+Dialogue: 0,0:00:33.09,0:00:40.07,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ha{\k29}da {\k29}su{\k33}re{\k15}su{\k20}re {\k165}ni {\k125}ku{\k52}ru {\k32}ko{\k28}to {\k33}mo
+Dialogue: 0,0:00:38.96,0:00:47.83,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k116}hi{\k27}ka{\k17}ri {\k30}wa {\k29}yu{\k137}bi{\k25}wa {\k15}mi{\k25}ta{\k49}i {\k58}ni {\k56}na{\k64}ru {\k24}ko{\k64}to {\k41}mo
+Dialogue: 0,0:00:47.12,0:00:52.47,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k31}i{\k35}zu{\k24}re {\k37}ze{\k23}n{\k70}bu {\k15}a{\k29}ka{\k29}ru{\k30}i {\k41}mi{\k22}chi {\k39}no
+Dialogue: 0,0:00:51.79,0:00:59.27,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k34}hi{\k26}mi{\k31}tsu {\k45}no {\k17}you {\kf113}ni{\k56} {\k129}o{\k51}mo{\k28}i{\k28}da{\k80}su
+Dialogue: 0,0:00:59.50,0:01:04.48,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k24}a{\k118}a {\k23}bo{\k34}ku{\k27}ta{\k33}chi {\kf129}wa
+Dialogue: 0,0:01:04.13,0:01:08.57,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k26}i{\k119}tsu {\k34}de{\k29}a{\k30}u {\k26}da{\k70}rou
+Dialogue: 0,0:01:07.92,0:01:11.14,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k31}de{\k29}a{\k26}u {\k29}to{\k62}ki {\k35}wa
+Dialogue: 0,0:01:10.54,0:01:15.87,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k30}bo{\k31}ku {\k29}ni {\k37}tot{\k93}te {\k19}ta{\k25}da{\k36}shi{\k28}i {\k33}hi{\k23}to {\k39}no
+Dialogue: 0,0:01:15.24,0:01:21.60,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k37}bo{\k24}ku {\k25}ni {\k45}tot{\k87}te {\k21}ta{\k22}da{\k34}shi{\k25}i {\k44}ko{\k15}e {\k64}de {\k49}i{\k34}ru
+Dialogue: 0,0:01:39.85,0:01:46.50,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k85}a{\k32}so{\k25}bu {\k29}yu{\k30}bi{\k53}sa{\k23}ki {\k102}ya {\k27}ma{\k26}tsu{\k34}ge {\k89}ya
+Dialogue: 0,0:01:45.67,0:01:53.60,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ka{\k28}mi{\k29}do{\k59}me {\k143}ga {\k33}a{\k201}na{\k29}ta{\k46}ta{\k14}chi {\k68}no
+Dialogue: 0,0:01:52.96,0:01:58.30,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k30}su{\k33}ga{\k56}ta {\k146}wo {\k27}o{\k29}bo{\k17}e{\k15}te {\k53}'ru
+Dialogue: 0,0:01:57.63,0:02:02.99,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ki{\k31}ra{\k29}me{\k87}ki {\k27}to {\k20}ku{\k18}ra{\k15}ya{\k12}mi {\k24}no {\k30}so{\k31}u {\k69}ni
+Dialogue: 0,0:02:02.38,0:02:12.89,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k29}o{\k31}do{\k40}ri{\k26}i{\k50}ru {\k25}bo{\k31}ku {\k28}no {\k33}ko{\k49}to {\k100}wo {\k21}da{\k31}re {\k29}ka {\k110}ga {\k124}mi{\k107}te{\k77}ru
+Dialogue: 0,0:02:12.23,0:02:18.28,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k37}an{\k41}shin {\k32}shi{\k47}te {\k37}bo{\k35}ku {\k44}wa {\k38}ka{\k36}e{\k42}ra{\k56}nai {\k14}ho{\k20}ra {\k16}ne
+Dialogue: 0,0:02:34.57,0:02:37.74,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k55}do{\k31}ko {\k31}de {\kf90}mo
+Dialogue: 0,0:02:37.75,0:02:42.62,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k39}a{\k112}a {\k29}na{\k27}n{\k31}do {\k32}de{\kf107}mo
+Dialogue: 0,0:02:42.46,0:02:46.75,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k30}me {\k112}wo {\k34}tsu{\k27}bu{\k29}ru {\k35}ho{\k52}do
+Dialogue: 0,0:02:46.22,0:02:49.52,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k33}hi {\k29}ga {\k21}sa{\k31}su {\k38}ho{\k28}u {\k40}de
+Dialogue: 0,0:02:48.91,0:02:52.11,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k26}bo{\k30}ku {\k30}wa {\k44}iu{\k80}~
+Dialogue: 0,0:02:51.23,0:02:54.42,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k37}bo{\k27}ku {\k22}wa {\k48}kin{\k19}ji{\k56}ru
+Dialogue: 0,0:02:53.56,0:02:56.67,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k32}bo{\k29}ku {\k30}wa {\k29}o{\k17}bo{\k20}e{\k44}ru
+Dialogue: 0,0:02:55.89,0:02:59.02,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k30}bo{\k33}ku {\k20}wa {\k14}o{\k40}no{\k14}no{\k52}ku
+Dialogue: 0,0:02:58.25,0:03:01.21,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k29}bo{\k32}ku {\k17}wa {\k11}o{\k44}do{\k53}ru
+Dialogue: 0,0:03:00.60,0:03:03.54,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k29}bo{\k32}ku {\k17}wa {\k13}u{\k39}ma{\k20}re{\k34}ru
+Dialogue: 0,0:03:02.91,0:03:05.99,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k24}bo{\k37}ku {\k12}wa {\k19}a{\k43}se{\k63}ru
+Dialogue: 0,0:03:05.26,0:03:09.41,Hiro,,0,0,0,fx,{\k90\fad(300,200)}{\k35}bo{\k27}ku {\k29}wa {\k43}han{\k16}da{\k56}n {\k18}su{\k81}ru
+Dialogue: 0,0:03:08.79,0:03:12.33,HiroChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Th-{\k12}th-{\k11}th-{\k10}th-{\k10}th-{\k12}th-{\k39}things {\k16}made {\k34}me {\k19}who {\k23}I {\k20}be{\k15}came
+Dialogue: 0,0:03:11.32,0:03:14.45,HiroChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k16}To{\k27}day {\k27}with{\k17}out {\k15}know{\k25}ing {\k23}who {\k29}made {\k24}them
+Dialogue: 0,0:03:13.53,0:03:16.08,HiroChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k53}Tapes {\k29}re{\k32}cords {\k31}books
+Dialogue: 0,0:03:15.23,0:03:19.28,HiroChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Eve{\k16}ry{\k21}thing {\k19}I {\k32}found {\k41}great {\k27}was {\k48}sun{\k41}fa{\k32}ded
