@@ -1,0 +1,105 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Tanoshii no Tensai
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Rina,Arial,24,&H00FFFFFF,&H00E47BEC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: RinaChoir,Arial,24,&H00E47BEC,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:02.17,0:00:02.17,Rina,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.48,0:00:04.12,RinaChoir,,0,0,0,karaoke,{\k64}YEAH
+Comment: 0,0:00:05.20,0:00:05.99,RinaChoir,,0,0,0,karaoke,{\k74}WHOO
+Comment: 0,0:00:06.92,0:00:07.72,RinaChoir,,0,0,0,karaoke,{\k80}YEAH
+Comment: 0,0:00:08.66,0:00:09.59,RinaChoir,,0,0,0,karaoke,{\k19}COME {\k74}ON
+Comment: 0,0:00:09.89,0:00:12.63,RinaChoir,,0,0,0,karaoke,{\k63}saa {\k15}ma{\k17}ta {\k14}ma{\k19}ta {\k14}bu{\k12}ri {\k11}a{\k14}ge{\k12}te {\k13}i{\k15}ku {\k55}yoo
+Comment: 0,0:00:12.91,0:00:15.48,RinaChoir,,0,0,0,karaoke,{\k15}EVE{\k8}RY{\k15}BO{\k46}DY {\k25}tsui{\k11}te {\k11}ki{\k51}te {\k19}COME {\k104}ON
+Comment: 0,0:00:15.91,0:00:17.61,RinaChoir,,0,0,0,karaoke,{\k35}YEAH {\k30}YEAH {\k36}YEAH {\k31}YEAH {\k38}YEAH
+Comment: 0,0:00:17.58,0:00:19.31,RinaChoir,,0,0,0,karaoke,{\k36}WOW {\k37}WOW {\k31}WOW {\k29}WOW {\k40}WOW
+Comment: 0,0:00:19.28,0:00:20.95,RinaChoir,,0,0,0,karaoke,{\k37}YEAH {\k33}YEAH {\k35}YEAH {\k32}YEAH {\k30}YEAH
+Comment: 0,0:00:21.05,0:00:22.75,RinaChoir,,0,0,0,karaoke,{\k21}AL{\kf149}RIGHT
+Comment: 0,0:00:22.72,0:00:24.45,Rina,,0,0,0,karaoke,{\k18}ta{\k9}ma{\k11}go {\k11}ga {\k12}sa{\k10}ki {\k10}ka {\k11}ni{\k10}wa{\k10}to{\k13}ri {\k11}ga {\k10}sa{\k27}ki
+Comment: 0,0:00:24.42,0:00:25.99,Rina,,0,0,0,karaoke,{\k26}kan{\k16}ga{\k8}e{\k23}ta {\k11}tte {\k10}ko{\k9}ta{\k7}e {\k18}wa {\k29}nash'
+Comment: 0,0:00:25.95,0:00:27.62,Rina,,0,0,0,karaoke,{\k16}na{\k10}ra {\k19}is{\k26}so {\k21}zen{\k11}bu {\k9}wa{\k11}su{\k11}re{\k12}cha{\k21}e
+Comment: 0,0:00:27.69,0:00:29.39,Rina,,0,0,0,karaoke,{\k13}ta{\k11}no{\k32}shii {\k12}ko{\k9}to {\k11}da{\k11}ke {\k11}a{\k11}tsu{\k10}me{\k12}cha{\k27}e
+Comment: 0,0:00:29.62,0:00:30.99,Rina,,0,0,0,karaoke,{\k6}ki{\k15}nou {\k23}kyou {\k13}yo{\k10}ri {\k11}mo {\k4}a{\k9}su {\k14}wo {\k13}yu{\k19}ke
+Comment: 0,0:00:30.96,0:00:32.76,Rina,,0,0,0,karaoke,{\k18}ne{\k14}rai {\k18}sa{\k12}da{\k11}me{\k11}ru {\k9}yo{\k13}ri {\k8}mo {\k17}ka{\k10}zu {\k7}wo {\k12}u{\k20}te
+Comment: 0,0:00:32.73,0:00:34.39,Rina,,0,0,0,karaoke,{\k12}da{\k12}ja{\k13}re {\k7}mo {\k24}RA{\k11}P {\k10}mo {\k10}no{\k9}ri {\k13}ga {\k14}i{\k14}noch'
+Comment: 0,0:00:34.49,0:00:36.43,Rina,,0,0,0,karaoke,{\k23}su{\k11}ki{\k10}ru {\k9}yo{\k8}ri {\k12}mo {\k18}dai{\k13}ji {\k11}da {\k15}yo {\k15}ki{\k15}mo{\k34}chi
+Comment: 0,0:00:36.40,0:00:38.26,RinaChoir,,0,0,0,karaoke,{\k11}{\k26}YEAH {\k32}YEAH {\k40}YEAH {\k27}YEAH {\k50}YEAH
+Comment: 0,0:00:38.13,0:00:39.87,RinaChoir,,0,0,0,karaoke,{\k40}YEAH {\k34}YEAH {\k31}YEAH {\k32}YEAH {\k37}YEAH
+Comment: 0,0:00:39.83,0:00:41.63,RinaChoir,,0,0,0,karaoke,{\k37}WOW {\k37}WOW {\k31}WOW {\k34}WOW {\k41}WOW
+Comment: 0,0:00:43.37,0:00:50.18,Rina,,0,0,0,karaoke,{\kf145}aa {\k26}ku{\k44}da{\k20}ra{\kf92}nai{\k35} {\k22}jo{\k21}o{\k21}ku {\k30}wo {\k16}i{\k19}e{\k22}ru {\k45}kyo{\k21}u {\kf76}wa{\k26}
+Comment: 0,0:00:50.41,0:00:57.05,Rina,,0,0,0,karaoke,{\k17}i{\k27}tsu{\k22}mo{\k22}do{\k23}o{\k85}ri {\k18}he{\k22}i{\k26}bo{\k20}n {\k85}de {\k18}shi{\k20}a{\k45}wa{\k43}se {\k42}na {\k25}hi {\kf104}da
+Comment: 0,0:00:57.05,0:00:58.82,RinaChoir,,0,0,0,karaoke,{\k44}ONE {\k45}TWO {\k41}THREE {\k47}GO
+Comment: 0,0:00:58.92,0:01:02.19,Rina,,0,0,0,karaoke,{\k28}ta{\k17}no{\k44}shii {\k23}ka{\k22}ra {\k46}wa{\k21}ra{\k32}u{\k30}n {\k23}ja{\k19}na{\k22}ku
+Comment: 0,0:01:02.16,0:01:05.59,Rina,,0,0,0,karaoke,{\k26}wa{\k20}ra{\k21}u {\k25}ka{\k21}ra {\k20}ta{\k24}no{\k44}shi{\k42}in {\kf100}da
+Comment: 0,0:01:05.76,0:01:08.33,Rina,,0,0,0,karaoke,{\k30}ki{\k19}zu{\k23}ke{\k23}ba {\k21}mi{\k17}n{\k26}na {\k22}e{\k20}ga{\k25}o {\k31}da
+Comment: 0,0:01:08.29,0:01:12.53,Rina,,0,0,0,karaoke,{\k34}na{\k22}mi{\k23}da {\k39}wa {\k23}do{\k20}ko{\k27}ka {\k18}he {\k25}to{\k18}n{\k23}de{\k40}t{\kf112}ta
+Comment: 0,0:01:11.56,0:01:13.46,RinaChoir,,0,0,0,karaoke,{\k17}to{\k13}bi{\k12}ki{\k10}ri {\k41}BIG {\kf97}SMILE
+Comment: 0,0:01:12.60,0:01:15.80,Rina,,0,0,0,karaoke,{\k36}tsu{\k17}ma{\k22}ra{\k42}nai {\k22}ko{\k42}to {\k41}nan{\k25}te {\k73}nai
+Comment: 0,0:01:15.40,0:01:16.20,RinaChoir,,0,0,0,karaoke,{\k33}YE{\k47}AH
+Comment: 0,0:01:16.07,0:01:19.04,Rina,,0,0,0,karaoke,{\k30}su{\k20}be{\k23}te {\k35}wa {\k26}ji{\k28}bun {\k56}shi{\k24}da{\k55}i
+Comment: 0,0:01:18.27,0:01:19.81,RinaChoir,,0,0,0,karaoke,{\k20}{\k46}YEAH {\k29}YE{\k59}AH
+Comment: 0,0:01:19.51,0:01:22.08,Rina,,0,0,0,karaoke,{\k26}i{\k23}tsu {\k19}do{\k23}ko {\k23}de{\k20}mo {\k20}a{\k32}ga{\k32}re{\k39}ru
+Comment: 0,0:01:22.04,0:01:29.83,Rina,,0,0,0,karaoke,{\k32}wa{\k20}ta{\k22}shi {\k45}ta{\k40}no{\k43}shi{\k43}i {\k44}no {\k40}te{\k46}n{\k42}sa{\kf362}i
+Comment: 0,0:01:28.35,0:01:29.55,RinaChoir,,0,0,0,karaoke,{\k120}WHOO
+Comment: 0,0:01:29.52,0:01:31.22,RinaChoir,,0,0,0,karaoke,{\k45}YEAH {\k30}YEAH {\k34}YEAH {\k33}YEAH {\k28}YEAH
+Comment: 0,0:01:31.28,0:01:33.02,RinaChoir,,0,0,0,karaoke,{\k37}WOW {\k34}WOW {\k31}WOW {\k33}WOW {\k39}WOW
+Comment: 0,0:01:32.99,0:01:34.72,RinaChoir,,0,0,0,karaoke,{\k36}YEAH {\k36}YEAH {\k36}YEAH {\k27}YEAH {\k38}YEAH
+Comment: 0,0:01:34.69,0:01:36.39,RinaChoir,,0,0,0,karaoke,{\k36}WOW {\k36}WOW {\k36}WOW {\k30}WOW {\k32}WOW
+Comment: 0,0:01:36.49,0:01:38.12,RinaChoir,,0,0,0,karaoke,{\k34}YEAH {\k31}YEAH {\k25}YEAH {\k38}YEAH {\k35}YEAH
+Comment: 0,0:01:38.22,0:01:39.76,RinaChoir,,0,0,0,karaoke,{\k20}AL{\kf134}RIGHT
+Comment: 0,0:01:40.31,0:01:41.53,RinaChoir,,0,0,0,karaoke,{\k11}Ri{\k15}na{\k20}-chan {\k21}han{\k15}pa {\k40}naai
+Dialogue: 0,0:00:02.58,0:00:04.32,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k64}YEAH
+Dialogue: 0,0:00:04.30,0:00:06.19,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k74}WHOO
+Dialogue: 0,0:00:06.02,0:00:07.92,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k80}YEAH
+Dialogue: 0,0:00:07.76,0:00:09.79,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}COME {\k74}ON
+Dialogue: 0,0:00:08.99,0:00:12.83,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k63}saa {\k15}ma{\k17}ta {\k14}ma{\k19}ta {\k14}bu{\k12}ri {\k11}a{\k14}ge{\k12}te {\k13}i{\k15}ku {\k55}yoo
+Dialogue: 0,0:00:12.01,0:00:15.68,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}EVE{\k8}RY{\k15}BO{\k46}DY {\k25}tsui{\k11}te {\k11}ki{\k51}te {\k19}COME {\k104}ON
+Dialogue: 0,0:00:15.01,0:00:17.81,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k35}YEAH {\k30}YEAH {\k36}YEAH {\k31}YEAH {\k38}YEAH
+Dialogue: 0,0:00:16.68,0:00:19.51,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k36}WOW {\k37}WOW {\k31}WOW {\k29}WOW {\k40}WOW
+Dialogue: 0,0:00:18.38,0:00:21.15,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k37}YEAH {\k33}YEAH {\k35}YEAH {\k32}YEAH {\k30}YEAH
+Dialogue: 0,0:00:20.15,0:00:22.95,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}AL{\kf149}RIGHT
+Dialogue: 0,0:00:21.82,0:00:24.65,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ta{\k9}ma{\k11}go {\k11}ga {\k12}sa{\k10}ki {\k10}ka {\k11}ni{\k10}wa{\k10}to{\k13}ri {\k11}ga {\k10}sa{\k27}ki
+Dialogue: 0,0:00:23.52,0:00:26.19,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k26}kan{\k16}ga{\k8}e{\k23}ta {\k11}tte {\k10}ko{\k9}ta{\k7}e {\k18}wa {\k29}nash'
+Dialogue: 0,0:00:25.05,0:00:27.82,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k16}na{\k10}ra {\k19}is{\k26}so {\k21}zen{\k11}bu {\k9}wa{\k11}su{\k11}re{\k12}cha{\k21}e
+Dialogue: 0,0:00:26.79,0:00:29.59,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ta{\k11}no{\k32}shii {\k12}ko{\k9}to {\k11}da{\k11}ke {\k11}a{\k11}tsu{\k10}me{\k12}cha{\k27}e
+Dialogue: 0,0:00:28.72,0:00:31.19,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k6}ki{\k15}nou {\k23}kyou {\k13}yo{\k10}ri {\k11}mo {\k4}a{\k9}su {\k14}wo {\k13}yu{\k19}ke
+Dialogue: 0,0:00:30.06,0:00:32.96,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ne{\k14}rai {\k18}sa{\k12}da{\k11}me{\k11}ru {\k9}yo{\k13}ri {\k8}mo {\k17}ka{\k10}zu {\k7}wo {\k12}u{\k20}te
+Dialogue: 0,0:00:31.83,0:00:34.59,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k12}da{\k12}ja{\k13}re {\k7}mo {\k24}RA{\k11}P {\k10}mo {\k10}no{\k9}ri {\k13}ga {\k14}i{\k14}noch'
+Dialogue: 0,0:00:33.59,0:00:36.63,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k23}su{\k11}ki{\k10}ru {\k9}yo{\k8}ri {\k12}mo {\k18}dai{\k13}ji {\k11}da {\k15}yo {\k15}ki{\k15}mo{\k34}chi
+Dialogue: 0,0:00:35.50,0:00:38.46,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k11}{\k26}YEAH {\k32}YEAH {\k40}YEAH {\k27}YEAH {\k50}YEAH
+Dialogue: 0,0:00:37.23,0:00:40.07,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k40}YEAH {\k34}YEAH {\k31}YEAH {\k32}YEAH {\k37}YEAH
+Dialogue: 0,0:00:38.93,0:00:41.83,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k37}WOW {\k37}WOW {\k31}WOW {\k34}WOW {\k41}WOW
+Dialogue: 0,0:00:42.47,0:00:50.38,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\kf145}aa {\k26}ku{\k44}da{\k20}ra{\kf92}nai{\k35} {\k22}jo{\k21}o{\k21}ku {\k30}wo {\k16}i{\k19}e{\k22}ru {\k45}kyo{\k21}u {\kf76}wa{\k26}
+Dialogue: 0,0:00:49.51,0:00:57.25,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k17}i{\k27}tsu{\k22}mo{\k22}do{\k23}o{\k85}ri {\k18}he{\k22}i{\k26}bo{\k20}n {\k85}de {\k18}shi{\k20}a{\k45}wa{\k43}se {\k42}na {\k25}hi {\kf104}da
+Dialogue: 0,0:00:56.15,0:00:59.02,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k44}ONE {\k45}TWO {\k41}THREE {\k47}GO
+Dialogue: 0,0:00:58.02,0:01:02.39,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ta{\k17}no{\k44}shii {\k23}ka{\k22}ra {\k46}wa{\k21}ra{\k32}u{\k30}n {\k23}ja{\k19}na{\k22}ku
+Dialogue: 0,0:01:01.26,0:01:05.79,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k26}wa{\k20}ra{\k21}u {\k25}ka{\k21}ra {\k20}ta{\k24}no{\k44}shi{\k42}in {\kf100}da
+Dialogue: 0,0:01:04.86,0:01:08.53,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ki{\k19}zu{\k23}ke{\k23}ba {\k21}mi{\k17}n{\k26}na {\k22}e{\k20}ga{\k25}o {\k31}da
+Dialogue: 0,0:01:07.39,0:01:12.73,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k34}na{\k22}mi{\k23}da {\k39}wa {\k23}do{\k20}ko{\k27}ka {\k18}he {\k25}to{\k18}n{\k23}de{\k40}t{\kf112}ta
+Dialogue: 0,0:01:10.66,0:01:13.66,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k17}to{\k13}bi{\k12}ki{\k10}ri {\k41}BIG {\kf97}SMILE
+Dialogue: 0,0:01:11.70,0:01:16.00,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k36}tsu{\k17}ma{\k22}ra{\k42}nai {\k22}ko{\k42}to {\k41}nan{\k25}te {\k73}nai
+Dialogue: 0,0:01:14.50,0:01:16.40,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k33}YE{\k47}AH
+Dialogue: 0,0:01:15.17,0:01:19.24,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k30}su{\k20}be{\k23}te {\k35}wa {\k26}ji{\k28}bun {\k56}shi{\k24}da{\k55}i
+Dialogue: 0,0:01:17.37,0:01:20.01,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}{\k46}YEAH {\k29}YE{\k59}AH
+Dialogue: 0,0:01:18.61,0:01:22.28,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k26}i{\k23}tsu {\k19}do{\k23}ko {\k23}de{\k20}mo {\k20}a{\k32}ga{\k32}re{\k39}ru
+Dialogue: 0,0:01:21.14,0:01:30.03,Rina,,0,0,0,fx,{\k90\fad(300,200)}{\k32}wa{\k20}ta{\k22}shi {\k45}ta{\k40}no{\k43}shi{\k43}i {\k44}no {\k40}te{\k46}n{\k42}sa{\kf362}i
+Dialogue: 0,0:01:27.45,0:01:29.75,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k120}WHOO
+Dialogue: 0,0:01:28.62,0:01:31.42,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k45}YEAH {\k30}YEAH {\k34}YEAH {\k33}YEAH {\k28}YEAH
+Dialogue: 0,0:01:30.38,0:01:33.22,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k37}WOW {\k34}WOW {\k31}WOW {\k33}WOW {\k39}WOW
+Dialogue: 0,0:01:32.09,0:01:34.92,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k36}YEAH {\k36}YEAH {\k36}YEAH {\k27}YEAH {\k38}YEAH
+Dialogue: 0,0:01:33.79,0:01:36.59,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k36}WOW {\k36}WOW {\k36}WOW {\k30}WOW {\k32}WOW
+Dialogue: 0,0:01:35.59,0:01:38.32,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}YEAH {\k31}YEAH {\k25}YEAH {\k38}YEAH {\k35}YEAH
+Dialogue: 0,0:01:37.32,0:01:39.96,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}AL{\kf134}RIGHT
+Dialogue: 0,0:01:39.41,0:01:41.73,RinaChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k11}Ri{\k15}na{\k20}-chan {\k21}han{\k15}pa {\k40}naai
