@@ -1,0 +1,70 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: marble heart
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Rinami,Arial,24,&H00FFFFFF,&H00B76DFD,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: RinamiChoir,Arial,24,&H00B76DFD,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Rinami,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:04.85,0:00:07.52,RinamiChoir,,0,0,0,karaoke,{\k21}pa{\k18}ya{\k19}pa{\k39}ya {\k38}pa{\k40}pa{\kf92}pa
+Comment: 0,0:00:07.92,0:00:10.24,RinamiChoir,,0,0,0,karaoke,{\k20}pa{\k20}ya{\k20}pa{\k37}ya {\kf135}pa
+Comment: 0,0:00:11.00,0:00:13.68,RinamiChoir,,0,0,0,karaoke,{\k21}pa{\k18}ya{\k19}pa{\k39}ya {\k38}pa{\k40}pa{\kf92}pa
+Comment: 0,0:00:14.08,0:00:16.39,RinamiChoir,,0,0,0,karaoke,{\k20}pa{\k20}ya{\k20}pa{\k37}ya {\kf135}pa
+Comment: 0,0:00:17.15,0:00:22.73,Rinami,,0,0,0,karaoke,{\k60}ho{\k16}ra {\k21}ho{\kf117}ra {\k18}NE{\k19}CK{\k18}T{\k40}IE {\k19}ma{\k39}gat{\k39}te{\k75}ru {\k77}yo
+Comment: 0,0:00:23.31,0:00:29.06,Rinami,,0,0,0,karaoke,{\k61}ne{\k16}gu{\k19}se {\k77}wa {\k38}tsu{\k20}i{\k21}te{\k17}na{\k38}i {\k22}wa {\k75}ne {\k38}yo{\k20}ku {\k19}de{\k37}ki{\k23}ma{\k16}shi{\k18}ta
+Comment: 0,0:00:29.45,0:00:34.88,Rinami,,0,0,0,karaoke,{\k59}me {\k20}ni {\k20}ku{\kf114}ma {\k20}ga{\k16}n{\k23}ba{\k39}ri {\k18}su{\k37}gi{\k39}na{\k58}i{\k21}de {\k59}ne
+Comment: 0,0:00:35.60,0:00:41.38,Rinami,,0,0,0,karaoke,{\k62}a{\k17}na{\k19}ta {\k77}wo {\k19}yo{\k20}~{\k18}ku {\k20}mi{\k19}te{\k39}ru {\k20}mo{\k76}no {\k40}o{\k16}mi{\k19}to{\k18}o{\k41}shi {\k22}da {\k16}yo
+Comment: 0,0:00:41.58,0:00:44.43,Rinami,,0,0,0,karaoke,{\k19}a{\k37}ma{\k21}e{\k39}tai {\k18}a{\k36}ma{\k22}ya{\k37}ka{\k20}shi{\k36}tai
+Comment: 0,0:00:44.67,0:00:47.45,Rinami,,0,0,0,karaoke,{\k17}gu{\k39}ru{\k21}gu{\k36}ru {\k20}to{\k20}ke{\k19}te{\k18}ku {\k39}MAR{\k20}B{\k29}LE
+Comment: 0,0:00:47.52,0:00:52.46,Rinami,,0,0,0,karaoke,{\k24}ho{\k18}n{\k18}to {\k39}no {\k37}wa{\k56}ta{\k20}shi {\k40}wa {\k37}do{\k60}ko {\k19}ni {\k39}i{\k18}ru {\k25}no {\k44}yo
+Comment: 0,0:00:52.73,0:00:58.36,Rinami,,0,0,0,karaoke,{\k37}ko{\k21}i {\k20}ka{\k19}shi{\kf171}ra {\k21}a{\k26}wa{\k20}i {\k13}a{\k18}wa{\k18}i {\k41}MYS{\k19}TE{\kf119}RY
+Comment: 0,0:00:58.88,0:01:01.50,Rinami,,0,0,0,karaoke,{\k38}ka{\k22}gi {\k17}wa {\k20}a{\k36}na{\k37}ta {\k42}ka {\k20}mo {\k30}ne
+Comment: 0,0:01:01.96,0:01:04.87,Rinami,,0,0,0,karaoke,{\k39}yu{\k20}u{\k18}ki {\k11}wa {\k46}ha{\k22}ko {\k37}no {\k16}na{\k24}ka {\k58}ni
+Comment: 0,0:01:05.00,0:01:10.09,Rinami,,0,0,0,karaoke,{\k44}o{\k17}bo{\k20}e{\k21}te{\kf134}ru{\k36} {\k22}fu{\k21}ta{\k17}ri {\k16}da{\k20}ke {\k14}no {\k46}HIS{\k19}TO{\k62}RY
+Comment: 0,0:01:10.43,0:01:17.20,Rinami,,0,0,0,karaoke,{\k37}zut{\k20}to {\k19}na{\k40}i{\k37}sho {\k60}tsu{\k18}re{\k39}te {\k38}it{\k57}te {\k18}wa{\k39}ta{\k60}shi {\kf195}wo
+Comment: 0,0:01:24.63,0:01:27.45,Rinami,,0,0,0,karaoke,{\k25}a{\k26}no {\k31}hi {\k37}no {\k19}MER{\k39}RY{\k18}~ {\k41}GO{\k17}~ {\k29}ROUND
+Comment: 0,0:01:27.69,0:01:30.48,Rinami,,0,0,0,karaoke,{\k27}ho{\k36}n{\k21}to {\k36}wa {\k19}ko{\k37}wa{\k23}ka{\k35}t{\k21}ta {\k24}no
+Comment: 0,0:01:30.81,0:01:38.32,Rinami,,0,0,0,karaoke,{\k18}a{\k20}na{\k20}ta {\k39}ga {\k38}te {\k20}wo {\k18}hi{\k20}i{\k39}ta{\k39}ka{\kf128}ra{\k23} {\k57}fu{\k39}mi{\k40}da{\k38}se{\kf155}ta
+Comment: 0,0:01:36.77,0:01:39.66,RinamiChoir,,0,0,0,karaoke,{\k39}Like {\k38}a {\k38}fai{\k38}ry {\kf136}tale
+Comment: 0,0:01:40.46,0:01:46.08,Rinami,,0,0,0,karaoke,{\k37}mu{\k19}ri {\k18}wo {\k19}shi{\kf149}te{\kf24} {\k19}wa{\k38}rat{\k21}te {\k18}i{\k20}ta {\k37}E{\k21}VERY{\kf122}DAY
+Comment: 0,0:01:46.58,0:01:49.20,Rinami,,0,0,0,karaoke,{\k41}a{\k16}ra{\k23}yu{\k18}ru {\k36}ra{\k41}shi{\k35}sa {\k21}to {\k31}ka
+Comment: 0,0:01:49.67,0:01:52.41,Rinami,,0,0,0,karaoke,{\k38}i{\k17}ma {\k22}wa {\k17}wa{\k41}su{\k17}re{\k37}te {\k21}i{\k20}i {\k44}no
+Comment: 0,0:01:52.68,0:01:57.78,Rinami,,0,0,0,karaoke,{\k46}ho{\k16}ra {\k22}o{\k18}i {\kf140}de{\k31} {\k20}su{\k20}na{\k21}o {\k18}ni {\k19}na{\k21}ru {\k36}ME{\k20}LO{\k62}DY
+Comment: 0,0:01:58.12,0:02:05.13,Rinami,,0,0,0,karaoke,{\k25}shi{\k15}n{\k18}ji{\k18}te {\k40}ii {\k38}no {\k58}tsu{\k18}re{\k38}te {\k39}it{\k59}te {\k19}wa{\k36}ta{\k40}shi {\kf240}wo
+Comment: 0,0:02:05.42,0:02:08.03,Rinami,,0,0,0,karaoke,{\k22}woh{\k17}-oh{\k19}-oh{\kf203}-oh
+Dialogue: 0,0:00:03.95,0:00:07.72,RinamiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}pa{\k18}ya{\k19}pa{\k39}ya {\k38}pa{\k40}pa{\kf92}pa
+Dialogue: 0,0:00:07.02,0:00:10.44,RinamiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}pa{\k20}ya{\k20}pa{\k37}ya {\kf135}pa
+Dialogue: 0,0:00:10.10,0:00:13.88,RinamiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}pa{\k18}ya{\k19}pa{\k39}ya {\k38}pa{\k40}pa{\kf92}pa
+Dialogue: 0,0:00:13.18,0:00:16.59,RinamiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}pa{\k20}ya{\k20}pa{\k37}ya {\kf135}pa
+Dialogue: 0,0:00:16.25,0:00:22.93,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k60}ho{\k16}ra {\k21}ho{\kf117}ra {\k18}NE{\k19}CK{\k18}T{\k40}IE {\k19}ma{\k39}gat{\k39}te{\k75}ru {\k77}yo
+Dialogue: 0,0:00:22.41,0:00:29.26,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k61}ne{\k16}gu{\k19}se {\k77}wa {\k38}tsu{\k20}i{\k21}te{\k17}na{\k38}i {\k22}wa {\k75}ne {\k38}yo{\k20}ku {\k19}de{\k37}ki{\k23}ma{\k16}shi{\k18}ta
+Dialogue: 0,0:00:28.55,0:00:35.08,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k59}me {\k20}ni {\k20}ku{\kf114}ma {\k20}ga{\k16}n{\k23}ba{\k39}ri {\k18}su{\k37}gi{\k39}na{\k58}i{\k21}de {\k59}ne
+Dialogue: 0,0:00:34.70,0:00:41.58,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k62}a{\k17}na{\k19}ta {\k77}wo {\k19}yo{\k20}~{\k18}ku {\k20}mi{\k19}te{\k39}ru {\k20}mo{\k76}no {\k40}o{\k16}mi{\k19}to{\k18}o{\k41}shi {\k22}da {\k16}yo
+Dialogue: 0,0:00:40.68,0:00:44.63,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k37}ma{\k21}e{\k39}tai {\k18}a{\k36}ma{\k22}ya{\k37}ka{\k20}shi{\k36}tai
+Dialogue: 0,0:00:43.77,0:00:47.65,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k17}gu{\k39}ru{\k21}gu{\k36}ru {\k20}to{\k20}ke{\k19}te{\k18}ku {\k39}MAR{\k20}B{\k29}LE
+Dialogue: 0,0:00:46.62,0:00:52.66,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ho{\k18}n{\k18}to {\k39}no {\k37}wa{\k56}ta{\k20}shi {\k40}wa {\k37}do{\k60}ko {\k19}ni {\k39}i{\k18}ru {\k25}no {\k44}yo
+Dialogue: 0,0:00:51.83,0:00:58.56,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k37}ko{\k21}i {\k20}ka{\k19}shi{\kf171}ra {\k21}a{\k26}wa{\k20}i {\k13}a{\k18}wa{\k18}i {\k41}MYS{\k19}TE{\kf119}RY
+Dialogue: 0,0:00:57.98,0:01:01.70,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k38}ka{\k22}gi {\k17}wa {\k20}a{\k36}na{\k37}ta {\k42}ka {\k20}mo {\k30}ne
+Dialogue: 0,0:01:01.06,0:01:05.07,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k39}yu{\k20}u{\k18}ki {\k11}wa {\k46}ha{\k22}ko {\k37}no {\k16}na{\k24}ka {\k58}ni
+Dialogue: 0,0:01:04.10,0:01:10.29,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k44}o{\k17}bo{\k20}e{\k21}te{\kf134}ru{\k36} {\k22}fu{\k21}ta{\k17}ri {\k16}da{\k20}ke {\k14}no {\k46}HIS{\k19}TO{\k62}RY
+Dialogue: 0,0:01:09.53,0:01:17.40,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k37}zut{\k20}to {\k19}na{\k40}i{\k37}sho {\k60}tsu{\k18}re{\k39}te {\k38}it{\k57}te {\k18}wa{\k39}ta{\k60}shi {\kf195}wo
+Dialogue: 0,0:01:23.73,0:01:27.65,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k25}a{\k26}no {\k31}hi {\k37}no {\k19}MER{\k39}RY{\k18}~ {\k41}GO{\k17}~ {\k29}ROUND
+Dialogue: 0,0:01:26.79,0:01:30.68,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ho{\k36}n{\k21}to {\k36}wa {\k19}ko{\k37}wa{\k23}ka{\k35}t{\k21}ta {\k24}no
+Dialogue: 0,0:01:29.91,0:01:38.52,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k18}a{\k20}na{\k20}ta {\k39}ga {\k38}te {\k20}wo {\k18}hi{\k20}i{\k39}ta{\k39}ka{\kf128}ra{\k23} {\k57}fu{\k39}mi{\k40}da{\k38}se{\kf155}ta
+Dialogue: 0,0:01:35.87,0:01:39.86,RinamiChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Like {\k38}a {\k38}fai{\k38}ry {\kf136}tale
+Dialogue: 0,0:01:39.56,0:01:46.28,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k37}mu{\k19}ri {\k18}wo {\k19}shi{\kf149}te{\kf24} {\k19}wa{\k38}rat{\k21}te {\k18}i{\k20}ta {\k37}E{\k21}VERY{\kf122}DAY
+Dialogue: 0,0:01:45.68,0:01:49.40,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k41}a{\k16}ra{\k23}yu{\k18}ru {\k36}ra{\k41}shi{\k35}sa {\k21}to {\k31}ka
+Dialogue: 0,0:01:48.77,0:01:52.61,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k38}i{\k17}ma {\k22}wa {\k17}wa{\k41}su{\k17}re{\k37}te {\k21}i{\k20}i {\k44}no
+Dialogue: 0,0:01:51.78,0:01:57.98,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k46}ho{\k16}ra {\k22}o{\k18}i {\kf140}de{\k31} {\k20}su{\k20}na{\k21}o {\k18}ni {\k19}na{\k21}ru {\k36}ME{\k20}LO{\k62}DY
+Dialogue: 0,0:01:57.22,0:02:05.33,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k25}shi{\k15}n{\k18}ji{\k18}te {\k40}ii {\k38}no {\k58}tsu{\k18}re{\k38}te {\k39}it{\k59}te {\k19}wa{\k36}ta{\k40}shi {\kf240}wo
+Dialogue: 0,0:02:04.52,0:02:08.23,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\k22}woh{\k17}-oh{\k19}-oh{\kf203}-oh
