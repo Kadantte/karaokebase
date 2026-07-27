@@ -1,0 +1,121 @@
+﻿[Script Info]
+Title: Ryuuseigun
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Sodachi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Shizuka,Arial,24,&H00FFFFFF,&H00FF7E89,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Julia,Arial,24,&H00FFFFFF,&H00433EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Letora,Arial,24,&H00FFFFFF,&H0030F9D7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: iDOLM@STER,Arial,24,&H00FFFFFF,&H00B874FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Shizuka Symbol,Arial,24,&H00FF7E89,&H00FF7E89,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Julia Symbol,Arial,24,&H00433EFF,&H00433EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,20,1
+Style: Letora Symbol,Arial,24,&H0030F9D7,&H0030F9D7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Shizuka,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rShizuka Symbol\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Julia,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rJulia Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Letora,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rLetora Symbol\\fs30}♣{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,iDOLM@STER,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HB874FF&}iDOLM@STER{\c} | {\c&H433EFF&}♠ Julia{\c} | {\c&HFF7E89&}♥ Shizuka{\c} | {\c&H30F9D7&}♣ Letora
+Comment: 0,0:00:00.28,0:00:05.02,Julia,,0,0,0,karaoke,{\k23}so{\k30}ra {\k28}wo {\k23}i{\k53}ro{\k54}do{\k50}ru {\k28}ho{\k26}shi {\k50}ni {\k55}not{\k54}te
+Comment: 0,0:00:05.23,0:00:08.59,Julia,,0,0,0,karaoke,{\k27}a{\k49}ta{\k55}shi {\k29}wa {\k22}mi{\k27}ra{\k18}i {\kf109}he
+Comment: 0,0:00:08.90,0:00:13.36,Julia,,0,0,0,karaoke,{\k25}ne{\k30}ga{\k22}i{\k54}go{\k53}to {\k50}wo {\k27}ta{\k25}ku{\k51}san {\k27}tsu{\k15}me{\k67}ta
+Comment: 0,0:00:13.57,0:00:18.09,Julia,,0,0,0,karaoke,{\k27}ka{\k53}ban {\k50}wo {\k26}ni{\k25}gi{\k28}ri{\k14}shi{\kf229}me
+Comment: 0,0:00:32.38,0:00:35.29,Julia,,0,0,0,karaoke,{\k25}ryu{\k27}u{\k28}se{\k25}i {\k25}ga {\k26}fu{\k27}ru {\k25}yo{\k15}ru {\k68}ni
+Comment: 0,0:00:36.53,0:00:40.47,Julia,,0,0,0,karaoke,{\k29}do{\k50}ki{\k50}do{\k29}ki {\k26}shi{\k27}te {\k25}a{\k78}ru{\k26}i{\k54}ta
+Comment: 0,0:00:40.72,0:00:44.62,Julia,,0,0,0,karaoke,{\k25}a{\k55}ta{\k49}shi {\k51}wa {\k27}hi{\k26}to{\k54}ri{\k50}boc{\k53}chi
+Comment: 0,0:00:44.90,0:00:48.84,Julia,,0,0,0,karaoke,{\k26}da{\k50}ke{\k51}do {\k29}ko{\k24}wa{\k28}ku {\k26}na{\k77}ka{\k25}t{\k58}ta
+Comment: 0,0:00:49.03,0:00:52.45,Julia,,0,0,0,karaoke,{\k27}ku{\k29}ra{\k24}ya{\k27}mi {\k26}wo {\k28}te{\k26}ra{\k24}su {\k14}you {\kf117}ni
+Comment: 0,0:00:53.23,0:00:57.19,Julia,,0,0,0,karaoke,{\k25}hi{\k54}ka{\k50}ri {\k26}ga {\k27}hi{\k27}to{\k26}su{\k52}ji {\k26}u{\k27}ka{\k56}bu
+Comment: 0,0:00:57.40,0:01:01.39,Julia,,0,0,0,karaoke,{\k27}ko{\k51}ko {\k53}ka{\k52}ra {\k26}mi{\k27}ra{\k52}i {\k51}ma{\k60}de
+Comment: 0,0:01:01.58,0:01:05.35,Julia,,0,0,0,karaoke,{\k29}mi{\k49}chi {\k51}ga {\k26}de{\k27}ki{\k27}ta {\k16}mi{\kf152}tai
+Comment: 0,0:01:05.72,0:01:09.63,Julia,,0,0,0,karaoke,{\k29}a{\k51}shi{\k30}o{\k50}to {\k27}ga {\k29}hi{\k22}bi{\k40}i{\k37}te{\k76}ru
+Comment: 0,0:01:09.91,0:01:14.44,Julia,,0,0,0,karaoke,{\k26}o{\k41}mo{\k39}wa{\k52}zu {\k25}ha{\k28}shi{\k25}ri {\k43}da{\k35}shi{\kf139}ta
+Comment: 0,0:01:15.42,0:01:20.09,Julia,,0,0,0,karaoke,{\k25}so{\k27}ra {\k26}wo {\k23}i{\k55}ro{\k50}do{\k54}ru {\k26}ho{\k29}shi {\k49}ni {\k50}not{\k53}te
+Comment: 0,0:01:20.35,0:01:23.59,Julia,,0,0,0,karaoke,{\k30}a{\k47}ta{\k57}shi {\k28}wa {\k19}mi{\k27}ra{\k14}i {\kf102}he
+Comment: 0,0:01:23.99,0:01:28.43,Julia,,0,0,0,karaoke,{\k30}ne{\k23}ga{\k26}i{\k53}go{\k52}to {\k53}wo {\k26}ta{\k26}ku{\k52}san {\k28}tsu{\k14}me{\k61}ta
+Comment: 0,0:01:28.72,0:01:31.99,Julia,,0,0,0,karaoke,{\k24}ka{\k55}ban {\k52}wo {\k27}ni{\k24}gi{\k26}ri{\k14}shi{\kf105}me
+Comment: 0,0:01:32.35,0:01:36.87,Julia,,0,0,0,karaoke,{\k27}zu{\k28}t{\k28}to {\k52}zu{\k48}t{\k53}to {\k26}yu{\k30}me{\k48}mi{\k53}te{\k59}ta
+Comment: 0,0:01:37.05,0:01:41.20,Julia,,0,0,0,karaoke,{\k26}ki{\k50}ra{\k57}ki{\k25}ra {\k27}no {\k25}S{\k26}TA{\k77}~{\k25}GE {\k77}he
+Comment: 0,0:01:41.47,0:01:44.95,Julia,,0,0,0,karaoke,{\k31}fu{\k22}ri{\k26}ka{\k24}e{\k29}ra{\k12}zu {\k38}ni {\k27}ha{\k29}shi{\k22}t{\k27}te {\k17}yu{\k44}kou
+Comment: 0,0:01:45.15,0:01:48.76,Julia,,0,0,0,karaoke,{\k25}ta{\k26}to{\k54}e {\k47}to{\k30}o{\k25}ku{\k27}ta{\k17}t{\kf110}te
+Comment: 0,0:01:57.91,0:02:01.01,Shizuka,,0,0,0,karaoke,{\k28}ka{\k24}na{\k23}shi{\k30}mi {\k26}ga {\k25}fu{\k27}ru {\k27}yo{\k16}ru {\k84}wa
+Comment: 0,0:02:02.10,0:02:05.95,Shizuka,,0,0,0,karaoke,{\k27}ha{\k54}na {\k50}u{\k25}ta {\k29}wo {\k25}u{\k24}ta{\k80}t{\k24}te{\k47}ta
+Comment: 0,0:02:06.28,0:02:10.16,Shizuka,,0,0,0,karaoke,{\k24}da{\k55}re {\k50}ni {\k50}mo {\k28}ki{\k27}ko{\k51}e{\k52}na{\k51}i
+Comment: 0,0:02:10.44,0:02:14.34,Shizuka,,0,0,0,karaoke,{\k25}a{\k52}ta{\k53}shi {\k26}da{\k26}ke {\k26}no {\k25}ME{\k79}LO{\k25}DY{\k53}~
+Comment: 0,0:02:14.64,0:02:17.88,Letora,,0,0,0,karaoke,{\k22}na{\k27}ga{\k27}re{\k28}ru {\k24}ho{\k27}shi {\k27}no {\k24}yo{\k15}u {\kf103}ni
+Comment: 0,0:02:18.78,0:02:22.71,Letora,,0,0,0,karaoke,{\k27}da{\k52}re {\k52}yo{\k27}ri {\k26}mo {\k27}ka{\k25}ga{\k80}ya{\k25}i{\k52}te
+Comment: 0,0:02:22.97,0:02:26.89,Letora,,0,0,0,karaoke,{\k25}a{\k52}na{\k52}ta {\k51}no {\k28}a{\k26}shi{\k52}mo{\k53}to {\k53}wo
+Comment: 0,0:02:27.15,0:02:30.52,Letora,,0,0,0,karaoke,{\k25}te{\k52}ra{\k51}se{\k29}ta{\k23}ra {\k27}i{\k12}i {\kf118}na
+Comment: 0,0:02:31.34,0:02:35.23,Julia,,0,0,0,karaoke,{\k29}na{\k49}mi{\k25}da {\k53}ga {\k27}o{\k24}chi{\k26}ru {\k40}o{\k38}to {\k78}wo
+Comment: 0,0:02:35.49,0:02:40.08,Julia,,0,0,0,karaoke,{\k27}a{\k41}i{\k36}zu {\k50}ni {\k30}ha{\k26}shi{\k26}ri{\k39}de {\k37}so{\kf147}u
+Comment: 0,0:02:40.97,0:02:45.74,iDOLM@STER,,0,0,0,karaoke,{\k24}so{\k27}ra {\k26}wo {\k26}i{\k54}ro{\k55}do{\k45}ru {\k29}ho{\k26}shi {\k49}ni {\k57}not{\k59}te
+Comment: 0,0:02:45.93,0:02:50.06,iDOLM@STER,,0,0,0,karaoke,{\k26}do{\k51}ko {\k51}ma{\k28}de {\k27}mo {\k24}i{\k28}ke{\k77}ru {\k27}ka {\k74}na
+Comment: 0,0:02:50.33,0:02:53.77,iDOLM@STER,,0,0,0,karaoke,{\k29}sa{\k22}bi{\k29}shi{\k27}ku {\k20}na{\k19}i {\k39}to {\k25}tsu{\k27}yo{\k28}ga{\k24}ru {\k15}te {\k40}wo
+Comment: 0,0:02:53.98,0:02:58.36,iDOLM@STER,,0,0,0,karaoke,{\k28}a{\k27}ta{\k53}shi {\k51}ni {\k26}ni{\k26}gi{\k26}ra{\k15}se{\kf186}te
+Comment: 0,0:03:23.24,0:03:27.98,iDOLM@STER,,0,0,0,karaoke,{\k24}so{\k27}ra {\k26}wo {\k24}i{\k54}ro{\k51}do{\k54}ru {\k29}ho{\k25}shi {\k51}ni {\k54}not{\k55}te
+Comment: 0,0:03:28.21,0:03:31.54,iDOLM@STER,,0,0,0,karaoke,{\k25}ka{\k51}ga{\k54}ya{\k27}ku {\k22}mi{\k25}ra{\k16}i {\kf113}he
+Comment: 0,0:03:31.85,0:03:36.27,iDOLM@STER,,0,0,0,karaoke,{\k25}ne{\k27}ga{\k26}i {\k52}go{\k51}to {\k52}to {\k28}a{\k26}na{\k51}ta {\k26}no {\k17}te {\k61}wo
+Comment: 0,0:03:36.54,0:03:40.01,iDOLM@STER,,0,0,0,karaoke,{\k25}tsu{\k52}yo{\k52}ku {\k26}ni{\k28}gi{\k26}ri{\k11}shi{\kf127}me
+Comment: 0,0:03:40.17,0:03:44.66,iDOLM@STER,,0,0,0,karaoke,{\k26}ku{\k28}chi{\k26}bi{\k51}ru {\k53}ka{\k53}ra {\k27}ko{\k26}bo{\k50}re{\k56}da{\k53}su
+Comment: 0,0:03:44.85,0:03:49.08,iDOLM@STER,,0,0,0,karaoke,{\k28}ko{\k54}to{\k50}ba {\k27}wo{\k27}~ {\k26}na{\k25}ra{\k80}be{\k23}ta{\k83}ra
+Comment: 0,0:03:49.29,0:03:52.82,iDOLM@STER,,0,0,0,karaoke,{\k28}ta{\k24}ka{\k29}na{\k25}ru {\k24}mu{\k15}ne {\k40}no {\k28}RHY{\k25}TH{\k24}M {\k27}de {\k17}ho{\k47}ra
+Comment: 0,0:03:52.98,0:03:56.65,iDOLM@STER,,0,0,0,karaoke,{\k24}u{\k26}ta{\k53}go{\k52}e {\k26}ni {\k27}ka{\k25}wa{\k14}ru {\kf120}no
+Comment: 0,0:03:56.87,0:04:01.38,Julia,,0,0,0,karaoke,{\k26}ne{\k26}ga{\k26}i {\k54}go{\k51}to {\k54}wa {\k26}mo{\k27}u {\k53}to{\k21}na{\k18}e{\k69}ta
+Comment: 0,0:04:01.56,0:04:06.89,Julia,,0,0,0,karaoke,{\k29}a{\k52}ta{\k52}shi {\k30}to {\k22}mi{\k28}ra{\k14}i {\kf306}he
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HB874FF&}iDOLM@STER{\c} | {\c&H433EFF&}♠ Julia{\c} | {\c&HFF7E89&}♥ Shizuka{\c} | {\c&H30F9D7&}♣ Letora
+Dialogue: 0,0:00:00.00,0:00:05.22,Julia,,0,0,0,fx,{\k28\fad(280,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k23}so{\k30}ra {\k28}wo {\k23}i{\k53}ro{\k54}do{\k50}ru {\k28}ho{\k26}shi {\k50}ni {\k55}not{\k54}te
+Dialogue: 0,0:00:04.33,0:00:08.79,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k27}a{\k49}ta{\k55}shi {\k29}wa {\k22}mi{\k27}ra{\k18}i {\kf109}he
+Dialogue: 0,0:00:08.00,0:00:13.56,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k25}ne{\k30}ga{\k22}i{\k54}go{\k53}to {\k50}wo {\k27}ta{\k25}ku{\k51}san {\k27}tsu{\k15}me{\k67}ta
+Dialogue: 0,0:00:12.67,0:00:18.29,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k27}ka{\k53}ban {\k50}wo {\k26}ni{\k25}gi{\k28}ri{\k14}shi{\kf229}me
+Dialogue: 0,0:00:31.48,0:00:35.49,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k25}ryu{\k27}u{\k28}se{\k25}i {\k25}ga {\k26}fu{\k27}ru {\k25}yo{\k15}ru {\k68}ni
+Dialogue: 0,0:00:35.63,0:00:40.67,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k29}do{\k50}ki{\k50}do{\k29}ki {\k26}shi{\k27}te {\k25}a{\k78}ru{\k26}i{\k54}ta
+Dialogue: 0,0:00:39.82,0:00:44.82,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k25}a{\k55}ta{\k49}shi {\k51}wa {\k27}hi{\k26}to{\k54}ri{\k50}boc{\k53}chi
+Dialogue: 0,0:00:44.00,0:00:49.04,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k26}da{\k50}ke{\k51}do {\k29}ko{\k24}wa{\k28}ku {\k26}na{\k77}ka{\k25}t{\k58}ta
+Dialogue: 0,0:00:48.13,0:00:52.65,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k27}ku{\k29}ra{\k24}ya{\k27}mi {\k26}wo {\k28}te{\k26}ra{\k24}su {\k14}you {\kf117}ni
+Dialogue: 0,0:00:52.33,0:00:57.39,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k25}hi{\k54}ka{\k50}ri {\k26}ga {\k27}hi{\k27}to{\k26}su{\k52}ji {\k26}u{\k27}ka{\k56}bu
+Dialogue: 0,0:00:56.50,0:01:01.59,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k27}ko{\k51}ko {\k53}ka{\k52}ra {\k26}mi{\k27}ra{\k52}i {\k51}ma{\k60}de
+Dialogue: 0,0:01:00.68,0:01:05.55,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k29}mi{\k49}chi {\k51}ga {\k26}de{\k27}ki{\k27}ta {\k16}mi{\kf152}tai
+Dialogue: 0,0:01:04.82,0:01:09.83,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k29}a{\k51}shi{\k30}o{\k50}to {\k27}ga {\k29}hi{\k22}bi{\k40}i{\k37}te{\k76}ru
+Dialogue: 0,0:01:09.01,0:01:14.64,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k26}o{\k41}mo{\k39}wa{\k52}zu {\k25}ha{\k28}shi{\k25}ri {\k43}da{\k35}shi{\kf139}ta
+Dialogue: 0,0:01:14.52,0:01:20.29,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k25}so{\k27}ra {\k26}wo {\k23}i{\k55}ro{\k50}do{\k54}ru {\k26}ho{\k29}shi {\k49}ni {\k50}not{\k53}te
+Dialogue: 0,0:01:19.45,0:01:23.79,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k30}a{\k47}ta{\k57}shi {\k28}wa {\k19}mi{\k27}ra{\k14}i {\kf102}he
+Dialogue: 0,0:01:23.09,0:01:28.63,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k30}ne{\k23}ga{\k26}i{\k53}go{\k52}to {\k53}wo {\k26}ta{\k26}ku{\k52}san {\k28}tsu{\k14}me{\k61}ta
+Dialogue: 0,0:01:27.82,0:01:32.19,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k24}ka{\k55}ban {\k52}wo {\k27}ni{\k24}gi{\k26}ri{\k14}shi{\kf105}me
+Dialogue: 0,0:01:31.45,0:01:37.07,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k27}zu{\k28}t{\k28}to {\k52}zu{\k48}t{\k53}to {\k26}yu{\k30}me{\k48}mi{\k53}te{\k59}ta
+Dialogue: 0,0:01:36.15,0:01:41.40,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k26}ki{\k50}ra{\k57}ki{\k25}ra {\k27}no {\k25}S{\k26}TA{\k77}~{\k25}GE {\k77}he
+Dialogue: 0,0:01:40.57,0:01:45.15,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k31}fu{\k22}ri{\k26}ka{\k24}e{\k29}ra{\k12}zu {\k38}ni {\k27}ha{\k29}shi{\k22}t{\k27}te {\k17}yu{\k44}kou
+Dialogue: 0,0:01:44.25,0:01:48.96,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k25}ta{\k26}to{\k54}e {\k47}to{\k30}o{\k25}ku{\k27}ta{\k17}t{\kf110}te
+Dialogue: 0,0:01:57.01,0:02:01.21,Shizuka,,0,0,0,fx,{\k90\fad(300,200)}{\rShizuka Symbol\fs30}♥{\r\fs\4a&HFF&} {\k28}ka{\k24}na{\k23}shi{\k30}mi {\k26}ga {\k25}fu{\k27}ru {\k27}yo{\k16}ru {\k84}wa
+Dialogue: 0,0:02:01.20,0:02:06.15,Shizuka,,0,0,0,fx,{\k90\fad(300,200)}{\rShizuka Symbol\fs30}♥{\r\fs\4a&HFF&} {\k27}ha{\k54}na {\k50}u{\k25}ta {\k29}wo {\k25}u{\k24}ta{\k80}t{\k24}te{\k47}ta
+Dialogue: 0,0:02:05.38,0:02:10.36,Shizuka,,0,0,0,fx,{\k90\fad(300,200)}{\rShizuka Symbol\fs30}♥{\r\fs\4a&HFF&} {\k24}da{\k55}re {\k50}ni {\k50}mo {\k28}ki{\k27}ko{\k51}e{\k52}na{\k51}i
+Dialogue: 0,0:02:09.54,0:02:14.54,Shizuka,,0,0,0,fx,{\k90\fad(300,200)}{\rShizuka Symbol\fs30}♥{\r\fs\4a&HFF&} {\k25}a{\k52}ta{\k53}shi {\k26}da{\k26}ke {\k26}no {\k25}ME{\k79}LO{\k25}DY{\k53}~
+Dialogue: 0,0:02:13.74,0:02:18.08,Letora,,0,0,0,fx,{\k90\fad(300,200)}{\rLetora Symbol\fs30}♣{\r\fs\4a&HFF&} {\k22}na{\k27}ga{\k27}re{\k28}ru {\k24}ho{\k27}shi {\k27}no {\k24}yo{\k15}u {\kf103}ni
+Dialogue: 0,0:02:17.88,0:02:22.91,Letora,,0,0,0,fx,{\k90\fad(300,200)}{\rLetora Symbol\fs30}♣{\r\fs\4a&HFF&} {\k27}da{\k52}re {\k52}yo{\k27}ri {\k26}mo {\k27}ka{\k25}ga{\k80}ya{\k25}i{\k52}te
+Dialogue: 0,0:02:22.07,0:02:27.09,Letora,,0,0,0,fx,{\k90\fad(300,200)}{\rLetora Symbol\fs30}♣{\r\fs\4a&HFF&} {\k25}a{\k52}na{\k52}ta {\k51}no {\k28}a{\k26}shi{\k52}mo{\k53}to {\k53}wo
+Dialogue: 0,0:02:26.25,0:02:30.72,Letora,,0,0,0,fx,{\k90\fad(300,200)}{\rLetora Symbol\fs30}♣{\r\fs\4a&HFF&} {\k25}te{\k52}ra{\k51}se{\k29}ta{\k23}ra {\k27}i{\k12}i {\kf118}na
+Dialogue: 0,0:02:30.44,0:02:35.43,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k29}na{\k49}mi{\k25}da {\k53}ga {\k27}o{\k24}chi{\k26}ru {\k40}o{\k38}to {\k78}wo
+Dialogue: 0,0:02:34.59,0:02:40.28,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k27}a{\k41}i{\k36}zu {\k50}ni {\k30}ha{\k26}shi{\k26}ri{\k39}de {\k37}so{\kf147}u
+Dialogue: 0,0:02:40.07,0:02:45.94,iDOLM@STER,,0,0,0,fx,{\k90\fad(300,200)}{\k24}so{\k27}ra {\k26}wo {\k26}i{\k54}ro{\k55}do{\k45}ru {\k29}ho{\k26}shi {\k49}ni {\k57}not{\k59}te
+Dialogue: 0,0:02:45.03,0:02:50.26,iDOLM@STER,,0,0,0,fx,{\k90\fad(300,200)}{\k26}do{\k51}ko {\k51}ma{\k28}de {\k27}mo {\k24}i{\k28}ke{\k77}ru {\k27}ka {\k74}na
+Dialogue: 0,0:02:49.43,0:02:53.97,iDOLM@STER,,0,0,0,fx,{\k90\fad(300,200)}{\k29}sa{\k22}bi{\k29}shi{\k27}ku {\k20}na{\k19}i {\k39}to {\k25}tsu{\k27}yo{\k28}ga{\k24}ru {\k15}te {\k40}wo
+Dialogue: 0,0:02:53.08,0:02:58.56,iDOLM@STER,,0,0,0,fx,{\k90\fad(300,200)}{\k28}a{\k27}ta{\k53}shi {\k51}ni {\k26}ni{\k26}gi{\k26}ra{\k15}se{\kf186}te
+Dialogue: 0,0:03:22.34,0:03:28.18,iDOLM@STER,,0,0,0,fx,{\k90\fad(300,200)}{\k24}so{\k27}ra {\k26}wo {\k24}i{\k54}ro{\k51}do{\k54}ru {\k29}ho{\k25}shi {\k51}ni {\k54}not{\k55}te
+Dialogue: 0,0:03:27.31,0:03:31.74,iDOLM@STER,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ka{\k51}ga{\k54}ya{\k27}ku {\k22}mi{\k25}ra{\k16}i {\kf113}he
+Dialogue: 0,0:03:30.95,0:03:36.47,iDOLM@STER,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ne{\k27}ga{\k26}i {\k52}go{\k51}to {\k52}to {\k28}a{\k26}na{\k51}ta {\k26}no {\k17}te {\k61}wo
+Dialogue: 0,0:03:35.64,0:03:40.21,iDOLM@STER,,0,0,0,fx,{\k90\fad(300,200)}{\k25}tsu{\k52}yo{\k52}ku {\k26}ni{\k28}gi{\k26}ri{\k11}shi{\kf127}me
+Dialogue: 0,0:03:39.27,0:03:44.86,iDOLM@STER,,0,0,0,fx,{\k90\fad(300,200)}{\k26}ku{\k28}chi{\k26}bi{\k51}ru {\k53}ka{\k53}ra {\k27}ko{\k26}bo{\k50}re{\k56}da{\k53}su
+Dialogue: 0,0:03:43.95,0:03:49.28,iDOLM@STER,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ko{\k54}to{\k50}ba {\k27}wo{\k27}~ {\k26}na{\k25}ra{\k80}be{\k23}ta{\k83}ra
+Dialogue: 0,0:03:48.39,0:03:53.02,iDOLM@STER,,0,0,0,fx,{\k90\fad(300,200)}{\k28}ta{\k24}ka{\k29}na{\k25}ru {\k24}mu{\k15}ne {\k40}no {\k28}RHY{\k25}TH{\k24}M {\k27}de {\k17}ho{\k47}ra
+Dialogue: 0,0:03:52.08,0:03:56.85,iDOLM@STER,,0,0,0,fx,{\k90\fad(300,200)}{\k24}u{\k26}ta{\k53}go{\k52}e {\k26}ni {\k27}ka{\k25}wa{\k14}ru {\kf120}no
+Dialogue: 0,0:03:55.97,0:04:01.58,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k26}ne{\k26}ga{\k26}i {\k54}go{\k51}to {\k54}wa {\k26}mo{\k27}u {\k53}to{\k21}na{\k18}e{\k69}ta
+Dialogue: 0,0:04:00.66,0:04:07.09,Julia,,0,0,0,fx,{\k90\fad(300,200)}{\rJulia Symbol\fs30}♠{\r\fs\4a&HFF&} {\k29}a{\k52}ta{\k52}shi {\k30}to {\k22}mi{\k28}ra{\k14}i {\kf306}he
