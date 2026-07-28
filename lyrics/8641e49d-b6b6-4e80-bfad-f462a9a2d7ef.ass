@@ -1,0 +1,87 @@
+﻿[Script Info]
+Title: Fading Stars
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Sodachi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Michiko Nanakusa,Arial,24,&H00FFFFFF,&H00B6CEA6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mikoto Aketa,Arial,24,&H00FFFFFF,&H003C359E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: SHHis Choir,Arial,24,&H00FFFFFF,&H00748E00,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:09.03,0:00:09.99,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H748E00&}SHHis{\c}\N| {\c&HB6CEA6&}Michiko Nanakusa{\c} | {\c&H3C359E&}Mikoto Aketa
+Comment: 0,0:00:09.16,0:00:12.07,Mikoto Aketa,,0,0,0,karaoke,{\k24}mou {\k36}nan{\k79}de {\k26}ko{\k24}no {\k22}shun{\k35}kan {\k45}wa
+Comment: 0,0:00:12.44,0:00:16.36,Mikoto Aketa,,0,0,0,karaoke,{\k24}sou {\k26}i{\k22}tsu{\k33}dat{\k83}te {\k23}na{\k24}ga{\k24}ku {\k36}tsu{\k32}zu{\k37}ka{\k28}nai
+Comment: 0,0:00:16.43,0:00:19.42,Michiko Nanakusa,,0,0,0,karaoke,{\k24}dou {\k22}dat{\k34}te {\k83}ii {\k24}ko{\k23}to {\k24}no {\k33}hou {\k30}ga
+Comment: 0,0:00:19.95,0:00:21.29,Michiko Nanakusa,,0,0,0,karaoke,{\k23}ji{\k23}kan {\k24}wa {\k35}ei{\k29}en
+Comment: 0,0:00:21.82,0:00:24.42,Michiko Nanakusa,,0,0,0,karaoke,{\k22}no {\k25}you {\k24}ni {\k38}kan{\k30}ji{\k37}ru {\k34}no {\k13}wa {\k13}na{\k24}ze
+Comment: 0,0:00:24.87,0:00:26.48,Mikoto Aketa,,0,0,0,karaoke,{\k16}na{\k15}ga{\k15}re{\k17}bo{\k15}shi {\k16}mi{\k32}tai {\k35}ne
+Comment: 0,0:00:26.74,0:00:28.35,Mikoto Aketa,,0,0,0,karaoke,{\k15}ki{\k17}e {\k16}ta{\k13}ri {\k19}wa {\k15}shi{\k30}nai{\k36}de
+Comment: 0,0:00:28.62,0:00:30.20,Michiko Nanakusa,,0,0,0,karaoke,{\k14}ka{\k16}ga{\k17}ya{\k16}ki {\k16}tsu{\k15}zu{\k32}ke{\k32}te
+Comment: 0,0:00:30.49,0:00:32.08,Michiko Nanakusa,,0,0,0,karaoke,{\k15}ku{\k15}re{\k17}re{\k13}ba {\k15}i{\k18}i {\k33}nan{\k33}te
+Comment: 0,0:00:31.89,0:00:32.55,SHHis Choir,,0,0,0,karaoke,{\k37}I {\k29}know
+Comment: 0,0:00:32.60,0:00:33.90,Michiko Nanakusa,,0,0,0,karaoke,{\k23}kon{\k24}na {\k22}ne{\k25}gai {\k36}wa
+Comment: 0,0:00:33.77,0:00:34.46,SHHis Choir,,0,0,0,karaoke,{\k36}I {\k33}know
+Comment: 0,0:00:34.47,0:00:35.72,Michiko Nanakusa,,0,0,0,karaoke,{\k23}mu{\k24}i{\k23}mi {\k24}dat{\k31}te
+Comment: 0,0:00:35.64,0:00:36.32,SHHis Choir,,0,0,0,karaoke,{\k36}I {\k32}know
+Comment: 0,0:00:36.33,0:00:38.51,Michiko Nanakusa,,0,0,0,karaoke,{\k23}wa{\k25}kat{\k24}te{\k22}ru {\k25}ke{\kf99}do
+Comment: 0,0:00:38.68,0:00:40.21,Mikoto Aketa,,0,0,0,karaoke,{\k25}That {\k12}s{\k12}tar {\k11}i{\k12}s {\k23}fa{\k58}ding
+Comment: 0,0:00:40.56,0:00:42.13,Mikoto Aketa,,0,0,0,karaoke,{\k24}yu{\k12}me {\k11}no {\k12}you {\k12}ni {\k24}FA{\k62}DING
+Comment: 0,0:00:42.44,0:00:44.07,Mikoto Aketa,,0,0,0,karaoke,{\k23}ki{\k12}o{\k12}ku {\k11}ka{\k13}ra {\k23}FA{\k69}DING
+Comment: 0,0:00:44.32,0:00:46.04,Mikoto Aketa,,0,0,0,karaoke,{\k23}wa{\k24}rui {\k23}jou{\k35}dan {\k35}mi{\k32}tai
+Comment: 0,0:00:46.19,0:00:47.78,Mikoto Aketa,,0,0,0,karaoke,{\k23}That {\k12}s{\k13}tar {\k11}i{\k12}s {\k23}fa{\k65}ding
+Comment: 0,0:00:48.06,0:00:49.63,Michiko Nanakusa,,0,0,0,karaoke,{\k24}sai{\k14}go {\k10}ku{\k10}ra{\k13}i {\k24}BA{\k62}BY
+Comment: 0,0:00:49.94,0:00:51.53,Michiko Nanakusa,,0,0,0,karaoke,{\k23}mi{\k12}se{\k11}te {\k13}se{\k11}n{\k23}mei {\k66}ni
+Comment: 0,0:00:51.81,0:00:53.50,Michiko Nanakusa,,0,0,0,karaoke,{\k24}nan{\k24}te {\k23}hon{\k34}mou {\k36}ja{\k28}nai
+Comment: 0,0:00:53.69,0:00:55.01,Mikoto Aketa,,0,0,0,karaoke,{\k22}u{\k14}so {\k11}de {\k10}i{\k13}i{\k34}ka{\k28}ra
+Comment: 0,0:00:55.11,0:00:55.78,SHHis Choir,,0,0,0,karaoke,{\k21}Al{\k46}right
+Comment: 0,0:00:55.56,0:00:56.85,Mikoto Aketa,,0,0,0,karaoke,{\k24}se{\k11}me{\k12}te {\k12}ko{\k11}no {\k35}ma{\k24}ma
+Comment: 0,0:00:56.95,0:00:57.68,SHHis Choir,,0,0,0,karaoke,{\k26}That's {\k47}fine
+Comment: 0,0:00:57.43,0:00:59.16,Mikoto Aketa,,0,0,0,karaoke,{\k24}o{\k12}wa{\k12}ri {\k12}ga {\k11}ku{\k35}ru {\k35}ko{\k32}to
+Comment: 0,0:00:59.20,0:01:00.94,Mikoto Aketa,,0,0,0,karaoke,{\k35}dat{\k24}te {\k23}wa{\k23}kat{\k11}te{\k24}ru {\k12}ke{\k22}do
+Comment: 0,0:01:01.19,0:01:03.62,Michiko Nanakusa,,0,0,0,karaoke,{\k24}ma{\k23}da {\k24}su{\k33}ko{\k13}shi {\k22}yu{\k13}me{\k24}mi {\k12}sa{\k23}se{\k32}te
+Comment: 0,0:01:03.75,0:01:05.45,Mikoto Aketa,,0,0,0,karaoke,{\k14}ko{\k20}no {\k14}se{\k23}tsu{\k13}na{\k25}sa {\k10}su{\k23}be{\k28}te
+Comment: 0,0:01:05.64,0:01:06.65,Michiko Nanakusa,,0,0,0,karaoke,{\k13}ki{\k24}e{\k11}sa{\k23}ru {\k11}ma{\k19}de
+Comment: 0,0:01:06.80,0:01:09.39,Michiko Nanakusa,,0,0,0,karaoke,{\k25}I {\k24}wish {\k21}u{\k37}pon {\k34}that {\k36}fa{\k35}ding {\k47}star
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H748E00&}SHHis{\c}\N| {\c&HB6CEA6&}Michiko Nanakusa{\c} | {\c&H3C359E&}Mikoto Aketa
+Dialogue: 0,0:00:08.26,0:00:12.27,Mikoto Aketa,,0,0,0,fx,{\k90\fad(300,200)}{\k24}mou {\k36}nan{\k79}de {\k26}ko{\k24}no {\k22}shun{\k35}kan {\k45}wa
+Dialogue: 0,0:00:11.54,0:00:16.56,Mikoto Aketa,,0,0,0,fx,{\k90\fad(300,200)}{\k24}sou {\k26}i{\k22}tsu{\k33}dat{\k83}te {\k23}na{\k24}ga{\k24}ku {\k36}tsu{\k32}zu{\k37}ka{\k28}nai
+Dialogue: 0,0:00:15.53,0:00:19.62,Michiko Nanakusa,,0,0,0,fx,{\k90\fad(300,200)}{\k24}dou {\k22}dat{\k34}te {\k83}ii {\k24}ko{\k23}to {\k24}no {\k33}hou {\k30}ga
+Dialogue: 0,0:00:19.05,0:00:21.49,Michiko Nanakusa,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ji{\k23}kan {\k24}wa {\k35}ei{\k29}en
+Dialogue: 0,0:00:20.92,0:00:24.62,Michiko Nanakusa,,0,0,0,fx,{\k90\fad(300,200)}{\k22}no {\k25}you {\k24}ni {\k38}kan{\k30}ji{\k37}ru {\k34}no {\k13}wa {\k13}na{\k24}ze
+Dialogue: 0,0:00:23.97,0:00:26.68,Mikoto Aketa,,0,0,0,fx,{\k90\fad(300,200)}{\k16}na{\k15}ga{\k15}re{\k17}bo{\k15}shi {\k16}mi{\k32}tai {\k35}ne
+Dialogue: 0,0:00:25.84,0:00:28.55,Mikoto Aketa,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ki{\k17}e {\k16}ta{\k13}ri {\k19}wa {\k15}shi{\k30}nai{\k36}de
+Dialogue: 0,0:00:27.72,0:00:30.40,Michiko Nanakusa,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ka{\k16}ga{\k17}ya{\k16}ki {\k16}tsu{\k15}zu{\k32}ke{\k32}te
+Dialogue: 0,0:00:29.59,0:00:32.28,Michiko Nanakusa,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ku{\k15}re{\k17}re{\k13}ba {\k15}i{\k18}i {\k33}nan{\k33}te
+Dialogue: 0,0:00:30.99,0:00:32.75,SHHis Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k37}I {\k29}know
+Dialogue: 0,0:00:31.70,0:00:34.10,Michiko Nanakusa,,0,0,0,fx,{\k90\fad(300,200)}{\k23}kon{\k24}na {\k22}ne{\k25}gai {\k36}wa
+Dialogue: 0,0:00:32.87,0:00:34.66,SHHis Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k36}I {\k33}know
+Dialogue: 0,0:00:33.57,0:00:35.92,Michiko Nanakusa,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mu{\k24}i{\k23}mi {\k24}dat{\k31}te
+Dialogue: 0,0:00:34.74,0:00:36.52,SHHis Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k36}I {\k32}know
+Dialogue: 0,0:00:35.43,0:00:38.71,Michiko Nanakusa,,0,0,0,fx,{\k90\fad(300,200)}{\k23}wa{\k25}kat{\k24}te{\k22}ru {\k25}ke{\kf99}do
+Dialogue: 0,0:00:37.78,0:00:40.41,Mikoto Aketa,,0,0,0,fx,{\k90\fad(300,200)}{\k25}That {\k12}s{\k12}tar {\k11}i{\k12}s {\k23}fa{\k58}ding
+Dialogue: 0,0:00:39.66,0:00:42.33,Mikoto Aketa,,0,0,0,fx,{\k90\fad(300,200)}{\k24}yu{\k12}me {\k11}no {\k12}you {\k12}ni {\k24}FA{\k62}DING
+Dialogue: 0,0:00:41.54,0:00:44.27,Mikoto Aketa,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ki{\k12}o{\k12}ku {\k11}ka{\k13}ra {\k23}FA{\k69}DING
+Dialogue: 0,0:00:43.42,0:00:46.24,Mikoto Aketa,,0,0,0,fx,{\k90\fad(300,200)}{\k23}wa{\k24}rui {\k23}jou{\k35}dan {\k35}mi{\k32}tai
+Dialogue: 0,0:00:45.29,0:00:47.98,Mikoto Aketa,,0,0,0,fx,{\k90\fad(300,200)}{\k23}That {\k12}s{\k13}tar {\k11}i{\k12}s {\k23}fa{\k65}ding
+Dialogue: 0,0:00:47.16,0:00:49.83,Michiko Nanakusa,,0,0,0,fx,{\k90\fad(300,200)}{\k24}sai{\k14}go {\k10}ku{\k10}ra{\k13}i {\k24}BA{\k62}BY
+Dialogue: 0,0:00:49.04,0:00:51.73,Michiko Nanakusa,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mi{\k12}se{\k11}te {\k13}se{\k11}n{\k23}mei {\k66}ni
+Dialogue: 0,0:00:50.91,0:00:53.70,Michiko Nanakusa,,0,0,0,fx,{\k90\fad(300,200)}{\k24}nan{\k24}te {\k23}hon{\k34}mou {\k36}ja{\k28}nai
+Dialogue: 0,0:00:52.79,0:00:55.21,Mikoto Aketa,,0,0,0,fx,{\k90\fad(300,200)}{\k22}u{\k14}so {\k11}de {\k10}i{\k13}i{\k34}ka{\k28}ra
+Dialogue: 0,0:00:54.21,0:00:55.98,SHHis Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Al{\k46}right
+Dialogue: 0,0:00:54.66,0:00:57.05,Mikoto Aketa,,0,0,0,fx,{\k90\fad(300,200)}{\k24}se{\k11}me{\k12}te {\k12}ko{\k11}no {\k35}ma{\k24}ma
+Dialogue: 0,0:00:56.05,0:00:57.88,SHHis Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k26}That's {\k47}fine
+Dialogue: 0,0:00:56.53,0:00:59.36,Mikoto Aketa,,0,0,0,fx,{\k90\fad(300,200)}{\k24}o{\k12}wa{\k12}ri {\k12}ga {\k11}ku{\k35}ru {\k35}ko{\k32}to
+Dialogue: 0,0:00:58.30,0:01:01.14,Mikoto Aketa,,0,0,0,fx,{\k90\fad(300,200)}{\k35}dat{\k24}te {\k23}wa{\k23}kat{\k11}te{\k24}ru {\k12}ke{\k22}do
+Dialogue: 0,0:01:00.29,0:01:03.82,Michiko Nanakusa,,0,0,0,fx,{\k90\fad(300,200)}{\k24}ma{\k23}da {\k24}su{\k33}ko{\k13}shi {\k22}yu{\k13}me{\k24}mi {\k12}sa{\k23}se{\k32}te
+Dialogue: 0,0:01:02.85,0:01:05.65,Mikoto Aketa,,0,0,0,fx,{\k90\fad(300,200)}{\k14}ko{\k20}no {\k14}se{\k23}tsu{\k13}na{\k25}sa {\k10}su{\k23}be{\k28}te
+Dialogue: 0,0:01:04.74,0:01:06.85,Michiko Nanakusa,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k24}e{\k11}sa{\k23}ru {\k11}ma{\k19}de
+Dialogue: 0,0:01:05.90,0:01:09.59,Michiko Nanakusa,,0,0,0,fx,{\k90\fad(300,200)}{\k25}I {\k24}wish {\k21}u{\k37}pon {\k34}that {\k36}fa{\k35}ding {\k47}star
