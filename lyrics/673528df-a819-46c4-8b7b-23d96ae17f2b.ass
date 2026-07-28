@@ -1,0 +1,191 @@
+﻿[Script Info]
+Title: Howling over the World
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Sodachi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lilja,Arial,24,&H00FFFFFF,&H00D0CCAC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: China,Arial,24,&H00FFFFFF,&H001F8BF6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Rinami,Arial,24,&H00FFFFFF,&H00C6ADF6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: All,Arial,24,&H00FFFFFF,&H00B874FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Lilja Symbol,Arial,24,&H00D0CCAC,&H00D0CCAC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: China Symbol,Arial,24,&H001F8BF6,&H001F8BF6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Rinami Symbol,Arial,24,&H00C6ADF6,&H00C6ADF6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Lilja,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rLilja Symbol\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,China,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rChina Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Rinami,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rRinami Symbol\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,All,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HB874FF&}Gakumas{\c}\N | {\c&HD0CCAC&}♦ Lilja{\c} | {\c&HC6ADF6&}♥ Rinami{\c} | {\c&H1F8BF6&}♠ China
+Comment: 0,0:00:00.74,0:00:03.11,Lilja,,0,0,0,karaoke,{\k29}How{\k30}ling {\k45}o{\k46}ver {\k44}the {\k43}World
+Comment: 0,0:00:03.14,0:00:08.07,Lilja,,0,0,0,karaoke,{\k29}na{\k29}ma{\k43}e {\k46}sa{\k47}e {\k46}na{\k31}i {\k27}bo{\k89}ku{\k19}ra {\k87}no
+Comment: 0,0:00:08.23,0:00:13.36,China,,0,0,0,karaoke,{\k15}sa{\k17}ke{\k13}bi {\k30}yo {\rRinami}{\k15}i{\k30}ma {\rAll}{\k17}ki{\k26}mi {\k16}he {\k31}to{\k29}do{\kf274}ke
+Comment: 0,0:00:15.13,0:00:17.53,All,,0,0,0,karaoke,{\kf0}{\kf235}Wow~
+Comment: 0,0:00:17.53,0:00:22.76,All,,0,0,0,karaoke,{\k60}La {\kf120}La {\kf119}La {\kf121}La {\kf103}La
+Comment: 0,0:00:22.92,0:00:26.70,China,,0,0,0,karaoke,{\k31}D{\k17}RA{\k28}MA{\k28}TI{\k33}C {\k28}na {\k32}ke{\k14}tsu{\k16}ma{\k15}tsu {\k30}wo {\k15}na{\k29}ku{\k31}shi{\k31}ta
+Comment: 0,0:00:26.97,0:00:29.62,Lilja,,0,0,0,karaoke,{\k16}ha{\k15}i{\k16}i{\k15}ro {\k14}no {\k30}STO{\k16}~{\kf143}RY
+Comment: 0,0:00:28.78,0:00:32.37,Rinami,,0,0,0,karaoke,{\k17}ho{\k28}n{\k17}tou {\k73}ni {\rAll}{\k32}so{\k14}re {\k30}de {\k28}yo{\k31}kat{\k16}ta {\k13}ha{\k17}zu {\k29}dat{\k14}ta
+Comment: 0,0:00:32.38,0:00:35.03,Rinami,,0,0,0,karaoke,{\k16}mo{\k29}to{\k15}shi{\k31}su {\k29}no {\k31}ma{\k28}chi {\k31}tei{\k30}kan {\k25}ni
+Comment: 0,0:00:35.09,0:00:36.28,Rinami,,0,0,0,karaoke,{\k14}to{\k15}za{\k16}su {\k29}hi{\k16}to{\k29}mi
+Comment: 0,0:00:36.56,0:00:39.56,Rinami,,0,0,0,karaoke,{\k17}so{\k16}re {\k14}de {\k16}mo {\k15}ya{\k28}ma{\k16}na{\kf178}i
+Comment: 0,0:00:38.38,0:00:39.55,Lilja,,0,0,0,karaoke,{\k15}ta{\k31}ka{\k14}na{\k57}ri
+Comment: 0,0:00:39.73,0:00:41.80,All,,0,0,0,karaoke,{\k29}mi{\k16}ta{\k30}se{\k16}na{\k13}i {\k46}ka{\k29}wa{\k28}ki
+Comment: 0,0:00:41.81,0:00:45.59,China,,0,0,0,karaoke,{\k17}ka{\k16}ga{\k13}mi {\k31}yo {\k30}ka{\k30}ga{\k30}mi {\k15}na{\k15}ni {\k45}wo {\k15}o{\k15}so{\k16}re{\k29}te {\k30}i{\k15}ru {\k16}no
+Comment: 0,0:00:45.71,0:00:48.82,Rinami,,0,0,0,karaoke,{\k17}ki{\k16}ko{\k14}e{\k30}ta {\k15}na{\k15}ra {\k15}ko{\k31}ta{\k14}e{\k30}te {\k31}ki{\k29}mi {\k15}no {\k15}ko{\k24}to
+Comment: 0,0:00:49.03,0:00:50.47,Rinami,,0,0,0,karaoke,{\k15}sa{\k14}ga{\k16}shi{\k31}te {\k30}i{\k14}ta {\k24}no
+Comment: 0,0:00:50.52,0:00:53.64,All,,0,0,0,karaoke,{\k31}ko{\k30}ko{\k31}ro {\k30}no {\k29}o{\k15}ku {\k30}no {\rRinami}{\k15}o{\k16}ri {\k15}no {\k28}na{\k15}ka {\k27}ni
+Comment: 0,0:00:53.67,0:00:55.63,Lilja,,0,0,0,karaoke,{\k17}tsu{\k14}na{\k15}ga{\k29}re{\k13}ta {\k33}ka{\k15}i{\k16}bu{\k14}tsu {\k30}ga
+Comment: 0,0:00:55.63,0:00:58.93,All,,0,0,0,karaoke,{\k30}me {\k30}wo {\k30}sa{\k30}ma{\k14}shi{\k32}ta{\k29}ra {\k45}sa{\k30}i{\k29}go {\k31}sa
+Comment: 0,0:00:58.93,0:01:01.14,Lilja,,0,0,0,karaoke,{\k15}i{\k30}ma {\rChina}{\k15}i{\k30}ma {\rRinami}{\k15}i{\k28}ma {\rAll}{\k17}to{\k15}ki{\k15}ha{\k16}na{\k25}te
+Comment: 0,0:01:01.18,0:01:02.91,All,,0,0,0,karaoke,{\k30}bu{\k16}ta{\k15}i {\k13}wo {\k16}ku{\k15}i {\k16}ya{\k29}but{\k23}te
+Comment: 0,0:01:02.97,0:01:05.68,All,,0,0,0,karaoke,{\k32}chou{\k29}dai {\k30}i{\k29}tai {\k16}ku{\k15}ra{\k15}i {\k14}no {\k31}kyou{\k60}mei
+Comment: 0,0:01:05.68,0:01:07.86,Lilja,,0,0,0,karaoke,{\k15}i{\k15}e{\k45}nai{\k44} {\rChina}{\k16}ki{\k15}e{\k68}nai
+Comment: 0,0:01:06.27,0:01:08.07,Rinami,,0,0,0,karaoke,{\k17}ki{\k17}zu {\k87}wo {\k13}u{\k17}ta {\k29}wo
+Comment: 0,0:01:08.07,0:01:10.19,All,,0,0,0,karaoke,{\k16}ko{\k16}ko {\k41}ni {\k17}ki{\k16}za{\k14}mi{\k16}ko{\k14}mu {\k31}you {\k31}ni
+Comment: 0,0:01:10.31,0:01:13.13,All,,0,0,0,karaoke,{\k17}ku{\k30}sa{\k30}ri{\k13}go{\k16}to {\k16}ku{\k30}rai {\k15}tsu{\k30}kush'{\k30}te {\k31}shou{\k24}dou
+Comment: 0,0:01:13.17,0:01:15.27,All,,0,0,0,karaoke,{\k32}ka{\k15}chi{\k14}to{\k15}ri{\k31}tai {\k15}mi{\k30}rai {\k29}nan{\k29}da
+Comment: 0,0:01:15.27,0:01:17.43,Rinami,,0,0,0,karaoke,{\k18}E{\k13}GO {\k90}wo {\k15}i{\k16}ma {\k64}wo
+Comment: 0,0:01:15.89,0:01:17.64,Lilja,,0,0,0,karaoke,{\k15}u{\k16}e {\k87}wo {\rChina}{\k16}yu{\k15}me {\k26}wo
+Comment: 0,0:01:17.68,0:01:22.33,All,,0,0,0,karaoke,{\k15}su{\k15}be{\k74}te {\k59}ka{\k32}ke{\k29}te {\k32}ka{\k29}ga{\k45}yai{\kf135}te
+Comment: 0,0:01:22.63,0:01:24.52,All,,0,0,0,karaoke,{\k27}mo{\k33}e{\k13}tsu{\k32}ki{\k15}ru {\k15}ma{\k54}de
+Comment: 0,0:01:24.73,0:01:27.10,All,,0,0,0,karaoke,{\k31}How{\k30}ling {\k45}o{\k44}ver {\k44}the {\k43}World
+Comment: 0,0:01:27.11,0:01:31.77,China,,0,0,0,karaoke,{\k31}saa {\k32}to{\k14}ko{\k29}de {\rRinami}{\k16}ki{\k30}se{\rLilja}{\k15}ki {\k30}no {\rall}{\k15}so{\k15}no {\k14}mu{\k32}kou {\kf193}de
+Comment: 0,0:01:31.93,0:01:34.27,All,,0,0,0,karaoke,{\k0}{\kf234}Wow~
+Comment: 0,0:01:34.33,0:01:39.55,All,,0,0,0,karaoke,{\k60}La {\kf121}La {\kf119}La {\kf120}La {\kf102}La
+Comment: 0,0:01:39.89,0:01:41.67,China,,0,0,0,karaoke,{\k16}ji{\k29}jou {\k14}ji{\k31}bak' {\k13}no {\k32}rou{\k14}go{\k29}ku
+Comment: 0,0:01:41.67,0:01:43.38,China,,0,0,0,karaoke,{\k15}se{\k16}i{\k15}ja{\k14}ku {\k16}wo {\k15}sa{\k13}ku {\k31}kei{\k16}ko{\k20}ku
+Comment: 0,0:01:43.63,0:01:46.13,Lilja,,0,0,0,karaoke,{\k14}i{\k16}ma{\k15}sa{\k15}ra {\k16}ma{\k31}yo{\k14}i {\k15}na{\k13}n{\k17}te {\k30}na{\k30}i {\k24}yo
+Comment: 0,0:01:46.17,0:01:47.21,Lilja,,0,0,0,karaoke,{\k32}On {\k31}your {\k41}mark
+Comment: 0,0:01:47.21,0:01:48.95,All,,0,0,0,karaoke,{\k16}ka{\k17}ki{\k13}na{\k16}ra{\k15}se {\k30}on{\k30}gak' {\k37}wo
+Comment: 0,0:01:49.03,0:01:51.33,China,,0,0,0,karaoke,{\k14}ka{\k16}ga{\k15}mi {\k30}yo {\k29}ka{\k32}ga{\k29}mi {\k16}na{\k13}ni {\k36}wo
+Comment: 0,0:01:51.43,0:01:52.89,China,,0,0,0,karaoke,{\k14}mo{\k17}to{\k15}me{\k29}te {\k31}i{\k14}ta {\k26}no
+Comment: 0,0:01:52.92,0:01:55.93,Rinami,,0,0,0,karaoke,{\k17}ki{\k15}ko{\k14}e{\k29}ta {\k16}na{\k14}ra {\k16}ko{\k30}ta{\k15}e{\k31}te {\k30}a{\k29}no {\k16}hi {\k14}mi{\k15}ta
+Comment: 0,0:01:56.24,0:01:57.66,Rinami,,0,0,0,karaoke,{\k16}yu{\k14}me {\k15}no {\k28}tsu{\k29}zu{\k18}ki {\k22}wo
+Comment: 0,0:01:57.72,0:02:00.77,Lilja,,0,0,0,karaoke,{\k31}ku{\k30}ri{\k30}ka{\k29}e{\k28}su {\k18}hi{\k30}bi {\rRinami}{\k15}ka{\k16}ko {\k14}no {\k29}na{\k15}ka {\k20}ni
+Comment: 0,0:02:00.88,0:02:02.92,China,,0,0,0,karaoke,{\k15}to{\k16}ra{\k15}wa{\k29}re{\k13}ru {\k32}ku{\k15}ra{\k15}i {\k16}na{\k38}ra
+Comment: 0,0:02:02.82,0:02:06.09,Rinami,,0,0,0,karaoke,{\k32}ka{\k30}i{\k28}bu{\rall}{\k31}tsu {\k15}ni {\k29}nat{\k32}te {\k43}ji{\k32}bu{\k30}n {\k25}wo
+Comment: 0,0:02:06.13,0:02:08.31,Rinami,,0,0,0,karaoke,{\k15}i{\k30}ma {\rLilja}{\k15}i{\k30}ma {\rChina}{\k15}i{\k29}ma {\rall}{\k16}to{\k15}ki{\k15}ha{\k14}na{\k22}te
+Comment: 0,0:02:08.38,0:02:10.77,All,,0,0,0,karaoke,{\k30}tsu{\k30}kan{\k15}de {\k15}fu{\k15}ri{\k15}ka{\k30}zash'{\k29}te {\k32}chou{\k28}dai
+Comment: 0,0:02:10.77,0:02:12.74,All,,0,0,0,karaoke,{\k30}i{\k17}ki{\k16}te{\k12}ru {\k16}i{\k16}mi {\k13}no {\k31}shou{\k46}mei
+Comment: 0,0:02:12.88,0:02:15.05,China,,0,0,0,karaoke,{\k14}o{\k16}re{\k91}nai {\rLilja}{\k14}ki{\k16}e{\k66}nai
+Comment: 0,0:02:13.48,0:02:15.26,Rinami,,0,0,0,karaoke,{\k13}ha{\k19}ta {\k89}wo {\k15}u{\k17}ta {\k25}wo
+Comment: 0,0:02:15.26,0:02:17.37,All,,0,0,0,karaoke,{\k16}ko{\k16}ko {\k45}ni {\k14}tsu{\k16}ki{\k15}ta{\k15}te{\k15}ru {\k30}you {\k29}ni
+Comment: 0,0:02:17.52,0:02:19.71,All,,0,0,0,karaoke,{\k17}da{\k27}re {\k32}no {\k15}me {\k15}mo {\k15}u{\k30}bai {\k15}tsu{\k30}kush'{\k23}te
+Comment: 0,0:02:19.77,0:02:22.47,All,,0,0,0,karaoke,{\k30}kou{\k31}kai {\k30}sa{\k16}se{\k14}ru {\k16}ku{\k26}rai {\k18}ni {\k30}sen{\k31}mei {\k28}na
+Comment: 0,0:02:22.47,0:02:24.43,Rinami,,0,0,0,karaoke,{\k17}e{\k14}go {\k91}wo {\k14}i{\k16}ma {\k44}wo
+Comment: 0,0:02:23.07,0:02:24.87,China,,0,0,0,karaoke,{\k16}u{\k16}e {\k89}wo {\rLilja}{\k14}yu{\k16}me {\k29}wo
+Comment: 0,0:02:24.89,0:02:29.66,All,,0,0,0,karaoke,{\k14}mi{\k15}te{\k75}te {\k58}wa{\k31}ta{\k31}shi {\k29}no {\k31}su{\k45}be{\k16}te {\kf132}wo
+Comment: 0,0:02:30.43,0:02:33.58,China,,0,0,0,karaoke,{\k15}mu{\k16}ki{\k13}da{\k16}shi {\k15}no {\k29}ji{\k30}ga {\k32}ga {\k29}o{\k30}mo{\k13}i {\k77}ga
+Comment: 0,0:02:32.82,0:02:35.95,Rinami,,0,0,0,karaoke,{\k16}ko{\k15}no {\k15}mu{\k15}ne {\k16}wo {\k29}ya{\k29}ki {\k32}tsu{\k28}ku{\kf118}su
+Comment: 0,0:02:35.23,0:02:38.48,Lilja,,0,0,0,karaoke,{\k13}i{\k17}tsu{\k16}wa{\k15}ri {\k12}no {\k32}ko{\k30}to{\k29}ba {\k31}wa {\k30}i{\k15}ra{\k85}nai
+Comment: 0,0:02:37.63,0:02:40.32,Rinami,,0,0,0,karaoke,{\k15}ka{\k15}ku{\k30}mei {\k13}no {\k32}hi {\k30}wo {\k30}to{\k29}mo{\k75}se
+Comment: 0,0:02:39.28,0:02:41.68,China,,0,0,0,karaoke,{\k15}yu{\k15}zu{\k16}re{\k29}na{\k15}i {\k29}yo {\rRinami}{\k17}ka{\k15}na{\k14}e{\k29}ta{\k13}i {\k33}yo
+Comment: 0,0:02:41.69,0:02:44.08,China,,0,0,0,karaoke,{\k12}da{\k18}ka{\k13}ra {\rAll\k30}ko{\k16}ko {\k29}ni {\k31}tat{\k17}te {\k14}i{\k28}run{\k31}da
+Comment: 0,0:02:44.08,0:02:51.74,Lilja,,0,0,0,karaoke,{\k15}su{\k15}be{\k15}te {\rAll}{\k45}tsu{\k45}ka{\k46}i {\k44}ha{\k29}ta{\k30}shi{\k60}te {\k60}sa{\k61}ke{\kf301}be
+Comment: 0,0:03:07.90,0:03:10.72,Lilja,,0,0,0,karaoke,{\k20}ta{\k28}da {\k30}ku{\k29}dai{\k15}te {\k31}kui{\k18}ya{\k27}but{\k29}te {\k32}chou{\k23}dai
+Comment: 0,0:03:10.79,0:03:12.82,Lilja,,0,0,0,karaoke,{\k30}to{\k13}za{\k17}sa{\k14}re{\k16}ta {\k15}ko{\k18}no {\k28}un{\k52}mei
+Comment: 0,0:03:12.89,0:03:15.78,China,,0,0,0,karaoke,{\k15}na{\k14}ni {\k30}mo {\k16}ka {\k15}mo {\k30}su{\k15}be{\k14}te {\k30}wo {\k16}ka{\k14}e{\k32}ru {\k13}u{\k16}ta {\k19}de
+Comment: 0,0:03:16.01,0:03:17.49,All,,0,0,0,karaoke,{\k30}sa{\k32}ke{\k15}bi{\k30}goe {\k41}de
+Comment: 0,0:03:17.50,0:03:19.69,All,,0,0,0,karaoke,{\k18}ku{\k30}sa{\k30}ri{\k15}go{\k14}to {\k16}ku{\k30}rai {\k15}tsu{\k30}kush'{\k21}te
+Comment: 0,0:03:19.77,0:03:22.46,All,,0,0,0,karaoke,{\k30}zet{\k31}tai {\k29}ma{\k17}ke{\k14}ra{\k16}re{\k26}nai {\k19}ki{\k15}mi {\k14}ni {\k29}dat{\k29}te
+Comment: 0,0:03:22.48,0:03:24.43,Rinami,,0,0,0,karaoke,{\k15}E{\k16}GO {\k90}wo {\k15}i{\k15}ma {\k44}wo
+Comment: 0,0:03:23.08,0:03:24.79,China,,0,0,0,karaoke,{\k15}u{\k16}e {\k90}wo {\rLilja}{\k14}yu{\k15}me {\k21}wo
+Comment: 0,0:03:24.87,0:03:29.48,All,,0,0,0,karaoke,{\k16}su{\k15}be{\k74}te {\k60}ka{\k32}ke{\k28}te {\k31}ka{\k29}ga{\k46}yai{\kf130}te
+Comment: 0,0:03:29.83,0:03:31.70,All,,0,0,0,karaoke,{\k27}mo{\k33}e{\k15}tsu{\k30}ki{\k15}ru {\k16}ma{\k51}de
+Comment: 0,0:03:31.89,0:03:34.22,All,,0,0,0,karaoke,{\k33}How{\k32}ling {\k43}o{\k45}ver {\k46}the {\k34}World
+Comment: 0,0:03:34.33,0:03:40.96,All,,0,0,0,karaoke,{\k30}sa {\k30}to{\k15}do{\k28}ke {\k17}ki{\k29}se{\k17}ki{\k29} no{\k15} so{\k16}no {\k14}mu{\k30}kou{\kf393} he
+Comment: 0,0:03:41.53,0:03:43.89,All,,0,0,0,karaoke,{\k30}How{\k31}ling {\k44}o{\k46}ver {\k44}the {\k41}World
+Comment: 0,0:03:43.92,0:03:49.45,All,,0,0,0,karaoke,{\k31}ha{\k30}i{\k46}i{\k44}ro {\k45}no {\k45}o{\k31}ri {\k29}wo {\k89}nu{\k16}ke{\kf147}te
+Comment: 0,0:03:51.09,0:03:53.42,All,,0,0,0,karaoke,{\k33}How{\k32}ling {\k43}o{\k45}ver {\k46}the {\k34}World
+Comment: 0,0:03:53.52,0:04:00.88,All,,0,0,0,karaoke,{\k32}sa {\k26}o{\k18}ko{\k28}se {\k16}ki{\k30}se{\k17}ki {\k27}wo {\k18}ko{\k27}no{\k15} ko{\k17}e {\kf465}de
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HB874FF&}Gakumas{\c}\N | {\c&HD0CCAC&}♦ Lilja{\c} | {\c&HC6ADF6&}♥ Rinami{\c} | {\c&H1F8BF6&}♠ China
+Dialogue: 0,0:00:00.00,0:00:03.31,Lilja,,0,0,0,fx,{\k74\fad(740,200)}{\rLilja Symbol\fs30}♦{\r\fs\4a&HFF&} {\k29}How{\k30}ling {\k45}o{\k46}ver {\k44}the {\k43}World
+Dialogue: 0,0:00:02.24,0:00:08.27,Lilja,,0,0,0,fx,{\k90\fad(300,200)}{\rLilja Symbol\fs30}♦{\r\fs\4a&HFF&} {\k29}na{\k29}ma{\k43}e {\k46}sa{\k47}e {\k46}na{\k31}i {\k27}bo{\k89}ku{\k19}ra {\k87}no
+Dialogue: 0,0:00:07.33,0:00:13.56,China,,0,0,0,fx,{\k90\fad(300,200)}{\rChina Symbol\fs30}♠{\r\fs\4a&HFF&} {\k15}sa{\k17}ke{\k13}bi {\k30}yo {\rRinami}{\k15}i{\k30}ma {\rAll}{\k17}ki{\k26}mi {\k16}he {\k31}to{\k29}do{\kf274}ke
+Dialogue: 0,0:00:14.23,0:00:17.73,All,,0,0,0,fx,{\k90\fad(300,200)}{\kf0}{\kf235}Wow~
+Dialogue: 0,0:00:16.63,0:00:22.96,All,,0,0,0,fx,{\k90\fad(300,200)}{\k60}La {\kf120}La {\kf119}La {\kf121}La {\kf103}La
+Dialogue: 0,0:00:22.02,0:00:26.90,China,,0,0,0,fx,{\k90\fad(300,200)}{\rChina Symbol\fs30}♠{\r\fs\4a&HFF&} {\k31}D{\k17}RA{\k28}MA{\k28}TI{\k33}C {\k28}na {\k32}ke{\k14}tsu{\k16}ma{\k15}tsu {\k30}wo {\k15}na{\k29}ku{\k31}shi{\k31}ta
+Dialogue: 0,0:00:26.07,0:00:29.82,Lilja,,0,0,0,fx,{\k90\fad(300,200)}{\rLilja Symbol\fs30}♦{\r\fs\4a&HFF&} {\k16}ha{\k15}i{\k16}i{\k15}ro {\k14}no {\k30}STO{\k16}~{\kf143}RY
+Dialogue: 0,0:00:27.88,0:00:32.57,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k17}ho{\k28}n{\k17}tou {\k73}ni {\rAll}{\k32}so{\k14}re {\k30}de {\k28}yo{\k31}kat{\k16}ta {\k13}ha{\k17}zu {\k29}dat{\k14}ta
+Dialogue: 0,0:00:31.48,0:00:35.23,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k16}mo{\k29}to{\k15}shi{\k31}su {\k29}no {\k31}ma{\k28}chi {\k31}tei{\k30}kan {\k25}ni
+Dialogue: 0,0:00:34.19,0:00:36.48,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k14}to{\k15}za{\k16}su {\k29}hi{\k16}to{\k29}mi
+Dialogue: 0,0:00:35.66,0:00:39.76,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k17}so{\k16}re {\k14}de {\k16}mo {\k15}ya{\k28}ma{\k16}na{\kf178}i
+Dialogue: 0,0:00:37.48,0:00:39.75,Lilja,,0,0,0,fx,{\k90\fad(300,200)}{\rLilja Symbol\fs30}♦{\r\fs\4a&HFF&} {\k15}ta{\k31}ka{\k14}na{\k57}ri
+Dialogue: 0,0:00:38.83,0:00:42.00,All,,0,0,0,fx,{\k90\fad(300,200)}{\k29}mi{\k16}ta{\k30}se{\k16}na{\k13}i {\k46}ka{\k29}wa{\k28}ki
+Dialogue: 0,0:00:40.91,0:00:45.79,China,,0,0,0,fx,{\k90\fad(300,200)}{\rChina Symbol\fs30}♠{\r\fs\4a&HFF&} {\k17}ka{\k16}ga{\k13}mi {\k31}yo {\k30}ka{\k30}ga{\k30}mi {\k15}na{\k15}ni {\k45}wo {\k15}o{\k15}so{\k16}re{\k29}te {\k30}i{\k15}ru {\k16}no
+Dialogue: 0,0:00:44.81,0:00:49.02,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k17}ki{\k16}ko{\k14}e{\k30}ta {\k15}na{\k15}ra {\k15}ko{\k31}ta{\k14}e{\k30}te {\k31}ki{\k29}mi {\k15}no {\k15}ko{\k24}to
+Dialogue: 0,0:00:48.13,0:00:50.67,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k15}sa{\k14}ga{\k16}shi{\k31}te {\k30}i{\k14}ta {\k24}no
+Dialogue: 0,0:00:49.62,0:00:53.84,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ko{\k30}ko{\k31}ro {\k30}no {\k29}o{\k15}ku {\k30}no {\rRinami}{\k15}o{\k16}ri {\k15}no {\k28}na{\k15}ka {\k27}ni
+Dialogue: 0,0:00:52.77,0:00:55.83,Lilja,,0,0,0,fx,{\k90\fad(300,200)}{\rLilja Symbol\fs30}♦{\r\fs\4a&HFF&} {\k17}tsu{\k14}na{\k15}ga{\k29}re{\k13}ta {\k33}ka{\k15}i{\k16}bu{\k14}tsu {\k30}ga
+Dialogue: 0,0:00:54.73,0:00:59.13,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}me {\k30}wo {\k30}sa{\k30}ma{\k14}shi{\k32}ta{\k29}ra {\k45}sa{\k30}i{\k29}go {\k31}sa
+Dialogue: 0,0:00:58.03,0:01:01.34,Lilja,,0,0,0,fx,{\k90\fad(300,200)}{\rLilja Symbol\fs30}♦{\r\fs\4a&HFF&} {\k15}i{\k30}ma {\rChina}{\k15}i{\k30}ma {\rRinami}{\k15}i{\k28}ma {\rAll}{\k17}to{\k15}ki{\k15}ha{\k16}na{\k25}te
+Dialogue: 0,0:01:00.28,0:01:03.11,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}bu{\k16}ta{\k15}i {\k13}wo {\k16}ku{\k15}i {\k16}ya{\k29}but{\k23}te
+Dialogue: 0,0:01:02.07,0:01:05.88,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}chou{\k29}dai {\k30}i{\k29}tai {\k16}ku{\k15}ra{\k15}i {\k14}no {\k31}kyou{\k60}mei
+Dialogue: 0,0:01:04.78,0:01:08.06,Lilja,,0,0,0,fx,{\k90\fad(300,200)}{\rLilja Symbol\fs30}♦{\r\fs\4a&HFF&} {\k15}i{\k15}e{\k45}nai{\k44} {\rChina}{\k16}ki{\k15}e{\k68}nai
+Dialogue: 0,0:01:05.37,0:01:08.27,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k17}ki{\k17}zu {\k87}wo {\k13}u{\k17}ta {\k29}wo
+Dialogue: 0,0:01:07.17,0:01:10.39,All,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ko{\k16}ko {\k41}ni {\k17}ki{\k16}za{\k14}mi{\k16}ko{\k14}mu {\k31}you {\k31}ni
+Dialogue: 0,0:01:09.41,0:01:13.33,All,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ku{\k30}sa{\k30}ri{\k13}go{\k16}to {\k16}ku{\k30}rai {\k15}tsu{\k30}kush'{\k30}te {\k31}shou{\k24}dou
+Dialogue: 0,0:01:12.27,0:01:15.47,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ka{\k15}chi{\k14}to{\k15}ri{\k31}tai {\k15}mi{\k30}rai {\k29}nan{\k29}da
+Dialogue: 0,0:01:14.37,0:01:17.63,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k18}E{\k13}GO {\k90}wo {\k15}i{\k16}ma {\k64}wo
+Dialogue: 0,0:01:14.99,0:01:17.84,Lilja,,0,0,0,fx,{\k90\fad(300,200)}{\rLilja Symbol\fs30}♦{\r\fs\4a&HFF&} {\k15}u{\k16}e {\k87}wo {\rChina}{\k16}yu{\k15}me {\k26}wo
+Dialogue: 0,0:01:16.78,0:01:22.53,All,,0,0,0,fx,{\k90\fad(300,200)}{\k15}su{\k15}be{\k74}te {\k59}ka{\k32}ke{\k29}te {\k32}ka{\k29}ga{\k45}yai{\kf135}te
+Dialogue: 0,0:01:21.73,0:01:24.72,All,,0,0,0,fx,{\k90\fad(300,200)}{\k27}mo{\k33}e{\k13}tsu{\k32}ki{\k15}ru {\k15}ma{\k54}de
+Dialogue: 0,0:01:23.83,0:01:27.30,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}How{\k30}ling {\k45}o{\k44}ver {\k44}the {\k43}World
+Dialogue: 0,0:01:26.21,0:01:31.97,China,,0,0,0,fx,{\k90\fad(300,200)}{\rChina Symbol\fs30}♠{\r\fs\4a&HFF&} {\k31}saa {\k32}to{\k14}ko{\k29}de {\rRinami}{\k16}ki{\k30}se{\rLilja}{\k15}ki {\k30}no {\rall}{\k15}so{\k15}no {\k14}mu{\k32}kou {\kf193}de
+Dialogue: 0,0:01:31.03,0:01:34.47,All,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\kf234}Wow~
+Dialogue: 0,0:01:33.43,0:01:39.75,All,,0,0,0,fx,{\k90\fad(300,200)}{\k60}La {\kf121}La {\kf119}La {\kf120}La {\kf102}La
+Dialogue: 0,0:01:38.99,0:01:41.87,China,,0,0,0,fx,{\k90\fad(300,200)}{\rChina Symbol\fs30}♠{\r\fs\4a&HFF&} {\k16}ji{\k29}jou {\k14}ji{\k31}bak' {\k13}no {\k32}rou{\k14}go{\k29}ku
+Dialogue: 0,0:01:40.77,0:01:43.58,China,,0,0,0,fx,{\k90\fad(300,200)}{\rChina Symbol\fs30}♠{\r\fs\4a&HFF&} {\k15}se{\k16}i{\k15}ja{\k14}ku {\k16}wo {\k15}sa{\k13}ku {\k31}kei{\k16}ko{\k20}ku
+Dialogue: 0,0:01:42.73,0:01:46.33,Lilja,,0,0,0,fx,{\k90\fad(300,200)}{\rLilja Symbol\fs30}♦{\r\fs\4a&HFF&} {\k14}i{\k16}ma{\k15}sa{\k15}ra {\k16}ma{\k31}yo{\k14}i {\k15}na{\k13}n{\k17}te {\k30}na{\k30}i {\k24}yo
+Dialogue: 0,0:01:45.27,0:01:47.41,Lilja,,0,0,0,fx,{\k90\fad(300,200)}{\rLilja Symbol\fs30}♦{\r\fs\4a&HFF&} {\k32}On {\k31}your {\k41}mark
+Dialogue: 0,0:01:46.31,0:01:49.15,All,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ka{\k17}ki{\k13}na{\k16}ra{\k15}se {\k30}on{\k30}gak' {\k37}wo
+Dialogue: 0,0:01:48.13,0:01:51.53,China,,0,0,0,fx,{\k90\fad(300,200)}{\rChina Symbol\fs30}♠{\r\fs\4a&HFF&} {\k14}ka{\k16}ga{\k15}mi {\k30}yo {\k29}ka{\k32}ga{\k29}mi {\k16}na{\k13}ni {\k36}wo
+Dialogue: 0,0:01:50.53,0:01:53.09,China,,0,0,0,fx,{\k90\fad(300,200)}{\rChina Symbol\fs30}♠{\r\fs\4a&HFF&} {\k14}mo{\k17}to{\k15}me{\k29}te {\k31}i{\k14}ta {\k26}no
+Dialogue: 0,0:01:52.02,0:01:56.13,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k17}ki{\k15}ko{\k14}e{\k29}ta {\k16}na{\k14}ra {\k16}ko{\k30}ta{\k15}e{\k31}te {\k30}a{\k29}no {\k16}hi {\k14}mi{\k15}ta
+Dialogue: 0,0:01:55.34,0:01:57.86,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k16}yu{\k14}me {\k15}no {\k28}tsu{\k29}zu{\k18}ki {\k22}wo
+Dialogue: 0,0:01:56.82,0:02:00.97,Lilja,,0,0,0,fx,{\k90\fad(300,200)}{\rLilja Symbol\fs30}♦{\r\fs\4a&HFF&} {\k31}ku{\k30}ri{\k30}ka{\k29}e{\k28}su {\k18}hi{\k30}bi {\rRinami}{\k15}ka{\k16}ko {\k14}no {\k29}na{\k15}ka {\k20}ni
+Dialogue: 0,0:01:59.98,0:02:03.12,China,,0,0,0,fx,{\k90\fad(300,200)}{\rChina Symbol\fs30}♠{\r\fs\4a&HFF&} {\k15}to{\k16}ra{\k15}wa{\k29}re{\k13}ru {\k32}ku{\k15}ra{\k15}i {\k16}na{\k38}ra
+Dialogue: 0,0:02:01.92,0:02:06.29,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k32}ka{\k30}i{\k28}bu{\rall}{\k31}tsu {\k15}ni {\k29}nat{\k32}te {\k43}ji{\k32}bu{\k30}n {\k25}wo
+Dialogue: 0,0:02:05.23,0:02:08.51,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k15}i{\k30}ma {\rLilja}{\k15}i{\k30}ma {\rChina}{\k15}i{\k29}ma {\rall}{\k16}to{\k15}ki{\k15}ha{\k14}na{\k22}te
+Dialogue: 0,0:02:07.48,0:02:10.97,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}tsu{\k30}kan{\k15}de {\k15}fu{\k15}ri{\k15}ka{\k30}zash'{\k29}te {\k32}chou{\k28}dai
+Dialogue: 0,0:02:09.87,0:02:12.94,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}i{\k17}ki{\k16}te{\k12}ru {\k16}i{\k16}mi {\k13}no {\k31}shou{\k46}mei
+Dialogue: 0,0:02:11.98,0:02:15.25,China,,0,0,0,fx,{\k90\fad(300,200)}{\rChina Symbol\fs30}♠{\r\fs\4a&HFF&} {\k14}o{\k16}re{\k91}nai {\rLilja}{\k14}ki{\k16}e{\k66}nai
+Dialogue: 0,0:02:12.58,0:02:15.46,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k13}ha{\k19}ta {\k89}wo {\k15}u{\k17}ta {\k25}wo
+Dialogue: 0,0:02:14.36,0:02:17.57,All,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ko{\k16}ko {\k45}ni {\k14}tsu{\k16}ki{\k15}ta{\k15}te{\k15}ru {\k30}you {\k29}ni
+Dialogue: 0,0:02:16.62,0:02:19.91,All,,0,0,0,fx,{\k90\fad(300,200)}{\k17}da{\k27}re {\k32}no {\k15}me {\k15}mo {\k15}u{\k30}bai {\k15}tsu{\k30}kush'{\k23}te
+Dialogue: 0,0:02:18.87,0:02:22.67,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}kou{\k31}kai {\k30}sa{\k16}se{\k14}ru {\k16}ku{\k26}rai {\k18}ni {\k30}sen{\k31}mei {\k28}na
+Dialogue: 0,0:02:21.57,0:02:24.63,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k17}e{\k14}go {\k91}wo {\k14}i{\k16}ma {\k44}wo
+Dialogue: 0,0:02:22.17,0:02:25.07,China,,0,0,0,fx,{\k90\fad(300,200)}{\rChina Symbol\fs30}♠{\r\fs\4a&HFF&} {\k16}u{\k16}e {\k89}wo {\rLilja}{\k14}yu{\k16}me {\k29}wo
+Dialogue: 0,0:02:23.99,0:02:29.86,All,,0,0,0,fx,{\k90\fad(300,200)}{\k14}mi{\k15}te{\k75}te {\k58}wa{\k31}ta{\k31}shi {\k29}no {\k31}su{\k45}be{\k16}te {\kf132}wo
+Dialogue: 0,0:02:29.53,0:02:33.78,China,,0,0,0,fx,{\k90\fad(300,200)}{\rChina Symbol\fs30}♠{\r\fs\4a&HFF&} {\k15}mu{\k16}ki{\k13}da{\k16}shi {\k15}no {\k29}ji{\k30}ga {\k32}ga {\k29}o{\k30}mo{\k13}i {\k77}ga
+Dialogue: 0,0:02:31.92,0:02:36.15,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k16}ko{\k15}no {\k15}mu{\k15}ne {\k16}wo {\k29}ya{\k29}ki {\k32}tsu{\k28}ku{\kf118}su
+Dialogue: 0,0:02:34.33,0:02:38.68,Lilja,,0,0,0,fx,{\k90\fad(300,200)}{\rLilja Symbol\fs30}♦{\r\fs\4a&HFF&} {\k13}i{\k17}tsu{\k16}wa{\k15}ri {\k12}no {\k32}ko{\k30}to{\k29}ba {\k31}wa {\k30}i{\k15}ra{\k85}nai
+Dialogue: 0,0:02:36.73,0:02:40.52,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k15}ka{\k15}ku{\k30}mei {\k13}no {\k32}hi {\k30}wo {\k30}to{\k29}mo{\k75}se
+Dialogue: 0,0:02:38.38,0:02:41.88,China,,0,0,0,fx,{\k90\fad(300,200)}{\rChina Symbol\fs30}♠{\r\fs\4a&HFF&} {\k15}yu{\k15}zu{\k16}re{\k29}na{\k15}i {\k29}yo {\rRinami}{\k17}ka{\k15}na{\k14}e{\k29}ta{\k13}i {\k33}yo
+Dialogue: 0,0:02:40.79,0:02:44.28,China,,0,0,0,fx,{\k90\fad(300,200)}{\rChina Symbol\fs30}♠{\r\fs\4a&HFF&} {\k12}da{\k18}ka{\k13}ra {\rAll\k30}ko{\k16}ko {\k29}ni {\k31}tat{\k17}te {\k14}i{\k28}run{\k31}da
+Dialogue: 0,0:02:43.18,0:02:51.94,Lilja,,0,0,0,fx,{\k90\fad(300,200)}{\rLilja Symbol\fs30}♦{\r\fs\4a&HFF&} {\k15}su{\k15}be{\k15}te {\rAll}{\k45}tsu{\k45}ka{\k46}i {\k44}ha{\k29}ta{\k30}shi{\k60}te {\k60}sa{\k61}ke{\kf301}be
+Dialogue: 0,0:03:07.00,0:03:10.92,Lilja,,0,0,0,fx,{\k90\fad(300,200)}{\rLilja Symbol\fs30}♦{\r\fs\4a&HFF&} {\k20}ta{\k28}da {\k30}ku{\k29}dai{\k15}te {\k31}kui{\k18}ya{\k27}but{\k29}te {\k32}chou{\k23}dai
+Dialogue: 0,0:03:09.89,0:03:13.02,Lilja,,0,0,0,fx,{\k90\fad(300,200)}{\rLilja Symbol\fs30}♦{\r\fs\4a&HFF&} {\k30}to{\k13}za{\k17}sa{\k14}re{\k16}ta {\k15}ko{\k18}no {\k28}un{\k52}mei
+Dialogue: 0,0:03:11.99,0:03:15.98,China,,0,0,0,fx,{\k90\fad(300,200)}{\rChina Symbol\fs30}♠{\r\fs\4a&HFF&} {\k15}na{\k14}ni {\k30}mo {\k16}ka {\k15}mo {\k30}su{\k15}be{\k14}te {\k30}wo {\k16}ka{\k14}e{\k32}ru {\k13}u{\k16}ta {\k19}de
+Dialogue: 0,0:03:15.11,0:03:17.69,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}sa{\k32}ke{\k15}bi{\k30}goe {\k41}de
+Dialogue: 0,0:03:16.60,0:03:19.89,All,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ku{\k30}sa{\k30}ri{\k15}go{\k14}to {\k16}ku{\k30}rai {\k15}tsu{\k30}kush'{\k21}te
+Dialogue: 0,0:03:18.87,0:03:22.66,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}zet{\k31}tai {\k29}ma{\k17}ke{\k14}ra{\k16}re{\k26}nai {\k19}ki{\k15}mi {\k14}ni {\k29}dat{\k29}te
+Dialogue: 0,0:03:21.58,0:03:24.63,Rinami,,0,0,0,fx,{\k90\fad(300,200)}{\rRinami Symbol\fs30}♥{\r\fs\4a&HFF&} {\k15}E{\k16}GO {\k90}wo {\k15}i{\k15}ma {\k44}wo
+Dialogue: 0,0:03:22.18,0:03:24.99,China,,0,0,0,fx,{\k90\fad(300,200)}{\rChina Symbol\fs30}♠{\r\fs\4a&HFF&} {\k15}u{\k16}e {\k90}wo {\rLilja}{\k14}yu{\k15}me {\k21}wo
+Dialogue: 0,0:03:23.97,0:03:29.68,All,,0,0,0,fx,{\k90\fad(300,200)}{\k16}su{\k15}be{\k74}te {\k60}ka{\k32}ke{\k28}te {\k31}ka{\k29}ga{\k46}yai{\kf130}te
+Dialogue: 0,0:03:28.93,0:03:31.90,All,,0,0,0,fx,{\k90\fad(300,200)}{\k27}mo{\k33}e{\k15}tsu{\k30}ki{\k15}ru {\k16}ma{\k51}de
+Dialogue: 0,0:03:30.99,0:03:34.42,All,,0,0,0,fx,{\k90\fad(300,200)}{\k33}How{\k32}ling {\k43}o{\k45}ver {\k46}the {\k34}World
+Dialogue: 0,0:03:33.43,0:03:41.16,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}sa {\k30}to{\k15}do{\k28}ke {\k17}ki{\k29}se{\k17}ki{\k29} no{\k15} so{\k16}no {\k14}mu{\k30}kou{\kf393} he
+Dialogue: 0,0:03:40.63,0:03:44.09,All,,0,0,0,fx,{\k90\fad(300,200)}{\k30}How{\k31}ling {\k44}o{\k46}ver {\k44}the {\k41}World
+Dialogue: 0,0:03:43.02,0:03:49.65,All,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ha{\k30}i{\k46}i{\k44}ro {\k45}no {\k45}o{\k31}ri {\k29}wo {\k89}nu{\k16}ke{\kf147}te
+Dialogue: 0,0:03:50.19,0:03:53.62,All,,0,0,0,fx,{\k90\fad(300,200)}{\k33}How{\k32}ling {\k43}o{\k45}ver {\k46}the {\k34}World
+Dialogue: 0,0:03:52.62,0:04:01.08,All,,0,0,0,fx,{\k90\fad(300,200)}{\k32}sa {\k26}o{\k18}ko{\k28}se {\k16}ki{\k30}se{\k17}ki {\k27}wo {\k18}ko{\k27}no{\k15} ko{\k17}e {\kf465}de
