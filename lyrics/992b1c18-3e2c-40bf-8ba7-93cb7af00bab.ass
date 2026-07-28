@@ -1,0 +1,76 @@
+﻿[Script Info]
+Title: Clean clean up
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Sodachi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cometik,Arial,24,&H0065666B,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Luca Ikaruga,Arial,24,&H00FFFFFF,&H00334586,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hana Suzuki,Arial,24,&H00FFFFFF,&H00C58DDD,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Haruki Ikuta,Arial,24,&H00FFFFFF,&H0080C1DC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hana Suzuki Down,Arial,24,&H00FFFFFF,&H00C58DDD,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: Luca Ikaruga Symbol,Arial,24,&H00334586,&H00334586,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hana Suzuki Symbol,Arial,24,&H00C58DDD,&H00C58DDD,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Haruki Ikuta Symbol,Arial,24,&H0080C1DC,&H0080C1DC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hana Suzuki Down Symbol,Arial,24,&H00C58DDD,&H00C58DDD,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Cometik,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Luca Ikaruga,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rLuca Ikaruga Symbol\\fs30}♣{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Hana Suzuki,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rHana Suzuki Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Haruki Ikuta,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rHaruki Ikuta Symbol\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Hana Suzuki Down,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rHana Suzuki Down Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HFFFFFF&}Cometik{\c}\N | {\c&H334586&}♣ Luca Ikaruga{\c} | {\c&HC58DDD&}♠ Hana Suzuki{\c} | {\c&H80C1DC&}♦ Haruki Ikuta
+Comment: 0,0:00:01.24,0:00:02.99,Hana Suzuki,,0,0,0,karaoke,{\k45}SLOW {\k44}DOWN {\k12}a{\k10}se{\k12}ra{\k21}na{\k10}i{\k21}de
+Comment: 0,0:00:03.00,0:00:04.53,Hana Suzuki,,0,0,0,karaoke,{\k12}shi{\k10}zu{\k11}ka {\k21}ni {\k13}shi{\k21}te{\k22}run{\k11}da {\k32}yo
+Comment: 0,0:00:04.73,0:00:06.88,Luca Ikaruga,,0,0,0,karaoke,{\k45}SLOW {\k44}DOWN {\k21}mits'{\k12}ka{\k22}ra{\k9}na{\k23}i {\k22}you {\k17}ni
+Comment: 0,0:00:06.92,0:00:08.97,Luca Ikaruga,,0,0,0,karaoke,{\k21}kon{\k12}se{\k22}ki {\k21}ma{\k53}de {\k45}CLEAN {\k31}UP
+Comment: 0,0:00:15.61,0:00:18.45,Haruki Ikuta,,0,0,0,karaoke,{\k21}mu{\k12}su{\k22}u {\k21}ni {\k55}ar' {\k11}mi{\k10}se{\k13}ka{\k9}ke {\k23}no {\k11}se{\k21}n{\k22}tak'{\k33}shi
+Comment: 0,0:00:18.65,0:00:20.34,Haruki Ikuta,,0,0,0,karaoke,{\k23}to{\k22}bi{\k22}dash'{\k11}ta {\k22}i{\k21}chi{\k48}mai
+Comment: 0,0:00:20.39,0:00:23.06,Haruki Ikuta,,0,0,0,karaoke,{\k10}hi{\k14}ka{\k9}na{\k11}kya {\k19}kuu{\k15}ki {\k20}yo{\k24}me{\k31}nait{\k22}te {\k22}iun {\k20}de{\k50}sho
+Comment: 0,0:00:22.81,0:00:25.62,Hana Suzuki Down,,0,0,0,karaoke,{\k13}ka{\k38}n{\k13}chi{\k29}gai {\k14}kya{\k29}ra {\k14}chi{\k22}gai {\k13}wa {\k21}go{\k21}hat{\k54}to
+Comment: 0,0:00:25.40,0:00:26.53,Haruki Ikuta,,0,0,0,karaoke,{\k22}shit{\k23}to {\k20}des' {\k48}ka
+Comment: 0,0:00:29.09,0:00:32.94,Luca Ikaruga,,0,0,0,karaoke,{\k44}o{\k33}naj' {\k32}ko{\k42}to {\k23}ku{\k12}ri{\k32}ka{\k33}esh'{\k32}te{\k39}ru {\k25}u{\k11}chi {\k27}ni
+Comment: 0,0:00:33.22,0:00:35.82,Luca Ikaruga,,0,0,0,karaoke,{\k12}a{\k31}t{\k23}te{\k21}ru {\k21}to {\k23}o{\k21}mo{\k22}i{\k20}ta{\k24}ku {\k21}na{\k21}ru
+Comment: 0,0:00:36.04,0:00:41.25,Hana Suzuki,,0,0,0,karaoke,{\k44}kit{\k32}to {\k33}sou {\k44}yat{\k22}te {\k22}mi{\k21}n{\k32}na {\k33}o{\k45}to{\k20}na {\k13}ni {\k31}na{\k65}ru {\k22}to {\k42}ka
+Comment: 0,0:00:41.45,0:00:43.71,Hana Suzuki,,0,0,0,karaoke,{\k24}na{\k22}c{\k11}cha{\k23}t{\k9}ta {\k20}no {\k14}ma{\k22}chi{\k12}ga{\k20}i {\k22}ka {\k27}na
+Comment: 0,0:00:44.50,0:00:48.43,Cometik,,0,0,0,karaoke,{\k23}wa{\k23}ra{\k22}e{\k43}nai {\k22}ku{\k22}ra{\k22}i {\k19}ni {\k23}jou{\k44}zets' {\k21}mu{\k23}ka{\k21}shi{\k23}ba{\k21}na{\k21}shi
+Comment: 0,0:00:48.65,0:00:51.54,Cometik,,0,0,0,karaoke,{\k21}bi{\k23}ka {\k22}shi{\k20}te {\k45}mot{\k20}te {\k45}ka{\k22}shi{\k22}ma{\k49}shii
+Comment: 0,0:00:51.70,0:00:55.45,Hana Suzuki,,0,0,0,karaoke,{\k22}a{\k21}na{\k44}ta {\k22}mi{\k22}ta{\k22}i {\k21}ni {\k23}na{\k42}ri{\k21}ta{\k22}ku {\k22}na{\k44}i {\k27}tte
+Comment: 0,0:00:55.61,0:00:57.72,Haruki Ikuta,,0,0,0,karaoke,{\k24}da{\k20}re {\k22}mo {\k11}ga {\k22}it{\k21}te{\k11}ta{\k22}ra{\k58}shii
+Comment: 0,0:00:58.00,0:00:59.31,Hana Suzuki,,0,0,0,karaoke,{\k11}ta{\k12}i{\k9}ga{\k12}i {\k12}ga {\k10}ya{\k11}ki{\k12}na{\k21}os{\k21}hi
+Comment: 0,0:00:59.52,0:01:01.93,Luca Ikaruga,,0,0,0,karaoke,{\k11}ki{\k12}so{\k11}u {\k20}yo{\k13}u {\k21}ni {\k11}u{\k11}ba{\k10}i{\k31}au {\k13}ki{\k11}so{\k22}n {\k11}no {\k33}PIECE
+Comment: 0,0:01:02.13,0:01:03.79,Cometik,,0,0,0,karaoke,{\k44}SLOW {\k43}DOWN {\k22}dai{\k12}jo{\k21}ub' {\k11}da {\k13}yo
+Comment: 0,0:01:03.87,0:01:06.31,Cometik,,0,0,0,karaoke,{\k11}so{\k11}re {\k21}ni {\k21}su{\k15}ku{\k18}i {\k23}wa {\k54}nai {\k43}HOLD {\k27}UP
+Comment: 0,0:01:12.56,0:01:12.75,Hana Suzuki,,0,0,0,karaoke,{\k0}{\k19}Ha
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HFFFFFF&}Cometik{\c}\N | {\c&H334586&}♣ Luca Ikaruga{\c} | {\c&HC58DDD&}♠ Hana Suzuki{\c} | {\c&H80C1DC&}♦ Haruki Ikuta
+Dialogue: 0,0:00:00.34,0:00:03.19,Hana Suzuki,,0,0,0,fx,{\k90\fad(300,200)}{\rHana Suzuki Symbol\fs30}♠{\r\fs\4a&HFF&} {\k45}SLOW {\k44}DOWN {\k12}a{\k10}se{\k12}ra{\k21}na{\k10}i{\k21}de
+Dialogue: 0,0:00:02.10,0:00:04.73,Hana Suzuki,,0,0,0,fx,{\k90\fad(300,200)}{\rHana Suzuki Symbol\fs30}♠{\r\fs\4a&HFF&} {\k12}shi{\k10}zu{\k11}ka {\k21}ni {\k13}shi{\k21}te{\k22}run{\k11}da {\k32}yo
+Dialogue: 0,0:00:03.83,0:00:07.08,Luca Ikaruga,,0,0,0,fx,{\k90\fad(300,200)}{\rLuca Ikaruga Symbol\fs30}♣{\r\fs\4a&HFF&} {\k45}SLOW {\k44}DOWN {\k21}mits'{\k12}ka{\k22}ra{\k9}na{\k23}i {\k22}you {\k17}ni
+Dialogue: 0,0:00:06.02,0:00:09.17,Luca Ikaruga,,0,0,0,fx,{\k90\fad(300,200)}{\rLuca Ikaruga Symbol\fs30}♣{\r\fs\4a&HFF&} {\k21}kon{\k12}se{\k22}ki {\k21}ma{\k53}de {\k45}CLEAN {\k31}UP
+Dialogue: 0,0:00:14.71,0:00:18.65,Haruki Ikuta,,0,0,0,fx,{\k90\fad(300,200)}{\rHaruki Ikuta Symbol\fs30}♦{\r\fs\4a&HFF&} {\k21}mu{\k12}su{\k22}u {\k21}ni {\k55}ar' {\k11}mi{\k10}se{\k13}ka{\k9}ke {\k23}no {\k11}se{\k21}n{\k22}tak'{\k33}shi
+Dialogue: 0,0:00:17.75,0:00:20.54,Haruki Ikuta,,0,0,0,fx,{\k90\fad(300,200)}{\rHaruki Ikuta Symbol\fs30}♦{\r\fs\4a&HFF&} {\k23}to{\k22}bi{\k22}dash'{\k11}ta {\k22}i{\k21}chi{\k48}mai
+Dialogue: 0,0:00:19.49,0:00:23.26,Haruki Ikuta,,0,0,0,fx,{\k90\fad(300,200)}{\rHaruki Ikuta Symbol\fs30}♦{\r\fs\4a&HFF&} {\k10}hi{\k14}ka{\k9}na{\k11}kya {\k19}kuu{\k15}ki {\k20}yo{\k24}me{\k31}nait{\k22}te {\k22}iun {\k20}de{\k50}sho
+Dialogue: 0,0:00:21.91,0:00:25.82,Hana Suzuki Down,,0,0,0,fx,{\k90\fad(300,200)}{\rHana Suzuki Down Symbol\fs30}♠{\r\fs\4a&HFF&} {\k13}ka{\k38}n{\k13}chi{\k29}gai {\k14}kya{\k29}ra {\k14}chi{\k22}gai {\k13}wa {\k21}go{\k21}hat{\k54}to
+Dialogue: 0,0:00:24.50,0:00:26.73,Haruki Ikuta,,0,0,0,fx,{\k90\fad(300,200)}{\rHaruki Ikuta Symbol\fs30}♦{\r\fs\4a&HFF&} {\k22}shit{\k23}to {\k20}des' {\k48}ka
+Dialogue: 0,0:00:28.19,0:00:33.14,Luca Ikaruga,,0,0,0,fx,{\k90\fad(300,200)}{\rLuca Ikaruga Symbol\fs30}♣{\r\fs\4a&HFF&} {\k44}o{\k33}naj' {\k32}ko{\k42}to {\k23}ku{\k12}ri{\k32}ka{\k33}esh'{\k32}te{\k39}ru {\k25}u{\k11}chi {\k27}ni
+Dialogue: 0,0:00:32.32,0:00:36.02,Luca Ikaruga,,0,0,0,fx,{\k90\fad(300,200)}{\rLuca Ikaruga Symbol\fs30}♣{\r\fs\4a&HFF&} {\k12}a{\k31}t{\k23}te{\k21}ru {\k21}to {\k23}o{\k21}mo{\k22}i{\k20}ta{\k24}ku {\k21}na{\k21}ru
+Dialogue: 0,0:00:35.14,0:00:41.45,Hana Suzuki,,0,0,0,fx,{\k90\fad(300,200)}{\rHana Suzuki Symbol\fs30}♠{\r\fs\4a&HFF&} {\k44}kit{\k32}to {\k33}sou {\k44}yat{\k22}te {\k22}mi{\k21}n{\k32}na {\k33}o{\k45}to{\k20}na {\k13}ni {\k31}na{\k65}ru {\k22}to {\k42}ka
+Dialogue: 0,0:00:40.55,0:00:43.91,Hana Suzuki,,0,0,0,fx,{\k90\fad(300,200)}{\rHana Suzuki Symbol\fs30}♠{\r\fs\4a&HFF&} {\k24}na{\k22}c{\k11}cha{\k23}t{\k9}ta {\k20}no {\k14}ma{\k22}chi{\k12}ga{\k20}i {\k22}ka {\k27}na
+Dialogue: 0,0:00:43.60,0:00:48.63,Cometik,,0,0,0,fx,{\k90\fad(300,200)}{\k23}wa{\k23}ra{\k22}e{\k43}nai {\k22}ku{\k22}ra{\k22}i {\k19}ni {\k23}jou{\k44}zets' {\k21}mu{\k23}ka{\k21}shi{\k23}ba{\k21}na{\k21}shi
+Dialogue: 0,0:00:47.75,0:00:51.74,Cometik,,0,0,0,fx,{\k90\fad(300,200)}{\k21}bi{\k23}ka {\k22}shi{\k20}te {\k45}mot{\k20}te {\k45}ka{\k22}shi{\k22}ma{\k49}shii
+Dialogue: 0,0:00:50.80,0:00:55.65,Hana Suzuki,,0,0,0,fx,{\k90\fad(300,200)}{\rHana Suzuki Symbol\fs30}♠{\r\fs\4a&HFF&} {\k22}a{\k21}na{\k44}ta {\k22}mi{\k22}ta{\k22}i {\k21}ni {\k23}na{\k42}ri{\k21}ta{\k22}ku {\k22}na{\k44}i {\k27}tte
+Dialogue: 0,0:00:54.71,0:00:57.92,Haruki Ikuta,,0,0,0,fx,{\k90\fad(300,200)}{\rHaruki Ikuta Symbol\fs30}♦{\r\fs\4a&HFF&} {\k24}da{\k20}re {\k22}mo {\k11}ga {\k22}it{\k21}te{\k11}ta{\k22}ra{\k58}shii
+Dialogue: 0,0:00:57.10,0:00:59.51,Hana Suzuki,,0,0,0,fx,{\k90\fad(300,200)}{\rHana Suzuki Symbol\fs30}♠{\r\fs\4a&HFF&} {\k11}ta{\k12}i{\k9}ga{\k12}i {\k12}ga {\k10}ya{\k11}ki{\k12}na{\k21}os{\k21}hi
+Dialogue: 0,0:00:58.62,0:01:02.13,Luca Ikaruga,,0,0,0,fx,{\k90\fad(300,200)}{\rLuca Ikaruga Symbol\fs30}♣{\r\fs\4a&HFF&} {\k11}ki{\k12}so{\k11}u {\k20}yo{\k13}u {\k21}ni {\k11}u{\k11}ba{\k10}i{\k31}au {\k13}ki{\k11}so{\k22}n {\k11}no {\k33}PIECE
+Dialogue: 0,0:01:01.23,0:01:03.99,Cometik,,0,0,0,fx,{\k90\fad(300,200)}{\k44}SLOW {\k43}DOWN {\k22}dai{\k12}jo{\k21}ub' {\k11}da {\k13}yo
+Dialogue: 0,0:01:02.97,0:01:06.51,Cometik,,0,0,0,fx,{\k90\fad(300,200)}{\k11}so{\k11}re {\k21}ni {\k21}su{\k15}ku{\k18}i {\k23}wa {\k54}nai {\k43}HOLD {\k27}UP
+Dialogue: 0,0:01:11.66,0:01:12.95,Hana Suzuki,,0,0,0,fx,{\k90\fad(300,200)}{\rHana Suzuki Symbol\fs30}♠{\r\fs\4a&HFF&} {\k0}{\k19}Ha
