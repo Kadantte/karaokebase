@@ -1,0 +1,109 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Sweet Magic
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Mao@,Arial,24,&H00BE4BBA,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: MaoChoir,Arial,24,&H00FFFFFF,&H00BE4BBA,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Mao@,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.36,0:00:03.25,Mao@,,0,0,0,karaoke,{\k19}ha{\k12}ji{\k16}me{\k22}you {\k58}COO{\k40}L {\k22}ni
+Comment: 0,0:00:03.32,0:00:05.48,Mao@,,0,0,0,karaoke,{\k17}ko{\k11}n{\k15}ya {\k24}wa {\k55}SWEET {\k43}PA{\k51}RADE
+Comment: 0,0:00:05.78,0:00:09.30,Mao@,,0,0,0,karaoke,{\k21}ma{\k16}ho{\k27}u {\k22}ni {\k24}ka{\k35}ka{\k24}ri{\k21}ma{\k25}sho{\kf137}~
+Comment: 0,0:00:09.37,0:00:10.08,MaoChoir,,0,0,0,karaoke,{\k71}YEAH
+Comment: 0,0:00:09.88,0:00:11.57,Mao@,,0,0,0,karaoke,{\k24}rat{\k16}ta{\k8}ra{\k27}rat{\k12}ta {\k11}ra{\k15}ra{\k22}ra{\k34}tta
+Comment: 0,0:00:11.57,0:00:13.62,Mao@,,0,0,0,karaoke,{\k17}ra{\k9}ra{\k23}rat{\k14}ta {\k11}ra{\k22}rat{\k17}ta {\k10}ra{\k14}ra{\k25}rat{\k43}ta
+Comment: 0,0:00:17.57,0:00:19.32,Mao@,,0,0,0,karaoke,{\k30}rat{\k15}ta{\k9}ra{\k25}rat{\k15}ta {\k9}ra{\k14}ra{\k24}ra{\k34}tta
+Comment: 0,0:00:19.32,0:00:21.35,Mao@,,0,0,0,karaoke,{\k17}ra{\k9}ra{\k23}rat{\k14}ta {\k11}ra{\k22}rat{\k17}ta {\k10}ra{\k14}ra{\k25}rat{\k43}ta
+Comment: 0,0:00:25.12,0:00:28.23,Mao@,,0,0,0,karaoke,{\k25}i{\k25}tsu{\k22}mo {\k25}to {\k27}chi{\k45}ga{\k24}u {\k48}RO{\k23}U{\k47}TINE
+Comment: 0,0:00:28.96,0:00:31.96,Mao@,,0,0,0,karaoke,{\k29}ka{\k22}wa{\k24}i{\k25}i {\k24}da{\k48}ke {\k25}ja {\kf103}nai
+Comment: 0,0:00:32.79,0:00:36.39,Mao@,,0,0,0,karaoke,{\k31}hya{\k25}ku{\k23}ha{\k26}chi{\k15}ju{\k56}u{\k25}do {\k48}ga{\k24}ra{\k24}ri {\k63}to
+Comment: 0,0:00:36.73,0:00:39.92,Mao@,,0,0,0,karaoke,{\k24}mi{\k17}n{\k22}na {\k26}o{\k24}do{\k33}ro{\k22}ku {\k27}ka {\kf124}na~
+Comment: 0,0:00:40.61,0:00:42.40,Mao@,,0,0,0,karaoke,{\k23}o{\k18}sha{\k26}re {\k24}mo {\k20}MA{\k23}~{\k13}KE {\k32}mo
+Comment: 0,0:00:42.57,0:00:44.31,Mao@,,0,0,0,karaoke,{\k19}su{\k18}ki {\k24}na {\k26}mo{\k24}no{\k22}zu{\k10}ki {\k31}to
+Comment: 0,0:00:44.49,0:00:48.50,Mao@,,0,0,0,karaoke,{\k23}i{\k17}e{\k22}ru {\k25}i{\k24}ma {\k29}ga {\k22}shi{\k21}a{\k25}wa{\k34}se{\k75}~ {\k45}YES{\k39}~
+Comment: 0,0:00:48.50,0:00:50.04,Mao@,,0,0,0,karaoke,{\k9}ji{\k25}bu{\k13}n {\k25}wo {\k24}ka{\k25}kush' {\k11}ta{\k22}ri
+Comment: 0,0:00:50.28,0:00:51.96,Mao@,,0,0,0,karaoke,{\k24}da{\k16}re{\k24}ka {\k20}wo {\k29}en{\k22}ji {\k13}ta{\k20}ri
+Comment: 0,0:00:52.24,0:00:55.36,Mao@,,0,0,0,karaoke,{\k22}shi{\k23}na{\k25}ku{\k26}te {\k21}mo {\k18}i{\k31}in{\k26}da {\kf120}yo~
+Comment: 0,0:00:56.20,0:00:59.62,Mao@,,0,0,0,karaoke,{\k12}ji{\k25}yuu {\k25}ni {\k24}ta{\k24}no{\k27}shin{\k21}ja{\kf184}ou
+Comment: 0,0:01:01.37,0:01:03.27,Mao@,,0,0,0,karaoke,{\k19}ha{\k12}ji{\k16}me{\k21}you {\k57}COO{\k41}L {\k24}ni
+Comment: 0,0:01:03.32,0:01:05.53,Mao@,,0,0,0,karaoke,{\k17}ko{\k11}n{\k15}ya {\k24}wa {\k55}SWEET {\k41}PA{\k58}RADE
+Comment: 0,0:01:05.76,0:01:09.03,Mao@,,0,0,0,karaoke,{\k25}wa{\k17}ta{\k25}shi{\k23}ra{\k22}shi{\k32}ku {\k26}its'{\k12}mo {\k11}i{\k25}jou {\k48}dai{\k42}tan {\k19}ni
+Comment: 0,0:01:09.15,0:01:11.00,Mao@,,0,0,0,karaoke,{\k13}ha{\k12}ji{\k18}ke{\k21}ru {\k57}POP {\k38}AND {\k26}POP
+Comment: 0,0:01:11.10,0:01:13.33,Mao@,,0,0,0,karaoke,{\k23}sa{\k13}i{\k25}kou {\k10}ni {\k48}HAP{\k40}PY {\k64}ni
+Comment: 0,0:01:13.52,0:01:16.09,Mao@,,0,0,0,karaoke,{\k21}ma{\k16}ho{\k27}u {\k22}ni {\k24}ka{\k35}ka{\k24}ri{\k21}ma{\k25}sho{\k42}~
+Comment: 0,0:01:15.69,0:01:17.60,MaoChoir,,0,0,0,karaoke,{\k33}rat{\k16}ta{\k13}ra{\k22}ra {\k23}rat{\k26}tat{\k13}ta{\k23}ra{\k22}ra
+Comment: 0,0:01:17.90,0:01:19.55,MaoChoir,,0,0,0,karaoke,{\k22}rat{\k13}ta{\k22}ra {\k29}rat{\k24}ta{\k10}ra{\k21}ra{\k24}ra
+Comment: 0,0:01:19.81,0:01:21.52,MaoChoir,,0,0,0,karaoke,{\k24}rat{\k13}ta{\k26}ra {\k25}rat{\k23}ta{\k9}ra{\k27}ra{\k24}ra
+Comment: 0,0:01:23.65,0:01:25.21,Mao@,,0,0,0,karaoke,{\k19}BIT{\k25}TER {\k31}SWEET {\k15}BIT{\k24}TER {\k42}SWEET
+Comment: 0,0:01:27.55,0:01:28.90,Mao@,,0,0,0,karaoke,{\k22}COO{\k15}L {\k35}ni {\k22}CU{\k14}TE {\k27}ni
+Comment: 0,0:01:31.15,0:01:32.30,MaoChoir,,0,0,0,karaoke,{\kf115}YEAH
+Comment: 0,0:01:32.33,0:01:34.21,Mao@,,0,0,0,karaoke,{\k19}ha{\k12}ji{\k16}me{\k21}you {\k59}COO{\k39}L {\k22}ni
+Comment: 0,0:01:34.33,0:01:36.56,Mao@,,0,0,0,karaoke,{\k14}so{\k9}re {\k17}to {\k22}mo {\k57}CU{\k40}TE {\k64}ni
+Comment: 0,0:01:36.74,0:01:40.02,Mao@,,0,0,0,karaoke,{\k23}wa{\k20}ta{\k21}shi{\k25}ra{\k23}shi{\k33}ku {\k11}na{\k12}ra {\k24}kit{\k25}to {\k47}dai{\k41}jou{\k23}bu
+Comment: 0,0:01:40.13,0:01:41.96,Mao@,,0,0,0,karaoke,{\k13}ha{\k10}ji{\k18}ke{\k23}ru {\k57}POP {\k38}AND {\k24}POP
+Comment: 0,0:01:42.09,0:01:44.25,Mao@,,0,0,0,karaoke,{\k20}sa{\k16}i{\k21}kou {\k13}ni {\k48}HAP{\k40}PY {\k58}ni
+Comment: 0,0:01:44.49,0:01:47.96,Mao@,,0,0,0,karaoke,{\k20}ma{\k17}ho{\k27}u {\k22}ni {\k24}ka{\k35}ka{\k24}ri{\k21}ma{\k25}sho{\kf132}~
+Comment: 0,0:01:48.57,0:01:50.28,Mao@,,0,0,0,karaoke,{\k24}rat{\k16}ta{\k10}ra{\k25}rat{\k15}ta {\k8}ra{\k17}ra{\k22}ra{\k34}tta
+Comment: 0,0:01:50.28,0:01:52.37,Mao@,,0,0,0,karaoke,{\k17}ra{\k9}ra{\k23}rat{\k14}ta {\k11}ra{\k22}rat{\k17}ta {\k10}ra{\k14}ra{\k25}rat{\k43}ta
+Comment: 0,0:01:53.60,0:01:56.01,Mao@,,0,0,0,karaoke,{\k31}OH{\k24}~ {\kf186}YEAH
+Comment: 0,0:01:56.34,0:01:58.01,Mao@,,0,0,0,karaoke,{\k24}rat{\k16}ta{\k8}ra{\k23}rat{\k16}ta {\k10}ra{\k16}ra{\k22}ra{\k32}tta
+Comment: 0,0:01:58.01,0:02:00.19,Mao@,,0,0,0,karaoke,{\k17}ra{\k9}ra{\k23}rat{\k14}ta {\k11}ra{\k22}rat{\k17}ta {\k10}ra{\k14}ra{\k25}rat{\k43}ta
+Comment: 0,0:02:00.46,0:02:02.14,Mao@,,0,0,0,karaoke,{\k21}BIT{\k18}TE{\k33}R {\k37}SWE{\k59}ET
+Comment: 0,0:02:02.37,0:02:04.08,Mao@,,0,0,0,karaoke,{\k25}ka{\k24}ka{\k27}ru {\k38}MA{\k57}GIC
+Dialogue: 0,0:00:00.46,0:00:03.45,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ha{\k12}ji{\k16}me{\k22}you {\k58}COO{\k40}L {\k22}ni
+Dialogue: 0,0:00:02.42,0:00:05.68,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ko{\k11}n{\k15}ya {\k24}wa {\k55}SWEET {\k43}PA{\k51}RADE
+Dialogue: 0,0:00:04.88,0:00:09.50,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ma{\k16}ho{\k27}u {\k22}ni {\k24}ka{\k35}ka{\k24}ri{\k21}ma{\k25}sho{\kf137}~
+Dialogue: 0,0:00:08.47,0:00:10.28,MaoChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k71}YEAH
+Dialogue: 0,0:00:08.98,0:00:11.77,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k24}rat{\k16}ta{\k8}ra{\k27}rat{\k12}ta {\k11}ra{\k15}ra{\k22}ra{\k34}tta
+Dialogue: 0,0:00:10.67,0:00:13.82,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ra{\k9}ra{\k23}rat{\k14}ta {\k11}ra{\k22}rat{\k17}ta {\k10}ra{\k14}ra{\k25}rat{\k43}ta
+Dialogue: 0,0:00:16.67,0:00:19.52,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k30}rat{\k15}ta{\k9}ra{\k25}rat{\k15}ta {\k9}ra{\k14}ra{\k24}ra{\k34}tta
+Dialogue: 0,0:00:18.42,0:00:21.55,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ra{\k9}ra{\k23}rat{\k14}ta {\k11}ra{\k22}rat{\k17}ta {\k10}ra{\k14}ra{\k25}rat{\k43}ta
+Dialogue: 0,0:00:24.22,0:00:28.43,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k25}i{\k25}tsu{\k22}mo {\k25}to {\k27}chi{\k45}ga{\k24}u {\k48}RO{\k23}U{\k47}TINE
+Dialogue: 0,0:00:28.06,0:00:32.16,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ka{\k22}wa{\k24}i{\k25}i {\k24}da{\k48}ke {\k25}ja {\kf103}nai
+Dialogue: 0,0:00:31.89,0:00:36.59,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k31}hya{\k25}ku{\k23}ha{\k26}chi{\k15}ju{\k56}u{\k25}do {\k48}ga{\k24}ra{\k24}ri {\k63}to
+Dialogue: 0,0:00:35.83,0:00:40.12,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k24}mi{\k17}n{\k22}na {\k26}o{\k24}do{\k33}ro{\k22}ku {\k27}ka {\kf124}na~
+Dialogue: 0,0:00:39.71,0:00:42.60,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k23}o{\k18}sha{\k26}re {\k24}mo {\k20}MA{\k23}~{\k13}KE {\k32}mo
+Dialogue: 0,0:00:41.67,0:00:44.51,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k19}su{\k18}ki {\k24}na {\k26}mo{\k24}no{\k22}zu{\k10}ki {\k31}to
+Dialogue: 0,0:00:43.59,0:00:48.70,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k23}i{\k17}e{\k22}ru {\k25}i{\k24}ma {\k29}ga {\k22}shi{\k21}a{\k25}wa{\k34}se{\k75}~ {\k45}YES{\k39}~
+Dialogue: 0,0:00:47.60,0:00:50.24,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k9}ji{\k25}bu{\k13}n {\k25}wo {\k24}ka{\k25}kush' {\k11}ta{\k22}ri
+Dialogue: 0,0:00:49.38,0:00:52.16,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k24}da{\k16}re{\k24}ka {\k20}wo {\k29}en{\k22}ji {\k13}ta{\k20}ri
+Dialogue: 0,0:00:51.34,0:00:55.56,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k22}shi{\k23}na{\k25}ku{\k26}te {\k21}mo {\k18}i{\k31}in{\k26}da {\kf120}yo~
+Dialogue: 0,0:00:55.30,0:00:59.82,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k12}ji{\k25}yuu {\k25}ni {\k24}ta{\k24}no{\k27}shin{\k21}ja{\kf184}ou
+Dialogue: 0,0:01:00.47,0:01:03.47,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ha{\k12}ji{\k16}me{\k21}you {\k57}COO{\k41}L {\k24}ni
+Dialogue: 0,0:01:02.42,0:01:05.73,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ko{\k11}n{\k15}ya {\k24}wa {\k55}SWEET {\k41}PA{\k58}RADE
+Dialogue: 0,0:01:04.86,0:01:09.23,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k25}wa{\k17}ta{\k25}shi{\k23}ra{\k22}shi{\k32}ku {\k26}its'{\k12}mo {\k11}i{\k25}jou {\k48}dai{\k42}tan {\k19}ni
+Dialogue: 0,0:01:08.25,0:01:11.20,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ha{\k12}ji{\k18}ke{\k21}ru {\k57}POP {\k38}AND {\k26}POP
+Dialogue: 0,0:01:10.20,0:01:13.53,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k23}sa{\k13}i{\k25}kou {\k10}ni {\k48}HAP{\k40}PY {\k64}ni
+Dialogue: 0,0:01:12.62,0:01:16.29,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ma{\k16}ho{\k27}u {\k22}ni {\k24}ka{\k35}ka{\k24}ri{\k21}ma{\k25}sho{\k42}~
+Dialogue: 0,0:01:14.79,0:01:17.80,MaoChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k33}rat{\k16}ta{\k13}ra{\k22}ra {\k23}rat{\k26}tat{\k13}ta{\k23}ra{\k22}ra
+Dialogue: 0,0:01:17.00,0:01:19.75,MaoChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k22}rat{\k13}ta{\k22}ra {\k29}rat{\k24}ta{\k10}ra{\k21}ra{\k24}ra
+Dialogue: 0,0:01:18.91,0:01:21.72,MaoChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}rat{\k13}ta{\k26}ra {\k25}rat{\k23}ta{\k9}ra{\k27}ra{\k24}ra
+Dialogue: 0,0:01:22.75,0:01:25.41,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k19}BIT{\k25}TER {\k31}SWEET {\k15}BIT{\k24}TER {\k42}SWEET
+Dialogue: 0,0:01:26.65,0:01:29.10,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k22}COO{\k15}L {\k35}ni {\k22}CU{\k14}TE {\k27}ni
+Dialogue: 0,0:01:30.25,0:01:32.50,MaoChoir,,0,0,0,fx,{\k90\fad(300,200)}{\kf115}YEAH
+Dialogue: 0,0:01:31.43,0:01:34.41,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ha{\k12}ji{\k16}me{\k21}you {\k59}COO{\k39}L {\k22}ni
+Dialogue: 0,0:01:33.43,0:01:36.76,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k14}so{\k9}re {\k17}to {\k22}mo {\k57}CU{\k40}TE {\k64}ni
+Dialogue: 0,0:01:35.84,0:01:40.22,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k23}wa{\k20}ta{\k21}shi{\k25}ra{\k23}shi{\k33}ku {\k11}na{\k12}ra {\k24}kit{\k25}to {\k47}dai{\k41}jou{\k23}bu
+Dialogue: 0,0:01:39.23,0:01:42.16,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ha{\k10}ji{\k18}ke{\k23}ru {\k57}POP {\k38}AND {\k24}POP
+Dialogue: 0,0:01:41.19,0:01:44.45,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k20}sa{\k16}i{\k21}kou {\k13}ni {\k48}HAP{\k40}PY {\k58}ni
+Dialogue: 0,0:01:43.59,0:01:48.16,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ma{\k17}ho{\k27}u {\k22}ni {\k24}ka{\k35}ka{\k24}ri{\k21}ma{\k25}sho{\kf132}~
+Dialogue: 0,0:01:47.67,0:01:50.48,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k24}rat{\k16}ta{\k10}ra{\k25}rat{\k15}ta {\k8}ra{\k17}ra{\k22}ra{\k34}tta
+Dialogue: 0,0:01:49.38,0:01:52.57,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ra{\k9}ra{\k23}rat{\k14}ta {\k11}ra{\k22}rat{\k17}ta {\k10}ra{\k14}ra{\k25}rat{\k43}ta
+Dialogue: 0,0:01:52.70,0:01:56.21,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k31}OH{\k24}~ {\kf186}YEAH
+Dialogue: 0,0:01:55.44,0:01:58.21,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k24}rat{\k16}ta{\k8}ra{\k23}rat{\k16}ta {\k10}ra{\k16}ra{\k22}ra{\k32}tta
+Dialogue: 0,0:01:57.11,0:02:00.39,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ra{\k9}ra{\k23}rat{\k14}ta {\k11}ra{\k22}rat{\k17}ta {\k10}ra{\k14}ra{\k25}rat{\k43}ta
+Dialogue: 0,0:01:59.56,0:02:02.34,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k21}BIT{\k18}TE{\k33}R {\k37}SWE{\k59}ET
+Dialogue: 0,0:02:01.47,0:02:04.28,Mao@,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ka{\k24}ka{\k27}ru {\k38}MA{\k57}GIC
