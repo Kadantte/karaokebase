@@ -1,4 +1,5 @@
 ﻿[Script Info]
+; https://aegisub.org/
 Title: Wakashi Sawagashi Ska Punk
 ScriptType: v4.00+
 WrapStyle: 0
@@ -12,16 +13,15 @@ Original Timing: DaBi
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Gakumas,Arial,24,&H00FFFFFF,&H008CA0FE,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Gakumas,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Misuzu,Arial,24,&H00FFFFFF,&H00CF997A,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: Ume,Arial,24,&H00FFFFFF,&H003A53EA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: Sena,Arial,24,&H00FFFFFF,&H0054AEF6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
-Style: GakumasChoir,Arial,24,&H00FFFFFF,&H008CA0FE,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,100,1
+Style: GakumasChoir,Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,100,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:15.00,Misuzu,,0,0,200,legend,{\k1500}{\k0}{\rGakumas}Gakumas{\r}
-Dialogue: 0,0:00:00.00,0:00:15.00,Misuzu,,0,0,200,legend,{\k1500}{\k0}{\2cHFFFFFF}♣ {\rMisuzu}Misuzu{\r}{\2cHFFFFFF}  ♥ {\rUme}Ume{\r}{\2cHFFFFFF}  ♠{\rSena} Sena{\r}
+Comment: 0,0:00:00.50,0:00:14.39,Gakumas,,0,0,0,karaoke,{\an2\k13890} {\rGakumas} Gakumas {\2cHFFFFFF}| \N{\rMisuzu}♣ Misuzu {\2cHFFFFFF}| {\rUme}♥ Ume {\2cHFFFFFF}| {\rSena}♠ Sena
 Comment: 0,0:00:00.00,0:00:00.00,Gakumas,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:00.00,0:00:00.00,Misuzu,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♣{\\fs\\4a&HFF&} "!
 Comment: 0,0:00:00.00,0:00:00.00,Ume,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\fs30}♥{\\fs\\4a&HFF&} "!
@@ -92,6 +92,7 @@ Comment: 0,0:03:00.00,0:03:02.62,Ume,,0,0,0,karaoke,{\k30}ko{\k18}ko{\k30}ro {\k
 Comment: 0,0:03:05.61,0:03:07.35,Ume,,0,0,0,karaoke,{\k30}daa{\k16}da{\k24}dad{\k48}daa{\k63}da
 Comment: 0,0:03:10.28,0:03:13.90,Misuzu,,0,0,0,karaoke,{\k30}daa{\k16}da{\k24}dad{\k48}daa{\kf244}da
 Comment: 0,0:03:14.95,0:03:19.66,Sena,,0,0,0,karaoke,{\k30}daa{\k16}da{\k26}dad{\k46}daa{\kf353}da
+Dialogue: 0,0:00:00.00,0:00:14.59,Gakumas,,0,0,0,fx,{\k50\fad(500,200)}{\an2\k13890} {\rGakumas} Gakumas {\2cHFFFFFF}| \N{\rMisuzu}♣ Misuzu {\2cHFFFFFF}| {\rUme}♥ Ume {\2cHFFFFFF}| {\rSena}♠ Sena
 Dialogue: 0,0:00:02.66,0:00:06.39,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\kf197}UH {\k66}AH
 Dialogue: 0,0:00:08.36,0:00:10.77,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\fs30}♣{\fs\4a&HFF&} {\k44}tsue {\k28}tsue {\k28}haa {\k31}haa
 Dialogue: 0,0:00:13.18,0:00:16.09,Gakumas,,0,0,0,fx,{\k90\fad(300,200)}{\k30}daa{\k16}da{\k24}dad{\k48}daa{\k63}da
