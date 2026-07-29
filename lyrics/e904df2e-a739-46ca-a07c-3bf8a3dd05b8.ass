@@ -1,0 +1,72 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: yorunite
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Misuzu,Arial,24,&H00CF997A,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Misuzu,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:07.25,0:00:15.37,Misuzu,,0,0,0,karaoke,{\k101}nai{\k20}sho {\k113}de {\k23}o{\k117}to{\k23}shi{\k116}ta {\k19}yo{\k50}ru {\k22}na{\kf208}ra
+Comment: 0,0:00:18.20,0:00:26.47,Misuzu,,0,0,0,karaoke,{\k98}su{\k25}ki {\k117}to {\k23}mu{\k115}i{\k22}mi {\k116}wo {\k21}u{\k45}tsu{\k22}su {\kf223}no
+Comment: 0,0:00:28.16,0:00:33.48,Misuzu,,0,0,0,karaoke,{\k34}ka{\k34}ze {\k21}ni {\k49}yu{\k18}ra{\k50}yu{\k19}ra {\k49}yu{\k18}re{\k50}ru {\k21}mi{\k49}na{\k18}mo {\k50}no {\k20}you {\k32}ni
+Comment: 0,0:00:34.31,0:00:39.10,Misuzu,,0,0,0,karaoke,{\k19}a{\k47}ma{\k23}ku{\k43}te {\k25}fu{\k51}te{\k17}ki {\k50}na {\k23}su{\k47}ki {\k22}mi{\k48}se{\k20}te {\k44}yo
+Comment: 0,0:00:39.81,0:00:44.54,Misuzu,,0,0,0,karaoke,{\k21}ka{\k46}na{\k22}ta {\k50}no {\k18}sa{\k48}sa{\k19}ya{\k50}ki {\k23}sa{\k48}e {\k18}mi{\k53}mi{\k15}na{\k42}ri
+Comment: 0,0:00:45.32,0:00:47.98,Misuzu,,0,0,0,karaoke,{\k20}ka{\k42}wa{\k24}shi{\k52}te {\k16}to{\k48}mo{\k20}shi{\k44}te
+Comment: 0,0:00:48.06,0:00:53.98,Misuzu,,0,0,0,karaoke,{\k17}wa{\k49}tash' {\k17}da{\k53}ke {\k16}no {\k51}ho{\k20}shi {\k50}da{\k21}ka{\kf298}ra
+Comment: 0,0:00:58.33,0:01:04.34,Misuzu,,0,0,0,karaoke,{\k35}to{\k33}ke{\k17}te{\kf214}ku{\kf34} {\k27}ho{\k46}n{\k26}ne {\k49}su{\k17}te {\k35}no{\k16}bi{\k15}ta {\k37}se
+Comment: 0,0:01:04.69,0:01:09.30,Misuzu,,0,0,0,karaoke,{\k32}ka{\k18}ke{\k17}ru {\k22}tsu{\k24}ki {\k24}no {\k46}na{\k21}i {\k49}se{\k19}ka{\kf189}i
+Comment: 0,0:01:09.82,0:01:15.31,Misuzu,,0,0,0,karaoke,{\k16}wa{\k18}ta{\k17}shi {\k34}i{\k19}ro {\k81}ni {\k37}so{\k17}me{\k49}ru {\k22}yo{\k49}ru {\k17}ga {\k50}tsu{\k19}zu{\k51}ku {\k19}ma{\k34}de
+Comment: 0,0:01:15.50,0:01:21.11,Misuzu,,0,0,0,karaoke,{\k16}ne{\k51}e {\k21}wa{\k46}ga{\k20}ma{\k49}ma {\k22}i{\k46}wash'{\k21}te {\kf269}yo
+Comment: 0,0:01:25.42,0:01:33.60,Misuzu,,0,0,0,karaoke,{\k100}to{\k18}o{\k118}ku {\k27}ka{\k114}sun{\k19}de{\k116}ku {\k22}yo{\k46}ko{\k24}ga{\kf214}o
+Comment: 0,0:01:36.32,0:01:44.88,Misuzu,,0,0,0,karaoke,{\k112}so{\k19}ra {\k115}ga {\k20}na{\k113}ru {\k22}fu{\k23}ta{\k95}ri {\k19}sa{\k50}ku {\k22}you {\kf246}ni
+Comment: 0,0:01:46.33,0:01:51.72,Misuzu,,0,0,0,karaoke,{\k35}a{\k37}shi{\k18}mo{\k48}to {\k19}da{\k48}ke {\k20}wo {\k51}te{\k17}ra{\k48}shi {\k24}kyo{\k47}u {\k18}wo {\k51}a{\k14}ru{\k44}ku
+Comment: 0,0:01:52.54,0:01:57.20,Misuzu,,0,0,0,karaoke,{\k13}ho{\k52}ra {\k21}ji{\k30}bu{\k18}n{\k21}ra{\k45}shik' {\k18}na{\k56}kya {\k16}i{\k49}mi {\k18}na{\k53}i{\k16}de{\k40}sho
+Comment: 0,0:01:57.98,0:02:02.68,Misuzu,,0,0,0,karaoke,{\k22}ka{\k46}na{\k20}ta {\k51}no {\k19}ma{\k47}ba{\k20}ta{\k51}ki {\k19}sa{\k49}e {\k17}no{\k39}ga{\k28}sa{\k42}nai
+Comment: 0,0:02:03.47,0:02:12.11,Misuzu,,0,0,0,karaoke,{\k19}mi{\k41}tsu{\k27}me{\k49}te {\k21}o{\k50}bo{\k16}re{\k53}te {\k15}ho{\k52}shi {\k16}ni {\k55}nat{\k17}te {\k49}u{\k19}ta{\k50}u{\k18}ka{\kf297}ra
+Comment: 0,0:02:26.24,0:02:31.28,Misuzu,,0,0,0,karaoke,{\k21}ko{\k33}mak' {\k19}fu{\k51}ru{\k19}wa{\k67}su {\kf294}aa
+Comment: 0,0:02:38.98,0:02:45.01,Misuzu,,0,0,0,karaoke,{\k15}ma{\k15}bu{\k21}ta {\k34}to{\k17}ji{\k49}ru {\k19}yu{\k51}u{\k15}ga {\k54}de {\k19}su{\k48}te{\k21}ki {\k47}na {\k19}to{\k68}o{\k10}ma{\k9}wa{\k72}ri
+Comment: 0,0:02:45.31,0:02:52.55,Misuzu,,0,0,0,karaoke,{\k18}ka{\k50}ko {\k17}to {\k52}i{\k17}ma {\k51}ga {\k18}ho{\k51}ho {\k18}ni {\k51}fu{\k17}re{\k51}te {\k17}i{\k49}to{\k38}shi{\kf209}i
+Comment: 0,0:02:52.77,0:02:55.31,Misuzu,,0,0,0,karaoke,{\k25}so{\k51}no {\k21}to{\k47}ki {\k19}wo {\k36}ma{\k15}tsu {\k18}da{\k22}ke
+Comment: 0,0:02:55.60,0:03:00.63,Misuzu,,0,0,0,karaoke,{\k18}u{\k34}so {\k16}mo {\k19}na{\k16}mi{\k33}da {\k19}mo {\k50}na{\k19}i {\k50}se{\k16}ka{\kf213}i
+Comment: 0,0:03:00.91,0:03:06.39,Misuzu,,0,0,0,karaoke,{\k18}wa{\k16}ta{\k17}shi {\k34}i{\k19}ro {\k81}ni {\k37}so{\k17}me{\k52}ru {\k19}yo{\k49}ru {\k18}ga {\k49}tsu{\k19}zu{\k51}ku {\k19}ka{\k33}de
+Comment: 0,0:03:06.57,0:03:11.34,Misuzu,,0,0,0,karaoke,{\k16}a{\k51}ri{\k20}no{\k50}ma{\k18}ma {\k51}wo {\k18}mi{\k51}se{\k16}te {\kf186}yo
+Comment: 0,0:03:12.04,0:03:17.24,Misuzu,,0,0,0,karaoke,{\k19}ne{\k48}e {\k23}wa{\k49}ga{\k19}ma{\k48}ma {\k19}i{\k49}wash'{\k26}te {\kf220}yo
+Comment: 0,0:03:17.54,0:03:29.97,Misuzu,,0,0,0,karaoke,{\k17}ho{\kf214}ra{\k46} {\k16}la {\kf224}la{\k32} {\k19}la {\kf222}la{\k36} {\k15}la {\kf402}la
+Dialogue: 0,0:00:06.35,0:00:15.57,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k101}nai{\k20}sho {\k113}de {\k23}o{\k117}to{\k23}shi{\k116}ta {\k19}yo{\k50}ru {\k22}na{\kf208}ra
+Dialogue: 0,0:00:17.30,0:00:26.67,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k98}su{\k25}ki {\k117}to {\k23}mu{\k115}i{\k22}mi {\k116}wo {\k21}u{\k45}tsu{\k22}su {\kf223}no
+Dialogue: 0,0:00:27.26,0:00:33.68,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ka{\k34}ze {\k21}ni {\k49}yu{\k18}ra{\k50}yu{\k19}ra {\k49}yu{\k18}re{\k50}ru {\k21}mi{\k49}na{\k18}mo {\k50}no {\k20}you {\k32}ni
+Dialogue: 0,0:00:33.41,0:00:39.30,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k47}ma{\k23}ku{\k43}te {\k25}fu{\k51}te{\k17}ki {\k50}na {\k23}su{\k47}ki {\k22}mi{\k48}se{\k20}te {\k44}yo
+Dialogue: 0,0:00:38.91,0:00:44.74,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ka{\k46}na{\k22}ta {\k50}no {\k18}sa{\k48}sa{\k19}ya{\k50}ki {\k23}sa{\k48}e {\k18}mi{\k53}mi{\k15}na{\k42}ri
+Dialogue: 0,0:00:44.42,0:00:48.18,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ka{\k42}wa{\k24}shi{\k52}te {\k16}to{\k48}mo{\k20}shi{\k44}te
+Dialogue: 0,0:00:47.16,0:00:54.18,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k17}wa{\k49}tash' {\k17}da{\k53}ke {\k16}no {\k51}ho{\k20}shi {\k50}da{\k21}ka{\kf298}ra
+Dialogue: 0,0:00:57.43,0:01:04.54,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k35}to{\k33}ke{\k17}te{\kf214}ku{\kf34} {\k27}ho{\k46}n{\k26}ne {\k49}su{\k17}te {\k35}no{\k16}bi{\k15}ta {\k37}se
+Dialogue: 0,0:01:03.79,0:01:09.50,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ka{\k18}ke{\k17}ru {\k22}tsu{\k24}ki {\k24}no {\k46}na{\k21}i {\k49}se{\k19}ka{\kf189}i
+Dialogue: 0,0:01:08.92,0:01:15.51,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k16}wa{\k18}ta{\k17}shi {\k34}i{\k19}ro {\k81}ni {\k37}so{\k17}me{\k49}ru {\k22}yo{\k49}ru {\k17}ga {\k50}tsu{\k19}zu{\k51}ku {\k19}ma{\k34}de
+Dialogue: 0,0:01:14.60,0:01:21.31,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ne{\k51}e {\k21}wa{\k46}ga{\k20}ma{\k49}ma {\k22}i{\k46}wash'{\k21}te {\kf269}yo
+Dialogue: 0,0:01:24.52,0:01:33.80,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k100}to{\k18}o{\k118}ku {\k27}ka{\k114}sun{\k19}de{\k116}ku {\k22}yo{\k46}ko{\k24}ga{\kf214}o
+Dialogue: 0,0:01:35.42,0:01:45.08,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k112}so{\k19}ra {\k115}ga {\k20}na{\k113}ru {\k22}fu{\k23}ta{\k95}ri {\k19}sa{\k50}ku {\k22}you {\kf246}ni
+Dialogue: 0,0:01:45.43,0:01:51.92,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k35}a{\k37}shi{\k18}mo{\k48}to {\k19}da{\k48}ke {\k20}wo {\k51}te{\k17}ra{\k48}shi {\k24}kyo{\k47}u {\k18}wo {\k51}a{\k14}ru{\k44}ku
+Dialogue: 0,0:01:51.64,0:01:57.40,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ho{\k52}ra {\k21}ji{\k30}bu{\k18}n{\k21}ra{\k45}shik' {\k18}na{\k56}kya {\k16}i{\k49}mi {\k18}na{\k53}i{\k16}de{\k40}sho
+Dialogue: 0,0:01:57.08,0:02:02.88,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ka{\k46}na{\k20}ta {\k51}no {\k19}ma{\k47}ba{\k20}ta{\k51}ki {\k19}sa{\k49}e {\k17}no{\k39}ga{\k28}sa{\k42}nai
+Dialogue: 0,0:02:02.57,0:02:12.31,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k19}mi{\k41}tsu{\k27}me{\k49}te {\k21}o{\k50}bo{\k16}re{\k53}te {\k15}ho{\k52}shi {\k16}ni {\k55}nat{\k17}te {\k49}u{\k19}ta{\k50}u{\k18}ka{\kf297}ra
+Dialogue: 0,0:02:25.34,0:02:31.48,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ko{\k33}mak' {\k19}fu{\k51}ru{\k19}wa{\k67}su {\kf294}aa
+Dialogue: 0,0:02:38.08,0:02:45.21,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ma{\k15}bu{\k21}ta {\k34}to{\k17}ji{\k49}ru {\k19}yu{\k51}u{\k15}ga {\k54}de {\k19}su{\k48}te{\k21}ki {\k47}na {\k19}to{\k68}o{\k10}ma{\k9}wa{\k72}ri
+Dialogue: 0,0:02:44.41,0:02:52.75,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ka{\k50}ko {\k17}to {\k52}i{\k17}ma {\k51}ga {\k18}ho{\k51}ho {\k18}ni {\k51}fu{\k17}re{\k51}te {\k17}i{\k49}to{\k38}shi{\kf209}i
+Dialogue: 0,0:02:51.87,0:02:55.51,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k25}so{\k51}no {\k21}to{\k47}ki {\k19}wo {\k36}ma{\k15}tsu {\k18}da{\k22}ke
+Dialogue: 0,0:02:54.70,0:03:00.83,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k18}u{\k34}so {\k16}mo {\k19}na{\k16}mi{\k33}da {\k19}mo {\k50}na{\k19}i {\k50}se{\k16}ka{\kf213}i
+Dialogue: 0,0:03:00.01,0:03:06.59,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k18}wa{\k16}ta{\k17}shi {\k34}i{\k19}ro {\k81}ni {\k37}so{\k17}me{\k52}ru {\k19}yo{\k49}ru {\k18}ga {\k49}tsu{\k19}zu{\k51}ku {\k19}ka{\k33}de
+Dialogue: 0,0:03:05.67,0:03:11.54,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k16}a{\k51}ri{\k20}no{\k50}ma{\k18}ma {\k51}wo {\k18}mi{\k51}se{\k16}te {\kf186}yo
+Dialogue: 0,0:03:11.14,0:03:17.44,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ne{\k48}e {\k23}wa{\k49}ga{\k19}ma{\k48}ma {\k19}i{\k49}wash'{\k26}te {\kf220}yo
+Dialogue: 0,0:03:16.64,0:03:30.17,Misuzu,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ho{\kf214}ra{\k46} {\k16}la {\kf224}la{\k32} {\k19}la {\kf222}la{\k36} {\k15}la {\kf402}la
