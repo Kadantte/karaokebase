@@ -1,0 +1,88 @@
+﻿[Script Info]
+Title: Yume ga Yume ja Nakunaru Sono Hi made
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Sodachi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Noctchill,Arial,24,&H00FFFFFF,&H00984D38,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Madoka Higuchi,Arial,24,&H00FFFFFF,&H003E1EBE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hinana Ichikawa,Arial,24,&H00FFFFFF,&H0039C6FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Koito Fukumaru,Arial,24,&H00FFFFFF,&H00C36779,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Toru Asakura,Arial,24,&H00FFFFFF,&H00D0D050,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Madoka Higuchi Symbol,Arial,24,&H003E1EBE,&H003E1EBE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hinana Ichikawa Symbol,Arial,24,&H0039C6FF,&H0039C6FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Koito Fukumaru Symbol,Arial,24,&H00C36779,&H00C36779,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Toru Asakura Symbol,Arial,24,&H00D0D050,&H00D0D050,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Noctchill,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Madoka Higuchi,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rMadoka Higuchi Symbol\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Hinana Ichikawa,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rHinana Ichikawa Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Koito Fukumaru,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rKoito Fukumaru Symbol\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Toru Asakura,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rToru Asakura Symbol\\fs30}♣{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H984D38&}Noctchill{\c} \N| {\c&H3E1EBE&}♥ Madoka Higuchi{\c} | {\c&H39C6FF&}♠ Hinana Ichikawa{\c} | {\c&HC36779&}♦ Koito Fukumaru{\c} | {\c&HD0D050&}♣ Toru Asakura
+Comment: 0,0:00:11.26,0:00:15.30,Hinana Ichikawa,,0,0,0,karaoke,{\k18}ha{\k15}ji{\k17}me{\k31}te {\k47}wo {\k32}mi{\k32}tsu{\k17}ke{\k78}ta {\k31}a{\k17}no {\k69}hi
+Comment: 0,0:00:16.33,0:00:20.71,Hinana Ichikawa,,0,0,0,karaoke,{\k32}zen{\k16}bu {\k32}ga {\k46}ka{\k32}ga{\k32}ya{\k31}i{\k33}te {\k15}mi{\k32}e{\k31}tan{\kf106}da
+Comment: 0,0:00:21.39,0:00:25.42,Madoka Higuchi,,0,0,0,karaoke,{\k16}te {\k16}wo {\k15}no{\k32}ba{\k47}se{\k32}ba {\k31}to{\k16}do{\k79}ki {\k32}so{\k16}u {\k71}na
+Comment: 0,0:00:25.80,0:00:30.53,Madoka Higuchi,,0,0,0,karaoke,{\k32}ku{\k32}ra{\k16}i {\k31}ni {\k32}ta{\k110}da {\k32}ma{\k29}bu{\k17}shi{\k33}ka{\k31}t{\k78}ta
+Comment: 0,0:00:30.85,0:00:36.30,Noctchill,,0,0,0,karaoke,{\k16}ka{\k17}su{\k47}ka {\k79}ni {\k32}mu{\k31}ne {\k31}ni {\k32}me{\k32}ba{\k16}e{\k79}ta {\k32}o{\k30}mo{\k30}i {\k41}wa
+Comment: 0,0:00:36.52,0:00:41.30,Noctchill,,0,0,0,karaoke,{\k33}ki{\k16}zu{\k31}ke{\k49}ba {\k30}ri{\k33}yu{\k31}u {\k32}ni {\k16}ka{\k32}wat{\k15}te {\k16}i{\kf144}ta
+Comment: 0,0:00:42.85,0:00:47.92,Noctchill,,0,0,0,karaoke,{\k32}do{\k32}n{\k31}na {\k32}ni {\k31}to{\k32}o{\k31}ku {\k33}ha{\k31}na{\k32}re{\k31}ta {\k31}mi{\k32}ra{\k32}i {\k31}de {\k33}mo
+Comment: 0,0:00:48.22,0:00:53.05,Noctchill,,0,0,0,karaoke,{\k31}ki{\k33}no{\k32}u {\k31}yo{\k31}ri {\k32}kyo{\k31}u {\k32}kyo{\k31}u {\k32}yo{\k31}ri {\k31}a{\k32}shi{\k73}ta
+Comment: 0,0:00:53.28,0:00:58.06,Noctchill,,0,0,0,karaoke,{\k32}yu{\k29}me {\k34}ga {\k31}yu{\k31}me {\k32}ja {\k32}na{\k31}ku {\k32}na{\k31}ru {\k32}so{\k32}no {\k32}hi {\k31}ma{\k36}de
+Comment: 0,0:00:58.32,0:01:06.57,Noctchill,,0,0,0,karaoke,{\k33}sei{\k32}ip{\k63}pai {\k31}ma{\k31}s{\k32}su{\k32}gu {\k31}ni {\k31}o{\k31}i{\k34}ka{\k30}ke{\k95}te {\k64}kit{\kf255}to
+Comment: 0,0:01:14.43,0:01:18.86,Koito Fukumaru,,0,0,0,karaoke,{\k17}ka{\k13}zo{\k18}e{\k32}ta{\k48}ra {\k31}ki{\k32}mi {\k15}ga {\k80}nai {\k30}ku{\k17}ra{\kf110}i
+Comment: 0,0:01:19.49,0:01:23.97,Koito Fukumaru,,0,0,0,karaoke,{\k31}nan{\k17}do {\k31}mo {\k48}ku{\k31}ji{\k31}ke {\k32}so{\k32}u {\k15}ni {\k32}na{\k30}t{\kf118}ta
+Comment: 0,0:01:24.54,0:01:29.22,Toru Asakura,,0,0,0,karaoke,{\k32}son{\k16}na {\k31}to{\k47}ki {\k33}wa {\k31}ki{\k31}ma{\k32}t{\k16}te {\k32}a{\k31}no {\k47}hi {\k31}ni {\k32}mi{\k26}ta
+Comment: 0,0:01:29.59,0:01:33.30,Toru Asakura,,0,0,0,karaoke,{\k28}ke{\k20}shi{\k32}ki {\k46}o{\k33}mo{\k30}i{\k17}da{\k32}su{\k15}n{\kf118}da
+Comment: 0,0:01:33.69,0:01:37.87,Koito Fukumaru,,0,0,0,karaoke,{\k32}ka{\k32}ke{\k48}dash'{\k78}te {\k32}ko{\k32}ro{\k31}n{\k33}de {\k46}tat{\k54}te
+Comment: 0,0:01:38.11,0:01:39.38,Toru Asakura,,0,0,0,karaoke,{\k32}hi{\k33}to{\k29}i{\k33}ki
+Comment: 0,0:01:39.69,0:01:44.32,Madoka Higuchi,,0,0,0,karaoke,{\k32}so{\k16}n{\k32}na {\k48}ku{\k30}ri{\k32}ka{\k31}e{\k32}shi {\k17}no {\k31}hi{\k32}bi {\k15}de {\kf115}mo
+Comment: 0,0:01:44.74,0:01:49.82,Noctchill,,0,0,0,karaoke,{\k33}ji{\k31}bu{\k32}n {\k32}de {\k31}e{\k32}ra{\k31}n{\k29}de {\k34}ki{\k32}me{\k32}ta {\k31}mi{\k32}chi {\k31}da{\k32}ka{\k33}ra
+Comment: 0,0:01:50.12,0:01:54.90,Noctchill,,0,0,0,karaoke,{\k32}ko{\k31}re {\k32}shi {\k32}ka{\k31}t{\k32}te {\k31}o{\k30}mo{\k34}t{\k29}te {\k34}ki{\k31}ta{\k31}ka{\k68}ra
+Comment: 0,0:01:55.18,0:02:00.02,Noctchill,,0,0,0,karaoke,{\k31}da{\k31}re {\k32}yo{\k31}ri {\k32}na{\k31}i {\k33}yo{\k31}ri {\k32}ji{\k31}bu{\k30}n {\k33}ji{\k32}shi{\k31}n {\k43}wo
+Comment: 0,0:02:00.23,0:02:08.43,Noctchill,,0,0,0,karaoke,{\k32} yu{\k31}me {\k62}wo {\k33}shi{\k30}n{\k32}ji{\k33} tsu{\k31}zu{\k31}ke{\k31}ta{\k32}i{\k32}n{\k94}da{\k33} zu{\k15}t{\kf268}to
+Comment: 0,0:02:26.43,0:02:31.45,Noctchill,,0,0,0,karaoke,{\k32}do{\k31}n{\k33}na {\k31}ni {\k32}to{\k33}o{\k29}ku {\k32}ha{\k31}na{\k33}re{\k31}ta {\k31}mi{\k33}ra{\k30}i {\k32}de{\k28}mo
+Comment: 0,0:02:31.80,0:02:36.55,Noctchill,,0,0,0,karaoke,{\k31}da{\k33}re{\k31}ka {\k32}ni {\k32}mu{\k30}ri {\k33}da {\k31}to {\k32}wa{\k31}ra{\k32}wa{\k31}re{\k32}te {\k64}mo
+Comment: 0,0:02:36.85,0:02:41.64,Noctchill,,0,0,0,karaoke,{\k32}to{\k28}do{\k35}ki {\k32}so{\k32}u {\k31}de {\k32}to{\k32}do{\k30}ka{\k33}na{\k32}i {\k30}hi{\k32}ka{\k32}ri {\k36}wo
+Comment: 0,0:02:41.90,0:02:46.62,Noctchill,,0,0,0,karaoke,{\k32}sei{\k31}ip{\k65}pai {\k31}ma{\k31}s{\k32}su{\k32}gu {\k31}ni {\k31}o{\k32}i{\k31}ka{\k32}ke{\k61}te
+Comment: 0,0:02:46.96,0:02:55.15,Noctchill,,0,0,0,karaoke,{\k32}yu{\k31}me {\k63}ga {\k32}yu{\k32}me {\k32}ja {\k31}na{\k32}ku {\k31}na{\k31}ru {\k31}so{\k33}no {\k94}hi {\k64}ma{\kf250}de
+Comment: 0,0:02:57.07,0:02:58.47,Noctchill,,0,0,0,karaoke,{\k30}La {\k32}La {\k78}La
+Comment: 0,0:02:58.49,0:03:00.23,Noctchill,,0,0,0,karaoke,{\k16}La {\k15}La {\k17}La {\k16}La {\kf110}La
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H984D38&}Noctchill{\c} \N| {\c&H3E1EBE&}♥ Madoka Higuchi{\c} | {\c&H39C6FF&}♠ Hinana Ichikawa{\c} | {\c&HC36779&}♦ Koito Fukumaru{\c} | {\c&HD0D050&}♣ Toru Asakura
+Dialogue: 0,0:00:10.36,0:00:15.50,Hinana Ichikawa,,0,0,0,fx,{\k90\fad(300,200)}{\rHinana Ichikawa Symbol\fs30}♠{\r\fs\4a&HFF&} {\k18}ha{\k15}ji{\k17}me{\k31}te {\k47}wo {\k32}mi{\k32}tsu{\k17}ke{\k78}ta {\k31}a{\k17}no {\k69}hi
+Dialogue: 0,0:00:15.43,0:00:20.91,Hinana Ichikawa,,0,0,0,fx,{\k90\fad(300,200)}{\rHinana Ichikawa Symbol\fs30}♠{\r\fs\4a&HFF&} {\k32}zen{\k16}bu {\k32}ga {\k46}ka{\k32}ga{\k32}ya{\k31}i{\k33}te {\k15}mi{\k32}e{\k31}tan{\kf106}da
+Dialogue: 0,0:00:20.49,0:00:25.62,Madoka Higuchi,,0,0,0,fx,{\k90\fad(300,200)}{\rMadoka Higuchi Symbol\fs30}♥{\r\fs\4a&HFF&} {\k16}te {\k16}wo {\k15}no{\k32}ba{\k47}se{\k32}ba {\k31}to{\k16}do{\k79}ki {\k32}so{\k16}u {\k71}na
+Dialogue: 0,0:00:24.90,0:00:30.73,Madoka Higuchi,,0,0,0,fx,{\k90\fad(300,200)}{\rMadoka Higuchi Symbol\fs30}♥{\r\fs\4a&HFF&} {\k32}ku{\k32}ra{\k16}i {\k31}ni {\k32}ta{\k110}da {\k32}ma{\k29}bu{\k17}shi{\k33}ka{\k31}t{\k78}ta
+Dialogue: 0,0:00:29.95,0:00:36.50,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ka{\k17}su{\k47}ka {\k79}ni {\k32}mu{\k31}ne {\k31}ni {\k32}me{\k32}ba{\k16}e{\k79}ta {\k32}o{\k30}mo{\k30}i {\k41}wa
+Dialogue: 0,0:00:35.62,0:00:41.50,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ki{\k16}zu{\k31}ke{\k49}ba {\k30}ri{\k33}yu{\k31}u {\k32}ni {\k16}ka{\k32}wat{\k15}te {\k16}i{\kf144}ta
+Dialogue: 0,0:00:41.95,0:00:48.12,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k32}do{\k32}n{\k31}na {\k32}ni {\k31}to{\k32}o{\k31}ku {\k33}ha{\k31}na{\k32}re{\k31}ta {\k31}mi{\k32}ra{\k32}i {\k31}de {\k33}mo
+Dialogue: 0,0:00:47.32,0:00:53.25,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ki{\k33}no{\k32}u {\k31}yo{\k31}ri {\k32}kyo{\k31}u {\k32}kyo{\k31}u {\k32}yo{\k31}ri {\k31}a{\k32}shi{\k73}ta
+Dialogue: 0,0:00:52.38,0:00:58.26,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k32}yu{\k29}me {\k34}ga {\k31}yu{\k31}me {\k32}ja {\k32}na{\k31}ku {\k32}na{\k31}ru {\k32}so{\k32}no {\k32}hi {\k31}ma{\k36}de
+Dialogue: 0,0:00:57.42,0:01:06.77,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k33}sei{\k32}ip{\k63}pai {\k31}ma{\k31}s{\k32}su{\k32}gu {\k31}ni {\k31}o{\k31}i{\k34}ka{\k30}ke{\k95}te {\k64}kit{\kf255}to
+Dialogue: 0,0:01:13.53,0:01:19.06,Koito Fukumaru,,0,0,0,fx,{\k90\fad(300,200)}{\rKoito Fukumaru Symbol\fs30}♦{\r\fs\4a&HFF&} {\k17}ka{\k13}zo{\k18}e{\k32}ta{\k48}ra {\k31}ki{\k32}mi {\k15}ga {\k80}nai {\k30}ku{\k17}ra{\kf110}i
+Dialogue: 0,0:01:18.59,0:01:24.17,Koito Fukumaru,,0,0,0,fx,{\k90\fad(300,200)}{\rKoito Fukumaru Symbol\fs30}♦{\r\fs\4a&HFF&} {\k31}nan{\k17}do {\k31}mo {\k48}ku{\k31}ji{\k31}ke {\k32}so{\k32}u {\k15}ni {\k32}na{\k30}t{\kf118}ta
+Dialogue: 0,0:01:23.64,0:01:29.42,Toru Asakura,,0,0,0,fx,{\k90\fad(300,200)}{\rToru Asakura Symbol\fs30}♣{\r\fs\4a&HFF&} {\k32}son{\k16}na {\k31}to{\k47}ki {\k33}wa {\k31}ki{\k31}ma{\k32}t{\k16}te {\k32}a{\k31}no {\k47}hi {\k31}ni {\k32}mi{\k26}ta
+Dialogue: 0,0:01:28.69,0:01:33.50,Toru Asakura,,0,0,0,fx,{\k90\fad(300,200)}{\rToru Asakura Symbol\fs30}♣{\r\fs\4a&HFF&} {\k28}ke{\k20}shi{\k32}ki {\k46}o{\k33}mo{\k30}i{\k17}da{\k32}su{\k15}n{\kf118}da
+Dialogue: 0,0:01:32.79,0:01:38.07,Koito Fukumaru,,0,0,0,fx,{\k90\fad(300,200)}{\rKoito Fukumaru Symbol\fs30}♦{\r\fs\4a&HFF&} {\k32}ka{\k32}ke{\k48}dash'{\k78}te {\k32}ko{\k32}ro{\k31}n{\k33}de {\k46}tat{\k54}te
+Dialogue: 0,0:01:37.21,0:01:39.58,Toru Asakura,,0,0,0,fx,{\k90\fad(300,200)}{\rToru Asakura Symbol\fs30}♣{\r\fs\4a&HFF&} {\k32}hi{\k33}to{\k29}i{\k33}ki
+Dialogue: 0,0:01:38.79,0:01:44.52,Madoka Higuchi,,0,0,0,fx,{\k90\fad(300,200)}{\rMadoka Higuchi Symbol\fs30}♥{\r\fs\4a&HFF&} {\k32}so{\k16}n{\k32}na {\k48}ku{\k30}ri{\k32}ka{\k31}e{\k32}shi {\k17}no {\k31}hi{\k32}bi {\k15}de {\kf115}mo
+Dialogue: 0,0:01:43.84,0:01:50.02,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ji{\k31}bu{\k32}n {\k32}de {\k31}e{\k32}ra{\k31}n{\k29}de {\k34}ki{\k32}me{\k32}ta {\k31}mi{\k32}chi {\k31}da{\k32}ka{\k33}ra
+Dialogue: 0,0:01:49.22,0:01:55.10,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ko{\k31}re {\k32}shi {\k32}ka{\k31}t{\k32}te {\k31}o{\k30}mo{\k34}t{\k29}te {\k34}ki{\k31}ta{\k31}ka{\k68}ra
+Dialogue: 0,0:01:54.28,0:02:00.22,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k31}da{\k31}re {\k32}yo{\k31}ri {\k32}na{\k31}i {\k33}yo{\k31}ri {\k32}ji{\k31}bu{\k30}n {\k33}ji{\k32}shi{\k31}n {\k43}wo
+Dialogue: 0,0:01:59.33,0:02:08.63,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k32} yu{\k31}me {\k62}wo {\k33}shi{\k30}n{\k32}ji{\k33} tsu{\k31}zu{\k31}ke{\k31}ta{\k32}i{\k32}n{\k94}da{\k33} zu{\k15}t{\kf268}to
+Dialogue: 0,0:02:25.53,0:02:31.65,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k32}do{\k31}n{\k33}na {\k31}ni {\k32}to{\k33}o{\k29}ku {\k32}ha{\k31}na{\k33}re{\k31}ta {\k31}mi{\k33}ra{\k30}i {\k32}de{\k28}mo
+Dialogue: 0,0:02:30.90,0:02:36.75,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k31}da{\k33}re{\k31}ka {\k32}ni {\k32}mu{\k30}ri {\k33}da {\k31}to {\k32}wa{\k31}ra{\k32}wa{\k31}re{\k32}te {\k64}mo
+Dialogue: 0,0:02:35.95,0:02:41.84,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k32}to{\k28}do{\k35}ki {\k32}so{\k32}u {\k31}de {\k32}to{\k32}do{\k30}ka{\k33}na{\k32}i {\k30}hi{\k32}ka{\k32}ri {\k36}wo
+Dialogue: 0,0:02:41.00,0:02:46.82,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k32}sei{\k31}ip{\k65}pai {\k31}ma{\k31}s{\k32}su{\k32}gu {\k31}ni {\k31}o{\k32}i{\k31}ka{\k32}ke{\k61}te
+Dialogue: 0,0:02:46.06,0:02:55.35,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k32}yu{\k31}me {\k63}ga {\k32}yu{\k32}me {\k32}ja {\k31}na{\k32}ku {\k31}na{\k31}ru {\k31}so{\k33}no {\k94}hi {\k64}ma{\kf250}de
+Dialogue: 0,0:02:56.17,0:02:58.67,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k30}La {\k32}La {\k78}La
+Dialogue: 0,0:02:57.59,0:03:00.43,Noctchill,,0,0,0,fx,{\k90\fad(300,200)}{\k16}La {\k15}La {\k17}La {\k16}La {\kf110}La
