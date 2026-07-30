@@ -1,0 +1,156 @@
+﻿[Script Info]
+Title: Tokyo Jiyuu-keiGirl
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Sodachi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: No1 Feel Alone,Arial,24,&H00FFFFFF,&H00BE9A8D,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Koito Fukumaru,Arial,24,&H00FFFFFF,&H00C36779,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Yuika Mitsumine,Arial,24,&H00FFFFFF,&H00C6903B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rinze Morino,Arial,24,&H00FFFFFF,&H00EBC389,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Amana Osaki,Arial,24,&H00FFFFFF,&H007542F5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: No1 Feel Alone Choir,Arial,24,&H00FFFFFF,&H00BE9A8D,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Koito Fukumaru Symbol,Arial,24,&H00C36779,&H00C36779,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Yuika Mitsumine Symbol,Arial,24,&H00C6903B,&H00C6903B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rinze Morino Symbol,Arial,24,&H00EBC389,&H00EBC389,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Amana Osaki Symbol,Arial,24,&H007542F5,&H007542F5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,No1 Feel Alone,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Koito Fukumaru,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rKoito Fukumaru Symbol\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Yuika Mitsumine,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rYuika Mitsumine Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Rinze Morino,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rRinze Morino Symbol\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Amana Osaki,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rAmana Osaki Symbol\\fs30}♣{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,No1 Feel Alone Choir,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&HBE9A8D&}No1 Feel Alone{\c} \N| {\c&HC36779&}♥ Koito Fukumaru{\c} | {\c&HC6903B&}♠ Yuika Mitsumine{\c} | {\c&HEBC389&}♦ Rinze Morino{\c} | {\c&H7542F5&}♣ Amana Osaki
+Comment: 0,0:00:03.48,0:00:05.15,No1 Feel Alone,,0,0,0,karaoke,{\k37}Hey {\k30}good {\k33}mood {\k33}ba{\k34}by
+Comment: 0,0:00:05.79,0:00:06.89,No1 Feel Alone,,0,0,0,karaoke,{\k0}{\kf110}Foo
+Comment: 0,0:00:12.96,0:00:15.20,Rinze Morino,,0,0,0,karaoke,{\k65}Three {\k66}Two {\k65}One {\k28}Go
+Comment: 0,0:00:15.56,0:00:17.67,Rinze Morino,,0,0,0,karaoke,{\k33}ZIP{\k20}PER {\k13}to {\k33}KEY {\k21}HOL{\k12}DER {\k21}ja{\k12}ra{\k21}ja{\k25}ra
+Comment: 0,0:00:17.75,0:00:20.27,Rinze Morino,,0,0,0,karaoke,{\k12}ga{\k20}ra{\k11}ku{\k21}ta{\k12}se{\k20}i {\k12}ka{\k21}wa{\k32}ii {\k14}wa {\k20}cha{\k11}ran{\k22}po{\k24}ran
+Comment: 0,0:00:20.33,0:00:22.74,Rinze Morino,,0,0,0,karaoke,{\k14}mu{\k20}da {\k12}ba{\k18}na{\k15}shi {\k19}de {\k12}ha{\k20}sha{\k13}gu {\k22}no{\k12}do {\k21}ka{\k11}ra{\k21}ka{\k11}ra
+Comment: 0,0:00:22.96,0:00:25.48,Rinze Morino,,0,0,0,karaoke,{\k12}LE{\k32}MON {\k32}SQUA{\k21}SH {\k12}tte {\k31}TEN{\k22}SION {\k12}a{\k21}ga{\k12}ru {\k21}ka{\k24}ra
+Comment: 0,0:00:25.88,0:00:28.39,Amana Osaki,,0,0,0,karaoke,{\k12}mu{\k33}da {\k20}ha{\k13}bu{\k21}kut{\k11}te {\k21}'ta {\k13}na{\k32}kus'{\k21}to {\k11}o{\k23}na{\k20}ji
+Comment: 0,0:00:28.51,0:00:29.85,Amana Osaki,,0,0,0,karaoke,{\k10}mu{\k21}da {\k12}ka{\k22}mo {\k11}mu{\k22}da {\k10}ja{\k26}nai
+Comment: 0,0:00:29.89,0:00:31.05,Amana Osaki,,0,0,0,karaoke,{\k13}ku{\k11}da{\k11}ra{\k22}nait{\k11}te {\k10}ro{\k22}man {\k16}jan
+Comment: 0,0:00:31.22,0:00:33.17,Amana Osaki,,0,0,0,karaoke,{\k32}aa {\k22}ie{\k12}ba {\k33}kou {\k31}yuu {\k22}tte {\k11}ha{\k21}na{\k11}shi
+Comment: 0,0:00:33.17,0:00:34.23,Amana Osaki,,0,0,0,karaoke,{\k34}ip{\k31}pats' {\k13}ko{\k9}ko {\k19}de
+Comment: 0,0:00:34.48,0:00:36.10,Amana Osaki,,0,0,0,karaoke,{\k21}no{\k12}ra{\k21}se{\k12}te {\k21}mo{\k11}ra{\k21}i {\k43}mas'
+Comment: 0,0:00:35.79,0:00:36.35,No1 Feel Alone Choir,,0,0,0,karaoke,{\k0}{\k56}haai
+Comment: 0,0:00:36.44,0:00:37.63,Yuika Mitsumine,,0,0,0,karaoke,{\k9}te{\k11}ma {\k11}ka{\k23}ke{\k11}ru {\k13}MIL{\k11}LE{\k12}FEUI{\k18}LLE
+Comment: 0,0:00:37.63,0:00:38.93,Yuika Mitsumine,,0,0,0,karaoke,{\k10}pe{\k23}rot{\k8}to {\k13}hi{\k10}to{\k13}ku{\k32}chi {\k21}me
+Comment: 0,0:00:39.05,0:00:39.30,No1 Feel Alone Choir,,0,0,0,karaoke,{\k0}{\k25}Yeah
+Comment: 0,0:00:39.38,0:00:41.44,Yuika Mitsumine,,0,0,0,karaoke,{\k32}Sweet {\k33}sweet {\k30}time {\k27}yu{\k8}m {\k21}yu{\k12}m {\k32}yum
+Comment: 0,0:00:41.33,0:00:41.65,No1 Feel Alone Choir,,0,0,0,karaoke,{\k0}{\k32}Uun
+Comment: 0,0:00:41.65,0:00:43.18,Yuika Mitsumine,,0,0,0,karaoke,{\k33}hoo{\k21}ba{\k12}ru {\k22}TEA {\k31}PAR{\k34}TY
+Comment: 0,0:00:43.19,0:00:45.70,Yuika Mitsumine,,0,0,0,karaoke,{\k9}ho{\k22}ka {\k11}ja {\k21}da{\k12}se{\k22}nai {\k10}ku{\k21}se {\k13}ni {\k20}na{\k12}ru {\k21}ii {\k32}a{\k25}ji
+Comment: 0,0:00:45.78,0:00:46.87,Yuika Mitsumine,,0,0,0,karaoke,{\k12}ma{\k19}ru{\k13}de {\k33}'tan{\k32}ji
+Comment: 0,0:00:46.75,0:00:47.97,Koito Fukumaru,,0,0,0,karaoke,{\k13}yo{\k21}ri{\k11}mi{\k19}chi {\k13}no {\k21}i{\k24}mi
+Comment: 0,0:00:48.06,0:00:49.30,Koito Fukumaru,,0,0,0,karaoke,{\k12}ko{\k15}tae {\k17}wa {\k22}mi{\k11}ra{\k22}i {\k25}ni
+Comment: 0,0:00:49.47,0:00:50.45,Koito Fukumaru,,0,0,0,karaoke,{\k23}son{\k10}na {\k21}ko{\k13}to {\k20}bak{\k11}ka
+Comment: 0,0:00:50.46,0:00:51.92,Koito Fukumaru,,0,0,0,karaoke,{\k11}da{\k11}ka{\k10}ra {\k23}kyou {\k10}mo {\k21}at{\k11}te {\k22}ii {\k27}jan
+Comment: 0,0:00:52.09,0:00:53.27,Koito Fukumaru,,0,0,0,karaoke,{\k21}go{\k31}jup{\k13}po {\k33}hyap{\k20}po
+Comment: 0,0:00:53.28,0:00:54.36,Koito Fukumaru,,0,0,0,karaoke,{\k44}All {\k32}o{\k32}k
+Comment: 0,0:00:54.55,0:00:55.73,Koito Fukumaru,,0,0,0,karaoke,{\k14}na{\k21}ru {\k31}you {\k14}ni {\k22}na{\k16}ru
+Comment: 0,0:00:55.86,0:00:57.15,Koito Fukumaru,,0,0,0,karaoke,{\k46}I {\k32}don't {\k51}care
+Comment: 0,0:00:56.64,0:00:58.94,No1 Feel Alone,,0,0,0,karaoke,{\k23}ku{\k12}da{\k20}ra{\k33}nai {\k12}hi {\k19}de{\k13}mo {\k33}IT'S {\k32}ALL {\k33}RIGHT
+Comment: 0,0:00:59.27,0:01:02.42,No1 Feel Alone,,0,0,0,karaoke,{\k20}ha{\k13}na{\k20}shi {\k35}ha{\k10}zu{\k20}n{\k12}de {\k33}moo{\k33}man{\k64}tai {\k34}mh{\k21}~
+Comment: 0,0:01:02.52,0:01:04.80,No1 Feel Alone,,0,0,0,karaoke,{\k34}chou{\k19}do {\k45}ii {\k22}ko{\k12}no {\k31}chou{\k22}do {\k43}ii
+Comment: 0,0:01:05.14,0:01:06.76,No1 Feel Alone,,0,0,0,karaoke,{\k65}Day {\k65}by {\k32}day
+Comment: 0,0:01:07.08,0:01:09.44,No1 Feel Alone,,0,0,0,karaoke,{\k21}CA{\k13}FE {\k21}AU {\k32}LAIT {\k12}wo {\k20}ho{\k13}ra {\k33}CHOO{\k32}SE {\k39}SET
+Comment: 0,0:01:09.70,0:01:13.52,No1 Feel Alone,,0,0,0,karaoke,{\k21}S{\k31}NEA{\k34}KER {\k12}D{\k21}RES{\k11}S {\k33}wo {\k21}e{\k12}ra{\k33}bi {\k32}e{\k33}ra{\k21}bo{\k67}u
+Comment: 0,0:01:12.85,0:01:15.25,Amana Osaki,,0,0,0,karaoke,{\k11}mu{\k33}kau {\k32}shin{\k22}ten{\k30}chi {\k14}so{\k20}re {\k12}ga {\k33}'tash'{\k20}ta{\k13}chi
+Comment: 0,0:01:15.56,0:01:20.23,No1 Feel Alone,,0,0,0,karaoke,{\k65}TO{\k66}KYO {\k33}ji{\k32}yuu{\k33}kei {\k33}GIRL{\kf205}~
+Comment: 0,0:01:20.46,0:01:24.17,No1 Feel Alone,,0,0,0,karaoke,{\k32}Umm {\kf 162}Hmm{\k34} {\k21}Ta {\k32}ra {\k34}ta {\k56}ta
+Comment: 0,0:01:24.39,0:01:25.49,Koito Fukumaru,,0,0,0,karaoke,{\k64}Yeah {\k46}Ahn
+Comment: 0,0:01:26.00,0:01:30.90,No1 Feel Alone,,0,0,0,karaoke,{\k65}To{\k66}kyo {\k33}jiyu{\k31}u{\k33}kei {\k33}GIRL{\kf229}~
+Comment: 0,0:01:28.16,0:01:30.88,Amana Osaki,,0,0,0,karaoke,{\k12}o{\k33}moi {\k33}too{\k21}ri {\k11}i{\k20}ka{\k13}nai {\k20}nat{\k15}te {\k19}tsup{\k12}pu{\k20}shi{\k12}ta {\k20}yo{\k11}ru
+Comment: 0,0:01:30.90,0:01:31.87,Amana Osaki,,0,0,0,karaoke,{\k33}Suc{\k32}cess {\k20}sto{\k12}ry
+Comment: 0,0:01:31.88,0:01:33.40,Amana Osaki,,0,0,0,karaoke,{\k11}be{\k10}ta {\k12}na {\k10}ha{\k13}na{\k9}shi {\k13}ya{\k9}ke {\k11}ni {\k11}shi{\k10}mi{\k11}ta {\k22}nou
+Comment: 0,0:01:33.50,0:01:35.95,Amana Osaki,,0,0,0,karaoke,{\k21}no{\k12}ru {\k33}ka {\k20}so{\k12}ru {\k23}ka {\k10}tsu{\k21}ki{\k13}ma{\k20}wa{\k12}ri {\k20}shi{\k28}dai
+Comment: 0,0:01:35.99,0:01:38.60,Amana Osaki,,0,0,0,karaoke,{\k13}te{\k21}no{\k11}hi{\k19}ra {\k14}de {\k20}odo{\k12}ru {\k20}na{\k14}ra {\k31}FREE {\k33}STYLE {\k32}it{\k21}tak'
+Comment: 0,0:01:38.72,0:01:41.66,Rinze Morino,,0,0,0,karaoke,{\k20}i{\k13}ro{\k32}zui{\k16}ta {\k7}G{\k30}LASS {\k14}go{\k19}shi {\k13}de {\k19}se{\k13}kai {\k22}mi{\k13}tech' {\k32}o{\k31}shii
+Comment: 0,0:01:41.98,0:01:44.07,Rinze Morino,,0,0,0,karaoke,{\k24}nai {\k9}mo{\k20}no {\k13}ne{\k20}da{\k12}ri {\k20}hop{\k12}pot{\k17}te {\k16}IT'S {\k21}GO{\k25}ING
+Comment: 0,0:01:44.27,0:01:46.72,Rinze Morino,,0,0,0,karaoke,{\k19}na{\k13}ga{\k19}re{\k14}ru {\k20}shi{\k13}ra{\k32}nai {\k32}HI{\k19}T {\k36}NUM{\k28}BER
+Comment: 0,0:01:46.74,0:01:51.58,Rinze Morino,,0,0,0,karaoke,{\k14}wa {\k33}ii {\k19}chou{\k13}shi {\k33}ii {\k13}you {\k8}ni {\k11}o{\k33}to {\k32}ni {\k33}no{\k28}re{\kf214}~
+Comment: 0,0:01:48.83,0:01:51.11,No1 Feel Alone,,0,0,0,karaoke,{\k22}ku{\k11}da{\k20}ra{\k35}nai {\k11}hi {\k20}de{\k13}mo {\k31}IT'S {\k32}ALL {\k33}RIGHT
+Comment: 0,0:01:51.44,0:01:54.58,No1 Feel Alone,,0,0,0,karaoke,{\k20}ha{\k13}na{\k20}shi {\k34}ha{\k11}zu{\k21}n{\k11}de {\k33}moo{\k33}man{\k65}tai {\k33}mh{\k20}~
+Comment: 0,0:01:54.70,0:01:56.95,No1 Feel Alone,,0,0,0,karaoke,{\k33}chou{\k20}do {\k45}ii {\k21}ko{\k11}no {\k33}chou{\k20}do {\k42}ii
+Comment: 0,0:01:57.30,0:01:59.17,No1 Feel Alone,,0,0,0,karaoke,{\k66}Day {\k65}by {\k56}day
+Comment: 0,0:01:59.26,0:02:01.55,No1 Feel Alone,,0,0,0,karaoke,{\k21}CA{\k13}FE {\k21}AU {\k32}LAIT {\k12}wo {\k20}ho{\k13}ra {\k32}CHOO{\k33}SE {\k32}SET
+Comment: 0,0:02:01.88,0:02:05.64,No1 Feel Alone,,0,0,0,karaoke,{\k21}S{\k31}NEA{\k34}KER {\k12}D{\k21}RES{\k11}S {\k31}wo {\k23}e{\k12}ra{\k31}bi {\k34}e{\k32}ra{\k21}bo{\k62}u
+Comment: 0,0:02:05.02,0:02:07.70,Yuika Mitsumine,,0,0,0,karaoke,{\k11}mu{\k33}kau {\k33}shin{\k23}ten{\k30}chi {\k10}so{\k22}re {\k12}ga {\k33}'tash'{\k22}ta{\k39}chi
+Comment: 0,0:02:07.74,0:02:12.74,No1 Feel Alone,,0,0,0,karaoke,{\k65}TO{\k66}KYO {\k32}ji{\k33}yuu{\k33}kei {\k33}GIRL{\kf238}~
+Comment: 0,0:02:10.23,0:02:12.74,No1 Feel Alone,,0,0,0,karaoke,{\k13}yo{\k21}ri{\k11}mi{\k20}chi {\k13}no {\k23}i{\k30}mi {\k12}ko{\k10}ta{\k11}e {\k12}wa {\k20}mi{\k12}ra{\k19}i {\k24}ni
+Comment: 0,0:02:12.64,0:02:16.22,Rinze Morino,,0,0,0,karaoke,{\k32}Mmm {\kf131}hmm{\k32} {\k32}ta {\k19}ta {\k15}ra {\k15}ra {\k33}ra {\k49}ta
+Comment: 0,0:02:12.95,0:02:15.40,No1 Feel Alone,,0,0,0,karaoke,{\k22}son{\k12}na {\k20}ko{\k12}to {\k20}bak{\k13}ka {\k10}da{\k10}ka{\k12}ra {\k21}kyou {\k12}mo {\k20}at{\k9}te {\k25}ii {\k27}jan
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&HBE9A8D&}No1 Feel Alone{\c} \N| {\c&HC36779&}♥ Koito Fukumaru{\c} | {\c&HC6903B&}♠ Yuika Mitsumine{\c} | {\c&HEBC389&}♦ Rinze Morino{\c} | {\c&H7542F5&}♣ Amana Osaki
+Dialogue: 0,0:00:02.58,0:00:05.35,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Hey {\k30}good {\k33}mood {\k33}ba{\k34}by
+Dialogue: 0,0:00:04.89,0:00:07.09,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\kf110}Foo
+Dialogue: 0,0:00:12.06,0:00:15.40,Rinze Morino,,0,0,0,fx,{\k90\fad(300,200)}{\rRinze Morino Symbol\fs30}♦{\r\fs\4a&HFF&} {\k65}Three {\k66}Two {\k65}One {\k28}Go
+Dialogue: 0,0:00:14.66,0:00:17.87,Rinze Morino,,0,0,0,fx,{\k90\fad(300,200)}{\rRinze Morino Symbol\fs30}♦{\r\fs\4a&HFF&} {\k33}ZIP{\k20}PER {\k13}to {\k33}KEY {\k21}HOL{\k12}DER {\k21}ja{\k12}ra{\k21}ja{\k25}ra
+Dialogue: 0,0:00:16.85,0:00:20.47,Rinze Morino,,0,0,0,fx,{\k90\fad(300,200)}{\rRinze Morino Symbol\fs30}♦{\r\fs\4a&HFF&} {\k12}ga{\k20}ra{\k11}ku{\k21}ta{\k12}se{\k20}i {\k12}ka{\k21}wa{\k32}ii {\k14}wa {\k20}cha{\k11}ran{\k22}po{\k24}ran
+Dialogue: 0,0:00:19.43,0:00:22.94,Rinze Morino,,0,0,0,fx,{\k90\fad(300,200)}{\rRinze Morino Symbol\fs30}♦{\r\fs\4a&HFF&} {\k14}mu{\k20}da {\k12}ba{\k18}na{\k15}shi {\k19}de {\k12}ha{\k20}sha{\k13}gu {\k22}no{\k12}do {\k21}ka{\k11}ra{\k21}ka{\k11}ra
+Dialogue: 0,0:00:22.06,0:00:25.68,Rinze Morino,,0,0,0,fx,{\k90\fad(300,200)}{\rRinze Morino Symbol\fs30}♦{\r\fs\4a&HFF&} {\k12}LE{\k32}MON {\k32}SQUA{\k21}SH {\k12}tte {\k31}TEN{\k22}SION {\k12}a{\k21}ga{\k12}ru {\k21}ka{\k24}ra
+Dialogue: 0,0:00:24.98,0:00:28.59,Amana Osaki,,0,0,0,fx,{\k90\fad(300,200)}{\rAmana Osaki Symbol\fs30}♣{\r\fs\4a&HFF&} {\k12}mu{\k33}da {\k20}ha{\k13}bu{\k21}kut{\k11}te {\k21}'ta {\k13}na{\k32}kus'{\k21}to {\k11}o{\k23}na{\k20}ji
+Dialogue: 0,0:00:27.61,0:00:30.05,Amana Osaki,,0,0,0,fx,{\k90\fad(300,200)}{\rAmana Osaki Symbol\fs30}♣{\r\fs\4a&HFF&} {\k10}mu{\k21}da {\k12}ka{\k22}mo {\k11}mu{\k22}da {\k10}ja{\k26}nai
+Dialogue: 0,0:00:28.99,0:00:31.25,Amana Osaki,,0,0,0,fx,{\k90\fad(300,200)}{\rAmana Osaki Symbol\fs30}♣{\r\fs\4a&HFF&} {\k13}ku{\k11}da{\k11}ra{\k22}nait{\k11}te {\k10}ro{\k22}man {\k16}jan
+Dialogue: 0,0:00:30.32,0:00:33.37,Amana Osaki,,0,0,0,fx,{\k90\fad(300,200)}{\rAmana Osaki Symbol\fs30}♣{\r\fs\4a&HFF&} {\k32}aa {\k22}ie{\k12}ba {\k33}kou {\k31}yuu {\k22}tte {\k11}ha{\k21}na{\k11}shi
+Dialogue: 0,0:00:32.27,0:00:34.43,Amana Osaki,,0,0,0,fx,{\k90\fad(300,200)}{\rAmana Osaki Symbol\fs30}♣{\r\fs\4a&HFF&} {\k34}ip{\k31}pats' {\k13}ko{\k9}ko {\k19}de
+Dialogue: 0,0:00:33.58,0:00:36.30,Amana Osaki,,0,0,0,fx,{\k90\fad(300,200)}{\rAmana Osaki Symbol\fs30}♣{\r\fs\4a&HFF&} {\k21}no{\k12}ra{\k21}se{\k12}te {\k21}mo{\k11}ra{\k21}i {\k43}mas'
+Dialogue: 0,0:00:34.89,0:00:36.55,No1 Feel Alone Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\k56}haai
+Dialogue: 0,0:00:35.54,0:00:37.83,Yuika Mitsumine,,0,0,0,fx,{\k90\fad(300,200)}{\rYuika Mitsumine Symbol\fs30}♠{\r\fs\4a&HFF&} {\k9}te{\k11}ma {\k11}ka{\k23}ke{\k11}ru {\k13}MIL{\k11}LE{\k12}FEUI{\k18}LLE
+Dialogue: 0,0:00:36.73,0:00:39.13,Yuika Mitsumine,,0,0,0,fx,{\k90\fad(300,200)}{\rYuika Mitsumine Symbol\fs30}♠{\r\fs\4a&HFF&} {\k10}pe{\k23}rot{\k8}to {\k13}hi{\k10}to{\k13}ku{\k32}chi {\k21}me
+Dialogue: 0,0:00:38.15,0:00:39.50,No1 Feel Alone Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\k25}Yeah
+Dialogue: 0,0:00:38.48,0:00:41.64,Yuika Mitsumine,,0,0,0,fx,{\k90\fad(300,200)}{\rYuika Mitsumine Symbol\fs30}♠{\r\fs\4a&HFF&} {\k32}Sweet {\k33}sweet {\k30}time {\k27}yu{\k8}m {\k21}yu{\k12}m {\k32}yum
+Dialogue: 0,0:00:40.43,0:00:41.85,No1 Feel Alone Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\k32}Uun
+Dialogue: 0,0:00:40.75,0:00:43.38,Yuika Mitsumine,,0,0,0,fx,{\k90\fad(300,200)}{\rYuika Mitsumine Symbol\fs30}♠{\r\fs\4a&HFF&} {\k33}hoo{\k21}ba{\k12}ru {\k22}TEA {\k31}PAR{\k34}TY
+Dialogue: 0,0:00:42.29,0:00:45.90,Yuika Mitsumine,,0,0,0,fx,{\k90\fad(300,200)}{\rYuika Mitsumine Symbol\fs30}♠{\r\fs\4a&HFF&} {\k9}ho{\k22}ka {\k11}ja {\k21}da{\k12}se{\k22}nai {\k10}ku{\k21}se {\k13}ni {\k20}na{\k12}ru {\k21}ii {\k32}a{\k25}ji
+Dialogue: 0,0:00:44.88,0:00:47.07,Yuika Mitsumine,,0,0,0,fx,{\k90\fad(300,200)}{\rYuika Mitsumine Symbol\fs30}♠{\r\fs\4a&HFF&} {\k12}ma{\k19}ru{\k13}de {\k33}'tan{\k32}ji
+Dialogue: 0,0:00:45.85,0:00:48.17,Koito Fukumaru,,0,0,0,fx,{\k90\fad(300,200)}{\rKoito Fukumaru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k13}yo{\k21}ri{\k11}mi{\k19}chi {\k13}no {\k21}i{\k24}mi
+Dialogue: 0,0:00:47.16,0:00:49.50,Koito Fukumaru,,0,0,0,fx,{\k90\fad(300,200)}{\rKoito Fukumaru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k12}ko{\k15}tae {\k17}wa {\k22}mi{\k11}ra{\k22}i {\k25}ni
+Dialogue: 0,0:00:48.57,0:00:50.65,Koito Fukumaru,,0,0,0,fx,{\k90\fad(300,200)}{\rKoito Fukumaru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k23}son{\k10}na {\k21}ko{\k13}to {\k20}bak{\k11}ka
+Dialogue: 0,0:00:49.56,0:00:52.12,Koito Fukumaru,,0,0,0,fx,{\k90\fad(300,200)}{\rKoito Fukumaru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k11}da{\k11}ka{\k10}ra {\k23}kyou {\k10}mo {\k21}at{\k11}te {\k22}ii {\k27}jan
+Dialogue: 0,0:00:51.19,0:00:53.47,Koito Fukumaru,,0,0,0,fx,{\k90\fad(300,200)}{\rKoito Fukumaru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k21}go{\k31}jup{\k13}po {\k33}hyap{\k20}po
+Dialogue: 0,0:00:52.38,0:00:54.56,Koito Fukumaru,,0,0,0,fx,{\k90\fad(300,200)}{\rKoito Fukumaru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k44}All {\k32}o{\k32}k
+Dialogue: 0,0:00:53.65,0:00:55.93,Koito Fukumaru,,0,0,0,fx,{\k90\fad(300,200)}{\rKoito Fukumaru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k14}na{\k21}ru {\k31}you {\k14}ni {\k22}na{\k16}ru
+Dialogue: 0,0:00:54.96,0:00:57.35,Koito Fukumaru,,0,0,0,fx,{\k90\fad(300,200)}{\rKoito Fukumaru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k46}I {\k32}don't {\k51}care
+Dialogue: 0,0:00:55.74,0:00:59.14,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ku{\k12}da{\k20}ra{\k33}nai {\k12}hi {\k19}de{\k13}mo {\k33}IT'S {\k32}ALL {\k33}RIGHT
+Dialogue: 0,0:00:58.37,0:01:02.62,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ha{\k13}na{\k20}shi {\k35}ha{\k10}zu{\k20}n{\k12}de {\k33}moo{\k33}man{\k64}tai {\k34}mh{\k21}~
+Dialogue: 0,0:01:01.62,0:01:05.00,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k34}chou{\k19}do {\k45}ii {\k22}ko{\k12}no {\k31}chou{\k22}do {\k43}ii
+Dialogue: 0,0:01:04.24,0:01:06.96,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k65}Day {\k65}by {\k32}day
+Dialogue: 0,0:01:06.18,0:01:09.64,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k21}CA{\k13}FE {\k21}AU {\k32}LAIT {\k12}wo {\k20}ho{\k13}ra {\k33}CHOO{\k32}SE {\k39}SET
+Dialogue: 0,0:01:08.80,0:01:13.72,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k21}S{\k31}NEA{\k34}KER {\k12}D{\k21}RES{\k11}S {\k33}wo {\k21}e{\k12}ra{\k33}bi {\k32}e{\k33}ra{\k21}bo{\k67}u
+Dialogue: 0,0:01:11.95,0:01:15.45,Amana Osaki,,0,0,0,fx,{\k90\fad(300,200)}{\rAmana Osaki Symbol\fs30}♣{\r\fs\4a&HFF&} {\k11}mu{\k33}kau {\k32}shin{\k22}ten{\k30}chi {\k14}so{\k20}re {\k12}ga {\k33}'tash'{\k20}ta{\k13}chi
+Dialogue: 0,0:01:14.66,0:01:20.43,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k65}TO{\k66}KYO {\k33}ji{\k32}yuu{\k33}kei {\k33}GIRL{\kf205}~
+Dialogue: 0,0:01:19.56,0:01:24.37,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k32}Umm {\kf 162}Hmm{\k34} {\k21}Ta {\k32}ra {\k34}ta {\k56}ta
+Dialogue: 0,0:01:23.49,0:01:25.69,Koito Fukumaru,,0,0,0,fx,{\k90\fad(300,200)}{\rKoito Fukumaru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k64}Yeah {\k46}Ahn
+Dialogue: 0,0:01:25.10,0:01:31.10,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k65}To{\k66}kyo {\k33}jiyu{\k31}u{\k33}kei {\k33}GIRL{\kf229}~
+Dialogue: 0,0:01:27.26,0:01:31.08,Amana Osaki,,0,0,0,fx,{\k90\fad(300,200)}{\rAmana Osaki Symbol\fs30}♣{\r\fs\4a&HFF&} {\k12}o{\k33}moi {\k33}too{\k21}ri {\k11}i{\k20}ka{\k13}nai {\k20}nat{\k15}te {\k19}tsup{\k12}pu{\k20}shi{\k12}ta {\k20}yo{\k11}ru
+Dialogue: 0,0:01:30.00,0:01:32.07,Amana Osaki,,0,0,0,fx,{\k90\fad(300,200)}{\rAmana Osaki Symbol\fs30}♣{\r\fs\4a&HFF&} {\k33}Suc{\k32}cess {\k20}sto{\k12}ry
+Dialogue: 0,0:01:30.98,0:01:33.60,Amana Osaki,,0,0,0,fx,{\k90\fad(300,200)}{\rAmana Osaki Symbol\fs30}♣{\r\fs\4a&HFF&} {\k11}be{\k10}ta {\k12}na {\k10}ha{\k13}na{\k9}shi {\k13}ya{\k9}ke {\k11}ni {\k11}shi{\k10}mi{\k11}ta {\k22}nou
+Dialogue: 0,0:01:32.60,0:01:36.15,Amana Osaki,,0,0,0,fx,{\k90\fad(300,200)}{\rAmana Osaki Symbol\fs30}♣{\r\fs\4a&HFF&} {\k21}no{\k12}ru {\k33}ka {\k20}so{\k12}ru {\k23}ka {\k10}tsu{\k21}ki{\k13}ma{\k20}wa{\k12}ri {\k20}shi{\k28}dai
+Dialogue: 0,0:01:35.09,0:01:38.80,Amana Osaki,,0,0,0,fx,{\k90\fad(300,200)}{\rAmana Osaki Symbol\fs30}♣{\r\fs\4a&HFF&} {\k13}te{\k21}no{\k11}hi{\k19}ra {\k14}de {\k20}odo{\k12}ru {\k20}na{\k14}ra {\k31}FREE {\k33}STYLE {\k32}it{\k21}tak'
+Dialogue: 0,0:01:37.82,0:01:41.86,Rinze Morino,,0,0,0,fx,{\k90\fad(300,200)}{\rRinze Morino Symbol\fs30}♦{\r\fs\4a&HFF&} {\k20}i{\k13}ro{\k32}zui{\k16}ta {\k7}G{\k30}LASS {\k14}go{\k19}shi {\k13}de {\k19}se{\k13}kai {\k22}mi{\k13}tech' {\k32}o{\k31}shii
+Dialogue: 0,0:01:41.08,0:01:44.27,Rinze Morino,,0,0,0,fx,{\k90\fad(300,200)}{\rRinze Morino Symbol\fs30}♦{\r\fs\4a&HFF&} {\k24}nai {\k9}mo{\k20}no {\k13}ne{\k20}da{\k12}ri {\k20}hop{\k12}pot{\k17}te {\k16}IT'S {\k21}GO{\k25}ING
+Dialogue: 0,0:01:43.37,0:01:46.92,Rinze Morino,,0,0,0,fx,{\k90\fad(300,200)}{\rRinze Morino Symbol\fs30}♦{\r\fs\4a&HFF&} {\k19}na{\k13}ga{\k19}re{\k14}ru {\k20}shi{\k13}ra{\k32}nai {\k32}HI{\k19}T {\k36}NUM{\k28}BER
+Dialogue: 0,0:01:45.84,0:01:51.78,Rinze Morino,,0,0,0,fx,{\k90\fad(300,200)}{\rRinze Morino Symbol\fs30}♦{\r\fs\4a&HFF&} {\k14}wa {\k33}ii {\k19}chou{\k13}shi {\k33}ii {\k13}you {\k8}ni {\k11}o{\k33}to {\k32}ni {\k33}no{\k28}re{\kf214}~
+Dialogue: 0,0:01:47.93,0:01:51.31,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k22}ku{\k11}da{\k20}ra{\k35}nai {\k11}hi {\k20}de{\k13}mo {\k31}IT'S {\k32}ALL {\k33}RIGHT
+Dialogue: 0,0:01:50.54,0:01:54.78,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ha{\k13}na{\k20}shi {\k34}ha{\k11}zu{\k21}n{\k11}de {\k33}moo{\k33}man{\k65}tai {\k33}mh{\k20}~
+Dialogue: 0,0:01:53.80,0:01:57.15,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k33}chou{\k20}do {\k45}ii {\k21}ko{\k11}no {\k33}chou{\k20}do {\k42}ii
+Dialogue: 0,0:01:56.40,0:01:59.37,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k66}Day {\k65}by {\k56}day
+Dialogue: 0,0:01:58.36,0:02:01.75,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k21}CA{\k13}FE {\k21}AU {\k32}LAIT {\k12}wo {\k20}ho{\k13}ra {\k32}CHOO{\k33}SE {\k32}SET
+Dialogue: 0,0:02:00.98,0:02:05.84,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k21}S{\k31}NEA{\k34}KER {\k12}D{\k21}RES{\k11}S {\k31}wo {\k23}e{\k12}ra{\k31}bi {\k34}e{\k32}ra{\k21}bo{\k62}u
+Dialogue: 0,0:02:04.12,0:02:07.90,Yuika Mitsumine,,0,0,0,fx,{\k90\fad(300,200)}{\rYuika Mitsumine Symbol\fs30}♠{\r\fs\4a&HFF&} {\k11}mu{\k33}kau {\k33}shin{\k23}ten{\k30}chi {\k10}so{\k22}re {\k12}ga {\k33}'tash'{\k22}ta{\k39}chi
+Dialogue: 0,0:02:06.84,0:02:12.94,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k65}TO{\k66}KYO {\k32}ji{\k33}yuu{\k33}kei {\k33}GIRL{\kf238}~
+Dialogue: 0,0:02:09.33,0:02:12.94,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k13}yo{\k21}ri{\k11}mi{\k20}chi {\k13}no {\k23}i{\k30}mi {\k12}ko{\k10}ta{\k11}e {\k12}wa {\k20}mi{\k12}ra{\k19}i {\k24}ni
+Dialogue: 0,0:02:11.74,0:02:16.42,Rinze Morino,,0,0,0,fx,{\k90\fad(300,200)}{\rRinze Morino Symbol\fs30}♦{\r\fs\4a&HFF&} {\k32}Mmm {\kf131}hmm{\k32} {\k32}ta {\k19}ta {\k15}ra {\k15}ra {\k33}ra {\k49}ta
+Dialogue: 0,0:02:12.05,0:02:15.60,No1 Feel Alone,,0,0,0,fx,{\k90\fad(300,200)}{\k22}son{\k12}na {\k20}ko{\k12}to {\k20}bak{\k13}ka {\k10}da{\k10}ka{\k12}ra {\k21}kyou {\k12}mo {\k20}at{\k9}te {\k25}ii {\k27}jan
