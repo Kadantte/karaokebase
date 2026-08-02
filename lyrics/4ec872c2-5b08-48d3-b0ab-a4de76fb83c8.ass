@@ -1,0 +1,83 @@
+﻿[Script Info]
+Title: Shower of light
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Azurys
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: illumination STARS,Arial,24,&H00FFFFFF,&H0065C6CF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mano Sakuragi,Arial,24,&H00FFFFFF,&H00D8B9FC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,14,1
+Style: Hiori Kazano,Arial,24,&H00FFFFFF,&H00844317,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,14,1
+Style: Meguru Hachimiya,Arial,24,&H00FFFFFF,&H0074EDFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,14,1
+Style: illumination STARS - Choir,Arial,24,&H00FFFFFF,&H0065C6CF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Mano Sakuragi,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{ \\rMano Sakuragi\\c&H00D8B9FC&\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Hiori Kazano,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{ \\rHiori Kazano\\c&H00844317&\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Meguru Hachimiya,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{ \\rMeguru Hachimiya\\c&H0074EDFF&\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,illumination STARS,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,illumination STARS - Choir,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H65C6CF&}illumination STARS{\c}\N{\c&HD8B9FC&}♥ Mano{\c} | {\c&H844317&}♠ Hiori{\c} | {\c&H74EDFF&}♦ Meguri
+Comment: 0,0:00:06.36,0:00:10.52,illumination STARS,,0,0,0,karaoke,{\k64}Sho{\k58}wer {\k60}of {\kf234}light
+Comment: 0,0:00:11.09,0:00:15.19,illumination STARS,,0,0,0,karaoke,{\k61}Sho{\k59}wer {\k56}of {\k48}hap{\k14}pi{\kf172}ness
+Comment: 0,0:00:15.79,0:00:19.80,illumination STARS,,0,0,0,karaoke,{\k62}Sho{\k59}wer {\k59}of {\k44}li{\k17}~{\kf160}ght
+Comment: 0,0:00:23.49,0:00:28.21,Mano Sakuragi,,0,0,0,karaoke,{\k57}u{\k15}ma{\k17}re{\k56}ta {\k30}to{\k46}ki {\k15}wa {\k58}ta{\k32}yo{\k27}ri{\k59}na{\k32}ku{\k28}te
+Comment: 0,0:00:28.50,0:00:30.27,Mano Sakuragi,,0,0,0,karaoke,{\k30}chii{\k47}sa{\k13}na {\k32}mo{\k29}no {\k26}de
+Comment: 0,0:00:30.60,0:00:34.47,Hiori Kazano,,0,0,0,karaoke,{\k55}bu{\k18}tsu{\k16}ka{\k58}ri {\k28}ha{\k32}ji{\k16}ka{\k45}re {\k29}ta{\k26}ri {\k33}shi{\k31}te
+Comment: 0,0:00:34.77,0:00:37.59,Meguru Hachimiya,,0,0,0,karaoke,{\k14}ya{\k15}ga{\k59}te {\k30}to{\k29}bi{\k15}da{\kf120}su
+Comment: 0,0:00:38.02,0:00:40.77,Mano Sakuragi,,0,0,0,karaoke,{\k14}u{\k29}chuu {\k13}no {\k33}sa{\k29}i{\k29}da{\k28}i {\k17}so{\k30}ku{\k14}do {\k39}de
+Comment: 0,0:00:40.83,0:00:43.72,Meguru Hachimiya,,0,0,0,karaoke,{\k7}ta{\k7}ka{\k29}ma{\k15}t{\k29}te {\k13}yu{\k29}ku {\k30}tsu{\k31}ki{\k15}nu{\k30}ke{\k12}te{\k42}ku
+Comment: 0,0:00:43.75,0:00:45.62,Hiori Kazano,,0,0,0,karaoke,{\k8}u{\k7}mi {\k30}no {\k9}ki{\k11}ra{\k9}me{\k9}ki {\k10}to {\k9}ka {\k11}so{\k11}ra {\k9}no {\k13}a{\k14}o{\k27}sa
+Comment: 0,0:00:45.57,0:00:47.38,Meguru Hachimiya,,0,0,0,karaoke,{\k9}ku{\k20}rai {\k10}ya{\k11}mi {\k7}de {\k9}wa {\k33}sou {\k9}mi{\k9}tsu{\k11}ke{\k19}ra{\k11}re{\k23}nai
+Comment: 0,0:00:47.44,0:00:50.94,Hiori Kazano,,0,0,0,karaoke,{\k28}wa{\k12}ta{\k33}shi{\k12}ra{\k32}shi{\k30}ku {\k29}i{\k44}ru{\k14}na{\kf116}ra
+Comment: 0,0:00:51.26,0:00:53.64,Mano Sakuragi,,0,0,0,karaoke,{\k13}a{\k17}na{\k29}ta {\k12}ga {\k30}hi{\k16}tsu{\k60}you {\k30}nan{\k13}de{\k18}su
+Comment: 0,0:00:53.90,0:00:57.73,illumination STARS,,0,0,0,karaoke,{\k17}so{\k15}no {\k14}e{\k15}ga{\k16}o {\k28}wa {\k30}ka{\k12}ga{\k16}ya{\k30}ki {\k27}no {\k32}SHO{\k15}WE{\kf116}R
+Comment: 0,0:00:56.82,0:00:58.47,illumination STARS - Choir,,0,0,0,karaoke,{\k64}SHO{\k58}WE{\k43}R
+Comment: 0,0:00:58.05,0:01:03.01,Meguru Hachimiya,,0,0,0,karaoke,{\k13}a{\k16}na{\k15}ta {\k44}ga {\k29}wa{\k30}ra{\k30}e{\k58}ba {\k29}wa{\k15}i{\k29}te {\k15}a{\k14}fu{\k15}re{\k30}ru {\k15}E{\k29}NE{\k15}R{\k15}G{\k40}Y
+Comment: 0,0:01:03.30,0:01:07.30,illumination STARS,,0,0,0,karaoke,{\k33}shin{\k30}dou {\k15}kod{\k29}ou {\k29}ya{\k14}ku{\k16}do{\k25}u {\k33}su{\k29}ru {\k16}ki{\k58}bo{\k16}u {\k57}de
+Comment: 0,0:01:07.45,0:01:08.93,Hiori Kazano,,0,0,0,karaoke,{\k21}mi{\k16}chi{\k22}ru {\k29}ko{\k15}ko{\k30}ro {\k15}no
+Comment: 0,0:01:08.93,0:01:09.80,Mano Sakuragi,,0,0,0,karaoke,{\k29}o{\k16}ku {\k29}ma{\k13}de
+Comment: 0,0:01:09.78,0:01:10.37,Meguru Hachimiya,,0,0,0,karaoke,{\k31}sut{\k28}to
+Comment: 0,0:01:10.40,0:01:11.28,Hiori Kazano,,0,0,0,karaoke,{\k29}na{\k15}ri{\k30}ta{\k14}i
+Comment: 0,0:01:11.28,0:01:12.69,Mano Sakuragi,,0,0,0,karaoke,{\k28}wa{\k12}ta{\k33}shi {\k16}ni {\k29}na{\k23}ru
+Comment: 0,0:01:12.75,0:01:17.66,illumination STARS,,0,0,0,karaoke,{\k30}ta{\k15}i{\k28}yo{\k15}u {\k27}no {\k14}ho{\k32}u {\k16}wo {\k29}mu{\k30}i{\k55}te {\k25}ha{\k21}na {\k13}wa {\k60}sa{\k44}ku {\k16}mo{\k21}no
+Comment: 0,0:01:18.04,0:01:21.63,illumination STARS,,0,0,0,karaoke,{\k23}wa{\k19}ta{\k18}shi {\k55}wa {\k45}sa{\k17}ku {\kf182}no
+Comment: 0,0:01:22.75,0:01:26.84,illumination STARS,,0,0,0,karaoke,{\k64}Sho{\k58}wer {\k58}of {\kf229}light
+Comment: 0,0:01:27.47,0:01:31.58,illumination STARS,,0,0,0,karaoke,{\k61}Sho{\k60}wer {\k57}of {\k46}hap{\k16}pi{\kf171}ness
+Comment: 0,0:01:32.18,0:01:36.26,illumination STARS,,0,0,0,karaoke,{\k61}Sho{\k60}wer {\k59}of {\k44}li{\k16}~{\kf168}ght
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H65C6CF&}illumination STARS{\c}\N{\c&HD8B9FC&}♥ Mano{\c} | {\c&H844317&}♠ Hiori{\c} | {\c&H74EDFF&}♦ Meguri
+Dialogue: 0,0:00:05.46,0:00:10.72,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k64}Sho{\k58}wer {\k60}of {\kf234}light
+Dialogue: 0,0:00:10.19,0:00:15.39,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k61}Sho{\k59}wer {\k56}of {\k48}hap{\k14}pi{\kf172}ness
+Dialogue: 0,0:00:14.89,0:00:20.00,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k62}Sho{\k59}wer {\k59}of {\k44}li{\k17}~{\kf160}ght
+Dialogue: 0,0:00:22.59,0:00:28.41,Mano Sakuragi,,0,0,0,fx,{\k90\fad(300,200)}{ \rMano Sakuragi\c&H00D8B9FC&\fs30}♥{\r\fs\4a&HFF&} {\k57}u{\k15}ma{\k17}re{\k56}ta {\k30}to{\k46}ki {\k15}wa {\k58}ta{\k32}yo{\k27}ri{\k59}na{\k32}ku{\k28}te
+Dialogue: 0,0:00:27.60,0:00:30.47,Mano Sakuragi,,0,0,0,fx,{\k90\fad(300,200)}{ \rMano Sakuragi\c&H00D8B9FC&\fs30}♥{\r\fs\4a&HFF&} {\k30}chii{\k47}sa{\k13}na {\k32}mo{\k29}no {\k26}de
+Dialogue: 0,0:00:29.70,0:00:34.67,Hiori Kazano,,0,0,0,fx,{\k90\fad(300,200)}{ \rHiori Kazano\c&H00844317&\fs30}♠{\r\fs\4a&HFF&} {\k55}bu{\k18}tsu{\k16}ka{\k58}ri {\k28}ha{\k32}ji{\k16}ka{\k45}re {\k29}ta{\k26}ri {\k33}shi{\k31}te
+Dialogue: 0,0:00:33.87,0:00:37.79,Meguru Hachimiya,,0,0,0,fx,{\k90\fad(300,200)}{ \rMeguru Hachimiya\c&H0074EDFF&\fs30}♦{\r\fs\4a&HFF&} {\k14}ya{\k15}ga{\k59}te {\k30}to{\k29}bi{\k15}da{\kf120}su
+Dialogue: 0,0:00:37.12,0:00:40.97,Mano Sakuragi,,0,0,0,fx,{\k90\fad(300,200)}{ \rMano Sakuragi\c&H00D8B9FC&\fs30}♥{\r\fs\4a&HFF&} {\k14}u{\k29}chuu {\k13}no {\k33}sa{\k29}i{\k29}da{\k28}i {\k17}so{\k30}ku{\k14}do {\k39}de
+Dialogue: 0,0:00:39.93,0:00:43.92,Meguru Hachimiya,,0,0,0,fx,{\k90\fad(300,200)}{ \rMeguru Hachimiya\c&H0074EDFF&\fs30}♦{\r\fs\4a&HFF&} {\k7}ta{\k7}ka{\k29}ma{\k15}t{\k29}te {\k13}yu{\k29}ku {\k30}tsu{\k31}ki{\k15}nu{\k30}ke{\k12}te{\k42}ku
+Dialogue: 0,0:00:42.85,0:00:45.82,Hiori Kazano,,0,0,0,fx,{\k90\fad(300,200)}{ \rHiori Kazano\c&H00844317&\fs30}♠{\r\fs\4a&HFF&} {\k8}u{\k7}mi {\k30}no {\k9}ki{\k11}ra{\k9}me{\k9}ki {\k10}to {\k9}ka {\k11}so{\k11}ra {\k9}no {\k13}a{\k14}o{\k27}sa
+Dialogue: 0,0:00:44.67,0:00:47.58,Meguru Hachimiya,,0,0,0,fx,{\k90\fad(300,200)}{ \rMeguru Hachimiya\c&H0074EDFF&\fs30}♦{\r\fs\4a&HFF&} {\k9}ku{\k20}rai {\k10}ya{\k11}mi {\k7}de {\k9}wa {\k33}sou {\k9}mi{\k9}tsu{\k11}ke{\k19}ra{\k11}re{\k23}nai
+Dialogue: 0,0:00:46.54,0:00:51.14,Hiori Kazano,,0,0,0,fx,{\k90\fad(300,200)}{ \rHiori Kazano\c&H00844317&\fs30}♠{\r\fs\4a&HFF&} {\k28}wa{\k12}ta{\k33}shi{\k12}ra{\k32}shi{\k30}ku {\k29}i{\k44}ru{\k14}na{\kf116}ra
+Dialogue: 0,0:00:50.36,0:00:53.84,Mano Sakuragi,,0,0,0,fx,{\k90\fad(300,200)}{ \rMano Sakuragi\c&H00D8B9FC&\fs30}♥{\r\fs\4a&HFF&} {\k13}a{\k17}na{\k29}ta {\k12}ga {\k30}hi{\k16}tsu{\k60}you {\k30}nan{\k13}de{\k18}su
+Dialogue: 0,0:00:53.00,0:00:57.93,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k17}so{\k15}no {\k14}e{\k15}ga{\k16}o {\k28}wa {\k30}ka{\k12}ga{\k16}ya{\k30}ki {\k27}no {\k32}SHO{\k15}WE{\kf116}R
+Dialogue: 0,0:00:55.92,0:00:58.67,illumination STARS - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k64}SHO{\k58}WE{\k43}R
+Dialogue: 0,0:00:57.15,0:01:03.21,Meguru Hachimiya,,0,0,0,fx,{\k90\fad(300,200)}{ \rMeguru Hachimiya\c&H0074EDFF&\fs30}♦{\r\fs\4a&HFF&} {\k13}a{\k16}na{\k15}ta {\k44}ga {\k29}wa{\k30}ra{\k30}e{\k58}ba {\k29}wa{\k15}i{\k29}te {\k15}a{\k14}fu{\k15}re{\k30}ru {\k15}E{\k29}NE{\k15}R{\k15}G{\k40}Y
+Dialogue: 0,0:01:02.40,0:01:07.50,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k33}shin{\k30}dou {\k15}kod{\k29}ou {\k29}ya{\k14}ku{\k16}do{\k25}u {\k33}su{\k29}ru {\k16}ki{\k58}bo{\k16}u {\k57}de
+Dialogue: 0,0:01:06.55,0:01:09.13,Hiori Kazano,,0,0,0,fx,{\k90\fad(300,200)}{ \rHiori Kazano\c&H00844317&\fs30}♠{\r\fs\4a&HFF&} {\k21}mi{\k16}chi{\k22}ru {\k29}ko{\k15}ko{\k30}ro {\k15}no
+Dialogue: 0,0:01:08.03,0:01:10.00,Mano Sakuragi,,0,0,0,fx,{\k90\fad(300,200)}{ \rMano Sakuragi\c&H00D8B9FC&\fs30}♥{\r\fs\4a&HFF&} {\k29}o{\k16}ku {\k29}ma{\k13}de
+Dialogue: 0,0:01:08.88,0:01:10.57,Meguru Hachimiya,,0,0,0,fx,{\k90\fad(300,200)}{ \rMeguru Hachimiya\c&H0074EDFF&\fs30}♦{\r\fs\4a&HFF&} {\k31}sut{\k28}to
+Dialogue: 0,0:01:09.50,0:01:11.48,Hiori Kazano,,0,0,0,fx,{\k90\fad(300,200)}{ \rHiori Kazano\c&H00844317&\fs30}♠{\r\fs\4a&HFF&} {\k29}na{\k15}ri{\k30}ta{\k14}i
+Dialogue: 0,0:01:10.38,0:01:12.89,Mano Sakuragi,,0,0,0,fx,{\k90\fad(300,200)}{ \rMano Sakuragi\c&H00D8B9FC&\fs30}♥{\r\fs\4a&HFF&} {\k28}wa{\k12}ta{\k33}shi {\k16}ni {\k29}na{\k23}ru
+Dialogue: 0,0:01:11.85,0:01:17.86,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ta{\k15}i{\k28}yo{\k15}u {\k27}no {\k14}ho{\k32}u {\k16}wo {\k29}mu{\k30}i{\k55}te {\k25}ha{\k21}na {\k13}wa {\k60}sa{\k44}ku {\k16}mo{\k21}no
+Dialogue: 0,0:01:17.14,0:01:21.83,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k23}wa{\k19}ta{\k18}shi {\k55}wa {\k45}sa{\k17}ku {\kf182}no
+Dialogue: 0,0:01:21.85,0:01:27.04,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k64}Sho{\k58}wer {\k58}of {\kf229}light
+Dialogue: 0,0:01:26.57,0:01:31.78,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k61}Sho{\k60}wer {\k57}of {\k46}hap{\k16}pi{\kf171}ness
+Dialogue: 0,0:01:31.28,0:01:36.46,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k61}Sho{\k60}wer {\k59}of {\k44}li{\k16}~{\kf168}ght
