@@ -1,0 +1,94 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: torash
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Paychan,Arial,24,&H00D275F1,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: PaychanChoir,Arial,24,&H00D275F1,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Paychan,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.70,0:00:07.40,Paychan,,0,0,0,karaoke,{\k20}so{\k17}no {\k22}is{\k42}shun {\k62}de {\k37}se{\k34}ka{\k32}i {\k32}wa {\k34}ka{\k24}wa{\k42}t{\k32}te {\k40}'ku
+Comment: 0,0:00:07.99,0:00:13.90,Paychan,,0,0,0,karaoke,{\k19}to{\k15}mo {\k34}ni {\k32}'kou {\k64}yo {\k35}yu{\k33}me{\k31}mi{\k34}ta {\k33}a{\k32}no {\k27}ba{\k41}sho {\k33}ma{\kf128}de
+Comment: 0,0:00:25.14,0:00:30.26,Paychan,,0,0,0,karaoke,{\k34}te {\k33}wo {\k32}no{\k24}ba{\k40}shi{\k34}te {\k99}mo {\k31}to{\k34}do{\k19}ka{\k31}nai {\k35}yu{\k66}me
+Comment: 0,0:00:30.74,0:00:34.70,Paychan,,0,0,0,karaoke,{\k33}tsu{\k35}ka{\k18}me{\k47}nai {\k33}a{\k31}no {\k33}so{\k33}ra {\k32}no {\k49}yo{\k20}u {\k32}ni
+Comment: 0,0:00:35.70,0:00:41.54,Paychan,,0,0,0,karaoke,{\k32}u{\k33}ma{\k34}ku {\k30}i{\k34}ka{\k34}na{\k99}i {\k33}ko{\k32}to {\k19}no {\k33}hou {\k32}ga {\k15}o{\k34}o{\k33}i{\k33}ka{\k24}ra
+Comment: 0,0:00:41.96,0:00:44.47,Paychan,,0,0,0,karaoke,{\k33}nan{\k32}te {\k33}i{\k33}i{\k15}ki{\k33}ka{\k33}se{\k39}te
+Comment: 0,0:00:44.75,0:00:47.18,Paychan,,0,0,0,karaoke,{\k18}i{\k16}tsu{\k15}no{\k20}ma{\k14}ni{\k50}ka {\k17}shi{\k14}ta {\k19}wo {\k12}mu{\k20}i{\k28}te
+Comment: 0,0:00:47.41,0:00:49.82,Paychan,,0,0,0,karaoke,{\k8}fu{\k19}sa{\k21}gi{\k33}kon{\k48}de {\k19}ta{\k16}chi{\k15}do{\k29}mat{\k33}ta
+Comment: 0,0:00:50.53,0:00:54.58,Paychan,,0,0,0,karaoke,{\k33}da{\k34}re {\k12}mo {\k33}ga {\k29}hi{\k58}to{\k32}ri {\k33}dat{\k14}te {\k20}o{\k47}mot{\k17}te {\k43}'ta
+Comment: 0,0:00:55.28,0:00:57.72,Paychan,,0,0,0,karaoke,{\k19}wa{\k15}ta{\k18}shi {\k17}ga {\k16}i{\k48}te {\k18}a{\k15}na{\k18}ta {\k24}ga {\k10}i{\k26}ru
+Comment: 0,0:00:57.92,0:01:03.06,Paychan,,0,0,0,karaoke,{\k14}o{\k22}so{\k16}re{\k17}ru {\k16}ko{\k65}to {\k33}nan{\k16}te {\k18}na{\k32}kat{\k33}tan{\k33}dat{\k18}te {\k16}ki{\k29}zu{\k20}i{\k49}tan{\k67}da
+Comment: 0,0:01:03.70,0:01:05.54,Paychan,,0,0,0,karaoke,{\k35}a{\k32}na{\k17}ta {\k32}to {\k17}na{\k51}ra
+Comment: 0,0:01:05.97,0:01:10.75,Paychan,,0,0,0,karaoke,{\k22}so{\k12}no {\k29}is{\k40}shun {\k65}de {\k35}se{\k33}ka{\k33}i {\k33}wa {\k33}ka{\k33}wa{\k31}t{\k34}te {\k45}'ku
+Comment: 0,0:01:11.29,0:01:16.52,Paychan,,0,0,0,karaoke,{\k17}to{\k17}mo {\k32}ni {\k33}'kou {\k67}yo {\k32}yu{\k33}me{\k34}mi{\k30}ta {\k35}a{\k33}no {\k31}ba{\k35}sho {\k33}ma{\k61}de
+Comment: 0,0:01:16.74,0:01:19.21,Paychan,,0,0,0,karaoke,{\k16}a{\k16}ke{\k17}na{\k29}i {\k24}yo{\k27}ru {\k37}wa {\k28}na{\k17}i {\k36}yo
+Comment: 0,0:01:19.53,0:01:23.75,Paychan,,0,0,0,karaoke,{\k34}a{\k33}na{\k19}ta {\k27}ga {\k37}sou {\k31}it{\k33}te {\k18}wa{\k32}rat{\k14}te {\k19}ku{\k34}re{\k32}ru{\k33}na{\k26}ra
+Comment: 0,0:01:24.16,0:01:26.70,Paychan,,0,0,0,karaoke,{\k33}kit{\k32}to {\k33}da{\k35}i{\k30}jo{\k34}u{\k33}bu{\k24}~
+Comment: 0,0:01:27.12,0:01:31.78,Paychan,,0,0,0,karaoke,{\k15}ko{\k18}no {\k32}is{\k29}shun {\k68}de {\k35}se{\k34}ka{\k32}i {\k33}ga {\k33}ka{\k32}wa{\k35}t{\k33}te {\k37}'ku
+Comment: 0,0:01:32.23,0:01:37.32,Paychan,,0,0,0,karaoke,{\k19}ko{\k14}n{\k16}do {\k19}wa {\k13}wa{\k34}tash' {\k66}ga {\k34}a{\k33}na{\k31}ta {\k34}wo {\k34}tsu{\k33}re{\k35}te {\k28}yu{\k66}kou
+Comment: 0,0:01:37.65,0:01:44.43,Paychan,,0,0,0,karaoke,{\k57}mo{\k110}u {\k32}hi{\k34}to{\k18}ri {\k47}de {\k31}ka{\k35}ka{\k15}e{\k36}ko{\k31}mu {\k49}ko{\k34}to {\k33}nan{\k17}te {\k32}nai {\k38}you {\k29}ni
+Comment: 0,0:01:45.25,0:01:51.50,Paychan,,0,0,0,karaoke,{\k33}RO{\k32}MA{\k34}N{\k32}TI{\k18}C {\k48}na {\k27}ma{\k40}hou {\k16}wo {\k15}ka{\k33}ke{\k35}yo{\kf262}u
+Comment: 0,0:02:00.08,0:02:05.95,Paychan,,0,0,0,karaoke,{\k32}i{\k32}tsu {\k35}ka {\k34}ka{\k33}na{\k32}ra{\k99}zu {\k26}ri{\k40}sou {\k19}wa {\k31}kit{\k34}to {\k15}ka{\k33}na{\k34}u{\k31}ka{\k27}ra
+Comment: 0,0:02:06.35,0:02:09.78,Paychan,,0,0,0,karaoke,{\k34}nan{\k31}te {\k33}ki{\k34}re{\k34}i {\k32}ko{\k32}to {\k48}da{\k17}ke{\k48}do
+Comment: 0,0:02:10.62,0:02:16.58,Paychan,,0,0,0,karaoke,{\k34}a{\k34}yu{\k33}mi {\k33}wo {\k32}to{\k34}me{\k99}ru {\k32}ri{\k33}yuu {\k17}ni {\k34}wa {\k32}na{\k49}ra{\k34}na{\k32}in{\k34}da
+Comment: 0,0:02:16.90,0:02:23.16,Paychan,,0,0,0,karaoke,{\k33}a{\k33}na{\k33}ta {\k32}to {\k17}mi{\k49}tai {\k32}ke{\k35}shi{\k31}ki {\k28}ga {\k40}a{\k44}ru{\k28}ka{\kf191}ra
+Comment: 0,0:02:30.36,0:02:35.10,Paychan,,0,0,0,karaoke,{\k20}so{\k18}no {\k26}is{\k25}shu{\k16}n {\k68}ga {\k31}wa{\k30}ta{\k35}shi {\k33}wo {\k35}ka{\k32}e{\k29}te {\k35}yu{\k41}ku
+Comment: 0,0:02:35.54,0:02:40.73,Paychan,,0,0,0,karaoke,{\k16}to{\k17}ku{\k15}be{\k17}tsu {\k14}na {\k35}kyou {\k65}wo {\k32}a{\k33}na{\k34}ta {\k32}to {\k34}a{\k30}yu{\k37}n{\k34}de {\k31}'ko{\k43}u
+Comment: 0,0:02:41.11,0:02:43.53,Paychan,,0,0,0,karaoke,{\k17}ya{\k13}ri {\k20}ki{\k30}re{\k21}na{\k32}i {\k36}mai{\k30}ni{\k19}chi {\k24}mo
+Comment: 0,0:02:43.94,0:02:48.09,Paychan,,0,0,0,karaoke,{\k32}a{\k33}na{\k21}ta {\k23}ga {\k38}so{\k34}ba {\k32}de {\k16}wa{\k34}rat{\k17}te {\k15}ku{\k35}re{\k32}ru{\k31}na{\k22}ra
+Comment: 0,0:02:48.51,0:02:51.13,Paychan,,0,0,0,karaoke,{\k36}kit{\k33}to {\k28}da{\k39}i{\k32}jo{\k34}u{\k32}bu{\k28}~
+Comment: 0,0:02:51.49,0:02:54.76,PaychanChoir,,0,0,0,karaoke,{\k35}Ah{\k33}~{\kf259}~
+Comment: 0,0:02:51.49,0:02:56.18,Paychan,,0,0,0,karaoke,{\k19}ko{\k16}no {\k23}is{\k42}shun {\k63}de {\k36}se{\k33}ka{\k32}i {\k35}wa {\k33}ka{\k33}wa{\k32}t{\k34}te {\k38}'ku
+Comment: 0,0:02:56.62,0:03:01.67,Paychan,,0,0,0,karaoke,{\k19}yu{\k18}me {\k13}ni {\k14}mi{\k16}ta {\k36}kyou {\k66}wo {\k33}a{\k32}na{\k35}ta {\k29}to {\k35}sa{\k32}ga{\k34}shi{\k34}te {\k59}'kou
+Comment: 0,0:03:02.06,0:03:08.91,Paychan,,0,0,0,karaoke,{\k64}so{\k97}u {\k38}yo{\k29}a{\k19}ke {\k50}wa {\k33}su{\k29}gu {\k18}so{\k35}ko {\k32}ma{\k50}de {\k33}ki{\k33}te {\k31}i{\k32}ru{\k21}ka{\k41}ra
+Comment: 0,0:03:09.65,0:03:12.26,Paychan,,0,0,0,karaoke,{\k33}wa{\k33}tash' {\k32}no {\k35}te {\k30}wo {\k18}to{\k17}t{\k31}te{\k32}~
+Comment: 0,0:03:12.61,0:03:19.48,Paychan,,0,0,0,karaoke,{\k67}mo{\k98}u {\k34}hi{\k33}to{\k18}ri {\k47}de {\k33}ka{\k33}ka{\k18}e{\k32}ko{\k28}mu {\k52}ko{\k33}to {\k35}nan{\k17}te {\k30}nai{\k35}ka{\k44}ra
+Comment: 0,0:03:20.20,0:03:26.51,Paychan,,0,0,0,karaoke,{\k33}RO{\k33}MA{\k32}N{\k25}TI{\k27}C {\k48}na {\k26}ma{\k40}hou {\k17}wo {\k14}ka{\k26}ke{\k41}yo{\kf269}u
+Comment: 0,0:03:32.72,0:03:37.02,Paychan,,0,0,0,karaoke,{\k25}ma{\k41}hou {\k19}wo {\k14}ka{\k33}ke{\k33}yo{\kf265}u
+Dialogue: 0,0:00:01.80,0:00:07.60,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k20}so{\k17}no {\k22}is{\k42}shun {\k62}de {\k37}se{\k34}ka{\k32}i {\k32}wa {\k34}ka{\k24}wa{\k42}t{\k32}te {\k40}'ku
+Dialogue: 0,0:00:07.09,0:00:14.10,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k19}to{\k15}mo {\k34}ni {\k32}'kou {\k64}yo {\k35}yu{\k33}me{\k31}mi{\k34}ta {\k33}a{\k32}no {\k27}ba{\k41}sho {\k33}ma{\kf128}de
+Dialogue: 0,0:00:24.24,0:00:30.46,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k34}te {\k33}wo {\k32}no{\k24}ba{\k40}shi{\k34}te {\k99}mo {\k31}to{\k34}do{\k19}ka{\k31}nai {\k35}yu{\k66}me
+Dialogue: 0,0:00:29.84,0:00:34.90,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k33}tsu{\k35}ka{\k18}me{\k47}nai {\k33}a{\k31}no {\k33}so{\k33}ra {\k32}no {\k49}yo{\k20}u {\k32}ni
+Dialogue: 0,0:00:34.80,0:00:41.74,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k32}u{\k33}ma{\k34}ku {\k30}i{\k34}ka{\k34}na{\k99}i {\k33}ko{\k32}to {\k19}no {\k33}hou {\k32}ga {\k15}o{\k34}o{\k33}i{\k33}ka{\k24}ra
+Dialogue: 0,0:00:41.06,0:00:44.67,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k33}nan{\k32}te {\k33}i{\k33}i{\k15}ki{\k33}ka{\k33}se{\k39}te
+Dialogue: 0,0:00:43.85,0:00:47.38,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k18}i{\k16}tsu{\k15}no{\k20}ma{\k14}ni{\k50}ka {\k17}shi{\k14}ta {\k19}wo {\k12}mu{\k20}i{\k28}te
+Dialogue: 0,0:00:46.51,0:00:50.02,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k8}fu{\k19}sa{\k21}gi{\k33}kon{\k48}de {\k19}ta{\k16}chi{\k15}do{\k29}mat{\k33}ta
+Dialogue: 0,0:00:49.63,0:00:54.78,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k33}da{\k34}re {\k12}mo {\k33}ga {\k29}hi{\k58}to{\k32}ri {\k33}dat{\k14}te {\k20}o{\k47}mot{\k17}te {\k43}'ta
+Dialogue: 0,0:00:54.38,0:00:57.92,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k19}wa{\k15}ta{\k18}shi {\k17}ga {\k16}i{\k48}te {\k18}a{\k15}na{\k18}ta {\k24}ga {\k10}i{\k26}ru
+Dialogue: 0,0:00:57.02,0:01:03.26,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k14}o{\k22}so{\k16}re{\k17}ru {\k16}ko{\k65}to {\k33}nan{\k16}te {\k18}na{\k32}kat{\k33}tan{\k33}dat{\k18}te {\k16}ki{\k29}zu{\k20}i{\k49}tan{\k67}da
+Dialogue: 0,0:01:02.80,0:01:05.74,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k35}a{\k32}na{\k17}ta {\k32}to {\k17}na{\k51}ra
+Dialogue: 0,0:01:05.07,0:01:10.95,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k22}so{\k12}no {\k29}is{\k40}shun {\k65}de {\k35}se{\k33}ka{\k33}i {\k33}wa {\k33}ka{\k33}wa{\k31}t{\k34}te {\k45}'ku
+Dialogue: 0,0:01:10.39,0:01:16.72,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k17}to{\k17}mo {\k32}ni {\k33}'kou {\k67}yo {\k32}yu{\k33}me{\k34}mi{\k30}ta {\k35}a{\k33}no {\k31}ba{\k35}sho {\k33}ma{\k61}de
+Dialogue: 0,0:01:15.84,0:01:19.41,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k16}a{\k16}ke{\k17}na{\k29}i {\k24}yo{\k27}ru {\k37}wa {\k28}na{\k17}i {\k36}yo
+Dialogue: 0,0:01:18.63,0:01:23.95,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k34}a{\k33}na{\k19}ta {\k27}ga {\k37}sou {\k31}it{\k33}te {\k18}wa{\k32}rat{\k14}te {\k19}ku{\k34}re{\k32}ru{\k33}na{\k26}ra
+Dialogue: 0,0:01:23.26,0:01:26.90,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k33}kit{\k32}to {\k33}da{\k35}i{\k30}jo{\k34}u{\k33}bu{\k24}~
+Dialogue: 0,0:01:26.22,0:01:31.98,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ko{\k18}no {\k32}is{\k29}shun {\k68}de {\k35}se{\k34}ka{\k32}i {\k33}ga {\k33}ka{\k32}wa{\k35}t{\k33}te {\k37}'ku
+Dialogue: 0,0:01:31.33,0:01:37.52,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k14}n{\k16}do {\k19}wa {\k13}wa{\k34}tash' {\k66}ga {\k34}a{\k33}na{\k31}ta {\k34}wo {\k34}tsu{\k33}re{\k35}te {\k28}yu{\k66}kou
+Dialogue: 0,0:01:36.75,0:01:44.63,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k57}mo{\k110}u {\k32}hi{\k34}to{\k18}ri {\k47}de {\k31}ka{\k35}ka{\k15}e{\k36}ko{\k31}mu {\k49}ko{\k34}to {\k33}nan{\k17}te {\k32}nai {\k38}you {\k29}ni
+Dialogue: 0,0:01:44.35,0:01:51.70,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k33}RO{\k32}MA{\k34}N{\k32}TI{\k18}C {\k48}na {\k27}ma{\k40}hou {\k16}wo {\k15}ka{\k33}ke{\k35}yo{\kf262}u
+Dialogue: 0,0:01:59.18,0:02:06.15,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k32}i{\k32}tsu {\k35}ka {\k34}ka{\k33}na{\k32}ra{\k99}zu {\k26}ri{\k40}sou {\k19}wa {\k31}kit{\k34}to {\k15}ka{\k33}na{\k34}u{\k31}ka{\k27}ra
+Dialogue: 0,0:02:05.45,0:02:09.98,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k34}nan{\k31}te {\k33}ki{\k34}re{\k34}i {\k32}ko{\k32}to {\k48}da{\k17}ke{\k48}do
+Dialogue: 0,0:02:09.72,0:02:16.78,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k34}a{\k34}yu{\k33}mi {\k33}wo {\k32}to{\k34}me{\k99}ru {\k32}ri{\k33}yuu {\k17}ni {\k34}wa {\k32}na{\k49}ra{\k34}na{\k32}in{\k34}da
+Dialogue: 0,0:02:16.00,0:02:23.36,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k33}a{\k33}na{\k33}ta {\k32}to {\k17}mi{\k49}tai {\k32}ke{\k35}shi{\k31}ki {\k28}ga {\k40}a{\k44}ru{\k28}ka{\kf191}ra
+Dialogue: 0,0:02:29.46,0:02:35.30,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k20}so{\k18}no {\k26}is{\k25}shu{\k16}n {\k68}ga {\k31}wa{\k30}ta{\k35}shi {\k33}wo {\k35}ka{\k32}e{\k29}te {\k35}yu{\k41}ku
+Dialogue: 0,0:02:34.64,0:02:40.93,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k16}to{\k17}ku{\k15}be{\k17}tsu {\k14}na {\k35}kyou {\k65}wo {\k32}a{\k33}na{\k34}ta {\k32}to {\k34}a{\k30}yu{\k37}n{\k34}de {\k31}'ko{\k43}u
+Dialogue: 0,0:02:40.21,0:02:43.73,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ya{\k13}ri {\k20}ki{\k30}re{\k21}na{\k32}i {\k36}mai{\k30}ni{\k19}chi {\k24}mo
+Dialogue: 0,0:02:43.04,0:02:48.29,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k32}a{\k33}na{\k21}ta {\k23}ga {\k38}so{\k34}ba {\k32}de {\k16}wa{\k34}rat{\k17}te {\k15}ku{\k35}re{\k32}ru{\k31}na{\k22}ra
+Dialogue: 0,0:02:47.61,0:02:51.33,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k36}kit{\k33}to {\k28}da{\k39}i{\k32}jo{\k34}u{\k32}bu{\k28}~
+Dialogue: 0,0:02:50.59,0:02:54.96,PaychanChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Ah{\k33}~{\kf259}~
+Dialogue: 0,0:02:50.59,0:02:56.38,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ko{\k16}no {\k23}is{\k42}shun {\k63}de {\k36}se{\k33}ka{\k32}i {\k35}wa {\k33}ka{\k33}wa{\k32}t{\k34}te {\k38}'ku
+Dialogue: 0,0:02:55.72,0:03:01.87,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k19}yu{\k18}me {\k13}ni {\k14}mi{\k16}ta {\k36}kyou {\k66}wo {\k33}a{\k32}na{\k35}ta {\k29}to {\k35}sa{\k32}ga{\k34}shi{\k34}te {\k59}'kou
+Dialogue: 0,0:03:01.16,0:03:09.11,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k64}so{\k97}u {\k38}yo{\k29}a{\k19}ke {\k50}wa {\k33}su{\k29}gu {\k18}so{\k35}ko {\k32}ma{\k50}de {\k33}ki{\k33}te {\k31}i{\k32}ru{\k21}ka{\k41}ra
+Dialogue: 0,0:03:08.75,0:03:12.46,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k33}wa{\k33}tash' {\k32}no {\k35}te {\k30}wo {\k18}to{\k17}t{\k31}te{\k32}~
+Dialogue: 0,0:03:11.71,0:03:19.68,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k67}mo{\k98}u {\k34}hi{\k33}to{\k18}ri {\k47}de {\k33}ka{\k33}ka{\k18}e{\k32}ko{\k28}mu {\k52}ko{\k33}to {\k35}nan{\k17}te {\k30}nai{\k35}ka{\k44}ra
+Dialogue: 0,0:03:19.30,0:03:26.71,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k33}RO{\k33}MA{\k32}N{\k25}TI{\k27}C {\k48}na {\k26}ma{\k40}hou {\k17}wo {\k14}ka{\k26}ke{\k41}yo{\kf269}u
+Dialogue: 0,0:03:31.82,0:03:37.22,Paychan,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ma{\k41}hou {\k19}wo {\k14}ka{\k33}ke{\k33}yo{\kf265}u
