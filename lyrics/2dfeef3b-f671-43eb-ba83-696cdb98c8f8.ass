@@ -1,4 +1,5 @@
 ﻿[Script Info]
+; https://aegisub.org/
 Title: Feel Alive
 ScriptType: v4.00+
 WrapStyle: 0
@@ -9,14 +10,16 @@ Original Timing: Sodachi
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sample KM [Up] - R3BIRTH,Arial,24,&H00FFFFFF,&H009D4A42,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
-Style: Sample KM [Up] - Shioriko,Arial,24,&H00FFFFFF,&H0084B139,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
-Style: Mia,Arial,24,&H00FFFFFF,&H008C9FA1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
-Style: Lanzhu,Arial,24,&H00FFFFFF,&H00A8ACDD,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
-Style: Sample KM [Down] - R3BIRTH,Arial,24,&H00FFFFFF,&H009D4A42,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,5,0,0,20,1
+Style: Sample KM [Up] - R3BIRTH,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Up] - Shioriko,Arial,24,&H00FFFFFF,&H0028D19C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Mia,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Lanzhu,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Sample KM [Down] - R3BIRTH,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,0,0,20,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,0,legend,{\k1000}{\k0}{\rLanzhu} Lanzhu {\2cHFFFFFF}| {\rMia}Mia {\2cHFFFFFF}| {\rSample KM [Up] - Shioriko}Shioriko {\2cHFFFFFF}| {\rSample KM [Up] - R3BIRTH}All {\2cHFFFFFF}| {\rSample KM [Down] - R3BIRTH}Backing
 Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:02.29,0:00:05.85,Lanzhu,,0,0,0,karaoke,{\k172}hēi, {\k21}zhǔn{\k16}bèi {\k63}hǎo {\k15}jiù {\k16}yī{\k23}qǐ {\k30}zǒu {\k0}
 Comment: 0,0:00:07.43,0:00:09.95,Mia,,0,0,0,karaoke,{\k19}NO {\k20}MORE {\k115}RULES, {\k18}NO {\k20}MORE {\k67}RAILS
