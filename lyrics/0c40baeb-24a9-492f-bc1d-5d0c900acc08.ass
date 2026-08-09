@@ -1,0 +1,136 @@
+﻿[Script Info]
+; https://aegisub.org/
+Title: Augen Auf!
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,25,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,85,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,25,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:16.76,0:00:20.45,Sample KM [Up],,0,0,0,karaoke,{\k46}Eck{\k47}stein, {\k45}Eck{\k23}stein, {\k47}al{\k23}les {\k22}muss {\k25}ver{\k48}steckt {\k43}sein
+Comment: 0,0:00:20.45,0:00:24.15,Sample KM [Up],,0,0,0,karaoke,{\k46}Eck{\k46}stein, {\k48}Eck{\k22}stein, {\k46}al{\k23}les {\k22}muss {\k25}ver{\k45}steckt {\k47}sein
+Comment: 0,0:00:24.60,0:00:26.92,Sample KM [Up],,0,0,0,karaoke,{\k22}Wie{\k25}der {\k21}lieg' {\k26}ich {\k22}auf {\k23}der {\k25}Lau{\k68}er
+Comment: 0,0:00:28.29,0:00:31.07,Sample KM [Up],,0,0,0,karaoke,{\k25}Denn {\k23}wir {\k24}spie{\k21}len {\k25}un{\k66}ser {\k94}Spiel
+Comment: 0,0:00:31.99,0:00:34.54,Sample KM [Up],,0,0,0,karaoke,{\k21}Wie{\k25}der {\k25}wart {\k22}ich {\k22}an {\k24}der {\k24}Mau{\k92}er
+Comment: 0,0:00:35.69,0:00:38.68,Sample KM [Up],,0,0,0,karaoke,{\k21}Wie{\k25}der {\k23}steh' {\k23}ich {\k31}kurz {\k60}vorm {\k116}Ziel
+Comment: 0,0:00:39.38,0:00:41.93,Sample KM [Up],,0,0,0,karaoke,{\k23}Und {\k24}ich {\k22}hö{\k23}re {\k26}dei{\k20}nen {\k28}A{\k89}tem
+Comment: 0,0:00:43.07,0:00:46.09,Sample KM [Up],,0,0,0,karaoke,{\k21}Und {\k24}ich {\k26}rie{\k21}che {\k30}dei{\k62}ne {\k118}Angst
+Comment: 0,0:00:46.76,0:00:49.32,Sample KM [Up],,0,0,0,karaoke,{\k23}Ich {\k23}kann {\k25}nicht {\k21}mehr {\k22}län{\k24}ger {\k31}war{\k87}ten
+Comment: 0,0:00:50.45,0:00:53.43,Sample KM [Up],,0,0,0,karaoke,{\k23}Denn {\k24}ich {\k25}weiß, {\k20}was {\k27}du {\k67}ver{\k112}langst
+Comment: 0,0:00:53.69,0:00:57.16,Sample KM [Up],,0,0,0,karaoke,{\k46}Eck{\k45}stein, {\k45}Eck{\k24}stein, {\k46}al{\k25}les {\k21}muss {\k25}ver{\k45}steckt {\k25}sein
+Comment: 0,0:00:57.37,0:01:01.08,Sample KM [Up],,0,0,0,karaoke,{\k47}Eck{\k46}stein, {\k47}Eck{\k22}stein, {\k48}al{\k21}les {\k25}muss {\k23}ver{\k45}steckt {\k47}sein
+Comment: 0,0:01:01.08,0:01:07.33,Sample KM [Choir],,0,0,0,karaoke,{\k91}Eins,{\k93} {\k69}zwei,{\kf112} {\k74}drei,{\kf112} {\k74}vier
+Comment: 0,0:01:08.45,0:01:11.19,Sample KM [Choir],,0,0,0,karaoke,{\k46}Fünf, {\k45}sechs, {\k28}sie{\k20}ben, {\k48}acht, {\k43}neun, {\k44}zehn
+Comment: 0,0:01:11.19,0:01:13.35,Sample KM [Up],,0,0,0,karaoke,{\k26}Au{\k11}gen {\k36}auf, {\k21}ich {\k28}kom{\k94}me
+Comment: 0,0:01:14.89,0:01:17.23,Sample KM [Up],,0,0,0,karaoke,{\k23}Au{\k13}gen {\k36}auf, {\k22}ich {\k25}kom{\k115}me
+Comment: 0,0:01:18.60,0:01:20.76,Sample KM [Up],,0,0,0,karaoke,{\k22}Au{\k12}gen {\k34}auf, {\k24}ich {\k27}kom{\k97}me
+Comment: 0,0:01:22.29,0:01:24.43,Sample KM [Up],,0,0,0,karaoke,{\k25}Auf{\k11}ge{\k33}passt, {\k24}ich {\k25}kom{\k96}me
+Comment: 0,0:01:25.99,0:01:27.38,Sample KM [Up],,0,0,0,karaoke,{\k46}Zeig {\k46}dich {\k47}nicht
+Comment: 0,0:01:27.38,0:01:29.69,Sample KM [Up],,0,0,0,karaoke,{\k23}Stän{\k22}dig {\k26}ruf' {\k22}ich {\k23}dei{\k23}nen {\k26}Na{\k66}men
+Comment: 0,0:01:31.07,0:01:33.97,Sample KM [Up],,0,0,0,karaoke,{\k23}Stän{\k22}dig {\k26}such' {\k21}ich {\k26}dein {\k65}Ge{\k107}sicht
+Comment: 0,0:01:34.74,0:01:37.14,Sample KM [Up],,0,0,0,karaoke,{\k24}Wenn {\k24}ich {\k23}dich {\k23}dann {\k25}end{\k21}lich {\k25}ha{\k75}be
+Comment: 0,0:01:38.45,0:01:41.33,Sample KM [Up],,0,0,0,karaoke,{\k24}Spiel'n {\k20}wir {\k28}Wahr{\k21}heit {\k26}o{\k59}der {\k110}Pflicht
+Comment: 0,0:01:41.69,0:01:45.16,Sample KM [Up],,0,0,0,karaoke,{\k45}Eck{\k47}stein, {\k45}Eck{\k24}stein, {\k47}al{\k23}les {\k21}muss {\k25}ver{\k46}steckt {\k24}sein
+Comment: 0,0:01:45.38,0:01:49.07,Sample KM [Up],,0,0,0,karaoke,{\k46}Eck{\k46}stein, {\k46}Eck{\k22}stein, {\k47}al{\k24}les {\k21}muss {\k24}ver{\k46}steckt {\k47}sein
+Comment: 0,0:01:49.07,0:01:55.52,Sample KM [Choir],,0,0,0,karaoke,{\k91}Eins,{\k93} {\k69}zwei,{\k112} {\k74}drei,{\k112} {\k94}vier
+Comment: 0,0:01:56.45,0:01:59.20,Sample KM [Choir],,0,0,0,karaoke,{\k46}Fünf, {\k45}sechs, {\k28}sie{\k20}ben, {\k45}acht, {\k45}neun, {\k46}zehn
+Comment: 0,0:01:59.20,0:02:01.37,Sample KM [Up],,0,0,0,karaoke,{\k22}Au{\k13}gen {\k36}auf, {\k23}ich {\k27}kom{\k96}me
+Comment: 0,0:02:02.91,0:02:05.22,Sample KM [Up],,0,0,0,karaoke,{\k22}Au{\k13}gen {\k34}auf, {\k24}ich {\k23}kom{\k115}me
+Comment: 0,0:02:06.58,0:02:08.79,Sample KM [Up],,0,0,0,karaoke,{\k22}Au{\k14}gen {\k35}auf, {\k23}ich {\k26}kom{\k101}me
+Comment: 0,0:02:10.29,0:02:12.44,Sample KM [Up],,0,0,0,karaoke,{\k23}Auf{\k14}ge{\k33}passt, {\k23}ich {\k26}kom{\k96}me
+Comment: 0,0:02:13.98,0:02:15.58,Sample KM [Up],,0,0,0,karaoke,{\k47}Zeig {\k47}dich {\k66}nicht
+Comment: 0,0:02:16.29,0:02:17.76,Sample KM [Choir],,0,0,0,karaoke,{\k26}Ver{\k45}steck {\k76}dich
+Comment: 0,0:02:17.68,0:02:19.76,Sample KM [Up],,0,0,0,karaoke,{\k20}Au{\k13}gen {\k35}auf, {\k24}ich {\k26}kom{\k90}me
+Comment: 0,0:02:20.00,0:02:21.59,Sample KM [Choir],,0,0,0,karaoke,{\k26}Ver{\k42}steck {\k91}dich
+Comment: 0,0:02:21.37,0:02:23.41,Sample KM [Up],,0,0,0,karaoke,{\k20}Au{\k14}gen {\k36}auf, {\k22}ich {\k26}kom{\k86}me
+Comment: 0,0:02:23.69,0:02:25.32,Sample KM [Choir],,0,0,0,karaoke,{\k26}Ver{\k43}steck {\k94}dich
+Comment: 0,0:02:25.07,0:02:27.17,Sample KM [Up],,0,0,0,karaoke,{\k23}Auf{\k13}ge{\k33}passt, {\k22}ich {\k26}kom{\k93}me
+Comment: 0,0:02:27.37,0:02:28.75,Sample KM [Choir],,0,0,0,karaoke,{\k138}Ja
+Comment: 0,0:02:28.75,0:02:30.39,Sample KM [Up],,0,0,0,karaoke,{\k46}Zeig {\k51}dich {\k67}nicht
+Comment: 0,0:02:30.70,0:02:32.93,Sample KM [Choir],,0,0,0,karaoke,{\k60}Nicht,{\k23} {\k59}nicht,{\k33} {\k48}nicht
+Comment: 0,0:02:33.37,0:02:35.02,Sample KM [Up],,0,0,0,karaoke,{\k23}Eins, {\k23}zwei, {\k25}drei, {\k22}vier, {\k46}Eck{\k26}stein
+Comment: 0,0:02:35.22,0:02:37.07,Sample KM [Up],,0,0,0,karaoke,{\k34}Al{\k14}les {\k22}muss {\k22}ver{\k47}steckt {\k46}sein
+Comment: 0,0:02:37.07,0:02:40.54,Sample KM [Up],,0,0,0,karaoke,{\k46}Eck{\k47}stein, {\k46}Eck{\k22}stein, {\k45}al{\k25}les {\k23}muss {\k23}ver{\k46}steckt {\k24}sein
+Comment: 0,0:02:40.77,0:02:44.46,Sample KM [Up],,0,0,0,karaoke,{\k45}Eck{\k47}stein, {\k46}Eck{\k22}stein, {\k45}al{\k23}les {\k26}muss {\k25}ver{\k46}steckt {\k44}sein
+Comment: 0,0:02:45.34,0:02:47.91,Sample KM [Up],,0,0,0,karaoke,{\k27}Au{\k11}gen {\k34}auf, {\k23}ich{\k46} {\k26}kom{\k90}me
+Comment: 0,0:02:49.52,0:02:51.76,Sample KM [Up],,0,0,0,karaoke,{\k24}Au{\k10}gen {\k33}auf, {\k26}ich {\k25}kom{\k106}me
+Comment: 0,0:02:53.22,0:02:55.40,Sample KM [Up],,0,0,0,karaoke,{\k22}Au{\k11}gen {\k35}auf, {\k24}ich {\k26}kom{\k100}me
+Comment: 0,0:02:56.91,0:02:59.24,Sample KM [Up],,0,0,0,karaoke,{\k23}Auf{\k11}ge{\k36}passt, {\k22}ich {\k26}kom{\k115}me
+Comment: 0,0:03:00.60,0:03:02.22,Sample KM [Up],,0,0,0,karaoke,{\k46}Zeig {\k48}dich {\k68}nicht
+Comment: 0,0:03:02.91,0:03:04.56,Sample KM [Choir],,0,0,0,karaoke,{\k26}Ver{\k44}steck {\k95}dich
+Comment: 0,0:03:04.29,0:03:06.21,Sample KM [Up],,0,0,0,karaoke,{\k25}Au{\k10}gen {\k33}auf, {\k24}ich {\k27}kom{\k73}me
+Comment: 0,0:03:06.61,0:03:08.28,Sample KM [Choir],,0,0,0,karaoke,{\k26}Ver{\k44}steck {\k97}dich
+Comment: 0,0:03:07.99,0:03:10.06,Sample KM [Up],,0,0,0,karaoke,{\k23}Au{\k10}gen {\k34}auf, {\k24}ich {\k27}kom{\k89}me
+Comment: 0,0:03:10.30,0:03:11.75,Sample KM [Choir],,0,0,0,karaoke,{\k25}Ver{\k44}steck {\k76}dich
+Comment: 0,0:03:11.68,0:03:13.80,Sample KM [Up],,0,0,0,karaoke,{\k23}Auf{\k11}ge{\k36}passt, {\k21}ich {\k26}kom{\k95}me
+Comment: 0,0:03:14.00,0:03:15.38,Sample KM [Choir],,0,0,0,karaoke,{\k138}Ja
+Comment: 0,0:03:15.38,0:03:17.01,Sample KM [Up],,0,0,0,karaoke,{\k46}Zeig {\k48}dich {\k69}nicht
+Dialogue: 0,0:00:15.86,0:00:20.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Eck{\k47}stein, {\k45}Eck{\k23}stein, {\k47}al{\k23}les {\k22}muss {\k25}ver{\k48}steckt {\k43}sein
+Dialogue: 0,0:00:19.55,0:00:24.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Eck{\k46}stein, {\k48}Eck{\k22}stein, {\k46}al{\k23}les {\k22}muss {\k25}ver{\k45}steckt {\k47}sein
+Dialogue: 0,0:00:23.70,0:00:27.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Wie{\k25}der {\k21}lieg' {\k26}ich {\k22}auf {\k23}der {\k25}Lau{\k68}er
+Dialogue: 0,0:00:27.39,0:00:31.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Denn {\k23}wir {\k24}spie{\k21}len {\k25}un{\k66}ser {\k94}Spiel
+Dialogue: 0,0:00:31.09,0:00:34.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wie{\k25}der {\k25}wart {\k22}ich {\k22}an {\k24}der {\k24}Mau{\k92}er
+Dialogue: 0,0:00:34.79,0:00:38.88,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Wie{\k25}der {\k23}steh' {\k23}ich {\k31}kurz {\k60}vorm {\k116}Ziel
+Dialogue: 0,0:00:38.48,0:00:42.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Und {\k24}ich {\k22}hö{\k23}re {\k26}dei{\k20}nen {\k28}A{\k89}tem
+Dialogue: 0,0:00:42.17,0:00:46.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Und {\k24}ich {\k26}rie{\k21}che {\k30}dei{\k62}ne {\k118}Angst
+Dialogue: 0,0:00:45.86,0:00:49.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Ich {\k23}kann {\k25}nicht {\k21}mehr {\k22}län{\k24}ger {\k31}war{\k87}ten
+Dialogue: 0,0:00:49.55,0:00:53.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Denn {\k24}ich {\k25}weiß, {\k20}was {\k27}du {\k67}ver{\k112}langst
+Dialogue: 0,0:00:52.79,0:00:57.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Eck{\k45}stein, {\k45}Eck{\k24}stein, {\k46}al{\k25}les {\k21}muss {\k25}ver{\k45}steckt {\k25}sein
+Dialogue: 0,0:00:56.47,0:01:01.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Eck{\k46}stein, {\k47}Eck{\k22}stein, {\k48}al{\k21}les {\k25}muss {\k23}ver{\k45}steckt {\k47}sein
+Dialogue: 0,0:01:00.18,0:01:07.53,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k91}Eins,{\k93} {\k69}zwei,{\kf112} {\k74}drei,{\kf112} {\k74}vier
+Dialogue: 0,0:01:07.55,0:01:11.39,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Fünf, {\k45}sechs, {\k28}sie{\k20}ben, {\k48}acht, {\k43}neun, {\k44}zehn
+Dialogue: 0,0:01:10.29,0:01:13.55,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Au{\k11}gen {\k36}auf, {\k21}ich {\k28}kom{\k94}me
+Dialogue: 0,0:01:13.99,0:01:17.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Au{\k13}gen {\k36}auf, {\k22}ich {\k25}kom{\k115}me
+Dialogue: 0,0:01:17.70,0:01:20.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Au{\k12}gen {\k34}auf, {\k24}ich {\k27}kom{\k97}me
+Dialogue: 0,0:01:21.39,0:01:24.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Auf{\k11}ge{\k33}passt, {\k24}ich {\k25}kom{\k96}me
+Dialogue: 0,0:01:25.09,0:01:27.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Zeig {\k46}dich {\k47}nicht
+Dialogue: 0,0:01:26.48,0:01:29.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Stän{\k22}dig {\k26}ruf' {\k22}ich {\k23}dei{\k23}nen {\k26}Na{\k66}men
+Dialogue: 0,0:01:30.17,0:01:34.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Stän{\k22}dig {\k26}such' {\k21}ich {\k26}dein {\k65}Ge{\k107}sicht
+Dialogue: 0,0:01:33.84,0:01:37.34,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Wenn {\k24}ich {\k23}dich {\k23}dann {\k25}end{\k21}lich {\k25}ha{\k75}be
+Dialogue: 0,0:01:37.55,0:01:41.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Spiel'n {\k20}wir {\k28}Wahr{\k21}heit {\k26}o{\k59}der {\k110}Pflicht
+Dialogue: 0,0:01:40.79,0:01:45.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Eck{\k47}stein, {\k45}Eck{\k24}stein, {\k47}al{\k23}les {\k21}muss {\k25}ver{\k46}steckt {\k24}sein
+Dialogue: 0,0:01:44.48,0:01:49.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Eck{\k46}stein, {\k46}Eck{\k22}stein, {\k47}al{\k24}les {\k21}muss {\k24}ver{\k46}steckt {\k47}sein
+Dialogue: 0,0:01:48.17,0:01:55.72,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k91}Eins,{\k93} {\k69}zwei,{\k112} {\k74}drei,{\k112} {\k94}vier
+Dialogue: 0,0:01:55.55,0:01:59.40,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Fünf, {\k45}sechs, {\k28}sie{\k20}ben, {\k45}acht, {\k45}neun, {\k46}zehn
+Dialogue: 0,0:01:58.30,0:02:01.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Au{\k13}gen {\k36}auf, {\k23}ich {\k27}kom{\k96}me
+Dialogue: 0,0:02:02.01,0:02:05.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Au{\k13}gen {\k34}auf, {\k24}ich {\k23}kom{\k115}me
+Dialogue: 0,0:02:05.68,0:02:08.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Au{\k14}gen {\k35}auf, {\k23}ich {\k26}kom{\k101}me
+Dialogue: 0,0:02:09.39,0:02:12.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Auf{\k14}ge{\k33}passt, {\k23}ich {\k26}kom{\k96}me
+Dialogue: 0,0:02:13.08,0:02:15.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Zeig {\k47}dich {\k66}nicht
+Dialogue: 0,0:02:15.39,0:02:17.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ver{\k45}steck {\k76}dich
+Dialogue: 0,0:02:16.78,0:02:19.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Au{\k13}gen {\k35}auf, {\k24}ich {\k26}kom{\k90}me
+Dialogue: 0,0:02:19.10,0:02:21.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ver{\k42}steck {\k91}dich
+Dialogue: 0,0:02:20.47,0:02:23.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Au{\k14}gen {\k36}auf, {\k22}ich {\k26}kom{\k86}me
+Dialogue: 0,0:02:22.79,0:02:25.52,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ver{\k43}steck {\k94}dich
+Dialogue: 0,0:02:24.17,0:02:27.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Auf{\k13}ge{\k33}passt, {\k22}ich {\k26}kom{\k93}me
+Dialogue: 0,0:02:26.47,0:02:28.95,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k138}Ja
+Dialogue: 0,0:02:27.85,0:02:30.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Zeig {\k51}dich {\k67}nicht
+Dialogue: 0,0:02:29.80,0:02:33.13,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k60}Nicht,{\k23} {\k59}nicht,{\k33} {\k48}nicht
+Dialogue: 0,0:02:32.47,0:02:35.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Eins, {\k23}zwei, {\k25}drei, {\k22}vier, {\k46}Eck{\k26}stein
+Dialogue: 0,0:02:34.32,0:02:37.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Al{\k14}les {\k22}muss {\k22}ver{\k47}steckt {\k46}sein
+Dialogue: 0,0:02:36.17,0:02:40.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Eck{\k47}stein, {\k46}Eck{\k22}stein, {\k45}al{\k25}les {\k23}muss {\k23}ver{\k46}steckt {\k24}sein
+Dialogue: 0,0:02:39.87,0:02:44.66,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Eck{\k47}stein, {\k46}Eck{\k22}stein, {\k45}al{\k23}les {\k26}muss {\k25}ver{\k46}steckt {\k44}sein
+Dialogue: 0,0:02:44.44,0:02:48.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Au{\k11}gen {\k34}auf, {\k23}ich{\k46} {\k26}kom{\k90}me
+Dialogue: 0,0:02:48.62,0:02:51.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Au{\k10}gen {\k33}auf, {\k26}ich {\k25}kom{\k106}me
+Dialogue: 0,0:02:52.32,0:02:55.60,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Au{\k11}gen {\k35}auf, {\k24}ich {\k26}kom{\k100}me
+Dialogue: 0,0:02:56.01,0:02:59.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Auf{\k11}ge{\k36}passt, {\k22}ich {\k26}kom{\k115}me
+Dialogue: 0,0:02:59.70,0:03:02.42,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Zeig {\k48}dich {\k68}nicht
+Dialogue: 0,0:03:02.01,0:03:04.76,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ver{\k44}steck {\k95}dich
+Dialogue: 0,0:03:03.39,0:03:06.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Au{\k10}gen {\k33}auf, {\k24}ich {\k27}kom{\k73}me
+Dialogue: 0,0:03:05.71,0:03:08.48,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Ver{\k44}steck {\k97}dich
+Dialogue: 0,0:03:07.09,0:03:10.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Au{\k10}gen {\k34}auf, {\k24}ich {\k27}kom{\k89}me
+Dialogue: 0,0:03:09.40,0:03:11.95,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Ver{\k44}steck {\k76}dich
+Dialogue: 0,0:03:10.78,0:03:14.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Auf{\k11}ge{\k36}passt, {\k21}ich {\k26}kom{\k95}me
+Dialogue: 0,0:03:13.10,0:03:15.58,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k138}Ja
+Dialogue: 0,0:03:14.48,0:03:17.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Zeig {\k48}dich {\k69}nicht
