@@ -1,0 +1,79 @@
+﻿[Script Info]
+Title: GO GHOST
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005050E2,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Satoru,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Daiki,Arial,24,&H00FFFFFF,&H00FF843C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: King gnu,Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:03.52,0:00:04.19,Sample KM [Choir],,0,0,0,karaoke,{\k26}Just {\k41}you
+Comment: 0,0:00:10.70,0:00:13.70,Satoru,,0,0,0,karaoke,{\k24}do{\k20}no {\k20}wa{\k19}ta{\k20}shi {\k60}mo {\k20}wa{\k50}ta{\k28}shi {\k60}yo
+Comment: 0,0:00:14.08,0:00:17.29,Satoru,,0,0,0,karaoke,{\k39}kek{\k43}kan {\k25}da{\k17}ra{\k20}ke {\k20}no {\k58}A{\k20}C{\k20}T {\k21}de{\k38}mo
+Comment: 0,0:00:17.29,0:00:20.17,Satoru,,0,0,0,karaoke,{\k20}ka{\k21}ke{\k17}ga{\k23}e{\k58}nai {\k25}ki{\k55}o{\k23}ku {\k46}no
+Comment: 0,0:00:20.25,0:00:22.08,Satoru,,0,0,0,karaoke,{\k24}su{\k19}be{\k20}te {\k20}yo {\k18}wa{\k27}ta{\k16}shi {\k39}wo
+Comment: 0,0:00:22.29,0:00:26.71,Satoru,,0,0,0,karaoke,{\k20}wa{\k39}tash' {\k41}ta{\k26}ra{\k14}shi{\k40}me{\k36}te {\kf226}yo
+Comment: 0,0:00:37.02,0:00:39.35,Satoru,,0,0,0,karaoke,{\k11}me{\k50}za{\k26}me{\k34}ta {\k26}to{\k57}ki {\k29}no
+Comment: 0,0:00:39.35,0:00:40.39,Satoru,,0,0,0,karaoke,{\k27}so{\k17}no {\k18}ke{\k23}shi{\k19}ki
+Comment: 0,0:00:40.60,0:00:41.85,Satoru,,0,0,0,karaoke,{\k20}a{\k20}na{\k20}ta {\k21}no {\k20}ko{\k24}e
+Comment: 0,0:00:42.10,0:00:43.94,Satoru,,0,0,0,karaoke,{\k31}so{\k17}no {\k22}te {\k20}no {\k19}nu{\k22}ku{\k19}mo{\k34}ri
+Comment: 0,0:00:44.11,0:00:47.36,Satoru,,0,0,0,karaoke,{\k29}zen{\k25}bu {\k36}zen{\k58}bu {\k22}o{\k38}boe{\k39}te{\k41}ru {\k37}wa
+Comment: 0,0:00:47.40,0:00:49.95,Satoru,,0,0,0,karaoke,{\k19}to{\k23}ki {\k33}ni {\k19}un{\k25}za{\k22}ri {\k19}su{\k19}ru {\k18}ho{\k19}do {\k39}ni
+Comment: 0,0:00:50.11,0:00:52.91,Daiki,,0,0,0,karaoke,{\k16}don{\k30}na {\k20}un{\k29}mei {\k26}dat{\kf159}te
+Comment: 0,0:00:51.74,0:00:53.32,Satoru,,0,0,0,karaoke,{\k23}don{\k26}na {\k16}un{\k28}mei {\k29}dat{\k36}te
+Comment: 0,0:00:53.41,0:00:57.70,Daiki,,0,0,0,karaoke,{\k35}su{\k19}be{\k32}te {\k28}ko{\k18}no {\k22}chi{\k19}ni{\k21}ku {\k20}to {\k21}na{\k20}ri {\k19}o{\k19}do{\kf136}re
+Comment: 0,0:00:56.70,0:00:58.00,Satoru,,0,0,0,karaoke,{\k43}LET'S {\k32}ton{\k30}de{\k25}ta
+Comment: 0,0:00:58.08,0:01:01.71,King gnu,,0,0,0,karaoke,{\k27}son{\k19}na {\k19}mi{\k22}rai {\k11}wo {\k27}se{\k18}ni {\k22}go{\k20}ka{\k21}n {\k19}to{\k14}gi{\k26}su{\k12}ma{\k25}shi{\k61}te
+Comment: 0,0:01:01.71,0:01:04.84,Satoru,,0,0,0,karaoke,{\k24}do{\k19}no {\k17}wa{\k23}ta{\k18}shi {\k59}mo {\k21}wa{\k54}ta{\k26}shi {\k52}yo
+Comment: 0,0:01:04.92,0:01:07.96,Satoru,,0,0,0,karaoke,{\k18}a{\k20}shi{\k21}ta {\k20}ni {\k22}na{\k18}re{\k20}ba {\k19}a{\k20}ya{\k67}ma{\k14}chi {\k45}mo
+Comment: 0,0:01:08.26,0:01:11.18,Satoru,,0,0,0,karaoke,{\k24}da{\k20}ki{\k21}shi{\k18}me{\k58}tai {\k14}ki{\k59}se{\k29}ki {\k49}no
+Comment: 0,0:01:11.26,0:01:13.18,Satoru,,0,0,0,karaoke,{\k24}su{\k16}be{\k20}te {\k23}yo {\k18}wa{\k20}ta{\k21}shi {\k50}wo
+Comment: 0,0:01:13.26,0:01:18.06,Satoru,,0,0,0,karaoke,{\k20}wa{\k39}tash' {\k41}ta{\k26}ra{\k14}shi{\k40}me{\k36}te {\kf264}yo
+Comment: 0,0:01:15.60,0:01:18.10,Daiki,,0,0,0,karaoke,{\k22}jin{\k25}sei {\k20}wa {\k26}dou{\k34}sen {\kf123}da
+Comment: 0,0:01:18.10,0:01:18.81,King gnu,,0,0,0,karaoke,{\k17}Oh {\k19}my {\k35}way...
+Comment: 0,0:01:18.81,0:01:21.73,Daiki,,0,0,0,karaoke,{\k28}itsu {\k16}dat{\k20}te {\k30}shuu{\k38}sen {\kf160}da
+Comment: 0,0:01:19.60,0:01:24.94,Satoru,,0,0,0,karaoke,{\k22}wa{\k41}tash' {\k42}ta{\k32}ra{\k9}shi{\k34}me{\k23}te {\kf331}yo
+Comment: 0,0:01:21.77,0:01:24.94,Daiki,,0,0,0,karaoke,{\k28}zen {\k17}mo {\k27}kyou {\k15}mo {\k32}dou{\k28}kei {\kf170}da
+Comment: 0,0:01:25.23,0:01:27.73,King gnu,,0,0,0,karaoke,{\k21}itsu {\k19}dat{\k10}te {\k11}o{\k23}mae {\k8}shi{\k28}dai {\kf130}sa
+Comment: 0,0:01:27.78,0:01:29.28,King gnu,,0,0,0,karaoke,{\k44}Just {\kf106}you
+Dialogue: 0,0:00:02.62,0:00:04.39,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Just {\k41}you
+Dialogue: 0,0:00:09.80,0:00:13.90,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k24}do{\k20}no {\k20}wa{\k19}ta{\k20}shi {\k60}mo {\k20}wa{\k50}ta{\k28}shi {\k60}yo
+Dialogue: 0,0:00:13.18,0:00:17.49,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k39}kek{\k43}kan {\k25}da{\k17}ra{\k20}ke {\k20}no {\k58}A{\k20}C{\k20}T {\k21}de{\k38}mo
+Dialogue: 0,0:00:16.39,0:00:20.37,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ka{\k21}ke{\k17}ga{\k23}e{\k58}nai {\k25}ki{\k55}o{\k23}ku {\k46}no
+Dialogue: 0,0:00:19.35,0:00:22.28,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k24}su{\k19}be{\k20}te {\k20}yo {\k18}wa{\k27}ta{\k16}shi {\k39}wo
+Dialogue: 0,0:00:21.39,0:00:26.91,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k20}wa{\k39}tash' {\k41}ta{\k26}ra{\k14}shi{\k40}me{\k36}te {\kf226}yo
+Dialogue: 0,0:00:36.12,0:00:39.55,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k11}me{\k50}za{\k26}me{\k34}ta {\k26}to{\k57}ki {\k29}no
+Dialogue: 0,0:00:38.45,0:00:40.59,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k27}so{\k17}no {\k18}ke{\k23}shi{\k19}ki
+Dialogue: 0,0:00:39.70,0:00:42.05,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k20}a{\k20}na{\k20}ta {\k21}no {\k20}ko{\k24}e
+Dialogue: 0,0:00:41.20,0:00:44.14,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k31}so{\k17}no {\k22}te {\k20}no {\k19}nu{\k22}ku{\k19}mo{\k34}ri
+Dialogue: 0,0:00:43.21,0:00:47.56,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k29}zen{\k25}bu {\k36}zen{\k58}bu {\k22}o{\k38}boe{\k39}te{\k41}ru {\k37}wa
+Dialogue: 0,0:00:46.50,0:00:50.15,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k19}to{\k23}ki {\k33}ni {\k19}un{\k25}za{\k22}ri {\k19}su{\k19}ru {\k18}ho{\k19}do {\k39}ni
+Dialogue: 0,0:00:49.21,0:00:53.11,Daiki,,0,0,0,fx,{\k90\fad(300,200)}{\k16}don{\k30}na {\k20}un{\k29}mei {\k26}dat{\kf159}te
+Dialogue: 0,0:00:50.84,0:00:53.52,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k23}don{\k26}na {\k16}un{\k28}mei {\k29}dat{\k36}te
+Dialogue: 0,0:00:52.51,0:00:57.90,Daiki,,0,0,0,fx,{\k90\fad(300,200)}{\k35}su{\k19}be{\k32}te {\k28}ko{\k18}no {\k22}chi{\k19}ni{\k21}ku {\k20}to {\k21}na{\k20}ri {\k19}o{\k19}do{\kf136}re
+Dialogue: 0,0:00:55.80,0:00:58.20,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k43}LET'S {\k32}ton{\k30}de{\k25}ta
+Dialogue: 0,0:00:57.18,0:01:01.91,King gnu,,0,0,0,fx,{\k90\fad(300,200)}{\k27}son{\k19}na {\k19}mi{\k22}rai {\k11}wo {\k27}se{\k18}ni {\k22}go{\k20}ka{\k21}n {\k19}to{\k14}gi{\k26}su{\k12}ma{\k25}shi{\k61}te
+Dialogue: 0,0:01:00.81,0:01:05.04,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k24}do{\k19}no {\k17}wa{\k23}ta{\k18}shi {\k59}mo {\k21}wa{\k54}ta{\k26}shi {\k52}yo
+Dialogue: 0,0:01:04.02,0:01:08.16,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k18}a{\k20}shi{\k21}ta {\k20}ni {\k22}na{\k18}re{\k20}ba {\k19}a{\k20}ya{\k67}ma{\k14}chi {\k45}mo
+Dialogue: 0,0:01:07.36,0:01:11.38,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k24}da{\k20}ki{\k21}shi{\k18}me{\k58}tai {\k14}ki{\k59}se{\k29}ki {\k49}no
+Dialogue: 0,0:01:10.36,0:01:13.38,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k24}su{\k16}be{\k20}te {\k23}yo {\k18}wa{\k20}ta{\k21}shi {\k50}wo
+Dialogue: 0,0:01:12.36,0:01:18.26,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k20}wa{\k39}tash' {\k41}ta{\k26}ra{\k14}shi{\k40}me{\k36}te {\kf264}yo
+Dialogue: 0,0:01:14.70,0:01:18.30,Daiki,,0,0,0,fx,{\k90\fad(300,200)}{\k22}jin{\k25}sei {\k20}wa {\k26}dou{\k34}sen {\kf123}da
+Dialogue: 0,0:01:17.20,0:01:19.01,King gnu,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Oh {\k19}my {\k35}way...
+Dialogue: 0,0:01:17.91,0:01:21.93,Daiki,,0,0,0,fx,{\k90\fad(300,200)}{\k28}itsu {\k16}dat{\k20}te {\k30}shuu{\k38}sen {\kf160}da
+Dialogue: 0,0:01:18.70,0:01:25.14,Satoru,,0,0,0,fx,{\k90\fad(300,200)}{\k22}wa{\k41}tash' {\k42}ta{\k32}ra{\k9}shi{\k34}me{\k23}te {\kf331}yo
+Dialogue: 0,0:01:20.87,0:01:25.14,Daiki,,0,0,0,fx,{\k90\fad(300,200)}{\k28}zen {\k17}mo {\k27}kyou {\k15}mo {\k32}dou{\k28}kei {\kf170}da
+Dialogue: 0,0:01:24.33,0:01:27.93,King gnu,,0,0,0,fx,{\k90\fad(300,200)}{\k21}itsu {\k19}dat{\k10}te {\k11}o{\k23}mae {\k8}shi{\k28}dai {\kf130}sa
+Dialogue: 0,0:01:26.88,0:01:29.48,King gnu,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Just {\kf106}you
