@@ -1,0 +1,113 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Title: Monster
+Original Timing: mattm997, Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,24,&H000088EF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rDefault}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:33.14,0:00:35.55,Default,,0,0,0,karaoke,{\k16}E{\k16}ver {\k20}since {\k30}I {\k38}could {\k16}re{\k32}mem{\k73}ber
+Comment: 1,0:00:35.80,0:00:38.46,Default,,0,0,0,karaoke,{\k21}Eve{\k32}ry{\k32}thing {\k33}in{\k36}side {\k32}of {\k80}me
+Comment: 1,0:00:38.76,0:00:41.13,Default,,0,0,0,karaoke,{\k37}Just {\k21}want{\k30}ed {\k28}to {\k42}fit {\k79}in
+Comment: 1,0:00:41.48,0:00:43.09,Sample KM [Choir],,0,0,0,karaoke,{\k20}Oh, {\k46}oh, {\k17}oh, {\k51}oh, {\k27}oh
+Comment: 1,0:00:43.78,0:00:46.32,Default,,0,0,0,karaoke,{\k18}I {\k18}was {\k16}ne{\k16}ver {\k32}one {\k16}for {\k20}pre{\k33}ten{\k85}ders
+Comment: 1,0:00:46.46,0:00:49.12,Default,,0,0,0,karaoke,{\k23}Eve{\k28}ry{\k32}thing {\k37}I {\k32}tried {\k33}to {\k81}be
+Comment: 1,0:00:49.44,0:00:51.37,Default,,0,0,0,karaoke,{\k36}Just {\k21}woul{\k31}dn’t {\k16}set{\k33}tle {\k56}in
+Comment: 1,0:00:52.14,0:00:53.71,Sample KM [Choir],,0,0,0,karaoke,{\k20}Oh, {\k46}oh, {\k17}oh, {\k51}oh, {\k23}oh
+Comment: 1,0:00:54.13,0:00:56.50,Default,,0,0,0,karaoke,{\k16}If {\k16}I {\k35}told {\k32}you {\k38}what {\k33}I {\k67}was
+Comment: 1,0:00:56.80,0:00:59.14,Default,,0,0,0,karaoke,{\k15}Would {\k16}you {\k35}turn {\k34}your {\k32}back {\k37}on {\k65}me?
+Comment: 1,0:00:59.47,0:01:01.82,Default,,0,0,0,karaoke,{\k16}And {\k16}if {\k35}I {\k34}seem {\k35}dan{\k32}ge{\k67}rous
+Comment: 1,0:01:02.14,0:01:03.78,Default,,0,0,0,karaoke,{\k20}Would {\k32}you {\k32}be {\k80}scared?
+Comment: 1,0:01:04.62,0:01:06.95,Default,,0,0,0,karaoke,{\k17}I {\k17}get {\k15}the {\k38}fee{\k31}ling {\k35}just {\k32}be{\k48}cause
+Comment: 1,0:01:07.15,0:01:10.01,Default,,0,0,0,karaoke,{\k17}Eve{\k15}ry{\k16}thing {\k18}I {\k33}touch {\k16}i{\k19}sn’t {\k32}dark {\k33}e{\k87}nough
+Comment: 1,0:01:10.46,0:01:14.62,Default,,0,0,0,karaoke,{\k24}That {\k30}this {\k39}prob{\k28}lem {\k36}lies {\k29}in {\kf230}me
+Comment: 1,0:01:14.79,0:01:19.80,Default,,0,0,0,karaoke,{\k35}I’m {\k36}on{\k30}ly {\k32}a {\k66}man {\k36}with {\k32}a {\k67}can{\k35}dle {\k33}to {\k68}guide {\k31}me
+Comment: 1,0:01:20.14,0:01:25.15,Default,,0,0,0,karaoke,{\k32}I’m {\k36}ta{\k33}king {\k34}a {\k64}stand {\k33}to {\k35}es{\k68}cape {\k33}what’s {\k32}in{\k60}side {\k41}me
+Comment: 1,0:01:25.47,0:01:28.11,Default,,0,0,0,karaoke,{\k35}A {\k65}mon{\k34}ster, {\k32}a {\k69}mon{\k29}ster
+Comment: 1,0:01:28.15,0:01:30.82,Default,,0,0,0,karaoke,{\k30}I’ve {\k37}turned {\k32}in{\k32}to {\k35}a {\k66}mon{\k35}ster
+Comment: 1,0:01:30.82,0:01:33.34,Default,,0,0,0,karaoke,{\k34}A {\k64}mon{\k34}ster, {\k34}a {\k64}mon{\k22}ster
+Comment: 1,0:01:33.50,0:01:36.47,Default,,0,0,0,karaoke,{\k34}And {\k28}it {\k36}keeps {\k37}get{\k29}ting {\k70}stron{\k63}ger
+Comment: 1,0:01:37.44,0:01:39.69,Default,,0,0,0,karaoke,{\k20}Can {\k17}I {\k32}clear {\k32}my {\k43}con{\k81}science
+Comment: 1,0:01:40.11,0:01:42.35,Default,,0,0,0,karaoke,{\k18}If {\k19}I’m {\k23}diffe{\k31}rent {\k27}from {\k21}the {\k85}rest?
+Comment: 1,0:01:42.78,0:01:45.14,Default,,0,0,0,karaoke,{\k20}Do {\k17}I {\k34}have {\k15}to {\k38}run {\k27}and {\k85}hide?
+Comment: 1,0:01:45.48,0:01:47.14,Sample KM [Choir],,0,0,0,karaoke,{\k20}Oh, {\k46}oh, {\k17}oh, {\k50}oh, {\k33}oh
+Comment: 1,0:01:47.97,0:01:50.42,Default,,0,0,0,karaoke,{\k18}I {\k15}ne{\k17}ver {\k32}said {\k16}that {\k20}I {\k39}want {\k88}this
+Comment: 1,0:01:50.78,0:01:53.13,Default,,0,0,0,karaoke,{\k35}This {\k26}bur{\k26}den {\k35}came {\k18}to {\k95}me
+Comment: 1,0:01:53.43,0:01:55.89,Default,,0,0,0,karaoke,{\k13}And {\k25}it’s {\k32}made {\k18}its {\k37}home {\k29}in{\k92}side
+Comment: 1,0:01:56.15,0:01:57.78,Sample KM [Choir],,0,0,0,karaoke,{\k20}Oh, {\k46}oh, {\k17}oh, {\k50}oh, {\k30}oh
+Comment: 1,0:01:58.14,0:02:00.50,Default,,0,0,0,karaoke,{\k17}If {\k17}I {\k34}told {\k33}you {\k36}what {\k32}I {\k67}was
+Comment: 1,0:02:00.80,0:02:03.15,Default,,0,0,0,karaoke,{\k17}Would {\k16}you {\k32}turn {\k37}your {\k33}back {\k34}on {\k66}me?
+Comment: 1,0:02:03.46,0:02:05.83,Default,,0,0,0,karaoke,{\k18}And {\k16}if {\k34}I {\k34}seem {\k34}dan{\k35}ge{\k66}rous
+Comment: 1,0:02:06.15,0:02:07.87,Default,,0,0,0,karaoke,{\k19}Would {\k32}you {\k38}be {\k83}scared?
+Comment: 1,0:02:08.62,0:02:10.96,Default,,0,0,0,karaoke,{\k17}I {\k17}get {\k18}the {\k33}fee{\k32}ling {\k35}just {\k33}be{\k49}cause
+Comment: 1,0:02:11.15,0:02:14.00,Default,,0,0,0,karaoke,{\k19}Eve{\k15}ry{\k16}thing {\k16}I {\k33}touch {\k16}i{\k20}sn’t {\k30}dark {\k35}e{\k85}nough
+Comment: 1,0:02:14.47,0:02:18.62,Default,,0,0,0,karaoke,{\k23}That {\k31}this {\k33}prob{\k32}lem {\k37}lies {\k30}in {\kf229}me
+Comment: 1,0:02:18.78,0:02:23.80,Default,,0,0,0,karaoke,{\k35}I’m {\k38}on{\k29}ly {\k33}a {\k70}man {\k31}with {\k32}a {\k67}can{\k36}dle {\k32}to {\k67}guide {\k32}me
+Comment: 1,0:02:24.14,0:02:29.14,Default,,0,0,0,karaoke,{\k34}I’m {\k33}ta{\k33}king {\k33}a {\k69}stand {\k32}to {\k34}es{\k66}cape {\k33}what’s {\k33}in{\k61}side {\k39}me
+Comment: 1,0:02:29.47,0:02:32.11,Default,,0,0,0,karaoke,{\k33}A {\k66}mon{\k34}ster, {\k34}a {\k67}mon{\k30}ster
+Comment: 1,0:02:32.11,0:02:34.67,Default,,0,0,0,karaoke,{\k35}I’ve {\k36}turned {\k33}in{\k36}to {\k32}a {\k64}mon{\k20}ster
+Comment: 1,0:02:34.82,0:02:37.34,Default,,0,0,0,karaoke,{\k33}A {\k65}mon{\k34}ster, {\k33}a {\k65}mon{\k22}ster
+Comment: 1,0:02:37.51,0:02:40.36,Default,,0,0,0,karaoke,{\k31}And {\k30}it {\k35}keeps {\k38}get{\k28}ting {\k71}stron{\k52}ger
+Comment: 1,0:03:22.81,0:03:27.82,Default,,0,0,0,karaoke,{\k32}I’m {\k34}on{\k31}ly {\k35}a {\k70}man {\k30}with {\k29}a {\k72}can{\k34}dle {\k33}to {\k65}guide {\k36}me
+Comment: 1,0:03:28.14,0:03:33.16,Default,,0,0,0,karaoke,{\k32}I’m {\k35}ta{\k32}king {\k35}a {\k68}stand {\k35}to {\k31}es{\k67}cape {\k33}what’s {\k32}in{\k66}side {\k36}me
+Comment: 1,0:03:33.47,0:03:36.10,Default,,0,0,0,karaoke,{\k34}A {\k67}mon{\k34}ster, {\k30}a {\k68}mon{\k30}ster
+Comment: 1,0:03:36.13,0:03:38.67,Default,,0,0,0,karaoke,{\k34}I’ve {\k35}turned {\k28}in{\k39}to {\k32}a {\k66}mon{\k20}ster
+Comment: 1,0:03:38.81,0:03:41.31,Default,,0,0,0,karaoke,{\k29}A {\k70}mon{\k33}ster, {\k35}a {\k64}mon{\k19}ster
+Comment: 1,0:03:41.42,0:03:44.49,Default,,0,0,0,karaoke,{\k42}And {\k28}it {\k36}keeps {\k32}get{\k34}ting {\k69}stron{\k66}ger
+Dialogue: 1,0:00:32.24,0:00:35.75,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}E{\k16}ver {\k20}since {\k30}I {\k38}could {\k16}re{\k32}mem{\k73}ber
+Dialogue: 1,0:00:34.90,0:00:38.66,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Eve{\k32}ry{\k32}thing {\k33}in{\k36}side {\k32}of {\k80}me
+Dialogue: 1,0:00:37.86,0:00:41.33,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k37}Just {\k21}want{\k30}ed {\k28}to {\k42}fit {\k79}in
+Dialogue: 1,0:00:40.58,0:00:43.29,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Oh, {\k46}oh, {\k17}oh, {\k51}oh, {\k27}oh
+Dialogue: 1,0:00:42.88,0:00:46.52,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k18}was {\k16}ne{\k16}ver {\k32}one {\k16}for {\k20}pre{\k33}ten{\k85}ders
+Dialogue: 1,0:00:45.56,0:00:49.32,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Eve{\k28}ry{\k32}thing {\k37}I {\k32}tried {\k33}to {\k81}be
+Dialogue: 1,0:00:48.54,0:00:51.57,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k36}Just {\k21}woul{\k31}dn’t {\k16}set{\k33}tle {\k56}in
+Dialogue: 1,0:00:51.24,0:00:53.91,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Oh, {\k46}oh, {\k17}oh, {\k51}oh, {\k23}oh
+Dialogue: 1,0:00:53.23,0:00:56.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}If {\k16}I {\k35}told {\k32}you {\k38}what {\k33}I {\k67}was
+Dialogue: 1,0:00:55.90,0:00:59.34,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Would {\k16}you {\k35}turn {\k34}your {\k32}back {\k37}on {\k65}me?
+Dialogue: 1,0:00:58.57,0:01:02.02,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k16}And {\k16}if {\k35}I {\k34}seem {\k35}dan{\k32}ge{\k67}rous
+Dialogue: 1,0:01:01.24,0:01:03.98,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Would {\k32}you {\k32}be {\k80}scared?
+Dialogue: 1,0:01:03.72,0:01:07.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k17}get {\k15}the {\k38}fee{\k31}ling {\k35}just {\k32}be{\k48}cause
+Dialogue: 1,0:01:06.25,0:01:10.21,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Eve{\k15}ry{\k16}thing {\k18}I {\k33}touch {\k16}i{\k19}sn’t {\k32}dark {\k33}e{\k87}nough
+Dialogue: 1,0:01:09.56,0:01:14.82,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k24}That {\k30}this {\k39}prob{\k28}lem {\k36}lies {\k29}in {\kf230}me
+Dialogue: 1,0:01:13.89,0:01:20.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I’m {\k36}on{\k30}ly {\k32}a {\k66}man {\k36}with {\k32}a {\k67}can{\k35}dle {\k33}to {\k68}guide {\k31}me
+Dialogue: 1,0:01:19.24,0:01:25.35,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}I’m {\k36}ta{\k33}king {\k34}a {\k64}stand {\k33}to {\k35}es{\k68}cape {\k33}what’s {\k32}in{\k60}side {\k41}me
+Dialogue: 1,0:01:24.57,0:01:28.31,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}A {\k65}mon{\k34}ster, {\k32}a {\k69}mon{\k29}ster
+Dialogue: 1,0:01:27.25,0:01:31.02,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k30}I’ve {\k37}turned {\k32}in{\k32}to {\k35}a {\k66}mon{\k35}ster
+Dialogue: 1,0:01:29.92,0:01:33.54,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}A {\k64}mon{\k34}ster, {\k34}a {\k64}mon{\k22}ster
+Dialogue: 1,0:01:32.60,0:01:36.67,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}And {\k28}it {\k36}keeps {\k37}get{\k29}ting {\k70}stron{\k63}ger
+Dialogue: 1,0:01:36.54,0:01:39.89,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Can {\k17}I {\k32}clear {\k32}my {\k43}con{\k81}science
+Dialogue: 1,0:01:39.21,0:01:42.55,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}If {\k19}I’m {\k23}diffe{\k31}rent {\k27}from {\k21}the {\k85}rest?
+Dialogue: 1,0:01:41.88,0:01:45.34,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Do {\k17}I {\k34}have {\k15}to {\k38}run {\k27}and {\k85}hide?
+Dialogue: 1,0:01:44.58,0:01:47.34,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Oh, {\k46}oh, {\k17}oh, {\k50}oh, {\k33}oh
+Dialogue: 1,0:01:47.07,0:01:50.62,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}I {\k15}ne{\k17}ver {\k32}said {\k16}that {\k20}I {\k39}want {\k88}this
+Dialogue: 1,0:01:49.88,0:01:53.33,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}This {\k26}bur{\k26}den {\k35}came {\k18}to {\k95}me
+Dialogue: 1,0:01:52.53,0:01:56.09,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}And {\k25}it’s {\k32}made {\k18}its {\k37}home {\k29}in{\k92}side
+Dialogue: 1,0:01:55.25,0:01:57.98,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Oh, {\k46}oh, {\k17}oh, {\k50}oh, {\k30}oh
+Dialogue: 1,0:01:57.24,0:02:00.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}If {\k17}I {\k34}told {\k33}you {\k36}what {\k32}I {\k67}was
+Dialogue: 1,0:01:59.90,0:02:03.35,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Would {\k16}you {\k32}turn {\k37}your {\k33}back {\k34}on {\k66}me?
+Dialogue: 1,0:02:02.56,0:02:06.03,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k18}And {\k16}if {\k34}I {\k34}seem {\k34}dan{\k35}ge{\k66}rous
+Dialogue: 1,0:02:05.25,0:02:08.07,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Would {\k32}you {\k38}be {\k83}scared?
+Dialogue: 1,0:02:07.72,0:02:11.16,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}I {\k17}get {\k18}the {\k33}fee{\k32}ling {\k35}just {\k33}be{\k49}cause
+Dialogue: 1,0:02:10.25,0:02:14.20,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k19}Eve{\k15}ry{\k16}thing {\k16}I {\k33}touch {\k16}i{\k20}sn’t {\k30}dark {\k35}e{\k85}nough
+Dialogue: 1,0:02:13.57,0:02:18.82,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k23}That {\k31}this {\k33}prob{\k32}lem {\k37}lies {\k30}in {\kf229}me
+Dialogue: 1,0:02:17.88,0:02:24.00,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I’m {\k38}on{\k29}ly {\k33}a {\k70}man {\k31}with {\k32}a {\k67}can{\k36}dle {\k32}to {\k67}guide {\k32}me
+Dialogue: 1,0:02:23.24,0:02:29.34,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I’m {\k33}ta{\k33}king {\k33}a {\k69}stand {\k32}to {\k34}es{\k66}cape {\k33}what’s {\k33}in{\k61}side {\k39}me
+Dialogue: 1,0:02:28.57,0:02:32.31,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}A {\k66}mon{\k34}ster, {\k34}a {\k67}mon{\k30}ster
+Dialogue: 1,0:02:31.21,0:02:34.87,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k35}I’ve {\k36}turned {\k33}in{\k36}to {\k32}a {\k64}mon{\k20}ster
+Dialogue: 1,0:02:33.92,0:02:37.54,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}A {\k65}mon{\k34}ster, {\k33}a {\k65}mon{\k22}ster
+Dialogue: 1,0:02:36.61,0:02:40.56,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k31}And {\k30}it {\k35}keeps {\k38}get{\k28}ting {\k71}stron{\k52}ger
+Dialogue: 1,0:03:21.91,0:03:28.02,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}I’m {\k34}on{\k31}ly {\k35}a {\k70}man {\k30}with {\k29}a {\k72}can{\k34}dle {\k33}to {\k65}guide {\k36}me
+Dialogue: 1,0:03:27.24,0:03:33.36,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k32}I’m {\k35}ta{\k32}king {\k35}a {\k68}stand {\k35}to {\k31}es{\k67}cape {\k33}what’s {\k32}in{\k66}side {\k36}me
+Dialogue: 1,0:03:32.57,0:03:36.30,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}A {\k67}mon{\k34}ster, {\k30}a {\k68}mon{\k30}ster
+Dialogue: 1,0:03:35.23,0:03:38.87,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I’ve {\k35}turned {\k28}in{\k39}to {\k32}a {\k66}mon{\k20}ster
+Dialogue: 1,0:03:37.91,0:03:41.51,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}A {\k70}mon{\k33}ster, {\k35}a {\k64}mon{\k19}ster
+Dialogue: 1,0:03:40.52,0:03:44.69,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k42}And {\k28}it {\k36}keeps {\k32}get{\k34}ting {\k69}stron{\k66}ger
