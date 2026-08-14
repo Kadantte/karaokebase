@@ -1,0 +1,67 @@
+﻿[Script Info]
+Title: Makuragi no Uta
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: illumination STARS,Arial,24,&H00FFFFFF,&H0065C6CF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mano,Arial,24,&H00FFFFFF,&H00D8B9FC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hiori,Arial,24,&H00FFFFFF,&H00BB672D,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Meguru,Arial,24,&H00FFFFFF,&H0074EDFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: illumination STARS - Choir,Arial,24,&H00FFFFFF,&H008DF6FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Mano Symbol,Arial,24,&H00D8B9FC,&H00D8B9FC,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hiori Symbol,Arial,24,&H00BB672D,&H00BB672D,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Meguru Symbol,Arial,24,&H0074EDFF,&H0074EDFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,illumination STARS,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Mano,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rMano Symbol\\fs30}♣{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Hiori,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rHiori Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Meguru,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rMeguru Symbol\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,illumination STARS - Choir,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H65C6CF&}illumination STARS{\c} | \N{\c&HD8B9FC&}♣ Mano{\c} | {\c&H844317&}♠ Hiori{\c} | {\c&H74EDFF&}♥ Meguru
+Comment: 0,0:00:25.01,0:00:29.29,Mano,,0,0,0,karaoke,{\k25}ma{\k60}ku{\k57}ra{\k29}gi {\k29}no {\k30}u{\k28}ta{\k43}go{\k41}e {\k86}ni
+Comment: 0,0:00:29.61,0:00:33.84,Mano,,0,0,0,karaoke,{\k29}bo{\k58}n{\k59}ya{\k28}ri {\k29}mi {\k29}wo {\k29}yu{\k41}da{\k45}ne{\k76}te
+Comment: 0,0:00:34.19,0:00:38.42,Meguru,,0,0,0,karaoke,{\k32}hi{\k60}ro{\k57}ga{\k28}ru {\k29}chi{\k28}i{\k29}sa{\k44}na {\k40}so{\k76}ra
+Comment: 0,0:00:38.83,0:00:43.25,Meguru,,0,0,0,karaoke,{\k15}ki{\k16}mi {\k85}no {\k14}ko{\k16}to {\k27}wo {\k30}o{\k29}mo{\k29}t{\k86}te {\k30}i{\k65}ta
+Comment: 0,0:00:43.75,0:00:47.65,Hiori,,0,0,0,karaoke,{\k28}yo{\k13}ha{\k31}ku {\k28}no {\k44}nai {\k29}sho{\k29}u{\k29}se{\k85}tsu {\k74}ga
+Comment: 0,0:00:48.08,0:00:52.34,Hiori,,0,0,0,karaoke,{\k27}tsu{\k46}yoi {\k29}ka{\k28}ze {\k42}de {\k28}me{\k29}ku{\k28}re{\k43}ru {\k44}yo{\k28}u {\k54}ni
+Comment: 0,0:00:52.67,0:00:54.80,Meguru,,0,0,0,karaoke,{\k16}ka{\k14}ke{\k30}a{\k28}shi {\k28}de {\k29}to{\k43}ki {\k25}wa
+Comment: 0,0:00:54.99,0:00:57.12,Mano,,0,0,0,karaoke,{\k16}na{\k13}ni{\k28}mo {\k30}ka {\k29}mo {\k28}su{\k44}be{\k25}te
+Comment: 0,0:00:57.28,0:01:02.06,illumination STARS,,0,0,0,karaoke,{\k30}ka{\k46}ko {\k40}ni {\k30}shi{\k44}te {\k43}shi{\k28}ma{\kf217}u
+Comment: 0,0:01:03.08,0:01:04.22,Meguru,,0,0,0,karaoke,{\k26}da{\k59}ke{\k29}do
+Comment: 0,0:01:04.48,0:01:09.69,illumination STARS,,0,0,0,karaoke,{\k31}ha{\k15}na{\k30}re{\k28}te {\k102}mo {\k26}de{\k30}a{\k15}e{\k30}ta {\k26}hi {\k44}ya {\k30}su{\k31}go{\k27}shi{\k56}ta
+Comment: 0,0:01:09.96,0:01:13.16,illumination STARS,,0,0,0,karaoke,{\k17}hi{\k14}bi {\k85}wa {\k15}ki{\k16}e {\k29}ta{\k29}ri {\k30}shi{\k13}na{\k72}i
+Comment: 0,0:01:13.42,0:01:18.88,illumination STARS,,0,0,0,karaoke,{\k15}ki{\k15}o{\k30}ku {\k15}no {\k30}na{\k29}ka {\k100}de {\k14}nu{\k15}ku{\k30}mo{\k17}ri {\k26}ni {\k28}te {\k42}wo {\k29}ka{\k29}za{\k29}su {\k53}yo
+Comment: 0,0:01:19.20,0:01:25.32,illumination STARS,,0,0,0,karaoke,{\k32}ma{\k86}ta {\k26}a{\k61}e{\k56}ru {\k42}to{\k46}ki {\k28}ma{\kf235}de
+Comment: 0,0:01:32.15,0:01:37.31,Hiori,,0,0,0,karaoke,{\k33}ha{\k16}na{\k29}re{\k26}te {\k102}mo {\k29}de{\k23}a{\k19}e{\k36}ta {\k23}hi {\k45}ya {\k28}su{\k29}go{\k27}shi{\k51}ta
+Comment: 0,0:01:37.66,0:01:40.85,Hiori,,0,0,0,karaoke,{\k17}hi{\k14}bi {\k85}wa {\k15}ki{\k16}e {\k29}ta{\k29}ri {\k28}shi{\k15}na{\k71}i
+Comment: 0,0:01:41.13,0:01:46.58,illumination STARS,,0,0,0,karaoke,{\k15}ki{\k15}o{\k30}ku {\k15}no {\k27}na{\k32}ka {\k99}de {\k14}nu{\k14}ku{\k30}mo{\k16}ri {\k27}ni {\k28}te {\k44}wo {\k28}ka{\k30}za{\k29}su {\k52}yo
+Comment: 0,0:01:46.91,0:01:52.38,illumination STARS,,0,0,0,karaoke,{\k29}ma{\k85}ta {\k31}a{\k57}e{\k58}ru {\k44}to{\k43}ki {\k29}ma{\kf171}de
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H65C6CF&}illumination STARS{\c} | \N{\c&HD8B9FC&}♣ Mano{\c} | {\c&H844317&}♠ Hiori{\c} | {\c&H74EDFF&}♥ Meguru
+Dialogue: 0,0:00:24.11,0:00:29.49,Mano,,0,0,0,fx,{\k90\fad(300,200)}{\rMano Symbol\fs30}♣{\r\fs\4a&HFF&} {\k25}ma{\k60}ku{\k57}ra{\k29}gi {\k29}no {\k30}u{\k28}ta{\k43}go{\k41}e {\k86}ni
+Dialogue: 0,0:00:28.71,0:00:34.04,Mano,,0,0,0,fx,{\k90\fad(300,200)}{\rMano Symbol\fs30}♣{\r\fs\4a&HFF&} {\k29}bo{\k58}n{\k59}ya{\k28}ri {\k29}mi {\k29}wo {\k29}yu{\k41}da{\k45}ne{\k76}te
+Dialogue: 0,0:00:33.29,0:00:38.62,Meguru,,0,0,0,fx,{\k90\fad(300,200)}{\rMeguru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k32}hi{\k60}ro{\k57}ga{\k28}ru {\k29}chi{\k28}i{\k29}sa{\k44}na {\k40}so{\k76}ra
+Dialogue: 0,0:00:37.93,0:00:43.45,Meguru,,0,0,0,fx,{\k90\fad(300,200)}{\rMeguru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k15}ki{\k16}mi {\k85}no {\k14}ko{\k16}to {\k27}wo {\k30}o{\k29}mo{\k29}t{\k86}te {\k30}i{\k65}ta
+Dialogue: 0,0:00:42.85,0:00:47.85,Hiori,,0,0,0,fx,{\k90\fad(300,200)}{\rHiori Symbol\fs30}♠{\r\fs\4a&HFF&} {\k28}yo{\k13}ha{\k31}ku {\k28}no {\k44}nai {\k29}sho{\k29}u{\k29}se{\k85}tsu {\k74}ga
+Dialogue: 0,0:00:47.18,0:00:52.54,Hiori,,0,0,0,fx,{\k90\fad(300,200)}{\rHiori Symbol\fs30}♠{\r\fs\4a&HFF&} {\k27}tsu{\k46}yoi {\k29}ka{\k28}ze {\k42}de {\k28}me{\k29}ku{\k28}re{\k43}ru {\k44}yo{\k28}u {\k54}ni
+Dialogue: 0,0:00:51.77,0:00:55.00,Meguru,,0,0,0,fx,{\k90\fad(300,200)}{\rMeguru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k16}ka{\k14}ke{\k30}a{\k28}shi {\k28}de {\k29}to{\k43}ki {\k25}wa
+Dialogue: 0,0:00:54.09,0:00:57.32,Mano,,0,0,0,fx,{\k90\fad(300,200)}{\rMano Symbol\fs30}♣{\r\fs\4a&HFF&} {\k16}na{\k13}ni{\k28}mo {\k30}ka {\k29}mo {\k28}su{\k44}be{\k25}te
+Dialogue: 0,0:00:56.38,0:01:02.26,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ka{\k46}ko {\k40}ni {\k30}shi{\k44}te {\k43}shi{\k28}ma{\kf217}u
+Dialogue: 0,0:01:02.18,0:01:04.42,Meguru,,0,0,0,fx,{\k90\fad(300,200)}{\rMeguru Symbol\fs30}♥{\r\fs\4a&HFF&} {\k26}da{\k59}ke{\k29}do
+Dialogue: 0,0:01:03.58,0:01:09.89,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k31}ha{\k15}na{\k30}re{\k28}te {\k102}mo {\k26}de{\k30}a{\k15}e{\k30}ta {\k26}hi {\k44}ya {\k30}su{\k31}go{\k27}shi{\k56}ta
+Dialogue: 0,0:01:09.06,0:01:13.36,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k17}hi{\k14}bi {\k85}wa {\k15}ki{\k16}e {\k29}ta{\k29}ri {\k30}shi{\k13}na{\k72}i
+Dialogue: 0,0:01:12.52,0:01:19.08,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ki{\k15}o{\k30}ku {\k15}no {\k30}na{\k29}ka {\k100}de {\k14}nu{\k15}ku{\k30}mo{\k17}ri {\k26}ni {\k28}te {\k42}wo {\k29}ka{\k29}za{\k29}su {\k53}yo
+Dialogue: 0,0:01:18.30,0:01:25.52,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k32}ma{\k86}ta {\k26}a{\k61}e{\k56}ru {\k42}to{\k46}ki {\k28}ma{\kf235}de
+Dialogue: 0,0:01:31.25,0:01:37.51,Hiori,,0,0,0,fx,{\k90\fad(300,200)}{\rHiori Symbol\fs30}♠{\r\fs\4a&HFF&} {\k33}ha{\k16}na{\k29}re{\k26}te {\k102}mo {\k29}de{\k23}a{\k19}e{\k36}ta {\k23}hi {\k45}ya {\k28}su{\k29}go{\k27}shi{\k51}ta
+Dialogue: 0,0:01:36.76,0:01:41.05,Hiori,,0,0,0,fx,{\k90\fad(300,200)}{\rHiori Symbol\fs30}♠{\r\fs\4a&HFF&} {\k17}hi{\k14}bi {\k85}wa {\k15}ki{\k16}e {\k29}ta{\k29}ri {\k28}shi{\k15}na{\k71}i
+Dialogue: 0,0:01:40.23,0:01:46.78,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ki{\k15}o{\k30}ku {\k15}no {\k27}na{\k32}ka {\k99}de {\k14}nu{\k14}ku{\k30}mo{\k16}ri {\k27}ni {\k28}te {\k44}wo {\k28}ka{\k30}za{\k29}su {\k52}yo
+Dialogue: 0,0:01:46.01,0:01:52.58,illumination STARS,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ma{\k85}ta {\k31}a{\k57}e{\k58}ru {\k44}to{\k43}ki {\k29}ma{\kf171}de
