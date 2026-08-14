@@ -1,0 +1,133 @@
+﻿[Script Info]
+Title: Undertale the Musical
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.08,0:00:04.60,Sample KM [Up],,0,0,0,karaoke,{\k23}Who {\k21}oh {\k24}oh {\k26}oh {\k71}oh {\k23}oh {\k31}oh {\k47}oh {\k87}oh {\k33}oh {\k43}oh {\k23}oh
+Comment: 0,0:00:04.78,0:00:07.47,Sample KM [Up],,0,0,0,karaoke,{\k57}Sto{\k22}ry {\k23}of {\k24}Un{\k45}der{\k98}tale
+Comment: 0,0:00:08.69,0:00:10.83,Sample KM [Up],,0,0,0,karaoke,{\k50}I {\k48}fell {\k29}from {\k24}the {\k63}light
+Comment: 0,0:00:10.83,0:00:12.52,Sample KM [Up],,0,0,0,karaoke,{\k47}Talk {\k23}or {\k28}should {\k23}I {\k48}fight?
+Comment: 0,0:00:12.56,0:00:14.49,Sample KM [Up],,0,0,0,karaoke,{\k45}Mons{\k46}ter {\k26}ge{\k24}no{\k52}cide
+Comment: 0,0:00:14.64,0:00:16.41,Sample KM [Up],,0,0,0,karaoke,{\k27}This {\k24}my {\k22}Un{\k48}der{\k56}tale
+Comment: 0,0:00:16.55,0:00:19.95,Sample KM [Up],,0,0,0,karaoke,{\k31}I {\k23}fell {\k27}through {\k19}a {\k49}cave {\k28}on {\k48}Mount {\k22}E{\k93}bott
+Comment: 0,0:00:20.34,0:00:23.56,Sample KM [Up],,0,0,0,karaoke,{\k28}I {\k27}faced {\k31}an {\k21}e{\k24}vil, {\k23}tal{\k26}king’ {\k21}flo{\k11}wer {\k19}in {\k21}a {\k70}pot
+Comment: 0,0:00:23.35,0:00:25.06,Sample KM [Choir],,0,0,0,karaoke,{\k24}Ex{\k27}plains {\k22}the {\k98}plot
+Comment: 0,0:00:26.00,0:00:28.71,Sample KM [Up],,0,0,0,karaoke,{\k46}Wants {\k42}me {\k30}dead, {\k25}wants {\k22}me {\k21}to {\k85}rot
+Comment: 0,0:00:31.94,0:00:35.47,Sample KM [Up],,0,0,0,karaoke,{\k30}To{\k19}ri{\k24}el {\k30}saves {\k40}me, {\k29}takes {\k22}me {\k24}to {\k24}her {\kf111}home
+Comment: 0,0:00:35.69,0:00:37.03,Sample KM [Up],,0,0,0,karaoke,{\k32}And {\k27}hooks {\k29}me {\k21}up {\k25}with
+Comment: 0,0:00:37.03,0:00:38.93,Sample KM [Up],,0,0,0,karaoke,{\k24}A {\k24}brand {\k22}new {\k27}mons{\k23}ter {\k70}phone
+Comment: 0,0:00:38.68,0:00:40.24,Sample KM [Up],,0,0,0,karaoke,{\k27}Leaves {\k26}me {\k23}a{\k80}lone
+Comment: 0,0:00:41.37,0:00:44.26,Sample KM [Up],,0,0,0,karaoke,{\k46}But {\k26}I {\k18}es{\k26}cape {\k26}and {\k23}meet {\k26}some {\k98}bones
+Comment: 0,0:00:47.34,0:00:48.57,Sample KM [Down],,0,0,0,karaoke,Should I be a pacifist?
+Comment: 0,0:00:49.22,0:00:50.58,Sample KM [Down],,0,0,0,karaoke,Or should I use my fists?
+Comment: 0,0:00:51.11,0:00:54.10,Sample KM [Down],,0,0,0,karaoke,I’m feeling evil, think I’ll kill them all
+Comment: 0,0:00:54.95,0:00:57.91,Sample KM [Up],,0,0,0,karaoke,{\k32}I’m {\k27}ho{\k22}mi{\k28}ci{\k44}dal, {\k17}and {\k28}I’ve {\k25}got {\k21}a {\k52}taste
+Comment: 0,0:00:57.91,0:01:01.45,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k24}want {\k43}to {\k27}wipe {\k20}out {\k25}the {\k53}mons{\k22}ter {\kf116}race
+Comment: 0,0:01:01.45,0:01:09.00,Sample KM [Choir],,0,0,0,karaoke,{\k23}Who {\k24}oh {\k24}oh {\k26}oh {\k71}oh {\k23}oh {\k28}oh {\k47}oh {\k89}oh {\k33}oh {\k43}oh {\k54}oh {\k96}oh {\k96}oh {\k78}oh
+Comment: 0,0:01:02.62,0:01:05.59,Sample KM [Up],,0,0,0,karaoke,{\k26}I’ve {\k26}got {\k29}no {\k23}pa{\k44}tience, {\k28}I've {\k28}got {\k24}no {\k17}re{\k52}solve
+Comment: 0,0:01:05.59,0:01:08.99,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k21}will {\k47}slaugh{\k27}ter, {\k25}screw {\k22}the {\k51}di{\k23}a{\kf100}logue
+Comment: 0,0:01:10.17,0:01:12.28,Sample KM [Up],,0,0,0,karaoke,{\k46}I {\k46}fell {\k24}from {\k26}the {\k69}light
+Comment: 0,0:01:12.28,0:01:14.00,Sample KM [Up],,0,0,0,karaoke,{\k49}Talk {\k22}or {\k27}should {\k24}I {\k50}fight?
+Comment: 0,0:01:14.00,0:01:15.93,Sample KM [Up],,0,0,0,karaoke,{\k48}Mons{\k43}ter {\k24}ge{\k26}no{\k52}cide
+Comment: 0,0:01:16.09,0:01:17.88,Sample KM [Up],,0,0,0,karaoke,{\k27}This {\k25}my {\k20}Un{\k48}der{\k59}tale
+Comment: 0,0:01:17.96,0:01:21.53,Sample KM [Up],,0,0,0,karaoke,{\k28}I’ll {\k29}slaugh{\k21}ter {\k26}Un{\k44}dyne, {\k27}I’ll {\k27}waste {\k26}who {\k21}I {\kf108}choose
+Comment: 0,0:01:21.81,0:01:25.01,Sample KM [Up],,0,0,0,karaoke,{\k28}With {\k27}all {\k23}this {\k29}EX{\k23}P {\k24}there’s {\k26}no {\k22}way {\k23}that {\k26}I’ll {\k69}lose
+Comment: 0,0:01:24.76,0:01:26.36,Sample KM [Up],,0,0,0,karaoke,{\k27}Now {\k26}watch {\k24}me {\k83}move
+Comment: 0,0:01:27.36,0:01:30.15,Sample KM [Up],,0,0,0,karaoke,{\k56}I {\k46}won’t {\k24}stop {\k24}I’m {\k23}fee{\k27}lin' {\k79}rude
+Comment: 0,0:01:33.30,0:01:36.97,Sample KM [Up],,0,0,0,karaoke,{\k34}As{\k27}gore {\k25}is {\k25}sha{\k46}king, {\k24}he {\k27}hears {\k22}my {\k24}ap{\kf113}proach
+Comment: 0,0:01:37.16,0:01:38.17,Sample KM [Up],,0,0,0,karaoke,{\k30}I’ll {\k25}slaugh{\k22}ter {\k24}Sans
+Comment: 0,0:01:38.17,0:01:40.53,Sample KM [Up],,0,0,0,karaoke,{\k30}And {\k25}squash {\k25}his {\k25}bro {\k21}like {\k26}a {\k84}roach
+Comment: 0,0:01:40.16,0:01:41.80,Sample KM [Up],,0,0,0,karaoke,{\k24}Cha{\k24}ra’s {\k24}my {\k92}coach
+Comment: 0,0:01:42.80,0:01:45.58,Sample KM [Up],,0,0,0,karaoke,{\k47}All {\k49}these {\k25}mons{\k22}ters {\k23}I {\k24}will {\k88}poach
+Comment: 0,0:01:48.77,0:01:50.01,Sample KM [Down],,0,0,0,karaoke,Screw being pacifist
+Comment: 0,0:01:50.60,0:01:51.98,Sample KM [Down],,0,0,0,karaoke,I think I’ll use my fists
+Comment: 0,0:01:52.51,0:01:55.79,Sample KM [Down],,0,0,0,karaoke,I’m feeling evil, think I’ll kill them all
+Comment: 0,0:01:56.35,0:01:59.36,Sample KM [Up],,0,0,0,karaoke,{\k34}I’m {\k28}ho{\k21}mi{\k30}ci{\k40}dal, {\k21}and {\k28}I’ve {\k28}got {\k20}a {\k51}taste
+Comment: 0,0:01:59.36,0:02:02.69,Sample KM [Up],,0,0,0,karaoke,{\k24}I {\k24}want {\k42}to {\k25}wipe {\k23}out {\k26}the {\k50}mons{\k23}ter {\k96}race
+Comment: 0,0:02:02.96,0:02:10.42,Sample KM [Choir],,0,0,0,karaoke,{\k23}Who {\k24}oh {\k24}oh {\k26}oh {\k71}oh {\k23}oh {\k28}oh {\k47}oh {\k89}oh {\k33}oh {\k43}oh {\k49}oh {\k96}oh {\k96}oh {\k74}oh
+Comment: 0,0:02:10.66,0:02:11.65,Sample KM [Choir],,0,0,0,karaoke,{\k23}Who {\k21}oh {\k24}oh {\k31}oh
+Comment: 0,0:02:04.04,0:02:06.98,Sample KM [Up],,0,0,0,karaoke,{\k28}I’ve {\k28}got {\k26}no {\k25}pa{\k47}tience, {\k24}I've {\k27}got {\k22}no {\k21}re{\k46}solve
+Comment: 0,0:02:06.99,0:02:10.44,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k24}will {\k53}slaugh{\k21}ter, {\k28}screw {\k20}the {\k54}di{\k21}a{\kf103}logue
+Comment: 0,0:02:11.61,0:02:15.26,Sample KM [Up],,0,0,0,karaoke,{\k39}Burnt {\k50}pan, {\k54}toy {\k48}knife, {\k20}use {\k24}a {\k23}stick {\k21}to {\k25}take {\k22}your {\k39}life
+Comment: 0,0:02:15.43,0:02:17.32,Sample KM [Up],,0,0,0,karaoke,{\k40}Tough {\k46}glove, {\k25}bal{\k32}let {\k46}shoes
+Comment: 0,0:02:17.32,0:02:19.56,Sample KM [Up],,0,0,0,karaoke,{\k12}E{\k27}pic {\k28}fight {\k27}like {\k22}front {\k52}page {\k56}news
+Comment: 0,0:02:19.70,0:02:23.54,Sample KM [Up],,0,0,0,karaoke,{\k35}King {\k45}As{\k48}gore {\k69}wants {\k21}to {\k23}col{\k26}lect {\k21}hu{\k26}man {\k70}souls
+Comment: 0,0:02:23.54,0:02:27.34,Sample KM [Up],,0,0,0,karaoke,{\k27}Se{\k48}ven {\k46}of {\k71}them, {\k30}is {\k22}his {\k29}ul{\k19}ti{\k26}mate {\k62}goal
+Comment: 0,0:02:27.34,0:02:31.19,Sample KM [Up],,0,0,0,karaoke,{\k30}O{\k42}pen {\k52}the {\k70}door, {\k26}to {\k27}hu{\k28}ma{\k20}ni{\k24}ty’s {\k66}realm
+Comment: 0,0:02:31.19,0:02:34.61,Sample KM [Up],,0,0,0,karaoke,{\k32}Start {\k46}a {\k47}new {\k45}war, {\k23}hu{\k24}mans {\k26}o{\k50}ver{\k49}whelm
+Comment: 0,0:02:34.75,0:02:37.73,Sample KM [Up],,0,0,0,karaoke,{\k37}I’m {\k28}ho{\k21}mi{\k30}ci{\k37}dal, {\k21}and {\k28}I’ve {\k28}got {\k18}a {\k50}taste
+Comment: 0,0:02:37.73,0:02:41.21,Sample KM [Up],,0,0,0,karaoke,{\k26}I {\k24}want {\k42}to {\k25}wipe {\k23}out {\k26}the {\k50}mons{\k23}ter {\kf109}race
+Comment: 0,0:02:41.36,0:02:49.06,Sample KM [Choir],,0,0,0,karaoke,{\k23}Who {\k24}oh {\k24}oh {\k26}oh {\k71}oh {\k23}oh {\k28}oh {\k47}oh {\k89}oh {\k33}oh {\k43}oh {\k49}oh {\k96}oh {\k96}oh {\k74}oh
+Comment: 0,0:02:42.43,0:02:45.37,Sample KM [Up],,0,0,0,karaoke,{\k28}I’ve {\k28}got {\k26}no {\k25}pa{\k47}tience, {\k24}I've {\k27}got {\k22}no {\k21}re{\k46}solve
+Comment: 0,0:02:45.37,0:02:49.06,Sample KM [Up],,0,0,0,karaoke,{\k21}I {\k24}will {\k53}slaugh{\k23}ter, {\k28}screw {\k20}the {\k54}di{\k21}a{\kf125}logue
+Dialogue: 0,0:00:00.00,0:00:04.80,Sample KM [Up],,0,0,0,fx,{\k8\fad(80,200)}{\k23}Who {\k21}oh {\k24}oh {\k26}oh {\k71}oh {\k23}oh {\k31}oh {\k47}oh {\k87}oh {\k33}oh {\k43}oh {\k23}oh
+Dialogue: 0,0:00:03.88,0:00:07.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k57}Sto{\k22}ry {\k23}of {\k24}Un{\k45}der{\k98}tale
+Dialogue: 0,0:00:07.79,0:00:11.03,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k50}I {\k48}fell {\k29}from {\k24}the {\k63}light
+Dialogue: 0,0:00:09.93,0:00:12.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}Talk {\k23}or {\k28}should {\k23}I {\k48}fight?
+Dialogue: 0,0:00:11.66,0:00:14.69,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Mons{\k46}ter {\k26}ge{\k24}no{\k52}cide
+Dialogue: 0,0:00:13.74,0:00:16.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}This {\k24}my {\k22}Un{\k48}der{\k56}tale
+Dialogue: 0,0:00:15.65,0:00:20.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}I {\k23}fell {\k27}through {\k19}a {\k49}cave {\k28}on {\k48}Mount {\k22}E{\k93}bott
+Dialogue: 0,0:00:19.44,0:00:23.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}I {\k27}faced {\k31}an {\k21}e{\k24}vil, {\k23}tal{\k26}king’ {\k21}flo{\k11}wer {\k19}in {\k21}a {\k70}pot
+Dialogue: 0,0:00:22.45,0:00:25.26,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Ex{\k27}plains {\k22}the {\k98}plot
+Dialogue: 0,0:00:25.10,0:00:28.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Wants {\k42}me {\k30}dead, {\k25}wants {\k22}me {\k21}to {\k85}rot
+Dialogue: 0,0:00:31.04,0:00:35.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}To{\k19}ri{\k24}el {\k30}saves {\k40}me, {\k29}takes {\k22}me {\k24}to {\k24}her {\kf111}home
+Dialogue: 0,0:00:34.79,0:00:37.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}And {\k27}hooks {\k29}me {\k21}up {\k25}with
+Dialogue: 0,0:00:36.13,0:00:39.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}A {\k24}brand {\k22}new {\k27}mons{\k23}ter {\k70}phone
+Dialogue: 0,0:00:37.78,0:00:40.44,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Leaves {\k26}me {\k23}a{\k80}lone
+Dialogue: 0,0:00:40.47,0:00:44.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}But {\k26}I {\k18}es{\k26}cape {\k26}and {\k23}meet {\k26}some {\k98}bones
+Dialogue: 0,0:00:46.44,0:00:48.77,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Should I be a pacifist?
+Dialogue: 0,0:00:48.32,0:00:50.78,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Or should I use my fists?
+Dialogue: 0,0:00:50.21,0:00:54.30,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}I’m feeling evil, think I’ll kill them all
+Dialogue: 0,0:00:54.05,0:00:58.11,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}I’m {\k27}ho{\k22}mi{\k28}ci{\k44}dal, {\k17}and {\k28}I’ve {\k25}got {\k21}a {\k52}taste
+Dialogue: 0,0:00:57.01,0:01:01.65,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k24}want {\k43}to {\k27}wipe {\k20}out {\k25}the {\k53}mons{\k22}ter {\kf116}race
+Dialogue: 0,0:01:00.55,0:01:09.20,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Who {\k24}oh {\k24}oh {\k26}oh {\k71}oh {\k23}oh {\k28}oh {\k47}oh {\k89}oh {\k33}oh {\k43}oh {\k54}oh {\k96}oh {\k96}oh {\k78}oh
+Dialogue: 0,0:01:01.72,0:01:05.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}I’ve {\k26}got {\k29}no {\k23}pa{\k44}tience, {\k28}I've {\k28}got {\k24}no {\k17}re{\k52}solve
+Dialogue: 0,0:01:04.69,0:01:09.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k21}will {\k47}slaugh{\k27}ter, {\k25}screw {\k22}the {\k51}di{\k23}a{\kf100}logue
+Dialogue: 0,0:01:09.27,0:01:12.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}I {\k46}fell {\k24}from {\k26}the {\k69}light
+Dialogue: 0,0:01:11.38,0:01:14.20,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}Talk {\k22}or {\k27}should {\k24}I {\k50}fight?
+Dialogue: 0,0:01:13.10,0:01:16.13,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}Mons{\k43}ter {\k24}ge{\k26}no{\k52}cide
+Dialogue: 0,0:01:15.19,0:01:18.08,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}This {\k25}my {\k20}Un{\k48}der{\k59}tale
+Dialogue: 0,0:01:17.06,0:01:21.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}I’ll {\k29}slaugh{\k21}ter {\k26}Un{\k44}dyne, {\k27}I’ll {\k27}waste {\k26}who {\k21}I {\kf108}choose
+Dialogue: 0,0:01:20.91,0:01:25.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}With {\k27}all {\k23}this {\k29}EX{\k23}P {\k24}there’s {\k26}no {\k22}way {\k23}that {\k26}I’ll {\k69}lose
+Dialogue: 0,0:01:23.86,0:01:26.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Now {\k26}watch {\k24}me {\k83}move
+Dialogue: 0,0:01:26.46,0:01:30.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k56}I {\k46}won’t {\k24}stop {\k24}I’m {\k23}fee{\k27}lin' {\k79}rude
+Dialogue: 0,0:01:32.40,0:01:37.17,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}As{\k27}gore {\k25}is {\k25}sha{\k46}king, {\k24}he {\k27}hears {\k22}my {\k24}ap{\kf113}proach
+Dialogue: 0,0:01:36.26,0:01:38.37,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}I’ll {\k25}slaugh{\k22}ter {\k24}Sans
+Dialogue: 0,0:01:37.27,0:01:40.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}And {\k25}squash {\k25}his {\k25}bro {\k21}like {\k26}a {\k84}roach
+Dialogue: 0,0:01:39.26,0:01:42.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Cha{\k24}ra’s {\k24}my {\k92}coach
+Dialogue: 0,0:01:41.90,0:01:45.78,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k47}All {\k49}these {\k25}mons{\k22}ters {\k23}I {\k24}will {\k88}poach
+Dialogue: 0,0:01:47.87,0:01:50.21,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}Screw being pacifist
+Dialogue: 0,0:01:49.70,0:01:52.18,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}I think I’ll use my fists
+Dialogue: 0,0:01:51.61,0:01:55.99,Sample KM [Down],,0,0,0,fx,{\k90\fad(300,200)}I’m feeling evil, think I’ll kill them all
+Dialogue: 0,0:01:55.45,0:01:59.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}I’m {\k28}ho{\k21}mi{\k30}ci{\k40}dal, {\k21}and {\k28}I’ve {\k28}got {\k20}a {\k51}taste
+Dialogue: 0,0:01:58.46,0:02:02.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}I {\k24}want {\k42}to {\k25}wipe {\k23}out {\k26}the {\k50}mons{\k23}ter {\k96}race
+Dialogue: 0,0:02:02.06,0:02:10.62,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Who {\k24}oh {\k24}oh {\k26}oh {\k71}oh {\k23}oh {\k28}oh {\k47}oh {\k89}oh {\k33}oh {\k43}oh {\k49}oh {\k96}oh {\k96}oh {\k74}oh
+Dialogue: 0,0:02:09.76,0:02:11.85,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Who {\k21}oh {\k24}oh {\k31}oh
+Dialogue: 0,0:02:03.14,0:02:07.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}I’ve {\k28}got {\k26}no {\k25}pa{\k47}tience, {\k24}I've {\k27}got {\k22}no {\k21}re{\k46}solve
+Dialogue: 0,0:02:06.09,0:02:10.64,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k24}will {\k53}slaugh{\k21}ter, {\k28}screw {\k20}the {\k54}di{\k21}a{\kf103}logue
+Dialogue: 0,0:02:10.71,0:02:15.46,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}Burnt {\k50}pan, {\k54}toy {\k48}knife, {\k20}use {\k24}a {\k23}stick {\k21}to {\k25}take {\k22}your {\k39}life
+Dialogue: 0,0:02:14.53,0:02:17.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Tough {\k46}glove, {\k25}bal{\k32}let {\k46}shoes
+Dialogue: 0,0:02:16.42,0:02:19.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}E{\k27}pic {\k28}fight {\k27}like {\k22}front {\k52}page {\k56}news
+Dialogue: 0,0:02:18.80,0:02:23.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}King {\k45}As{\k48}gore {\k69}wants {\k21}to {\k23}col{\k26}lect {\k21}hu{\k26}man {\k70}souls
+Dialogue: 0,0:02:22.64,0:02:27.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}Se{\k48}ven {\k46}of {\k71}them, {\k30}is {\k22}his {\k29}ul{\k19}ti{\k26}mate {\k62}goal
+Dialogue: 0,0:02:26.44,0:02:31.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}O{\k42}pen {\k52}the {\k70}door, {\k26}to {\k27}hu{\k28}ma{\k20}ni{\k24}ty’s {\k66}realm
+Dialogue: 0,0:02:30.29,0:02:34.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Start {\k46}a {\k47}new {\k45}war, {\k23}hu{\k24}mans {\k26}o{\k50}ver{\k49}whelm
+Dialogue: 0,0:02:33.85,0:02:37.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k37}I’m {\k28}ho{\k21}mi{\k30}ci{\k37}dal, {\k21}and {\k28}I’ve {\k28}got {\k18}a {\k50}taste
+Dialogue: 0,0:02:36.83,0:02:41.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}I {\k24}want {\k42}to {\k25}wipe {\k23}out {\k26}the {\k50}mons{\k23}ter {\kf109}race
+Dialogue: 0,0:02:40.46,0:02:49.26,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k23}Who {\k24}oh {\k24}oh {\k26}oh {\k71}oh {\k23}oh {\k28}oh {\k47}oh {\k89}oh {\k33}oh {\k43}oh {\k49}oh {\k96}oh {\k96}oh {\k74}oh
+Dialogue: 0,0:02:41.53,0:02:45.57,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}I’ve {\k28}got {\k26}no {\k25}pa{\k47}tience, {\k24}I've {\k27}got {\k22}no {\k21}re{\k46}solve
+Dialogue: 0,0:02:44.47,0:02:49.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I {\k24}will {\k53}slaugh{\k23}ter, {\k28}screw {\k20}the {\k54}di{\k21}a{\kf125}logue
