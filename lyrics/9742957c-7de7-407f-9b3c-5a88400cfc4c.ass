@@ -1,0 +1,117 @@
+﻿[Script Info]
+Title: QUEEN OF THE PIRATES
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L'Antica,Arial,24,&H00FFFFFF,&H00983985,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mamimi,Arial,24,&H00FFFFFF,&H00FA4AA3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kiriko,Arial,24,&H00FFFFFF,&H00D5CAB0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kogane,Arial,24,&H00FFFFFF,&H00D852F8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Yuika,Arial,24,&H00FFFFFF,&H00C6903B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sakuya,Arial,24,&H00FFFFFF,&H00476200,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: L'Antica Choir,Arial,24,&H00983985,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+Style: Mamimi Symbol,Arial,24,&H00FA4AA3,&H00FA4AA3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kiriko Symbol,Arial,24,&H00D5CAB0,&H00D5CAB0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kogane Symbol,Arial,24,&H00D852F8,&H00D852F8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Yuika Symbol,Arial,24,&H00C6903B,&H00C6903B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sakuya Symbol,Arial,24,&H00476200,&H00476200,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,L'Antica,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Mamimi,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rMamimi Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Kiriko,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rKiriko Symbol\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Kogane,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rKogane Symbol\\fs30}♣{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Yuika,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rYuika Symbol\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Sakuya,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rSakuya Symbol\\fs30}♪{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,L'Antica Choir,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H983985&}L'Antica{\c} | \N{\c&HFA4AA3&}♠ Mamimi{\c} | {\c&HD5CAB0&}♥ Kiriko{\c} | {\c&HD852F8&}♣ Kogane{\c} | {\c&HC6903B&}♦ Yuika{\c} | {\c&H476200&}♪ Sakuya
+Comment: 0,0:00:18.64,0:00:20.35,Sakuya,,0,0,0,karaoke,{\k9}i{\k11}ma {\k22}ho {\k12}wo {\k32}hat{\k20}te {\k22}mu{\k11}ka{\k32}u
+Comment: 0,0:00:20.35,0:00:22.66,Sakuya,,0,0,0,karaoke,{\k21}wa {\k21}ha{\k22}te {\k21}no {\k22}na{\k21}i {\k22}ko{\k22}n{\k21}pe{\k38}ki
+Comment: 0,0:00:22.49,0:00:25.68,L'Antica,,0,0,0,karaoke,{\k22}Yo {\k21}ho {\k21}ho {\k44}Sai{\k20}ling {\k22}to{\k43}day {\k21}wi{\k22}tho{\k43}ut {\k40}fear
+Comment: 0,0:00:25.49,0:00:27.42,Sakuya,,0,0,0,karaoke,{\k9}i{\k12}ka{\k22}ri {\k11}wo {\k32}a{\k21}ge {\k21}mi{\k13}chi{\k31}bi{\k21}ku
+Comment: 0,0:00:27.42,0:00:29.53,Sakuya,,0,0,0,karaoke,{\k22}na{\k21}mi {\k22}no {\k20}sa{\k22}ki {\k21}wo {\k22}me{\k21}za{\k40}se
+Comment: 0,0:00:29.35,0:00:32.11,L'Antica,,0,0,0,karaoke,{\k21}Yo {\k21}ho {\k23}ho {\k42}Sai{\k21}ling {\k21}to{\k43}day {\k22}no {\k22}fe{\k40}ar
+Comment: 0,0:00:32.13,0:00:35.55,Mamimi,,0,0,0,karaoke,{\k21}fu{\k21}ru{\k35}chi{\k31}zu {\k21}ni {\k63}mo {\k11}so{\k12}no {\k21}ba{\k11}sho {\k33}wa {\k21}na{\k41}i
+Comment: 0,0:00:35.75,0:00:39.06,Mamimi,,0,0,0,karaoke,{\k13}da{\k11}re {\k22}mo {\k41}ga {\k11}ko{\k12}ga{\k43}re{\k23}te{\k19}ru {\k23}E{\k11}L {\k30}DO{\k23}RA{\k49}DO
+Comment: 0,0:00:39.19,0:00:42.40,Kogane,,0,0,0,karaoke,{\k13}sa{\k10}ga{\k30}shi{\k35}a{\k21}te{\k63}ru {\k12}so{\k10}no {\k22}yu{\k10}me {\k31}no {\k23}ta{\k41}me
+Comment: 0,0:00:42.63,0:00:45.34,Kogane,,0,0,0,karaoke,{\k22}ta{\k64}bi{\k22}dat{\k42}te {\k21}u{\k21}mi {\k79}he
+Comment: 0,0:00:45.41,0:00:46.24,L'Antica Choir,,0,0,0,karaoke,{\k44}Go {\k39}now
+Comment: 0,0:00:46.24,0:00:50.11,L'Antica,,0,0,0,karaoke,{\k45}YO {\k45}HO {\k21}se{\k21}ka{\k22}i {\k43}ga {\k22}o{\k20}so{\k22}re{\k21}ru {\k21}go {\k22}bo{\k21}u{\k41}sei
+Comment: 0,0:00:50.35,0:00:52.78,L'Antica,,0,0,0,karaoke,{\k10}A{\k11}d{\k43}ven{\k22}tu{\k20}re {\k44}of {\k22}se{\k20}ven {\k51}seas
+Comment: 0,0:00:52.70,0:00:53.11,L'Antica Choir,,0,0,0,karaoke,{\k41}Hey
+Comment: 0,0:00:53.12,0:00:56.92,L'Antica,,0,0,0,karaoke,{\k43}YO {\k43}HO {\k23}ka{\k21}ji {\k22}to{\k42}re {\k22}ne{\k22}mu{\k20}re{\k21}ru {\k23}hi{\k21}ka{\k20}ri {\k37}he
+Comment: 0,0:00:57.20,0:00:59.63,L'Antica,,0,0,0,karaoke,{\k10}A{\k11}d{\k43}ven{\k22}tu{\k20}re {\k44}of {\k22}se{\k20}ven {\k51}seas
+Comment: 0,0:00:59.56,0:00:59.98,L'Antica Choir,,0,0,0,karaoke,{\k42}Hey
+Comment: 0,0:00:59.98,0:01:03.86,L'Antica,,0,0,0,karaoke,{\k66}Oh {\k20}oh {\k43}oh {\k23}oh {\k20}oh {\k65}oh {\k22}Queen {\k43}of {\k20}the {\k23}pi{\k43}rates
+Comment: 0,0:01:04.07,0:01:06.71,L'Antica,,0,0,0,karaoke,{\k20}OH {\k43}OH {\k22}OH {\k21}OH {\k64}OH {\k22}su{\k43}su{\k29}me
+Comment: 0,0:01:06.84,0:01:10.78,L'Antica,,0,0,0,karaoke,{\k66}Oh {\k20}oh {\k43}oh {\k23}oh {\k20}oh {\k65}oh {\k22}Queen {\k43}of {\k20}the {\k23}pi{\k43}rates
+Comment: 0,0:01:10.93,0:01:13.57,Yuika,,0,0,0,karaoke,{\k24}We{\k39}~ {\k23}are {\k21}the {\k20}ru{\k23}lers {\k22}of {\k20}the {\k43}sea {\k29}ya
+Comment: 0,0:01:17.13,0:01:23.70,L'Antica,,0,0,0,karaoke,{\k64}sa{\k108}a {\k62}yu{\k86}ke {\k23}so{\k43}u{\k21}ka{\k44}i {\k43}no {\k20}F{\k63}RON{\k23}TI{\k57}ER
+Comment: 0,0:01:23.98,0:01:30.51,L'Antica,,0,0,0,karaoke,{\k64}sa{\k108}a {\k62}yu{\k86}ke {\k23}so{\k43}u{\k21}ka{\k44}i {\k43}no {\k20}F{\k65}RON{\k21}TI{\k53}ER
+Comment: 0,0:01:30.84,0:01:37.47,L'Antica,,0,0,0,karaoke,{\k64}sa{\k108}a {\k64}yu{\k84}ke {\k23}so{\k43}u{\k21}ka{\k44}i {\k43}no {\k20}F{\k63}RON{\k23}TI{\k63}ER
+Comment: 0,0:01:37.70,0:01:40.70,L'Antica,,0,0,0,karaoke,{\k65}mot{\k107}to {\k64}mot{\k64}to
+Comment: 0,0:01:40.89,0:01:48.12,L'Antica,,0,0,0,karaoke,{\k24}So {\kf108}dive~ {\k40}in {\k23}to {\k65}boun{\k20}d{\k63}le{\k23}ss {\kf357}world
+Comment: 0,0:01:53.13,0:01:55.07,L'Antica Choir,,0,0,0,karaoke,{\k85}Go {\k67}to {\k42}sea
+Comment: 0,0:01:55.09,0:01:59.67,Kogane,,0,0,0,karaoke,{\k43}dou{\k18}se {\k21}i{\k22}chi {\k21}do {\k21}na{\k66}ra {\k21}ji{\k43}bun {\k21}de {\k20}e{\k44}ra{\k23}bi{\k21}ta{\k53}i
+Comment: 0,0:02:00.00,0:02:01.93,L'Antica Choir,,0,0,0,karaoke,{\k85}Go {\k67}to {\k42}sea
+Comment: 0,0:02:01.93,0:02:06.42,Kogane,,0,0,0,karaoke,{\k43}is{\k20}so {\k23}mu{\k20}ne {\k22}ha{\k21}t{\k62}te {\rL'Antica}{\k23}ko{\k43}no {\k22}u{\k21}mi {\k45}wo {\k19}su{\k21}be{\k44}ro
+Comment: 0,0:02:05.97,0:02:06.80,L'Antica Choir,,0,0,0,karaoke,{\k45}Go {\k38}now
+Comment: 0,0:02:06.80,0:02:10.65,L'Antica,,0,0,0,karaoke,{\k45}YO {\k45}HO {\k21}se{\k21}ka{\k22}i {\k43}ga {\k22}o{\k20}so{\k22}re{\k22}ru {\k21}go {\k21}bo{\k22}u{\k38}sei
+Comment: 0,0:02:10.91,0:02:13.38,L'Antica,,0,0,0,karaoke,{\k10}A{\k11}d{\k43}ven{\k22}tu{\k20}re {\k44}of {\k22}se{\k20}ven {\k55}seas
+Comment: 0,0:02:13.26,0:02:13.65,L'Antica Choir,,0,0,0,karaoke,{\k39}Hey
+Comment: 0,0:02:13.71,0:02:17.49,L'Antica,,0,0,0,karaoke,{\k41}YO {\k42}HO {\k23}ka{\k21}ji{\k22}to{\k42}re {\k23}na{\k21}zo{\k21}me{\k23}ku {\k19}mi{\k23}ra{\k21}i {\k36}he
+Comment: 0,0:02:17.77,0:02:20.22,L'Antica,,0,0,0,karaoke,{\k10}A{\k11}d{\k43}ven{\k22}tu{\k20}re {\k44}of {\k22}se{\k20}ven {\k53}seas
+Comment: 0,0:02:20.15,0:02:20.56,L'Antica Choir,,0,0,0,karaoke,{\k41}Hey
+Comment: 0,0:02:20.54,0:02:24.44,L'Antica,,0,0,0,karaoke,{\k66}Oh {\k20}oh {\k43}oh {\k23}oh {\k20}oh {\k65}oh {\k22}Queen {\k43}of {\k20}the {\k23}pi{\k45}rates
+Comment: 0,0:02:24.63,0:02:27.37,L'Antica,,0,0,0,karaoke,{\k20}OH {\k43}OH {\k22}OH {\k21}OH {\k64}OH {\k22}su{\k43}su{\k39}me
+Comment: 0,0:02:27.41,0:02:31.28,L'Antica,,0,0,0,karaoke,{\k66}Oh {\k20}oh {\k43}oh {\k23}oh {\k20}oh {\k65}oh {\k22}Queen {\k43}of {\k20}the {\k23}pi{\k42}rates
+Comment: 0,0:02:31.49,0:02:34.20,L'Antica,,0,0,0,karaoke,{\k21}We{\k42}~ {\k23}are {\k21}the {\k20}ru{\k23}lers {\k22}of {\k20}the {\k43}sea {\k36}ya
+Dialogue: 0,0:00:17.74,0:00:20.55,Sakuya,,0,0,0,fx,{\k90\fad(300,200)}{\rSakuya Symbol\fs30}♪{\r\fs\4a&HFF&} {\k9}i{\k11}ma {\k22}ho {\k12}wo {\k32}hat{\k20}te {\k22}mu{\k11}ka{\k32}u
+Dialogue: 0,0:00:19.45,0:00:22.86,Sakuya,,0,0,0,fx,{\k90\fad(300,200)}{\rSakuya Symbol\fs30}♪{\r\fs\4a&HFF&} {\k21}wa {\k21}ha{\k22}te {\k21}no {\k22}na{\k21}i {\k22}ko{\k22}n{\k21}pe{\k38}ki
+Dialogue: 0,0:00:21.59,0:00:25.88,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k22}Yo {\k21}ho {\k21}ho {\k44}Sai{\k20}ling {\k22}to{\k43}day {\k21}wi{\k22}tho{\k43}ut {\k40}fear
+Dialogue: 0,0:00:24.59,0:00:27.62,Sakuya,,0,0,0,fx,{\k90\fad(300,200)}{\rSakuya Symbol\fs30}♪{\r\fs\4a&HFF&} {\k9}i{\k12}ka{\k22}ri {\k11}wo {\k32}a{\k21}ge {\k21}mi{\k13}chi{\k31}bi{\k21}ku
+Dialogue: 0,0:00:26.52,0:00:29.73,Sakuya,,0,0,0,fx,{\k90\fad(300,200)}{\rSakuya Symbol\fs30}♪{\r\fs\4a&HFF&} {\k22}na{\k21}mi {\k22}no {\k20}sa{\k22}ki {\k21}wo {\k22}me{\k21}za{\k40}se
+Dialogue: 0,0:00:28.45,0:00:32.31,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k21}Yo {\k21}ho {\k23}ho {\k42}Sai{\k21}ling {\k21}to{\k43}day {\k22}no {\k22}fe{\k40}ar
+Dialogue: 0,0:00:31.23,0:00:35.75,Mamimi,,0,0,0,fx,{\k90\fad(300,200)}{\rMamimi Symbol\fs30}♠{\r\fs\4a&HFF&} {\k21}fu{\k21}ru{\k35}chi{\k31}zu {\k21}ni {\k63}mo {\k11}so{\k12}no {\k21}ba{\k11}sho {\k33}wa {\k21}na{\k41}i
+Dialogue: 0,0:00:34.85,0:00:39.26,Mamimi,,0,0,0,fx,{\k90\fad(300,200)}{\rMamimi Symbol\fs30}♠{\r\fs\4a&HFF&} {\k13}da{\k11}re {\k22}mo {\k41}ga {\k11}ko{\k12}ga{\k43}re{\k23}te{\k19}ru {\k23}E{\k11}L {\k30}DO{\k23}RA{\k49}DO
+Dialogue: 0,0:00:38.29,0:00:42.60,Kogane,,0,0,0,fx,{\k90\fad(300,200)}{\rKogane Symbol\fs30}♣{\r\fs\4a&HFF&} {\k13}sa{\k10}ga{\k30}shi{\k35}a{\k21}te{\k63}ru {\k12}so{\k10}no {\k22}yu{\k10}me {\k31}no {\k23}ta{\k41}me
+Dialogue: 0,0:00:41.73,0:00:45.54,Kogane,,0,0,0,fx,{\k90\fad(300,200)}{\rKogane Symbol\fs30}♣{\r\fs\4a&HFF&} {\k22}ta{\k64}bi{\k22}dat{\k42}te {\k21}u{\k21}mi {\k79}he
+Dialogue: 0,0:00:44.51,0:00:46.44,L'Antica Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k44}Go {\k39}now
+Dialogue: 0,0:00:45.34,0:00:50.31,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k45}YO {\k45}HO {\k21}se{\k21}ka{\k22}i {\k43}ga {\k22}o{\k20}so{\k22}re{\k21}ru {\k21}go {\k22}bo{\k21}u{\k41}sei
+Dialogue: 0,0:00:49.45,0:00:52.98,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k10}A{\k11}d{\k43}ven{\k22}tu{\k20}re {\k44}of {\k22}se{\k20}ven {\k51}seas
+Dialogue: 0,0:00:51.80,0:00:53.31,L'Antica Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Hey
+Dialogue: 0,0:00:52.22,0:00:57.12,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k43}YO {\k43}HO {\k23}ka{\k21}ji {\k22}to{\k42}re {\k22}ne{\k22}mu{\k20}re{\k21}ru {\k23}hi{\k21}ka{\k20}ri {\k37}he
+Dialogue: 0,0:00:56.30,0:00:59.83,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k10}A{\k11}d{\k43}ven{\k22}tu{\k20}re {\k44}of {\k22}se{\k20}ven {\k51}seas
+Dialogue: 0,0:00:58.66,0:01:00.18,L'Antica Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k42}Hey
+Dialogue: 0,0:00:59.08,0:01:04.06,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k66}Oh {\k20}oh {\k43}oh {\k23}oh {\k20}oh {\k65}oh {\k22}Queen {\k43}of {\k20}the {\k23}pi{\k43}rates
+Dialogue: 0,0:01:03.17,0:01:06.91,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k20}OH {\k43}OH {\k22}OH {\k21}OH {\k64}OH {\k22}su{\k43}su{\k29}me
+Dialogue: 0,0:01:05.94,0:01:10.98,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k66}Oh {\k20}oh {\k43}oh {\k23}oh {\k20}oh {\k65}oh {\k22}Queen {\k43}of {\k20}the {\k23}pi{\k43}rates
+Dialogue: 0,0:01:10.03,0:01:13.77,Yuika,,0,0,0,fx,{\k90\fad(300,200)}{\rYuika Symbol\fs30}♦{\r\fs\4a&HFF&} {\k24}We{\k39}~ {\k23}are {\k21}the {\k20}ru{\k23}lers {\k22}of {\k20}the {\k43}sea {\k29}ya
+Dialogue: 0,0:01:16.23,0:01:23.90,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k64}sa{\k108}a {\k62}yu{\k86}ke {\k23}so{\k43}u{\k21}ka{\k44}i {\k43}no {\k20}F{\k63}RON{\k23}TI{\k57}ER
+Dialogue: 0,0:01:23.08,0:01:30.71,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k64}sa{\k108}a {\k62}yu{\k86}ke {\k23}so{\k43}u{\k21}ka{\k44}i {\k43}no {\k20}F{\k65}RON{\k21}TI{\k53}ER
+Dialogue: 0,0:01:29.94,0:01:37.67,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k64}sa{\k108}a {\k64}yu{\k84}ke {\k23}so{\k43}u{\k21}ka{\k44}i {\k43}no {\k20}F{\k63}RON{\k23}TI{\k63}ER
+Dialogue: 0,0:01:36.80,0:01:40.90,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k65}mot{\k107}to {\k64}mot{\k64}to
+Dialogue: 0,0:01:39.99,0:01:48.32,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k24}So {\kf108}dive~ {\k40}in {\k23}to {\k65}boun{\k20}d{\k63}le{\k23}ss {\kf357}world
+Dialogue: 0,0:01:52.23,0:01:55.27,L'Antica Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k85}Go {\k67}to {\k42}sea
+Dialogue: 0,0:01:54.19,0:01:59.87,Kogane,,0,0,0,fx,{\k90\fad(300,200)}{\rKogane Symbol\fs30}♣{\r\fs\4a&HFF&} {\k43}dou{\k18}se {\k21}i{\k22}chi {\k21}do {\k21}na{\k66}ra {\k21}ji{\k43}bun {\k21}de {\k20}e{\k44}ra{\k23}bi{\k21}ta{\k53}i
+Dialogue: 0,0:01:59.10,0:02:02.13,L'Antica Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k85}Go {\k67}to {\k42}sea
+Dialogue: 0,0:02:01.03,0:02:06.62,Kogane,,0,0,0,fx,{\k90\fad(300,200)}{\rKogane Symbol\fs30}♣{\r\fs\4a&HFF&} {\k43}is{\k20}so {\k23}mu{\k20}ne {\k22}ha{\k21}t{\k62}te {\rL'Antica}{\k23}ko{\k43}no {\k22}u{\k21}mi {\k45}wo {\k19}su{\k21}be{\k44}ro
+Dialogue: 0,0:02:05.07,0:02:07.00,L'Antica Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k45}Go {\k38}now
+Dialogue: 0,0:02:05.90,0:02:10.85,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k45}YO {\k45}HO {\k21}se{\k21}ka{\k22}i {\k43}ga {\k22}o{\k20}so{\k22}re{\k22}ru {\k21}go {\k21}bo{\k22}u{\k38}sei
+Dialogue: 0,0:02:10.01,0:02:13.58,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k10}A{\k11}d{\k43}ven{\k22}tu{\k20}re {\k44}of {\k22}se{\k20}ven {\k55}seas
+Dialogue: 0,0:02:12.36,0:02:13.85,L'Antica Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Hey
+Dialogue: 0,0:02:12.81,0:02:17.69,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k41}YO {\k42}HO {\k23}ka{\k21}ji{\k22}to{\k42}re {\k23}na{\k21}zo{\k21}me{\k23}ku {\k19}mi{\k23}ra{\k21}i {\k36}he
+Dialogue: 0,0:02:16.87,0:02:20.42,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k10}A{\k11}d{\k43}ven{\k22}tu{\k20}re {\k44}of {\k22}se{\k20}ven {\k53}seas
+Dialogue: 0,0:02:19.25,0:02:20.76,L'Antica Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k41}Hey
+Dialogue: 0,0:02:19.64,0:02:24.64,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k66}Oh {\k20}oh {\k43}oh {\k23}oh {\k20}oh {\k65}oh {\k22}Queen {\k43}of {\k20}the {\k23}pi{\k45}rates
+Dialogue: 0,0:02:23.73,0:02:27.57,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k20}OH {\k43}OH {\k22}OH {\k21}OH {\k64}OH {\k22}su{\k43}su{\k39}me
+Dialogue: 0,0:02:26.51,0:02:31.48,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k66}Oh {\k20}oh {\k43}oh {\k23}oh {\k20}oh {\k65}oh {\k22}Queen {\k43}of {\k20}the {\k23}pi{\k42}rates
+Dialogue: 0,0:02:30.59,0:02:34.40,L'Antica,,0,0,0,fx,{\k90\fad(300,200)}{\k21}We{\k42}~ {\k23}are {\k21}the {\k20}ru{\k23}lers {\k22}of {\k20}the {\k43}sea {\k36}ya
