@@ -1,0 +1,158 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: Stranger's Sun
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00F08945,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Nozomi,Arial,24,&H00FFFFFF,&H009B47EB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Juis,Arial,24,&H00FFFFFF,&H0053CC52,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Chitose,Arial,24,&H00FFFFFF,&H00FDC50E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mashu,Arial,24,&H00FFFFFF,&H00897AF3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: MDU,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Chitose Symbol,Arial,30,&H00FDC50E,&H00FDC50E,&H00000000,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mashu Symbol,Arial,30,&H00897AF3,&H00897AF3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Juis Symbol,Arial,30,&H0053CC52,&H0053CC52,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Nozomi Symbol,Arial,30,&H009B47EB,&H009B47EB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mika,Arial,24,&H00FFFFFF,&H008CCD29,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mika Symbol,Arial,24,&H008CCD29,&H008CCD29,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Shu,Arial,24,&H00FFFFFF,&H00D175FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Shu Symbol,Arial,24,&H00D175FF,&H00D175FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Valkyrie,Arial,24,&H00FFFFFF,&H00FF87B8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Valkyrie 2,Arial,24,&H00FFFFFF,&H00FF87B8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,90,1
+Style: MDU 2,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Up],,0,0,0,legend,{\k1000\k0}{\alignment(2)}{\k1000\k0}{\alignment(2)}ALL\N{\rMDU}Mellow Dear Us\N{\rJuis Symbol}♣ {\rJuis}Juis  {\rMashu Symbol}♥ {\rMashu}Mashu {\rNozomi Symbol}♠ {\rNozomi}Nozomi  {\rChitose Symbol}♦ {\rChitose}Chitose\N{\rValkyrie}Valkyrie\N{\rMika Symbol}♪ {\rMika}Mika {\rShu Symbol}♫ {\rShu}Shu
+Comment: 0,0:00:13.10,0:00:15.64,Mika,,0,0,0,karaoke,{\k0\rMika Symbol}♪{\r} {\k22}it{\k20}tai {\k24}ik'{\k24}tsu {\k24}no {\k22}ta{\k23}ma{\k44}shii {\k51}ga
+Comment: 0,0:00:16.70,0:00:18.32,Shu,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k27}u{\k21}ma{\k9}re{\k11}te {\k27}ki{\k22}e{\k45}ta?
+Comment: 0,0:00:18.53,0:00:20.07,Valkyrie,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k25}na {\k21}mo {\k24}na{\k23}ki {\k22}ma{\k39}ma
+Comment: 0,0:00:20.38,0:00:22.84,Mashu,,0,0,0,karaoke,{\k0\rMashu Symbol}♥{\r} {\k22}nek{\k22}kyou {\k9}da{\k13}ke {\k24}ga {\k22}hi {\k25}wo {\k14}to{\k23}mo{\k30}shi{\k42}ta
+Comment: 0,0:00:24.01,0:00:25.56,Juis,,0,0,0,karaoke,{\k0\rJuis Symbol}♣{\r} {\k24}kan{\k21}sei {\k10}ko{\k14}so {\k21}jin{\k23}sei {\k42}sa
+Comment: 0,0:00:25.83,0:00:27.35,MDU,jumashu,0,0,0,karaoke,{\k0\rJuis Symbol}♣{\r} {\k0\rMashu Symbol}♥{\r} {\k11}E{\k12}very{\k22}bo{\k23}dy {\k24}wants {\k21}a {\k39}dream
+Comment: 0,0:00:27.36,0:00:31.18,Mika,,0,0,0,karaoke,{\k0\rMika Symbol}♪{\r} {\k52}aa, {\k17}da{\k12}re{\k17}mo {\k43}ga {\k13}no{\k20}zo{\k13}mu {\k12}mo{\k17}no {\k17}da{\k13}ke {\k13}ga {\k20}ri{\k45}sou {\k58}ka?
+Comment: 0,0:00:31.26,0:00:32.83,Mashu,,0,0,0,karaoke,{\k0\rMashu Symbol}♥{\r} {\k24}No{\k24}bo{\k23}dy {\k22}knows {\k24}the {\k40}truth
+Comment: 0,0:00:32.97,0:00:34.69,Juis,,0,0,0,karaoke,{\k0\rJuis Symbol}♣{\r} {\k36}So {\k45}eyes {\k24}show {\k20}the {\k47}worth
+Comment: 0,0:00:34.68,0:00:38.45,Mika,,0,0,0,karaoke,{\k0\rMika Symbol}♪{\r} {\k39}kan{\k37}nou {\k17}wa {\k45}kan{\k30}jou {\k15}ga {\k12}ma{\k17}ji{\k14}ri {\k31}au {\k22}ri{\k41}yuu {\k57}da
+Comment: 0,0:00:38.55,0:00:40.18,Nozomi,,0,0,0,karaoke,{\k0\rNozomi Symbol}♠{\r} {\k11}E{\k12}very{\k24}bo{\k21}dy {\k24}wants {\k21}a {\k50}dream
+Comment: 0,0:00:40.35,0:00:41.97,Chitose,,0,0,0,karaoke,{\k0\rChitose Symbol}♦{\r} {\k11}That's {\k14}the {\k23}mea{\k24}ning {\k21}of {\k22}our {\k47}prime
+Comment: 0,0:00:41.97,0:00:45.11,MDU,,0,0,0,karaoke,{\k68}Feel {\k22}the {\k68}stream {\k23}in {\k67}our {\k22}mu{\k44}sic
+Comment: 0,0:00:42.34,0:00:45.11,Shu,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k53}{\align(10)}kok' {\k22}sou{\k24}zou {\k21}ko{\k22}so {\k22}kei{\k25}mou {\k17}to {\k28}shir' {\k23}da{\k20}rou
+Comment: 0,0:00:45.35,0:00:48.99,Juis,,0,0,0,karaoke,{\k0\rJuis Symbol}♣{\r} {\k25}kyou{\k33}kan {\k34}to {\k37}iu {\k33}kyou{\k34}rak' {\k33}ga {\k34}kou{\k31}fuk' {\k25}na{\k45}ra
+Comment: 0,0:00:45.37,0:00:47.32,Shu,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k18}{\align(10)}ko{\k12}ku{\k13}in {\k12}su{\k13}ru {\k22}mei{\k37}dou, {\k33}ik'{\k20}sei{\k15}sou
+Comment: 0,0:00:47.62,0:00:49.22,Shu,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k12}{\align(10)}mi{\k13}ga{\k21}kou, {\k21}hou{\k24}sek' {\k25}tar' {\k23}ki{\k21}bou
+Comment: 0,0:00:49.01,0:00:51.02,Mashu,,0,0,0,karaoke,{\k0\rMashu Symbol}♥{\r} {\k23}dou{\k23}ke {\k22}tosh'{\k23}te{\k12}mo {\k10}ka{\k23}ma{\k11}ya {\k12}shi{\k23}nai {\k19}sa
+Comment: 0,0:00:51.25,0:00:52.88,Mika,,0,0,0,karaoke,{\k0\rMika Symbol}♪{\r} {\k26}an{\k21}tan {\k10}na {\k14}i{\k23}tan {\k13}no {\k11}ki{\k22}tan {\k13}sa{\k10}e
+Comment: 0,0:00:52.88,0:00:55.30,MDU 2,,0,0,0,karaoke,{\k43}Pla{\k48}yin' {\k44}for {\k47}grand {\k60}show
+Comment: 0,0:00:52.88,0:00:55.30,Valkyrie,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k43}ei{\k48}en {\k44}no {\k47}zan{\k60}shou
+Comment: 0,0:00:55.81,0:00:59.09,Sample KM [Up],,0,0,0,karaoke,{\k19}This {\k28}is {\k21}the {\k116}light, {\k22}this {\k22}is {\k23}the {\k77}flame
+Comment: 0,0:00:59.45,0:01:03.04,Sample KM [Up],,0,0,0,karaoke,{\k24}E{\k20}ven {\k24}if {\k46}all {\k41}are {\k50}stran{\k46}gers, {\k45}sun {\k43}is {\k20}one
+Comment: 0,0:01:03.10,0:01:06.19,Sample KM [Up],,0,0,0,karaoke,{\k23}This {\k20}is {\k25}our {\k115}pride, {\k20}this {\k23}is {\k21}our {\k27}beau{\k35}ty
+Comment: 0,0:01:06.72,0:01:10.36,Sample KM [Up],,0,0,0,karaoke,{\k24}E{\k23}ven {\k21}if {\k46}all {\k41}are {\k51}stran{\k45}gers, {\k45}sun {\k43}is {\k25}one
+Comment: 0,0:01:10.38,0:01:13.46,MDU 2,,0,0,0,karaoke,{\k19}This {\k28}is {\k19}the {\k117}light, {\k23}this {\k22}is {\k23}the {\k57}flame
+Comment: 0,0:01:10.96,0:01:14.61,Mika,,0,0,0,karaoke,{\k0\rMika Symbol}♪{\r} {\k47}sou {\k25}wa {\k13}ga {\k15}mi {\k44}ga {\k18}ya{\k14}ga{\k14}te {\k16}ku{\k14}chi{\k10}te {\k23}ho{\k17}ro{\k11}bi{\k47}you {\k37}to
+Comment: 0,0:01:13.93,0:01:17.63,MDU 2,,0,0,0,karaoke,{\k29}E{\k15}ven {\k32}if {\k45}all {\k42}are {\k48}stran{\k46}gers, {\k46}sun {\k43}is {\k24}one
+Comment: 0,0:01:14.91,0:01:18.17,Valkyrie,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k21}ka{\k28}chi {\k19}wo {\k23}mo{\k24}to{\k65}mu {\k25}mo{\k22}no {\k21}he {\k24}no{\k21}ko{\k33}sou
+Comment: 0,0:01:17.64,0:01:20.79,Valkyrie 2,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k23}This {\k20}is {\k25}our {\k115}pride, {\k20}this {\k23}is {\k21}our {\k27}beau{\k41}ty
+Comment: 0,0:01:18.29,0:01:21.98,Mashu,,0,0,0,karaoke,{\k0\rMashu Symbol}♥{\r} {\k44}kyou {\k23}wo {\k14}i{\k15}ki{\k41}ru {\k18}ko{\k10}to {\k20}no {\k14}yo{\k14}ro{\k17}ko{\k18}bi {\k15}wo {\k14}u{\k43}ta{\k49}ou
+Comment: 0,0:01:21.20,0:01:24.91,Valkyrie 2,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k30}E{\k25}ven {\k22}if {\k46}all {\k42}are {\k47}stran{\k46}gers, {\k46}sun {\k45}is {\k22}one
+Comment: 0,0:01:22.16,0:01:25.77,Mashu,,0,0,0,karaoke,{\k0\rMashu Symbol}♥{\r} {\k25}ka{\k24}ga{\k21}ya{\k23}ki {\k25}da{\k64}ke {\k20}mi{\k30}se{\k20}ru {\k23}be{\k23}ki {\k63}sa
+Comment: 0,0:01:24.93,0:01:26.20,Valkyrie 2,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k14}St{\k32}ran{\k19}ger's {\k62}sun
+Comment: 0,0:01:26.02,0:01:29.23,Mika,,0,0,0,karaoke,{\k0\rMika Symbol}♪{\r} {\k18}kan{\k14}ki {\k10}no {\k32}shi{\k23}ru{\k23}be {\k14}wo {\k29}as' {\k11}he {\k11}to {\k23}ki{\k24}za{\k22}mi {\k27}ko{\k40}mu
+Comment: 0,0:01:29.60,0:01:32.78,Shu,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k32}sen{\k24}nen {\k22}sa{\k23}ki {\k24}he {\k24}hou{\k19}se{\k23}ki {\k22}wo {\k23}to{\k16}do{\k31}ke{\k35}you
+Comment: 0,0:01:32.86,0:01:36.61,Mashu,,0,0,0,karaoke,{\k0\rMashu Symbol}♥{\r} {\k31}ei{\k17}e{\k14}n {\k30}nan{\k46}te {\k15}i{\k15}ma {\k14}ni {\k17}ka{\k16}chi {\k15}wo {\k17}u{\k13}mi {\k11}wa {\k9}shi{\k40}nai {\k55}sa
+Comment: 0,0:01:36.70,0:01:39.25,Juis,,0,0,0,karaoke,{\k0\rJuis Symbol}♣{\r} {\k20}is{\k29}shun {\k11}shi{\k12}ka {\k19}nai {\k12}i{\k13}no{\k25}chi {\k23}wo {\k22}mo{\k23}ya{\k46}se
+Comment: 0,0:01:39.25,0:01:42.61,Valkyrie 2,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k35}Be{\k32}lieve {\k22}your {\kf70}so{\kf177}ul
+Comment: 0,0:01:40.14,0:01:41.00,Nozomi,,0,0,0,karaoke,{\k0\rNozomi Symbol}♠{\r} {\k42}kou{\k17}ka{\k12}i {\k15}mo
+Comment: 0,0:01:41.05,0:01:41.94,Chitose,,0,0,0,karaoke,{\k0\rChitose Symbol}♦{\r} {\k45}zets'{\k23}bou {\k21}mo
+Comment: 0,0:01:41.95,0:01:43.75,MDU,chitonozo,0,0,0,karaoke,{\k0\rChitose Symbol}♦{\r} {\k0\rNozomi Symbol}♠{\r} {\k17}ko{\k18}ko {\k11}ni {\k17}wa {\k12}na{\k18}i {\k30}no {\k57}sa
+Comment: 0,0:01:42.88,0:01:46.51,MDU 2,jumashu,0,0,0,karaoke,{\k0\rJuis Symbol}♣{\r} {\k0\rMashu Symbol}♥{\r} {\k30}Feel {\k37}o{\k23}ur {\k68}mu{\kf205}sic
+Comment: 0,0:01:43.93,0:01:45.63,Shu,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k31}tsu{\k23}ra{\k21}nu{\k24}ke{\k23}ba {\k48}ii
+Comment: 0,0:01:45.83,0:01:47.39,Mika,,0,0,0,karaoke,{\k0\rMika Symbol}♪{\r} {\k23}a{\k22}i {\k19}no {\k27}a{\k19}ka{\k46}shi
+Comment: 0,0:01:47.06,0:01:50.58,Valkyrie,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k35}tai{\k37}you {\k31}ni {\k13}te{\k11}ra{\k36}sa{\k31}re {\k22}ran{\k35}han{\k33}sha {\k12}su{\k14}ru {\k23}'ka{\k19}ri
+Comment: 0,0:01:47.84,0:01:51.02,MDU 2,,0,0,0,karaoke,{\k27}'kyou {\k20}ga {\k44}kan{\k20}se{\k13}i {\k16}ga {\k17}tsu{\k13}ku{\k15}ri {\k22}da{\k11}su {\k13}yo {\k44}kai{\k43}rak'
+Comment: 0,0:01:51.04,0:01:53.41,MDU 2,,0,0,0,karaoke,{\k46}Pla{\k45}yin' {\k44}for {\k47}grand {\k55}show
+Comment: 0,0:01:51.04,0:01:53.41,Valkyrie,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k46}ei{\k45}en {\k44}no {\k47}zan{\k55}shou
+Comment: 0,0:01:55.82,0:01:59.09,Sample KM [Up],,0,0,0,karaoke,{\k19}This {\k28}is {\k21}the {\k116}light, {\k22}this {\k22}is {\k23}the {\k76}flame
+Comment: 0,0:01:59.47,0:02:03.07,Sample KM [Up],,0,0,0,karaoke,{\k24}E{\k20}ven {\k24}if {\k46}all {\k41}are {\k50}stran{\k46}gers, {\k45}sun {\k43}is {\k21}one
+Comment: 0,0:02:03.11,0:02:06.15,Sample KM [Up],,0,0,0,karaoke,{\k23}This {\k20}is {\k25}our {\k115}pride, {\k20}this {\k23}is {\k21}our {\k27}beau{\k30}ty
+Comment: 0,0:02:06.72,0:02:10.33,Sample KM [Up],,0,0,0,karaoke,{\k24}E{\k20}ven {\k24}if {\k46}all {\k41}are {\k50}stran{\k46}gers, {\k45}sun {\k43}is {\k22}one
+Comment: 0,0:02:10.38,0:02:13.55,MDU 2,,0,0,0,karaoke,{\k22}This {\k23}is {\k23}the {\k107}rhythm, {\k25}this {\k28}is {\k20}the {\k27}melo{\k42}dy
+Comment: 0,0:02:10.94,0:02:14.69,Valkyrie,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k47}sou {\k25}wa {\k13}ga {\k15}mi {\k44}ga {\k18}ya{\k14}ga{\k14}te {\k16}ku{\k14}chi{\k10}te {\k23}ho{\k17}ro{\k11}bi{\k47}you {\k47}to
+Comment: 0,0:02:14.02,0:02:17.63,MDU 2,,0,0,0,karaoke,{\k24}E{\k20}ven {\k24}if {\k46}all {\k41}are {\k50}stran{\k46}gers, {\k45}sun {\k43}is {\k22}one
+Comment: 0,0:02:14.87,0:02:18.27,Valkyrie,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k23}ka{\k28}chi {\k19}wo {\k23}mo{\k24}to{\k65}mu {\k25}mo{\k22}no {\k21}he {\k28}no{\k21}ko{\k41}sou
+Comment: 0,0:02:17.65,0:02:20.95,Valkyrie 2,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k21}This {\k23}is {\k20}the {\k119}prism, {\k22}this {\k19}is {\k25}the {\k24}bright{\k57}ness
+Comment: 0,0:02:18.29,0:02:21.95,MDU,,0,0,0,karaoke,{\k45}kyou {\k19}wo {\k14}i{\k16}ki{\k46}ru {\k16}ko{\k10}to {\k20}no {\k14}yo{\k14}ro{\k17}ko{\k13}bi {\k20}wo {\k13}u{\k44}ta{\k45}ou
+Comment: 0,0:02:21.29,0:02:24.86,Valkyrie 2,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k24}E{\k20}ven {\k24}if {\k46}all {\k41}are {\k50}stran{\k46}gers, {\k45}sun {\k43}is {\k18}one
+Comment: 0,0:02:22.18,0:02:25.59,MDU,,0,0,0,karaoke,{\k25}ka{\k19}ga{\k22}ya{\k27}ki {\k22}da{\k67}ke {\k20}mi{\k26}se{\k22}ru {\k21}be{\k27}ki {\k43}sa
+Comment: 0,0:02:24.85,0:02:26.19,Valkyrie 2,,0,0,0,karaoke,{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k20}St{\k34}ran{\k21}ger's {\k59}sun
+Dialogue: 0,0:00:12.20,0:00:15.84,Mika,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMika Symbol}♪{\r} {\k22}it{\k20}tai {\k24}ik'{\k24}tsu {\k24}no {\k22}ta{\k23}ma{\k44}shii {\k51}ga
+Dialogue: 0,0:00:15.80,0:00:18.52,Shu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k27}u{\k21}ma{\k9}re{\k11}te {\k27}ki{\k22}e{\k45}ta?
+Dialogue: 0,0:00:17.63,0:00:20.27,Valkyrie,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k25}na {\k21}mo {\k24}na{\k23}ki {\k22}ma{\k39}ma
+Dialogue: 0,0:00:19.48,0:00:23.04,Mashu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMashu Symbol}♥{\r} {\k22}nek{\k22}kyou {\k9}da{\k13}ke {\k24}ga {\k22}hi {\k25}wo {\k14}to{\k23}mo{\k30}shi{\k42}ta
+Dialogue: 0,0:00:23.11,0:00:25.76,Juis,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rJuis Symbol}♣{\r} {\k24}kan{\k21}sei {\k10}ko{\k14}so {\k21}jin{\k23}sei {\k42}sa
+Dialogue: 0,0:00:24.93,0:00:27.55,MDU,jumashu,0,0,0,fx,{\k90\fad(300,200)}{\k0\rJuis Symbol}♣{\r} {\k0\rMashu Symbol}♥{\r} {\k11}E{\k12}very{\k22}bo{\k23}dy {\k24}wants {\k21}a {\k39}dream
+Dialogue: 0,0:00:26.46,0:00:31.38,Mika,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMika Symbol}♪{\r} {\k52}aa, {\k17}da{\k12}re{\k17}mo {\k43}ga {\k13}no{\k20}zo{\k13}mu {\k12}mo{\k17}no {\k17}da{\k13}ke {\k13}ga {\k20}ri{\k45}sou {\k58}ka?
+Dialogue: 0,0:00:30.36,0:00:33.03,Mashu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMashu Symbol}♥{\r} {\k24}No{\k24}bo{\k23}dy {\k22}knows {\k24}the {\k40}truth
+Dialogue: 0,0:00:32.07,0:00:34.89,Juis,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rJuis Symbol}♣{\r} {\k36}So {\k45}eyes {\k24}show {\k20}the {\k47}worth
+Dialogue: 0,0:00:33.78,0:00:38.65,Mika,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMika Symbol}♪{\r} {\k39}kan{\k37}nou {\k17}wa {\k45}kan{\k30}jou {\k15}ga {\k12}ma{\k17}ji{\k14}ri {\k31}au {\k22}ri{\k41}yuu {\k57}da
+Dialogue: 0,0:00:37.65,0:00:40.38,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNozomi Symbol}♠{\r} {\k11}E{\k12}very{\k24}bo{\k21}dy {\k24}wants {\k21}a {\k50}dream
+Dialogue: 0,0:00:39.45,0:00:42.17,Chitose,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rChitose Symbol}♦{\r} {\k11}That's {\k14}the {\k23}mea{\k24}ning {\k21}of {\k22}our {\k47}prime
+Dialogue: 0,0:00:41.07,0:00:45.31,MDU,,0,0,0,fx,{\k90\fad(300,200)}{\k68}Feel {\k22}the {\k68}stream {\k23}in {\k67}our {\k22}mu{\k44}sic
+Dialogue: 0,0:00:41.44,0:00:45.31,Shu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k53}{\align(10)}kok' {\k22}sou{\k24}zou {\k21}ko{\k22}so {\k22}kei{\k25}mou {\k17}to {\k28}shir' {\k23}da{\k20}rou
+Dialogue: 0,0:00:44.45,0:00:49.19,Juis,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rJuis Symbol}♣{\r} {\k25}kyou{\k33}kan {\k34}to {\k37}iu {\k33}kyou{\k34}rak' {\k33}ga {\k34}kou{\k31}fuk' {\k25}na{\k45}ra
+Dialogue: 0,0:00:44.47,0:00:47.52,Shu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k18}{\align(10)}ko{\k12}ku{\k13}in {\k12}su{\k13}ru {\k22}mei{\k37}dou, {\k33}ik'{\k20}sei{\k15}sou
+Dialogue: 0,0:00:46.72,0:00:49.42,Shu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k12}{\align(10)}mi{\k13}ga{\k21}kou, {\k21}hou{\k24}sek' {\k25}tar' {\k23}ki{\k21}bou
+Dialogue: 0,0:00:48.11,0:00:51.22,Mashu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMashu Symbol}♥{\r} {\k23}dou{\k23}ke {\k22}tosh'{\k23}te{\k12}mo {\k10}ka{\k23}ma{\k11}ya {\k12}shi{\k23}nai {\k19}sa
+Dialogue: 0,0:00:50.35,0:00:53.08,Mika,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMika Symbol}♪{\r} {\k26}an{\k21}tan {\k10}na {\k14}i{\k23}tan {\k13}no {\k11}ki{\k22}tan {\k13}sa{\k10}e
+Dialogue: 0,0:00:51.98,0:00:55.50,MDU 2,,0,0,0,fx,{\k90\fad(300,200)}{\k43}Pla{\k48}yin' {\k44}for {\k47}grand {\k60}show
+Dialogue: 0,0:00:51.98,0:00:55.50,Valkyrie,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k43}ei{\k48}en {\k44}no {\k47}zan{\k60}shou
+Dialogue: 0,0:00:54.91,0:00:59.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}This {\k28}is {\k21}the {\k116}light, {\k22}this {\k22}is {\k23}the {\k77}flame
+Dialogue: 0,0:00:58.55,0:01:03.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}E{\k20}ven {\k24}if {\k46}all {\k41}are {\k50}stran{\k46}gers, {\k45}sun {\k43}is {\k20}one
+Dialogue: 0,0:01:02.20,0:01:06.39,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}This {\k20}is {\k25}our {\k115}pride, {\k20}this {\k23}is {\k21}our {\k27}beau{\k35}ty
+Dialogue: 0,0:01:05.82,0:01:10.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}E{\k23}ven {\k21}if {\k46}all {\k41}are {\k51}stran{\k45}gers, {\k45}sun {\k43}is {\k25}one
+Dialogue: 0,0:01:09.48,0:01:13.66,MDU 2,,0,0,0,fx,{\k90\fad(300,200)}{\k19}This {\k28}is {\k19}the {\k117}light, {\k23}this {\k22}is {\k23}the {\k57}flame
+Dialogue: 0,0:01:10.06,0:01:14.81,Mika,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMika Symbol}♪{\r} {\k47}sou {\k25}wa {\k13}ga {\k15}mi {\k44}ga {\k18}ya{\k14}ga{\k14}te {\k16}ku{\k14}chi{\k10}te {\k23}ho{\k17}ro{\k11}bi{\k47}you {\k37}to
+Dialogue: 0,0:01:13.03,0:01:17.83,MDU 2,,0,0,0,fx,{\k90\fad(300,200)}{\k29}E{\k15}ven {\k32}if {\k45}all {\k42}are {\k48}stran{\k46}gers, {\k46}sun {\k43}is {\k24}one
+Dialogue: 0,0:01:14.01,0:01:18.37,Valkyrie,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k21}ka{\k28}chi {\k19}wo {\k23}mo{\k24}to{\k65}mu {\k25}mo{\k22}no {\k21}he {\k24}no{\k21}ko{\k33}sou
+Dialogue: 0,0:01:16.74,0:01:20.99,Valkyrie 2,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k23}This {\k20}is {\k25}our {\k115}pride, {\k20}this {\k23}is {\k21}our {\k27}beau{\k41}ty
+Dialogue: 0,0:01:17.39,0:01:22.18,Mashu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMashu Symbol}♥{\r} {\k44}kyou {\k23}wo {\k14}i{\k15}ki{\k41}ru {\k18}ko{\k10}to {\k20}no {\k14}yo{\k14}ro{\k17}ko{\k18}bi {\k15}wo {\k14}u{\k43}ta{\k49}ou
+Dialogue: 0,0:01:20.30,0:01:25.11,Valkyrie 2,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k30}E{\k25}ven {\k22}if {\k46}all {\k42}are {\k47}stran{\k46}gers, {\k46}sun {\k45}is {\k22}one
+Dialogue: 0,0:01:21.26,0:01:25.97,Mashu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMashu Symbol}♥{\r} {\k25}ka{\k24}ga{\k21}ya{\k23}ki {\k25}da{\k64}ke {\k20}mi{\k30}se{\k20}ru {\k23}be{\k23}ki {\k63}sa
+Dialogue: 0,0:01:24.03,0:01:26.40,Valkyrie 2,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k14}St{\k32}ran{\k19}ger's {\k62}sun
+Dialogue: 0,0:01:25.12,0:01:29.43,Mika,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMika Symbol}♪{\r} {\k18}kan{\k14}ki {\k10}no {\k32}shi{\k23}ru{\k23}be {\k14}wo {\k29}as' {\k11}he {\k11}to {\k23}ki{\k24}za{\k22}mi {\k27}ko{\k40}mu
+Dialogue: 0,0:01:28.70,0:01:32.98,Shu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k32}sen{\k24}nen {\k22}sa{\k23}ki {\k24}he {\k24}hou{\k19}se{\k23}ki {\k22}wo {\k23}to{\k16}do{\k31}ke{\k35}you
+Dialogue: 0,0:01:31.96,0:01:36.81,Mashu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMashu Symbol}♥{\r} {\k31}ei{\k17}e{\k14}n {\k30}nan{\k46}te {\k15}i{\k15}ma {\k14}ni {\k17}ka{\k16}chi {\k15}wo {\k17}u{\k13}mi {\k11}wa {\k9}shi{\k40}nai {\k55}sa
+Dialogue: 0,0:01:35.80,0:01:39.45,Juis,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rJuis Symbol}♣{\r} {\k20}is{\k29}shun {\k11}shi{\k12}ka {\k19}nai {\k12}i{\k13}no{\k25}chi {\k23}wo {\k22}mo{\k23}ya{\k46}se
+Dialogue: 0,0:01:38.35,0:01:42.81,Valkyrie 2,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k35}Be{\k32}lieve {\k22}your {\kf70}so{\kf177}ul
+Dialogue: 0,0:01:39.24,0:01:41.20,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNozomi Symbol}♠{\r} {\k42}kou{\k17}ka{\k12}i {\k15}mo
+Dialogue: 0,0:01:40.15,0:01:42.14,Chitose,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rChitose Symbol}♦{\r} {\k45}zets'{\k23}bou {\k21}mo
+Dialogue: 0,0:01:41.05,0:01:43.95,MDU,chitonozo,0,0,0,fx,{\k90\fad(300,200)}{\k0\rChitose Symbol}♦{\r} {\k0\rNozomi Symbol}♠{\r} {\k17}ko{\k18}ko {\k11}ni {\k17}wa {\k12}na{\k18}i {\k30}no {\k57}sa
+Dialogue: 0,0:01:41.98,0:01:46.71,MDU 2,jumashu,0,0,0,fx,{\k90\fad(300,200)}{\k0\rJuis Symbol}♣{\r} {\k0\rMashu Symbol}♥{\r} {\k30}Feel {\k37}o{\k23}ur {\k68}mu{\kf205}sic
+Dialogue: 0,0:01:43.03,0:01:45.83,Shu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k31}tsu{\k23}ra{\k21}nu{\k24}ke{\k23}ba {\k48}ii
+Dialogue: 0,0:01:44.93,0:01:47.59,Mika,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMika Symbol}♪{\r} {\k23}a{\k22}i {\k19}no {\k27}a{\k19}ka{\k46}shi
+Dialogue: 0,0:01:46.16,0:01:50.78,Valkyrie,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k35}tai{\k37}you {\k31}ni {\k13}te{\k11}ra{\k36}sa{\k31}re {\k22}ran{\k35}han{\k33}sha {\k12}su{\k14}ru {\k23}'ka{\k19}ri
+Dialogue: 0,0:01:46.94,0:01:51.22,MDU 2,,0,0,0,fx,{\k90\fad(300,200)}{\k27}'kyou {\k20}ga {\k44}kan{\k20}se{\k13}i {\k16}ga {\k17}tsu{\k13}ku{\k15}ri {\k22}da{\k11}su {\k13}yo {\k44}kai{\k43}rak'
+Dialogue: 0,0:01:50.14,0:01:53.61,MDU 2,,0,0,0,fx,{\k90\fad(300,200)}{\k46}Pla{\k45}yin' {\k44}for {\k47}grand {\k55}show
+Dialogue: 0,0:01:50.14,0:01:53.61,Valkyrie,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k46}ei{\k45}en {\k44}no {\k47}zan{\k55}shou
+Dialogue: 0,0:01:54.92,0:01:59.29,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}This {\k28}is {\k21}the {\k116}light, {\k22}this {\k22}is {\k23}the {\k76}flame
+Dialogue: 0,0:01:58.57,0:02:03.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}E{\k20}ven {\k24}if {\k46}all {\k41}are {\k50}stran{\k46}gers, {\k45}sun {\k43}is {\k21}one
+Dialogue: 0,0:02:02.21,0:02:06.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}This {\k20}is {\k25}our {\k115}pride, {\k20}this {\k23}is {\k21}our {\k27}beau{\k30}ty
+Dialogue: 0,0:02:05.82,0:02:10.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}E{\k20}ven {\k24}if {\k46}all {\k41}are {\k50}stran{\k46}gers, {\k45}sun {\k43}is {\k22}one
+Dialogue: 0,0:02:09.48,0:02:13.75,MDU 2,,0,0,0,fx,{\k90\fad(300,200)}{\k22}This {\k23}is {\k23}the {\k107}rhythm, {\k25}this {\k28}is {\k20}the {\k27}melo{\k42}dy
+Dialogue: 0,0:02:10.04,0:02:14.89,Valkyrie,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k47}sou {\k25}wa {\k13}ga {\k15}mi {\k44}ga {\k18}ya{\k14}ga{\k14}te {\k16}ku{\k14}chi{\k10}te {\k23}ho{\k17}ro{\k11}bi{\k47}you {\k47}to
+Dialogue: 0,0:02:13.12,0:02:17.83,MDU 2,,0,0,0,fx,{\k90\fad(300,200)}{\k24}E{\k20}ven {\k24}if {\k46}all {\k41}are {\k50}stran{\k46}gers, {\k45}sun {\k43}is {\k22}one
+Dialogue: 0,0:02:13.97,0:02:18.47,Valkyrie,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k23}ka{\k28}chi {\k19}wo {\k23}mo{\k24}to{\k65}mu {\k25}mo{\k22}no {\k21}he {\k28}no{\k21}ko{\k41}sou
+Dialogue: 0,0:02:16.75,0:02:21.15,Valkyrie 2,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k21}This {\k23}is {\k20}the {\k119}prism, {\k22}this {\k19}is {\k25}the {\k24}bright{\k57}ness
+Dialogue: 0,0:02:17.39,0:02:22.15,MDU,,0,0,0,fx,{\k90\fad(300,200)}{\k45}kyou {\k19}wo {\k14}i{\k16}ki{\k46}ru {\k16}ko{\k10}to {\k20}no {\k14}yo{\k14}ro{\k17}ko{\k13}bi {\k20}wo {\k13}u{\k44}ta{\k45}ou
+Dialogue: 0,0:02:20.39,0:02:25.06,Valkyrie 2,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k24}E{\k20}ven {\k24}if {\k46}all {\k41}are {\k50}stran{\k46}gers, {\k45}sun {\k43}is {\k18}one
+Dialogue: 0,0:02:21.28,0:02:25.79,MDU,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ka{\k19}ga{\k22}ya{\k27}ki {\k22}da{\k67}ke {\k20}mi{\k26}se{\k22}ru {\k21}be{\k27}ki {\k43}sa
+Dialogue: 0,0:02:23.95,0:02:26.39,Valkyrie 2,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShu Symbol}♫{\r} {\k0\rMika Symbol}♪{\r} {\k20}St{\k34}ran{\k21}ger's {\k59}sun
