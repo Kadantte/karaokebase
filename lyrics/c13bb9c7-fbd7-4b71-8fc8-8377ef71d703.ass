@@ -1,0 +1,113 @@
+﻿[Script Info]
+Title: Yumesaki After school
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Houkago Climax Girls,Arial,24,&H00FFFFFF,&H003383FA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kaho@,Arial,24,&H00FFFFFF,&H001C46E5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rinze,Arial,24,&H00FFFFFF,&H00EBC389,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Chiyoko,Arial,24,&H00FFFFFF,&H00903BF9,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Juri,Arial,24,&H00FFFFFF,&H0002C6FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Natsuha,Arial,24,&H00FFFFFF,&H0067E690,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Houkago Climax Girls - Choir,Arial,24,&H003383FA,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,100,1
+Style: Kaho@ Symbol,Arial,24,&H001C46E5,&H001C46E5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rinze Symbol,Arial,24,&H00EBC389,&H00EBC389,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Chiyoko Symbol,Arial,24,&H00903BF9,&H00903BF9,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Juri Symbol,Arial,24,&H0002C6FF,&H0002C6FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Natsuha Symbol,Arial,24,&H0067E690,&H0067E690,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Houkago Climax Girls,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Kaho@,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rKaho@ Symbol\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Rinze,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rRinze Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Chiyoko,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rChiyoko Symbol\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Juri,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rJuri Symbol\\fs30}♣{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Natsuha,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rNatsuha Symbol\\fs30}♪{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Houkago Climax Girls - Choir,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H3383FA&}Houkago Climax Girls{\c} | \N{\c&H1C46E5&}♥ Kaho{\c} | {\c&HEBC389&}♠ Rinze{\c} | {\c&H903BF9&}♦ Chiyoko{\c} | {\c&H02C6FF&}♣ Juri{\c} | {\c&H67E690&}♪ Natsuha
+Comment: 0,0:00:05.56,0:00:07.07,Kaho@,,0,0,0,karaoke,{\k15}Eve{\k17}ry{\k20}bo{\k11}dy {\k37}Let's {\k51}Go
+Comment: 0,0:00:07.26,0:00:11.04,Houkago Climax Girls,,0,0,0,karaoke,{\k16}Vi{\k18}va {\k35}Af{\k33}ter {\k36}schoo{\k16}l {\k35}Yeah {\kf189}Yeah
+Comment: 0,0:00:10.01,0:00:12.36,Houkago Climax Girls - Choir,,0,0,0,karaoke,{\k67}Hi {\k67}Hi {\k69}Hi {\k32}Cheese
+Comment: 0,0:00:12.74,0:00:16.52,Houkago Climax Girls,,0,0,0,karaoke,{\k16}Vi{\k18}va {\k35}Af{\k33}ter {\k36}schoo{\k16}l {\k35}Yeah {\kf189}Yeah
+Comment: 0,0:00:15.48,0:00:17.93,Houkago Climax Girls - Choir,,0,0,0,karaoke,{\k69}Hi {\k66}Hi {\k70}Hi {\k40}Peace
+Comment: 0,0:00:19.24,0:00:22.24,Kaho@,,0,0,0,karaoke,{\k36}nee {\k35}nee {\k33}chot{\k19}to {\k33}ha{\k30}na{\k22}shi {\k33}kii{\k59}te
+Comment: 0,0:00:22.00,0:00:24.49,Houkago Climax Girls,,0,0,0,karaoke,{\k51}ii {\k18}ko{\k51}to {\k35}at{\k34}tan{\k19}de{\k41}shou
+Comment: 0,0:00:24.74,0:00:27.68,Kaho@,,0,0,0,karaoke,{\k18}tsu{\k16}ku{\k18}e {\k18}ka{\k32}ko{\k16}n {\k38}de {\k34}ka{\k15}ta{\k19}ri{\k16}ma{\k54}shou
+Comment: 0,0:00:27.46,0:00:29.87,Houkago Climax Girls,,0,0,0,karaoke,{\k54}hou{\k17}ka{\k51}go {\k33}HO {\k35}hou{\k19}ka{\k32}go
+Comment: 0,0:00:29.54,0:00:30.20,Houkago Climax Girls - Choir,,0,0,0,karaoke,{\k34}Go {\k32}Go
+Comment: 0,0:00:29.70,0:00:32.80,Rinze,,0,0,0,karaoke,{\k19}ji{\k17}do{\k17}ri {\k34}no {\k35}ka{\k33}ku{\k22}do {\k30}ki{\k17}ma{\k39}ra{\k12}na{\k35}i
+Comment: 0,0:00:32.98,0:00:36.24,Chiyoko,,0,0,0,karaoke,{\k33}kek{\k34}kyo{\k34}ku {\k21}ga{\k31}me{\k18}n {\k12}i{\k23}p{\k17}pa{\k15}i {\k19}e{\k16}ga{\k53}o
+Comment: 0,0:00:36.06,0:00:37.81,Houkago Climax Girls,,0,0,0,karaoke,{\k34}O{\k64}K {\k39}Let's {\k38}go
+Comment: 0,0:00:37.96,0:00:40.48,Houkago Climax Girls,,0,0,0,karaoke,{\k15}ko{\k17}no {\k16}ma{\k36}ma {\k17}de {\k34}su{\k16}su{\k18}mo{\k83}u
+Comment: 0,0:00:40.51,0:00:41.10,Houkago Climax Girls - Choir,,0,0,0,karaoke,{\k59}PIECE
+Comment: 0,0:00:41.18,0:00:42.60,Natsuha,,0,0,0,karaoke,{\k26}is{\k28}se {\k16}no{\k35}se{\k37}de
+Comment: 0,0:00:42.73,0:00:43.79,Houkago Climax Girls - Choir,,0,0,0,karaoke,{\k19}ta{\k15}bu{\k18}n {\k35}kan{\k19}pek'
+Comment: 0,0:00:43.94,0:00:45.30,Juri,,0,0,0,karaoke,{\k26}LO{\k25}~{\k19}A{\k33}FER {\k33}de
+Comment: 0,0:00:45.43,0:00:46.60,Houkago Climax Girls - Choir,,0,0,0,karaoke,{\k25}i{\k13}ku {\k19}yo {\k33}min{\k27}na
+Comment: 0,0:00:46.51,0:00:49.20,Houkago Climax Girls,,0,0,0,karaoke,{\k20}ku{\k31}tsu{\k17}zu{\k34}re {\k36}mo {\k16}shi{\k35}sou {\k17}da{\k33}ke{\k30}do
+Comment: 0,0:00:49.27,0:00:53.57,Houkago Climax Girls,,0,0,0,karaoke,{\k15}mi{\k53}ra{\k14}i {\k55}he {\k15}ze{\k18}n{\k19}ryo{\k14}ku {\k19}de {\k16}ka{\k19}ke{\k17}te {\k17}i{\kf139}ku
+Comment: 0,0:00:53.51,0:00:54.42,Kaho@,,0,0,0,karaoke,{\k37}Num{\k32}ber {\k22}One
+Comment: 0,0:00:54.42,0:00:57.57,Houkago Climax Girls,,0,0,0,karaoke,{\k16}se{\k33}kai {\k34}sai{\k36}jou {\k34}sai{\k34}ai {\k17}tsu{\k17}ka{\k17}mi{\k34}ta{\k43}i
+Comment: 0,0:00:57.82,0:01:00.68,Houkago Climax Girls,,0,0,0,karaoke,{\k17}sa{\k34}kou {\k35}to {\k20}shi{\k14}ta {\k18}so{\k16}no {\k19}hi {\k16}ga {\k19}ha{\k17}na{\k17}za{\k17}ka{\k27}ri
+Comment: 0,0:01:00.91,0:01:05.02,Houkago Climax Girls,,0,0,0,karaoke,{\k17}te {\k18}wo {\k18}to{\k16}ri{\k16}a{\k36}i {\k34}so{\k36}ra {\k33}yu{\k33}bi{\k36}sa{\k33}shi{\k85}te
+Comment: 0,0:01:05.37,0:01:08.56,Houkago Climax Girls,,0,0,0,karaoke,{\k17}yu{\k18}me {\k18}wa {\k29}zet{\k38}tai {\k33}is{\k35}sai {\k19}ha{\k16}na{\k16}sa{\k35}na{\k45}i
+Comment: 0,0:01:08.81,0:01:11.64,Houkago Climax Girls,,0,0,0,karaoke,{\k15}shi{\k36}a{\k34}wa{\k18}se {\k16}mo {\k19}tsu{\k13}yo{\k20}sa {\k17}mo {\k19}te {\k15}ni {\k17}i{\k19}re{\k25}te
+Comment: 0,0:01:11.88,0:01:14.12,Houkago Climax Girls,,0,0,0,karaoke,{\k21}gi{\k30}n{\k36}ga {\k33}mo {\k36}su{\k33}ku{\k35}u
+Comment: 0,0:01:14.12,0:01:16.49,Houkago Climax Girls,,0,0,0,karaoke,{\k18}wa{\k17}ta{\k16}shi{\k32}ta{\k37}chi {\k34}sa{\k16}i{\k17}ko{\k17}u{\k33}chou
+Comment: 0,0:01:16.50,0:01:16.84,Houkago Climax Girls - Choir,,0,0,0,karaoke,{\k34}Yeah
+Comment: 0,0:01:17.19,0:01:20.97,Houkago Climax Girls,,0,0,0,karaoke,{\k16}Vi{\k18}va {\k35}Af{\k33}ter {\k36}schoo{\k16}l {\k35}Yeah {\kf189}Yeah
+Comment: 0,0:01:19.95,0:01:22.31,Houkago Climax Girls - Choir,,0,0,0,karaoke,{\k67}Hi {\k67}Hi {\k69}Hi {\k33}Cheese
+Comment: 0,0:01:22.67,0:01:26.45,Houkago Climax Girls,,0,0,0,karaoke,{\k16}Vi{\k18}va {\k35}Af{\k33}ter {\k36}schoo{\k16}l {\k35}Yeah {\kf189}Yeah
+Comment: 0,0:01:25.42,0:01:27.75,Houkago Climax Girls - Choir,,0,0,0,karaoke,{\k69}Hi {\k66}Hi {\k70}Hi {\k28}Peace
+Comment: 0,0:01:28.17,0:01:31.94,Houkago Climax Girls,,0,0,0,karaoke,{\k16}Vi{\k18}va {\k35}Af{\k33}ter {\k36}schoo{\k16}l {\k35}Yeah {\kf188}Yeah
+Comment: 0,0:01:30.90,0:01:33.25,Houkago Climax Girls - Choir,,0,0,0,karaoke,{\k67}Hi {\k70}Hi {\k69}Hi {\k29}Cheese
+Comment: 0,0:01:33.64,0:01:37.42,Houkago Climax Girls,,0,0,0,karaoke,{\k16}Vi{\k18}va {\k35}Af{\k33}ter {\k36}schoo{\k16}l {\k35}Yeah {\kf189}Yeah
+Comment: 0,0:01:36.38,0:01:38.73,Houkago Climax Girls - Choir,,0,0,0,karaoke,{\k69}Hi {\k68}Hi {\k69}Hi {\k29}Peace
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H3383FA&}Houkago Climax Girls{\c} | \N{\c&H1C46E5&}♥ Kaho{\c} | {\c&HEBC389&}♠ Rinze{\c} | {\c&H903BF9&}♦ Chiyoko{\c} | {\c&H02C6FF&}♣ Juri{\c} | {\c&H67E690&}♪ Natsuha
+Dialogue: 0,0:00:04.66,0:00:07.27,Kaho@,,0,0,0,fx,{\k90\fad(300,200)}{\rKaho@ Symbol\fs30}♥{\r\fs\4a&HFF&} {\k15}Eve{\k17}ry{\k20}bo{\k11}dy {\k37}Let's {\k51}Go
+Dialogue: 0,0:00:06.36,0:00:11.24,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Vi{\k18}va {\k35}Af{\k33}ter {\k36}schoo{\k16}l {\k35}Yeah {\kf189}Yeah
+Dialogue: 0,0:00:09.11,0:00:12.56,Houkago Climax Girls - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Hi {\k67}Hi {\k69}Hi {\k32}Cheese
+Dialogue: 0,0:00:11.84,0:00:16.72,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Vi{\k18}va {\k35}Af{\k33}ter {\k36}schoo{\k16}l {\k35}Yeah {\kf189}Yeah
+Dialogue: 0,0:00:14.58,0:00:18.13,Houkago Climax Girls - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k69}Hi {\k66}Hi {\k70}Hi {\k40}Peace
+Dialogue: 0,0:00:18.34,0:00:22.44,Kaho@,,0,0,0,fx,{\k90\fad(300,200)}{\rKaho@ Symbol\fs30}♥{\r\fs\4a&HFF&} {\k36}nee {\k35}nee {\k33}chot{\k19}to {\k33}ha{\k30}na{\k22}shi {\k33}kii{\k59}te
+Dialogue: 0,0:00:21.10,0:00:24.69,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k51}ii {\k18}ko{\k51}to {\k35}at{\k34}tan{\k19}de{\k41}shou
+Dialogue: 0,0:00:23.84,0:00:27.88,Kaho@,,0,0,0,fx,{\k90\fad(300,200)}{\rKaho@ Symbol\fs30}♥{\r\fs\4a&HFF&} {\k18}tsu{\k16}ku{\k18}e {\k18}ka{\k32}ko{\k16}n {\k38}de {\k34}ka{\k15}ta{\k19}ri{\k16}ma{\k54}shou
+Dialogue: 0,0:00:26.56,0:00:30.07,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k54}hou{\k17}ka{\k51}go {\k33}HO {\k35}hou{\k19}ka{\k32}go
+Dialogue: 0,0:00:28.64,0:00:30.40,Houkago Climax Girls - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Go {\k32}Go
+Dialogue: 0,0:00:28.80,0:00:33.00,Rinze,,0,0,0,fx,{\k90\fad(300,200)}{\rRinze Symbol\fs30}♠{\r\fs\4a&HFF&} {\k19}ji{\k17}do{\k17}ri {\k34}no {\k35}ka{\k33}ku{\k22}do {\k30}ki{\k17}ma{\k39}ra{\k12}na{\k35}i
+Dialogue: 0,0:00:32.08,0:00:36.44,Chiyoko,,0,0,0,fx,{\k90\fad(300,200)}{\rChiyoko Symbol\fs30}♦{\r\fs\4a&HFF&} {\k33}kek{\k34}kyo{\k34}ku {\k21}ga{\k31}me{\k18}n {\k12}i{\k23}p{\k17}pa{\k15}i {\k19}e{\k16}ga{\k53}o
+Dialogue: 0,0:00:35.16,0:00:38.01,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k34}O{\k64}K {\k39}Let's {\k38}go
+Dialogue: 0,0:00:37.06,0:00:40.68,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ko{\k17}no {\k16}ma{\k36}ma {\k17}de {\k34}su{\k16}su{\k18}mo{\k83}u
+Dialogue: 0,0:00:39.61,0:00:41.30,Houkago Climax Girls - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k59}PIECE
+Dialogue: 0,0:00:40.28,0:00:42.80,Natsuha,,0,0,0,fx,{\k90\fad(300,200)}{\rNatsuha Symbol\fs30}♪{\r\fs\4a&HFF&} {\k26}is{\k28}se {\k16}no{\k35}se{\k37}de
+Dialogue: 0,0:00:41.83,0:00:43.99,Houkago Climax Girls - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ta{\k15}bu{\k18}n {\k35}kan{\k19}pek'
+Dialogue: 0,0:00:43.04,0:00:45.50,Juri,,0,0,0,fx,{\k90\fad(300,200)}{\rJuri Symbol\fs30}♣{\r\fs\4a&HFF&} {\k26}LO{\k25}~{\k19}A{\k33}FER {\k33}de
+Dialogue: 0,0:00:44.53,0:00:46.80,Houkago Climax Girls - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k25}i{\k13}ku {\k19}yo {\k33}min{\k27}na
+Dialogue: 0,0:00:45.61,0:00:49.40,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ku{\k31}tsu{\k17}zu{\k34}re {\k36}mo {\k16}shi{\k35}sou {\k17}da{\k33}ke{\k30}do
+Dialogue: 0,0:00:48.37,0:00:53.77,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k15}mi{\k53}ra{\k14}i {\k55}he {\k15}ze{\k18}n{\k19}ryo{\k14}ku {\k19}de {\k16}ka{\k19}ke{\k17}te {\k17}i{\kf139}ku
+Dialogue: 0,0:00:52.61,0:00:54.62,Kaho@,,0,0,0,fx,{\k90\fad(300,200)}{\rKaho@ Symbol\fs30}♥{\r\fs\4a&HFF&} {\k37}Num{\k32}ber {\k22}One
+Dialogue: 0,0:00:53.52,0:00:57.77,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k16}se{\k33}kai {\k34}sai{\k36}jou {\k34}sai{\k34}ai {\k17}tsu{\k17}ka{\k17}mi{\k34}ta{\k43}i
+Dialogue: 0,0:00:56.92,0:01:00.88,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k17}sa{\k34}kou {\k35}to {\k20}shi{\k14}ta {\k18}so{\k16}no {\k19}hi {\k16}ga {\k19}ha{\k17}na{\k17}za{\k17}ka{\k27}ri
+Dialogue: 0,0:01:00.01,0:01:05.22,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k17}te {\k18}wo {\k18}to{\k16}ri{\k16}a{\k36}i {\k34}so{\k36}ra {\k33}yu{\k33}bi{\k36}sa{\k33}shi{\k85}te
+Dialogue: 0,0:01:04.47,0:01:08.76,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k17}yu{\k18}me {\k18}wa {\k29}zet{\k38}tai {\k33}is{\k35}sai {\k19}ha{\k16}na{\k16}sa{\k35}na{\k45}i
+Dialogue: 0,0:01:07.91,0:01:11.84,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k15}shi{\k36}a{\k34}wa{\k18}se {\k16}mo {\k19}tsu{\k13}yo{\k20}sa {\k17}mo {\k19}te {\k15}ni {\k17}i{\k19}re{\k25}te
+Dialogue: 0,0:01:10.98,0:01:14.32,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k21}gi{\k30}n{\k36}ga {\k33}mo {\k36}su{\k33}ku{\k35}u
+Dialogue: 0,0:01:13.22,0:01:16.69,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k18}wa{\k17}ta{\k16}shi{\k32}ta{\k37}chi {\k34}sa{\k16}i{\k17}ko{\k17}u{\k33}chou
+Dialogue: 0,0:01:15.60,0:01:17.04,Houkago Climax Girls - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Yeah
+Dialogue: 0,0:01:16.29,0:01:21.17,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Vi{\k18}va {\k35}Af{\k33}ter {\k36}schoo{\k16}l {\k35}Yeah {\kf189}Yeah
+Dialogue: 0,0:01:19.05,0:01:22.51,Houkago Climax Girls - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Hi {\k67}Hi {\k69}Hi {\k33}Cheese
+Dialogue: 0,0:01:21.77,0:01:26.65,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Vi{\k18}va {\k35}Af{\k33}ter {\k36}schoo{\k16}l {\k35}Yeah {\kf189}Yeah
+Dialogue: 0,0:01:24.52,0:01:27.95,Houkago Climax Girls - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k69}Hi {\k66}Hi {\k70}Hi {\k28}Peace
+Dialogue: 0,0:01:27.27,0:01:32.14,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Vi{\k18}va {\k35}Af{\k33}ter {\k36}schoo{\k16}l {\k35}Yeah {\kf188}Yeah
+Dialogue: 0,0:01:30.00,0:01:33.45,Houkago Climax Girls - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k67}Hi {\k70}Hi {\k69}Hi {\k29}Cheese
+Dialogue: 0,0:01:32.74,0:01:37.62,Houkago Climax Girls,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Vi{\k18}va {\k35}Af{\k33}ter {\k36}schoo{\k16}l {\k35}Yeah {\kf189}Yeah
+Dialogue: 0,0:01:35.48,0:01:38.93,Houkago Climax Girls - Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k69}Hi {\k68}Hi {\k69}Hi {\k29}Peace
