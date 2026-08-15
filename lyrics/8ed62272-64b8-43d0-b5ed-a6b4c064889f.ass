@@ -1,0 +1,62 @@
+﻿[Script Info]
+Title: FREEZE ME UP
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: Naruse
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: jap,Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: eng,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.77,0:00:04.11,jap,,0,0,0,karaoke,{\k19}ba{\k13}ra{\k21}ba{\k32}ra {\k16}tsu{\k29}dou {\reng}{\k32}BON{\k24}FI{\k48}RE
+Comment: 0,0:00:04.44,0:00:06.65,jap,,0,0,0,karaoke,{\k15}ma{\k14}da {\k23}ma{\k31}da {\k20}tsu{\k32}nor' {\reng}{\k33}DE{\k18}SI{\k35}RE
+Comment: 0,0:00:07.11,0:00:09.32,jap,,0,0,0,karaoke,{\k19}ba{\k13}ra{\k21}ba{\k29}ra {\k19}tsu{\k29}dou {\reng}{\k32}BON{\k24}FI{\k35}RE
+Comment: 0,0:00:09.78,0:00:11.95,jap,,0,0,0,karaoke,{\k16}ba{\k18}ra{\k17}wa{\k15}ra {\k28}wa{\k37}ku {\reng}{\k65}LIAR{\k21}S
+Comment: 0,0:00:22.59,0:00:25.30,eng,,0,0,0,karaoke,{\k19}The {\k33}black {\k18}Mo{\k16}no{\k20}no{\k30}ke {\k17}is {\k12}brea{\k17}thing {\k17}in{\k36}side {\k36}me
+Comment: 0,0:00:25.59,0:00:27.92,eng,,0,0,0,karaoke,{\k17}We {\k34}ain’t {\k35}down {\k16}with {\k16}your {\k19}no{\k15}ble {\k36}cons{\k15}pi{\k11}ra{\k19}cy
+Comment: 0,0:00:27.92,0:00:30.59,jap,,0,0,0,karaoke,{\k20}te{\k33}ras' {\k17}to{\k18}mo{\k16}shi{\k49}bi {\reng}{\k34}FEEL {\k17}THE {\k27}BLOOD {\k36}HEAT
+Comment: 0,0:00:30.59,0:00:33.64,jap,,0,0,0,karaoke,{\k20}o{\k17}to {\k17}mo {\k33}nak' {\k18}ka{\k15}ge {\k18}mo {\k28}nak' {\k19}ko{\k20}ko {\k37}ni {\k49}sa{\k14}ku
+Comment: 0,0:00:33.68,0:00:36.35,jap,,0,0,0,karaoke,{\k12}gu{\k20}ra{\k12}gu{\k61}ra {\k15}yu{\k24}ra{\k14}gu {\reng}{\k27}UP{\k42}SIDE {\k40}DOWN
+Comment: 0,0:00:36.39,0:00:39.02,eng,,0,0,0,karaoke,{\k34}CLAP! {\k61}CLAP! {\k43}BOW {\k17}TO {\rjap}{\k35}sai{\k73}tan
+Comment: 0,0:00:39.02,0:00:41.60,eng,,0,0,0,karaoke,{\k34}I’m {\k23}sick {\k17}of {\k35}this {\k34}world {\k33}and {\k15}their {\k14}pure {\k53}spite
+Comment: 0,0:00:41.60,0:00:44.36,eng,,0,0,0,karaoke,{\k20}You’re {\k17}gon{\k16}na {\k31}die {\k20}from {\k21}a {\k28}thou{\k25}sand {\k33}small {\k38}bi{\k27}tes
+Comment: 0,0:00:44.73,0:00:49.53,eng,,0,0,0,karaoke,{\k39}Need {\k17}no {\k49}rea{\k65}son {\k33}to {\k53}walk {\k48}a{\kf176}long
+Comment: 0,0:00:50.40,0:00:53.91,eng,,0,0,0,karaoke,{\k34}Or {\k34}lin{\k38}ger {\k29}here {\k30}to {\k53}hear {\k46}her {\kf87}song
+Comment: 0,0:00:53.91,0:00:59.46,eng,,0,0,0,karaoke,{\k54}Split {\k29}the {\kf147}dream,{\k25} {\k25}and {\k41}paint {\k31}the {\k37}si{\k24}len{\k13}ce {\k27}a{\k76}par{\k26}t
+Comment: 0,0:00:59.75,0:01:04.09,eng,,0,0,0,karaoke,{\k35}Just {\kf132}please {\k38}tie {\k15}me {\k26}to {\k35}your {\kf153}heart
+Comment: 0,0:01:04.42,0:01:06.00,eng,,0,0,0,karaoke,{\k29}Now {\k57}freeze {\k20}me {\k52}up
+Comment: 0,0:01:06.09,0:01:07.46,Sample KM [Choir],,0,0,0,karaoke,{\k57}Freeze {\k20}me {\k60}up
+Comment: 0,0:01:07.34,0:01:09.84,eng,,0,0,0,karaoke,{\k57}Freeze {\k20}me {\kf173}up
+Comment: 0,0:01:10.05,0:01:13.09,eng,,0,0,0,karaoke,{\k60}Freeze {\k16}me {\k49}u-{\k50}u-{\kf129}up
+Comment: 0,0:01:13.30,0:01:17.77,eng,,0,0,0,karaoke,{\k50}Freeze {\k16}me {\k33}up{\k48} {\k31}deep {\k29}in{\k35}side {\k102}of {\kf103}sleep
+Dialogue: 0,0:00:00.87,0:00:04.31,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ba{\k13}ra{\k21}ba{\k32}ra {\k16}tsu{\k29}dou {\reng}{\k32}BON{\k24}FI{\k48}RE
+Dialogue: 0,0:00:03.54,0:00:06.85,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ma{\k14}da {\k23}ma{\k31}da {\k20}tsu{\k32}nor' {\reng}{\k33}DE{\k18}SI{\k35}RE
+Dialogue: 0,0:00:06.21,0:00:09.52,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ba{\k13}ra{\k21}ba{\k29}ra {\k19}tsu{\k29}dou {\reng}{\k32}BON{\k24}FI{\k35}RE
+Dialogue: 0,0:00:08.88,0:00:12.15,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ba{\k18}ra{\k17}wa{\k15}ra {\k28}wa{\k37}ku {\reng}{\k65}LIAR{\k21}S
+Dialogue: 0,0:00:21.69,0:00:25.50,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k19}The {\k33}black {\k18}Mo{\k16}no{\k20}no{\k30}ke {\k17}is {\k12}brea{\k17}thing {\k17}in{\k36}side {\k36}me
+Dialogue: 0,0:00:24.69,0:00:28.12,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k17}We {\k34}ain’t {\k35}down {\k16}with {\k16}your {\k19}no{\k15}ble {\k36}cons{\k15}pi{\k11}ra{\k19}cy
+Dialogue: 0,0:00:27.02,0:00:30.79,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k20}te{\k33}ras' {\k17}to{\k18}mo{\k16}shi{\k49}bi {\reng}{\k34}FEEL {\k17}THE {\k27}BLOOD {\k36}HEAT
+Dialogue: 0,0:00:29.69,0:00:33.84,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k20}o{\k17}to {\k17}mo {\k33}nak' {\k18}ka{\k15}ge {\k18}mo {\k28}nak' {\k19}ko{\k20}ko {\k37}ni {\k49}sa{\k14}ku
+Dialogue: 0,0:00:32.78,0:00:36.55,jap,,0,0,0,fx,{\k90\fad(300,200)}{\k12}gu{\k20}ra{\k12}gu{\k61}ra {\k15}yu{\k24}ra{\k14}gu {\reng}{\k27}UP{\k42}SIDE {\k40}DOWN
+Dialogue: 0,0:00:35.49,0:00:39.22,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k34}CLAP! {\k61}CLAP! {\k43}BOW {\k17}TO {\rjap}{\k35}sai{\k73}tan
+Dialogue: 0,0:00:38.12,0:00:41.80,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k34}I’m {\k23}sick {\k17}of {\k35}this {\k34}world {\k33}and {\k15}their {\k14}pure {\k53}spite
+Dialogue: 0,0:00:40.70,0:00:44.56,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k20}You’re {\k17}gon{\k16}na {\k31}die {\k20}from {\k21}a {\k28}thou{\k25}sand {\k33}small {\k38}bi{\k27}tes
+Dialogue: 0,0:00:43.83,0:00:49.73,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k39}Need {\k17}no {\k49}rea{\k65}son {\k33}to {\k53}walk {\k48}a{\kf176}long
+Dialogue: 0,0:00:49.50,0:00:54.11,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k34}Or {\k34}lin{\k38}ger {\k29}here {\k30}to {\k53}hear {\k46}her {\kf87}song
+Dialogue: 0,0:00:53.01,0:00:59.66,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k54}Split {\k29}the {\kf147}dream,{\k25} {\k25}and {\k41}paint {\k31}the {\k37}si{\k24}len{\k13}ce {\k27}a{\k76}par{\k26}t
+Dialogue: 0,0:00:58.85,0:01:04.29,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k35}Just {\kf132}please {\k38}tie {\k15}me {\k26}to {\k35}your {\kf153}heart
+Dialogue: 0,0:01:03.52,0:01:06.20,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k29}Now {\k57}freeze {\k20}me {\k52}up
+Dialogue: 0,0:01:05.19,0:01:07.66,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k57}Freeze {\k20}me {\k60}up
+Dialogue: 0,0:01:06.44,0:01:10.04,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k57}Freeze {\k20}me {\kf173}up
+Dialogue: 0,0:01:09.15,0:01:13.29,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k60}Freeze {\k16}me {\k49}u-{\k50}u-{\kf129}up
+Dialogue: 0,0:01:12.40,0:01:17.97,eng,,0,0,0,fx,{\k90\fad(300,200)}{\k50}Freeze {\k16}me {\k33}up{\k48} {\k31}deep {\k29}in{\k35}side {\k102}of {\kf103}sleep
