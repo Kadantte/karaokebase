@@ -1,0 +1,95 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: メルティ♡キッチン
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FDC50E,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tomoya,Arial,24,&H00FFFFFF,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Nazuna,Arial,24,&H00FFFFFF,&H003E3FE0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mitsuru,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hajime,Arial,24,&H00FFFFFF,&H00FF87B8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H00A0E552,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mitsuru Symbol,Arial,30,&H00008AFF,&H00008AFF,&H00000000,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hajime Symbol,Arial,30,&H00FF87B8,&H00FF87B8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Nazuna Symbol,Arial,30,&H003E3FE0,&H003E3FE0,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tomoya Symbol,Arial,30,&H0041B5E6,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo Backing,Arial,24,&H00FFFFFF,&H00A0E552,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+Style: Backing,Arial,24,&H00FDC50E,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Up],,0,0,0,legend,{\k1000\k0}{\alignment(2)}{\k1000\k0}{\alignment(2)}ALL  {\rDuo}Duo/Trio\N{\rNazuna Symbol}♣ {\rNazuna}Nazuna  {\rHajime Symbol}♥ {\rHajime}Hajime \N{\rTomoya Symbol}♠ {\rTomoya}Tomoya  {\rMitsuru Symbol}♦ {\rMitsuru}Mitsuru
+Comment: 0,0:00:15.45,0:00:18.58,Tomoya,,0,0,0,karaoke,{\k0\rTomoya Symbol}♠{\r} {\k19}ki{\k24}mi {\k22}no {\k22}ko{\k20}to {\k63}wo {\k19}kan{\k22}ga{\k21}e {\k20}na{\k21}ga{\k40}ra
+Comment: 0,0:00:18.80,0:00:22.23,Tomoya,,0,0,0,karaoke,{\k0\rTomoya Symbol}♠{\r} {\k43}sha{\k18}ka {\k22}sha{\k19}ka {\k45}WHIP{\k41}PER {\k21}ka{\k21}ki {\k21}ma{\k42}wash'{\k50}te
+Comment: 0,0:00:22.76,0:00:25.68,Hajime,,0,0,0,karaoke,{\k0\rHajime Symbol}♥{\r} {\k21}CHO{\k21}CO{\k42}LA{\k21}TE {\k62}to {\k21}na{\k21}ma {\k20}C{\k21}REA{\k20}M {\k22}ni
+Comment: 0,0:00:25.89,0:00:28.36,Hajime,,0,0,0,karaoke,{\k0\rHajime Symbol}♥{\r} {\k42}sot{\k20}to {\k20}bo{\k21}ku {\k23}no {\k20}ki{\k20}mo{\k42}chi {\k39}IN
+Comment: 0,0:00:28.73,0:00:31.86,Mitsuru,,0,0,0,karaoke,{\k0\rMitsuru Symbol}♦{\r} {\k28}a{\k21}ji{\k22}mi {\k19}ba{\k21}k{\k56}ka {\k27}shi{\k30}te{\k33}ta {\k22}ka{\k34}ra
+Comment: 0,0:00:32.13,0:00:35.58,Mitsuru,,0,0,0,karaoke,{\k0\rMitsuru Symbol}♦{\r} {\k22}ha{\k22}na {\k18}no {\k22}shi{\k21}ta {\k42}ni {\k42}rip{\k21}pa {\k19}na {\k23}o{\k41}hi{\k52}ge
+Comment: 0,0:00:35.87,0:00:37.96,Nazuna,,0,0,0,karaoke,{\k0\rNazuna Symbol}♣{\r} {\k44}nee {\k17}nee, {\k24}CHO{\k21}CO{\k19}LATE {\k23}tte {\k42}hon{\k19}ba
+Comment: 0,0:00:37.97,0:00:42.34,Nazuna,,0,0,0,karaoke,{\k0\rNazuna Symbol}♣{\r} {\k22}no {\k20}CHO{\k22}CO{\k20}LA{\k42}TIER {\k40}ppok'{\k21}te {\k19}ni{\k44}at{\k21}te{\k41}run {\k22}ja{\kf103}nai?
+Comment: 0,0:00:43.37,0:00:48.89,Hajime,,0,0,0,karaoke,{\k0\rHajime Symbol}♥{\r} {\k18}ji{\k24}shi{\k20}n {\k22}nai {\k23}to{\k19}ki {\k61}ya {\k20}fu{\k45}an {\k21}na {\k19}to{\kf260}ki
+Comment: 0,0:00:46.93,0:00:51.42,Duo Backing,nm,0,0,0,karaoke,{\k0\rNazuna Symbol}♣{\r} {\k0\rMitsuru Symbol}♦{\r} {\k41}TEM{\k42}PE{\k41}RING {\kf325}TIME
+Comment: 0,0:00:49.15,0:00:52.86,Tomoya,,0,0,0,karaoke,{\k0\rTomoya Symbol}♠{\r} {\k27}ki{\k22}mi {\k21}no {\k21}ki{\k38}ra {\k46}ki{\k41}ra {\k60}no {\k25}e{\k38}gao {\k32}ni
+Comment: 0,0:00:53.17,0:00:56.56,Tomoya,,0,0,0,karaoke,{\k0\rTomoya Symbol}♠{\r} {\k43}gen{\k21}ki {\k84}wo {\k19}mo{\k64}rat{\k22}ta {\k86}yo
+Comment: 0,0:00:56.91,0:00:59.21,Duo,mth,0,0,0,karaoke,{\k0\rHajime Symbol}♥{\r} {\k0\rTomoya Symbol}♠{\r} {\k0\rMitsuru Symbol}♦{\r} {\k17}ya{\k23}sa{\k23}shi{\k22}sa {\k38}ni {\k23}tsu{\k22}tsu{\k23}ma{\k21}re{\k18}te
+Comment: 0,0:00:59.21,0:01:02.41,Duo,mth,0,0,0,karaoke,{\k0\rHajime Symbol}♥{\r} {\k0\rTomoya Symbol}♠{\r} {\k0\rMitsuru Symbol}♦{\r} {\k23}bo{\k19}ku{\k21}ra {\k42}sei{\k41}chou {\k21}shi{\k21}te {\k22}yu{\k42}kun{\k68}da
+Comment: 0,0:01:02.56,0:01:05.93,Nazuna,,0,0,0,karaoke,{\k0\rNazuna Symbol}♣{\r} {\k39}aa {\k22}ki{\k24}mi {\k60}ni {\k22}to{\k20}te{\k20}mo {\k42}kan{\k21}sha {\k21}shi{\k46}tai!
+Comment: 0,0:01:05.90,0:01:08.11,Duo,mth,0,0,0,karaoke,{\k0\rHajime Symbol}♥{\r} {\k0\rTomoya Symbol}♠{\r} {\k0\rMitsuru Symbol}♦{\r} {\k41}dat{\k17}te {\k24}se{\k22}ka{\k19}i {\k98}wa
+Comment: 0,0:01:07.52,0:01:09.41,Nazuna,,0,0,0,karaoke,{\k0\rNazuna Symbol}♣{\r} {\k41}dat{\k25}te {\k21}se{\k21}ka{\k21}i {\k60}wa
+Comment: 0,0:01:08.96,0:01:11.61,Sample KM [Up],,0,0,0,karaoke,{\k23}VA{\k22}LEN{\k43}TINE'S {\k41}DA{\kf136}~Y
+Comment: 0,0:01:12.30,0:01:13.15,Backing,,0,0,0,karaoke,{\k85}YAY!
+Comment: 0,0:01:12.98,0:01:16.05,Sample KM [Up],,0,0,0,karaoke,{\k41}u{\k20}ka{\k23}re{\k21}te {\k19}pyon {\k42}pyon {\k43}to{\k20}bi{\k21}de{\k19}te {\k22}pyon {\k16}pyon
+Comment: 0,0:01:16.30,0:01:18.52,Sample KM [Up],,0,0,0,karaoke,{\k42}u{\k21}sa{\k22}gi {\k18}de {\k24}go{\k20}za{\k21}i{\k54}mas'
+Comment: 0,0:01:19.24,0:01:24.95,Mitsuru,,0,0,0,karaoke,{\k0\rMitsuru Symbol}♦{\r} {\k19}ho{\k24}ra {\k38}ne {\k21}hon{\k22}ki {\k42}das' {\k41}to {\k39}u{\k24}sa{\k19}gi {\k22}ni {\k31}nac{\k32}cha{\k41}un{\k21}da {\kf135}ze
+Comment: 0,0:01:26.29,0:01:29.38,Sample KM [Up],,0,0,0,karaoke,{\k48}tak'{\k35}san {\k23}no {\k22}FUN {\k39}FUN {\k52}HEAR{\k33}T {\k22}wo {\k20}FUN {\k15}FUN
+Comment: 0,0:01:29.63,0:01:31.89,Sample KM [Up],,0,0,0,karaoke,{\k42}a{\k22}ri{\k18}ga{\k24}to {\k20}go{\k22}za{\k20}i{\k58}mas'
+Comment: 0,0:01:32.55,0:01:35.43,Hajime,,0,0,0,karaoke,{\k0\rHajime Symbol}♥{\r} {\k22}ki{\k21}mi {\k39}ni {\k23}te{\k20}zu{\k41}ku{\k21}ri {\k20}no {\k37}CHO{\k12}CO {\k32}wo
+Comment: 0,0:01:35.89,0:01:39.10,Hajime,,0,0,0,karaoke,{\k0\rHajime Symbol}♥{\r} {\k20}o{\k20}to{\k43}do{\k22}ke {\k20}ni {\k42}yat{\k21}te{\k20}ki{\k41}mash'{\k72}ta
+Comment: 0,0:01:39.21,0:01:40.81,Tomoya,,0,0,0,karaoke,{\k0\rTomoya Symbol}♠{\r} {\k23}a{\k21}ma{\k41}ku{\k75}te
+Comment: 0,0:01:40.83,0:01:42.45,Hajime,,0,0,0,karaoke,{\k0\rHajime Symbol}♥{\r} {\k26}shop{\k22}pa{\k40}ku{\k74}te
+Comment: 0,0:01:42.54,0:01:45.65,Mitsuru,,0,0,0,karaoke,{\k0\rMitsuru Symbol}♦{\r} {\k23}MA{\k20}GI{\k44}CA{\k19}L {\k20}na {\k20}a{\k21}ji {\k21}ka{\k23}mo {\k32}da{\k29}ke{\k39}do
+Comment: 0,0:01:45.89,0:01:49.86,Sample KM [Up],,0,0,0,karaoke,{\k19}u{\k21}sa{\k40}gi {\k24}na{\k21}ri {\k41}no {\k20}KISS {\k23}AND {\k41}LO{\k20}VE {\k22}ga {\kf105}gyuu
+Comment: 0,0:01:50.05,0:01:52.54,Sample KM [Up],,0,0,0,karaoke,{\k18}tte {\k24}tsu{\k21}ma{\k21}t{\k22}te{\k17}ru {\kf126}yo
+Comment: 0,0:01:52.97,0:01:56.67,Nazuna,,0,0,0,karaoke,{\k0\rNazuna Symbol}♣{\r} {\k23}ta{\k19}be{\k21}sa{\k21}se{\k39}te {\k23}a{\k22}ge{\k82}ru {\k57}aan {\k26}shi{\k37}te
+Comment: 0,0:02:02.12,0:02:03.33,Sample KM [Up],,0,0,0,karaoke,{\k58}aan {\k28}shi{\k35}te
+Dialogue: 0,0:00:14.55,0:00:18.78,Tomoya,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTomoya Symbol}♠{\r} {\k19}ki{\k24}mi {\k22}no {\k22}ko{\k20}to {\k63}wo {\k19}kan{\k22}ga{\k21}e {\k20}na{\k21}ga{\k40}ra
+Dialogue: 0,0:00:17.90,0:00:22.43,Tomoya,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTomoya Symbol}♠{\r} {\k43}sha{\k18}ka {\k22}sha{\k19}ka {\k45}WHIP{\k41}PER {\k21}ka{\k21}ki {\k21}ma{\k42}wash'{\k50}te
+Dialogue: 0,0:00:21.86,0:00:25.88,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHajime Symbol}♥{\r} {\k21}CHO{\k21}CO{\k42}LA{\k21}TE {\k62}to {\k21}na{\k21}ma {\k20}C{\k21}REA{\k20}M {\k22}ni
+Dialogue: 0,0:00:24.99,0:00:28.56,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHajime Symbol}♥{\r} {\k42}sot{\k20}to {\k20}bo{\k21}ku {\k23}no {\k20}ki{\k20}mo{\k42}chi {\k39}IN
+Dialogue: 0,0:00:27.83,0:00:32.06,Mitsuru,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMitsuru Symbol}♦{\r} {\k28}a{\k21}ji{\k22}mi {\k19}ba{\k21}k{\k56}ka {\k27}shi{\k30}te{\k33}ta {\k22}ka{\k34}ra
+Dialogue: 0,0:00:31.23,0:00:35.78,Mitsuru,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMitsuru Symbol}♦{\r} {\k22}ha{\k22}na {\k18}no {\k22}shi{\k21}ta {\k42}ni {\k42}rip{\k21}pa {\k19}na {\k23}o{\k41}hi{\k52}ge
+Dialogue: 0,0:00:34.97,0:00:38.16,Nazuna,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNazuna Symbol}♣{\r} {\k44}nee {\k17}nee, {\k24}CHO{\k21}CO{\k19}LATE {\k23}tte {\k42}hon{\k19}ba
+Dialogue: 0,0:00:37.07,0:00:42.54,Nazuna,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNazuna Symbol}♣{\r} {\k22}no {\k20}CHO{\k22}CO{\k20}LA{\k42}TIER {\k40}ppok'{\k21}te {\k19}ni{\k44}at{\k21}te{\k41}run {\k22}ja{\kf103}nai?
+Dialogue: 0,0:00:42.47,0:00:49.09,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHajime Symbol}♥{\r} {\k18}ji{\k24}shi{\k20}n {\k22}nai {\k23}to{\k19}ki {\k61}ya {\k20}fu{\k45}an {\k21}na {\k19}to{\kf260}ki
+Dialogue: 0,0:00:46.03,0:00:51.62,Duo Backing,nm,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNazuna Symbol}♣{\r} {\k0\rMitsuru Symbol}♦{\r} {\k41}TEM{\k42}PE{\k41}RING {\kf325}TIME
+Dialogue: 0,0:00:48.25,0:00:53.06,Tomoya,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTomoya Symbol}♠{\r} {\k27}ki{\k22}mi {\k21}no {\k21}ki{\k38}ra {\k46}ki{\k41}ra {\k60}no {\k25}e{\k38}gao {\k32}ni
+Dialogue: 0,0:00:52.27,0:00:56.76,Tomoya,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTomoya Symbol}♠{\r} {\k43}gen{\k21}ki {\k84}wo {\k19}mo{\k64}rat{\k22}ta {\k86}yo
+Dialogue: 0,0:00:56.01,0:00:59.41,Duo,mth,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHajime Symbol}♥{\r} {\k0\rTomoya Symbol}♠{\r} {\k0\rMitsuru Symbol}♦{\r} {\k17}ya{\k23}sa{\k23}shi{\k22}sa {\k38}ni {\k23}tsu{\k22}tsu{\k23}ma{\k21}re{\k18}te
+Dialogue: 0,0:00:58.31,0:01:02.61,Duo,mth,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHajime Symbol}♥{\r} {\k0\rTomoya Symbol}♠{\r} {\k0\rMitsuru Symbol}♦{\r} {\k23}bo{\k19}ku{\k21}ra {\k42}sei{\k41}chou {\k21}shi{\k21}te {\k22}yu{\k42}kun{\k68}da
+Dialogue: 0,0:01:01.66,0:01:06.13,Nazuna,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNazuna Symbol}♣{\r} {\k39}aa {\k22}ki{\k24}mi {\k60}ni {\k22}to{\k20}te{\k20}mo {\k42}kan{\k21}sha {\k21}shi{\k46}tai!
+Dialogue: 0,0:01:05.00,0:01:08.31,Duo,mth,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHajime Symbol}♥{\r} {\k0\rTomoya Symbol}♠{\r} {\k0\rMitsuru Symbol}♦{\r} {\k41}dat{\k17}te {\k24}se{\k22}ka{\k19}i {\k98}wa
+Dialogue: 0,0:01:06.62,0:01:09.61,Nazuna,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNazuna Symbol}♣{\r} {\k41}dat{\k25}te {\k21}se{\k21}ka{\k21}i {\k60}wa
+Dialogue: 0,0:01:08.06,0:01:11.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}VA{\k22}LEN{\k43}TINE'S {\k41}DA{\kf136}~Y
+Dialogue: 0,0:01:11.40,0:01:13.35,Backing,,0,0,0,fx,{\k90\fad(300,200)}{\k85}YAY!
+Dialogue: 0,0:01:12.08,0:01:16.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}u{\k20}ka{\k23}re{\k21}te {\k19}pyon {\k42}pyon {\k43}to{\k20}bi{\k21}de{\k19}te {\k22}pyon {\k16}pyon
+Dialogue: 0,0:01:15.40,0:01:18.72,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}u{\k21}sa{\k22}gi {\k18}de {\k24}go{\k20}za{\k21}i{\k54}mas'
+Dialogue: 0,0:01:18.34,0:01:25.15,Mitsuru,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMitsuru Symbol}♦{\r} {\k19}ho{\k24}ra {\k38}ne {\k21}hon{\k22}ki {\k42}das' {\k41}to {\k39}u{\k24}sa{\k19}gi {\k22}ni {\k31}nac{\k32}cha{\k41}un{\k21}da {\kf135}ze
+Dialogue: 0,0:01:25.39,0:01:29.58,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}tak'{\k35}san {\k23}no {\k22}FUN {\k39}FUN {\k52}HEAR{\k33}T {\k22}wo {\k20}FUN {\k15}FUN
+Dialogue: 0,0:01:28.73,0:01:32.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}a{\k22}ri{\k18}ga{\k24}to {\k20}go{\k22}za{\k20}i{\k58}mas'
+Dialogue: 0,0:01:31.65,0:01:35.63,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHajime Symbol}♥{\r} {\k22}ki{\k21}mi {\k39}ni {\k23}te{\k20}zu{\k41}ku{\k21}ri {\k20}no {\k37}CHO{\k12}CO {\k32}wo
+Dialogue: 0,0:01:34.99,0:01:39.30,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHajime Symbol}♥{\r} {\k20}o{\k20}to{\k43}do{\k22}ke {\k20}ni {\k42}yat{\k21}te{\k20}ki{\k41}mash'{\k72}ta
+Dialogue: 0,0:01:38.31,0:01:41.01,Tomoya,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTomoya Symbol}♠{\r} {\k23}a{\k21}ma{\k41}ku{\k75}te
+Dialogue: 0,0:01:39.93,0:01:42.65,Hajime,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHajime Symbol}♥{\r} {\k26}shop{\k22}pa{\k40}ku{\k74}te
+Dialogue: 0,0:01:41.64,0:01:45.85,Mitsuru,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMitsuru Symbol}♦{\r} {\k23}MA{\k20}GI{\k44}CA{\k19}L {\k20}na {\k20}a{\k21}ji {\k21}ka{\k23}mo {\k32}da{\k29}ke{\k39}do
+Dialogue: 0,0:01:44.99,0:01:50.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}u{\k21}sa{\k40}gi {\k24}na{\k21}ri {\k41}no {\k20}KISS {\k23}AND {\k41}LO{\k20}VE {\k22}ga {\kf105}gyuu
+Dialogue: 0,0:01:49.15,0:01:52.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}tte {\k24}tsu{\k21}ma{\k21}t{\k22}te{\k17}ru {\kf126}yo
+Dialogue: 0,0:01:52.07,0:01:56.87,Nazuna,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNazuna Symbol}♣{\r} {\k23}ta{\k19}be{\k21}sa{\k21}se{\k39}te {\k23}a{\k22}ge{\k82}ru {\k57}aan {\k26}shi{\k37}te
+Dialogue: 0,0:02:01.22,0:02:03.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k58}aan {\k28}shi{\k35}te
