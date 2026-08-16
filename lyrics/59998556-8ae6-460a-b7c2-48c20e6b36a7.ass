@@ -1,0 +1,186 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: 爆夏!!トロピカバケーション
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00F3B646,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Noel,Arial,24,&H00FFFFFF,&H00B8A89B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Watame,Arial,24,&H00FFFFFF,&H00FF87B8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Flare,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Subaru,Arial,24,&H00FFFFFF,&H002BE02D,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H00FDC50E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Flare Symbol,Arial,30,&H00008AFF,&H00008AFF,&H00000000,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Subaru Symbol,Arial,30,&H002BE02D,&H002BE02D,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Watame Symbol,Arial,30,&H00FF87B8,&H00FF87B8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Noel Symbol,Arial,30,&H00B8A89B,&H00B8A89B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kanade,Arial,24,&H00FFFFFF,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kanade Symbol,Arial,24,&H0041B5E6,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM down,Arial,24,&H00FDC50E,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+Style: Flare backing,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+Style: Watame backing,Arial,24,&H00FFFFFF,&H00FF87B8,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Up],,0,0,0,legend,{\k1000\k0}{\alignment(2)}{\k1000\k0}{\alignment(2)}ALL {\rDuo}Multiple Singers\N{\rWatame Symbol}♣ {\rWatame}Watame  {\rSubaru Symbol}♥ {\rSubaru}Subaru  {\rNoel Symbol}♠ {\rNoel}Noel  {\rFlare Symbol}♦ {\rFlare}Flare  {\rKanade Symbol}♪ {\rKanade}Kanade
+Comment: 0,0:00:06.03,0:00:09.12,Sample KM [Up],,0,0,0,karaoke,{\k85}OOH! {\kf224}WAH!
+Comment: 0,0:00:10.11,0:00:12.36,Sample KM [Up],,0,0,0,karaoke,{\k41}GO! {\k38}GO! {\k33}ya{\k31}hoo{\k39}ro {\k20}na{\k23}tsu
+Comment: 0,0:00:12.36,0:00:13.31,Flare,,0,0,0,karaoke,{\k0\rFlare Symbol}♦{\r} {\k19}AT{\k28}TEN{\k48}TION!
+Comment: 0,0:00:13.32,0:00:14.05,Sample KM down,,0,0,0,karaoke,{\k23}SUM{\k50}MER!
+Comment: 0,0:00:13.76,0:00:14.96,Subaru,,0,0,0,karaoke,{\k0\rSubaru Symbol}♥{\r} {\k7}a{\k10}chi {\k9}a{\k13}chi {\k14}SUN{\k20}NY {\k47}TIME
+Comment: 0,0:00:14.98,0:00:15.67,Sample KM down,,0,0,0,karaoke,{\k69}BEACH!
+Comment: 0,0:00:15.37,0:00:16.56,Kanade,,0,0,0,karaoke,{\k0\rKanade Symbol}♪{\r} {\k14}ba{\k8}ku{\k11}a{\k11}ge {\k11}E{\k18}MO{\k46}TION
+Comment: 0,0:00:16.37,0:00:17.30,Sample KM down,,0,0,0,karaoke,{\k24}A{\k30}MI{\k39}GO!
+Comment: 0,0:00:16.97,0:00:18.00,Subaru,,0,0,0,karaoke,{\k0\rSubaru Symbol}♥{\r} {\k22}ret{\k11}tsu{\k11}ra {\k12}to{\k7}bi{\k12}da{\k28}sou
+Comment: 0,0:00:18.01,0:00:19.77,Duo,wata noel flare,0,0,0,karaoke,{\k0\rFlare Symbol}♦{\r} {\k0\rNoel Symbol}♠{\r} {\k0\rWatame Symbol}♣{\r} {\k22}saa {\k29}BREAK {\k31}OU{\k18}T! {\k32}b'rei{\k44}kou!
+Comment: 0,0:00:19.84,0:00:20.54,Sample KM down,,0,0,0,karaoke,{\k23}SUM{\k47}MER!
+Comment: 0,0:00:20.24,0:00:21.72,Flare,,0,0,0,karaoke,{\k0\rFlare Symbol}♦{\r} {\k11}to{\k8}ki{\k12}me{\k11}ki {\k31}jou{\k32}shou{\k43}chuu
+Comment: 0,0:00:21.43,0:00:22.17,Sample KM down,,0,0,0,karaoke,{\k74}BEACH!
+Comment: 0,0:00:21.86,0:00:23.28,Noel,,0,0,0,karaoke,{\k0\rNoel Symbol}♠{\r} {\k11}BI{\k11}KI{\k10}NI {\k11}de {\k30}B{\k29}B{\k40}Q
+Comment: 0,0:00:22.88,0:00:23.67,Sample KM down,,0,0,0,karaoke,{\k20}A{\k19}MO{\k40}RE!
+Comment: 0,0:00:23.28,0:00:24.92,Watame,,0,0,0,karaoke,{\k0\rWatame Symbol}♣{\r} {\k23}o{\k18}ni{\k21}ku {\k31}juu {\k30}juu {\k41}juu
+Comment: 0,0:00:24.67,0:00:25.94,Kanade,,0,0,0,karaoke,{\k0\rKanade Symbol}♪{\r} {\k41}oi{\k86}chii!
+Comment: 0,0:00:25.65,0:00:28.94,Subaru,,0,0,0,karaoke,{\k0\rSubaru Symbol}♥{\r} {\k28}shi{\k20}o{\k20}ka{\k32}ze {\k31}so{\k41}yo{\k15}gu {\k23}su{\k22}na{\k31}ha{\k29}ma {\k37}de
+Comment: 0,0:00:28.95,0:00:32.64,Watame,,0,0,0,karaoke,{\k0\rWatame Symbol}♣{\r} {\k20}ha{\k23}sha{\k20}ge! {\k40}T{\k39}RO{\k39}PI{\k44}CA {\k36}VA{\k36}CA{\k72}TION
+Comment: 0,0:00:32.20,0:00:32.83,Sample KM down,,0,0,0,karaoke,{\k17}OOH {\k46}HOO!
+Comment: 0,0:00:32.83,0:00:35.62,Noel,,0,0,0,karaoke,{\k0\rNoel Symbol}♠{\r} {\k20}mu{\k19}na{\k21}mo{\k21}to {\k20}ni {\k19}a{\k21}se {\k21}ha{\k39}ji{\k43}ke{\k35}ru
+Comment: 0,0:00:35.65,0:00:36.21,Sample KM down,,0,0,0,karaoke,{\k22}JUMP {\k34}UP!
+Comment: 0,0:00:36.25,0:00:37.49,Kanade,,0,0,0,karaoke,{\k0\rKanade Symbol}♪{\r} {\k12}a{\k10}ta{\k10}shi {\k12}wo {\k17}ma{\k13}t{\k19}te{\k31}ru
+Comment: 0,0:00:37.23,0:00:37.81,Sample KM down,,0,0,0,karaoke,{\k25}JUMP {\k33}UP!
+Comment: 0,0:00:37.87,0:00:39.11,Flare,,0,0,0,karaoke,{\k0\rFlare Symbol}♦{\r} {\k11}yu{\k12}me {\k18}no {\k22}ra{\k9}ku{\k23}e{\k29}n
+Comment: 0,0:00:38.79,0:00:39.47,Sample KM down,,0,0,0,karaoke,{\k31}JUMP {\k37}UP!
+Comment: 0,0:00:39.68,0:00:41.01,Sample KM [Up],,0,0,0,karaoke,{\k77}OOH! {\k56}HAA!
+Comment: 0,0:00:41.93,0:00:42.56,Subaru,,0,0,0,karaoke,{\k0\rSubaru Symbol}♥{\r} {\k22}OOH, {\k21}BA{\k20}BY!
+Comment: 0,0:00:42.57,0:00:45.53,Sample KM [Up],,0,0,0,karaoke,{\k18}PAR{\k19}TY! {\k22}PAR{\k19}TY! {\k33}PAR{\k29}TY! {\k39}ta{\k18}no{\k23}shin{\k20}ja{\k30}ou {\k26}yo
+Comment: 0,0:00:45.56,0:00:48.64,Sample KM [Up],,0,0,0,karaoke,{\k42}chop{\k22}pi{\k21}ri {\k20}shi{\k21}ge{\k19}ki {\k21}ga {\k19}mo{\k20}no{\k21}ta{\k20}ri{\k62}nai
+Comment: 0,0:00:48.31,0:00:49.01,Sample KM down,,0,0,0,karaoke,{\k31}yaa{\k39}man
+Comment: 0,0:00:49.03,0:00:51.99,Sample KM [Up],,0,0,0,karaoke,{\k39}dai{\k23}tan {\k20}ni {\k29}mot{\k33}to {\k39}ha{\k19}ji{\k20}ke{\k19}cha{\k33}ou {\k22}yo
+Comment: 0,0:00:52.06,0:00:55.10,Sample KM [Up],,0,0,0,karaoke,{\k41}shou{\k21}ga{\k41}nai {\k24}ne {\k17}ze{\k20}n{\k19}bu {\k22}na{\k18}tsu {\k12}no {\k20}se{\k49}i
+Comment: 0,0:00:54.89,0:00:55.77,Flare backing,,0,0,0,karaoke,{\k0\rFlare Symbol}♦{\r} {\k22}da{\k66}mon
+Comment: 0,0:00:55.50,0:00:56.78,Watame,,0,0,0,karaoke,{\k0\rWatame Symbol}♣{\r} {\k27}a{\k16}fu{\k21}re{\k64}ru
+Comment: 0,0:00:56.32,0:00:57.73,Sample KM down,,0,0,0,karaoke,{\k20}HAP{\k39}PI{\k82}NESS
+Comment: 0,0:00:57.13,0:00:58.49,Kanade,,0,0,0,karaoke,{\k0\rKanade Symbol}♪{\r} {\k20}o{\k24}mo{\k23}i {\k69}ni
+Comment: 0,0:00:57.93,0:00:59.57,Flare backing,,0,0,0,karaoke,{\k0\rFlare Symbol}♦{\r} {\k34}chou {\k34}sai{\k96}kou
+Comment: 0,0:00:58.75,0:01:01.29,Noel,,0,0,0,karaoke,{\k0\rNoel Symbol}♠{\r} {\k30}zut{\k32}to {\k22}hi{\k30}tat{\k28}te {\k23}i{\k31}ta{\k27}i {\k31}no
+Comment: 0,0:01:01.40,0:01:02.71,Subaru,,0,0,0,karaoke,{\k0\rSubaru Symbol}♥{\r} {\k21}mu{\k21}ne {\k89}ni
+Comment: 0,0:01:02.22,0:01:03.51,Sample KM down,,0,0,0,karaoke,{\k19}FO{\k21}RE{\k89}VER
+Comment: 0,0:01:03.02,0:01:04.25,Flare,,0,0,0,karaoke,{\k0\rFlare Symbol}♦{\r} {\k21}ki{\k18}za{\k84}mu
+Comment: 0,0:01:03.91,0:01:04.83,Sample KM down,,0,0,0,karaoke,{\k13}RE{\k21}MEM{\k58}BER
+Comment: 0,0:01:04.65,0:01:10.25,Sample KM [Up],,0,0,0,karaoke,{\k19}to{\k22}ro{\k57}ke{\k46}cha{\k37}i{\k39}sou {\k23}na {\k23}do{\k17}ki{\k21}do{\k20}ki {\k21}ME{\k21}MO{\kf194}RIES
+Comment: 0,0:01:10.83,0:01:12.95,Noel,,0,0,0,karaoke,{\k0\rNoel Symbol}♠{\r} {\k17}"ko{\k14}re {\k36}ga {\k15}u{\k10}chi{\k14}ra {\k14}no {\k12}na{\k17}tsu {\k63}daa!"
+Comment: 0,0:01:13.28,0:01:14.84,Noel,,0,0,0,karaoke,{\k0\rNoel Symbol}♠{\r} {\k51}"ARE {\k39}YOU {\k20}REA{\k46}DY?"
+Comment: 0,0:01:14.97,0:01:16.32,Watame,,0,0,0,karaoke,{\k0\rWatame Symbol}♣{\r} {\k18}o{\k24}ki {\k18}ma{\k21}de {\k34}bou{\k20}ken
+Comment: 0,0:01:16.32,0:01:17.97,Watame,,0,0,0,karaoke,{\k0\rWatame Symbol}♣{\r} {\k8}BA{\k12}NA{\k9}NA {\k40}BOA{\k21}T {\k17}de {\k21}shup{\k12}pa{\k25}tsu!
+Comment: 0,0:01:17.99,0:01:19.60,Watame,,0,0,0,karaoke,{\k0\rWatame Symbol}♣{\r} {\k22}SAY {\k61}OH {\k78}YEAH!
+Comment: 0,0:01:19.82,0:01:21.16,Sample KM down,,0,0,0,karaoke,{\k56}OH {\k78}YEAH!
+Comment: 0,0:01:21.48,0:01:24.38,Subaru,,0,0,0,karaoke,{\k0\rSubaru Symbol}♥{\r} {\k39}tai{\k38}you {\k30}SUN {\k26}SUN {\k16}BEA{\k11}CH {\k23}VOL{\k39}LEY {\k20}de {\k18}tai{\k14}ke{\k16}tsu
+Comment: 0,0:01:24.38,0:01:26.20,Subaru,,0,0,0,karaoke,{\k0\rSubaru Symbol}♥{\r} {\k12}COME {\k21}ON! {\k59}OH {\k90}YEAH!
+Comment: 0,0:01:26.32,0:01:27.86,Sample KM down,,0,0,0,karaoke,{\k60}OH {\k94}YEAH!
+Comment: 0,0:01:27.93,0:01:29.27,Flare,,0,0,0,karaoke,{\k0\rFlare Symbol}♦{\r} {\k20}o{\k21}shi{\k22}ri {\k21}no {\k12}su{\k18}na {\k20}wo
+Comment: 0,0:01:29.27,0:01:31.18,Flare,,0,0,0,karaoke,{\k0\rFlare Symbol}♦{\r} {\k20}sot{\k7}to {\k17}ha{\k26}ra{\k22}i{\k21}no{\k11}ke{\k8}ru {\k29}shi{\k11}gu{\k9}sa {\k10}ga
+Comment: 0,0:01:31.20,0:01:32.99,Flare,,0,0,0,karaoke,{\k0\rFlare Symbol}♦{\r} {\k48}SE{\k55}XY!! {\k19}A{\k57}GAIN~
+Comment: 0,0:01:32.77,0:01:34.14,Sample KM down,,0,0,0,karaoke,{\k62}OH {\k75}YEAH!
+Comment: 0,0:01:34.19,0:01:37.31,Kanade,,0,0,0,karaoke,{\k0\rKanade Symbol}♪{\r} {\k45}ya{\k21}ki{\k22}so{\k18}ba {\k11}ka{\k11}ta{\k8}te {\k32}ni {\k10}ku{\k26}shi{\k24}ya{\k19}ki {\k13}mo{\k19}gu {\k21}mo{\k12}gu
+Comment: 0,0:01:37.35,0:01:39.28,Kanade,,0,0,0,karaoke,{\k0\rKanade Symbol}♪{\r} {\k12}ko{\k11}re {\k11}mo {\k47}SE{\k53}XY? {\k22}A{\k37}HAA!
+Comment: 0,0:01:39.28,0:01:40.73,Sample KM down,,0,0,0,karaoke,{\k56}OH {\k89}YEAH!
+Comment: 0,0:01:40.93,0:01:45.56,Noel,,0,0,0,karaoke,{\k0\rNoel Symbol}♠{\r} {\k17}ha{\k20}cha{\k21}me{\k22}cha {\k31}HAP{\kf352}PY
+Comment: 0,0:01:42.50,0:01:45.56,Watame,,0,0,0,karaoke,{\k0\rWatame Symbol}♣{\r} {\k23}hac{\k23}cha{\k19}ke{\k20}te {\k39}DAN{\kf182}CING
+Comment: 0,0:01:44.16,0:01:45.56,Flare,,0,0,0,karaoke,{\k0\rFlare Symbol}♦{\r} {\k23}chou {\k20}HAP{\k20}PY {\k19}na {\k31}DREA{\k27}MING
+Comment: 0,0:01:45.57,0:01:47.53,Duo,wata noel kanade flare,0,0,0,karaoke,{\k0\rFlare Symbol}♦{\r} {\k0\rKanade Symbol}♪{\r} {\k0\rNoel Symbol}♠{\r} {\k0\rWatame Symbol}♣{\r} {\k41}e{\k19}i{\k41}en {\k17}ni {\k26}tsu{\k21}zu{\k31}ke
+Comment: 0,0:01:47.79,0:01:49.82,Subaru,,0,0,0,karaoke,{\k0\rSubaru Symbol}♥{\r} {\k45}"nn! {\k18}ok{\k16}ka{\k17}wa{\kf107}rii!"
+Comment: 0,0:01:50.64,0:01:53.59,Sample KM [Up],,0,0,0,karaoke,{\k23}PART{\k18}Y! {\k20}PAR{\k21}TY! {\k31}PAR{\k30}TY! {\k41}but{\k19}ton {\k22}jat{\k21}tei{\k29}kou {\k20}yo
+Comment: 0,0:01:53.71,0:01:56.73,Sample KM [Up],,0,0,0,karaoke,{\k39}mou {\k21}hi{\k20}ya{\k21}ke {\k19}no {\k20}a{\k21}to {\k20}mo {\k20}ki {\k19}ni {\k22}shi{\k60}nai
+Comment: 0,0:01:56.45,0:01:57.14,Sample KM down,,0,0,0,karaoke,{\k27}yaa{\k42}man
+Comment: 0,0:01:57.15,0:02:00.10,Sample KM [Up],,0,0,0,karaoke,{\k38}dai{\k22}tan {\k18}ni {\k34}mot{\k28}to {\k43}mou{\k17}re{\k23}tsu {\k18}ni {\k32}mot{\k22}to
+Comment: 0,0:02:00.17,0:02:03.20,Sample KM [Up],,0,0,0,karaoke,{\k42}ii {\k18}de{\k22}sho? {\k21}dat{\k21}te {\k20}ze{\k20}n{\k21}bu {\k20}na{\k19}tsu {\k12}no {\k19}se{\k48}i
+Comment: 0,0:02:02.96,0:02:03.73,Watame backing,,0,0,0,karaoke,{\k0\rWatame Symbol}♣{\r} {\k26}da{\k51}mon
+Comment: 0,0:02:03.61,0:02:05.01,Kanade,,0,0,0,karaoke,{\k0\rKanade Symbol}♪{\r} {\k20}HAP{\k19}PY {\k15}SUM{\k19}MER {\k67}TIME
+Comment: 0,0:02:04.59,0:02:05.19,Sample KM down,,0,0,0,karaoke,{\k24}OOH {\k36}OOH!
+Comment: 0,0:02:05.20,0:02:06.59,Watame,,0,0,0,karaoke,{\k0\rWatame Symbol}♣{\r} {\k23}HAP{\k22}PY {\k12}SUM{\k18}MER {\k64}TIME
+Comment: 0,0:02:06.27,0:02:06.83,Sample KM down,,0,0,0,karaoke,{\k20}OOH {\k36}OOH!
+Comment: 0,0:02:06.85,0:02:08.89,Sample KM [Up],,0,0,0,karaoke,{\k22}T{\k19}RO{\k12}PI{\k21}CA {\k29}VA{\k17}CA{\k20}~{\k64}TION!
+Comment: 0,0:02:09.07,0:02:12.07,Sample KM [Up],,0,0,0,karaoke,{\kf300}WAAAAAH!
+Dialogue: 0,0:00:05.13,0:00:09.32,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k85}OOH! {\kf224}WAH!
+Dialogue: 0,0:00:09.21,0:00:12.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}GO! {\k38}GO! {\k33}ya{\k31}hoo{\k39}ro {\k20}na{\k23}tsu
+Dialogue: 0,0:00:11.46,0:00:13.51,Flare,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rFlare Symbol}♦{\r} {\k19}AT{\k28}TEN{\k48}TION!
+Dialogue: 0,0:00:12.42,0:00:14.25,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k23}SUM{\k50}MER!
+Dialogue: 0,0:00:12.86,0:00:15.16,Subaru,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSubaru Symbol}♥{\r} {\k7}a{\k10}chi {\k9}a{\k13}chi {\k14}SUN{\k20}NY {\k47}TIME
+Dialogue: 0,0:00:14.08,0:00:15.87,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k69}BEACH!
+Dialogue: 0,0:00:14.47,0:00:16.76,Kanade,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rKanade Symbol}♪{\r} {\k14}ba{\k8}ku{\k11}a{\k11}ge {\k11}E{\k18}MO{\k46}TION
+Dialogue: 0,0:00:15.47,0:00:17.50,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k24}A{\k30}MI{\k39}GO!
+Dialogue: 0,0:00:16.07,0:00:18.20,Subaru,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSubaru Symbol}♥{\r} {\k22}ret{\k11}tsu{\k11}ra {\k12}to{\k7}bi{\k12}da{\k28}sou
+Dialogue: 0,0:00:17.11,0:00:19.97,Duo,wata noel flare,0,0,0,fx,{\k90\fad(300,200)}{\k0\rFlare Symbol}♦{\r} {\k0\rNoel Symbol}♠{\r} {\k0\rWatame Symbol}♣{\r} {\k22}saa {\k29}BREAK {\k31}OU{\k18}T! {\k32}b'rei{\k44}kou!
+Dialogue: 0,0:00:18.94,0:00:20.74,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k23}SUM{\k47}MER!
+Dialogue: 0,0:00:19.34,0:00:21.92,Flare,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rFlare Symbol}♦{\r} {\k11}to{\k8}ki{\k12}me{\k11}ki {\k31}jou{\k32}shou{\k43}chuu
+Dialogue: 0,0:00:20.53,0:00:22.37,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k74}BEACH!
+Dialogue: 0,0:00:20.96,0:00:23.48,Noel,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNoel Symbol}♠{\r} {\k11}BI{\k11}KI{\k10}NI {\k11}de {\k30}B{\k29}B{\k40}Q
+Dialogue: 0,0:00:21.98,0:00:23.87,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k20}A{\k19}MO{\k40}RE!
+Dialogue: 0,0:00:22.38,0:00:25.12,Watame,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rWatame Symbol}♣{\r} {\k23}o{\k18}ni{\k21}ku {\k31}juu {\k30}juu {\k41}juu
+Dialogue: 0,0:00:23.77,0:00:26.14,Kanade,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rKanade Symbol}♪{\r} {\k41}oi{\k86}chii!
+Dialogue: 0,0:00:24.75,0:00:29.14,Subaru,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSubaru Symbol}♥{\r} {\k28}shi{\k20}o{\k20}ka{\k32}ze {\k31}so{\k41}yo{\k15}gu {\k23}su{\k22}na{\k31}ha{\k29}ma {\k37}de
+Dialogue: 0,0:00:28.05,0:00:32.84,Watame,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rWatame Symbol}♣{\r} {\k20}ha{\k23}sha{\k20}ge! {\k40}T{\k39}RO{\k39}PI{\k44}CA {\k36}VA{\k36}CA{\k72}TION
+Dialogue: 0,0:00:31.30,0:00:33.03,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k17}OOH {\k46}HOO!
+Dialogue: 0,0:00:31.93,0:00:35.82,Noel,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNoel Symbol}♠{\r} {\k20}mu{\k19}na{\k21}mo{\k21}to {\k20}ni {\k19}a{\k21}se {\k21}ha{\k39}ji{\k43}ke{\k35}ru
+Dialogue: 0,0:00:34.75,0:00:36.41,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k22}JUMP {\k34}UP!
+Dialogue: 0,0:00:35.35,0:00:37.69,Kanade,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rKanade Symbol}♪{\r} {\k12}a{\k10}ta{\k10}shi {\k12}wo {\k17}ma{\k13}t{\k19}te{\k31}ru
+Dialogue: 0,0:00:36.33,0:00:38.01,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k25}JUMP {\k33}UP!
+Dialogue: 0,0:00:36.97,0:00:39.31,Flare,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rFlare Symbol}♦{\r} {\k11}yu{\k12}me {\k18}no {\k22}ra{\k9}ku{\k23}e{\k29}n
+Dialogue: 0,0:00:37.89,0:00:39.67,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k31}JUMP {\k37}UP!
+Dialogue: 0,0:00:38.78,0:00:41.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k77}OOH! {\k56}HAA!
+Dialogue: 0,0:00:41.03,0:00:42.76,Subaru,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSubaru Symbol}♥{\r} {\k22}OOH, {\k21}BA{\k20}BY!
+Dialogue: 0,0:00:41.67,0:00:45.73,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}PAR{\k19}TY! {\k22}PAR{\k19}TY! {\k33}PAR{\k29}TY! {\k39}ta{\k18}no{\k23}shin{\k20}ja{\k30}ou {\k26}yo
+Dialogue: 0,0:00:44.66,0:00:48.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}chop{\k22}pi{\k21}ri {\k20}shi{\k21}ge{\k19}ki {\k21}ga {\k19}mo{\k20}no{\k21}ta{\k20}ri{\k62}nai
+Dialogue: 0,0:00:47.41,0:00:49.21,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k31}yaa{\k39}man
+Dialogue: 0,0:00:48.13,0:00:52.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}dai{\k23}tan {\k20}ni {\k29}mot{\k33}to {\k39}ha{\k19}ji{\k20}ke{\k19}cha{\k33}ou {\k22}yo
+Dialogue: 0,0:00:51.16,0:00:55.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k41}shou{\k21}ga{\k41}nai {\k24}ne {\k17}ze{\k20}n{\k19}bu {\k22}na{\k18}tsu {\k12}no {\k20}se{\k49}i
+Dialogue: 0,0:00:53.99,0:00:55.97,Flare backing,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rFlare Symbol}♦{\r} {\k22}da{\k66}mon
+Dialogue: 0,0:00:54.60,0:00:56.98,Watame,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rWatame Symbol}♣{\r} {\k27}a{\k16}fu{\k21}re{\k64}ru
+Dialogue: 0,0:00:55.42,0:00:57.93,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k20}HAP{\k39}PI{\k82}NESS
+Dialogue: 0,0:00:56.23,0:00:58.69,Kanade,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rKanade Symbol}♪{\r} {\k20}o{\k24}mo{\k23}i {\k69}ni
+Dialogue: 0,0:00:57.03,0:00:59.77,Flare backing,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rFlare Symbol}♦{\r} {\k34}chou {\k34}sai{\k96}kou
+Dialogue: 0,0:00:57.85,0:01:01.49,Noel,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNoel Symbol}♠{\r} {\k30}zut{\k32}to {\k22}hi{\k30}tat{\k28}te {\k23}i{\k31}ta{\k27}i {\k31}no
+Dialogue: 0,0:01:00.50,0:01:02.91,Subaru,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSubaru Symbol}♥{\r} {\k21}mu{\k21}ne {\k89}ni
+Dialogue: 0,0:01:01.32,0:01:03.71,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k19}FO{\k21}RE{\k89}VER
+Dialogue: 0,0:01:02.12,0:01:04.45,Flare,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rFlare Symbol}♦{\r} {\k21}ki{\k18}za{\k84}mu
+Dialogue: 0,0:01:03.01,0:01:05.03,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k13}RE{\k21}MEM{\k58}BER
+Dialogue: 0,0:01:03.75,0:01:10.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}to{\k22}ro{\k57}ke{\k46}cha{\k37}i{\k39}sou {\k23}na {\k23}do{\k17}ki{\k21}do{\k20}ki {\k21}ME{\k21}MO{\kf194}RIES
+Dialogue: 0,0:01:09.93,0:01:13.15,Noel,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNoel Symbol}♠{\r} {\k17}"ko{\k14}re {\k36}ga {\k15}u{\k10}chi{\k14}ra {\k14}no {\k12}na{\k17}tsu {\k63}daa!"
+Dialogue: 0,0:01:12.38,0:01:15.04,Noel,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNoel Symbol}♠{\r} {\k51}"ARE {\k39}YOU {\k20}REA{\k46}DY?"
+Dialogue: 0,0:01:14.07,0:01:16.52,Watame,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rWatame Symbol}♣{\r} {\k18}o{\k24}ki {\k18}ma{\k21}de {\k34}bou{\k20}ken
+Dialogue: 0,0:01:15.42,0:01:18.17,Watame,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rWatame Symbol}♣{\r} {\k8}BA{\k12}NA{\k9}NA {\k40}BOA{\k21}T {\k17}de {\k21}shup{\k12}pa{\k25}tsu!
+Dialogue: 0,0:01:17.09,0:01:19.80,Watame,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rWatame Symbol}♣{\r} {\k22}SAY {\k61}OH {\k78}YEAH!
+Dialogue: 0,0:01:18.92,0:01:21.36,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k56}OH {\k78}YEAH!
+Dialogue: 0,0:01:20.58,0:01:24.58,Subaru,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSubaru Symbol}♥{\r} {\k39}tai{\k38}you {\k30}SUN {\k26}SUN {\k16}BEA{\k11}CH {\k23}VOL{\k39}LEY {\k20}de {\k18}tai{\k14}ke{\k16}tsu
+Dialogue: 0,0:01:23.48,0:01:26.40,Subaru,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSubaru Symbol}♥{\r} {\k12}COME {\k21}ON! {\k59}OH {\k90}YEAH!
+Dialogue: 0,0:01:25.42,0:01:28.06,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k60}OH {\k94}YEAH!
+Dialogue: 0,0:01:27.03,0:01:29.47,Flare,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rFlare Symbol}♦{\r} {\k20}o{\k21}shi{\k22}ri {\k21}no {\k12}su{\k18}na {\k20}wo
+Dialogue: 0,0:01:28.37,0:01:31.38,Flare,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rFlare Symbol}♦{\r} {\k20}sot{\k7}to {\k17}ha{\k26}ra{\k22}i{\k21}no{\k11}ke{\k8}ru {\k29}shi{\k11}gu{\k9}sa {\k10}ga
+Dialogue: 0,0:01:30.30,0:01:33.19,Flare,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rFlare Symbol}♦{\r} {\k48}SE{\k55}XY!! {\k19}A{\k57}GAIN~
+Dialogue: 0,0:01:31.87,0:01:34.34,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k62}OH {\k75}YEAH!
+Dialogue: 0,0:01:33.29,0:01:37.51,Kanade,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rKanade Symbol}♪{\r} {\k45}ya{\k21}ki{\k22}so{\k18}ba {\k11}ka{\k11}ta{\k8}te {\k32}ni {\k10}ku{\k26}shi{\k24}ya{\k19}ki {\k13}mo{\k19}gu {\k21}mo{\k12}gu
+Dialogue: 0,0:01:36.45,0:01:39.48,Kanade,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rKanade Symbol}♪{\r} {\k12}ko{\k11}re {\k11}mo {\k47}SE{\k53}XY? {\k22}A{\k37}HAA!
+Dialogue: 0,0:01:38.38,0:01:40.93,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k56}OH {\k89}YEAH!
+Dialogue: 0,0:01:40.03,0:01:45.76,Noel,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNoel Symbol}♠{\r} {\k17}ha{\k20}cha{\k21}me{\k22}cha {\k31}HAP{\kf352}PY
+Dialogue: 0,0:01:41.60,0:01:45.76,Watame,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rWatame Symbol}♣{\r} {\k23}hac{\k23}cha{\k19}ke{\k20}te {\k39}DAN{\kf182}CING
+Dialogue: 0,0:01:43.26,0:01:45.76,Flare,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rFlare Symbol}♦{\r} {\k23}chou {\k20}HAP{\k20}PY {\k19}na {\k31}DREA{\k27}MING
+Dialogue: 0,0:01:44.67,0:01:47.73,Duo,wata noel kanade flare,0,0,0,fx,{\k90\fad(300,200)}{\k0\rFlare Symbol}♦{\r} {\k0\rKanade Symbol}♪{\r} {\k0\rNoel Symbol}♠{\r} {\k0\rWatame Symbol}♣{\r} {\k41}e{\k19}i{\k41}en {\k17}ni {\k26}tsu{\k21}zu{\k31}ke
+Dialogue: 0,0:01:46.89,0:01:50.02,Subaru,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSubaru Symbol}♥{\r} {\k45}"nn! {\k18}ok{\k16}ka{\k17}wa{\kf107}rii!"
+Dialogue: 0,0:01:49.74,0:01:53.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}PART{\k18}Y! {\k20}PAR{\k21}TY! {\k31}PAR{\k30}TY! {\k41}but{\k19}ton {\k22}jat{\k21}tei{\k29}kou {\k20}yo
+Dialogue: 0,0:01:52.81,0:01:56.93,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}mou {\k21}hi{\k20}ya{\k21}ke {\k19}no {\k20}a{\k21}to {\k20}mo {\k20}ki {\k19}ni {\k22}shi{\k60}nai
+Dialogue: 0,0:01:55.55,0:01:57.34,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k27}yaa{\k42}man
+Dialogue: 0,0:01:56.25,0:02:00.30,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k38}dai{\k22}tan {\k18}ni {\k34}mot{\k28}to {\k43}mou{\k17}re{\k23}tsu {\k18}ni {\k32}mot{\k22}to
+Dialogue: 0,0:01:59.27,0:02:03.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}ii {\k18}de{\k22}sho? {\k21}dat{\k21}te {\k20}ze{\k20}n{\k21}bu {\k20}na{\k19}tsu {\k12}no {\k19}se{\k48}i
+Dialogue: 0,0:02:02.06,0:02:03.93,Watame backing,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rWatame Symbol}♣{\r} {\k26}da{\k51}mon
+Dialogue: 0,0:02:02.71,0:02:05.21,Kanade,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rKanade Symbol}♪{\r} {\k20}HAP{\k19}PY {\k15}SUM{\k19}MER {\k67}TIME
+Dialogue: 0,0:02:03.69,0:02:05.39,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k24}OOH {\k36}OOH!
+Dialogue: 0,0:02:04.30,0:02:06.79,Watame,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rWatame Symbol}♣{\r} {\k23}HAP{\k22}PY {\k12}SUM{\k18}MER {\k64}TIME
+Dialogue: 0,0:02:05.37,0:02:07.03,Sample KM down,,0,0,0,fx,{\k90\fad(300,200)}{\k20}OOH {\k36}OOH!
+Dialogue: 0,0:02:05.95,0:02:09.09,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}T{\k19}RO{\k12}PI{\k21}CA {\k29}VA{\k17}CA{\k20}~{\k64}TION!
+Dialogue: 0,0:02:08.17,0:02:12.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf300}WAAAAAH!
