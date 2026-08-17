@@ -1,0 +1,227 @@
+﻿[Script Info]
+Title: Listen to my heart!!
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: torash
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Nico,Arial,24,&H00FFFFFF,&H008D4ED5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hanayo,Arial,24,&H00FFFFFF,&H003AAC23,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rin,Arial,24,&H00FFFFFF,&H0002F1FE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: µ's,Arial,24,&H00FFFFFF,&H007B00E4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Nico Symbol,Arial,24,&H008D4ED5,&H008D4ED5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hanayo Symbol,Arial,24,&H003AAC23,&H003AAC23,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rin Symbol,Arial,24,&H0002F1FE,&H0002F1FE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Nico,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rNico Symbol\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Hanayo,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rHanayo Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Rin,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rRin Symbol\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,µ's,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H8D4ED5&}♥ Nico{\c} | {\c&H3AAC23&}♠ Hanayo{\c} | {\c&H02F1FE&}♦ Rin{\c} | {\c&H7B00E4&}µ's
+Comment: 0,0:00:00.96,0:00:03.98,µ's,,0,0,0,karaoke,{\k19}a{\k23}so{\k36}bou {\k26}ha{\k17}ji{\k11}me{\k29}ma{\k20}shi{\k20}te {\k14}no {\k46}HAP{\k17}PY {\k24}TUNE
+Comment: 0,0:00:04.15,0:00:07.24,µ's,,0,0,0,karaoke,{\k18}a{\k24}so{\k38}bou {\k24}ki{\k18}mi {\k10}to {\k28}bo{\k22}ku {\k20}to {\k19}ga {\k40}de{\k17}a{\k31}u
+Comment: 0,0:00:07.32,0:00:08.34,Nico,,0,0,0,karaoke,{\k19}so{\k26}re {\k57}wa
+Comment: 0,0:00:08.19,0:00:09.16,Rin,,0,0,0,karaoke,{\k17}yo{\k24}ka{\k56}n
+Comment: 0,0:00:08.97,0:00:10.38,Hanayo,,0,0,0,karaoke,{\k15}so{\k20}re {\k44}wa {\k20}ki{\k21}se{\k21}ki
+Comment: 0,0:00:10.61,0:00:11.83,Nico,,0,0,0,karaoke,{\k20}yu{\k18}me {\k84}no
+Comment: 0,0:00:11.36,0:00:12.51,Hanayo,,0,0,0,karaoke,{\k22}ko{\k21}do{\k72}u
+Comment: 0,0:00:12.14,0:00:13.35,Rin,,0,0,0,karaoke,{\k15}yu{\k22}me {\k84}ga
+Comment: 0,0:00:12.99,0:00:13.79,Hanayo,,0,0,0,karaoke,{\k14}mi{\k26}ta{\k40}i
+Comment: 0,0:00:13.79,0:00:14.97,Nico,,0,0,0,karaoke,{\k19}ki{\k21}mi {\k78}to
+Comment: 0,0:00:14.59,0:00:15.67,Rin,,0,0,0,karaoke,{\k16}bo{\k21}ku {\k71}no
+Comment: 0,0:00:15.37,0:00:16.45,Hanayo,,0,0,0,karaoke,{\k16}ki{\k23}se{\k69}ki
+Comment: 0,0:00:16.93,0:00:22.38,µ's,,0,0,0,karaoke,{\k23}ha{\k19}ji{\k23}ma{\k32}ru {\k25}yo {\k40}oi{\k59}de {\k41}LI{\k40}STEN {\k44}TO {\k14}MY {\kf185}HEART
+Comment: 0,0:00:20.75,0:00:22.38,Nico,,0,0,0,karaoke,{\k16}kyou {\k23}wa {\k25}kyou {\k20}no {\k10}nik{\k20}ko {\k10}ni{\k18}ko {\k21}de
+Comment: 0,0:00:22.38,0:00:23.91,Rin,,0,0,0,karaoke,{\k20}dai{\k21}kou{\k18}fun {\k13}no {\k19}ko{\k20}ko{\k10}ro {\k20}rin {\k12}rin
+Comment: 0,0:00:23.91,0:00:25.52,Hanayo,,0,0,0,karaoke,{\k25}ha{\k22}na{\k17}ba{\k10}na{\k25}shii {\k18}kon{\k11}na {\k20}MIS{\k13}SION
+Comment: 0,0:00:25.57,0:00:26.79,µ's,,0,0,0,karaoke,{\k19}o{\k21}to{\k20}do{\k15}ke{\k47}mas'
+Comment: 0,0:00:56.19,0:00:58.92,Nico,,0,0,0,karaoke,{\k20}mi{\k17}n{\k22}na {\k20}wa {\k21}na{\k15}ni {\k19}wo {\k43}ki{\k21}ki{\k75}tai
+Comment: 0,0:00:59.34,0:01:01.81,Rin,,0,0,0,karaoke,{\k23}o{\k17}ta {\k12}yo{\k30}ri {\k20}ku{\k17}da{\k23}sa{\kf105}i~
+Comment: 0,0:01:02.59,0:01:05.39,Hanayo,,0,0,0,karaoke,{\k20}mi{\k18}n{\k10}na {\k32}to {\k20}na{\k20}ni {\k18}wo {\k42}shi{\k18}cha{\k82}ou
+Comment: 0,0:01:05.76,0:01:07.94,Nico,,0,0,0,karaoke,{\k21}i{\k21}ro {\k10}i{\k31}ro {\k16}bo{\k42}shuu{\k77}chuu
+Comment: 0,0:01:08.17,0:01:11.34,Rin,,0,0,0,karaoke,{\k19}ta{\k23}no{\k40}shii {\k19}ko{\k21}to {\k36}de {\k24}sa{\k19}bi{\k39}shii {\k21}ki{\k21}mo{\k35}chi
+Comment: 0,0:01:11.40,0:01:14.47,Hanayo,,0,0,0,karaoke,{\k18}u{\k20}wa{\k21}ga{\k31}ki {\k29}shi{\k40}yo{\k40}u {\kf108}ne
+Comment: 0,0:01:14.58,0:01:17.80,Nico,,0,0,0,karaoke,{\k21}wa{\k17}ra{\k41}i {\k22}to{\k18}ba{\k41}su {\k15}ba{\k26}sho {\k37}ni {\k20}shi{\k21}ta{\k43}i
+Comment: 0,0:01:17.78,0:01:21.69,Rin,,0,0,0,karaoke,{\k17}o{\k23}sha{\k20}be{\k41}ri {\k18}wa {\k42}ku{\k38}su{\kf83}ri{\k29} {\rµ's}{\k27}ka{\k18}mo {\k35}yo
+Comment: 0,0:01:21.55,0:01:23.12,Nico,,0,0,0,karaoke,{\k14}kyou {\k21}wa {\k21}kyou {\k8}no {\k21}a{\k20}oi {\k14}o{\k16}so{\k22}ra
+Comment: 0,0:01:23.18,0:01:24.72,Rin,,0,0,0,karaoke,{\k20}dai{\k21}kou{\k19}fun {\k11}de {\k20}ka{\k20}ta{\k11}re {\k17}rip{\k15}pi
+Comment: 0,0:01:24.79,0:01:26.37,Hanayo,,0,0,0,karaoke,{\k20}shi{\k20}ka{\k24}me{\k7}tsu{\k20}ra {\k12}nan{\k13}te {\k20}BYE {\k22}BYE
+Comment: 0,0:01:26.37,0:01:27.38,µ's,,0,0,0,karaoke,{\k22}to{\k20}ma{\k20}ri{\k17}ma{\k22}sen
+Comment: 0,0:01:27.43,0:01:33.49,µ's,,0,0,0,karaoke,{\k29}tsu{\k25}yo{\k60}ki {\k21}o{\k28}mo{\k33}i {\k69}wa{\k67} {\k22}ku{\k20}chi {\k19}ni {\k23}su{\k20}re{\k18}ba {\k34}ka{\k28}na{\k90}u
+Comment: 0,0:01:33.78,0:01:35.15,Nico,,0,0,0,karaoke,{\k19}ne{\k22}ga{\k96}i
+Comment: 0,0:01:34.59,0:01:35.56,Hanayo,,0,0,0,karaoke,{\k20}ha{\k15}na{\k62}sou
+Comment: 0,0:01:35.33,0:01:36.59,Nico,,0,0,0,karaoke,{\k26}zu{\k20}t{\k80}to
+Comment: 0,0:01:36.19,0:01:37.35,Rin,,0,0,0,karaoke,{\k20}ha{\k18}na{\k78}sou
+Comment: 0,0:01:37.00,0:01:42.38,µ's,,0,0,0,karaoke,{\k18}tsu{\k20}ka{\k40}me{\k18}ru {\k22}yo {\k37}ne {\k24}ki{\k18}t{\k62}to{\k35} {\k33}i{\k28}tsu{\k17}ka {\kf166}wa
+Comment: 0,0:01:43.39,0:01:46.51,µ's,,0,0,0,karaoke,{\k18}u{\k21}ta{\k39}ou {\k20}o{\k15}do{\k15}ri{\k30}ta{\k22}ku {\k19}na{\k20}ru {\k41}HAP{\k15}PY {\k37}TUNE
+Comment: 0,0:01:46.56,0:01:49.61,µ's,,0,0,0,karaoke,{\k21}u{\k22}ta{\k37}ou {\k23}ki{\k19}mi {\k10}to {\k29}bo{\k19}ku {\k23}to {\k17}no {\k42}de{\k21}a{\k22}i
+Comment: 0,0:01:49.78,0:01:50.77,Nico,,0,0,0,karaoke,{\k21}so{\k20}re {\k58}wa
+Comment: 0,0:01:50.51,0:01:51.49,Rin,,0,0,0,karaoke,{\k28}yo{\k20}ka{\k50}n
+Comment: 0,0:01:51.23,0:01:52.79,Hanayo,,0,0,0,karaoke,{\k29}so{\k25}re {\k41}wa {\k17}ki{\k24}se{\k20}ki
+Comment: 0,0:01:52.99,0:01:55.77,µ's,,0,0,0,karaoke,{\k18}fu{\k18}shi{\k41}gi {\k20}da{\k23}ke{\k18}do {\k12}na{\k27}ka{\k21}yo{\k80}shi
+Comment: 0,0:01:56.18,0:01:59.19,µ's,,0,0,0,karaoke,{\k15}a{\k23}so{\k35}bou {\k27}ha{\k19}ji{\k11}me{\k28}ma{\k22}shi{\k21}te {\k17}no {\k43}HAP{\k18}PY {\k22}TUNE
+Comment: 0,0:01:59.39,0:02:02.46,µ's,,0,0,0,karaoke,{\k16}a{\k23}so{\k36}bou {\k25}ki{\k18}mi {\k21}to {\k19}bo{\k22}ku {\k19}to {\k20}ga {\k41}de{\k19}a{\k28}u
+Comment: 0,0:02:02.55,0:02:03.57,Rin,,0,0,0,karaoke,{\k21}so{\k21}re {\k60}wa {\k0}
+Comment: 0,0:02:03.32,0:02:04.55,Hanayo,,0,0,0,karaoke,{\k27}yo{\k20}ka{\k76}n
+Comment: 0,0:02:04.21,0:02:05.78,Nico,,0,0,0,karaoke,{\k18}so{\k20}re {\k39}wa {\k15}ki{\k25}se{\k40}ki
+Comment: 0,0:02:05.78,0:02:06.97,Rin,,0,0,0,karaoke,{\k21}yu{\k20}me {\k78}no
+Comment: 0,0:02:06.59,0:02:07.59,Nico,,0,0,0,karaoke,{\k20}ko{\k19}do{\k61}u
+Comment: 0,0:02:07.39,0:02:08.18,Hanayo,,0,0,0,karaoke,{\k20}yu{\k19}me {\k40}ga
+Comment: 0,0:02:08.18,0:02:09.00,Rin,,0,0,0,karaoke,{\k21}mi{\k20}ta{\k41}i
+Comment: 0,0:02:09.00,0:02:10.07,Nico,,0,0,0,karaoke,{\k19}ki{\k19}mi {\k69}to
+Comment: 0,0:02:09.79,0:02:10.76,Hanayo,,0,0,0,karaoke,{\k20}bo{\k20}ku {\k57}no
+Comment: 0,0:02:10.56,0:02:11.70,Nico,,0,0,0,karaoke,{\k17}ki{\k23}se{\k74}ki
+Comment: 0,0:02:12.10,0:02:17.36,µ's,,0,0,0,karaoke,{\k30}ha{\k18}ji{\k21}ma{\k38}ru {\k20}yo {\k40}oi{\k51}de {\k47}LI{\k41}STEN {\k43}TO {\k14}MY {\kf163}HEART
+Comment: 0,0:02:15.95,0:02:17.53,Nico,,0,0,0,karaoke,{\k23}kyou {\k20}wa {\k13}kyou {\k19}no {\k18}nik{\k21}ko {\k10}ni{\k20}ko {\k14}de
+Comment: 0,0:02:17.58,0:02:19.13,Rin,,0,0,0,karaoke,{\k21}dai{\k20}kou{\k19}fun {\k11}no {\k20}ko{\k18}ko{\k12}ro {\k19}rin {\k15}rin
+Comment: 0,0:02:19.18,0:02:20.72,Hanayo,,0,0,0,karaoke,{\k21}ha{\k20}na{\k16}ba{\k11}na{\k23}shii {\k18}kon{\k12}na {\k17}MIS{\k16}SION
+Comment: 0,0:02:20.78,0:02:21.99,µ's,,0,0,0,karaoke,{\k21}o{\k20}to{\k19}do{\k21}ke{\k40}mas'
+Comment: 0,0:02:51.40,0:02:54.17,Hanayo,,0,0,0,karaoke,{\k19}mi{\k19}n{\k21}na {\k20}wa {\k20}do{\k20}ko{\k20}ka {\k36}i{\k24}ki{\k78}tai
+Comment: 0,0:02:54.58,0:02:57.10,Nico,,0,0,0,karaoke,{\k18}L{\k23}I{\k8}VE {\k31}wa {\k19}do{\k18}u {\k24}ka{\kf111}na
+Comment: 0,0:02:57.79,0:03:00.46,Rin,,0,0,0,karaoke,{\k20}mi{\k18}n{\k11}na {\k31}ga {\k20}ki{\k20}ta{\k20}ra {\k39}u{\k18}re{\k70}shii
+Comment: 0,0:03:01.00,0:03:03.25,Hanayo,,0,0,0,karaoke,{\k19}bo{\k18}ku{\k14}ta{\k28}chi {\k20}no {\k20}L{\k18}I{\k88}VE
+Comment: 0,0:03:03.41,0:03:06.82,Nico,,0,0,0,karaoke,{\k18}u{\k14}re{\k44}shii {\k20}ko{\k21}to {\k38}de {\k23}tsu{\k18}ma{\k41}ran {\k22}ni{\k18}chi{\k64}jou
+Comment: 0,0:03:06.58,0:03:09.45,Rin,,0,0,0,karaoke,{\k14}RE{\k25}S{\k21}E{\k39}T {\k22}shi{\k40}ta{\k38}i {\kf88}ne
+Comment: 0,0:03:09.77,0:03:13.00,Hanayo,,0,0,0,karaoke,{\k22}o{\k20}to {\k39}ga {\k21}ta{\k11}ku{\k39}san {\k29}hi{\k21}ka{\k39}ri {\k21}no {\k19}na{\k42}ka
+Comment: 0,0:03:13.00,0:03:17.01,Nico,,0,0,0,karaoke,{\k18}shi{\k21}a{\k20}wa{\k38}se {\k21}ga {\k40}a{\k41}fu{\kf93}re{\k17}{\rµ's}{\k26}da{\k22}su {\k44}yo
+Comment: 0,0:03:16.77,0:03:18.29,Nico,,0,0,0,karaoke,{\k22}as' {\k15}wa {\k24}as' {\k13}no {\k11}a{\k24}oi {\k13}o{\k18}so{\k12}ra
+Comment: 0,0:03:18.37,0:03:19.93,Rin,,0,0,0,karaoke,{\k22}kai{\k20}hou{\k20}kan {\k10}wo {\k20}ka{\k20}ta{\k10}re {\k20}rip{\k14}pi
+Comment: 0,0:03:19.97,0:03:21.57,Hanayo,,0,0,0,karaoke,{\k22}yu{\k20}ri {\k20}ka{\k9}mo{\k21}me {\k18}not{\k12}te {\k20}GO {\k18}GO
+Comment: 0,0:03:21.59,0:03:22.73,µ's,,0,0,0,karaoke,{\k20}to{\k19}ma{\k21}re{\k18}ma{\k36}sen
+Comment: 0,0:03:22.79,0:03:28.39,Hanayo,,0,0,0,karaoke,{\k25}a{\k15}tsu{\k59}ki {\k19}ri{\k42}so{\k16}u {\k143}ga {\k19}mu{\k21}ne {\k19}wo {\k20}ko{\k19}ga{\k22}su {\k32}to{\k29}ki {\k60}wa
+Comment: 0,0:03:29.00,0:03:30.07,Nico,,0,0,0,karaoke,{\k18}ne{\k21}ga{\k68}i
+Comment: 0,0:03:29.79,0:03:30.94,Hanayo,,0,0,0,karaoke,{\k20}ha{\k18}na{\k77}sou
+Comment: 0,0:03:30.58,0:03:31.91,Rin,,0,0,0,karaoke,{\k20}zu{\k20}t{\k93}to
+Comment: 0,0:03:31.39,0:03:32.51,Nico,,0,0,0,karaoke,{\k20}ha{\k17}na{\k75}sou
+Comment: 0,0:03:32.19,0:03:37.53,µ's,,0,0,0,karaoke,{\k17}tsu{\k22}ka{\k41}me{\k19}ru {\k21}yo {\k38}ne {\k21}ki{\k19}t{\k100}to {\k34}i{\k26}tsu{\k19}ka {\kf157}wa
+Comment: 0,0:03:38.56,0:03:41.68,µ's,,0,0,0,karaoke,{\k19}u{\k22}ta{\k38}ou {\k24}o{\k20}do{\k8}ri{\k30}ta{\k20}ku {\k20}na{\k17}ru {\k37}HAP{\k23}PY {\k34}TUNE
+Comment: 0,0:03:41.79,0:03:44.80,µ's,,0,0,0,karaoke,{\k18}u{\k21}ta{\k38}ou {\k23}ki{\k18}mi {\k10}to {\k30}bo{\k19}ku {\k22}to {\k19}no {\k40}de{\k21}a{\k22}i
+Comment: 0,0:03:44.92,0:03:46.09,Hanayo,,0,0,0,karaoke,{\k23}so{\k16}re {\k78}wa
+Comment: 0,0:03:45.79,0:03:46.68,Nico,,0,0,0,karaoke,{\k19}yo{\k21}ka{\k49}n
+Comment: 0,0:03:46.53,0:03:47.99,Rin,,0,0,0,karaoke,{\k26}so{\k19}re {\k40}wa {\k16}ki{\k24}se{\k21}ki
+Comment: 0,0:03:48.19,0:03:50.89,µ's,,0,0,0,karaoke,{\k22}fu{\k16}shi{\k41}gi {\k18}da{\k21}ke{\k21}do {\k18}na{\k21}ka{\k19}yo{\k73}shi
+Comment: 0,0:03:51.38,0:03:54.48,µ's,,0,0,0,karaoke,{\k14}a{\k25}so{\k33}bou {\k29}ha{\k19}ji{\k11}me{\k27}ma{\k22}shi{\k20}te {\k21}no {\k39}HAP{\k17}PY {\k33}TUNE
+Comment: 0,0:03:54.59,0:03:57.66,µ's,,0,0,0,karaoke,{\k16}a{\k22}so{\k34}bou {\k28}ki{\k17}mi {\k12}to {\k29}bo{\k20}ku {\k21}to {\k20}ga {\k38}de{\k21}a{\k29}u
+Comment: 0,0:03:57.77,0:03:58.71,Nico,,0,0,0,karaoke,{\k21}so{\k19}re {\k54}wa
+Comment: 0,0:03:58.59,0:03:59.57,Rin,,0,0,0,karaoke,{\k19}yo{\k21}ka{\k58}n
+Comment: 0,0:03:59.36,0:04:00.99,Hanayo,,0,0,0,karaoke,{\k19}so{\k22}re {\k41}wa {\k17}ki{\k23}se{\k41}ki
+Comment: 0,0:04:00.99,0:04:02.08,Nico,,0,0,0,karaoke,{\k20}yu{\k19}me {\k70}no
+Comment: 0,0:04:01.80,0:04:02.89,Hanayo,,0,0,0,karaoke,{\k19}ko{\k20}do{\k70}u
+Comment: 0,0:04:02.58,0:04:03.67,Rin,,0,0,0,karaoke,{\k20}yu{\k20}me {\k69}ga
+Comment: 0,0:04:03.39,0:04:04.18,Nico,,0,0,0,karaoke,{\k20}mi{\k19}ta{\k40}i
+Comment: 0,0:04:04.18,0:04:05.38,Hanayo,,0,0,0,karaoke,{\k20}ki{\k21}mi {\k79}to
+Comment: 0,0:04:04.99,0:04:05.94,Rin,,0,0,0,karaoke,{\k20}bo{\k20}ku {\k55}no
+Comment: 0,0:04:05.78,0:04:06.82,Hanayo,,0,0,0,karaoke,{\k16}ki{\k23}se{\k65}ki
+Comment: 0,0:04:07.36,0:04:12.56,µ's,,0,0,0,karaoke,{\k21}ha{\k20}ji{\k20}ma{\k41}ru {\k20}yo {\k40}oi{\k59}de {\k37}LI{\k42}STEN {\k43}TO {\k13}MY {\kf164}HEART
+Comment: 0,0:04:11.19,0:04:12.74,Nico,,0,0,0,karaoke,{\k20}as' {\k10}wa {\k29}as' {\k11}de {\k20}nik{\k21}ko {\k9}ni{\k19}ko {\k16}da
+Comment: 0,0:04:12.77,0:04:14.34,Rin,,0,0,0,karaoke,{\k22}kai{\k20}hou{\k19}kan {\k11}de {\k20}ko{\k21}ko{\k9}ro {\k20}rin {\k15}rin
+Comment: 0,0:04:14.39,0:04:15.97,Hanayo,,0,0,0,karaoke,{\k20}yu{\k20}ri {\k13}yu{\k14}ri {\k22}no {\k20}gen{\k11}ki {\k18}MIS{\k20}SION
+Comment: 0,0:04:15.94,0:04:17.20,µ's,,0,0,0,karaoke,{\k24}o{\k20}to{\k19}do{\k22}ke{\k41}mas'
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H8D4ED5&}♥ Nico{\c} | {\c&H3AAC23&}♠ Hanayo{\c} | {\c&H02F1FE&}♦ Rin{\c} | {\c&H7B00E4&}µ's
+Dialogue: 0,0:00:00.06,0:00:04.18,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k19}a{\k23}so{\k36}bou {\k26}ha{\k17}ji{\k11}me{\k29}ma{\k20}shi{\k20}te {\k14}no {\k46}HAP{\k17}PY {\k24}TUNE
+Dialogue: 0,0:00:03.25,0:00:07.44,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k18}a{\k24}so{\k38}bou {\k24}ki{\k18}mi {\k10}to {\k28}bo{\k22}ku {\k20}to {\k19}ga {\k40}de{\k17}a{\k31}u
+Dialogue: 0,0:00:06.42,0:00:08.54,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k19}so{\k26}re {\k57}wa
+Dialogue: 0,0:00:07.29,0:00:09.36,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k17}yo{\k24}ka{\k56}n
+Dialogue: 0,0:00:08.07,0:00:10.58,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k15}so{\k20}re {\k44}wa {\k20}ki{\k21}se{\k21}ki
+Dialogue: 0,0:00:09.71,0:00:12.03,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k20}yu{\k18}me {\k84}no
+Dialogue: 0,0:00:10.46,0:00:12.71,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k22}ko{\k21}do{\k72}u
+Dialogue: 0,0:00:11.24,0:00:13.55,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k15}yu{\k22}me {\k84}ga
+Dialogue: 0,0:00:12.09,0:00:13.99,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k14}mi{\k26}ta{\k40}i
+Dialogue: 0,0:00:12.89,0:00:15.17,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k19}ki{\k21}mi {\k78}to
+Dialogue: 0,0:00:13.69,0:00:15.87,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k16}bo{\k21}ku {\k71}no
+Dialogue: 0,0:00:14.47,0:00:16.65,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k16}ki{\k23}se{\k69}ki
+Dialogue: 0,0:00:16.03,0:00:22.58,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ha{\k19}ji{\k23}ma{\k32}ru {\k25}yo {\k40}oi{\k59}de {\k41}LI{\k40}STEN {\k44}TO {\k14}MY {\kf185}HEART
+Dialogue: 0,0:00:19.85,0:00:22.58,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k16}kyou {\k23}wa {\k25}kyou {\k20}no {\k10}nik{\k20}ko {\k10}ni{\k18}ko {\k21}de
+Dialogue: 0,0:00:21.48,0:00:24.11,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k20}dai{\k21}kou{\k18}fun {\k13}no {\k19}ko{\k20}ko{\k10}ro {\k20}rin {\k12}rin
+Dialogue: 0,0:00:23.01,0:00:25.72,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k25}ha{\k22}na{\k17}ba{\k10}na{\k25}shii {\k18}kon{\k11}na {\k20}MIS{\k13}SION
+Dialogue: 0,0:00:24.67,0:00:26.99,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k19}o{\k21}to{\k20}do{\k15}ke{\k47}mas'
+Dialogue: 0,0:00:55.29,0:00:59.12,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k20}mi{\k17}n{\k22}na {\k20}wa {\k21}na{\k15}ni {\k19}wo {\k43}ki{\k21}ki{\k75}tai
+Dialogue: 0,0:00:58.44,0:01:02.01,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k23}o{\k17}ta {\k12}yo{\k30}ri {\k20}ku{\k17}da{\k23}sa{\kf105}i~
+Dialogue: 0,0:01:01.69,0:01:05.59,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k20}mi{\k18}n{\k10}na {\k32}to {\k20}na{\k20}ni {\k18}wo {\k42}shi{\k18}cha{\k82}ou
+Dialogue: 0,0:01:04.86,0:01:08.14,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k21}i{\k21}ro {\k10}i{\k31}ro {\k16}bo{\k42}shuu{\k77}chuu
+Dialogue: 0,0:01:07.27,0:01:11.54,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k19}ta{\k23}no{\k40}shii {\k19}ko{\k21}to {\k36}de {\k24}sa{\k19}bi{\k39}shii {\k21}ki{\k21}mo{\k35}chi
+Dialogue: 0,0:01:10.50,0:01:14.67,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k18}u{\k20}wa{\k21}ga{\k31}ki {\k29}shi{\k40}yo{\k40}u {\kf108}ne
+Dialogue: 0,0:01:13.68,0:01:18.00,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k21}wa{\k17}ra{\k41}i {\k22}to{\k18}ba{\k41}su {\k15}ba{\k26}sho {\k37}ni {\k20}shi{\k21}ta{\k43}i
+Dialogue: 0,0:01:16.88,0:01:21.89,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k17}o{\k23}sha{\k20}be{\k41}ri {\k18}wa {\k42}ku{\k38}su{\kf83}ri{\k29} {\rµ's}{\k27}ka{\k18}mo {\k35}yo
+Dialogue: 0,0:01:20.65,0:01:23.32,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k14}kyou {\k21}wa {\k21}kyou {\k8}no {\k21}a{\k20}oi {\k14}o{\k16}so{\k22}ra
+Dialogue: 0,0:01:22.28,0:01:24.92,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k20}dai{\k21}kou{\k19}fun {\k11}de {\k20}ka{\k20}ta{\k11}re {\k17}rip{\k15}pi
+Dialogue: 0,0:01:23.89,0:01:26.57,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k20}shi{\k20}ka{\k24}me{\k7}tsu{\k20}ra {\k12}nan{\k13}te {\k20}BYE {\k22}BYE
+Dialogue: 0,0:01:25.47,0:01:27.58,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k22}to{\k20}ma{\k20}ri{\k17}ma{\k22}sen
+Dialogue: 0,0:01:26.53,0:01:33.69,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k29}tsu{\k25}yo{\k60}ki {\k21}o{\k28}mo{\k33}i {\k69}wa{\k67} {\k22}ku{\k20}chi {\k19}ni {\k23}su{\k20}re{\k18}ba {\k34}ka{\k28}na{\k90}u
+Dialogue: 0,0:01:32.88,0:01:35.35,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k19}ne{\k22}ga{\k96}i
+Dialogue: 0,0:01:33.69,0:01:35.76,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k20}ha{\k15}na{\k62}sou
+Dialogue: 0,0:01:34.43,0:01:36.79,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k26}zu{\k20}t{\k80}to
+Dialogue: 0,0:01:35.29,0:01:37.55,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k20}ha{\k18}na{\k78}sou
+Dialogue: 0,0:01:36.10,0:01:42.58,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k18}tsu{\k20}ka{\k40}me{\k18}ru {\k22}yo {\k37}ne {\k24}ki{\k18}t{\k62}to{\k35} {\k33}i{\k28}tsu{\k17}ka {\kf166}wa
+Dialogue: 0,0:01:42.49,0:01:46.71,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k18}u{\k21}ta{\k39}ou {\k20}o{\k15}do{\k15}ri{\k30}ta{\k22}ku {\k19}na{\k20}ru {\k41}HAP{\k15}PY {\k37}TUNE
+Dialogue: 0,0:01:45.66,0:01:49.81,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k21}u{\k22}ta{\k37}ou {\k23}ki{\k19}mi {\k10}to {\k29}bo{\k19}ku {\k23}to {\k17}no {\k42}de{\k21}a{\k22}i
+Dialogue: 0,0:01:48.88,0:01:50.97,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k21}so{\k20}re {\k58}wa
+Dialogue: 0,0:01:49.61,0:01:51.69,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k28}yo{\k20}ka{\k50}n
+Dialogue: 0,0:01:50.33,0:01:52.99,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k29}so{\k25}re {\k41}wa {\k17}ki{\k24}se{\k20}ki
+Dialogue: 0,0:01:52.09,0:01:55.97,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k18}fu{\k18}shi{\k41}gi {\k20}da{\k23}ke{\k18}do {\k12}na{\k27}ka{\k21}yo{\k80}shi
+Dialogue: 0,0:01:55.28,0:01:59.39,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k15}a{\k23}so{\k35}bou {\k27}ha{\k19}ji{\k11}me{\k28}ma{\k22}shi{\k21}te {\k17}no {\k43}HAP{\k18}PY {\k22}TUNE
+Dialogue: 0,0:01:58.49,0:02:02.66,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k16}a{\k23}so{\k36}bou {\k25}ki{\k18}mi {\k21}to {\k19}bo{\k22}ku {\k19}to {\k20}ga {\k41}de{\k19}a{\k28}u
+Dialogue: 0,0:02:01.65,0:02:03.77,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k21}so{\k21}re {\k60}wa {\k0}
+Dialogue: 0,0:02:02.42,0:02:04.75,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k27}yo{\k20}ka{\k76}n
+Dialogue: 0,0:02:03.31,0:02:05.98,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k18}so{\k20}re {\k39}wa {\k15}ki{\k25}se{\k40}ki
+Dialogue: 0,0:02:04.88,0:02:07.17,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k21}yu{\k20}me {\k78}no
+Dialogue: 0,0:02:05.69,0:02:07.79,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k20}ko{\k19}do{\k61}u
+Dialogue: 0,0:02:06.49,0:02:08.38,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k20}yu{\k19}me {\k40}ga
+Dialogue: 0,0:02:07.28,0:02:09.20,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k21}mi{\k20}ta{\k41}i
+Dialogue: 0,0:02:08.10,0:02:10.27,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k19}ki{\k19}mi {\k69}to
+Dialogue: 0,0:02:08.89,0:02:10.96,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k20}bo{\k20}ku {\k57}no
+Dialogue: 0,0:02:09.66,0:02:11.90,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k17}ki{\k23}se{\k74}ki
+Dialogue: 0,0:02:11.20,0:02:17.56,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ha{\k18}ji{\k21}ma{\k38}ru {\k20}yo {\k40}oi{\k51}de {\k47}LI{\k41}STEN {\k43}TO {\k14}MY {\kf163}HEART
+Dialogue: 0,0:02:15.05,0:02:17.73,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k23}kyou {\k20}wa {\k13}kyou {\k19}no {\k18}nik{\k21}ko {\k10}ni{\k20}ko {\k14}de
+Dialogue: 0,0:02:16.68,0:02:19.33,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k21}dai{\k20}kou{\k19}fun {\k11}no {\k20}ko{\k18}ko{\k12}ro {\k19}rin {\k15}rin
+Dialogue: 0,0:02:18.28,0:02:20.92,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k21}ha{\k20}na{\k16}ba{\k11}na{\k23}shii {\k18}kon{\k12}na {\k17}MIS{\k16}SION
+Dialogue: 0,0:02:19.88,0:02:22.19,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k21}o{\k20}to{\k19}do{\k21}ke{\k40}mas'
+Dialogue: 0,0:02:50.50,0:02:54.37,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k19}mi{\k19}n{\k21}na {\k20}wa {\k20}do{\k20}ko{\k20}ka {\k36}i{\k24}ki{\k78}tai
+Dialogue: 0,0:02:53.68,0:02:57.30,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k18}L{\k23}I{\k8}VE {\k31}wa {\k19}do{\k18}u {\k24}ka{\kf111}na
+Dialogue: 0,0:02:56.89,0:03:00.66,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k20}mi{\k18}n{\k11}na {\k31}ga {\k20}ki{\k20}ta{\k20}ra {\k39}u{\k18}re{\k70}shii
+Dialogue: 0,0:03:00.10,0:03:03.45,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k19}bo{\k18}ku{\k14}ta{\k28}chi {\k20}no {\k20}L{\k18}I{\k88}VE
+Dialogue: 0,0:03:02.51,0:03:07.02,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k18}u{\k14}re{\k44}shii {\k20}ko{\k21}to {\k38}de {\k23}tsu{\k18}ma{\k41}ran {\k22}ni{\k18}chi{\k64}jou
+Dialogue: 0,0:03:05.68,0:03:09.65,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k14}RE{\k25}S{\k21}E{\k39}T {\k22}shi{\k40}ta{\k38}i {\kf88}ne
+Dialogue: 0,0:03:08.87,0:03:13.20,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k22}o{\k20}to {\k39}ga {\k21}ta{\k11}ku{\k39}san {\k29}hi{\k21}ka{\k39}ri {\k21}no {\k19}na{\k42}ka
+Dialogue: 0,0:03:12.10,0:03:17.21,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k18}shi{\k21}a{\k20}wa{\k38}se {\k21}ga {\k40}a{\k41}fu{\kf93}re{\k17}{\rµ's}{\k26}da{\k22}su {\k44}yo
+Dialogue: 0,0:03:15.87,0:03:18.49,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k22}as' {\k15}wa {\k24}as' {\k13}no {\k11}a{\k24}oi {\k13}o{\k18}so{\k12}ra
+Dialogue: 0,0:03:17.47,0:03:20.13,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k22}kai{\k20}hou{\k20}kan {\k10}wo {\k20}ka{\k20}ta{\k10}re {\k20}rip{\k14}pi
+Dialogue: 0,0:03:19.07,0:03:21.77,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k22}yu{\k20}ri {\k20}ka{\k9}mo{\k21}me {\k18}not{\k12}te {\k20}GO {\k18}GO
+Dialogue: 0,0:03:20.69,0:03:22.93,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k20}to{\k19}ma{\k21}re{\k18}ma{\k36}sen
+Dialogue: 0,0:03:21.89,0:03:28.59,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k25}a{\k15}tsu{\k59}ki {\k19}ri{\k42}so{\k16}u {\k143}ga {\k19}mu{\k21}ne {\k19}wo {\k20}ko{\k19}ga{\k22}su {\k32}to{\k29}ki {\k60}wa
+Dialogue: 0,0:03:28.10,0:03:30.27,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k18}ne{\k21}ga{\k68}i
+Dialogue: 0,0:03:28.89,0:03:31.14,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k20}ha{\k18}na{\k77}sou
+Dialogue: 0,0:03:29.68,0:03:32.11,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k20}zu{\k20}t{\k93}to
+Dialogue: 0,0:03:30.49,0:03:32.71,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k20}ha{\k17}na{\k75}sou
+Dialogue: 0,0:03:31.29,0:03:37.73,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k17}tsu{\k22}ka{\k41}me{\k19}ru {\k21}yo {\k38}ne {\k21}ki{\k19}t{\k100}to {\k34}i{\k26}tsu{\k19}ka {\kf157}wa
+Dialogue: 0,0:03:37.66,0:03:41.88,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k19}u{\k22}ta{\k38}ou {\k24}o{\k20}do{\k8}ri{\k30}ta{\k20}ku {\k20}na{\k17}ru {\k37}HAP{\k23}PY {\k34}TUNE
+Dialogue: 0,0:03:40.89,0:03:45.00,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k18}u{\k21}ta{\k38}ou {\k23}ki{\k18}mi {\k10}to {\k30}bo{\k19}ku {\k22}to {\k19}no {\k40}de{\k21}a{\k22}i
+Dialogue: 0,0:03:44.02,0:03:46.29,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k23}so{\k16}re {\k78}wa
+Dialogue: 0,0:03:44.89,0:03:46.88,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k19}yo{\k21}ka{\k49}n
+Dialogue: 0,0:03:45.63,0:03:48.19,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k26}so{\k19}re {\k40}wa {\k16}ki{\k24}se{\k21}ki
+Dialogue: 0,0:03:47.29,0:03:51.09,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k22}fu{\k16}shi{\k41}gi {\k18}da{\k21}ke{\k21}do {\k18}na{\k21}ka{\k19}yo{\k73}shi
+Dialogue: 0,0:03:50.48,0:03:54.68,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k14}a{\k25}so{\k33}bou {\k29}ha{\k19}ji{\k11}me{\k27}ma{\k22}shi{\k20}te {\k21}no {\k39}HAP{\k17}PY {\k33}TUNE
+Dialogue: 0,0:03:53.69,0:03:57.86,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k16}a{\k22}so{\k34}bou {\k28}ki{\k17}mi {\k12}to {\k29}bo{\k20}ku {\k21}to {\k20}ga {\k38}de{\k21}a{\k29}u
+Dialogue: 0,0:03:56.87,0:03:58.91,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k21}so{\k19}re {\k54}wa
+Dialogue: 0,0:03:57.69,0:03:59.77,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k19}yo{\k21}ka{\k58}n
+Dialogue: 0,0:03:58.46,0:04:01.19,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k19}so{\k22}re {\k41}wa {\k17}ki{\k23}se{\k41}ki
+Dialogue: 0,0:04:00.09,0:04:02.28,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k20}yu{\k19}me {\k70}no
+Dialogue: 0,0:04:00.90,0:04:03.09,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k19}ko{\k20}do{\k70}u
+Dialogue: 0,0:04:01.68,0:04:03.87,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k20}yu{\k20}me {\k69}ga
+Dialogue: 0,0:04:02.49,0:04:04.38,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k20}mi{\k19}ta{\k40}i
+Dialogue: 0,0:04:03.28,0:04:05.58,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k20}ki{\k21}mi {\k79}to
+Dialogue: 0,0:04:04.09,0:04:06.14,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k20}bo{\k20}ku {\k55}no
+Dialogue: 0,0:04:04.88,0:04:07.02,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k16}ki{\k23}se{\k65}ki
+Dialogue: 0,0:04:06.46,0:04:12.76,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ha{\k20}ji{\k20}ma{\k41}ru {\k20}yo {\k40}oi{\k59}de {\k37}LI{\k42}STEN {\k43}TO {\k13}MY {\kf164}HEART
+Dialogue: 0,0:04:10.29,0:04:12.94,Nico,,0,0,0,fx,{\k90\fad(300,200)}{\rNico Symbol\fs30}♥{\r\fs\4a&HFF&} {\k20}as' {\k10}wa {\k29}as' {\k11}de {\k20}nik{\k21}ko {\k9}ni{\k19}ko {\k16}da
+Dialogue: 0,0:04:11.87,0:04:14.54,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♦{\r\fs\4a&HFF&} {\k22}kai{\k20}hou{\k19}kan {\k11}de {\k20}ko{\k21}ko{\k9}ro {\k20}rin {\k15}rin
+Dialogue: 0,0:04:13.49,0:04:16.17,Hanayo,,0,0,0,fx,{\k90\fad(300,200)}{\rHanayo Symbol\fs30}♠{\r\fs\4a&HFF&} {\k20}yu{\k20}ri {\k13}yu{\k14}ri {\k22}no {\k20}gen{\k11}ki {\k18}MIS{\k20}SION
+Dialogue: 0,0:04:15.04,0:04:17.40,µ's,,0,0,0,fx,{\k90\fad(300,200)}{\k24}o{\k20}to{\k19}do{\k22}ke{\k41}mas'
