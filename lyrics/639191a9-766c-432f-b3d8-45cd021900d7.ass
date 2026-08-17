@@ -1,5 +1,4 @@
 ﻿[Script Info]
-; https://aegisub.org/
 Title: Tokimeki Emotion
 ScriptType: v4.00+
 WrapStyle: 0
@@ -17,11 +16,12 @@ Style: Sumika,Arial,24,&H00FFFFFF,&H0049D882,&H00000000,&H00000000,-1,0,0,0,100,
 Style: Lilja,Arial,24,&H00FFFFFF,&H00D4CC3B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
 Style: REVERSI,Arial,24,&H00FFFFFF,&H005757FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 Style: REVERSIChoir,Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:00:00.00,0:00:00.00,REVERSI,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
-Dialogue: 0,0:00:00.00,0:00:15.00,Lilja,,0,0,200,legend,{\k1500}{\rREVERSI}REVERSI{\r}{\2cHFFFFFF} - {\rLilja}Lilja{\r}{\2cHFFFFFF} - {\rSumika}Sumika{\r}
+Dialogue: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H5757FF&}REVERSI{\c} | {\c&HD4CC3B&}Lilja{\c} | {\c&H49D882&}Sumika
 Comment: 0,0:00:01.64,0:00:04.46,Sumika,,0,0,0,karaoke,{\k19}wa{\k26}ta{\k21}shi {\k29}na{\k14}n{\k32}ka {\k10}wo {\k22}ku{\k22}ri{\k24}ka{\k41}esh'{\k22}te
 Comment: 0,0:00:04.69,0:00:07.94,Sumika,,0,0,0,karaoke,{\k15}ho{\k27}n{\k23}tou {\k20}no {\k22}ko{\k36}to {\k10}ga {\k33}wa{\k11}ka{\k20}ra{\k24}na{\k21}ku {\k41}nat{\k22}te
 Comment: 0,0:00:08.16,0:00:11.82,Sumika,,0,0,0,karaoke,{\k21}yo{\k24}ru {\k20}wo {\k25}o{\k19}i{\k43}te {\k22}yu{\k22}ke{\k24}ba {\k18}a{\k25}ta{\k42}ma {\k21}no {\k21}na{\k19}ka
