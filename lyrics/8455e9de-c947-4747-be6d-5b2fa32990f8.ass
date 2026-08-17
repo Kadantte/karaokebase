@@ -1,0 +1,103 @@
+﻿[Script Info]
+Title: Love Bon App├ętit
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Ijigen,Arial,24,&H00FFFFFF,&H006E51F3,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tomari,Arial,24,&H00FFFFFF,&H00E2D24C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hanamaru,Arial,24,&H00FFFFFF,&H0017D6E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Chiyuki,Arial,24,&H00FFFFFF,&H005B7A92,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Megumi,Arial,24,&H00FFFFFF,&H00B0AEB2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Emma,Arial,24,&H00FFFFFF,&H0076FFA8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Tomari Symbol,Arial,24,&H00E2D24C,&H00E2D24C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hanamaru Symbol,Arial,24,&H0017D6E6,&H0017D6E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Chiyuki Symbol,Arial,24,&H005B7A92,&H005B7A92,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Megumi Symbol,Arial,24,&H00B0AEB2,&H00B0AEB2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Emma Symbol,Arial,24,&H0076FFA8,&H0076FFA8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Ijigen,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Tomari,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rTomari Symbol\\fs30}♣{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Hanamaru,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rHanamaru Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Chiyuki,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rChiyuki Symbol\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Megumi,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rMegumi Symbol\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Emma,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rEmma Symbol\\fs30}♪{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H6E51F3&}All{\c} | {\c&HE2D24C&}♣ Tomari{\c} | {\c&H17D6E6&}♠ Hanamaru{\c} | \N{\c&H5B7A92&}♥ Chiyuki{\c} | {\c&HB0AEB2&}♦ Megumi{\c} | {\c&H76FFA8&}♪ Emma
+Comment: 0,0:00:24.19,0:00:28.10,Tomari,,0,0,0,karaoke,{\k17}wa{\k13}re{\k58}ta {\k41}OEU{\k47}F {\k27}to{\k30}ke{\k28}ru {\k59}SU{\k28}C{\k43}RE
+Comment: 0,0:00:28.25,0:00:33.02,Hanamaru,,0,0,0,karaoke,{\k28}ma{\k29}u {\k30}FA{\k55}RI{\k43}~{\k43}NE {\k29}ka{\k32}o{\k27}ru {\k57}BO{\k45}U{\k59}LE
+Comment: 0,0:00:33.40,0:00:37.26,Megumi,,0,0,0,karaoke,{\k15}a{\k17}ta{\k59}ta{\k43}me{\k43}ta {\k27}MI{\k31}E{\k28}L {\k58}no {\k43}na{\k22}ka
+Comment: 0,0:00:37.48,0:00:42.24,Emma,,0,0,0,karaoke,{\k28}o{\k30}do{\k27}ru {\k59}É{\k46}PI{\k38}CE {\k30}D{\k29}RE{\k30}S{\k58}SER {\k43}shi{\k58}te
+Comment: 0,0:00:42.37,0:00:45.46,Chiyuki,,0,0,0,karaoke,{\k31}ki{\k28}mi {\k31}to {\k25}is{\k19}sho {\k26}na{\k42}ra {\k17}so{\k14}re{\k14}da{\k29}ke {\k33}de
+Comment: 0,0:00:45.56,0:00:47.50,Chiyuki,,0,0,0,karaoke,{\k12}mi{\k16}ta{\k17}sa{\k27}re{\k44}ru {\k26}ko{\k31}ko{\k21}ro
+Comment: 0,0:00:47.56,0:00:51.01,Ijigen,,0,0,0,karaoke,{\k43}chan{\k15}to {\k21}o{\k20}n{\k45}ga{\k29}e{\k30}shi {\k26}shi{\k47}tai {\k14}ka{\k55}ra
+Comment: 0,0:00:51.32,0:00:55.92,Ijigen,,0,0,0,karaoke,{\k30}sei{\k28}i{\k29}p{\k41}pa{\k15}i {\kf103}no{\k44} {\k27}o{\k56}mo{\k46}te{\k41}nash'
+Comment: 0,0:00:56.15,0:00:59.02,Ijigen,,0,0,0,karaoke,{\k61}PO{\k28}CHE {\k31}shu{\k30}shu{\k15}shu {\k28}shu{\k15}shu{\k29}shu{\k29}shu{\k21}shu
+Comment: 0,0:00:59.08,0:01:00.99,Ijigen,,0,0,0,karaoke,{\k32}PO{\k26}CHE {\k30}shu{\k16}shu {\k28}shu{\k16}shu{\k28}shu{\k15}shu
+Comment: 0,0:01:01.39,0:01:05.11,Chiyuki,,0,0,0,karaoke,{\k33}fu{\k27}wa{\k31}fu{\k15}wa {\k28}C{\k15}RÈ{\k28}~{\k27}ME {\k30}ka{\k59}sa{\k43}ne{\k36}te
+Comment: 0,0:01:05.42,0:01:08.27,Ijigen,,0,0,0,karaoke,{\k58}oh {\k31}chu{\k29}chu{\k28}chu{\k15}chu {\k25}chu{\k19}chu{\k30}chu{\k27}chu{\k23}chu
+Comment: 0,0:01:08.32,0:01:10.22,Ijigen,,0,0,0,karaoke,{\k29}chu{\k28}chu{\k30}chu{\k17}chu {\k28}chu{\k15}chu{\k26}chu{\k17}chu
+Comment: 0,0:01:10.64,0:01:14.41,Tomari,,0,0,0,karaoke,{\k28}tsu{\k32}ya{\k28}tsu{\k15}ya {\k29}no {\k14}G{\k27}LA{\k33}CER {\k26}de {\k57}shi{\k46}a{\k42}ge
+Comment: 0,0:01:14.66,0:01:18.72,Ijigen,,0,0,0,karaoke,{\k35}TAS{\k24}TY {\k48}TAS{\k94}TY {\k33}ki{\k27}no{\k30}u {\k44}yo{\k71}ri
+Comment: 0,0:01:19.01,0:01:23.53,Megumi,,0,0,0,karaoke,{\k29}mo{\k29}t{\k29}to {\k30}to{\k13}ku{\k16}be{\k16}tsu {\k28}na {\k27}i{\k28}chi{\k14}ni{\k31}chi {\k28}wo {\k43}do{\k16}u{\k75}zo
+Comment: 0,0:01:23.86,0:01:28.15,Ijigen,,0,0,0,karaoke,{\k33}HAP{\k23}PY {\k50}HAP{\k101}PY {\k31}O{\k29}R{\k28}DE{\k44}R {\k14}shi{\k76}ta
+Comment: 0,0:01:28.22,0:01:30.83,Chiyuki,,0,0,0,karaoke,{\k30}ko{\k30}i {\k28}no {\k31}LO{\k14}VE {\k14}BON {\k18}AP{\k28}PÉ{\k40}TI{\k28}T
+Comment: 0,0:01:31.40,0:01:35.20,Chiyuki,,0,0,0,karaoke,{\k31}o{\k13}a{\k14}ji {\k21}wa {\k25}i{\k30}ka{\k13}ga {\k28}de{\k18}sho{\k27}u {\kf160}ka
+Comment: 0,0:01:56.22,0:01:59.38,Ijigen,,0,0,0,karaoke,{\k33}ki{\k27}mi {\k30}to {\k26}is{\k18}sho {\k28}na{\k41}ra {\k16}so{\k13}re{\k15}da{\k30}ke {\k39}de
+Comment: 0,0:01:59.46,0:02:01.39,Ijigen,,0,0,0,karaoke,{\k11}mi{\k15}ta{\k16}sa{\k26}re{\k42}ru {\k28}ko{\k28}ko{\k27}ro
+Comment: 0,0:02:01.42,0:02:04.88,Ijigen,,0,0,0,karaoke,{\k43}chan{\k15}to {\k21}o{\k23}n{\k42}ga{\k29}e{\k30}shi {\k26}shi{\k44}tai {\k17}ka{\k56}ra
+Comment: 0,0:02:05.16,0:02:12.08,Ijigen,,0,0,0,karaoke,{\k30}sei{\k28}i{\k29}p{\k41}pa{\k17}i {\kf101}no{\k44} {\k27}o{\k56}mo{\k46}te{\k128}nash' {\k59}shi{\k43}ma{\k43}shou
+Comment: 0,0:02:12.91,0:02:17.48,Ijigen,,0,0,0,karaoke,{\kf205}PO{\k30}{\k30}CHE {\k26}shu{\k32}shu{\k16}shu {\k24}shu{\k17}shu{\k30}shu{\k27}shu{\k20}shu
+Comment: 0,0:02:17.54,0:02:19.56,Ijigen,,0,0,0,karaoke,{\k32}PO{\k26}CHE {\k30}shu{\k16}shu {\k28}shu{\k16}shu{\k28}shu{\k26}shu
+Comment: 0,0:02:19.83,0:02:23.60,Chiyuki,,0,0,0,karaoke,{\k33}fu{\k27}wa{\k31}fu{\k15}wa {\k28}C{\k15}RÈ{\k28}~{\k27}ME {\k30}ka{\k59}sa{\k43}ne{\k41}te
+Comment: 0,0:02:23.89,0:02:26.74,Ijigen,,0,0,0,karaoke,{\k58}oh {\k31}chu{\k29}chu{\k28}chu{\k15}chu {\k25}chu{\k19}chu{\k30}chu{\k27}chu{\k23}chu
+Comment: 0,0:02:26.78,0:02:28.78,Ijigen,,0,0,0,karaoke,{\k29}chu{\k28}chu{\k30}chu{\k17}chu {\k28}chu{\k15}chu{\k26}chu{\k27}chu
+Comment: 0,0:02:29.09,0:02:32.96,Hanamaru,,0,0,0,karaoke,{\k28}tsu{\k32}ya{\k28}tsu{\k15}ya {\k29}no {\k14}G{\k27}LA{\k33}CER {\k26}de {\k57}shi{\k46}a{\k52}ge
+Comment: 0,0:02:33.14,0:02:37.20,Ijigen,,0,0,0,karaoke,{\k35}TAS{\k24}TY {\k48}TAS{\k94}TY {\k33}ki{\k27}no{\k30}u {\k44}yo{\k71}ri
+Comment: 0,0:02:37.46,0:02:42.06,Emma,,0,0,0,karaoke,{\k29}mo{\k29}t{\k29}to {\k30}to{\k13}ku{\k16}be{\k16}tsu {\k28}na {\k27}i{\k28}chi{\k14}ni{\k31}chi {\k28}wo {\k43}do{\k16}u{\k83}zo
+Comment: 0,0:02:42.35,0:02:46.41,Ijigen,,0,0,0,karaoke,{\k33}HAP{\k23}PY {\k50}HAP{\k99}PY {\k28}O{\k29}R{\k29}DE{\k46}R {\k13}shi{\k56}ta
+Comment: 0,0:02:46.71,0:02:49.39,Ijigen,,0,0,0,karaoke,{\k30}ko{\k27}i {\k29}no {\k31}LO{\k14}VE {\k13}BON {\k17}AP{\k28}PÉ{\k41}TI{\k38}T
+Comment: 0,0:02:49.88,0:02:54.34,Ijigen,,0,0,0,karaoke,{\k31}o{\k13}a{\k14}ji {\k21}wa {\k25}i{\k30}ka{\k11}ga {\k30}de{\k17}sho{\k28}u {\kf226}ka
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H6E51F3&}All{\c} | {\c&HE2D24C&}♣ Tomari{\c} | {\c&H17D6E6&}♠ Hanamaru{\c} | \N{\c&H5B7A92&}♥ Chiyuki{\c} | {\c&HB0AEB2&}♦ Megumi{\c} | {\c&H76FFA8&}♪ Emma
+Dialogue: 0,0:00:23.29,0:00:28.30,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\rTomari Symbol\fs30}♣{\r\fs\4a&HFF&} {\k17}wa{\k13}re{\k58}ta {\k41}OEU{\k47}F {\k27}to{\k30}ke{\k28}ru {\k59}SU{\k28}C{\k43}RE
+Dialogue: 0,0:00:27.35,0:00:33.22,Hanamaru,,0,0,0,fx,{\k90\fad(300,200)}{\rHanamaru Symbol\fs30}♠{\r\fs\4a&HFF&} {\k28}ma{\k29}u {\k30}FA{\k55}RI{\k43}~{\k43}NE {\k29}ka{\k32}o{\k27}ru {\k57}BO{\k45}U{\k59}LE
+Dialogue: 0,0:00:32.50,0:00:37.46,Megumi,,0,0,0,fx,{\k90\fad(300,200)}{\rMegumi Symbol\fs30}♦{\r\fs\4a&HFF&} {\k15}a{\k17}ta{\k59}ta{\k43}me{\k43}ta {\k27}MI{\k31}E{\k28}L {\k58}no {\k43}na{\k22}ka
+Dialogue: 0,0:00:36.58,0:00:42.44,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\rEmma Symbol\fs30}♪{\r\fs\4a&HFF&} {\k28}o{\k30}do{\k27}ru {\k59}É{\k46}PI{\k38}CE {\k30}D{\k29}RE{\k30}S{\k58}SER {\k43}shi{\k58}te
+Dialogue: 0,0:00:41.47,0:00:45.66,Chiyuki,,0,0,0,fx,{\k90\fad(300,200)}{\rChiyuki Symbol\fs30}♥{\r\fs\4a&HFF&} {\k31}ki{\k28}mi {\k31}to {\k25}is{\k19}sho {\k26}na{\k42}ra {\k17}so{\k14}re{\k14}da{\k29}ke {\k33}de
+Dialogue: 0,0:00:44.66,0:00:47.70,Chiyuki,,0,0,0,fx,{\k90\fad(300,200)}{\rChiyuki Symbol\fs30}♥{\r\fs\4a&HFF&} {\k12}mi{\k16}ta{\k17}sa{\k27}re{\k44}ru {\k26}ko{\k31}ko{\k21}ro
+Dialogue: 0,0:00:46.66,0:00:51.21,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k43}chan{\k15}to {\k21}o{\k20}n{\k45}ga{\k29}e{\k30}shi {\k26}shi{\k47}tai {\k14}ka{\k55}ra
+Dialogue: 0,0:00:50.42,0:00:56.12,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k30}sei{\k28}i{\k29}p{\k41}pa{\k15}i {\kf103}no{\k44} {\k27}o{\k56}mo{\k46}te{\k41}nash'
+Dialogue: 0,0:00:55.25,0:00:59.22,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k61}PO{\k28}CHE {\k31}shu{\k30}shu{\k15}shu {\k28}shu{\k15}shu{\k29}shu{\k29}shu{\k21}shu
+Dialogue: 0,0:00:58.18,0:01:01.19,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k32}PO{\k26}CHE {\k30}shu{\k16}shu {\k28}shu{\k16}shu{\k28}shu{\k15}shu
+Dialogue: 0,0:01:00.49,0:01:05.31,Chiyuki,,0,0,0,fx,{\k90\fad(300,200)}{\rChiyuki Symbol\fs30}♥{\r\fs\4a&HFF&} {\k33}fu{\k27}wa{\k31}fu{\k15}wa {\k28}C{\k15}RÈ{\k28}~{\k27}ME {\k30}ka{\k59}sa{\k43}ne{\k36}te
+Dialogue: 0,0:01:04.52,0:01:08.47,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k58}oh {\k31}chu{\k29}chu{\k28}chu{\k15}chu {\k25}chu{\k19}chu{\k30}chu{\k27}chu{\k23}chu
+Dialogue: 0,0:01:07.42,0:01:10.42,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k29}chu{\k28}chu{\k30}chu{\k17}chu {\k28}chu{\k15}chu{\k26}chu{\k17}chu
+Dialogue: 0,0:01:09.74,0:01:14.61,Tomari,,0,0,0,fx,{\k90\fad(300,200)}{\rTomari Symbol\fs30}♣{\r\fs\4a&HFF&} {\k28}tsu{\k32}ya{\k28}tsu{\k15}ya {\k29}no {\k14}G{\k27}LA{\k33}CER {\k26}de {\k57}shi{\k46}a{\k42}ge
+Dialogue: 0,0:01:13.76,0:01:18.92,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k35}TAS{\k24}TY {\k48}TAS{\k94}TY {\k33}ki{\k27}no{\k30}u {\k44}yo{\k71}ri
+Dialogue: 0,0:01:18.11,0:01:23.73,Megumi,,0,0,0,fx,{\k90\fad(300,200)}{\rMegumi Symbol\fs30}♦{\r\fs\4a&HFF&} {\k29}mo{\k29}t{\k29}to {\k30}to{\k13}ku{\k16}be{\k16}tsu {\k28}na {\k27}i{\k28}chi{\k14}ni{\k31}chi {\k28}wo {\k43}do{\k16}u{\k75}zo
+Dialogue: 0,0:01:22.96,0:01:28.35,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k33}HAP{\k23}PY {\k50}HAP{\k101}PY {\k31}O{\k29}R{\k28}DE{\k44}R {\k14}shi{\k76}ta
+Dialogue: 0,0:01:27.32,0:01:31.03,Chiyuki,,0,0,0,fx,{\k90\fad(300,200)}{\rChiyuki Symbol\fs30}♥{\r\fs\4a&HFF&} {\k30}ko{\k30}i {\k28}no {\k31}LO{\k14}VE {\k14}BON {\k18}AP{\k28}PÉ{\k40}TI{\k28}T
+Dialogue: 0,0:01:30.50,0:01:35.40,Chiyuki,,0,0,0,fx,{\k90\fad(300,200)}{\rChiyuki Symbol\fs30}♥{\r\fs\4a&HFF&} {\k31}o{\k13}a{\k14}ji {\k21}wa {\k25}i{\k30}ka{\k13}ga {\k28}de{\k18}sho{\k27}u {\kf160}ka
+Dialogue: 0,0:01:55.32,0:01:59.58,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ki{\k27}mi {\k30}to {\k26}is{\k18}sho {\k28}na{\k41}ra {\k16}so{\k13}re{\k15}da{\k30}ke {\k39}de
+Dialogue: 0,0:01:58.56,0:02:01.59,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k11}mi{\k15}ta{\k16}sa{\k26}re{\k42}ru {\k28}ko{\k28}ko{\k27}ro
+Dialogue: 0,0:02:00.52,0:02:05.08,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k43}chan{\k15}to {\k21}o{\k23}n{\k42}ga{\k29}e{\k30}shi {\k26}shi{\k44}tai {\k17}ka{\k56}ra
+Dialogue: 0,0:02:04.26,0:02:12.28,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k30}sei{\k28}i{\k29}p{\k41}pa{\k17}i {\kf101}no{\k44} {\k27}o{\k56}mo{\k46}te{\k128}nash' {\k59}shi{\k43}ma{\k43}shou
+Dialogue: 0,0:02:12.01,0:02:17.68,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\kf205}PO{\k30}{\k30}CHE {\k26}shu{\k32}shu{\k16}shu {\k24}shu{\k17}shu{\k30}shu{\k27}shu{\k20}shu
+Dialogue: 0,0:02:16.64,0:02:19.76,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k32}PO{\k26}CHE {\k30}shu{\k16}shu {\k28}shu{\k16}shu{\k28}shu{\k26}shu
+Dialogue: 0,0:02:18.93,0:02:23.80,Chiyuki,,0,0,0,fx,{\k90\fad(300,200)}{\rChiyuki Symbol\fs30}♥{\r\fs\4a&HFF&} {\k33}fu{\k27}wa{\k31}fu{\k15}wa {\k28}C{\k15}RÈ{\k28}~{\k27}ME {\k30}ka{\k59}sa{\k43}ne{\k41}te
+Dialogue: 0,0:02:22.99,0:02:26.94,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k58}oh {\k31}chu{\k29}chu{\k28}chu{\k15}chu {\k25}chu{\k19}chu{\k30}chu{\k27}chu{\k23}chu
+Dialogue: 0,0:02:25.88,0:02:28.98,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k29}chu{\k28}chu{\k30}chu{\k17}chu {\k28}chu{\k15}chu{\k26}chu{\k27}chu
+Dialogue: 0,0:02:28.19,0:02:33.16,Hanamaru,,0,0,0,fx,{\k90\fad(300,200)}{\rHanamaru Symbol\fs30}♠{\r\fs\4a&HFF&} {\k28}tsu{\k32}ya{\k28}tsu{\k15}ya {\k29}no {\k14}G{\k27}LA{\k33}CER {\k26}de {\k57}shi{\k46}a{\k52}ge
+Dialogue: 0,0:02:32.24,0:02:37.40,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k35}TAS{\k24}TY {\k48}TAS{\k94}TY {\k33}ki{\k27}no{\k30}u {\k44}yo{\k71}ri
+Dialogue: 0,0:02:36.56,0:02:42.26,Emma,,0,0,0,fx,{\k90\fad(300,200)}{\rEmma Symbol\fs30}♪{\r\fs\4a&HFF&} {\k29}mo{\k29}t{\k29}to {\k30}to{\k13}ku{\k16}be{\k16}tsu {\k28}na {\k27}i{\k28}chi{\k14}ni{\k31}chi {\k28}wo {\k43}do{\k16}u{\k83}zo
+Dialogue: 0,0:02:41.45,0:02:46.61,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k33}HAP{\k23}PY {\k50}HAP{\k99}PY {\k28}O{\k29}R{\k29}DE{\k46}R {\k13}shi{\k56}ta
+Dialogue: 0,0:02:45.81,0:02:49.59,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k30}ko{\k27}i {\k29}no {\k31}LO{\k14}VE {\k13}BON {\k17}AP{\k28}PÉ{\k41}TI{\k38}T
+Dialogue: 0,0:02:48.98,0:02:54.54,Ijigen,,0,0,0,fx,{\k90\fad(300,200)}{\k31}o{\k13}a{\k14}ji {\k21}wa {\k25}i{\k30}ka{\k11}ga {\k30}de{\k17}sho{\k28}u {\kf226}ka
