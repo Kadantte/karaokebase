@@ -1,21 +1,28 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Konoyo no Uta
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-Collisions: Normal
+Original Timing: Kara.moe
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
-Dialogue: 1,0:0:1.92,0:0:9.48,Default,,0000,0000,0000,,{\k100}{\k132}se{\k44}ka{\k128}i {\k56}no {\k136}u{\k44}ta{\k116}wo
-Dialogue: 1,0:0:9.28,0:0:17.56,Default,,0000,0000,0000,,{\k100}{\k120}do{\k48}ko{\k120}ma{\k56}de {\k140}i{\k48}ko{\k196}u
-Dialogue: 1,0:0:16.56,0:0:24.16,Default,,0000,0000,0000,,{\k100}{\k108}so{\k52}ra {\k156}wo {\k60}a{\k108}o{\k44}i{\k132}de
-Dialogue: 1,0:0:23.76,0:0:31.28,Default,,0000,0000,0000,,{\k100}{\k132}hi{\k40}to{\k128}no {\k56}fu{\k20}{\k96}bu {\k56}go{\k124}e
-Dialogue: 1,0:0:31.04,0:0:38.28,Default,,0000,0000,0000,,{\k100}{\k116}mu{\k52}shi {\k112}no {\k80}ha{\k128}ba{\k36}ta{\k100}ki
-Dialogue: 1,0:0:38.44,0:0:45.64,Default,,0000,0000,0000,,{\k100}{\k100}fu{\k60}wa {\k120}fu{\k68}wa {\k120}fu{\k76}ru{\k76}ri
-Dialogue: 1,0:0:45.52,0:0:52.72,Default,,0000,0000,0000,,{\k100}{\k120}o{\k68}mo{\k80}i {\k96}{\k124}no{\k56}se{\k76}te
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:02.92,0:00:09.48,Default,,0,0,0,karaoke,{\k132}se{\k44}ka{\k128}i {\k56}no {\k136}u{\k44}ta{\k116}wo
+Comment: 1,0:00:10.28,0:00:17.56,Default,,0,0,0,karaoke,{\k120}do{\k48}ko{\k120}ma{\k56}de {\k140}i{\k48}ko{\k196}u
+Comment: 1,0:00:17.56,0:00:24.16,Default,,0,0,0,karaoke,{\k108}so{\k52}ra {\k156}wo {\k60}a{\k108}o{\k44}i{\k132}de
+Comment: 1,0:00:24.76,0:00:31.28,Default,,0,0,0,karaoke,{\k132}hi{\k40}to{\k128}no {\k56}fu{\k20}{\k96}bu {\k56}go{\k124}e
+Comment: 1,0:00:32.04,0:00:38.28,Default,,0,0,0,karaoke,{\k116}mu{\k52}shi {\k112}no {\k80}ha{\k128}ba{\k36}ta{\k100}ki
+Comment: 1,0:00:39.44,0:00:45.64,Default,,0,0,0,karaoke,{\k100}fu{\k60}wa {\k120}fu{\k68}wa {\k120}fu{\k76}ru{\k76}ri
+Comment: 1,0:00:46.52,0:00:52.72,Default,,0,0,0,karaoke,{\k120}o{\k68}mo{\k80}i {\k96}{\k124}no{\k56}se{\k76}te
+Dialogue: 1,0:00:02.02,0:00:09.68,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k132}se{\k44}ka{\k128}i {\k56}no {\k136}u{\k44}ta{\k116}wo
+Dialogue: 1,0:00:09.38,0:00:17.76,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k120}do{\k48}ko{\k120}ma{\k56}de {\k140}i{\k48}ko{\k196}u
+Dialogue: 1,0:00:16.66,0:00:24.36,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k108}so{\k52}ra {\k156}wo {\k60}a{\k108}o{\k44}i{\k132}de
+Dialogue: 1,0:00:23.86,0:00:31.48,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k132}hi{\k40}to{\k128}no {\k56}fu{\k20}{\k96}bu {\k56}go{\k124}e
+Dialogue: 1,0:00:31.14,0:00:38.48,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k116}mu{\k52}shi {\k112}no {\k80}ha{\k128}ba{\k36}ta{\k100}ki
+Dialogue: 1,0:00:38.54,0:00:45.84,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k100}fu{\k60}wa {\k120}fu{\k68}wa {\k120}fu{\k76}ru{\k76}ri
+Dialogue: 1,0:00:45.62,0:00:52.92,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k120}o{\k68}mo{\k80}i {\k96}{\k124}no{\k56}se{\k76}te

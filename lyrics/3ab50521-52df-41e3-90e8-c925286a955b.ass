@@ -1,30 +1,48 @@
-[Script Info]
-Title: karaoke
+﻿[Script Info]
+Title: Assemble Insert
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-Collisions: Normal
+Original Timing: Kara.moe
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000088EF,&H00000000,&H00666666,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: Default,Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
-Dialogue: 1,0:0:13.68,0:0:16.85,Default,,0000,0000,0000,,{\k100}{\k17}su{\k17}k{\k21}ku {\k33}to {\k33}ta{\k17}chi{\k21}a{\k17}ga{\k42}ri
-Dialogue: 1,0:0:15.85,0:0:19.93,Default,,0000,0000,0000,,{\k100}{\k13}ni{\k17}ra{\k38}mu {\k17}hi{\k17}to{\k21}mi {\k33}ga {\k38}mo{\k17}e{\k17}a{\k21}ga{\k63}ru
-Dialogue: 1,0:0:19.43,0:0:24.48,Default,,0000,0000,0000,,{\k100}{\k13}ki{\k17}me {\k17}no {\k17}se{\k17}ri{\k21}fu {\k50}ga {\k25}{\k13}de{\k21}te {\k17}ko{\k17}na{\k163}i
-Dialogue: 1,0:0:25.11,0:0:28.19,Default,,0000,0000,0000,,{\k100}{\k33}ya{\k13}nya {\k33}no {\k38}te{\k21}byo{\k17}u{\k17}shi {\k38}to
-Dialogue: 1,0:0:27.19,0:0:31.28,Default,,0000,0000,0000,,{\k100}{\k17}hi{\k17}ka{\k38}ru {\k17}F{\k33}LA{\k33}SH {\k42}o {\k17}se{\k17}na{\k17}ka {\k63}ni
-Dialogue: 1,0:0:30.78,0:0:35.95,Default,,0000,0000,0000,,{\k100}{\k13}ta{\k21}ta{\k17}ka{\k17}i {\k17}i{\k17}do{\k21}mu {\k29}SU{\k38}PER {\k17}HE{\k33}RO{\k179}IN
-Dialogue: 1,0:0:35.91,0:0:42.45,Default,,0000,0000,0000,,{\k100}{\k29}"i{\k54}yan-" {\k96}to {\k29}{\k33}mo{\k38}ji{\k38}mo{\k38}ji {\k13}su{\k38}ru {\k38}te {\k113}de
-Dialogue: 1,0:0:41.79,0:0:48.50,Default,,0000,0000,0000,,{\k100}{\k33}ha{\k17}ri{\k33}to{\k38}ba{\k17}su {\k38}fu{\k17}ki{\k33}to{\k38}ba{\k25}su {\k29}ta{\k17}chi{\k33}ma{\k25}chi {\k33}SC{\k121}RA{\k25}P!
-Dialogue: 1,0:0:49.38,0:0:52.88,Default,,0000,0000,0000,,{\k100}{\k21}ki{\k17}se{\k33}ki {\k21}no {\k33}HE{\k33}RO{\k17}I{\k38}N {\k38}ga 
-Dialogue: 1,0:0:52.25,0:0:55.88,Default,,0000,0000,0000,,{\k100}{\k17}a{\k17}ra{\k33}shi {\k21}no {\k29}SHO{\k38}W {\k17}T{\k33}I{\k58}ME
-Dialogue: 1,0:0:54.88,0:0:58.51,Default,,0000,0000,0000,,{\k100}{\k21}DE{\k58}BUT {\k13}o {\k17}ka{\k17}za{\k25}ru {\k21}BA{\k21}TT{\k71}LE
-Dialogue: 1,0:0:57.80,0:1:1.26,Default,,0000,0000,0000,,{\k100}{\k13}mu{\k21}ne {\k13}ga {\k17}to{\k21}ki{\k17}me{\k17}ku {\k21}S{\k38}MI{\k71}LE
-Dialogue: 1,0:1:0.80,0:1:4.26,Default,,0000,0000,0000,,{\k100}{\k17}se{\k17}i{\k33}gi {\k17}no {\k71}I{\k17}DO{\k38}L {\k38}no
-Dialogue: 1,0:1:3.64,0:1:7.01,Default,,0000,0000,0000,,{\k100}{\k13}i{\k17}chi{\k38}zu {\k17}na {\k29}S{\k38}T{\k17}O{\k33}R{\k38}Y
-Dialogue: 1,0:1:6.31,0:1:9.89,Default,,0000,0000,0000,,{\k100}{\k17}to{\k17}ri{\k17}e {\k17}wa {\k17}hi{\k21}to{\k21}tsu {\k13}da{\k38}ke{\k83}do
-Dialogue: 1,0:1:9.14,0:1:14.40,Default,,0000,0000,0000,,{\k100}{\k17}wa{\k17}ka{\k17}ru {\k21}de{\k17}sho {\k13}ki{\k21}mi {\k33}ko{\k38}so {\k17}S{\k38}TA{\k179}R!
+Comment: 1,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 1,0:00:14.68,0:00:16.85,Default,,0,0,0,karaoke,{\k17}su{\k17}k{\k21}ku {\k33}to {\k33}ta{\k17}chi{\k21}a{\k17}ga{\k42}ri
+Comment: 1,0:00:16.85,0:00:19.93,Default,,0,0,0,karaoke,{\k13}ni{\k17}ra{\k38}mu {\k17}hi{\k17}to{\k21}mi {\k33}ga {\k38}mo{\k17}e{\k17}a{\k21}ga{\k63}ru
+Comment: 1,0:00:20.43,0:00:24.48,Default,,0,0,0,karaoke,{\k13}ki{\k17}me {\k17}no {\k17}se{\k17}ri{\k21}fu {\k75}ga {\k13}de{\k21}te {\k17}ko{\k17}na{\k163}i
+Comment: 1,0:00:26.11,0:00:28.19,Default,,0,0,0,karaoke,{\k33}ya{\k13}nya {\k33}no {\k38}te{\k21}byo{\k17}u{\k17}shi {\k38}to
+Comment: 1,0:00:28.19,0:00:31.28,Default,,0,0,0,karaoke,{\k17}hi{\k17}ka{\k38}ru {\k17}F{\k33}LA{\k33}SH {\k42}wo {\k17}se{\k17}na{\k17}ka {\k63}ni
+Comment: 1,0:00:31.78,0:00:35.95,Default,,0,0,0,karaoke,{\k13}ta{\k21}ta{\k17}ka{\k17}i {\k17}i{\k17}do{\k21}mu {\k29}SU{\k38}PER {\k17}HE{\k33}RO{\k179}IN
+Comment: 1,0:00:36.91,0:00:42.45,Default,,0,0,0,karaoke,{\k29}"i{\k54}yan-" {\k125}to {\k33}mo{\k38}ji{\k38}mo{\k38}ji {\k13}su{\k38}ru {\k38}te {\k113}de
+Comment: 1,0:00:42.79,0:00:45.68,Default,,0,0,0,karaoke,{\k33}ha{\k17}ri{\k33}to{\k38}ba{\k17}su {\k38}fu{\k17}ki{\k33}to{\k38}ba{\k25}su
+Comment: 1,0:00:45.68,0:00:48.50,Default,,0,0,0,karaoke,{\k29}ta{\k17}chi{\k33}ma{\k25}chi {\k33}SC{\k121}RA{\k25}P!
+Comment: 1,0:00:50.38,0:00:52.88,Default,,0,0,0,karaoke,{\k21}ki{\k17}se{\k33}ki {\k21}no {\k33}HE{\k33}RO{\k17}I{\k38}N {\k38}ga
+Comment: 1,0:00:53.25,0:00:55.88,Default,,0,0,0,karaoke,{\k17}a{\k17}ra{\k33}shi {\k21}no {\k29}SHO{\k38}W {\k17}T{\k33}I{\k58}ME
+Comment: 1,0:00:55.88,0:00:58.51,Default,,0,0,0,karaoke,{\k21}DE{\k58}BUT {\k13}wo {\k17}ka{\k17}za{\k25}ru {\k21}BA{\k21}TT{\k71}LE
+Comment: 1,0:00:58.80,0:01:01.26,Default,,0,0,0,karaoke,{\k13}mu{\k21}ne {\k13}ga {\k17}to{\k21}ki{\k17}me{\k17}ku {\k21}S{\k38}MI{\k71}LE
+Comment: 1,0:01:01.80,0:01:04.26,Default,,0,0,0,karaoke,{\k17}se{\k17}i{\k33}gi {\k17}no {\k71}I{\k17}DO{\k38}L {\k38}no
+Comment: 1,0:01:04.64,0:01:07.01,Default,,0,0,0,karaoke,{\k13}i{\k17}chi{\k38}zu {\k17}na {\k29}S{\k38}T{\k17}O{\k33}R{\k38}Y
+Comment: 1,0:01:07.31,0:01:09.89,Default,,0,0,0,karaoke,{\k17}to{\k17}ri{\k17}e {\k17}wa {\k17}hi{\k21}to{\k21}tsu {\k13}da{\k38}ke{\k83}do
+Comment: 1,0:01:10.14,0:01:14.40,Default,,0,0,0,karaoke,{\k17}wa{\k17}ka{\k17}ru {\k21}de{\k17}sho {\k13}ki{\k21}mi {\k33}ko{\k38}so {\k17}S{\k38}TA{\k179}R!
+Dialogue: 1,0:00:13.78,0:00:17.05,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}su{\k17}k{\k21}ku {\k33}to {\k33}ta{\k17}chi{\k21}a{\k17}ga{\k42}ri
+Dialogue: 1,0:00:15.95,0:00:20.13,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ni{\k17}ra{\k38}mu {\k17}hi{\k17}to{\k21}mi {\k33}ga {\k38}mo{\k17}e{\k17}a{\k21}ga{\k63}ru
+Dialogue: 1,0:00:19.53,0:00:24.68,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ki{\k17}me {\k17}no {\k17}se{\k17}ri{\k21}fu {\k75}ga {\k13}de{\k21}te {\k17}ko{\k17}na{\k163}i
+Dialogue: 1,0:00:25.21,0:00:28.39,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ya{\k13}nya {\k33}no {\k38}te{\k21}byo{\k17}u{\k17}shi {\k38}to
+Dialogue: 1,0:00:27.29,0:00:31.48,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}hi{\k17}ka{\k38}ru {\k17}F{\k33}LA{\k33}SH {\k42}wo {\k17}se{\k17}na{\k17}ka {\k63}ni
+Dialogue: 1,0:00:30.88,0:00:36.15,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}ta{\k21}ta{\k17}ka{\k17}i {\k17}i{\k17}do{\k21}mu {\k29}SU{\k38}PER {\k17}HE{\k33}RO{\k179}IN
+Dialogue: 1,0:00:36.01,0:00:42.65,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}"i{\k54}yan-" {\k125}to {\k33}mo{\k38}ji{\k38}mo{\k38}ji {\k13}su{\k38}ru {\k38}te {\k113}de
+Dialogue: 1,0:00:41.89,0:00:45.88,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k33}ha{\k17}ri{\k33}to{\k38}ba{\k17}su {\k38}fu{\k17}ki{\k33}to{\k38}ba{\k25}su
+Dialogue: 1,0:00:44.78,0:00:48.70,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k29}ta{\k17}chi{\k33}ma{\k25}chi {\k33}SC{\k121}RA{\k25}P!
+Dialogue: 1,0:00:49.48,0:00:53.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ki{\k17}se{\k33}ki {\k21}no {\k33}HE{\k33}RO{\k17}I{\k38}N {\k38}ga
+Dialogue: 1,0:00:52.35,0:00:56.08,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}a{\k17}ra{\k33}shi {\k21}no {\k29}SHO{\k38}W {\k17}T{\k33}I{\k58}ME
+Dialogue: 1,0:00:54.98,0:00:58.71,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k21}DE{\k58}BUT {\k13}wo {\k17}ka{\k17}za{\k25}ru {\k21}BA{\k21}TT{\k71}LE
+Dialogue: 1,0:00:57.90,0:01:01.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}mu{\k21}ne {\k13}ga {\k17}to{\k21}ki{\k17}me{\k17}ku {\k21}S{\k38}MI{\k71}LE
+Dialogue: 1,0:01:00.90,0:01:04.46,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}se{\k17}i{\k33}gi {\k17}no {\k71}I{\k17}DO{\k38}L {\k38}no
+Dialogue: 1,0:01:03.74,0:01:07.21,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k13}i{\k17}chi{\k38}zu {\k17}na {\k29}S{\k38}T{\k17}O{\k33}R{\k38}Y
+Dialogue: 1,0:01:06.41,0:01:10.09,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}to{\k17}ri{\k17}e {\k17}wa {\k17}hi{\k21}to{\k21}tsu {\k13}da{\k38}ke{\k83}do
+Dialogue: 1,0:01:09.24,0:01:14.60,Default,,0,0,0,fx,{\k90\fad(300,200)}{\k17}wa{\k17}ka{\k17}ru {\k21}de{\k17}sho {\k13}ki{\k21}mi {\k33}ko{\k38}so {\k17}S{\k38}TA{\k179}R!
