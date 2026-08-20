@@ -1,0 +1,63 @@
+﻿[Script Info]
+Title: Un Poco Loco
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Miguel],Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Hector],Arial,24,&H00FFFFFF,&H00FFB858,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM Duo [Voice 1&2],Arial,24,&H00FFFFFF,&H00EB4DC1,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM Duo [Miguel]}Miguel {\2cHFFFFFF}| {\rSample KM Duo [Hector]}Hector {\2cHFFFFFF}| {\rSample KM Duo [Voice 1&2]}Both
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.17,0:00:03.83,Sample KM Duo [Miguel],,0,0,0,karaoke,{\k75}Ow-{\k69}ow-{\k22}ah
+Comment: 0,0:00:14.82,0:00:18.24,Sample KM Duo [Miguel],,0,0,0,karaoke,{\k26}What {\k18}co{\k25}lor {\k19}is {\k29}the {\k56}sky? {\k16}Ay, {\k7}mi {\k9}a{\k55}mor, {\k16}ay, {\k8}mi {\k12}a{\k46}mor
+Comment: 0,0:00:18.58,0:00:22.11,Sample KM Duo [Miguel],,0,0,0,karaoke,{\k30}You {\k24}tell {\k24}me {\k14}that {\k32}it's {\k46}red, {\k23}ay, {\k7}mi {\k11}a{\k59}mor, {\k18}ay, {\k9}mi {\k13}a{\k43}mor
+Comment: 0,0:00:22.42,0:00:24.31,Sample KM Duo [Miguel],,0,0,0,karaoke,{\k41}Where {\k16}should {\k32}I {\k16}put {\k30}my {\k54}shoes?
+Comment: 0,0:00:24.31,0:00:25.77,Sample KM Duo [Miguel],,0,0,0,karaoke,{\k12}Ay, {\k8}mi {\k17}a{\k52}mor, {\k19}ay, {\k8}mi {\k11}a{\k19}mor
+Comment: 0,0:00:26.10,0:00:27.92,Sample KM Duo [Miguel],,0,0,0,karaoke,{\k20}You {\k30}say, {\k22}"Put {\k19}them {\k20}on {\k23}your {\k48}head!"
+Comment: 0,0:00:28.12,0:00:30.62,Sample KM Duo [Miguel],,0,0,0,karaoke,{\k18}Ay, {\k9}mi {\k11}a{\k52}mor, {\k10}ay, {\k11}mi {\k15}a{\kf124}mor
+Comment: 0,0:00:30.96,0:00:35.22,Sample KM Duo [Miguel],,0,0,0,karaoke,{\k17}You {\k30}make {\k18}me {\k25}un {\k20}po{\k15}co {\k55}lo{\k46}co, {\k23}un {\k15}po{\k18}qui{\k19}ti{\k33}ti{\k16}to {\k40}lo{\k36}co
+Comment: 0,0:00:35.25,0:00:36.89,Sample KM Duo [Miguel],,0,0,0,karaoke,{\k20}The {\k25}way {\k21}you {\k17}keep {\k19}me {\k47}gues{\k15}sing
+Comment: 0,0:00:37.09,0:00:38.89,Sample KM Duo [Miguel],,0,0,0,karaoke,{\k36}I'm {\k16}nod{\k25}ding {\k15}and {\k31}I'm {\k31}yes-{\k26}ing
+Comment: 0,0:00:39.07,0:00:41.51,Sample KM Duo [Miguel],,0,0,0,karaoke,{\k21}I'll {\k29}count {\k18}it {\k19}as {\k29}a {\k28}bles{\kf100}sing
+Comment: 0,0:00:41.91,0:00:46.12,Sample KM Duo [Miguel],,0,0,0,karaoke,{\k10}That {\k17}I'm {\k33}on{\k27}ly{\k36} {\k35}un {\k28}po{\k20}co {\k47}lo{\kf168}co
+Comment: 0,0:01:08.66,0:01:10.40,Sample KM Duo [Hector],,0,0,0,karaoke,{\k16}The {\k30}lo{\k15}co {\k21}that {\k21}you {\k34}make {\k37}me
+Comment: 0,0:01:10.40,0:01:12.34,Sample KM Duo [Hector],,0,0,0,karaoke,{\k10}It {\k22}is {\k32}just {\k27}un {\k13}po{\k19}co {\k31}cra{\k40}zy
+Comment: 0,0:01:12.45,0:01:14.22,Sample KM Duo [Hector],,0,0,0,karaoke,{\k22}The {\k26}sense {\k19}that {\k16}you're {\k27}not {\k32}ma{\k35}king
+Comment: 0,0:01:14.22,0:01:16.33,Sample KM Duo [Miguel],,0,0,0,karaoke,{\k28}The {\k15}li{\k19}ber{\k28}ties {\k32}you're {\k31}ta{\k58}king
+Comment: 0,0:01:16.04,0:01:18.56,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k29}Leaves {\k29}my {\k15}ca{\k21}be{\k27}za {\k30}sha{\kf101}king
+Comment: 0,0:01:18.81,0:01:24.74,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k11}You {\k19}are {\k40}just{\k50} {\k31}un {\k31}po{\k21}co {\k42}lo{\kf153}co-{\kf89}o-{\kf106}o
+Comment: 0,0:01:36.91,0:01:43.70,Sample KM Duo [Voice 1&2],,0,0,0,karaoke,{\k22}Un {\k20}po{\k30}qui{\k31}ti{\k29}ti{\k29}ti{\k34}ti{\k27}ti{\k26}ti{\k22}ti{\k36}ti-{\k15}ti{\k15}ti{\k15}ti{\k14}ti{\k15}ti{\k16}to {\k36}lo{\kf247}co
+Comment: 0,0:01:43.55,0:01:44.58,Sample KM Duo [Hector],,0,0,0,karaoke,{\k40}Ha-{\k21}ha-{\k42}ha
+Comment: 0,0:01:43.58,0:01:45.29,Sample KM Duo [Miguel],,0,0,0,karaoke,{\k46}Ow-{\k47}ow-{\k42}ow-{\k36}ah
+Dialogue: 0,0:00:01.27,0:00:04.03,Sample KM Duo [Miguel],,0,0,0,fx,{\k90\fad(300,200)}{\k75}Ow-{\k69}ow-{\k22}ah
+Dialogue: 0,0:00:13.92,0:00:18.44,Sample KM Duo [Miguel],,0,0,0,fx,{\k90\fad(300,200)}{\k26}What {\k18}co{\k25}lor {\k19}is {\k29}the {\k56}sky? {\k16}Ay, {\k7}mi {\k9}a{\k55}mor, {\k16}ay, {\k8}mi {\k12}a{\k46}mor
+Dialogue: 0,0:00:17.68,0:00:22.31,Sample KM Duo [Miguel],,0,0,0,fx,{\k90\fad(300,200)}{\k30}You {\k24}tell {\k24}me {\k14}that {\k32}it's {\k46}red, {\k23}ay, {\k7}mi {\k11}a{\k59}mor, {\k18}ay, {\k9}mi {\k13}a{\k43}mor
+Dialogue: 0,0:00:21.52,0:00:24.51,Sample KM Duo [Miguel],,0,0,0,fx,{\k90\fad(300,200)}{\k41}Where {\k16}should {\k32}I {\k16}put {\k30}my {\k54}shoes?
+Dialogue: 0,0:00:23.41,0:00:25.97,Sample KM Duo [Miguel],,0,0,0,fx,{\k90\fad(300,200)}{\k12}Ay, {\k8}mi {\k17}a{\k52}mor, {\k19}ay, {\k8}mi {\k11}a{\k19}mor
+Dialogue: 0,0:00:25.20,0:00:28.12,Sample KM Duo [Miguel],,0,0,0,fx,{\k90\fad(300,200)}{\k20}You {\k30}say, {\k22}"Put {\k19}them {\k20}on {\k23}your {\k48}head!"
+Dialogue: 0,0:00:27.22,0:00:30.82,Sample KM Duo [Miguel],,0,0,0,fx,{\k90\fad(300,200)}{\k18}Ay, {\k9}mi {\k11}a{\k52}mor, {\k10}ay, {\k11}mi {\k15}a{\kf124}mor
+Dialogue: 0,0:00:30.06,0:00:35.42,Sample KM Duo [Miguel],,0,0,0,fx,{\k90\fad(300,200)}{\k17}You {\k30}make {\k18}me {\k25}un {\k20}po{\k15}co {\k55}lo{\k46}co, {\k23}un {\k15}po{\k18}qui{\k19}ti{\k33}ti{\k16}to {\k40}lo{\k36}co
+Dialogue: 0,0:00:34.35,0:00:37.09,Sample KM Duo [Miguel],,0,0,0,fx,{\k90\fad(300,200)}{\k20}The {\k25}way {\k21}you {\k17}keep {\k19}me {\k47}gues{\k15}sing
+Dialogue: 0,0:00:36.19,0:00:39.09,Sample KM Duo [Miguel],,0,0,0,fx,{\k90\fad(300,200)}{\k36}I'm {\k16}nod{\k25}ding {\k15}and {\k31}I'm {\k31}yes-{\k26}ing
+Dialogue: 0,0:00:38.17,0:00:41.71,Sample KM Duo [Miguel],,0,0,0,fx,{\k90\fad(300,200)}{\k21}I'll {\k29}count {\k18}it {\k19}as {\k29}a {\k28}bles{\kf100}sing
+Dialogue: 0,0:00:41.01,0:00:46.32,Sample KM Duo [Miguel],,0,0,0,fx,{\k90\fad(300,200)}{\k10}That {\k17}I'm {\k33}on{\k27}ly{\k36} {\k35}un {\k28}po{\k20}co {\k47}lo{\kf168}co
+Dialogue: 0,0:01:07.76,0:01:10.60,Sample KM Duo [Hector],,0,0,0,fx,{\k90\fad(300,200)}{\k16}The {\k30}lo{\k15}co {\k21}that {\k21}you {\k34}make {\k37}me
+Dialogue: 0,0:01:09.50,0:01:12.54,Sample KM Duo [Hector],,0,0,0,fx,{\k90\fad(300,200)}{\k10}It {\k22}is {\k32}just {\k27}un {\k13}po{\k19}co {\k31}cra{\k40}zy
+Dialogue: 0,0:01:11.55,0:01:14.42,Sample KM Duo [Hector],,0,0,0,fx,{\k90\fad(300,200)}{\k22}The {\k26}sense {\k19}that {\k16}you're {\k27}not {\k32}ma{\k35}king
+Dialogue: 0,0:01:13.32,0:01:16.53,Sample KM Duo [Miguel],,0,0,0,fx,{\k90\fad(300,200)}{\k28}The {\k15}li{\k19}ber{\k28}ties {\k32}you're {\k31}ta{\k58}king
+Dialogue: 0,0:01:15.14,0:01:18.76,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Leaves {\k29}my {\k15}ca{\k21}be{\k27}za {\k30}sha{\kf101}king
+Dialogue: 0,0:01:17.91,0:01:24.94,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k11}You {\k19}are {\k40}just{\k50} {\k31}un {\k31}po{\k21}co {\k42}lo{\kf153}co-{\kf89}o-{\kf106}o
+Dialogue: 0,0:01:36.01,0:01:43.90,Sample KM Duo [Voice 1&2],,0,0,0,fx,{\k90\fad(300,200)}{\k22}Un {\k20}po{\k30}qui{\k31}ti{\k29}ti{\k29}ti{\k34}ti{\k27}ti{\k26}ti{\k22}ti{\k36}ti-{\k15}ti{\k15}ti{\k15}ti{\k14}ti{\k15}ti{\k16}to {\k36}lo{\kf247}co
+Dialogue: 0,0:01:42.65,0:01:44.78,Sample KM Duo [Hector],,0,0,0,fx,{\k90\fad(300,200)}{\k40}Ha-{\k21}ha-{\k42}ha
+Dialogue: 0,0:01:42.68,0:01:45.49,Sample KM Duo [Miguel],,0,0,0,fx,{\k90\fad(300,200)}{\k46}Ow-{\k47}ow-{\k42}ow-{\k36}ah
