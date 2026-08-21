@@ -1,0 +1,47 @@
+﻿[Script Info]
+Title: Remember Me ~ Ernesto Vers.
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.68,0:00:05.78,Sample KM [Up],,0,0,0,karaoke,{\k43}Re{\kf131}mem{\k41}ber {\k74}me,{\k64} {\k29}though {\k21}I {\k23}have {\k23}to {\k18}say {\k21}good{\k22}bye
+Comment: 0,0:00:06.00,0:00:09.57,Sample KM [Up],,0,0,0,karaoke,{\k19}Re{\k26}mem{\k25}ber {\k77}me,{\k52} {\k38}don't {\k20}let {\k18}it {\k19}make {\k27}you {\k36}cry
+Comment: 0,0:00:09.92,0:00:13.31,Sample KM [Up],,0,0,0,karaoke,{\k24}For {\k19}e{\k15}ven {\k21}if {\k33}I'm {\k22}far {\k15}a{\k30}way, {\k23}I {\k33}hold {\k15}you {\k17}in {\k21}my {\k51}heart
+Comment: 0,0:00:13.57,0:00:15.31,Sample KM [Up],,0,0,0,karaoke,{\k19}I {\k18}sing {\k21}a {\k27}se{\k19}cret {\k35}song {\k15}to {\k20}you
+Comment: 0,0:00:15.31,0:00:16.75,Sample KM [Up],,0,0,0,karaoke,{\k25}Each {\k38}night {\k12}we {\k9}are {\k22}a{\k38}part
+Comment: 0,0:00:16.83,0:00:20.43,Sample KM [Up],,0,0,0,karaoke,{\k25}Re{\k49}mem{\k27}ber {\k62}me,{\k24} {\k24}though {\k22}I {\k25}have {\k21}to {\k22}tra{\k23}vel {\k36}far
+Comment: 0,0:00:20.47,0:00:24.13,Sample KM [Up],,0,0,0,karaoke,{\k15}Re{\k24}mem{\k24}ber {\k66}me{\k35} {\k27}each {\k24}time {\k18}you {\k28}hear {\k15}a {\k21}sad {\k19}gui{\k50}tar
+Comment: 0,0:00:24.62,0:00:25.92,Sample KM [Up],,0,0,0,karaoke,{\k30}Know {\k9}that {\k27}I'm {\k26}with {\k38}you
+Comment: 0,0:00:25.92,0:00:28.64,Sample KM [Up],,0,0,0,karaoke,{\k14}The {\k22}on{\k25}ly {\k27}way {\k25}that {\k29}I {\k37}can {\k93}be
+Comment: 0,0:00:29.30,0:00:42.70,Sample KM [Up],,0,0,0,karaoke,{\k35}Un{\k37}til {\k42}you're {\k34}in {\k41}my {\k37}arms {\k43}a{\kf109}gain,{\k53} {\k54}re{\kf124}mem{\kf162}ber {\kf569}me
+Comment: 0,0:00:03.17,0:00:04.19,Sample KM [Choir],,0,0,0,karaoke,{\k20}Re{\k21}mem{\k26}ber {\k35}me
+Comment: 0,0:00:06.71,0:00:07.76,Sample KM [Choir],,0,0,0,karaoke,{\k26}Re{\k22}mem{\k28}ber {\k29}me
+Comment: 0,0:00:17.58,0:00:19.41,Sample KM [Choir],,0,0,0,karaoke,{\k26}Re{\k19}mem{\k23}ber {\k24}me, {\k21}re{\k21}mem{\k24}ber {\k25}me
+Comment: 0,0:00:21.20,0:00:23.07,Sample KM [Choir],,0,0,0,karaoke,{\k24}Re{\k23}mem{\k22}ber {\k23}me, {\k20}re{\k23}mem{\k26}ber {\k26}me
+Dialogue: 0,0:00:00.00,0:00:05.98,Sample KM [Up],,0,0,0,fx,{\k68\fad(680,200)}{\k43}Re{\kf131}mem{\k41}ber {\k74}me,{\k64} {\k29}though {\k21}I {\k23}have {\k23}to {\k18}say {\k21}good{\k22}bye
+Dialogue: 0,0:00:05.10,0:00:09.77,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}Re{\k26}mem{\k25}ber {\k77}me,{\k52} {\k38}don't {\k20}let {\k18}it {\k19}make {\k27}you {\k36}cry
+Dialogue: 0,0:00:09.02,0:00:13.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}For {\k19}e{\k15}ven {\k21}if {\k33}I'm {\k22}far {\k15}a{\k30}way, {\k23}I {\k33}hold {\k15}you {\k17}in {\k21}my {\k51}heart
+Dialogue: 0,0:00:12.67,0:00:15.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}I {\k18}sing {\k21}a {\k27}se{\k19}cret {\k35}song {\k15}to {\k20}you
+Dialogue: 0,0:00:14.41,0:00:16.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Each {\k38}night {\k12}we {\k9}are {\k22}a{\k38}part
+Dialogue: 0,0:00:15.93,0:00:20.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Re{\k49}mem{\k27}ber {\k62}me,{\k24} {\k24}though {\k22}I {\k25}have {\k21}to {\k22}tra{\k23}vel {\k36}far
+Dialogue: 0,0:00:19.57,0:00:24.33,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}Re{\k24}mem{\k24}ber {\k66}me{\k35} {\k27}each {\k24}time {\k18}you {\k28}hear {\k15}a {\k21}sad {\k19}gui{\k50}tar
+Dialogue: 0,0:00:23.72,0:00:26.12,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Know {\k9}that {\k27}I'm {\k26}with {\k38}you
+Dialogue: 0,0:00:25.02,0:00:28.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}The {\k22}on{\k25}ly {\k27}way {\k25}that {\k29}I {\k37}can {\k93}be
+Dialogue: 0,0:00:28.40,0:00:42.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Un{\k37}til {\k42}you're {\k34}in {\k41}my {\k37}arms {\k43}a{\kf109}gain,{\k53} {\k54}re{\kf124}mem{\kf162}ber {\kf569}me
+Dialogue: 0,0:00:02.27,0:00:04.39,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k20}Re{\k21}mem{\k26}ber {\k35}me
+Dialogue: 0,0:00:05.81,0:00:07.96,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Re{\k22}mem{\k28}ber {\k29}me
+Dialogue: 0,0:00:16.68,0:00:19.61,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}Re{\k19}mem{\k23}ber {\k24}me, {\k21}re{\k21}mem{\k24}ber {\k25}me
+Dialogue: 0,0:00:20.30,0:00:23.27,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k24}Re{\k23}mem{\k22}ber {\k23}me, {\k20}re{\k23}mem{\k26}ber {\k26}me
