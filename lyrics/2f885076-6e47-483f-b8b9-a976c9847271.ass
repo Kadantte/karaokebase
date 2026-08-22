@@ -1,0 +1,93 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Title: Nekketsu☆RYUSEI Ninpôchô
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Chiaki,Arial,24,&H00FFFFFF,&H006060D1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Midori,Arial,24,&H00FFFFFF,&H005DCA63,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tetora,Arial,24,&H00FFFFFF,&H00B8A89B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kanata,Arial,24,&H00FFFFFF,&H00FDC50E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H00E78CFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Midori S,Arial,30,&H005DCA63,&H005DCA63,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Chiaki S,Arial,30,&H006060D1,&H006060D1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tetora S,Arial,30,&H00B8A89B,&H00B8A89B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Kanata S,Arial,30,&H00FDC50E,&H00FDC50E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Shinobu,Arial,24,&H00FFFFFF,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Shinobu S,Arial,26,&H0041B5E6,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Up],,0,0,0,guide,{\align(2)\k1000\k0}Everyone {\rDuo}Duo\N{\k0\rShinobu S}♪{\r} {\rShinobu}Shinobu {\k0\rMidori S}♠{\rMidori} Midori {\k0\rChiaki S}♦{\rChiaki} Chiaki {\k0\rTetora S}♣{\rTetora} Tetora {\k0\rKanata S}♥{\rKanata} Kanata
+Comment: 0,0:00:20.74,0:00:22.07,Chiaki,,0,0,0,karaoke,{\k0\rChiaki S}♦{\r} {\k20}ni{\k18}shi {\k20}he {\k17}hi{\k14}ga{\k18}shi {\k26}he
+Comment: 0,0:00:22.14,0:00:23.50,Kanata,,0,0,0,karaoke,{\k0\rKanata S}♥{\r} {\k20}mi{\k18}na{\k16}mi {\k19}he {\k16}ki{\k20}ta {\k27}he
+Comment: 0,0:00:23.54,0:00:26.20,Midori,,0,0,0,karaoke,{\k0\rMidori S}♠{\r} {\k18}ka{\k35}jou {\k34}nin{\k33}jou {\k35}cha{\k34}n{\k35}ba{\k17}ra{\k25}ra
+Comment: 0,0:00:26.29,0:00:28.91,Tetora,,0,0,0,karaoke,{\k0\rTetora S}♣{\r} {\k15}yo{\k20}wa{\k18}ki {\k16}wo {\k13}ta{\k22}su{\k30}ke {\k20}tsu{\k19}yo{\k16}ki {\k18}wo {\k16}ku{\k14}ji{\k25}ku
+Comment: 0,0:00:29.05,0:00:33.75,Sample KM [Up],,0,0,0,karaoke,{\k34}gin{\k14}ga {\k19}wo {\k15}ka{\k19}ke{\k17}ru {\k35}na{\k35}ga{\k36}re {\k24}bo{\kf222}shi
+Comment: 0,0:00:34.01,0:00:36.84,Sample KM [Up],,0,0,0,karaoke,{\k33}UH {\kf250}YEAH
+Comment: 0,0:00:37.26,0:00:39.89,Shinobu,,0,0,0,karaoke,{\k0\rShinobu S}♪{\r} {\k15}u{\k20}so {\k18}to {\k17}ma{\k16}ko{\k19}to {\k32}ga {\k15}se{\k20}na{\k19}ka {\k14}a{\k16}wa{\k22}se {\k20}no
+Comment: 0,0:00:40.01,0:00:42.61,Shinobu,,0,0,0,karaoke,{\k0\rShinobu S}♪{\r} {\k33}kon{\k30}ton {\k21}no {\k16}yo {\k17}wo {\k36}shu{\k29}ra {\k29}shu {\k18}shu {\k31}shu
+Comment: 0,0:00:42.66,0:00:45.34,Sample KM [Up],,0,0,0,karaoke,{\k26}se{\k18}i{\k15}gi {\k19}no {\k14}mo{\k23}to {\k27}ni {\k21}tsu{\k16}do{\k10}i{\k26}shi {\k17}se{\k13}n{\k23}shi
+Comment: 0,0:00:45.48,0:00:49.02,Sample KM [Up],,0,0,0,karaoke,{\k18}o{\k15}no {\k18}ga {\k34}shin{\k35}nen {\k34}mu{\k25}ne {\k46}ni {\k31}hi{\k98}me
+Comment: 0,0:00:49.08,0:00:53.09,Shinobu,,0,0,0,karaoke,{\k0\rShinobu S}♪{\r} {\k19}i{\kf112}na,{\k24} {\k17}o{\k54}sek{\k37}ka{\k25}i {\k35}sho{\k30}u{\k48}chi
+Comment: 0,0:00:53.49,0:00:59.21,Shinobu,,0,0,0,karaoke,{\k0\rShinobu S}♪{\r} {\kf109}sa{\k18}re{\kf121}do{\k13} {\k21}hi{\k32}ru{\k19}mu {\k35}na{\k34}ka{\kf170}re
+Comment: 0,0:01:00.73,0:01:01.78,Sample KM [Up],,0,0,0,karaoke,{\k31}i{\k38}za {\k16}yu{\k20}ke
+Comment: 0,0:01:01.80,0:01:06.61,Sample KM [Up],,0,0,0,karaoke,{\k32}ai{\k31}yaa {\k35}sei{\k34}bai! {\k36}zet{\k35}tai {\k31}zets'{\k36}mei {\k35}na{\k36}n {\k27}no {\k42}so{\k71}no
+Comment: 0,0:01:06.73,0:01:09.61,Duo,midori tetora,0,0,0,karaoke,{\k0\rMidori S}♠{\r} {\k0\rTetora S}♣{\r} {\k20}na{\k16}mi {\k18}i{\k24}ru {\k28}te{\k30}ki {\k20}na{\k16}gi{\k17}ta{\k25}o{\k28}shi{\k46}te
+Comment: 0,0:01:09.81,0:01:12.07,Sample KM [Up],,0,0,0,karaoke,{\k21}sa{\k31}a, {\k32}ka{\k34}tsu{\k35}mo{\k73}ku!
+Comment: 0,0:01:12.21,0:01:18.07,Sample KM [Up],,0,0,0,karaoke,{\k15}ki{\k21}ra{\k16}ri {\k36}ik{\k30}ka {\k38}sou{\k35}den {\k31}nek{\k34}kets' {\k37}nin{\k35}pou {\k33}ga{\k33}mu{\k36}sha{\k37}ra{\kf119}ri
+Comment: 0,0:01:18.55,0:01:25.04,Sample KM [Up],,0,0,0,karaoke,{\k34}he{\k37}i{\k36}wa {\k35}wo {\k33}ma{\k34}mo{\k27}ru {\k39}se{\k37}i{\k34}gi {\k32}no {\k73}se{\k64}n{\kf134}shi
+Comment: 0,0:01:25.40,0:01:30.58,Duo,tetora shinobu,0,0,0,karaoke,{\k0\rShinobu S}♪{\r} {\k0\rTetora S}♣{\r} {\k37}ka{\k32}wa{\k38}shi{\k63}ta {\k73}chi{\k69}gi{\k69}ri {\kf137}to
+Comment: 0,0:01:30.81,0:01:36.10,Duo,midori shinobu,0,0,0,karaoke,{\k0\rShinobu S}♪{\r} {\k0\rMidori S}♠{\r} {\k45}so{\k36}da{\k32}te{\k65}ta {\k67}ki{\k71}zu{\k72}na {\kf141}de
+Comment: 0,0:01:36.38,0:01:41.49,Duo,chiaki kanata shinobu,0,0,0,karaoke,{\k0\rShinobu S}♪{\r} {\k0\rChiaki S}♦{\r} {\k0\rKanata S}♥{\r} {\k38}ko{\k32}re {\k35}ka{\k68}ra {\k64}mo {\k68}zu{\k75}t{\kf131}to
+Comment: 0,0:01:41.81,0:01:45.79,Sample KM [Up],,0,0,0,karaoke,{\k42}chi{\k35}ka{\k31}ra {\k72}wo {\k68}a{\k68}wa{\k82}se
+Comment: 0,0:01:47.37,0:01:48.41,Sample KM [Up],,0,0,0,karaoke,{\k35}i{\k34}za {\k17}yu{\k18}ke!
+Comment: 0,0:01:48.41,0:01:53.20,Sample KM [Up],,0,0,0,karaoke,{\k32}ai{\k37}yaa {\k35}sei{\k31}bai! {\k38}zet{\k33}tai {\k34}zets'{\k35}mei {\k39}na{\k32}n {\k30}no {\k36}so{\k67}no
+Comment: 0,0:01:53.33,0:01:56.21,Sample KM [Up],,0,0,0,karaoke,{\k23}na{\k16}mi {\k18}i{\k24}ru {\k28}te{\k33}ki {\k18}na{\k15}gi{\k18}ta{\k26}o{\k27}shi{\k42}te
+Comment: 0,0:01:56.36,0:01:58.69,Sample KM [Up],,0,0,0,karaoke,{\k26}sa{\k33}a, {\k34}ka{\k38}tsu{\k32}mo{\k70}ku!
+Comment: 0,0:01:58.86,0:02:04.71,Sample KM [Up],,0,0,0,karaoke,{\k17}ki{\k18}ra{\k19}ri {\k33}ik{\k33}ka {\k35}sou{\k37}den {\k32}nek{\k34}kets' {\k37}nin{\k35}pou {\k33}ga{\k33}mu{\k36}sha{\k37}ra{\kf116}ri
+Comment: 0,0:02:05.22,0:02:10.28,Sample KM [Up],,0,0,0,karaoke,{\k34}da{\k32}te {\k37}ja {\k31}go{\k39}za{\k34}ra{\k34}nu {\k32}ko{\k36}ko{\k31}ro {\k35}i{\k62}ki {\k69}yo!
+Comment: 0,0:02:10.34,0:02:12.76,Sample KM [Up],,0,0,0,karaoke,{\k55}wa{\k17}re{\k49}ra {\k19}Ryu{\k24}u{\k23}se{\k20}i{\k35}tai
+Comment: 0,0:02:12.97,0:02:15.32,Shinobu,,0,0,0,karaoke,{\k0\rShinobu S}♪{\r} {\k65}sei{\k14}gi {\k53}no {\k20}da{\k21}i {\k27}sho{\k20}u{\k15}ri!
+Comment: 0,0:02:15.27,0:02:15.74,Sample KM [Up],,0,0,0,karaoke,{\k21}nin-{\k26}nin!
+Comment: 0,0:02:19.90,0:02:21.31,Sample KM [Up],,0,0,0,karaoke,{\k89}yo {\k20}nin-{\k32}nin!
+Dialogue: 0,0:00:19.84,0:00:22.27,Chiaki,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rChiaki S}♦{\r} {\k20}ni{\k18}shi {\k20}he {\k17}hi{\k14}ga{\k18}shi {\k26}he
+Dialogue: 0,0:00:21.24,0:00:23.70,Kanata,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rKanata S}♥{\r} {\k20}mi{\k18}na{\k16}mi {\k19}he {\k16}ki{\k20}ta {\k27}he
+Dialogue: 0,0:00:22.64,0:00:26.40,Midori,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMidori S}♠{\r} {\k18}ka{\k35}jou {\k34}nin{\k33}jou {\k35}cha{\k34}n{\k35}ba{\k17}ra{\k25}ra
+Dialogue: 0,0:00:25.39,0:00:29.11,Tetora,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTetora S}♣{\r} {\k15}yo{\k20}wa{\k18}ki {\k16}wo {\k13}ta{\k22}su{\k30}ke {\k20}tsu{\k19}yo{\k16}ki {\k18}wo {\k16}ku{\k14}ji{\k25}ku
+Dialogue: 0,0:00:28.15,0:00:33.95,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}gin{\k14}ga {\k19}wo {\k15}ka{\k19}ke{\k17}ru {\k35}na{\k35}ga{\k36}re {\k24}bo{\kf222}shi
+Dialogue: 0,0:00:33.11,0:00:37.04,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}UH {\kf250}YEAH
+Dialogue: 0,0:00:36.36,0:00:40.09,Shinobu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShinobu S}♪{\r} {\k15}u{\k20}so {\k18}to {\k17}ma{\k16}ko{\k19}to {\k32}ga {\k15}se{\k20}na{\k19}ka {\k14}a{\k16}wa{\k22}se {\k20}no
+Dialogue: 0,0:00:39.11,0:00:42.81,Shinobu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShinobu S}♪{\r} {\k33}kon{\k30}ton {\k21}no {\k16}yo {\k17}wo {\k36}shu{\k29}ra {\k29}shu {\k18}shu {\k31}shu
+Dialogue: 0,0:00:41.76,0:00:45.54,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}se{\k18}i{\k15}gi {\k19}no {\k14}mo{\k23}to {\k27}ni {\k21}tsu{\k16}do{\k10}i{\k26}shi {\k17}se{\k13}n{\k23}shi
+Dialogue: 0,0:00:44.58,0:00:49.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k18}o{\k15}no {\k18}ga {\k34}shin{\k35}nen {\k34}mu{\k25}ne {\k46}ni {\k31}hi{\k98}me
+Dialogue: 0,0:00:48.18,0:00:53.29,Shinobu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShinobu S}♪{\r} {\k19}i{\kf112}na,{\k24} {\k17}o{\k54}sek{\k37}ka{\k25}i {\k35}sho{\k30}u{\k48}chi
+Dialogue: 0,0:00:52.59,0:00:59.41,Shinobu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShinobu S}♪{\r} {\kf109}sa{\k18}re{\kf121}do{\k13} {\k21}hi{\k32}ru{\k19}mu {\k35}na{\k34}ka{\kf170}re
+Dialogue: 0,0:00:59.83,0:01:01.98,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k31}i{\k38}za {\k16}yu{\k20}ke
+Dialogue: 0,0:01:00.90,0:01:06.81,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}ai{\k31}yaa {\k35}sei{\k34}bai! {\k36}zet{\k35}tai {\k31}zets'{\k36}mei {\k35}na{\k36}n {\k27}no {\k42}so{\k71}no
+Dialogue: 0,0:01:05.83,0:01:09.81,Duo,midori tetora,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMidori S}♠{\r} {\k0\rTetora S}♣{\r} {\k20}na{\k16}mi {\k18}i{\k24}ru {\k28}te{\k30}ki {\k20}na{\k16}gi{\k17}ta{\k25}o{\k28}shi{\k46}te
+Dialogue: 0,0:01:08.91,0:01:12.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}sa{\k31}a, {\k32}ka{\k34}tsu{\k35}mo{\k73}ku!
+Dialogue: 0,0:01:11.31,0:01:18.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}ki{\k21}ra{\k16}ri {\k36}ik{\k30}ka {\k38}sou{\k35}den {\k31}nek{\k34}kets' {\k37}nin{\k35}pou {\k33}ga{\k33}mu{\k36}sha{\k37}ra{\kf119}ri
+Dialogue: 0,0:01:17.65,0:01:25.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}he{\k37}i{\k36}wa {\k35}wo {\k33}ma{\k34}mo{\k27}ru {\k39}se{\k37}i{\k34}gi {\k32}no {\k73}se{\k64}n{\kf134}shi
+Dialogue: 0,0:01:24.50,0:01:30.78,Duo,tetora shinobu,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShinobu S}♪{\r} {\k0\rTetora S}♣{\r} {\k37}ka{\k32}wa{\k38}shi{\k63}ta {\k73}chi{\k69}gi{\k69}ri {\kf137}to
+Dialogue: 0,0:01:29.91,0:01:36.30,Duo,midori shinobu,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShinobu S}♪{\r} {\k0\rMidori S}♠{\r} {\k45}so{\k36}da{\k32}te{\k65}ta {\k67}ki{\k71}zu{\k72}na {\kf141}de
+Dialogue: 0,0:01:35.48,0:01:41.69,Duo,chiaki kanata shinobu,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShinobu S}♪{\r} {\k0\rChiaki S}♦{\r} {\k0\rKanata S}♥{\r} {\k38}ko{\k32}re {\k35}ka{\k68}ra {\k64}mo {\k68}zu{\k75}t{\kf131}to
+Dialogue: 0,0:01:40.91,0:01:45.99,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k42}chi{\k35}ka{\k31}ra {\k72}wo {\k68}a{\k68}wa{\k82}se
+Dialogue: 0,0:01:46.47,0:01:48.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}i{\k34}za {\k17}yu{\k18}ke!
+Dialogue: 0,0:01:47.51,0:01:53.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}ai{\k37}yaa {\k35}sei{\k31}bai! {\k38}zet{\k33}tai {\k34}zets'{\k35}mei {\k39}na{\k32}n {\k30}no {\k36}so{\k67}no
+Dialogue: 0,0:01:52.43,0:01:56.41,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}na{\k16}mi {\k18}i{\k24}ru {\k28}te{\k33}ki {\k18}na{\k15}gi{\k18}ta{\k26}o{\k27}shi{\k42}te
+Dialogue: 0,0:01:55.46,0:01:58.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}sa{\k33}a, {\k34}ka{\k38}tsu{\k32}mo{\k70}ku!
+Dialogue: 0,0:01:57.96,0:02:04.91,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}ki{\k18}ra{\k19}ri {\k33}ik{\k33}ka {\k35}sou{\k37}den {\k32}nek{\k34}kets' {\k37}nin{\k35}pou {\k33}ga{\k33}mu{\k36}sha{\k37}ra{\kf116}ri
+Dialogue: 0,0:02:04.32,0:02:10.48,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}da{\k32}te {\k37}ja {\k31}go{\k39}za{\k34}ra{\k34}nu {\k32}ko{\k36}ko{\k31}ro {\k35}i{\k62}ki {\k69}yo!
+Dialogue: 0,0:02:09.44,0:02:12.96,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}wa{\k17}re{\k49}ra {\k19}Ryu{\k24}u{\k23}se{\k20}i{\k35}tai
+Dialogue: 0,0:02:12.07,0:02:15.52,Shinobu,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rShinobu S}♪{\r} {\k65}sei{\k14}gi {\k53}no {\k20}da{\k21}i {\k27}sho{\k20}u{\k15}ri!
+Dialogue: 0,0:02:14.37,0:02:15.94,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}nin-{\k26}nin!
+Dialogue: 0,0:02:19.00,0:02:21.51,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k89}yo {\k20}nin-{\k32}nin!
