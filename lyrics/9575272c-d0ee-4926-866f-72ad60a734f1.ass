@@ -1,0 +1,69 @@
+﻿[Script Info]
+Title: Monghwanui Aseutaeljieo
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H005757FF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:02.85,0:00:04.68,Sample KM [Choir],,0,0,0,karaoke,{\k36}In{\k25}ter {\k14}ve{\k16}ri{\k18}ta{\k74}tem
+Comment: 0,0:00:05.11,0:00:09.20,Sample KM [Choir],,0,0,0,karaoke,{\k34}Et {\k42}i{\k18}ma{\k19}gi{\k73}nem {\k80}fi{\k38}nes {\k38}va{\k34}nes{\k33}cent
+Comment: 0,0:00:09.29,0:00:13.44,Sample KM [Choir],,0,0,0,karaoke,{\k32}Thro{\k61}nos {\k20}su{\k62}per{\k17} {\k20}per{\k17}tur{\k77}ba{\k33}tos {\k38}re{\k38}ges
+Comment: 0,0:00:14.26,0:00:18.10,Sample KM [Choir],,0,0,0,karaoke,{\k30}Il{\k21}lo{\k22}rum {\k19}gla{\k21}di{\k54}os{\k61} {\k34}hos{\k16}ti{\k18}les {\k38}strin{\k50}gent
+Comment: 0,0:00:18.40,0:00:22.94,Sample KM [Choir],,0,0,0,karaoke,{\k81}Cla-{\k38}a{\k17}mo{\k17}rem {\k40}au{\k18}di{\k21}es {\k33}et {\k38}u{\k38}num {\k38}et {\k41}u{\k34}num
+Comment: 0,0:00:50.41,0:00:55.96,Sample KM [Up],,0,0,0,karaoke,{\k69}In{\k50}de{\k24}lens {\kf111}qui {\k42}in {\k38}te{\k31}ne{\k59}bras {\k24}er{\kf107}ras
+Comment: 0,0:00:56.39,0:01:02.01,Sample KM [Up],,0,0,0,karaoke,{\k73}Phan{\k40}ta{\k47}siae {\k32}Ma{\k33}gis{\k82}trum {\kf111}ac{\k38}ci{\kf106}pe
+Comment: 0,0:01:02.44,0:01:08.33,Sample KM [Up],,0,0,0,karaoke,{\k76}Stre{\k27}nu{\k55}a {\kf115}qui {\k32}lu{\k45}cem {\k32}hau{\k80}sis{\kf127}ti
+Comment: 0,0:01:08.56,0:01:17.94,Sample KM [Up],,0,0,0,karaoke,{\k77}Ve{\k36}ri{\k37}ta{\k78}tem {\k76}i{\kf109}ma{\k43}gi{\kf102}nis{\k47} {\kf118}sus{\k42}ti{\kf173}ne
+Comment: 0,0:01:15.06,0:01:17.57,Sample KM [Choir],,0,0,0,karaoke,{\k38}Sus{\k34}ti{\k34}ne,{\k46} {\k40}sus{\k32}ti{\k27}ne
+Comment: 0,0:01:17.95,0:01:20.57,Sample KM [Choir],,0,0,0,karaoke,{\k36}An{\k21}ti{\k51}qua {\k23}lux {\k36}in {\k20}hor{\k18}ri{\k31}bi{\k26}lem
+Comment: 0,0:01:20.83,0:01:23.63,Sample KM [Choir],,0,0,0,karaoke,{\k54}Il{\k21}lu{\k36}si{\k20}on{\k18}em {\k46}re{\k22}vi{\k37}vis{\k26}cet
+Comment: 0,0:01:55.51,0:02:01.15,Sample KM [Up],,0,0,0,karaoke,{\k33}Fac {\k34}mun{\k37}dam {\k78}ce{\k76}la{\k80}tam {\k43}ve{\k42}ri{\k72}ta{\k69}tem
+Comment: 0,0:02:01.56,0:02:10.41,Sample KM [Up],,0,0,0,karaoke,{\k29}Et {\k33}a-{\k43}ad {\k80}mor{\k78}tis {\kf109}ru{\k40}mo{\kf116}rem{\k35} {\kf116}pro{\k41}cum{\kf165}be
+Comment: 0,0:02:22.49,0:02:25.50,Sample KM [Choir],,0,0,0,karaoke,{\k21}Cla{\k38}ma, {\k16}de{\k24}re{\k34}lic{\k19}ta, {\k20}um{\k35}bra, {\k19}im{\k23}per{\k34}fec{\k18}ta
+Comment: 0,0:02:25.51,0:02:28.55,Sample KM [Choir],,0,0,0,karaoke,{\k21}Cla{\k38}ma, {\k19}de{\k21}re{\k34}lic{\k19}ta, {\k20}um{\k35}bra, {\k19}im{\k23}per{\k34}fec{\k21}ta
+Comment: 0,0:02:28.55,0:02:31.59,Sample KM [Choir],,0,0,0,karaoke,{\k21}Cla{\k38}ma, {\k16}de{\k24}re{\k34}lic{\k19}ta, {\k20}um{\k37}bra, {\k21}im{\k23}per{\k34}fec{\k17}ta
+Comment: 0,0:02:31.59,0:02:34.64,Sample KM [Choir],,0,0,0,karaoke,{\k21}Cla{\k38}ma, {\k16}de{\k24}re{\k34}lic{\k19}ta, {\k20}um{\k39}bra, {\k19}im{\k23}per{\k34}fec{\k18}ta
+Comment: 0,0:02:34.64,0:02:41.51,Sample KM [Choir],,0,0,0,karaoke,{\k21}De{\k24}re{\k30}{\k19}lic{\k32}ta,{\k24} {\k22}um{\k30}bra,{\k26} {\k18}im{\k34}per{\k23}{\k25}fec{\kf359}ta
+Comment: 0,0:02:41.83,0:02:47.98,Sample KM [Up],,0,0,0,karaoke,{\k62}In{\k38}de{\k51}lens {\kf123}qui {\k36}in {\k44}te{\k41}ne{\k66}bras {\k23}er{\kf131}ras
+Comment: 0,0:02:48.31,0:02:54.77,Sample KM [Up],,0,0,0,karaoke,{\k90}Phan{\k40}ta{\k47}siae {\k49}Ma{\k42}gis{\k82}trum {\kf123}ac{\k40}ci{\kf133}pe
+Comment: 0,0:02:55.23,0:03:01.66,Sample KM [Up],,0,0,0,karaoke,{\k76}Stre{\k49}nu{\k47}a {\kf132}qui {\k37}lu{\k47}cem {\k36}hau{\k85}sis{\kf134}ti
+Comment: 0,0:03:02.12,0:03:12.41,Sample KM [Up],,0,0,0,karaoke,{\k95}Ve{\k32}ri{\k39}ta{\k91}tem {\k88}i{\kf129}ma{\k42}gi{\kf119}nis{\k46} {\kf131}sus{\k45}ti{\kf172}ne
+Comment: 0,0:03:12.82,0:03:32.95,Sample KM [Up],,0,0,0,karaoke,{\kf129}Fac {\kf168}mun{\kf350}dam{\k34} {\kf141}ce{\kf165}la{\kf339}tam{\k50} {\kf215}ve{\k80}ri{\kf169}ta{\kf173}tem
+Comment: 0,0:03:33.36,0:03:43.43,Sample KM [Up],,0,0,0,karaoke,{\k45}Et {\k78}ad {\k98}mor{\k93}tis {\kf127}ru{\k49}mo{\kf116}rem{\k43} {\kf125}pro{\k45}cum{\kf188}be
+Dialogue: 0,0:00:01.95,0:00:04.88,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}In{\k25}ter {\k14}ve{\k16}ri{\k18}ta{\k74}tem
+Dialogue: 0,0:00:04.21,0:00:09.40,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k34}Et {\k42}i{\k18}ma{\k19}gi{\k73}nem {\k80}fi{\k38}nes {\k38}va{\k34}nes{\k33}cent
+Dialogue: 0,0:00:08.39,0:00:13.64,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}Thro{\k61}nos {\k20}su{\k62}per{\k17} {\k20}per{\k17}tur{\k77}ba{\k33}tos {\k38}re{\k38}ges
+Dialogue: 0,0:00:13.36,0:00:18.30,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k30}Il{\k21}lo{\k22}rum {\k19}gla{\k21}di{\k54}os{\k61} {\k34}hos{\k16}ti{\k18}les {\k38}strin{\k50}gent
+Dialogue: 0,0:00:17.50,0:00:23.14,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k81}Cla-{\k38}a{\k17}mo{\k17}rem {\k40}au{\k18}di{\k21}es {\k33}et {\k38}u{\k38}num {\k38}et {\k41}u{\k34}num
+Dialogue: 0,0:00:49.51,0:00:56.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k69}In{\k50}de{\k24}lens {\kf111}qui {\k42}in {\k38}te{\k31}ne{\k59}bras {\k24}er{\kf107}ras
+Dialogue: 0,0:00:55.49,0:01:02.21,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k73}Phan{\k40}ta{\k47}siae {\k32}Ma{\k33}gis{\k82}trum {\kf111}ac{\k38}ci{\kf106}pe
+Dialogue: 0,0:01:01.54,0:01:08.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k76}Stre{\k27}nu{\k55}a {\kf115}qui {\k32}lu{\k45}cem {\k32}hau{\k80}sis{\kf127}ti
+Dialogue: 0,0:01:07.66,0:01:18.14,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k77}Ve{\k36}ri{\k37}ta{\k78}tem {\k76}i{\kf109}ma{\k43}gi{\kf102}nis{\k47} {\kf118}sus{\k42}ti{\kf173}ne
+Dialogue: 0,0:01:14.16,0:01:17.77,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k38}Sus{\k34}ti{\k34}ne,{\k46} {\k40}sus{\k32}ti{\k27}ne
+Dialogue: 0,0:01:17.05,0:01:20.77,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k36}An{\k21}ti{\k51}qua {\k23}lux {\k36}in {\k20}hor{\k18}ri{\k31}bi{\k26}lem
+Dialogue: 0,0:01:19.93,0:01:23.83,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Il{\k21}lu{\k36}si{\k20}on{\k18}em {\k46}re{\k22}vi{\k37}vis{\k26}cet
+Dialogue: 0,0:01:54.61,0:02:01.35,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Fac {\k34}mun{\k37}dam {\k78}ce{\k76}la{\k80}tam {\k43}ve{\k42}ri{\k72}ta{\k69}tem
+Dialogue: 0,0:02:00.66,0:02:10.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}Et {\k33}a-{\k43}ad {\k80}mor{\k78}tis {\kf109}ru{\k40}mo{\kf116}rem{\k35} {\kf116}pro{\k41}cum{\kf165}be
+Dialogue: 0,0:02:21.59,0:02:25.70,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Cla{\k38}ma, {\k16}de{\k24}re{\k34}lic{\k19}ta, {\k20}um{\k35}bra, {\k19}im{\k23}per{\k34}fec{\k18}ta
+Dialogue: 0,0:02:24.61,0:02:28.75,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Cla{\k38}ma, {\k19}de{\k21}re{\k34}lic{\k19}ta, {\k20}um{\k35}bra, {\k19}im{\k23}per{\k34}fec{\k21}ta
+Dialogue: 0,0:02:27.65,0:02:31.79,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Cla{\k38}ma, {\k16}de{\k24}re{\k34}lic{\k19}ta, {\k20}um{\k37}bra, {\k21}im{\k23}per{\k34}fec{\k17}ta
+Dialogue: 0,0:02:30.69,0:02:34.84,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}Cla{\k38}ma, {\k16}de{\k24}re{\k34}lic{\k19}ta, {\k20}um{\k39}bra, {\k19}im{\k23}per{\k34}fec{\k18}ta
+Dialogue: 0,0:02:33.74,0:02:41.71,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k21}De{\k24}re{\k30}{\k19}lic{\k32}ta,{\k24} {\k22}um{\k30}bra,{\k26} {\k18}im{\k34}per{\k23}{\k25}fec{\kf359}ta
+Dialogue: 0,0:02:40.93,0:02:48.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k62}In{\k38}de{\k51}lens {\kf123}qui {\k36}in {\k44}te{\k41}ne{\k66}bras {\k23}er{\kf131}ras
+Dialogue: 0,0:02:47.41,0:02:54.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k90}Phan{\k40}ta{\k47}siae {\k49}Ma{\k42}gis{\k82}trum {\kf123}ac{\k40}ci{\kf133}pe
+Dialogue: 0,0:02:54.33,0:03:01.86,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k76}Stre{\k49}nu{\k47}a {\kf132}qui {\k37}lu{\k47}cem {\k36}hau{\k85}sis{\kf134}ti
+Dialogue: 0,0:03:01.22,0:03:12.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k95}Ve{\k32}ri{\k39}ta{\k91}tem {\k88}i{\kf129}ma{\k42}gi{\kf119}nis{\k46} {\kf131}sus{\k45}ti{\kf172}ne
+Dialogue: 0,0:03:11.92,0:03:33.15,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf129}Fac {\kf168}mun{\kf350}dam{\k34} {\kf141}ce{\kf165}la{\kf339}tam{\k50} {\kf215}ve{\k80}ri{\kf169}ta{\kf173}tem
+Dialogue: 0,0:03:32.46,0:03:43.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k45}Et {\k78}ad {\k98}mor{\k93}tis {\kf127}ru{\k49}mo{\kf116}rem{\k43} {\kf125}pro{\k45}cum{\kf188}be
