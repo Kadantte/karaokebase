@@ -1,0 +1,139 @@
+﻿[Script Info]
+Title: witch
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Soraya
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00FFB858,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sample KM [Choir],Arial,24,&H0028D19C,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Sample KM [Down],Arial,24,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,2,2,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Down],,0,0,20,legend,{\k1000}{\k0}{\rSample KM [Up]}Main {\2cHFFFFFF}| {\rSample KM [Choir]}Backing
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:14.15,0:00:16.50,Sample KM [Up],,0,0,0,karaoke,{\k97}bwa{\k37} {\k34}a{\k67}pe
+Comment: 0,0:00:16.66,0:00:20.63,Sample KM [Up],,0,0,0,karaoke,{\k66}Sil{\k19}hou{\k75}ette{\k26} {\k32}in {\k38}the {\k74}mir{\k67}ror
+Comment: 0,0:00:20.81,0:00:27.11,Sample KM [Up],,0,0,0,karaoke,{\k39}nae{\k64} {\k28}i{\k34}gi{\k78}jeo{\k57}gin {\k29}nun{\k54}bit {\k34}sok {\k49}geu{\k15}nyeo{\k14}neun {\k56}goe{\k25}ro{\k54}wo
+Comment: 0,0:00:27.36,0:00:33.64,Sample KM [Up],,0,0,0,karaoke,{\kf101}jan{\k32}{\k29}ho{\k84}kan {\k82}i {\k81}go{\k30}{\k27}sen {\k31}neol {\k78}mot {\k53}dwo
+Comment: 0,0:00:33.94,0:00:38.06,Sample KM [Up],,0,0,0,karaoke,{\k19}wa{\k33}rak{\k30} {\k26}kkyeo{\k25}a{\k31}neun {\k70}chae{\k37} {\k29}tteo{\k27}nal{\k85}lae
+Comment: 0,0:00:39.08,0:00:43.03,Sample KM [Up],,0,0,0,karaoke,{\k33}Don't {\k30}be {\k74}a{\kf116}fraid, {\k31}hold {\k27}my {\k84}hand
+Comment: 0,0:00:43.28,0:00:46.47,Sample KM [Up],,0,0,0,karaoke,{\k25}Made{\k26}moi{\kf106}selle, {\k31}let {\k26}me {\k58}take {\k47}you
+Comment: 0,0:00:46.82,0:00:52.33,Sample KM [Up],,0,0,0,karaoke,{\k34}And {\k70}I{\k27} {\k39}just {\k29}want {\k49}you {\k53}to {\k35}be {\k55}my {\kf160}side
+Comment: 0,0:00:53.31,0:00:54.07,Sample KM [Up],,0,0,0,karaoke,{\k20}tta{\k15}ra{\k41}wa
+Comment: 0,0:00:54.47,0:00:55.85,Sample KM [Up],,0,0,0,karaoke,{\k55}Don't {\k27}look {\k56}down
+Comment: 0,0:00:56.12,0:00:58.60,Sample KM [Up],,0,0,0,karaoke,{\k54}ol{\k14}la{\k15}wa {\k28}bol{\kf137}lae?
+Comment: 0,0:00:58.04,0:00:59.85,Sample KM [Choir],,0,0,0,karaoke,{\k26}ol{\k15}la{\k15}wa {\k25}bol{\kf100}lae?
+Comment: 0,0:00:59.15,0:01:01.05,Sample KM [Up],,0,0,0,karaoke,{\k12}shi{\k14}gan{\k25}do {\k32}jam{\k25}deun {\k82}chae
+Comment: 0,0:01:00.74,0:01:01.55,Sample KM [Choir],,0,0,0,karaoke,{\k32}la-{\k49}la
+Comment: 0,0:01:01.60,0:01:05.06,Sample KM [Up],,0,0,0,karaoke,{\k28}go{\k53}yo{\k29}han {\k26}na{\k29}gwo{\k27}nwi{\kf154}e
+Comment: 0,0:01:02.42,0:01:06.43,Sample KM [Choir],,0,0,0,karaoke,{\k27}la-{\k57}la,{\k85} {\k23}ra-{\k58}da-{\k26}ra-{\k53}da-{\k27}ra-{\k45}da
+Comment: 0,0:01:06.51,0:01:08.99,Sample KM [Up],,0,0,0,karaoke,{\k16}ha{\k13}na {\k56}eop{\k26}seo {\k27}deun{\k28}neun {\k29}i{\k53}do
+Comment: 0,0:01:09.26,0:01:12.56,Sample KM [Up],,0,0,0,karaoke,{\k13}u{\k15}ri {\k28}dul{\k27}ma{\k31}nui {\k24}nat{\k27}seon {\k28}mu{\k28}dae{\k29}wi{\k80}ro
+Comment: 0,0:01:12.84,0:01:14.69,Sample KM [Up],,0,0,0,karaoke,{\k28}dal{\k24}bi{\k30}che {\k33}da{\k70}meun
+Comment: 0,0:01:14.76,0:01:18.30,Sample KM [Up],,0,0,0,karaoke,{\k26}You {\k27}and {\k83}I {\k30}would {\k26}be {\kf162}nice
+Comment: 0,0:01:17.77,0:01:19.97,Sample KM [Choir],,0,0,0,karaoke,{\k27}You {\k27}and {\k28}I {\k29}would {\k28}be {\k81}nicе
+Comment: 0,0:01:19.97,0:01:24.08,Sample KM [Up],,0,0,0,karaoke,{\k56}Can't{\k30} {\k53}wash {\k26}the {\k55}bloods {\k25}out {\k53}of {\k30}my {\k83}hands
+Comment: 0,0:01:24.33,0:01:26.03,Sample KM [Up],,0,0,0,karaoke,{\k29}nu{\k29}gu{\k27}do {\k27}mot {\k29}hal {\k29}geol
+Comment: 0,0:01:26.03,0:01:29.29,Sample KM [Up],,0,0,0,karaoke,{\k25}No {\k28}for{\k52}give{\k48}nеss,{\k36} {\k25}but {\k29}can't {\k25}you {\k58}grant
+Comment: 0,0:01:29.51,0:01:31.39,Sample KM [Up],,0,0,0,karaoke,{\k33}Last {\k39}wish {\k34}from {\k82}me?
+Comment: 0,0:01:32.84,0:01:37.20,Sample KM [Up],,0,0,0,karaoke,{\k27}nae {\k66}mam, {\k17}shi{\k54}gan {\k33}geu {\k49}ttae{\k28}ro {\k55}dol{\k25}lin {\k29}dwi{\k53}e
+Comment: 0,0:01:37.49,0:01:39.64,Sample KM [Up],,0,0,0,karaoke,{\k27}geu {\k29}go{\k26}se{\k29}seo {\k26}neol {\k29}a{\k22}neun {\k27}chae
+Comment: 0,0:01:39.68,0:01:42.32,Sample KM [Up],,0,0,0,karaoke,{\k28}Watch {\k27}your {\k43}step,{\k41} {\k26}count {\k25}one, {\k27}two, {\k47}three
+Comment: 0,0:01:42.60,0:01:44.02,Sample KM [Up],,0,0,0,karaoke,{\k35}Last {\k30}dance {\k28}with {\k49}me
+Comment: 0,0:01:44.34,0:01:46.16,Sample KM [Up],,0,0,0,karaoke,{\k30}di-{\k29}da-{\k25}li-{\k33}di-{\k65}da
+Comment: 0,0:01:46.26,0:01:48.77,Sample KM [Up],,0,0,0,karaoke,{\k82}Babe,{\k27} {\k28}hold {\k26}my {\k88}hand
+Comment: 0,0:01:48.98,0:01:52.41,Sample KM [Up],,0,0,0,karaoke,{\k33}Made{\k25}moi{\kf105}selle, {\k31}let {\k26}me {\k53}take {\k70}you
+Comment: 0,0:01:52.42,0:01:57.96,Sample KM [Up],,0,0,0,karaoke,{\k39}And {\k75}I{\k29} {\k33}just {\k29}want {\k54}you {\k54}to {\k34}be {\k39}my {\kf168}side
+Comment: 0,0:01:59.04,0:01:59.85,Sample KM [Up],,0,0,0,karaoke,{\k20}tta{\k17}ra{\k44}wa
+Comment: 0,0:02:00.22,0:02:01.54,Sample KM [Up],,0,0,0,karaoke,{\k53}Don't {\k30}look {\k49}down
+Comment: 0,0:02:01.87,0:02:04.25,Sample KM [Up],,0,0,0,karaoke,{\k53}ol{\k15}la{\k15}wa {\k28}bol{\kf127}lae?
+Comment: 0,0:02:04.87,0:02:11.18,Sample KM [Up],,0,0,0,karaoke,{\k14}shi{\k16}gan{\k23}do {\k31}jam{\k27}deun {\k83}chae{\k55} {\k27}go{\k53}yo{\k29}han {\k25}na{\k30}gwo{\k27}nwi{\kf191}e
+Comment: 0,0:02:12.20,0:02:14.77,Sample KM [Up],,0,0,0,karaoke,{\k21}ha{\k15}na {\k56}eop{\k26}seo {\k27}deun{\k27}neun {\k25}i{\k60}do
+Comment: 0,0:02:14.99,0:02:18.30,Sample KM [Up],,0,0,0,karaoke,{\k15}u{\k14}ri {\k29}dul{\k27}ma{\k29}nui {\k26}nat{\k28}seon {\k26}mu{\k29}dae{\k27}wi{\k81}ro
+Comment: 0,0:02:18.57,0:02:20.36,Sample KM [Up],,0,0,0,karaoke,{\k28}dal{\k27}bi{\k28}che {\k42}da{\k54}meun
+Comment: 0,0:02:20.50,0:02:24.20,Sample KM [Up],,0,0,0,karaoke,{\k29}You {\k26}and {\k80}I {\k30}would {\k28}be {\kf177}nice
+Comment: 0,0:02:24.89,0:02:26.70,Sample KM [Up],,0,0,0,karaoke,{\k25}Loved {\k16}by {\k17}eve{\k25}ry{\k98}one?
+Comment: 0,0:02:27.06,0:02:29.43,Sample KM [Up],,0,0,0,karaoke,{\k32}shin{\k51}do {\k29}shil{\k59}pae{\k28}han'{\k38}geol
+Comment: 0,0:02:30.39,0:02:32.82,Sample KM [Up],,0,0,0,karaoke,{\k24}jeo{\k64}geo{\k14}do {\k14}u{\k24}ri {\k24}ham{\k31}kke {\k48}on
+Comment: 0,0:02:33.54,0:02:40.48,Sample KM [Up],,0,0,0,karaoke,{\k34}geu {\k59}gil {\k15}wi{\k16}e{\k55}ro {\k26}a{\k51}ne{\k32}mo{\k25}ne{\k23}reul {\k28}bul{\k52}ge {\k32}pi{\k52}ge {\k32}hae{\kf162}jwo
+Comment: 0,0:02:38.86,0:02:42.16,Sample KM [Choir],,0,0,0,karaoke,{\kf330}Oh
+Comment: 0,0:02:38.56,0:02:39.23,Sample KM [Up],,0,0,0,karaoke,{\k12}tta{\k19}ra{\k36}wa
+Comment: 0,0:02:39.68,0:02:41.04,Sample KM [Up],,0,0,0,karaoke,{\k54}Don't {\k29}look {\k53}down
+Comment: 0,0:02:41.33,0:02:43.98,Sample KM [Up],,0,0,0,karaoke,{\k54}ol{\k12}la{\k16}wa {\k27}bol{\kf156}lae?
+Comment: 0,0:02:44.33,0:02:46.51,Sample KM [Up],,0,0,0,karaoke,{\k15}shi{\k14}gan{\k24}do {\k30}jam{\k27}deun {\kf108}chae
+Comment: 0,0:02:44.88,0:02:47.90,Sample KM [Choir],,0,0,0,karaoke,{\k28}Oh-{\k28}oh-{\kf246}woah
+Comment: 0,0:02:46.80,0:02:50.82,Sample KM [Up],,0,0,0,karaoke,{\k28}go{\k54}yo{\k28}han {\k26}na{\k33}gwo{\k24}nwi{\kf209}e
+Comment: 0,0:02:47.90,0:02:50.82,Sample KM [Choir],,0,0,0,karaoke,{\k28}Eh-{\k30}eh-{\k25}eh-{\kf209}oh
+Comment: 0,0:02:51.73,0:02:54.20,Sample KM [Up],,0,0,0,karaoke,{\k16}ha{\k13}na {\k56}eop{\k25}seo {\k28}deun{\k27}neun {\k29}i{\k53}do
+Comment: 0,0:02:54.48,0:02:56.99,Sample KM [Choir],,0,0,0,karaoke,{\k25}deun{\k32}neun {\k25}i{\kf169}do
+Comment: 0,0:02:54.48,0:02:57.77,Sample KM [Up],,0,0,0,karaoke,{\k11}u{\k14}ri {\k25}dul{\k31}ma{\k30}nui {\k25}nat{\k28}seon {\k25}mu{\k31}dae{\k27}wi{\k82}ro
+Comment: 0,0:02:58.04,0:02:59.96,Sample KM [Up],,0,0,0,karaoke,{\k27}dal{\k26}bi{\k29}che {\k28}da{\k82}meun
+Comment: 0,0:02:59.42,0:03:00.50,Sample KM [Choir],,0,0,0,karaoke,{\kf108}dam
+Comment: 0,0:02:59.97,0:03:03.69,Sample KM [Up],,0,0,0,karaoke,{\k26}You {\k28}and {\k80}I {\k30}would {\k27}be {\kf181}nice
+Comment: 0,0:03:01.05,0:03:01.98,Sample KM [Choir],,0,0,0,karaoke,{\k93}I
+Dialogue: 0,0:00:13.25,0:00:16.70,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k97}bwa{\k37} {\k34}a{\k67}pe
+Dialogue: 0,0:00:15.76,0:00:20.83,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k66}Sil{\k19}hou{\k75}ette{\k26} {\k32}in {\k38}the {\k74}mir{\k67}ror
+Dialogue: 0,0:00:19.91,0:00:27.31,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}nae{\k64} {\k28}i{\k34}gi{\k78}jeo{\k57}gin {\k29}nun{\k54}bit {\k34}sok {\k49}geu{\k15}nyeo{\k14}neun {\k56}goe{\k25}ro{\k54}wo
+Dialogue: 0,0:00:26.46,0:00:33.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\kf101}jan{\k32}{\k29}ho{\k84}kan {\k82}i {\k81}go{\k30}{\k27}sen {\k31}neol {\k78}mot {\k53}dwo
+Dialogue: 0,0:00:33.04,0:00:38.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}wa{\k33}rak{\k30} {\k26}kkyeo{\k25}a{\k31}neun {\k70}chae{\k37} {\k29}tteo{\k27}nal{\k85}lae
+Dialogue: 0,0:00:38.18,0:00:43.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Don't {\k30}be {\k74}a{\kf116}fraid, {\k31}hold {\k27}my {\k84}hand
+Dialogue: 0,0:00:42.38,0:00:46.67,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Made{\k26}moi{\kf106}selle, {\k31}let {\k26}me {\k58}take {\k47}you
+Dialogue: 0,0:00:45.92,0:00:52.53,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}And {\k70}I{\k27} {\k39}just {\k29}want {\k49}you {\k53}to {\k35}be {\k55}my {\kf160}side
+Dialogue: 0,0:00:52.41,0:00:54.27,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}tta{\k15}ra{\k41}wa
+Dialogue: 0,0:00:53.57,0:00:56.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k55}Don't {\k27}look {\k56}down
+Dialogue: 0,0:00:55.22,0:00:58.80,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}ol{\k14}la{\k15}wa {\k28}bol{\kf137}lae?
+Dialogue: 0,0:00:57.14,0:01:00.05,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k26}ol{\k15}la{\k15}wa {\k25}bol{\kf100}lae?
+Dialogue: 0,0:00:58.25,0:01:01.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}shi{\k14}gan{\k25}do {\k32}jam{\k25}deun {\k82}chae
+Dialogue: 0,0:00:59.84,0:01:01.75,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k32}la-{\k49}la
+Dialogue: 0,0:01:00.70,0:01:05.26,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}go{\k53}yo{\k29}han {\k26}na{\k29}gwo{\k27}nwi{\kf154}e
+Dialogue: 0,0:01:01.52,0:01:06.63,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}la-{\k57}la,{\k85} {\k23}ra-{\k58}da-{\k26}ra-{\k53}da-{\k27}ra-{\k45}da
+Dialogue: 0,0:01:05.61,0:01:09.19,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}ha{\k13}na {\k56}eop{\k26}seo {\k27}deun{\k28}neun {\k29}i{\k53}do
+Dialogue: 0,0:01:08.36,0:01:12.76,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k13}u{\k15}ri {\k28}dul{\k27}ma{\k31}nui {\k24}nat{\k27}seon {\k28}mu{\k28}dae{\k29}wi{\k80}ro
+Dialogue: 0,0:01:11.94,0:01:14.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}dal{\k24}bi{\k30}che {\k33}da{\k70}meun
+Dialogue: 0,0:01:13.86,0:01:18.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}You {\k27}and {\k83}I {\k30}would {\k26}be {\kf162}nice
+Dialogue: 0,0:01:16.87,0:01:20.17,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k27}You {\k27}and {\k28}I {\k29}would {\k28}be {\k81}nicе
+Dialogue: 0,0:01:19.07,0:01:24.28,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k56}Can't{\k30} {\k53}wash {\k26}the {\k55}bloods {\k25}out {\k53}of {\k30}my {\k83}hands
+Dialogue: 0,0:01:23.43,0:01:26.23,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}nu{\k29}gu{\k27}do {\k27}mot {\k29}hal {\k29}geol
+Dialogue: 0,0:01:25.13,0:01:29.49,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}No {\k28}for{\k52}give{\k48}nеss,{\k36} {\k25}but {\k29}can't {\k25}you {\k58}grant
+Dialogue: 0,0:01:28.61,0:01:31.59,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Last {\k39}wish {\k34}from {\k82}me?
+Dialogue: 0,0:01:31.94,0:01:37.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}nae {\k66}mam, {\k17}shi{\k54}gan {\k33}geu {\k49}ttae{\k28}ro {\k55}dol{\k25}lin {\k29}dwi{\k53}e
+Dialogue: 0,0:01:36.59,0:01:39.84,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}geu {\k29}go{\k26}se{\k29}seo {\k26}neol {\k29}a{\k22}neun {\k27}chae
+Dialogue: 0,0:01:38.78,0:01:42.52,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Watch {\k27}your {\k43}step,{\k41} {\k26}count {\k25}one, {\k27}two, {\k47}three
+Dialogue: 0,0:01:41.70,0:01:44.22,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k35}Last {\k30}dance {\k28}with {\k49}me
+Dialogue: 0,0:01:43.44,0:01:46.36,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k30}di-{\k29}da-{\k25}li-{\k33}di-{\k65}da
+Dialogue: 0,0:01:45.36,0:01:48.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k82}Babe,{\k27} {\k28}hold {\k26}my {\k88}hand
+Dialogue: 0,0:01:48.08,0:01:52.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k33}Made{\k25}moi{\kf105}selle, {\k31}let {\k26}me {\k53}take {\k70}you
+Dialogue: 0,0:01:51.52,0:01:58.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k39}And {\k75}I{\k29} {\k33}just {\k29}want {\k54}you {\k54}to {\k34}be {\k39}my {\kf168}side
+Dialogue: 0,0:01:58.14,0:02:00.05,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k20}tta{\k17}ra{\k44}wa
+Dialogue: 0,0:01:59.32,0:02:01.74,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}Don't {\k30}look {\k49}down
+Dialogue: 0,0:02:00.97,0:02:04.45,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k53}ol{\k15}la{\k15}wa {\k28}bol{\kf127}lae?
+Dialogue: 0,0:02:03.97,0:02:11.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k14}shi{\k16}gan{\k23}do {\k31}jam{\k27}deun {\k83}chae{\k55} {\k27}go{\k53}yo{\k29}han {\k25}na{\k30}gwo{\k27}nwi{\kf191}e
+Dialogue: 0,0:02:11.30,0:02:14.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k21}ha{\k15}na {\k56}eop{\k26}seo {\k27}deun{\k27}neun {\k25}i{\k60}do
+Dialogue: 0,0:02:14.09,0:02:18.50,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}u{\k14}ri {\k29}dul{\k27}ma{\k29}nui {\k26}nat{\k28}seon {\k26}mu{\k29}dae{\k27}wi{\k81}ro
+Dialogue: 0,0:02:17.67,0:02:20.56,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}dal{\k27}bi{\k28}che {\k42}da{\k54}meun
+Dialogue: 0,0:02:19.60,0:02:24.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}You {\k26}and {\k80}I {\k30}would {\k28}be {\kf177}nice
+Dialogue: 0,0:02:23.99,0:02:26.90,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k25}Loved {\k16}by {\k17}eve{\k25}ry{\k98}one?
+Dialogue: 0,0:02:26.16,0:02:29.63,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k32}shin{\k51}do {\k29}shil{\k59}pae{\k28}han'{\k38}geol
+Dialogue: 0,0:02:29.49,0:02:33.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k24}jeo{\k64}geo{\k14}do {\k14}u{\k24}ri {\k24}ham{\k31}kke {\k48}on
+Dialogue: 0,0:02:32.64,0:02:40.68,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k34}geu {\k59}gil {\k15}wi{\k16}e{\k55}ro {\k26}a{\k51}ne{\k32}mo{\k25}ne{\k23}reul {\k28}bul{\k52}ge {\k32}pi{\k52}ge {\k32}hae{\kf162}jwo
+Dialogue: 0,0:02:37.96,0:02:42.36,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf330}Oh
+Dialogue: 0,0:02:37.66,0:02:39.43,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k12}tta{\k19}ra{\k36}wa
+Dialogue: 0,0:02:38.78,0:02:41.24,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}Don't {\k29}look {\k53}down
+Dialogue: 0,0:02:40.43,0:02:44.18,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k54}ol{\k12}la{\k16}wa {\k27}bol{\kf156}lae?
+Dialogue: 0,0:02:43.43,0:02:46.71,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k15}shi{\k14}gan{\k24}do {\k30}jam{\k27}deun {\kf108}chae
+Dialogue: 0,0:02:43.98,0:02:48.10,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Oh-{\k28}oh-{\kf246}woah
+Dialogue: 0,0:02:45.90,0:02:51.02,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k28}go{\k54}yo{\k28}han {\k26}na{\k33}gwo{\k24}nwi{\kf209}e
+Dialogue: 0,0:02:47.00,0:02:51.02,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k28}Eh-{\k30}eh-{\k25}eh-{\kf209}oh
+Dialogue: 0,0:02:50.83,0:02:54.40,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k16}ha{\k13}na {\k56}eop{\k25}seo {\k28}deun{\k27}neun {\k29}i{\k53}do
+Dialogue: 0,0:02:53.58,0:02:57.19,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k25}deun{\k32}neun {\k25}i{\kf169}do
+Dialogue: 0,0:02:53.58,0:02:57.97,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k11}u{\k14}ri {\k25}dul{\k31}ma{\k30}nui {\k25}nat{\k28}seon {\k25}mu{\k31}dae{\k27}wi{\k82}ro
+Dialogue: 0,0:02:57.14,0:03:00.16,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k27}dal{\k26}bi{\k29}che {\k28}da{\k82}meun
+Dialogue: 0,0:02:58.52,0:03:00.70,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\kf108}dam
+Dialogue: 0,0:02:59.07,0:03:03.89,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k26}You {\k28}and {\k80}I {\k30}would {\k27}be {\kf181}nice
+Dialogue: 0,0:03:00.15,0:03:02.18,Sample KM [Choir],,0,0,0,fx,{\k90\fad(300,200)}{\k93}I
