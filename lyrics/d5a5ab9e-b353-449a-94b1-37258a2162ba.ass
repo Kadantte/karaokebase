@@ -1,0 +1,120 @@
+﻿[Script Info]
+Title: Homemeteo
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Uma Musume,Arial,24,&H00FFFFFF,&H0025D24B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Fine Motion,Arial,24,&H00FFFFFF,&H005CA920,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Dantsu Flame,Arial,24,&H00FFFFFF,&H00977DE9,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Believe,Arial,24,&H00FFFFFF,&H00CEAE4B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rhein Kraft,Arial,24,&H00FFFFFF,&H00755BF1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Calstone Light O,Arial,24,&H00FFFFFF,&H00CC543A,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Durandal,Arial,24,&H00FFFFFF,&H0005A6EF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Uma Musume Choir,Arial,24,&H0025D24B,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,100,1
+Style: Fine Motion Symbol,Arial,24,&H005CA920,&H005CA920,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Dantsu Flame Symbol,Arial,24,&H00977DE9,&H00977DE9,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Believe Symbol,Arial,24,&H00CEAE4B,&H00CEAE4B,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rhein Kraft Symbol,Arial,24,&H00755BF1,&H00755BF1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Calstone Light O Symbol,Arial,24,&H00CC543A,&H00CC543A,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Durandal Symbol,Arial,24,&H0005A6EF,&H0005A6EF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Uma Musume,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Fine Motion,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rFine Motion Symbol\\fs30}♣{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Dantsu Flame,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rDantsu Flame Symbol\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Believe,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rBelieve Symbol\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Rhein Kraft,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rRhein Kraft Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Calstone Light O,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rCalstone Light O Symbol\\fs30}♪{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Durandal,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rDurandal Symbol\\fs30}●{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Uma Musume Choir,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H25D24B&}Uma Musume{\c} | \N{\c&H5CA920&}♣ Fine Motion{\c} | {\c&H977DE9&}♥ Dantsu Flame{\c} | {\c&HCEAE4B&}♦ Believe{\c} | \N{\c&H755BF1&}♠ Rhein Kraft{\c} | {\c&HCC543A&}♪ Calstone Light O{\c} | {\c&H05A6EF&}● Durandal
+Comment: 0,0:00:00.41,0:00:02.77,Rhein Kraft,,0,0,0,karaoke,{\k78}hai {\k10}ki{\k14}chin{\k12}to {\k16}gen{\k10}ki {\k8}ni {\k16}ai{\k11}sa{\k8}tsu {\k7}shi{\k16}mash'{\k30}ta
+Comment: 0,0:00:02.59,0:00:03.35,Uma Musume Choir,,0,0,0,karaoke,{\k17}GOOD {\k10}JO{\k8}B {\k18}tai{\k23}shou
+Comment: 0,0:00:03.28,0:00:05.35,Calstone Light O,,0,0,0,karaoke,{\k72}hai {\k8}ne{\k8}ko{\k20}chan {\k10}oi{\k10}ka{\k10}ke {\k16}yo {\k7}ga {\k5}a{\k9}ke{\k23}mash'{\k9}ta
+Comment: 0,0:00:05.41,0:00:06.11,Uma Musume Choir,,0,0,0,karaoke,{\k17}GOOD {\k10}JO{\k8}B {\k18}tai{\k23}shou
+Comment: 0,0:00:06.12,0:00:08.56,Dantsu Flame,,0,0,0,karaoke,{\k71}hai {\k7}shi{\k9}sho{\k9}ku {\k8}de {\k10}o{\k7}na{\k11}ka {\k9}ga {\k10}mi{\k9}ta{\k8}sa{\k8}re{\k18}mash'{\k50}ta
+Comment: 0,0:00:08.23,0:00:09.10,Uma Musume Choir,,0,0,0,karaoke,{\k17}GOOD {\k10}JO{\k8}B {\k18}tai{\k34}shou
+Comment: 0,0:00:08.95,0:00:11.67,Durandal,,0,0,0,karaoke,{\k83}aa {\k15}ma{\k7}da{\k17}ma{\k12}da {\k19}zen{\k22}zen {\k7}ho{\k11}me{\k11}ra{\k7}re {\k12}ta{\k14}ri{\k35}nai
+Comment: 0,0:00:12.21,0:00:17.47,Durandal,,0,0,0,karaoke,{\k18}ya{\k15}da {\k12}ya{\k17}da {\k13}ya{\k49}da {\k24}mot{\k11}to {\k13}ho{\k13}me{\k10}te{\k13}ku{\k23}da{\kf295}saaaaaaai
+Comment: 0,0:00:25.11,0:00:27.71,Rhein Kraft,,0,0,0,karaoke,{\k17}kyo{\k20}u {\k15}mo {\k34}dai{\k17}ji {\k17}na {\k17}o{\k18}ha{\k18}na{\k16}shi {\k18}ka{\k16}mi {\k18}ka{\k19}mi
+Comment: 0,0:00:27.85,0:00:30.44,Believe,,0,0,0,karaoke,{\k24}so{\k12}n{\k17}na {\k16}te{\k19}re{\k19}te{\k15}ru {\k18}e{\k17}ga{\k18}o {\k16}ga {\k18}to{\k16}u{\k18}to{\k16}mi
+Comment: 0,0:00:30.63,0:00:33.34,Fine Motion,,0,0,0,karaoke,{\k17}ta{\k17}ma{\k17}ni {\k22}shi{\k12}n{\k17}do {\k18}mi {\k17}tsu{\k18}zu{\k16}i{\k17}te {\k17}cho{\k19}i {\k17}ya{\k30}mi
+Comment: 0,0:00:33.38,0:00:36.02,Dantsu Flame,,0,0,0,karaoke,{\k18}na{\k16}n{\k19}te {\k33}mon {\k20}wa {\k15}mu{\k35}en {\k17}de{\k18}su {\k17}ma{\k17}ji {\k17}ka{\k22}mi
+Comment: 0,0:00:36.14,0:00:38.84,Calstone Light O,,0,0,0,karaoke,{\k23}kyo{\k15}u {\k13}mo {\k18}e{\k16}ra {\k18}mi {\k14}no {\k21}ki{\k17}wa{\k17}mi {\k18}to {\k16}mo{\k18}i{\k17}ko{\k29}mi
+Comment: 0,0:00:38.90,0:00:41.61,Rhein Kraft,,0,0,0,karaoke,{\k17}ze{\k19}n{\k16}bu {\k19}wa{\k15}su{\k16}re{\k19}te {\k19}su{\k15}ya{\k17}su{\k17}ya {\k17}o{\k18}ya{\k18}su{\k29}mi
+Comment: 0,0:00:41.66,0:00:44.23,Dantsu Flame,,0,0,0,karaoke,{\k18}de{\k16}mo {\k18}ne {\k17}u{\k17}ma {\k17}mi{\k17}mi{\k19}da{\k17}t{\k17}te {\k17}i{\k17}tsu{\k16}ku{\k17}shi{\k17}mi
+Comment: 0,0:00:44.41,0:00:47.09,Believe,,0,0,0,karaoke,{\k18}da{\k17}ka{\k17}ra {\k15}ya{\k20}sa{\k34}shii {\k18}ko{\k17}to{\k15}ba {\k18}wo {\k19}GIM{\k16}ME {\k18}GIM{\k26}ME
+Comment: 0,0:00:47.16,0:00:47.77,Uma Musume Choir,,0,0,0,karaoke,{\k20}LET'S {\k41}GO
+Comment: 0,0:00:47.65,0:00:49.96,Durandal,,0,0,0,karaoke,{\k73}hai {\k12}yo{\k8}ru {\k9}ne{\k8}ru {\k9}ma{\k8}e {\k15}ni {\k12}ha{\k7}mi{\k11}ga{\k9}ki {\k8}shi{\k15}mash'{\k27}ta
+Comment: 0,0:00:49.81,0:00:50.59,Uma Musume Choir,,0,0,0,karaoke,{\k16}GOOD {\k10}JO{\k9}B {\k18}tai{\k25}shou
+Comment: 0,0:00:50.47,0:00:52.78,Fine Motion,,0,0,0,karaoke,{\k77}hai {\k16}tsui{\k17}tsui {\k15}ki{\k13}nou {\k8}wa {\k13}yo{\k5}fu{\k17}kash' {\k10}shi{\k22}mash'{\k18}ta
+Comment: 0,0:00:52.62,0:00:53.42,Uma Musume Choir,,0,0,0,karaoke,{\k17}GOOD {\k10}JO{\k10}B {\k17}tai{\k26}shou
+Comment: 0,0:00:53.32,0:00:55.46,Believe,,0,0,0,karaoke,{\k72}hai {\k17}shuu{\k17}gou {\k13}sha{\k15}shin {\k9}de {\k7}me {\k12}wo {\k8}tsu{\k8}bu{\k10}ri{\k15}mash'{\k11}ta
+Comment: 0,0:00:55.46,0:00:56.17,Uma Musume Choir,,0,0,0,karaoke,{\k17}GOOD {\k10}JO{\k8}B {\k18}tai{\k18}shou
+Comment: 0,0:00:56.33,0:00:58.69,Uma Musume,,0,0,0,karaoke,{\k19}moh{\k17}a{\k17}ya {\k17}GOOD {\k11}JO{\k8}B {\k10}ko{\k8}e{\k18}te {\k34}GO{\k16}D {\k20}JO{\k41}B
+Comment: 0,0:00:58.61,0:00:59.00,Uma Musume Choir,,0,0,0,karaoke,{\k18}wa{\k21}o
+Comment: 0,0:00:59.13,0:01:01.38,Uma Musume,,0,0,0,karaoke,{\k20}mu{\k36}jou{\k35}ken {\k34}de {\k36}ho {\k36}me {\k28}te
+Comment: 0,0:01:01.40,0:01:01.97,Uma Musume Choir,,0,0,0,karaoke,{\k57}YES
+Comment: 0,0:01:01.79,0:01:04.23,Uma Musume,,0,0,0,karaoke,{\k18}ho{\k17}me{\k18}ho{\k17}me{\k18}ho{\k17}me{\k18}ho{\k35}mee {\k16}ME{\k19}TE{\k51}O
+Comment: 0,0:01:04.02,0:01:04.73,Uma Musume Choir,,0,0,0,karaoke,{\k19}ten{\k52}saai
+Comment: 0,0:01:04.56,0:01:06.98,Uma Musume,,0,0,0,karaoke,{\k20}ya{\k16}da {\k17}ya{\k16}da {\k36}mot{\k14}to {\k37}ho{\k17}me{\k17}te {\k52}yo
+Comment: 0,0:01:06.78,0:01:07.54,Uma Musume Choir,,0,0,0,karaoke,{\k10}ka{\k10}wa{\k56}you
+Comment: 0,0:01:07.34,0:01:12.26,Uma Musume,,0,0,0,karaoke,{\k15}o{\k18}o{\k20}zo{\k14}ra {\k18}wo {\k34}oo{\k34}i {\k19}tsu{\k17}ku{\k33}su {\k17}sho{\k18}u{\k33}san {\k35}in{\k34}sek' {\k35}gun {\kf98}wo
+Comment: 0,0:01:11.42,0:01:12.93,Uma Musume Choir,,0,0,0,karaoke,{\k22}fu{\k17}re {\k18}fu{\k16}re {\k18}fu{\k17}re {\k8}fu{\k35}re
+Comment: 0,0:01:12.86,0:01:15.33,Uma Musume,,0,0,0,karaoke,{\k16}ho{\k17}me{\k18}ho{\k18}me{\k16}ho{\k17}me{\k19}ho{\k33}mee {\k17}ME{\k18}TE{\k58}O
+Comment: 0,0:01:15.07,0:01:15.67,Uma Musume Choir,,0,0,0,karaoke,{\k19}ten{\k41}saai
+Comment: 0,0:01:15.59,0:01:18.08,Uma Musume,,0,0,0,karaoke,{\k19}ma{\k16}da{\k18}ma{\k17}da {\k17}fu{\k17}ri{\k18}so{\k34}so{\k18}i{\k17}de {\k58}yo
+Comment: 0,0:01:17.77,0:01:18.47,Uma Musume Choir,,0,0,0,karaoke,{\k11}ka{\k12}wa{\k47}you
+Comment: 0,0:01:18.35,0:01:20.51,Uma Musume,,0,0,0,karaoke,{\k17}ko{\k19}ko{\k17}ro {\k18}no {\k16}fu{\k35}an {\k34}zau{\k18}ru{\k17}su {\k25}wo
+Comment: 0,0:01:20.61,0:01:23.57,Uma Musume,,0,0,0,karaoke,{\k17}ze{\k17}n{\k17}bu {\k33}fuk'{\k19}to{\k32}ba{\k19}shi{\k17}te {\kf125}yo
+Comment: 0,0:01:23.83,0:01:26.24,Uma Musume,,0,0,0,karaoke,{\k39}HO{\k34}ME {\k16}ME{\k19}TE{\k18}OR {\k15}de {\k18}ho{\k18}me{\k34}te {\k30}yo
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H25D24B&}Uma Musume{\c} | \N{\c&H5CA920&}♣ Fine Motion{\c} | {\c&H977DE9&}♥ Dantsu Flame{\c} | {\c&HCEAE4B&}♦ Believe{\c} | \N{\c&H755BF1&}♠ Rhein Kraft{\c} | {\c&HCC543A&}♪ Calstone Light O{\c} | {\c&H05A6EF&}● Durandal
+Dialogue: 0,0:00:00.00,0:00:02.97,Rhein Kraft,,0,0,0,fx,{\k41\fad(410,200)}{\rRhein Kraft Symbol\fs30}♠{\r\fs\4a&HFF&} {\k78}hai {\k10}ki{\k14}chin{\k12}to {\k16}gen{\k10}ki {\k8}ni {\k16}ai{\k11}sa{\k8}tsu {\k7}shi{\k16}mash'{\k30}ta
+Dialogue: 0,0:00:01.69,0:00:03.55,Uma Musume Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k17}GOOD {\k10}JO{\k8}B {\k18}tai{\k23}shou
+Dialogue: 0,0:00:02.38,0:00:05.55,Calstone Light O,,0,0,0,fx,{\k90\fad(300,200)}{\rCalstone Light O Symbol\fs30}♪{\r\fs\4a&HFF&} {\k72}hai {\k8}ne{\k8}ko{\k20}chan {\k10}oi{\k10}ka{\k10}ke {\k16}yo {\k7}ga {\k5}a{\k9}ke{\k23}mash'{\k9}ta
+Dialogue: 0,0:00:04.51,0:00:06.31,Uma Musume Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k17}GOOD {\k10}JO{\k8}B {\k18}tai{\k23}shou
+Dialogue: 0,0:00:05.22,0:00:08.76,Dantsu Flame,,0,0,0,fx,{\k90\fad(300,200)}{\rDantsu Flame Symbol\fs30}♥{\r\fs\4a&HFF&} {\k71}hai {\k7}shi{\k9}sho{\k9}ku {\k8}de {\k10}o{\k7}na{\k11}ka {\k9}ga {\k10}mi{\k9}ta{\k8}sa{\k8}re{\k18}mash'{\k50}ta
+Dialogue: 0,0:00:07.33,0:00:09.30,Uma Musume Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k17}GOOD {\k10}JO{\k8}B {\k18}tai{\k34}shou
+Dialogue: 0,0:00:08.05,0:00:11.87,Durandal,,0,0,0,fx,{\k90\fad(300,200)}{\rDurandal Symbol\fs30}●{\r\fs\4a&HFF&} {\k83}aa {\k15}ma{\k7}da{\k17}ma{\k12}da {\k19}zen{\k22}zen {\k7}ho{\k11}me{\k11}ra{\k7}re {\k12}ta{\k14}ri{\k35}nai
+Dialogue: 0,0:00:11.31,0:00:17.67,Durandal,,0,0,0,fx,{\k90\fad(300,200)}{\rDurandal Symbol\fs30}●{\r\fs\4a&HFF&} {\k18}ya{\k15}da {\k12}ya{\k17}da {\k13}ya{\k49}da {\k24}mot{\k11}to {\k13}ho{\k13}me{\k10}te{\k13}ku{\k23}da{\kf295}saaaaaaai
+Dialogue: 0,0:00:24.21,0:00:27.91,Rhein Kraft,,0,0,0,fx,{\k90\fad(300,200)}{\rRhein Kraft Symbol\fs30}♠{\r\fs\4a&HFF&} {\k17}kyo{\k20}u {\k15}mo {\k34}dai{\k17}ji {\k17}na {\k17}o{\k18}ha{\k18}na{\k16}shi {\k18}ka{\k16}mi {\k18}ka{\k19}mi
+Dialogue: 0,0:00:26.95,0:00:30.64,Believe,,0,0,0,fx,{\k90\fad(300,200)}{\rBelieve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k24}so{\k12}n{\k17}na {\k16}te{\k19}re{\k19}te{\k15}ru {\k18}e{\k17}ga{\k18}o {\k16}ga {\k18}to{\k16}u{\k18}to{\k16}mi
+Dialogue: 0,0:00:29.73,0:00:33.54,Fine Motion,,0,0,0,fx,{\k90\fad(300,200)}{\rFine Motion Symbol\fs30}♣{\r\fs\4a&HFF&} {\k17}ta{\k17}ma{\k17}ni {\k22}shi{\k12}n{\k17}do {\k18}mi {\k17}tsu{\k18}zu{\k16}i{\k17}te {\k17}cho{\k19}i {\k17}ya{\k30}mi
+Dialogue: 0,0:00:32.48,0:00:36.22,Dantsu Flame,,0,0,0,fx,{\k90\fad(300,200)}{\rDantsu Flame Symbol\fs30}♥{\r\fs\4a&HFF&} {\k18}na{\k16}n{\k19}te {\k33}mon {\k20}wa {\k15}mu{\k35}en {\k17}de{\k18}su {\k17}ma{\k17}ji {\k17}ka{\k22}mi
+Dialogue: 0,0:00:35.24,0:00:39.04,Calstone Light O,,0,0,0,fx,{\k90\fad(300,200)}{\rCalstone Light O Symbol\fs30}♪{\r\fs\4a&HFF&} {\k23}kyo{\k15}u {\k13}mo {\k18}e{\k16}ra {\k18}mi {\k14}no {\k21}ki{\k17}wa{\k17}mi {\k18}to {\k16}mo{\k18}i{\k17}ko{\k29}mi
+Dialogue: 0,0:00:38.00,0:00:41.81,Rhein Kraft,,0,0,0,fx,{\k90\fad(300,200)}{\rRhein Kraft Symbol\fs30}♠{\r\fs\4a&HFF&} {\k17}ze{\k19}n{\k16}bu {\k19}wa{\k15}su{\k16}re{\k19}te {\k19}su{\k15}ya{\k17}su{\k17}ya {\k17}o{\k18}ya{\k18}su{\k29}mi
+Dialogue: 0,0:00:40.76,0:00:44.43,Dantsu Flame,,0,0,0,fx,{\k90\fad(300,200)}{\rDantsu Flame Symbol\fs30}♥{\r\fs\4a&HFF&} {\k18}de{\k16}mo {\k18}ne {\k17}u{\k17}ma {\k17}mi{\k17}mi{\k19}da{\k17}t{\k17}te {\k17}i{\k17}tsu{\k16}ku{\k17}shi{\k17}mi
+Dialogue: 0,0:00:43.51,0:00:47.29,Believe,,0,0,0,fx,{\k90\fad(300,200)}{\rBelieve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k18}da{\k17}ka{\k17}ra {\k15}ya{\k20}sa{\k34}shii {\k18}ko{\k17}to{\k15}ba {\k18}wo {\k19}GIM{\k16}ME {\k18}GIM{\k26}ME
+Dialogue: 0,0:00:46.26,0:00:47.97,Uma Musume Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}LET'S {\k41}GO
+Dialogue: 0,0:00:46.75,0:00:50.16,Durandal,,0,0,0,fx,{\k90\fad(300,200)}{\rDurandal Symbol\fs30}●{\r\fs\4a&HFF&} {\k73}hai {\k12}yo{\k8}ru {\k9}ne{\k8}ru {\k9}ma{\k8}e {\k15}ni {\k12}ha{\k7}mi{\k11}ga{\k9}ki {\k8}shi{\k15}mash'{\k27}ta
+Dialogue: 0,0:00:48.91,0:00:50.79,Uma Musume Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k16}GOOD {\k10}JO{\k9}B {\k18}tai{\k25}shou
+Dialogue: 0,0:00:49.57,0:00:52.98,Fine Motion,,0,0,0,fx,{\k90\fad(300,200)}{\rFine Motion Symbol\fs30}♣{\r\fs\4a&HFF&} {\k77}hai {\k16}tsui{\k17}tsui {\k15}ki{\k13}nou {\k8}wa {\k13}yo{\k5}fu{\k17}kash' {\k10}shi{\k22}mash'{\k18}ta
+Dialogue: 0,0:00:51.72,0:00:53.62,Uma Musume Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k17}GOOD {\k10}JO{\k10}B {\k17}tai{\k26}shou
+Dialogue: 0,0:00:52.42,0:00:55.66,Believe,,0,0,0,fx,{\k90\fad(300,200)}{\rBelieve Symbol\fs30}♦{\r\fs\4a&HFF&} {\k72}hai {\k17}shuu{\k17}gou {\k13}sha{\k15}shin {\k9}de {\k7}me {\k12}wo {\k8}tsu{\k8}bu{\k10}ri{\k15}mash'{\k11}ta
+Dialogue: 0,0:00:54.56,0:00:56.37,Uma Musume Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k17}GOOD {\k10}JO{\k8}B {\k18}tai{\k18}shou
+Dialogue: 0,0:00:55.43,0:00:58.89,Uma Musume,,0,0,0,fx,{\k90\fad(300,200)}{\k19}moh{\k17}a{\k17}ya {\k17}GOOD {\k11}JO{\k8}B {\k10}ko{\k8}e{\k18}te {\k34}GO{\k16}D {\k20}JO{\k41}B
+Dialogue: 0,0:00:57.71,0:00:59.20,Uma Musume Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k18}wa{\k21}o
+Dialogue: 0,0:00:58.23,0:01:01.58,Uma Musume,,0,0,0,fx,{\k90\fad(300,200)}{\k20}mu{\k36}jou{\k35}ken {\k34}de {\k36}ho {\k36}me {\k28}te
+Dialogue: 0,0:01:00.50,0:01:02.17,Uma Musume Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k57}YES
+Dialogue: 0,0:01:00.89,0:01:04.43,Uma Musume,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ho{\k17}me{\k18}ho{\k17}me{\k18}ho{\k17}me{\k18}ho{\k35}mee {\k16}ME{\k19}TE{\k51}O
+Dialogue: 0,0:01:03.12,0:01:04.93,Uma Musume Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ten{\k52}saai
+Dialogue: 0,0:01:03.66,0:01:07.18,Uma Musume,,0,0,0,fx,{\k90\fad(300,200)}{\k20}ya{\k16}da {\k17}ya{\k16}da {\k36}mot{\k14}to {\k37}ho{\k17}me{\k17}te {\k52}yo
+Dialogue: 0,0:01:05.88,0:01:07.74,Uma Musume Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k10}ka{\k10}wa{\k56}you
+Dialogue: 0,0:01:06.44,0:01:12.46,Uma Musume,,0,0,0,fx,{\k90\fad(300,200)}{\k15}o{\k18}o{\k20}zo{\k14}ra {\k18}wo {\k34}oo{\k34}i {\k19}tsu{\k17}ku{\k33}su {\k17}sho{\k18}u{\k33}san {\k35}in{\k34}sek' {\k35}gun {\kf98}wo
+Dialogue: 0,0:01:10.52,0:01:13.13,Uma Musume Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k22}fu{\k17}re {\k18}fu{\k16}re {\k18}fu{\k17}re {\k8}fu{\k35}re
+Dialogue: 0,0:01:11.96,0:01:15.53,Uma Musume,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ho{\k17}me{\k18}ho{\k18}me{\k16}ho{\k17}me{\k19}ho{\k33}mee {\k17}ME{\k18}TE{\k58}O
+Dialogue: 0,0:01:14.17,0:01:15.87,Uma Musume Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ten{\k41}saai
+Dialogue: 0,0:01:14.69,0:01:18.28,Uma Musume,,0,0,0,fx,{\k90\fad(300,200)}{\k19}ma{\k16}da{\k18}ma{\k17}da {\k17}fu{\k17}ri{\k18}so{\k34}so{\k18}i{\k17}de {\k58}yo
+Dialogue: 0,0:01:16.87,0:01:18.67,Uma Musume Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k11}ka{\k12}wa{\k47}you
+Dialogue: 0,0:01:17.45,0:01:20.71,Uma Musume,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ko{\k19}ko{\k17}ro {\k18}no {\k16}fu{\k35}an {\k34}zau{\k18}ru{\k17}su {\k25}wo
+Dialogue: 0,0:01:19.71,0:01:23.77,Uma Musume,,0,0,0,fx,{\k90\fad(300,200)}{\k17}ze{\k17}n{\k17}bu {\k33}fuk'{\k19}to{\k32}ba{\k19}shi{\k17}te {\kf125}yo
+Dialogue: 0,0:01:22.93,0:01:26.44,Uma Musume,,0,0,0,fx,{\k90\fad(300,200)}{\k39}HO{\k34}ME {\k16}ME{\k19}TE{\k18}OR {\k15}de {\k18}ho{\k18}me{\k34}te {\k30}yo
