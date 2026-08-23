@@ -1,0 +1,84 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Title: Magic for your "Switch"
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H000BCB81,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tsumugi,Arial,24,&H00FFFFFF,&H00FDC50E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Natsume,Arial,24,&H00FFFFFF,&H006060D1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sora,Arial,24,&H00FFFFFF,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H005DCA63,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Natsume S,Arial,30,&H006060D1,&H006060D1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tsumugi S,Arial,30,&H00FDC50E,&H00FDC50E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sora S,Arial,30,&H0041B5E6,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Backing,Arial,24,&H002BE02D,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Up],,0,0,0,guide,{\align(2)\k1000\k0}Everyone {\rDuo}Duo\N{\k0\rNatsume S}♠{\rNatsume} Natsume {\k0\rTsumugi S}♦{\rTsumugi} Tsumugi {\k0\rSora S}♥{\rSora} Sora
+Comment: 0,0:00:01.59,0:00:04.05,Sample KM [Up],,0,0,0,karaoke,{\k17}This {\k16}is {\k18}the {\k37}Ma{\k37}gic {\k34}for {\k30}your {\k57}Switch
+Comment: 0,0:00:12.50,0:00:15.05,Natsume,,0,0,0,karaoke,{\k0}{\rNatsume S}♠{\r} {\k41}shun{\k35}te {\k17}u{\k19}tsu{\k18}mu{\k19}i{\k19}te{\k17}ru {\k35}MY {\k35}GIRL
+Comment: 0,0:00:15.23,0:00:16.95,Natsume,,0,0,0,karaoke,{\k0}{\rNatsume S}♠{\r} {\k15}ki{\k40}zui{\k36}chat{\k19}te {\k14}go{\k21}me{\k27}n
+Comment: 0,0:00:18.11,0:00:20.77,Sora,,0,0,0,karaoke,{\k0\rSora S}♥{\r} {\k19}wa{\k38}rat{\k34}te {\k17}u{\k15}ya{\k20}mu{\k19}ya {\k13}ni {\k23}shi{\k35}nai {\k33}de
+Comment: 0,0:00:20.99,0:00:22.15,Natsume,,0,0,0,karaoke,{\k0\rNatsume S}♠{\r} {\k17}ko{\k19}ko {\k18}ni {\k35}oi{\k27}de
+Comment: 0,0:00:22.38,0:00:23.71,Tsumugi,,0,0,0,karaoke,{\k0\rTsumugi S}♦{\r} {\k22}so{\k18}ba {\k20}ni {\k16}o{\k19}i{\k17}de {\k21}yo
+Comment: 0,0:00:23.99,0:00:26.51,Sora,,0,0,0,karaoke,{\k0\rSora S}♥{\r} {\k42}sot{\k29}to {\k25}shi{\k36}sen {\k15}de {\k18}ha{\k21}ni{\k34}kan {\k32}de
+Comment: 0,0:00:26.73,0:00:27.91,Tsumugi,,0,0,0,karaoke,{\k0\rTsumugi S}♦{\r} {\k17}ku{\k20}chi {\k16}zu{\k37}san {\k28}de
+Comment: 0,0:00:27.96,0:00:29.21,Duo,tsumugi sora,0,0,0,karaoke,{\k0\rTsumugi S}♦{\r} {\k0\rSora S}♥{\r} {\k22}ha{\k18}mo{\k18}ru {\k36}on{\k31}do
+Comment: 0,0:00:29.22,0:00:33.35,Natsume,,0,0,0,karaoke,{\k0\rNatsume S}♠{\r} {\k56}su{\k19}ko{\k36}shi {\k17}ta{\k19}i{\k54}on {\k41}ga {\k14}a{\k17}ga{\k18}ru {\k33}ka{\k89}ra
+Comment: 0,0:00:33.41,0:00:35.37,Backing,,0,0,0,karaoke,{\k87}Sing {\k52}the {\k57}song
+Comment: 0,0:00:34.82,0:00:36.85,Sora,,0,0,0,karaoke,{\k0\rSora S}♥{\r} {\k18}ta{\k17}su{\k39}ke{\k16}te {\k38}a{\k15}ge{\k27}ta{\k33}i
+Comment: 0,0:00:37.28,0:00:39.98,Tsumugi,,0,0,0,karaoke,{\k0\rTsumugi S}♦{\r} {\k41}chi{\k37}ka{\k36}ra {\k17}ni {\k38}na{\k16}ri{\k20}ta{\k65}i
+Comment: 0,0:00:40.37,0:00:43.17,Natsume,,0,0,0,karaoke,{\k0\rNatsume S}♠{\r} {\k20}ko{\k18}to{\k18}ba {\k36}da{\k18}ke {\k35}ja {\k14}u{\k22}so {\k17}ku{\k37}sa{\k18}i {\k27}ne
+Comment: 0,0:00:43.26,0:00:46.09,Duo,tsumugi sora,0,0,0,karaoke,{\k0\rTsumugi S}♦{\r} {\k0\rSora S}♥{\r} {\k19}so{\k16}re {\k18}ja {\k56}kon{\k36}na {\k35}ma{\k37}hou {\k16}wa {\k19}do{\k31}u?
+Comment: 0,0:00:46.14,0:00:48.84,Duo,natsume sora,0,0,0,karaoke,{\k0\rSora S}♥{\r} {\k0\rNatsume S}♠{\r} {\k19}me {\k16}wo {\k18}ha{\k34}na{\k20}sa{\k54}nai {\k18}de {\k37}mi{\k15}te{\k21}i{\k18}te
+Comment: 0,0:00:48.97,0:00:51.80,Sample KM [Up],,0,0,0,karaoke,{\k23}se{\k18}ka{\k18}i {\k50}ga {\k19}ka{\k36}wa{\k16}ru {\k40}SWITCH {\k14}o{\k20}su {\k29}yo
+Comment: 0,0:00:51.88,0:00:55.59,Sample KM [Up],,0,0,0,karaoke,{\k19}ma{\k18}ru{\k17}de {\k32}i{\k41}tsu{\k34}mo {\k36}do{\k37}o{\k36}ri {\k33}no {\k38}so{\k30}ra
+Comment: 0,0:00:55.72,0:00:57.42,Natsume,,0,0,0,karaoke,{\k0\rNatsume S}♠{\r} {\k30}so{\k34}re {\k19}wa {\k37}dou {\k19}ka {\k31}na
+Comment: 0,0:00:57.58,0:01:01.98,Duo,tsumugi sora,0,0,0,karaoke,{\k0\rTsumugi S}♦{\r} {\k0\rSora S}♥{\r} {\k24}ki{\k14}mi {\k22}no {\k56}me {\k15}ni {\k35}wa {\k34}mou {\k40}chi{\k27}ga{\k44}t{\k35}te{\k38}ru {\k16}ha{\k40}zu
+Comment: 0,0:01:01.85,0:01:04.37,Natsume,,0,0,0,karaoke,{\k0\rNatsume S}♠{\r} {\k28}chi{\k19}ga{\k35}t{\k36}te{\k33}ru {\k20}ha{\k81}zu
+Comment: 0,0:01:03.25,0:01:05.77,Tsumugi,,0,0,0,karaoke,{\k0\rTsumugi S}♦{\r} {\k50}sou {\k15}sa {\k37}MA{\k37}GIC {\k35}FOR {\k36}YOUR {\k42}SWITCH
+Comment: 0,0:01:05.87,0:01:09.08,Tsumugi,,0,0,0,karaoke,{\k0\rTsumugi S}♦{\r} {\k20}ki{\k19}mi {\k17}ga {\k16}mo{\k22}shi {\k54}CIN{\k35}DE{\k35}REL{\k35}LA {\k20}de{\k48}mo
+Comment: 0,0:01:09.00,0:01:11.10,Sora,,0,0,0,karaoke,{\k0\rSora S}♥{\r} {\k49}shin{\k18}pa{\k32}i {\k22}shi{\k36}na{\k15}i {\k38}de
+Comment: 0,0:01:11.11,0:01:12.34,Tsumugi,,0,0,0,karaoke,{\k0\rTsumugi S}♦{\r} {\k35}dai{\k21}jo{\k34}u{\k33}bu
+Comment: 0,0:01:12.01,0:01:17.40,Natsume,,0,0,0,karaoke,{\k0\rNatsume S}♠{\r} {\k16}bo{\k19}ku{\k17}ta{\k36}chi {\k20}no {\k34}ma{\k36}hou {\k74}wa {\k17}to{\k18}ke{\k18}ta{\k13}ri {\k23}shi{\k37}na{\k15}i {\kf146}yo
+Comment: 0,0:01:17.35,0:01:20.20,Sora,,0,0,0,karaoke,{\k0\rSora S}♥{\r} {\k22}tsu{\k17}zu{\k19}i{\k17}te {\k19}ko{\k35}so {\k20}no {\k41}HAP{\k28}PY {\k35}MA{\k32}GIC
+Comment: 0,0:01:20.22,0:01:22.92,Tsumugi,,0,0,0,karaoke,{\k0\rTsumugi S}♦{\r} {\k23}ki{\k18}e{\k19}ta{\k19}ri {\k16}shi{\k36}nai {\k18}ka{\kf121}ra
+Comment: 0,0:01:23.11,0:01:28.41,Sample KM [Up],,0,0,0,karaoke,{\k22}ki{\k17}mi {\k16}no {\k21}e{\k17}ga{\k37}o {\k16}i{\k36}tsu{\k37}dat{\k68}te {\k21}ma{\k19}mo{\k17}t{\k21}te{\kf165}ru
+Dialogue: 0,0:00:00.69,0:00:04.25,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k17}This {\k16}is {\k18}the {\k37}Ma{\k37}gic {\k34}for {\k30}your {\k57}Switch
+Dialogue: 0,0:00:11.60,0:00:15.25,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\rNatsume S}♠{\r} {\k41}shun{\k35}te {\k17}u{\k19}tsu{\k18}mu{\k19}i{\k19}te{\k17}ru {\k35}MY {\k35}GIRL
+Dialogue: 0,0:00:14.33,0:00:17.15,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k0}{\rNatsume S}♠{\r} {\k15}ki{\k40}zui{\k36}chat{\k19}te {\k14}go{\k21}me{\k27}n
+Dialogue: 0,0:00:17.21,0:00:20.97,Sora,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSora S}♥{\r} {\k19}wa{\k38}rat{\k34}te {\k17}u{\k15}ya{\k20}mu{\k19}ya {\k13}ni {\k23}shi{\k35}nai {\k33}de
+Dialogue: 0,0:00:20.09,0:00:22.35,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNatsume S}♠{\r} {\k17}ko{\k19}ko {\k18}ni {\k35}oi{\k27}de
+Dialogue: 0,0:00:21.48,0:00:23.91,Tsumugi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTsumugi S}♦{\r} {\k22}so{\k18}ba {\k20}ni {\k16}o{\k19}i{\k17}de {\k21}yo
+Dialogue: 0,0:00:23.09,0:00:26.71,Sora,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSora S}♥{\r} {\k42}sot{\k29}to {\k25}shi{\k36}sen {\k15}de {\k18}ha{\k21}ni{\k34}kan {\k32}de
+Dialogue: 0,0:00:25.83,0:00:28.11,Tsumugi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTsumugi S}♦{\r} {\k17}ku{\k20}chi {\k16}zu{\k37}san {\k28}de
+Dialogue: 0,0:00:27.06,0:00:29.41,Duo,tsumugi sora,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTsumugi S}♦{\r} {\k0\rSora S}♥{\r} {\k22}ha{\k18}mo{\k18}ru {\k36}on{\k31}do
+Dialogue: 0,0:00:28.32,0:00:33.55,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNatsume S}♠{\r} {\k56}su{\k19}ko{\k36}shi {\k17}ta{\k19}i{\k54}on {\k41}ga {\k14}a{\k17}ga{\k18}ru {\k33}ka{\k89}ra
+Dialogue: 0,0:00:32.51,0:00:35.57,Backing,,0,0,0,fx,{\k90\fad(300,200)}{\k87}Sing {\k52}the {\k57}song
+Dialogue: 0,0:00:33.92,0:00:37.05,Sora,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSora S}♥{\r} {\k18}ta{\k17}su{\k39}ke{\k16}te {\k38}a{\k15}ge{\k27}ta{\k33}i
+Dialogue: 0,0:00:36.38,0:00:40.18,Tsumugi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTsumugi S}♦{\r} {\k41}chi{\k37}ka{\k36}ra {\k17}ni {\k38}na{\k16}ri{\k20}ta{\k65}i
+Dialogue: 0,0:00:39.47,0:00:43.37,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNatsume S}♠{\r} {\k20}ko{\k18}to{\k18}ba {\k36}da{\k18}ke {\k35}ja {\k14}u{\k22}so {\k17}ku{\k37}sa{\k18}i {\k27}ne
+Dialogue: 0,0:00:42.36,0:00:46.29,Duo,tsumugi sora,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTsumugi S}♦{\r} {\k0\rSora S}♥{\r} {\k19}so{\k16}re {\k18}ja {\k56}kon{\k36}na {\k35}ma{\k37}hou {\k16}wa {\k19}do{\k31}u?
+Dialogue: 0,0:00:45.24,0:00:49.04,Duo,natsume sora,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSora S}♥{\r} {\k0\rNatsume S}♠{\r} {\k19}me {\k16}wo {\k18}ha{\k34}na{\k20}sa{\k54}nai {\k18}de {\k37}mi{\k15}te{\k21}i{\k18}te
+Dialogue: 0,0:00:48.07,0:00:52.00,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k23}se{\k18}ka{\k18}i {\k50}ga {\k19}ka{\k36}wa{\k16}ru {\k40}SWITCH {\k14}o{\k20}su {\k29}yo
+Dialogue: 0,0:00:50.98,0:00:55.79,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k19}ma{\k18}ru{\k17}de {\k32}i{\k41}tsu{\k34}mo {\k36}do{\k37}o{\k36}ri {\k33}no {\k38}so{\k30}ra
+Dialogue: 0,0:00:54.82,0:00:57.62,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNatsume S}♠{\r} {\k30}so{\k34}re {\k19}wa {\k37}dou {\k19}ka {\k31}na
+Dialogue: 0,0:00:56.68,0:01:02.18,Duo,tsumugi sora,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTsumugi S}♦{\r} {\k0\rSora S}♥{\r} {\k24}ki{\k14}mi {\k22}no {\k56}me {\k15}ni {\k35}wa {\k34}mou {\k40}chi{\k27}ga{\k44}t{\k35}te{\k38}ru {\k16}ha{\k40}zu
+Dialogue: 0,0:01:00.95,0:01:04.57,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNatsume S}♠{\r} {\k28}chi{\k19}ga{\k35}t{\k36}te{\k33}ru {\k20}ha{\k81}zu
+Dialogue: 0,0:01:02.35,0:01:05.97,Tsumugi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTsumugi S}♦{\r} {\k50}sou {\k15}sa {\k37}MA{\k37}GIC {\k35}FOR {\k36}YOUR {\k42}SWITCH
+Dialogue: 0,0:01:04.97,0:01:09.28,Tsumugi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTsumugi S}♦{\r} {\k20}ki{\k19}mi {\k17}ga {\k16}mo{\k22}shi {\k54}CIN{\k35}DE{\k35}REL{\k35}LA {\k20}de{\k48}mo
+Dialogue: 0,0:01:08.10,0:01:11.30,Sora,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSora S}♥{\r} {\k49}shin{\k18}pa{\k32}i {\k22}shi{\k36}na{\k15}i {\k38}de
+Dialogue: 0,0:01:10.21,0:01:12.54,Tsumugi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTsumugi S}♦{\r} {\k35}dai{\k21}jo{\k34}u{\k33}bu
+Dialogue: 0,0:01:11.11,0:01:17.60,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNatsume S}♠{\r} {\k16}bo{\k19}ku{\k17}ta{\k36}chi {\k20}no {\k34}ma{\k36}hou {\k74}wa {\k17}to{\k18}ke{\k18}ta{\k13}ri {\k23}shi{\k37}na{\k15}i {\kf146}yo
+Dialogue: 0,0:01:16.45,0:01:20.40,Sora,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSora S}♥{\r} {\k22}tsu{\k17}zu{\k19}i{\k17}te {\k19}ko{\k35}so {\k20}no {\k41}HAP{\k28}PY {\k35}MA{\k32}GIC
+Dialogue: 0,0:01:19.32,0:01:23.12,Tsumugi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTsumugi S}♦{\r} {\k23}ki{\k18}e{\k19}ta{\k19}ri {\k16}shi{\k36}nai {\k18}ka{\kf121}ra
+Dialogue: 0,0:01:22.21,0:01:28.61,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k22}ki{\k17}mi {\k16}no {\k21}e{\k17}ga{\k37}o {\k16}i{\k36}tsu{\k37}dat{\k68}te {\k21}ma{\k19}mo{\k17}t{\k21}te{\kf165}ru
