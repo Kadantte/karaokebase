@@ -1,0 +1,98 @@
+﻿[Script Info]
+Title: Reimei Compass
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+Original Timing: Nemesise
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,24,&H00FFFFFF,&H00008AFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: ENG,Arial,24,&H00FFFFFF,&H00FFAB00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Choir,Arial,24,&H008586FE,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,15,15,80,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:01.14,0:00:02.44,ENG,,0,0,0,karaoke,{\k27}Ri{\k15}ding {\k15}in {\k17}the {\k37}fast {\k19}lane
+Comment: 0,0:00:02.53,0:00:03.87,ENG,,0,0,0,karaoke,{\k23}Stare {\k15}be{\k19}yond {\k15}the {\k35}glass {\k27}pane
+Comment: 0,0:00:03.95,0:00:06.03,ENG,,0,0,0,karaoke,{\k20}Day {\k15}to {\k17}day, {\k14}the {\k39}same {\k15}i{\k16}ri{\k16}de{\k15}scent {\k41}sky
+Comment: 0,0:00:06.32,0:00:07.84,JP,,0,0,0,karaoke,{\k20}su{\k15}gi{\k36}sat{\k17}ta {\k35}hi{\k29}bi
+Comment: 0,0:00:07.89,0:00:09.15,JP,,0,0,0,karaoke,{\k17}mi{\k15}e{\k20}nai {\k18}mi{\k33}ra{\k23}i
+Comment: 0,0:00:09.23,0:00:10.63,JP,,0,0,0,karaoke,{\k20}su{\k18}be{\k17}te {\k17}i{\k17}da{\k17}i{\k34}te
+Comment: 0,0:00:10.62,0:00:11.63,ENG,,0,0,0,karaoke,{\k19}So {\k17}rea{\k16}dy {\k49}go
+Comment: 0,0:00:22.29,0:00:25.11,ENG,,0,0,0,karaoke,{\k15}The {\k36}stea{\k19}dy {\k35}march {\k27}of {\k39}time {\k34}waits {\k18}for {\k34}no {\k25}one
+Comment: 0,0:00:25.37,0:00:26.63,ENG,,0,0,0,karaoke,{\k17}Feel {\k15}like {\k14}I {\k21}can’t {\k36}keep {\k23}up
+Comment: 0,0:00:26.74,0:00:27.85,ENG,,0,0,0,karaoke,{\k17}So {\k17}much {\k14}for {\k20}slo{\k17}wing {\k26}down
+Comment: 0,0:00:27.95,0:00:30.69,JP,,0,0,0,karaoke,{\k34}NO{\k17}I{\k52}SE {\k47}wo {\k37}ka{\k19}ki{\k14}wa{\k19}ke{\k35}te
+Comment: 0,0:00:30.83,0:00:32.45,JP,,0,0,0,karaoke,{\k16}ka{\k18}so{\k19}ku {\k19}shi{\k17}te {\k14}i{\k59}ku
+Comment: 0,0:00:32.93,0:00:33.41,ENG,,0,0,0,karaoke,{\k16}Some {\k19}days {\k13}I
+Comment: 0,0:00:33.44,0:00:34.57,ENG,,0,0,0,karaoke,{\k10}Wa{\k9}nna {\k15}get {\k18}lost {\k8}in {\k8}the {\k16}used-{\k8}to-{\k21}be
+Comment: 0,0:00:34.63,0:00:35.99,ENG,,0,0,0,karaoke,{\k9}Think {\k8}of {\k9}all {\k8}the {\k8}good {\k7}we {\k20}did, {\k6}what {\k10}it {\k18}used {\k9}to {\k24}mean
+Comment: 0,0:00:36.09,0:00:36.68,ENG,,0,0,0,karaoke,{\k8}The {\k15}world {\k14}keeps {\k13}spi{\k9}nning
+Comment: 0,0:00:36.68,0:00:37.29,ENG,,0,0,0,karaoke,{\k9}though {\k6}we {\k19}stayed {\k9}the {\k18}same
+Comment: 0,0:00:37.37,0:00:38.66,ENG,,0,0,0,karaoke,{\k14}High {\k21}tide {\k18}leaves {\k9}at {\k6}the {\k15}same {\k16}speed {\k9}it {\k21}came
+Comment: 0,0:00:38.72,0:00:40.07,ENG,,0,0,0,karaoke,{\k19}That {\k16}mo{\k10}ment, {\k21}it {\k21}was {\k24}bin{\k24}ding
+Comment: 0,0:00:40.12,0:00:41.47,ENG,,0,0,0,karaoke,{\k15}I {\k10}ca{\k9}nnot {\k33}stop {\k17}re{\k28}win{\k23}ding
+Comment: 0,0:00:41.49,0:00:43.64,ENG,,0,0,0,karaoke,{\k15}Our {\k18}sil{\k18}hou{\k21}ettes {\k13}a{\k17}gainst {\k17}the {\k18}ho{\k32}ri{\k19}zon {\k27}line
+Comment: 0,0:00:43.53,0:00:45.57,ENG,,0,0,0,karaoke,{\k18}Don’t {\k34}let {\k33}your {\k30}past {\k23}be {\k15}a {\k29}com{\k22}pass
+Comment: 0,0:00:45.61,0:00:46.77,ENG,,0,0,0,karaoke,{\k16}The {\k23}fu{\k28}ture’s {\k18}your {\k31}guide
+Comment: 0,0:00:46.81,0:00:49.45,ENG,,0,0,0,karaoke,{\k34}It’s {\k28}all {\k22}been {\k19}e{\k28}vol{\k22}ving {\k17}be{\k27}fore {\k22}our {\k20}own {\k25}eyes
+Comment: 0,0:00:49.50,0:00:50.90,ENG,,0,0,0,karaoke,{\k50}So {\k22}still {\k21}touch {\k12}and {\k35}go
+Comment: 0,0:00:51.06,0:00:51.94,ENG,,0,0,0,karaoke,{\k18}Still {\k21}go{\k15}tta {\k34}know
+Comment: 0,0:00:52.11,0:00:54.08,ENG,,0,0,0,karaoke,{\k18}How {\k16}far {\k17}this {\k20}ci{\k32}ty’s {\k32}lights {\k13}will {\k49}glow
+Comment: 0,0:00:54.19,0:00:55.35,ENG,,0,0,0,karaoke,{\k17}Now {\k31}it’s {\k29}our {\k39}time
+Comment: 0,0:00:55.66,0:00:57.93,ENG,,0,0,0,karaoke,{\k40}Still {\k18}ru{\k34}nning {\k34}fas{\k17}ter {\k17}than {\k18}the {\k34}al{\k15}ways
+Comment: 0,0:00:57.93,0:00:59.76,ENG,,0,0,0,karaoke,{\k36}chan{\k32}ging {\k38}waves {\k33}of {\k44}life
+Comment: 0,0:00:59.82,0:01:00.86,ENG,,0,0,0,karaoke,{\k37}It’s {\k29}our {\k38}time
+Comment: 0,0:01:01.20,0:01:03.17,JP,,0,0,0,karaoke,{\k18}ta{\k16}e{\k48}zu {\k38}ka{\k18}wa{\k16}ri {\k13}yu{\k30}ku
+Comment: 0,0:01:03.24,0:01:05.09,JP,,0,0,0,karaoke,{\k19}se{\k22}wa{\k12}shi{\k32}nai {\k36}se{\k35}kai {\k29}de
+Comment: 0,0:01:05.15,0:01:06.34,ENG,,0,0,0,karaoke,{\k16}But {\k17}now {\k23}it’s {\k23}our {\k40}time
+Comment: 0,0:01:06.34,0:01:09.02,Choir,,0,0,0,karaoke,{\k20}Uh-{\k32}uh, {\k52}uh, {\k47}uh, {\k55}uh, {\k34}uh-{\k28}uh
+Comment: 0,0:01:09.09,0:01:10.79,Choir,,0,0,0,karaoke,{\k17}Uh-{\k34}uh, {\k53}uh, {\k66}uh
+Comment: 0,0:01:10.63,0:01:11.78,ENG,,0,0,0,karaoke,{\k18}Thought {\k16}we {\k18}were {\k11}cat{\k23}ching {\k29}up
+Comment: 0,0:01:11.82,0:01:14.49,Choir,,0,0,0,karaoke,{\k20}Uh-{\k32}uh, {\k52}uh, {\k48}uh, {\k54}uh, {\k35}uh-{\k26}uh
+Comment: 0,0:01:14.58,0:01:16.16,Choir,,0,0,0,karaoke,{\k17}Uh-{\k34}uh, {\k53}uh, {\k66}uh
+Comment: 0,0:01:16.12,0:01:17.34,ENG,,0,0,0,karaoke,{\k17}We’re {\k35}still {\k17}far {\k15}be{\k38}hind
+Dialogue: 0,0:00:00.24,0:00:02.64,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k27}Ri{\k15}ding {\k15}in {\k17}the {\k37}fast {\k19}lane
+Dialogue: 0,0:00:01.63,0:00:04.07,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k23}Stare {\k15}be{\k19}yond {\k15}the {\k35}glass {\k27}pane
+Dialogue: 0,0:00:03.05,0:00:06.23,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Day {\k15}to {\k17}day, {\k14}the {\k39}same {\k15}i{\k16}ri{\k16}de{\k15}scent {\k41}sky
+Dialogue: 0,0:00:05.42,0:00:08.04,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k20}su{\k15}gi{\k36}sat{\k17}ta {\k35}hi{\k29}bi
+Dialogue: 0,0:00:06.99,0:00:09.35,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k17}mi{\k15}e{\k20}nai {\k18}mi{\k33}ra{\k23}i
+Dialogue: 0,0:00:08.33,0:00:10.83,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k20}su{\k18}be{\k17}te {\k17}i{\k17}da{\k17}i{\k34}te
+Dialogue: 0,0:00:09.72,0:00:11.83,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k19}So {\k17}rea{\k16}dy {\k49}go
+Dialogue: 0,0:00:21.39,0:00:25.31,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k15}The {\k36}stea{\k19}dy {\k35}march {\k27}of {\k39}time {\k34}waits {\k18}for {\k34}no {\k25}one
+Dialogue: 0,0:00:24.47,0:00:26.83,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Feel {\k15}like {\k14}I {\k21}can’t {\k36}keep {\k23}up
+Dialogue: 0,0:00:25.84,0:00:28.05,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k17}So {\k17}much {\k14}for {\k20}slo{\k17}wing {\k26}down
+Dialogue: 0,0:00:27.05,0:00:30.89,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k34}NO{\k17}I{\k52}SE {\k47}wo {\k37}ka{\k19}ki{\k14}wa{\k19}ke{\k35}te
+Dialogue: 0,0:00:29.93,0:00:32.65,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ka{\k18}so{\k19}ku {\k19}shi{\k17}te {\k14}i{\k59}ku
+Dialogue: 0,0:00:32.03,0:00:33.61,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k16}Some {\k19}days {\k13}I
+Dialogue: 0,0:00:32.54,0:00:34.77,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k10}Wa{\k9}nna {\k15}get {\k18}lost {\k8}in {\k8}the {\k16}used-{\k8}to-{\k21}be
+Dialogue: 0,0:00:33.73,0:00:36.19,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k9}Think {\k8}of {\k9}all {\k8}the {\k8}good {\k7}we {\k20}did, {\k6}what {\k10}it {\k18}used {\k9}to {\k24}mean
+Dialogue: 0,0:00:35.19,0:00:36.88,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k8}The {\k15}world {\k14}keeps {\k13}spi{\k9}nning
+Dialogue: 0,0:00:35.78,0:00:37.49,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k9}though {\k6}we {\k19}stayed {\k9}the {\k18}same
+Dialogue: 0,0:00:36.47,0:00:38.86,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k14}High {\k21}tide {\k18}leaves {\k9}at {\k6}the {\k15}same {\k16}speed {\k9}it {\k21}came
+Dialogue: 0,0:00:37.82,0:00:40.27,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k19}That {\k16}mo{\k10}ment, {\k21}it {\k21}was {\k24}bin{\k24}ding
+Dialogue: 0,0:00:39.22,0:00:41.67,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k15}I {\k10}ca{\k9}nnot {\k33}stop {\k17}re{\k28}win{\k23}ding
+Dialogue: 0,0:00:40.59,0:00:43.84,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k15}Our {\k18}sil{\k18}hou{\k21}ettes {\k13}a{\k17}gainst {\k17}the {\k18}ho{\k32}ri{\k19}zon {\k27}line
+Dialogue: 0,0:00:42.63,0:00:45.77,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Don’t {\k34}let {\k33}your {\k30}past {\k23}be {\k15}a {\k29}com{\k22}pass
+Dialogue: 0,0:00:44.71,0:00:46.97,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k16}The {\k23}fu{\k28}ture’s {\k18}your {\k31}guide
+Dialogue: 0,0:00:45.91,0:00:49.65,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k34}It’s {\k28}all {\k22}been {\k19}e{\k28}vol{\k22}ving {\k17}be{\k27}fore {\k22}our {\k20}own {\k25}eyes
+Dialogue: 0,0:00:48.60,0:00:51.10,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k50}So {\k22}still {\k21}touch {\k12}and {\k35}go
+Dialogue: 0,0:00:50.16,0:00:52.14,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Still {\k21}go{\k15}tta {\k34}know
+Dialogue: 0,0:00:51.21,0:00:54.28,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}How {\k16}far {\k17}this {\k20}ci{\k32}ty’s {\k32}lights {\k13}will {\k49}glow
+Dialogue: 0,0:00:53.29,0:00:55.55,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Now {\k31}it’s {\k29}our {\k39}time
+Dialogue: 0,0:00:54.76,0:00:58.13,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k40}Still {\k18}ru{\k34}nning {\k34}fas{\k17}ter {\k17}than {\k18}the {\k34}al{\k15}ways
+Dialogue: 0,0:00:57.03,0:00:59.96,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k36}chan{\k32}ging {\k38}waves {\k33}of {\k44}life
+Dialogue: 0,0:00:58.92,0:01:01.06,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k37}It’s {\k29}our {\k38}time
+Dialogue: 0,0:01:00.30,0:01:03.37,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k18}ta{\k16}e{\k48}zu {\k38}ka{\k18}wa{\k16}ri {\k13}yu{\k30}ku
+Dialogue: 0,0:01:02.34,0:01:05.29,JP,,0,0,0,fx,{\k90\fad(300,200)}{\k19}se{\k22}wa{\k12}shi{\k32}nai {\k36}se{\k35}kai {\k29}de
+Dialogue: 0,0:01:04.25,0:01:06.54,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k16}But {\k17}now {\k23}it’s {\k23}our {\k40}time
+Dialogue: 0,0:01:05.44,0:01:09.22,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Uh-{\k32}uh, {\k52}uh, {\k47}uh, {\k55}uh, {\k34}uh-{\k28}uh
+Dialogue: 0,0:01:08.19,0:01:10.99,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Uh-{\k34}uh, {\k53}uh, {\k66}uh
+Dialogue: 0,0:01:09.73,0:01:11.98,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k18}Thought {\k16}we {\k18}were {\k11}cat{\k23}ching {\k29}up
+Dialogue: 0,0:01:10.92,0:01:14.69,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}Uh-{\k32}uh, {\k52}uh, {\k48}uh, {\k54}uh, {\k35}uh-{\k26}uh
+Dialogue: 0,0:01:13.68,0:01:16.36,Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k17}Uh-{\k34}uh, {\k53}uh, {\k66}uh
+Dialogue: 0,0:01:15.22,0:01:17.54,ENG,,0,0,0,fx,{\k90\fad(300,200)}{\k17}We’re {\k35}still {\k17}far {\k15}be{\k38}hind
