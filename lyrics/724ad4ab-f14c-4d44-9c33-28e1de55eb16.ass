@@ -1,0 +1,114 @@
+﻿[Script Info]
+Title: Kuuchuu Ren'ai Ron
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: AZALEA,Arial,24,&H00FFFFFF,&H009080F5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kanan,Arial,24,&H00FFFFFF,&H00AEE813,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Dia,Arial,24,&H00FFFFFF,&H004C3BF2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hanamaru,Arial,24,&H00FFFFFF,&H0017D6E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Kanan Symbol,Arial,24,&H00AEE813,&H00AEE813,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Dia Symbol,Arial,24,&H004C3BF2,&H004C3BF2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: Hanamaru Symbol,Arial,24,&H0017D6E6,&H0017D6E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,AZALEA,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Kanan,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rKanan Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Dia,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rDia Symbol\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Hanamaru,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rHanamaru Symbol\\fs30}●{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H9080F5&}AZALEA{\c} | {\c&HAEE813&}♠ Kanan{\c} | {\c&H4C3BF2&}♦ Dia{\c} | {\c&H17D6E6&}● Hanamaru
+Comment: 0,0:00:07.27,0:00:10.72,AZALEA,,0,0,0,karaoke,{\k23}ka{\k22}n{\k47}jou {\k45}ga {\k25}SU{\k23}PER {\k22}FLY{\k24}ING {\k23}ka{\k24}ze {\k22}ni {\k22}na{\k23}ru
+Comment: 0,0:00:10.97,0:00:14.32,AZALEA,,0,0,0,karaoke,{\k22}da{\k24}re {\k46}no {\k22}ko{\k24}to{\k23}ba {\k24}yo{\k23}ri {\k19}mo {\k26}ki{\k13}mi {\k21}no {\k12}ko{\k36}e
+Comment: 0,0:00:14.67,0:00:18.56,AZALEA,,0,0,0,karaoke,{\k21}u{\k24}ke{\k45}tot{\k46}ta {\k25}to{\k22}ki {\k25}ka{\k22}ra {\k22}ko{\k23}i {\k23}ka {\k21}mo {\k47}ne {\k23}tte
+Comment: 0,0:00:18.82,0:00:22.44,AZALEA,,0,0,0,karaoke,{\k45}AH {\k24}to{\k22}ki{\k49}mei{\k41}te {\k49}shi{\k46}mau {\k86}no
+Comment: 0,0:00:22.96,0:00:25.50,Dia,,0,0,0,karaoke,{\k46}me {\k46}ga {\k48}sa{\k68}me{\k23}ta{\k23}ra
+Comment: 0,0:00:25.71,0:00:29.75,Dia,,0,0,0,karaoke,{\k24}ko{\k23}ko {\k70}wa {\k23}do{\k92}ko {\k24}ma{\k10}da {\k28}yu{\k8}me {\k22}no {\k25}tsu{\k21}zu{\k34}ki
+Comment: 0,0:00:30.34,0:00:34.67,Dia,,0,0,0,karaoke,{\k46}so{\k47}ra {\k46}to {\k67}dai{\k25}chi {\k47}ga {\k22}gya{\k23}ku {\k69}da{\k23}t{\k18}ta
+Comment: 0,0:00:34.98,0:00:36.81,Dia,,0,0,0,karaoke,{\k43}o{\k23}chi{\k13}tsu{\k23}ki{\k35}ma{\k46}shou
+Comment: 0,0:00:37.26,0:00:40.71,Hanamaru,,0,0,0,karaoke,{\k47}ip{\k46}pan {\k47}ron {\k45}de {\k34}ka{\k13}ta{\k23}zu{\k19}ke{\k27}na{\k23}i{\k21}de
+Comment: 0,0:00:40.97,0:00:44.37,Hanamaru,,0,0,0,karaoke,{\k45}kon{\k46}na {\k38}mu{\k32}ne {\k23}ga {\k33}a{\k14}tsu{\k20}i{\k24}ka{\k65}ra
+Comment: 0,0:00:44.42,0:00:47.75,Kanan,,0,0,0,karaoke,{\k12}to{\k10}bi{\k35}dash'{\k34}te {\k24}shi{\k36}mat{\k34}ta {\k23}no {\k68}de{\k24}su {\k33}ne
+Comment: 0,0:00:48.36,0:00:51.69,Kanan,,0,0,0,karaoke,{\k46}do{\k22}no {\k23}se{\k33}kai{\k36}sen {\k23}ni {\k69}i{\k24}ru {\k57}no
+Comment: 0,0:00:52.06,0:00:53.13,Dia,,0,0,0,karaoke,{\k21}wa{\k11}ka{\k35}ra{\k23}na{\k17}i
+Comment: 0,0:00:53.43,0:00:57.00,AZALEA,,0,0,0,karaoke,{\k22}so{\k21}u{\k47}zou {\k46}no {\k25}SU{\k23}PER {\k45}WORLD {\k24}sa{\k22}ma{\k25}yo{\k21}t{\k36}te
+Comment: 0,0:00:57.10,0:01:00.41,Dia,,0,0,0,karaoke,{\k26}ki{\k20}mi {\k48}wo {\k17}o{\k27}i{\k24}ka{\k24}ke{\k24}te{\k22}ru {\k24}yu{\k12}me {\k22}wo {\k12}mi{\k29}ta
+Comment: 0,0:01:00.82,0:01:04.75,AZALEA,,0,0,0,karaoke,{\k21}o{\k25}ki{\k44}tat{\k48}te {\k23}shi{\k17}n{\k27}ji{\k23}te {\k23}a{\k23}i{\k25}ta{\k21}ku {\k48}nat{\k25}te
+Comment: 0,0:01:04.97,0:01:08.63,Dia,,0,0,0,karaoke,{\k45}AH {\k24}to{\k23}ki{\k45}mei{\k44}te {\k48}shi{\k47}mau {\k90}no
+Comment: 0,0:01:16.49,0:01:19.22,Hanamaru,,0,0,0,karaoke,{\k46}a{\k47}wa{\k47}ku {\k65}to{\k26}ke{\k42}ru
+Comment: 0,0:01:19.26,0:01:23.42,Hanamaru,,0,0,0,karaoke,{\k23}ha{\k24}ji{\k69}ma{\k23}ri {\k92}wo {\k24}ka{\k14}mi{\k21}shi{\k10}me{\k23}te {\k23}i{\k25}ta{\k45}i
+Comment: 0,0:01:23.88,0:01:30.68,Kanan,,0,0,0,karaoke,{\k46}mo{\k46}do{\k47}re{\k70}na{\k23}i {\k41}to {\k28}shi{\k22}t{\k70}te{\k21}ta{\k47}ra {\k46}ha{\k25}ji{\k12}me{\k22}na{\k22}i {\k92}no
+Comment: 0,0:01:30.79,0:01:34.38,Dia,,0,0,0,karaoke,{\k49}re{\k46}nai {\k46}ron {\k44}wo {\k36}ka{\k13}ta{\k21}ru {\k24}da{\k22}ke {\k24}na{\k34}ra
+Comment: 0,0:01:34.51,0:01:37.84,Dia,,0,0,0,karaoke,{\k45}kit{\k46}to {\k46}mu{\k24}ne {\k22}wa {\k36}i{\k34}ta{\k22}ma{\k58}nai
+Comment: 0,0:01:37.96,0:01:41.44,Hanamaru,,0,0,0,karaoke,{\k13}so{\k11}re {\k34}de {\k33}mo {\k24}shi{\k34}ri{\k35}tai {\k23}no {\k70}de{\k22}su {\k49}ne
+Comment: 0,0:01:41.88,0:01:45.43,Kanan,,0,0,0,karaoke,{\k36}to{\k31}do{\k26}ka{\k34}na{\k34}i {\k23}na{\k70}mi{\k23}da {\k78}ga
+Comment: 0,0:01:45.57,0:01:46.67,Dia,,0,0,0,karaoke,{\k24}a{\k11}ma{\k34}i {\k23}ko{\k18}to
+Comment: 0,0:01:46.94,0:01:50.42,AZALEA,,0,0,0,karaoke,{\k25}ka{\k23}n{\k46}jou {\k43}ga {\k25}SU{\k23}PER {\k22}FLY{\k26}ING {\k21}ka{\k24}ze {\k24}ni {\k24}na{\k22}ru
+Comment: 0,0:01:50.66,0:01:54.22,Hanamaru,,0,0,0,karaoke,{\k22}da{\k24}re {\k46}no {\k22}ko{\k22}to{\k25}ba {\k24}yo{\k23}ri {\k19}mo {\k26}ki{\k13}mi {\k21}no {\k12}ko{\k57}e
+Comment: 0,0:01:54.36,0:01:58.40,AZALEA,,0,0,0,karaoke,{\k23}u{\k22}ke{\k45}tot{\k46}ta {\k25}to{\k22}ki {\k25}ka{\k22}ra {\k22}ko{\k23}i {\k23}ka {\k21}mo {\k47}ne {\k38}tte
+Comment: 0,0:01:58.50,0:02:02.19,Hanamaru,,0,0,0,karaoke,{\k45}AH {\k24}to{\k22}ki{\k49}mei{\k44}te {\k46}shi{\k46}mau {\k93}no
+Comment: 0,0:02:24.34,0:02:27.58,Dia,,0,0,0,karaoke,{\k19}yu{\k13}me {\k39}no {\k21}na{\k86}ka {\rHanamaru}{\k30}yu{\k12}me {\k34}no {\k23}a{\k47}to
+Comment: 0,0:02:28.04,0:02:31.65,Kanan,,0,0,0,karaoke,{\k25}chuu {\k14}wo {\k30}ma{\k21}u {\k48}you {\k46}na {\k46}it{\k44}tai {\k48}kan {\k25}de {\k14}mo
+Comment: 0,0:02:31.72,0:02:34.75,AZALEA,,0,0,0,karaoke,{\k34}ron{\k37}ji{\k20}te {\k36}ron {\k35}yo{\k22}ri {\k35}shou{\k36}ko {\k23}na{\k25}ra
+Comment: 0,0:02:34.98,0:02:40.49,AZALEA,,0,0,0,karaoke,{\k21}ta{\k23}da {\k34}is{\k35}sho {\k24}ni {\k35}ta{\k34}da{\k22}yo{\kf126}i{\k36}{\k23}ta{\kf138}i
+Comment: 0,0:02:40.70,0:02:43.18,Kanan,,0,0,0,karaoke,{\k27}SU{\k66}PER {\rHanamaru}{\k26}FLY{\k69}ING {\rDia}{\k24}BA{\k36}BY
+Comment: 0,0:02:44.20,0:02:47.63,AZALEA,,0,0,0,karaoke,{\k22}so{\k22}u{\k46}zou {\k46}no {\k25}SU{\k23}PER {\k45}WORLD {\k24}sa{\k22}ma{\k25}yo{\k21}t{\k22}te
+Comment: 0,0:02:47.87,0:02:51.18,Kanan,,0,0,0,karaoke,{\k26}ki{\k20}mi {\k48}wo {\k22}o{\k22}i{\k24}ka{\k24}ke{\k24}te{\k22}ru {\k24}yu{\k12}me {\k22}wo {\k12}mi{\k29}ta
+Comment: 0,0:02:51.57,0:02:55.58,AZALEA,,0,0,0,karaoke,{\k21}o{\k25}ki{\k46}tat{\k46}te {\k23}shi{\k23}n{\k23}ji{\k23}te {\k21}a{\k26}i{\k23}ta{\k24}ku {\k44}nat{\k33}te
+Comment: 0,0:02:55.73,0:02:58.76,Kanan,,0,0,0,karaoke,{\k45}AH {\k21}to{\k26}ki{\k43}mei{\k48}te {\k24}shi{\k12}ma{\k36}t{\k21}ta {\k27}no
+Comment: 0,0:02:58.93,0:03:02.43,AZALEA,,0,0,0,karaoke,{\k27}ka{\k21}n{\k44}jou {\k50}ga {\k20}SU{\k24}PER {\k25}FLY{\k22}ING {\k23}ka{\k24}ze {\k21}ni {\k24}na{\k25}ru
+Comment: 0,0:03:02.67,0:03:06.13,AZALEA,,0,0,0,karaoke,{\k22}da{\k24}re {\k46}no {\k22}ko{\k24}to{\k23}ba {\k24}yo{\k23}ri {\k19}mo {\k26}ki{\k13}mi {\k31}no {\k25}ko{\k24}e
+Comment: 0,0:03:06.36,0:03:10.38,AZALEA,,0,0,0,karaoke,{\k23}u{\k22}ke{\k45}tot{\k46}ta {\k25}to{\k22}ki {\k25}ka{\k20}ra {\k24}ko{\k23}i {\k23}ka {\k24}mo {\k44}ne {\k36}tte
+Comment: 0,0:03:10.50,0:03:14.53,AZALEA,,0,0,0,karaoke,{\k45}AH {\k24}to{\k22}ki{\k49}mei{\k41}te {\k49}shi{\k46}mau {\kf127}no
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H9080F5&}AZALEA{\c} | {\c&HAEE813&}♠ Kanan{\c} | {\c&H4C3BF2&}♦ Dia{\c} | {\c&H17D6E6&}● Hanamaru
+Dialogue: 0,0:00:06.37,0:00:10.92,AZALEA,,0,0,0,fx,{\k90\fad(300,200)}{\k23}ka{\k22}n{\k47}jou {\k45}ga {\k25}SU{\k23}PER {\k22}FLY{\k24}ING {\k23}ka{\k24}ze {\k22}ni {\k22}na{\k23}ru
+Dialogue: 0,0:00:10.07,0:00:14.52,AZALEA,,0,0,0,fx,{\k90\fad(300,200)}{\k22}da{\k24}re {\k46}no {\k22}ko{\k24}to{\k23}ba {\k24}yo{\k23}ri {\k19}mo {\k26}ki{\k13}mi {\k21}no {\k12}ko{\k36}e
+Dialogue: 0,0:00:13.77,0:00:18.76,AZALEA,,0,0,0,fx,{\k90\fad(300,200)}{\k21}u{\k24}ke{\k45}tot{\k46}ta {\k25}to{\k22}ki {\k25}ka{\k22}ra {\k22}ko{\k23}i {\k23}ka {\k21}mo {\k47}ne {\k23}tte
+Dialogue: 0,0:00:17.92,0:00:22.64,AZALEA,,0,0,0,fx,{\k90\fad(300,200)}{\k45}AH {\k24}to{\k22}ki{\k49}mei{\k41}te {\k49}shi{\k46}mau {\k86}no
+Dialogue: 0,0:00:22.06,0:00:25.70,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\rDia Symbol\fs30}♦{\r\fs\4a&HFF&} {\k46}me {\k46}ga {\k48}sa{\k68}me{\k23}ta{\k23}ra
+Dialogue: 0,0:00:24.81,0:00:29.95,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\rDia Symbol\fs30}♦{\r\fs\4a&HFF&} {\k24}ko{\k23}ko {\k70}wa {\k23}do{\k92}ko {\k24}ma{\k10}da {\k28}yu{\k8}me {\k22}no {\k25}tsu{\k21}zu{\k34}ki
+Dialogue: 0,0:00:29.44,0:00:34.87,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\rDia Symbol\fs30}♦{\r\fs\4a&HFF&} {\k46}so{\k47}ra {\k46}to {\k67}dai{\k25}chi {\k47}ga {\k22}gya{\k23}ku {\k69}da{\k23}t{\k18}ta
+Dialogue: 0,0:00:34.08,0:00:37.01,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\rDia Symbol\fs30}♦{\r\fs\4a&HFF&} {\k43}o{\k23}chi{\k13}tsu{\k23}ki{\k35}ma{\k46}shou
+Dialogue: 0,0:00:36.36,0:00:40.91,Hanamaru,,0,0,0,fx,{\k90\fad(300,200)}{\rHanamaru Symbol\fs30}●{\r\fs\4a&HFF&} {\k47}ip{\k46}pan {\k47}ron {\k45}de {\k34}ka{\k13}ta{\k23}zu{\k19}ke{\k27}na{\k23}i{\k21}de
+Dialogue: 0,0:00:40.07,0:00:44.57,Hanamaru,,0,0,0,fx,{\k90\fad(300,200)}{\rHanamaru Symbol\fs30}●{\r\fs\4a&HFF&} {\k45}kon{\k46}na {\k38}mu{\k32}ne {\k23}ga {\k33}a{\k14}tsu{\k20}i{\k24}ka{\k65}ra
+Dialogue: 0,0:00:43.52,0:00:47.95,Kanan,,0,0,0,fx,{\k90\fad(300,200)}{\rKanan Symbol\fs30}♠{\r\fs\4a&HFF&} {\k12}to{\k10}bi{\k35}dash'{\k34}te {\k24}shi{\k36}mat{\k34}ta {\k23}no {\k68}de{\k24}su {\k33}ne
+Dialogue: 0,0:00:47.46,0:00:51.89,Kanan,,0,0,0,fx,{\k90\fad(300,200)}{\rKanan Symbol\fs30}♠{\r\fs\4a&HFF&} {\k46}do{\k22}no {\k23}se{\k33}kai{\k36}sen {\k23}ni {\k69}i{\k24}ru {\k57}no
+Dialogue: 0,0:00:51.16,0:00:53.33,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\rDia Symbol\fs30}♦{\r\fs\4a&HFF&} {\k21}wa{\k11}ka{\k35}ra{\k23}na{\k17}i
+Dialogue: 0,0:00:52.53,0:00:57.20,AZALEA,,0,0,0,fx,{\k90\fad(300,200)}{\k22}so{\k21}u{\k47}zou {\k46}no {\k25}SU{\k23}PER {\k45}WORLD {\k24}sa{\k22}ma{\k25}yo{\k21}t{\k36}te
+Dialogue: 0,0:00:56.20,0:01:00.61,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\rDia Symbol\fs30}♦{\r\fs\4a&HFF&} {\k26}ki{\k20}mi {\k48}wo {\k17}o{\k27}i{\k24}ka{\k24}ke{\k24}te{\k22}ru {\k24}yu{\k12}me {\k22}wo {\k12}mi{\k29}ta
+Dialogue: 0,0:00:59.92,0:01:04.95,AZALEA,,0,0,0,fx,{\k90\fad(300,200)}{\k21}o{\k25}ki{\k44}tat{\k48}te {\k23}shi{\k17}n{\k27}ji{\k23}te {\k23}a{\k23}i{\k25}ta{\k21}ku {\k48}nat{\k25}te
+Dialogue: 0,0:01:04.07,0:01:08.83,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\rDia Symbol\fs30}♦{\r\fs\4a&HFF&} {\k45}AH {\k24}to{\k23}ki{\k45}mei{\k44}te {\k48}shi{\k47}mau {\k90}no
+Dialogue: 0,0:01:15.59,0:01:19.42,Hanamaru,,0,0,0,fx,{\k90\fad(300,200)}{\rHanamaru Symbol\fs30}●{\r\fs\4a&HFF&} {\k46}a{\k47}wa{\k47}ku {\k65}to{\k26}ke{\k42}ru
+Dialogue: 0,0:01:18.36,0:01:23.62,Hanamaru,,0,0,0,fx,{\k90\fad(300,200)}{\rHanamaru Symbol\fs30}●{\r\fs\4a&HFF&} {\k23}ha{\k24}ji{\k69}ma{\k23}ri {\k92}wo {\k24}ka{\k14}mi{\k21}shi{\k10}me{\k23}te {\k23}i{\k25}ta{\k45}i
+Dialogue: 0,0:01:22.98,0:01:30.88,Kanan,,0,0,0,fx,{\k90\fad(300,200)}{\rKanan Symbol\fs30}♠{\r\fs\4a&HFF&} {\k46}mo{\k46}do{\k47}re{\k70}na{\k23}i {\k41}to {\k28}shi{\k22}t{\k70}te{\k21}ta{\k47}ra {\k46}ha{\k25}ji{\k12}me{\k22}na{\k22}i {\k92}no
+Dialogue: 0,0:01:29.89,0:01:34.58,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\rDia Symbol\fs30}♦{\r\fs\4a&HFF&} {\k49}re{\k46}nai {\k46}ron {\k44}wo {\k36}ka{\k13}ta{\k21}ru {\k24}da{\k22}ke {\k24}na{\k34}ra
+Dialogue: 0,0:01:33.61,0:01:38.04,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\rDia Symbol\fs30}♦{\r\fs\4a&HFF&} {\k45}kit{\k46}to {\k46}mu{\k24}ne {\k22}wa {\k36}i{\k34}ta{\k22}ma{\k58}nai
+Dialogue: 0,0:01:37.06,0:01:41.64,Hanamaru,,0,0,0,fx,{\k90\fad(300,200)}{\rHanamaru Symbol\fs30}●{\r\fs\4a&HFF&} {\k13}so{\k11}re {\k34}de {\k33}mo {\k24}shi{\k34}ri{\k35}tai {\k23}no {\k70}de{\k22}su {\k49}ne
+Dialogue: 0,0:01:40.98,0:01:45.63,Kanan,,0,0,0,fx,{\k90\fad(300,200)}{\rKanan Symbol\fs30}♠{\r\fs\4a&HFF&} {\k36}to{\k31}do{\k26}ka{\k34}na{\k34}i {\k23}na{\k70}mi{\k23}da {\k78}ga
+Dialogue: 0,0:01:44.67,0:01:46.87,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\rDia Symbol\fs30}♦{\r\fs\4a&HFF&} {\k24}a{\k11}ma{\k34}i {\k23}ko{\k18}to
+Dialogue: 0,0:01:46.04,0:01:50.62,AZALEA,,0,0,0,fx,{\k90\fad(300,200)}{\k25}ka{\k23}n{\k46}jou {\k43}ga {\k25}SU{\k23}PER {\k22}FLY{\k26}ING {\k21}ka{\k24}ze {\k24}ni {\k24}na{\k22}ru
+Dialogue: 0,0:01:49.76,0:01:54.42,Hanamaru,,0,0,0,fx,{\k90\fad(300,200)}{\rHanamaru Symbol\fs30}●{\r\fs\4a&HFF&} {\k22}da{\k24}re {\k46}no {\k22}ko{\k22}to{\k25}ba {\k24}yo{\k23}ri {\k19}mo {\k26}ki{\k13}mi {\k21}no {\k12}ko{\k57}e
+Dialogue: 0,0:01:53.46,0:01:58.60,AZALEA,,0,0,0,fx,{\k90\fad(300,200)}{\k23}u{\k22}ke{\k45}tot{\k46}ta {\k25}to{\k22}ki {\k25}ka{\k22}ra {\k22}ko{\k23}i {\k23}ka {\k21}mo {\k47}ne {\k38}tte
+Dialogue: 0,0:01:57.60,0:02:02.39,Hanamaru,,0,0,0,fx,{\k90\fad(300,200)}{\rHanamaru Symbol\fs30}●{\r\fs\4a&HFF&} {\k45}AH {\k24}to{\k22}ki{\k49}mei{\k44}te {\k46}shi{\k46}mau {\k93}no
+Dialogue: 0,0:02:23.44,0:02:27.78,Dia,,0,0,0,fx,{\k90\fad(300,200)}{\rDia Symbol\fs30}♦{\r\fs\4a&HFF&} {\k19}yu{\k13}me {\k39}no {\k21}na{\k86}ka {\rHanamaru}{\k30}yu{\k12}me {\k34}no {\k23}a{\k47}to
+Dialogue: 0,0:02:27.14,0:02:31.85,Kanan,,0,0,0,fx,{\k90\fad(300,200)}{\rKanan Symbol\fs30}♠{\r\fs\4a&HFF&} {\k25}chuu {\k14}wo {\k30}ma{\k21}u {\k48}you {\k46}na {\k46}it{\k44}tai {\k48}kan {\k25}de {\k14}mo
+Dialogue: 0,0:02:30.82,0:02:34.95,AZALEA,,0,0,0,fx,{\k90\fad(300,200)}{\k34}ron{\k37}ji{\k20}te {\k36}ron {\k35}yo{\k22}ri {\k35}shou{\k36}ko {\k23}na{\k25}ra
+Dialogue: 0,0:02:34.08,0:02:40.69,AZALEA,,0,0,0,fx,{\k90\fad(300,200)}{\k21}ta{\k23}da {\k34}is{\k35}sho {\k24}ni {\k35}ta{\k34}da{\k22}yo{\kf126}i{\k36}{\k23}ta{\kf138}i
+Dialogue: 0,0:02:39.80,0:02:43.38,Kanan,,0,0,0,fx,{\k90\fad(300,200)}{\rKanan Symbol\fs30}♠{\r\fs\4a&HFF&} {\k27}SU{\k66}PER {\rHanamaru}{\k26}FLY{\k69}ING {\rDia}{\k24}BA{\k36}BY
+Dialogue: 0,0:02:43.30,0:02:47.83,AZALEA,,0,0,0,fx,{\k90\fad(300,200)}{\k22}so{\k22}u{\k46}zou {\k46}no {\k25}SU{\k23}PER {\k45}WORLD {\k24}sa{\k22}ma{\k25}yo{\k21}t{\k22}te
+Dialogue: 0,0:02:46.97,0:02:51.38,Kanan,,0,0,0,fx,{\k90\fad(300,200)}{\rKanan Symbol\fs30}♠{\r\fs\4a&HFF&} {\k26}ki{\k20}mi {\k48}wo {\k22}o{\k22}i{\k24}ka{\k24}ke{\k24}te{\k22}ru {\k24}yu{\k12}me {\k22}wo {\k12}mi{\k29}ta
+Dialogue: 0,0:02:50.67,0:02:55.78,AZALEA,,0,0,0,fx,{\k90\fad(300,200)}{\k21}o{\k25}ki{\k46}tat{\k46}te {\k23}shi{\k23}n{\k23}ji{\k23}te {\k21}a{\k26}i{\k23}ta{\k24}ku {\k44}nat{\k33}te
+Dialogue: 0,0:02:54.83,0:02:58.96,Kanan,,0,0,0,fx,{\k90\fad(300,200)}{\rKanan Symbol\fs30}♠{\r\fs\4a&HFF&} {\k45}AH {\k21}to{\k26}ki{\k43}mei{\k48}te {\k24}shi{\k12}ma{\k36}t{\k21}ta {\k27}no
+Dialogue: 0,0:02:58.03,0:03:02.63,AZALEA,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ka{\k21}n{\k44}jou {\k50}ga {\k20}SU{\k24}PER {\k25}FLY{\k22}ING {\k23}ka{\k24}ze {\k21}ni {\k24}na{\k25}ru
+Dialogue: 0,0:03:01.77,0:03:06.33,AZALEA,,0,0,0,fx,{\k90\fad(300,200)}{\k22}da{\k24}re {\k46}no {\k22}ko{\k24}to{\k23}ba {\k24}yo{\k23}ri {\k19}mo {\k26}ki{\k13}mi {\k31}no {\k25}ko{\k24}e
+Dialogue: 0,0:03:05.46,0:03:10.58,AZALEA,,0,0,0,fx,{\k90\fad(300,200)}{\k23}u{\k22}ke{\k45}tot{\k46}ta {\k25}to{\k22}ki {\k25}ka{\k20}ra {\k24}ko{\k23}i {\k23}ka {\k24}mo {\k44}ne {\k36}tte
+Dialogue: 0,0:03:09.60,0:03:14.73,AZALEA,,0,0,0,fx,{\k90\fad(300,200)}{\k45}AH {\k24}to{\k22}ki{\k49}mei{\k41}te {\k49}shi{\k46}mau {\kf127}no
