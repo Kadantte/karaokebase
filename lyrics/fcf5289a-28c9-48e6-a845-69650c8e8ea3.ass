@@ -1,0 +1,147 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+Title: E.V.O.L.U.T.I.O.N.
+Original Timing: Variabels
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sample KM [Up],Arial,24,&H00008AFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hiiro,Arial,24,&H00FFFFFF,&H009B47EB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mayoi,Arial,24,&H00FFFFFF,&H00FF87B8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tatsumi,Arial,24,&H00FFFFFF,&H00A0E552,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Aira,Arial,24,&H00FFFFFF,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Alkaloid,Arial,24,&H00FFFFFF,&H00EDDE18,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tatsumi S,Arial,30,&H00A0E552,&H00A0E552,&H00000000,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Aira S,Arial,30,&H0041B5E6,&H0041B5E6,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Mayoi S,Arial,30,&H00FF87B8,&H00FF87B8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Hiiro S,Arial,30,&H009B47EB,&H009B47EB,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Natsume,Arial,24,&H00FFFFFF,&H006060D1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Natsume S,Arial,24,&H006060D1,&H006060D1,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tsumugi,Arial,24,&H00FFFFFF,&H00FB9560,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tsumugi Symbol,Arial,24,&H00FB9560,&H00FB9560,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Switch,Arial,24,&H00FFFFFF,&H002BE02D,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sora,Arial,24,&H00FFFFFF,&H000BDFE2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Sora S,Arial,24,&H000BDFE2,&H000BDFE2,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo,Arial,24,&H00FFFFFF,&H00E78CFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Duo Backing,Arial,24,&H00FFFFFF,&H00E78CFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,5,2,2,20,1
+Style: Unit S,Arial,27,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Sample KM [Up],,0,0,0,template pre-line all keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Dialogue: 0,0:00:00.00,0:00:10.00,Sample KM [Up],,0,0,0,legend,{\k1000\k0}{\alignment(2)}{\k1000\k0}{\alignment(2)}ALL {\rDuo}Group\N{\k0\rUnit S}♥{\r} {\rAlkaloid}Alkaloid {\rHiiro S}♠ {\rHiiro}Hiiro {\rMayoi S}♣ {\rMayoi}Mayoi  {\rAira S}♥ {\rAira}Aira {\rTatsumi S}♦ {\rTatsumi}Tatsumi\N{\k0\rUnit S}♫{\r} {\rSwitch}Switch {\rNatsume S}♪ {\rNatsume}Natsume {\rTsumugi Symbol}♫ {\rTsumugi}Tsumugi {\rSora S}▲ {\rSora}Sora
+Comment: 0,0:00:02.37,0:00:06.52,Tsumugi,,0,0,0,karaoke,{\k0\rTsumugi Symbol}♫{\r} {\k47}ya{\k47}bait{\k34}te{\k12}ba {\k30}jin{\k26}sei {\k11}ma{\k15}sa{\k11}ka {\k23}HAR{\k21}D {\k24}MO{\k23}DE {\k25}ka{\k21}ku{\k26}te{\k19}i?
+Comment: 0,0:00:06.52,0:00:08.38,Natsume,,0,0,0,karaoke,{\k0\rNatsume S}♪{\r} {\k49}at{\k33}to{\k13}i{\k33}u {\k25}ma{\k14}tsu{\k9}n{\k10}da
+Comment: 0,0:00:08.38,0:00:09.77,Sora,,0,0,0,karaoke,{\k0\rSora S}▲{\r} {\k14}wa{\k11}ke{\k21}nai {\k13}wa{\k11}ke{\k19}nai {\k14}wa{\k13}ke{\k23}nai!
+Comment: 0,0:00:09.68,0:00:11.73,Aira,,0,0,0,karaoke,{\k0\rAira S}♥{\r} {\k53}jaa {\k47}gyak{\k36}kyou {\k13}no {\k33}yuu{\k23}sha
+Comment: 0,0:00:11.73,0:00:13.90,Aira,,0,0,0,karaoke,{\k0\rAira S}♥{\r} {\k9}mo{\k10}ya{\k7}se {\k34}HEAR{\k20}T {\k23}no {\k25}ka{\k24}ku{\k21}me{\k23}i{\k21}ji
+Comment: 0,0:00:13.90,0:00:15.48,Hiiro,,0,0,0,karaoke,{\k0\rHiiro S}♠{\r} {\k48}mat{\k32}ta {\k15}na{\k36}shi {\k27}de!
+Comment: 0,0:00:15.48,0:00:16.21,Duo Backing,aira tsumugi,0,0,0,karaoke,{\k0\rAira S}♥{\r} {\k0\rTsumugi Symbol}♫{\r} {\k26}HERE {\k22}WE {\k25}GO!!
+Comment: 0,0:00:15.76,0:00:17.21,Alkaloid,tatsumi mayoi,0,0,0,karaoke,{\k0\rMayoi S}♣{\r} {\k0\rTatsumi S}♦{\r} {\k12}ma{\k10}ke{\k26}nai {\k11}ma{\k11}ke{\k22}nai {\k13}ma{\k13}ke{\k27}nai!
+Comment: 0,0:00:18.07,0:00:18.95,Mayoi,,0,0,0,karaoke,{\k0\rMayoi S}♣{\r} {\k19}tei{\k15}shi {\k12}wa {\k22}tai{\k20}ka?
+Comment: 0,0:00:19.01,0:00:21.52,Mayoi,,0,0,0,karaoke,{\k0\rMayoi S}♣{\r} {\k11}ya{\k11}sa{\k22}shii {\k10}ki{\k10}bi{\k25}shii {\k14}se{\k12}ka{\k9}i {\k14}no {\k21}an{\k13}mo{\k13}ku {\k45}RU{\k21}LE
+Comment: 0,0:00:21.77,0:00:23.11,Hiiro,,0,0,0,karaoke,{\k0\rHiiro S}♠{\r} {\k11}a{\k10}to{\k13}da{\k9}shi {\k25}han{\k24}pa{\k42}nai
+Comment: 0,0:00:22.92,0:00:25.33,Aira,,0,0,0,karaoke,{\k0\rAira S}♥{\r} {\k23}it{\k47}toi{\k23}te {\k22}yo {\k46}TEA{\k43}CHER {\k37}EY
+Comment: 0,0:00:25.45,0:00:27.29,Tatsumi,,0,0,0,karaoke,{\k0\rTatsumi S}♦{\r} {\k22}dou {\k14}ni {\k11}ka{\k21}kou {\k12}ni {\k13}ka{\k14}na {\k22}jin {\k12}da {\k43}STYLE
+Comment: 0,0:00:27.29,0:00:29.14,Tatsumi,,0,0,0,karaoke,{\k0\rTatsumi S}♦{\r} {\k14}ko{\k11}re {\k14}ga {\k10}o{\k11}re {\k21}dat{\k9}te {\k27}jik{\k21}kan{\k12}shi{\k35}tai
+Comment: 0,0:00:29.15,0:00:30.54,Hiiro,,0,0,0,karaoke,{\k0\rHiiro S}♠{\r} {\k18}ba{\k11}ku {\k18}a{\k17}ga{\k11}ru {\k15}wa {\k17}ki{\k32}tai
+Comment: 0,0:00:30.48,0:00:32.30,Aira,,0,0,0,karaoke,{\k0\rAira S}♥{\r} {\k49}nin{\k46}gen {\k28}mi{\k18}de{\k41}sho?
+Comment: 0,0:00:32.12,0:00:35.59,Natsume,,0,0,0,karaoke,{\k0\rNatsume S}♪{\r} {\k28}wa{\k43}ga {\k23}mo{\k46}no {\k24}ga{\k23}o{\k24}de {\k19}i{\k26}ki{\k47}you{\k44}you
+Comment: 0,0:00:35.84,0:00:39.46,Sora,,0,0,0,karaoke,{\k0\rSora S}▲{\r} {\k22}a{\k48}gat{\k21}ta {\k46}RING {\k27}te{\k18}n{\k24}de {\k24}ha {\k25}ga {\k18}ta{\k28}ta{\k61}nai
+Comment: 0,0:00:39.54,0:00:42.99,Tsumugi,,0,0,0,karaoke,{\k0\rTsumugi Symbol}♫{\r} {\k23}tas{\k45}sei{\k24}ka{\k45}n{\k24}te {\k19}kon{\k25}na {\k24}ha{\k24}ka{\k24}na{\k23}i {\k45}no
+Comment: 0,0:00:43.19,0:00:47.70,Tsumugi,,0,0,0,karaoke,{\k0\rTsumugi Symbol}♫{\r} {\k24}ki{\k47}nou {\k24}wa {\k43}shou{\k28}ja {\k23}ma{\k19}da {\k48}cho{\k43}u{\k52}se{\k46}n{\k54}ja
+Comment: 0,0:00:50.39,0:00:50.76,Sora,,0,0,0,karaoke,{\k0\rSora S}▲{\r} {\k37}OW!!
+Comment: 0,0:00:50.77,0:00:54.00,Alkaloid,,0,0,0,karaoke,{\k0\rUnit S}♥{\r} {\k52}shin{\k32}ka {\k17}wo {\k12}to{\k23}me{\k34}ru{\k23}na {\k22}E{\k23}VERY{\k26}BO{\k20}DY {\k39}KNOWS
+Comment: 0,0:00:54.06,0:00:57.47,Alkaloid,,0,0,0,karaoke,{\k0\rUnit S}♥{\r} {\k27}ka{\k21}ku{\k23}go {\k24}ki{\k20}me{\k24}ta{\k21}ra {\k26}tsu{\k26}ne {\k21}ni {\k25}FIGH{\k21}TING {\k62}POSE
+Comment: 0,0:00:58.22,0:01:01.33,Hiiro,,0,0,0,karaoke,{\k0\rHiiro S}♠{\r} {\k42}yuu{\k37}chou {\k13}ni {\k12}ka{\k24}ma{\k36}e{\k21}ru {\k24}ou{\k21}ja {\k26}zu{\k21}ra {\k34}wa
+Comment: 0,0:01:01.42,0:01:05.56,Aira,,0,0,0,karaoke,{\k0\rAira S}♥{\r} {\k27}hya{\k24}ku{\k42}nen {\k23}ha{\k28}ya{\k17}i {\k24}tsu{\k27}ma{\k23}ri {\k21}i{\k24}ki{\k25}te{\k22}ru {\k24}ka{\k22}gi{\k23}ri {\k18}wa
+Comment: 0,0:01:05.58,0:01:06.03,Alkaloid,,0,0,0,karaoke,{\k0\rUnit S}♥{\r} {\k45}FIGHT!!
+Comment: 0,0:01:06.05,0:01:07.14,Natsume,,0,0,0,karaoke,{\k0\rNatsume S}♪{\r} {\k21}nan{\k14}do {\k14}me {\k14}U{\k18}P{\k28}DATE
+Comment: 0,0:01:07.14,0:01:09.26,Natsume,,0,0,0,karaoke,{\k0\rNatsume S}♪{\r} {\k10}i{\k9}shi{\k14}ki {\k11}ka{\k12}ku{\k23}mei {\k10}ka{\k12}sa{\k24}ne {\k33}te{\k36}kun{\k18}da
+Comment: 0,0:01:09.73,0:01:11.15,Natsume,,0,0,0,karaoke,{\k0\rNatsume S}♪{\r} {\k25}sei{\k24}chou {\k13}to{\k22}man{\k34}nai{\k24}ze
+Comment: 0,0:01:11.15,0:01:12.98,Sora,,0,0,0,karaoke,{\k0\rSora S}▲{\r} {\k24}o{\k20}do{\k24}ro{\k26}ke {\k22}to{\k24}do{\k21}ro{\k22}ke
+Comment: 0,0:01:13.47,0:01:16.38,Tsumugi,,0,0,0,karaoke,{\k0\rTsumugi Symbol}♫{\r} {\k24}gen{\k22}kai {\k8}shi{\k26}ra{\k34}zu {\k23}no {\k47}ban{\k25}ku{\k22}ru{\k21}wa{\k24}se {\k15}de
+Comment: 0,0:01:16.45,0:01:19.81,Switch,,0,0,0,karaoke,{\k0\rUnit S}♫{\r} {\k22}shi{\k49}jou {\k43}sai{\k37}kyou {\k36}zut{\k22}to {\k24}E{\k24}VO{\k22}LU{\k21}~{\k36}TION
+Comment: 0,0:01:20.18,0:01:23.51,Tsumugi,,0,0,0,karaoke,{\k0\rTsumugi Symbol}♫{\r} {\k20}I{\k21}N{\k27}F{\k18}LATE {\k27}ka{\k21}so{\k15}ku {\k35}su{\k20}ru {\k24}o{\k21}re{\k23}ta{\k25}chi {\k36}de
+Comment: 0,0:01:23.81,0:01:27.22,Aira,,0,0,0,karaoke,{\k0\rAira S}♥{\r} {\k25}ta{\k23}ta{\k24}ki {\k20}da{\k26}shi {\k22}tsu{\k25}zu{\k26}ke{\k21}ru {\k44}shin{\k24}ki{\k21}ro{\k40}ku
+Comment: 0,0:01:27.27,0:01:31.46,Duo Backing,hiiro natsume,0,0,0,karaoke,{\k0\rHiiro S}♠{\r} {\k0\rNatsume S}♪{\r} {\k50}UH-{\kf369}U
+Comment: 0,0:01:27.51,0:01:31.66,Duo,sora mayoi tatsumi,0,0,0,karaoke,{\k0\rMayoi S}♣{\r} {\k0\rTatsumi S}♦{\r} {\k0\rSora S}▲{\r} {\k26}o{\k20}mo{\k24}i {\k25}e{\k20}ga{\k29}ke{\k17}ru {\k21}ki{\k29}ta{\k19}i {\k21}no {\k28}sa{\k25}ki {\k21}no {\k24}sa{\k25}ki {\k24}ma{\k17}de
+Comment: 0,0:01:32.07,0:01:34.55,Sample KM [Up],,0,0,0,karaoke,{\k29}tsu{\k15}re{\k20}te {\k37}kun{\k20}da {\k28}ji{\k18}bu{\k23}n {\k22}ji{\k36}shin
+Comment: 0,0:01:34.59,0:01:38.81,Duo Backing,aira tsumugi,0,0,0,karaoke,{\k0\rAira S}♥{\r} {\k0\rTsumugi Symbol}♫{\r} {\k51}OH {\kf371}YEAH
+Comment: 0,0:01:35.10,0:01:38.27,Switch,natsume sora,0,0,0,karaoke,{\k0\rSora S}▲{\r} {\k0\rNatsume S}♪{\r} {\k50}shin{\k32}ka {\k17}wo {\k12}to{\k23}me{\k34}ru{\k23}na {\k22}E{\k23}VERY{\k26}BO{\k20}DY {\k35}KNOWS
+Comment: 0,0:01:38.33,0:01:41.64,Switch,,0,0,0,karaoke,{\k0\rUnit S}♫{\r} {\k29}ka{\k21}ku{\k23}go {\k24}ki{\k20}me{\k24}ta{\k21}ra {\k26}tsu{\k26}ne {\k21}ni {\k25}FIGH{\k22}TING {\k49}POSE
+Comment: 0,0:01:42.53,0:01:45.63,Natsume,,0,0,0,karaoke,{\k0\rNatsume S}♪{\r} {\k42}yuu{\k37}chou {\k13}ni {\k12}ka{\k24}ma{\k36}e{\k21}ru {\k24}ou{\k21}ja {\k26}zu{\k21}ra {\k33}wa
+Comment: 0,0:01:45.74,0:01:49.88,Tsumugi,,0,0,0,karaoke,{\k0\rTsumugi Symbol}♫{\r} {\k27}hya{\k24}ku{\k42}nen {\k23}ha{\k28}ya{\k17}i {\k24}tsu{\k27}ma{\k23}ri {\k21}i{\k24}ki{\k25}te{\k22}ru {\k24}ka{\k22}gi{\k23}ri {\k18}wa
+Comment: 0,0:01:49.90,0:01:50.34,Switch,,0,0,0,karaoke,{\k0\rUnit S}♫{\r} {\k44}FIGHT!!
+Comment: 0,0:01:50.38,0:01:51.46,Hiiro,,0,0,0,karaoke,{\k0\rHiiro S}♠{\r} {\k21}nan{\k14}do {\k11}me {\k15}U{\k20}P{\k27}DATE
+Comment: 0,0:01:51.48,0:01:53.63,Hiiro,,0,0,0,karaoke,{\k0\rHiiro S}♠{\r} {\k6}i{\k9}shi{\k14}ki {\k11}ka{\k12}ku{\k23}mei {\k10}ka{\k12}sa{\k24}ne {\k33}te{\k36}kun{\k25}da
+Comment: 0,0:01:54.03,0:01:55.42,Hiiro,,0,0,0,karaoke,{\k0\rHiiro S}♠{\r} {\k25}sei{\k24}chou {\k13}to{\k22}man{\k15}na{\k19}i{\k21}ze
+Comment: 0,0:01:55.43,0:01:57.27,Alkaloid,tatsumi mayoi,0,0,0,karaoke,{\k0\rMayoi S}♣{\r} {\k0\rTatsumi S}♦{\r} {\k27}o{\k23}do{\k21}ro{\k25}ke {\k24}to{\k23}do{\k22}ro{\k19}ke
+Comment: 0,0:01:57.77,0:02:00.74,Aira,,0,0,0,karaoke,{\k0\rAira S}♥{\r} {\k24}gen{\k22}kai {\k14}shi{\k20}ra{\k36}zu {\k21}no {\k47}ban{\k25}ku{\k22}ru{\k21}wa{\k24}se {\k21}de
+Comment: 0,0:02:00.71,0:02:02.82,Alkaloid,,0,0,0,karaoke,{\k0\rUnit S}♥{\r} {\k28}shi{\k47}jou {\k46}sai{\k35}kyou {\k33}zut{\k22}to
+Comment: 0,0:02:02.82,0:02:05.15,Alkaloid,,0,0,0,karaoke,{\k0\rUnit S}♥{\r} {\k26}NE{\k21}VER {\k24}GIVE {\k22}UP {\k26}E{\k25}VO{\k41}LU{\k48}TION
+Comment: 0,0:02:06.97,0:02:10.18,Sample KM [Up],,0,0,0,karaoke,{\k46}We {\k47}just {\k37}keep {\k10}on {\k13}mo{\k33}ving {\k48}up! {\k13}Mo{\k31}ving {\k43}up!
+Comment: 0,0:02:10.66,0:02:13.86,Sample KM [Up],,0,0,0,karaoke,{\k49}We {\k46}just {\k34}keep {\k12}on {\k19}gro{\k27}wing {\k43}up! {\k21}Gro{\k28}wing {\k41}up!
+Comment: 0,0:02:14.35,0:02:17.55,Sample KM [Up],,0,0,0,karaoke,{\k48}We {\k47}just {\k34}keep {\k13}on {\k17}drea{\k28}ming {\k45}up! {\k16}Drea{\k29}ming {\k43}up!
+Comment: 0,0:02:17.30,0:02:19.91,Duo,aira tsumugi,0,0,0,karaoke,{\k0\rAira S}♥{\r} {\k0\rTsumugi Symbol}♫{\r} {\k29}shi{\k47}jou {\k25}sa{\k22}i{\k46}kyou {\k44}zut{\k48}to
+Comment: 0,0:02:20.09,0:02:21.83,Duo,aira tsumugi,0,0,0,karaoke,{\k0\rAira S}♥{\r} {\k0\rTsumugi Symbol}♫{\r} {\k30}NE{\k25}VER {\k22}GIVE {\k22}UP {\k21}de {\k54}FIGHT!!
+Dialogue: 0,0:00:01.47,0:00:06.72,Tsumugi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTsumugi Symbol}♫{\r} {\k47}ya{\k47}bait{\k34}te{\k12}ba {\k30}jin{\k26}sei {\k11}ma{\k15}sa{\k11}ka {\k23}HAR{\k21}D {\k24}MO{\k23}DE {\k25}ka{\k21}ku{\k26}te{\k19}i?
+Dialogue: 0,0:00:05.62,0:00:08.58,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNatsume S}♪{\r} {\k49}at{\k33}to{\k13}i{\k33}u {\k25}ma{\k14}tsu{\k9}n{\k10}da
+Dialogue: 0,0:00:07.48,0:00:09.97,Sora,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSora S}▲{\r} {\k14}wa{\k11}ke{\k21}nai {\k13}wa{\k11}ke{\k19}nai {\k14}wa{\k13}ke{\k23}nai!
+Dialogue: 0,0:00:08.78,0:00:11.93,Aira,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rAira S}♥{\r} {\k53}jaa {\k47}gyak{\k36}kyou {\k13}no {\k33}yuu{\k23}sha
+Dialogue: 0,0:00:10.83,0:00:14.10,Aira,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rAira S}♥{\r} {\k9}mo{\k10}ya{\k7}se {\k34}HEAR{\k20}T {\k23}no {\k25}ka{\k24}ku{\k21}me{\k23}i{\k21}ji
+Dialogue: 0,0:00:13.00,0:00:15.68,Hiiro,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHiiro S}♠{\r} {\k48}mat{\k32}ta {\k15}na{\k36}shi {\k27}de!
+Dialogue: 0,0:00:14.58,0:00:16.41,Duo Backing,aira tsumugi,0,0,0,fx,{\k90\fad(300,200)}{\k0\rAira S}♥{\r} {\k0\rTsumugi Symbol}♫{\r} {\k26}HERE {\k22}WE {\k25}GO!!
+Dialogue: 0,0:00:14.86,0:00:17.41,Alkaloid,tatsumi mayoi,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMayoi S}♣{\r} {\k0\rTatsumi S}♦{\r} {\k12}ma{\k10}ke{\k26}nai {\k11}ma{\k11}ke{\k22}nai {\k13}ma{\k13}ke{\k27}nai!
+Dialogue: 0,0:00:17.17,0:00:19.15,Mayoi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMayoi S}♣{\r} {\k19}tei{\k15}shi {\k12}wa {\k22}tai{\k20}ka?
+Dialogue: 0,0:00:18.11,0:00:21.72,Mayoi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMayoi S}♣{\r} {\k11}ya{\k11}sa{\k22}shii {\k10}ki{\k10}bi{\k25}shii {\k14}se{\k12}ka{\k9}i {\k14}no {\k21}an{\k13}mo{\k13}ku {\k45}RU{\k21}LE
+Dialogue: 0,0:00:20.87,0:00:23.31,Hiiro,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHiiro S}♠{\r} {\k11}a{\k10}to{\k13}da{\k9}shi {\k25}han{\k24}pa{\k42}nai
+Dialogue: 0,0:00:22.02,0:00:25.53,Aira,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rAira S}♥{\r} {\k23}it{\k47}toi{\k23}te {\k22}yo {\k46}TEA{\k43}CHER {\k37}EY
+Dialogue: 0,0:00:24.55,0:00:27.49,Tatsumi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTatsumi S}♦{\r} {\k22}dou {\k14}ni {\k11}ka{\k21}kou {\k12}ni {\k13}ka{\k14}na {\k22}jin {\k12}da {\k43}STYLE
+Dialogue: 0,0:00:26.39,0:00:29.34,Tatsumi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTatsumi S}♦{\r} {\k14}ko{\k11}re {\k14}ga {\k10}o{\k11}re {\k21}dat{\k9}te {\k27}jik{\k21}kan{\k12}shi{\k35}tai
+Dialogue: 0,0:00:28.25,0:00:30.74,Hiiro,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHiiro S}♠{\r} {\k18}ba{\k11}ku {\k18}a{\k17}ga{\k11}ru {\k15}wa {\k17}ki{\k32}tai
+Dialogue: 0,0:00:29.58,0:00:32.50,Aira,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rAira S}♥{\r} {\k49}nin{\k46}gen {\k28}mi{\k18}de{\k41}sho?
+Dialogue: 0,0:00:31.22,0:00:35.79,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNatsume S}♪{\r} {\k28}wa{\k43}ga {\k23}mo{\k46}no {\k24}ga{\k23}o{\k24}de {\k19}i{\k26}ki{\k47}you{\k44}you
+Dialogue: 0,0:00:34.94,0:00:39.66,Sora,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSora S}▲{\r} {\k22}a{\k48}gat{\k21}ta {\k46}RING {\k27}te{\k18}n{\k24}de {\k24}ha {\k25}ga {\k18}ta{\k28}ta{\k61}nai
+Dialogue: 0,0:00:38.64,0:00:43.19,Tsumugi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTsumugi Symbol}♫{\r} {\k23}tas{\k45}sei{\k24}ka{\k45}n{\k24}te {\k19}kon{\k25}na {\k24}ha{\k24}ka{\k24}na{\k23}i {\k45}no
+Dialogue: 0,0:00:42.29,0:00:47.90,Tsumugi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTsumugi Symbol}♫{\r} {\k24}ki{\k47}nou {\k24}wa {\k43}shou{\k28}ja {\k23}ma{\k19}da {\k48}cho{\k43}u{\k52}se{\k46}n{\k54}ja
+Dialogue: 0,0:00:49.49,0:00:50.96,Sora,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSora S}▲{\r} {\k37}OW!!
+Dialogue: 0,0:00:49.87,0:00:54.20,Alkaloid,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rUnit S}♥{\r} {\k52}shin{\k32}ka {\k17}wo {\k12}to{\k23}me{\k34}ru{\k23}na {\k22}E{\k23}VERY{\k26}BO{\k20}DY {\k39}KNOWS
+Dialogue: 0,0:00:53.16,0:00:57.67,Alkaloid,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rUnit S}♥{\r} {\k27}ka{\k21}ku{\k23}go {\k24}ki{\k20}me{\k24}ta{\k21}ra {\k26}tsu{\k26}ne {\k21}ni {\k25}FIGH{\k21}TING {\k62}POSE
+Dialogue: 0,0:00:57.32,0:01:01.53,Hiiro,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHiiro S}♠{\r} {\k42}yuu{\k37}chou {\k13}ni {\k12}ka{\k24}ma{\k36}e{\k21}ru {\k24}ou{\k21}ja {\k26}zu{\k21}ra {\k34}wa
+Dialogue: 0,0:01:00.52,0:01:05.76,Aira,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rAira S}♥{\r} {\k27}hya{\k24}ku{\k42}nen {\k23}ha{\k28}ya{\k17}i {\k24}tsu{\k27}ma{\k23}ri {\k21}i{\k24}ki{\k25}te{\k22}ru {\k24}ka{\k22}gi{\k23}ri {\k18}wa
+Dialogue: 0,0:01:04.68,0:01:06.23,Alkaloid,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rUnit S}♥{\r} {\k45}FIGHT!!
+Dialogue: 0,0:01:05.15,0:01:07.34,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNatsume S}♪{\r} {\k21}nan{\k14}do {\k14}me {\k14}U{\k18}P{\k28}DATE
+Dialogue: 0,0:01:06.24,0:01:09.46,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNatsume S}♪{\r} {\k10}i{\k9}shi{\k14}ki {\k11}ka{\k12}ku{\k23}mei {\k10}ka{\k12}sa{\k24}ne {\k33}te{\k36}kun{\k18}da
+Dialogue: 0,0:01:08.83,0:01:11.35,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNatsume S}♪{\r} {\k25}sei{\k24}chou {\k13}to{\k22}man{\k34}nai{\k24}ze
+Dialogue: 0,0:01:10.25,0:01:13.18,Sora,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSora S}▲{\r} {\k24}o{\k20}do{\k24}ro{\k26}ke {\k22}to{\k24}do{\k21}ro{\k22}ke
+Dialogue: 0,0:01:12.57,0:01:16.58,Tsumugi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTsumugi Symbol}♫{\r} {\k24}gen{\k22}kai {\k8}shi{\k26}ra{\k34}zu {\k23}no {\k47}ban{\k25}ku{\k22}ru{\k21}wa{\k24}se {\k15}de
+Dialogue: 0,0:01:15.55,0:01:20.01,Switch,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rUnit S}♫{\r} {\k22}shi{\k49}jou {\k43}sai{\k37}kyou {\k36}zut{\k22}to {\k24}E{\k24}VO{\k22}LU{\k21}~{\k36}TION
+Dialogue: 0,0:01:19.28,0:01:23.71,Tsumugi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTsumugi Symbol}♫{\r} {\k20}I{\k21}N{\k27}F{\k18}LATE {\k27}ka{\k21}so{\k15}ku {\k35}su{\k20}ru {\k24}o{\k21}re{\k23}ta{\k25}chi {\k36}de
+Dialogue: 0,0:01:22.91,0:01:27.42,Aira,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rAira S}♥{\r} {\k25}ta{\k23}ta{\k24}ki {\k20}da{\k26}shi {\k22}tsu{\k25}zu{\k26}ke{\k21}ru {\k44}shin{\k24}ki{\k21}ro{\k40}ku
+Dialogue: 0,0:01:26.37,0:01:31.66,Duo Backing,hiiro natsume,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHiiro S}♠{\r} {\k0\rNatsume S}♪{\r} {\k50}UH-{\kf369}U
+Dialogue: 0,0:01:26.61,0:01:31.86,Duo,sora mayoi tatsumi,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMayoi S}♣{\r} {\k0\rTatsumi S}♦{\r} {\k0\rSora S}▲{\r} {\k26}o{\k20}mo{\k24}i {\k25}e{\k20}ga{\k29}ke{\k17}ru {\k21}ki{\k29}ta{\k19}i {\k21}no {\k28}sa{\k25}ki {\k21}no {\k24}sa{\k25}ki {\k24}ma{\k17}de
+Dialogue: 0,0:01:31.17,0:01:34.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k29}tsu{\k15}re{\k20}te {\k37}kun{\k20}da {\k28}ji{\k18}bu{\k23}n {\k22}ji{\k36}shin
+Dialogue: 0,0:01:33.69,0:01:39.01,Duo Backing,aira tsumugi,0,0,0,fx,{\k90\fad(300,200)}{\k0\rAira S}♥{\r} {\k0\rTsumugi Symbol}♫{\r} {\k51}OH {\kf371}YEAH
+Dialogue: 0,0:01:34.20,0:01:38.47,Switch,natsume sora,0,0,0,fx,{\k90\fad(300,200)}{\k0\rSora S}▲{\r} {\k0\rNatsume S}♪{\r} {\k50}shin{\k32}ka {\k17}wo {\k12}to{\k23}me{\k34}ru{\k23}na {\k22}E{\k23}VERY{\k26}BO{\k20}DY {\k35}KNOWS
+Dialogue: 0,0:01:37.43,0:01:41.84,Switch,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rUnit S}♫{\r} {\k29}ka{\k21}ku{\k23}go {\k24}ki{\k20}me{\k24}ta{\k21}ra {\k26}tsu{\k26}ne {\k21}ni {\k25}FIGH{\k22}TING {\k49}POSE
+Dialogue: 0,0:01:41.63,0:01:45.83,Natsume,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rNatsume S}♪{\r} {\k42}yuu{\k37}chou {\k13}ni {\k12}ka{\k24}ma{\k36}e{\k21}ru {\k24}ou{\k21}ja {\k26}zu{\k21}ra {\k33}wa
+Dialogue: 0,0:01:44.84,0:01:50.08,Tsumugi,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rTsumugi Symbol}♫{\r} {\k27}hya{\k24}ku{\k42}nen {\k23}ha{\k28}ya{\k17}i {\k24}tsu{\k27}ma{\k23}ri {\k21}i{\k24}ki{\k25}te{\k22}ru {\k24}ka{\k22}gi{\k23}ri {\k18}wa
+Dialogue: 0,0:01:49.00,0:01:50.54,Switch,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rUnit S}♫{\r} {\k44}FIGHT!!
+Dialogue: 0,0:01:49.48,0:01:51.66,Hiiro,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHiiro S}♠{\r} {\k21}nan{\k14}do {\k11}me {\k15}U{\k20}P{\k27}DATE
+Dialogue: 0,0:01:50.58,0:01:53.83,Hiiro,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHiiro S}♠{\r} {\k6}i{\k9}shi{\k14}ki {\k11}ka{\k12}ku{\k23}mei {\k10}ka{\k12}sa{\k24}ne {\k33}te{\k36}kun{\k25}da
+Dialogue: 0,0:01:53.13,0:01:55.62,Hiiro,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rHiiro S}♠{\r} {\k25}sei{\k24}chou {\k13}to{\k22}man{\k15}na{\k19}i{\k21}ze
+Dialogue: 0,0:01:54.53,0:01:57.47,Alkaloid,tatsumi mayoi,0,0,0,fx,{\k90\fad(300,200)}{\k0\rMayoi S}♣{\r} {\k0\rTatsumi S}♦{\r} {\k27}o{\k23}do{\k21}ro{\k25}ke {\k24}to{\k23}do{\k22}ro{\k19}ke
+Dialogue: 0,0:01:56.87,0:02:00.94,Aira,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rAira S}♥{\r} {\k24}gen{\k22}kai {\k14}shi{\k20}ra{\k36}zu {\k21}no {\k47}ban{\k25}ku{\k22}ru{\k21}wa{\k24}se {\k21}de
+Dialogue: 0,0:01:59.81,0:02:03.02,Alkaloid,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rUnit S}♥{\r} {\k28}shi{\k47}jou {\k46}sai{\k35}kyou {\k33}zut{\k22}to
+Dialogue: 0,0:02:01.92,0:02:05.35,Alkaloid,,0,0,0,fx,{\k90\fad(300,200)}{\k0\rUnit S}♥{\r} {\k26}NE{\k21}VER {\k24}GIVE {\k22}UP {\k26}E{\k25}VO{\k41}LU{\k48}TION
+Dialogue: 0,0:02:06.07,0:02:10.38,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k46}We {\k47}just {\k37}keep {\k10}on {\k13}mo{\k33}ving {\k48}up! {\k13}Mo{\k31}ving {\k43}up!
+Dialogue: 0,0:02:09.76,0:02:14.06,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k49}We {\k46}just {\k34}keep {\k12}on {\k19}gro{\k27}wing {\k43}up! {\k21}Gro{\k28}wing {\k41}up!
+Dialogue: 0,0:02:13.45,0:02:17.75,Sample KM [Up],,0,0,0,fx,{\k90\fad(300,200)}{\k48}We {\k47}just {\k34}keep {\k13}on {\k17}drea{\k28}ming {\k45}up! {\k16}Drea{\k29}ming {\k43}up!
+Dialogue: 0,0:02:16.40,0:02:20.11,Duo,aira tsumugi,0,0,0,fx,{\k90\fad(300,200)}{\k0\rAira S}♥{\r} {\k0\rTsumugi Symbol}♫{\r} {\k29}shi{\k47}jou {\k25}sa{\k22}i{\k46}kyou {\k44}zut{\k48}to
+Dialogue: 0,0:02:19.19,0:02:22.03,Duo,aira tsumugi,0,0,0,fx,{\k90\fad(300,200)}{\k0\rAira S}♥{\r} {\k0\rTsumugi Symbol}♫{\r} {\k30}NE{\k25}VER {\k22}GIVE {\k22}UP {\k21}de {\k54}FIGHT!!
