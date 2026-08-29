@@ -1,0 +1,106 @@
+﻿[Script Info]
+Title: ONE OF US
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 0
+PlayResY: 0
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: IvannAkiyama
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Ran,Arial,24,&H00FFFFFF,&H002200EE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Moca,Arial,24,&H00FFFFFF,&H00AACC00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Himari,Arial,24,&H00FFFFFF,&H009999FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tomoe,Arial,24,&H00FFFFFF,&H00765DAA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tsugumi,Arial,24,&H00FFFFFF,&H0035E0FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Afterglow,Arial,24,&H00FFFFFF,&H004433EE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Afterglow Choir,Arial,24,&H00FFFFFF,&H004433EE,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,80,1
+Style: Ran Symbol,Arial,24,&H002200EE,&H002200EE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Moca Symbol,Arial,24,&H00AACC00,&H00AACC00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Himari Symbol,Arial,24,&H009999FF,&H009999FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tomoe Symbol,Arial,24,&H00765DAA,&H00765DAA,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Tsugumi Symbol,Arial,24,&H0035E0FF,&H0035E0FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Ran,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rRan Symbol\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Moca,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rMoca Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Himari,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rHimari Symbol\\fs30}♦{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Tomoe,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rTomoe Symbol\\fs30}♣{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Tsugumi,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rTsugumi Symbol\\fs30}♪{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Afterglow,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Afterglow Choir,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{{\fs22}{\c&H4433EE&}Afterglow{\c}{\fs} \N\N{\c&H2200EE&}♥ Ran{\c} | {\c&HAACC00&}♠ Moca{\c} | {\c&H9999FF&}♦ Himari{\c} | {\c&H765DAA&}♣ Tomoe{\c} | {\c&H35E0FF&}♪ Tsugumi
+Comment: 0,0:00:08.33,0:00:09.54,Afterglow,,0,0,0,karaoke,{\k30}THREE {\k28}TWO {\k28}ONE {\k35}GO!!!
+Comment: 0,0:00:20.91,0:00:25.07,Ran,,0,0,0,karaoke,{\k44}u{\k19}ta{\k38}i {\k15}tsu{\k44}zu{\k41}ke{\k31}te {\k42}ki{\k42}ta {\k28}ka{\k29}ko{\k14}~ {\k29}ga
+Comment: 0,0:00:25.50,0:00:29.55,Ran,,0,0,0,karaoke,{\k42}ya{\k16}sa{\k40}shi{\k17}sa {\k43}tsu{\k41}re{\k27}te {\k31}ki{\k28}te {\k29}ku{\k29}re{\k62}ta
+Comment: 0,0:00:30.07,0:00:34.02,Ran,,0,0,0,karaoke,{\k43}na{\k42}ni {\k28}ga {\k44}at{\k43}te {\k27}mo {\k28}a{\k15}ta{\k28}shi{\k16}ta{\k15}chi {\k66}wo
+Comment: 0,0:00:34.62,0:00:38.89,Ran,,0,0,0,karaoke,{\k43}shin{\k44}ji {\k28}tsu{\k29}zu{\k14}ke{\k45}te {\k27}ku{\k28}re{\k30}ru {\k14}hi{\k29}to {\k42}ga {\k15}i{\k39}ru
+Comment: 0,0:00:39.36,0:00:41.60,Ran,,0,0,0,karaoke,{\k14}i{\k15}tsu {\k12}de {\k25}mo {\k20}O{\k12}K {\k24}k{\k22}iai {\k15}wa {\k26}juu{\k39}bun
+Comment: 0,0:00:41.78,0:00:43.81,Afterglow Choir,,0,0,0,karaoke,{\k15}ko{\k28}ko{\k14}ro {\k15}ka{\k13}ra {\k16}ta{\k28}git{\k15}ta {\k28}kan{\k31}jou
+Comment: 0,0:00:43.93,0:00:46.18,Ran,,0,0,0,karaoke,{\k13}u{\k16}wa{\k13}sa {\k21}nan{\k23}te {\k16}ke{\k18}chi{\k15}ra{\k8}shi{\k15}te {\k27}SING {\k40}IT
+Comment: 0,0:00:46.34,0:00:48.39,Afterglow Choir,,0,0,0,karaoke,{\k16}ko{\k28}ko{\k13}ro {\k14}ka{\k15}ra {\k15}ta{\k29}git{\k13}ta {\k29}kan{\k33}jou
+Comment: 0,0:00:48.48,0:00:49.30,Ran,,0,0,0,karaoke,{\k17}tsu{\k12}yo{\k53}ku
+Comment: 0,0:00:48.90,0:00:49.48,Afterglow Choir,,0,0,0,karaoke,{\k29}FACE {\k29}OUT
+Comment: 0,0:00:49.64,0:00:50.36,Ran,,0,0,0,karaoke,{\k20}a{\k8}tsu{\k44}ku
+Comment: 0,0:00:50.04,0:00:50.61,Afterglow Choir,,0,0,0,karaoke,{\k28}FACE {\k29}OUT
+Comment: 0,0:00:50.76,0:00:52.70,Ran,,0,0,0,karaoke,{\k16}ki{\k16}mi {\k13}he {\k31}to {\k14}u{\k14}ta {\k27}wo {\k15}o{\k14}ku{\k34}ru
+Comment: 0,0:00:53.06,0:00:53.79,Ran,,0,0,0,karaoke,{\k14}tsu{\k14}yo{\k45}ku
+Comment: 0,0:00:53.46,0:00:54.05,Afterglow Choir,,0,0,0,karaoke,{\k29}FACE {\k30}OUT
+Comment: 0,0:00:54.21,0:00:54.93,Ran,,0,0,0,karaoke,{\k19}a{\k9}tsu{\k44}ku
+Comment: 0,0:00:54.63,0:00:55.22,Afterglow Choir,,0,0,0,karaoke,{\k27}FACE {\k32}OUT
+Comment: 0,0:00:55.35,0:00:57.41,Ran,,0,0,0,karaoke,{\k28}hon{\k14}ne {\k30}da{\k16}ke {\k27}de {\k13}i{\k29}ki{\k49}you
+Comment: 0,0:00:57.77,0:01:01.55,Ran,,0,0,0,karaoke,{\k22}o{\k8}chi{\k19}ko{\k24}n{\k42}de{\k28}cha {\k31}so{\k27}ra {\k32}wa {\k14}mi{\k38}e{\k16}na{\k14}i {\k32}ka{\k31}ra
+Comment: 0,0:01:01.78,0:01:06.14,Ran,,0,0,0,karaoke,{\k29}don{\k42}na {\k44}sen{\k28}jou {\k44}dat{\k41}te {\k29}no{\k44}zo{\k42}mu {\k27}to{\k15}ko{\k27}ro {\k24}sa
+Comment: 0,0:01:06.35,0:01:10.63,Ran,,0,0,0,karaoke,{\k27}PIN{\k45}CH {\k40}ko{\k29}so {\k43}CHAN{\k44}CE {\k27}da {\k17}ko{\k27}wa{\k30}ku{\k29}na{\k70}i
+Comment: 0,0:01:10.93,0:01:15.15,Ran,,0,0,0,karaoke,{\k28}o{\k43}na{\k43}ji {\k28}yuu{\k43}ya{\k43}ke {\k28}wo {\k44}mi{\k43}tsu{\k28}me{\k51}ter'
+Comment: 0,0:01:15.49,0:01:20.25,Ran,,0,0,0,karaoke,{\k29}ki{\k41}mi {\k44}ga {\k28}so{\k44}ba {\k42}ni {\k17}i{\k87}ru {\k12}ka{\k14}ra {\kf118}sa
+Comment: 0,0:01:20.63,0:01:22.71,Moca,[Multi|Moca|Moca|Ran],0,0,0,karaoke,{\k15}to{\k12}mo {\k30}ni {\rRan}{\k15}tsu{\k13}na{\k30}gou{\r} {\k15}a{\k12}ta{\k16}shi{\k13}ta{\k17}chi {\k20}to
+Comment: 0,0:01:22.92,0:01:25.02,Afterglow,,0,0,0,karaoke,{\k16}me{\k27}ra{\k15}me{\k13}ra {\k15}ta{\k14}ma{\k28}shii {\k14}ka{\k30}za{\k38}sh'te
+Comment: 0,0:01:25.20,0:01:27.28,Himari,[Multi|Himari|Himari|Ran],0,0,0,karaoke,{\k15}to{\k13}mo {\k30}ni {\rRan}{\k12}me{\k15}za{\k30}sou{\r} {\k15}a{\k16}ta{\k12}shi{\k18}ta{\k10}chi {\k22}to
+Comment: 0,0:01:27.50,0:01:29.57,Afterglow,,0,0,0,karaoke,{\k16}me{\k27}ra{\k14}me{\k14}ra {\k15}ta{\k15}ma{\k27}shii {\k14}ka{\k29}za{\k36}sh'te
+Comment: 0,0:01:29.77,0:01:31.88,Tsugumi,[Multi|Tsugumi|Tsugumi|Ran],0,0,0,karaoke,{\k16}to{\k13}mo {\k29}ni {\rRan}{\k15}tsu{\k15}ku{\k28}rou{\r} {\k11}a{\k15}ta{\k16}shi{\k22}ta{\k9}chi {\k22}to
+Comment: 0,0:01:32.06,0:01:34.19,Afterglow,,0,0,0,karaoke,{\k16}me{\k26}ra{\k15}me{\k13}ra {\k16}ta{\k15}ma{\k28}shii {\k14}ka{\k29}za{\k41}sh'te
+Comment: 0,0:01:34.34,0:01:36.38,Tomoe,[Multi|Tomoe|Tomoe|Ran],0,0,0,karaoke,{\k16}to{\k16}mo {\k27}ni {\rRan}{\k12}wa{\k16}ra{\k29}ou{\r} {\k14}a{\k14}ta{\k15}shi{\k14}ta{\k15}chi {\k16}to
+Comment: 0,0:01:36.64,0:01:38.77,Afterglow,,0,0,0,karaoke,{\k15}me{\k28}ra{\k14}me{\k14}ra {\k15}ta{\k14}ma{\k29}shii {\k14}ka{\k28}za{\k42}sh'te
+Comment: 0,0:01:42.07,0:01:43.18,Afterglow,,0,0,0,karaoke,{\k27}THREE {\k28}TWO {\k29}ONE {\k27}GO!!!
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{{\fs22}{\c&H4433EE&}Afterglow{\c}{\fs} \N\N{\c&H2200EE&}♥ Ran{\c} | {\c&HAACC00&}♠ Moca{\c} | {\c&H9999FF&}♦ Himari{\c} | {\c&H765DAA&}♣ Tomoe{\c} | {\c&H35E0FF&}♪ Tsugumi
+Dialogue: 0,0:00:07.43,0:00:09.74,Afterglow,,0,0,0,fx,{\k90\fad(300,200)}{\k30}THREE {\k28}TWO {\k28}ONE {\k35}GO!!!
+Dialogue: 0,0:00:20.01,0:00:25.27,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k44}u{\k19}ta{\k38}i {\k15}tsu{\k44}zu{\k41}ke{\k31}te {\k42}ki{\k42}ta {\k28}ka{\k29}ko{\k14}~ {\k29}ga
+Dialogue: 0,0:00:24.60,0:00:29.75,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k42}ya{\k16}sa{\k40}shi{\k17}sa {\k43}tsu{\k41}re{\k27}te {\k31}ki{\k28}te {\k29}ku{\k29}re{\k62}ta
+Dialogue: 0,0:00:29.17,0:00:34.22,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k43}na{\k42}ni {\k28}ga {\k44}at{\k43}te {\k27}mo {\k28}a{\k15}ta{\k28}shi{\k16}ta{\k15}chi {\k66}wo
+Dialogue: 0,0:00:33.72,0:00:39.09,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k43}shin{\k44}ji {\k28}tsu{\k29}zu{\k14}ke{\k45}te {\k27}ku{\k28}re{\k30}ru {\k14}hi{\k29}to {\k42}ga {\k15}i{\k39}ru
+Dialogue: 0,0:00:38.46,0:00:41.80,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k14}i{\k15}tsu {\k12}de {\k25}mo {\k20}O{\k12}K {\k24}k{\k22}iai {\k15}wa {\k26}juu{\k39}bun
+Dialogue: 0,0:00:40.88,0:00:44.01,Afterglow Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k15}ko{\k28}ko{\k14}ro {\k15}ka{\k13}ra {\k16}ta{\k28}git{\k15}ta {\k28}kan{\k31}jou
+Dialogue: 0,0:00:43.03,0:00:46.38,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k13}u{\k16}wa{\k13}sa {\k21}nan{\k23}te {\k16}ke{\k18}chi{\k15}ra{\k8}shi{\k15}te {\k27}SING {\k40}IT
+Dialogue: 0,0:00:45.44,0:00:48.59,Afterglow Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k16}ko{\k28}ko{\k13}ro {\k14}ka{\k15}ra {\k15}ta{\k29}git{\k13}ta {\k29}kan{\k33}jou
+Dialogue: 0,0:00:47.58,0:00:49.50,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k17}tsu{\k12}yo{\k53}ku
+Dialogue: 0,0:00:48.00,0:00:49.68,Afterglow Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}FACE {\k29}OUT
+Dialogue: 0,0:00:48.74,0:00:50.56,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k20}a{\k8}tsu{\k44}ku
+Dialogue: 0,0:00:49.14,0:00:50.81,Afterglow Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k28}FACE {\k29}OUT
+Dialogue: 0,0:00:49.86,0:00:52.90,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k16}ki{\k16}mi {\k13}he {\k31}to {\k14}u{\k14}ta {\k27}wo {\k15}o{\k14}ku{\k34}ru
+Dialogue: 0,0:00:52.16,0:00:53.99,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k14}tsu{\k14}yo{\k45}ku
+Dialogue: 0,0:00:52.56,0:00:54.25,Afterglow Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k29}FACE {\k30}OUT
+Dialogue: 0,0:00:53.31,0:00:55.13,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k19}a{\k9}tsu{\k44}ku
+Dialogue: 0,0:00:53.73,0:00:55.42,Afterglow Choir,,0,0,0,fx,{\k90\fad(300,200)}{\k27}FACE {\k32}OUT
+Dialogue: 0,0:00:54.45,0:00:57.61,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k28}hon{\k14}ne {\k30}da{\k16}ke {\k27}de {\k13}i{\k29}ki{\k49}you
+Dialogue: 0,0:00:56.87,0:01:01.75,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k22}o{\k8}chi{\k19}ko{\k24}n{\k42}de{\k28}cha {\k31}so{\k27}ra {\k32}wa {\k14}mi{\k38}e{\k16}na{\k14}i {\k32}ka{\k31}ra
+Dialogue: 0,0:01:00.88,0:01:06.34,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k29}don{\k42}na {\k44}sen{\k28}jou {\k44}dat{\k41}te {\k29}no{\k44}zo{\k42}mu {\k27}to{\k15}ko{\k27}ro {\k24}sa
+Dialogue: 0,0:01:05.45,0:01:10.83,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k27}PIN{\k45}CH {\k40}ko{\k29}so {\k43}CHAN{\k44}CE {\k27}da {\k17}ko{\k27}wa{\k30}ku{\k29}na{\k70}i
+Dialogue: 0,0:01:10.03,0:01:15.35,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k28}o{\k43}na{\k43}ji {\k28}yuu{\k43}ya{\k43}ke {\k28}wo {\k44}mi{\k43}tsu{\k28}me{\k51}ter'
+Dialogue: 0,0:01:14.59,0:01:20.45,Ran,,0,0,0,fx,{\k90\fad(300,200)}{\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k29}ki{\k41}mi {\k44}ga {\k28}so{\k44}ba {\k42}ni {\k17}i{\k87}ru {\k12}ka{\k14}ra {\kf118}sa
+Dialogue: 0,0:01:19.73,0:01:22.91,Moca,,0,0,0,fx,{\k90\fad(300,200)}{\rMoca Symbol\fs30}♠{\r\fs\4a&HFF&} {\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k15}to{\k12}mo {\k30}ni {\rRan}{\k15}tsu{\k13}na{\k30}gou{\r} {\k15}a{\k12}ta{\k16}shi{\k13}ta{\k17}chi {\k20}to
+Dialogue: 0,0:01:22.02,0:01:25.22,Afterglow,,0,0,0,fx,{\k90\fad(300,200)}{\k16}me{\k27}ra{\k15}me{\k13}ra {\k15}ta{\k14}ma{\k28}shii {\k14}ka{\k30}za{\k38}sh'te
+Dialogue: 0,0:01:24.30,0:01:27.48,Himari,,0,0,0,fx,{\k90\fad(300,200)}{\rHimari Symbol\fs30}♦{\r\fs\4a&HFF&} {\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k15}to{\k13}mo {\k30}ni {\rRan}{\k12}me{\k15}za{\k30}sou{\r} {\k15}a{\k16}ta{\k12}shi{\k18}ta{\k10}chi {\k22}to
+Dialogue: 0,0:01:26.60,0:01:29.77,Afterglow,,0,0,0,fx,{\k90\fad(300,200)}{\k16}me{\k27}ra{\k14}me{\k14}ra {\k15}ta{\k15}ma{\k27}shii {\k14}ka{\k29}za{\k36}sh'te
+Dialogue: 0,0:01:28.87,0:01:32.08,Tsugumi,,0,0,0,fx,{\k90\fad(300,200)}{\rTsugumi Symbol\fs30}♪{\r\fs\4a&HFF&} {\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k16}to{\k13}mo {\k29}ni {\rRan}{\k15}tsu{\k15}ku{\k28}rou{\r} {\k11}a{\k15}ta{\k16}shi{\k22}ta{\k9}chi {\k22}to
+Dialogue: 0,0:01:31.16,0:01:34.39,Afterglow,,0,0,0,fx,{\k90\fad(300,200)}{\k16}me{\k26}ra{\k15}me{\k13}ra {\k16}ta{\k15}ma{\k28}shii {\k14}ka{\k29}za{\k41}sh'te
+Dialogue: 0,0:01:33.44,0:01:36.58,Tomoe,,0,0,0,fx,{\k90\fad(300,200)}{\rTomoe Symbol\fs30}♣{\r\fs\4a&HFF&} {\rRan Symbol\fs30}♥{\r\fs\4a&HFF&} {\k16}to{\k16}mo {\k27}ni {\rRan}{\k12}wa{\k16}ra{\k29}ou{\r} {\k14}a{\k14}ta{\k15}shi{\k14}ta{\k15}chi {\k16}to
+Dialogue: 0,0:01:35.74,0:01:38.97,Afterglow,,0,0,0,fx,{\k90\fad(300,200)}{\k15}me{\k28}ra{\k14}me{\k14}ra {\k15}ta{\k14}ma{\k29}shii {\k14}ka{\k28}za{\k42}sh'te
+Dialogue: 0,0:01:41.17,0:01:43.38,Afterglow,,0,0,0,fx,{\k90\fad(300,200)}{\k27}THREE {\k28}TWO {\k29}ONE {\k27}GO!!!
