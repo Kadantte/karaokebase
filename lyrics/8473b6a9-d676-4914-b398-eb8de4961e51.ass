@@ -1,0 +1,87 @@
+﻿[Script Info]
+Title: Komyu Chakka Fire!
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+Original Timing: ShinRan
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Yumemita,Arial,24,&H00FFFFFF,&H0000FF26,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,5,5,10,1
+Style: Ritsu,Arial,24,&H00FFFFFF,&H00C99077,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,5,5,10,1
+Style: Miyako,Arial,24,&H00FFFFFF,&H00E57DA5,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,5,5,10,1
+Style: Yumemita sans A,Arial,24,&H00FFFFFF,&H00FFED00,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,5,5,10,1
+Style: Arale,Arial,24,&H00FFFFFF,&H003CD6E4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,5,5,10,1
+Style: tuto,Arial,24,&H00FFFFFF,&H003CD6E4,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,4,5,5,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.08,0:00:02.36,Yumemita,,0,0,0,karaoke,{\k62}ONE {\k56}TWO {\k53}THREE {\k57}FIRE
+Comment: 0,0:00:02.36,0:00:06.78,Yumemita,,0,0,0,karaoke,{\k66}Q{\k68} AND {\k104}A {\k73}V{\k61}S {\k70}WHY?
+Comment: 0,0:00:07.11,0:00:09.32,Yumemita,,0,0,0,karaoke,{\k74}S{\k62}O{\k85}S
+Comment: 0,0:00:09.54,0:00:11.80,Arale,,0,0,0,karaoke,{\k32}ni{\k11}s{\k26}shi{\k10}n{\k17}ge{\k12}p{\k16}po {\k13}wa {\k18}PO{\k13}LY{\k12}RHY{\k17}TH{\k29}M
+Comment: 0,0:00:11.98,0:00:15.95,Yumemita sans A,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\c&HFFED00&}♠{\\r} "!
+Comment: 0,0:00:11.98,0:00:15.95,Yumemita,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\c&H00FF26&}♦{\\r} "!
+Comment: 0,0:00:11.98,0:00:15.95,Ritsu,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"♣ "!
+Comment: 0,0:00:11.98,0:00:15.95,Miyako,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"● "!
+Comment: 0,0:00:11.98,0:00:15.95,Arale,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\c&H42E6F5&}♥{\\r} "!
+Comment: 0,0:00:11.98,0:00:15.95,tuto,,0,0,0,template pre-line keeptags,
+Comment: 0,0:00:00.00,0:00:20.00,tuto,,0,0,0,karaoke,{\c&H42E6F5&}♥ Arale\N{\c&H00FF26&}♦ Yumemita\N{\c&HFFED00&} ♠ Yumemita ({\s1}Arale{\s0})
+Comment: 0,0:00:21.34,0:00:23.73,Arale,,0,0,0,karaoke,{\k26}RA{\k8}N{\k34}CH {\k31}sen {\k21}yen {\k23}wa {\k14}ta{\k18}ka{\k11}i {\k14}da{\k19}ro {\k20}ga
+Comment: 0,0:00:23.81,0:00:26.14,Arale,,0,0,0,karaoke,{\k13}ka{\k20}ki{\k28}n {\k10}i{\k16}chi {\k30}man {\k14}wa {\k12}ya{\k29}su{\k8}i {\k19}da{\k13}ro {\k21}ga
+Comment: 0,0:00:26.21,0:00:28.61,Arale,,0,0,0,karaoke,{\k18}na{\k6}n {\k20}CE{\k9}N{\k8}T' {\k24}na{\k6}n {\k28}FEE{\k19}T {\k12}na{\k30}n {\k15}M{\k15}I{\k30}LE
+Comment: 0,0:00:28.61,0:00:30.95,Arale,,0,0,0,karaoke,{\k14}mo{\k11}no{\k44}sa{\k21}shi {\k46}wo {\k16}ni{\k15}ra{\k9}mi{\k16}tsu{\k18}ke{\k24}ta
+Comment: 0,0:00:30.93,0:00:31.74,Yumemita,,0,0,0,karaoke,{\k35}Aa {\k46}mou
+Comment: 0,0:00:31.74,0:00:33.93,Arale,,0,0,0,karaoke,{\k14}na{\k16}ze {\k16}wa{\k16}ka{\k16}ra{\k45}nai {\k14}na{\k15}ze {\k16}to{\k12}do{\k18}ka{\k21}nai
+Comment: 0,0:00:33.99,0:00:35.86,Arale,,0,0,0,karaoke,{\k13}ko{\k20}ko{\k30}ro {\k15}fu{\k16}ku{\k27}ro{\k14}ko{\k15}u{\k37}ji
+Comment: 0,0:00:35.77,0:00:36.46,Yumemita,,0,0,0,karaoke,{\k31}I {\k38}KNOW
+Comment: 0,0:00:36.46,0:00:37.67,Arale,,0,0,0,karaoke,{\k19}so{\k19}re{\k17}de{\k16}mo {\k21}na{\k29}o {\k0}
+Comment: 0,0:00:37.76,0:00:38.73,Arale,,0,0,0,karaoke,{\k14}hi{\k14}to{\k12}ri {\k20}ki{\k14}ri {\k23}ja
+Comment: 0,0:00:38.81,0:00:40.61,Arale,,0,0,0,karaoke,{\k16}de{\k16}ki{\k15}na{\k13}i {\k12}ko{\k12}to {\k16}shi{\k19}ta{\k18}i {\k12}ka{\k31}ra
+Comment: 0,0:00:40.84,0:00:45.41,Arale,,0,0,0,karaoke,{\k50}ho{\k19}ha{\k43}ba {\k16}a{\k20}wa{\k31}se{\k54}te {\k15}e{\k36}ga{\k25}o {\k42}wo {\k18}ha{\k26}ri {\k15}tsu{\k17}ke{\k30}te
+Comment: 0,0:00:45.55,0:00:49.63,Arale,,0,0,0,karaoke,{\k17}ga{\k23}ma{\k8}n{\k30}shi{\k40}te {\k18}mu{\k31}ri {\k11}wo {\k18}shi{\k38}te {\k26}so{\k27}n{\k30}na {\k29}mo{\k27}n {\k35}ka?
+Comment: 0,0:00:49.27,0:00:53.80,Yumemita,,0,0,0,karaoke,{\k121}ONE {\k109}TWO {\k71}THREE {\k60}FOR {\k29}YOU {\k33}AND {\k30}ME
+Comment: 0,0:00:54.09,0:00:58.13,Arale,,0,0,0,karaoke,{\k30}a {\k27}i {\k37}u {\k29}A{\k19}B{\k41}C {\k13}da{\k16}ke {\k13}de {\k15}wa{\k22}ka{\k11}t{\k28}ta {\k19}ki{\k13}n' {\k20}na{\k12}t{\k39}te {\k0}
+Comment: 0,0:00:57.95,0:00:58.69,Yumemita sans A,,0,0,0,karaoke,{\k33}HEY {\k59}BOYS
+Comment: 0,0:00:58.51,0:01:03.48,Arale,,0,0,0,karaoke,{\k38}so{\k24}no {\k35}sa{\k27}ki {\k37}wa {\k25}ha{\k33}ru{\k28}ka{\k27} mu{\k42}ge{\k11}n {\k57}no {\k16}ta{\k42}bi{\k25}ji {\k30}yo
+Comment: 0,0:01:03.68,0:01:05.80,Arale,,0,0,0,karaoke,{\k28}ONE {\k24}TWO {\k32}THREE {\k27}FOR {\k37}YOU {\k32}AND {\k32}ME
+Comment: 0,0:01:05.80,0:01:07.81,Arale,,0,0,0,karaoke,{\k17}na{\k7}ra{\k31}shi{\k33}tsu{\k34}zu{\k28}ke{\k51}te {\k0}
+Comment: 0,0:01:07.56,0:01:08.46,Yumemita sans A,,0,0,0,karaoke,{\k27}HEY {\k63}GIRLS
+Comment: 0,0:01:08.18,0:01:11.82,Arale,,0,0,0,karaoke,{\k28}bu{\k34}tsu{\k21}ka{\k10}t{\k30}te {\k28}ma{\k28}ga{\k6}t{\k27}te {\k31}mo {\k15}o{\k13}n{\k42}ga{\k19}ku {\k44}wa
+Comment: 0,0:01:11.93,0:01:13.40,Arale,,0,0,0,karaoke,{\k39}ma{\k9}s{\k23}su{\k27}gu {\k48}sa
+Comment: 0,0:01:13.60,0:01:20.66,Arale,,0,0,0,karaoke,{\k27}u{\k34}chi {\k57}ni {\k19}hi{\k41}me{\k32}ta {\k57}ne{\k58}tsu {\k96}wa {\k25}te {\k36}wo {\k28}ni{\k22}gi{\k11}t{\k20}te {\k44}hi {\k24}ni {\k27}na{\k12}t{\k36}ta
+Comment: 0,0:01:21.51,0:01:26.01,Yumemita,,0,0,0,karaoke,{\k76}Q {\k60}AND {\k104}A {\k77}V{\k61}S {\k72}WHY?
+Comment: 0,0:01:26.26,0:01:28.16,Yumemita,,0,0,0,karaoke,{\k81}S{\k62}O{\k47}S
+Comment: 0,0:01:28.77,0:01:31.01,Arale,,0,0,0,karaoke,{\k23}ni{\k7}s{\k35}shi{\k9}n{\k17}ge{\k14}p{\k16}po {\k17}wa {\k12}PO{\k14}LY{\k16}RHY{\k16}TH{\k28}M
+Dialogue: 0,0:00:00.00,0:00:02.56,Yumemita,,0,0,0,fx,{\k8\fad(80,200)}{\c&H00FF26&}♦{\r} {\k62}ONE {\k56}TWO {\k53}THREE {\k57}FIRE
+Dialogue: 0,0:00:01.46,0:00:06.98,Yumemita,,0,0,0,fx,{\k90\fad(300,200)}{\c&H00FF26&}♦{\r} {\k66}Q{\k68} AND {\k104}A {\k73}V{\k61}S {\k70}WHY?
+Dialogue: 0,0:00:06.21,0:00:09.52,Yumemita,,0,0,0,fx,{\k90\fad(300,200)}{\c&H00FF26&}♦{\r} {\k74}S{\k62}O{\k85}S
+Dialogue: 0,0:00:08.64,0:00:12.00,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k32}ni{\k11}s{\k26}shi{\k10}n{\k17}ge{\k12}p{\k16}po {\k13}wa {\k18}PO{\k13}LY{\k12}RHY{\k17}TH{\k29}M
+Dialogue: 0,0:00:00.00,0:00:20.00,tuto,,0,0,0,fx,{\c&H42E6F5&}♥ Arale\N{\c&H00FF26&}♦ Yumemita\N{\c&HFFED00&} ♠ Yumemita ({\s1}Arale{\s0})
+Dialogue: 0,0:00:20.44,0:00:23.93,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k26}RA{\k8}N{\k34}CH {\k31}sen {\k21}yen {\k23}wa {\k14}ta{\k18}ka{\k11}i {\k14}da{\k19}ro {\k20}ga
+Dialogue: 0,0:00:22.91,0:00:26.34,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k13}ka{\k20}ki{\k28}n {\k10}i{\k16}chi {\k30}man {\k14}wa {\k12}ya{\k29}su{\k8}i {\k19}da{\k13}ro {\k21}ga
+Dialogue: 0,0:00:25.31,0:00:28.81,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k18}na{\k6}n {\k20}CE{\k9}N{\k8}T' {\k24}na{\k6}n {\k28}FEE{\k19}T {\k12}na{\k30}n {\k15}M{\k15}I{\k30}LE
+Dialogue: 0,0:00:27.71,0:00:31.15,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k14}mo{\k11}no{\k44}sa{\k21}shi {\k46}wo {\k16}ni{\k15}ra{\k9}mi{\k16}tsu{\k18}ke{\k24}ta
+Dialogue: 0,0:00:30.03,0:00:31.94,Yumemita,,0,0,0,fx,{\k90\fad(300,200)}{\c&H00FF26&}♦{\r} {\k35}Aa {\k46}mou
+Dialogue: 0,0:00:30.84,0:00:34.13,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k14}na{\k16}ze {\k16}wa{\k16}ka{\k16}ra{\k45}nai {\k14}na{\k15}ze {\k16}to{\k12}do{\k18}ka{\k21}nai
+Dialogue: 0,0:00:33.09,0:00:36.06,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k13}ko{\k20}ko{\k30}ro {\k15}fu{\k16}ku{\k27}ro{\k14}ko{\k15}u{\k37}ji
+Dialogue: 0,0:00:34.87,0:00:36.66,Yumemita,,0,0,0,fx,{\k90\fad(300,200)}{\c&H00FF26&}♦{\r} {\k31}I {\k38}KNOW
+Dialogue: 0,0:00:35.56,0:00:37.87,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k19}so{\k19}re{\k17}de{\k16}mo {\k21}na{\k29}o {\k0}
+Dialogue: 0,0:00:36.86,0:00:38.93,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k14}hi{\k14}to{\k12}ri {\k20}ki{\k14}ri {\k23}ja
+Dialogue: 0,0:00:37.91,0:00:40.81,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k16}de{\k16}ki{\k15}na{\k13}i {\k12}ko{\k12}to {\k16}shi{\k19}ta{\k18}i {\k12}ka{\k31}ra
+Dialogue: 0,0:00:39.94,0:00:45.61,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k50}ho{\k19}ha{\k43}ba {\k16}a{\k20}wa{\k31}se{\k54}te {\k15}e{\k36}ga{\k25}o {\k42}wo {\k18}ha{\k26}ri {\k15}tsu{\k17}ke{\k30}te
+Dialogue: 0,0:00:44.65,0:00:49.83,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k17}ga{\k23}ma{\k8}n{\k30}shi{\k40}te {\k18}mu{\k31}ri {\k11}wo {\k18}shi{\k38}te {\k26}so{\k27}n{\k30}na {\k29}mo{\k27}n {\k35}ka?
+Dialogue: 0,0:00:48.37,0:00:54.00,Yumemita,,0,0,0,fx,{\k90\fad(300,200)}{\c&H00FF26&}♦{\r} {\k121}ONE {\k109}TWO {\k71}THREE {\k60}FOR {\k29}YOU {\k33}AND {\k30}ME
+Dialogue: 0,0:00:53.19,0:00:58.33,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k30}a {\k27}i {\k37}u {\k29}A{\k19}B{\k41}C {\k13}da{\k16}ke {\k13}de {\k15}wa{\k22}ka{\k11}t{\k28}ta {\k19}ki{\k13}n' {\k20}na{\k12}t{\k39}te {\k0}
+Dialogue: 0,0:00:57.05,0:00:58.89,Yumemita sans A,,0,0,0,fx,{\k90\fad(300,200)}{\c&HFFED00&}♠{\r} {\k33}HEY {\k59}BOYS
+Dialogue: 0,0:00:57.61,0:01:03.68,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k38}so{\k24}no {\k35}sa{\k27}ki {\k37}wa {\k25}ha{\k33}ru{\k28}ka{\k27} mu{\k42}ge{\k11}n {\k57}no {\k16}ta{\k42}bi{\k25}ji {\k30}yo
+Dialogue: 0,0:01:02.78,0:01:06.00,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k28}ONE {\k24}TWO {\k32}THREE {\k27}FOR {\k37}YOU {\k32}AND {\k32}ME
+Dialogue: 0,0:01:04.90,0:01:08.01,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k17}na{\k7}ra{\k31}shi{\k33}tsu{\k34}zu{\k28}ke{\k51}te {\k0}
+Dialogue: 0,0:01:06.66,0:01:08.66,Yumemita sans A,,0,0,0,fx,{\k90\fad(300,200)}{\c&HFFED00&}♠{\r} {\k27}HEY {\k63}GIRLS
+Dialogue: 0,0:01:07.28,0:01:12.02,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k28}bu{\k34}tsu{\k21}ka{\k10}t{\k30}te {\k28}ma{\k28}ga{\k6}t{\k27}te {\k31}mo {\k15}o{\k13}n{\k42}ga{\k19}ku {\k44}wa
+Dialogue: 0,0:01:11.03,0:01:13.60,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k39}ma{\k9}s{\k23}su{\k27}gu {\k48}sa
+Dialogue: 0,0:01:12.70,0:01:20.86,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k27}u{\k34}chi {\k57}ni {\k19}hi{\k41}me{\k32}ta {\k57}ne{\k58}tsu {\k96}wa {\k25}te {\k36}wo {\k28}ni{\k22}gi{\k11}t{\k20}te {\k44}hi {\k24}ni {\k27}na{\k12}t{\k36}ta
+Dialogue: 0,0:01:20.61,0:01:26.21,Yumemita,,0,0,0,fx,{\k90\fad(300,200)}{\c&H00FF26&}♦{\r} {\k76}Q {\k60}AND {\k104}A {\k77}V{\k61}S {\k72}WHY?
+Dialogue: 0,0:01:25.36,0:01:28.36,Yumemita,,0,0,0,fx,{\k90\fad(300,200)}{\c&H00FF26&}♦{\r} {\k81}S{\k62}O{\k47}S
+Dialogue: 0,0:01:27.87,0:01:31.21,Arale,,0,0,0,fx,{\k90\fad(300,200)}{\c&H42E6F5&}♥{\r} {\k23}ni{\k7}s{\k35}shi{\k9}n{\k17}ge{\k14}p{\k16}po {\k17}wa {\k12}PO{\k14}LY{\k16}RHY{\k16}TH{\k28}M
