@@ -1,0 +1,94 @@
+﻿[Script Info]
+Title: Omoide Ijou ni Naritakute
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 0
+PlayResY: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+LayoutResX: 0
+LayoutResY: 0
+Original Timing: DaBi
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: lily white,Arial,24,&H00FFFFFF,&H0076D9E8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Umi,Arial,24,&H00FFFFFF,&H00B7722C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rin,Arial,24,&H00FFFFFF,&H0002F1FE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Nozomi,Arial,24,&H00FFFFFF,&H00A35D92,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
+Style: lilywhiteChoir,Arial,24,&H0076D9E8,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,2,2,100,1
+Style: Umi Symbol,Arial,24,&H00B7722C,&H00B7722C,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Rin Symbol,Arial,24,&H0002F1FE,&H0002F1FE,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+Style: Nozomi Symbol,Arial,24,&H00A35D92,&H00A35D92,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,2,2,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,lily white,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,Umi,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rUmi Symbol\\fs30}♥{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Rin,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rRin Symbol\\fs30}♣{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,Nozomi,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{\\rNozomi Symbol\\fs30}♠{\\r\\fs\\4a&HFF&} "!
+Comment: 0,0:00:00.00,0:00:00.00,lilywhiteChoir,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H76D9E8&}lily white{\c} | {\c&HB7722C&}♥ Umi{\c} | {\c&H02F1FE&}♣ Rin{\c} | {\c&HA35D92&}♠ Nozomi
+Comment: 0,0:00:14.47,0:00:20.94,Umi,,0,0,0,karaoke,{\k19}a{\k23}sa{\k27}hi {\k66}ga {\k46}ma{\k44}bu{\k25}shi{\k106}i {\k23}ko{\k22}no {\k21}sa{\k67}ka {\k47}no{\k41}bo{\k26}re{\k44}ba
+Comment: 0,0:00:21.39,0:00:28.10,Umi,,0,0,0,karaoke,{\k23}i{\k62}chou {\k46}no {\k24}ha {\k44}ga {\k45}yu{\k22}re{\k111}ru {\k44}tsu{\k23}u{\k61}ga{\k44}ku{\kf122}ro
+Comment: 0,0:00:28.68,0:00:35.29,Nozomi,,0,0,0,karaoke,{\k23}a{\k24}na{\k24}ta {\k66}no {\k43}se{\k46}na{\k21}ka {\k109}wo {\k25}o{\k23}i{\k20}ko{\k67}su {\k46}tsu{\k43}i{\k22}de {\k59}ni
+Comment: 0,0:00:31.60,0:00:32.85,lilywhiteChoir,,0,0,0,karaoke,{\k23}mi{\k22}tsu{\k22}ke{\k25}ta{\k33}ra
+Comment: 0,0:00:35.18,0:00:36.09,lilywhiteChoir,,0,0,0,karaoke,{\k20}wa{\k23}ta{\k48}shi
+Comment: 0,0:00:36.03,0:00:42.38,Nozomi,,0,0,0,karaoke,{\k24}o{\k19}ha{\k44}you{\k25}t{\k44}te {\k43}i{\k45}tsu {\k66}mo {\k12}ko{\k14}e {\k45}wo {\k19}ka{\k42}ke{\k48}te{\kf145}ta
+Comment: 0,0:00:43.13,0:00:49.48,Rin,,0,0,0,karaoke,{\k24}ko{\k17}ku{\k27}ha{\k24}ku {\k24}de{\k21}ki{\k65}nak'{\k22}te {\kf94}mo{\k38} {\k24}su{\k23}ki {\k41}da{\k26}t{\k44}ta {\kf121}no
+Comment: 0,0:00:49.80,0:00:55.39,Rin,,0,0,0,karaoke,{\k9}a{\k15}no {\k42}ko{\k25}ro {\k89}to {\k11}o{\k13}na{\k40}ji {\k23}mi{\k45}chi {\k22}na {\k47}no {\kf178}ni
+Comment: 0,0:00:55.98,0:01:02.87,lily white,,0,0,0,karaoke,{\k30}hi{\k39}to{\k45}ri {\k48}ki{\k21}ri {\k42}de {\k25}a{\k20}ru{\k91}ku {\k22}i{\k45}na{\k45}i {\k41}ha{\k27}zu {\k40}no {\k27}hi{\k21}to {\k60}wo
+Comment: 0,0:01:03.13,0:01:09.92,lily white,,0,0,0,karaoke,{\k24}sa{\k22}ga{\k24}shi{\k19}te {\k22}shi{\k30}ma{\k18}u {\k23}ki{\k44}mo{\k43}chi {\k86}wo {\k23}mo{\k45}te{\k47}a{\k65}ma{\k24}shi{\kf120}te
+Comment: 0,0:01:10.25,0:01:17.23,lily white,,0,0,0,karaoke,{\k26}a{\k43}i{\k45}ta{\k44}i {\k20}to {\k43}ko{\k24}ko{\k23}ro {\k86}ga {\k26}a{\k42}i{\k45}ta{\k44}i {\k21}to {\k46}yon{\k23}de{\k23}ru {\k74}wa
+Comment: 0,0:01:17.80,0:01:24.82,lily white,,0,0,0,karaoke,{\k25}o{\k20}mo{\k23}i{\k64}de {\k40}da{\k28}ke {\k45}nan{\k45}te {\k44}ga{\k47}ma{\k41}n {\kf132}de{\k26}ki{\k61}nai{\k27}ka{\k34}ra
+Comment: 0,0:01:32.72,0:01:39.19,Nozomi,,0,0,0,karaoke,{\k23}ma{\k20}i{\k27}ni{\k63}chi {\k44}nan{\k44}to {\k20}na{\k109}ku {\k26}hi{\k23}to{\k20}ko{\k70}to {\k43}ku{\k44}rai {\k22}de {\k49}mo
+Comment: 0,0:01:39.55,0:01:46.34,Nozomi,,0,0,0,karaoke,{\k27}ka{\k63}i{\k45}wa {\k25}shi{\k45}te{\k43}ta {\k24}no {\k111}ga {\k43}na{\k27}tsu{\k61}ka{\k51}shi{\kf114}i
+Comment: 0,0:01:46.92,0:01:53.60,Rin,,0,0,0,karaoke,{\k24}a{\k20}na{\k24}ta {\k65}wa {\k47}sa{\k41}i{\k24}ki{\k109}n {\k26}do{\k20}u {\k26}su{\k64}go{\k46}sh'te{\k42}ma{\k25}su {\k65}ka
+Comment: 0,0:01:49.81,0:01:51.07,lilywhiteChoir,,0,0,0,karaoke,{\k24}shi{\k20}ri{\k24}ta{\k24}i {\k34}no
+Comment: 0,0:01:53.39,0:01:54.01,lilywhiteChoir,,0,0,0,karaoke,{\k21}da{\k22}t{\k19}te
+Comment: 0,0:01:54.23,0:02:00.78,Rin,,0,0,0,karaoke,{\k28}ko{\k19}i{\k41}bi{\k26}to {\k44}ga {\k46}dek'{\k43}tat{\k66}te {\k12}u{\k12}wa{\k46}sa {\k16}u{\k50}so {\k43}de{\kf163}shou
+Comment: 0,0:02:01.39,0:02:07.68,Umi,,0,0,0,karaoke,{\k20}a{\k23}ki{\k22}ra{\k19}me{\k26}ra{\k22}re{\k66}nai {\k25}no {\k127}yo {\k21}ya{\k27}sa{\k35}shi{\k12}i {\k17}hi{\k47}to{\kf120}mi
+Comment: 0,0:02:08.01,0:02:11.89,Umi,,0,0,0,karaoke,{\k10}a{\k15}no {\k41}ko{\k26}ro {\k91}wo {\k13}yu{\k18}me {\k33}ni {\k23}mi{\kf118}te
+Comment: 0,0:02:12.49,0:02:17.04,Umi,,0,0,0,karaoke,{\k20}na{\k27}ki{\k20}na{\k22}ga{\k25}ra {\k64}me{\k42}za{\k23}me{\k44}ru {\kf168}no
+Comment: 0,0:02:17.81,0:02:24.62,lily white,,0,0,0,karaoke,{\k20}da{\k49}ka{\k42}ra {\k44}i{\k24}ma {\k42}no {\k25}o{\k20}mo{\k86}i {\k23}tsu{\k46}ta{\k45}e{\k45}na{\k20}ku{\k48}cha {\k21}da{\k22}me {\k59}ne
+Comment: 0,0:02:24.89,0:02:31.79,lily white,,0,0,0,karaoke,{\k27}ko{\k21}re {\k24}ka{\k21}ra {\k23}wo {\k45}ka{\k22}e{\k45}ta{\k45}i {\k85}no {\k23}ko{\k46}i {\k43}no {\k66}ta{\k23}me {\kf131}ni
+Comment: 0,0:02:32.03,0:02:39.07,lily white,,0,0,0,karaoke,{\k26}a{\k43}i{\k45}ta{\k44}i {\k20}to {\k43}ko{\k24}ko{\k23}ro {\k86}ga {\k26}a{\k42}i{\k45}ta{\k44}i {\k21}to {\k46}yon{\k23}de{\k23}ru {\k74}wa
+Comment: 0,0:02:39.62,0:02:46.61,lily white,,0,0,0,karaoke,{\k20}o{\k23}mo{\k22}i{\k64}de {\k45}fu{\k25}ta{\k42}ri {\k46}de {\k43}tsu{\k41}mi{\k45}ka{\kf135}sa{\k23}ne{\k65}te {\k24}mi{\k36}tai
+Comment: 0,0:03:02.19,0:03:09.09,lily white,,0,0,0,karaoke,{\k30}hi{\k44}to{\k40}ri {\k48}ki{\k21}ri {\k42}de {\k25}a{\k20}ru{\k91}ku {\k22}i{\k45}na{\k45}i {\k45}ha{\k23}zu {\k40}no {\k26}hi{\k22}to {\k61}wo
+Comment: 0,0:03:09.36,0:03:16.14,lily white,,0,0,0,karaoke,{\k24}sa{\k22}ga{\k24}shi{\k19}te {\k22}shi{\k30}ma{\k18}u {\k23}ki{\k44}mo{\k43}chi {\k86}wo {\k23}mo{\k45}te{\k47}a{\k65}ma{\k24}shi{\kf119}te
+Comment: 0,0:03:16.46,0:03:23.54,lily white,,0,0,0,karaoke,{\k26}a{\k43}i{\k45}ta{\k44}i {\k20}to {\k43}ko{\k24}ko{\k23}ro {\k86}ga {\k26}a{\k42}i{\k45}ta{\k44}i {\k21}to {\k46}yon{\k23}de{\k23}ru {\k74}wa
+Comment: 0,0:03:24.03,0:03:30.65,lily white,,0,0,0,karaoke,{\k20}yu{\k20}u{\k20}ki {\k70}wo {\k38}da{\k34}so{\k42}u {\k39}to {\k54}ki{\k43}me{\k43}ta {\kf134}no {\k21}a{\k84}a {\k0}
+Comment: 0,0:03:31.12,0:03:38.14,lily white,,0,0,0,karaoke,{\k25}o{\k20}mo{\k23}i{\k64}de {\k40}da{\k28}ke {\k45}nan{\k45}te {\k44}ga{\k47}ma{\k41}n {\kf132}de{\k26}ki{\k61}nai{\k27}ka{\k34}ra
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H76D9E8&}lily white{\c} | {\c&HB7722C&}♥ Umi{\c} | {\c&H02F1FE&}♣ Rin{\c} | {\c&HA35D92&}♠ Nozomi
+Dialogue: 0,0:00:13.57,0:00:21.14,Umi,,0,0,0,fx,{\k90\fad(300,200)}{\rUmi Symbol\fs30}♥{\r\fs\4a&HFF&} {\k19}a{\k23}sa{\k27}hi {\k66}ga {\k46}ma{\k44}bu{\k25}shi{\k106}i {\k23}ko{\k22}no {\k21}sa{\k67}ka {\k47}no{\k41}bo{\k26}re{\k44}ba
+Dialogue: 0,0:00:20.49,0:00:28.30,Umi,,0,0,0,fx,{\k90\fad(300,200)}{\rUmi Symbol\fs30}♥{\r\fs\4a&HFF&} {\k23}i{\k62}chou {\k46}no {\k24}ha {\k44}ga {\k45}yu{\k22}re{\k111}ru {\k44}tsu{\k23}u{\k61}ga{\k44}ku{\kf122}ro
+Dialogue: 0,0:00:27.78,0:00:35.49,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\rNozomi Symbol\fs30}♠{\r\fs\4a&HFF&} {\k23}a{\k24}na{\k24}ta {\k66}no {\k43}se{\k46}na{\k21}ka {\k109}wo {\k25}o{\k23}i{\k20}ko{\k67}su {\k46}tsu{\k43}i{\k22}de {\k59}ni
+Dialogue: 0,0:00:30.70,0:00:33.05,lilywhiteChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k23}mi{\k22}tsu{\k22}ke{\k25}ta{\k33}ra
+Dialogue: 0,0:00:34.28,0:00:36.29,lilywhiteChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k20}wa{\k23}ta{\k48}shi
+Dialogue: 0,0:00:35.13,0:00:42.58,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\rNozomi Symbol\fs30}♠{\r\fs\4a&HFF&} {\k24}o{\k19}ha{\k44}you{\k25}t{\k44}te {\k43}i{\k45}tsu {\k66}mo {\k12}ko{\k14}e {\k45}wo {\k19}ka{\k42}ke{\k48}te{\kf145}ta
+Dialogue: 0,0:00:42.23,0:00:49.68,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♣{\r\fs\4a&HFF&} {\k24}ko{\k17}ku{\k27}ha{\k24}ku {\k24}de{\k21}ki{\k65}nak'{\k22}te {\kf94}mo{\k38} {\k24}su{\k23}ki {\k41}da{\k26}t{\k44}ta {\kf121}no
+Dialogue: 0,0:00:48.90,0:00:55.59,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♣{\r\fs\4a&HFF&} {\k9}a{\k15}no {\k42}ko{\k25}ro {\k89}to {\k11}o{\k13}na{\k40}ji {\k23}mi{\k45}chi {\k22}na {\k47}no {\kf178}ni
+Dialogue: 0,0:00:55.08,0:01:03.07,lily white,,0,0,0,fx,{\k90\fad(300,200)}{\k30}hi{\k39}to{\k45}ri {\k48}ki{\k21}ri {\k42}de {\k25}a{\k20}ru{\k91}ku {\k22}i{\k45}na{\k45}i {\k41}ha{\k27}zu {\k40}no {\k27}hi{\k21}to {\k60}wo
+Dialogue: 0,0:01:02.23,0:01:10.12,lily white,,0,0,0,fx,{\k90\fad(300,200)}{\k24}sa{\k22}ga{\k24}shi{\k19}te {\k22}shi{\k30}ma{\k18}u {\k23}ki{\k44}mo{\k43}chi {\k86}wo {\k23}mo{\k45}te{\k47}a{\k65}ma{\k24}shi{\kf120}te
+Dialogue: 0,0:01:09.35,0:01:17.43,lily white,,0,0,0,fx,{\k90\fad(300,200)}{\k26}a{\k43}i{\k45}ta{\k44}i {\k20}to {\k43}ko{\k24}ko{\k23}ro {\k86}ga {\k26}a{\k42}i{\k45}ta{\k44}i {\k21}to {\k46}yon{\k23}de{\k23}ru {\k74}wa
+Dialogue: 0,0:01:16.90,0:01:25.02,lily white,,0,0,0,fx,{\k90\fad(300,200)}{\k25}o{\k20}mo{\k23}i{\k64}de {\k40}da{\k28}ke {\k45}nan{\k45}te {\k44}ga{\k47}ma{\k41}n {\kf132}de{\k26}ki{\k61}nai{\k27}ka{\k34}ra
+Dialogue: 0,0:01:31.82,0:01:39.39,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\rNozomi Symbol\fs30}♠{\r\fs\4a&HFF&} {\k23}ma{\k20}i{\k27}ni{\k63}chi {\k44}nan{\k44}to {\k20}na{\k109}ku {\k26}hi{\k23}to{\k20}ko{\k70}to {\k43}ku{\k44}rai {\k22}de {\k49}mo
+Dialogue: 0,0:01:38.65,0:01:46.54,Nozomi,,0,0,0,fx,{\k90\fad(300,200)}{\rNozomi Symbol\fs30}♠{\r\fs\4a&HFF&} {\k27}ka{\k63}i{\k45}wa {\k25}shi{\k45}te{\k43}ta {\k24}no {\k111}ga {\k43}na{\k27}tsu{\k61}ka{\k51}shi{\kf114}i
+Dialogue: 0,0:01:46.02,0:01:53.80,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♣{\r\fs\4a&HFF&} {\k24}a{\k20}na{\k24}ta {\k65}wa {\k47}sa{\k41}i{\k24}ki{\k109}n {\k26}do{\k20}u {\k26}su{\k64}go{\k46}sh'te{\k42}ma{\k25}su {\k65}ka
+Dialogue: 0,0:01:48.91,0:01:51.27,lilywhiteChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k24}shi{\k20}ri{\k24}ta{\k24}i {\k34}no
+Dialogue: 0,0:01:52.49,0:01:54.21,lilywhiteChoir,,0,0,0,fx,{\k90\fad(300,200)}{\k21}da{\k22}t{\k19}te
+Dialogue: 0,0:01:53.33,0:02:00.98,Rin,,0,0,0,fx,{\k90\fad(300,200)}{\rRin Symbol\fs30}♣{\r\fs\4a&HFF&} {\k28}ko{\k19}i{\k41}bi{\k26}to {\k44}ga {\k46}dek'{\k43}tat{\k66}te {\k12}u{\k12}wa{\k46}sa {\k16}u{\k50}so {\k43}de{\kf163}shou
+Dialogue: 0,0:02:00.49,0:02:07.88,Umi,,0,0,0,fx,{\k90\fad(300,200)}{\rUmi Symbol\fs30}♥{\r\fs\4a&HFF&} {\k20}a{\k23}ki{\k22}ra{\k19}me{\k26}ra{\k22}re{\k66}nai {\k25}no {\k127}yo {\k21}ya{\k27}sa{\k35}shi{\k12}i {\k17}hi{\k47}to{\kf120}mi
+Dialogue: 0,0:02:07.11,0:02:12.09,Umi,,0,0,0,fx,{\k90\fad(300,200)}{\rUmi Symbol\fs30}♥{\r\fs\4a&HFF&} {\k10}a{\k15}no {\k41}ko{\k26}ro {\k91}wo {\k13}yu{\k18}me {\k33}ni {\k23}mi{\kf118}te
+Dialogue: 0,0:02:11.59,0:02:17.24,Umi,,0,0,0,fx,{\k90\fad(300,200)}{\rUmi Symbol\fs30}♥{\r\fs\4a&HFF&} {\k20}na{\k27}ki{\k20}na{\k22}ga{\k25}ra {\k64}me{\k42}za{\k23}me{\k44}ru {\kf168}no
+Dialogue: 0,0:02:16.91,0:02:24.82,lily white,,0,0,0,fx,{\k90\fad(300,200)}{\k20}da{\k49}ka{\k42}ra {\k44}i{\k24}ma {\k42}no {\k25}o{\k20}mo{\k86}i {\k23}tsu{\k46}ta{\k45}e{\k45}na{\k20}ku{\k48}cha {\k21}da{\k22}me {\k59}ne
+Dialogue: 0,0:02:23.99,0:02:31.99,lily white,,0,0,0,fx,{\k90\fad(300,200)}{\k27}ko{\k21}re {\k24}ka{\k21}ra {\k23}wo {\k45}ka{\k22}e{\k45}ta{\k45}i {\k85}no {\k23}ko{\k46}i {\k43}no {\k66}ta{\k23}me {\kf131}ni
+Dialogue: 0,0:02:31.13,0:02:39.27,lily white,,0,0,0,fx,{\k90\fad(300,200)}{\k26}a{\k43}i{\k45}ta{\k44}i {\k20}to {\k43}ko{\k24}ko{\k23}ro {\k86}ga {\k26}a{\k42}i{\k45}ta{\k44}i {\k21}to {\k46}yon{\k23}de{\k23}ru {\k74}wa
+Dialogue: 0,0:02:38.72,0:02:46.81,lily white,,0,0,0,fx,{\k90\fad(300,200)}{\k20}o{\k23}mo{\k22}i{\k64}de {\k45}fu{\k25}ta{\k42}ri {\k46}de {\k43}tsu{\k41}mi{\k45}ka{\kf135}sa{\k23}ne{\k65}te {\k24}mi{\k36}tai
+Dialogue: 0,0:03:01.29,0:03:09.29,lily white,,0,0,0,fx,{\k90\fad(300,200)}{\k30}hi{\k44}to{\k40}ri {\k48}ki{\k21}ri {\k42}de {\k25}a{\k20}ru{\k91}ku {\k22}i{\k45}na{\k45}i {\k45}ha{\k23}zu {\k40}no {\k26}hi{\k22}to {\k61}wo
+Dialogue: 0,0:03:08.46,0:03:16.34,lily white,,0,0,0,fx,{\k90\fad(300,200)}{\k24}sa{\k22}ga{\k24}shi{\k19}te {\k22}shi{\k30}ma{\k18}u {\k23}ki{\k44}mo{\k43}chi {\k86}wo {\k23}mo{\k45}te{\k47}a{\k65}ma{\k24}shi{\kf119}te
+Dialogue: 0,0:03:15.56,0:03:23.74,lily white,,0,0,0,fx,{\k90\fad(300,200)}{\k26}a{\k43}i{\k45}ta{\k44}i {\k20}to {\k43}ko{\k24}ko{\k23}ro {\k86}ga {\k26}a{\k42}i{\k45}ta{\k44}i {\k21}to {\k46}yon{\k23}de{\k23}ru {\k74}wa
+Dialogue: 0,0:03:23.13,0:03:30.85,lily white,,0,0,0,fx,{\k90\fad(300,200)}{\k20}yu{\k20}u{\k20}ki {\k70}wo {\k38}da{\k34}so{\k42}u {\k39}to {\k54}ki{\k43}me{\k43}ta {\kf134}no {\k21}a{\k84}a {\k0}
+Dialogue: 0,0:03:30.22,0:03:38.34,lily white,,0,0,0,fx,{\k90\fad(300,200)}{\k25}o{\k20}mo{\k23}i{\k64}de {\k40}da{\k28}ke {\k45}nan{\k45}te {\k44}ga{\k47}ma{\k41}n {\kf132}de{\k26}ki{\k61}nai{\k27}ka{\k34}ra
