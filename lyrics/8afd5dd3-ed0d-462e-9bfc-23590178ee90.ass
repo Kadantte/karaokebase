@@ -17,6 +17,7 @@ Style: AZUNAChoir,Arial,24,&H00FFFFFF,&H007827BB,&H00000000,&H00000000,-1,-1,0,0
 Style: Ayumu Choir,Arial,24,&H00FFFFFF,&H00957DED,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
 Style: Setsuna Choir,Arial,24,&H00FFFFFF,&H002F1CD8,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
 Style: Shizuku Choir,Arial,24,&H00FFFFFF,&H00EDB701,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,1.5,0,8,0,0,80,1
+Style: COLOR CODE,Arial,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,15,15,40,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -28,6 +29,8 @@ Comment: 0,0:00:00.00,0:00:00.00,Setsuna Choir,,0,0,0,template pre-line keeptags
 Comment: 0,0:00:00.00,0:00:00.00,Shizuku Choir,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}!"{ \\rShizuku Choir\\c&H00EDB701&\\fs30}♣{\\r\\fs\\4a&HFF&} "!
 Comment: 0,0:00:00.00,0:00:00.00,AZUNA,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
 Comment: 0,0:00:00.00,0:00:00.00,AZUNAChoir,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,COLOR CODE,,0,0,0,template pre-line keeptags,!retime("line",$start < 900 and -$start or -900,200)!{!$start < 900 and "\\k" .. ($start/10) or "\\k90"!\fad(!$start < 900 and $start or 300!,200)}
+Comment: 0,0:00:00.00,0:00:10.00,COLOR CODE,,0,0,0,karaoke,{\c&H7827BB&}A・ZU・NA{\c} | {\c&H957DED&}♥ Ayumu{\c} | {\c&H2F1CD8&}♦ Setsuna{\c} | {\c&HEDB701&}♣ Shizuku
 Comment: 0,0:00:09.65,0:00:12.90,AZUNA,,0,0,0,karaoke,{\k13}la {\k11}la {\k13}la {\k25}la {\k13}la {\k25}la {\k12}la {\k13}la {\k12}la {\k25}la {\k12}la {\k25}la {\k13}la {\k13}la {\k12}la {\k25}la {\k13}la {\k24}la {\k26}la
 Comment: 0,0:00:13.15,0:00:15.59,AZUNA,,0,0,0,karaoke,{\k11}la {\k13}la {\k13}la {\k13}la {\k17}la {\k9}la {\k11}la {\k25}la {\k12}la {\k25}la {\k13}la {\k13}la {\k12}la {\k25}la {\k13}la {\k19}la
 Comment: 0,0:00:15.64,0:00:16.88,AZUNA,,0,0,0,karaoke,{\k13}la {\k13}la {\k12}la {\k25}la {\k12}la {\k26}la {\k23}la
@@ -73,16 +76,17 @@ Comment: 0,0:02:34.38,0:02:36.12,Setsuna,,0,0,0,karaoke,{\k12}o{\k15}mo{\k26}i {
 Comment: 0,0:02:36.38,0:02:39.62,Setsuna,,0,0,0,karaoke,{\k14}sa{\k11}ma{\k39}yo{\k38}u {\k25}mi{\k21}t{\k29}tsu {\k24}no {\k25}ko{\k50}ko{\k48}ro
 Comment: 0,0:02:39.63,0:02:42.26,Ayumu Choir,,0,0,0,karaoke,{\k25}"to・ {\k21}za・ {\k30}sa・ {\k25}re・ {\k49}ta・ {\k24}{\rShizuku Choir}LA・ {\k26}BY・ {\k26}RI・ {\k20}N・ {\k17}TH"
 Comment: 0,0:02:42.38,0:02:44.41,AZUNA,,0,0,0,karaoke,{\k27}...ko{\k24}ta{\k27}e {\k24}wa {\k25}do{\k76}ko?
+Dialogue: 0,0:00:00.00,0:00:10.20,COLOR CODE,,0,0,0,fx,{\k0\fad(0,200)}{\c&H7827BB&}A・ZU・NA{\c} | {\c&H957DED&}♥ Ayumu{\c} | {\c&H2F1CD8&}♦ Setsuna{\c} | {\c&HEDB701&}♣ Shizuku
 Dialogue: 0,0:00:08.75,0:00:13.10,AZUNA,,0,0,0,fx,{\k90\fad(300,200)}{\k13}la {\k11}la {\k13}la {\k25}la {\k13}la {\k25}la {\k12}la {\k13}la {\k12}la {\k25}la {\k12}la {\k25}la {\k13}la {\k13}la {\k12}la {\k25}la {\k13}la {\k24}la {\k26}la
 Dialogue: 0,0:00:12.25,0:00:15.79,AZUNA,,0,0,0,fx,{\k90\fad(300,200)}{\k11}la {\k13}la {\k13}la {\k13}la {\k17}la {\k9}la {\k11}la {\k25}la {\k12}la {\k25}la {\k13}la {\k13}la {\k12}la {\k25}la {\k13}la {\k19}la
 Dialogue: 0,0:00:14.74,0:00:17.08,AZUNA,,0,0,0,fx,{\k90\fad(300,200)}{\k13}la {\k13}la {\k12}la {\k25}la {\k12}la {\k26}la {\k23}la
 Dialogue: 0,0:00:24.74,0:00:29.39,Setsuna,,0,0,0,fx,{\k90\fad(300,200)}{ \rSetsuna\c&H002F1CD8&\fs30}♦{\r\fs\4a&HFF&} {\k26}ka{\k12}chi{\k11}ri {\k27}to {\k12}o{\k13}to {\k22}ga {\k28}shi{\k35}te {\k15}se{\k25}kai {\k12}wa {\k11}i{\k27}ro {\k9}wo {\k16}su{\k14}te{\k40}ta
 Dialogue: 0,0:00:28.73,0:00:33.32,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{ \rAyumu\c&H00957DED&\fs30}♥{\r\fs\4a&HFF&} {\k26}sak{\k13}ki {\k11}ma{\k27}de {\k12}no {\k12}ra{\k26}ku{\k23}en {\k39}wa {\k12}do{\k26}ko {\k12}he {\k26}ki{\k12}e{\k13}ta {\k59}no?
-Dialogue: 0,0:00:32.75,0:00:37.65,Shizuku,,0,0,0,fx,{\k90\fad(300,200)}{ \rShizuku\c&H00EDB701&\fs30}♣{\r\fs\4a&HFF&} {\k12}ma{\k12}ki{\k13}mo{\k10}do{\k17}se{\k11}na{\k25}i {\k25}to{\k23}ke{\k50}i {\k24}{\rSetsuna}su{\k26}su{\k27}me{\k25}nai {\k25}LA{\k23}BY{\k32}RINTH
+Dialogue: 0,0:00:32.75,0:00:37.65,Shizuku,,0,0,0,fx,{\k90\fad(300,200)}{ \rShizuku\c&H00EDB701&\fs30}♣{ \rSetsuna\c&H002F1CD8&\fs30}♦{\r\fs\4a&HFF&} {\k12}ma{\k12}ki{\k13}mo{\k10}do{\k17}se{\k11}na{\k25}i {\k25}to{\k23}ke{\k50}i {\k24}{\rSetsuna}su{\k26}su{\k27}me{\k25}nai {\k25}LA{\k23}BY{\k32}RINTH
 Dialogue: 0,0:00:36.74,0:00:40.35,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{ \rAyumu\c&H00957DED&\fs30}♥{\r\fs\4a&HFF&} {\k26}wa{\k11}ta{\k26}shi{\k12}ta{\k13}chi {\k11}de {\k13}ki{\k13}zu{\k13}i{\k11}ta {\k26}yu{\k25}me {\k51}ga
 Dialogue: 0,0:00:39.50,0:00:41.67,Setsuna,,0,0,0,fx,{\k90\fad(300,200)}{ \rSetsuna\c&H002F1CD8&\fs30}♦{\r\fs\4a&HFF&} {\k11}mu{\k14}shi{\k12}ba{\k12}ma{\k10}re{\k16}te {\k32}'ta...
 Dialogue: 0,0:00:40.71,0:00:45.57,Shizuku,,0,0,0,fx,{\k90\fad(300,200)}{ \rShizuku\c&H00EDB701&\fs30}♣{\r\fs\4a&HFF&} {\k29}ku{\k13}ru{\k12}i {\k25}dash'{\k24}ta {\k26}ka{\k10}ku{\k38}shin {\k26}o{\k14}wa{\k12}ra{\k22}nai {\k28}chi{\k24}n{\k38}mo{\k13}ku {\k22}ga
-Dialogue: 0,0:00:44.75,0:00:50.32,Shizuku,,0,0,0,fx,{\k90\fad(300,200)}{ \rShizuku\c&H00EDB701&\fs30}♣{\r\fs\4a&HFF&} {\k26}de{\k22}gu{\k27}chi {\k25}u{\k50}bat{\k52}te {\rSetsuna}{\k10}fu{\k24}kai {\k14}ya{\k25}mi {\k12}ni {\k26}no{\k12}ma{\k25}re{\k26}te {\k21}yu{\k50}ku
+Dialogue: 0,0:00:44.75,0:00:50.32,Shizuku,,0,0,0,fx,{\k90\fad(300,200)}{ \rShizuku\c&H00EDB701&\fs30}♣{ \rSetsuna\c&H002F1CD8&\fs30}♦{\r\fs\4a&HFF&} {\k26}de{\k22}gu{\k27}chi {\k25}u{\k50}bat{\k52}te {\rSetsuna}{\k10}fu{\k24}kai {\k14}ya{\k25}mi {\k12}ni {\k26}no{\k12}ma{\k25}re{\k26}te {\k21}yu{\k50}ku
 Dialogue: 0,0:00:48.73,0:00:52.45,Ayumu Choir,,0,0,0,fx,{\k90\fad(300,200)}{ \rAyumu Choir\c&H00957DED&\fs30}♥{\r\fs\4a&HFF&} {\k26}"MO・{\k24}NO・{\k26}CH・{\k25}ROME・{\k50}no・{\k25}ka・{\k25}go・{\k26}no・{\k24}na・{\k11}ka"
 Dialogue: 0,0:00:51.73,0:00:53.82,Shizuku,,0,0,0,fx,{\k90\fad(300,200)}{ \rShizuku\c&H00EDB701&\fs30}♣{\r\fs\4a&HFF&} {\k28}tas'{\k13}ke{\k58}te
 Dialogue: 0,0:00:56.25,0:00:57.91,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{ \rAyumu\c&H00957DED&\fs30}♥{\r\fs\4a&HFF&} {\k16}u{\k17}so {\k23}yo...!!
@@ -99,7 +103,7 @@ Dialogue: 0,0:01:31.01,0:01:35.85,Setsuna Choir,,0,0,0,fx,{\k90\fad(300,200)}{ \
 Dialogue: 0,0:01:34.74,0:01:40.35,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{ \rAyumu\c&H00957DED&\fs30}♥{\r\fs\4a&HFF&} {\k52}za{\k24}wa{\k23}me{\k50}ki {\k27}ki{\k25}e{\k25}te {\k21}ne{\k29}tsu {\k23}mo {\k27}u{\k26}ba{\k24}wa{\k75}re
 Dialogue: 0,0:01:38.96,0:01:43.85,Shizuku Choir,,0,0,0,fx,{\k90\fad(300,200)}{ \rShizuku Choir\c&H00EDB701&\fs30}♣{\r\fs\4a&HFF&} {\k30}HIN{\k21}T {\k14}wo {\k12}sa{\k23}ga{\k17}su {\k37}ho{\k52}do {\k22}fu{\k25}ka{\k14}ma{\k37}ru {\k13}DI{\k37}LEM{\k25}MA
 Dialogue: 0,0:01:42.75,0:01:47.60,Setsuna,,0,0,0,fx,{\k90\fad(300,200)}{ \rSetsuna\c&H002F1CD8&\fs30}♦{\r\fs\4a&HFF&} {\k23}ni{\k15}ji{\k12}mi{\k15}da{\k10}shi{\k24}ta {\k24}ki{\k14}se{\k36}ki {\k26}mo{\k13}do{\k12}ri{\k27}tai {\k24}a{\k23}no {\k40}hi{\k12}bi {\k25}ni
-Dialogue: 0,0:01:46.74,0:01:52.27,Setsuna,,0,0,0,fx,{\k90\fad(300,200)}{ \rSetsuna\c&H002F1CD8&\fs30}♦{\r\fs\4a&HFF&} {\k25}i{\k26}mi {\k25}ga {\k25}a{\k37}ru{\k13}ka{\k46}ra {\k16}{\rAyumu}fu{\k24}kai {\k13}ya{\k26}mi {\k11}ni {\k25}ko{\k12}ta{\k25}e {\k27}wo {\k24}to{\k43}u
+Dialogue: 0,0:01:46.74,0:01:52.27,Setsuna,,0,0,0,fx,{\k90\fad(300,200)}{ \rSetsuna\c&H002F1CD8&\fs30}♦{ \rAyumu\c&H00957DED&\fs30}♥{\r\fs\4a&HFF&} {\k25}i{\k26}mi {\k25}ga {\k25}a{\k37}ru{\k13}ka{\k46}ra {\k16}{\rAyumu}fu{\k24}kai {\k13}ya{\k26}mi {\k11}ni {\k25}ko{\k12}ta{\k25}e {\k27}wo {\k24}to{\k43}u
 Dialogue: 0,0:01:50.74,0:01:54.51,Shizuku Choir,,0,0,0,fx,{\k90\fad(300,200)}{ \rShizuku Choir\c&H00EDB701&\fs30}♣{\r\fs\4a&HFF&} {\k25}"o・ {\k25}wa・ {\k25}ra・ {\k25}na・ {\k49}i・ {\k24}to・ {\k28}ki・ {\k24}no・ {\k24}na・ {\k18}ka"
 Dialogue: 0,0:01:53.71,0:01:55.83,Setsuna,,0,0,0,fx,{\k90\fad(300,200)}{ \rSetsuna\c&H002F1CD8&\fs30}♦{\r\fs\4a&HFF&} {\k18}nu{\k10}ke{\k14}da{\k60}se!!
 Dialogue: 0,0:01:58.25,0:01:59.99,Ayumu,,0,0,0,fx,{\k90\fad(300,200)}{ \rAyumu\c&H00957DED&\fs30}♥{\r\fs\4a&HFF&} {\k13}to{\k15}do{\k10}i{\k26}te...!!
@@ -116,5 +120,5 @@ Dialogue: 0,0:02:29.46,0:02:32.30,Setsuna,,0,0,0,fx,{\k90\fad(300,200)}{ \rSetsu
 Dialogue: 0,0:02:30.74,0:02:34.46,Shizuku Choir,,0,0,0,fx,{\k90\fad(300,200)}{ \rShizuku Choir\c&H00EDB701&\fs30}♣{\r\fs\4a&HFF&} {\k26}"o・ {\k24}wa・ {\k25}ra・ {\k26}na・ {\k48}i・ {\k25}to・ {\k27}ki・ {\k25}no・ {\k22}na・ {\k14}ka"
 Dialogue: 0,0:02:33.48,0:02:36.32,Setsuna,,0,0,0,fx,{\k90\fad(300,200)}{ \rSetsuna\c&H002F1CD8&\fs30}♦{\r\fs\4a&HFF&} {\k12}o{\k15}mo{\k26}i {\k12}wa {\k26}yu{\k10}ra{\k26}i{\k47}de
 Dialogue: 0,0:02:35.48,0:02:39.82,Setsuna,,0,0,0,fx,{\k90\fad(300,200)}{ \rSetsuna\c&H002F1CD8&\fs30}♦{\r\fs\4a&HFF&} {\k14}sa{\k11}ma{\k39}yo{\k38}u {\k25}mi{\k21}t{\k29}tsu {\k24}no {\k25}ko{\k50}ko{\k48}ro
-Dialogue: 0,0:02:38.73,0:02:42.46,Ayumu Choir,,0,0,0,fx,{\k90\fad(300,200)}{ \rAyumu Choir\c&H00957DED&\fs30}♥{\r\fs\4a&HFF&} {\k25}"to・ {\k21}za・ {\k30}sa・ {\k25}re・ {\k49}ta・ {\k24}{\rShizuku Choir}LA・ {\k26}BY・ {\k26}RI・ {\k20}N・ {\k17}TH"
+Dialogue: 0,0:02:38.73,0:02:42.46,Ayumu Choir,,0,0,0,fx,{\k90\fad(300,200)}{ \rAyumu Choir\c&H00957DED&\fs30}♥{ \rShizuku\c&H00EDB701&\fs30}♣{\r\fs\4a&HFF&} {\k25}"to・ {\k21}za・ {\k30}sa・ {\k25}re・ {\k49}ta・ {\k24}{\rShizuku Choir}LA・ {\k26}BY・ {\k26}RI・ {\k20}N・ {\k17}TH"
 Dialogue: 0,0:02:41.48,0:02:44.61,AZUNA,,0,0,0,fx,{\k90\fad(300,200)}{\k27}...ko{\k24}ta{\k27}e {\k24}wa {\k25}do{\k76}ko?
